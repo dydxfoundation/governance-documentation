@@ -173,9 +173,7 @@ Each treasury vester will vest tokens \(starting at a timestamp and emission rat
 
 The ecosystem reserve controller is only necessary because the ecosystem reserve smart contract is a proxy. Governance is the admin of the ecosystem reserve proxy, and proxy admins cannot call the implementation contract of proxies. Therefore, governance cannot directly call functions on the ecosystem reserve and needs the ecosystem reserve controller to “proxy” all calls to the ecosystem reserve implementation contract.
 
-The following flow chart shows the Community Treasury architecture:
-
-![](https://lh5.googleusercontent.com/whVTJWlRbXnKz87S8SL5ukmzcSU2frX_Eqf7kuieVob24EbwDYkanLtyOTL5oMLpYgeuGUB6C3nwrSICCBAsQVvyw-dN_HmEwf7ulqFJYIzxJL0RJh8hr5_klJkcx-qk4SqWxY9Q)
+![Community Treasury architecture](../.gitbook/assets/image%20%2882%29.png)
 
 
 
