@@ -4,7 +4,7 @@ description: Overview of the User Trading Rewards program.
 
 # Trading Rewards
 
-25% of the initial token supply \(`250,000,000 DYDX`\) will be distributed to users who trade on the dYdX Layer 2 Protocol based on a combination of fees paid and open interest.
+`25.00%` of the initial token supply \(`250,000,000 DYDX`\) will be distributed to users who trade on the dYdX Layer 2 Protocol based on a combination of fees paid and open interest.
 
 **Objectives**
 

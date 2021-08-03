@@ -4,7 +4,7 @@ description: Overview of the Retroactive Mining Rewards program.
 
 # Retroactive Mining Rewards
 
-7.5% of the initial token supply \(`75,000,000 DYDX`\) will be distributed to past users of any dYdX protocol who complete certain trading milestones on the Protocol, except for users located in a jurisdiction where DYDX is not permitted, including the United States. To claim earned tokens, users will need to trade on dYdX’s Layer 2 Protocol and achieve their respective claim milestone.
+`7.50%` of the initial token supply \(`75,000,000 DYDX`\) will be distributed to past users of any dYdX protocol who complete certain trading milestones on the Protocol, except for users located in a jurisdiction where DYDX is not permitted, including the United States. To claim earned tokens, users will need to trade on dYdX’s Layer 2 Protocol and achieve their respective claim milestone.
 
 **Objectives**
 
