@@ -33,11 +33,15 @@ In order to participate in DYDX on-chain governance, you will need to have or be
 
 If you have tokens or have been delegated tokens and there is an active proposal, you are ready to vote in dYdX Governance. 
 
+![Cast votes using your voting power](../.gitbook/assets/image%20%2883%29.png)
+
 To cast your vote, navigate to the proposals page and click on an active proposal.
 
 ### **How do I delegate?**
 
 DYDX allows holders to delegate voting rights to the address of their choice. Anybody can participate in dYdX governance by receiving delegation, without needing to own DYDX. Users can delegate to one address at a time, and the number of votes added to the delegatee’s vote count is equivalent to the balance of DYDX in the user’s account. Votes are delegated from the current block and onward, until the sender delegates again, or transfers their DYDX.
+
+![Delegate away your voting &amp; proposing powers](../.gitbook/assets/image%20%2884%29.png)
 
 Token holders can choose to delegate one or both of the governance powers associated with a token, either through the governance portal or programmatically. A user that has received delegated power can not forward this delegated power to another delegatee.
 
