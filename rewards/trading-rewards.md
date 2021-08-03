@@ -1,5 +1,5 @@
 ---
-description: Overview of the User Trading Rewards program.
+description: Overview of the Trading Rewards program.
 ---
 
 # Trading Rewards
