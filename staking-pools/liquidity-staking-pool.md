@@ -49,11 +49,11 @@ The initially approved liquidity providers include `Wintermute`, `Amber Group`, 
 
 | Pre-approved Borrowers | Initial Allocation Percentage | Ethereum Address | Details on Liquidity Providers |
 | :--- | :--- | :--- | :--- |
-| Wintermute | 25% | 0x4f3a120E72C76c22ae802D129F599BFDbc31cb81 | \[Link to Commonwealth thread\] |
-| Amber Group | 25% | 0x39ad99e33ab7ee85818741dd6076112188bc2611 | \[Link to Commonwealth thread\] |
-| Wootrade \(Kronos\) | 20% | 0x38d981c3c42b2ec8e9572f560552407d0f1279fb | \[Link to Commonwealth thread\] |
-| Sixtant | 20% | 0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c | \[Link to Commonwealth thread\] |
-| DAT Trading | 10% | 0x940ab7307c7971f9284ba9c19b3313600d79c48a | \[Link to Commonwealth thread\] |
+| Wintermute | 25% | 0x4f3a120E72C76c22ae802D129F599BFDbc31cb81 | [https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/](https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/) |
+| Amber Group | 25% | 0x39ad99e33ab7ee85818741dd6076112188bc2611 | [https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/](https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/) |
+| Wootrade \(Kronos\) | 20% | 0x38d981c3c42b2ec8e9572f560552407d0f1279fb | [https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/](https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/) |
+| Sixtant | 20% | 0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c | [https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/](https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/) |
+| DAT Trading | 10% | 0x940ab7307c7971f9284ba9c19b3313600d79c48a | [https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/](https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/) |
 
 ## Staked Balance Accounting
 
