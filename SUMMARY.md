@@ -39,8 +39,8 @@
 
 ---
 
+* [Forums](http://forums.dydx.community/)
 * [dYdX Trading](https://trade.dydx.exchange/)
 * [dYdX Layer 2 Perpetual APIs](https://docs.dydx.exchange/)
-* [Forums](http://forums.dydx.community/)
 * [Public Metrics Dashboard](http://metrics.dydx.exchange/)
 
