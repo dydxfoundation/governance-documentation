@@ -20,7 +20,7 @@ There are 5 smart contracts at the core of dYdX Governance:
 * **The `Governor` contract**: tracks proposals and can execute proposals via the Timelock smart contract.
 * **The `Timelock` contracts**: can queue, cancel, or execute transactions voted by Governance. The functions in a proposal are initiated by the Timelock contract. Queued transactions can be executed after a delay and before the expiration of the grace period. 
 
-![Smart contract architecture](../.gitbook/assets/image%20%2858%29.png)
+![Smart contract architecture](../.gitbook/assets/image%20%2859%29.png)
 
 dYdX on-chain governance allows for:
 
