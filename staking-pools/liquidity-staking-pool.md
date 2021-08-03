@@ -126,7 +126,7 @@ To unstake USDC to the Liquidity Pool, following the following steps:
 * Go to [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*
 * Click on “**Request**”, to open the following modal:
 
-![](../.gitbook/assets/image%20%2860%29.png)
+![](../.gitbook/assets/image%20%2861%29.png)
 
 * Enter the amount of USDC you want to request to withdraw from the pool, and click "**Request withdraw**". You will need to pay gas fees to unstake USDC.
 * Stakers who request to unstake USDC at least 14 days \(**Blackout Window**\) before the current epoch ends can withdraw their USDC at the start of the next epoch.

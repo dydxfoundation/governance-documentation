@@ -12,9 +12,9 @@ Below we outline a preliminary draft explaining how the dYdX governance process 
 
 The following flow chart is the initial proposed stages to pass a proposal:
 
-![Lifecycle of a proposal](../.gitbook/assets/image%20%2859%29.png)
+![Stages of an improvement proposal](../.gitbook/assets/image%20%2862%29.png)
 
-## 0. Discussion on Forums
+## 0. Forum Discussion
 
 Anyone can sign up and set up a thread on any topic on dYdX’s Governance forums hosted at [**forums.dydx.community**](https://forums.dydx.community/). Community members are required to register using an email address or an Ethereum wallet.
 
@@ -66,7 +66,7 @@ After the Voting Delay, the Voting Period is activated. The voting period length
 
 The following chart shows a DIP state flowchart:
 
-![Flowchart of an improvement proposal](../.gitbook/assets/image%20%2848%29.png)
+![Lifecycle of an improvement proposal](../.gitbook/assets/image%20%2860%29.png)
 
 After a DIP is created on-chain it is subject to a **Voting Delay**, **Voting Period**, **Minimum Quorum**, and a minimum **Vote Differential**. The initial parameters are as follows \(and can be modified by governance\):
 
@@ -120,7 +120,7 @@ In the future, dYdX Governance may vote to increase or decrease the **Voting Del
 
 Since DYDX is a freely tradable asset, anyone can attempt a governance takeover via market buying. That said, to force-pass a bad faith vote would require a minimum of 5 million DYDX in the event of a short timelock or 20 million DYDX in the event of long timelock. If not outright impossible, this amount would be prohibitively expensive and likely cost more when accounting for price fluctuation than the net gain from the attack.
 
-If a group somehow achieved a bad faith takeover, Timelock’s delay would give affected agents time to withdraw their assets from the protocol. This would also be an opportunity to fork the protocol, a path that would likely be taken by the remaining good-faith actors.
+If a group somehow achieved a bad faith takeover, Timelock delay would give affected agents time to withdraw their assets from the protocol. This would also be an opportunity to fork the protocol, a path that would likely be taken by the remaining good-faith actors.
 
 ### 
 
