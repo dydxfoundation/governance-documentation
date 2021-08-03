@@ -4,7 +4,7 @@ description: An overview of the community treasury.
 
 # Treasury
 
-Exactly 5% of the initial token supply \(`50,000,000 DYDX`\) will be distributed to a community treasury to be allocated on an ongoing basis through contributor grants, community initiatives, liquidity mining, and other programs.
+`5.00%` of the initial token supply \(`50,000,000 DYDX`\) will be distributed to a community treasury to be allocated on an ongoing basis through contributor grants, community initiatives, liquidity mining, and other programs.
 
 **Objectives**
 

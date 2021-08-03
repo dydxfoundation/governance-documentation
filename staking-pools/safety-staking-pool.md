@@ -4,7 +4,7 @@ description: An overview of the Safety Staking Pool
 
 # Safety Module
 
-2.5% of the initial token supply \(`25,000,000 DYDX`\) will be distributed to users staking DYDX to a Safety pool for backstopping the system.
+`2.50%` of the initial token supply \(`25,000,000 DYDX`\) will be distributed to users staking DYDX to a Safety pool for backstopping the system.
 
 **Objectives**
 

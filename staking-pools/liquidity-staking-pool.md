@@ -4,7 +4,7 @@ description: An overview of the Liquidity Staking Pool
 
 # Liquidity Module
 
-2.5% of the initial token supply \(`25,000,000 DYDX`\) will be distributed to users staking USDC to the liquidity staking pool.
+`2.50%` of the initial token supply \(`25,000,000 DYDX`\) will be distributed to users staking USDC to the liquidity staking pool.
 
 ### Objectives
 
