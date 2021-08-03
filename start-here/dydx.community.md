@@ -6,8 +6,6 @@ description: 'A home for governance, rewards, and staking at dydx.community'
 
 The interface for governance, rewards, and staking is live at [**dydx.community**](https://dydx.community).
 
-![](../.gitbook/assets/web.svg)
-
 ### Governance
 
 Active and past governance proposals can be viewed, and active governance proposals can be voted on.
