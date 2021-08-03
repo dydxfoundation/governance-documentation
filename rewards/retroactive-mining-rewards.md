@@ -17,9 +17,9 @@ The success of the dYdX Layer 2 Protocol is the result of thousands of community
 
 DYDX has been allocated to historical users of all dYdX protocols \(except for users located in a jurisdiction where DYDX is not permitted, including the United States\) based on a snapshot ending **July 26, 2021, at 00:00:00 UTC**. There are five allocation tiers which take into account a user's past activity across all dYdX protocols.
 
-To claim DYDX, historical users must meet the following milestones on [Layer 2 Perpetuals](https://trade.dydx.exchange) within the first 28-day epoch \(Epoch 0\):\
+To claim DYDX, historical users must meet the following milestones on [Layer 2 Perpetuals](https://trade.dydx.exchange) within the first 28-day epoch \(Epoch 0\):
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/buckets.png)
 
 Any historical volume on the dYdX Layer 2 Protocol counts towards a user’s claim milestone. Progress towards your claim milestone can only be viewed at [trade.dydx.exchange/portfolio/rewards](https://trade.dydx.exchange/portfolio/rewards) because the dYdX Foundation does not have visibility into each user's ongoing volume.
 
