@@ -14,8 +14,8 @@
 ## Rewards
 
 * [Retroactive Mining Rewards](rewards/retroactive-mining-rewards.md)
-* [Trading Rewards](rewards/trading-rewards.md)
 * [Liquidity Provider Rewards](rewards/liquidity-provider-rewards.md)
+* [Trading Rewards](rewards/trading-rewards.md)
 
 ## STAKING POOLS
 
