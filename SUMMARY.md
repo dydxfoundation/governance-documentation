@@ -32,8 +32,8 @@
 ## RESOURCES
 
 * [Technical Overview](resources/technical-overview.md)
-* [Glossary](resources/glossary.md)
 * [About the Foundation](resources/dydx-foundation.md)
+* [Glossary](resources/glossary.md)
 
 ## External Links
 
