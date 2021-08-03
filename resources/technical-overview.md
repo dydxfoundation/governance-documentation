@@ -77,39 +77,51 @@ All major new smart contracts have been audited by Peckshield. No significant or
 
 ### DydxToken
 
-The DydxToken contract was inspired by Aave, whose smart contracts were audited \[XXX\]. Minor changes have been made by the dYdX team.
+The DydxToken contract was inspired by Aave. Minor changes have been made by the dYdX team.
 
-DYDX is deployed at [0x92D6C1e31e14520e676a687F0a93788B716BEff5](https://etherscan.io/address/0x92d6c1e31e14520e676a687f0a93788b716beff5) on the Ethereum mainnet. It was built from commit \[XXX\].
+DYDX is deployed at [0x92D6C1e31e14520e676a687F0a93788B716BEff5](https://etherscan.io/address/0x92d6c1e31e14520e676a687f0a93788b716beff5) on the Ethereum mainnet. It was built from commit \[coming soon\].
 
 **ABI**
+
+\[coming soon\]
 
 ### DydxGovernor
 
-The DydxGovernor contract was inspired by Aave, whose smart contracts were audited \[XXX\]. Minor changes have been made by dYdX. 
+The DydxGovernor contract was inspired by Aave. Minor changes have been made by dYdX. 
 
-Governor is deployed at [0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2) on the Ethereum mainnet. It was built from commit \[XXX\].
+Governor is deployed at [0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2) on the Ethereum mainnet. It was built from commit \[coming soon\].
 
 **ABI**
+
+\[coming soon\]
 
 ### Executors
 
-The Executor contract was inspired by Aave, whose smart contracts were audited \[XXX\]. Minor changes have been made by dYdX. 
+The Executor contract was inspired by Aave. Minor changes have been made by dYdX. 
 
-The **Long Timelock** is deployed at [0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B](https://etherscan.io/address/0xecae9bf44a21d00e2350a42127a377bf5856d84b) on the Ethereum mainnet. It was built from commit \[XXX\].
-
-**ABI**
-
-The **Short Timelock** is deployed at [0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B](https://etherscan.io/address/0xecae9bf44a21d00e2350a42127a377bf5856d84b) on the Ethereum mainnet. It was built from commit \[XXX\].
+The **Long Timelock** is deployed at [0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B](https://etherscan.io/address/0xecae9bf44a21d00e2350a42127a377bf5856d84b) on the Ethereum mainnet. It was built from commit \[coming soon\].
 
 **ABI**
 
-The **Merkle Timelock** is deployed at [0xd98e7A71BacB6F11438A8271dDB2EFd7f9361F52](https://etherscan.io/address/0xd98e7a71bacb6f11438a8271ddb2efd7f9361f52) on the Ethereum mainnet. It was built from commit \[XXX\].
+\[coming soon\]
+
+The **Short Timelock** is deployed at [0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B](https://etherscan.io/address/0xecae9bf44a21d00e2350a42127a377bf5856d84b) on the Ethereum mainnet. It was built from commit \[coming soon\].
 
 **ABI**
 
-The **Starkware Priority Timelock** is deployed  at [0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE](https://etherscan.io/address/0xa306989ba6bcacdeccf3c0614fff2b8c668e3cae) on the Ethereum mainnet. It was built from commit \[XXX\].
+\[coming soon\]
+
+The **Merkle Timelock** is deployed at [0xd98e7A71BacB6F11438A8271dDB2EFd7f9361F52](https://etherscan.io/address/0xd98e7a71bacb6f11438a8271ddb2efd7f9361f52) on the Ethereum mainnet. It was built from commit \[coming soon\].
 
 **ABI**
+
+\[coming soon\]
+
+The **Starkware Priority Timelock** is deployed  at [0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE](https://etherscan.io/address/0xa306989ba6bcacdeccf3c0614fff2b8c668e3cae) on the Ethereum mainnet. It was built from commit \[coming soon\].
+
+**ABI**
+
+\[coming soon\]
 
 ## DYDX Incentives Contracts
 
@@ -119,15 +131,19 @@ The Merkle Distributor smart contract distributes DYDX token rewards according t
 
 An update is performed by setting the proposed Merkle root to the latest value returned by the oracle contract. The proposed Merkle root can be made active after a waiting period has elapsed. During the waiting period, dYdX Governance has the opportunity to freeze the Merkle root, in case the proposed root is incorrect or malicious. Root updates can be unpaused by ShortTimelockExecutor.
 
-The Merkle Distributor smart contract was inspired by Uniswap and Badger designs. The smart contract is deployed at \[XXX\] on the Ethereum mainnet. It was built from commit \[XXX\]. An audit by PeckShield is available \[XXX\].
+The Merkle Distributor smart contract was inspired by Uniswap and Badger designs. The smart contract is deployed at 0x01d3348601968aB85b4bb028979006eac235a588 on the Ethereum mainnet. It was built from commit \[coming soon\].
 
-ABI
+**ABI**
+
+\[coming soon\]
 
 ### Safety Module
 
 The Safety Module is a staking pool that offers DYDX rewards to users who stake DYDX towards the security of the Protocol.
 
-ABI
+**ABI**
+
+\[coming soon\]
 
 ### Liquidity Module
 
@@ -141,13 +157,11 @@ Stakers earn DYDX rewards for staking USDC. The staked funds may be borrowed by 
 
 StarkProxy: This contract allows the owner to borrow funds from LiquidityStaking and use those funds on StarkPerpetual. Additional funds may be deposited by the owner, and any funds in excess of the borrowed amount may be withdrawn freely. This contract interacts with the [StarkPerpetual](https://github.com/starkware-libs/starkex-contracts/tree/master/scalable-dex/contracts/src/perpetual) contract which was written by Starkware, and previously audited and deployed.
 
-![](https://lh3.googleusercontent.com/05j_1H-71NOm-3yeOHGw8ykw_bnoiVHSxpEzL2DIbxSXZDL2CW-rOlwOb6t_t7cDEs7Msqk0bCLCfRuAWKJdepamLTqhl4EhYCvjTjEX3eOXczdiWbaJhTZaSGHRLYCP83APwl55)
-
 ### Treasury Contracts
 
-The TreasuryVester contract was inspired by [Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol), whose smart contracts were audited \[XXX\]. Minor changes have been made by the dYdX team.
+The TreasuryVester contract was inspired by [Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol). Minor changes have been made by the dYdX team.
 
-The DydxEcosystemReserve contract was inspired by Aave, whose smart contracts were audited \[XXX\]. Minor changes have been made by the dYdX team.
+The DydxEcosystemReserve contract was inspired by Aave. Minor changes have been made by the dYdX team.
 
 The Short Timelock can only execute governance-approved actions.
 
