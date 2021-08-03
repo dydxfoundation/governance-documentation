@@ -1,5 +1,5 @@
 ---
-description: Overview of Liquidity Provider rewards.
+description: Overview of the Liquidity Provider rewards Program.
 ---
 
 # Liquidity Provider Rewards
