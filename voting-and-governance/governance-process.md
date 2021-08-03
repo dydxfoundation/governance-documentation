@@ -54,9 +54,9 @@ The long timelock executor can execute proposals that generally change parts of 
 
 The Merkle-pauser executor can execute proposals that freeze the Merkle root, which is updated periodically with each user's cumulative reward balance, allowing new rewards to be distributed to users over time, in case the proposed root is incorrect or malicious.
 
-The initial governance parameters are as follows:
+The initial timelock parameters are as follows:
 
-![](../.gitbook/assets/initial-timelock-parameters.png)
+![Initial timelock parameters](../.gitbook/assets/initial-timelock-parameters.png)
 
 
 

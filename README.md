@@ -4,7 +4,7 @@ description: An overview of the DYDX token and governance.
 
 # Introduction
 
-DYDX is a governance token that allows the dYdX community to truly govern the dYdX Layer 2 Protocol \("the Protocol"\). By enabling shared control of the Protocol, DYDX allows traders, liquidity providers, and partners of dYdX to work collectively towards an enhanced Protocol.
+DYDX is a governance token that allows the dYdX community to truly govern the dYdX Layer 2 Protocol \("the protocol"\). By enabling shared control of the protocol, DYDX allows traders, liquidity providers, and partners of dYdX to work collectively towards an enhanced Protocol.
 
 DYDX enables a robust ecosystem around governance, rewards, and staking — each designed to drive future growth and decentralization of dYdX, resulting in a better experience for users. 
 

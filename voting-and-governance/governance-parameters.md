@@ -4,9 +4,11 @@ description: Overview of governance paramaters.
 
 # Parameters
 
+**\[PARAMETERS PAGE IS UNDER DEVELOPMENT AND WILL BE UPDATED SOON\]**
+
 At the time of launching governance, DYDX holders have immediate and irrevocable control over:
 
-* The community treasury
+* Allocation of the community treasury
 * New token listings on the Protocol
 * Risk parameters for the Protocol
 * Capital allocations to market makers in the liquidity staking pool
@@ -29,16 +31,7 @@ dYdX Governance has control over the parameters of the following contracts:
 
 ## Timelock Parameters
 
-| Parameter | Description | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Proposal Threshold | Minimum tokens held/delegated to create proposal | 0.5% of total supply | 0.5% of total supply | 2% of total supply | 0.5% of total supply |
-| Minimum Quorum | Min yes votes for proposal to pass | 2% of total supply | 1% of total supply | 10% of total supply | 2% of total supply |
-| Vote Differential | Required yes–no gap for proposal to pass | 0.5% of total supply | 0.5% of total supply | 10% of total supply | 0.5% of total supply |
-| Voting Duration | Period during which votes are counted | 4 days | 2 days | 10 days | 7 days |
-| Timelock Delay | After proposal passes and is queued, delay before proposal is executed | 2 days | 0 days | 7 days | 2 days |
-| Execution Grace Period | Period after vote when proposal can be executed | 7 days | 7 days | 7 days | 7 days |
-| Minimum Timelock Delay | Minimum delay before proposal is executed \(after queuing\) | 1 day | 0 days | 5 days | 1 day |
-| Maximum Timelock Delay | Maximum delay before proposal is executed \(after queuing\) | 7 days | 1 day | 21 days | 7 days |
+![](../.gitbook/assets/image%20%2877%29.png)
 
 ## Governor Parameters
 
