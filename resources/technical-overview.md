@@ -91,7 +91,7 @@ The Liquidity Module is a collection of smart contracts for staking and borrowin
 
 Stakers earn DYDX rewards for staking USDC. The staked funds may be borrowed by certain pre-approved partners, on a reputational basis, without collateral. The funds may only be used on the L2 exchange—this is enforced via the StarkProxy contract which interacts with the StarkEx Perpetual Exchange contract.
 
-![A diagram of the Liquidity module](../.gitbook/assets/image%20%2866%29.png)
+![A diagram of the Liquidity module](../.gitbook/assets/image%20%2872%29.png)
 
 ### StarkProxy
 
