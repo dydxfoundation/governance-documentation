@@ -45,13 +45,13 @@ The Liquidity Staking Pool contract operates as a two-sided, under-collateralize
 
 The amount that can be withdrawn depends on a borrower's allocation percentage and the total available USDC staked in the pool. Both the allocation percentage and total available USDC can change, at predefined times specified by `LS1EpochSchedule`. The borrowed USDC may only be used on dYdX’s Layer 2 Protocol — this is enforced via the`StarkProxy`contract which interacts with the`StarkEx Perpetual Exchange`contract.
 
-The initially approved liquidity providers include `Wintermute`, `Amber Group`, `Kronos`, `Sixtant`, and `DAT Trading`, who have been actively market-making on the dYdX Layer 2 Protocol.
+The initially approved liquidity providers include `Wintermute`, `Amber Group`, `Wootrade (Kronos)`, `Sixtant`, and `DAT Trading`, who have been actively market-making on the dYdX Layer 2 Protocol.
 
 | Pre-approved Borrowers | Initial Allocation Percentage | Ethereum Address | Details on Liquidity Providers |
 | :--- | :--- | :--- | :--- |
 | Wintermute | 25% | 0x4f3a120E72C76c22ae802D129F599BFDbc31cb81 | \[Link to Commonwealth thread\] |
 | Amber Group | 25% | 0x39ad99e33ab7ee85818741dd6076112188bc2611 | \[Link to Commonwealth thread\] |
-| Kronos | 20% | 0x38d981c3c42b2ec8e9572f560552407d0f1279fb | \[Link to Commonwealth thread\] |
+| Wootrade \(Kronos\) | 20% | 0x38d981c3c42b2ec8e9572f560552407d0f1279fb | \[Link to Commonwealth thread\] |
 | Sixtant | 20% | 0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c | \[Link to Commonwealth thread\] |
 | DAT Trading | 10% | 0x940ab7307c7971f9284ba9c19b3313600d79c48a | \[Link to Commonwealth thread\] |
 
