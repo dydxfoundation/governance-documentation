@@ -40,7 +40,8 @@
 ---
 
 * [Forums](http://forums.dydx.community/)
-* [dYdX Trading](https://trade.dydx.exchange/)
-* [dYdX Layer 2 Perpetual APIs](https://docs.dydx.exchange/)
-* [Public Metrics Dashboard](http://metrics.dydx.exchange/)
+* [dYdX Layer 2](https://trade.dydx.exchange/)
+* [dYdX Layer 2 API](https://docs.dydx.exchange/)
+* [dYdX Trading Inc.](https://dydx.exchange)
+* [Metrics Dashboard](http://metrics.dydx.exchange/)
 
