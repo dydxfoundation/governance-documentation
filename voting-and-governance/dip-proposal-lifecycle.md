@@ -32,11 +32,11 @@ At a minimum, DRCs must include:
 * The title of the forum post must include DRC: with the short title of the DRC. E.g. DRC: New Market Request
 * A community poll that community members can use to vote on improvements off-chain
 
-## 2. Discussion & Feedback
+## 2. DRC Discussion & Feedback
 
 Once posted on the governance forum, all questions and comments should be addressed & taken into consideration, to further improve the DRC.
 
-## 3. Snapshot Polling
+## 3. DRC Snapshot Polling
 
 Once an off-chain DRC has a very rough consensus, a community member holding more than `10,000` DYDX can create an **off-chain vote** for the DRC on **Snapshot** \([c](https://snapshot.org/#/dydx/create)oming soon\).
 
