@@ -45,7 +45,7 @@
 * [dYdX Trading Inc.](https://dydx.exchange)
 * [Metrics Dashboard](http://metrics.dydx.exchange/)
 
-## Chinese
+## 中文 <a id="chinese"></a>
 
 * [DYDX 介绍](chinese/dydx-jie-shao.md)
 
