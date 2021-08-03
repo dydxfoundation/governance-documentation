@@ -33,7 +33,7 @@
 
 * [Technical Overview](resources/technical-overview.md)
 * [Glossary](resources/glossary.md)
-* [Foundation](resources/dydx-foundation.md)
+* [About the Foundation](resources/dydx-foundation.md)
 
 ## External Links
 

@@ -2,7 +2,7 @@
 description: Overview of the dYdX Foundation
 ---
 
-# Foundation
+# About the Foundation
 
 The dYdX Foundation is an independent not-for-profit foundation headquartered in Zug, Switzerland. More information about the dYdX Foundation can be found at [**dydx.foundation**](https://dydx.foundation).
 

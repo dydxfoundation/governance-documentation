@@ -46,17 +46,17 @@ The following example illustrates Trading Rewards earned by Traders A, B, and C 
 
 ### Who is eligible for trading rewards?
 
-All traders on the dYdX Layer 2 Protocol are eligible to receive DYDX as trading rewards.
+All traders on the dYdX Layer 2 protocol are eligible to receive DYDX as trading rewards.
 
 The dYdX Layer 2 Protocol is not available to traders in the United States or Restricted Territories, as defined in dYdX Trading Inc.’s [Terms of Use](https://dydx.exchange/terms).
 
 ### How much DYDX did I earn in the Trading Rewards program?
 
-In the current epoch, users can see fees paid, average open interest, and estimated trading rewards at [trade.dydx.exchange/portfolio/rewards](https://trade.dydx.exchange/portfolio/rewards) where users' trading data exists.
+In the current epoch, users can see fees paid, average open interest, and estimated trading rewards at [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) where users' trading data exists.
 
 ![Rewards info for the current epoch](../.gitbook/assets/image%20%2820%29.png)
 
-Rewards from past epochs can be viewed at [dydx.community/history/rewards](https://dydx.community/history/rewards).
+Rewards from past epochs can be viewed at [**dydx.community/history/rewards**](https://dydx.community/history/rewards) ****\(coming soon\).
 
 ### How do I claim my Trading Rewards? When can I withdraw and transfer my earned DYDX?
 
