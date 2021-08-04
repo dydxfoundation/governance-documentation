@@ -81,7 +81,7 @@ Below is a table of trading activity for traders, A, B, C, D, and E. Open intere
 | July 5 | **Trader A** sells 1 BTC at $30,000 and **Trader D** buys 1 BTC at $30,000 | $150,000 |
 | July 10 | **Trader E** buys 5 BTC at $30,000 and **Trader C** sells 5 BTC at $30,000 | $150,000 |
 
-In the context of the **Trading Rewards** formula, open interest is measured hourly \(at a random time in each hour\) across all markets and averaged across a given epoch to calculate rewards.
+In the context of the **Trading Rewards** formula, open interest is measured every minute \(at a random time in each minute\) across all markets and averaged across a given epoch to calculate rewards.
 
 A trader's own open interest is the USD value of all of that trader's open positions. For the purposes of **Trading Rewards**, a trader's open interest is measured hourly \(at a random time in each hour\) across all markets and averaged across a given epoch.
 
