@@ -48,8 +48,5 @@
 ## 中文 <a id="chinese"></a>
 
 * [DYDX 介绍](chinese/dydx-jie-shao.md)
-
----
-
-* [中文问答](zhong-wen-wen-da.md)
+* [中文问答](chinese/zhong-wen-wen-da.md)
 
