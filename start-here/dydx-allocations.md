@@ -9,12 +9,12 @@ description: Allocations for the DYDX token.
 A total of `1,000,000,000 DYDX` have been minted, and will become accessible over five \(5\) years, starting on **August 3rd, 2021, at 15:00:00 UTC**. The initial five-year allocation of the total supply of DYDX is as follows:
 
 * **50.00%** \(`500,000,000 DYDX`\) to the community as follows:
-  * **25.00%** \(`250,000,000 DYDX`\) to users who trade on the dYdX Layer 2 Protocol based on a combination of fees paid and open interest \([Trading Rewards\) ](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/reward-pools-1/trading-rewards.md)
-  * **7.50%** \(`75,000,000 DYDX`\) to past users who complete certain trading milestones on the dYdX Layer 2 Protocol \([Retroactive Mining Rewards](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/reward-pools-1/retroactive-rewards.md)\)
-  * **7.50%** \(`75,000,000 DYDX`\) to liquidity providers based on a formula rewarding a combination of uptime, two-sided depth, bid-ask spreads, and the number of markets supported \([Liquidity Provider Rewards](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/reward-pools-1/liquidity-provider-rewards.md)\)
-  * **5.00%** \(`50,000,000 DYDX`\) to a community treasury \([Community Treasury](community-treasury.md)\)
-  * **2.50%** \(`25,000,000 DYDX`\) to users staking USDC to a liquidity staking pool \([Liquidity Staking Pool](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/staking-pools/liquidity-staking-pool.md)\)
-  * **2.50%** \(`25,000,000 DYDX`\) to users staking DYDX to a safety staking pool \([Safety Staking Pool](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/staking-pools/safety-pool-1.md)\)
+  * **25.00%** \(`250,000,000 DYDX`\) to users who trade on the dYdX Layer 2 Protocol based on a combination of fees paid and open interest \([**Trading Rewards**](../rewards/trading-rewards.md)\)
+  * **7.50%** \(`75,000,000 DYDX`\) to past users who complete certain trading milestones on the dYdX Layer 2 Protocol \([**Retroactive Mining Rewards**](../rewards/retroactive-mining-rewards.md)\)
+  * **7.50%** \(`75,000,000 DYDX`\) to liquidity providers based on a formula rewarding a combination of uptime, two-sided depth, bid-ask spreads, and the number of markets supported \([**Liquidity Provider Rewards**](../rewards/liquidity-provider-rewards.md)\)
+  * **5.00%** \(`50,000,000 DYDX`\) to a community treasury \([**Treasury**](community-treasury.md)\)
+  * **2.50%** \(`25,000,000 DYDX`\) to users staking USDC to a liquidity staking pool \([**Liquidity Module**](../staking-pools/liquidity-staking-pool.md)\)
+  * **2.50%** \(`25,000,000 DYDX`\) to users staking DYDX to a safety staking pool \([**Safety Module**](../staking-pools/safety-staking-pool.md)\)
 * **27.73%** \(`277,295,070 DYDX`\) to past investors
 * **15.27%** \(`152,704,930 DYDX`\) to founders, employees, advisors, and consultants of dYdX Trading or the Foundation
 * **7.00%** \(`70,000,000 DYDX`\) to future employees and consultants of dYdX Trading or the dYdX Foundation 
