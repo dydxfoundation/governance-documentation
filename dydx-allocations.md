@@ -7,12 +7,12 @@ description: DYDX Allocations.
 A total of `1,000,000,000 DYDX` have been minted and will become accessible over five years. The initial five-year allocation of the total supply of DYDX is as follows:
 
 * 50% \(`500,000,000 DYDX`\) to the community as follows:
-  * 25% \(`250,000,000 DYDX`\) to users eligible via [Trading Rewards ](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/reward-pools-1/trading-rewards.md)
-  * 7.5% \(`75,000,000 DYDX`\) to users eligible via [Retroactive Mining Rewards](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/reward-pools-1/retroactive-rewards.md) 
-  * 7.5% \(`75,000,000 DYDX`\) to users eligible via [Liquidity Provider Rewards](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/reward-pools-1/liquidity-provider-rewards.md) 
-  * 5% \(`50,000,000 DYDX`\) to the [Community Treasury](community-treasury.md)
-  * 2.5% \(`25,000,000 DYDX`\) to users eligible via the [Liquidity Staking Pool ](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/staking-pools/liquidity-staking-pool.md)
-  * 2.5% \(`25,000,000 DYDX`\) to users eligible via the [Safety Pool ](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/staking-pools/safety-pool-1.md)
+  * 25% \(`250,000,000 DYDX`\) to users eligible via [Trading Rewards](https://github.com/dydxfoundation/governance-documentation/blob/en/rewards/trading-rewards.md)
+  * 7.5% \(`75,000,000 DYDX`\) to users eligible via [Retroactive Mining Rewards](https://github.com/dydxfoundation/governance-documentation/blob/en/rewards/retroactive-mining-rewards.md) 
+  * 7.5% \(`75,000,000 DYDX`\) to users eligible via [Liquidity Provider Rewards](https://github.com/dydxfoundation/governance-documentation/blob/en/rewards/liquidity-provider-rewards.md) 
+  * 5% \(`50,000,000 DYDX`\) to the [Community Treasury](https://github.com/dydxfoundation/governance-documentation/blob/en/start-here/community-treasury.md)
+  * 2.5% \(`25,000,000 DYDX`\) to users eligible via the [Liquidity Staking Pool](https://github.com/dydxfoundation/governance-documentation/blob/en/staking-pools/liquidity-staking-pool.md)
+  * 2.5% \(`25,000,000 DYDX`\) to users eligible via the [Safety Pool](https://github.com/dydxfoundation/governance-documentation/blob/en/staking-pools/safety-staking-pool.md)
 * 29.59% \(`295,905,346 DYDX`\) to past investors of dYdX Trading
 * 15.75% \(`157,548,884 DYDX`\) to founders, employees, advisors, and consultants of dYdX Trading or the Foundation
 * 4.65% \(`46,545,770 DYDX`\) to future employees and consultants of dYdX Trading or the Foundation 
