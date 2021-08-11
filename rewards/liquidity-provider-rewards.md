@@ -108,7 +108,9 @@ The above formula is broken out into step-by-step calculations below for detail:
         alt/>
       </td>
       <td style="text-align:left">is the percentage of time in an epoch that a given market maker was live
-        and quoting (uptime).</td>
+        and quoting on both the bid and ask sides with order sizes greater than
+        stated order minimum (noted below by market) and spreads smaller than stated
+        maximum spread (noted below by market).</td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
