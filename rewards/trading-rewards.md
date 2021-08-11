@@ -34,7 +34,7 @@ $$
 | f | Total fees paid by a trader in this epoch. |
 | w | Individual trader score. |
 | $${\sum\limits _{n} w_{n}}$$ | Sum of all trader scores. |
-| d | A trader’s average open interest \(measured hourly\) across all markets in this epoch. |
+| d | A trader’s average open interest \(measured every minute\) across all markets in this epoch. |
 | k | Total number of traders in this epoch. |
 | α | A constant in the range that determines the weight of fees vs open interest. The initial value is α=0.7. |
 
@@ -83,5 +83,5 @@ Below is a table of trading activity for traders, A, B, C, D, and E. Open intere
 
 In the context of the **Trading Rewards** formula, open interest is measured every minute \(at a random time in each minute\) across all markets and averaged across a given epoch to calculate rewards.
 
-A trader's own open interest is the USD value of all of that trader's open positions. For the purposes of **Trading Rewards**, a trader's open interest is measured hourly \(at a random time in each hour\) across all markets and averaged across a given epoch.
+A trader's own open interest is the USD value of all of that trader's open positions. For the purposes of **Trading Rewards**, a trader's open interest is measured every minute \(at a random time in each minute\) across all markets and averaged across a given epoch.
 

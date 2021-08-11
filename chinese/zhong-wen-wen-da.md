@@ -130,8 +130,6 @@ DYDX论坛：
 
 在当前阶段，用户可以在用户交易数据所在的[**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)看到已支付的费用、平均未平仓利息和估计的交易奖励。
 
-![](https://uploader.shimo.im/f/mHbSaUQU5NzlxpSD.png!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2Mjg1MTk2NDMsImciOiJoWHB5cWc2R1lKUng5dGM2IiwiaWF0IjoxNjI4NTE5MzQzLCJ1c2VySWQiOjYyMzA1ODA3fQ.oK6qEwgrCTpVKGBnVL_HvyzfoHo0oTYvan0pEbgm1YM)
-
 19. 我如何领取我的交易奖励？我什么时候可以提取和转让我赚取的 DYDX？
 
 通过交易挖矿奖励获得的 DYDX 代币将在每个阶段结束时进行转让。DYDX 代币持有者需要在阶段结束后大约**8天**（**等待期**）才能领取他们的代币。一旦代币被认领，它们就可以用于 dYdX 治理。交易者可以在**等待期之后**，[在](https://dydx.community/dashboard)每个时代结束时领取他们的交易奖励，请[点击此处](https://dydx.community/dashboard)。用户需要点击“领取”，签署交易并支付gas费用才能领取DYDX。
@@ -180,17 +178,11 @@ Blackout Window是一段时期，在此期间用户不能要求提取抵押的 U
 
 钱包中需要有ETH，用以支付手续费。
 
-27. 请问这个是什么情况，怎么解决
-
-![](https://uploader.shimo.im/f/2fm5jQeJyeIFQcsh.jpg!thumbnail?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2Mjg1MTk2NDMsImciOiJoWHB5cWc2R1lKUng5dGM2IiwiaWF0IjoxNjI4NTE5MzQzLCJ1c2VySWQiOjYyMzA1ODA3fQ.oK6qEwgrCTpVKGBnVL_HvyzfoHo0oTYvan0pEbgm1YM)
-
-这是您的登录时勾选不当造成的，在找回Stark密钥时，不要勾选第一个选项。
-
-28. 请问同一个IP下登录多个账号会有风险么？
+27. 请问同一个IP下登录多个账号会有风险么？
 
 在DYDX的风控规则中，有针对机器账号的判定规则，同一个IP下多个账号运行可能被判定为刷号机器人。
 
-29. 完成追溯性挖矿交易需求后，还需要继续进行交易么？
+2. 完成追溯性挖矿交易需求后，还需要继续进行交易么？
 
 完成追溯性挖矿的交易需求后，就可在9月8日领取追溯性挖矿奖励；如果继续交易则可以获得交易挖矿奖励。
 
