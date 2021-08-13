@@ -22,7 +22,7 @@ Anyone can sign up and set up a thread on any topic on dYdX’s Governance forum
 
 Off-chain **dYdX Request for Comments** \(DRCs\) creation is the first step in the governance improvement process. Anyone can participate in the Governance Forum, create off-chain DRCs, and discuss improvements.
 
-To create a DRC, use the following template available on our Github.
+To create a DRC, use [this template](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) \(available on our Github\).
 
 At a minimum, DRCs must include:
 
@@ -77,9 +77,11 @@ After a DIP is created on-chain it is subject to a **Voting Delay**, **Voting Pe
 | Minimum Quorum | Minimum yes votes for a DIP proposal to pass | 2% of total supply | 1% of total supply | 10% of total supply | 2% of total supply |
 | Vote Differential | Required yes-no gap for a DIP proposal to pass | 0.5% of total supply | 0.5% of total supply | 10% of total supply | 0.5% of total supply |
 
+Only the voting delay can be modified by governance, and it can only be changed to values in between \(inclusive\) the minimum and maximum delay. The voting period, minimum quorum, and vote differential can't be changed.
+
 ## 6. Proposal Queuing & Execution
 
-After a DIP has passed, any address can call the queue method to move the proposal into the Timelock queue. A DIP can only be queued if it has passed.
+After a DIP has passed, any address can call the queue method to move the proposal into the timelock queue. A DIP can only be queued if it has passed.
 
 | Parameter | Description | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
 | :--- | :--- | :--- | :--- | :--- | :--- |

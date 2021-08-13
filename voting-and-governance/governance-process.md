@@ -29,7 +29,7 @@ dYdX on-chain governance allows for:
 * Snapshotting token holdings at the start of a proposal
 * Separate delegation of voting and proposing powers
 * Setting governance thresholds including proposals, quorums, and vote differential powers
-* Replacing the “Governance Strategy” smart contract, e.g. to include voting power for staked tokens
+* Changing how votes are counted \(by changing the “Governance Strategy” smart contract address on the Governor contract\)
 
 ## Proposal Types
 
