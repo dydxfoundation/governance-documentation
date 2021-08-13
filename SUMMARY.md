@@ -37,8 +37,6 @@
 
 ## External Links
 
----
-
 * [Forums](http://forums.dydx.community/)
 * [dYdX Layer 2](https://trade.dydx.exchange/)
 * [dYdX Layer 2 API](https://docs.dydx.exchange/)

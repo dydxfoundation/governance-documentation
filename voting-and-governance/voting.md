@@ -54,13 +54,13 @@ To delegate your tokens to a wallet address:
 * Select type of power you want to delegate
 * Enter a Wallet Address for a third party to whom you would like to delegate your voting and/or proposal power to. Delegating powers does not transfer your tokens
 
-Delegating and undelegating DYDX require users to spend on Layer 1 gas fees.
+Delegating and undelegating DYDX require users to spend Ethereum gas fees.
 
 ### Can I change my vote after I have already voted?
 
 Once a vote is cast on-chain, it is not possible to change your vote.
 
-### Can I move my DYDX while the vote is in progress?
+### Can I transfer my DYDX while the vote is in progress?
 
 Yes.
 

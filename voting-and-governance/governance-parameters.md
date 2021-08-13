@@ -1,5 +1,5 @@
 ---
-description: Overview of governance paramaters.
+description: Overview of governance parameters.
 ---
 
 # Parameters
@@ -20,6 +20,7 @@ At the time of launching governance, DYDX holders have immediate and irrevocable
 dYdX Governance has control over the parameters of the following contracts:
 
 * [Timelock](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/voting-and-governance-process/parameters.md#timelock-parameters)
+* Priority Timelock
 * Governor
 * DYDX Token
 * Treasury
@@ -35,146 +36,102 @@ dYdX Governance has control over the parameters of the following contracts:
 
 ## Governor Parameters
 
-| Parameter | Description |  |
+| Parameter | Description | Value |
 | :--- | :--- | :--- |
-| Voting Delay | Delay \(in blocks\) between proposal creation and voting on the proposal | 6,570 block |
-| Add Executor Admin | Address that can add new executors | Short Timelock |
+| Voting Delay | Delay \(in blocks\) between proposal creation and voting on the proposal | 6,570 blocks |
+| Add Executor role | Address that can add new executors | Short Timelock |
 | Owner role | Can change strategy / voting delay / unauthorize executors + owns other roles | Long Timelock |
+
+
+
+## DYDX Token
+
+| Parameter | Description | Value |
+| :--- | :--- | :--- |
+| Owner | Can mint DYDX tokens after mint restriction | Short Timelock |
+
+
+
+## Rewards Treasury Parameters
+
+| Parameter | Description | Value |
+| :--- | :--- | :--- |
+| Owner | Can approve or transfer any token held by the treasury | Short Timelock |
+| Proxy Admin | Can upgrade the contract | Short Timelock |
 
 ## 
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Parameter</th>
-      <th style="text-align:left">Description</th>
-      <th style="text-align:left">Short Timelock Executor</th>
-      <th style="text-align:left">Merkle-Pauser Executor</th>
-      <th style="text-align:left">Long Timelock Executor</th>
-      <th style="text-align:left">Starkware Executor</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Voting Delay</td>
-      <td style="text-align:left">Delay (in blocks) between proposal creation and voting on the proposal</td>
-      <td
-      style="text-align:left"></td>
-        <td style="text-align:left"></td>
-        <td style="text-align:left"></td>
-        <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Add Executor Admin</td>
-      <td style="text-align:left">Add new addresses to the list of authorized executors</td>
-      <td style="text-align:left">Y</td>
-      <td style="text-align:left">N</td>
-      <td style="text-align:left">N</td>
-      <td style="text-align:left">N</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Owner Role</td>
-      <td style="text-align:left">
-        <ul>
-          <li>Set new GovernanceStrategy</li>
-          <li>Set new Voting Delay</li>
-          <li>Remove addresses to the list of authorized executors</li>
-          <li>Owns others roles</li>
-        </ul>
-      </td>
-      <td style="text-align:left">N</td>
-      <td style="text-align:left">N</td>
-      <td style="text-align:left">Y</td>
-      <td style="text-align:left">N</td>
-    </tr>
-  </tbody>
-</table>
+## Community Treasury Parameters
 
-## Treasury Vester
-
-| Parameter | Description |  |
+| Parameter | Description | Value |
 | :--- | :--- | :--- |
-| Owner | Can update whitelist; can mint | Short Timelock |
-| Transfers restricted before | Minimum timestamp \(in seconds\) that allows transfers | July 14th 15:00 UTC + 28 days + 7 days + 1 day |
-| MintMaxPercent | Maximum percentage owner of token can mint \(after minting restrictions end\) | 2 |
+| Owner | Can approve or transfer any token held by the treasury | Short Timelock |
+| Proxy Admin | Can upgrade the contract | Short Timelock |
+
+## 
 
 ## Merkle Distributor
 
-| Parameter | Description | Rewards Treasury | Community Treasury |
-| :--- | :--- | :--- | :--- |
-| Recipient | Address that receives vested funds | Rewards Treasury | Community Treasury |
-| Vesting Amount + Frontloaded Amount | Amount of tokens that will be immediately sent + vested to recipient | 450,000,000 | 50,000,000 |
-| Vesting Amount | Amount of tokens that will be vested to recipient | 374,616,438 | 50,000,000 |
-| Frontloaded Amount | Amount of tokens to be immediately sent to recipient | 75,383,562 | 0 |
-| Vesting Begin | Time when vesting begins | July 14th 15:00 UTC | July 14th 15:00 UTC |
-| Vesting Cliff | Time when vesting cliff begins \(and tokens can actually be sent to recipient\) | July 14th 15:00 UTC | July 14th 15:00 UTC |
-| Vesting End | Time when vesting ends | July 14th 15:00 UTC + 5 years | July 14th 15:00 UTC + 5 years |
-| Treasury Proxy Admin | Can upgrade treasury contract | Short Timelock | Short Timelock |
-| Treasury Funds Admin | Can spend treasury funds | Short Timelock | Short Timelock |
+| Parameter | Description | Value |
+| :--- | :--- | :--- |
+| Owner role | Can update the rewards oracle address, update the IPNS name, and is admin of all roles | Short Timelock |
+| Config updater role | May set rewards parameters, change the epoch schedule, or change the IPFS update period | Short Timelock |
+| Pauser role | Can pause updates to the merkle root | Merkle-pauser Timelock |
+| Unpauser role | Can unpause updates to the merkle root | Short Timelock |
+| Claim operator role | May claim rewards on behalf of a user | Claims Proxy |
+| Interval | Length of an epoch | 28 days |
+| Offset | Start of epoch zero | August 3rd 15:00 UTC 2021 |
+| IPNS name | IPNS name where rewards data is published | rewards-data.dydx.foundation |
+| IPFS update period | Period of time after the epoch end after which the new epoch exchange statistics should be available on IPFS via the IPNS name | 3 minutes |
+| Proxy Admin | Can upgrade the contract | Short Timelock |
 
 ## 
 
-| Parameter | Description | Rewards Treasury Initial Parameters | Community Treasury Initial Parameters | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Recipient | Address that receives vested funds | Rewards Treasury | Community Treasury |  |  |  |  |
-| Vesting Amount + Frontloaded Amount | Amount of tokens that will be immediately sent + vested to recipient | 450,000,000 | 50,000,000 |  |  |  |  |
-| Vesting Amount | Amount of tokens that will be vested to recipient | 374,616,438 | 50,000,000 |  |  |  |  |
-| Frontloaded Amount | Amount of tokens to be immediately sent to recipient | 75,383,562 | 0 |  |  |  |  |
-| Vesting Begin | Time when vesting begins | July 14th 15:00 UTC | July 14th 15:00 UTC |  |  |  |  |
-| Vesting Cliff | Time when vesting cliff begins \(and tokens can actually be sent to recipient\) | July 14th 15:00 UTC | July 14th 15:00 UTC |  |  |  |  |
-| Vesting End | Time when vesting ends | July 14th 15:00 UTC + 5 years | July 14th 15:00 UTC + 5 years |  |  |  |  |
-| Treasury Proxy Admin | Can upgrade treasury contract | Short Timelock | Short Timelock | Y |  |  |  |
-| Treasury Funds Admin | Can spend treasury funds | Short Timelock | Short Timelock | Y |  |  |  |
-
 ## Liquidity Staking
 
-|  |  |  |
+| Parameter | Description | Value |
 | :--- | :--- | :--- |
-| Epoch Zero Start | Time when epoch zero begins | July 14th 15:00 UTC |
-| Epoch Length | Length of each epoch | 28 days |
-| Waiting period | Delay between proposing root and activating root | 7 days |
-| User trading rewards per epoch | Amount of tokens to distribute per epoch for traders | 3,835,616 |
-| Liquidity Provider trading rewards per epoch | Amount of tokens to distribute per epoch for MMs | 1,150,685 |
-| Retroactive rewards for epoch 0 | Amount of tokens to distribute for retroactive rewards | 75,000,000 |
-| Owner role | Can change epoch parameters and rewards oracle | Short Timelock |
-| Pauser role | Can pause pending root \(before it's promoted to active\) | Merkle Timelock |
-| Unpauser role | Can unpause a paused pending root | Short Timelock |
-| Claim operator role | Can claim on others behalf | Claims proxy |
+| Owner role | Admin of all roles | Short Timelock |
+| Epoch parameters role | May set epoch parameters such as the interval, offset, and blackout window | Short Timelock |
+| Rewards rate role | May set the emission rate of rewards | Short Timelock |
+| Borrower admin role | May set borrower allocations and allow/restrict borrowers from borrowing | Short Timelock |
+| Claim operator role | May claim rewards on behalf of a user | Claims proxy |
+| Stake operator role | May manipulate user's staked funds \(e.g. perform withdrawals\) on behalf of a user | Short Timelock |
+| Debt operator role | May decrease borrow debt and decrease staker debt | Short Timelock |
+| Interval | Length of an epoch | 28 days |
+| Offset | Start of epoch zero | August 3rd 15:00 UTC 2021 |
+| Blackout window | Length of the blackout window | 14 days |
+| Rewards emission rate | Tokens allocated to stakers as rewards per second | 0.1585489619 \* 10^18 \(in wei\) |
+| Borrower allocations | Percent of funds allocated to each borrower | Wintermute 25%, Amber 25%, Sixtant 20%, Kronos 20%, DAT Trading 10% |
 | Proxy Admin | Can upgrade the contract | Short Timelock |
 
 ## Safety Module
 
-| Parameter | Description | Initial Parameter |
+| Parameter | Description | Value |
 | :--- | :--- | :--- |
-| Epoch Zero Start | Time when epoch zero begins | July 14th 15:00 UTC |
-| Rewards End | Times when rewards stop being distributed to stakers | July 14th 15:00 UTC + 5 years |
-| Epoch Length | Length of each epoch | 28 days |
-| Blackout Window Length | Time during which users cannot unstake before end of epoch | 7 days |
-| Minimum Epoch Length | Smallest allowed epoch length | 6 days |
-| Maximum Epoch Length | Largest allowed epoch length | 92 days |
-| Minimum Blackout Window Length | Smallest allowed blackout window length | 3 days |
-| Maximum Blackout Window Length | Largest allowed blackout window length | 46 days |
-| Rewards per second | Tokens to emit as rewards each second when within distribution window | 0.1585342262 = \(383,526 / \(28 \* 24 \* 60 \* 60\)\) |
-| Borrower Allocations | Percent funds to allocate to each borrower | TBD |
-| Owner role | Admin of all below roles | Short Timelock |
-| Epoch parameters role | Can set epoch parameters | Short Timelock |
-| Rewards rate role | Can change rewards rate | Short Timelock |
-| Borrower admin role | Can change borrower allocations / restrictions | Short Timelock |
-| Claim operator role | Can claim on the behalf of others | Claims Proxy |
-| Stake operator role | Can stake on the behalf of others | Unassigned |
-| Debt operator role | Can manage debt | Unassigned |
-| Proxy Admin | Can upgrade the contract | Short Timelock |
+| Owner role | Admin of all roles | Short Timelock |
+| Slasher role | Can slash staked token balances and withdraw those funds | Short Timelock |
+| Epoch parameters role | May set epoch parameters such as the interval, offset, and blackout window | Short Timelock |
+| Rewards rate role | May set the emission rate of rewards | Short Timelock |
+| Claim operator role | May claim rewards on behalf of a user | Claims proxy |
+| Stake operator role | May manipulate user's staked funds \(e.g. perform withdrawals\) on behalf of a user | Short Timelock |
+| Interval | Length of an epoch | 28 days |
+| Offset | Start of epoch zero | August 3rd 15:00 UTC 2021 |
+| Blackout window | Length of the blackout window | 14 days |
+| Rewards emission rate | Tokens allocated to stakers as rewards per second | 0.1585489619 \* 10^18 \(in wei\) |
+| Proxy Admin | Can upgrade the contract | Long Timelock |
 
 ## Stark Proxy
 
-| Parameter | Description | Liquidity Staking |  |
-| :--- | :--- | :--- | :--- |
-| Owner role | Owns owner, funds admin, and delegation admin roles + can add/remove recipients who receive funds + STARK keys | Market Maker |  |
-| Funds admin role | May withdraw any funds in excess of borrowed balance to allowed recipient, and may call forced actions | Market Maker |  |
-| Delegation admin role | Owns borrower and exchange role | Market Maker |  |
-| Borrower role | May call borrow functions on LS1 | Market Maker |  |
-| Exchange role | May call exchange functions | Market Maker |  |
-| Guardian role | May perform close actions, and force actions if borrower has overdue debt | Short Timelock |  |
+| Parameter | Description | Value |
+| :--- | :--- | :--- |
+| Owner role | Can add/remove recipients who receive funds + STARK keys, set ERC20 allowances on liquidity staking and stark perpetual contracts, call forced actions, and is admin of owner + delegation admin roles | Market Maker |
+| Delegation admin role | Is admin of borrower, exchange operator, and withdrawal operator roles | Market Maker |
+| Borrower role | May call borrow functions on the liquidity staking contract | Market Maker |
+| Exchange operator role | May call exchange functions on the stark perpetual contract | Market Maker |
+| Withdrawal operator role | May withdraw funds in excess of the borrowed balance to an allowed recipient | Market Maker |
+| Guardian role | May perform close actions, perform force actions if borrower has overdue debt, restrict open actions with borrowed funds, and approve a token amount to be withdrawn externally by the withdrawal operator role. | Short Timelock |
+| Veto guardian role | May veto forced trade requests initiated by the owner, during the waiting period | Merkle-pauser timelock |
 
 ## Stark Perpetual
 

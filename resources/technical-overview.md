@@ -33,8 +33,8 @@ There are 5 smart contracts that support dYdX Governance:
 | DydxGovernor | 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2 |
 | Short Timelock Executor | 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc |
 | Long Timelock Executor | 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B |
-| Merkle-Pauser Executor | 0xd98e7A71BacB6F11438A8271dDB2EFd7f9361F52 |
-| Starkware Timelock Executor | 0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE |
+| Merkle-Pauser Timelock Executor | 0xd98e7A71BacB6F11438A8271dDB2EFd7f9361F52 |
+| Starkware Priority Timelock Executor | 0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE |
 | Rewards Treasury | 0x639192D54431F8c816368D3FB4107Bc168d0E871 |
 | Community Treasury | 0xE710CEd57456D3A16152c32835B5FB4E72D9eA5b |
 | Safety Module | 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC |
@@ -46,7 +46,7 @@ There are 5 smart contracts that support dYdX Governance:
 | Liquidity Staking | 0x5Aa653A076c1dbB47cec8C1B4d152444CAD91941 |
 | Claims Proxy  | 0x0fd829C3365A225FB9226e75c97c3A114bD3199e |
 | StarkEx Helper Governor  | 0x0db9b3F7Dd83e29C9bece8E5e1089bA4369E694a |
-| StarkEx Remover Governer  | 0x3f129162087DbDf50F28246610e085cBf3a04012 |
+| StarkEx Remover Governor  | 0x3f129162087DbDf50F28246610e085cBf3a04012 |
 | Rewards Treasury Proxy Admin | 0x40D6992cbd03E0DC1c2DE9606D29Cb245E737a5d |
 | Community Treasury Proxy Admin | 0x9d51599A6b10f562619D8ef2EFDcA1B68aE80D03 |
 | Safety Module Proxy Admin | 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C |

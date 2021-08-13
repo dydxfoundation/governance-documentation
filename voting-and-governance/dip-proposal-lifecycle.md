@@ -68,7 +68,7 @@ The following chart shows a DIP state flowchart:
 
 ![Lifecycle of a DIP](../.gitbook/assets/image%20%2850%29.png)
 
-After a DIP is created on-chain it is subject to a **Voting Delay**, **Voting Period**, **Minimum Quorum**, and a minimum **Vote Differential**. The initial parameters are as follows \(and can be modified by governance\):
+After a DIP is created on-chain it is subject to a **Voting Delay**, **Voting Period**, **Minimum Quorum**, and a minimum **Vote Differential**. The initial parameters are as follows:
 
 | Parameter | Description | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -88,9 +88,9 @@ After a DIP has passed, any address can call the queue method to move the propos
 | Minimum Timelock Delay | Minimum delay before a proposal is executed \(after queuing\) | 1 day | 0 days | 5 days | 4 days |
 | Maximum Timelock Delay | Maximum delay before a proposal is executed \(after queuing\) | 7 days | 1 day | 21 days | 21 days |
 
-The Starkware executor has a priority window of 7 days out of 9 days. So in our deploy params we call it 9, but in practice it's 2–9 days depending on the priority controller \(Starkware\). Not sure how to communicate that in the docs. 6h 
+As soon as the voting period ends and a proposal has succeeded, anyone can call queue to begin the timelock delay.
 
-As soon as the voting period ends and a proposal has succeeded, anyone can call queue to start the clock ticking. From there it's 9 days, just like other timelocks, except that after 2 days Starkware has the option to expedite it.
+For the Starkware priority timelock executor, it has a priority period of 7 days out of the 9 day timelock delay. This means that after 9 days anyone can execute a proposal, but within days 2-9 \(the priority period\) Starkware has the option to execute the proposal.
 
 In practical terms it's: 
 
@@ -100,7 +100,7 @@ In practical terms it's:
 
 ## 7. \(Optional\) Proposal Cancellation
 
-At any point in a DIP lifecycle, the proposer can cancel the DIP. A new DIP will be submitted and subject to the same lifecycle.
+At any point in a DIP lifecycle, the proposer can cancel the DIP. A proposal can be cancelled by anyone before it is executed if the proposer does not have sufficient proposition power at the current block.
 
 
 
@@ -120,7 +120,7 @@ In the future, dYdX Governance may vote to increase or decrease the **Voting Del
 
 Since DYDX is a freely tradable asset, anyone can attempt a governance takeover via market buying. That said, to force-pass a bad faith vote would require a minimum of 5 million DYDX in the event of a short timelock or 20 million DYDX in the event of long timelock. If not outright impossible, this amount would be prohibitively expensive and likely cost more when accounting for price fluctuation than the net gain from the attack.
 
-If a group somehow achieved a bad faith takeover, Timelock delay would give affected agents time to withdraw their assets from the protocol. This would also be an opportunity to fork the protocol, a path that would likely be taken by the remaining good-faith actors.
+If a group somehow achieved a bad faith takeover, the timelock delay would give affected agents time to withdraw their assets from the protocol. This would also be an opportunity to fork the protocol, a path that would likely be taken by the remaining good-faith actors.
 
 ### 
 

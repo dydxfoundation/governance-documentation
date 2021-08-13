@@ -28,7 +28,7 @@ Users can stake USDC and DYDX to earn staking rewards.
 
 Users can view their rewards earned through trading activity on the layer 2 exchange. Trading rewards are distributed every 28 days according to an epoch schedule.
 
-![Trade to receive rewards](../.gitbook/assets/image%20%281%29.png)
+![Trade to receive rewards](../.gitbook/assets/image%20%2814%29%20%282%29.png)
 
 ### Portfolio & Claiming DYDX
 

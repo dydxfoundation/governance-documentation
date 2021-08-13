@@ -40,7 +40,7 @@ DYDX主要用于合约治理和手续费折扣。
 
 DYDX的具体折扣费用会根据用户账户上的DYDX持有数量决定。
 
-![](../.gitbook/assets/2.png)
+![](../.gitbook/assets/2%20%282%29.png)
 
 **DYDX代币奖励活动的起始和结束时间是？**
 
