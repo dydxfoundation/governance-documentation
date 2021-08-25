@@ -47,8 +47,5 @@
 
 * [DYDX 介绍](chinese/dydx-jie-shao.md)
 * [中文问答](chinese/zhong-wen-wen-da.md)
-
----
-
-* [追溯性挖矿教程](zhui-su-xing-wa-kuang-jiao-cheng.md)
+* [追溯性挖矿教程](chinese/zhui-su-xing-wa-kuang-jiao-cheng.md)
 
