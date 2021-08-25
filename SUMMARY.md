@@ -49,3 +49,7 @@
 * [中文问答](chinese/zhong-wen-wen-da.md)
 * [追溯性挖矿教程](chinese/zhui-su-xing-wa-kuang-jiao-cheng.md)
 
+---
+
+* [交易挖矿教程](jiao-yi-wa-kuang-jiao-cheng.md)
+
