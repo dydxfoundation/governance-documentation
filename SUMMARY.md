@@ -43,7 +43,7 @@
 * [dYdX Trading Inc.](https://dydx.exchange)
 * [Metrics Dashboard](http://metrics.dydx.exchange/)
 
-## 中文 <a id="chinese"></a>
+## 挖矿简介 <a id="chinese"></a>
 
 * [DYDX 介绍](chinese/dydx-jie-shao.md)
 * [中文问答](chinese/zhong-wen-wen-da.md)
