@@ -52,5 +52,6 @@
 
 ## 交易教程
 
-* [如何在dYdX上开空单（做空）](jiao-yi-jiao-cheng/ru-he-zai-dydx-shang-kai-kong-dan-zuo-kong.md)
+* [如何在dYdX上开空单（做空）](jiao-yi-jiao-cheng/ru-he-zai-dydx-shang-kai-kong-dan-zuo-kong/README.md)
+  * [如何在dYdX上开多单（做多）](jiao-yi-jiao-cheng/ru-he-zai-dydx-shang-kai-kong-dan-zuo-kong/ru-he-zai-dydx-shang-kai-duo-dan-zuo-duo.md)
 
