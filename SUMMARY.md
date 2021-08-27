@@ -50,3 +50,7 @@
 * [追溯性挖矿教程](chinese/zhui-su-xing-wa-kuang-jiao-cheng.md)
 * [交易挖矿教程](chinese/jiao-yi-wa-kuang-jiao-cheng.md)
 
+## 交易教程
+
+* [如何在dYdX上开空单（做空）](jiao-yi-jiao-cheng/ru-he-zai-dydx-shang-kai-kong-dan-zuo-kong.md)
+
