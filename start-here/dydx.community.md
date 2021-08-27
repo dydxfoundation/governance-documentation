@@ -34,7 +34,7 @@ Users can view their rewards earned through trading activity on the layer 2 exch
 
 Users can see an aggregated view of their DYDX holdings, claimable DYDX, staked DYDX, and withdrawable DYDX.
 
-Users can see the current circulating supply and daily distribution of DYDX tokens. Users can also claim all available DYDX rewards.
+Users can see the current circulating supply and daily distribution of DYDX tokens. Users can also claim all available DYDX rewards. DYDX tokens will become transferable on or after **September 8, 2021** at approximately 15:00 UTC.
 
 ![Claim your rewards](../.gitbook/assets/image%20%2815%29.png)
 
