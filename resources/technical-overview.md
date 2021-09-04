@@ -17,11 +17,12 @@ dYdX on-chain governance supports the following features:
   * rapid protocol upgrades and funds distribution via short time-lock executors;
   * governance upgrades via long time-lock executors.
 
-There are 5 smart contracts that support dYdX Governance:
+There are 6 smart contracts that support dYdX Governance:
 
 * **The `DydxToken` contract**: Keeps snapshots which support queries for an address’ voting or proposing power at any block number. Supports separate delegation of voting and proposing powers.
 * **The `DydxGovernor` contract**: Tracks proposals and can execute proposals via the Executor smart contracts.
 * **The `Executor` contracts**: Can queue, cancel, and execute transactions voted on by Governance. If a proposal passes, the functions calls in the proposal may be executed by the Executor contract specified in the proposal. Queued transactions can be executed after a delay, whose duration is determined by the Executor contract.
+* **The** **`Priority Timelock`** **contract**: The same as the timelock contract, but allows a priority controller to execute transactions within the **Priority Period** \(7 days\) before the end of the timelock delay.
 * **The `Governance Strategy` contract**: Contains the logic for counting votes. Currently, counts votes from the DYDX Token and the Safety Module. Can be upgraded via the long time-lock.
 * **The `Safety Module` contract**: Contains logics to stake DYDX tokens, tokenize a staked position, and earn rewards, while retaining the voting and proposing rights and delegation functions of the underlying tokens.
 
@@ -75,6 +76,8 @@ All major new smart contracts have been audited by Peckshield. No significant or
 
 ## Core Governance Contracts
 
+![Red dashed lines indicate contract is upgradeable](../.gitbook/assets/screen-shot-2021-09-03-at-5.17.43-pm.png)
+
 ### DydxToken
 
 The DydxToken contract was inspired by Aave. Minor changes have been made by the dYdX team.
@@ -90,6 +93,12 @@ DYDX is deployed at [0x92D6C1e31e14520e676a687F0a93788B716BEff5](https://ethersc
 The DydxGovernor contract was inspired by Aave. Minor changes have been made by dYdX. 
 
 Governor is deployed at [0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2) on the Ethereum mainnet. It was built from commit \[coming soon\].
+
+### GovernanceStrategy
+
+The GovernanceStrategy contract was inspired by Aave.
+
+Strategy is deployed at [0x90Dfd35F4a0BB2d30CDf66508085e33C353475D9](https://etherscan.io/address/0x90Dfd35F4a0BB2d30CDf66508085e33C353475D9) on the Ethereum mainnet. It was built from commit \[coming soon\].
 
 **ABI**
 
@@ -127,6 +136,10 @@ The **Starkware Priority Timelock** is deployed  at [0xa306989BA6BcacdECCf3C0614
 
 ### Merkle Distributor
 
+
+
+![Red dashed lines indicate contract is upgradeable](../.gitbook/assets/screen-shot-2021-09-03-at-5.23.50-pm.png)
+
 The Merkle Distributor smart contract distributes DYDX token rewards according to a Merkle tree of balances. The tree can be updated periodically with each user's cumulative reward balance, allowing new rewards to be distributed to users over time.
 
 An update is performed by setting the proposed Merkle root to the latest value returned by the oracle contract. The proposed Merkle root can be made active after a waiting period has elapsed. During the waiting period, dYdX Governance has the opportunity to freeze the Merkle root, in case the proposed root is incorrect or malicious. Root updates can be unpaused by ShortTimelockExecutor.
@@ -139,13 +152,23 @@ The Merkle Distributor smart contract was inspired by Uniswap and Badger designs
 
 ### Safety Module
 
+
+
+![Red dashed lines indicate contract is upgradeable](../.gitbook/assets/screen-shot-2021-09-03-at-5.24.45-pm.png)
+
 The Safety Module is a staking pool that offers DYDX rewards to users who stake DYDX towards the security of the Protocol.
 
 **ABI**
 
 \[coming soon\]
 
+
+
 ### Liquidity Module
+
+
+
+![Red dashed lines indicate contract is upgradeable](../.gitbook/assets/screen-shot-2021-09-03-at-5.25.30-pm.png)
 
 The Liquidity Module is a collection of smart contracts for staking and borrowing, which incentivize the allocation of USDC funds for market making purposes on the dYdX layer 2 exchange.
 
@@ -157,23 +180,23 @@ Stakers earn DYDX rewards for staking USDC. The staked funds may be borrowed by 
 
 This contract allows the owner to borrow funds from LiquidityStaking and use those funds on StarkPerpetual. Additional funds may be deposited by the owner, and any funds in excess of the borrowed amount may be withdrawn freely. This contract interacts with the [StarkPerpetual](https://github.com/starkware-libs/starkex-contracts/tree/master/scalable-dex/contracts/src/perpetual) contract which was written by Starkware, and previously audited and deployed.
 
+
+
 ### Treasury Contracts
 
-The TreasuryVester contract was inspired by [Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol). Minor changes have been made by the dYdX team.
 
-The DydxEcosystemReserve contract was inspired by Aave. Minor changes have been made by the dYdX team.
+
+![Red dashed lines indicate contract is upgradeable](../.gitbook/assets/screen-shot-2021-09-03-at-5.26.09-pm.png)
+
+The TreasuryVester contract was inspired by [Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol).
 
 The Short Timelock can only execute governance-approved actions.
 
-There are two treasury vesters and ecosystem reserve contracts, one is for liquidity mining rewards and the other is for holding “general purpose” treasury funds.
+There are two treasury vesters and treasury contracts, one is for incentive contract rewards and the other is for holding “general purpose” treasury funds.
 
-Since governance controls each ecosystem reserve, it can transfer funds to any address and/or approve any address to spend funds within either ecosystem reserve. For example, the rewards programs will need to have token approval limits set by governance.
+Since governance controls each treasury, it can transfer funds to any address and/or approve any address to spend funds from either treasury. For example, the rewards programs will need to have token approval limits set by governance.
 
-Each treasury vester will vest tokens \(starting at a timestamp and emission rate specified by the treasury vester deployer\) to the corresponding ecosystem reserve.
-
-The ecosystem reserve controller is only necessary because the ecosystem reserve smart contract is a proxy. Governance is the admin of the ecosystem reserve proxy, and proxy admins cannot call the implementation contract of proxies. Therefore, governance cannot directly call functions on the ecosystem reserve and needs the ecosystem reserve controller to “proxy” all calls to the ecosystem reserve implementation contract.
-
-![Community Treasury architecture](../.gitbook/assets/image%20%2882%29.png)
+Each treasury vester will vest tokens linearly over ~5 years \(August 3rd 2021 - August 3rd 2026\) to the corresponding treasury.
 
 
 
