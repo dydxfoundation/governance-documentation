@@ -58,5 +58,6 @@
 
 ## 公告
 
+* [关于暂停保险质押池的通知](gong-gao/guan-yu-zan-ting-bao-xian-zhi-ya-chi-de-tong-zhi.md)
 * [Epoch 0回顾](gong-gao/untitled.md)
 
