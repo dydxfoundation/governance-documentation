@@ -58,5 +58,5 @@
 
 ## 公告
 
-* [Epoch 0 review](gong-gao/untitled.md)
+* [Epoch 0回顾](gong-gao/untitled.md)
 
