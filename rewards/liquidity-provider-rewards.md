@@ -16,7 +16,7 @@ To incentivize market liquidity, DYDX will be distributed to liquidity providers
 
 The following function is used to compute how much DYDX should be rewarded to each liquidity provider per epoch. The amount of DYDX earned is determined by the relative share of each participant’s $$Q_{FINAL}$$ :
 
-![](https://lh6.googleusercontent.com/0cDsOz823Q4TxMJmBn1qqh9M0caQfYuRr6tqgdTfadGWsSn-h6mQd4xkoLsBVIXuSi767ruq17xnGZaneymMZDY6O-5r1pbJT0ozMgYBZ8hj0fdNwZBGPijWXOdCEzYf49QJkEYr)
+![](../.gitbook/assets/image%20%2843%29.png)
 
 Orders below a certain **minimum depth** \(size\) \($$MinDepth$$\) per market are excluded, and orders over a certain **maximum spread** \(mid-market spread\) \($$MaxSpread$$\) market are excluded as well.
 
@@ -30,20 +30,14 @@ The above formula is broken out into step-by-step calculations below for detail:
   <thead>
     <tr>
       <th style="text-align:left">Term (in order of calculation)</th>
-      <th style="text-align:left">Definition</th>
+      <th style="text-align:left"></th>
       <th style="text-align:left">Explanation / Example</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <p></p>
-        <p>
-          <img src="https://lh6.googleusercontent.com/XsZKdkJn9NkEP2Mso2HmGmCjzAOihckJ9MwSBQlHGO8eaMFPYpmNTXb6XNkmWKIfACtryaum41hdn-sPOukO1OJbEWIaDA3xyeNow48NNic_GoC5IIe4MGdLM0LN6InhAYrkxfbz"
-          alt/>
-        </p>
-      </td>
+      <td style="text-align:left"></td>
       <td style="text-align:left">
         <p>Assume a liquidity provider has multiple open bid orders (1 BTC at $29,900,
           5 BTC at $29,850, 10 BTC at $29,500) on the BTC-USD order book and BTC
@@ -61,13 +55,7 @@ The above formula is broken out into step-by-step calculations below for detail:
     </tr>
     <tr>
       <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <p></p>
-        <p>
-          <img src="https://lh5.googleusercontent.com/uxfSceooDx_9syd0kVXz7bNopBlxm4z1vKzs55QRYntJ4bsCXMBcAYEjAzLLd4yyYVLaqL93UfxSACki00hgtcf9C72tlzV-CtDgiQh-f5rjbC8JTF14DKCBmOSLUlmgoqnej9N4"
-          alt/>
-        </p>
-      </td>
+      <td style="text-align:left"></td>
       <td style="text-align:left">
         <p>Assume a liquidity provider has multiple open ask orders (0.1 BTC at $30,100,
           5 BTC at $30,150, 10 BTC at $30,175) on the BTC-USD order book and BTC
@@ -82,10 +70,7 @@ The above formula is broken out into step-by-step calculations below for detail:
     </tr>
     <tr>
       <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="https://lh5.googleusercontent.com/NFiIrqk0GpxShUTMvywPxbIUYewahGzCZQUSIue6GwEluEgDy1_FrrlGmWjwJI_qdqHB5h2OMJhf7P3gWxX64sSkl5ldZNZ6qvVHdHGxRfRJp_V6wXwGkxQJMIn8c2N4BZHU8YcJ"
-        alt/>
-      </td>
+      <td style="text-align:left"></td>
       <td style="text-align:left">
         <p>Rewards 2-sided liquidity by taking the minimum of and .
           <br />
@@ -95,18 +80,12 @@ The above formula is broken out into step-by-step calculations below for detail:
     </tr>
     <tr>
       <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="https://lh5.googleusercontent.com/Zge9XwAIKExLapir2KtmQU_Hf6WYoFeCzr7gWmiMxWF3K2mDPdRsThIM3uJiyQp-GZ1VR5rcDGrTpgREjhGACboCo2CeDIRAC5OlnfkQQwW0AVLmvtqFsrWK0AE-TbG39ndNreSR"
-        alt/>
-      </td>
+      <td style="text-align:left"></td>
       <td style="text-align:left">is the sum of all in a given epoch.</td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <img src="https://lh6.googleusercontent.com/D2pCRVlr0ARtcHcbjWTDFa4edOMHkqk9-s09KwuKKZts82jaAG_zr09kJQZroO9Qd7fz9Z65cG3oH4RoWKd6B_7iKBGTbK6sAW7EGJmrb3v2e_jqAXMnq7BuZIgdu_KwCsrfBKM3"
-        alt/>
-      </td>
+      <td style="text-align:left"></td>
       <td style="text-align:left">is the percentage of time in an epoch that a given market maker was live
         and quoting on both the bid and ask sides with order sizes greater than
         stated order minimum (noted below by market) and spreads smaller than stated
@@ -114,13 +93,7 @@ The above formula is broken out into step-by-step calculations below for detail:
     </tr>
     <tr>
       <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <p></p>
-        <p>
-          <img src="https://lh4.googleusercontent.com/alasGvASJao4t8C1fFPcA5pI6MZIoM0SZQIlYSmAEedmXnMupVZNY4fPWxkF6u9XSwuUxjStbqYoSbfH9I7m8MWPtRYUnGm3LsW6a3smHDEUbXoLhlKYQgNXoUu2gcMb-x7zKlVt"
-          alt/>
-        </p>
-      </td>
+      <td style="text-align:left"></td>
       <td style="text-align:left">normalizes to account for uptime</td>
     </tr>
   </tbody>
