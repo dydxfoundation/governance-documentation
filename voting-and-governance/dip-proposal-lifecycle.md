@@ -22,7 +22,7 @@ Anyone can sign up and set up a thread on any topic on dYdX’s Governance forum
 
 Off-chain **dYdX Request for Comments** \(DRCs\) creation is the first step in the governance improvement process. Anyone can participate in the Governance Forum, create off-chain DRCs, and discuss improvements.
 
-To create a DRC, use [this template](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) \(available on our Github\).
+To create a DRC, use [this template](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) \(available on our Github\). The ARC should cover all the information of the potentially final DIP.
 
 At a minimum, DRCs must include:
 
