@@ -38,7 +38,7 @@ Once posted on the governance forum, all questions and comments should be addres
 
 ## 3. DRC Snapshot Polling
 
-Once an off-chain DRC has a very rough consensus, a community member holding more than `10,000` DYDX can create an **off-chain vote** for the DRC on **Snapshot** \([c](https://snapshot.org/#/dydx/create)oming soon\).
+Once an off-chain DRC has a very rough consensus, a community member holding more than `10,000` DYDX can create an **off-chain vote** for the DRC on **Snapshot**.
 
 Snapshot is a simple voting interface that allows users to signal sentiment off-chain. Votes on snapshot are weighted by the number of DYDX delegated to the address used to vote.
 
