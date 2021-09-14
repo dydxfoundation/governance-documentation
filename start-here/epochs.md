@@ -90,6 +90,8 @@ The following will occur only at the end of **Epoch 0**:
 | 64 | 6/30/2026 15:00:00 | 7/28/2026 15:00:00 | 28 | 4.99 |
 | 65 | 7/28/2026 15:00:00 | 8/25/2026 15:00:00 | 28 | 5.06 |
 
+The dYdX Foundation has created a public Google Calendar with start / end dates for Epochs and Blackout Windows - you can subscribe [**here**](https://calendar.google.com/calendar/u/3?cid=Y19wZjIwYzBoZzQ3dTR2cHRja283NDl1ajQyb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
+
 ## **When will the rewards and staking pools be activated?**
 
 * The [Retroactive Mining Rewards](../rewards/retroactive-mining-rewards.md) are now live on the Protocol. These rewards will run until **August 31th, 2021, 15:00:00 UTC**.
