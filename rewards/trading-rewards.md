@@ -40,7 +40,7 @@ $$
 
 The following example illustrates Trading Rewards earned by Traders A, B, and C using the formula listed above:
 
-![An example distribution for Trading Rewards](../.gitbook/assets/image%20%2838%29.png)
+![An example distribution for Trading Rewards](../.gitbook/assets/frame-1208.png)
 
 ## FAQ
 
