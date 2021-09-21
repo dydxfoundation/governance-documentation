@@ -47,7 +47,7 @@ There are 6 smart contracts that support dYdX Governance:
 | Liquidity Staking | 0x5Aa653A076c1dbB47cec8C1B4d152444CAD91941 |
 | Claims Proxy  | 0x0fd829C3365A225FB9226e75c97c3A114bD3199e |
 | StarkEx Helper Governor  | 0x0db9b3F7Dd83e29C9bece8E5e1089bA4369E694a |
-| StarkEx Remover Governor  | 0x3f129162087DbDf50F28246610e085cBf3a04012 |
+| StarkEx Remover Governor V2 | 0xFCAac0F14deA11eDe11Afcb875f29130e1ad5ec0 |
 | Rewards Treasury Proxy Admin | 0x40D6992cbd03E0DC1c2DE9606D29Cb245E737a5d |
 | Community Treasury Proxy Admin | 0x9d51599A6b10f562619D8ef2EFDcA1B68aE80D03 |
 | Safety Module Proxy Admin | 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C |
