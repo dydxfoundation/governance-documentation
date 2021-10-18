@@ -38,13 +38,13 @@
 
 **一旦代币被认领，它们就可以用于 dYdX 治理。**
 
-**领取网站：** [**https://dydx.community/dashboard**](https://dydx.community/dashboard)
+**领取网站： **[**https://dydx.community/dashboard**](https://dydx.community/dashboard)
 
-![](https://lh5.googleusercontent.com/Dnwc_vMJQ_F4odn3K8d68eE-_gPRnaC7b6TXULfi5UyyAYif2lorM4FwgxDyhbeORYdfyKRddyHxRHY05Fy-ip6YU27ZBmzUv2IH-UTXYPgNfZjePxNmIs_HGeFuVpQBxLi-ge00=s0)
+![](https://lh5.googleusercontent.com/Dnwc\_vMJQ\_F4odn3K8d68eE-\_gPRnaC7b6TXULfi5UyyAYif2lorM4FwgxDyhbeORYdfyKRddyHxRHY05Fy-ip6YU27ZBmzUv2IH-UTXYPgNfZjePxNmIs\_HGeFuVpQBxLi-ge00=s0)
 
 **5、交易挖矿奖励计算：**
 
-![](https://lh4.googleusercontent.com/KbGERBVLd3i1Wuu1Q0JD0nVo-0BBbOcEjylRmKsJ6wzIgBPFSWWQxcpqio_Bcb1oGDgYGNtJEwcxAIXPzcHxmTZZvDXG3KvF33sLfnm0uR7m6ExNqJeStz31vEnymtCNWnO9K5iI=s0)
+![](https://lh4.googleusercontent.com/KbGERBVLd3i1Wuu1Q0JD0nVo-0BBbOcEjylRmKsJ6wzIgBPFSWWQxcpqio\_Bcb1oGDgYGNtJEwcxAIXPzcHxmTZZvDXG3KvF33sLfnm0uR7m6ExNqJeStz31vEnymtCNWnO9K5iI=s0)
 
 **r：交易挖矿获取Token数量。**
 
@@ -54,7 +54,7 @@
 
 **w：个人交易者得分**
 
-![](https://lh6.googleusercontent.com/idgEnYlHifDOXDUkp2WfA3bThfoUONnAfYR4e7swq2udWy3mx49kWuBpfABL-2MfnNuUrvPiHPEQhjElx-xOd8I_wGngn-EwwNLHp3mQ-xTeJ0ojqBOwfmPHQhi_fPa_hxD0GQpw=s0)**：所有交易者得分的总和。**
+![](https://lh6.googleusercontent.com/idgEnYlHifDOXDUkp2WfA3bThfoUONnAfYR4e7swq2udWy3mx49kWuBpfABL-2MfnNuUrvPiHPEQhjElx-xOd8I\_wGngn-EwwNLHp3mQ-xTeJ0ojqBOwfmPHQhi\_fPa\_hxD0GQpw=s0)**：所有交易者得分的总和。**
 
 **d：交易者在该时期所有市场的平均持仓量（每小时测量一次）**
 
@@ -86,7 +86,7 @@
 
 **支付费用是衡量交易者活动的重要指标，交易费用是由30天成交量加权的挂单-吃单手续费用以及可享受的手续费折扣确定。**
 
-﻿**挂单-吃单手续费计划：**
+**﻿挂单-吃单手续费计划：**
 
 [**https://help.dydx.exchange/en/articles/4798040-perpetual-trade-fees**](https://help.dydx.exchange/en/articles/4798040-perpetual-trade-fees)
 
@@ -96,11 +96,11 @@
 
 **下图展示了成交量加权的挂单-吃单费用：**
 
-![](https://lh5.googleusercontent.com/iQJ6mNn3zMso3G2Pil6bhY6FESRqAVk05p9vI9E3BLPIYP9vQfMYTl_BSGqZQmVhm5TTRCkMPbTxPF_vJmWoMc7BNTFZtnqFx0a76jgIc1axREg7JQbCPT5hywu76YsBTcFMjBAB=s0)
+![](https://lh5.googleusercontent.com/iQJ6mNn3zMso3G2Pil6bhY6FESRqAVk05p9vI9E3BLPIYP9vQfMYTl\_BSGqZQmVhm5TTRCkMPbTxPF\_vJmWoMc7BNTFZtnqFx0a76jgIc1axREg7JQbCPT5hywu76YsBTcFMjBAB=s0)
 
 **在一个挖矿周期的过程中，为每个交易者汇总了支付的总费用。下表显示了不同交易量的在平均持仓量为1的情况下，使用上述费用表的用户所计算出的预设交易者分数。**
 
-![](https://lh5.googleusercontent.com/vWt264xWo9d51uVob_bk1fZqjdiQh8jgZyYE8YEgm0h_UZLiN8HYqlRL--nt4_1S7zLoEoAn07f71Qfh_Ks6fc1knkZ74w88akhcJtPVq14AwzmEEYvRquzuJ_pS1NkfmnSQ1Qtq=s0)
+![](https://lh5.googleusercontent.com/vWt264xWo9d51uVob\_bk1fZqjdiQh8jgZyYE8YEgm0h\_UZLiN8HYqlRL--nt4\_1S7zLoEoAn07f71Qfh\_Ks6fc1knkZ74w88akhcJtPVq14AwzmEEYvRquzuJ\_pS1NkfmnSQ1Qtq=s0)
 
 **举例：**
 
@@ -124,7 +124,7 @@
 
 **下表显示了交易者A、B、C在同一时期内的40320分钟（28天）过程中的预设加权平均持仓量。**
 
-![](https://lh3.googleusercontent.com/FTdKh-ukUlJVC1o_4v-YRo3Z6XvhRnZPkQlMoqLzqoPOZu575di4qSXy7qj8IlrHrrnTLYs4k1-samtZ-3QcxZOIFj36BLAw_tVhOVRruuDJPWjBIAsfwCtjIjIJspjXhCVVfJx7=s0)
+![](https://lh3.googleusercontent.com/FTdKh-ukUlJVC1o\_4v-YRo3Z6XvhRnZPkQlMoqLzqoPOZu575di4qSXy7qj8IlrHrrnTLYs4k1-samtZ-3QcxZOIFj36BLAw\_tVhOVRruuDJPWjBIAsfwCtjIjIJspjXhCVVfJx7=s0)
 
 * **总结：**
 
@@ -142,13 +142,13 @@
 
 **因此，0.7的恒定权重应用于费用支付因素。支付的费用增加1%将导致用户的交易者得分增加约0.7%。0.3的恒定权重应用于平均未平仓合约因子。支付的费用增加1%将导致用户的交易者得分增加约0.3%。下图显示了支付费用和平均持仓量的不同组合对用户交易者评分的影响:**
 
-![](https://lh4.googleusercontent.com/CT6lqHdZ9q1Ryph84SjPqHkQ42kN7qmV5i8H_loh8IieNMKjSFXNJwO_jFInmbgVhudgoe10DmmZ0YMKwflPA7DF3TO1j9sKrMolF5H3CE3c-BgCyY6O-uvnqsmbTNLI96Cs8KqD=s0)
+![](https://lh4.googleusercontent.com/CT6lqHdZ9q1Ryph84SjPqHkQ42kN7qmV5i8H\_loh8IieNMKjSFXNJwO\_jFInmbgVhudgoe10DmmZ0YMKwflPA7DF3TO1j9sKrMolF5H3CE3c-BgCyY6O-uvnqsmbTNLI96Cs8KqD=s0)
 
 * **总结：**
 
 **1、虽然在给定的时期内需要支付费用和加权平均持仓量才能获得奖励，但支付的费用比加权平均持仓量具有更高的权重。**
 
-**2、鼓励交易者从一个账户进行交易。在给定的挖矿周期（epoch）中将交易分成多个账户会导致更少的，例如「 \(4^\(0.3\) 2^\(0.7\) + 2^\(0.3\) 4^\(0.7\) &lt; \(6^\(0.3\) \* 6\(0.7\) 」。**
+**2、鼓励交易者从一个账户进行交易。在给定的挖矿周期（epoch）中将交易分成多个账户会导致更少的，例如「 (4^(0.3) 2^(0.7) + 2^(0.3) 4^(0.7) < (6^(0.3) \* 6(0.7) 」。**
 
 **5、交易挖矿相关链接：**
 
@@ -158,7 +158,7 @@
 
 * **开始交易网站链接：**
 
-[**https://trade.dydx.exchange/**](https://trade.dydx.exchange/)
+[**https://trade.dydx.exchange/**](https://trade.dydx.exchange)
 
 * **查看您的账户交易支付费用加权平均持仓量和实时预估交易挖矿奖励：**
 
@@ -166,6 +166,5 @@
 
 * **领取交易挖矿奖励地址：**
 
-[**https://dydx.community**](https://dydx.community/)  
+[**https://dydx.community**](https://dydx.community)****\
 ****
-

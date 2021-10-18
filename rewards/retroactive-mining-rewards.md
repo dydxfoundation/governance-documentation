@@ -4,7 +4,7 @@ description: Overview of the Retroactive Mining Rewards program.
 
 # Retroactive Mining Rewards
 
-`7.50%` of the initial token supply \(`75,000,000 DYDX`\) will be distributed to past users of any dYdX protocol who complete certain trading milestones on the Protocol, except for users located in a jurisdiction where DYDX is not permitted, including the United States. To claim earned tokens, users will need to trade on dYdX’s Layer 2 Protocol and achieve their respective claim milestone.
+`7.50%` of the initial token supply (`75,000,000 DYDX`) will be distributed to past users of any dYdX protocol who complete certain trading milestones on the Protocol, except for users located in a jurisdiction where DYDX is not permitted, including the United States. To claim earned tokens, users will need to trade on dYdX’s Layer 2 Protocol and achieve their respective claim milestone.
 
 **Objectives**
 
@@ -15,9 +15,9 @@ description: Overview of the Retroactive Mining Rewards program.
 
 The success of the dYdX Layer 2 Protocol is the result of thousands of community members who have been trading on the dYdX Layer 2 Protocol and its predecessors over the past three years.
 
-DYDX has been allocated to historical users of all dYdX protocols \(except for users located in a jurisdiction where DYDX is not permitted, including the United States\) based on a snapshot ending **July 26, 2021, at 00:00:00 UTC**. There are five allocation tiers which take into account a user's past activity across all dYdX protocols.
+DYDX has been allocated to historical users of all dYdX protocols (except for users located in a jurisdiction where DYDX is not permitted, including the United States) based on a snapshot ending **July 26, 2021, at 00:00:00 UTC**. There are five allocation tiers which take into account a user's past activity across all dYdX protocols.
 
-To claim DYDX, historical users must meet the following milestones on [Layer 2 Perpetuals](https://trade.dydx.exchange) within the first 28-day epoch \(Epoch 0\):
+To claim DYDX, historical users must meet the following milestones on [Layer 2 Perpetuals](https://trade.dydx.exchange) within the first 28-day epoch (Epoch 0):
 
 ![](../.gitbook/assets/buckets.png)
 
@@ -29,7 +29,7 @@ Users will be able to reach their claim milestones until the end of Epoch 0. All
 
 ### **Who is eligible for retroactive rewards?**
 
-Past dYdX users who have traded on dYdX protocols \(perpetual, margin, spot\) on Layer 2 or Layer 1 or deposited funds into dYdX’s borrow / supply pools are eligible to receive DYDX through retroactive rewards.
+Past dYdX users who have traded on dYdX protocols (perpetual, margin, spot) on Layer 2 or Layer 1 or deposited funds into dYdX’s borrow / supply pools are eligible to receive DYDX through retroactive rewards.
 
 In line with restrictions on the availability of DYDX and the dYdX Layer 2 Protocol in the United States, retroactive mining is not available to users who are residents of, or incorporated or headquartered in, the United States or any other prohibited jurisdiction. Any accounts that appeared to be clearly associated with bot activity speculating on a future airdrop were also excluded from retroactive rewards.
 
@@ -37,9 +37,9 @@ All retroactive rewards allocations are final and cannot be changed.
 
 ### How much DYDX did I earn in the retroactive rewards program?
 
-![View claim milestone and progress](../.gitbook/assets/image%20%2825%29.png)
+![View claim milestone and progress](<../.gitbook/assets/image (23).png>)
 
-Past dYdX users can view their past activity and tier for Retroactive Mining at [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards). To earn DYDX, users must trade on the dYdX Layer 2 Protocol at [**trade.dydx.exchange**](https://trade.dydx.exchange/) to meet their criteria threshold.
+Past dYdX users can view their past activity and tier for Retroactive Mining at [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards). To earn DYDX, users must trade on the dYdX Layer 2 Protocol at [**trade.dydx.exchange**](https://trade.dydx.exchange) to meet their criteria threshold.
 
 ### What happens if I don’t reach my claim milestone?
 
@@ -54,4 +54,3 @@ Any unclaimed DYDX at the end of the epoch 0 will be forfeited and automatically
 Earned DYDX tokens via the Retroactive Mining Rewards will become claimable and transferable once the initial transfer restriction period is lifted.
 
 On approximately **September 8, 2021 15:00:00 UTC**, `8 days` after the end of Epoch 0, the initial transfer restrictions will be lifted and earned DYDX tokens via the Retroactive Mining Rewards can be claimed, withdrawn, transferred, or delegated.
-

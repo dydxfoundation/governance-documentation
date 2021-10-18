@@ -18,10 +18,10 @@ There are 6 smart contracts at the core of dYdX Governance:
 * **The `Governance Strategy` contract**: contains logic to measure users' relative power to propose and vote.
 * **The `Safety Module` contract**: contains logics to stake DYDX tokens, tokenize the position and get rewards. Token staked the safety module retain full governance rights.
 * **The `Governor` contract**: tracks proposals and can execute proposals via the Timelock smart contract.
-* **The `Timelock` contracts**: can queue, cancel, or execute transactions voted by Governance. The functions in a proposal are initiated by the Timelock contract. Queued transactions can be executed after a delay and before the expiration of the grace period. 
-* **The `Priority Timelock` contract**: The same as the timelock contract, but allows a priority controller to execute transactions within the **Priority Period** \(7 days\) before the end of the timelock delay. 
+* **The `Timelock` contracts**: can queue, cancel, or execute transactions voted by Governance. The functions in a proposal are initiated by the Timelock contract. Queued transactions can be executed after a delay and before the expiration of the grace period.&#x20;
+* **The `Priority Timelock` contract**: The same as the timelock contract, but allows a priority controller to execute transactions within the **Priority Period** (7 days) before the end of the timelock delay.&#x20;
 
-![Smart contract architecture](../.gitbook/assets/image%20%2864%29.png)
+![Smart contract architecture](<../.gitbook/assets/image (49).png>)
 
 dYdX on-chain governance allows for:
 
@@ -29,7 +29,7 @@ dYdX on-chain governance allows for:
 * Snapshotting token holdings at the start of a proposal
 * Separate delegation of voting and proposing powers
 * Setting governance thresholds including proposals, quorums, and vote differential powers
-* Changing how votes are counted \(by changing the “Governance Strategy” smart contract address on the Governor contract\)
+* Changing how votes are counted (by changing the “Governance Strategy” smart contract address on the Governor contract)
 
 ## Proposal Types
 
@@ -49,7 +49,7 @@ The short timelock executor controls the following:
 
 The Starkware priority timelock executor owns the StarkEx Perpetual Exchange contract. It can execute proposals that control the configuration of the dYdX Layer 2 Exchange.
 
-Depending on the action to be taken, the Starkware team may need to be involved in order to correctly implement the change on the exchange. For this reason, this executor is provided with a “priority controller” role, which provides Starkware with a period of 7 days \(**Priority Period**\) in which only they have the ability to trigger execution of a proposal.
+Depending on the action to be taken, the Starkware team may need to be involved in order to correctly implement the change on the exchange. For this reason, this executor is provided with a “priority controller” role, which provides Starkware with a period of 7 days (**Priority Period**) in which only they have the ability to trigger execution of a proposal.
 
 Starkware does not have control over _which_ protocol changes are made. Only DYDX tokenholders, via dYdX governance, have the ability to approve or deny changes to the exchange protocol.
 
@@ -63,7 +63,5 @@ The Merkle-pauser executor can execute proposals that freeze the Merkle root, wh
 
 The initial timelock parameters are as follows:
 
-![Initial timelock parameters](../.gitbook/assets/initial-timelock-parameters.png)
-
-
+![Initial timelock parameters](<../.gitbook/assets/Initial Timelock Parameters.png>)
 

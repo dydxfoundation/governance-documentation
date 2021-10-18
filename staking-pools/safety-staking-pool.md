@@ -4,7 +4,7 @@ description: An overview of the Safety Staking Pool
 
 # Safety Module
 
-`2.50%` of the initial token supply \(`25,000,000 DYDX`\) will be distributed to users staking DYDX to a Safety pool for backstopping the system.
+`2.50%` of the initial token supply (`25,000,000 DYDX`) will be distributed to users staking DYDX to a Safety pool for backstopping the system.
 
 **Objectives**
 
@@ -13,7 +13,7 @@ description: An overview of the Safety Staking Pool
 
 DYDX staked in the Safety Module retains its proposing and voting rights, as well as delegation abilities.
 
-Start staking at [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
+Start staking at [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
 
 ## Overview
 
@@ -23,7 +23,7 @@ The Safety pool will go live upon DYDX becoming transferrable on September 8th, 
 
 ## Withdrawals
 
-Stakers must request to withdraw funds at least `14 days` **\(Blackout Window\)** before the end of the epoch in order to be able to withdraw funds after the end of that epoch. If stakers do not request to withdraw, their staked DYDX is rolled over into the next epoch. 
+Stakers must request to withdraw funds at least `14 days` **(Blackout Window) **before the end of the epoch in order to be able to withdraw funds after the end of that epoch. If stakers do not request to withdraw, their staked DYDX is rolled over into the next epoch.&#x20;
 
 ## Risks
 
@@ -35,11 +35,11 @@ Like participants in any DeFi protocol, stakers in the Safety Module are exposed
 
 The interpretation for the occurrence of a Shortfall Event is subject to a dYdX governance vote but may include:
 
-* Exchange Solvency \(e.g., exchange becoming under-collateralized due to unprofitable liquidations\)
+* Exchange Solvency (e.g., exchange becoming under-collateralized due to unprofitable liquidations)
 * Smart contract attacks
 * Other events dYdX governance deems to have resulted in a shortfall
 
-In a Shortfall Event, token holder balances can be slashed and transferred to another address or contract \(set by dYdX governance on a case by case basis\). dYdX governance must pass a short timelock proposal to slash staked tokens. After a governance vote on slashing staked DYDX tokens, slashed DYDX may be auctioned on the market to be sold against the assets needed to mitigate the incurred deficit.
+In a Shortfall Event, token holder balances can be slashed and transferred to another address or contract (set by dYdX governance on a case by case basis). dYdX governance must pass a short timelock proposal to slash staked tokens. After a governance vote on slashing staked DYDX tokens, slashed DYDX may be auctioned on the market to be sold against the assets needed to mitigate the incurred deficit.
 
 ## FAQ
 
@@ -49,7 +49,7 @@ Stakers can deposit DYDX at any time to the safety staking pool and start earnin
 
 Active funds earn rewards for the period of time that they remain active. This means, after requesting a withdrawal of some funds, those funds will continue to earn rewards until the end of the epoch. This is demonstrated in the following example from the [Liquidity staking pool](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool):
 
-![](../.gitbook/assets/image%20%2865%29%20%281%29.png)
+![](<../.gitbook/assets/image (59).png>)
 
 In the above scenario, the user would earn rewards for the period from **Time0** to **Time2**, varying with the total staked balance in that period. If the user only requests a withdrawal for a part of their balance, then the remaining balance would continue earning rewards beyond **Time2**.
 
@@ -57,7 +57,7 @@ In the above scenario, the user would earn rewards for the period from **Time0**
 
 To stake DYDX to the Safety Pool, follow these steps:
 
-* Go to [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
+* Go to [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
 * Click on “**Stake**”
 * You must enable DYDX the first time you deposit. You will only have to do this once and incur gas fees only once.
 * Enter the amount of DYDX you want to stake to the pool.
@@ -69,7 +69,7 @@ To deposit and stake and funds directly on the smart contract, users call the \`
 
 ### What is stkDYDX?
 
-To contribute to the safety of the protocol and receive incentives, DYDX holders will deposit their tokens into the Safety Module. In return, they will receive a tokenized position \(**stkDYDX**\) that can be withdrawn or transferred as an ERC-20. The **stkDYDX** token has the same proposing and voting rights as DYDX on dYdX governance.
+To contribute to the safety of the protocol and receive incentives, DYDX holders will deposit their tokens into the Safety Module. In return, they will receive a tokenized position (**stkDYDX**) that can be withdrawn or transferred as an ERC-20. The **stkDYDX** token has the same proposing and voting rights as DYDX on dYdX governance.
 
 ### What is the blackout window?
 
@@ -86,7 +86,7 @@ A staked balance is in one of two states:
 
 A staker may have a combination of active and inactive balances. Funds are accounted for epoch-by-epoch as shown in the following example:
 
-![](../.gitbook/assets/image%20%2834%29%20%281%29.png)
+![](<../.gitbook/assets/image (36).png>)
 
 The following operations affect staked balances as follows:
 
@@ -103,11 +103,11 @@ An epoch schedule is enforced for withdrawals in order to provide predictability
 
 To withdraw funds, users call the \`requestWithdrawal\` function to request to withdraw funds for the next epoch. User funds will remain staked and not withdrawable for the current epoch. Starting in the next epoch, funds will be “inactive” and available for withdrawal.
 
-In the next epoch, users call the \`withdrawStake\` function to withdraw inactive funds to a specific address. Users can select the amount of inactive funds they want to withdraw or call the \`withdrawMaxStake\` function to withdraw all inactive funds. Note that the \`withdrawMaxStake\` function is less gas-efficient than querying the max via eth\_call and calling \`withdrawStake\(\)\`.
+In the next epoch, users call the \`withdrawStake\` function to withdraw inactive funds to a specific address. Users can select the amount of inactive funds they want to withdraw or call the \`withdrawMaxStake\` function to withdraw all inactive funds. Note that the \`withdrawMaxStake\` function is less gas-efficient than querying the max via eth\_call and calling \`withdrawStake()\`.
 
 To withdraw DYDX from the Liquidity Pool, follow these steps:
 
-* Go to [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
+* Go to [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
 * Click on “**Request**”, and enter the amount of DYDX you want to request to withdraw from the pool.
 * Click “**Request withdraw**”. You will need to pay gas fees to withdraw funds.
 * Stakers who request to withdraw DYDX at least 14 days before the current epoch ends can withdraw their DYDX at the start of the next epoch.
@@ -117,4 +117,3 @@ To withdraw DYDX from the Liquidity Pool, follow these steps:
 A staker’s decision to lock DYDX into the Safety Pool exposes them to the risk of a shortfall event, which can result in the slashing of staked DYDX funds at the discretion of DYDX governance.
 
 All funds in the contract, active or inactive, are slashable. Within the contract, slashing is implemented via an update to the exchange rate between DYDX and stkDYDX. This means that as slashes occur, the exchange rate between DYDX and stkDYDX will diverge from its initial value of 1:1. Note that the earning of staking rewards is unaffected by slashes.
-

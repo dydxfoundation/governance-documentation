@@ -14,7 +14,7 @@
 
 **再完成链接钱包并存款之后，您就可以进行开仓交易了，首先我们选择要开仓的交易对，目前dYdX开设了ETH- USD、BTC- USD、LINK- USD交易对。点击左上角的交易对，下拉选择您要开仓的交易对，这里我们以BTC- USD为例；**
 
-![](https://lh4.googleusercontent.com/r95ZjztF39-3QXXAuZi0ieQh43n-Rsiz1bL_H4_eJdgdALehkKZ_Pwj_gu6-7R3YalQlZbBGeM38YKJwbuMBli9z3WSqFfqm23rBfMqdDHT-CVTA1ERQKvCkvzGSs80Y0c1F839b=s0)![](https://lh6.googleusercontent.com/f38J4PXbSWzx8QyumqOqbKoWpNF7He7j1NV5E5zKk-yaC64xwElcOCxme8fnP4GZ3jqLGB194Ott0DP0Zc6mxAaAGAhFcc_9_uf0ixltGTYSd2eIrNhteydYElK7xIgC08zqFyOG=s0)
+![](https://lh4.googleusercontent.com/r95ZjztF39-3QXXAuZi0ieQh43n-Rsiz1bL\_H4\_eJdgdALehkKZ\_Pwj\_gu6-7R3YalQlZbBGeM38YKJwbuMBli9z3WSqFfqm23rBfMqdDHT-CVTA1ERQKvCkvzGSs80Y0c1F839b=s0)![](https://lh6.googleusercontent.com/f38J4PXbSWzx8QyumqOqbKoWpNF7He7j1NV5E5zKk-yaC64xwElcOCxme8fnP4GZ3jqLGB194Ott0DP0Zc6mxAaAGAhFcc\_9\_uf0ixltGTYSd2eIrNhteydYElK7xIgC08zqFyOG=s0)
 
 **选择完交易对后我们在下方可以看到「市价交易」和「限价交易」：**
 
@@ -22,13 +22,13 @@
 
 **「限价交易」是按照设定价格来挂单匹配交易，适合于大额交易，成交速度相对较慢，但是成交价位比较准确。**
 
-![](https://lh3.googleusercontent.com/iz4HSWNF8BHOqdv8iXkp0FP5lKvgxr_MAz-D8sG9QUlcrcw0lKu8nWFbkGuRLYQJzjHtvB09Ou048D9dUvQDEU11bjhsYxW-YFByDHaM3elSNRsFE12aAsMGDVAdQEM5czXjFIwT=s0)
+![](https://lh3.googleusercontent.com/iz4HSWNF8BHOqdv8iXkp0FP5lKvgxr\_MAz-D8sG9QUlcrcw0lKu8nWFbkGuRLYQJzjHtvB09Ou048D9dUvQDEU11bjhsYxW-YFByDHaM3elSNRsFE12aAsMGDVAdQEM5czXjFIwT=s0)
 
 **1）市价交易**
 
 **选择「市价交易」，我们可以通过卖出做空。输入响应数量的BTC（设置杠杆倍数）来卖出合约；或者直接直接通过滑动条来进行选择杠杆倍数（1X-25X）和合约方向其中红色为做空。这里需要注意下，做空表示未来预期市场为下跌，并且杠杆倍数越高，越容易受到币价波动的影响，被平仓的风险增高，所以请根据自己的风险承受能力，选择适合自己的杠杆，设置好杠杆倍数后，点击「下市价订单」进行下单。**
 
-![](https://lh6.googleusercontent.com/TtBxpEQlJGNC9096qJAMDVaYBkOoXD99Y4Yjw_UVpLCvpDG5UjrHzU9dB7IEmWXB2Cefu5UYejn0Y8QInvnC_-oR8eoSODAKj0167sXusmvEmRRf9ldfNNBp_OPWGKGZnqIL9GFh=s0)
+![](https://lh6.googleusercontent.com/TtBxpEQlJGNC9096qJAMDVaYBkOoXD99Y4Yjw\_UVpLCvpDG5UjrHzU9dB7IEmWXB2Cefu5UYejn0Y8QInvnC\_-oR8eoSODAKj0167sXusmvEmRRf9ldfNNBp\_OPWGKGZnqIL9GFh=s0)
 
 **2）限价交易**
 
@@ -40,10 +40,9 @@
 
 **下单之后，用户会签名授权 dYdX 在他们的服务器上撮合这笔交易；如果交易还未撮合交易成功，则会在右下方「订单」中显示您所下订单。**
 
-![](https://lh3.googleusercontent.com/4Y104j26Jwo1C42ePvjQBH__SLhzTq4YLdS9YNNouBza5IUDRKx-APwu1YJyKAdr7Gue-XC1u2o3B4LhtJNvY3_16oqBvY4zM2ots5vylW3K-GfkmqvS5GfplcGrzmDYFo2CPLVT=s0)
+![](https://lh3.googleusercontent.com/4Y104j26Jwo1C42ePvjQBH\_\_SLhzTq4YLdS9YNNouBza5IUDRKx-APwu1YJyKAdr7Gue-XC1u2o3B4LhtJNvY3\_16oqBvY4zM2ots5vylW3K-GfkmqvS5GfplcGrzmDYFo2CPLVT=s0)
 
-**如果交易完成，则会在左下方「全部成交」中显示该笔订单。用户可以在这里查看这笔交易的具体细节和它在链上的连接。**![](https://lh5.googleusercontent.com/VXJCKjmlVsPYZtLNduicXYqKssKPwaAfoQ2BFGvhqGMngULeI4u7Zn4199MHbkIxEG5LTmKos3ND3BZhHx5R875DesfLIvrWkhRO29_vzs9ksnC-kgemeUD6APhGzi_T88Lrkb5X=s0)
+**如果交易完成，则会在左下方「全部成交」中显示该笔订单。用户可以在这里查看这笔交易的具体细节和它在链上的连接。**![](https://lh5.googleusercontent.com/VXJCKjmlVsPYZtLNduicXYqKssKPwaAfoQ2BFGvhqGMngULeI4u7Zn4199MHbkIxEG5LTmKos3ND3BZhHx5R875DesfLIvrWkhRO29\_vzs9ksnC-kgemeUD6APhGzi\_T88Lrkb5X=s0)
 
-**同时开仓之后，你可以在「当前持仓」这里跟踪仓位的盈亏以及查看目前仓位的杠杆倍数和清算价格，并以此制定止盈止损策略。**![](https://lh6.googleusercontent.com/q4tyzIQFizi5Y_1mZQUr-4bfCSEoIgCm8cFfvRppkSl5KAvebMFAeCTnX_h9OnsbX7SLi4c6zpQo3dgGyZa_O55DezA8srfHsaGZWR0X4ZT-o3u3NK99sj-nu9lqOOaH0ikYIX7G=s0)  
+**同时开仓之后，你可以在「当前持仓」这里跟踪仓位的盈亏以及查看目前仓位的杠杆倍数和清算价格，并以此制定止盈止损策略。**![](https://lh6.googleusercontent.com/q4tyzIQFizi5Y\_1mZQUr-4bfCSEoIgCm8cFfvRppkSl5KAvebMFAeCTnX\_h9OnsbX7SLi4c6zpQo3dgGyZa\_O55DezA8srfHsaGZWR0X4ZT-o3u3NK99sj-nu9lqOOaH0ikYIX7G=s0)****\
 ****
-
