@@ -81,6 +81,8 @@ USDC holders who deposit and stake their USDC into the Liquidity Staking Pool wi
 
 A stkUSDC balance can be active or inactive. Active stkUSDC can be transferred as an ERC-20, but cannot be withdrawn. Inactive stkUSDC can be withdrawn, but cannot be transferred. For example, a user may have 100 active and 100 inactive stkUSDC in their wallet, and the user's balance will show 200 stkUSDC, but a transfer will revert if the user tries to transfer more than 100 stkUSDC.
 
+A staked balance for which the staker has requested a withdraw prior to the end of epoch would be considered inactive, and therefore not transferable.
+
 ## **Stakers **FAQ
 
 ### How do I earn staking rewards?

@@ -48,6 +48,12 @@ All employees and consultants also will be subject to various vesting schedules 
 
 Regardless of any lockup on DYDX, investors and prior employees or consultants of dYdX Trading or the Foundation may use DYDX to make proposals, delegate votes, or vote on proposals related to the Protocol. Current employees and consultants of dYdX Trading or the Foundation will initially not make any proposals or participate in any votes but may do so in the future. Current employees and consultants of dYdX Trading or the Foundation may delegate votes without attempting to influence voting outcomes.
 
+All investors are required to comply with the transfer restriction enforced through contractual agreements with the dYdX Foundation. The dYdX Foundation tracks wallet addresses to determine whether any transfers have been made in violation of that restriction.
+
+While investors are technically and legally allowed to stake their DYDX to the Safety Module, in the event of a Shortfall Event and slashing of DYDX, investors would get slashed like every one else. At this time, they would be in default against their obligations. Investors would be required to purchase again any tokens that were transferred as a result of slashing so that everyone is in the same position. For this reason, we ask all investors to refrain from staking and request to withdraw any funds currently staked to the Safety Module.
+
+The dYdX Foundation has expressed its willingness to bring legal action against investors who do not comply with these requirements.
+
 ## What is the liquid supply curve of DYDX?
 
 On September 8, 2021, `8 days` after the end of Epoch 0, the initial transfer restrictions on the token will be lifted and approximately 8.11% of the DYDX supply will become liquid.&#x20;
