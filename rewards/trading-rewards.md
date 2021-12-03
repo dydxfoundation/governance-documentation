@@ -1,23 +1,24 @@
 ---
-description: Overview of the Trading Rewards program.
+description: 交易奖励计划概述。
+
 ---
 
-# Trading Rewards
+# 交易奖励
 
-`25.00%` of the initial token supply (`250,000,000 DYDX`) will be distributed to users who trade on the dYdX Layer 2 Protocol based on a combination of fees paid and open interest.
+初始代币供应量的`25.00%`\（`250,000,000个DYDX`\）将根据支付的费率和未平仓合约的组合，分配给在dYdX Layer 2协议上进行交易的用户。
 
-**Objectives**
+**目标**
 
-* Incentivize all traders to use the dYdX Layer 2 Protocol.
-* Accelerate market liquidity and overall product usage.
+* 激励所有交易者使用dYdX Layer 2协议。
+* 加快市场流动性以及产品的总体使用情况。
 
-## **Overview**
+## **概述**
 
-![Earn rewards by trading on the dYdX Layer 2 Protocol](<../.gitbook/assets/image (17).png>)
+![通过dYdX Layer 2协议的交易赚取奖励](../.gitbook/assets/image%20%2814%29.png)
 
-DYDX will be distributed to traders based on a formula that rewards a combination of fees paid and open interest on the dYdX Layer 2 Protocol. DYDX will be distributed on a 28-day epoch basis over five years and is not subject to any vesting or lockups. 3,835,616 DYDX will be distributed per epoch.
+DYDX将根据一条公式分配给交易者，该公式奖励在dYdX Layer 2协议上支付的交易费用和未平仓量的组合。DYDX将在五年内以28天时段为周期进行分配，不受任何兑现或锁定的限制。每个纪元内将分配3,835,616个DYDX。
 
-The Cobb-Douglas function is used to compute how much DYDX is awarded to each trader during each epoch:
+Cobb-Douglas函数用来计算每个时段内给予每个交易者的DYDX数量：
 
 $$
 w\ =\ f ^{\alpha } \times d \ ^{1-\alpha }
@@ -27,60 +28,61 @@ $$
 r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k
 $$
 
-| Term                         | Definition                                                                                               |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------- |
-| r                            | Reward for a specific trader.                                                                            |
-| R                            | Total reward to be split between all traders in the pool for the epoch.                                  |
-| f                            | Total fees paid by a trader in this epoch.                                                               |
-| w                            | Individual trader score.                                                                                 |
-| $${\sum\limits _{n} w_{n}}$$ | Sum of all trader scores.                                                                                |
-| d                            | A trader’s average open interest (measured every minute) across all markets in this epoch.               |
-| k                            | Total number of traders in this epoch.                                                                   |
-| α                            | A constant in the range that determines the weight of fees vs open interest. The initial value is α=0.7. |
+| 术语 | 定义 |
+| :--- | :--- |
+| r | 特定交易者的奖励。 |
+| R | 将在该时段中资金池中所有交易者之间分配的总奖励。 |
+| f | 本时段交易者支付的总费用。 |
+| 周 | 个人交易者分数。 |
+| $${\sum\limits &lt;g id="1" ctype="italic" equiv-text="_"&gt;{n} w</g>{n}}$$ | 所有交易者分数的总和。 |
+| 日 | 本时段内一个交易者在所有交易对中的平均未平仓合约\（每小时测量\）。 |
+| k | 本时段的交易者总数。 |
+| α | 确定费率权重与未平仓合约对比的范围中的常量。初始值为α=0.7。 |
 
-The following example illustrates Trading Rewards earned by Traders A, B, and C using the formula listed above:
+以下例子说明了交易者A、B和C使用上面列出的公式所赚取的交易奖励：
 
-![An example distribution for Trading Rewards](<../.gitbook/assets/Frame 1208.png>)
+![交易奖励的一个分配例子](../.gitbook/assets/image%20%2838%29.png)
 
-## FAQ
+## 常见问题解答
 
-### Who is eligible for trading rewards?
+### 谁有资格获得交易奖励？
 
-All traders on the dYdX Layer 2 protocol are eligible to receive DYDX as trading rewards.
+dYdX Layer 2协议的所有交易者都有资格获得DYDX作为交易奖励。
 
-The dYdX Layer 2 Protocol is not available to traders in the United States or Restricted Territories, as defined in dYdX Trading Inc.’s [Terms of Use](https://dydx.exchange/terms).
+如dYdX Trading Inc.[使用条款](https://dydx.exchange/terms)所定义，DYdX Layer 2协议不适用于美国或受限制地区的交易者。
 
-### How much DYDX did I earn in the Trading Rewards program?
+### 我在交易奖励计划中赚取了多少DYDX？
 
-In the current epoch, users can see fees paid, average open interest, and estimated trading rewards at [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) where users' trading data exists.
+在当前时段，用户可以在[**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)（保存了用户的交易数据）查看支付的费用、平均未平仓合约和估计交易奖励。
 
-![Rewards info for the current epoch](<../.gitbook/assets/image (18).png>)
+![当前时段的奖励信息](../.gitbook/assets/image%20%2820%29.png)
 
-Rewards from past epochs can be viewed at [**dydx.community/history/rewards**](https://dydx.community/history/rewards) **** (coming soon).
+来自过去时段的奖励，请访问[**dydx.community/history/rewards**](https://dydx.community/history/rewards)****\（即将推出\）。
 
-### How do I claim my Trading Rewards? When can I withdraw and transfer my earned DYDX?
+### 我如何申领我的交易奖励？何时可以提现并转让我赚取的DYDX？
 
-Earned DYDX tokens via Trading Rewards will be transferable at the end of each epoch. DYDX token holders are required to wait approximately `7 days` (**Waiting Period**) after the end of the epoch to claim their tokens. Once tokens have been claimed, they can be used for dYdX governance.
+通过交易奖励赚取的DYDX代币将在每个时段结束时可以转让。DYDX代币持有人必须在时段结束后等待大约`7天`\（**等待期**\）才能申领代币。在申领代币之后，可以将代币用于dYdX治理。
 
-Traders can claim their trading rewards at the end of every epoch, after the **Waiting Period**, [here](https://dydx.community/dashboard).&#x20;
+在**等待期**后，交易者可以在[此处](https://dydx.community/dashboard)在每个时段结束时申领其交易奖励。
 
-Users will need to click on "Claim", sign a transaction, and pay gas fees to claim DYDX.
+用户需要单击“申领”，签署交易，并支付gas费用以申领DYDX。
 
-![Portfolio overview of rewards](<../.gitbook/assets/image (20).png>)
+![资金组合奖励概述](../.gitbook/assets/image.png)
 
-### What is Open Interest?
+### 什么是未平仓合约？
 
-Total open interest is the USD value of all outstanding long or short positions (the total units of longs always equals the total units of shorts) for a given market. Increasing open interest represents new or additional money coming into the market while decreasing open interest indicates money flowing out of the market.
+总未平仓合约是给定市场的所有未平仓多头或空头头寸的美元价值\（多头的总单位总是等于空头的总单位\）。持仓量增加表示新的或额外的资金进入市场，而持仓量减少表示资金流出市场。
 
-Below is a table of trading activity for traders, A, B, C, D, and E. Open interest is calculated in USDC terms following the trading activity for each day:
+下面是交易者A、B、C、D 和E的交易活动表。未平仓头寸在每天交易活动后按USDC进行计算：
 
-| Time    | Trading Activity                                                           | Total Net Open Interest (USDC) |
-| ------- | -------------------------------------------------------------------------- | ------------------------------ |
-| July 1  | **Trader A** buys 1 BTC at $30,000 and **Trader B** sells 1 BTC at $30,000 | $30,000                        |
-| July 3  | **Trader C** buys 5 BTC at $30,000 and **Trader D** sells 5 BTC at $30,000 | $180,000                       |
-| July 5  | **Trader A** sells 1 BTC at $30,000 and **Trader D** buys 1 BTC at $30,000 | $150,000                       |
-| July 10 | **Trader E** buys 5 BTC at $30,000 and **Trader C** sells 5 BTC at $30,000 | $150,000                       |
+| 时间 | 交易活动 | 总净未平仓合约\(USDC\) |
+| :--- | :--- | :--- |
+| 7月1日 | **交易者A**以30,000美元的价格购买1个BTC，**交易者B**以30,000美元卖出1个BTC | 30,000美元 |
+| 7月3日 | **交易者C**以30,000美元的价格购买5个BTC，**交易者D**以30,000美元卖出5个BTC | 180,000美元 |
+| 7月5日 | **交易者A**以30,000美元的价格卖出1个BTC，**交易者D**以30,000美元的价格买入1个BTC | 150,000美元 |
+| 7月10日 | **交易者E**以30,000美元的价格买入5个BTC，**交易者C**以30,000美元卖出5个BTC | 150,000美元 |
 
-In the context of the **Trading Rewards** formula, open interest is measured every minute (at a random time in each minute) across all markets and averaged across a given epoch to calculate rewards.
+在**交易奖励**公式中，每分钟\（每分钟随机时间\）对所有交易市场中的未平仓合约进行衡量，并在特定时段求得平均数以计算奖励。
 
-A trader's own open interest is the USD value of all of that trader's open positions. For the purposes of **Trading Rewards**, a trader's open interest is measured every minute (at a random time in each minute) across all markets and averaged across a given epoch.
+交易者自己的未平仓合约是交易者所有未平仓头寸的美元价值。对于**交易奖励**，交易者在所有市场的未平仓合约每小时进行衡量\（每小时随机时间\），并在特定时段求得平均数。
+
