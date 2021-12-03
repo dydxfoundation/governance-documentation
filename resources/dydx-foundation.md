@@ -1,31 +1,33 @@
 ---
-description: Overview of the dYdX Foundation
+description: dYdX基金会概述
+
 ---
 
-# Foundation
+# 基金会
 
-The dYdX Foundation is an independent not-for-profit foundation headquartered in Zug, Switzerland. More information about the dYdX Foundation can be found at [**dydx.foundation**](https://dydx.foundation).
+dYdX基金会是一个独立的非盈利基金会，总部设在瑞士楚格。有关dYdX基金会的更多信息，请访问[**dydx.foundation**](https://dydx.foundation)。
 
-### Mission
+### 使命
 
-The dYdX Foundation’s purpose is to support and grow every aspect, technical or otherwise, of the current implementation and all future implementations of the dYdX Layer 2 Protocol, including but not limited to the ecosystem related to the dYdX Layer 2 Protocol, and to foster participation from others who seek to support and grow any aspect, technical or otherwise, of the ecosystem or the current implementation and all future implementations of the dYdX Layer 2 Protocol. Specifically, the mandate empowers the dYdX Foundation to:
+dYdX基金会的目的是支持并发展dYdX Layer 2 协议的当前实施和未来所有实施的各个方面（无论是技术还是其他方面），包括但不限于与dYdX Layer 2协议有关的生态系统，并促进其他人参与共同寻求支持和增长dYdX Layer 2协议的生态系统和当前实施及所有未来实施的各个方面（无论是技术还是其他方面）。具体而言，dYdX基金会有权：
 
-* Support and finance appropriate research and development activities and projects
-* Promote and educate the public on the ecosystem and/or dYdX Layer 2 Protocol
-* Issue, receive, spend, and hold digital assets (no speculative trading activities)
-* Deploy governance smart contracts and issue governance tokens
-* Engage with various businesses, partners, banks, regulators, authorities, and other third parties to the benefit of the ecosystem
-* Distribute received contributions and participate in companies
-* Acquire, hold or grant trademarks, copyrights, and other intellectual property rights or licenses
-* Organize conferences and other events that support and promote the ecosystem and/or the dYdX Layer 2 Protocol
-* Conduct and promote all business and / or enter into all transactions, and generally perform all acts as may be necessary, appropriate, incidental to or desirable to assist in achieving or promoting the objects described herein
+* 支持和资助适当的研究和发展活动和项目
+* 促进并教育公众了解生态系统和/或dYdX Layer 2协议
+* 发行、接收、支出和持有数字资产\（没有投机性交易活动\）
+* 部署治理智能合约并发行治理代币
+* 与各种企业、合作伙伴、银行、监管机构、主管部门和其他第三方进行接触，以利于生态系统
+* 分配收到的捐款和参与公司管理
+* 获取、持有或授予商标、版权和其他知识产权或许可
+* 组织会议和其他活动，以支持和促进生态系统和/或dYdX Layer 2协议
+* 开展并促成所有业务和/或所有交易，并按需要、适当、附带或特意执行所有行动，以协助实现或推行本文所述的目标
 
-As the dYdX Foundation assists with the development and growth of the dYdX Layer 2 Protocol’s ecosystem and governance-related matters, dYdX Trading’s core development team will spend its future time focused on, amongst other things, decentralizing the order book and matching engine components of the dYdX Layer 2 Protocol. Although a decentralized order book and matching engine will result in modifications to the dYdX Layer 2 Protocol, there is no expectation that it will enhance functionality of the dYdX Layer 2 Protocol. Instead, it will have the benefit of creating censorship resistance in all aspects of the dYdX Layer 2 Protocol.&#x20;
+随着dYdX基金会协助 dYdX Layer 2协议生态系统和治理相关事项的开发和增长，dYdX Trading的核心开发团队未来将把时间集中用于dYdX Layer 2协议的订单簿和匹配引擎组件上。尽管去中心化订单簿和匹配引擎将导致对dYdX Layer 2协议的修改，但没有人期望它会提高dYdX Layer 2协议的功能。相反，它将受益于在dYdX Layer 2协议的各个方面形成的审查阻力。
 
-The dYdX Foundation does not have a profit-making purpose and does not seek any profits in general. Meanwhile, dYdX Trading will continue to charge maker-taker fees tied to trade volume, which will cover transaction fees for trades, earn revenue, and incentivize more liquidity.
+dYdX基金会不以盈利为目的，并且总体而言不会追求任何利润。与此同时，dYdX Trading将继续根据交易量征收双边费用，这将包括交易、赚取收入和激励更多流动性方面的费用。
 
-By fostering decentralized governance and empowering traders with powerful, transparent, and open advanced financial products, the dYdX Foundation will help push the dYdX Layer 2 Protocol forwards towards community-led growth, development, and self-sustainability.
+通过促进去中心化的治理，并以强大、透明和开放的高级金融产品为交易者赋权，dYdX基金会将帮助dYdX Layer 2协议实现向社区主导的增长、发展和自我可持续性方向发展。
 
-### Operations
+### 运营
 
-The dYdX Foundation's Council members include Arthur Cheong, Rebecca Rettig, and Markus Spillman. This is the first important step in the journey towards the dYdX Layer 2 Protocol’s complete decentralization.
+dYdX基金会的理事会成员包括Arthur Cheong、Rebecca Rettig和Markus Spillman。这是dYdX Layer 2协议在完全去中心化的道路上重要的第一步。
+
