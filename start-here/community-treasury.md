@@ -1,29 +1,31 @@
 ---
-description: An overview of the community treasury.
+description: コミュニティ基金の概要
+
 ---
 
-# Treasury
+# 基金
 
-`5.00%` of the initial token supply (`50,000,000 DYDX`) will be distributed to a community treasury to be allocated on an ongoing basis through contributor grants, community initiatives, liquidity mining, and other programs.
+貢献者の補助金、コミュニティのイニシアチブ、流動性マイニング、その他のプログラムを通じて継続的に割り当てされるコミュニティ基金に対し、初回のトークン提供額\（`5,000万DYDX`\）の`5.00％`が分配されます。
 
-**Objectives**
+**目的**
 
-* Fund programs and initiatives that drive the growth of dYdX.
-* Develop grant programs to fund community NFTs, hackathons, analytics dashboards, memes, swag, third-party tools, translations, and other projects.
-* Develop a best-in-class governance system and incentivize robust governance.
+* dYdXの成長を推進するプログラムやイニシアチブに資金を提供。
+* コミュニティNFT、ハッカソン、分析ダッシュボード、ミーム、スワッグ、サードパーティ製のツール、翻訳、その他のプロジェクトに資金を提供する助成プログラムを構築。
+* クラス最高のガバナンスシステムを構築し、強固なガバナンスを促進。
 
-## Overview
+## 概要
 
-The community treasury will retain DYDX to use as DYDX holders decide, whether it be for grants, new liquidity mining pools, or any other program. DYDX will vest to the community treasury on a continuous basis over the course of five years. A governance vote will be required to spend any DYDX from the community treasury.
+コミュニティ基金ではDYDXを保有しており、DYDXの保有者が助成金、新しい流動性マイニングプール、またはその他のプログラムのいずれに使用するかを決定します。DYDXは、5年間にわたって継続的にコミュニティ基金に帰属します。コミュニティ基金からのDYDXを使用するには、ガバナンスの選択が必要になります。
 
-If, after five years, governance decides to enact perpetual inflation (at a maximum annual inflation of `2%`), any newly minted DYDX will be available to the community treasury.
+5年後、ガバナンスにより永続的なインフレ\（年間最大`2％`\）の実行が決定された場合、コミュニティ基金では新たにできたDYDXが利用可能になります。
 
 ## FAQ
 
-### Who can submit proposals to spend DYDX tokens from the Community Treasury?
+### コミュニティ基金からのDYDXトークンを使用する提案はどういう人が提出することができますか？
 
-Any user with sufficient proposing power can submit proposals. A governance vote will be required to spend any DYDX from the community treasury. To submit a proposal, please submit a dYdX Improvement Proposal (DIP) as laid out in the [DIP Proposal Lifecycle](../voting-and-governance/dip-proposal-lifecycle.md).
+提案する実行力が十分にあればどのユーザーも提案を提出することができます。コミュニティ基金からのDYDXを使用するには、ガバナンスの選択が必要になります。提案を出すには、[DIP提案ライフサイクル](../voting-and-governance/dip-proposal-lifecycle.md)で挙げられているdYdX改善提案\（DIP\）を提出してください。
 
-### What types of proposals can be submitted to the Community Treasury?
+### コミュニティ基金にはどのようなタイプの提案を提出することができますか？
 
-A community-managed treasury opens up a world of possibilities. We hope to see various experiments and initiatives, including ecosystem grants, which can foster the dYdX Layer 2 Protocol’s ecosystem growth.
+コミュニティが管理する基金は、可能性を大きく広げます。dYdXレイヤ2プロトコルのエコシステムの成長を促進できるエコシステム助成金などにより、さまざまな試みやイニシアチブを期待できます。
+
