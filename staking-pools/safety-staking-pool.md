@@ -1,119 +1,121 @@
 ---
-description: An overview of the Safety Staking Pool
+description: セーフティステーキングプールの概要
+
 ---
 
-# Safety Module
+# セーフティモジュール
 
-`2.50%` of the initial token supply (`25,000,000 DYDX`) will be distributed to users staking DYDX to a Safety pool for backstopping the system.
+システム補強となるセーフティプールにDYDXをステーキングするユーザーには、初回のトークン提供額\（`2,500万DYDX`\）の`2.50％`が分配されます。
 
-**Objectives**
+**目的**
 
-* Bootstrap a decentralized fund to be used in the case of insolvency or other issues with the protocol.
-* Incentivize DYDX holders to govern correctly: DYDX holders risk dilutive events as the ultimate backstop and act as the governors of risk in the system.
+* プロトコルの債務超過やその他の問題において活用できる分散型資金を立ち上げる。
+* DYDX保有者による適切な管理を促進する：DYDX保有者は、最終的な後ろ盾として希釈化の事態のリスクを担い、システムのリスク管理者として行動します。
 
-DYDX staked in the Safety Module retains its proposing and voting rights, as well as delegation abilities.
+セーフティモジュールにステーキングされたDYDXにより、提案や採決の権限を有するだけでなく、委任もできるようになります。
 
-Start staking at [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
+ステーキングを開始するには[**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*からアクセスしてください
 
-## Overview
+## 概要
 
-User safety and protection have been a key focus since the launch of the Protocol. For that reason, DYDX will be distributed to users who stake DYDX to the safety pool to create an additional safety net for users of the Protocol.  Stakers will receive DYDX continuously proportional to their portion of the total DYDX in the pool.
+プロトコルの立ち上げ以来、ユーザーの安全および保護が重要事項になっています。そのため、DYDXはセーフティプールにDYDXをステーキングするユーザーに対して提供され、プロトコルのユーザー用に追加のセーフティネットを作成します。ステーカーは、プール内にある合計USDC保有高の各ステーカーの保有割合に従って継続的に提供されるDYDXを受け取ります。
 
-The Safety pool will go live upon DYDX becoming transferrable on September 8th, 2021, 15:00 UTC.
+セーフティプールは、DYDXが2021年9月8日午後3時（UTC）に振替可能になると稼働します。
 
-## Withdrawals
+## 出金
 
-Stakers must request to withdraw funds at least `14 days` **(Blackout Window)** before the end of the epoch in order to be able to withdraw funds after the end of that epoch. If stakers do not request to withdraw, their staked DYDX is rolled over into the next epoch.&#x20;
+ステーカーはエポックの終了後に出金できるように、エポック終了の少なくとも`14日`**\（ブラックアウトウィンドウ\）**前までに出金をリクエストする必要があります。ステーカーが出金をリクエストしない場合、ステーキングされたDYDXは次のエポックにロールオーバーされます。
 
-## Risks
+## リスク
 
-Staked DYDX may be slashed as a result of a shortfall event. Slashing occurs at the discretion of DYDX governance, and requires a governance vote to enact.
+ショートフォールが生じると、ステーキングされたDYDXがスラッシュされる可能性があります。DYDXガバナンスの判断によりスラッシュが発生し、実行にはガバナンスの採決が求められます。
 
-Like participants in any DeFi protocol, stakers in the Safety Module are exposed to smart contract risk if there is a vulnerability in the underlying smart contract code. All DYDX & governance smart contracts have been audited and rigorously tested.
+基礎となるスマートコントラクトコードに脆弱性が存在する場合、あらゆるDeFiプロトコルの参加者と同様に、セーフティモジュールのステーカーはスマートコントラクトのリスクにさらされます。DYDXおよびガバナンスのスマートコントラクトはすべて監査され、厳密に検証されています。
 
-## Shortfall Events
+## ショートフォールイベント
 
-The interpretation for the occurrence of a Shortfall Event is subject to a dYdX governance vote but may include:
+ショートフォールイベントの発生に関する解釈は、dYdXのガバナンス採決の対象となり、以下の場合が挙げられます。
 
-* Exchange Solvency (e.g., exchange becoming under-collateralized due to unprofitable liquidations)
-* Smart contract attacks
-* Other events dYdX governance deems to have resulted in a shortfall
+* 取引のソルベンシー\（採算の取れない債務返済のため取引が無担保化になるなど\）
+* スマートコントラクト攻撃
+* ショートフォールが生じているとdYdXガバナンスが判断するその他の事象
 
-In a Shortfall Event, token holder balances can be slashed and transferred to another address or contract (set by dYdX governance on a case by case basis). dYdX governance must pass a short timelock proposal to slash staked tokens. After a governance vote on slashing staked DYDX tokens, slashed DYDX may be auctioned on the market to be sold against the assets needed to mitigate the incurred deficit.
+ショートフォールの事象では、トークン保有者の残高をスラッシュして、別のアドレスまたはコントラクトに移行することができます\（ケースバイケースでdYdXガバナンスにより設定されます\）。ステーキングされたトークンをスラッシュするには、dYdXガバナンスが短いタイムロックの提案を可決する必要があります。ステーキングされたDYDXトークンのスラッシュに関するガバナンス採決が終わると、スラッシュされたDYDXは、被った赤字を緩和するのに必要な資産を担保に、市場で競売される場合があります。
 
 ## FAQ
 
-### How do I earn staking rewards?
+### ステーキング報酬を獲得するにはどうすればよいですか？
 
-Stakers can deposit DYDX at any time to the safety staking pool and start earning rewards immediately. DYDX rewards are earned on a continuous basis according to each staker’s share of the total pool on a second-by-second basis. Rewards can be claimed and withdrawn at any time.
+ステーカーは、セーフティステーキングプールにいつでもDYDXを入金し、即座に報酬の獲得を開始することができます。DYDXの報酬は、各ステーカーが共有するプール総額に応じて、秒単位で継続的に獲得することができます。報酬の請求および出金はいつでも可能です。
 
-Active funds earn rewards for the period of time that they remain active. This means, after requesting a withdrawal of some funds, those funds will continue to earn rewards until the end of the epoch. This is demonstrated in the following example from the [Liquidity staking pool](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool):
+アクティブな資金による報酬は、アクティブでいる期間に対して獲得されるものです。つまり、資金の一部出金をリクエストした後でも、エポックの終了までこれらの資金により引き続き報酬を獲得することになります。これについては、下記の[流動性ステーキングプール](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool)の例をご覧ください。
 
-![](<../.gitbook/assets/image (59).png>)
+![](../.gitbook/assets/image%20%2865%29.png)
 
-In the above scenario, the user would earn rewards for the period from **Time0** to **Time2**, varying with the total staked balance in that period. If the user only requests a withdrawal for a part of their balance, then the remaining balance would continue earning rewards beyond **Time2**.
+上記のシナリオの場合、ユーザーは**Time0**から**Time2**までの期間で報酬を獲得しますが、ステーキングされた総残高によって変動します。ユーザーが残高の一部を出金リクエストするだけであれば、残りの残高により**Time2**以降も報酬を獲得し続けることができます。
 
-### How do I deposit and stake DYDX to the Safety Pool?
+### セーフティプールにDYDXを入金してステーキングするにはどうすればよいですか？
 
-To stake DYDX to the Safety Pool, follow these steps:
+DYDXをセーフティプールにステーキングするには、以下の手順に従います。
 
-* Go to [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
-* Click on “**Stake**”
-* You must enable DYDX the first time you deposit. You will only have to do this once and incur gas fees only once.
-* Enter the amount of DYDX you want to stake to the pool.
-* Click “**Stake Funds**”.  You will need to pay gas fees to stake and unstake funds.
+* [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*にアクセスします
+* 「**ステーク**」をクリックします
+* 初めて入金する場合は、DYDXを有効にする必要があります。この操作が必要なのは1回だけで、さらにガス手数料も1回だけ発生します。
+* プールにステーキングするDYDXの額を入力します。
+* 「**資金をステーキング**」をクリックします。資金のステーキングおよびステーキング解除をするには、ガス手数料を支払う必要があります。
 
-Staked funds are now active and start earning rewards immediately.
+ステーキングされた資金がアクティブになり、すぐに報酬の獲得が始まります。
 
-To deposit and stake and funds directly on the smart contract, users call the \`stake\` [function](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L59). Users can also deposit and stake on behalf of another address by calling the \`stakeFor\` [function](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L64).
+スマートコントラクトで資金を直接入金およびステーキングするには、ユーザーは\`stake\`[関数](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L59)を呼び出します。また、\`stakeFor\`[関数](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L64)を呼び出して、他のアドレスに代わって入金およびステーキングすることもできます。
 
-### What is stkDYDX?
+### stkDYDXとは何ですか？
 
-To contribute to the safety of the protocol and receive incentives, DYDX holders will deposit their tokens into the Safety Module. In return, they will receive a tokenized position (**stkDYDX**) that can be withdrawn or transferred as an ERC-20. The **stkDYDX** token has the same proposing and voting rights as DYDX on dYdX governance.
+プロトコルの安全性に寄与し、インセンティブを受け取るために、DYDX保有者はトークンをセーフティモジュールに預けます。その引き換えに、トークン化されたポジション\(**stkDYDX**\)を受け取り、ERC-20として出金または移動できるようになります。**stkDYDX**トークンは、dYdXガバナンスにおけるDYDXと同様に提案および採決の権限を有しています。
 
-### What is the blackout window?
+### ブラックアウトウィンドウとは何ですか？
 
-A blackout window is a period of time during which users cannot request withdrawals of staked funds. An epoch schedule is enforced for withdrawals in order to provide predictability and a regular cadence for the availability of funds in the pool. A staker must request to unstake funds before the blackout window in order to be able to withdraw their funds after the end of that epoch. If a staker does not request to withdraw, their staked funds are rolled over into the next epoch.
+ブラックアウトウィンドウとは、ユーザーが、ステーキングされた資金の出金をリクエストすることができない期間です。出金に関してはエポックのスケジュールに合わせて行われ、これにより、プールの資金の可用性に対応した予測や一定の周期での実施が可能になります。エポックの終了後に資金を出金できるようにするには、ブラックアウトウィンドウの前に資金のステーキング解除をリクエストする必要があります。ステーカーが出金をリクエストしない場合、ステーキングされた資金は次のエポックにロールオーバーされます。
 
-The recommended blackout window for the Safety Pool is `14 days`.
+セーフティプールにおけるブラックウィンドウの推奨期間は`14日間`です。
 
-### How does staked balance accounting work?
+### ステーキングされた残高計算はどのように機能しますか？
 
-A staked balance is in one of two states:
+ステーキングされた残高は、次の2つのいずれかの状態になっています。
 
-* **Active**: Available for borrowing; earning staking rewards; cannot be withdrawn by staker.
-* **Inactive**: Unavailable for borrowing; does not earn rewards; can be withdrawn by the staker.
+* **アクティブ**：借入可能。ステーキング報酬の獲得あり。ステーカーによる出金不可。
+* **非アクティブ**：借入不可。報酬の獲得なし。ステーカーによる出金可能。
 
-A staker may have a combination of active and inactive balances. Funds are accounted for epoch-by-epoch as shown in the following example:
+ステーカーによっては、アクティブな残高と非アクティブな残高の組み合わさっている場合があります。以下の例に示すように、資金はエポックごとに構成されています。
 
-![](<../.gitbook/assets/image (36).png>)
+![](../.gitbook/assets/image%20%2834%29.png)
 
-The following operations affect staked balances as follows:
+ステーキングされた残高に関する操作は次のとおりです。
 
-* **Deposit**: Increase active balance.
-* **Request** **withdrawal**: At the end of the current epoch, move some active funds to inactive.
-* **Withdraw**: Decrease inactive balance.
-* **Transfer**: Move some active funds to another staker.
+* **デポジット**：アクティブな残高が増えます。
+* **出金****リクエスト**：現在のエポックの終了時に、一部資金がアクティブから非アクティブに変更されます。
+* **出金**：非アクティブな残高が減ります。
+* **移動**：アクティブな資金の一部が別のステーカーに移動されます。
 
-To encode the fact that a balance may be scheduled to change at the end of a certain epoch, we store each balance as a struct of three fields: currentEpoch, currentEpochBalance, and nextEpochBalance.
+特定のエポックの終了時に残高が変わる予定があることをコードで表すには、各残高をcurrentEpoch、currentEpochBalance、nextEpochBalanceの3フィールド構造で保存します。
 
-### How do I withdraw funds from the staking pool? How long does it take?
+### ステーキングプールから資金を出金するにはどうすればよいですか？どのくらいかかりますか？
 
-An epoch schedule is enforced for withdrawals in order to provide predictability and a regular cadence for the availability of funds in the pool. A staker must request to withdraw funds at least `14 days` before the end of an epoch in order to be able to withdraw their funds after the end of that epoch. If stakers do not request to withdraw, their staked DYDX is rolled over into the next epoch.
+出金に関してはエポックのスケジュールに合わせて行われ、これにより、プールの資金の可用性に対応した予測や一定の周期での実施が可能になります。ステーカーはエポックの終了後に出金できるように、エポック終了の少なくとも`14日`前までに資金の出金をリクエストする必要があります。ステーカーが出金をリクエストしない場合、ステーキングされたDYDXは次のエポックにロールオーバーされます。
 
-To withdraw funds, users call the \`requestWithdrawal\` function to request to withdraw funds for the next epoch. User funds will remain staked and not withdrawable for the current epoch. Starting in the next epoch, funds will be “inactive” and available for withdrawal.
+資金を出金するには、ユーザーは、\`requestWithdrawal\`関数を呼び出し、次のエポックでの資金の出金をリクエストをします現在のエポックでは、ユーザーの資金はステーキングされたままとなり、出金できません。次のエポックから資金は「非アクティブ」となり、出金が可能になります。
 
-In the next epoch, users call the \`withdrawStake\` function to withdraw inactive funds to a specific address. Users can select the amount of inactive funds they want to withdraw or call the \`withdrawMaxStake\` function to withdraw all inactive funds. Note that the \`withdrawMaxStake\` function is less gas-efficient than querying the max via eth\_call and calling \`withdrawStake()\`.
+次のエポックで、ユーザーは\`withdrawStake\`関数を呼び出して、非アクティブな資金を特定のアドレスに出金します。ユーザーは、出金する非アクティブな資金の額を指定するか、\`withdrawMaxStake\`関数を呼び出して、非アクティブな資金をすべて出金することができます。eth\_callで最大値を検索して\`withdrawStake\(\)\`を呼び出すよりも、\`withdrawMaxStake\`関数の方がガス効率が低くなります。
 
-To withdraw DYDX from the Liquidity Pool, follow these steps:
+流動性プールからDYDXを出金するには、次の手順に従ってください。
 
-* Go to [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
-* Click on “**Request**”, and enter the amount of DYDX you want to request to withdraw from the pool.
-* Click “**Request withdraw**”. You will need to pay gas fees to withdraw funds.
-* Stakers who request to withdraw DYDX at least 14 days before the current epoch ends can withdraw their DYDX at the start of the next epoch.
+* [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*にアクセスします。
+* [**リクエスト**]をクリックし、プールからの出金をリクエストするDYDX額を入力します。
+* 「**出金のリクエスト**」をクリックします。資金を出金するには、ガス手数料を支払う必要があります。
+* ステーカーは、現在のエポックが終了する遅くとも14日前までにDYDXのステーキングを解除すると、次のエポックからDYDXを出金することが可能になります。
 
-### What are the risks for stakers to the safety staking pool? What happens in the case of a Shortfall Event?
+### セーフティステーキングプールに対するステーカーのリスクは何ですか？ショートフォールが発生した場合、どうなりますか？
 
-A staker’s decision to lock DYDX into the Safety Pool exposes them to the risk of a shortfall event, which can result in the slashing of staked DYDX funds at the discretion of DYDX governance.
+ステーカーがDYDXをセーフティプールにロックしてしまうと、ショートフォール発生のリスクにさらされます。これにより、DYDXガバナンスの判断にてステーキングされたDYDXの資金がスラッシュされることになる可能性があります。
 
-All funds in the contract, active or inactive, are slashable. Within the contract, slashing is implemented via an update to the exchange rate between DYDX and stkDYDX. This means that as slashes occur, the exchange rate between DYDX and stkDYDX will diverge from its initial value of 1:1. Note that the earning of staking rewards is unaffected by slashes.
+コントラクトの資金は、アクティブまたは非アクティブでもすべて、スラッシュ可能です。コントラクトでは、DYDXとstkDYDX間の為替レートの更新によりスラッシュが実行されます。つまり、スラッシュが起こると、DYDXとstkDYDXの間の為替レートは、1：1の初期値から外れることになります。ステーキング報酬の獲得においては、スラッシュによる影響を受けません。
+
