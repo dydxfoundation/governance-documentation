@@ -1,63 +1,59 @@
 ---
-description: Allocations for the DYDX token.
+description: DYDX代币的分配。
+
 ---
 
-# Allocations
+# 分配
 
-**Allocations**
+**分配**
 
-A total of `1,000,000,000 DYDX` have been minted, and will become accessible over five (5) years, starting on **August 3rd, 2021, at 15:00:00 UTC**. The initial five-year allocation of the total supply of DYDX is as follows:
+总共有`1,000,000,000个DYDX`被挖出，并将于**中国时间2021年8月3日晚上23:00:00**开始，在五\(5\)年内可以使用。DYDX初始五年的总供应量分配如下：
 
-* **50.00%** (`500,000,000 DYDX`) to the community as follows:
-  * **25.00%** (`250,000,000 DYDX`) to users who trade on the dYdX Layer 2 Protocol based on a combination of fees paid and open interest ([**Trading Rewards**](../rewards/trading-rewards.md))
-  * **7.50%** (`75,000,000 DYDX`) to past users who complete certain trading milestones on the dYdX Layer 2 Protocol ([**Retroactive Mining Rewards**](../rewards/retroactive-mining-rewards.md))
-  * **7.50%** (`75,000,000 DYDX`) to liquidity providers based on a formula rewarding a combination of uptime, two-sided depth, bid-ask spreads, and the number of markets supported ([**Liquidity Provider Rewards**](../rewards/liquidity-provider-rewards.md))
-  * **5.00%** (`50,000,000 DYDX`) to a community treasury ([**Treasury**](community-treasury.md))
-  * **2.50%** (`25,000,000 DYDX`) to users staking USDC to a liquidity staking pool ([**Liquidity Module**](../staking-pools/liquidity-staking-pool.md))
-  * **2.50%** (`25,000,000 DYDX`) to users staking DYDX to a safety staking pool ([**Safety Module**](../staking-pools/safety-staking-pool.md))
-* **27.73%** (`277,295,070 DYDX`) to past investors
-* **15.27%** (`152,704,930 DYDX`) to founders, employees, advisors, and consultants of dYdX Trading or the Foundation
-* **7.00%** (`70,000,000 DYDX`) to future employees and consultants of dYdX Trading or the dYdX Foundation&#x20;
+* **50.00%**\(`500,000,000个DYDX`\)分配给社区，具体如下：
+   * **25.00%**\(`250,000,000个DYDX`\)分配给在dYdX Layer 2协议上交易的用户，此分配以支付的交易费用和未平仓利息的组合为基础\([交易奖励](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/reward-pools-1/trading-rewards.md)\)
+   * **7.50%**\(`75,000,000个DYDX`\)分配给完成dYdX Layer 2协议的某些交易里程碑的过往用户\([追溯性挖矿奖励](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/reward-pools-1/retroactive-rewards.md)\)
+   * **7.50%**\(`75,000,000个DYDX`\)根据一条公式分配给流动性提供方，此公式奖励正常运行时间、双侧交易深度、买卖价差和支持的市场数量\([流动性提供方奖励](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/reward-pools-1/liquidity-provider-rewards.md)\)
+   * **5.00%**\(`50,000,000个DYDX`\)分配给社区资金库\([社区资金库](community-treasury.md)\)
+   * **2.50%**\(`25,000,000个DYDX`\)分配给那些将USDC质押到流动性质押池的用户\([流动性质押池](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/staking-pools/liquidity-staking-pool.md)\)
+   * **2.50%**\(`25,000,000个DYDX`\)分配给那些将DYDX质押到保险资金池的用户\([保险资金质押池](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/staking-pools/safety-pool-1.md)\)
+* **27.73%**\(`277,295,070个DYDX`\)分配给过往投资者
+* **15.27%**\(`152,704,930 个DYDX`\)分配给dYdX Trading或基金会的创始人、员工、顾问和咨询人员。
+* **7.00%**\(`70,000,000个DYDX`\)分配给dYdX Trading或dYdX基金会的未来员工和顾问
 
-![](<../.gitbook/assets/DYDX Allocations (Initial 5 Years).png>)
+![](../.gitbook/assets/dydx-allocations-initial-5-years-.png)
 
-Starting five years after launch, a maximum perpetual inflation rate of `2%` per year may be utilized by governance to increase the supply of DYDX, ensuring the community has the resources to continue the development and growth of the Protocol. Inflation must be enacted via a governance proposal and is capped at `2%` per year.
+从推出五年后开始，管理部门可能会利用每年`2%`的最大永续性通货膨胀率来增加DYDX的供应，以确保社区拥有资源继续发展和完善该协议。通货膨胀必须通过治理提议来实施，每年的上限为`2%`。
 
-![](<../.gitbook/assets/Allocation 10 Years Inflation (1).png>)
+![](../.gitbook/assets/allocation-10-years-inflation%20%281%29.png)
 
-Although the community allocation has been established as laid out above, DYDX holders have full control via governance over how the community allocation is used going forwards.
+尽管社区分配如上文所述，但DYDX持有人对社区分配的后续使用方式拥有完全的控制权。
 
-## **FAQs**
+## **常见问题解答**
 
-### **Can new DYDX tokens be minted?**
+### **是否可以创建新的DYDX代币？**
 
-Starting five years after launch, a maximum perpetual inflation rate of `2%` per year can be used to increase the supply of DYDX, ensuring the community has the resources to continue contributing to the dYdX Layer 2 Protocol.
+从推出五年后开始，可以利用每年`2%`的最大永续性通货膨胀率来增加DYDX的供应，以确保社区拥有资源继续为dYdX Layer 2协议作出贡献。
 
-Beginning on **July 14th, 2026 at 15:00:00 UTC**, dYdX governance can decide the maximum supply of new tokens to be minted, up to the maximum inflation rate of `2%` per year at each mint. Only one mint is possible in a given 365 day period. All newly issued tokens will be allocated by governance and will vest immediately. These newly issued tokens can then be sent to any address specified.
+自**中国时间2026年7月14晚上23:00:00**开始，dYdX管理层可以决定要铸造的新代币的最大供应量，最高可达每个铸币厂每年`2%`的最大通货膨胀率。在给定的365天期间内，只能有一次造币。所有新发行的代币将由管理层分配，并立即进行归属。然后可以将这些新发行的代币发送至任何指定地址。
 
-### **What is the lockup for DYDX issued to investors, existing and future employees, and consultants?**
+### **DYDX向投资者、现有和未来的员工以及顾问发行的锁定期是多久？**
 
-DYDX will be issued to stockholders, directors, officers, employees, and consultants of dYdX Trading and the Foundation. All DYDX distributed to these parties will initially be subject to contractual agreements, off-chain, mandating a lockup according to which:
+DYDX将发行给dYdX Trading和基金会的股东、董事、官员、员工和顾问。分发给这些当事方的所有DYDX最初将受到链下的合约协议的约束，并授权锁定，根据该协议：
 
-* 30% of DYDX holdings will unlock after 18 months post-launch;
-* 40% will unlock equally from month 19 through month 24;
-* 20% will unlock equally from month 25 through month 36;
-* 10% will unlock equally from month 37 through month 48.
+* DYDX持有量的30%将在发行18个月后解除锁定；
+* 40%将从第19个月到第24个月平均解锁。
+* 20%将从第25个月到第36个月平均解锁。
+* 10%将从第37个月到第48个月平均解锁。
 
-All employees and consultants also will be subject to various vesting schedules that could result in them losing their rights to DYDX. No employee’s or consultant’s receipt of DYDX is, or will in the future be, based on providing services related to the Protocol or other services that may benefit the Protocol. Instead, employees and consultants may receive DYDX for services that benefit only dYdX Trading, the dYdX Foundation or another party.
+所有员工和顾问也将受到各种行权计划的约束，如违反可能导致他们失去对DYDX的权利。任何员工或顾问收到DYDX的消息都不是基于提供与协议相关的服务或可能使协议受益的其他服务。相反，员工和顾问之所以获得DYDX，可能是因为提供了只对dYdX Trading、dYdX基金会或其他当事方有利的服务。
 
-Regardless of any lockup on DYDX, investors and prior employees or consultants of dYdX Trading or the Foundation may use DYDX to make proposals, delegate votes, or vote on proposals related to the Protocol. Current employees and consultants of dYdX Trading or the Foundation will initially not make any proposals or participate in any votes but may do so in the future. Current employees and consultants of dYdX Trading or the Foundation may delegate votes without attempting to influence voting outcomes.
+无论DYDX是否受到任何锁定，dYdX Trading或基金会的投资者和前员工或顾问都可以使用DYDX进行提议、委托投票或对与协议有关的提议进行投票。dYdX Trading或基金会的现职员工和顾问最初不会提出任何提议或参加任何投票，但今后可能这样做。dYdX Trading或基金会的现职员工和顾问可以委托投票，但不得试图影响投票结果。
 
-All investors are required to comply with the transfer restriction enforced through contractual agreements with the dYdX Foundation. The dYdX Foundation tracks wallet addresses to determine whether any transfers have been made in violation of that restriction.
+## DYDX的流动性供应曲线是什么？
 
-While investors are technically and legally allowed to stake their DYDX to the Safety Module, in the event of a Shortfall Event and slashing of DYDX, investors would get slashed like every one else. At this time, they would be in default against their obligations. Investors would be required to purchase again any tokens that were transferred as a result of slashing so that everyone is in the same position. For this reason, we ask all investors to refrain from staking and request to withdraw any funds currently staked to the Safety Module.
+2021年9月8日，即0时段结束`8天`后，对代币的初始转让限制将被取消，大约8.11%的DYDX供应将开始流通。
 
-The dYdX Foundation has expressed its willingness to bring legal action against investors who do not comply with these requirements.
+下图显示了流动性总供应量随时间的变化情况：
 
-## What is the liquid supply curve of DYDX?
+![](../.gitbook/assets/liquid-supply-schedule%20%282%29.png)
 
-On September 8, 2021, `8 days` after the end of Epoch 0, the initial transfer restrictions on the token will be lifted and approximately 8.11% of the DYDX supply will become liquid.&#x20;
-
-The following chart shows the total liquid supply over time:
-
-![](<../.gitbook/assets/Liquid Supply Schedule (2).png>)
