@@ -1,69 +1,71 @@
 ---
-description: An overview of the voting process.
+description: Обзор процесса голосования.
+
 ---
 
-# Voting Process
+# Процесс голосования
 
-The Protocol is governed and upgraded by DYDX holders and delegatees.
+Протокол регулируется и модернизируется владельцами DYDX и лицами, которым они делегируются.
 
-## **Proposing & Voting Powers**
+## **Право на внесение предложений и право голоса**
 
-There are two powers associated with each DYDX token:
+С каждым токеном DYDX связаны два права:
 
-* The **proposing power** gives access to creating and sustaining a proposal.
-* The **voting power** is used to vote for or against existing proposals.
+* **Право на внесение предложений** позволяет создавать и поддерживать предложения.
+* **Право голоса** используется для голосования за существующие предложения или против них.
 
-DYDX holders receive governance powers proportionally to their sum of owned and delegated tokens at a given block.
+Владельцы DYDX получают права управления пропорционально количеству принадлежащих им и делегированных токенов в определенном блоке.
 
-**`Proposing Power =`**`Proposing Power from DYDX token +` \
-`Proposing Power from staked-DYDX token +` \
-`Proposing Power from DYDX token received as delegatee -` \
-`Proposing Power from DYDX delegated`
+**`Право на внесение предложений =`**`Право на внесение предложений за находящиеся в собственности токены DYDX +   
+ Право на внесение предложений за размещенные в стейке токены DYDX +   
+ Право на внесение предложений за токены DYDX, полученные от других пользователей в результате делегирования –   
+ Право на внесение предложений за делегированные токены DYDX`
 
-**`Voting Power =`**`Voting Power from DYDX token +` \
-`Voting Power from staked-DYDX token +` \
-`Voting Power from DYDX token received as delegatee -` \
-`Voting Power from DYDX delegated`
+**`Право голоса =`**`Право голоса за находящиеся в собственности токены DYDX +   
+ Право голоса за размещенные в стейке токены DYDX +   
+ Право голоса за токены DYDX, полученные от других пользователей в результате делегирования –   
+ Право голоса за делегированные токены DYDX`
 
-## FAQ
+## Часто задаваемые вопросы
 
-### How do I vote?
+### Как участвовать в голосовании?
 
-In order to participate in DYDX on-chain governance, you will need to have or be delegated DYDX tokens. You will also need ETH to cover transaction costs.
+Чтобы участвовать в ончейн-управлении DYDX, необходимо владеть токенами DYDX или получить их от других пользователей в результате делегирования. Вам также понадобится ETH для покрытия операционных издержек.
 
-If you have tokens or have been delegated tokens and there is an active proposal, you are ready to vote in dYdX Governance.&#x20;
+Вы можете голосовать в управлении dYdX, если вы владеете токенами или получили их от других пользователей в результате делегирования, а также при наличии активного предложения.
 
-![Cast votes using your voting power](<../.gitbook/assets/image (87).png>)
+![Голосуйте, используя свое право голоса](../.gitbook/assets/image%20%2883%29.png)
 
-To cast your vote, navigate to the proposals page and click on an active proposal.
+Чтобы проголосовать, перейдите на страницу предложений и нажмите на активное предложение.
 
-### **How do I delegate?**
+### **Как делегировать права?**
 
-DYDX allows holders to delegate voting rights to the address of their choice. Anybody can participate in dYdX governance by receiving delegation, without needing to own DYDX. Users can delegate to one address at a time, and the number of votes added to the delegatee’s vote count is equivalent to the balance of DYDX in the user’s account. Votes are delegated from the current block and onward, until the sender delegates again, or transfers their DYDX.
+Владельцы токена DYDX могут делегировать права голоса выбранным адресам. Участвовать в управлении dYdX может любой пользователь, который получил право голоса от другого пользователя в результате делегирования, но не обязательно владеет токенами DYDX. Пользователи могут делегировать право голоса на один адрес за раз. Количество голосов, добавляемое к числу голосов лица, которому делегируется право, эквивалентно балансу DYDX на учетной записи пользователя. Голоса делегируются с текущего блока и далее, пока отправитель не делегирует их снова или не переведет свои токены DYDX.
 
-![Delegate away your voting & proposing powers](<../.gitbook/assets/image (86).png>)
+![Делегируйте свои право голоса и право на внесение предложений](../.gitbook/assets/image%20%2884%29.png)
 
-Token holders can choose to delegate one or both of the governance powers associated with a token, either through the governance portal or programmatically. A user that has received delegated power can not forward this delegated power to another delegatee.
+Владельцы токенов могут делегировать одно или оба права управления, связанных с токеном, с помощью портала управления или программно. Пользователь, получивший право в результате делегирования, не может передать его другому пользователю.
 
-Token holders can delegate proposing power and voting power to different addresses. However, there is no partial delegation (only 100% or 0% of power.)
+Владельцы токенов могут делегировать право на внесение предложений и право голоса на разные адреса. Однако частично делегировать право нельзя \(возможно только полное делегирование \).
 
-To delegate your tokens to a wallet address:&#x20;
+Чтобы делегировать токены на адрес кошелька, нужно сделать следующее:
 
-* Go to [dydx.community/dashboard](https://dydx.community/dashboard)
-* Click on "Delegate"
-* Select type of power you want to delegate
-* Enter a Wallet Address for a third party to whom you would like to delegate your voting and/or proposal power to. Delegating powers does not transfer your tokens
+* Перейти на [dydx.community/dashboard](https://dydx.community/dashboard)
+* Нажать «Делегировать»
+* Выбрать, какие права вы хотите делегировать
+* Ввести адрес кошелька стороннего лица, которому вы хотели бы делегировать свое право голоса и/или право на внесение предложений. При делегировании прав токены не передаются
 
-Delegating and undelegating DYDX require users to spend Ethereum gas fees.
+При делегировании и отмене делегирования DYDX пользователь должен уплатить комиссию за газ уровня 1.
 
-### Can I change my vote after I have already voted?
+### Можно ли изменить свой выбор после голосования?
 
-Once a vote is cast on-chain, it is not possible to change your vote.
+После того как голос был отдан в блокчейне, изменить его невозможно.
 
-### Can I transfer my DYDX while the vote is in progress?
+### Можно ли переводить DYDX во время голосования?
 
-Yes.
+Да.
 
-### Can I add more tokens to my vote?
+### Можно ли добавить больше токенов к своему голосу?
 
-When a DIP is submitted on-chain, a snapshot is taken of current token holders. Users will need to own or be staked DYDX tokens before the start block.
+Когда в блокчейн вносится ППУ, создается снимок текущих владельцев токенов. Пользователи должны владеть токенами DYDX или разместить их стейке до начала стартового блока.
+
