@@ -1,273 +1,273 @@
 ---
-description: An overview of the Liquidity Staking Pool
+description: 流动性质押池概述
+
 ---
 
-# Liquidity Module
+# 流动性模块
 
-`2.50%` of the initial token supply (`25,000,000 DYDX`) will be distributed to users staking USDC to the liquidity staking pool.
+初始代币供应量的 `2.50%`\（`25,000,000个DYDX`\）将分配给把USDC质押到流动性质押池的用户。
 
-### Objectives
+### 目标
 
-* Incentivize the allocation of USDC for market-making purposes on the dYdX Layer 2 protocol.
-* Allocate capital to top-performing liquidity providers to increase spread, depth, and uptime on dYdX.
+* 鼓励在dYdX Layer 2协议上为做市目的分配USDC。
+* 将资金分配给表现最好的流动性提供方，以提高dYdX的价差、深度和正常运行时间。
 
-Start staking at [**dydx.community/dashboard/pools/liquidity**](https://dydx.community/dashboard/pools/liquidity)**.**
+开始在[**dydx.community/dashboard/pools/liquidity**](https://dydx.community/dashboard/pools/liquidity)**上进行质押。**
 
-## **Staking** Overview
+## **质押**概述
 
-Liquidity is a core component of any successful exchange. To promote liquidity network effects and incentivize professional liquidity providers, DYDX will be distributed to users who stake USDC to the liquidity staking pool. Community-approved liquidity providers will use the staked USDC to make markets on the dYdX Layer 2 Protocol, furthering the liquidity available across the markets. Liquidity providers are restricted from using borrowed funds outside of the dYdX Layer 2 Protocol.
+流动性是任何成功交易所的核心组成部分。为提高流动性网络效应，激励专业流动性提供方，DYDX将被分配给向流动性质押池质押USDC的用户。社区批准的流动性提供方将使用质押的USDC基于dYdX Layer 2协议进行做市，从而进一步提高市场的可用流动性。流动性提供方被限制使用dYdX Layer 2协议以外的借贷资金。
 
-Stakers will earn DYDX rewards for staking USDC. DYDX rewards will be distributed continuously according to each staker’s portion of the total USDC in the pool.&#x20;
+质押人将通过质押USDC赚取DYDX奖励。DYDX奖励将根据每个质押人占质押池中总USDC的比例持续进行分配。
 
-Each staker and liquidity provider is required to become party to the Revolving Credit Agreement (link [here](https://dydx.foundation/revolving-credit-agreement)). The agreement puts into natural language the terms of the liquidity staking pool to give each staker an enforceable right against any liquidity provider who does not repay the borrowed USDC. The agreement is only between each staker and each liquidity provider. The dYdX Foundation is not a party to the agreement and has no rights or obligations under it.
+每个质押人和流动性提供方必须成为循环信贷协议的缔约方\([此处链接](https://dydx.foundation/revolving-credit-agreement)\)。该协议将流动性质押池的条款用自然语言表达出来，赋予每个质押者针对任何不偿还所借USDC的流动性提供方的可执行权利。该协议仅在每个质押人与每个流动性提供方之间签署。dYdX基金会不是协议的缔约方，并且没有该协议的权利或义务。
 
-## USDC Unstaking & Withdrawals
+## USDC解除质押和提现
 
-A staker must request to withdraw USDC at least `14 days` (**Blackout Window**) before the end of an [**epoch**](../start-here/epochs.md) in order to be able to withdraw the staker's USDC after the end of that epoch. If stakers do not request to withdraw, their staked USDC is rolled over into the next epoch.
+质押人必须在[**时段**](../start-here/epochs.md)结束前至少`14天`请求提现USDC\（**停市窗口期**\），才能在该时段结束后提现质押人的USDC。如果质押人不请求提现，他们质押的USDC将被转入下一时段。
 
-Withdrawals cannot be requested during the **Blackout Window**.
+在**停市窗口期**期间，无法请求提现。
 
-## Staking Risks
+## 质押风险
 
-Borrowers from the pool are not required to lock collateral. All borrowers are professional and reputable liquidity providers. The list of allowed borrowers and their pool allocations are updatable by governance.
+质押池中的借款人无需锁定抵押品。所有借款人都是专业和声誉良好的流动性提供方。允许的借款人及其资金池分配清单可由治理进行更新。
 
-When users request to withdraw USDC, a borrower’s allocated balance for the next epoch may drop below the borrower's currently borrowed amount. In this situation, the borrower is responsible for paying back the difference between its borrowed and allocated balances before the end of the epoch.
+当用户请求提现USDC，一个借款人下一时段的分配余额可能会低于借款人当前借款金额。在这种情况下，借款人负责在时段结束前偿还借款与所分配余额之间的差额。
 
-If a borrower fails to repay an owed balance back to the pool by the end of the epoch, it is considered to be in default and is disallowed from borrowing further USDC until the debt is repaid. Stakers may lose USDC in the event a borrower never repays a debt. Stakers can lose a portion of staked USDC if a market maker were to lose USDC and be unable to replenish the liquidity staking pool.
+如果借款人未能在时段结束前将欠款余额还回到质押池，则被认为是违约，在债务偿还前，不允许借贷更多USDC。如果借款人永远不会偿还债务，质押人可能会失去USDC。如果做市商将失去USDC，并且无法补充流动性质押池，质押人可能会损失一部分质押USDC。
 
-Stakers also are exposed to smart contract risk if there is a vulnerability in the underlying smart contract code. All DYDX & governance smart contracts have been audited and rigorously tested.
+如果基本的智能合约代码存在漏洞，质押人也会面临智能合约风险。所有DYDX和治理智能合约都已被审计并进行了严格的测试。
 
-To reduce the risk to stakers, each staker and liquidity provider will be required to become party to the Revolving Credit Agreement (link [here](https://dydx.foundation/revolving-credit-agreement)), but entering into the agreement does not ensure that a liquidity provider will repay all amounts borrowed, even if a staker's rights under the agreement are enforced.&#x20;
+为了减少质押人的风险，每个质押人和流动性提供方都必须成为循环信用协议的缔约方，\([此处](https://dydx.foundation/revolving-credit-agreement)链接\)，但签订该协议不能确保流动性提供方将偿还所有借款金额，即使根据协议强制执行质押人的权利，也是如此。
 
-## Approved Borrowers
+## 批准的借款人
 
-The Liquidity Staking Pool contract operates as a two-sided, under-collateralized, interest-free liquidity system.
+流动性质押池合约是一种双侧、质押不足、无利息的流动性系统。
 
-The amount that can be withdrawn depends on a borrower's allocation percentage and the total available USDC staked in the pool. Both the allocation percentage and total available USDC can change, at predefined times specified by `LS1EpochSchedule`. The borrowed USDC may only be used on dYdX’s Layer 2 Protocol — this is enforced via the`StarkProxy`contract which interacts with the`StarkEx Perpetual Exchange`contract.
+可以提现的金额取决于借款人分配比例和质押资金池中质押的USDC总量。USDC分配百分比和可用总数可以根据`LS1EpochSchedule`指定的预定义时间进行变更。借款的USDC只能在dYdX Layer 2协议上使用，此协议通过`StarkProxy`合约强制执行，该合约与`StarkEx永续交易所`合约互动。
 
-The initially approved liquidity providers include `Wintermute`, `Amber Group`, `Wootrade (Kronos)`, `Sixtant`, and `DAT Trading`, who have been actively market-making on the dYdX Layer 2 Protocol.
+初始获批准的流动性提供方包括`Wintermute`、`Amber Group`、`Wootrade (Kronos)`、`Sixtant`和`DAT Trading`，他们一直在dYdX Layer 2协议上积极做市。
 
-| Pre-approved Borrowers | Initial Allocation Percentage | Ethereum Address                           | StarkProxy                                                                                                            | Details on Liquidity Providers                                                                                                                                                         |
-| ---------------------- | ----------------------------- | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Wintermute             | 25%                           | 0x4f3a120E72C76c22ae802D129F599BFDbc31cb81 | 0x0b2B08AC98a1568A34208121c26F4F41a9e0FbB6                                                                            | [https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/](https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/)                             |
-| Amber Group            | 25%                           | 0x4f3a120E72C76c22ae802D129F599BFDbc31cb81 | [0x3e6E9EFb0A677a24F47093a22044dc5451A028cF](https://etherscan.io/address/0x3e6E9EFb0A677a24F47093a22044dc5451A028cF) | [https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/](https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/)                           |
-| Wootrade (Kronos)      | 20%                           | 0x38d981c3c42b2ec8e9572f560552407d0f1279fb | [0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06](https://etherscan.io/address/0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06) | [https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/](https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/) |
-| Sixtant                | 20%                           | 0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c | [0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2](https://etherscan.io/address/0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2) | [https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/](https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/)                                   |
-| DAT Trading            | 10%                           | 0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c | [0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874](https://etherscan.io/address/0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874) | [https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/](https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/)                           |
+| 事先批准的借款人 | 初始分配百分比 | 以太坊地址 | 流动性提供方的详细信息 |
+| :--- | :--- | :--- | :--- |
+| Wintermute | 25% | 0x4f3a120E72C76c22ae802D129F599BFDbc31cb81 | [https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/](https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/) |
+| Amber Group | 25% | 0x39ad99e33ab7ee85818741dd6076112188bc2611 | [https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/](https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/) |
+| Wootrade \(Kronos\) | 20% | 0x38d981c3c42b2ec8e9572f56052407d0f1279fb | [https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/](https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/) |
+| Sixtant | 20% | 0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c | [https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/](https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/) |
+| DAT Trading | 10% | 0x940ab7307c7971f9284ba9c19b3313600d79c48a | [https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/](https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/) |
 
-## Staked Balance Accounting
+## 质押余额会计处理
 
-A staked balance is in one of two states:
+质押余额处于两种状态之一：
 
-* **Active**: Available for borrowing; earns staking rewards; cannot be withdrawn by the staker.
-* **Inactive**: Unavailable for borrowing; does not earn rewards; can be withdrawn by the staker.
+* **活跃**：可以用于借款；赚取质押奖励；质押人不能提现。
+* **非活跃**：借款不可用；不赚取奖励；可以由质押人提现。
 
-A staker may have a combination of active and inactive balances. USDC is accounted for epoch-by-epoch as shown in the following example:
+质押人可能具有活跃和非活跃余额的组合。USDC按时段进行计算，如以下示例所示：
 
-![Staked balance accounting ](<../.gitbook/assets/image (34).png>)
+![质押余额会计处理](../.gitbook/assets/image%20%2830%29.png)
 
-The following operations affect staked balances as follows:
+以下操作会影响质押余额，如下所示：
 
-* **Deposit**: Increase active balance.
-* **Request withdrawal**: At the end of the current epoch, move some active USDC to inactive.
-* **Withdraw**: Decrease inactive balance.
-* **Transfer**: Move some active USDC to another staker.
+* **存款**：增加活跃余额。
+* **请求提现**：在本时段结束时，将一些活跃USDC移至非活跃状态。
+* **提现**：减少非活跃余额。
+* **转让**：将一些活跃USDC移至另一个质押人。
 
-To encode the fact that a balance may be scheduled to change at the end of a certain epoch, each balance is stored as a struct of three fields: currentEpoch, currentEpochBalance, and nextEpochBalance. Inactive user balances also make use of the shortfallCounter field.
+如果要加密一个交易时间段结束时可能计划变更余额的事实，每个余额将作为三个字段的结构进行存储：currentEpoch、currentEpochBalance和nextEpochBalance。非活跃用户余额也利用shortfallCounter字段。
 
-### What is stkUSDC?
+### 什么是stkUSDC？
 
-USDC holders who deposit and stake their USDC into the Liquidity Staking Pool will receive a tokenized position (**stkUSDC**). stkUSDC is minted when a user stakes USDC, and is burned when a user calls `withdrawStake`. In the same transaction that USDC leaves a staker's wallet, stkUSDC enters the staker's wallet; or vice-versa when unstaking.
+将USDC存入并质押到流动性质押池的USDC持有人，将获得代币化头寸\(**stkUSDC**\)。stkUSDC在用户质押USDC时铸造，并在用户调用`withdrawStake`时进行烧制。在USDC离开质押人钱包的同一笔交易中，stkUSDC进入质押人钱包；解除质押时，反之亦然。
 
-A stkUSDC balance can be active or inactive. Active stkUSDC can be transferred as an ERC-20, but cannot be withdrawn. Inactive stkUSDC can be withdrawn, but cannot be transferred. For example, a user may have 100 active and 100 inactive stkUSDC in their wallet, and the user's balance will show 200 stkUSDC, but a transfer will revert if the user tries to transfer more than 100 stkUSDC.
+stkUSDC余额可能是活跃的或不活跃的。活跃的stkUSDC可以作为ERC-20转让，但不能提现。不活跃的stkUSDC可以提现，但不能转让。例如，用户的钱包中有100个活跃和100个不活跃的stkUSDC，用户的余额将显示200个stkUSDC，但如果用户试图转让超过100个stkUSDC，则转让将失败。
 
-A staked balance for which the staker has requested a withdraw prior to the end of epoch would be considered inactive, and therefore not transferable.
+## **质押人**常见问题解答
 
-## **Stakers** FAQ
+### 我如何赚取质押奖励？
 
-### How do I earn staking rewards?
+质押人可以随时将USDC存入流动性质押池，并立即开始赚取奖励。DYDX奖励是根据每秒每个质押人在总质押池中的比例持续赚取。可以随时申领奖励并提现。
 
-Stakers can deposit USDC at any time to the liquidity staking pool and start earning rewards immediately. DYDX rewards are earned on a continuous basis according to each staker’s share of the total pool on a second-by-second basis. Rewards can be claimed and withdrawn at any time.
+质押的USDC在活跃时期内便会获得奖励。这意味着，在请求提现部分USDC后，USDC将继续赚取奖励，直至时段结束。例如：
 
-Staked USDC earns rewards for the period of time that it remains active. This means that after requesting a withdrawal of some USDC, that USDC will continue to earn rewards until the end of the epoch. For example:
+![奖励会计处理](../.gitbook/assets/image%20%2860%29.png)
 
-![Rewards accounting](<../.gitbook/assets/image (65).png>)
+在上述情景中，用户将从**Time0**到**Time2**期间内赚取奖励，随着该期间质押余额总数的变化而变化。如果用户仅请求提现部分用户余额，那么剩余的余额将在**Time2**后继续赚取奖励。
 
-In the above scenario, the user would earn rewards for the period from **Time0** to **Time2**, varying with the total staked balance in that period. If the user only requests a withdrawal for a part of the user's balance, then the remaining balance would continue earning rewards beyond **Time2**.
+### 我如何存入USDC并质押到流动性质押池？
 
-### How do I deposit and stake USDC to the Liquidity Pool?
+如果要将USDC质押到流动性质押池，请按照以下步骤操作：
 
-To stake USDC to the Liquidity Pool, follow these steps:
+* 转到[https://dydx.community/dashboard/pools/liquidity](https://dydx.community/dashboard/pools/liquidity)
+* 单击“质押”
+* 首次存入时，您必须启用USDC。这样只需操作一次，并仅支付一次gas费用。
+* 输入您希望质押到质押池的USDC数量。
+* 单击“质押资金”，您需要支付质押的gas费用、请求提现并提现USDC。
 
-* Go to [https://dydx.community/dashboard/pools/liquidity](https://dydx.community/dashboard/pools/liquidity)
-* Click on “Stake”
-* You must enable USDC the first time you deposit. You will only have to do this once and pay gas fees only once.
-* Enter the amount of USDC you want to stake to the pool.
-* Click “Stake Funds” - you will need to pay gas fees to stake, request to withdraw, and withdraw USDC.
+![](../.gitbook/assets/image%20%2859%29.png)
 
-![](<../.gitbook/assets/image (57).png>)
+质押的USDC现在已经活跃，并立即开始赚取奖励。
 
-Staked USDC us now active and start earning rewards immediately.
+如果要直接在智能合约上存入并质押USDC，用户请调用`stake`函数。用户也可以调用`stakeFor`函数，代表另一个地址存入和质押USDC。即使您直接在智能合约上质押USDC，也将被视为您已注意到并查阅了《循环信贷协议》\([此处](https://dydx.foundation/revolving-credit-agreement)链接\)。
 
-To deposit and stake USDC directly on the smart contract, users call the`stake`function. Users can also deposit and stake USDC on behalf of another address by calling the`stakeFor`function. Even if you stake USDC directly on the smart contract, you will be deemed to have notice of, and reviewed, the Revolving Credit Agreement (link [here](https://dydx.foundation/revolving-credit-agreement)).
+### 停市窗口期是什么？
 
-### What is the Blackout Window?
+停市窗口期是指一段时间，用户不能在此期间请求提现质押的USDC。停市窗口期期间，无法调用`requestWithdrawal`函数，该窗口期最初被配置为一个时段的最后`14天`。每28天开始新的时段。换句话说，用户可以在给定时段结束前最多`14天`请求提现。
 
-A blackout window is a period of time during which users cannot request withdrawals of staked USDC. The`requestWithdrawal`function cannot be called during a blackout window, which is initially configured as the last`14 days`of an epoch. New epochs start every 28 days. In other words, users can request a withdrawal for the next epoch up to`14 days`before the end of a given epoch.
+### 我如何从质押资金池提现USDC？需要多长时间？
 
-### How do I withdraw USDC from the staking pool? How long does it take?
+对提现强制执行时段时间表，以便为质押池中USDC的可用性提供可预测性和定期节奏。质押人必须至少在时段结束前至少`14天`请求解除质押USDC，才能在该时段结束后提现质押人的USDC。如果质押人不请求提现，他们质押的USDC将被转入下一时段。
 
-An epoch schedule is enforced for withdrawals in order to provide predictability and a regular cadence for the availability of USDC in the pool. A staker must request to unstake USDC at least`14 days`before the end of an epoch in order to be able to withdraw the staker's USDC after the end of that epoch. If stakers do not request to withdraw, their staked USDC is rolled over into the next epoch.
+如果要提现 USDC，用户请调用`requestWithdrawal`，以请求在下一时段提现USDC。用户资金将持续质押，并且无法在当前时段提现。从下一时段开始，资金将变成“非活跃”，并可用于提现。
 
-To withdraw USDC, users call the`requestWithdrawal`function to request to withdraw USDC for the next epoch. User funds will remain staked and not withdrawable for the current epoch. Starting in the next epoch, funds will be “inactive” and available for withdrawal.
+在下一时段，用户将调用`withdrawStake`函数，将非活跃USDC提现至特定地址。用户可以选择要提取的非活跃资金金额或调用\`withdrawMaxStake\`函数以提取所有非活跃资金。`withdrawMaxStake`函数的gas效率低于通过eth\_call查询最大值和调用`withdrawStake()`。
 
-In the next epoch, users call the `withdrawStake` function to withdraw inactive USDC to a specific address. Users can select the amount of inactive funds they want to withdraw or call the \`withdrawMaxStake\` function to withdraw all inactive funds. The `withdrawMaxStake` function is less gas-efficient than querying the max via eth\_call and calling `withdrawStake()`.
+如要将USDC解除质押到流动性质押池，按照以下步骤操作：
 
-To unstake USDC to the Liquidity Pool, following the following steps:
+* 转到[**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*
+* 单击“**请求**”，以打开以下模式：
 
-* Go to [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)****
-* Click on “**Request**”, to open the following modal:
+![请求提现](../.gitbook/assets/image%20%2868%29.png)
 
-![Requesting withdraw](<../.gitbook/assets/image (58).png>)
+* 输入您希望请求从资金池中提现的USDC金额，然后单击“**请求提现**”。您需要支付gas费以解除质押USDC。
+* 如果质押人在当前时段结束前至少14天\（**停市窗口期**\）请求解除质押USDC，则可以在下一时段开始时提现USDC。
 
-* Enter the amount of USDC you want to request to withdraw from the pool, and click "**Request withdraw**". You will need to pay gas fees to unstake USDC.
-* Stakers who request to unstake USDC at least 14 days (**Blackout Window**) before the current epoch ends can withdraw their USDC at the start of the next epoch.
+### 治理可以更改哪些参数？
 
-### What parameters can governance change?
+dYdX治理负责：
 
-dYdX governance is responsible for:
+* 对现有借款人进行尽职调查
+* 将新借款人添加到质押流动性资金池中，和/或从资金池中删除现有借款人
+* 更改将借款USDC分配给获批借款人的数额
+   * 调用`setBorrowerAllocations`和`setBorrowingRestriction`函数，以更改某些借款人的分配。可以使用它们添加和删除借款人。增加将于下一时段生效，但减少将立即限制借贷。“停市窗口期”期间无法调用这些函数。
+* 时段长度和停市窗口期在创建合约时确定，但可以更改
 
-* Doing due diligence on existing borrowers
-* Adding new borrowers to and/or removing existing borrowers from the Staking Liquidity Pool&#x20;
-* Changing allocations of borrowed USDC to approved borrowers
-  * The `setBorrowerAllocations` and `setBorrowingRestriction` functions are called to change the allocations of certain borrowers. They can be used to add and remove borrowers. Increases take effect in the next epoch, but decreases will restrict borrowing immediately. These functions cannot be called during the blackout window.
-* Epoch length and blackout window are set upon creating the contract but can be changed
+## **借款人常见问题解答**
 
-## **Borrowers FAQ**
+### **借款**
 
-### **Borrowing**
+质押的USDC进入一个资金池，以分配给经批准的借款人。每个借款人都拥有由治理控制的分配百分比，并可以在分配前借款。解除质押将受到“时段时间表”的限制，质押的USDC只能在时段开始时才可以提现\（即“非活跃”\）。
 
-Staked USDC enters a pool which is allocated to approved borrowers. Each borrower has an allocation percentage controlled by governance and may borrow up to this allocation. Unstaking is subject up an “epoch schedule”—staked USDC may only become withdrawable (i.e. “inactive”) at the start of an epoch.
+请求提现的USDC必须由借款人在时段结束前退还。如果欠款，未支付的金额将变成“债务余额”，质押合约被重新稳定。违约借款人必须偿还债务余额，并被限制借款，直到由治理恢复为止。
 
-USDC requested for withdrawal must be returned by borrowers before the end of the epoch. In case of underpayment, the underpaid amount becomes a “debt balance” and the staking contract is re-stabilized. The offending borrower must pay back the debt balance and will be restricted from borrowing until reinstated by governance.
+借款人受循环信贷协议\（[此处](https://dydx.foundation/revolving-credit-agreement)链接\）的所有条款的约束。
 
-Borrowers are subject to all of the terms of the Revolving Credit Agreement (link [here](https://dydx.foundation/revolving-credit-agreement)).
+### **StarkProxy功能**
 
-### **StarkProxy Features**
+#### **自动付款**
 
-#### **Auto-Pay**
+借款人可以使用`autoPayOrBorrow()` 以确保最大限度利用分配的USDC并及时偿还请求的提现。该函数只需要在每个时段中为借款人成功调用一次，以确保他们履行其职责。
 
-Borrowers can use `autoPayOrBorrow()` to ensure maximum usage of allocated USDC and timely repayment of requested withdrawals. The function only needs to be called successfully once per epoch for a borrower to ensure they are meeting their responsibilities.
+如果在时段上半段调用，该函数将恢复，因为这在“停市窗口期”之外。如果`StarkProxy`合约没有足够的USDC用于偿还，则会恢复。在这种情况下，必须添加USDC或从交易所提现，再调用`autoPayOrborrow()`。
 
-The function will revert if called in the first half of the epoch, since this is outside the blackout window. It will revert if the`StarkProxy`contract does not have enough USDC for repayment. In this case, USDC must be added, or withdrawn from the exchange before calling `autoPayOrBorrow()`.
+#### **质押人拥有的USDC**
 
-#### **Borrower-Owned USDC**
+借款人可以在与借款USDC相同的账户中，安全地将自己的USDC存入`StarkProxy`并用于dYdX Layer 2协议。在下列任何一种情况下，可以从`StarkProxy`提现USDC：
 
-A borrower may safely deposit its own USDC to the`StarkProxy`and use its on the dYdX Layer 2 Protocol in the same account as borrowed USDC. USDC may be withdrawn from `StarkProxy` in either of the following situations:
+* 在`StarkProxy`合约中持有超过借款余额的USDC可以随时提现。
+* 治理可以批准某种数额的提现。
+   * 注意：可以利用此方法允许借款人提现利润，而不必将大多数USDC从dYdX Layer 2协议中移出。
 
-* USDC held within the`StarkProxy`contract in excess of the borrowed balance may be withdrawn at any time.
-* Governance may approve a withdrawal of a certain amount.
-  * Note: This can be used to allow the borrower to withdraw profits without having to move most USDC off of the dYdX Layer 2 Protocol.
+#### **借款人角色**
 
-#### **Borrower Roles**
+`StarkProxy`合约支持以下由借款人控制的角色。这些可以根据借款人的保险需求由一个地址或单独的地址持有。每种角色可以由任何数量的地址来持有。
 
-The `StarkProxy`contract supports the following borrower-controlled roles. These may be held by a single address or separate addresses depending on the security needs of the borrower. Each role can be held by any number of addresses.
+所有者
 
-Owner
+* 授予或撤销委托管理员的角色。
+* 添加或删除`StarkProxy`中提现的USDC的允许接收者。
+* 添加或删除在dYdX Layer 2协议上使用的允许的STARK密钥。
+* 在`LiquidityStakingV1`和`StarkPerpetual`合约上设定ERC20限额。
+* 在`StarkEx永续交易所`合约上调用`forcedWithdrawalRequest()`或`forcedTradeRequest()`。
 
-* Grant or revoke the delegation admin role.
-* Add or remove allowed recipients for USDC withdrawn from `StarkProxy`.
-* Add or remove allowed STARK keys for use on the dYdX Layer 2 Protocol.
-* Set ERC20 allowances on the `LiquidityStakingV1` and `StarkPerpetual` contracts.
-* Call `forcedWithdrawalRequest()` or `forcedTradeRequest()` on the `StarkEx Perpetual Exchange` contract.
+委托管理
 
-Delegation Admin
+* 授予或撤销借款人、交易所操作员和提现操作员角色。
 
-* Grant or revoke the borrower, exchange operator, and withdrawal operator roles.
+借款人
 
-Borrower
+* 在流动性质押合约上调用`autoPayOrBorrow()`、`borrow()`、`repay()`和`repayDebt()`。
 
-* Call `autoPayOrBorrow()`, `borrow()`, `repay()`, and `repayDebt()` on the Liquidity Staking contract.
+交易所操作员
 
-Exchange Operator
+* 在`StarkEx永续交易所`合约上调用`registerUserOnExchange()`、`depositToExchange()`和`withdrawFromExchange()`。
 
-* Call `registerUserOnExchange()`, `depositToExchange()`, and `withdrawFromExchange()` on the `StarkEx Perpetual Exchange` contract.
+提现操作员
 
-Withdrawal Operator
+* 向获允许的接收者提出从`StarkProxy`中进行有效的外部提现\（见上文\）。
 
-* Make a valid external withdrawal (see above) out of `StarkProxy` to an allowed recipient.
+#### **限制**
 
-#### **Limitations**
+在dYdX Layer 2协议上，Layer 2转让因`StarkProxy`控制的账户而被禁用。
 
-Layer 2 transfers on the dYdX Layer 2 Protocol are disabled for accounts controlled by a `StarkProxy`.
+#### **监护权**
 
-#### **Guardian Powers**
+监护人角色将由dYdX治理控制。其职责是确保借款USDC的安全，并在借款人私人密钥丢失或滥用时允许他们退还给质押人。
 
-The guardian role will be controlled by dYdX governance. Its role is to ensure the safety of borrowed USDC and to allow them to be returned to stakers in the case where a borrower’s private key is lost or misused.
+监护人可以在任何时候采取以下行动\（视时间锁而定\）：
 
-The guardian may take the following actions at any time (subject to time-lock):
+* 将借款USDC的借贷和存入限制在交易所。
+* 使用`StarkProxy`合约的USDC来偿还借款余额。
+* 使用`StarkProxy`合约的USDC偿还债务余额。
+* 从StarkEx合约提现到`StarkProxy`合约\（例如，作为交易所正常提现的第二步\）。
+* 取消借款人发起的强制交易请求。
+* 批准借款人从`StarkProxy`合约提现，同时绕过余额检查。
+* 升级智能合约。
 
-* Restrict borrowing and depositing of borrowed USDC to the exchange.
-* Repay a borrowed balance using USDC in the `StarkProxy` contract.
-* Repay a debt balance using USDC in the `StarkProxy` contract.
-* Withdraw from the StarkEx contract to the `StarkProxy` contract (e.g. as the second step of a slow withdrawal from the exchange).
-* Cancel a forced trade request initiated by the borrower.
-* Approve the borrower to withdraw an amount from the `StarkProxy` contract while circumventing the balance check.
-* Upgrade the smart contract.
+**如果借款人有未偿债务余额，则监护人可以采取以下行动\（视时间锁而定\）：**
 
-**The guardian may take the following actions if the borrower has an outstanding debt balance (subject to time-lock):**
+* 从dYdX Layer 2协议中强制提现。
+* 在dYdX Layer 2协议上进行强制交易\(仅限于削减\)。
 
-* Make a forced withdrawal from the dYdX Layer 2 Protocol.
-* Make a forced trade (reduce-only) on the dYdX Layer 2 Protocol.
+## 质押风险常见问题解答
 
-## Staking Risks FAQ
+### 质押到流动性质押池的风险是什么？如果借款人未能偿还借款资金，会发生什么？
 
-### What are the risks of staking to the liquidity staking pool? What happens if a borrower fails to pay back borrowed funds?
+非质押借款的系统需要更高的信托标准，借款人必须达到该标准。从流动性质押池中借贷的流动性提供方不能在流动性质押系统和dYdX Layer 2协议之外转移借贷的资金。但是，如果流动性提供方将失去资金交易，并且无法通过外部资金来源补充其借贷的分配，那么质押的USDC可能会亏损。
 
-A system for un-collateralized borrowing requires a much higher standard of trust that must be met by a borrower. Liquidity providers borrowing from the liquidity staking pool cannot move borrowed funds outside of the liquidity staking system and dYdX Layer 2 Protocol. Still, staked USDC could be lost if a liquidity provider were to lose funds trading and be unable to replenish its borrowed allocations through external funding sources.
+在这种情况下，如果借款人迟迟未偿还请求提现的资金，那么不活跃资金可能会受到以下社会化损失。如果借款资金出现违约，一个拖欠的借款人将面临严重的声誉损害。
 
-In this event, inactive funds may be subject to socialized losses as laid out below in the event of a shortfall where a borrower is late to pay back funds that have been requested for withdrawal. In case of default on borrowed funds, a delinquent borrower will face significant reputational damage.
+尽管每个质押人和借款人都是循环信贷协议\（链接[此处](https://dydx.foundation/revolving-credit-agreement)\）的缔约方，该协议没有提供质押人将偿还债务的保证。
 
-Although each staker and borrower is party to the Revolving Credit Agreement (link [here](https://dydx.foundation/revolving-credit-agreement)), this agreement does not provide a guarantee that borrowers will repay their obligations.
+### 合约如何维持偿债能力？
 
-### How does the contract maintain solvency?
+在任何时候，合约将根据质押余额和借款余额之间的关系处于以下其中一种状态：
 
-At any point in time, the contract will be in one of the following states based on the relationship between the staked and borrowed balances:
+![合约偿债能力](../.gitbook/assets/image%20%2841%29.png)
 
-![Contract Solvency](<../.gitbook/assets/image (41).png>)
+在以下情况下，合约**无法偿债**：
 
-The contract is said to be **insolvent**:
+* 如果借款余额总额超过总活跃余额；
+* 或者如果非活跃总余额超过未借贷总余额；
+* 或者如果可提现余额总数超过合约的USDC余额。
 
-* if the total borrowed balance is greater than the total active balance;
-* or equivalently, if the total inactive balance is greater than the total unborrowed balance;
-* or equivalently, if the total withdrawable balance is greater than the contract’s USDC balance.
+否则，合约被认为是**可以偿债**。
 
-Otherwise, the contract is said to be **solvent**.
+由于借款限于借款人分配的活跃USDC比例，而且由于非活跃余额只能在时段之间增加，因此在时段之间的过渡期间，合约通常只能从偿债状态变成无法偿债状态。
 
-Because borrowing is limited to a borrower’s allocated proportion of active USDC, and because the inactive balance can only increase between epochs, the contract can typically only move from a solvent to an insolvent state during the transitions between epochs.
+如果在新时段开始时，合约已经无法偿债，那么尽快重新稳定是至关重要的。偿债能力通过一种称为“债务核算”的机制来恢复。一旦合约无法偿债，任何人都可以通过指定超过分配的借款人名单来调用`MarkDebt()`函数。借款人借贷余额超过分配的数额称为借款人资金缺口数额。
 
-If, at the start of a new epoch, the contract is insolvent, is it important to re-stabilize it as soon as possible. Solvency is restored via a mechanism called “debt accounting.” Anytime the contract is insolvent, the `markDebt()` function may be called, by anyone, by specifying a list of borrowers who have exceeded their allocations. The amount by which a borrower's borrowed balance exceeds their allocation is called the borrower's shortfall amount.
+当调用`MarkDebt()`时，每个借款人资金缺口数额将从借款余额中挪出，并进入称为债务余额的余额中。与此同时，这些资金缺口的总数来自质押人不活跃余额，并以质押人债务收据形式进行分配。每个质押人不活跃余额将进行折扣，每个质押人将以债务形式收到相应的金额。这样，无法偿债导致的损失将在所有持有非活跃余额的质押人中社会化\（按比例\）。
 
-When `markDebt()` is called, the shortfall amount of each borrower is moved out of their borrowed balance and into a balance called the debt balance. At the same time, the aggregate of these shortfall amounts is taken out of staker inactive balances and distributed as staker debt receipts. Each staker’s inactive balance will take a haircut, and each staker will receive an equivalent amount in the form of debt. In this way, the loss from insolvency is socialized (pro-rata) across all stakers holding inactive balances.
+该过程如下所示：
 
-This process is illustrated below:
+![违约](../.gitbook/assets/image%20%2844%29.png)
 
-![Default](<../.gitbook/assets/image (46).png>)
+### 债务代表什么？
 
-### What does Debt represent?
+如果借款人违约，则资金缺口数额\（最多达100%的非活跃余额\）从非活跃余额中转换为债务余额\（在非活跃余额持有人中进行损失社会化\）。质押人的债务余额并非使质押人有权从质押USDC资金池中提现，必须以债务偿还形式具体地予以偿还。
 
-In the event of a borrower default, the shortfall amount (up to 100% of inactive balances) is converted from an inactive balance into a debt balance (socialized loss among inactive balance holders). A staker's debt balance does not entitle the staker to withdraw from the pool of staked USDC — it must be paid back specifically in the form of debt repayments.
+债务代表USDC的收据，此后可以赎回USDC，或者在借款人偿还债务时，或者通过治理确定的另一种补救手段进行。
 
-The Debt represents a receipt for USDC which can later be redeemed for USDC, either when the Borrower makes a debt repayment, or via another means of recuperation as determined by governance.
+### 如果借款人违约，质押人可以获得哪些追溯权？
 
-### What recourses are available to stakers if a borrower defaults?
+质押人和借款人是循环信贷协议\（链接[此处](https://dydx.foundation/revolving-credit-agreement)\）缔约方，该协议旨在在每个质押人与每个借款人之间建立可执行的协议。此外，流动性质押池智能合约旨在让质押人对借款人追索，尽管无法保证偿还。
 
-Stakers and borrowers are parties to the Revolving Credit Agreement (link [here](https://dydx.foundation/revolving-credit-agreement)) which is intended to create an enforceable agreement between each staker and each borrower. In addition, the Liquidity Staking Pool smart contract is designed to give stakers recourse against borrowers, though it cannot guarantee repayment.
+当对借款人调用`MarkDebt()`时，借款人失去从合约中借贷任何进一步资金的权利。该权利可以通过治理恢复。
 
-When `markDebt()` is called on a borrower, that borrower loses the right to borrow any further funds from the contract. This right can be reinstated by governance.
+一旦债务被“标记”，就会从主要会计系统中删除，并可以由质押人多种方式予以追回。如果负债的借款人偿还债务（或者如果另一方，例如治理，代表其偿还债务），那么欠债的质押人可以按照先到先得的原则收回资金。可以通过智能合约的“债务操作员”接口来实施更灵活的解决方案。
 
-Once debt has been “marked,” it is removed from the main system of accounting, and can be recovered by stakers in multiple ways. If the indebted borrower pays back the debt (or if another party, such as governance, pays it back on its behalf) then the stakers who were owed the debt may recoup the funds on a first-come, first-served basis. More flexible solutions may be implemented via the “debt operator” interface on the smart contract.
+质押人收到债务后，实际发生的情况将取决于实际情境。如果是被批准的借款人犯了诚实的错误，那么质押人可能会期望迅速全额偿还。如果USDC资金亏损，治理可以向受影响的质押人发放部分偿还金额。如果解决方案不确定，治理可以选择向受影响的质押人签发ERC20收据，使他们在等待解决方案时立即获得流动性。如果认为适当，治理可以选择向收据持有人发放利息付款，直到达成决议。
 
-What happens in practice after stakers receive debt will depend on the context. If it was an honest mistake by an approved borrower, stakers can expect to be paid back quickly and in full. If USDC funds were lost, governance can issue a partial repayment to the affected stakers. If the resolution is uncertain, governance may choose to issue an ERC20 receipt to affected stakers, allowing them instant liquidity while waiting for a resolution. If deemed appropriate, governance could choose to issue interest payments to receipt holders until a resolution is reached.
+所有这些案件都基本上得到质押合约的支持，但必须由dYdX治理来决定并执行适当的回复。视情况，这可能要求制定和部署周边智能合约。
 
-All of these cases are fundamentally supported by the staking contract, but the appropriate response has to be decided on and executed upon by dYdX governance. Depending on the situation, this may require a peripheral smart contract to be written and deployed.
