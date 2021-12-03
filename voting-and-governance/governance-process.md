@@ -1,67 +1,63 @@
 ---
-description: A high-level overview of governance architecture.
+description: Высокоуровневый обзор архитектуры управления.
+
 ---
 
-# Architecture
+# Архитектура
 
-## Overview
+## Обзор
 
-DYDX grants holders the right to propose and vote on changes to the Protocol. DYDX governance is based on the AAVE governance contracts, and supports voting based on DYDX token holdings.
+Токен DYDX предоставляет его владельцам право предлагать изменения для протокола и голосовать за них. Управление DYDX основано на договорах управления AAVE и поддерживает голосование с учетом токенов DYDX, находящихся во владении.
 
-Proposals must pass a given threshold and percent of yes votes based on the type of proposal.
+Предложения должны получить определенное число и процент положительных голосов, что зависит от типа предложения.
 
-These DYDX tokens can be used to make proposals or vote on governance proposals or be delegated to other Ethereum addresses.
+Эти токены DYDX можно использовать для внесения предложений или голосования по предложениям управления, или переводу на другие адреса Ethereum.
 
-There are 6 smart contracts at the core of dYdX Governance:
+В основе управления dYdX лежат пять смарт-контрактов:
 
-* **The `DYDX Token` contract**: has snapshots of each address’ voting power at different blocks in time.
-* **The `Governance Strategy` contract**: contains logic to measure users' relative power to propose and vote.
-* **The `Safety Module` contract**: contains logics to stake DYDX tokens, tokenize the position and get rewards. Token staked the safety module retain full governance rights.
-* **The `Governor` contract**: tracks proposals and can execute proposals via the Timelock smart contract.
-* **The `Timelock` contracts**: can queue, cancel, or execute transactions voted by Governance. The functions in a proposal are initiated by the Timelock contract. Queued transactions can be executed after a delay and before the expiration of the grace period.&#x20;
-* **The `Priority Timelock` contract**: The same as the timelock contract, but allows a priority controller to execute transactions within the **Priority Period** (7 days) before the end of the timelock delay.&#x20;
+* **Контракт на `токен DYDX`**: содержит снимки права голоса каждого адреса в разных блоках по времени.
+* **Контракт на `стратегию управления`**: содержит логическую схему оценки относительного права пользователей на внесение предложений и голосование.
+* **Контракт на `модуль безопасности`**: содержит логическую схему стейкинга токенов DYDX, токенизации позиции и получения наград. Токен, размещенный в стейке модуля безопасности, сохраняет полные права управления.
+* **Контракт `управляющего`**: отслеживает и может исполнять предложения с помощью смарт-контракта на блокировку по времени.
+* **Контракт на `блокировку по времени`**: может помещать в очередь, отменять или выполнять операции, за которые проголосовало управление. Функции в предложении инициируются контрактом на блокировку по времени. Операции, находящиеся в очереди, могут исполняться с задержкой и до окончания льготного периода.
 
-![Smart contract architecture](<../.gitbook/assets/image (49).png>)
+![Архитектура смарт-контрактов](../.gitbook/assets/image%20%2864%29.png)
 
-dYdX on-chain governance allows for:
+Ончейн-управление dYdX позволяет следующее:
 
-* Voting on proposals to be executed by any authorized executor contract
-* Snapshotting token holdings at the start of a proposal
-* Separate delegation of voting and proposing powers
-* Setting governance thresholds including proposals, quorums, and vote differential powers
-* Changing how votes are counted (by changing the “Governance Strategy” smart contract address on the Governor contract)
+* Голосовать по предложениям, которые должны быть исполнены любым авторизованным контрактом исполнителя
+* Получать снимки находящихся во владении токенов в начале процесса внесения предложения
+* Делегирование отдельных прав на внесение предложений и прав голоса
+* Устанавливать пороговые значения управления, в том числе для предложений, кворумов и разницы в количестве голосов
+* Заменять смарт-контракт стратегии управления, например с целью включения права голоса для размещенных в стейке токенов
 
-## Proposal Types
+## Типы предложений
 
-There are four types of proposals with different parameters which affect the length and execution of a proposal, i.e. critical proposals that affect governance consensus require more voting time and a higher vote differential, whereas proposals affecting only protocol parameters require less voting time and can be quickly implemented. An executor must validate each type of proposal.
+Существует четыре типа предложений с разными параметрами, которые влияют на их срок действия и исполнение. Так, критически важные предложения, влияющие на консенсус управления, требуют больше времени для голосования и большей разницы в количестве голосов, а предложения, влияющие только на параметры протокола, требуют меньше времени и могут быть исполнены быстро. Исполнитель должен подтвердить каждый тип предложения.
 
-#### **Short timelock executor**
+#### **Исполнитель с правом на короткую блокировку по времени**
 
-The short timelock executor controls the following:
+Исполнитель с правом на короткую блокировку по времени управляет контрактами вознаграждения, включая модули ликвидности, безопасности и дистрибьютора Меркла. Кроме того, он контролирует средства в казнах наград и сообщества.
 
-* Incentive contracts including the Liquidity Module, Safety Module, and Merkle Distributor Module
-* funds in the Rewards and Community Treasuries
-* minting new tokens
-* all proxy contracts except the safety module
-* guardian roles on stark proxy contracts
+#### **Исполнитель Starkware**
 
-**Starkware priority timelock executor**
+Исполнитель Starkware владеет контрактом StarkEx Perpetual Exchange. Он может выполнять предложения, управляющие конфигурацией биржи на базе протокола dYdX уровня 2.
 
-The Starkware priority timelock executor owns the StarkEx Perpetual Exchange contract. It can execute proposals that control the configuration of the dYdX Layer 2 Exchange.
+При необходимости для правильного осуществления изменений на бирже может потребоваться участие специалистов Starkware. Поэтому данный исполнитель наделен полномочиями приоритетного контролера, предоставляющими Starkware период в 7 дней \(**период приоритета**\), в течение которого только можно инициировать выполнение предложения.
 
-Depending on the action to be taken, the Starkware team may need to be involved in order to correctly implement the change on the exchange. For this reason, this executor is provided with a “priority controller” role, which provides Starkware with a period of 7 days (**Priority Period**) in which only they have the ability to trigger execution of a proposal.
+Starkware не контролирует то, _какие_ изменения вносятся в протокол. Одобрять или отклонять изменения в протоколе биржи путем управления dYdX могут только владельцы DYDX.
 
-Starkware does not have control over _which_ protocol changes are made. Only DYDX tokenholders, via dYdX governance, have the ability to approve or deny changes to the exchange protocol.
+#### **Исполнитель с правом на длительную блокировку по времени**
 
-#### **Long timelock executor**
+Исполнитель с правом на длительную блокировку по времени может исполнять предложения, изменяющие части протокола в целом и влияющие на консенсус управления.
 
-The long timelock executor can execute proposals that generally change parts of the Protocol that affect governance consensus.
+#### **Исполнитель с правом на остановку дерева Меркла**
 
-#### **Merkle-pauser executor**
+Исполнитель с правом на остановку дерева Меркла может исполнять предложения, которые замораживают корень дерева Меркла, периодически обновляемый с учетом совокупного баланса наград каждого пользователя. Это позволяет распределять новые награды между пользователями с течением времени в том случае, если предложенный корень неверный или содержит вредоносный код.
 
-The Merkle-pauser executor can execute proposals that freeze the Merkle root, which is updated periodically with each user's cumulative reward balance, allowing new rewards to be distributed to users over time, in case the proposed root is incorrect or malicious. It can also veto forced trade requests by any of the stark proxy contracts.
+Для блокировки по времени заданы следующие исходные параметры:
 
-The initial timelock parameters are as follows:
+![Исходные параметры блокировки по времени](../.gitbook/assets/initial-timelock-parameters.png)
 
-![Initial timelock parameters](<../.gitbook/assets/Initial Timelock Parameters.png>)
+
 
