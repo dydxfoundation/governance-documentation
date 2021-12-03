@@ -1,127 +1,128 @@
 ---
-description: Overview of the dYdX Improvement Proposal (DIP) lifecycle.
+description: dYdX 개선점 제안(DIP) 수명주기 개요
+
 ---
 
-# Proposal Lifecycle
+# 제안 수명주기
 
-## **Proposal Stages**
+## **제안 단계**
 
-The dYdX Governance Process is fueled by governance forums at [**forums.dydx.community**](https://forums.dydx.community) and ratified through dYdX Improvement Proposal (“DIPs”).
+dYdX 거버넌스 프로세스는 [**forum.dydx.community**](https://forums.dydx.community/)의 거버넌스 포럼을 기반으로 하며, dYdX 개선 제안\(이하 'DIP'\)을 통해 승인됩니다.
 
-Below we outline a preliminary draft explaining how the dYdX governance process will flow, from the inception and definition of the concept to the actual implementation. These processes are subject to change according to feedback from the DYDX community.
+아래에서는 거버넌스의 개념의 시작 및 정의부터 실제 구현에 이르기까지 dYdX 거버넌스 프로세스가 어떻게 진행될 것인지 설명하는 초안을 간략하게 살펴봅니다. 해당 프로세스는 DYDX 커뮤니티의 피드백에 따라 변경될 수 있습니다.
 
-The following flow chart is the initial proposed stages to pass a proposal:
+다음 플로우 차트는 제안 통과를 위한 초기 제안 단계입니다.
 
-![Stages of a DIP](<../.gitbook/assets/image (81).png>)
+![DIP의 단계](../.gitbook/assets/image%20%2878%29.png)
 
-## 0. Forum Discussion
+## 0. 포럼 논의
 
-Anyone can sign up and set up a thread on any topic on dYdX’s Governance forums hosted at [**forums.dydx.community**](https://forums.dydx.community). Community members are required to register using an email address or an Ethereum wallet.
+누구나 [**forums.dydx.community**](https://forums.dydx.community/)에 호스팅되는 dYdX 거버넌스 포럼에 가입하고 모든 주제로 스레드를 만들 수 있습니다. 커뮤니티 회원은 이메일 주소 또는 이더리움 지갑을 사용하여 등록해야 합니다.
 
-## 1. (Off-chain) DRC Creation
+## 1. \(오프체인\) DRC 생성
 
-Off-chain **dYdX Request for Comments** (DRCs) creation is the first step in the governance improvement process. Anyone can participate in the Governance Forum, create off-chain DRCs, and discuss improvements.
+오프체인 **dYdX 의견 요청**\(DRC\)은 거버넌스 개선 프로세스의 첫 번째 단계입니다. 누구나 거버넌스 포럼에 참여하여 오프체인 DRC를 생성하고 개선점을 논의할 수 있습니다.
 
-To create a DRC, use [this template](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) (available on our Github). The DRC should cover all the information of the potentially final DIP.
+DRC를 생성하려면 Github에서 이용 가능한 다음 템플릿을 사용하십시오.
 
-At a minimum, DRCs must include:
+DRC는 최소한 다음을 포함해야 합니다.
 
-* Short and concise titles of the DRC
-* A short and concise description of the proposal
-* The rationale for the DRC, e.g. why?
-* The title of the forum post must include DRC: with the short title of the DRC. E.g. DRC: New Market Request
-* A community poll that community members can use to vote on improvements off-chain
+* DRC에 대한 짧고 간결한 제목
+* 제안에 대한 짧고 간결한 설명
+* DRC의 합리적인 근거(예: 제안 이유)
+* 포럼 게시물의 제목은 'DRC: DRC에 대한 짧은 제목'을 포함해야 합니다. 예: DRC: 새로운 시장 요청
+* 커뮤니티 회원이 개선점 오프체인 투표에 사용할 수 있는 커뮤니티 여론조사
 
-## 2. DRC Discussion & Feedback
+## 2. DRC 논의 및 피드백
 
-Once posted on the governance forum, all questions and comments should be addressed & taken into consideration, to further improve the DRC.
+거버넌스 포럼에 글이 게시되면 DRC를 더욱 개선하기 위해 모든 질문과 의견을 다루고 고려해야 합니다.
 
-## 3. DRC Snapshot Polling
+## 3. DRC 스냅샷 여론조사
 
-Once an off-chain DRC has a very rough consensus, a community member holding more than `10,000` DYDX can create an **off-chain vote** for the DRC on **Snapshot**.
+오프체인 DRC가 대략적인 합의에 도달하면 `10,000` DYDX 이상을 보유한 커뮤니티 회원은 **스냅샷**\([곧 제공 예정](https://snapshot.org/#/dydx/create)\) 상의 DRC에 대해 **오프체인 투표**를 생성할 수 있습니다.
 
-Snapshot is a simple voting interface that allows users to signal sentiment off-chain. Votes on snapshot are weighted by the number of DYDX delegated to the address used to vote.
+스냅샷은 사용자가 오프체인으로 견해를 표명할 수 있는 간단한 투표 인터페이스입니다. 스냅샷 상의 투표에는 투표에 사용된 주소에 위임된 DYDX 수에 따라 가중치가 부여됩니다.
 
-The DRC submitter will need to provide details of the DRC, a voting system, vote start date, vote end date, and snapshot block number. The Snapshot block number locks the state of community members who are able to vote. Token holders who hold tokens before the snapshot block number are eligible to vote.
+DRC 제출자는 DRC에 대한 세부 정보, 투표 시스템, 투표 시작일 및 종료일, 스냅샷 블록 번호를 제공해야 합니다. 스냅샷 블록 번호는 투표에 참여할 수 있는 커뮤니티 회원의 상태를 제한합니다. 스냅샷 블록 번호 이전에 토큰을 보유한 토큰 보유자가 투표에 참여할 수 있습니다.
 
-Snapshot poll lengths should be set to `5 days`.
+스냅샷 투표 기간은 `5일`로 설정해야 합니다.
 
-Proposals and votes are just signed messages, stored on IPFS, and available via the Commonwealth portal.
+제안 및 투표는 서명된 메시지일 뿐으로, IPFS에 저장되며 Commonwealth 포털을 통해 이용할 수 있습니다.
 
-## 4. (On-chain) DIP Creation
+## 4. \(온체인\) DIP 생성
 
-When a rough consensus is reached, an on-chain DIP may be submitted by a community member who holds enough proposition power for the type of proposal. An on-chain DIP is initiated via a smart contract call. The proposal should be based on the winning outcome of the off-chain DIP voting on Snapshot and can consist of one or multiple actions, up to a maximum of 10 actions per proposal.
+대략적 합의에 도달하면 해당 유형의 제안에 대해 충분한 제안권을 보유한 커뮤니티 회원이 온체인 DIP를 제출할 수 있습니다. 온체인 DIP는 스마트 컨트랙트 호출을 통해 시작됩니다. 해당 제안은 스냅샷 상 오프체인 DIP 투표의 개표 결과에 기반해야 하며, 하나 또는 여러 개의 활동(제안당 최대 10개)으로 구성될 수 있습니다.
 
-A DIP creation is subject to a minimum number of tokens held/delegated required for an account. A Timelock executor must be specified when a proposal is created. The initial parameters are as follows (and can be modified by governance):
+DIP 생성에는 계정에 필요한 최소 보유/위임 토큰 수가 적용됩니다. 제안 생성 시 타임락 실행자를 명시해야 합니다. 초기 파라미터는 다음과 같습니다\(또한 거버넌스에 의해 수정될 수 있음).
 
-| Parameter          | Description                                      | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor   |
-| ------------------ | ------------------------------------------------ | ----------------------- | ---------------------- | ---------------------- | -------------------- |
-| Proposal Threshold | Minimum tokens held/delegated to create proposal | 0.5% of total supply    | 0.5% of total supply   | 2% of total supply     | 0.5% of total supply |
+| 매개 변수 | 설명 | 단기 타임락 실행자 | 머클-일시중지 실행자 | 장기 타임락 실행자 | 스타크웨어 실행자 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 제안 임계점 | 제안 생성을 위해 보유/위임된 최소 토큰 | 총 공급의 0.5% | 총 공급의 0.5% | 총 공급의 2% | 총 공급의 0.5% |
 
-## 5. (On-chain) DIP Voting
+## 5. \(온체인\) DIP 투표
 
-After an On-Chain DIP is created, the proposal enters a `pending` state for a period defined by the **Voting Delay**, which is currently configured to `6570` blocks or approximately 1 day (assuming 13 seconds per block). In other words, user snapshots are recorded 1 day after the DIP is created, at which point the proposal transitions to an `active` state.
+온체인 DIP가 생성되면 해당 제안은 현재 `6570`개 블록 또는 약 1일\(블록당 13초로 가정\)로 구성되는 **투표 딜레이** 기간 동안 `보류` 상태에 진입합니다. 즉, DIP의 생성 1일 뒤 사용자 스냅샷이 기록되며, 이 때 해당 제안이 `활성` 상태로 전환됩니다.
 
-After the Voting Delay, the Voting Period is activated. The voting period length depends on the proposal type.
+투표 딜레이 후에 투표 기간이 활성화됩니다. 투표 기간은 제안 유형에 따라 다릅니다.
 
-The following chart shows a DIP state flowchart:
+다음에서 DIP 상태 플로우 차트를 확인할 수 있습니다.
 
-![Lifecycle of a DIP](<../.gitbook/assets/image (63).png>)
+![DIP 수명주기](../.gitbook/assets/image%20%2850%29.png)
 
-After a DIP is created on-chain it is subject to a **Voting Delay**, **Voting Period**, **Minimum Quorum**, and a minimum **Vote Differential**. The initial parameters are as follows:
+DIP가 온체인으로 생성되면, 해당 DIP에는 **투표 딜레이**, **투표 기간**, **최소 정족수** 및 최소 **투표** 격차가 적용됩니다. 초기 파라미터는 다음과 같습니다\(또한 거버넌스에 의해 수정될 수 있음).
 
-| Parameter         | Description                                                                                           | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor   |
-| ----------------- | ----------------------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | -------------------- |
-| Voting Delay      | Number of Ethereum blocks to wait before voting on a proposal may begin after a proposal is submitted | 6,570 blocks            | 6,570 blocks           | 6,570 blocks           | 6,570 blocks         |
-| Voting Period     | Length of time for which proposals are available to be voted upon                                     | 4 days                  | 2 days                 | 10 days                | 4 days               |
-| Minimum Quorum    | Minimum yes votes for a DIP proposal to pass                                                          | 2% of total supply      | 1% of total supply     | 10% of total supply    | 2% of total supply   |
-| Vote Differential | Required yes-no gap for a DIP proposal to pass                                                        | 0.5% of total supply    | 0.5% of total supply   | 10% of total supply    | 0.5% of total supply |
+| 매개 변수 | 설명 | 단기 타임락 실행자 | 머클-일시중지 실행자 | 장기 타임락 실행자 | 스타크웨어 실행자 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 투표 딜레이 | 제안 제출 후 제안에 대한 투표가 시작되기 전에 대기해야 하는 이더리움 블록 수 | 6,570블록 | 6,570블록 | 6,570블록 | 6,570블록 |
+| 투표 기간 | 제안에 대한 투표 가능 시간 | 4일 | 2일 | 10일 | 4일 |
+| 최소 정족수 | DIP 제안 통과에 필요한 찬성표 최소 수 | 총 공급의 2% | 총 공급의 1% | 총 공급의 10% | 총 공급의 2% |
+| 투표 격차 | DIP 제안 통과에 필요한 찬반 격차 | 총 공급의 0.5% | 총 공급의 0.5% | 총 공급의 10% | 총 공급의 0.5% |
 
-Only the voting delay can be modified by governance, and it can only be changed to values in between (inclusive) the minimum and maximum delay. The voting period, minimum quorum, and vote differential can't be changed.
+## 6. 제안 대기열 및 실행
 
-## 6. Proposal Queuing & Execution
+DIP가 통과되면 어떤 주소든 대기열 진입 방법을 호출하여 해당 제안을 타임락 대기열로 이동시킬 수 있습니다. DIP가 통과된 경우에만 대기열에 진입할 수 있습니다.
 
-After a DIP has passed, any address can call the queue method to move the proposal into the timelock queue. A DIP can only be queued if it has passed.
+| 매개 변수 | 설명 | 단기 타임락 실행자 | 머클-일시중지 실행자 | 장기 타임락 실행자 | 스타크웨어 실행자 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 타임락 지연 | 제안이 통과되고 대기열에 진입한 후 실행되기 전 발생하는 딜레이 | 2일 | 0일 | 7일 | 2~9일 |
+| 실행 그레이스 기간 | 제안을 실행할 수 있으며 반드시 실행해야 하는 시간 | 7일 | 7일 | 7일 | 7일 |
+| 최소 타임락 지연 | 제안이 실행되기 전 발생하는 최소 딜레이\(대기열 진입 후\) | 1일 | 0일 | 5일 | 4일 |
+| 최대 타임락 지연 | 제안이 실행되기 전 발생하는 최대 딜레이\(대기열 진입 후\) | 7일 | 1일 | 21일 | 21일 |
 
-| Parameter              | Description                                                                           | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
-| ---------------------- | ------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
-| Timelock Delay         | After a proposal passes and is queued, delay before the proposal is executed          | 2 days                  | 0 days                 | 7 days                 | 2-9 days           |
-| Execution Grace Period | The time after which a proposal becomes executable, during which it must be executed. | 7 days                  | 7 days                 | 7 days                 | 7 days             |
-| Minimum Timelock Delay | Minimum delay before a proposal is executed (after queuing)                           | 1 day                   | 0 days                 | 5 days                 | 4 days             |
-| Maximum Timelock Delay | Maximum delay before a proposal is executed (after queuing)                           | 7 days                  | 1 day                  | 21 days                | 21 days            |
+Starkware 실행자는 9일 중 7일 동안 우선권을 갖습니다. 배포 파라미터에서는 9일로 지정되어 있지만, 실제로는 우선 통제자\(Starkware\)에 따라 2~9일이 주어집니다. docs를 통해 소통하는 방법을 모르겠어요. 6h
 
-As soon as the voting period ends and a proposal has succeeded, anyone can call queue to begin the timelock delay.
+투표 기간이 끝나고 제안이 통과되면 누구나 대기열을 호출하여 시간 계산을 시작할 수 있습니다. 2일 후 Starkware가 이를 신속하게 처리할 수 있는 옵션이 있다는 점을 제외하고는 다른 타임락과 마찬가지로 9일이 주어집니다.
 
-For the Starkware priority timelock executor, it has a priority period of 7 days out of the 9 day timelock delay. This means that after 9 days anyone can execute a proposal, but within days 2-9 (the priority period) Starkware has the option to execute the proposal.
+실질적인 기간은 다음과 같습니다.
 
-In practical terms it's:&#x20;
+* 0~2일: 실행 불가
+* 2~9일 : Starkware만 실행 가능
+* 9일: 누구나 실행 가능
 
-* Days 0–2: No one can execute&#x20;
-* Days 2–9: Only Starkware can execute&#x20;
-* Days 9: Anyone can execute
+## 7. \(선택 사항\) 제안 취소
 
-## 7. (Optional) Proposal Cancellation
-
-At any point in a DIP lifecycle, the proposer can cancel the DIP. A proposal can be cancelled by anyone before it is executed if the proposer does not have sufficient proposition power at the current block.
+DIP 수명주기 동안 제안자는 언제든지 DIP를 취소할 수 있습니다. 새로운 DIP가 제출되면 동일한 수명주기가 적용됩니다.
 
 
 
-## FAQ
+## 자주 묻는 질문
 
-### What is the purpose of the Voting Delay?
+### 투표 딜레이의 목적은 무엇입니까?
 
-The **Voting Delay** is the number of Ethereum blocks to wait before voting on a proposal may begin after a proposal is submitted.&#x20;
+**투표 딜레이**는 제안 제출 후 제안에 대한 투표가 시작되기 전에 기다려야 하는 이더리움 블록 수입니다.
 
-DYDX voting power must be delegated to an address either entirely before a proposal has been submitted or during the proposal **Voting Delay**.&#x20;
 
-For now, the **Voting Delay** is set to `6,570 blocks`, which is about 1 day. This value is added to the current block number when a proposal is created.
+DYDX 투표권은 제안 제출 전 또는 제안에 대한 **투표 딜레이** 기간 동안 한 주소에 전적으로 위임되어야 합니다.
 
-In the future, dYdX Governance may vote to increase or decrease the **Voting Delay**. While there are obvious benefits to an increased **Voting Delay.** It may introduce some potential adverse outcomes such as opportunistic edge case exploitation.
+현 시점에서 **투표 딜레이**는 약 1일에 해당하는 `6,570 블록`으로 설정됩니다. 이 값은 제안이 생성될 때 현재 블록 번호에 추가됩니다.
 
-### What is the purpose of the Proposal Threshold?
+향후 dYdX 거버넌스는 **투표 딜레이** 기간의 연장 또는 축소를 위해 투표할 수 있습니다. **투표 딜레이** 연장에는 명백한 이점이 있습니다. 하지만 이는 기회주의적인 엣지 사례 악용과 같은 잠재적인 부작용을 초래할 수도 있습니다.
 
-Since DYDX is a freely tradable asset, anyone can attempt a governance takeover via market buying. That said, to force-pass a bad faith vote would require a minimum of 5 million DYDX in the event of a short timelock or 20 million DYDX in the event of long timelock. If not outright impossible, this amount would be prohibitively expensive and likely cost more when accounting for price fluctuation than the net gain from the attack.
+### 제안 임계값의 목적은 무엇입니까?
 
-If a group somehow achieved a bad faith takeover, the timelock delay would give affected agents time to withdraw their assets from the protocol. This would also be an opportunity to fork the protocol, a path that would likely be taken by the remaining good-faith actors.
+DYDX는 자유롭게 거래할 수 있는 자산이므로, 누구나 시장 거래를 통해 거버넌스 참여를 시도할 수 있습니다. 기만적인 투표를 강제로 통과시키려면 단기 타임락의 경우 최소 500만 DYDX, 장기 타임락의 경우 2000만 DYDX가 필요합니다. 이를 달성한다 하더라도 이 금액은 매우 비싸며, 가격 변동을 고려할 때 공격을 통해 얻을 수 있는 순이익보다 더 많은 비용이 들 것입니다.
+
+한 그룹이 어떻게든 악의적인 인수를 달성하더라도 영향을 받은 에이전트는 타임락 딜레이를 통해 프로토콜에서 자산을 인출할 시간을 벌 수 있습니다. 또한 이는 나머지 선의 행위자들이 선택하게 될 경로인 프로토콜을 포킹할 수 있는 기회이기도 합니다.
 
 ###
+
