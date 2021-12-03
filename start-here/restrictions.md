@@ -1,7 +1,9 @@
 ---
-description: Restrictions on the use of DYDX and the DYDX Portal.
+description: DYDXおよびDYDXポータルの使用に関する制限
+
 ---
 
-# Restrictions
+# 制限
 
-DYDX is not available in the United States or other prohibited jurisdictions. If you are a resident of, or incorporated or headquartered in, the United States of America or another prohibited jurisdiction, then you are not permitted to receive a distribution of, or transact in, DYDX.
+DYDXは、本商品が禁止されている米国その他の国や地域では利用できません。お客様が米国その他の禁止地域に居住しているか、法人化している、または本社を置く場合、DYDXの提供の受け取りやDYDXの取引は許可されていません。
+
