@@ -1,69 +1,72 @@
 ---
-description: An overview of the voting process.
+description: 投票过程概述。
+
 ---
 
-# Voting Process
+# 投票过程
 
-The Protocol is governed and upgraded by DYDX holders and delegatees.
+该协议由DYDX持有者和受托人管理和升级。
 
-## **Proposing & Voting Powers**
+## **提议及表决权**
 
-There are two powers associated with each DYDX token:
+每个DYDX代币有两个相关联的权力：
 
-* The **proposing power** gives access to creating and sustaining a proposal.
-* The **voting power** is used to vote for or against existing proposals.
+* **提议权**允许创建和维持提议。
+* **投票权**用于投票赞成或反对现有提议。
 
-DYDX holders receive governance powers proportionally to their sum of owned and delegated tokens at a given block.
+DYDX持有者获得的治理权力与他们在某一区块拥有的和委托的代币总数成正比。
 
-**`Proposing Power =`**`Proposing Power from DYDX token +` \
-`Proposing Power from staked-DYDX token +` \
-`Proposing Power from DYDX token received as delegatee -` \
-`Proposing Power from DYDX delegated`
+**`提议权 =`**`DYDX代币的提议权 +   
+来自抵押-DYDX代币的提议权 +   
+来自委托人收到的DYDX代币的提议权 -   
+来自委托DYDX的提议权`
 
-**`Voting Power =`**`Voting Power from DYDX token +` \
-`Voting Power from staked-DYDX token +` \
-`Voting Power from DYDX token received as delegatee -` \
-`Voting Power from DYDX delegated`
+**`投票权=`**`来自DYDX代币的投票权 +   
+来自质押-DYDX代币的投票权 +   
+来自委托人收到的DYDX代币的投票权 -   
+来自委托DYDX的投票权`
 
-## FAQ
+## 常见问题解答
 
-### How do I vote?
+### 怎么投票？
 
-In order to participate in DYDX on-chain governance, you will need to have or be delegated DYDX tokens. You will also need ETH to cover transaction costs.
+为了参与DYDX链上治理，您需要拥有或被委托DYDX代币。您还需要ETH来支付交易费用。
 
-If you have tokens or have been delegated tokens and there is an active proposal, you are ready to vote in dYdX Governance.&#x20;
+如果您有代币或已被委托代币，并且有活跃的提议，您就可以在dYdX治理中投票。
 
-![Cast votes using your voting power](<../.gitbook/assets/image (87).png>)
+![使用您的投票权投票](../.gitbook/assets/image%20%2883%29.png)
 
-To cast your vote, navigate to the proposals page and click on an active proposal.
+如果要进行投票，请浏览提议页面，然后单击一个活跃提议。
 
-### **How do I delegate?**
+### **如何委托？**
 
-DYDX allows holders to delegate voting rights to the address of their choice. Anybody can participate in dYdX governance by receiving delegation, without needing to own DYDX. Users can delegate to one address at a time, and the number of votes added to the delegatee’s vote count is equivalent to the balance of DYDX in the user’s account. Votes are delegated from the current block and onward, until the sender delegates again, or transfers their DYDX.
+DYDX允许持有人将投票权委托给他们选择的地址。任何人都可以通过接受委托参与dYdX的治理，而不需要拥有DYDX。
+用户一次只能委托一个地址，被委托人的投票数增加的票数相当于用户账户中DYDX的余额。投票从当前区块开始被委托，直到发送方再次委托，或转让他们的DYDX。
 
-![Delegate away your voting & proposing powers](<../.gitbook/assets/image (86).png>)
+![将您的投票权和提议权委托给他人](../.gitbook/assets/image%20%2884%29.png)
 
-Token holders can choose to delegate one or both of the governance powers associated with a token, either through the governance portal or programmatically. A user that has received delegated power can not forward this delegated power to another delegatee.
+代币持有者可以选择通过治理门户或以编程方式委托与代币相关的一项或两项治理权力。获得委托权的用户不能将委托权交给另一个受托人。
 
-Token holders can delegate proposing power and voting power to different addresses. However, there is no partial delegation (only 100% or 0% of power.)
+代币持有者可以将提议权和投票权委托给不同的地址。然而，没有部分委托\（只有100%或0%的委托权。\)
 
-To delegate your tokens to a wallet address:&#x20;
+如果要将代币委托给钱包地址：
 
-* Go to [dydx.community/dashboard](https://dydx.community/dashboard)
-* Click on "Delegate"
-* Select type of power you want to delegate
-* Enter a Wallet Address for a third party to whom you would like to delegate your voting and/or proposal power to. Delegating powers does not transfer your tokens
+* 转到[dydx.community/dashboard](https://dydx.community/dashboard)
+* 单击“委托”
+* 选择您希望委托的权力类型
+* 输入您想委托的第三方的钱包地址，您想把自己的投票权和/或提议权委托给他。委托权力不会转让您的代币
 
-Delegating and undelegating DYDX require users to spend Ethereum gas fees.
+委托和取消委托DYDX需要用户支付Layer 1 gas费用。
 
-### Can I change my vote after I have already voted?
+### 在投票后，能否更改投票？
 
-Once a vote is cast on-chain, it is not possible to change your vote.
+一旦投票在链上进行，就不可能更改投票。
 
-### Can I transfer my DYDX while the vote is in progress?
+### 在投票过程中，我是否可以移动DYDX？
 
-Yes.
+是的。
 
-### Can I add more tokens to my vote?
+### 我是否可以在投票中添加更多代币？
 
-When a DIP is submitted on-chain, a snapshot is taken of current token holders. Users will need to own or be staked DYDX tokens before the start block.
+当DIP链上提交时，会对当前代币持有人进行快照。用户需要在开始区块前拥有或质押DYDX代币。
+
