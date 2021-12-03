@@ -1,69 +1,65 @@
 ---
-description: An overview of the voting process.
+description: 選択プロセスの概要
+
 ---
 
-# Voting Process
+# 選択プロセス
 
-The Protocol is governed and upgraded by DYDX holders and delegatees.
+プロトコルは、DYDX保有者および委任者によって管理およびアップグレードされます。
 
-## **Proposing & Voting Powers**
+## **提案権および選択権**
 
-There are two powers associated with each DYDX token:
+各DYDXトークンには、2つの権限が関連付けられています。
 
-* The **proposing power** gives access to creating and sustaining a proposal.
-* The **voting power** is used to vote for or against existing proposals.
+* **提案権**により、提案の作成および維持ができるようになります。
+* **選択権**は、既存の提案の選択または反対に使用されます。
 
-DYDX holders receive governance powers proportionally to their sum of owned and delegated tokens at a given block.
+DYDX保有者は、特定のブロックで所有しているおよび委任されたトークンの合計に応じた、ガバナンス権を受け取ります。
 
-**`Proposing Power =`**`Proposing Power from DYDX token +` \
-`Proposing Power from staked-DYDX token +` \
-`Proposing Power from DYDX token received as delegatee -` \
-`Proposing Power from DYDX delegated`
+**`提案権＝`**`DYDXトークンの提案権 +ステークされたDYDXトークンからの提案権 +委任者として受け取ったDYDXトークンからの提案権 -委任されたDYDXからの提案権`
 
-**`Voting Power =`**`Voting Power from DYDX token +` \
-`Voting Power from staked-DYDX token +` \
-`Voting Power from DYDX token received as delegatee -` \
-`Voting Power from DYDX delegated`
+**`選択権 =`**`DYDXトークンからの選択権 +ステークされたDYDXトークンからの選択権 + 委任者として受け取ったDYDXトークンからの選択権 -委任されたDYDXからの選択権`
 
-## FAQ
+## よくある質問
 
-### How do I vote?
+### 選択するにはどうすればよいですか？
 
-In order to participate in DYDX on-chain governance, you will need to have or be delegated DYDX tokens. You will also need ETH to cover transaction costs.
+DYDXのオンチェーン・ガバナンスに参加するには、DYDXのトークンを持っているか、委任される必要があります。トランザクションコストをカバーするには、ETHが必要です。
 
-If you have tokens or have been delegated tokens and there is an active proposal, you are ready to vote in dYdX Governance.&#x20;
+トークンを持っているか、委任されたトークンが存在している状況で、アクティブな提案がある場合は、dYdX ガバナンスで選択する準備ができています。
 
-![Cast votes using your voting power](<../.gitbook/assets/image (87).png>)
+![選択権を使用して選択](../.gitbook/assets/image%20%2883%29.png)
 
-To cast your vote, navigate to the proposals page and click on an active proposal.
+選択するには、提案ページに移動し、アクティブな提案をクリックします。
 
-### **How do I delegate?**
+### **どのように委任しますか？**
 
-DYDX allows holders to delegate voting rights to the address of their choice. Anybody can participate in dYdX governance by receiving delegation, without needing to own DYDX. Users can delegate to one address at a time, and the number of votes added to the delegatee’s vote count is equivalent to the balance of DYDX in the user’s account. Votes are delegated from the current block and onward, until the sender delegates again, or transfers their DYDX.
+DYDXでは、保有者は選択したアドレスに選択権を委任できます。DYDXを所有する必要はなく、委任を受け取ることで、誰でもdYdXガバナンスに参加できます。ユーザーは一度に1つのアドレスに委任することができ、委任者の選択カウントに追加された選択数は、ユーザーのアカウントにおけるDYDXの残高に相当します。送信者が再度委任をするか、またはDYDXを譲渡するまで、選択は現在のブロック以降に委任されます。
 
-![Delegate away your voting & proposing powers](<../.gitbook/assets/image (86).png>)
+![選択権および提案権の委任](../.gitbook/assets/image%20%2884%29.png)
 
-Token holders can choose to delegate one or both of the governance powers associated with a token, either through the governance portal or programmatically. A user that has received delegated power can not forward this delegated power to another delegatee.
+トークン保有者は、ガバナンスポータルを通じて、またはプログラムにより、トークンに関連するガバナンス権限の1つまたは両方について、委任することを選択できます。委任された権限を受け取ったユーザーは、委任された権限を別の委任者に譲渡することはできません。
 
-Token holders can delegate proposing power and voting power to different addresses. However, there is no partial delegation (only 100% or 0% of power.)
+トークン保有者は、提案権および選択権をさまざまなアドレスに委任できます。ただし、部分的に委任することはできません（権限の100％または0％のみ）。\)
 
-To delegate your tokens to a wallet address:&#x20;
+トークンをウォレットアドレスに委任する方法：
 
-* Go to [dydx.community/dashboard](https://dydx.community/dashboard)
-* Click on "Delegate"
-* Select type of power you want to delegate
-* Enter a Wallet Address for a third party to whom you would like to delegate your voting and/or proposal power to. Delegating powers does not transfer your tokens
+* [dydx.community/dashboard](https://dydx.community/dashboard)にアクセス
+* 「委任」をクリック
+* 委任したい権限の種類を選択
+* 選択権および/または提案権を委任したい第三者のウォレットアドレスを入力します。権限を委任しても、トークンは譲渡されません
 
-Delegating and undelegating DYDX require users to spend Ethereum gas fees.
+DYDXの委任および委任解除をする場合、ユーザーはレイヤ1にてガスコストがかかります。
 
-### Can I change my vote after I have already voted?
+### すでに選択した後に選択を変更できますか？
 
-Once a vote is cast on-chain, it is not possible to change your vote.
+選択がオンチェーンで実行されると、選択の変更はできません。
 
-### Can I transfer my DYDX while the vote is in progress?
+### 選択の進行中にDYDXを移動できますか？
 
-Yes.
+はい。
 
-### Can I add more tokens to my vote?
+### 選択にさらに多くのトークンを追加することはできますか？
 
-When a DIP is submitted on-chain, a snapshot is taken of current token holders. Users will need to own or be staked DYDX tokens before the start block.
+DIPがオンチェーンで提出されると、現在のトークン保有者のスナップショットが取得されます。ユーザーは、開始ブロックの前にDYDXトークンを所有するか、ステークする必要があります。
+
