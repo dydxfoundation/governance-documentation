@@ -1,56 +1,58 @@
 ---
-description: Overview of the Retroactive Mining Rewards program.
+description: 遡及マイニング報酬プログラムの概要。
+
 ---
 
-# Retroactive Mining Rewards
+# 遡及マイニング報酬
 
-`7.50%` of the initial token supply (`75,000,000 DYDX`) will be distributed to past users of any dYdX protocol who complete certain trading milestones on the Protocol, except for users located in a jurisdiction where DYDX is not permitted, including the United States. To claim earned tokens, users will need to trade on dYdX’s Layer 2 Protocol and achieve their respective claim milestone.
+dYdXプロトコルの過去ユーザーは、プロトコルにて一定のトレードマイルストーンを達成すると、初回のトークン提供額\（`7,500万DYDX`\）の`7.50％`が分配されます。ただし、米国を含むDYDXが許可されていない管轄区域に所在するユーザーを除きます。獲得したトークンを請求するには、ユーザーはdYdXレイヤ2プロトコルでのトレードにより、各クレームマイルストーンを達成する必要があります。
 
-**Objectives**
+**目的**
 
-* Reward historical dYdX users with a retroactive reward based on past usage.
-* Incentivize historical dYdX users to trade on dYdX's Layer 2 Protocol.
+* 過去の使用状況に基づき、遡及報酬にてdYdXの過去ユーザーへ報酬を支払う。
+* dYdXの過去ユーザーにdYdXのレイヤ2プロトコルでのトレードを促進する。
 
-## Overview
+## 概要
 
-The success of the dYdX Layer 2 Protocol is the result of thousands of community members who have been trading on the dYdX Layer 2 Protocol and its predecessors over the past three years.
+dYdXレイヤ2プロトコルの成功は、過去3年間にdYdXレイヤ2プロトコルおよびその前身でトレードを進めてきた何千ものコミュニティメンバーによる成果の賜物です。
 
-DYDX has been allocated to historical users of all dYdX protocols (except for users located in a jurisdiction where DYDX is not permitted, including the United States) based on a snapshot ending **July 26, 2021, at 00:00:00 UTC**. There are five allocation tiers which take into account a user's past activity across all dYdX protocols.
+DYDXは、**2021年7月26日午前0時（UTC）**に終了するスナップショットに基づき、dYdXプロトコルのすべての過去ユーザー\（米国をはじめ、DYDXが許可されていない管轄地区に所在するユーザーを除く\）に割り当てられています。すべてのdYdXプロトコルにおけるユーザーの過去の活動を考慮して、5つの割り当て割り当て階層があります。
 
-To claim DYDX, historical users must meet the following milestones on [Layer 2 Perpetuals](https://trade.dydx.exchange) within the first 28-day epoch (Epoch 0):
+DYDXの請求にあたり、過去ユーザーは最初の28日間のエポック \（エポック0\）において、[レイヤ2パーペチュアル](https://trade.dydx.exchange)のマイルストーンを以下のとおりに達成する必要があります。
 
 ![](../.gitbook/assets/buckets.png)
 
-Any historical volume on the dYdX Layer 2 Protocol counts towards a user’s claim milestone. Progress towards your claim milestone can only be viewed at [trade.dydx.exchange/portfolio/rewards](https://trade.dydx.exchange/portfolio/rewards) because the dYdX Foundation does not have visibility into each user's ongoing volume.
+dYdXレイヤ2プロトコルの履歴ボリュームは、ユーザーのクレームマイルストーンにカウントされます。dYdX Foundationでは、各ユーザーの進行中のボリュームが可視化されていないため、クレームマイルストーンの進捗状況の確認は、[trade.dydx.exchange/portfolio/rewords](https://trade.dydx.exchange/portfolio/rewards)のみになります。
 
-Users will be able to reach their claim milestones until the end of Epoch 0. All unearned rewards will be forfeited and automatically distributed to the community treasury. Rewarded DYDX tokens via the Retroactive Mining Rewards will become claimable in perpetuity and transferable once the initial transfer restriction period is lifted.
+ユーザーには、エポック0の終了までにクレームマイルストーンを達成していただきます。未獲得の報酬はすべて喪失し、自動的にコミュニティ基金に振り替えられる分配されることになります。遡及マイニング報酬で獲得したDYDXトークンは、最初の移動制限期間の解除後から永続的に請求可能となります。
 
 ## **FAQ**
 
-### **Who is eligible for retroactive rewards?**
+### **どのような人が遡及報酬の対象になるのですか？**
 
-Past dYdX users who have traded on dYdX protocols (perpetual, margin, spot) on Layer 2 or Layer 1 or deposited funds into dYdX’s borrow / supply pools are eligible to receive DYDX through retroactive rewards.
+レイヤ2またはレイヤ1でdYdXプロトコル\（パーペチュアル、マージン、スポット\）のトレードをしたことがある、または資金をdYdXの借入/貸付プールに預け入れたことがあるdYdXの過去ユーザーが、遡及報酬によるDYDXの受け取り対象となります。
 
-In line with restrictions on the availability of DYDX and the dYdX Layer 2 Protocol in the United States, retroactive mining is not available to users who are residents of, or incorporated or headquartered in, the United States or any other prohibited jurisdiction. Any accounts that appeared to be clearly associated with bot activity speculating on a future airdrop were also excluded from retroactive rewards.
+米国でのDYDXおよびdYdXレイヤ2プロトコルの利用制限に従い、ユーザーが米国または他の禁止されている管轄区域に居住している、または法人組織や本拠地を有している場合、遡及マイニングを利用できません。また、将来的なエアドロップを見越したボット活動との関連性が明らかと判断されるアカウントも、遡及報酬から除外されました。
 
-All retroactive rewards allocations are final and cannot be changed.
+遡及報酬の割り当てはすべて確定であり、変更されることはありません。
 
-### How much DYDX did I earn in the retroactive rewards program?
+### 遡及報酬プログラムでどれくらいDYDXを獲得できたのかを知ることはできますか？
 
-![View claim milestone and progress](<../.gitbook/assets/image (23).png>)
+![クレームマイルストーンと進捗を確認](../.gitbook/assets/image%20%2825%29.png)
 
-Past dYdX users can view their past activity and tier for Retroactive Mining at [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards). To earn DYDX, users must trade on the dYdX Layer 2 Protocol at [**trade.dydx.exchange**](https://trade.dydx.exchange) to meet their criteria threshold.
+dYdXの過去ユーザーは、[**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)にて、過去のアクティビティや遡及マイニングの階層を確認することができます。DYDXを獲得するには、ユーザーは[**trade.dydx.exchange**](https://trade.dydx.exchange/)のdYdXレイヤ2プロトコルでのトレードにより、基準値を満たす必要があります。
 
-### What happens if I don’t reach my claim milestone?
+### クレームマイルストーンに到達しない場合はどのようになりますか？
 
-To claim the full allocation of DYDX tokens, users must meet their specific target volume tier trading perpetuals on the dYdX Layer 2 Protocol.
+DYDXトークンの完全割り当てを請求するには、ユーザーは、dYdXレイヤ2プロトコルの特定のターゲットボリューム層でのパーペチュアル取引を満たす必要があります。
 
-Earned retroactive rewards are linearly claimable with the target volume. For example, if a user’s claim milestone is $5,000 in trading volume on the dYdX Layer 2 Protocol but the user only trades $2,500 in volume over the course of epoch 0, the user will only be able to claim 50% of the allocated reward.
+獲得する遡及報酬において、請求できる報酬はターゲットボリュームに直接関係します。たとえば、ユーザーのクレームマイルストーンが、レイヤ2プロトコルのトレードボリュームとして5,000ドルとされるのに対し、ボリュームが2,500ドルしかない場合、ユーザーは、割り当て報酬の50％しか請求できなくなります。
 
-Any unclaimed DYDX at the end of the epoch 0 will be forfeited and automatically distributed to the community treasury.
+エポック0の終了時に未請求のDYDXはすべて喪失し、自動的にコミュニティ基金に振り替えられることになります。
 
-### When can I withdraw and transfer my claimed DYDX retroactive rewards?
+### 請求済みDYDXの遡及報酬はいつから出金および移動できますか？
 
-Earned DYDX tokens via the Retroactive Mining Rewards will become claimable and transferable once the initial transfer restriction period is lifted.
+遡及マイニング報酬で獲得したDYDXトークンは、最初の移動制限期間の解除後から永続的に請求可能となります。
 
-On approximately **September 8, 2021 15:00:00 UTC**, `8 days` after the end of Epoch 0, the initial transfer restrictions will be lifted and earned DYDX tokens via the Retroactive Mining Rewards can be claimed, withdrawn, transferred, or delegated.
+エポック0の終了から約`8日後`の**2021年9月8日午後3時（UTC）**に最初の移動制限が解除され、遡及マイニング報酬で獲得したDYDXトークンの請求、出金、移動、委任が可能になります。
+
