@@ -1,69 +1,65 @@
 ---
-description: An overview of the voting process.
+description: 투표 프로세스 개요
+
 ---
 
-# Voting Process
+# 투표 프로세스
 
-The Protocol is governed and upgraded by DYDX holders and delegatees.
+프로토콜은 DYDX 보유자 및 위임자가 관리 및 업그레이드합니다.
 
-## **Proposing & Voting Powers**
+## **제안권 및 투표권**
 
-There are two powers associated with each DYDX token:
+각 DYDX 토큰에 관련된 권한은 두 가지가 있습니다
 
-* The **proposing power** gives access to creating and sustaining a proposal.
-* The **voting power** is used to vote for or against existing proposals.
+* **제안권**은 제안을 만들고 유지할 수 있는 액세스 권한을 부여합니다.
+* **투표권**은 기존 제안에 대한 찬성 또는 반대 투표에 사용됩니다.
 
-DYDX holders receive governance powers proportionally to their sum of owned and delegated tokens at a given block.
+DYDX 보유자는 주어진 블록에 소유 및 위임받은 토큰의 합에 비례하는 거버넌스 권한을 갖습니다.
 
-**`Proposing Power =`**`Proposing Power from DYDX token +` \
-`Proposing Power from staked-DYDX token +` \
-`Proposing Power from DYDX token received as delegatee -` \
-`Proposing Power from DYDX delegated`
+**`제안권 =`**``DYDX 토큰 기반 제안권 + 스테이킹된 DYDX 토큰 기반 제안권 + 대리인으로서 받은 DYDX 토큰 기반 제안권 - 위임한 DYDX 기반 제안권
 
-**`Voting Power =`**`Voting Power from DYDX token +` \
-`Voting Power from staked-DYDX token +` \
-`Voting Power from DYDX token received as delegatee -` \
-`Voting Power from DYDX delegated`
+**`투표권 =`**` DYDX 토큰 기반 투표권 + 스테이킹된 DYDX 토큰 기반 투표권 + 대리인으로서 받은 DYDX 토큰 기반 투표권 - 위임한 DYDX 기반 투표권`
 
-## FAQ
+## 자주 묻는 질문
 
-### How do I vote?
+### 투표에 어떻게 참여합니까?
 
-In order to participate in DYDX on-chain governance, you will need to have or be delegated DYDX tokens. You will also need ETH to cover transaction costs.
+DYDX 온체인 거버넌스에 참여하려면 DYDX 토큰을 보유하거나 위임받아야 합니다. 또한, 거래 비용을 충당하려면 ETH가 필요합니다.
 
-If you have tokens or have been delegated tokens and there is an active proposal, you are ready to vote in dYdX Governance.&#x20;
+토큰을 보유하고 있거나 토큰을 위임받았으며 활성화된 제안이 있는 경우 dYdX 거버넌스에서 투표를 할 수 있습니다.
 
-![Cast votes using your voting power](<../.gitbook/assets/image (87).png>)
+![투표권을 사용하여 투표에 참여하십시오](../.gitbook/assets/image%20%2883%29.png)
 
-To cast your vote, navigate to the proposals page and click on an active proposal.
+투표권을 행사하려면 제안 페이지를 방문하여 활성 제안을 클릭하십시오.
 
-### **How do I delegate?**
+### **위임은 어떻게 합니까?**
 
-DYDX allows holders to delegate voting rights to the address of their choice. Anybody can participate in dYdX governance by receiving delegation, without needing to own DYDX. Users can delegate to one address at a time, and the number of votes added to the delegatee’s vote count is equivalent to the balance of DYDX in the user’s account. Votes are delegated from the current block and onward, until the sender delegates again, or transfers their DYDX.
+DYDX 보유자는 자신이 선택한 주소로 투표권을 위임할 수 있습니다. DYDX를 보유하지 않았더라도 누구나 위임을 통해 dYdX 거버넌스에 참여할 수 있습니다. 사용자는 한 번에 하나의 주소에 위임할 수 있으며, 대리인의 투표 수로 추가되는 투표 수는 사용자 계정 내 DYDX 잔액과 동일합니다. 투표권은 전송자가 다시 위임하거나 자신의 DYDX를 이체할 때까지 현재 블록 및 이후 블록에서 위임됩니다.
 
-![Delegate away your voting & proposing powers](<../.gitbook/assets/image (86).png>)
+![투표권 및 제안권의 위임](../.gitbook/assets/image%20%2884%29.png)
 
-Token holders can choose to delegate one or both of the governance powers associated with a token, either through the governance portal or programmatically. A user that has received delegated power can not forward this delegated power to another delegatee.
+토큰 보유자는 거버넌스 포털을 통해 또는 프로그래밍 방식으로 토큰에 관련된 거버넌스 권한 중 하나 또는 모두를 위임할 수 있습니다. 권한을 위임받은 사용자는 위임받은 권한을 다른 대리인에게 양도할 수 없습니다.
 
-Token holders can delegate proposing power and voting power to different addresses. However, there is no partial delegation (only 100% or 0% of power.)
+토큰 보유자는 다양한 주소로 제안권 및 투표권을 위임할 수 있습니다. 그러나 권한은 부분적으로 위임할 수 없습니다\(권한의 100% 또는 0%만 위임 가능 \)
 
-To delegate your tokens to a wallet address:&#x20;
+토큰을 지갑 주소로 위임하려면 다음 절차를 따르십시오.
 
-* Go to [dydx.community/dashboard](https://dydx.community/dashboard)
-* Click on "Delegate"
-* Select type of power you want to delegate
-* Enter a Wallet Address for a third party to whom you would like to delegate your voting and/or proposal power to. Delegating powers does not transfer your tokens
+* [dydx.community/dashboard](https://dydx.community/dashboard)를 방문합니다.
+* '위임'을 클릭합니다.
+* 위임하려는 권한 유형을 선택합니다.
+* 투표권 및 제안권을 위임할 제3자의 지갑 주소를 입력합니다. 권한을 위임해도 토큰은 이체되지 않습니다.
 
-Delegating and undelegating DYDX require users to spend Ethereum gas fees.
+사용자는 DYDX 위임 및 위임 해제 시에 레이어 1 가스 수수료를 지불해야 합니다.
 
-### Can I change my vote after I have already voted?
+### 투표에 참여한 뒤에 정정할 수 있습니까?
 
-Once a vote is cast on-chain, it is not possible to change your vote.
+온체인에서 투표권을 행사하고 나면 투표를 정정할 수 없습니다.
 
-### Can I transfer my DYDX while the vote is in progress?
+### 투표 진행 중에 DYDX를 옮길 수 있습니까?
 
-Yes.
+예.
 
-### Can I add more tokens to my vote?
+### 투표에 토큰을 더 추가할 수 있습니까?
 
-When a DIP is submitted on-chain, a snapshot is taken of current token holders. Users will need to own or be staked DYDX tokens before the start block.
+DIP가 온체인으로 제출되면 현재 토큰 보유자의 스냅샷이 촬영됩니다. 사용자는 시작 블록 전에 DYDX 토큰을 소유하거나 스테이킹해야 합니다.
+
