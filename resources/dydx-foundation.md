@@ -1,31 +1,33 @@
 ---
-description: Overview of the dYdX Foundation
+description: Обзор dYdX Foundation
+
 ---
 
-# Foundation
+# dYdX Foundation
 
-The dYdX Foundation is an independent not-for-profit foundation headquartered in Zug, Switzerland. More information about the dYdX Foundation can be found at [**dydx.foundation**](https://dydx.foundation).
+dYdX Foundation — это независимый некоммерческий фонд, штаб-квартира которого находится в Цуге, Швейцария. Дополнительную информацию о dYdX Foundation можно получить по ссылке [**dydx.foundation**](https://dydx.foundation).
 
-### Mission
+### Миссия
 
-The dYdX Foundation’s purpose is to support and grow every aspect, technical or otherwise, of the current implementation and all future implementations of the dYdX Layer 2 Protocol, including but not limited to the ecosystem related to the dYdX Layer 2 Protocol, and to foster participation from others who seek to support and grow any aspect, technical or otherwise, of the ecosystem or the current implementation and all future implementations of the dYdX Layer 2 Protocol. Specifically, the mandate empowers the dYdX Foundation to:
+Цель dYdX Foundation заключается в поддержке и развитии всех, как технических, так и иных, аспектов текущего и будущего процесса реализации протокола dYdX уровня 2, включая, но не ограничиваясь, связанную с ним экосистему. Кроме того, dYdX Foundation будет содействовать расширению участия других лиц, стремящихся поддерживать и развивать все, как технические, так и иные, аспекты экосистемы или текущего и будущего процесса реализации протокола dYdX уровня 2. В частности, полномочия dYdX Foundation предусматривают следующее:
 
-* Support and finance appropriate research and development activities and projects
-* Promote and educate the public on the ecosystem and/or dYdX Layer 2 Protocol
-* Issue, receive, spend, and hold digital assets (no speculative trading activities)
-* Deploy governance smart contracts and issue governance tokens
-* Engage with various businesses, partners, banks, regulators, authorities, and other third parties to the benefit of the ecosystem
-* Distribute received contributions and participate in companies
-* Acquire, hold or grant trademarks, copyrights, and other intellectual property rights or licenses
-* Organize conferences and other events that support and promote the ecosystem and/or the dYdX Layer 2 Protocol
-* Conduct and promote all business and / or enter into all transactions, and generally perform all acts as may be necessary, appropriate, incidental to or desirable to assist in achieving or promoting the objects described herein
+* Поддержка и финансирование соответствующей научно-исследовательской и опытно-конструкторской деятельности и проектов
+* Содействие развитию экосистемы и/или протокола dYdX уровня 2 и информирование общественности о них
+* Выпуск, получение и расходование цифровых активов, а также владение ими \(без спекулятивной торговой деятельности\)
+* Развертывание смарт-контрактов и выпуск токенов для управления
+* Взаимодействие с различными компаниями, партнерами, банками, регуляторами, органами власти и другими сторонними лицами в интересах экосистемы
+* Распределение полученных взносов и участие в деятельности компаний
+* Приобретение, хранение и предоставление товарных знаков, авторских прав и других прав интеллектуальной собственности и лицензий
+* Организация конференций и других мероприятий, направленных на поддержку экосистемы и/или протокола dYdX уровня 2 и содействие им
+* Ведение и содействие любой коммерческой деятельности и/или осуществление любых операций, а также повсеместное выполнение любых действий, которые могут быть сочтены необходимыми, соответствующими, побочными или желательными, с целью оказания помощи в достижении целей, указанных в настоящем тексте, или содействии им
 
-As the dYdX Foundation assists with the development and growth of the dYdX Layer 2 Protocol’s ecosystem and governance-related matters, dYdX Trading’s core development team will spend its future time focused on, amongst other things, decentralizing the order book and matching engine components of the dYdX Layer 2 Protocol. Although a decentralized order book and matching engine will result in modifications to the dYdX Layer 2 Protocol, there is no expectation that it will enhance functionality of the dYdX Layer 2 Protocol. Instead, it will have the benefit of creating censorship resistance in all aspects of the dYdX Layer 2 Protocol.&#x20;
+По мере того как dYdX Foundation будет оказывать помощь в разработке и развитии экосистемы протокола dYdX уровня 2 и связанных с управлением решений, основная часть команды разработчиков компании dYdX Trading Inc. сосредоточится, помимо прочего, на децентрализации ордербука и компонентов механизма адаптации протокола dYdX уровня 2. Хотя децентрализованный ордербук и механизм адаптации приведут к изменению протокола dYdX уровня 2, не ожидается, что это повысит его функциональность. Однако это обеспечит цензуростойкость во всех аспектах протокола dYdX уровня 2.
 
-The dYdX Foundation does not have a profit-making purpose and does not seek any profits in general. Meanwhile, dYdX Trading will continue to charge maker-taker fees tied to trade volume, which will cover transaction fees for trades, earn revenue, and incentivize more liquidity.
+dYdX Foundation не нацелен на коммерческую деятельность и не стремится к получению прибыли в целом. Тем временем компания dYdX Trading Inc. продолжит взимать комиссии с маркетмейкеров, размер которых зависит от объема торговли. Это позволит покрывать расходы на осуществление торговых операций, а также будет способствовать обеспечению доходности и стимулировать рост ликвидности.
 
-By fostering decentralized governance and empowering traders with powerful, transparent, and open advanced financial products, the dYdX Foundation will help push the dYdX Layer 2 Protocol forwards towards community-led growth, development, and self-sustainability.
+Благодаря содействию децентрализованному управлению и расширению возможностей трейдеров за счет эффективных, прозрачных и открытых финансовых продуктов, dYdX Foundation будет способствовать деятельности по реализации, развитию и обеспечению автономности протокола dYdX уровня 2, контролируемой сообществом.
 
-### Operations
+### Операции
 
-The dYdX Foundation's Council members include Arthur Cheong, Rebecca Rettig, and Markus Spillman. This is the first important step in the journey towards the dYdX Layer 2 Protocol’s complete decentralization.
+В состав членов совета dYdX Foundation входят Артур Чун, Ребекка Реттиг и Маркус Шпильман. Это первый важный шаг на пути к полной децентрализации протокола dYdX уровня 2.
+
