@@ -1,86 +1,88 @@
 ---
-description: Overview of the Trading Rewards program.
+description: Обзор программы вознаграждения за торговлю.
+
 ---
 
-# Trading Rewards
+# Награды за торговлю
 
-`25.00%` of the initial token supply (`250,000,000 DYDX`) will be distributed to users who trade on the dYdX Layer 2 Protocol based on a combination of fees paid and open interest.
+`25,00%` от первоначального запаса токенов \(`250 000 000 DYDX`\) получат пользователи, которые торгуют в рамках протокола dYdX уровня 2 на основе сочетания уплаченных комиссий и суммы открытых позиций.
 
-**Objectives**
+**Цели**
 
-* Incentivize all traders to use the dYdX Layer 2 Protocol.
-* Accelerate market liquidity and overall product usage.
+* Мотивируйте всех трейдеров на использование протокола dYdX уровня 2.
+* Стимулируйте рост рыночной ликвидности и общей степени использования продуктов.
 
-## **Overview**
+## **Обзор**
 
-![Earn rewards by trading on the dYdX Layer 2 Protocol](<../.gitbook/assets/image (17).png>)
+![Торгуйте на базе протокола dYdX уровня 2 и получайте за это награды](../.gitbook/assets/image%20%2814%29.png)
 
-DYDX will be distributed to traders based on a formula that rewards a combination of fees paid and open interest on the dYdX Layer 2 Protocol. DYDX will be distributed on a 28-day epoch basis over five years and is not subject to any vesting or lockups. 3,835,616 DYDX will be distributed per epoch.
+Токены DYDX будут распределяться между трейдерами по формуле присуждения наград, основанной на сочетании уплаченных комиссий и суммы открытых позиций в протоколе dYdX уровня 2. Токены DYDX будут распределяться в течение 28-дневного периода на протяжении пяти лет и не подлежат передаче во владение или блокировке. В каждую эпоху будет распределяться 3 835 616 DYDX.
 
-The Cobb-Douglas function is used to compute how much DYDX is awarded to each trader during each epoch:
-
-$$
-w\ =\ f ^{\alpha } \times d \ ^{1-\alpha }
-$$
+Для расчета количества DYDX, присуждаемых конкретному трейдеру в качестве награды за определенную эпоху, используется функция Кобба — Дугласа:
 
 $$
-r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k
+ w\ =\ f ^{\alpha } \times d \ ^{1-\alpha }
+ $$
+
 $$
+ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k
+ $$
 
-| Term                         | Definition                                                                                               |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------- |
-| r                            | Reward for a specific trader.                                                                            |
-| R                            | Total reward to be split between all traders in the pool for the epoch.                                  |
-| f                            | Total fees paid by a trader in this epoch.                                                               |
-| w                            | Individual trader score.                                                                                 |
-| $${\sum\limits _{n} w_{n}}$$ | Sum of all trader scores.                                                                                |
-| d                            | A trader’s average open interest (measured every minute) across all markets in this epoch.               |
-| k                            | Total number of traders in this epoch.                                                                   |
-| α                            | A constant in the range that determines the weight of fees vs open interest. The initial value is α=0.7. |
+| Параметр | Определение |
+| :--- | :--- |
+| r | Награда для конкретного трейдера. |
+| R | Совокупный размер наград, подлежащих распределению между всеми трейдерами в пуле за эпоху. |
+| f | Общая сумма комиссий, уплаченных трейдером в этой эпохе. |
+| w | Личная оценка трейдера. |
+| $${\sum\limits &lt;g id="1" ctype="italic" equiv-text="_"&gt;{n} w</g>{n}}$$ | Сумма всех оценок трейдера. |
+| d | Средняя сумма открытых позиций трейдера \(измеряемая ежечасно\) на всех рынках в этой эпохе. |
+| k | Общее число трейдеров в этой эпохе. |
+| α | Постоянная величина в диапазоне, которая определяет долю комиссий по отношению к открытым позициям. Изначально значение α равно 0,7. |
 
-The following example illustrates Trading Rewards earned by Traders A, B, and C using the formula listed above:
+Следующий пример иллюстрирует размер наград за торговлю, полученных трейдерами А, Б и В на основании расчета по вышеуказанной формуле:
 
-![An example distribution for Trading Rewards](<../.gitbook/assets/Frame 1208.png>)
+![Пример распределения наград за торговлю](../.gitbook/assets/image%20%2838%29.png)
 
-## FAQ
+## Часто задаваемые вопросы
 
-### Who is eligible for trading rewards?
+### Кто имеет право на получение наград за торговлю?
 
-All traders on the dYdX Layer 2 protocol are eligible to receive DYDX as trading rewards.
+Право на получение DYDX в качестве награды за торговлю имеют все трейдеры, торгующие в рамках протокола dYdX уровня 2.
 
-The dYdX Layer 2 Protocol is not available to traders in the United States or Restricted Territories, as defined in dYdX Trading Inc.’s [Terms of Use](https://dydx.exchange/terms).
+Протокол dYdX уровня 2 недоступен трейдерам в Соединенных Штатах Америки и на Запрещенных территориях, как определено в [Условиях использования](https://dydx.exchange/terms) dYdX Trading Inc.
 
-### How much DYDX did I earn in the Trading Rewards program?
+### Сколько DYDX мне удалось заработать по программе вознаграждения за торговлю?
 
-In the current epoch, users can see fees paid, average open interest, and estimated trading rewards at [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) where users' trading data exists.
+В текущую эпоху пользователи могут просмотреть уплаченные комиссии, среднюю сумму открытых позиций и предполагаемый размер наград за торговлю по ссылке [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards), где размещены данные о торговой деятельности пользователей.
 
-![Rewards info for the current epoch](<../.gitbook/assets/image (18).png>)
+![Информация о наградах за текущую эпоху](../.gitbook/assets/image%20%2820%29.png)
 
-Rewards from past epochs can be viewed at [**dydx.community/history/rewards**](https://dydx.community/history/rewards) **** (coming soon).
+Награды за прошлые эпохи можно просмотреть по ссылке [**dydx.community/history/rewards**](https://dydx.community/history/rewards) ****\(ожидается в ближайшее время\).
 
-### How do I claim my Trading Rewards? When can I withdraw and transfer my earned DYDX?
+### Как получить награды за торговлю? Когда можно вывести и перевести DYDX, полученные в качестве награды?
 
-Earned DYDX tokens via Trading Rewards will be transferable at the end of each epoch. DYDX token holders are required to wait approximately `7 days` (**Waiting Period**) after the end of the epoch to claim their tokens. Once tokens have been claimed, they can be used for dYdX governance.
+Заработанные в качестве награды за торговлю токены DYDX станут доступны для перевода по окончании каждой эпохи. Владельцы токенов DYDX могут получить их примерно через `7 дней` \(**период ожидания**\) после окончания эпохи. После получения токены можно использовать для управления dYdX.
 
-Traders can claim their trading rewards at the end of every epoch, after the **Waiting Period**, [here](https://dydx.community/dashboard).&#x20;
+Трейдеры могут получить награды за торговлю в конце каждой эпохи по завершении **периода ожидания** [здесь](https://dydx.community/dashboard).
 
-Users will need to click on "Claim", sign a transaction, and pay gas fees to claim DYDX.
+Чтобы получить DYDX, пользователям необходимо нажать «Получить», заключить сделку и уплатить комиссию за газ.
 
-![Portfolio overview of rewards](<../.gitbook/assets/image (20).png>)
+![Обзор портфеля наград](../.gitbook/assets/image.png)
 
-### What is Open Interest?
+### Что такое сумма открытых позиций?
 
-Total open interest is the USD value of all outstanding long or short positions (the total units of longs always equals the total units of shorts) for a given market. Increasing open interest represents new or additional money coming into the market while decreasing open interest indicates money flowing out of the market.
+Общая сумма открытых позиций — это стоимость всех незакрытых длинных и коротких позиций в USD \(общее количество длинных позиций всегда совпадает с общим количеством коротких позиций\) для определенного рынка. Увеличение суммы открытых позиций свидетельствует о притоке на рынок дополнительной денежной массы, тогда как ее уменьшение указывает на отток денежных средств с рынка.
 
-Below is a table of trading activity for traders, A, B, C, D, and E. Open interest is calculated in USDC terms following the trading activity for each day:
+Ниже представлена таблица данных торговой деятельности трейдеров A, Б, В, Г и Д. Сумма открытых позиций рассчитывается в USDC каждый день по окончании торговой деятельности:
 
-| Time    | Trading Activity                                                           | Total Net Open Interest (USDC) |
-| ------- | -------------------------------------------------------------------------- | ------------------------------ |
-| July 1  | **Trader A** buys 1 BTC at $30,000 and **Trader B** sells 1 BTC at $30,000 | $30,000                        |
-| July 3  | **Trader C** buys 5 BTC at $30,000 and **Trader D** sells 5 BTC at $30,000 | $180,000                       |
-| July 5  | **Trader A** sells 1 BTC at $30,000 and **Trader D** buys 1 BTC at $30,000 | $150,000                       |
-| July 10 | **Trader E** buys 5 BTC at $30,000 and **Trader C** sells 5 BTC at $30,000 | $150,000                       |
+| Время | Торговая деятельность | Общая чистая сумма открытых позиций \(USDC\) |
+| :--- | :--- | :--- |
+| 1 июля | **Трейдер A** покупает 1 BTC по цене 30 000 USD, а **трейдер Б** продает 1 BTC по цене 30 000 USD | 30 000 USD |
+| 3 июля | **Трейдер В** покупает 5 BTC по цене 30 000 USD, а **трейдер Г** продает 5 BTC по цене 30 000 USD | 180 000 USD |
+| 5 июля | **Трейдер А** продает 1 BTC по цене 30 000 USD, а **трейдер Г** покупает 1 BTC по цене 30 000 USD | 150 000 USD |
+| 10 июля | **Трейдер Д** покупает 5 BTC по цене 30 000 USD, а **трейдер В** продает 5 BTC по цене 30 000 USD | 150 000 USD |
 
-In the context of the **Trading Rewards** formula, open interest is measured every minute (at a random time in each minute) across all markets and averaged across a given epoch to calculate rewards.
+В контексте формулы расчета размера **награды за торговлю** сумма открытых позиций измеряется каждую минуту \(в случайный момент времени\) на всех рынках и усредняется по определенной эпохе для расчета размера наград.
 
-A trader's own open interest is the USD value of all of that trader's open positions. For the purposes of **Trading Rewards**, a trader's open interest is measured every minute (at a random time in each minute) across all markets and averaged across a given epoch.
+Собственная сумма открытых позиций трейдера — это стоимость всех его открытых позиций в USD. Применительно к **наградам за торговлю** сумма открытых позиций трейдера измеряется каждый час \(в случайный момент времени\) на всех рынках и усредняется по определенной эпохе.
+
