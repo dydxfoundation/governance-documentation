@@ -1,57 +1,59 @@
 ---
-description: Overview of key governance-related terms.
+description: Обзор основных терминов, связанных с управлением.
+
 ---
 
-# Glossary
+# Глоссарий
 
-**DYDX:** The native asset of the DYDX ecosystem, which constitutes the foundation of governance and safety for the dUdX Protocol. DYDX is an ERC-20 token that designates the weight of a user’s voting or proposing power.
+**DYDX:** собственный актив экосистемы DYDX, который составляет основу управления и безопасности протокола dYdX. DYDX — это токен ERC-20, который определяет значимость права на внесение предложений и права голоса пользователя.
 
-**dYdX Protocol:** dYdX’s Layer 2 perpetuals protocol.
+**Протокол dYdX:** протокол dYdX уровня 2 для бессрочных контрактов.
 
-**dYdX Foundation:** an independent foundation, headquartered in Zug, Switzerland, was created to participate in propelling the dYdX Protocol into the future.
+**dYdX Foundation:** независимый фонд, штаб-квартира которого находится в Цуге, Швейцария, созданный с целью реализации протокола dYdX в будущем.
 
-**DYDX Token contract**: has snapshots of each address’ voting power at different blocks in time.
+**Контракт на токен DYDX**: содержит снимки права голоса каждого адреса в разных блоках по времени.
 
-**DIP:** dYdX Improvements Proposals are on-chain proposals.
+**ППУ:** предложения по улучшению dYdX, которые вносятся в блокчейне.
 
-**DRC**: dYdX Request for Comments are off-chain proposals and the first required step in the governance improvement process.
+**ЗК**: запрос комментариев dYdX, который направляется вне блокчейна. Это первое требуемое действие в процессе совершенствования управления.
 
-**Quorum:** In order for a vote to pass, it must achieve a minimum quorum of DYDX tokens in the affirmative. The purpose of the quorum is to ensure that the only measures that pass have adequate voter participation.
+**Кворум:** чтобы голосование состоялось, для него необходимо достичь минимального кворума токенов DYDX. Цель кворума состоит в том, чтобы голосование осуществлялось только в том случае, если в нем участвует достаточное число голосующих.
 
-**Epoch:** All other contracts operate on 28-day cycles, referred to as epochs.
+**Эпоха:** все остальные контракты действуют в течение 28-дневных циклов, которые называют эпохами.
 
-**Execution Grace Period:** The period after vote when a DIP proposa becomes executable, during which it must be executed.
+**Льготный период исполнения:** период после голосования, когда ППУ становится выполнимым и подлежит исполнению.
 
-**Governance Strategy contract**: contains logic to measure users' relative power to propose and vote.
+**Контракт на стратегию управления**: содержит логическую схему оценки относительного права пользователей на внесение предложений и голосование.
 
-**Governor contract**: tracks proposals and can execute proposals via the Timelock smart contract.
+**Контракт управляющего**: отслеживает и может исполнять предложения с помощью смарт-контракта на блокировку по времени.
 
-**Long timelock executor:** The long timelock executor can execute proposals that generally change parts of the Protocol that affect governance consensus.
+**Исполнитель с правом на длительную блокировку по времени:** исполнитель с правом на длительную блокировку по времени может исполнять предложения, изменяющие части протокола в целом и влияющие на консенсус управления.
 
-**Merkle-pauser executor:** The Merkle-pauser executor can execute proposals that freeze the Merkle root, which is updated periodically with each user's cumulative reward balance, allowing new rewards to be distributed to users over time, in case the proposed root is incorrect or malicious.
+**Исполнитель с правом на остановку дерева Меркла:** исполнитель с правом на остановку дерева Меркла может исполнять предложения, которые замораживают корень дерева Меркла, периодически обновляемый с учетом совокупного баланса наград каждого пользователя. Это позволяет распределять новые награды между пользователями с течением времени в том случае, если предложенный корень неверный или содержит вредоносный код.
 
-**Safety Pool:** Component in charge of shielding the protocol from insolvency.
+**Пул стейкинга безопасности:** компонент, отвечающий за защиту протокола от финансовой неустойчивости.
 
-**Staked dYdX contract**: contains logics to stake DYDX tokens, tokenize the position and get rewards.
+**Контракт на стейкинг dYdX**: содержит логическую схему стейкинга токенов DYDX, токенизации позиции и получения наград.
 
-**Short timelock executor:** The short timelock executor can execute proposals that generally change Rewards and Incentive contracts or the Community Treasury that require quick intervention.
+**Исполнитель с правом на короткую блокировку по времени:** исполнитель с правом на короткую блокировку по времени может исполнять предложения, которые вносят общие изменения в контракты вознаграждений или казну сообщества и требуют оперативного вмешательства.
 
-**Starkware executor:** The Starkware executor can execute proposals that generally change parts of the Protocol that currently require intervention from Starkware.
+**Исполнитель Starkware:** исполнитель Starkware может исполнять предложения, которые вносят общие изменения в части протокола, требующие вмешательства со стороны Starkware в данный момент в данный момент.
 
-**Timelock contract**: can queue, cancel, or execute transactions voted by Governance. The functions in a proposal are initiated by the Timelock contract. Queued transactions can be executed after a delay and until Grace period is not over.&#x20;
+**Контракт на блокировку по времени**: может помещать в очередь, отменять или выполнять операции, за которые проголосовало управление. Функции в предложении инициируются контрактом на блокировку по времени. Операции, находящиеся в очереди, могут исполняться с задержкой и до окончания льготного периода.
 
-**Timelock Delay:** The delay before a DIP proposal is executed after a proposal passes and is queued.
+**Задержка блокировки по времени:** задержка перед исполнением ППУ после его принятия и размещения в очереди.
 
-**Proposal Theshold:** To prevent a system where countless spam proposals are created, a proposal threshold requires an address has a certain number of votes before they can make a proposal.
+**Пороговое число голосов:** чтобы в системе не создавались бесчисленные нежелательные предложения, установлено пороговое число, которое требует наличия у адреса определенного количества голосов для внесения какого-либо предложения.
 
-**Proposing Power:** Token stake giving access to creating and sustaining a proposal.
+**Право на внесение предложений:** стейкинг токена, позволяющий создавать и поддерживать предложения.
 
-**Voting Power:** Voting power which is used to vote for or against existing proposals.
+**Право голоса:** право голоса используется для голосования за существующие предложения или против них.
 
-**Voting Delay:** This is the length of time between which a proposal can be created and it is available to be voted upon. By requiring at least one block to pass, the governance is protected from Flash Loan attacks that might borrow a large number of tokens, propose a vote, and vote on it all in one block.
+**Задержка голосования:** промежуток времени между созданием предложения и возможностью голосовать по нему. Требование пройти хотя бы один блок защищает управление от атак с использованием мгновенного займа, которые позволяют завладеть большим количеством токенов, предложить голосование и проголосовать в одном блоке.
 
-**Voting Period:** Once a DIP proposal has been put forward, DYDX community members will have to cast their votes before the end of the Voting Period. This is the length of time for which proposals are available to be voted upon, with time in Ethereum Blocks.
+**Период голосования:** после внесения ППУ участники сообщества DYDX должны проголосовать по нему до окончания периода голосования. Это период, когда можно голосовать по предложениям, продолжительность которого исчисляется в блоках Ethereum.
 
-**Proposal Threshold:** Minimum tokens held/delegated required to create a DIP proposal.
+**Пороговое число токенов:** минимальное число находящихся во владении/делегированных токенов, необходимое для создания ППУ.
 
-**Vote Differential:** Required yes–no gap for DIP proposal to pass.
+**Разница в количестве голосов:** разрыв в числе голосов за и против, требуемый для принятия ППУ.
+
