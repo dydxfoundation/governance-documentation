@@ -1,146 +1,193 @@
 ---
-description: Overview of governance parameters.
+description: 거버넌스 파라미터 개요
+
 ---
 
-# Parameters
+# 파라미터
 
-**\[PARAMETERS PAGE IS UNDER DEVELOPMENT AND WILL BE UPDATED SOON]**
+**\[파라미터 페이지를 개발 중이며 곧 업데이트됩니다\]**
 
-At the time of launching governance, DYDX holders have immediate and irrevocable control over:
+거버넌스 출범 시점에 DYDX 보유자는 다음에 대한 즉각적이고 철회 불가능한 통제 권한을 갖습니다.
 
-* Allocation of the community treasury
-* New token listings on the Protocol
-* Risk parameters for the Protocol
-* Capital allocations to market makers in the liquidity staking pool
-* Addition of new market makers to the liquidity staking pool
-* Determining safety staking pool payouts in the event of a loss
-* Changing any of the rewards and pools existing at launch
-* The governance contracts themselves
+* 커뮤니티 트레저리 할당
+* 프로토콜 신규 토큰 상장
+* 프로토콜의 리스크 파라미터
+* 유동성 스테이킹 풀의 마켓 메이커에 대한 자본 할당
+* 유동성 스테이킹 풀에 신규 마켓 메이커 추가
+* 손실이 발생할 경우 안전 스테이킹 풀 배당금 지급 결정
+* 출시 시 존재하는 모든 보상 및 풀의 변경
+* 거버넌스 자체 계약
 
-dYdX Governance has control over the parameters of the following contracts:
+dYdX 거버넌스는 다음 계약의 파라미터에 대한 통제 권한을 갖습니다.
 
-* [Timelock](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/voting-and-governance-process/parameters.md#timelock-parameters)
-* Priority Timelock
-* Governor
-* DYDX Token
-* Treasury
-* Merkle Distributor
-* Liquidity Staking
-* Safety Module
-* Stark Proxy
-* Stark Perpetual
+* [타임락](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/voting-and-governance-process/parameters.md#timelock-parameters)
+* 거버너
+* DYDX 토큰
+* 트레저리
+* 머클 분배자
+* 유동성 스테이킹
+* 안전 모듈
+* 스타크 프록시
+* 스타크 퍼페추얼
 
-## Timelock Parameters
+## 타임락 파라미터
 
-![](<../.gitbook/assets/image (77).png>)
+![](../.gitbook/assets/image%20%2877%29.png)
 
-## Governor Parameters
+## 거버너 파라미터
 
-| Parameter         | Description                                                                   | Value          |
-| ----------------- | ----------------------------------------------------------------------------- | -------------- |
-| Voting Delay      | Delay (in blocks) between proposal creation and voting on the proposal        | 6,570 blocks   |
-| Add Executor role | Address that can add new executors                                            | Short Timelock |
-| Owner role        | Can change strategy / voting delay / unauthorize executors + owns other roles | Long Timelock  |
-
-
-
-## DYDX Token
-
-| Parameter | Description                                 | Value          |
-| --------- | ------------------------------------------- | -------------- |
-| Owner     | Can mint DYDX tokens after mint restriction | Short Timelock |
-
-
-
-## Rewards Treasury Parameters
-
-| Parameter   | Description                                            | Value          |
-| ----------- | ------------------------------------------------------ | -------------- |
-| Owner       | Can approve or transfer any token held by the treasury | Short Timelock |
-| Proxy Admin | Can upgrade the contract                               | Short Timelock |
+| 매개 변수 | 설명 |  |
+| :--- | :--- | :--- |
+| 투표 지연 | 제안 생성 및 제안에 대한 투표 간의 딜레이\(블록 내\) | 6,570블록 |
+| 실행자 관리자 추가 | 새로운 실행자를 추가할 수 있는 주소 | 단기 타임락 |
+| 소유자 역할 | 전략 변경 / 투표 딜레이 / 실행자 승인 해제 + 기타 역할 소유 가능 | 장기 타임락 |
 
 ##
 
-## Community Treasury Parameters
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">매개 변수</th>
+      <th style="text-align:left">설명</th>
+      <th style="text-align:left">단기 타임락 실행자</th>
+      <th style="text-align:left">머클-일시중지 실행자</th>
+      <th style="text-align:left">장기 타임락 실행자</th>
+      <th style="text-align:left">스타크웨어 실행자</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">투표 지연</td>
+      <td style="text-align:left">제안 생성 및 제안에 대한 투표 간의 딜레이(블록 내)</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"></td>
+        <td style="text-align:left"></td>
+        <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">실행자 관리자 추가</td>
+      <td style="text-align:left">승인된 실행자 목록에 새로운 주소 추가</td>
+      <td style="text-align:left">Y</td>
+      <td style="text-align:left">N</td>
+      <td style="text-align:left">N</td>
+      <td style="text-align:left">N</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">소유자 역할</td>
+      <td style="text-align:left">
+        <ul>
+          <li>새로운 거버넌스 전략 설정</li>
+          <li>새로운 투표 딜레이 설정</li>
+          <li>승인된 실행자 목록에서 주소 제거</li>
+          <li>다른 역할 소유</li>
+        </ul>
+      </td>
+      <td style="text-align:left">N</td>
+      <td style="text-align:left">N</td>
+      <td style="text-align:left">Y</td>
+      <td style="text-align:left">N</td>
+    </tr>
+  </tbody>
+</table>
 
-| Parameter   | Description                                            | Value          |
-| ----------- | ------------------------------------------------------ | -------------- |
-| Owner       | Can approve or transfer any token held by the treasury | Short Timelock |
-| Proxy Admin | Can upgrade the contract                               | Short Timelock |
+## 트레저리 베스터
+
+| 매개 변수 | 설명 |  |
+| :--- | :--- | :--- |
+| 소유자 | 화이트리스트 업데이트 가능, 민팅 가능 | 단기 타임락 |
+| 이전에 제한된 이체 | 이체를 허용하는 최소 타임스탬프\(초 단위\) | 7월 14일 15:00(UTC) + 28일 + 7일 + 1일 |
+|
+MintMaxPercent | 토큰 소유자가 발행할 수 있는 최대 백분율\(민팅 제한 종료 후\) | 2 |
+
+## 머클 분배자
+
+| 매개 변수 | 설명 | 보상 트레저리 | 커뮤니티 금고 |
+| :--- | :--- | :--- | :--- |
+| 수령인 | 베스팅된 자금을 수령하는 주소 | 보상 트레저리 | 커뮤니티 금고 |
+| 베스팅 금액 + 선결제 금액 | 수령인에게 즉시 전송 및 베스팅되는 토큰 액수 | 450,000,000 | 50,000,000 |
+| 베스팅 금액 | 수령인에게 베스팅될 토큰 액수 | 374,616,438 | 50,000,000 |
+| 선결제 금액 | 수령인에게 즉시 전송되는 토큰 액수 | 75,383,562 | 0 |
+| 베스팅 시작 | 베스팅이 시작되는 시간 | 7월 14일 15:00(UTC) | 7월 14일 15:00(UTC) |
+| 베스팅 클리프 | 베스팅 클리프가 시작되는 시간\(및 수령인에게 토큰을 실제로 전송할 수 있는 시간\) | 7월 14일 15:00(UTC) | 7월 14일 15:00(UTC) |
+| 베스팅 종료 | 베스팅이 종료되는 시간 | 7월 14일 15:00(UTC) + 5년 | 7월 14일 15:00(UTC) + 5년 |
+| 트레저리 프록시 관리자 | 트레저리 계약을 업그레이드할 수 있음 | 단기 타임락 | 단기 타임락 |
+| 트레저리 자금 관리자 | 트레저리 자금을 사용할 수 있음 | 단기 타임락 | 단기 타임락 |
 
 ##
 
-## Merkle Distributor
+| 매개 변수 | 설명 | 보상 트레저리 초기 파라미터 | 커뮤니티 트레저리 초기 파라미터 | 단기 타임락 실행자 | 머클-일시중지 실행자 | 장기 타임락 실행자 | 스타크웨어 실행자 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 수령인 | 베스팅된 자금을 수령하는 주소 | 보상 트레저리 | 커뮤니티 금고 |  |  |  |  |
+| 베스팅 금액 + 선결제 금액 | 수령인에게 즉시 전송 및 베스팅되는 토큰 액수 | 450,000,000 | 50,000,000 |  |  |  |  |
+| 베스팅 금액 | 수령인에게 베스팅될 토큰 액수 | 374,616,438 | 50,000,000 |  |  |  |  |
+| 선결제 금액 | 수령인에게 즉시 전송되는 토큰 액수 | 75,383,562 | 0 |  |  |  |  |
+| 베스팅 시작 | 베스팅이 시작되는 시간 | 7월 14일 15:00(UTC) | 7월 14일 15:00(UTC) |  |  |  |  |
+| 베스팅 클리프 | 베스팅 클리프가 시작되는 시간\(및 수령인에게 토큰을 실제로 전송할 수 있는 시간\) | 7월 14일 15:00(UTC) | 7월 14일 15:00(UTC) |  |  |  |  |
+| 베스팅 종료 | 베스팅이 종료되는 시간 | 7월 14일 15:00(UTC) + 5년 | 7월 14일 15:00(UTC) + 5년 |  |  |  |  |
+| 트레저리 프록시 관리자 | 트레저리 계약을 업그레이드할 수 있음 | 단기 타임락 | 단기 타임락 | Y |  |  |  |
+| 트레저리 자금 관리자 | 트레저리 자금을 사용할 수 있음 | 단기 타임락 | 단기 타임락 | Y |  |  |  |
 
-| Parameter           | Description                                                                                                                    | Value                        |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------- |
-| Owner role          | Can update the rewards oracle address, update the IPNS name, and is admin of all roles                                         | Short Timelock               |
-| Config updater role | May set rewards parameters, change the epoch schedule, or change the IPFS update period                                        | Short Timelock               |
-| Pauser role         | Can pause updates to the merkle root                                                                                           | Merkle-pauser Timelock       |
-| Unpauser role       | Can unpause updates to the merkle root                                                                                         | Short Timelock               |
-| Claim operator role | May claim rewards on behalf of a user                                                                                          | Claims Proxy                 |
-| Interval            | Length of an epoch                                                                                                             | 28 days                      |
-| Offset              | Start of epoch zero                                                                                                            | August 3rd 15:00 UTC 2021    |
-| IPNS name           | IPNS name where rewards data is published                                                                                      | rewards-data.dydx.foundation |
-| IPFS update period  | Period of time after the epoch end after which the new epoch exchange statistics should be available on IPFS via the IPNS name | 3 minutes                    |
-| Proxy Admin         | Can upgrade the contract                                                                                                       | Short Timelock               |
+## 유동성 스테이킹
 
-##
+|  |  |  |
+| :--- | :--- | :--- |
+| 에폭 0 시작 | 에폭 0이 시작되는 시간 | 7월 14일 15:00(UTC) |
+| 에폭 길이 | 각 에폭의 기간 | 28일 |
+| 대기 기간 | 루트 제안 및 루트 활성화 간의 딜레이 | 7일 |
+| 에폭당 사용자 거래 보상 | 에폭당 트레이더에게 배포되는 토큰 액수 | 3,835,616 |
+| 에폭당 유동성 공급자 거래 보상 | 에폭당 MM에게 배포되는 토큰 액수 | 1,150,685 |
+| 에폭 0에 대한 소급 보상 | 소급 보상으로 배포되는 토큰 액수 | 75,000,000 |
+| 소유자 역할 | 에폭 파라미터 및 보상 오라클을 변경할 수 있음 | 단기 타임락 |
+| 파서 역할 | 보류 중인 루트를 일시 중지할 수 있음\(활성 상태로 승격되기 전\) | 머클 타임락 |
+| 언파서 역할 | 일시 중지된 보류 중인 루트를 재개할 수 있음 | 단기 타임락 |
+| 클레임 운영자 역할 | 다른 사람을 대신하여 클레임할 수 있음 | 프록시 클레임 |
+| 프록시 관리자 | 계약을 업그레이드할 수 있음 | 단기 타임락 |
 
-## Liquidity Staking
+## 안전 모듈
 
-| Parameter             | Description                                                                       | Value                                                               |
-| --------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| Owner role            | Admin of all roles                                                                | Short Timelock                                                      |
-| Epoch parameters role | May set epoch parameters such as the interval, offset, and blackout window        | Short Timelock                                                      |
-| Rewards rate role     | May set the emission rate of rewards                                              | Short Timelock                                                      |
-| Borrower admin role   | May set borrower allocations and allow/restrict borrowers from borrowing          | Short Timelock                                                      |
-| Claim operator role   | May claim rewards on behalf of a user                                             | Claims proxy                                                        |
-| Stake operator role   | May manipulate user's staked funds (e.g. perform withdrawals) on behalf of a user | Short Timelock                                                      |
-| Debt operator role    | May decrease borrow debt and decrease staker debt                                 | Short Timelock                                                      |
-| Interval              | Length of an epoch                                                                | 28 days                                                             |
-| Offset                | Start of epoch zero                                                               | August 3rd 15:00 UTC 2021                                           |
-| Blackout window       | Length of the blackout window                                                     | 14 days                                                             |
-| Rewards emission rate | Tokens allocated to stakers as rewards per second                                 | 0.1585489619 \* 10^18 (in wei)                                      |
-| Borrower allocations  | Percent of funds allocated to each borrower                                       | Wintermute 25%, Amber 25%, Sixtant 20%, Kronos 20%, DAT Trading 10% |
-| Proxy Admin           | Can upgrade the contract                                                          | Short Timelock                                                      |
+| 매개 변수 | 설명 | 초기 파라미터 |
+| :--- | :--- | :--- |
+| 에폭 0 시작 | 에폭 0이 시작되는 시간 | 7월 14일 15:00(UTC) |
+| 보상 종료 | 스테이커에 대한 보상 배포가 중지되는 시간 | 7월 14일 15:00(UTC) + 5년 |
+| 에폭 길이 | 각 에폭의 기간 | 28일 |
+|
+블랙아웃 기간의 길이 | 에폭 종료 전에 사용자가 스테이킹을 해제할 수 없는 기간 | 7일 |
+| 최소 에폭 길이 | 허용되는 최소 에폭 길이 | 6일 |
+| 최대 에폭 길이 | 허용되는 최대 에폭 길이 | 92일 |
+| 최소 블랙아웃 기간 | 허용되는 최소 블랙아웃 기간 | 3일 |
+| 최대 블랙아웃 기간 | 허용되는 최대 블랙아웃 기간 | 46일 |
+| 초당 보상 | 배포 기간 내에 있을 때 1초마다 보상으로 방출할 토큰 | 0.1585342262 = \(383,526 / \(28 \* 24 \* 60 \* 60\)\) |
+| 차용자 할당 | 각 차용자에게 할당되는 자금 비율 | TBD |
+| 소유자 역할 | 아래 모든 역할에 대한 관리자 | 단기 타임락 |
+| 에폭 파라미터 역할 | 에폭 파라미터를 설정할 수 있음 | 단기 타임락 |
+| 보상 비율 역할 | 보상 비율을 변경할 수 있음 | 단기 타임락 |
+| 차용자 관리자 역할 | 차용자 할당/제한을 변경할 수 있음 | 단기 타임락 |
+| 클레임 운영자 역할 | 다른 사람을 대신하여 클레임할 수 있음 | 프록시 클레임 |
+| 스테이킹 운영자 역할 | 다른 사람을 대신하여 스테이킹할 수 있음 | 할당되지 않음 |
+| 채무 운영자 역할 | 채무를 관리할 수 있음 | 할당되지 않음 |
+| 프록시 관리자 | 계약을 업그레이드할 수 있음 | 단기 타임락 |
 
-## Safety Module
+## 스타크 프록시
 
-| Parameter             | Description                                                                       | Value                          |
-| --------------------- | --------------------------------------------------------------------------------- | ------------------------------ |
-| Owner role            | Admin of all roles                                                                | Short Timelock                 |
-| Slasher role          | Can slash staked token balances and withdraw those funds                          | Short Timelock                 |
-| Epoch parameters role | May set epoch parameters such as the interval, offset, and blackout window        | Short Timelock                 |
-| Rewards rate role     | May set the emission rate of rewards                                              | Short Timelock                 |
-| Claim operator role   | May claim rewards on behalf of a user                                             | Claims proxy                   |
-| Stake operator role   | May manipulate user's staked funds (e.g. perform withdrawals) on behalf of a user | Short Timelock                 |
-| Interval              | Length of an epoch                                                                | 28 days                        |
-| Offset                | Start of epoch zero                                                               | August 3rd 15:00 UTC 2021      |
-| Blackout window       | Length of the blackout window                                                     | 14 days                        |
-| Rewards emission rate | Tokens allocated to stakers as rewards per second                                 | 0.1585489619 \* 10^18 (in wei) |
-| Proxy Admin           | Can upgrade the contract                                                          | Long Timelock                  |
+| 매개 변수 | 설명 | 유동성 스테이킹 |  |
+| :--- | :--- | :--- | :--- |
+| 소유자 역할 | 소유자, 자금 관리자, 위임 관리자 역할 소유 + 자금을 수령하는 수령인 추가/제거 가능 + STARK 키 | 마켓 메이커 |  |
+| 자금 관리자 역할 | 허용된 수령인에게 차용 금액을 초과하는 모든 자금을 인출하고 강제 조치를 호출할 수 있음 | 마켓 메이커 |  |
+| 위임 관리자 역할 | 차용자 및 거래소 역할 소유 | 마켓 메이커 |  |
+| 차용자 역할 | LS1에서 차용 기능을 호출할 수 있음 | 마켓 메이커 |  |
+| 거래소 역할 | 거래소 기능을 호출할 수 있음 | 마켓 메이커 |  |
+| 보호자 역할 | 차용자의 채무가 연체되었을 경우 활동을 차단하고 강제 조치를 취할 수 있음 | 단기 타임락 |  |
 
-## Stark Proxy
+## 스타크 퍼페추얼
 
-| Parameter                | Description                                                                                                                                                                                                      | Value                  |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
-| Owner role               | Can add/remove recipients who receive funds + STARK keys, set ERC20 allowances on liquidity staking and stark perpetual contracts, call forced actions, and is admin of owner + delegation admin roles           | Market Maker           |
-| Delegation admin role    | Is admin of borrower, exchange operator, and withdrawal operator roles                                                                                                                                           | Market Maker           |
-| Borrower role            | May call borrow functions on the liquidity staking contract                                                                                                                                                      | Market Maker           |
-| Exchange operator role   | May call exchange functions on the stark perpetual contract                                                                                                                                                      | Market Maker           |
-| Withdrawal operator role | May withdraw funds in excess of the borrowed balance to an allowed recipient                                                                                                                                     | Market Maker           |
-| Guardian role            | May perform close actions, perform force actions if borrower has overdue debt, restrict open actions with borrowed funds, and approve a token amount to be withdrawn externally by the withdrawal operator role. | Short Timelock         |
-| Veto guardian role       | May veto forced trade requests initiated by the owner, during the waiting period                                                                                                                                 | Merkle-pauser timelock |
+| 매개 변수 | 설명 | 단기 타임락 실행자 | 머클-일시중지 실행자 | 장기 타임락 실행자 | 스타크웨어 실행자 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 새로운 자산 추가 |  | N | N | N | Y |
+| 기존 자산의 구성 변경 |  | N | N | N | Y |
+| 프록시 관리자 |  | N | N | N | Y |
+| 운영자 추가 |  | N | N | N | Y |
+| 운영자 제거 |  | N | N | N | Y |
+| 검증자 추가 |  | N | N | N | Y |
+| 검증자 제거 |  | N | N | N | Y |
 
-## Stark Perpetual
-
-| Parameter                              | Description | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
-| -------------------------------------- | ----------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
-| Add new asset                          |             | N                       | N                      | N                      | Y                  |
-| Change configuration of existing asset |             | N                       | N                      | N                      | Y                  |
-| Proxy admin                            |             | N                       | N                      | N                      | Y                  |
-| Add operator                           |             | N                       | N                      | N                      | Y                  |
-| Remove operator                        |             | N                       | N                      | N                      | Y                  |
-| Add verifier                           |             | N                       | N                      | N                      | Y                  |
-| Remove verifier                        |             | N                       | N                      | N                      | Y                  |
