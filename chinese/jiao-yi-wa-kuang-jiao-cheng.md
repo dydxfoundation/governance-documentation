@@ -38,7 +38,7 @@
 
 **一旦代币被认领，它们就可以用于 dYdX 治理。**
 
-**领取网站： **[**https://dydx.community/dashboard**](https://dydx.community/dashboard)
+**领取网站：** [**https://dydx.community/dashboard**](https://dydx.community/dashboard)
 
 ![](https://lh5.googleusercontent.com/Dnwc\_vMJQ\_F4odn3K8d68eE-\_gPRnaC7b6TXULfi5UyyAYif2lorM4FwgxDyhbeORYdfyKRddyHxRHY05Fy-ip6YU27ZBmzUv2IH-UTXYPgNfZjePxNmIs\_HGeFuVpQBxLi-ge00=s0)
 
@@ -86,7 +86,7 @@
 
 **支付费用是衡量交易者活动的重要指标，交易费用是由30天成交量加权的挂单-吃单手续费用以及可享受的手续费折扣确定。**
 
-**﻿挂单-吃单手续费计划：**
+﻿**挂单-吃单手续费计划：**
 
 [**https://help.dydx.exchange/en/articles/4798040-perpetual-trade-fees**](https://help.dydx.exchange/en/articles/4798040-perpetual-trade-fees)
 

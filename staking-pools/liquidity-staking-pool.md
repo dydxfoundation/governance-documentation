@@ -13,7 +13,7 @@ description: An overview of the Liquidity Staking Pool
 
 Start staking at [**dydx.community/dashboard/pools/liquidity**](https://dydx.community/dashboard/pools/liquidity)**.**
 
-## **Staking **Overview
+## **Staking** Overview
 
 Liquidity is a core component of any successful exchange. To promote liquidity network effects and incentivize professional liquidity providers, DYDX will be distributed to users who stake USDC to the liquidity staking pool. Community-approved liquidity providers will use the staked USDC to make markets on the dYdX Layer 2 Protocol, furthering the liquidity available across the markets. Liquidity providers are restricted from using borrowed funds outside of the dYdX Layer 2 Protocol.
 
@@ -83,7 +83,7 @@ A stkUSDC balance can be active or inactive. Active stkUSDC can be transferred a
 
 A staked balance for which the staker has requested a withdraw prior to the end of epoch would be considered inactive, and therefore not transferable.
 
-## **Stakers **FAQ
+## **Stakers** FAQ
 
 ### How do I earn staking rewards?
 

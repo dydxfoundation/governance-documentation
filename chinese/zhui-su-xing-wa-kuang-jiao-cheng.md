@@ -4,7 +4,7 @@
 
 **1、DYDX简介：**
 
-**DYDX是一种治理代币，它允许dYdX社区通过持有DYDX并启用提案治理功能，实现对dYdX 第2层协议共享治理和生态建设。DYDX将按照一定的奖励规则，奖励给dYdX的交易者、流动性提供者和合作伙伴，以期望共同努力实现增强的协议目标。DYDX 围绕治理、奖励和质押建立了一个强大的生态系统，一个都旨在推动dYdX的未来增长和去中心化，从而为用户带来更好的体验。 **\
+**DYDX是一种治理代币，它允许dYdX社区通过持有DYDX并启用提案治理功能，实现对dYdX 第2层协议共享治理和生态建设。DYDX将按照一定的奖励规则，奖励给dYdX的交易者、流动性提供者和合作伙伴，以期望共同努力实现增强的协议目标。DYDX 围绕治理、奖励和质押建立了一个强大的生态系统，一个都旨在推动dYdX的未来增长和去中心化，从而为用户带来更好的体验。** \
 ****
 
 **2、什么是追溯性挖矿：**
@@ -26,7 +26,7 @@
 
 **通过查询「dYdX L2协议-资产组合-Rewards- Retroactive Rewards Data」数据，进行追溯性挖矿额度的查询。**
 
-**查询网站链接：**[**https://trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)** **
+**查询网站链接：**[**https://trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) ****&#x20;
 
 ![图形用户界面
 
@@ -63,20 +63,20 @@
 
 * **追溯性挖矿奖励详情：**
 
-[**https://docs.dydx.community/dydx-governance/rewards/retroactive-mining-rewards**](https://docs.dydx.community/dydx-governance/rewards/retroactive-mining-rewards)** **
+[**https://docs.dydx.community/dydx-governance/rewards/retroactive-mining-rewards**](https://docs.dydx.community/dydx-governance/rewards/retroactive-mining-rewards) ****&#x20;
 
 * **追溯性挖矿奖励查询地址：**
 
-[**https://trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)** **
+[**https://trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) ****&#x20;
 
 * **追溯性挖矿奖励使用条款：**
 
-[**https://dydx.foundation/terms**](https://dydx.foundation/terms)** **
+[**https://dydx.foundation/terms**](https://dydx.foundation/terms) ****&#x20;
 
 * **dYdX交易地址：**
 
-[**https://trade.dydx.exchange/trade**](https://trade.dydx.exchange/trade)** **
+[**https://trade.dydx.exchange/trade**](https://trade.dydx.exchange/trade) ****&#x20;
 
 * **追溯性挖矿奖励领取地址：**
 
-[**https://dydx.community/dashboard**](https://dydx.community/dashboard)** **\
+[**https://dydx.community/dashboard**](https://dydx.community/dashboard) **** \

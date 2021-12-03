@@ -23,7 +23,7 @@ The Safety pool will go live upon DYDX becoming transferrable on September 8th, 
 
 ## Withdrawals
 
-Stakers must request to withdraw funds at least `14 days` **(Blackout Window) **before the end of the epoch in order to be able to withdraw funds after the end of that epoch. If stakers do not request to withdraw, their staked DYDX is rolled over into the next epoch.&#x20;
+Stakers must request to withdraw funds at least `14 days` **(Blackout Window)** before the end of the epoch in order to be able to withdraw funds after the end of that epoch. If stakers do not request to withdraw, their staked DYDX is rolled over into the next epoch.&#x20;
 
 ## Risks
 

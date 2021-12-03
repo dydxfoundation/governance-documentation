@@ -84,6 +84,6 @@
 **DYDX挖矿奖励领取地址：**[**https://dydx.community/dashboard/**](https://dydx.community/dashboard/)****\
 ****
 
-**交易挖矿分配数据地址： **[**Foundation Metrics**](http://metabase-1818188965.us-east-1.elb.amazonaws.com/public/dashboard/b3e36e1f-6860-4ecb-8f8b-96ca727f4609)****\
+**交易挖矿分配数据地址：** [**Foundation Metrics**](http://metabase-1818188965.us-east-1.elb.amazonaws.com/public/dashboard/b3e36e1f-6860-4ecb-8f8b-96ca727f4609)****\
 ****\
 ****

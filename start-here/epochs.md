@@ -9,7 +9,7 @@ All rewards and staking contracts operate on `28 days` cycles, referred to as **
 The following will occur at the end of each epoch:
 
 * **Trading Rewards** are distributed. Rewards are claimable at [**dydx.community**](https://dydx.community) approximately `7 days` after the end of the epoch.
-* **Liquidity Provider Rewards **are distributed. Rewards are claimable at [**dydx.community**](https://dydx.community) approximately `7 days` after the end of the epoch.
+* **Liquidity Provider Rewards** are distributed. Rewards are claimable at [**dydx.community**](https://dydx.community) approximately `7 days` after the end of the epoch.
 * Requested withdrawals for the **Liquidity Staking Pool** in the ended epoch may be withdrawn.
 * Requested withdrawals for the **Safety Staking Pool** in the ended epoch may be withdrawn.
 
@@ -97,8 +97,8 @@ The dYdX Foundation has created a public Google Calendar with start / end dates 
 * The [Retroactive Mining Rewards](../rewards/retroactive-mining-rewards.md) are now live on the Protocol. These rewards will run until **August 31th, 2021, 15:00:00 UTC**.
 * The [Trading Rewards ](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md)are now live on the Protocol. These rewards will run until **August 3rd, 2026, 15:00:00 UTC**.
 * The [Liquidity Provider Rewards](../rewards/liquidity-provider-rewards.md) is now live on the Protocol. These rewards will run until **August 3rd, 2026, 15:00:00 UTC**.
-* The [Liquidity Staking pool ](../staking-pools/liquidity-staking-pool.md)is now live on the Protocol. This pool will run until **August 2nd, 2026, at approximately 15:00:00 UTC **(exact timestamp: 1785682798).
-* The [Safety Staking pool](../staking-pools/safety-staking-pool.md) will automatically go live on the Protocol a few days after the end of epoch 0 when transfer restrictions are lifted. This pool will run until **September 7th, 2026, at approximately 15:00:00 UTC **(exact timestamp: 1788793198).
+* The [Liquidity Staking pool ](../staking-pools/liquidity-staking-pool.md)is now live on the Protocol. This pool will run until **August 2nd, 2026, at approximately 15:00:00 UTC** (exact timestamp: 1785682798).
+* The [Safety Staking pool](../staking-pools/safety-staking-pool.md) will automatically go live on the Protocol a few days after the end of epoch 0 when transfer restrictions are lifted. This pool will run until **September 7th, 2026, at approximately 15:00:00 UTC** (exact timestamp: 1788793198).
 
 ## Can dYdX governance modify the epoch schedule?
 

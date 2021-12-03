@@ -56,7 +56,7 @@ In the current epoch, users can see fees paid, average open interest, and estima
 
 ![Rewards info for the current epoch](<../.gitbook/assets/image (18).png>)
 
-Rewards from past epochs can be viewed at [**dydx.community/history/rewards**](https://dydx.community/history/rewards)** **(coming soon).
+Rewards from past epochs can be viewed at [**dydx.community/history/rewards**](https://dydx.community/history/rewards) **** (coming soon).
 
 ### How do I claim my Trading Rewards? When can I withdraw and transfer my earned DYDX?
 
