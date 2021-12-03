@@ -1,146 +1,191 @@
 ---
-description: Overview of governance parameters.
+description: Обзор параметров управления.
+
 ---
 
-# Parameters
+# Параметры
 
-**\[PARAMETERS PAGE IS UNDER DEVELOPMENT AND WILL BE UPDATED SOON]**
+**\[СТРАНИЦА ПАРАМЕТРОВ НАХОДИТСЯ В СТАДИИ РАЗРАБОТКИ И СКОРО БУДЕТ ОБНОВЛЕНА\]**
 
-At the time of launching governance, DYDX holders have immediate and irrevocable control over:
+При запуске управления владельцы DYDX сразу же получают не подлежащий отзыву контроль над следующим:
 
-* Allocation of the community treasury
-* New token listings on the Protocol
-* Risk parameters for the Protocol
-* Capital allocations to market makers in the liquidity staking pool
-* Addition of new market makers to the liquidity staking pool
-* Determining safety staking pool payouts in the event of a loss
-* Changing any of the rewards and pools existing at launch
-* The governance contracts themselves
+* Распределение казны сообщества
+* Листинги новых токенов в протоколе
+* Параметры риска для протокола
+* Распределение капитала между маркетмейкерами в пуле стейкинга ликвидности
+* Добавление новых маркетмейкеров в пул стейкинга ликвидности
+* Определение размера выплат за участие в пуле стейкинга безопасности в случае понесения убытков
+* Изменение любых наград и пулов, существующих на момент запуска
+* Сами договоры управления
 
-dYdX Governance has control over the parameters of the following contracts:
+Управление dYdX контролирует параметры следующих контрактов:
 
-* [Timelock](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/voting-and-governance-process/parameters.md#timelock-parameters)
-* Priority Timelock
-* Governor
-* DYDX Token
-* Treasury
-* Merkle Distributor
-* Liquidity Staking
-* Safety Module
+* [Блокировка по времени](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/voting-and-governance-process/parameters.md#timelock-parameters)
+* Управляющий
+* Токен DYDX
+* Казна
+* Дистрибьютор Меркла
+* Стейкинг ликвидности
+* Модуль безопасности
 * Stark Proxy
 * Stark Perpetual
 
-## Timelock Parameters
+## Параметры блокировки по времени
 
-![](<../.gitbook/assets/image (77).png>)
+![](../.gitbook/assets/image%20%2877%29.png)
 
-## Governor Parameters
+## Параметры управляющего
 
-| Parameter         | Description                                                                   | Value          |
-| ----------------- | ----------------------------------------------------------------------------- | -------------- |
-| Voting Delay      | Delay (in blocks) between proposal creation and voting on the proposal        | 6,570 blocks   |
-| Add Executor role | Address that can add new executors                                            | Short Timelock |
-| Owner role        | Can change strategy / voting delay / unauthorize executors + owns other roles | Long Timelock  |
-
-
-
-## DYDX Token
-
-| Parameter | Description                                 | Value          |
-| --------- | ------------------------------------------- | -------------- |
-| Owner     | Can mint DYDX tokens after mint restriction | Short Timelock |
-
-
-
-## Rewards Treasury Parameters
-
-| Parameter   | Description                                            | Value          |
-| ----------- | ------------------------------------------------------ | -------------- |
-| Owner       | Can approve or transfer any token held by the treasury | Short Timelock |
-| Proxy Admin | Can upgrade the contract                               | Short Timelock |
+| Параметр | Описание |  |
+| :--- | :--- | :--- |
+| Задержка голосования | Задержка \(в блоках\) между созданием предложения и голосованием по нему | 6570 блоков |
+| Администрирование добавления исполнителей | Адрес, который может добавлять новых исполнителей | Короткая блокировка по времени |
+| Владение | Изменение стратегии / задержка голосования / лишение исполнителей полномочий + другие полномочия | Длительная блокировка по времени |
 
 ##
 
-## Community Treasury Parameters
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Параметр</th>
+      <th style="text-align:left">Описание</th>
+      <th style="text-align:left">Исполнитель с правом на короткую блокировку по времени</th>
+      <th style="text-align:left">Исполнитель с правом на остановку дерева Меркла</th>
+      <th style="text-align:left">Исполнитель с правом на длительную блокировку по времени</th>
+      <th style="text-align:left">Исполнитель Starkware</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Задержка голосования</td>
+      <td style="text-align:left">Задержка (в блоках) между созданием предложения и голосованием по нему</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"></td>
+        <td style="text-align:left"></td>
+        <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Администрирование добавления исполнителей</td>
+      <td style="text-align:left">Добавление новых адресов в список авторизованных исполнителей</td>
+      <td style="text-align:left">Д</td>
+      <td style="text-align:left">Н</td>
+      <td style="text-align:left">Н</td>
+      <td style="text-align:left">Н</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Владение</td>
+      <td style="text-align:left">
+        <ul>
+          <li>Установление новой стратегии управления</li>
+          <li>Установление новой задержки голосования</li>
+          <li>Удаление адресов из списка авторизованных исполнителей</li>
+          <li>Другие полномочия</li>
+        </ul>
+      </td>
+      <td style="text-align:left">Н</td>
+      <td style="text-align:left">Н</td>
+      <td style="text-align:left">Д</td>
+      <td style="text-align:left">Н</td>
+    </tr>
+  </tbody>
+</table>
 
-| Parameter   | Description                                            | Value          |
-| ----------- | ------------------------------------------------------ | -------------- |
-| Owner       | Can approve or transfer any token held by the treasury | Short Timelock |
-| Proxy Admin | Can upgrade the contract                               | Short Timelock |
+## Вестинг казны
+
+| Параметр | Описание |  |
+| :--- | :--- | :--- |
+| Владение | Обновление белого списка; создание токенов | Короткая блокировка по времени |
+| Переводы ограничены до | Минимальная метка времени \(в секундах\), в течение которой разрешены переводы | 14 июля 15:00 по времени в формате UTC + 28 дней + 7 дней + 1 день |
+| MintMaxPercent | Максимальный процент токенов, который может создать их владелец \(после снятия ограничений на создание токенов\) | 2 |
+
+## Дистрибьютор Меркла
+
+| Параметр | Описание | Казна наград | Казна сообщества |
+| :--- | :--- | :--- | :--- |
+| Получатель | Адрес, получающий средства вестинга | Казна наград | Казна сообщества |
+| Средства вестинга + средства, большая часть которых предоставляется вначале | Количество токенов, которое будет немедленно отправлено + предоставлено получателю через определенный срок | 450 000 000 | 50 000 000 |
+| Средства вестинга | Количество токенов, которое будет предоставлено получателю через определенный срок | 374 616 438 | 50 000 000 |
+| Средства, большая часть которых предоставляется вначале | Количество токенов, которое будет немедленно отправлено получателю | 75 383 562 | 0 |
+| Начало вестинга | Время начала вестинга | 14 июля 15:00 по времени в формате UTC | 14 июля 15:00 по времени в формате UTC |
+| Порог вестинга | Время начала порога вестинга \(токены могут быть отправлены получателю фактически\) | 14 июля 15:00 по времени в формате UTC | 14 июля 15:00 по времени в формате UTC |
+| Завершение вестинга | Время завершения вестинга | 14 июля 15:00 UTC + 5 лет | 14 июля 15:00 UTC + 5 лет |
+| Администрирование доверенности казны | Повышение статуса контракта казны | Короткая блокировка по времени | Короткая блокировка по времени |
+| Администрирование средств казны | Расходование средств казны | Короткая блокировка по времени | Короткая блокировка по времени |
 
 ##
 
-## Merkle Distributor
+| Параметр | Описание | Исходные параметры казны наград | Исходные параметры казны сообщества | Исполнитель с правом на короткую блокировку по времени | Исполнитель с правом на остановку дерева Меркла | Исполнитель с правом на длительную блокировку по времени | Исполнитель Starkware |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Получатель | Адрес, получающий средства вестинга | Казна наград | Казна сообщества |  |  |  |  |
+| Средства вестинга + средства, большая часть которых предоставляется вначале | Количество токенов, которое будет немедленно отправлено + предоставлено получателю через определенный срок | 450 000 000 | 50 000 000 |  |  |  |  |
+| Средства вестинга | Количество токенов, которое будет предоставлено получателю через определенный срок | 374 616 438 | 50 000 000 |  |  |  |  |
+| Средства, большая часть которых предоставляется вначале | Количество токенов, которое будет немедленно отправлено получателю | 75 383 562 | 0 |  |  |  |  |
+| Начало вестинга | Время начала вестинга | 14 июля 15:00 по времени в формате UTC | 14 июля 15:00 по времени в формате UTC |  |  |  |  |
+| Порог вестинга | Время начала порога вестинга \(токены могут быть отправлены получателю фактически\) | 14 июля 15:00 по времени в формате UTC | 14 июля 15:00 по времени в формате UTC |  |  |  |  |
+| Завершение вестинга | Время завершения вестинга | 14 июля 15:00 UTC + 5 лет | 14 июля 15:00 UTC + 5 лет |  |  |  |  |
+| Администрирование доверенности казны | Повышение статуса контракта казны | Короткая блокировка по времени | Короткая блокировка по времени | Д |  |  |  |
+| Администрирование средств казны | Расходование средств казны | Короткая блокировка по времени | Короткая блокировка по времени | Д |  |  |  |
 
-| Parameter           | Description                                                                                                                    | Value                        |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------- |
-| Owner role          | Can update the rewards oracle address, update the IPNS name, and is admin of all roles                                         | Short Timelock               |
-| Config updater role | May set rewards parameters, change the epoch schedule, or change the IPFS update period                                        | Short Timelock               |
-| Pauser role         | Can pause updates to the merkle root                                                                                           | Merkle-pauser Timelock       |
-| Unpauser role       | Can unpause updates to the merkle root                                                                                         | Short Timelock               |
-| Claim operator role | May claim rewards on behalf of a user                                                                                          | Claims Proxy                 |
-| Interval            | Length of an epoch                                                                                                             | 28 days                      |
-| Offset              | Start of epoch zero                                                                                                            | August 3rd 15:00 UTC 2021    |
-| IPNS name           | IPNS name where rewards data is published                                                                                      | rewards-data.dydx.foundation |
-| IPFS update period  | Period of time after the epoch end after which the new epoch exchange statistics should be available on IPFS via the IPNS name | 3 minutes                    |
-| Proxy Admin         | Can upgrade the contract                                                                                                       | Short Timelock               |
+## Стейкинг ликвидности
 
-##
+|  |  |  |
+| :--- | :--- | :--- |
+| Начало эпохи ноль | Время начала эпохи ноль | 14 июля 15:00 по времени в формате UTC |
+| Продолжительность эпохи | Продолжительность каждой эпохи | 28 дней |
+| Период ожидания | Задержка между корнем предложения и корнем активации | 7 дней |
+| Награды для пользователей за торговлю за эпоху | Количество токенов, распределяемое между трейдерами за эпоху | 3 835 616 |
+| Награды для поставщиков ликвидности за торговлю за эпоху | Количество токенов, распределяемое между маркетмейкерами за эпоху | 1 150 685 |
+| Награды за ретроактивный майнинг за эпоху 0 | Количество токенов, распределяемое в качестве наград за ретроактивный майнинг | 75 000 000 |
+| Владение | Изменение параметров эпохи и оракула наград | Короткая блокировка по времени |
+| Приостановка | Приостановка обработки ожидающего корня \(до того как он станет активным\) | Блокировка дерева Меркла по времени |
+| Отмена приостановки | Отмена приостановки обработки ожидающего корня | Короткая блокировка по времени |
+| Оператор получения | Осуществление получения от лица других пользователей | Получение доверенности |
+| Администрирование доверенности | Повышение статуса контракта | Короткая блокировка по времени |
 
-## Liquidity Staking
+## Модуль безопасности
 
-| Parameter             | Description                                                                       | Value                                                               |
-| --------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| Owner role            | Admin of all roles                                                                | Short Timelock                                                      |
-| Epoch parameters role | May set epoch parameters such as the interval, offset, and blackout window        | Short Timelock                                                      |
-| Rewards rate role     | May set the emission rate of rewards                                              | Short Timelock                                                      |
-| Borrower admin role   | May set borrower allocations and allow/restrict borrowers from borrowing          | Short Timelock                                                      |
-| Claim operator role   | May claim rewards on behalf of a user                                             | Claims proxy                                                        |
-| Stake operator role   | May manipulate user's staked funds (e.g. perform withdrawals) on behalf of a user | Short Timelock                                                      |
-| Debt operator role    | May decrease borrow debt and decrease staker debt                                 | Short Timelock                                                      |
-| Interval              | Length of an epoch                                                                | 28 days                                                             |
-| Offset                | Start of epoch zero                                                               | August 3rd 15:00 UTC 2021                                           |
-| Blackout window       | Length of the blackout window                                                     | 14 days                                                             |
-| Rewards emission rate | Tokens allocated to stakers as rewards per second                                 | 0.1585489619 \* 10^18 (in wei)                                      |
-| Borrower allocations  | Percent of funds allocated to each borrower                                       | Wintermute 25%, Amber 25%, Sixtant 20%, Kronos 20%, DAT Trading 10% |
-| Proxy Admin           | Can upgrade the contract                                                          | Short Timelock                                                      |
-
-## Safety Module
-
-| Parameter             | Description                                                                       | Value                          |
-| --------------------- | --------------------------------------------------------------------------------- | ------------------------------ |
-| Owner role            | Admin of all roles                                                                | Short Timelock                 |
-| Slasher role          | Can slash staked token balances and withdraw those funds                          | Short Timelock                 |
-| Epoch parameters role | May set epoch parameters such as the interval, offset, and blackout window        | Short Timelock                 |
-| Rewards rate role     | May set the emission rate of rewards                                              | Short Timelock                 |
-| Claim operator role   | May claim rewards on behalf of a user                                             | Claims proxy                   |
-| Stake operator role   | May manipulate user's staked funds (e.g. perform withdrawals) on behalf of a user | Short Timelock                 |
-| Interval              | Length of an epoch                                                                | 28 days                        |
-| Offset                | Start of epoch zero                                                               | August 3rd 15:00 UTC 2021      |
-| Blackout window       | Length of the blackout window                                                     | 14 days                        |
-| Rewards emission rate | Tokens allocated to stakers as rewards per second                                 | 0.1585489619 \* 10^18 (in wei) |
-| Proxy Admin           | Can upgrade the contract                                                          | Long Timelock                  |
+| Параметр | Описание | Исходный параметр |
+| :--- | :--- | :--- |
+| Начало эпохи ноль | Время начала эпохи ноль | 14 июля 15:00 по времени в формате UTC |
+| Завершение распределения наград | Время, когда распределение наград между стейкерами завершается | 14 июля 15:00 UTC + 5 лет |
+| Продолжительность эпохи | Продолжительность каждой эпохи | 28 дней |
+| Продолжительность периода недоступности вывода средств из стейка | Время, в течение которого пользователи не могут выводить средства из стейка до окончания эпохи | 7 дней |
+| Минимальная продолжительность эпохи | Наименьшая допустимая продолжительность эпохи | 6 дней |
+| Максимальная продолжительность эпохи | Наибольшая допустимая продолжительность эпохи | 92 дня |
+| Минимальная продолжительность периода недоступности вывода средств из стейка | Наименьшая допустимая продолжительность периода, когда вывод средств из стейка недоступен | 3 дня |
+| Максимальная продолжительность периода недоступности вывода средств из стейка | Наибольшая допустимая продолжительность периода, когда вывод средств из стейка недоступен | 46 дней |
+| Количество наград в секунду | Токены, выдаваемые в качестве награды каждую секунду в период их распределения | 0,1585342262 = \(383 526 / \(28 \* 24 \* 60 \* 60\)\) |
+| Распределение средств заемщикам | Процент средств, выделяемых каждому заемщику | Будет определено позднее |
+| Владение | Администрирование всех нижеперечисленных полномочий | Короткая блокировка по времени |
+| Параметры эпохи | Настройка параметров эпохи | Короткая блокировка по времени |
+| Скорость распределения наград | Изменение скорости распределения наград | Короткая блокировка по времени |
+| Администрирование средств заемщиков | Изменение процесса распределения/ограничений в отношении средств заемщиков | Короткая блокировка по времени |
+| Оператор получения | Осуществление получения от лица других пользователей | Получение доверенности |
+| Оператор стейка | Размещение средств в стейке от имени других пользователей | Не распределено |
+| Оператор задолженности | Управление задолженностью | Не распределено |
+| Администрирование доверенности | Повышение статуса контракта | Короткая блокировка по времени |
 
 ## Stark Proxy
 
-| Parameter                | Description                                                                                                                                                                                                      | Value                  |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
-| Owner role               | Can add/remove recipients who receive funds + STARK keys, set ERC20 allowances on liquidity staking and stark perpetual contracts, call forced actions, and is admin of owner + delegation admin roles           | Market Maker           |
-| Delegation admin role    | Is admin of borrower, exchange operator, and withdrawal operator roles                                                                                                                                           | Market Maker           |
-| Borrower role            | May call borrow functions on the liquidity staking contract                                                                                                                                                      | Market Maker           |
-| Exchange operator role   | May call exchange functions on the stark perpetual contract                                                                                                                                                      | Market Maker           |
-| Withdrawal operator role | May withdraw funds in excess of the borrowed balance to an allowed recipient                                                                                                                                     | Market Maker           |
-| Guardian role            | May perform close actions, perform force actions if borrower has overdue debt, restrict open actions with borrowed funds, and approve a token amount to be withdrawn externally by the withdrawal operator role. | Short Timelock         |
-| Veto guardian role       | May veto forced trade requests initiated by the owner, during the waiting period                                                                                                                                 | Merkle-pauser timelock |
+| Параметр | Описание | Стейкинг ликвидности |  |
+| :--- | :--- | :--- | :--- |
+| Владение | Владение, администрирование средств и администрирование делегирования, а также добавление/удаление получателей средств и ключей STARK | Маркетмейкер |  |
+| Администрирование средств | Перевод любых средств, превышающих заемный остаток, допустимому получателю, а также вызов принудительный действий | Маркетмейкер |  |
+| Администрирование делегирования | Заем и обмен | Маркетмейкер |  |
+| Заем | Вызов функций займа на LS1 | Маркетмейкер |  |
+| Обмен | Выполнение функций обмена | Маркетмейкер |  |
+| Попечительство | Закрытие сделок и осуществление принудительных действий, если у заемщика есть просроченная задолженность | Короткая блокировка по времени |  |
 
 ## Stark Perpetual
 
-| Parameter                              | Description | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
-| -------------------------------------- | ----------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
-| Add new asset                          |             | N                       | N                      | N                      | Y                  |
-| Change configuration of existing asset |             | N                       | N                      | N                      | Y                  |
-| Proxy admin                            |             | N                       | N                      | N                      | Y                  |
-| Add operator                           |             | N                       | N                      | N                      | Y                  |
-| Remove operator                        |             | N                       | N                      | N                      | Y                  |
-| Add verifier                           |             | N                       | N                      | N                      | Y                  |
-| Remove verifier                        |             | N                       | N                      | N                      | Y                  |
+| Параметр | Описание | Исполнитель с правом на короткую блокировку по времени | Исполнитель с правом на остановку дерева Меркла | Исполнитель с правом на длительную блокировку по времени | Исполнитель Starkware |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Добавление новых активов |  | Н | Н | Н | Д |
+| Изменение конфигурации существующего актива |  | Н | Н | Н | Д |
+| Администрирование доверенности |  | Н | Н | Н | Д |
+| Добавление операторов |  | Н | Н | Н | Д |
+| Удаление операторов |  | Н | Н | Н | Д |
+| Добавление проверяющих пользователей |  | Н | Н | Н | Д |
+| Удаление проверяющих пользователей |  | Н | Н | Н | Д |
+
