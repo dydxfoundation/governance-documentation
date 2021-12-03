@@ -1,139 +1,262 @@
 ---
-description: An overview of the epoch system
+description: 에폭 시스템 개요
+
 ---
 
-# Epochs
+# 에폭
 
-All rewards and staking contracts operate on `28 days` cycles, referred to as **epochs**. A new epoch automatically begins when the current epoch ends.
+모든 보상 및 스테이킹 계약은 `28일`을 주기로 하며 이 주기를 **에폭**이라고 부릅니다. 현재 에폭이 종료되면 새로운 에폭이 자동으로 시작됩니다.
 
-The following will occur at the end of each epoch:
+각 에폭이 종료되면 다음이 진행됩니다.
 
-* **Trading Rewards** are distributed. Rewards are claimable at [**dydx.community**](https://dydx.community) approximately `7 days` after the end of the epoch.
-* **Liquidity Provider Rewards** are distributed. Rewards are claimable at [**dydx.community**](https://dydx.community) approximately `7 days` after the end of the epoch.
-* Requested withdrawals for the **Liquidity Staking Pool** in the ended epoch may be withdrawn.
-* Requested withdrawals for the **Safety Staking Pool** in the ended epoch may be withdrawn.
+* **거래 보상**이 배포됩니다. 보상은 에폭 종료로부터 약 `7일` 후 [**dydx.community**](https://dydx.community)에서 청구할 수 있습니다.
+* **유동성 공급자 보상**이 배포됩니다. 보상은 에폭 종료로부터 약 `7일` 후 [**dydx.community**](https://dydx.community)에서 청구할 수 있습니다.
+* 종료된 에폭에 **유동성 스테이킹 풀**에 대해 요청했던 인출을 실행할 수 있습니다.
+* 종료된 에폭에 **안전 스테이킹 풀** 대해 요청했던 인출을 실행할 수 있습니다.
 
-The following will occur only at the end of **Epoch 0**:
+**에폭 0**의 종료 시에만 다음이 진행됩니다.
 
-* Retroactive Mining Rewards will be distributed. Rewards are claimable at [**dydx.community**](https://dydx.community) approximately `8 days` after the end of Epoch 0.&#x20;
-* Transfers of DYDX are initially restricted. The Initial Transfer Restriction period will be lifted approximately `8 days` after the end of Epoch 0.&#x20;
-* **DYDX will become transferable on September 8th, 2021 at 15:00:00 UTC.**
+* 소급 채굴 보상이 배포됩니다. 보상은 에폭 0 종료로부터 약 `8일` 후 [**dydx.community**](https://dydx.community)에서 클레임할 수 있습니다.
+* 초기에는 DYDX 양도가 제한됩니다. 초기 양도 제한 기간은 에폭 0의 종료로부터 약 `8일` 후에 해제됩니다.
+* **DYDX는 2021년 9월 8일 15:00:00(UTC)부터 양도가 가능합니다.**
 
-**Epoch 0** will go live on **August 3rd, 2021 at 15:00:00 UTC**. The following table outlines epoch start and end dates (which can be modified by dYdX governance):
+**에폭 0**은 **2021년 8월 3일 15:00:00(UTC)**에 시작됩니다. 다음 표에는 에폭 시작일 및 종료일이 기재되어 있습니다\(dYdX 거버넌스에 의해 수정 가능\).
 
-| Epoch | Start Date (UTC)    | End Date (UTC)      | Days | Cumulative Years |
-| ----- | ------------------- | ------------------- | ---- | ---------------- |
-| 0     | 8/3/2021 15:00:00   | 8/31/2021 15:00:00  | 28   | 0.08             |
-| 1     | 8/31/2021 15:00:00  | 9/28/2021 15:00:00  | 28   | 0.15             |
-| 2     | 9/28/2021 15:00:00  | 10/26/2021 15:00:00 | 28   | 0.23             |
-| 3     | 10/26/2021 15:00:00 | 11/23/2021 15:00:00 | 28   | 0.31             |
-| 4     | 11/23/2021 15:00:00 | 12/21/2021 15:00:00 | 28   | 0.38             |
-| 5     | 12/21/2021 15:00:00 | 1/18/2022 15:00:00  | 28   | 0.46             |
-| 6     | 1/18/2022 15:00:00  | 2/15/2022 15:00:00  | 28   | 0.54             |
-| 7     | 2/15/2022 15:00:00  | 3/15/2022 15:00:00  | 28   | 0.61             |
-| 8     | 3/15/2022 15:00:00  | 4/12/2022 15:00:00  | 28   | 0.69             |
-| 9     | 4/12/2022 15:00:00  | 5/10/2022 15:00:00  | 28   | 0.77             |
-| 10    | 5/10/2022 15:00:00  | 6/7/2022 15:00:00   | 28   | 0.84             |
-| 11    | 6/7/2022 15:00:00   | 7/5/2022 15:00:00   | 28   | 0.92             |
-| 12    | 7/5/2022 15:00:00   | 8/2/2022 15:00:00   | 28   | 1.00             |
-| 13    | 8/2/2022 15:00:00   | 8/30/2022 15:00:00  | 28   | 1.07             |
-| 14    | 8/30/2022 15:00:00  | 9/27/2022 15:00:00  | 28   | 1.15             |
-| 15    | 9/27/2022 15:00:00  | 10/25/2022 15:00:00 | 28   | 1.23             |
-| 16    | 10/25/2022 15:00:00 | 11/22/2022 15:00:00 | 28   | 1.30             |
-| 17    | 11/22/2022 15:00:00 | 12/20/2022 15:00:00 | 28   | 1.38             |
-| 18    | 12/20/2022 15:00:00 | 1/17/2023 15:00:00  | 28   | 1.46             |
-| 19    | 1/17/2023 15:00:00  | 2/14/2023 15:00:00  | 28   | 1.53             |
-| 20    | 2/14/2023 15:00:00  | 3/14/2023 15:00:00  | 28   | 1.61             |
-| 21    | 3/14/2023 15:00:00  | 4/11/2023 15:00:00  | 28   | 1.69             |
-| 22    | 4/11/2023 15:00:00  | 5/9/2023 15:00:00   | 28   | 1.76             |
-| 23    | 5/9/2023 15:00:00   | 6/6/2023 15:00:00   | 28   | 1.84             |
-| 24    | 6/6/2023 15:00:00   | 7/4/2023 15:00:00   | 28   | 1.92             |
-| 25    | 7/4/2023 15:00:00   | 8/1/2023 15:00:00   | 28   | 1.99             |
-| 26    | 8/1/2023 15:00:00   | 8/29/2023 15:00:00  | 28   | 2.07             |
-| 27    | 8/29/2023 15:00:00  | 9/26/2023 15:00:00  | 28   | 2.15             |
-| 28    | 9/26/2023 15:00:00  | 10/24/2023 15:00:00 | 28   | 2.22             |
-| 29    | 10/24/2023 15:00:00 | 11/21/2023 15:00:00 | 28   | 2.30             |
-| 30    | 11/21/2023 15:00:00 | 12/19/2023 15:00:00 | 28   | 2.38             |
-| 31    | 12/19/2023 15:00:00 | 1/16/2024 15:00:00  | 28   | 2.45             |
-| 32    | 1/16/2024 15:00:00  | 2/13/2024 15:00:00  | 28   | 2.53             |
-| 33    | 2/13/2024 15:00:00  | 3/12/2024 15:00:00  | 28   | 2.61             |
-| 34    | 3/12/2024 15:00:00  | 4/9/2024 15:00:00   | 28   | 2.68             |
-| 35    | 4/9/2024 15:00:00   | 5/7/2024 15:00:00   | 28   | 2.76             |
-| 36    | 5/7/2024 15:00:00   | 6/4/2024 15:00:00   | 28   | 2.84             |
-| 37    | 6/4/2024 15:00:00   | 7/2/2024 15:00:00   | 28   | 2.92             |
-| 38    | 7/2/2024 15:00:00   | 7/30/2024 15:00:00  | 28   | 2.99             |
-| 39    | 7/30/2024 15:00:00  | 8/27/2024 15:00:00  | 28   | 3.07             |
-| 40    | 8/27/2024 15:00:00  | 9/24/2024 15:00:00  | 28   | 3.15             |
-| 41    | 9/24/2024 15:00:00  | 10/22/2024 15:00:00 | 28   | 3.22             |
-| 42    | 10/22/2024 15:00:00 | 11/19/2024 15:00:00 | 28   | 3.30             |
-| 43    | 11/19/2024 15:00:00 | 12/17/2024 15:00:00 | 28   | 3.38             |
-| 44    | 12/17/2024 15:00:00 | 1/14/2025 15:00:00  | 28   | 3.45             |
-| 45    | 1/14/2025 15:00:00  | 2/11/2025 15:00:00  | 28   | 3.53             |
-| 46    | 2/11/2025 15:00:00  | 3/11/2025 15:00:00  | 28   | 3.61             |
-| 47    | 3/11/2025 15:00:00  | 4/8/2025 15:00:00   | 28   | 3.68             |
-| 48    | 4/8/2025 15:00:00   | 5/6/2025 15:00:00   | 28   | 3.76             |
-| 49    | 5/6/2025 15:00:00   | 6/3/2025 15:00:00   | 28   | 3.84             |
-| 50    | 6/3/2025 15:00:00   | 7/1/2025 15:00:00   | 28   | 3.91             |
-| 51    | 7/1/2025 15:00:00   | 7/29/2025 15:00:00  | 28   | 3.99             |
-| 52    | 7/29/2025 15:00:00  | 8/26/2025 15:00:00  | 28   | 4.07             |
-| 53    | 8/26/2025 15:00:00  | 9/23/2025 15:00:00  | 28   | 4.14             |
-| 54    | 9/23/2025 15:00:00  | 10/21/2025 15:00:00 | 28   | 4.22             |
-| 55    | 10/21/2025 15:00:00 | 11/18/2025 15:00:00 | 28   | 4.30             |
-| 56    | 11/18/2025 15:00:00 | 12/16/2025 15:00:00 | 28   | 4.37             |
-| 57    | 12/16/2025 15:00:00 | 1/13/2026 15:00:00  | 28   | 4.45             |
-| 58    | 1/13/2026 15:00:00  | 2/10/2026 15:00:00  | 28   | 4.53             |
-| 59    | 2/10/2026 15:00:00  | 3/10/2026 15:00:00  | 28   | 4.60             |
-| 60    | 3/10/2026 15:00:00  | 4/7/2026 15:00:00   | 28   | 4.68             |
-| 61    | 4/7/2026 15:00:00   | 5/5/2026 15:00:00   | 28   | 4.76             |
-| 62    | 5/5/2026 15:00:00   | 6/2/2026 15:00:00   | 28   | 4.83             |
-| 63    | 6/2/2026 15:00:00   | 6/30/2026 15:00:00  | 28   | 4.91             |
-| 64    | 6/30/2026 15:00:00  | 7/28/2026 15:00:00  | 28   | 4.99             |
-| 65    | 7/28/2026 15:00:00  | 8/25/2026 15:00:00  | 28   | 5.06             |
+| 에폭 | 시작일\(UTC\) | 종료일\(UTC\) | 일 | 누적 연수 |
+| :--- | :--- | :--- | :--- | :--- |
+| 0 | 2021년 8월 3일 15:00:00 | 2021년 8월 31일 15:00:00 | 28 | 0.08 |
+| 1 | 2021년 8월 31일 15:00:00 | 2021년 9월 28일 15:00:00 | 28 | 0.15 |
+| 2 | 2021년 9월 28일 15:00:00 | 2021년 10월 26일 15:00:00
+ | 28 | 0.23 |
+| 3 | 2021년 10월 26일 15:00:00
+ | 2021년 11월 23일 15:00:00
+ | 28 | 0.31 |
+| 4 | 2021년 11월 23일 15:00:00
+ | 2021년 12월 21일 15:00:00
+ | 28 | 0.38 |
+| 5 | 2021년 12월 21일 15:00:00
+ | 2022년 1월 18일 15:00:00
+ | 28 | 0.46 |
+| 6 | 2022년 1월 18일 15:00:00
+ | 2022년 2월 15일 15:00:00
+ | 28 | 0.54 |
+| 7 | 2022년 2월 15일 15:00:00
+ | 2022년 3월 15일 15:00:00
+ | 28 | 0.61 |
+| 8 | 2022년 3월 15일 15:00:00
+ | 2022년 4월 12일 15:00:00
+ | 28 | 0.69 |
+| 9 | 2022년 4월 12일 15:00:00
+ | 2022년 5월 10일 15:00:00
+ | 28 | 0.77 |
+| 10 | 2022년 5월 10일 15:00:00
+ | 2022년 6월 7일 15:00:00
+ | 28 | 0.84 |
+| 11 | 2022년 6월 7일 15:00:00
+ | 2022년 7월 5일 15:00:00
+ | 28 | 0.92 |
+| 12 | 2022년 7월 5일 15:00:00
+ | 2022년 8월 2일 15:00:00
+ | 28 | 1.00 |
+| 13 | 2022년 8월 2일 15:00:00
+ | 2022년 8월 30일 15:00:00
+ | 28 | 1.07 |
+| 14 | 2022년 8월 30일 15:00:00
+ | 2022년 9월 27일 15:00:00
+ | 28 | 1.15 |
+| 15 | 2022년 9월 27일 15:00:00
+ | 2022년 10월 25일 15:00:00
+ | 28 | 1.23 |
+| 16 | 2022년 10월 25일 15:00:00
+ | 2022년 11월 22일 15:00:00
+ | 28 | 1.30 |
+| 17 | 2022년 11월 22일 15:00:00
+ | 2022년 12월 20일 15:00:00
+ | 28 | 1.38 |
+| 18 | 2022년 12월 20일 15:00:00
+ | 2023년 1월 17일 15:00:00
+ | 28 | 1.46 |
+| 19 | 2023년 1월 17일 15:00:00
+ | 2023년 2월 14일 15:00:00
+ | 28 | 1.53 |
+| 20 | 2023년 2월 14일 15:00:00
+ | 2023년 3월 14일 15:00:00
+ | 28 | 1.61 |
+| 21 | 2023년 3월 14일 15:00:00
+ | 2023년 4월 11일 15:00:00
+ | 28 | 1.69 |
+| 22 | 2023년 4월 11일 15:00:00
+ | 2023년 5월 9일 15:00:00
+ | 28 | 1.76 |
+| 23 | 2023년 5월 9일 15:00:00
+ | 2023년 6월 6일 15:00:00
+ | 28 | 1.84 |
+| 24 | 2023년 6월 6일 15:00:00
+ | 2023년 7월 4일 15:00:00
+ | 28 | 1.92 |
+| 25 | 2023년 7월 4일 15:00:00
+ | 2023년 8월 1일 15:00:00
+ | 28 | 1.99 |
+| 26 | 2023년 8월 1일 15:00:00
+ | 2023년 8월 29일 15:00:00
+ | 28 | 2.07 |
+| 27 | 2023년 8월 29일 15:00:00
+ | 2023년 9월 26일 15:00:00
+ | 28 | 2.15 |
+| 28 | 2023년 9월 26일 15:00:00
+ | 2023년 10월 24일 15:00:00
+ | 28 | 2.22 |
+| 29 | 2023년 10월 24일 15:00:00
+ | 2023년 11월 21일 15:00:00
+ | 28 | 2.30 |
+| 30 | 2023년 11월 21일 15:00:00
+ | 2023년 12월 19일 15:00:00
+ | 28 | 2.38 |
+| 31 | 2023년 12월 19일 15:00:00
+ | 2024년 1월 16일 15:00:00
+ | 28 | 2.45 |
+| 32 | 2024년 1월 16일 15:00:00
+ | 2024년 2월 13일 15:00:00
+ | 28 | 2.53 |
+| 33 | 2024년 2월 13일 15:00:00
+ | 2024년 3월 12일 15:00:00
+ | 28 | 2.61 |
+| 34 | 2024년 3월 12일 15:00:00
+ | 2024년 4월 9일 15:00:00
+ | 28 | 2.68 |
+| 35 | 2024년 4월 9일 15:00:00
+ | 2024년 5월 7일 15:00:00
+ | 28 | 2.76 |
+| 36 | 2024년 5월 7일 15:00:00
+ | 6/4/2024 15:00 | 28 | 2.84 |
+| 37 | 6/4/2024 15:00 | 2024년 7월 2일 15:00:00
+ | 28 | 2.92 |
+| 38 | 2024년 7월 2일 15:00:00
+ | 2024년 7월 30일 15:00:00
+ | 28 | 2.99 |
+| 39 | 2024년 7월 30일 15:00:00
+ | 2024년 8월 27일 15:00:00
+ | 28 | 3.07 |
+| 40 | 2024년 8월 27일 15:00:00
+ | 2024년 9월 24일 15:00:00
+ | 28 | 3.15 |
+| 41 | 2024년 9월 24일 15:00:00
+ | 2024년 10월 22일 15:00:00
+ | 28 | 3.22 |
+| 42 | 2024년 10월 22일 15:00:00
+ | 2024년 11월 19일 15:00:00
+ | 28 | 3.30 |
+| 43 | 2024년 11월 19일 15:00:00
+ | 2024년 12월 17일 15:00:00
+ | 28 | 3.38 |
+| 44 | 2024년 12월 17일 15:00:00
+ | 2025년 1월 14일 15:00:00
+ | 28 | 3.45 |
+| 45 | 2025년 1월 14일 15:00:00
+ | 2025년 2월 11일 15:00:00
+ | 28 | 3.53 |
+| 46 | 2025년 2월 11일 15:00:00
+ | 2025년 3월 11일 15:00:00
+ | 28 | 3.61 |
+| 47 | 2025년 3월 11일 15:00:00
+ | 2025년 4월 8일 15:00:00
+ | 28 | 3.68 |
+| 48 | 2025년 4월 8일 15:00:00
+ | 2025년 5월 6일 15:00:00
+ | 28 | 3.76 |
+| 49 | 2025년 5월 6일 15:00:00
+ | 2025년 6월 3일 15:00:00
+ | 28 | 3.84 |
+| 50 | 2025년 6월 3일 15:00:00
+ | 2025년 7월 1일 15:00:00
+ | 28 | 3.91 |
+| 51 | 2025년 7월 1일 15:00:00
+ | 2025년 7월 29일 15:00:00
+ | 28 | 3.99 |
+| 52 | 2025년 7월 29일 15:00:00
+ | 2025년 8월 26일 15:00:00
+ | 28 | 4.07 |
+| 53 | 2025년 8월 26일 15:00:00
+ | 2025년 9월 23일 15:00:00
+ | 28 | 4.14 |
+| 54 | 2025년 9월 23일 15:00:00
+ | 2025년 10월 21일 15:00:00
+ | 28 | 4.22 |
+| 55 | 2025년 10월 21일 15:00:00
+ | 2025년 11월 18일 15:00:00
+ | 28 | 4.30 |
+| 56 | 2025년 11월 18일 15:00:00
+ | 2025년 12월 16일 15:00:00
+ | 28 | 4.37 |
+| 57 | 2025년 12월 16일 15:00:00
+ | 2026년 1월 13일 15:00:00
+ | 28 | 4.45 |
+| 58 | 2026년 1월 13일 15:00:00
+ | 2026년 2월 10일 15:00:00
+ | 28 | 4.53 |
+| 59 | 2026년 2월 10일 15:00:00
+ | 2026년 3월 10일 15:00:00
+ | 28 | 4.60 |
+| 60 | 2026년 3월 10일 15:00:00
+ | 2026년 4월 7일 15:00:00
+ | 28 | 4.68 |
+| 61 | 2026년 4월 7일 15:00:00
+ | 2026년 5월 5일 15:00:00
+ | 28 | 4.76 |
+| 62 | 2026년 5월 5일 15:00:00
+ | 2026년 6월 2일 15:00:00
+ | 28 | 4.83 |
+| 63 | 2026년 6월 2일 15:00:00
+ | 6/30/2026 15:00 | 28 | 4.91 |
+| 64 | 6/30/2026 15:00 | 2026년 7월 28일 15:00:00
+ | 28 | 4.99 |
+| 65 | 2026년 7월 28일 15:00:00
+ | 2026년 8월 25일 15:00:00
+ | 28 | 5.06 |
 
-The dYdX Foundation has created a public Google Calendar with start / end dates for Epochs and Blackout Windows - you can subscribe [**here**](https://calendar.google.com/calendar/u/3?cid=Y19wZjIwYzBoZzQ3dTR2cHRja283NDl1ajQyb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
+## **보상 및 스테이킹 풀은 언제 활성화됩니까?**
 
-## **When will the rewards and staking pools be activated?**
+* [소급 채굴 보상](../rewards/retroactive-mining-rewards.md)이 프로토콜에서 진행 중입니다. 해당 보상은 **2021년 8월 31일 15:00:00(UTC)**까지 진행됩니다.
+* [거래 보상](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md)이 프로토콜에서 진행 중입니다. 해당 보상은 **2026년 8월 3일 15:00:00(UTC)**까지 진행됩니다.
+* [유동성 공급자 보상](../rewards/liquidity-provider-rewards.md)이 프로토콜에서 진행 중입니다. 해당 보상은 **2026년 8월 3일 15:00:00(UTC)**까지 진행됩니다.
+* [유동성 스테이킹 풀](../staking-pools/liquidity-staking-pool.md)이 현재 프로토콜에서 운영되고 있습니다. 해당 풀은 **2026년 8월 2일 약 15:00:00(UTC)**\(정확한 타임스탬프: 1785682798)까지 운영됩니다.
+* [안전 스테이킹 풀](../staking-pools/safety-staking-pool.md)은 에폭 0이 종료된 후 며칠 뒤 양도 제한이 해제될 때 프로토콜에서 자동으로 활성화됩니다. 해당 풀은 **2026년 9월 7일 약 15:00:00(UTC)**\(정확한 타임스탬프: 1788793198\)까지 운영됩니다.
 
-* The [Retroactive Mining Rewards](../rewards/retroactive-mining-rewards.md) are now live on the Protocol. These rewards will run until **August 31th, 2021, 15:00:00 UTC**.
-* The [Trading Rewards ](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md)are now live on the Protocol. These rewards will run until **August 3rd, 2026, 15:00:00 UTC**.
-* The [Liquidity Provider Rewards](../rewards/liquidity-provider-rewards.md) is now live on the Protocol. These rewards will run until **August 3rd, 2026, 15:00:00 UTC**.
-* The [Liquidity Staking pool ](../staking-pools/liquidity-staking-pool.md)is now live on the Protocol. This pool will run until **August 2nd, 2026, at approximately 15:00:00 UTC** (exact timestamp: 1785682798).
-* The [Safety Staking pool](../staking-pools/safety-staking-pool.md) will automatically go live on the Protocol a few days after the end of epoch 0 when transfer restrictions are lifted. This pool will run until **September 7th, 2026, at approximately 15:00:00 UTC** (exact timestamp: 1788793198).
+## dYdX 거버넌스가 에폭 일정을 수정할 수 있습니까?
 
-## Can dYdX governance modify the epoch schedule?
+초기 에폭 길이는 `28일`입니다. dYdX 거버넌스는 지정된 범위 내에서 에폭 길이를 수정하기 위해 투표할 수 있습니다. 최소 및 최대 에폭 길이는 각각 `6일`과 `92`일입니다.
 
-The initial epoch length is `28 days`. dYdX governance can vote to modify epoch lengths, within the specified bounds. The minimum and maximum epoch lengths are `6 days` and `92 days`, respectively.
+## 블랙아웃 기간이란 무엇입니까?
 
-## What is the Blackout Window?
+[유동성 스테이킹 풀](../staking-pools/liquidity-staking-pool.md) 및 [안전 스테이킹 풀](../staking-pools/safety-staking-pool.md)의 경우, 풀 내 자금의 가용성에 대해 예측 가능성과 규칙적 주기성을 제공하기 위해 인출에 에폭 일정이 적용됩니다. 스테이커는 해당 에폭이 끝난 후 자금 인출이 가능하도록 블랙아웃 기간 전에 자금의 스테이킹 해제를 요청해야 합니다. 스테이커가 인출을 요청하지 않으면 스테이킹된 자금은 다음 에폭으로 이월됩니다.
 
-For the [Liquidity Staking Pool](../staking-pools/liquidity-staking-pool.md) and the [Safety Staking Pool](../staking-pools/safety-staking-pool.md), an epoch schedule is enforced for withdrawals in order to provide predictability and a regular cadence for the availability of funds in the pool. A staker must request to unstake funds before the blackout window in order to be able to withdraw the staker's funds after the end of that epoch. If a staker does not request to withdraw, then the staker's staked funds are rolled over into the next epoch.
+유동성 스테이킹 풀 및 안전 풀에 대한 권장 블랙아웃 기간은 각 `14일`입니다. dYdX 거버넌스는 지정된 범위 내에서 블랙아웃 기간을 수정하기 위해 투표할 수 있습니다. 최소 및 최대 블랙아웃 기간은 각각 `3일`과 `46일`입니다.
 
-The recommended blackout window for each of the Liquidity Staking Pool and the Safety Pool is `14 days`. dYdX governance can vote to modify the blackout window, within the specified bounds. The minimum and maximum blackout windows are `3 days` and `46 days`, respectively.
+## 획득한 DYDX를 언제 인출하고 양도할 수 있습니까?
 
-## When can I withdraw and transfer my earned DYDX Rewards?
+[소급 채굴 보상](../rewards/retroactive-mining-rewards.md), [거래 보상](../rewards/trading-rewards.md) 및 [유동성 공급자 보상](../rewards/liquidity-provider-rewards.md)을 통해 획득한 DYDX 토큰은 각 에폭 종료 시점에 양도가 가능합니다. DYDX 보유자가 토큰을 클레임하려면 에폭이 종료되고 약 `7일`(**대기 기간**\)을 기다려야 합니다. 토큰이 청구되면 dYdX 거버넌스로 양도 및 위임이 가능합니다.
 
-Earned DYDX tokens via the [Retroactive Mining Rewards](../rewards/retroactive-mining-rewards.md), [Trading Rewards](../rewards/trading-rewards.md), and [Liquidity Provider Rewards](../rewards/liquidity-provider-rewards.md) are transferable at the end of each epoch. DYDX holders are required to wait approximately `7 days` (**Waiting Period**) after the end of the epoch to claim their tokens. Once tokens have been claimed, they can be transferred or delegated to dYdX governance.
+유동성 스테이킹 풀 및 안전 스테이킹 풀을 통해 취득한 DYDX 토큰은 블록마다 클레임이 가능하며 주어진 에폭 동안 언제든지 인출할 수 있습니다.
 
-Earned DYDX tokens via the Liquidity Staking pool and the Safety Staking pool are claimable every block and can be withdrawn at any time during a given epoch.
+에폭 0 종료로부터 8일 뒤인 **2021년 9월 8일 15:00:00(UTC)**에 초기 양도 제한이 자동으로 해제되며 이 시점에서 DYDX 공급량의 약 **8.11%**가 유동화됩니다.
 
-On **September 8th, 2021 at 15:00:00 UTC**, 8 days after the end of Epoch 0, the initial transfer restrictions will be automatically lifted, at which point approximately **8.11%** of the DYDX supply will become liquid.
+## 대기 기간의 목적은 무엇입니까? 각 에폭 종료 시 보상은 어떻게 저장됩니까?
 
-## What is the purpose of the Waiting Period? How are rewards stored at the end of every epoch?
+[소급 채굴 보상](../rewards/retroactive-mining-rewards.md), [거래 보상](../rewards/trading-rewards.md) 및 [유동성 공급자 보상](../rewards/liquidity-provider-rewards.md)은 머클 트리에 저장되며, 여기에는 배포 프로그램 시작 이후 각 사용자가 획득한 보상이 누적되어 있습니다.
 
-[Retroactive Mining Rewards](../rewards/retroactive-mining-rewards.md), [Trading Rewards](../rewards/trading-rewards.md), and [Liquidity Provider Rewards](../rewards/liquidity-provider-rewards.md) are stored in a Merkle tree, which contains the cumulative rewards earned by each user since the start of the distribution program.
+각 에폭이 종료되면, 머클 루트는 `MerkleDistributorV1` 스마트 컨트랙트의 체인링크 오라클 시스템을 통해 업데이트되어 지난 에폭에서 획득한 보상을 반영합니다. 업데이트는 제안된 머클 루트를 오라클 계약에 의해 반환되는 최신 값으로 설정하여 수행됩니다. 제안된 머클 루트는 `7일`의 **대기 기간이** 경과된 후 활성화됩니다. 대기 기간 동안 dYdX 거버넌스는 제안된 머클 루트가 정확하지 않거나 악성으로 판별될 경우 머클 루트를 동결할 수 있습니다. 머클 루트가 동결되지 않으면 새로운 머클 루트가 활성화되며 사용자는 과거 에폭에 대한 보상을 클레임할 수 있습니다.
 
-At the end of each epoch, the Merkle root is updated via the ChainLink oracle system on the `MerkleDistributorV1` smart contract to reflect rewards earned in the last epoch. An update is performed by setting the proposed Merkle root to the latest value returned by the oracle contract. The proposed Merkle root can be made active after a **Waiting Period** of `7 days` has elapsed. During the waiting period, dYdX governance has the opportunity to freeze the Merkle root, in case the proposed root is incorrect or malicious. If the Merkle root is not frozen, the new Merkle root is activated and users can claim their rewards from the past epoch.
+에폭이 변경될 때마다 다음의 단계가 순서대로 진행됩니다.
 
-Each time the epoch changes, the following occurs in order:
+* 에폭이 종료되면 마지막 에폭의 모든 사용자 활동에 대한 보상 데이터를 계산합니다.
+* 해당 데이터는 고정 IPNS 이름으로 저장된 IPFS 상의 데이터 구조에 추가됩니다.
+* 마찬가지로 에폭의 변동을 알리는 체인링크 오라클 시스템은 알려진 IPNS 이름을 사용하여 최신 보상 데이터를 쿼리합니다.
+* 각 오라클 서명자는 해당 보상 데이터를 사용하여 각 사용자에 대한 신규 획득 보상을 계산합니다.
+* 각 오라클 서명자는 새로운 누적 머클 트리 및 머클 루트를 계산합니다.
+* 각 오라클 서명자는 IPFS에 머클 트리 데이터를 작성하여 IPFS CID를 받습니다. \(해당 서명자는 동일한 트리를 계산하고 그에 따라 동일한 CID를 받아야 합니다. \)
+* 오라클 서명자가 동일한 값에 동의할 경우 새로운 머클 루트, IPFS CID 및 에폭 숫자로 RewardsOracle이 업데이트됩니다.
+* 오라클 서명자\(또는 제3자\)는 제안된 머클 루트를 새로운 오라클 값으로 설정하기 위해 공공 함수인 `DistributorV1.profeRoot()`를 호출합니다.
+* 대기 기간이 발생하며, 이 기간 동안 거버넌스는 제안된 머클 루트의 시행을 방지하기 위해 `MerkleDistributorV1.pauseRootUpdates()`를 호출할 수 있습니다.
+* 대기 기간이 종료된 후, 오라클 서명자\(또는 제3자\)는 공공 함수 `MerkleDistributorV1.updateRoot()`를 호출하여 제안된 머클 루트를 활성화할 수 있습니다.
+* 새로운 머클 루트가 활성화되면 사용자는 마지막 에폭에 대한 보상을 클레임할 수 있습니다.
 
-* When an epoch ends, rewards data is calculated for all user activity from the last epoch.
-* This data is added to a data structure on IPFS, stored under a fixed IPNS name.
-* The ChainLink oracle system, also noticing the change in epoch, queries the latest rewards data using the known IPNS name.
-* Each oracle signer uses this rewards data to calculate newly earned rewards for each user.
-* Each oracle signer computes the new cumulative Merkle tree and Merkle root.
-* Each oracle signer writes the Merkle tree data to IPFS, receiving an IPFS CID. (They should have calculated the same tree and should therefore receive the same CID.)
-* If the oracle signers agree on the same values, then the RewardsOracle is updated with the new Merkle root, IPFS CID, and epoch number.
-* An oracle signer (or a third party) calls the public function `MerkleDistributorV1.proposeRoot()` to set the proposed Merkle root to the new oracle value.
-* A waiting period takes place, during which governance can call `MerkleDistributorV1.pauseRootUpdates()` to prevent the proposed Merkle root from taking effect.
-* After the waiting period, an oracle signer (or a third party) calls the public function `MerkleDistributorV1.updateRoot()` causing the proposed Merkle root to become active.
-* Once the new Merkle root is active, users are able to claim rewards from the last epoch.
