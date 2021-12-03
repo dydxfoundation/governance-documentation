@@ -1,127 +1,127 @@
 ---
-description: Overview of the dYdX Improvement Proposal (DIP) lifecycle.
+description: dYdX改善提案（DIP）ライフサイクルの概要
+
 ---
 
-# Proposal Lifecycle
+# 提案ライフサイクル
 
-## **Proposal Stages**
+## **提案ステージ**
 
-The dYdX Governance Process is fueled by governance forums at [**forums.dydx.community**](https://forums.dydx.community) and ratified through dYdX Improvement Proposal (“DIPs”).
+dYdXガバナンスプロセスは、[**forums.dydx.community**](https://forums.dydx.community/)のガバナンスフォーラムによって推進され、dYdX改善提案 \(「DIP」\)を通じて承認されます。
 
-Below we outline a preliminary draft explaining how the dYdX governance process will flow, from the inception and definition of the concept to the actual implementation. These processes are subject to change according to feedback from the DYDX community.
+以下では、コンセプトの開始および定義から実際の実装までのdYdXガバナンスプロセスがどのように進むかを説明する、あらかじめ準備した草案を概説します。これらのプロセスは、DYDXコミュニティからのフィードバックに応じて変更される場合があります。
 
-The following flow chart is the initial proposed stages to pass a proposal:
+以下のフローチャートは、提案を審査する最初の提案ステージです。
 
-![Stages of a DIP](<../.gitbook/assets/image (81).png>)
+![DIPのステージ](../.gitbook/assets/image%20%2878%29.png)
 
-## 0. Forum Discussion
+## 0.フォーラムディスカッション
 
-Anyone can sign up and set up a thread on any topic on dYdX’s Governance forums hosted at [**forums.dydx.community**](https://forums.dydx.community). Community members are required to register using an email address or an Ethereum wallet.
+誰でも、[**forums.dydx.community**](https://forums.dydx.community/)でホストされているdYdXのガバナンスフォーラムで、任意のトピックにサインアップおよびスレッドを設定できます。コミュニティのメンバーは、メールアドレスまたはイーサリアムウォレットを使用して登録する必要があります。
 
-## 1. (Off-chain) DRC Creation
+## 1. \（オフチェーン\）DRCの作成
 
-Off-chain **dYdX Request for Comments** (DRCs) creation is the first step in the governance improvement process. Anyone can participate in the Governance Forum, create off-chain DRCs, and discuss improvements.
+オフチェーンでの**コメントのdYdXリクエスト** \(DRCs\)の作成は、ガバナンス改善プロセスの最初のステップです。誰でも、ガバナンスフォーラムに参加し、オフチェーンでのDRCの作成、改善について議論できます。
 
-To create a DRC, use [this template](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) (available on our Github). The DRC should cover all the information of the potentially final DIP.
+DRCを作成するには、Githubで利用可能な以下のテンプレートを使用してください。
 
-At a minimum, DRCs must include:
+少なくとも、DRCには以下のものを含める必要があります。
 
-* Short and concise titles of the DRC
-* A short and concise description of the proposal
-* The rationale for the DRC, e.g. why?
-* The title of the forum post must include DRC: with the short title of the DRC. E.g. DRC: New Market Request
-* A community poll that community members can use to vote on improvements off-chain
+* DRCの短い、簡潔なタイトル
+* 提案の短い、簡潔な説明
+* DRCの理論的根拠（例：存在理由）
+* フォーラムポストのタイトルには、DRC：DRCの短いタイトルが含まれる必要があります。例：DRC：新マーケットリクエスト
+* コミュニティのメンバーがオフチェーンの改善の選択のために使用できるコミュニティ調査
 
-## 2. DRC Discussion & Feedback
+## 2.DRCディスカッションおよびフィードバック
 
-Once posted on the governance forum, all questions and comments should be addressed & taken into consideration, to further improve the DRC.
+ガバナンスフォーラムに掲載されると、DRCをさらに改善するため、すべての質問やコメントに対処し、考慮に入れなければなりません。
 
-## 3. DRC Snapshot Polling
+## 3。 DRCスナップショットでの選択
 
-Once an off-chain DRC has a very rough consensus, a community member holding more than `10,000` DYDX can create an **off-chain vote** for the DRC on **Snapshot**.
+オフチェーンDRCが非常に大まかなコンセンサスを持つことで、`1万`DYDXを超えるコミュニティのメンバーは、**スナップショット**のDRCの**オフチェーンで選択**したオプションを作成できます\[（](https://snapshot.org/#/dydx/create)近日公開予定\）。
 
-Snapshot is a simple voting interface that allows users to signal sentiment off-chain. Votes on snapshot are weighted by the number of DYDX delegated to the address used to vote.
+スナップショットは、ユーザーがオフチェーンでセンチメントを表示できるようにする単純な選択インターフェースです。スナップショットの選択は、選択に使用されるアドレスに委任されたDYDXの数によって重要性が判断されます。
 
-The DRC submitter will need to provide details of the DRC, a voting system, vote start date, vote end date, and snapshot block number. The Snapshot block number locks the state of community members who are able to vote. Token holders who hold tokens before the snapshot block number are eligible to vote.
+DRCの提出者は、DRC、選択システム、選択開始日、選択終了日、およびスナップショットブロック番号の詳細を提供する必要があります。スナップショットブロック番号は、選択できるコミュニティのメンバーの状態をロックします。スナップショットブロック番号の以前からトークンを保有するトークン保有者は、選択する資格があります。
 
-Snapshot poll lengths should be set to `5 days`.
+スナップショットの選択期間は、`5日間`に設定する必要があります。
 
-Proposals and votes are just signed messages, stored on IPFS, and available via the Commonwealth portal.
+提案および選択は、署名されたメッセージであり、IPFSに保存され、コモンウェルス・ポータルを通じて利用可能です。
 
-## 4. (On-chain) DIP Creation
+## 4. \(オンチェーン\)DIP作成
 
-When a rough consensus is reached, an on-chain DIP may be submitted by a community member who holds enough proposition power for the type of proposal. An on-chain DIP is initiated via a smart contract call. The proposal should be based on the winning outcome of the off-chain DIP voting on Snapshot and can consist of one or multiple actions, up to a maximum of 10 actions per proposal.
+ラフコンセンサスに達すると、提案の種類について十分な提案権を保有するコミュニティのメンバーによって、オンチェーンDIPが提出される可能性があります。スマートコントラクト呼び出しを通じてオンチェーンDIPが開始されます。提案は、スナップショットでのオフチェーンDIP選択の賛成結果に基づく必要があり、提案ごとに最大10アクションまで、1つまたは複数のアクションで構成できます。
 
-A DIP creation is subject to a minimum number of tokens held/delegated required for an account. A Timelock executor must be specified when a proposal is created. The initial parameters are as follows (and can be modified by governance):
+DIPの作成は、アカウントに必要な保有/委任された最小トークンの数が対象となります。提案作成時に、タイムロックでの実行管理者を指定する必要があります。初期のパラメータは、以下のとおりです\（が、ガバナンス\によって変更できます）。
 
-| Parameter          | Description                                      | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor   |
-| ------------------ | ------------------------------------------------ | ----------------------- | ---------------------- | ---------------------- | -------------------- |
-| Proposal Threshold | Minimum tokens held/delegated to create proposal | 0.5% of total supply    | 0.5% of total supply   | 2% of total supply     | 0.5% of total supply |
+| パラメータ | 説明 | 短いタイムロックでの実行管理者 | Merkle-Pauserの実行管理者 | 長いタイムロックでの実行管理者 | Starkwareの実行管理者 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 提案の基準値 | 提案作成に保有/委任された最小トークン | 総供給量の0.5％ | 総供給量の0.5％ | 総供給量の2％ | 総供給量の0.5％ |
 
-## 5. (On-chain) DIP Voting
+## 5. \（オンチェーン\）DIPの選択
 
-After an On-Chain DIP is created, the proposal enters a `pending` state for a period defined by the **Voting Delay**, which is currently configured to `6570` blocks or approximately 1 day (assuming 13 seconds per block). In other words, user snapshots are recorded 1 day after the DIP is created, at which point the proposal transitions to an `active` state.
+オンチェーンDIPが作成された後、提案は**選択遅延**によって定義された期間（現在`6,570`ブロックまたは約1日間\（ブロックごとに13秒を想定\）に設定されている`保留`状態に入ります。言い換えれば、DIP作成から1日後にユーザーのスナップショットが記録され、その時点で、提案は`アクティブ`状態に移行します。
 
-After the Voting Delay, the Voting Period is activated. The voting period length depends on the proposal type.
+選択遅延後、選択期間がアクティブになります。選択期間は、提案の種類によって異なります。
 
-The following chart shows a DIP state flowchart:
+以下のグラフは、DIP状態フローチャートを示しています。
 
-![Lifecycle of a DIP](<../.gitbook/assets/image (63).png>)
+![DIPのライフサイクル](../.gitbook/assets/image%20%2850%29.png)
 
-After a DIP is created on-chain it is subject to a **Voting Delay**, **Voting Period**, **Minimum Quorum**, and a minimum **Vote Differential**. The initial parameters are as follows:
+DIPがオンチェーンで作成された後、**選択遅延**、**選択期間**、**最小選択数**、および最小**選択差数**が対象となります。初期のパラメータは、以下のとおりです\（が、ガバナンス\によって変更できます）。
 
-| Parameter         | Description                                                                                           | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor   |
-| ----------------- | ----------------------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | -------------------- |
-| Voting Delay      | Number of Ethereum blocks to wait before voting on a proposal may begin after a proposal is submitted | 6,570 blocks            | 6,570 blocks           | 6,570 blocks           | 6,570 blocks         |
-| Voting Period     | Length of time for which proposals are available to be voted upon                                     | 4 days                  | 2 days                 | 10 days                | 4 days               |
-| Minimum Quorum    | Minimum yes votes for a DIP proposal to pass                                                          | 2% of total supply      | 1% of total supply     | 10% of total supply    | 2% of total supply   |
-| Vote Differential | Required yes-no gap for a DIP proposal to pass                                                        | 0.5% of total supply    | 0.5% of total supply   | 10% of total supply    | 0.5% of total supply |
+| パラメータ | 説明 | 短いタイムロックでの実行管理者 | Merkle-Pauserの実行管理者 | 長いタイムロックでの実行管理者 | Starkwareの実行管理者 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 選択遅延 | 提案の送信後、提案の選択前に待機するイーサリアムブロック数 | 6,570ブロック | 6,570ブロック | 6,570ブロック | 6,570ブロック |
+| 選択期間 | 提案が選択可能である場合の選択期間 | 4日間 | 2日間 | 10日間 | 4日間 |
+| 最小選択者数 | DIP提案が審査を通過する場合の最小賛成票 | 総供給量の2％ | 総供給量の1％ | 総供給量の10％ | 総供給量の2％ |
+| 選択数差 | DIP提案が審査を通過する場合には、賛成-反対の選択差が必要となります | 総供給量の0.5％ | 総供給量の0.5％ | 総供給量の10％ | 総供給量の0.5％ |
 
-Only the voting delay can be modified by governance, and it can only be changed to values in between (inclusive) the minimum and maximum delay. The voting period, minimum quorum, and vote differential can't be changed.
+## 6.提案のキュー追加および実行
 
-## 6. Proposal Queuing & Execution
+DIPが審査通過すると、任意のアドレスがキューメソッドを呼び出すことで提案をタイムロックのキューに移動できます。DIPは、審査通過した場合にのみキューに入れることができます。
 
-After a DIP has passed, any address can call the queue method to move the proposal into the timelock queue. A DIP can only be queued if it has passed.
+| パラメータ | 説明 | 短いタイムロックでの実行管理者 | Merkle-Pauserの実行管理者 | 長いタイムロックでの実行管理者 | Starkwareの実行管理者 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| タイムロックでの遅延時間 | 提案が審査通過してキューに追加した後、提案が実行されるまでの遅延時間です | 2日間 | 0日間 | 7日間 | 2〜9日間 |
+| 実行猶予期間 | 提案が実行可能になるまでの期間ががあり、その間に実行する必要があります。 | 7日間 | 7日間 | 7日間 | 7日間 |
+| 最小タイムロックでの遅延時間 | 提案実行までの最小遅延時間 \（キュー追加後\） | 1日間 | 0日間 | 5日間 | 4日間 |
+| 最大タイムロックでの遅延時間 | 提案実行までの最大遅延時間 \（キュー追加後\） | 7日間 | 1日間 | 21日間 | 21日間 |
 
-| Parameter              | Description                                                                           | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
-| ---------------------- | ------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
-| Timelock Delay         | After a proposal passes and is queued, delay before the proposal is executed          | 2 days                  | 0 days                 | 7 days                 | 2-9 days           |
-| Execution Grace Period | The time after which a proposal becomes executable, during which it must be executed. | 7 days                  | 7 days                 | 7 days                 | 7 days             |
-| Minimum Timelock Delay | Minimum delay before a proposal is executed (after queuing)                           | 1 day                   | 0 days                 | 5 days                 | 4 days             |
-| Maximum Timelock Delay | Maximum delay before a proposal is executed (after queuing)                           | 7 days                  | 1 day                  | 21 days                | 21 days            |
+Starkwareの実行管理者は、9日間のうち、7日間の優先度ウィンドウを持っています。これにより、当社のデプロイパラメータでは9と呼びますが、実際には優先度コントローラー \(Starkware\)に応じて2〜9日間となります。ドキュメントではその通信方法がわかりません。 6時間
 
-As soon as the voting period ends and a proposal has succeeded, anyone can call queue to begin the timelock delay.
+選択期間が終了し、提案が成功すると、誰でもクロックの稼働を開始するためにキューを呼び出すことができます。そこから、他のタイムロックと同様に、2日間以降にStarkwareがそれを迅速化するオプションを持っていることを除き、9日間となります。
 
-For the Starkware priority timelock executor, it has a priority period of 7 days out of the 9 day timelock delay. This means that after 9 days anyone can execute a proposal, but within days 2-9 (the priority period) Starkware has the option to execute the proposal.
+実際に稼働すると以下のようになります。
 
-In practical terms it's:&#x20;
+* 0～2日目：誰も実行できません
+* 2～9日目：Starkwareのみ実行できます
+* 9日目：誰でも実行できます
 
-* Days 0–2: No one can execute&#x20;
-* Days 2–9: Only Starkware can execute&#x20;
-* Days 9: Anyone can execute
+## 7. \（オプション\）提案のキャンセル
 
-## 7. (Optional) Proposal Cancellation
-
-At any point in a DIP lifecycle, the proposer can cancel the DIP. A proposal can be cancelled by anyone before it is executed if the proposer does not have sufficient proposition power at the current block.
+DIPライフサイクルのいずれの時点でも、提案者はDIPをキャンセルできます。新しいDIPが提出され、同じライフサイクルに従って進めます。
 
 
 
 ## FAQ
 
-### What is the purpose of the Voting Delay?
+### 選択遅延の目的は何ですか？
 
-The **Voting Delay** is the number of Ethereum blocks to wait before voting on a proposal may begin after a proposal is submitted.&#x20;
+**選択遅延**とは、提案の送信後に、提案の選択が開始されるまで待機するイーサリアムブロック数を指します。
 
-DYDX voting power must be delegated to an address either entirely before a proposal has been submitted or during the proposal **Voting Delay**.&#x20;
+DYDXの選択権は、提案が提出される前または提案の**選択遅延**中に完全にアドレスに委任する必要があります。
 
-For now, the **Voting Delay** is set to `6,570 blocks`, which is about 1 day. This value is added to the current block number when a proposal is created.
+現在、**選択遅延**は`6,570ブロック`に設定されており、約1日間です。提案作成時に、現在のブロック番号にこの値が追加されます。
 
-In the future, dYdX Governance may vote to increase or decrease the **Voting Delay**. While there are obvious benefits to an increased **Voting Delay.** It may introduce some potential adverse outcomes such as opportunistic edge case exploitation.
+将来的には、dYdXガバナンスは、**選択遅延**を増やすか減らすように選択する可能性があります。**選択遅延**の増加には明確な利点がありますが、日和見主義的なエッジケースによる悪用など、潜在的な悪影響をもたらしてしまう可能性があります。
 
-### What is the purpose of the Proposal Threshold?
+### 提案基準値の目的は何ですか？
 
-Since DYDX is a freely tradable asset, anyone can attempt a governance takeover via market buying. That said, to force-pass a bad faith vote would require a minimum of 5 million DYDX in the event of a short timelock or 20 million DYDX in the event of long timelock. If not outright impossible, this amount would be prohibitively expensive and likely cost more when accounting for price fluctuation than the net gain from the attack.
+DYDXは自由に取引可能な資産であるため、マーケット購入を通じて誰でもガバナンスの買収ができるようになってしまいます。とはいえ、悪意のある選択を強制的に通過させようとすると、短いタイムロックの場合には最小500万DYDX、長いタイムロックの場合には2,000万DYDXが必要になります。完全に不可能ではないかもしれませんが、この金額は、価格の変動を考慮すると、攻撃による純利益よりも法外に高額となり、より多くのコストがかかってしまいます。
 
-If a group somehow achieved a bad faith takeover, the timelock delay would give affected agents time to withdraw their assets from the protocol. This would also be an opportunity to fork the protocol, a path that would likely be taken by the remaining good-faith actors.
+グループが何らかの形で悪意のある買収を達成した場合、タイムロックの遅延により悪影響を受けたエージェントに対して、プロトコルから資産を出金する時間が与えられます。これは、プロトコルをフォークする機会であり、残りの善良な関係者によって実行される可能性が高いパスとなります。
 
 ###
+
