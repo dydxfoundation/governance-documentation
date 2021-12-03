@@ -1,63 +1,59 @@
 ---
-description: Allocations for the DYDX token.
+description: Распределение токена DYDX.
+
 ---
 
-# Allocations
+# Распределение
 
-**Allocations**
+**Распределение**
 
-A total of `1,000,000,000 DYDX` have been minted, and will become accessible over five (5) years, starting on **August 3rd, 2021, at 15:00:00 UTC**. The initial five-year allocation of the total supply of DYDX is as follows:
+Всего было создано `1 000 000 000 DYDX`, и они станут доступны в течение пяти \(5\) лет начиная с **3 августа 2021 г. 15:00:00 во времени в формате UTC**. В первые пять лет все токены DYDX будут распределены следующим образом:
 
-* **50.00%** (`500,000,000 DYDX`) to the community as follows:
-  * **25.00%** (`250,000,000 DYDX`) to users who trade on the dYdX Layer 2 Protocol based on a combination of fees paid and open interest ([**Trading Rewards**](../rewards/trading-rewards.md))
-  * **7.50%** (`75,000,000 DYDX`) to past users who complete certain trading milestones on the dYdX Layer 2 Protocol ([**Retroactive Mining Rewards**](../rewards/retroactive-mining-rewards.md))
-  * **7.50%** (`75,000,000 DYDX`) to liquidity providers based on a formula rewarding a combination of uptime, two-sided depth, bid-ask spreads, and the number of markets supported ([**Liquidity Provider Rewards**](../rewards/liquidity-provider-rewards.md))
-  * **5.00%** (`50,000,000 DYDX`) to a community treasury ([**Treasury**](community-treasury.md))
-  * **2.50%** (`25,000,000 DYDX`) to users staking USDC to a liquidity staking pool ([**Liquidity Module**](../staking-pools/liquidity-staking-pool.md))
-  * **2.50%** (`25,000,000 DYDX`) to users staking DYDX to a safety staking pool ([**Safety Module**](../staking-pools/safety-staking-pool.md))
-* **27.73%** (`277,295,070 DYDX`) to past investors
-* **15.27%** (`152,704,930 DYDX`) to founders, employees, advisors, and consultants of dYdX Trading or the Foundation
-* **7.00%** (`70,000,000 DYDX`) to future employees and consultants of dYdX Trading or the dYdX Foundation&#x20;
+* **50,00%** \(`500 000 000 DYDX`\) будут распределены между сообществом следующим образом:
+   * **25,00%** \(`250 000 000 DYDX`\) получат пользователи, которые торгуют на базе протокола dYdX уровня 2, на основе сочетания уплаченных комиссий и суммы открытых позиций \([далее — «Награды за торговлю»\)](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/reward-pools-1/trading-rewards.md)
+   * **7,50%** \(`75 000 000 DYDX`\) получат бывшие пользователи, которые завершили определенные этапы торговли на базе протокола dYdX уровня 2 \([далее — «Награды за ретроактивный майнинг»](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/reward-pools-1/retroactive-rewards.md)\)
+   * **7,50%** \(`75 000 000 DYDX`\) получат поставщики ликвидности по формуле присуждения наград, учитывающей время работы, двустороннюю глубину, спреды между ценой спроса и предложения, а также количество поддерживаемых рынков \([далее — «Награды для поставщиков ликвидности»](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/reward-pools-1/liquidity-provider-rewards.md)\)
+   * **5,00%** \(`50 000 000 DYDX`\) поступят в казну сообщества \([далее — «Казна сообщества»](community-treasury.md)\)
+   * **2,50%** \(`25 000 000 DYDX`\) получат пользователи, размещающие USDC в пуле стейкинга ликвидности \([далее — «Пул стейкинга ликвидности»](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/staking-pools/liquidity-staking-pool.md)\)
+   * **2,50%** \(`25 000 000 DYDX`\) получат пользователи, размещающие DYDX в пуле стейкинга безопасности \([далее — «Пул стейкинга безопасности»](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/staking-pools/safety-pool-1.md)\)
+* **27,73%** \(`277 295 070 DYDX`\) получат бывшие инвесторы
+* **15,27%** \(`152 704 930 DYDX`\) получат основатели, сотрудники, советники и консультанты dYdX Trading или dYdX Foundation
+* **7,00%** \(`70 000 000 DYDX`\) получат будущие сотрудники и консультанты dYdX Trading или dYdX Foundation
 
-![](<../.gitbook/assets/DYDX Allocations (Initial 5 Years).png>)
+![](../.gitbook/assets/dydx-allocations-initial-5-years-.png)
 
-Starting five years after launch, a maximum perpetual inflation rate of `2%` per year may be utilized by governance to increase the supply of DYDX, ensuring the community has the resources to continue the development and growth of the Protocol. Inflation must be enacted via a governance proposal and is capped at `2%` per year.
+Через пять лет после запуска максимальный уровень инфляции для бессрочных контрактов в размере `2%` в год может быть использован управлением для увеличения предложения DYDX, что обеспечит сообщество ресурсами для дальнейшего развития протокола. Инфляция должна быть принята по предложению управления и должна составлять не выше `2%` в год.
 
-![](<../.gitbook/assets/Allocation 10 Years Inflation (1).png>)
+![](../.gitbook/assets/allocation-10-years-inflation%20%281%29.png)
 
-Although the community allocation has been established as laid out above, DYDX holders have full control via governance over how the community allocation is used going forwards.
+Несмотря на то что токен будет распределен между сообществом как указано выше, через управление владельцы DYDX полностью контролируют то, как токены будут распределяться между сообществом в будущем.
 
-## **FAQs**
+## **Часто задаваемые вопросы**
 
-### **Can new DYDX tokens be minted?**
+### **Можно ли создавать новые токены DYDX?**
 
-Starting five years after launch, a maximum perpetual inflation rate of `2%` per year can be used to increase the supply of DYDX, ensuring the community has the resources to continue contributing to the dYdX Layer 2 Protocol.
+Через пять лет после запуска максимальный уровень инфляции для бессрочных контрактов в размере `2%` в год может быть использован для увеличения предложения DYDX, что обеспечит сообщество ресурсами для дальнейшего развития протокола dYdX уровня 2.
 
-Beginning on **July 14th, 2026 at 15:00:00 UTC**, dYdX governance can decide the maximum supply of new tokens to be minted, up to the maximum inflation rate of `2%` per year at each mint. Only one mint is possible in a given 365 day period. All newly issued tokens will be allocated by governance and will vest immediately. These newly issued tokens can then be sent to any address specified.
+Начиная с **14 июля 2026 г. 15:00:00 по времени в формате UTC** управление dYdX может устанавливать максимальное количество новых токенов, которые можно создавать в каждом выпуске до достижения максимального уровня инфляции в `2%` в год. В течение 365 дней возможен только один выпуск. Все недавно выпущенные токены будут распределены управлением и немедленно переданы во владение. Затем эти токены можно будет отправить на любой указанный адрес.
 
-### **What is the lockup for DYDX issued to investors, existing and future employees, and consultants?**
+### **Что представляет собой блокировка DYDX для инвесторов, текущих и будущих сотрудников, а также консультантов?**
 
-DYDX will be issued to stockholders, directors, officers, employees, and consultants of dYdX Trading and the Foundation. All DYDX distributed to these parties will initially be subject to contractual agreements, off-chain, mandating a lockup according to which:
+DYDX получат владельцы акций, директора, должностные лица, сотрудники и консультанты dYdX Trading и dYdX Foundation. Все DYDX, распределенные между этими сторонами, будут изначально подпадать под действие контрактных соглашений вне блокчейна, предусматривающих блокировку, в соответствии с которой:
 
-* 30% of DYDX holdings will unlock after 18 months post-launch;
-* 40% will unlock equally from month 19 through month 24;
-* 20% will unlock equally from month 25 through month 36;
-* 10% will unlock equally from month 37 through month 48.
+* 30% находящихся во владении DYDX будут разблокированы через 18 месяцев после запуска;
+* 40% будут разблокированы в равной степени с 19 по 24 месяц;
+* 20% будут разблокированы в равной степени с 25 по 36 месяц;
+* 10% будут разблокированы в равной степени с 37 по 48 месяц.
 
-All employees and consultants also will be subject to various vesting schedules that could result in them losing their rights to DYDX. No employee’s or consultant’s receipt of DYDX is, or will in the future be, based on providing services related to the Protocol or other services that may benefit the Protocol. Instead, employees and consultants may receive DYDX for services that benefit only dYdX Trading, the dYdX Foundation or another party.
+Все сотрудники и консультанты также подлежат действию различных графиков передачи во владение. Это может привести к тому, что они утратят права на DYDX. Получение сотрудниками или консультантами DYDX не основывается или не будет основываться на предоставлении услуг, связанных с протоколом, или других услуг, которые могут принести пользу протоколу. Вместо этого сотрудники и консультанты могут получать DYDX за услуги, которые приносят пользу только dYdX Trading, dYdX Foundation или другой стороне.
 
-Regardless of any lockup on DYDX, investors and prior employees or consultants of dYdX Trading or the Foundation may use DYDX to make proposals, delegate votes, or vote on proposals related to the Protocol. Current employees and consultants of dYdX Trading or the Foundation will initially not make any proposals or participate in any votes but may do so in the future. Current employees and consultants of dYdX Trading or the Foundation may delegate votes without attempting to influence voting outcomes.
+Независимо от блокировки DYDX, инвесторы и бывшие сотрудники либо консультанты dYdX Trading или dYdX Foundation могут использовать DYDX для внесения предложений, делегирования голосов или голосования по предложениям, касающимся протокола. Текущие сотрудники и консультанты dYdX Trading или dYdX Foundation не смогут вносить предложения или участвовать в голосовании изначально, но смогут делать это в будущем. Текущие сотрудники и консультанты dYdX Trading или dYdX Foundation могут делегировать голоса, не пытаясь повлиять на результаты голосования.
 
-All investors are required to comply with the transfer restriction enforced through contractual agreements with the dYdX Foundation. The dYdX Foundation tracks wallet addresses to determine whether any transfers have been made in violation of that restriction.
+## Какова кривая предложения ликвидности DYDX?
 
-While investors are technically and legally allowed to stake their DYDX to the Safety Module, in the event of a Shortfall Event and slashing of DYDX, investors would get slashed like every one else. At this time, they would be in default against their obligations. Investors would be required to purchase again any tokens that were transferred as a result of slashing so that everyone is in the same position. For this reason, we ask all investors to refrain from staking and request to withdraw any funds currently staked to the Safety Module.
+8 сентября 2021 г., через `8 дней` после окончания эпохи 0, первоначальные ограничения на перевод токенов будут сняты, и примерно 8,11% DYDX станут ликвидными.
 
-The dYdX Foundation has expressed its willingness to bring legal action against investors who do not comply with these requirements.
+Общее количество доступных с течением времени токенов показано в следующей таблице:
 
-## What is the liquid supply curve of DYDX?
+![](../.gitbook/assets/liquid-supply-schedule%20%282%29.png)
 
-On September 8, 2021, `8 days` after the end of Epoch 0, the initial transfer restrictions on the token will be lifted and approximately 8.11% of the DYDX supply will become liquid.&#x20;
-
-The following chart shows the total liquid supply over time:
-
-![](<../.gitbook/assets/Liquid Supply Schedule (2).png>)
