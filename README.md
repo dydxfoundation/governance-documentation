@@ -1,20 +1,23 @@
 ---
-description: An overview of the DYDX token and governance.
+description: DYDXトークンおよびガバナンスの概要。
+
 ---
 
-# Introduction
+# イントロダクション
 
-DYDX is a governance token that allows the dYdX community to truly govern the dYdX Layer 2 Protocol ("the protocol"). By enabling shared control of the protocol, DYDX allows traders, liquidity providers, and partners of dYdX to work collectively towards an enhanced Protocol.
+DYDXは、dYdXコミュニティがdYdXレイヤ2プロトコル\（「プロトコル」\）を適切に管理できるようにするガバナンス・トークンです。DYDXはプロトコルの共同管理を可能にすることで、dYdXのトレーダー、流動性プロバイダー、およびパートナーがプロトコルの強化に向けて連携できるようになります。
 
-DYDX enables a robust ecosystem around governance, rewards, and staking — each designed to drive future growth and decentralization of dYdX, resulting in a better experience for users.&#x20;
+DYDXにより、ユーザー体験の向上につながるdYdXの将来の成長および分散化を推進するように設計されたガバナンス、報酬、およびステーキングに関する強固なエコシステムが可能になります。
 
-Staking pools are designed to promote liquidity and safety on the Protocol. Rewards programs for trading, liquidity providing, and past usage of dYdX will help drive growth and adoption of dYdX.
+ステーキングプールは、プロトコルの流動性および安全性を促進するように設計されています。取引、流動性の提供、およびdYdXの過去の利用に関する報酬プログラムは、dYdXの成長および新規利用を促進します。
 
-Alongside the launch of DYDX, we also released:\
-\
-🖥️ A governance product at [**dydx.community**](https://dydx.community)\
-📈 [**Liquidity Staking Pool**](staking-pools/liquidity-staking-pool.md) for USDC\
-🔒[ **Safety Staking Pool**](staking-pools/safety-staking-pool.md) for DYDX\
-💰 [**Trading Rewards**](rewards/trading-rewards.md)****\
-****💸 [**Retroactive Mining Rewards**](rewards/retroactive-mining-rewards.md) for past users\
-📊 [**Liquidity Provider Rewards**](rewards/liquidity-provider-rewards.md)
+DYDXの立ち上げに加えて、当社は以下のものをリリースしました。
+
+
+🖥️ [**dydx.community**](https://dydx.community)のガバナンス製品  
+📈 USDCの[**流動性ステーキングプール**](staking-pools/liquidity-staking-pool.md)  
+🔒 DYDXの[**安全性ステーキングプール**](staking-pools/safety-staking-pool.md)  
+💰 [**取引報酬**](rewards/trading-rewards.md)  
+****💸 過去のユーザーに対する[**遡及マイニング報酬**](rewards/retroactive-mining-rewards.md)  
+📊 [**流動性プロバイダー報酬**](rewards/liquidity-provider-rewards.md)
+
