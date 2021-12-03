@@ -1,57 +1,59 @@
 ---
-description: Overview of key governance-related terms.
+description: 主要なガバナンス関連用語の概要。
+
 ---
 
-# Glossary
+# 用語集
 
-**DYDX:** The native asset of the DYDX ecosystem, which constitutes the foundation of governance and safety for the dUdX Protocol. DYDX is an ERC-20 token that designates the weight of a user’s voting or proposing power.
+**DYDX：**dUdXプロトコルのガバナンスおよび安全性の基盤を構成するDYDXエコシステムのネイティブ資産。DYDXはユーザーの選択権または提案権の重みを指定するERC-20トークンです。
 
-**dYdX Protocol:** dYdX’s Layer 2 perpetuals protocol.
+**dYdXプロトコル：**dYdXのレイヤ2パーペチュアルプロトコル。
 
-**dYdX Foundation:** an independent foundation, headquartered in Zug, Switzerland, was created to participate in propelling the dYdX Protocol into the future.
+**dYdX Foundation：**スイスのツークに本部を置く独立した基金として設立され、将来に向けてdYdXプロトコルの普及、推進を行います。
 
-**DYDX Token contract**: has snapshots of each address’ voting power at different blocks in time.
+**DYDXトークン契約**：定期的に異なるブロックに設定する各アドレスの選択権に関するスナップショットがあります。
 
-**DIP:** dYdX Improvements Proposals are on-chain proposals.
+**DIP：**dYdXの改善提案はオンチェーンでの提案となります。
 
-**DRC**: dYdX Request for Comments are off-chain proposals and the first required step in the governance improvement process.
+**DRC**：dYdXのコメントリクエストはオフチェーンの提案であり、ガバナンスの改善プロセスにおける最初のステップです。
 
-**Quorum:** In order for a vote to pass, it must achieve a minimum quorum of DYDX tokens in the affirmative. The purpose of the quorum is to ensure that the only measures that pass have adequate voter participation.
+**クォーラム：**選択が承認されるには、DYDXトークンの肯定的な最小クォーラムを達成することが必要です。クォーラムの目的は、承認された方法だけが適切な選択権者の参加を確保できるようにすることです。
 
-**Epoch:** All other contracts operate on 28-day cycles, referred to as epochs.
+**エポック：**その他のすべてのコントラクトは、エポックと呼ばれる28日間のサイクルで動作します。
 
-**Execution Grace Period:** The period after vote when a DIP proposa becomes executable, during which it must be executed.
+**実行猶予期間：**選択後にDIP提案が実行可能になる期間で、その期間中に実行される必要があります。
 
-**Governance Strategy contract**: contains logic to measure users' relative power to propose and vote.
+**ガバナンス戦略契約**：提案および選択に関するユーザーの相対的な権限を測定するロジックが含まれています。
 
-**Governor contract**: tracks proposals and can execute proposals via the Timelock smart contract.
+**ガバナー契約**：提案を追跡し、タイムロックでのスマートコントラクトを通じて提案を実行できます。
 
-**Long timelock executor:** The long timelock executor can execute proposals that generally change parts of the Protocol that affect governance consensus.
+**ロングタイムロックでの実行管理者：**ロングタイムロックでの実行管理者は、ガバナンスのコンセンサスに影響を与えるプロトコルの一部について一般的に変更する提案を実行できます。
 
-**Merkle-pauser executor:** The Merkle-pauser executor can execute proposals that freeze the Merkle root, which is updated periodically with each user's cumulative reward balance, allowing new rewards to be distributed to users over time, in case the proposed root is incorrect or malicious.
+**Merkle-pauserの実行管理者：**Merkle-pauserの実行管理者は、Merkleルートをフリーズする提案を実行できます。これは各ユーザーの累積報酬残高と共に定期的に更新され、提案されたルートが適切でないか悪意がある場合には、新しい報酬を時間の経過に応じてユーザーに提供できるようにします。
 
-**Safety Pool:** Component in charge of shielding the protocol from insolvency.
+**セーフティプール：**プロトコルを債務超過から保護する責任があるコンポーネント。
 
-**Staked dYdX contract**: contains logics to stake DYDX tokens, tokenize the position and get rewards.
+**ステークされたdYdX契約**：DYDXトークンをステークし、ポジションをトークン化し、報酬を獲得するためのロジックが含まれています。
 
-**Short timelock executor:** The short timelock executor can execute proposals that generally change Rewards and Incentive contracts or the Community Treasury that require quick intervention.
+**ショートタイムロックでの実行管理者：**ショートタイムロックでの実行管理者は、迅速な介入を必要とする報酬やインセンティブに関する契約、またはコミュニティ基金に対する一般的な変更の提案を実行できます。
 
-**Starkware executor:** The Starkware executor can execute proposals that generally change parts of the Protocol that currently require intervention from Starkware.
+**Starkwareの実行管理者：**Starkwareの実行管理者は、現在Starkwareからの介入を必要とするプロトコルの一部に対する一般的な変更の提案を実行できます。
 
-**Timelock contract**: can queue, cancel, or execute transactions voted by Governance. The functions in a proposal are initiated by the Timelock contract. Queued transactions can be executed after a delay and until Grace period is not over.&#x20;
+**タイムロック契約**：ガバナンスによって選択された取引のキュー、キャンセル、実行ができます。提案におけるこのような機能は、タイムロック契約によって開始されます。キューされた取引は遅延後および猶予期間が経過しない間は実行できます。
 
-**Timelock Delay:** The delay before a DIP proposal is executed after a proposal passes and is queued.
+**タイムロックでの遅延：**提案が承認され、キューされた後、DIP提案が実行されるまでの遅延。
 
-**Proposal Theshold:** To prevent a system where countless spam proposals are created, a proposal threshold requires an address has a certain number of votes before they can make a proposal.
+**提案の基準値：**多数のスパム提案がシステムで作成されることを防ぐために、提案の前にアドレスが一定数の選択権を獲得しておく必要があります。
 
-**Proposing Power:** Token stake giving access to creating and sustaining a proposal.
+**提案権：**提案の作成および維持にアクセスできるトークンステーク。
 
-**Voting Power:** Voting power which is used to vote for or against existing proposals.
+**選択権：**既存の提案の選択または反対に使用される権利。
 
-**Voting Delay:** This is the length of time between which a proposal can be created and it is available to be voted upon. By requiring at least one block to pass, the governance is protected from Flash Loan attacks that might borrow a large number of tokens, propose a vote, and vote on it all in one block.
+**選択遅延：**提案が作成可能になった後、選択可能になるまでの期間。少なくとも1ブロックの承認が必要で、ガバナンスは多数のトークンを借りたり、選択の提案をしたり、1ブロックすべてを選択したりする可能性があるフラッシュローン攻撃から保護されます。
 
-**Voting Period:** Once a DIP proposal has been put forward, DYDX community members will have to cast their votes before the end of the Voting Period. This is the length of time for which proposals are available to be voted upon, with time in Ethereum Blocks.
+**選択期間：**DIP提案が実行されると、DYDXのコミュニティメンバーは選択期間終了までに選択を行う必要があります。これはイーサリアムブロックで提案の選択が行われる期間です。
 
-**Proposal Threshold:** Minimum tokens held/delegated required to create a DIP proposal.
+**提案の基準値：**DIP提案の作成に必要で保有/委任されている最小トークン。
 
-**Vote Differential:** Required yes–no gap for DIP proposal to pass.
+**選択差：**DIPの提案が通過するためには、賛成と反対の間に差があることが必要です。
+
