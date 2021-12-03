@@ -1,29 +1,31 @@
 ---
-description: An overview of the community treasury.
+description: 社区资金库概述。
+
 ---
 
-# Treasury
+# 资金库
 
-`5.00%` of the initial token supply (`50,000,000 DYDX`) will be distributed to a community treasury to be allocated on an ongoing basis through contributor grants, community initiatives, liquidity mining, and other programs.
+初始代币供应量的`5.00%`\（`50,000,000个DYDX`\）将分配给社区资金库，并通过捐助方赠款、社区倡议、流动性挖矿和其他计划持续分配。
 
-**Objectives**
+**目标**
 
-* Fund programs and initiatives that drive the growth of dYdX.
-* Develop grant programs to fund community NFTs, hackathons, analytics dashboards, memes, swag, third-party tools, translations, and other projects.
-* Develop a best-in-class governance system and incentivize robust governance.
+* 推动dYdX增长的资金计划和倡议。
+* 制定资助计划，为社区NFT、黑客马拉松、分析仪表板、memes、swag、第三方工具、翻译和其他项目提供资金。
+* 开发一流的治理体系并激励稳健的治理。
 
-## Overview
+## 概述
 
-The community treasury will retain DYDX to use as DYDX holders decide, whether it be for grants, new liquidity mining pools, or any other program. DYDX will vest to the community treasury on a continuous basis over the course of five years. A governance vote will be required to spend any DYDX from the community treasury.
+社区资金库将保留DYDX由DYDX持有人决定其如何使用，无论是用于补助金、新流动性矿池还是任何其他计划。DYDX将在五年内持续被委托给社区资金库。从社区资金库中支出任何DYDX都必须进行治理投票。
 
-If, after five years, governance decides to enact perpetual inflation (at a maximum annual inflation of `2%`), any newly minted DYDX will be available to the community treasury.
+如果五年后，治理决定颁布永续性通货膨胀\（最高年度通货膨胀率为`2%`\），任何新创的DYDX将向社区资金库提供。
 
-## FAQ
+## 常见问题解答
 
-### Who can submit proposals to spend DYDX tokens from the Community Treasury?
+### 谁可以提交来自社区资金库的DYDX代币支出提议？
 
-Any user with sufficient proposing power can submit proposals. A governance vote will be required to spend any DYDX from the community treasury. To submit a proposal, please submit a dYdX Improvement Proposal (DIP) as laid out in the [DIP Proposal Lifecycle](../voting-and-governance/dip-proposal-lifecycle.md).
+任何拥有足够提议权力的用户都可以提交提议。从社区资金库中支出任何DYDX都必须进行治理投票。如要提交提议，请按照[DIP提议生命周期](../voting-and-governance/dip-proposal-lifecycle.md)中所述，提交dYdX改进提议\(DIP\)。
 
-### What types of proposals can be submitted to the Community Treasury?
+### 可以向社区资金库提交哪些类型的提议？
 
-A community-managed treasury opens up a world of possibilities. We hope to see various experiments and initiatives, including ecosystem grants, which can foster the dYdX Layer 2 Protocol’s ecosystem growth.
+一个由社区管理的资金库打开了充满可能性的世界。我们希望看到各种尝试和方案，包括生态系统补偿金，这些可以促进dYdX Layer 2协议的生态系统增长。
+
