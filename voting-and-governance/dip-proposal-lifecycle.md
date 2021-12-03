@@ -1,127 +1,127 @@
 ---
-description: Overview of the dYdX Improvement Proposal (DIP) lifecycle.
+description: Обзор жизненного цикла предложения по улучшению dYdX (ППУ).
+
 ---
 
-# Proposal Lifecycle
+# Жизненный цикл предложения
 
-## **Proposal Stages**
+## **Этапы предложения**
 
-The dYdX Governance Process is fueled by governance forums at [**forums.dydx.community**](https://forums.dydx.community) and ratified through dYdX Improvement Proposal (“DIPs”).
+Процесс управления dYdX обеспечивается форумами по управлению на веб-сайте [**forums.dydx.community**](https://forums.dydx.community/) и утверждается путем внесения предложений по улучшению dYdX \(далее — «ППУ»\).
 
-Below we outline a preliminary draft explaining how the dYdX governance process will flow, from the inception and definition of the concept to the actual implementation. These processes are subject to change according to feedback from the DYDX community.
+Ниже мы приводим предварительный проект, объясняющий, как будет протекать процесс управления dYdX — от зарождения и определения концепции до ее фактической реализации. Эти процессы могут быть изменены согласно комментариям сообщества DYDX.
 
-The following flow chart is the initial proposed stages to pass a proposal:
+Предлагаемые начальные этапы принятия предложения отражены на следующей блок-схеме:
 
-![Stages of a DIP](<../.gitbook/assets/image (81).png>)
+![Этапы ППУ](../.gitbook/assets/image%20%2878%29.png)
 
-## 0. Forum Discussion
+## 0. Обсуждение на форуме
 
-Anyone can sign up and set up a thread on any topic on dYdX’s Governance forums hosted at [**forums.dydx.community**](https://forums.dydx.community). Community members are required to register using an email address or an Ethereum wallet.
+На форумах управления dYdX по адресу [**forums.dydx.community**](https://forums.dydx.community/) зарегистрироваться и создать ветку на любую тему могут все пользователи. Члены сообщества должны зарегистрироваться, используя адрес электронной почты или кошелек Ethereum.
 
-## 1. (Off-chain) DRC Creation
+## 1. Создание ЗК \(офчейн\)
 
-Off-chain **dYdX Request for Comments** (DRCs) creation is the first step in the governance improvement process. Anyone can participate in the Governance Forum, create off-chain DRCs, and discuss improvements.
+Офчейн-создание **запроса комментариев dYdX** \(далее — «ЗК»\) — это первый шаг в процессе улучшения управления. Участвовать в форуме управления, создавать ЗК вне блокчейна и обсуждать улучшения может любой пользователь.
 
-To create a DRC, use [this template](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) (available on our Github). The DRC should cover all the information of the potentially final DIP.
+Чтобы создать ЗК, используйте следующий шаблон, доступный в нашем профиле GitHub.
 
-At a minimum, DRCs must include:
+Как минимум, ЗК должен включать следующее:
 
-* Short and concise titles of the DRC
-* A short and concise description of the proposal
-* The rationale for the DRC, e.g. why?
-* The title of the forum post must include DRC: with the short title of the DRC. E.g. DRC: New Market Request
-* A community poll that community members can use to vote on improvements off-chain
+* Короткие и точные названия заголовков ЗК
+* Короткое и точное описание предложения
+* Обоснование для ЗК, например, причина его подачи
+* Заголовок публикации на форуме должен включать краткое название ЗК. Например, «ЗК: запрос нового рынка»
+* Опрос сообщества, который члены сообщества могут использовать для офчейн-голосования по улучшениям
 
-## 2. DRC Discussion & Feedback
+## 2. Обсуждение ЗК и комментарии
 
-Once posted on the governance forum, all questions and comments should be addressed & taken into consideration, to further improve the DRC.
+После публикации на форуме управления все вопросы и комментарии должны быть рассмотрены и приняты во внимание для дальнейшего улучшения ЗК.
 
-## 3. DRC Snapshot Polling
+## 3. Снимок опроса по ЗК
 
-Once an off-chain DRC has a very rough consensus, a community member holding more than `10,000` DYDX can create an **off-chain vote** for the DRC on **Snapshot**.
+Как только ЗК вне блокчейна достигнет примерного консенсуса, член сообщества, владеющий более чем `10 000` DYDX, может создать **офчейн-голосование** по ЗК с помощью **Snapshot** \([ожидается в ближайшее время](https://snapshot.org/#/dydx/create)\).
 
-Snapshot is a simple voting interface that allows users to signal sentiment off-chain. Votes on snapshot are weighted by the number of DYDX delegated to the address used to vote.
+Snapshot — это простой интерфейс для голосования, который позволяет пользователям выразить мнение вне блокчейна. Значимость голосов на Snapshot определяется на основе количества DYDX, делегированных на адрес, используемый для голосования.
 
-The DRC submitter will need to provide details of the DRC, a voting system, vote start date, vote end date, and snapshot block number. The Snapshot block number locks the state of community members who are able to vote. Token holders who hold tokens before the snapshot block number are eligible to vote.
+Пользователь, подающий ЗК, должен будет предоставить подробные сведения о ЗК, систему голосования, дату начала голосования, дату окончания голосования и номер блока Snapshot. Номер блока Snapshot фиксирует состояние членов сообщества, которые могут голосовать. Голосовать могут пользователи, владевшие токенами до фиксации номером блока Snapshot.
 
-Snapshot poll lengths should be set to `5 days`.
+Длительность опросов Snapshot должна быть установлена на `5 дней`.
 
-Proposals and votes are just signed messages, stored on IPFS, and available via the Commonwealth portal.
+Предложения и голоса — это просто подписанные сообщения, хранящиеся в протоколе IPFS и доступные на портале Commonwealth.
 
-## 4. (On-chain) DIP Creation
+## 4. Создание ППУ \(ончейн\)
 
-When a rough consensus is reached, an on-chain DIP may be submitted by a community member who holds enough proposition power for the type of proposal. An on-chain DIP is initiated via a smart contract call. The proposal should be based on the winning outcome of the off-chain DIP voting on Snapshot and can consist of one or multiple actions, up to a maximum of 10 actions per proposal.
+Если достигнут примерный консенсус, участник сообщества, обладающий соответствующим правом на внесение данного типа предложений, может внести ППУ в блокчейне. ППУ в блокчейне инициируется вызовом смарт-контракта. Предложение должно быть основано на победном результате офчейн-голосования по ППУ на Snapshot и может состоять из одного или нескольких действий (до десяти).
 
-A DIP creation is subject to a minimum number of tokens held/delegated required for an account. A Timelock executor must be specified when a proposal is created. The initial parameters are as follows (and can be modified by governance):
+Для создания ППУ требуется минимальное количество находящихся во владении/делегированных токенов на учетной записи. При создании предложения необходимо указать исполнителя с правом на блокировку по времени. Ниже приведены исходные параметры \(управление может менять их\):
 
-| Parameter          | Description                                      | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor   |
-| ------------------ | ------------------------------------------------ | ----------------------- | ---------------------- | ---------------------- | -------------------- |
-| Proposal Threshold | Minimum tokens held/delegated to create proposal | 0.5% of total supply    | 0.5% of total supply   | 2% of total supply     | 0.5% of total supply |
+| Параметр | Описание | Исполнитель с правом на короткую блокировку по времени | Исполнитель с правом на остановку дерева Меркла | Исполнитель с правом на длительную блокировку по времени | Исполнитель Starkware |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Пороговое число токенов | Минимальное количество находящихся во владении/делегированных токенов, необходимое для создания предложения | 0,5% от общего доступного количества | 0,5% от общего доступного количества | 2% от общего доступного количества | 0,5% от общего доступного количества |
 
-## 5. (On-chain) DIP Voting
+## 5. Голосование по ППУ \(ончейн\).
 
-After an On-Chain DIP is created, the proposal enters a `pending` state for a period defined by the **Voting Delay**, which is currently configured to `6570` blocks or approximately 1 day (assuming 13 seconds per block). In other words, user snapshots are recorded 1 day after the DIP is created, at which point the proposal transitions to an `active` state.
+После создания ППУ в блокчейне предложение переходит в состояние `ожидания` на период, определяемый **задержкой голосования**, которая в настоящий момент составляет `6570` блоков или приблизительно 1 день \(из расчета 13 секунд на блок\). Другими словами, снимки пользователей фиксируются через 1 день после создания ППУ. В этот момент предложение переходит в `активное` состояние.
 
-After the Voting Delay, the Voting Period is activated. The voting period length depends on the proposal type.
+После задержки голосования активируется период голосования. Продолжительность периода голосования зависит от типа предложения.
 
-The following chart shows a DIP state flowchart:
+Блок-схема состояний ППУ показана ниже:
 
-![Lifecycle of a DIP](<../.gitbook/assets/image (63).png>)
+![Жизненный цикл ППУ](../.gitbook/assets/image%20%2850%29.png)
 
-After a DIP is created on-chain it is subject to a **Voting Delay**, **Voting Period**, **Minimum Quorum**, and a minimum **Vote Differential**. The initial parameters are as follows:
+После создания ППУ в блокчейне начинаются **задержка голосования** и **период голосования**, а для него должны быть достигнуты **минимальный кворум** и минимальная **разница в количестве голосов**. Ниже приведены исходные параметры \(управление может менять их\):
 
-| Parameter         | Description                                                                                           | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor   |
-| ----------------- | ----------------------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | -------------------- |
-| Voting Delay      | Number of Ethereum blocks to wait before voting on a proposal may begin after a proposal is submitted | 6,570 blocks            | 6,570 blocks           | 6,570 blocks           | 6,570 blocks         |
-| Voting Period     | Length of time for which proposals are available to be voted upon                                     | 4 days                  | 2 days                 | 10 days                | 4 days               |
-| Minimum Quorum    | Minimum yes votes for a DIP proposal to pass                                                          | 2% of total supply      | 1% of total supply     | 10% of total supply    | 2% of total supply   |
-| Vote Differential | Required yes-no gap for a DIP proposal to pass                                                        | 0.5% of total supply    | 0.5% of total supply   | 10% of total supply    | 0.5% of total supply |
+| Параметр | Описание | Исполнитель с правом на короткую блокировку по времени | Исполнитель с правом на остановку дерева Меркла | Исполнитель с правом на длительную блокировку по времени | Исполнитель Starkware |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Задержка голосования | Количество блоков Ethereum, которое нужно создать до начала голосования по предложению после его внесения | 6570 блоков | 6570 блоков | 6570 блоков | 6570 блоков |
+| Период голосования | Время, в течение которого можно голосовать по предложениям | 4 дня | 2 дня | 10 дней | 4 дня |
+| Минимальный кворум | Минимальное количество голосов за ППУ для его принятия | 2% от общего доступного количества | 1% от общего доступного количества | 10% от общего доступного количества | 2% от общего доступного количества |
+| Разница в количестве голосов | Разрыв в количестве голосов «за/против», требуемый для принятия ППУ | 0,5% от общего доступного количества | 0,5% от общего доступного количества | 10% от общего доступного количества | 0,5% от общего доступного количества |
 
-Only the voting delay can be modified by governance, and it can only be changed to values in between (inclusive) the minimum and maximum delay. The voting period, minimum quorum, and vote differential can't be changed.
+## 6. Постановка в очередь и исполнение предложений
 
-## 6. Proposal Queuing & Execution
+После принятия ППУ любой адрес может вызвать метод помещения в очередь, чтобы поставить предложение в очередь блокировки по времени. В очередь можно помещать только принятые ППУ.
 
-After a DIP has passed, any address can call the queue method to move the proposal into the timelock queue. A DIP can only be queued if it has passed.
+| Параметр | Описание | Исполнитель с правом на короткую блокировку по времени | Исполнитель с правом на остановку дерева Меркла | Исполнитель с правом на длительную блокировку по времени | Исполнитель Starkware |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Задержка блокировки по времени | Задержка после принятия и размещения предложения в очереди и перед его выполнением | 2 дня | 0 дней | 7 дней | 2–9 дней |
+| Период исполнения | Период, когда предложение становится выполнимым и в течение которого должно быть исполнено. | 7 дней | 7 дней | 7 дней | 7 дней |
+| Минимальная задержка блокировки по времени | Минимальная задержка перед исполнением предложения \(после его размещения в очереди\) | 1 день | 0 дней | 5 дней | 4 дня |
+| Максимальная задержка блокировки по времени | Максимальная задержка перед исполнением предложения \(после его размещения в очереди\) | 7 дней | 1 день | 21 день | 21 день |
 
-| Parameter              | Description                                                                           | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
-| ---------------------- | ------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
-| Timelock Delay         | After a proposal passes and is queued, delay before the proposal is executed          | 2 days                  | 0 days                 | 7 days                 | 2-9 days           |
-| Execution Grace Period | The time after which a proposal becomes executable, during which it must be executed. | 7 days                  | 7 days                 | 7 days                 | 7 days             |
-| Minimum Timelock Delay | Minimum delay before a proposal is executed (after queuing)                           | 1 day                   | 0 days                 | 5 days                 | 4 days             |
-| Maximum Timelock Delay | Maximum delay before a proposal is executed (after queuing)                           | 7 days                  | 1 day                  | 21 days                | 21 days            |
+Исполнитель Starkware имеет окно приоритета в 7 дней из 9. Так, в параметрах развертывания мы указываем 9, но на практике это означает 2–9 дней в зависимости от контролера приоритета \(Starkware\). Не совсем понятно, как отразить это в документах. 6ч
 
-As soon as the voting period ends and a proposal has succeeded, anyone can call queue to begin the timelock delay.
+Как только период голосования завершается и предложение принимается, любой желающий может вызвать функцию размещения в очереди, чтобы начать отсчет. Как и в случае с другими блокировками, процесс длится 9 дней за исключением того, что через 2 дня Starkware может ускорить его.
 
-For the Starkware priority timelock executor, it has a priority period of 7 days out of the 9 day timelock delay. This means that after 9 days anyone can execute a proposal, but within days 2-9 (the priority period) Starkware has the option to execute the proposal.
+На практике это выглядит следующим образом:
 
-In practical terms it's:&#x20;
+* Дни 0–2: исполнить предложение не может никто
+* Дни 2–9: исполнить предложение может только Starkware
+* День 9: исполнить предложение может любой пользователь
 
-* Days 0–2: No one can execute&#x20;
-* Days 2–9: Only Starkware can execute&#x20;
-* Days 9: Anyone can execute
+## 7. Отмена предложения \(необязательно\)
 
-## 7. (Optional) Proposal Cancellation
-
-At any point in a DIP lifecycle, the proposer can cancel the DIP. A proposal can be cancelled by anyone before it is executed if the proposer does not have sufficient proposition power at the current block.
+Автор предложения может отменить ППУ в любой момент его жизненного цикла. Будет представлено новое ППУ с аналогичным жизненным циклом.
 
 
 
-## FAQ
+## Часто задаваемые вопросы
 
-### What is the purpose of the Voting Delay?
+### Зачем нужна задержка голосования?
 
-The **Voting Delay** is the number of Ethereum blocks to wait before voting on a proposal may begin after a proposal is submitted.&#x20;
+**Задержка голосования** — это количество блоков Ethereum, которое нужно создать после внесения предложения и до появления возможности проголосовать по нему.
 
-DYDX voting power must be delegated to an address either entirely before a proposal has been submitted or during the proposal **Voting Delay**.&#x20;
+Право голоса DYDX должно быть полностью передано на адрес либо до подачи предложения, либо во время **задержки голосования** по предложению.
 
-For now, the **Voting Delay** is set to `6,570 blocks`, which is about 1 day. This value is added to the current block number when a proposal is created.
+На данный момент **задержка голосования** составляет `6570 блоков`, то есть примерно 1 день. Это значение добавляется к номеру текущего блока при создании предложения.
 
-In the future, dYdX Governance may vote to increase or decrease the **Voting Delay**. While there are obvious benefits to an increased **Voting Delay.** It may introduce some potential adverse outcomes such as opportunistic edge case exploitation.
+В будущем управление dYdX может проголосовать за увеличение или сокращение продолжительности **задержки голосования**. Увеличение **задержки голосования** имеет очевидные преимущества. Однако это может привести к некоторым потенциально негативным последствиям, таким как успешная эксплуатация пограничных случаев.
 
-### What is the purpose of the Proposal Threshold?
+### Зачем нужно пороговое число токенов?
 
-Since DYDX is a freely tradable asset, anyone can attempt a governance takeover via market buying. That said, to force-pass a bad faith vote would require a minimum of 5 million DYDX in the event of a short timelock or 20 million DYDX in the event of long timelock. If not outright impossible, this amount would be prohibitively expensive and likely cost more when accounting for price fluctuation than the net gain from the attack.
+Поскольку токен DYDX — это свободно торгуемый актив, любой может попытаться захватить управление через его скупку на рынке. При этом для принудительного пропуска недобросовестного голоса потребуется минимум 5 и 20 миллионов DYDX в случае короткой и длительной блокировки по времени соответственно. Хотя возможность владения таким количеством токенов не исключается, оно слишком большое, и вполне вероятно, что атака принесет больший убыток нежели выгоду с учетом колебания цен.
 
-If a group somehow achieved a bad faith takeover, the timelock delay would give affected agents time to withdraw their assets from the protocol. This would also be an opportunity to fork the protocol, a path that would likely be taken by the remaining good-faith actors.
+Если группа каким-то образом добьется недобросовестного захвата, задержка блокировки по времени даст пострадавшим агентам время вывести свои активы из протокола. Это также позволит создать форк протокола, который, скорее всего, выберут оставшиеся добросовестные участники.
 
 ###
+
