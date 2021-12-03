@@ -1,119 +1,121 @@
 ---
-description: An overview of the Safety Staking Pool
+description: 保险质押池概述
+
 ---
 
-# Safety Module
+# 保险模块
 
-`2.50%` of the initial token supply (`25,000,000 DYDX`) will be distributed to users staking DYDX to a Safety pool for backstopping the system.
+初始代币供应量的`2.50%`\（`25,000,000 个 DYDX`\）将分配给将DYDX质押到保险资金池的用户，以支持该系统。
 
-**Objectives**
+**目标**
 
-* Bootstrap a decentralized fund to be used in the case of insolvency or other issues with the protocol.
-* Incentivize DYDX holders to govern correctly: DYDX holders risk dilutive events as the ultimate backstop and act as the governors of risk in the system.
+* Bootstrap是一个去中心化基金，用于破产或协议的其他问题。
+* 鼓励DYDX持有人正确地治理：DYDX持有人风险稀释事件作为最终支持，并担任系统风险的治理者。
 
-DYDX staked in the Safety Module retains its proposing and voting rights, as well as delegation abilities.
+质押在保险模块中的DYDX保留其提议和投票权以及委托能力。
 
-Start staking at [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
+开始在[**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)上进行质押\*\*\*\*
 
-## Overview
+## 概述
 
-User safety and protection have been a key focus since the launch of the Protocol. For that reason, DYDX will be distributed to users who stake DYDX to the safety pool to create an additional safety net for users of the Protocol.  Stakers will receive DYDX continuously proportional to their portion of the total DYDX in the pool.
+自协议推出以来，用户安全和保护一直是重点关注的问题。为此，DYDX将分配给质押DYDX到保险资金池的用户，为协议的用户打造额外的安全网。质押人将持续收到DYDX，收到的数量按照其在质押池中占总DYDX的比例计算。
 
-The Safety pool will go live upon DYDX becoming transferrable on September 8th, 2021, 15:00 UTC.
+DYDX于中国时间2021年9月8日晚上11:00开始可以转让，届时，保险资金池将会上线。
 
-## Withdrawals
+## 提现
 
-Stakers must request to withdraw funds at least `14 days` **(Blackout Window)** before the end of the epoch in order to be able to withdraw funds after the end of that epoch. If stakers do not request to withdraw, their staked DYDX is rolled over into the next epoch.&#x20;
+如果要在时段结束后能够提现资金，质押人必须至少在时段结束前`14天`\（**停市窗口期**\）请求提现资金。如果质押人不请求提现，他们质押的DYDX将被转入下一时段。
 
-## Risks
+## 风险
 
-Staked DYDX may be slashed as a result of a shortfall event. Slashing occurs at the discretion of DYDX governance, and requires a governance vote to enact.
+由于资金缺口事件，质押的DYDX可能会被削减。削减由DYDX治理自行决定，并需要治理投票才能颁布。
 
-Like participants in any DeFi protocol, stakers in the Safety Module are exposed to smart contract risk if there is a vulnerability in the underlying smart contract code. All DYDX & governance smart contracts have been audited and rigorously tested.
+如同任何DeFi协议的参与方一样，如果基本的智能合约代码存在漏洞，保险模块的质押人将面临智能合约风险。所有DYDX和治理智能合约都已被审计并进行了严格的测试。
 
-## Shortfall Events
+## 资金缺口事件
 
-The interpretation for the occurrence of a Shortfall Event is subject to a dYdX governance vote but may include:
+对发生资金缺口事件的解释取决于dYdX治理投票，但可以包括：
 
-* Exchange Solvency (e.g., exchange becoming under-collateralized due to unprofitable liquidations)
-* Smart contract attacks
-* Other events dYdX governance deems to have resulted in a shortfall
+* 交易所偿债能力\（例如，由于无盈利的清算，交易所变成质押不足\）
+* 智能合约攻击
+* dYdX治理认为导致了资金缺口的其他事件
 
-In a Shortfall Event, token holder balances can be slashed and transferred to another address or contract (set by dYdX governance on a case by case basis). dYdX governance must pass a short timelock proposal to slash staked tokens. After a governance vote on slashing staked DYDX tokens, slashed DYDX may be auctioned on the market to be sold against the assets needed to mitigate the incurred deficit.
+在资金缺口事件中，代币持有者的余额可以被削减并转移到另一个地址或合约\（由dYdX治理依具体个案来设置\）。DYdX治理必须通过一个短时间锁提议来削减抵押代币。在对削减抵押的DYDX代币进行治理投票后，削减的DYDX可能会在市场上在为减轻所产生赤字所需的资产基础上进行拍卖。
 
-## FAQ
+## 常见问题解答
 
-### How do I earn staking rewards?
+### 我如何赚取质押奖励？
 
-Stakers can deposit DYDX at any time to the safety staking pool and start earning rewards immediately. DYDX rewards are earned on a continuous basis according to each staker’s share of the total pool on a second-by-second basis. Rewards can be claimed and withdrawn at any time.
+质押人可以随时将DYDX存入保险质押池，并立即开始赚取奖励。DYDX奖励是根据每秒每个质押人在总质押池中的比例持续赚取。可以随时申领奖励并提现。
 
-Active funds earn rewards for the period of time that they remain active. This means, after requesting a withdrawal of some funds, those funds will continue to earn rewards until the end of the epoch. This is demonstrated in the following example from the [Liquidity staking pool](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool):
+在保持活跃的时期内，活跃资金会赚取奖励。这意味着，在请求提现部分资金后，这些资金将继续赚取奖励，直至时段结束。[流动性质押池](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool)的以下例子证明了这一点：
 
-![](<../.gitbook/assets/image (59).png>)
+![](../.gitbook/assets/image%20%2865%29.png)
 
-In the above scenario, the user would earn rewards for the period from **Time0** to **Time2**, varying with the total staked balance in that period. If the user only requests a withdrawal for a part of their balance, then the remaining balance would continue earning rewards beyond **Time2**.
+在上述情景中，用户将从**Time0**到**Time2**期间赚取奖励，随着该期间质押余额总数的变化而变化。如果用户仅请求提现部分余额，那么剩余的余额将在**Time2**后继续赚取奖励。
 
-### How do I deposit and stake DYDX to the Safety Pool?
+### 我如何存入DYDX并质押到保险资金池？
 
-To stake DYDX to the Safety Pool, follow these steps:
+如果要把DYDX质押到保险资金池，请按照以下步骤操作：
 
-* Go to [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
-* Click on “**Stake**”
-* You must enable DYDX the first time you deposit. You will only have to do this once and incur gas fees only once.
-* Enter the amount of DYDX you want to stake to the pool.
-* Click “**Stake Funds**”.  You will need to pay gas fees to stake and unstake funds.
+* 转到[**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
+* 单击“**质押**”
+* 首次存入时，您必须启用DYDX。这样只需操作一次，并仅产生一次Gas费用。
+* 输入您希望质押到资金池的DYDX数量。
+* 单击“**质押资金**”。您需要支付质押资金和解除质押资金的Gas费。
 
-Staked funds are now active and start earning rewards immediately.
+质押资金现在已经生效，并立即开始赚取奖励。
 
-To deposit and stake and funds directly on the smart contract, users call the \`stake\` [function](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L59). Users can also deposit and stake on behalf of another address by calling the \`stakeFor\` [function](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L64).
+如果要在智能合约上存入并质押资金，用户请调用\`stake\'[函数](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L59)。用户也可以调用\`stakeFor\'[函数](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L64)，代表另一地址进行存入和质押。
 
-### What is stkDYDX?
+### 什么是stkDYDX？
 
-To contribute to the safety of the protocol and receive incentives, DYDX holders will deposit their tokens into the Safety Module. In return, they will receive a tokenized position (**stkDYDX**) that can be withdrawn or transferred as an ERC-20. The **stkDYDX** token has the same proposing and voting rights as DYDX on dYdX governance.
+为了促进协议的安全并获得奖励，DYDX持有人将他们的代币存入保险模块。作为回报，他们将收到代币化头寸\(**stkDYDX**\)，该头寸可以作为ERC-20提现或转让。**stkDYDX**代币与dYdX治理的DYDX拥有相同的提议和投票权。
 
-### What is the blackout window?
+### 什么是“停市窗口期”？
 
-A blackout window is a period of time during which users cannot request withdrawals of staked funds. An epoch schedule is enforced for withdrawals in order to provide predictability and a regular cadence for the availability of funds in the pool. A staker must request to unstake funds before the blackout window in order to be able to withdraw their funds after the end of that epoch. If a staker does not request to withdraw, their staked funds are rolled over into the next epoch.
+停市窗口期是指一段时间，用户不能在此期间请求提现质押的资金。对提现强制执行时段时间表，以便为资金池中资金的可用性提供可预测性和定期节奏。如果要在时段结束后能够提现资金，质押人必须请求在“停市窗口期”前解除质押资金。如果质押人不请求提现，他们质押的资金将被转入下一时段。
 
-The recommended blackout window for the Safety Pool is `14 days`.
+保险资金池的建议停市窗口期为`14天`。
 
-### How does staked balance accounting work?
+### 质押余额会计处理的工作方式如何？
 
-A staked balance is in one of two states:
+质押余额处于两种状态之一：
 
-* **Active**: Available for borrowing; earning staking rewards; cannot be withdrawn by staker.
-* **Inactive**: Unavailable for borrowing; does not earn rewards; can be withdrawn by the staker.
+* **活跃：**可以用于借款；赚取质押奖励；质押人不能提现。
+* **非活跃**：借款不可用；不赚取奖励；可以由质押人提现。
 
-A staker may have a combination of active and inactive balances. Funds are accounted for epoch-by-epoch as shown in the following example:
+质押人可能具有活跃和非活跃余额的组合。资金按时段进行计算，如以下例子所示：
 
-![](<../.gitbook/assets/image (36).png>)
+![](../.gitbook/assets/image%20%2834%29.png)
 
-The following operations affect staked balances as follows:
+以下操作会影响质押余额，如下所示：
 
-* **Deposit**: Increase active balance.
-* **Request** **withdrawal**: At the end of the current epoch, move some active funds to inactive.
-* **Withdraw**: Decrease inactive balance.
-* **Transfer**: Move some active funds to another staker.
+* **存款**：增加活跃余额。
+* **请求****提现**：在本时段结束时，将一些活跃资金移至非活跃状态。
+* **提现**：减少非活跃余额。
+* **转让**：将一些活跃资金转移给另一个质押人。
 
-To encode the fact that a balance may be scheduled to change at the end of a certain epoch, we store each balance as a struct of three fields: currentEpoch, currentEpochBalance, and nextEpochBalance.
+如果要加密一个交易时间段结束时可能计划变更余额的事实，我们将每个余额将作为三个字段的结构进行存储：currentEpoch、currentEpochBalance和nextEpochBalance。
 
-### How do I withdraw funds from the staking pool? How long does it take?
+### 我如何从质押资金池提现资金？需要多长时间？
 
-An epoch schedule is enforced for withdrawals in order to provide predictability and a regular cadence for the availability of funds in the pool. A staker must request to withdraw funds at least `14 days` before the end of an epoch in order to be able to withdraw their funds after the end of that epoch. If stakers do not request to withdraw, their staked DYDX is rolled over into the next epoch.
+对提现强制执行时段时间表，以便为资金池中资金的可用性提供可预测性和定期节奏。如果要在时段结束后能够提现资金，质押人必须至少在时段结束前`14天`请求提现资金。如果质押人不请求提现，他们质押的DYDX将被转入下一时段。
 
-To withdraw funds, users call the \`requestWithdrawal\` function to request to withdraw funds for the next epoch. User funds will remain staked and not withdrawable for the current epoch. Starting in the next epoch, funds will be “inactive” and available for withdrawal.
+如果要提现资金，用户请调用\`requestWithdrawal\`函数，以请求在下一时段提现资金。用户资金将持续质押，并且无法在当前时段提现。从下一时段开始，资金将变成“非活跃”，并可用于提现。
 
-In the next epoch, users call the \`withdrawStake\` function to withdraw inactive funds to a specific address. Users can select the amount of inactive funds they want to withdraw or call the \`withdrawMaxStake\` function to withdraw all inactive funds. Note that the \`withdrawMaxStake\` function is less gas-efficient than querying the max via eth\_call and calling \`withdrawStake()\`.
+在下一时段，用户调用\`withdrawStake\`函数，将非活跃资金提现到指定地址。用户可以选择要提取的非活跃资金金额或调用`withdrawMaxStake`函数以提取所有非活跃资金。请注意，`\withdrawMaxStake\`函数的gas效率低于通过eth\_call查询最大值和调用\`withdrawStake\(\)\`。
 
-To withdraw DYDX from the Liquidity Pool, follow these steps:
+如果要从流动性资金池提现DYDX，请按照以下步骤操作：
 
-* Go to [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
-* Click on “**Request**”, and enter the amount of DYDX you want to request to withdraw from the pool.
-* Click “**Request withdraw**”. You will need to pay gas fees to withdraw funds.
-* Stakers who request to withdraw DYDX at least 14 days before the current epoch ends can withdraw their DYDX at the start of the next epoch.
+* 转到[**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
+* 单击“**请求**”，并输入您希望请求从资金池中提现的DYDX数量。
+* 单击“**请求提现**”。您需要支付gas费才能提现资金。
+* 如果质押人在当前时段结束前至少14天请求提现DYDX，则可以在下一时段开始时提现DYDX。
 
-### What are the risks for stakers to the safety staking pool? What happens in the case of a Shortfall Event?
+### 对于质押人，保险质押池有哪些风险？资金缺口事件会发生什么情况？
 
-A staker’s decision to lock DYDX into the Safety Pool exposes them to the risk of a shortfall event, which can result in the slashing of staked DYDX funds at the discretion of DYDX governance.
+质押人决定将DYDX锁定在保险资金池，这使他们面临资金缺口事件的风险，这可能会导致DYDX治理酌情削减质押的DYDX资金。
 
-All funds in the contract, active or inactive, are slashable. Within the contract, slashing is implemented via an update to the exchange rate between DYDX and stkDYDX. This means that as slashes occur, the exchange rate between DYDX and stkDYDX will diverge from its initial value of 1:1. Note that the earning of staking rewards is unaffected by slashes.
+合约中所有资金，无论是活跃还是非活跃，都可以削减。在合约内，削减是通过DYDX和stkDYDX之间的汇率更新来执行。这意味着，当削减发生时，DYDX和stkDYDX的汇率将从1:1的初始值偏离。请注意，质押奖励的赚取不受削减的影响。
+
