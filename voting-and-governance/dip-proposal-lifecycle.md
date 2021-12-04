@@ -1,127 +1,128 @@
 ---
-description: Overview of the dYdX Improvement Proposal (DIP) lifecycle.
+description: dYdX改进提议(DIP)生命周期概述。
+
 ---
 
-# Proposal Lifecycle
+# 提议生命周期
 
-## **Proposal Stages**
+## **提议阶段**
 
-The dYdX Governance Process is fueled by governance forums at [**forums.dydx.community**](https://forums.dydx.community) and ratified through dYdX Improvement Proposal (“DIPs”).
+dYdX治理进程由[**forums.dydx.community**](https://forums.dydx.community/)的治理论坛推动，并通过dYdX改进提议\(“DIP”\)予以批准。
 
-Below we outline a preliminary draft explaining how the dYdX governance process will flow, from the inception and definition of the concept to the actual implementation. These processes are subject to change according to feedback from the DYDX community.
+下面，我们概述了一份初稿，解释dYdX治理进程从概念的开始和定义到实际执行的过程。这些流程将根据DYDX社区的反馈意见进行修改。
 
-The following flow chart is the initial proposed stages to pass a proposal:
+以下流程图是通过提议的最初建议阶段：
 
-![Stages of a DIP](<../.gitbook/assets/image (81).png>)
+![DIP的各个阶段](../.gitbook/assets/image%20%2878%29.png)
 
-## 0. Forum Discussion
+## 0. 论坛讨论
 
-Anyone can sign up and set up a thread on any topic on dYdX’s Governance forums hosted at [**forums.dydx.community**](https://forums.dydx.community). Community members are required to register using an email address or an Ethereum wallet.
+任何人都可以在[**forums.dydx.community**](https://forums.dydx.community/)上的dYdX治理论坛上注册并设置任何主题帖。社区成员必须使用电子邮件地址或以太坊钱包进行注册。
 
-## 1. (Off-chain) DRC Creation
+## 1. \(链下\)DRC创建
 
-Off-chain **dYdX Request for Comments** (DRCs) creation is the first step in the governance improvement process. Anyone can participate in the Governance Forum, create off-chain DRCs, and discuss improvements.
+链下**dYdX征求意见**\(DRC\)的创建是治理改进过程的第一步。任何人都可以参加治理论坛，创建链下的DRC，并讨论改进。
 
-To create a DRC, use [this template](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) (available on our Github). The DRC should cover all the information of the potentially final DIP.
+如果要创建DRC，请使用Github上提供的以下模板。
 
-At a minimum, DRCs must include:
+DRC至少必须包括：
 
-* Short and concise titles of the DRC
-* A short and concise description of the proposal
-* The rationale for the DRC, e.g. why?
-* The title of the forum post must include DRC: with the short title of the DRC. E.g. DRC: New Market Request
-* A community poll that community members can use to vote on improvements off-chain
+* DRC的简短标题
+* 简明扼要的提议描述
+* DRC的理由，例如为什么？
+* 论坛帖子的标题必须包括DRC：以及DRC的简称。例如，DRC：新交易对请求
+* 社区成员可以使用的社区投票，对链下的改进进行投票
 
-## 2. DRC Discussion & Feedback
+## 2. DRC讨论和反馈
 
-Once posted on the governance forum, all questions and comments should be addressed & taken into consideration, to further improve the DRC.
+一旦在治理论坛上发布，所有问题和评论都应得到解决和考虑，以进一步改进DRC。
 
-## 3. DRC Snapshot Polling
+## 3. DRC快照投票
 
-Once an off-chain DRC has a very rough consensus, a community member holding more than `10,000` DYDX can create an **off-chain vote** for the DRC on **Snapshot**.
+一旦链下的DRC达成了非常粗略的共识，持有超过`10,000`个DYDX的社区成员可以在**快照**上[\（](https://snapshot.org/#/dydx/create)即将推出\）为DRC创建**链下投票**。
 
-Snapshot is a simple voting interface that allows users to signal sentiment off-chain. Votes on snapshot are weighted by the number of DYDX delegated to the address used to vote.
+快照是一个简单的投票界面，允许用户在链下表达意见。快照的投票率由委托给用于投票的地址的DYDX数量来衡量。
 
-The DRC submitter will need to provide details of the DRC, a voting system, vote start date, vote end date, and snapshot block number. The Snapshot block number locks the state of community members who are able to vote. Token holders who hold tokens before the snapshot block number are eligible to vote.
+DRC提交人需要提供DRC、投票系统、投票开始日期、投票结束日期和快照区块编号的详情。快照区块编号锁定了能够投票的社区成员的状况。在快照区块编号前，持有代币的代币持有者有资格投票。
 
-Snapshot poll lengths should be set to `5 days`.
+快照投票的时间长度应设定为`5天。`
 
-Proposals and votes are just signed messages, stored on IPFS, and available via the Commonwealth portal.
+提议和投票刚刚签字，存储在IPFS上，并可通过Commonwealth门户网站查阅。
 
-## 4. (On-chain) DIP Creation
+## 4. \(链上\)DIP创建
 
-When a rough consensus is reached, an on-chain DIP may be submitted by a community member who holds enough proposition power for the type of proposal. An on-chain DIP is initiated via a smart contract call. The proposal should be based on the winning outcome of the off-chain DIP voting on Snapshot and can consist of one or multiple actions, up to a maximum of 10 actions per proposal.
+一旦达成粗略共识，则可以由拥有足够的提议权的社区成员提交链上DIP。链上DIP是通过智能合约启动的。提议应基于链下DIP在快照上投票的胜利结果，可以由一个或多个操作组成，每个提议最多可有10个操作。
 
-A DIP creation is subject to a minimum number of tokens held/delegated required for an account. A Timelock executor must be specified when a proposal is created. The initial parameters are as follows (and can be modified by governance):
+DIP创建受限于账户所需持有/委托的最少代币数量。在创建提议时，必须指定时间锁执行器。初始参数如下：\(并可以通过治理进行修改\)：
 
-| Parameter          | Description                                      | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor   |
-| ------------------ | ------------------------------------------------ | ----------------------- | ---------------------- | ---------------------- | -------------------- |
-| Proposal Threshold | Minimum tokens held/delegated to create proposal | 0.5% of total supply    | 0.5% of total supply   | 2% of total supply     | 0.5% of total supply |
+| 参数 | 说明 | 短时间锁执行器 | Merkle-Pauser执行器 | 长时间锁执行器 | Starkware执行器 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 提议阈值 | 持有/委托以创建提议的最少代币数量 | 总供应量的0.5% | 总供应量的0.5% | 总供应量的2% | 总供应量的0.5% |
 
-## 5. (On-chain) DIP Voting
+## 5. \(链上\)DIP投票
 
-After an On-Chain DIP is created, the proposal enters a `pending` state for a period defined by the **Voting Delay**, which is currently configured to `6570` blocks or approximately 1 day (assuming 13 seconds per block). In other words, user snapshots are recorded 1 day after the DIP is created, at which point the proposal transitions to an `active` state.
+创建链上DIP后，提议进入`待决`状态，期限由**投票延迟时间**来确定，延迟时间目前被配置为`6570`个区块或大约1天\（假设每个区块13秒钟\）。换句话说，用户快照会在DIP创建1天后被记录下来，这时提议会过渡到`活跃`状态。
 
-After the Voting Delay, the Voting Period is activated. The voting period length depends on the proposal type.
-
-The following chart shows a DIP state flowchart:
-
-![Lifecycle of a DIP](<../.gitbook/assets/image (63).png>)
-
-After a DIP is created on-chain it is subject to a **Voting Delay**, **Voting Period**, **Minimum Quorum**, and a minimum **Vote Differential**. The initial parameters are as follows:
-
-| Parameter         | Description                                                                                           | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor   |
-| ----------------- | ----------------------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | -------------------- |
-| Voting Delay      | Number of Ethereum blocks to wait before voting on a proposal may begin after a proposal is submitted | 6,570 blocks            | 6,570 blocks           | 6,570 blocks           | 6,570 blocks         |
-| Voting Period     | Length of time for which proposals are available to be voted upon                                     | 4 days                  | 2 days                 | 10 days                | 4 days               |
-| Minimum Quorum    | Minimum yes votes for a DIP proposal to pass                                                          | 2% of total supply      | 1% of total supply     | 10% of total supply    | 2% of total supply   |
-| Vote Differential | Required yes-no gap for a DIP proposal to pass                                                        | 0.5% of total supply    | 0.5% of total supply   | 10% of total supply    | 0.5% of total supply |
-
-Only the voting delay can be modified by governance, and it can only be changed to values in between (inclusive) the minimum and maximum delay. The voting period, minimum quorum, and vote differential can't be changed.
-
-## 6. Proposal Queuing & Execution
-
-After a DIP has passed, any address can call the queue method to move the proposal into the timelock queue. A DIP can only be queued if it has passed.
-
-| Parameter              | Description                                                                           | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
-| ---------------------- | ------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
-| Timelock Delay         | After a proposal passes and is queued, delay before the proposal is executed          | 2 days                  | 0 days                 | 7 days                 | 2-9 days           |
-| Execution Grace Period | The time after which a proposal becomes executable, during which it must be executed. | 7 days                  | 7 days                 | 7 days                 | 7 days             |
-| Minimum Timelock Delay | Minimum delay before a proposal is executed (after queuing)                           | 1 day                   | 0 days                 | 5 days                 | 4 days             |
-| Maximum Timelock Delay | Maximum delay before a proposal is executed (after queuing)                           | 7 days                  | 1 day                  | 21 days                | 21 days            |
-
-As soon as the voting period ends and a proposal has succeeded, anyone can call queue to begin the timelock delay.
-
-For the Starkware priority timelock executor, it has a priority period of 7 days out of the 9 day timelock delay. This means that after 9 days anyone can execute a proposal, but within days 2-9 (the priority period) Starkware has the option to execute the proposal.
-
-In practical terms it's:&#x20;
-
-* Days 0–2: No one can execute&#x20;
-* Days 2–9: Only Starkware can execute&#x20;
-* Days 9: Anyone can execute
-
-## 7. (Optional) Proposal Cancellation
-
-At any point in a DIP lifecycle, the proposer can cancel the DIP. A proposal can be cancelled by anyone before it is executed if the proposer does not have sufficient proposition power at the current block.
+投票延迟后，投票期开始激活。投票期的长短取决于提议类型。
 
 
+下图显示了DIP状态流程图：
 
-## FAQ
+![DIP的生命周期](../.gitbook/assets/image%20%2850%29.png)
 
-### What is the purpose of the Voting Delay?
+在链上创建DIP后，会受到以下因素的限制：**投票延迟**、**投票期**、**最低法定人数**和最低**投票差额。**初始参数如下：\(并可以通过治理进行修改\)：
 
-The **Voting Delay** is the number of Ethereum blocks to wait before voting on a proposal may begin after a proposal is submitted.&#x20;
+| 参数 | 说明 | 短时间锁执行器 | Merkle-Pauser执行器 | 长时间锁执行器 | Starkware执行器 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 投票延迟 | 提议提交后，在对一个可能开始的提议进行投票前，需要等待的以太坊区块数量 | 6,570个区块 | 6,570个区块 | 6,570个区块 | 6,570个区块 |
+| 投票期 | 可以对提议进行投票的时间长度 | 4天 | 2天 | 10天 | 4天 |
+| 最低法定人数 | 通过DIP提议的最低赞成票数 | 总供应量的2% | 总供应量的1% | 总供应量的10% | 总供应量的2% |
+| 投票差值 | 通过DIP提议所需的赞成票和否决票差额 | 总供应量的0.5% | 总供应量的0.5% | 总供应量的10% | 总供应量的0.5% |
 
-DYDX voting power must be delegated to an address either entirely before a proposal has been submitted or during the proposal **Voting Delay**.&#x20;
+## 6. 提议排队与执行
 
-For now, the **Voting Delay** is set to `6,570 blocks`, which is about 1 day. This value is added to the current block number when a proposal is created.
+在DIP通过后，任何地址都可以调用排队方法将提议移至时间锁队列。只有当DIP通过时才可以排队。
 
-In the future, dYdX Governance may vote to increase or decrease the **Voting Delay**. While there are obvious benefits to an increased **Voting Delay.** It may introduce some potential adverse outcomes such as opportunistic edge case exploitation.
+| 参数 | 说明 | 短时间锁执行器 | Merkle-Pauser执行器 | 长时间锁执行器 | Starkware执行器 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 时间锁延迟 | 在提议通过并排队后，执行提议前的延迟 | 2天 | 0天 | 7天 | 2-9天 |
+| 执行宽限期 | 在提议可执行的时机来临过后，必须执行该提议。 | 7天 | 7天 | 7天 | 7天 |
+| 时间锁最小延迟 | 执行提议前的最小延迟时间\（排队后\） | 1天 | 0天 | 5天 | 4天 |
+| 时间锁最大延迟 | 执行提议前的最大延迟时间\（排队后\） | 7天 | 1天 | 21天 | 21天 |
 
-### What is the purpose of the Proposal Threshold?
+Starkware执行器在9天内拥有7天的优先权窗口期。因此，在我们的部署参数中，我们称其为9天，但实际上是2-9天，这取决于优先级控制器\(Starkware\)。不知道如何在文档中传达这一点。
 
-Since DYDX is a freely tradable asset, anyone can attempt a governance takeover via market buying. That said, to force-pass a bad faith vote would require a minimum of 5 million DYDX in the event of a short timelock or 20 million DYDX in the event of long timelock. If not outright impossible, this amount would be prohibitively expensive and likely cost more when accounting for price fluctuation than the net gain from the attack.
+一旦投票期结束，提议获得通过，任何人都可以调用排队以启动时钟计时。从那时开始到现在是9天，就像其他计时器一样，但Starkware在2天后可以选择加急处理。
 
-If a group somehow achieved a bad faith takeover, the timelock delay would give affected agents time to withdraw their assets from the protocol. This would also be an opportunity to fork the protocol, a path that would likely be taken by the remaining good-faith actors.
+在实际方面，其内容是：
+
+* 0-2天：任何人都不能执行
+* 2-9天：只有Starkware才能执行
+* 9天：任何人都可以执行
+
+## 7. \(备选方案\)提议取消
+
+在DIP生命周期的任何时候，提议人都可以取消DIP。将提交新的DIP，并受相同生命周期的限制。
+
+
+
+## 常见问题解答
+
+### 投票延迟的目的是什么？
+
+**投票延迟**是指在提议提交后，在开始对提议进行投票前，需要等待的以太坊区块的数量。
+
+必须将DYDX投票权完全委托给一个地址，要么在提议提交前，要么在提议的**投票延迟**期间。
+
+目前，**投票延迟**将设定为`6,570个区块`，大约为1天。在创建提议时，该值将添加到当前区块编号中。
+
+在未来，dYdX治理可能会投票增加或减少**投票延迟**。尽管**投票延迟**有着明显的好处。它可能会带来一些潜在的不利后果，如机会主义边缘案例剥削。
+
+### 提议阈值的目的是什么？
+
+由于DYDX是一种可以自由交易的资产，任何人都可以通过交易对购买尝试进行治理接管。也就是说，要强制通过恶意投票，在短时间锁定的情况下至少需要500万个DYDX，在长时间锁定的情况下至少需要2,000万个DYDX。如果不是完全不可能，这一数额将昂贵得令人望而却步，当考虑到价格波动时，其成本可能超过从攻击中获得的净收益。
+
+如果一个团体以某种方式实现了恶意接管，时间锁延迟将使受影响的代理人有时间从协议中撤资。这也将是一个分叉协议的机会，剩余的诚信行为方可能会采用这一途径。
 
 ###
+

@@ -1,20 +1,18 @@
 ---
-description: An overview of the DYDX token and governance.
+description: DYDX代币和治理概述。
+
 ---
 
-# Introduction
+# 简介
 
-DYDX is a governance token that allows the dYdX community to truly govern the dYdX Layer 2 Protocol ("the protocol"). By enabling shared control of the protocol, DYDX allows traders, liquidity providers, and partners of dYdX to work collectively towards an enhanced Protocol.
+DYDX是一种治理代币，允许dYdX社区真正治理dYdX Layer 2协议\("协议"\)。通过允许对协议进行共享控制，DYDX允许dYdX的交易者、流动性提供方和合作伙伴共同努力，争取增强协议。
 
-DYDX enables a robust ecosystem around governance, rewards, and staking — each designed to drive future growth and decentralization of dYdX, resulting in a better experience for users.&#x20;
+DYDX能够围绕治理、奖励和质押形成强大的生态系统——这些都能推动dYdX的未来增长和去中心化，从而为用户提供更好的体验。
 
-Staking pools are designed to promote liquidity and safety on the Protocol. Rewards programs for trading, liquidity providing, and past usage of dYdX will help drive growth and adoption of dYdX.
+质押资金池旨在促进协议的流动性和安全性。交易、流动性提供和dYdX过往使用等方面的奖励计划将有助于推动dYdX的增长和采用。
 
-Alongside the launch of DYDX, we also released:\
-\
-🖥️ A governance product at [**dydx.community**](https://dydx.community)\
-📈 [**Liquidity Staking Pool**](staking-pools/liquidity-staking-pool.md) for USDC\
-🔒[ **Safety Staking Pool**](staking-pools/safety-staking-pool.md) for DYDX\
-💰 [**Trading Rewards**](rewards/trading-rewards.md)****\
-****💸 [**Retroactive Mining Rewards**](rewards/retroactive-mining-rewards.md) for past users\
-📊 [**Liquidity Provider Rewards**](rewards/liquidity-provider-rewards.md)
+除了推出DYDX，我们还发布了：
+
+🖥️ dy[**dx.community的一个治理产品**](https://dydx.community)📈   USDC[**的流动性质押资金池
+🔒**](staking-pools/liquidity-staking-pool.md)   DYD[**X的保险资金质押池💰**](staking-pools/safety-staking-pool.md)   交易奖[**励***](rewards/trading-rewards.md)  ***💸 过往用户的追[**溯性挖矿奖励📊**](rewards/retroactive-mining-rewards.md)   流动性提[**供方奖励**](rewards/liquidity-provider-rewards.md)
+

@@ -1,56 +1,58 @@
 ---
-description: Overview of the Retroactive Mining Rewards program.
+description: 追溯性挖矿奖励计划概述。
+
 ---
 
-# Retroactive Mining Rewards
+# 追溯性挖矿奖励
 
-`7.50%` of the initial token supply (`75,000,000 DYDX`) will be distributed to past users of any dYdX protocol who complete certain trading milestones on the Protocol, except for users located in a jurisdiction where DYDX is not permitted, including the United States. To claim earned tokens, users will need to trade on dYdX’s Layer 2 Protocol and achieve their respective claim milestone.
+`7.50%`初始代币供应量\（`75,000,000个DYDX`\）将分配给完成协议某些交易里程碑的dYdX协议过往用户，但不包括位于不允许提供DYDX的管辖区的用户，包括美国。如果要申领赚取的代币，用户需要在dYdX Layer 2协议上进行交易，并达到各自的申领里程碑。
 
-**Objectives**
+**目标**
 
-* Reward historical dYdX users with a retroactive reward based on past usage.
-* Incentivize historical dYdX users to trade on dYdX's Layer 2 Protocol.
+* 根据过去使用情况，采用追溯奖励来奖励过往dYdX用户。
+* 激励过往dYdX用户在dYdX Layer 2协议上进行交易。
 
-## Overview
+## 概述
 
-The success of the dYdX Layer 2 Protocol is the result of thousands of community members who have been trading on the dYdX Layer 2 Protocol and its predecessors over the past three years.
+dYdX Layer 2协议的成功是成千上万名社区成员努力的结果，他们在过去三年中一直在dYdX Layer 2协议及其前身上进行交易。
 
-DYDX has been allocated to historical users of all dYdX protocols (except for users located in a jurisdiction where DYDX is not permitted, including the United States) based on a snapshot ending **July 26, 2021, at 00:00:00 UTC**. There are five allocation tiers which take into account a user's past activity across all dYdX protocols.
+根据截止**中国时间2021年7月27日08:00:00**的快照，将DYDX分配给所有dYdX 协议的过往用户\（不包括不允许提供DYDX的管辖区的用户，包括美国\）。有五个分配等级，考虑了用户过去在所有dYdX协议上的活动。
 
-To claim DYDX, historical users must meet the following milestones on [Layer 2 Perpetuals](https://trade.dydx.exchange) within the first 28-day epoch (Epoch 0):
+如果要申领DYDX，过往用户必须在首个28天时段\（0时段\）内满足[Layer 2永续合](https://trade.dydx.exchange)约的以下里程碑：
 
 ![](../.gitbook/assets/buckets.png)
 
-Any historical volume on the dYdX Layer 2 Protocol counts towards a user’s claim milestone. Progress towards your claim milestone can only be viewed at [trade.dydx.exchange/portfolio/rewards](https://trade.dydx.exchange/portfolio/rewards) because the dYdX Foundation does not have visibility into each user's ongoing volume.
+dYdX Layer 2协议上的任何历史成交量都将计入用户的申领里程碑。只有在[trade.dydx.exchange/portfolio/rewards](https://trade.dydx.exchange/portfolio/rewards)上，才能查看您的申领里程碑的进展，因为dYdX基金会无法明确了解每个用户的持续交易量。
 
-Users will be able to reach their claim milestones until the end of Epoch 0. All unearned rewards will be forfeited and automatically distributed to the community treasury. Rewarded DYDX tokens via the Retroactive Mining Rewards will become claimable in perpetuity and transferable once the initial transfer restriction period is lifted.
+用户将能够达到申领里程碑，直到0时段结束。所有未赚取的奖励将被收回，并自动分配给社区资金库。一旦初始转让限制期解除，通过追溯挖矿奖励获得的DYDX代币将永久可申领和转让。
 
-## **FAQ**
+## **常见问题解答**
 
-### **Who is eligible for retroactive rewards?**
+### **谁有资格获得追溯奖励？**
 
-Past dYdX users who have traded on dYdX protocols (perpetual, margin, spot) on Layer 2 or Layer 1 or deposited funds into dYdX’s borrow / supply pools are eligible to receive DYDX through retroactive rewards.
+在Layer 2或Layer 1上交易dYdX产品（永续、保证金、现货）或将资金质存入dYdX的借款/供应池的过往dYdX用户，便有资格通过追溯奖励获得DYDX。
 
-In line with restrictions on the availability of DYDX and the dYdX Layer 2 Protocol in the United States, retroactive mining is not available to users who are residents of, or incorporated or headquartered in, the United States or any other prohibited jurisdiction. Any accounts that appeared to be clearly associated with bot activity speculating on a future airdrop were also excluded from retroactive rewards.
+根据DYDX和dYdX Layer 2协议在美国的可用性限制，追溯性挖矿不能提供给美国或任何其他受禁止司法管辖区的居民、注册或总部设在这些地区的用户。任何看来与投机未来空投的机器人活动明显相关联的账户也被排除在追溯奖励之外。
 
-All retroactive rewards allocations are final and cannot be changed.
+所有追溯奖励分配都是最终的，无法更改。
 
-### How much DYDX did I earn in the retroactive rewards program?
+### 我在追溯性奖励计划中赚取了多少DYDX？
 
-![View claim milestone and progress](<../.gitbook/assets/image (23).png>)
+![查看申领里程碑和进度](../.gitbook/assets/image%20%2825%29.png)
 
-Past dYdX users can view their past activity and tier for Retroactive Mining at [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards). To earn DYDX, users must trade on the dYdX Layer 2 Protocol at [**trade.dydx.exchange**](https://trade.dydx.exchange) to meet their criteria threshold.
+过往dYdX用户可以在[**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)上查看他们过去的追溯性挖矿活动和等级。如果要赚取DYDX，用户必须在[**trade.dydx.exchange**](https://trade.dydx.exchange/)上在dYdX Layer 2协议上进行交易，以达到他们的标准阈值。
 
-### What happens if I don’t reach my claim milestone?
+### 如果我没有达到申领里程碑，会发生什么情况？
 
-To claim the full allocation of DYDX tokens, users must meet their specific target volume tier trading perpetuals on the dYdX Layer 2 Protocol.
+如果要申领全部分配的DYDX代币，用户必须达到他们在dYdX Layer 2协议上交易永续合约的特定目标交易量等级。
 
-Earned retroactive rewards are linearly claimable with the target volume. For example, if a user’s claim milestone is $5,000 in trading volume on the dYdX Layer 2 Protocol but the user only trades $2,500 in volume over the course of epoch 0, the user will only be able to claim 50% of the allocated reward.
+获得的追溯奖励按照目标交易量来相应申领。例如，如果用户在dydx Layer 2协议上的申领里程碑是5,000美元的交易量，但用户在0时段的过程中仅交易了2,500美元，则用户将只能申领50%的分配奖励。
 
-Any unclaimed DYDX at the end of the epoch 0 will be forfeited and automatically distributed to the community treasury.
+在0时段结束时，任何未申领的DYDX将被收回，并自动分配给社区资金库。
 
-### When can I withdraw and transfer my claimed DYDX retroactive rewards?
+### 我何时可以提现并转让我申领的DYDX追溯奖励？
 
-Earned DYDX tokens via the Retroactive Mining Rewards will become claimable and transferable once the initial transfer restriction period is lifted.
+一旦初始转让限制期解除，通过追溯挖矿奖励获得的DYDX代币将可申领和转让。
 
-On approximately **September 8, 2021 15:00:00 UTC**, `8 days` after the end of Epoch 0, the initial transfer restrictions will be lifted and earned DYDX tokens via the Retroactive Mining Rewards can be claimed, withdrawn, transferred, or delegated.
+**中国时间2021年9月8 日晚上11:00:00**，即0时段结束后的`8天`，初始转让限制将被取消，并可以通过追溯性挖矿奖励申领、提现、转让或委托所赚取的DYDX代币。
+

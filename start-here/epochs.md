@@ -1,139 +1,139 @@
 ---
-description: An overview of the epoch system
+description: 时段体系的概述
+
 ---
 
-# Epochs
+# 时段
 
-All rewards and staking contracts operate on `28 days` cycles, referred to as **epochs**. A new epoch automatically begins when the current epoch ends.
+所有奖励和质押合约都以`28天`为周期运作，此周期称为**时段**。在当前时段结束后，新时段自动开始。
 
-The following will occur at the end of each epoch:
+在每个时段结束时，将发生以下情况：
 
-* **Trading Rewards** are distributed. Rewards are claimable at [**dydx.community**](https://dydx.community) approximately `7 days` after the end of the epoch.
-* **Liquidity Provider Rewards** are distributed. Rewards are claimable at [**dydx.community**](https://dydx.community) approximately `7 days` after the end of the epoch.
-* Requested withdrawals for the **Liquidity Staking Pool** in the ended epoch may be withdrawn.
-* Requested withdrawals for the **Safety Staking Pool** in the ended epoch may be withdrawn.
+* 分配**交易奖励**。在时段结束后大约`7天`，在[**dydx.community**](https://dydx.community)上申领奖励。
+* 分配**流动性提供方奖励**。在时段结束后大约`7天`，在[**dydx.community**](https://dydx.community)上申领奖励。
+* 在结束时段，**流动性质押资金池**的提现请求可能会被撤回。
+* 在结束时段，为**保险资金质押池**请求的提现可能会被撤回。
 
-The following will occur only at the end of **Epoch 0**:
+只有在**0时段**结束时，才会出现以下情况：
 
-* Retroactive Mining Rewards will be distributed. Rewards are claimable at [**dydx.community**](https://dydx.community) approximately `8 days` after the end of Epoch 0.&#x20;
-* Transfers of DYDX are initially restricted. The Initial Transfer Restriction period will be lifted approximately `8 days` after the end of Epoch 0.&#x20;
-* **DYDX will become transferable on September 8th, 2021 at 15:00:00 UTC.**
+* 将分配追溯性挖矿奖励。在0时段结束大约`8天`后，在[**dydx.community**](https://dydx.community)上申领奖励。
+* DYDX的转让最初是受到限制的。初始转让限制期限将在0时段结束大约`8天`后予以取消。
+* **DYDX将于中国时间2021年9月8日晚上11:00:00开始转让。**
 
-**Epoch 0** will go live on **August 3rd, 2021 at 15:00:00 UTC**. The following table outlines epoch start and end dates (which can be modified by dYdX governance):
+**0时段**将于**中国时间2021年8月3日晚上11:00:00**上线。下表概述了时段开始和结束日期\（可以通过dYdX治理进行修改\）：
 
-| Epoch | Start Date (UTC)    | End Date (UTC)      | Days | Cumulative Years |
-| ----- | ------------------- | ------------------- | ---- | ---------------- |
-| 0     | 8/3/2021 15:00:00   | 8/31/2021 15:00:00  | 28   | 0.08             |
-| 1     | 8/31/2021 15:00:00  | 9/28/2021 15:00:00  | 28   | 0.15             |
-| 2     | 9/28/2021 15:00:00  | 10/26/2021 15:00:00 | 28   | 0.23             |
-| 3     | 10/26/2021 15:00:00 | 11/23/2021 15:00:00 | 28   | 0.31             |
-| 4     | 11/23/2021 15:00:00 | 12/21/2021 15:00:00 | 28   | 0.38             |
-| 5     | 12/21/2021 15:00:00 | 1/18/2022 15:00:00  | 28   | 0.46             |
-| 6     | 1/18/2022 15:00:00  | 2/15/2022 15:00:00  | 28   | 0.54             |
-| 7     | 2/15/2022 15:00:00  | 3/15/2022 15:00:00  | 28   | 0.61             |
-| 8     | 3/15/2022 15:00:00  | 4/12/2022 15:00:00  | 28   | 0.69             |
-| 9     | 4/12/2022 15:00:00  | 5/10/2022 15:00:00  | 28   | 0.77             |
-| 10    | 5/10/2022 15:00:00  | 6/7/2022 15:00:00   | 28   | 0.84             |
-| 11    | 6/7/2022 15:00:00   | 7/5/2022 15:00:00   | 28   | 0.92             |
-| 12    | 7/5/2022 15:00:00   | 8/2/2022 15:00:00   | 28   | 1.00             |
-| 13    | 8/2/2022 15:00:00   | 8/30/2022 15:00:00  | 28   | 1.07             |
-| 14    | 8/30/2022 15:00:00  | 9/27/2022 15:00:00  | 28   | 1.15             |
-| 15    | 9/27/2022 15:00:00  | 10/25/2022 15:00:00 | 28   | 1.23             |
-| 16    | 10/25/2022 15:00:00 | 11/22/2022 15:00:00 | 28   | 1.30             |
-| 17    | 11/22/2022 15:00:00 | 12/20/2022 15:00:00 | 28   | 1.38             |
-| 18    | 12/20/2022 15:00:00 | 1/17/2023 15:00:00  | 28   | 1.46             |
-| 19    | 1/17/2023 15:00:00  | 2/14/2023 15:00:00  | 28   | 1.53             |
-| 20    | 2/14/2023 15:00:00  | 3/14/2023 15:00:00  | 28   | 1.61             |
-| 21    | 3/14/2023 15:00:00  | 4/11/2023 15:00:00  | 28   | 1.69             |
-| 22    | 4/11/2023 15:00:00  | 5/9/2023 15:00:00   | 28   | 1.76             |
-| 23    | 5/9/2023 15:00:00   | 6/6/2023 15:00:00   | 28   | 1.84             |
-| 24    | 6/6/2023 15:00:00   | 7/4/2023 15:00:00   | 28   | 1.92             |
-| 25    | 7/4/2023 15:00:00   | 8/1/2023 15:00:00   | 28   | 1.99             |
-| 26    | 8/1/2023 15:00:00   | 8/29/2023 15:00:00  | 28   | 2.07             |
-| 27    | 8/29/2023 15:00:00  | 9/26/2023 15:00:00  | 28   | 2.15             |
-| 28    | 9/26/2023 15:00:00  | 10/24/2023 15:00:00 | 28   | 2.22             |
-| 29    | 10/24/2023 15:00:00 | 11/21/2023 15:00:00 | 28   | 2.30             |
-| 30    | 11/21/2023 15:00:00 | 12/19/2023 15:00:00 | 28   | 2.38             |
-| 31    | 12/19/2023 15:00:00 | 1/16/2024 15:00:00  | 28   | 2.45             |
-| 32    | 1/16/2024 15:00:00  | 2/13/2024 15:00:00  | 28   | 2.53             |
-| 33    | 2/13/2024 15:00:00  | 3/12/2024 15:00:00  | 28   | 2.61             |
-| 34    | 3/12/2024 15:00:00  | 4/9/2024 15:00:00   | 28   | 2.68             |
-| 35    | 4/9/2024 15:00:00   | 5/7/2024 15:00:00   | 28   | 2.76             |
-| 36    | 5/7/2024 15:00:00   | 6/4/2024 15:00:00   | 28   | 2.84             |
-| 37    | 6/4/2024 15:00:00   | 7/2/2024 15:00:00   | 28   | 2.92             |
-| 38    | 7/2/2024 15:00:00   | 7/30/2024 15:00:00  | 28   | 2.99             |
-| 39    | 7/30/2024 15:00:00  | 8/27/2024 15:00:00  | 28   | 3.07             |
-| 40    | 8/27/2024 15:00:00  | 9/24/2024 15:00:00  | 28   | 3.15             |
-| 41    | 9/24/2024 15:00:00  | 10/22/2024 15:00:00 | 28   | 3.22             |
-| 42    | 10/22/2024 15:00:00 | 11/19/2024 15:00:00 | 28   | 3.30             |
-| 43    | 11/19/2024 15:00:00 | 12/17/2024 15:00:00 | 28   | 3.38             |
-| 44    | 12/17/2024 15:00:00 | 1/14/2025 15:00:00  | 28   | 3.45             |
-| 45    | 1/14/2025 15:00:00  | 2/11/2025 15:00:00  | 28   | 3.53             |
-| 46    | 2/11/2025 15:00:00  | 3/11/2025 15:00:00  | 28   | 3.61             |
-| 47    | 3/11/2025 15:00:00  | 4/8/2025 15:00:00   | 28   | 3.68             |
-| 48    | 4/8/2025 15:00:00   | 5/6/2025 15:00:00   | 28   | 3.76             |
-| 49    | 5/6/2025 15:00:00   | 6/3/2025 15:00:00   | 28   | 3.84             |
-| 50    | 6/3/2025 15:00:00   | 7/1/2025 15:00:00   | 28   | 3.91             |
-| 51    | 7/1/2025 15:00:00   | 7/29/2025 15:00:00  | 28   | 3.99             |
-| 52    | 7/29/2025 15:00:00  | 8/26/2025 15:00:00  | 28   | 4.07             |
-| 53    | 8/26/2025 15:00:00  | 9/23/2025 15:00:00  | 28   | 4.14             |
-| 54    | 9/23/2025 15:00:00  | 10/21/2025 15:00:00 | 28   | 4.22             |
-| 55    | 10/21/2025 15:00:00 | 11/18/2025 15:00:00 | 28   | 4.30             |
-| 56    | 11/18/2025 15:00:00 | 12/16/2025 15:00:00 | 28   | 4.37             |
-| 57    | 12/16/2025 15:00:00 | 1/13/2026 15:00:00  | 28   | 4.45             |
-| 58    | 1/13/2026 15:00:00  | 2/10/2026 15:00:00  | 28   | 4.53             |
-| 59    | 2/10/2026 15:00:00  | 3/10/2026 15:00:00  | 28   | 4.60             |
-| 60    | 3/10/2026 15:00:00  | 4/7/2026 15:00:00   | 28   | 4.68             |
-| 61    | 4/7/2026 15:00:00   | 5/5/2026 15:00:00   | 28   | 4.76             |
-| 62    | 5/5/2026 15:00:00   | 6/2/2026 15:00:00   | 28   | 4.83             |
-| 63    | 6/2/2026 15:00:00   | 6/30/2026 15:00:00  | 28   | 4.91             |
-| 64    | 6/30/2026 15:00:00  | 7/28/2026 15:00:00  | 28   | 4.99             |
-| 65    | 7/28/2026 15:00:00  | 8/25/2026 15:00:00  | 28   | 5.06             |
+| 时段 | 起始日期\(中国时间\) | 结束日期\(中国时间\) | 天 | 累计年数 |
+| :--- | :--- | :--- | :--- | :--- |
+| 0 | 2021年8月3日晚上11:00:00 | 2021年8月31日晚上11:00:00 | 28 | 0.08 |
+| 1 | 2021年8月31日晚上11:00:00 | 2021年9月28日晚上11:00:00 | 28 | 0.15 |
+| 2 | 2021年9月28日晚上11:00:00 | 2021年10月26日晚上11:00:00 | 28 | 0.23 |
+| 3 | 2021年10月26日晚上11:00:00 | 2021年11月23日晚上11:00:00 | 28 | 0.31 |
+| 4 | 2021年11月23日晚上11:00:00 | 2021年12月21日晚上11:00:00 | 28 | 0.38 |
+| 5 | 2021年12月21日晚上11:00:00 | 2022年1月18日晚上11:00:00 | 28 | 0.46 |
+| 6 | 2022年1月18日晚上11:00:00 | 2022年2月15日晚上11:00:00 | 28 | 0.54 |
+| 7 | 2022年2月15日晚上11:00:00 | 2022年3月15日晚上11:00:00 | 28 | 0.61 |
+| 8 | 2022年3月15日晚上11:00:00 | 2022年4月12日晚上11:00:00 | 28 | 0.69 |
+| 9 | 2022年4月12日晚上11:00:00 | 2022年5月10日晚上11:00:00 | 28 | 0.77 |
+| 10 | 2022年5月10日晚上11:00:00 | 2022年6月7日晚上11:00:00 | 28 | 0.84 |
+| 11 | 2022年6月7日晚上11:00:00 | 2022年7月5日晚上11:00:00 | 28 | 0.92 |
+| 12 | 2022年7月5日晚上11:00:00 | 2022年8月2日晚上11:00:00 | 28 | 1.00 |
+| 13 | 2022年8月2日晚上11:00:00 | 2022年8月30日晚上11:00:00 | 28 | 1.07 |
+| 14 | 2022年8月30日晚上11:00:00 | 2022年9月27日晚上11:00:00 | 28 | 1.15 |
+| 15 | 2022年9月27日晚上11:00:00 | 2022年10月25日晚上11:00:00 | 28 | 1.23 |
+| 16 | 2022年10月25日晚上11:00:00 | 2022年11月22日晚上11:00:00 | 28 | 1.30 |
+| 17 | 2022年11月22日晚上11:00:00 | 2022年12月20日晚上11:00:00 | 28 | 1.38 |
+| 18 | 2022年12月20日晚上11:00:00 | 2023年1月17日晚上11:00:00 | 28 | 1.46 |
+| 19 | 2023年1月17日晚上11:00:00 | 2023年2月14日晚上11:00:00 | 28 | 1.53 |
+| 20 | 2023年2月14日晚上11:00:00 | 2023年3月14日晚上11:00:00 | 28 | 1.61 |
+| 21 | 2023年3月14日晚上11:00:00 | 2023年4月11日晚上11:00:00 | 28 | 1.69 |
+| 22 | 2023年4月11日晚上11:00:00 | 2023年5月9日晚上11:00:00 | 28 | 1.76 |
+| 23 | 2023年5月9日晚上11:00:00 | 2023年6月6日晚上11:00:00 | 28 | 1.84 |
+| 24 | 2023年6月6日晚上11:00:00 | 2023年7月4日晚上11:00:00 | 28 | 1.92 |
+| 25 | 2023年7月4日晚上11:00:00 | 2023年8月1日晚上11:00:00 | 28 | 1.99 |
+| 26 | 2023年8月1日晚上11:00:00 | 2023年8月29日晚上11:00:00 | 28 | 2.07 |
+| 27 | 2023年8月29日晚上11:00:00 | 2023年9月26日晚上11:00:00 | 28 | 2.15 |
+| 28 | 2023年9月26日晚上11:00:00 | 2023年10月24日晚上11:00:00 | 28 | 2.22 |
+| 29 | 2023年10月24日晚上11:00:00 | 2023年11月21日晚上11:00:00 | 28 | 2.30 |
+| 30 | 2023年11月21日晚上11:00:00 | 2023年12月19日晚上11:00:00 | 28 | 2.38 |
+| 31 | 2023年12月19日晚上11:00:00 | 2024年1月16日晚上11:00:00 | 28 | 2.45 |
+| 32 | 2024年1月16日晚上11:00:00 | 2024年2月13日晚上11:00:00 | 28 | 2.53 |
+| 33 | 2024年2月13日晚上11:00:00 | 2024年3月12日晚上11:00:00 | 28 | 2.61 |
+| 34 | 2024年3月12日晚上11:00:00 | 2024年4月9日晚上11:00:00 | 28 | 2.68 |
+| 35 | 2024年4月9日晚上11:00:00 | 2024年5月7日晚上11:00:00 | 28 | 2.76 |
+| 36 | 2024年5月7日晚上11:00:00 | 2024年6月4日晚上11:00:00 | 28 | 2.84 |
+| 37 | 2024年6月4日晚上11:00:00 | 2024年7月2日晚上11:00:00 | 28 | 2.92 |
+| 38 | 2024年7月2日晚上11:00:00 | 2024年7月30日晚上11:00:00 | 28 | 2.99 |
+| 39 | 2024年7月30日晚上11:00:00 | 2024年8月27日晚上11:00:00 | 28 | 3.07 |
+| 40 | 2024年8月27日晚上11:00:00 | 2024年9月24日晚上11:00:00 | 28 | 3.15 |
+| 41 | 2024年9月24日晚上11:00:00 | 2024年10月22日晚上11:00:00 | 28 | 3.22 |
+| 42 | 2024年10月22日晚上11:00:00 | 2024年11月19日晚上11:00:00 | 28 | 3.30 |
+| 43 | 2024年11月19日晚上11:00:00 | 2024年12月17日晚上11:00:00 | 28 | 3.38 |
+| 44 | 2024年12月17日晚上11:00:00 | 2025年1月14日晚上11:00:00 | 28 | 3.45 |
+| 45 | 2025年1月14日晚上11:00:00 | 2025年2月11日晚上11:00:00 | 28 | 3.53 |
+| 46 | 2025年2月11日晚上11:00:00 | 2025年3月11日晚上11:00:00 | 28 | 3.61 |
+| 47 | 2025年3月11日晚上11:00:00 | 2025年4月8日晚上11:00:00 | 28 | 3.68 |
+| 48 | 2025年4月8日晚上11:00:00 | 2025年5月6日晚上11:00:00 | 28 | 3.76 |
+| 49 | 2025年5月6日晚上11:00:00 | 2025年6月3日晚上11:00:00 | 28 | 3.84 |
+| 50 | 2025年6月3日晚上11:00:00 | 2025年7月1日晚上11:00:00 | 28 | 3.91 |
+| 51 | 2025年7月1日晚上11:00:00 | 2025年7月29日晚上11:00:00 | 28 | 3.99 |
+| 52 | 2025年7月29日晚上11:00:00 | 2025年8月26日晚上11:00:00 | 28 | 4.07 |
+| 53 | 2025年8月26日晚上11:00:00 | 2025年9月23日晚上11:00:00 | 28 | 4.14 |
+| 54 | 2025年9月23日晚上11:00:00 | 2025年10月21日晚上11:00:00 | 28 | 4.22 |
+| 55 | 2025年10月21日晚上11:00:00 | 2025年11月18日晚上11:00:00 | 28 | 4.30 |
+| 56 | 2025年11月18日晚上11:00:00 | 2025年12月16日晚上11:00:00 | 28 | 4.37 |
+| 57 | 2025年12月16日晚上11:00:00 | 2026年1月13日晚上11:00:00 | 28 | 4.45 |
+| 58 | 2026年1月13日晚上11:00:00 | 2026年2月10日晚上11:00:00 | 28 | 4.53 |
+| 59 | 2026年2月10日晚上11:00:00 | 2026年3月10日晚上11:00:00 | 28 | 4.60 |
+| 60 | 2026年3月10日晚上11:00:00 | 2026年4月7日晚上11:00:00 | 28 | 4.68 |
+| 61 | 2026年4月7日晚上11:00:00 | 2026年5月5日晚上11:00:00 | 28 | 4.76 |
+| 62 | 2026年5月5日晚上11:00:00 | 2026年6月2日晚上11:00:00 | 28 | 4.83 |
+| 63 | 2026年6月2日晚上11:00:00 | 2026年6月30日晚上11:00:00 | 28 | 4.91 |
+| 64 | 2026年6月30日晚上11:00:00 | 2026年7月28日晚上11:00:00 | 28 | 4.99 |
+| 65 | 2026年7月28日晚上11:00:00 | 2026年8月25日晚上11:00:00 | 28 | 5.06 |
 
-The dYdX Foundation has created a public Google Calendar with start / end dates for Epochs and Blackout Windows - you can subscribe [**here**](https://calendar.google.com/calendar/u/3?cid=Y19wZjIwYzBoZzQ3dTR2cHRja283NDl1ajQyb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
+## **奖励和质押池何时会被激活？**
 
-## **When will the rewards and staking pools be activated?**
+* [追溯性挖矿奖励](../rewards/retroactive-mining-rewards.md)现已在协议中生效。这些奖励将持续到**中国时间2021年8月31日晚上11:00:00**。
+* [交易奖励](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md)现已在协议中生效。这些奖励将持续到**中国时间2026年8月3日晚上11:00:00**。
+* [流动性提供方奖励](../rewards/liquidity-provider-rewards.md)现已在协议中生效。这些奖励将持续到**中国时间2026年8月3日晚上11:00:00**。
+* [流动性质押池](../staking-pools/liquidity-staking-pool.md)现已在协议上运行。该资金池将持续到**中国时间2026年8月2日晚上11:00:00左右**\（准确时间戳：1785682798\）。
+* 在取消转让限制的0时段结束后几天，[保险资金质押池](../staking-pools/safety-staking-pool.md)将自动在协议上上线。该资金池将持续到**中国时间2026年9月7日晚上11:00:00左右**\（准确时间戳：1788793198\）。
 
-* The [Retroactive Mining Rewards](../rewards/retroactive-mining-rewards.md) are now live on the Protocol. These rewards will run until **August 31th, 2021, 15:00:00 UTC**.
-* The [Trading Rewards ](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md)are now live on the Protocol. These rewards will run until **August 3rd, 2026, 15:00:00 UTC**.
-* The [Liquidity Provider Rewards](../rewards/liquidity-provider-rewards.md) is now live on the Protocol. These rewards will run until **August 3rd, 2026, 15:00:00 UTC**.
-* The [Liquidity Staking pool ](../staking-pools/liquidity-staking-pool.md)is now live on the Protocol. This pool will run until **August 2nd, 2026, at approximately 15:00:00 UTC** (exact timestamp: 1785682798).
-* The [Safety Staking pool](../staking-pools/safety-staking-pool.md) will automatically go live on the Protocol a few days after the end of epoch 0 when transfer restrictions are lifted. This pool will run until **September 7th, 2026, at approximately 15:00:00 UTC** (exact timestamp: 1788793198).
+## dYdX治理是否可以修改时段时间表？
 
-## Can dYdX governance modify the epoch schedule?
+初始时段长度为`28天`，dYdX治理可以投票在指定限度内修改时段长度。最短时段和最长时段长度分别为`6天`和`92天`。
 
-The initial epoch length is `28 days`. dYdX governance can vote to modify epoch lengths, within the specified bounds. The minimum and maximum epoch lengths are `6 days` and `92 days`, respectively.
+## 停市窗口期是什么？
 
-## What is the Blackout Window?
+对于[流动性质押池](../staking-pools/liquidity-staking-pool.md)和[保险资金质押池](../staking-pools/safety-staking-pool.md)，对提现强制执行时段时间表，以便为池内资金的可用性提供可预测性和定期节奏。如果要在时段结束后能够提现质押人的资金，质押人必须请求在停市窗口期前解除质押资金。如果质押人不请求提现，那么质押人质押的资金将转入下一时段。
 
-For the [Liquidity Staking Pool](../staking-pools/liquidity-staking-pool.md) and the [Safety Staking Pool](../staking-pools/safety-staking-pool.md), an epoch schedule is enforced for withdrawals in order to provide predictability and a regular cadence for the availability of funds in the pool. A staker must request to unstake funds before the blackout window in order to be able to withdraw the staker's funds after the end of that epoch. If a staker does not request to withdraw, then the staker's staked funds are rolled over into the next epoch.
+流动性质押资金池和保险资金池的推荐的挂币窗口为`14天`，dYdX治理可以在规定的限额内投票修改停市窗口期。最短和最长停市窗口期分别为`3天`和`46天`。
 
-The recommended blackout window for each of the Liquidity Staking Pool and the Safety Pool is `14 days`. dYdX governance can vote to modify the blackout window, within the specified bounds. The minimum and maximum blackout windows are `3 days` and `46 days`, respectively.
+## 何时可以提现并转让赚取的DYDX奖励？
 
-## When can I withdraw and transfer my earned DYDX Rewards?
+通过[追溯性挖矿奖励](../rewards/retroactive-mining-rewards.md)、[交易奖励](../rewards/trading-rewards.md)和[流动性提供方奖励](../rewards/liquidity-provider-rewards.md)赚取的DYDX代币在每个时段结束时可以转让。DYDX持有人必须在时段结束后等待大约`7天`、（等待期**\），**才可以去申领代币。一旦代币被申领，它们就可以转让或委托给dYdX治理。
 
-Earned DYDX tokens via the [Retroactive Mining Rewards](../rewards/retroactive-mining-rewards.md), [Trading Rewards](../rewards/trading-rewards.md), and [Liquidity Provider Rewards](../rewards/liquidity-provider-rewards.md) are transferable at the end of each epoch. DYDX holders are required to wait approximately `7 days` (**Waiting Period**) after the end of the epoch to claim their tokens. Once tokens have been claimed, they can be transferred or delegated to dYdX governance.
+通过流动性质押资金池和保险资金质押池赚取的DYDX代币可以在每个区块中申领，并可以在特定时段内随时提现。
 
-Earned DYDX tokens via the Liquidity Staking pool and the Safety Staking pool are claimable every block and can be withdrawn at any time during a given epoch.
+**中国时间2021年9月8日晚上11:00:00**，即0时段结束后8天，初始转让限制将自动解除，届时，大约**8.11%**DYDX的供应将开始流通。
 
-On **September 8th, 2021 at 15:00:00 UTC**, 8 days after the end of Epoch 0, the initial transfer restrictions will be automatically lifted, at which point approximately **8.11%** of the DYDX supply will become liquid.
+## 等待期的目的是什么？在每个时段结束时，奖励如何存储？
 
-## What is the purpose of the Waiting Period? How are rewards stored at the end of every epoch?
+[追溯性挖矿奖励、](../rewards/retroactive-mining-rewards.md)[交易奖励](../rewards/trading-rewards.md)和[流动性提供方奖励](../rewards/liquidity-provider-rewards.md)储存在Merkle树，该树包含了自分配计划开始以来每个用户赚取的累计奖励。
 
-[Retroactive Mining Rewards](../rewards/retroactive-mining-rewards.md), [Trading Rewards](../rewards/trading-rewards.md), and [Liquidity Provider Rewards](../rewards/liquidity-provider-rewards.md) are stored in a Merkle tree, which contains the cumulative rewards earned by each user since the start of the distribution program.
+在每个时段结束时，Merkle根通过`MerkleDistributorV1`智能合约上的ChainLink预言机系统进行更新，以反映上一时段赚取的奖励。通过将提议的Merkle根设置为预言机合约回收的最新价值来进行更新。在`7天`的**等候期**过后，提议的Merkle根可以被激活。在等待期间，dYdX治理将有机会冻结Merkle根，以防止提议的根是不正确或恶意的。如果Merkle根不被冻结，那么新的Merkle根将被激活，用户可以从过去时段申领奖励。
 
-At the end of each epoch, the Merkle root is updated via the ChainLink oracle system on the `MerkleDistributorV1` smart contract to reflect rewards earned in the last epoch. An update is performed by setting the proposed Merkle root to the latest value returned by the oracle contract. The proposed Merkle root can be made active after a **Waiting Period** of `7 days` has elapsed. During the waiting period, dYdX governance has the opportunity to freeze the Merkle root, in case the proposed root is incorrect or malicious. If the Merkle root is not frozen, the new Merkle root is activated and users can claim their rewards from the past epoch.
+每当时段发生变化时，就会依次发生以下情况：
 
-Each time the epoch changes, the following occurs in order:
+* 当一个时段结束时，对上一时段的所有用户活动计算奖励数据。
+* 这些数据被添加到IPFS上的数据结构中，存储在固定的IPNS名称下。
+* ChainLink预言机系统也注意到时段的变化，并使用已知的IPNS名称查询最新奖励数据。
+* 每个预言机签名器都使用此奖励数据来计算每个用户新赚取的奖励。
+* 每个预言机签名器都要计算新累积的Merkle树和Merkle根。
+* 每个预言机签名器将Merkle树数据写入IPFS，并接收IPFS CID。\(它们应该计算同一棵树，因此应该收到相同的CID。\)
+* 如果预言机签名器就相同的值达成一致，那么奖励预言机将使用新的Merkle根、IPFS CID和时段号进行更新。
+* 一个预言机签名器\（或第三方\）调用公共函数`MerkleDismartrivatorV1.proweRoot()`将提议的Merkle根设置为新的预言机值。
+* 会有一个等待期，在此期间，治理者可以调用`MerkleDismartrivatorV1.paweRootUpdayes()`来阻止提议的Merkle根生效。
+* 等待期过后，一个预言机签名器\（或第三方\）调用公共函数`MerkleDismartrivatorV1.updateRoot()`致使提议的Merkle根变得活跃。
+* 一旦新的Merkle根活跃，用户就可以从上一时段申领奖励。
 
-* When an epoch ends, rewards data is calculated for all user activity from the last epoch.
-* This data is added to a data structure on IPFS, stored under a fixed IPNS name.
-* The ChainLink oracle system, also noticing the change in epoch, queries the latest rewards data using the known IPNS name.
-* Each oracle signer uses this rewards data to calculate newly earned rewards for each user.
-* Each oracle signer computes the new cumulative Merkle tree and Merkle root.
-* Each oracle signer writes the Merkle tree data to IPFS, receiving an IPFS CID. (They should have calculated the same tree and should therefore receive the same CID.)
-* If the oracle signers agree on the same values, then the RewardsOracle is updated with the new Merkle root, IPFS CID, and epoch number.
-* An oracle signer (or a third party) calls the public function `MerkleDistributorV1.proposeRoot()` to set the proposed Merkle root to the new oracle value.
-* A waiting period takes place, during which governance can call `MerkleDistributorV1.pauseRootUpdates()` to prevent the proposed Merkle root from taking effect.
-* After the waiting period, an oracle signer (or a third party) calls the public function `MerkleDistributorV1.updateRoot()` causing the proposed Merkle root to become active.
-* Once the new Merkle root is active, users are able to claim rewards from the last epoch.

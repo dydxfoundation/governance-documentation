@@ -1,146 +1,191 @@
 ---
-description: Overview of governance parameters.
+description: 治理参数概述。
+
 ---
 
-# Parameters
+# 参数
 
-**\[PARAMETERS PAGE IS UNDER DEVELOPMENT AND WILL BE UPDATED SOON]**
+**\[参数页面正在开发中，并很快将予以更新\]**
 
-At the time of launching governance, DYDX holders have immediate and irrevocable control over:
+在推出治理时，DYDX持有人对以下方面拥有直接和不可撤销的控制权：
 
-* Allocation of the community treasury
-* New token listings on the Protocol
-* Risk parameters for the Protocol
-* Capital allocations to market makers in the liquidity staking pool
-* Addition of new market makers to the liquidity staking pool
-* Determining safety staking pool payouts in the event of a loss
-* Changing any of the rewards and pools existing at launch
-* The governance contracts themselves
+* 社区金库的分配
+* 协议上的新代币上市
+* 协议的风险参数
+* 流动性质押池中做市商的资金分配
+* 向流动性质押池中添加新的做市商
+* 出现亏损时，确定保险资金质押池的支出额
+* 针对推出时便存在的任何奖励和资金池进行变更
+* 治理合约本身
 
-dYdX Governance has control over the parameters of the following contracts:
+dYdX治理对下列合约的参数拥有控制权：
 
-* [Timelock](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/voting-and-governance-process/parameters.md#timelock-parameters)
-* Priority Timelock
-* Governor
-* DYDX Token
-* Treasury
-* Merkle Distributor
-* Liquidity Staking
-* Safety Module
-* Stark Proxy
-* Stark Perpetual
+* [时间锁](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/voting-and-governance-process/parameters.md#timelock-parameters)
+* 治理者
+* DYDX代币
+* 资金库
+* Merkle分配器
+* 流动性质押
+* 保险模块
+* Stark代理
+* Stark永续合约
 
-## Timelock Parameters
+## 时间锁参数
 
-![](<../.gitbook/assets/image (77).png>)
+![](../.gitbook/assets/image%20%2877%29.png)
 
-## Governor Parameters
+## 治理者参数
 
-| Parameter         | Description                                                                   | Value          |
-| ----------------- | ----------------------------------------------------------------------------- | -------------- |
-| Voting Delay      | Delay (in blocks) between proposal creation and voting on the proposal        | 6,570 blocks   |
-| Add Executor role | Address that can add new executors                                            | Short Timelock |
-| Owner role        | Can change strategy / voting delay / unauthorize executors + owns other roles | Long Timelock  |
-
-
-
-## DYDX Token
-
-| Parameter | Description                                 | Value          |
-| --------- | ------------------------------------------- | -------------- |
-| Owner     | Can mint DYDX tokens after mint restriction | Short Timelock |
-
-
-
-## Rewards Treasury Parameters
-
-| Parameter   | Description                                            | Value          |
-| ----------- | ------------------------------------------------------ | -------------- |
-| Owner       | Can approve or transfer any token held by the treasury | Short Timelock |
-| Proxy Admin | Can upgrade the contract                               | Short Timelock |
+| 参数 | 说明 |  |
+| :--- | :--- | :--- |
+| 投票延迟 | 提议的创建和提议的投票之间的延迟\(在区块中\) | 6,570个区块 |
+| 添加执行器管理员 | 可以添加新执行器的地址 | 短时间锁 |
+| 所有者角色 | 可以更改战略/投票延迟/未经授权的执行器+拥有其他角色 | 长时间锁 |
 
 ##
 
-## Community Treasury Parameters
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">参数</th>
+      <th style="text-align:left">说明</th>
+      <th style="text-align:left">短时间锁执行器</th>
+      <th style="text-align:left">Merkle-Pauser执行器</th>
+      <th style="text-align:left">长时间锁执行器</th>
+      <th style="text-align:left">Starkware执行器</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">投票延迟</td>
+      <td style="text-align:left">提议的创建和提议的投票之间的延迟(在区块中)</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"></td>
+        <td style="text-align:left"></td>
+        <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">添加执行器管理员</td>
+      <td style="text-align:left">向授权执行器的名单添加新地址</td>
+      <td style="text-align:left">Y</td>
+      <td style="text-align:left">N</td>
+      <td style="text-align:left">N</td>
+      <td style="text-align:left">N</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">所有者角色</td>
+      <td style="text-align:left">
+        <ul>
+          <li>设置新的治理战略</li>
+          <li>设置新的投票延迟时间</li>
+          <li>删除授权执行器名单中的地址</li>
+          <li>拥有其他角色</li>
+        </ul>
+      </td>
+      <td style="text-align:left">N</td>
+      <td style="text-align:left">N</td>
+      <td style="text-align:left">Y</td>
+      <td style="text-align:left">N</td>
+    </tr>
+  </tbody>
+</table>
 
-| Parameter   | Description                                            | Value          |
-| ----------- | ------------------------------------------------------ | -------------- |
-| Owner       | Can approve or transfer any token held by the treasury | Short Timelock |
-| Proxy Admin | Can upgrade the contract                               | Short Timelock |
+## 资金归属者
+
+| 参数 | 说明 |  |
+| :--- | :--- | :--- |
+| 所有者 | 可以更新白名单；可以造币 | 短时间锁 |
+| 之前受限制的转让 | 允许转让的最小时间戳\（以秒为单位\） | 中国时间7月14日晚上11:00 + 28天 + 7天 + 1天 |
+| 造币量的最大百分比 | 代币所有者可造币量的最大百分比\(在造币限制结束后\) | 2 |
+
+## Merkle分配器
+
+| 参数 | 说明 | 奖励资金库 | 社区资金库 |
+| :--- | :--- | :--- | :--- |
+| 接收者 | 收到归属资金的地址 | 奖励资金库 | 社区资金库 |
+| 归属金额 + 预付金额 | 即将立即发送的代币数量+归属于接收者的代币数量 | 450,000,000 | 50,000,000 |
+| 归属金额 | 将分配给接收者的代币数量 | 374,616,438 | 50,000,000 |
+| 预付金额 | 即将立即发送给接收者的代币数量 | 75,383,562 | 0 |
+| 归属开始 | 归属开始时间 | 中国时间7月14日晚上11:00 | 中国时间7月14日晚上11:00 |
+| 归属悬崖 | 归属悬崖开始的时间\（并且代币实际上可以发送给接收者\） | 中国时间7月14日晚上11:00 | 中国时间7月14日晚上11:00 |
+| 归属结束 | 归属结束的时间 | 中国时间7月14日晚上11:00 + 5年 | 中国时间7月14日晚上11:00 + 5年 |
+| 资金库代理管理员 | 可以升级资金库合约 | 短时间锁 | 短时间锁 |
+| 资金库资金管理员 | 可以使用资金库资金 | 短时间锁 | 短时间锁 |
 
 ##
 
-## Merkle Distributor
+| 参数 | 说明 | 奖励资金库初始参数 | 社区资金库初始参数 | 短时间锁执行器 | Merkle-Pauser执行器 | 长时间锁执行器 | Starkware执行器 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 接收者 | 收到归属资金的地址 | 奖励资金库 | 社区资金库 |  |  |  |  |
+| 归属金额 + 预付金额 | 即将立即发送的代币数量+归属于接收者的代币数量 | 450,000,000 | 50,000,000 |  |  |  |  |
+| 归属金额 | 将分配给接收者的代币数量 | 374,616,438 | 50,000,000 |  |  |  |  |
+| 预付金额 | 即将立即发送给接收者的代币数量 | 75,383,562 | 0 |  |  |  |  |
+| 归属开始 | 归属开始时间 | 中国时间7月14日晚上11:00 | 中国时间7月14日晚上11:00 |  |  |  |  |
+| 归属悬崖 | 归属悬崖开始的时间\（并且代币实际上可以发送给接收者\） | 中国时间7月14日晚上11:00 | 中国时间7月14日晚上11:00 |  |  |  |  |
+| 归属结束 | 归属结束的时间 | 中国时间7月14日晚上11:00 + 5年 | 中国时间7月14日晚上11:00 + 5年 |  |  |  |  |
+| 资金库代理管理员 | 可以升级资金库合约 | 短时间锁 | 短时间锁 | Y |  |  |  |
+| 资金库资金管理员 | 可以使用资金库资金 | 短时间锁 | 短时间锁 | Y |  |  |  |
 
-| Parameter           | Description                                                                                                                    | Value                        |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------- |
-| Owner role          | Can update the rewards oracle address, update the IPNS name, and is admin of all roles                                         | Short Timelock               |
-| Config updater role | May set rewards parameters, change the epoch schedule, or change the IPFS update period                                        | Short Timelock               |
-| Pauser role         | Can pause updates to the merkle root                                                                                           | Merkle-pauser Timelock       |
-| Unpauser role       | Can unpause updates to the merkle root                                                                                         | Short Timelock               |
-| Claim operator role | May claim rewards on behalf of a user                                                                                          | Claims Proxy                 |
-| Interval            | Length of an epoch                                                                                                             | 28 days                      |
-| Offset              | Start of epoch zero                                                                                                            | August 3rd 15:00 UTC 2021    |
-| IPNS name           | IPNS name where rewards data is published                                                                                      | rewards-data.dydx.foundation |
-| IPFS update period  | Period of time after the epoch end after which the new epoch exchange statistics should be available on IPFS via the IPNS name | 3 minutes                    |
-| Proxy Admin         | Can upgrade the contract                                                                                                       | Short Timelock               |
+## 流动性质押
 
-##
+|  |  |  |
+| :--- | :--- | :--- |
+| 零时段开始 | 零时段开始的时间 | 中国时间7月14日晚上11:00 |
+| 时段长度 | 每个时段的长度 | 28天 |
+| 等待期 | 提议根和激活根之间的延迟 | 7天 |
+| 每个时段的用户交易奖励 | 向交易者分配每个时段的代币数量 | 3,835,616 |
+| 流动性提供者每个时段的交易奖励 | 为MMs分配每个时段的代币数量 | 1,150,685 |
+| 时段0的追溯性奖励 | 用于分配追溯性奖励的代币数量 | 75,000,000 |
+| 所有者角色 | 可以更改时段参数和奖励预言机 | 短时间锁 |
+| 暂停器角色 | 可以暂停待决根\（在其生效之前\） | Merkle时间锁 |
+| 撤销暂停器角色 | 可以解除对待决根的暂停 | 短时间锁 |
+| 申领运操作员角色 | 可以代表其他人申领 | 申领代理 |
+| 代理管理员 | 可以更新合约 | 短时间锁 |
 
-## Liquidity Staking
+## 保险模块
 
-| Parameter             | Description                                                                       | Value                                                               |
-| --------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| Owner role            | Admin of all roles                                                                | Short Timelock                                                      |
-| Epoch parameters role | May set epoch parameters such as the interval, offset, and blackout window        | Short Timelock                                                      |
-| Rewards rate role     | May set the emission rate of rewards                                              | Short Timelock                                                      |
-| Borrower admin role   | May set borrower allocations and allow/restrict borrowers from borrowing          | Short Timelock                                                      |
-| Claim operator role   | May claim rewards on behalf of a user                                             | Claims proxy                                                        |
-| Stake operator role   | May manipulate user's staked funds (e.g. perform withdrawals) on behalf of a user | Short Timelock                                                      |
-| Debt operator role    | May decrease borrow debt and decrease staker debt                                 | Short Timelock                                                      |
-| Interval              | Length of an epoch                                                                | 28 days                                                             |
-| Offset                | Start of epoch zero                                                               | August 3rd 15:00 UTC 2021                                           |
-| Blackout window       | Length of the blackout window                                                     | 14 days                                                             |
-| Rewards emission rate | Tokens allocated to stakers as rewards per second                                 | 0.1585489619 \* 10^18 (in wei)                                      |
-| Borrower allocations  | Percent of funds allocated to each borrower                                       | Wintermute 25%, Amber 25%, Sixtant 20%, Kronos 20%, DAT Trading 10% |
-| Proxy Admin           | Can upgrade the contract                                                          | Short Timelock                                                      |
+| 参数 | 说明 | 初始参数 |
+| :--- | :--- | :--- |
+| 零时段开始 | 零时段开始的时间 | 中国时间7月14日晚上11:00 |
+| 奖励结束 | 奖励停止分配给质押人的时间 | 中国时间7月14日晚上11:00 + 5年 |
+| 时段长度 | 每个时段的长度 | 28天 |
+| 停市窗口期长度 | 用户在时段结束前无法解除质押的时段 | 7天 |
+| 最小时段长度 | 最小允许时段长度 | 6天 |
+| 最大时段长度 | 最大允许时段长度 | 92天 |
+| 最小的停市窗口期长度 | 最小的可允许停市窗口期长度 | 3天 |
+| 最大的停市窗口期长度 | 最大的可允许停市窗口期长度 | 46天 |
+| 每秒奖励 | 在分发窗口内每秒作为奖励发出的代币 | 0.1585342262 = \(383,526 / \(28 \* 24 \* 60 \* 60\)\) |
+| 借款人分配 | 分配给每个借款人的资金百分比 | 待定 |
+| 所有者角色 | 以下所有角色的管理员 | 短时间锁 |
+| 时段参数角色 | 可以设置时段参数 | 短时间锁 |
+| 奖励比率角色 | 可以更改奖励比率 | 短时间锁 |
+| 借款人管理员角色 | 可以更改借款人的分配额/制约因素 | 短时间锁 |
+| 申领运操作员角色 | 可以代表其他人申领 | 申领代理 |
+| 质押操作员角色 | 可以代表其他人质押 | 未分配 |
+| 债务操作员角色 | 可以管理债务 | 未分配 |
+| 代理管理员 | 可以更新合约 | 短时间锁 |
 
-## Safety Module
+## Stark代理
 
-| Parameter             | Description                                                                       | Value                          |
-| --------------------- | --------------------------------------------------------------------------------- | ------------------------------ |
-| Owner role            | Admin of all roles                                                                | Short Timelock                 |
-| Slasher role          | Can slash staked token balances and withdraw those funds                          | Short Timelock                 |
-| Epoch parameters role | May set epoch parameters such as the interval, offset, and blackout window        | Short Timelock                 |
-| Rewards rate role     | May set the emission rate of rewards                                              | Short Timelock                 |
-| Claim operator role   | May claim rewards on behalf of a user                                             | Claims proxy                   |
-| Stake operator role   | May manipulate user's staked funds (e.g. perform withdrawals) on behalf of a user | Short Timelock                 |
-| Interval              | Length of an epoch                                                                | 28 days                        |
-| Offset                | Start of epoch zero                                                               | August 3rd 15:00 UTC 2021      |
-| Blackout window       | Length of the blackout window                                                     | 14 days                        |
-| Rewards emission rate | Tokens allocated to stakers as rewards per second                                 | 0.1585489619 \* 10^18 (in wei) |
-| Proxy Admin           | Can upgrade the contract                                                          | Long Timelock                  |
+| 参数 | 说明 | 流动性质押 |  |
+| :--- | :--- | :--- | :--- |
+| 所有者角色 | 拥有者、资金管理员和委托管理员角色+可以添加/删除接收资金的接收者+STARK密钥 | 做市商 |  |
+| 资金管理员角色 | 可以将超过借贷余额的资金提现给允许的接收者，并可以采取强制行动 | 做市商 |  |
+| 委托管理员角色 | 拥有借款人及交易所的作用 | 做市商 |  |
+| 借款人角色 | 可以通过LS1调用借款函数 | 做市商 |  |
+| 交易所角色 | 可调用交易所函数 | 做市商 |  |
+| 监护人角色 | 如果借款人有逾期债务，可以执行关闭操作，而且是强制执行 | 短时间锁 |  |
 
-## Stark Proxy
+## Stark永续合约
 
-| Parameter                | Description                                                                                                                                                                                                      | Value                  |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
-| Owner role               | Can add/remove recipients who receive funds + STARK keys, set ERC20 allowances on liquidity staking and stark perpetual contracts, call forced actions, and is admin of owner + delegation admin roles           | Market Maker           |
-| Delegation admin role    | Is admin of borrower, exchange operator, and withdrawal operator roles                                                                                                                                           | Market Maker           |
-| Borrower role            | May call borrow functions on the liquidity staking contract                                                                                                                                                      | Market Maker           |
-| Exchange operator role   | May call exchange functions on the stark perpetual contract                                                                                                                                                      | Market Maker           |
-| Withdrawal operator role | May withdraw funds in excess of the borrowed balance to an allowed recipient                                                                                                                                     | Market Maker           |
-| Guardian role            | May perform close actions, perform force actions if borrower has overdue debt, restrict open actions with borrowed funds, and approve a token amount to be withdrawn externally by the withdrawal operator role. | Short Timelock         |
-| Veto guardian role       | May veto forced trade requests initiated by the owner, during the waiting period                                                                                                                                 | Merkle-pauser timelock |
+| 参数 | 说明 | 短时间锁执行器 | Merkle-Pauser执行器 | 长时间锁执行器 | Starkware执行器 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 添加新资产 |  | N | N | N | Y |
+| 现有资产的变更配置 |  | N | N | N | Y |
+| 代理管理员 |  | N | N | N | Y |
+| 添加操作员 |  | N | N | N | Y |
+| 删除操作员 |  | N | N | N | Y |
+| 添加验证器 |  | N | N | N | Y |
+| 删除验证器 |  | N | N | N | Y |
 
-## Stark Perpetual
-
-| Parameter                              | Description | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
-| -------------------------------------- | ----------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
-| Add new asset                          |             | N                       | N                      | N                      | Y                  |
-| Change configuration of existing asset |             | N                       | N                      | N                      | Y                  |
-| Proxy admin                            |             | N                       | N                      | N                      | Y                  |
-| Add operator                           |             | N                       | N                      | N                      | Y                  |
-| Remove operator                        |             | N                       | N                      | N                      | Y                  |
-| Add verifier                           |             | N                       | N                      | N                      | Y                  |
-| Remove verifier                        |             | N                       | N                      | N                      | Y                  |

@@ -1,57 +1,59 @@
 ---
-description: Overview of key governance-related terms.
+description: 与治理有关的关键术语概述。
+
 ---
 
-# Glossary
+# 词汇表
 
-**DYDX:** The native asset of the DYDX ecosystem, which constitutes the foundation of governance and safety for the dUdX Protocol. DYDX is an ERC-20 token that designates the weight of a user’s voting or proposing power.
+**DYDX：**DYDX生态系统的本地资产，该生态系统的治理和安全构成dUdX协议的基础。DYDX是ERC-20代币，指定用户投票权或提议权的权重。
 
-**dYdX Protocol:** dYdX’s Layer 2 perpetuals protocol.
+**dYdX 协议：**dYdX的Layer 2永续协议。
 
-**dYdX Foundation:** an independent foundation, headquartered in Zug, Switzerland, was created to participate in propelling the dYdX Protocol into the future.
+**dYdX基金会：**一个独立基金会，总部设在瑞士楚格，目的是参与将dYdX协议推向未来。
 
-**DYDX Token contract**: has snapshots of each address’ voting power at different blocks in time.
+**DYDX代币合约**：在不同时间区块拥有每个地址的投票权的快照。
 
-**DIP:** dYdX Improvements Proposals are on-chain proposals.
+**DIP：**dYdX改进提议是链上的提议。
 
-**DRC**: dYdX Request for Comments are off-chain proposals and the first required step in the governance improvement process.
+**DRC**：dYdX请求评论是链下提议，也是治理改进进程的第一步。
 
-**Quorum:** In order for a vote to pass, it must achieve a minimum quorum of DYDX tokens in the affirmative. The purpose of the quorum is to ensure that the only measures that pass have adequate voter participation.
+**法定人数：**为了通过投票，必须在赞成票中达到DYDX代币的最低法定人数。法定人数的目的是确保有足够的选民参与通过唯一的措施。
 
-**Epoch:** All other contracts operate on 28-day cycles, referred to as epochs.
+**时段：**所有其他合约以28天周期运作，此周期称为时段。
 
-**Execution Grace Period:** The period after vote when a DIP proposa becomes executable, during which it must be executed.
+**执行宽限期：**投票后，DIP提议的可执行时间段，在此期间，必须执行。
 
-**Governance Strategy contract**: contains logic to measure users' relative power to propose and vote.
+**治理战略合约**：包含衡量用户提议和投票的相对权力的逻辑。
 
-**Governor contract**: tracks proposals and can execute proposals via the Timelock smart contract.
+**治理者合约**：跟踪提议并可以通过Timelock智能合约执行提议。
 
-**Long timelock executor:** The long timelock executor can execute proposals that generally change parts of the Protocol that affect governance consensus.
+**长时间锁执行器：**长时间锁执行器可以执行通常更改影响治理共识的那部分协议。
 
-**Merkle-pauser executor:** The Merkle-pauser executor can execute proposals that freeze the Merkle root, which is updated periodically with each user's cumulative reward balance, allowing new rewards to be distributed to users over time, in case the proposed root is incorrect or malicious.
+**Merkle-pauser执行器：**Merkle-pauser执行器可以执行冻结Merkle root的提议，Merkle root根据每个用户的累计奖励余额定期更新，以便在建议的根不正确或恶意的情况下，可以随着时间的推移向用户分配新的奖励。
 
-**Safety Pool:** Component in charge of shielding the protocol from insolvency.
+**保险资金池：**负责保护协议免于破产的组件。
 
-**Staked dYdX contract**: contains logics to stake DYDX tokens, tokenize the position and get rewards.
+**质押dYdX合约**：包含质押DYDX代币、标记位置并获得奖励的逻辑。
 
-**Short timelock executor:** The short timelock executor can execute proposals that generally change Rewards and Incentive contracts or the Community Treasury that require quick intervention.
+**短时间锁执行器：**短时间锁执行器可以执行通常更改奖励和激励合约或社区资金需要快速干预的提议。
 
-**Starkware executor:** The Starkware executor can execute proposals that generally change parts of the Protocol that currently require intervention from Starkware.
+**Starkware执行器：**Starkware执行器可以执行通常更改目前需要Starkware进行干预的部分协议的提议。
 
-**Timelock contract**: can queue, cancel, or execute transactions voted by Governance. The functions in a proposal are initiated by the Timelock contract. Queued transactions can be executed after a delay and until Grace period is not over.&#x20;
+**时间锁合约**：可以排队、取消或执行由治理投票的交易。提议中的功能由时间锁合约启动。排队的交易可以在延迟后进行，直到宽限期期限结束。
 
-**Timelock Delay:** The delay before a DIP proposal is executed after a proposal passes and is queued.
+**时间锁延迟：**DIP提议在提议通过后执行，并正在排队。
 
-**Proposal Theshold:** To prevent a system where countless spam proposals are created, a proposal threshold requires an address has a certain number of votes before they can make a proposal.
+**提议阈值：**为了防止一个创建无数垃圾邮件提议的系统，提议阈值要求地址在提出提议前获得一定数量的赞成票。
 
-**Proposing Power:** Token stake giving access to creating and sustaining a proposal.
+**提议权：**提供创建和维持提议的访问权的代币质押权益。
 
-**Voting Power:** Voting power which is used to vote for or against existing proposals.
+**投票权：**用于赞成或反对现有提议的投票权。
 
-**Voting Delay:** This is the length of time between which a proposal can be created and it is available to be voted upon. By requiring at least one block to pass, the governance is protected from Flash Loan attacks that might borrow a large number of tokens, propose a vote, and vote on it all in one block.
+**投票延迟：**这是可以创建提议并可以进行投票的间隔时间。通过要求至少一个区块通过，治理就受到保护，免遭可能借用大量代币、提议投票并以一个区块对它进行投票的闪电贷攻击。
 
-**Voting Period:** Once a DIP proposal has been put forward, DYDX community members will have to cast their votes before the end of the Voting Period. This is the length of time for which proposals are available to be voted upon, with time in Ethereum Blocks.
+**投票期：**一旦提出DIP提议，DYDX社区成员必须在投票期结束前进行投票。这是可以对提议进行投票的时长，时间在以太坊区块上。
 
-**Proposal Threshold:** Minimum tokens held/delegated required to create a DIP proposal.
+**提议阈值：**为创建DIP提议而持有/委托的最少代币。
 
-**Vote Differential:** Required yes–no gap for DIP proposal to pass.
+**投票差额：**通过DIP提议所需的赞成-反对票差额。
+

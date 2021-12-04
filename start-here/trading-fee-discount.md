@@ -1,9 +1,11 @@
 ---
-description: Holders receive trading fee discounts based on their current holdings
+description: 持有人根据其当前持有量获得交易费率折扣
+
 ---
 
-# Fee Discounts
+# 费率折扣
 
-dYdX Trading Inc. is currently offering DYDX holders trading fee discounts based on their current holdings of DYDX tokens. Traders can see their current DYDX holdings, fee tier, and trading fee discounts [**here**](https://trade.dydx.exchange/portfolio/fees). More information is also available on the dYdX Trading Help Center available [**here**](https://help.dydx.exchange/en/articles/4798040-perpetual-trade-fees).
+dYdX Trading Inc.目前正根据DYDX代币的现有持有量，为DYDX持有者提供交易费率折扣。交易者可以在[**此处**](https://trade.dydx.exchange/portfolio/fees)查阅他们当前DYDX持有量、费率等级和交易费率折扣。如需了解更多信息，请访问[**此处**](https://help.dydx.exchange/en/articles/4798040-perpetual-trade-fees)的dYdX交易帮助中心。
 
-![You may pay lower fees for holding DYDX tokens](<../.gitbook/assets/image (89).png>)
+![持有DYDX代币，您可能只需支付较低的费用](../.gitbook/assets/image%20%2887%29.png)
+
