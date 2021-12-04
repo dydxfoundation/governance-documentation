@@ -1,29 +1,31 @@
 ---
-description: An overview of the community treasury.
+description: 커뮤니티 트레저리에 대한 개요
+
 ---
 
-# Treasury
+# 트레저리
 
-`5.00%` of the initial token supply (`50,000,000 DYDX`) will be distributed to a community treasury to be allocated on an ongoing basis through contributor grants, community initiatives, liquidity mining, and other programs.
+초기 토큰 공급량\(`50,000,000 DYDX`\)의 `5.00%`는 커뮤니티 트레저리에 분배됩니다. 커뮤니티 트레저리는 기여자 그랜트, 커뮤니티 이니셔티브, 유동성 채굴 및 기타 프로그램을 통해 지속적으로 할당됩니다.
 
-**Objectives**
+**목표**
 
-* Fund programs and initiatives that drive the growth of dYdX.
-* Develop grant programs to fund community NFTs, hackathons, analytics dashboards, memes, swag, third-party tools, translations, and other projects.
-* Develop a best-in-class governance system and incentivize robust governance.
+* dYdX의 성장을 주도하는 프로그램 및 이니셔티브에 자금을 지원합니다.
+* 커뮤니티 NFT, 해커톤, 분석 대시보드, 밈, 스웨그, 타사 도구, 번역 및 기타 프로젝트에 자금을 제공하기 위한 그랜트 프로그램을 개발합니다.
+* 최고 수준의 거버넌스 시스템을 개발하고 강력한 거버넌스를 장려합니다.
 
-## Overview
+## 개요
 
-The community treasury will retain DYDX to use as DYDX holders decide, whether it be for grants, new liquidity mining pools, or any other program. DYDX will vest to the community treasury on a continuous basis over the course of five years. A governance vote will be required to spend any DYDX from the community treasury.
+커뮤니티 금고는 DYDX를 보유하여 보조금, 신규 유동성 채굴 풀 또는 기타 프로그램에 대해 사용할지 결정할 수 있습니다. DYDX는 5년간 지속되는 기준으로 커뮤니티 금고에 귀속됩니다. 커뮤니티 금고에서 모든 DYDX를 지출하려면 거버넌스 투표를 거쳐야 합니다.
 
-If, after five years, governance decides to enact perpetual inflation (at a maximum annual inflation of `2%`), any newly minted DYDX will be available to the community treasury.
+5년 후에 거버넌스가 영구 인플레이션\(연간 최대 `2%`의 인플레이션 수준\)을 시행하기로 결정하면, 새롭게 발행되는 DYDX는 커뮤니티 트레저리에서 사용할 수 있습니다.
 
 ## FAQ
 
-### Who can submit proposals to spend DYDX tokens from the Community Treasury?
+### 커뮤니티 트레저리에서 DYDX 토큰을 지출할 제안은 누가 제출할 수 있습니까?
 
-Any user with sufficient proposing power can submit proposals. A governance vote will be required to spend any DYDX from the community treasury. To submit a proposal, please submit a dYdX Improvement Proposal (DIP) as laid out in the [DIP Proposal Lifecycle](../voting-and-governance/dip-proposal-lifecycle.md).
+충분한 제안권을 보유한 사용자는 누구든 제안을 제출할 수 있습니다. 커뮤니티 금고에서 모든 DYDX를 지출하려면 거버넌스 투표를 거쳐야 합니다. 제안을 제출하려면 [DIP 제안 수명 주기](../voting-and-governance/dip-proposal-lifecycle.md)에 명시된 대로 dYdX 개선 제안\(DIP\)을 제출하십시오.
 
-### What types of proposals can be submitted to the Community Treasury?
+### 커뮤니티 트레저리에 어떤 유형의 제안을 제출할 수 있습니까?
 
-A community-managed treasury opens up a world of possibilities. We hope to see various experiments and initiatives, including ecosystem grants, which can foster the dYdX Layer 2 Protocol’s ecosystem growth.
+커뮤니티 관리 금고는 가능성의 세계를 열어 줍니다. 우리는 dYdX Layer 2 프로토콜의 생태계 성장을 촉진할 수 있는 생태계 보조금을 포함하는 다양한 실험 및 이니셔티브를 보고 싶습니다.
+

@@ -1,86 +1,84 @@
 ---
-description: Overview of the Trading Rewards program.
+description: 거래 보상 프로그램 개요
+
 ---
 
-# Trading Rewards
+# 거래 보상
 
-`25.00%` of the initial token supply (`250,000,000 DYDX`) will be distributed to users who trade on the dYdX Layer 2 Protocol based on a combination of fees paid and open interest.
+초기 토큰 공급량\(`250,000,000 DYDX`\)의 `25.00%`는 지불된 수수료와 미결제 약정의 조합을 기반으로 dYdX 레이어 2 프로토콜 상에서 거래하는 사용자에게 배포될 것입니다.
 
-**Objectives**
+**목표**
 
-* Incentivize all traders to use the dYdX Layer 2 Protocol.
-* Accelerate market liquidity and overall product usage.
+* dYdX Layer 2 프로토콜을 사용하도록 모든 트레이더를 장려합니다.
+* 시장 유동성 및 전반적인 상품 사용을 가속화합니다.
 
-## **Overview**
+## **개요**
 
-![Earn rewards by trading on the dYdX Layer 2 Protocol](<../.gitbook/assets/image (17).png>)
+![dYdX Layer 2 프로토콜 거래로 보상 획득하기](../.gitbook/assets/image%20%2814%29.png)
 
-DYDX will be distributed to traders based on a formula that rewards a combination of fees paid and open interest on the dYdX Layer 2 Protocol. DYDX will be distributed on a 28-day epoch basis over five years and is not subject to any vesting or lockups. 3,835,616 DYDX will be distributed per epoch.
+DYDX는 dYdX Layer 2 프로토콜에 대한 유료 및 미결제 이자의 조합을 보상으로 제공하는 공식을 기반으로 하여 트레이더에게 배포될 것입니다. DYDX는 5년 동안 28일 순환을 기준으로 배포될 예정이며 모든 베스팅 또는 락업에서 제외됩니다. 3,835,616 DYDX가 순환당 배포됩니다.
 
-The Cobb-Douglas function is used to compute how much DYDX is awarded to each trader during each epoch:
+콥-더글라스 함수는 각 에폭 동안 각 트레이더에게 지급되는 DYDX의 양을 계산하는 데 사용됩니다.
 
-$$
-w\ =\ f ^{\alpha } \times d \ ^{1-\alpha }
-$$
+$$ w\ =\ f ^{\alpha } \times d \ ^{1-\alpha } $$
 
-$$
-r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k
-$$
+$$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k $$
 
-| Term                         | Definition                                                                                               |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------- |
-| r                            | Reward for a specific trader.                                                                            |
-| R                            | Total reward to be split between all traders in the pool for the epoch.                                  |
-| f                            | Total fees paid by a trader in this epoch.                                                               |
-| w                            | Individual trader score.                                                                                 |
-| $${\sum\limits _{n} w_{n}}$$ | Sum of all trader scores.                                                                                |
-| d                            | A trader’s average open interest (measured every minute) across all markets in this epoch.               |
-| k                            | Total number of traders in this epoch.                                                                   |
-| α                            | A constant in the range that determines the weight of fees vs open interest. The initial value is α=0.7. |
+| 기간 | 정의 |
+| :--- | :--- |
+| r | 특정 트레이더에 대한 보상 |
+| R | 에폭 동안 풀에 있는 모든 트레이더 간에 분할될 총 보상 |
+| f | 이 에폭에서 트레이더가 지불하는 총 수수료입니다. |
+| 주 | 개별 트레이더 점수입니다. |
+| $${\sum\limits &lt;g id="1" ctype="italic" equiv-text="_"&gt;{n} w</g>{n}}$$ | 모든 트레이더 점수의 합계입니다. |
+| 일 | 이 에폭 내 모든 시장에 트레이더가 보유한 평균 미결제 약정\(시간당 측정\) |
+| k | 이 에폭 내 총 트레이더 수 |
+| α | 미결제 약정 대비 수수료의 가중치를 결정하는 범위 내 상수입니다. 초기 값은 α=0.7입니다. |
 
-The following example illustrates Trading Rewards earned by Traders A, B, and C using the formula listed above:
+다음 예는 위에 나열된 공식을 사용하여 트레이더 A, B 및 C가 획득한 거래 보상을 설명합니다.
 
-![An example distribution for Trading Rewards](<../.gitbook/assets/Frame 1208.png>)
+![거래 보상 배포 예시](../.gitbook/assets/image%20%2838%29.png)
 
 ## FAQ
 
-### Who is eligible for trading rewards?
+### 거래 보상을 받을 수 있는 자격은 무엇입니까?
 
-All traders on the dYdX Layer 2 protocol are eligible to receive DYDX as trading rewards.
+dYdX 레이어 2 프로토콜의 모든 트레이더는 거래 보상으로 DYDX를 받을 자격이 있습니다.
 
-The dYdX Layer 2 Protocol is not available to traders in the United States or Restricted Territories, as defined in dYdX Trading Inc.’s [Terms of Use](https://dydx.exchange/terms).
+dYdX 레이어 2 프로토콜은 dYdX Trading Inc.의 [이용 약관](https://dydx.exchange/terms)에 정의된 바와 같이 미국 또는 제한 지역의 유동성 공급자가 이용할 수 없습니다.
 
-### How much DYDX did I earn in the Trading Rewards program?
+### 거래 보상 프로그램에서 DYDX가 얼마나 적립되었습니까?
 
-In the current epoch, users can see fees paid, average open interest, and estimated trading rewards at [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) where users' trading data exists.
+현재 에폭에서 사용자는 사용자의 거래 데이터가 존재하는 [**trade.dydx.exchange/portion**](https://trade.dydx.exchange/portfolio/rewards)에서 지불한 수수료, 평균 미결제 약정, 예상 거래 보상을 확인할 수 있습니다.
 
-![Rewards info for the current epoch](<../.gitbook/assets/image (18).png>)
+![현재 에폭에 대한 보상 정보](../.gitbook/assets/image%20%2820%29.png)
 
-Rewards from past epochs can be viewed at [**dydx.community/history/rewards**](https://dydx.community/history/rewards) **** (coming soon).
+과거 에폭에서 얻은 보상은 [**dydx.community/boris/reward**](https://dydx.community/history/rewards) ****\(곧 제공 예정\)에서 확인할 수 있습니다.
 
-### How do I claim my Trading Rewards? When can I withdraw and transfer my earned DYDX?
+### 거래 보상을 어떻게 클레임할 수 있습니까? 제가 획득한 DYDX를 언제 인출하고 양도할 수 있습니까?
 
-Earned DYDX tokens via Trading Rewards will be transferable at the end of each epoch. DYDX token holders are required to wait approximately `7 days` (**Waiting Period**) after the end of the epoch to claim their tokens. Once tokens have been claimed, they can be used for dYdX governance.
+거래 보상을 통해 획득한 DYDX 토큰은 각 에폭이 종료될 때 양도할 수 있습니다. DYDX 보유자가 토큰을 클레임하려면 에폭이 종료되고 약 `7일`\(**대기 기간**\)을 기다려야 합니다. 토큰이 클레임되면 dYdX 거버넌스에 사용될 수 있습니다.
 
-Traders can claim their trading rewards at the end of every epoch, after the **Waiting Period**, [here](https://dydx.community/dashboard).&#x20;
+트레이더는 [여기](https://dydx.community/dashboard)에서 매 에폭이 끝날 때 **대기 기간** 후 거래 보상을 클레임할 수 있습니다.
 
-Users will need to click on "Claim", sign a transaction, and pay gas fees to claim DYDX.
+사용자는 DYDX를 클레임하려면 "클레임"를 클릭하고 거래에 서명하고 가스 수수료를 지불해야 합니다.
 
-![Portfolio overview of rewards](<../.gitbook/assets/image (20).png>)
+![보상 포트폴리오 개요](../.gitbook/assets/image.png)
 
-### What is Open Interest?
+### 미결제 약정은 무엇입니까?
 
-Total open interest is the USD value of all outstanding long or short positions (the total units of longs always equals the total units of shorts) for a given market. Increasing open interest represents new or additional money coming into the market while decreasing open interest indicates money flowing out of the market.
+총 미결제 약정은 주어진 시장에 대한 모든 미결제 롱 또는 숏 포지션의 USD 가치입니다\(롱의 총 유닛은 항상 숏의 총 유닛과 동일\). 미결제 약정이 증가하면 시장에 신규 또는 추가 자금이 유입되고 미결제 약정이 감소하면 시장에서 자금이 유출됩니다.
 
-Below is a table of trading activity for traders, A, B, C, D, and E. Open interest is calculated in USDC terms following the trading activity for each day:
+다음은 트레이더, A, B, C, D, E의 거래 활동 테이블입니다. 미결제 약정은 매일 거래 활동 후 USDC로 계산됩니다.
 
-| Time    | Trading Activity                                                           | Total Net Open Interest (USDC) |
-| ------- | -------------------------------------------------------------------------- | ------------------------------ |
-| July 1  | **Trader A** buys 1 BTC at $30,000 and **Trader B** sells 1 BTC at $30,000 | $30,000                        |
-| July 3  | **Trader C** buys 5 BTC at $30,000 and **Trader D** sells 5 BTC at $30,000 | $180,000                       |
-| July 5  | **Trader A** sells 1 BTC at $30,000 and **Trader D** buys 1 BTC at $30,000 | $150,000                       |
-| July 10 | **Trader E** buys 5 BTC at $30,000 and **Trader C** sells 5 BTC at $30,000 | $150,000                       |
+| 시간 | 거래 활동 | 총 순 미결제 약정\(USDC\) |
+| :--- | :--- | :--- |
+| 7월 1일 | **트레이더 A**는 1 BTC를 $30,000에 구매하고 **트레이더 B**는 1 BTC를 $30,000에 판매합니다. | $30,000 |
+| 7월 3일 | **트레이더 C**는 5 BTC를 $30,000에 구매하고 **트레이더 D**는 5 BTC를 $30,000에 판매합니다. | $180,000 |
+| 7월 5일 | **트레이더 A**는 1 BTC를 $30,000에 판매하고 **트레이더 D**는 1 BTC를 $30,000에 구매합니다. | $150,000 |
+| 7월 10일 | **트레이더 E** 는 5 BTC를 $30,000에 구매하고 **트레이더 C**는 5 BTC를 $30,000에 판매합니다. | $150,000 |
 
-In the context of the **Trading Rewards** formula, open interest is measured every minute (at a random time in each minute) across all markets and averaged across a given epoch to calculate rewards.
+**거래 보상** 공식의 맥락에서 매분(매분 임의의 시간에) 미결제 약정을 모든 시장에서 측정하고 주어진 에폭에 대해 평균을 계산하여 보상을 산정합니다.
 
-A trader's own open interest is the USD value of all of that trader's open positions. For the purposes of **Trading Rewards**, a trader's open interest is measured every minute (at a random time in each minute) across all markets and averaged across a given epoch.
+트레이더의 미결제 약정은 해당 트레이더의 모든 오픈 포지션의 USD 가치입니다. **거래 보상**의 목적으로 모든 시장에서 매시간(매시간 임의의 시간에) 트레이더의 미결제 약정을 측정하고 주어진 에폭에 대해 평균을 계산합니다.
+

@@ -1,57 +1,59 @@
 ---
-description: Overview of key governance-related terms.
+description: 주요 거버넌스 관련 용어 개요.
+
 ---
 
-# Glossary
+# 용어
 
-**DYDX:** The native asset of the DYDX ecosystem, which constitutes the foundation of governance and safety for the dUdX Protocol. DYDX is an ERC-20 token that designates the weight of a user’s voting or proposing power.
+**DYDX:** dYdX 프로토콜의 거버넌스 및 안전성의 기반을 구성하는 DYDX 생태계의 네이티브 자산. DYDX는 사용자의 투표권 또는 제안권의 가중치를 정하는 ERC-20 토큰입니다.
 
-**dYdX Protocol:** dYdX’s Layer 2 perpetuals protocol.
+**dYdX 프로토콜:** dYdX의 레이어 2 퍼페츄얼 프로토콜.
 
-**dYdX Foundation:** an independent foundation, headquartered in Zug, Switzerland, was created to participate in propelling the dYdX Protocol into the future.
+**dYdX Foundation:** 스위스 추크에 본사를 둔 독립적 재단으로, dYdX 프로토콜을 미래에 추진하기 위해 만들어졌습니다.
 
-**DYDX Token contract**: has snapshots of each address’ voting power at different blocks in time.
+**DYDX Token 계약:** 시간 블록별로 각 주소의 투표권에 대한 스냅샷을 제공합니다.
 
-**DIP:** dYdX Improvements Proposals are on-chain proposals.
+**DIP:** dYdX 개선 제안은 온-체인 제안입니다.
 
-**DRC**: dYdX Request for Comments are off-chain proposals and the first required step in the governance improvement process.
+**DRC**: dYdX 의견 요청은 오프체인 제안이며 거버넌스 개선 프로세스에서 첫 번째 필수 단계입니다.
 
-**Quorum:** In order for a vote to pass, it must achieve a minimum quorum of DYDX tokens in the affirmative. The purpose of the quorum is to ensure that the only measures that pass have adequate voter participation.
+**정족수:** 투표가 통과하려면 DYDX 토큰의 최소 찬성 정족수를 달성해야 합니다. 정족수의 목적은 통과된 법안만 적절한 유권자 참여를 갖도록 하는 것입니다.
 
-**Epoch:** All other contracts operate on 28-day cycles, referred to as epochs.
+**에포크:** 다른 모든 계약은 에포크라고 하는 28일 주기로 작동합니다.
 
-**Execution Grace Period:** The period after vote when a DIP proposa becomes executable, during which it must be executed.
+**실행 유예 기간:** 투표 후 DIP 제안이 실행 가능해지는 기간으로, 이 기간 동안 제안이 실행되어야 합니다.
 
-**Governance Strategy contract**: contains logic to measure users' relative power to propose and vote.
+**거버넌스 전략 계약:** 제안 및 투표에 대한 사용자의 상대적인 권한을 측정하는 논리가 포함되어 있습니다.
 
-**Governor contract**: tracks proposals and can execute proposals via the Timelock smart contract.
+**거버너 계약**: 제안을 추적하고 타임락 스마트 계약을 통해 제안을 실행할 수 있습니다.
 
-**Long timelock executor:** The long timelock executor can execute proposals that generally change parts of the Protocol that affect governance consensus.
+**장기 타임락 실행자 :** 장기 타임락 실행자는 거버넌스 합의에 영향을 미치는 프로토콜 일부를 일반적으로 변경하는 제안을 실행할 수 있습니다.
 
-**Merkle-pauser executor:** The Merkle-pauser executor can execute proposals that freeze the Merkle root, which is updated periodically with each user's cumulative reward balance, allowing new rewards to be distributed to users over time, in case the proposed root is incorrect or malicious.
+**머클-포저 실행자:** 머클-포저 실행자는 각 사용자의 누적 보상 잔액으로 주기적으로 업데이트 되는 머클 루트를 동결하는 제안을 실행할 수 있어 제안된 루트가 부정확하거나 악의적인 경우 시간이 지남에 따라 새로운 보상이 사용자에게 분배될 수 있습니다.
 
-**Safety Pool:** Component in charge of shielding the protocol from insolvency.
+**안전 풀:** 프로토콜을 지급불능으로부터 보호하는 역할을 하는 요소입니다.
 
-**Staked dYdX contract**: contains logics to stake DYDX tokens, tokenize the position and get rewards.
+**스테이킹된 dYdX 계약:** DYDX 토큰 스테이킹, 포지션 토큰화와 보상을 받기 위한 로직이 포함됩니다.
 
-**Short timelock executor:** The short timelock executor can execute proposals that generally change Rewards and Incentive contracts or the Community Treasury that require quick intervention.
+**단기 타임락 실행자:** 보상 및 인센티브 계약, 또는 신속한 개입이 필요한 커뮤니티 트레저리를 일반적으로 변경하는 제안을 실행할 수 있습니다.
 
-**Starkware executor:** The Starkware executor can execute proposals that generally change parts of the Protocol that currently require intervention from Starkware.
+**스타크웨어 실행자:** 현재 스타크웨어의 개입이 필요한 프로토콜 중 일부를 일반적으로 변경하는 제안을 실행할 수 있습니다.
 
-**Timelock contract**: can queue, cancel, or execute transactions voted by Governance. The functions in a proposal are initiated by the Timelock contract. Queued transactions can be executed after a delay and until Grace period is not over.&#x20;
+**타임락 계약**: 거버넌스가 투표한 트랜잭션을 대기열에 넣거나 취소하거나 실행할 수 있습니다. 제안에 대한 기능은 타임락 계약에 의해 시작됩니다. 대기 중인 트랜잭션은 지연 후 유예 기간이 끝나지 않을 때까지 실행할 수 있습니다.
 
-**Timelock Delay:** The delay before a DIP proposal is executed after a proposal passes and is queued.
+**타임락 연기:** 제안이 통과되어 대기열에 들어간 후 DIP 제안이 실행되기 전의 지연 시간입니다.
 
-**Proposal Theshold:** To prevent a system where countless spam proposals are created, a proposal threshold requires an address has a certain number of votes before they can make a proposal.
+**제안 임계값:** 무수한 스팸 제안이 생성되는 시스템을 방지하기 위해 제안 임계값은 제안을 만들기 전에 주소가 특정 투표 수를 보유할 것을 요구합니다.
 
-**Proposing Power:** Token stake giving access to creating and sustaining a proposal.
+**제안권:** 제안을 만들고 유지할 수 있는 액세스 권한을 제공하는 토큰 지분입니다.
 
-**Voting Power:** Voting power which is used to vote for or against existing proposals.
+**투표권:** 기존 제안에 대한 찬성 또는 반대 투표에 사용되는 투표 권한입니다.
 
-**Voting Delay:** This is the length of time between which a proposal can be created and it is available to be voted upon. By requiring at least one block to pass, the governance is protected from Flash Loan attacks that might borrow a large number of tokens, propose a vote, and vote on it all in one block.
+**투표 지연:** 제안이 생성될 수 있는 때와 투표가 가능한 때 사이의 시간입니다. 최소 하나의 블록이 지나는 것을 요구함으로써 거버넌스는 많은 토큰을 차용하고, 투표를 제안하고, 하나의 블록에서 모든 투표권을 행사할 수 있는 플래시 론 공격으로부터 보호를 받을 수 있습니다.
 
-**Voting Period:** Once a DIP proposal has been put forward, DYDX community members will have to cast their votes before the end of the Voting Period. This is the length of time for which proposals are available to be voted upon, with time in Ethereum Blocks.
+**투표 기간:** DIP 제안이 진행되면 DYDX 커뮤니티 구성원은 투표 기간이 끝나기 전에 투표해야 합니다. 이더리움 블록으로 제안에 투표를 행사할 수 있는 시간입니다.
 
-**Proposal Threshold:** Minimum tokens held/delegated required to create a DIP proposal.
+**제안 임계값**: DIP 제안을 생성하는 데 필요한 최소 보유/위임 토큰입니다.
 
-**Vote Differential:** Required yes–no gap for DIP proposal to pass.
+**투표 격차:** DIP 제안이 통과하는 데 필요한 예-아니요 격차를 말합니다.
+

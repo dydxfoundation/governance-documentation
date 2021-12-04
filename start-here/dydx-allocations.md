@@ -1,63 +1,59 @@
 ---
-description: Allocations for the DYDX token.
+description: DYDX 토큰의 할당
+
 ---
 
-# Allocations
+# 할당
 
-**Allocations**
+**할당**
 
-A total of `1,000,000,000 DYDX` have been minted, and will become accessible over five (5) years, starting on **August 3rd, 2021, at 15:00:00 UTC**. The initial five-year allocation of the total supply of DYDX is as follows:
+총 `1,000,000,000 DYDX`가 민팅되었으며 **2021년 8월 3일 15:00:00(UTC)**부터 향후 5년 동안 액세스할 수 있습니다. DYDX 총 공급의 초기 5년 할당은 다음과 같습니다.
 
-* **50.00%** (`500,000,000 DYDX`) to the community as follows:
-  * **25.00%** (`250,000,000 DYDX`) to users who trade on the dYdX Layer 2 Protocol based on a combination of fees paid and open interest ([**Trading Rewards**](../rewards/trading-rewards.md))
-  * **7.50%** (`75,000,000 DYDX`) to past users who complete certain trading milestones on the dYdX Layer 2 Protocol ([**Retroactive Mining Rewards**](../rewards/retroactive-mining-rewards.md))
-  * **7.50%** (`75,000,000 DYDX`) to liquidity providers based on a formula rewarding a combination of uptime, two-sided depth, bid-ask spreads, and the number of markets supported ([**Liquidity Provider Rewards**](../rewards/liquidity-provider-rewards.md))
-  * **5.00%** (`50,000,000 DYDX`) to a community treasury ([**Treasury**](community-treasury.md))
-  * **2.50%** (`25,000,000 DYDX`) to users staking USDC to a liquidity staking pool ([**Liquidity Module**](../staking-pools/liquidity-staking-pool.md))
-  * **2.50%** (`25,000,000 DYDX`) to users staking DYDX to a safety staking pool ([**Safety Module**](../staking-pools/safety-staking-pool.md))
-* **27.73%** (`277,295,070 DYDX`) to past investors
-* **15.27%** (`152,704,930 DYDX`) to founders, employees, advisors, and consultants of dYdX Trading or the Foundation
-* **7.00%** (`70,000,000 DYDX`) to future employees and consultants of dYdX Trading or the dYdX Foundation&#x20;
+* **50.00%**\(`500,000,000 DYDX`\)는 다음과 같이 커뮤니티에 할당됩니다.
+   * **25.00%**\(`250,000,000 DYDX`\)는 지불한 수수료 및 미결제 약정을 기반으로 dYdX 레이어 2 프로토콜에서 거래하는 사용자에게 할당됩니다\[(거래 보상\)](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/reward-pools-1/trading-rewards.md).
+   * **7.50%**\(`75,000,000 DYDX`\)는 dYdX 레이어 2 프로토콜에서 특정 거래 마일스톤을 완료한 과거 사용자에 할당됩니다\([소급 채굴 보상](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/reward-pools-1/retroactive-rewards.md)\).
+   * **7.50%**\(`75,000,000 DYDX`\)는 업타임, 양면 뎁스, 매수-매도 호가 스프레드, 지원 시장 수 보상하는 공식을 기반으로 유동성 공급자에게 할당됩니다\([유동성 공급자 보상](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/reward-pools-1/liquidity-provider-rewards.md)\).
+   * **5.00%**\(`50,000,000 DYDX`\)는 커뮤니티 트레저리에 할당됩니다\([커뮤니티 트레저리](community-treasury.md)\).
+   * **2.50%**\(`25,000,000 DYDX`\)는 유동성 스테이킹 풀에 USDC를 스테이킹하는 사용자에게 할당됩니다\([유동성 스테이킹 풀](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/staking-pools/liquidity-staking-pool.md)\).
+   * **2.50%**\(`25,000,000DYDX`\)는 안전 스테이킹 풀에 DYDX를 스테이킹하는 사용자에게 할당됩니다\([안전 스테이킹 풀](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/staking-pools/safety-pool-1.md)\).
+* **27.73%**\(`277,295,070 DYDX`\)는 과거 투자자에게 할당됩니다.
+* **15.27%**\(`152,704,930 DYDX`\)는 dYdX Trading 또는 Foundation의 설립자, 임직원, 고문 및 컨설턴트에게 할당됩니다.
+* **7.00%**\(`70,000,000 DYDX`\)는 dYdX Trading 또는 dYdX Foundation의 미래 임직원 및 컨설턴트에게 할당됩니다.
 
-![](<../.gitbook/assets/DYDX Allocations (Initial 5 Years).png>)
+![](../.gitbook/assets/dydx-allocations-initial-5-years-.png)
 
-Starting five years after launch, a maximum perpetual inflation rate of `2%` per year may be utilized by governance to increase the supply of DYDX, ensuring the community has the resources to continue the development and growth of the Protocol. Inflation must be enacted via a governance proposal and is capped at `2%` per year.
+출시로부터 5년 동안 연간 `2%`의 최대 무기한 인플레이션율을 거버넌스에서 활용하여 DYDX의 공급량을 늘리고, 이를 통해 커뮤니티는 프로토콜 개발 및 성장을 지속하기 위한 리소스를 확보할 수 있습니다. 인플레이션은 거버넌스 제안을 통해 제정되어야 하며 연간 `2%`로 제한됩니다.
 
-![](<../.gitbook/assets/Allocation 10 Years Inflation (1).png>)
+![](../.gitbook/assets/allocation-10-years-inflation%20%281%29.png)
 
-Although the community allocation has been established as laid out above, DYDX holders have full control via governance over how the community allocation is used going forwards.
+커뮤니티 할당이 상기 명시된 대로 제정되어 있더라도, DYDX 보유자는 거버넌스를 통해 앞으로의 커뮤니티 할당 사용 방식에 대한 완전한 통제 권한을 가집니다.
 
-## **FAQs**
+## **자주 묻는 질문**
 
-### **Can new DYDX tokens be minted?**
+### **새로운 DYDX 토큰을 발행할 수 있습니까?**
 
-Starting five years after launch, a maximum perpetual inflation rate of `2%` per year can be used to increase the supply of DYDX, ensuring the community has the resources to continue contributing to the dYdX Layer 2 Protocol.
+출시로부터 5년 동안, 연간 `2%`의 최대 무기한 인플레이션율을 사용하여 DYDX의 공급량을 늘리고, 이를 통해 커뮤니티는 dYdX 레이어 2 프로토콜에 지속적으로 기여하기 위한 리소스를 확보할 수 있습니다.
 
-Beginning on **July 14th, 2026 at 15:00:00 UTC**, dYdX governance can decide the maximum supply of new tokens to be minted, up to the maximum inflation rate of `2%` per year at each mint. Only one mint is possible in a given 365 day period. All newly issued tokens will be allocated by governance and will vest immediately. These newly issued tokens can then be sent to any address specified.
+**2026년 7월 14일 오후 15:00:00 UTC**부터 dYdX 거버넌스는 발행할 새로운 토큰의 최대 공급량을 결정할 수 있으며, 각 발행에 대한 인플레이션율은 연간 최대 `2%`입니다. 주어진 365일의 기간 동안 단 1회의 발행이 가능합니다. 새로 발행된 토큰은 거버넌스에 의해 할당되며 즉시 베스팅됩니다. 이후 새로 발행된 토큰을 지정된 모든 주소로 전송할 수 있습니다.
 
-### **What is the lockup for DYDX issued to investors, existing and future employees, and consultants?**
+### **투자자, 기존 및 향후 임직원 및 컨설턴트에게 발행되는 DYDX의 락업은 무엇입니까? **
 
-DYDX will be issued to stockholders, directors, officers, employees, and consultants of dYdX Trading and the Foundation. All DYDX distributed to these parties will initially be subject to contractual agreements, off-chain, mandating a lockup according to which:
+DYDX는 dYdX Trading 및 Foundation의 주주, 이사, 임원, 직원 및 컨설턴트에게 발행됩니다. 해당 당사자에게 배포되는 모든 DYDX는 오프체인이라는 계약 합의에 영향을 받게 되며, 다음에 따라 락업이 강제됩니다.
 
-* 30% of DYDX holdings will unlock after 18 months post-launch;
-* 40% will unlock equally from month 19 through month 24;
-* 20% will unlock equally from month 25 through month 36;
-* 10% will unlock equally from month 37 through month 48.
+* DYDX 보유량의 30%는 첫 출시 후 18개월이 지나면 언락됩니다.
+* 40%는 19개월부터 24개월까지 균등하게 언락됩니다.
+* 20%는 25개월부터 36개월까지 균등하게 언락됩니다.
+* 10%는 37개월부터 48개월까지 균등하게 언락됩니다.
 
-All employees and consultants also will be subject to various vesting schedules that could result in them losing their rights to DYDX. No employee’s or consultant’s receipt of DYDX is, or will in the future be, based on providing services related to the Protocol or other services that may benefit the Protocol. Instead, employees and consultants may receive DYDX for services that benefit only dYdX Trading, the dYdX Foundation or another party.
+모든 직원과 컨설턴트는 또한 DYDX에 대한 권리를 상실할 수 있는 다양한 베스팅 일정에 참여하게 됩니다.  임직원 또는 컨설턴트의 DYDX 수령은 프로토콜과 관련된 서비스 또는 프로토콜에 이익이 되는 기타 서비스 제공을 기반으로 하지 않으며, 향후에도 그럴 일은 없습니다. 대신, 직원과 컨설턴트는 dYdX Trading, dYdX Foundation 또는 다른 모임에 한해 혜택을 제공하는 서비스에 대한 DYDX를 받을 수도 있습니다.
 
-Regardless of any lockup on DYDX, investors and prior employees or consultants of dYdX Trading or the Foundation may use DYDX to make proposals, delegate votes, or vote on proposals related to the Protocol. Current employees and consultants of dYdX Trading or the Foundation will initially not make any proposals or participate in any votes but may do so in the future. Current employees and consultants of dYdX Trading or the Foundation may delegate votes without attempting to influence voting outcomes.
+dYdX Trading 또는 Foundation의 투자자 및 전 직원 또는 컨설턴트는 DYDX의 락업 여부와 관계없이 DYDX를 사용하여 프로토콜과 관련된 제안을 하거나 투표를 위임하거나 제안에 대한 투표를 할 수 있습니다. 현재 dYdX Trading 또는 Foundation 소속 임직원 및 컨설턴트는 처음에는 제안을 하거나 투표에 참여할 수 없으나, 향후에는 할 수 있습니다. 현재 dYdX Trading 또는 Foundation 소속 임직원 및 컨설턴트는 투표 결과에 영향을 미치려는 시도 없이 투표를 위임할 수 있습니다.
 
-All investors are required to comply with the transfer restriction enforced through contractual agreements with the dYdX Foundation. The dYdX Foundation tracks wallet addresses to determine whether any transfers have been made in violation of that restriction.
+## DYDX의 유동성 공급 곡선이란?
 
-While investors are technically and legally allowed to stake their DYDX to the Safety Module, in the event of a Shortfall Event and slashing of DYDX, investors would get slashed like every one else. At this time, they would be in default against their obligations. Investors would be required to purchase again any tokens that were transferred as a result of slashing so that everyone is in the same position. For this reason, we ask all investors to refrain from staking and request to withdraw any funds currently staked to the Safety Module.
+에폭 0의 종료 시점에서 `8일`이 지난 2021년 9월 8일에 해당 토큰의 초기 양도 제한이 해제되며 DYDX 공급량의 약 8.11%가 유동화될 것입니다.
 
-The dYdX Foundation has expressed its willingness to bring legal action against investors who do not comply with these requirements.
+다음 차트는 시간 경과에 따른 총 유동성 공급을 보여줍니다.
 
-## What is the liquid supply curve of DYDX?
+![](../.gitbook/assets/liquid-supply-schedule%20%282%29.png)
 
-On September 8, 2021, `8 days` after the end of Epoch 0, the initial transfer restrictions on the token will be lifted and approximately 8.11% of the DYDX supply will become liquid.&#x20;
-
-The following chart shows the total liquid supply over time:
-
-![](<../.gitbook/assets/Liquid Supply Schedule (2).png>)

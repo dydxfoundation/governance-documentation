@@ -1,67 +1,63 @@
 ---
-description: A high-level overview of governance architecture.
+description: 거버넌스 아키텍처에 대한 고급 개요
+
 ---
 
-# Architecture
+# 아키텍처
 
-## Overview
+## 개요
 
-DYDX grants holders the right to propose and vote on changes to the Protocol. DYDX governance is based on the AAVE governance contracts, and supports voting based on DYDX token holdings.
+DYDX 보유자는 프로토콜 변경을 제안하고 이에 대해 투표할 권리가 있습니다. DYDX 거버넌스는 AAVE 거버넌스 계약에 기반하며, DYDX 토큰 보유량을 기반으로 투표를 지원합니다.
 
-Proposals must pass a given threshold and percent of yes votes based on the type of proposal.
+제안은 제안 유형에 따라 주어지는 임계점 및 찬성 투표 백분율을 반드시 통과해야 합니다.
 
-These DYDX tokens can be used to make proposals or vote on governance proposals or be delegated to other Ethereum addresses.
+이러한 DYDX 토큰은 거버넌스 제안을 생성하거나 이에 대해 투표할 때 사용할 수 있으며, 다른 이더리움 주소로 위임할 수 있습니다.
 
-There are 6 smart contracts at the core of dYdX Governance:
+dYdX 거버넌스의 핵심에는 5개의 스마트 컨트랙트가 있습니다.
 
-* **The `DYDX Token` contract**: has snapshots of each address’ voting power at different blocks in time.
-* **The `Governance Strategy` contract**: contains logic to measure users' relative power to propose and vote.
-* **The `Safety Module` contract**: contains logics to stake DYDX tokens, tokenize the position and get rewards. Token staked the safety module retain full governance rights.
-* **The `Governor` contract**: tracks proposals and can execute proposals via the Timelock smart contract.
-* **The `Timelock` contracts**: can queue, cancel, or execute transactions voted by Governance. The functions in a proposal are initiated by the Timelock contract. Queued transactions can be executed after a delay and before the expiration of the grace period.&#x20;
-* **The `Priority Timelock` contract**: The same as the timelock contract, but allows a priority controller to execute transactions within the **Priority Period** (7 days) before the end of the timelock delay.&#x20;
+* **`DYDX 토큰` 계약**: 각기 다른 시간 블록에 기록된 각 주소의 투표권에 대한 스냅샷을 보유합니다.
+* **`거버넌스 전략` 계약**: 제안 및 투표에 대한 사용자의 상대적인 권한을 측정하는 로직을 포함합니다.
+* **`안전 모듈` 계약**: DYDX 토큰 스테이킹, 포지션 토큰화 및 보상 획득을 위한 로직을 포함합니다. 안전 모듈에 스테이킹된 토큰은 완전한 거버넌스 권한을 보유합니다.
+* **`거버너` 계약**: 제안을 추적하고 타임락 스마트 컨트랙트를 통해 제안을 실행할 수 있습니다.
+* **`타임락` 계약**: 거버넌스에서 투표한 거래를 대기열에 넣거나 취소하거나 실행할 수 있습니다. 제안 내 기능은 타임락 계약에 의해 시작됩니다. 대기 중인 거래는 딜레이 후 그리고 유예 기간 만료 전에 실행할 수 있습니다.
 
-![Smart contract architecture](<../.gitbook/assets/image (49).png>)
+![스마트 컨트랙트 아키텍처](../.gitbook/assets/image%20%2864%29.png)
 
-dYdX on-chain governance allows for:
+dYdX 온체인 거버넌스는 다음을 허용합니다.
 
-* Voting on proposals to be executed by any authorized executor contract
-* Snapshotting token holdings at the start of a proposal
-* Separate delegation of voting and proposing powers
-* Setting governance thresholds including proposals, quorums, and vote differential powers
-* Changing how votes are counted (by changing the “Governance Strategy” smart contract address on the Governor contract)
+* 승인된 실행자 계약을 통해 제안에 대한 투표 실행
+* 제안 시작 시 토큰 보유량 스냅샷 기록
+* 투표권 및 제안권 별도 위임
+* 제안, 정족수, 투표 격차를 비롯한 거버넌스 임계값 설정
+* '거버넌스 전략' 스마트 컨트랙트 대체(예: 스테이킹된 토큰에 대한 투표권을 포함하기 위해)
 
-## Proposal Types
+## 제안 유형
 
-There are four types of proposals with different parameters which affect the length and execution of a proposal, i.e. critical proposals that affect governance consensus require more voting time and a higher vote differential, whereas proposals affecting only protocol parameters require less voting time and can be quickly implemented. An executor must validate each type of proposal.
+제안 기간 및 실행에 영향을 미치는 파라미터가 서로 다른 4개의 제안 유형이 있습니다. 거버넌스 합의에 영향을 미치는 중요한 제안의 경우 투표를 비교적 오래 진행해야 하며 찬반표 격차가 커야 하지만, 프로토콜 파라미터에만 영향을 미치는 제안의 경우 투표를 빠르게 진행하고 빠르게 실행할 수 있습니다. 실행자는 각 제안 유형을 검증해야 합니다.
 
-#### **Short timelock executor**
+#### **단기 타임락 실행자**
 
-The short timelock executor controls the following:
+단기 타임락 실행자는 유동성 모듈, 안전 모듈 및 머클 분배자 모듈을 비롯한 인센티브 계약을 관리합니다. 또한, 보상 및 커뮤니티 트레저리의 자금을 통제합니다.
 
-* Incentive contracts including the Liquidity Module, Safety Module, and Merkle Distributor Module
-* funds in the Rewards and Community Treasuries
-* minting new tokens
-* all proxy contracts except the safety module
-* guardian roles on stark proxy contracts
+#### **Starkware 실행자**
 
-**Starkware priority timelock executor**
+Starkware 실행자는 StarkEx 퍼페추얼 거래소 계약을 소유합니다. dYdX 레이어 2 거래소의 구성을 통제하는 제안을 실행할 수 있습니다.
 
-The Starkware priority timelock executor owns the StarkEx Perpetual Exchange contract. It can execute proposals that control the configuration of the dYdX Layer 2 Exchange.
+실행할 조치에 따라 거래소 변경사항을 올바르게 이행하기 위해 Starkware 팀이 참여해야 할 수도 있습니다. 이러한 이유로 해당 실행자에게는 '우선순위 통제자' 역할이 주어지며, 이를 통해 Starkware는 제안 실행을 발동할 수 있을 경우에만 7일의 기간\(**우선순위 기간**\)을 부여받게 됩니다.
 
-Depending on the action to be taken, the Starkware team may need to be involved in order to correctly implement the change on the exchange. For this reason, this executor is provided with a “priority controller” role, which provides Starkware with a period of 7 days (**Priority Period**) in which only they have the ability to trigger execution of a proposal.
+Starkware는 _어떤_ 프로토콜 변경을 수행 여부를 제어하지 않습니다. DYDX의 보유자만이 dYdX 거버넌스를 통해 거래소 프로토콜의 변경을 승인 또는 거부할 수 있습니다.
 
-Starkware does not have control over _which_ protocol changes are made. Only DYDX tokenholders, via dYdX governance, have the ability to approve or deny changes to the exchange protocol.
+#### **장기 타임락 실행자**
 
-#### **Long timelock executor**
+장기 타임락 실행자는 거버넌스 합의에 영향을 미치는 프로토콜 중 일부를 일반적으로 변경하는 제안을 실행할 수 있습니다.
 
-The long timelock executor can execute proposals that generally change parts of the Protocol that affect governance consensus.
+#### **머클-파서 실행자**
 
-#### **Merkle-pauser executor**
+머클-파서 실행자는 머클 루트를 동결하는 제안을 실행할 수 있습니다. 이는 각 사용자의 누적 보상 잔액을 주기적으로 업데이트하고, 제안된 루트가 부정확하거나 악의적인 경우 시간이 경과함에 따라 사용자에게 새로운 보상을 배포할 수 있습니다.
 
-The Merkle-pauser executor can execute proposals that freeze the Merkle root, which is updated periodically with each user's cumulative reward balance, allowing new rewards to be distributed to users over time, in case the proposed root is incorrect or malicious. It can also veto forced trade requests by any of the stark proxy contracts.
+초기 타임락 파라미터는 다음과 같습니다.
 
-The initial timelock parameters are as follows:
+![초기 타임락 파라미터](../.gitbook/assets/initial-timelock-parameters.png)
 
-![Initial timelock parameters](<../.gitbook/assets/Initial Timelock Parameters.png>)
+
 

@@ -1,63 +1,51 @@
-# Table of contents
+# 목차
 
-* [Introduction](README.md)
+* [소개](README.md)
 
-## Start Here
+## 여기에서 시작
 
-* [Interface](start-here/dydx.community.md)
-* [Restrictions](start-here/restrictions.md)
-* [Allocations](start-here/dydx-allocations.md)
-* [Epochs](start-here/epochs.md)
-* [Fee Discounts](start-here/trading-fee-discount.md)
-* [Treasury](start-here/community-treasury.md)
+* [인터페이스](start-here/dydx.community.md)
+* [제한사항](start-here/restrictions.md)
+* [할당](start-here/dydx-allocations.md)
+* [에폭](start-here/epochs.md)
+* [수수료 할인](start-here/trading-fee-discount.md)
+* [트레저리](start-here/community-treasury.md)
 
-## Rewards
+## 보상
 
-* [Retroactive Mining Rewards](rewards/retroactive-mining-rewards.md)
-* [Trading Rewards](rewards/trading-rewards.md)
-* [Liquidity Provider Rewards](rewards/liquidity-provider-rewards.md)
+* [소급 채굴 보상](rewards/retroactive-mining-rewards.md)
+* [거래 보상](rewards/trading-rewards.md)
+* [유동성 공급자 보상](rewards/liquidity-provider-rewards.md)
 
-## STAKING POOLS
+## 스테이킹 풀
 
-* [Liquidity Module](staking-pools/liquidity-staking-pool.md)
-* [Safety Module](staking-pools/safety-staking-pool.md)
+* [유동성 모듈](staking-pools/liquidity-staking-pool.md)
+* [안전 모듈](staking-pools/safety-staking-pool.md)
 
-## Voting & Governance
+## 투표 및 거버넌스
 
-* [Architecture](voting-and-governance/governance-process.md)
-* [Proposal Lifecycle](voting-and-governance/dip-proposal-lifecycle.md)
-* [Voting Process](voting-and-governance/voting.md)
-* [Parameters](voting-and-governance/governance-parameters.md)
+* [아키텍처](voting-and-governance/governance-process.md)
+* [제안 수명 주기](voting-and-governance/dip-proposal-lifecycle.md)
+* [투표 프로세스](voting-and-governance/voting.md)
+* [파라미터](voting-and-governance/governance-parameters.md)
 
-## RESOURCES
+## 리소스
 
-* [Technical Overview](resources/technical-overview.md)
-* [Foundation](resources/dydx-foundation.md)
-* [Market Maker Onboarding](resources/market-maker-onboarding.md)
-* [Glossary](resources/glossary.md)
+* [기술 개요](resources/technical-overview.md)
+* [재단](resources/dydx-foundation.md)
+* [용어](resources/glossary.md)
 
-## External Links
+## 외부 링크
 
-* [Forums](http://forums.dydx.community)
-* [dYdX Layer 2](https://trade.dydx.exchange)
-* [dYdX Layer 2 API](https://docs.dydx.exchange)
+---
+
+* [포럼](http://forums.dydx.community/)
+* [dYdX Layer 2](https://trade.dydx.exchange/)
+* [dYdX Layer 2 API](https://docs.dydx.exchange/)
 * [dYdX Trading Inc.](https://dydx.exchange)
-* [Metrics Dashboard](http://metrics.dydx.exchange)
+* [측정치 대시보드](http://metrics.dydx.exchange/)
 
-## 挖矿简介 <a href="#chinese" id="chinese"></a>
+## 中文<a id="chinese"></a>
 
 * [DYDX 介绍](chinese/dydx-jie-shao.md)
-* [中文问答](chinese/zhong-wen-wen-da.md)
-* [追溯性挖矿教程](chinese/zhui-su-xing-wa-kuang-jiao-cheng.md)
-* [交易挖矿教程](chinese/jiao-yi-wa-kuang-jiao-cheng.md)
-* [DYDX领取教程](chinese/dydx-ling-qu-jiao-cheng.md)
 
-## 交易教程
-
-* [如何在dYdX上开空单（做空）](jiao-yi-jiao-cheng/ru-he-zai-dydx-shang-kai-kong-dan-zuo-kong/README.md)
-  * [如何在dYdX上开多单（做多）](jiao-yi-jiao-cheng/ru-he-zai-dydx-shang-kai-kong-dan-zuo-kong/ru-he-zai-dydx-shang-kai-duo-dan-zuo-duo.md)
-
-## 公告
-
-* [关于暂停保险质押池的通知](gong-gao/guan-yu-zan-ting-bao-xian-zhi-ya-chi-de-tong-zhi.md)
-* [Epoch 0回顾](gong-gao/untitled.md)
