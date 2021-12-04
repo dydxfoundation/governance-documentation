@@ -1,273 +1,273 @@
 ---
-description: An overview of the Liquidity Staking Pool
+description: 流動性ステーキングプールの概要
+
 ---
 
-# Liquidity Module
+# 流動性モジュール
 
-`2.50%` of the initial token supply (`25,000,000 DYDX`) will be distributed to users staking USDC to the liquidity staking pool.
+流動性ステーキングプールにUSDCをステーキングするユーザーには、初回のトークン提供額\（`2,500万DYDX`\）の`2.50％`が分配されます。
 
-### Objectives
+### 目的
 
-* Incentivize the allocation of USDC for market-making purposes on the dYdX Layer 2 protocol.
-* Allocate capital to top-performing liquidity providers to increase spread, depth, and uptime on dYdX.
+* USDC割り当てを促進して、dYdXレイヤ2プロトコルでのマーケットメイキングを実現。
+* 優秀な流動性プロバイダーに資本を割り当て、dYdXのスプレッド、デプス、稼働時間を増やす。
 
-Start staking at [**dydx.community/dashboard/pools/liquidity**](https://dydx.community/dashboard/pools/liquidity)**.**
+ステーキングを開始するには[**dydx.community/dashboard/pools/liquidity**](https://dydx.community/dashboard/pools/liquidity)からアクセスしてください**。**
 
-## **Staking** Overview
+## **ステーキング**概要
 
-Liquidity is a core component of any successful exchange. To promote liquidity network effects and incentivize professional liquidity providers, DYDX will be distributed to users who stake USDC to the liquidity staking pool. Community-approved liquidity providers will use the staked USDC to make markets on the dYdX Layer 2 Protocol, furthering the liquidity available across the markets. Liquidity providers are restricted from using borrowed funds outside of the dYdX Layer 2 Protocol.
+流動性は、トレードを成功させる上で必須要素です。流動性ネットワーク効果を促進し、プロ意識のある流動性プロバイダーのモチベーションを高めるために、流動性ステーキングプールへUSDCをステーキングするユーザーに対してDYDXが提供されます。コミュニティ承認済みの流動性プロバイダーは、ステーキングされたUSDCでdYdXレイヤ2プロトコルにマーケットを構築するとともに、マーケット全体で有効な流動性を促進します。流動性プロバイダーは、dYdXレイヤ2プロトコル以外で借入した資金の使用が制限されています。
 
-Stakers will earn DYDX rewards for staking USDC. DYDX rewards will be distributed continuously according to each staker’s portion of the total USDC in the pool.&#x20;
+ステーカーは、USDCのステーキングに対してDYDXの報酬を獲得することになります。DYDXの報酬は、各ステーカーの割り当て分に従い、プールされているUSDC総額から継続的に分配されることになります。
 
-Each staker and liquidity provider is required to become party to the Revolving Credit Agreement (link [here](https://dydx.foundation/revolving-credit-agreement)). The agreement puts into natural language the terms of the liquidity staking pool to give each staker an enforceable right against any liquidity provider who does not repay the borrowed USDC. The agreement is only between each staker and each liquidity provider. The dYdX Foundation is not a party to the agreement and has no rights or obligations under it.
+各ステーカーおよび流動性プロバイダーは、リボルビングクレジット契約\（リンクは[こちら](https://dydx.foundation/revolving-credit-agreement)\）の会員になる必要があります。契約においては、借入したUSDCを返済しない流動性プロバイダーに対して各ステーカーに強制力のある権限を与えるため、流動性ステーキングプールの条件が自然言語に置き換えられます。各ステーカーと各流動性プロバイダー間のみの契約になります。dYdXファンデーションは契約の当事者ではなく、その契約に係る権限または義務も有しません。
 
-## USDC Unstaking & Withdrawals
+## USDCのステーキング解除および出金
 
-A staker must request to withdraw USDC at least `14 days` (**Blackout Window**) before the end of an [**epoch**](../start-here/epochs.md) in order to be able to withdraw the staker's USDC after the end of that epoch. If stakers do not request to withdraw, their staked USDC is rolled over into the next epoch.
+エポックの終了後にステーカーがUSDCを出金できるようにするには、ステーカーは、[**エポック**](../start-here/epochs.md)終了の遅くても`14日`\（**ブラックアウトウィンドウ**\）前までに出金をリクエストする必要があります。ステーカーが出金をリクエストしない場合、ステーキングされたUSDCは次のエポックにロールオーバーされます。
 
-Withdrawals cannot be requested during the **Blackout Window**.
+**ブラックアウトウィンドウ**の間は、出金をリクエストすることができません。
 
-## Staking Risks
+## ステーキングのリスク
 
-Borrowers from the pool are not required to lock collateral. All borrowers are professional and reputable liquidity providers. The list of allowed borrowers and their pool allocations are updatable by governance.
+プールの借入者は、担保をロックする必要はありません。借入者は全員、信頼できるプロの流動性プロバイダーです。許可された借入者およびプール割り当てのリストは、ガバナンスにより更新されます。
 
-When users request to withdraw USDC, a borrower’s allocated balance for the next epoch may drop below the borrower's currently borrowed amount. In this situation, the borrower is responsible for paying back the difference between its borrowed and allocated balances before the end of the epoch.
+ユーザーがUSDCの出金をリクエストすると、次のエポックで割り当てされる借入者の残高は、現在の借入額を下回る場合があります。この場合、借入者はエポックの終了前に、借入と割り当ての残高の差額を返済する責任があります。
 
-If a borrower fails to repay an owed balance back to the pool by the end of the epoch, it is considered to be in default and is disallowed from borrowing further USDC until the debt is repaid. Stakers may lose USDC in the event a borrower never repays a debt. Stakers can lose a portion of staked USDC if a market maker were to lose USDC and be unable to replenish the liquidity staking pool.
+借入者がエポックの終了までに未払い額をプールに返済できない場合、支払の不履行と判断され、借入（債務）が返済されるまで、USDCを追加で借り入れることができなくなります。借入者が債務を返済しない場合、ステーカーはUSDCを喪失するおそれがあります。マーケットメーカーがUSDCを喪失し、流動性ステーキングプールを補填できなくなると、ステーカーはステーキングされたUSDCの一部を喪失するおそれがあります。
 
-Stakers also are exposed to smart contract risk if there is a vulnerability in the underlying smart contract code. All DYDX & governance smart contracts have been audited and rigorously tested.
+また、基礎となるスマートコントラクトコードに脆弱性が存在する場合、ステーカーはスマートコントラクトのリスクにさらされるおそれもあります。DYDXおよびガバナンスのスマートコントラクトはすべて監査され、厳密に検証されています。
 
-To reduce the risk to stakers, each staker and liquidity provider will be required to become party to the Revolving Credit Agreement (link [here](https://dydx.foundation/revolving-credit-agreement)), but entering into the agreement does not ensure that a liquidity provider will repay all amounts borrowed, even if a staker's rights under the agreement are enforced.&#x20;
+ステーカーのリスクを軽減するため、各ステーカーおよび流動性プロバイダーは、リボルビングクレジット契約\（リンクは[こちら](https://dydx.foundation/revolving-credit-agreement)\）の会員になる必要があります。ただし、契約の締結は、ステーカーの権利が契約の下で施行されても、流動性プロバイダーが借入を全額返済することを保証するものではありません。
 
-## Approved Borrowers
+## 承認済み借入者
 
-The Liquidity Staking Pool contract operates as a two-sided, under-collateralized, interest-free liquidity system.
+流動性ステーキングプールコントラクトは、両方向の無担保型の流動性システムとして運用されます。
 
-The amount that can be withdrawn depends on a borrower's allocation percentage and the total available USDC staked in the pool. Both the allocation percentage and total available USDC can change, at predefined times specified by `LS1EpochSchedule`. The borrowed USDC may only be used on dYdX’s Layer 2 Protocol — this is enforced via the`StarkProxy`contract which interacts with the`StarkEx Perpetual Exchange`contract.
+出金できる額は、借入者の割り当て比率やプールにステーキングされているUSDC総額によって異なります。割り当て比率と利用可能なUSDC総額はいずれも、`LS1EpochSchedule`で指定された所定の時間に変更することが可能です。借入したUSDCは、dYdXレイヤ2プロトコルでのみ使用できます。これは、`StarkExパーペチュアル取引`コントラクトと連携する`StarkProxy`コントラクトにより施行されるものです。
 
-The initially approved liquidity providers include `Wintermute`, `Amber Group`, `Wootrade (Kronos)`, `Sixtant`, and `DAT Trading`, who have been actively market-making on the dYdX Layer 2 Protocol.
+古くから承認されている流動性プロバイダーには、dYdXレイヤ2プロトコルで積極的にマーケットメイキングを行っている`Wintermute`、`Amber Group`、`Wootrade（Kronos）`、`Sixtant`、`DAT Trading`が挙げられます。
 
-| Pre-approved Borrowers | Initial Allocation Percentage | Ethereum Address                           | StarkProxy                                                                                                            | Details on Liquidity Providers                                                                                                                                                         |
-| ---------------------- | ----------------------------- | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Wintermute             | 25%                           | 0x4f3a120E72C76c22ae802D129F599BFDbc31cb81 | 0x0b2B08AC98a1568A34208121c26F4F41a9e0FbB6                                                                            | [https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/](https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/)                             |
-| Amber Group            | 25%                           | 0x4f3a120E72C76c22ae802D129F599BFDbc31cb81 | [0x3e6E9EFb0A677a24F47093a22044dc5451A028cF](https://etherscan.io/address/0x3e6E9EFb0A677a24F47093a22044dc5451A028cF) | [https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/](https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/)                           |
-| Wootrade (Kronos)      | 20%                           | 0x38d981c3c42b2ec8e9572f560552407d0f1279fb | [0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06](https://etherscan.io/address/0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06) | [https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/](https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/) |
-| Sixtant                | 20%                           | 0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c | [0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2](https://etherscan.io/address/0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2) | [https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/](https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/)                                   |
-| DAT Trading            | 10%                           | 0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c | [0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874](https://etherscan.io/address/0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874) | [https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/](https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/)                           |
+| 事前承認済みの借入者 | 当初の割り当て比率 | イーサリアムアドレス | 流動性プロバイダーに関する詳細 |
+| :--- | :--- | :--- | :--- |
+| Wintermute | 25％ | 0x4f3a120E72C76c22ae802D129F599BFDbc31cb81 | [https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/](https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/) |
+| Amber Group | 25％ | 0x39ad99e33ab7ee85818741dd6076112188bc2611 | [https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/](https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/) |
+| Wootrade\(Kronos\) | 20％ | 0x38d981c3c42b2ec8e9572f560552407d0f1279fb | [https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/](https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/) |
+| Sixtant | 20％ | 0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c | [https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/](https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/) |
+| DAT Trading | 10% | 0x940ab7307c7971f9284ba9c19b3313600d79c48a | [https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/](https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/) |
 
-## Staked Balance Accounting
+## ステーキングされた残高の計算
 
-A staked balance is in one of two states:
+ステーキングされた残高は、次の2つのいずれかの状態になっています。
 
-* **Active**: Available for borrowing; earns staking rewards; cannot be withdrawn by the staker.
-* **Inactive**: Unavailable for borrowing; does not earn rewards; can be withdrawn by the staker.
+* **アクティブ**：借入可能。ステーキング報酬の獲得あり。ステーカーによる出金不可。
+* **非アクティブ**：借入不可。報酬の獲得なし。ステーカーによる出金可能。
 
-A staker may have a combination of active and inactive balances. USDC is accounted for epoch-by-epoch as shown in the following example:
+ステーカーによっては、アクティブな残高と非アクティブな残高の組み合わさっている場合があります。以下の例に示すように、USDCはエポックごとに構成されています。
 
-![Staked balance accounting ](<../.gitbook/assets/image (34).png>)
+![ステーキングされた残高の計算](../.gitbook/assets/image%20%2830%29.png)
 
-The following operations affect staked balances as follows:
+ステーキングされた残高に関する操作は次のとおりです。
 
-* **Deposit**: Increase active balance.
-* **Request withdrawal**: At the end of the current epoch, move some active USDC to inactive.
-* **Withdraw**: Decrease inactive balance.
-* **Transfer**: Move some active USDC to another staker.
+* **デポジット**：アクティブな残高が増えます。
+* **出金リクエスト**：現在のエポックの終了時に、一部のUSDCがアクティブから非アクティブに変更されます。
+* **出金**：非アクティブな残高が減ります。
+* **移動**：アクティブなUSDCが一部別のステーカーに移動します。
 
-To encode the fact that a balance may be scheduled to change at the end of a certain epoch, each balance is stored as a struct of three fields: currentEpoch, currentEpochBalance, and nextEpochBalance. Inactive user balances also make use of the shortfallCounter field.
+特定のエポックの終了時に残高が変わる予定があることをコードで表すには、各残高をcurrentEpoch、currentEpochBalance、nextEpochBalanceの3フィールド構造で保存します。また、非アクティブなユーザー残高は、shortfallCounterフィールドも使用します。
 
-### What is stkUSDC?
+### stkUSDCとは何ですか？
 
-USDC holders who deposit and stake their USDC into the Liquidity Staking Pool will receive a tokenized position (**stkUSDC**). stkUSDC is minted when a user stakes USDC, and is burned when a user calls `withdrawStake`. In the same transaction that USDC leaves a staker's wallet, stkUSDC enters the staker's wallet; or vice-versa when unstaking.
+USDCを流動性ステーキングプールに入金およびステーキングするUSDC保有者は、トークン化されたポジション\(**stkUSDC**\)を受け取ります。ユーザーがUSDCをステーキングすると、stkUSDCが発行され、ユーザーが`withdrawStake`を要求すると、stkUSDCが消費されます。同一のトランザクション内で、USDCがステーカーのウォレットから出ていき、stkUSDCがウォレットに入ってきます。ステーキングを解除すると、出入りが逆になります。
 
-A stkUSDC balance can be active or inactive. Active stkUSDC can be transferred as an ERC-20, but cannot be withdrawn. Inactive stkUSDC can be withdrawn, but cannot be transferred. For example, a user may have 100 active and 100 inactive stkUSDC in their wallet, and the user's balance will show 200 stkUSDC, but a transfer will revert if the user tries to transfer more than 100 stkUSDC.
+stkUSDCの残高は、アクティブまたは非アクティブにすることができます。アクティブなstkUSDCは、ERC-20として移動はできますが、出金はできません。非アクティブなstkUSDCは、出金はできますが、移動はできません。たとえば、ユーザーがウォレットにアクティブおよび非アクティブなstkUSDCをそれぞれ100個ずつ有している場合、ユーザー残高は200stkUSDCと表示されますが、ユーザーが100個以上のstkUSDCを移動しようとすると、移動は取り消されてしまいます。
 
-A staked balance for which the staker has requested a withdraw prior to the end of epoch would be considered inactive, and therefore not transferable.
+## **ステーカー**に関するFAQ
 
-## **Stakers** FAQ
+### ステーキング報酬を獲得するにはどうすればよいですか？
 
-### How do I earn staking rewards?
+ステーカーは、流動性ステーキングプールにいつでもUSDCを入金し、即座に報酬の獲得を開始することができます。DYDXの報酬は、各ステーカーが共有するプール総額に応じて、秒単位で継続的に獲得することができます。報酬の請求および出金はいつでも可能です。
 
-Stakers can deposit USDC at any time to the liquidity staking pool and start earning rewards immediately. DYDX rewards are earned on a continuous basis according to each staker’s share of the total pool on a second-by-second basis. Rewards can be claimed and withdrawn at any time.
+アクティブな状態である間は、ステーキングされたUSDCにより報酬を獲得することができます。これは、USDCの一部出金をリクエストした後も、エポックの終了までUSDCにより引き続き報酬を獲得できることを意味します。例：
 
-Staked USDC earns rewards for the period of time that it remains active. This means that after requesting a withdrawal of some USDC, that USDC will continue to earn rewards until the end of the epoch. For example:
+![報酬の計算](../.gitbook/assets/image%20%2860%29.png)
 
-![Rewards accounting](<../.gitbook/assets/image (65).png>)
+上記のシナリオの場合、ユーザーは**Time0**から**Time2**までの期間で報酬を獲得しますが、ステーキングされた総残高によって変動します。ユーザーが、残高の一部を出金リクエストしただけであれば、残りの残高により**Time2**以降も引き続き報酬を獲得することになります。
 
-In the above scenario, the user would earn rewards for the period from **Time0** to **Time2**, varying with the total staked balance in that period. If the user only requests a withdrawal for a part of the user's balance, then the remaining balance would continue earning rewards beyond **Time2**.
+### 流動性プールにUSDCを入金してステーキングするにはどうすればよいですか？
 
-### How do I deposit and stake USDC to the Liquidity Pool?
+流動性プールにUSDCをステーキングするには、以下の手順に従います。
 
-To stake USDC to the Liquidity Pool, follow these steps:
+* [https://dydx.community/dashboard/pools/liquidity](https://dydx.community/dashboard/pools/liquidity)にアクセスします
+* [ステーキングする]をクリックします
+* 初めて入金する場合は、USDCを有効にする必要があります。この操作が必要なのは1回だけで、さらにガス手数料の支払いも1回だけです。
+* プールにステーキングするUSDCの額を入力します。
+* 「資金をステーキング」をクリックします。ステーキング、出金リクエスト、USDCの出金を行うには、ガス手数料を支払う必要があります。
 
-* Go to [https://dydx.community/dashboard/pools/liquidity](https://dydx.community/dashboard/pools/liquidity)
-* Click on “Stake”
-* You must enable USDC the first time you deposit. You will only have to do this once and pay gas fees only once.
-* Enter the amount of USDC you want to stake to the pool.
-* Click “Stake Funds” - you will need to pay gas fees to stake, request to withdraw, and withdraw USDC.
+![](../.gitbook/assets/image%20%2859%29.png)
 
-![](<../.gitbook/assets/image (57).png>)
+今すぐステーキングされたUSDCをアクティブ化し、ただちに報酬の獲得を開始しましょう。
 
-Staked USDC us now active and start earning rewards immediately.
+USDCをスマートコントラクトに直接入金およびステーキングするには、ユーザーは`stake`関数を呼び出します。また、`stakeFor`関数を呼び出して、他のアドレスに代わってUSDCを入金およびステーキングすることもできます。ユーザーがUSDCをスマートコントラクトに直接ステーキングした場合でも、リボルビングクレジット契約\（リンクは[こちら](https://dydx.foundation/revolving-credit-agreement)から\）に関して通知され、確認をしているものとみなされます。
 
-To deposit and stake USDC directly on the smart contract, users call the`stake`function. Users can also deposit and stake USDC on behalf of another address by calling the`stakeFor`function. Even if you stake USDC directly on the smart contract, you will be deemed to have notice of, and reviewed, the Revolving Credit Agreement (link [here](https://dydx.foundation/revolving-credit-agreement)).
+### ブラックアウトウィンドウとは何ですか？
 
-### What is the Blackout Window?
+ブラックアウトウィンドウとは、ユーザーが、ステーキングされたUSDCの出金をリクエストすることができない期間です。ブラックアウトウィンドウの間、`requestWithdrawal`関数を呼び出すことはできません。この期間は、エポックの最後の`14日間`として初期において設定されているものです。新しいエポックは、28日ごとに開始されます。つまり、ユーザーは所定のエポックの終了の`14日`前までであれば次のエポックの出金をリクエストすることができます。
 
-A blackout window is a period of time during which users cannot request withdrawals of staked USDC. The`requestWithdrawal`function cannot be called during a blackout window, which is initially configured as the last`14 days`of an epoch. New epochs start every 28 days. In other words, users can request a withdrawal for the next epoch up to`14 days`before the end of a given epoch.
+### ステーキングプールからUSDCを出金するにはどうすればよいですか？どのくらいかかりますか？
 
-### How do I withdraw USDC from the staking pool? How long does it take?
+出金に関してはエポックのスケジュールに合わせて行われ、これにより、プールのUSDCの可用性に関する予測や一定の周期での実施が可能になります。エポックの終了後にステーカーがUSDCを出金できるようにするには、ステーカーは、エポック終了の遅くても`14日`前までにステーキング解除をリクエストする必要があります。ステーカーが出金をリクエストしない場合、ステーキングされたUSDCは次のエポックにロールオーバーされます。
 
-An epoch schedule is enforced for withdrawals in order to provide predictability and a regular cadence for the availability of USDC in the pool. A staker must request to unstake USDC at least`14 days`before the end of an epoch in order to be able to withdraw the staker's USDC after the end of that epoch. If stakers do not request to withdraw, their staked USDC is rolled over into the next epoch.
+USDCを出金するには、ユーザーは次のエポックに対する`requestWithdrawal`関数を呼び出します。現在のエポックでは、ユーザーの資金はステーキングされたままとなり、出金できません。次のエポックから資金は「非アクティブ」となり、出金が可能になります。
 
-To withdraw USDC, users call the`requestWithdrawal`function to request to withdraw USDC for the next epoch. User funds will remain staked and not withdrawable for the current epoch. Starting in the next epoch, funds will be “inactive” and available for withdrawal.
+次のエポックで、ユーザーは`withdrawStake`関数を呼び出して、非アクティブなUSDCを特定のアドレスに出金します。ユーザーは、出金する非アクティブな資金の額を指定するか、\`withdrawMaxStake\`関数を呼び出して、非アクティブな資金をすべて出金することができます。eth\_callで最大値を検索して`withdrawStake()`を呼び出すよりも、`withdrawMaxStake`関数の方がガス効率が低くなります。
 
-In the next epoch, users call the `withdrawStake` function to withdraw inactive USDC to a specific address. Users can select the amount of inactive funds they want to withdraw or call the \`withdrawMaxStake\` function to withdraw all inactive funds. The `withdrawMaxStake` function is less gas-efficient than querying the max via eth\_call and calling `withdrawStake()`.
+流動性プールへのUSDCのステーキングを解除するには、以下の手順に従います。
 
-To unstake USDC to the Liquidity Pool, following the following steps:
+* [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*にアクセスします
+* 「**リクエスト**」をクリックし、以下のモーダルを開きます。
 
-* Go to [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)****
-* Click on “**Request**”, to open the following modal:
+![出金リクエスト](../.gitbook/assets/image%20%2868%29.png)
 
-![Requesting withdraw](<../.gitbook/assets/image (58).png>)
+* プールからの出金リクエストをするUSDC額を入力し、「**出金リクエスト**」をクリックします。USDCのステーキングを解除するには、ガス手数料を支払う必要があります。
+* ステーカーは、現在のエポックが終了する遅くとも14日\（**ブラックアウトウィンドウ**\）前までにUSDCのステーキングを解除すると、次のエポックからUSDCを出金することが可能になります。
 
-* Enter the amount of USDC you want to request to withdraw from the pool, and click "**Request withdraw**". You will need to pay gas fees to unstake USDC.
-* Stakers who request to unstake USDC at least 14 days (**Blackout Window**) before the current epoch ends can withdraw their USDC at the start of the next epoch.
+### ガバナンスが変更できるパラメーターはどれですか？
 
-### What parameters can governance change?
+dYdXのガバナンスは、以下の責任があります。
 
-dYdX governance is responsible for:
+* 既存の借入者に対するデューデリジェンスの実施
+* ステーキング流動性プールにおける借入者の追加および/または削除
+* 承認された借入者に対する借入USDCの割り当て変更
+   * 特定の借入者の割り当てを変更する場合、`setBorrowerAllocations`および`setBorrowingRestriction`関数が呼び出されます。これらの関数を使用して借入者を追加および削除することができます。追加は次のエポックから適用されますが、削除による借入制限はただちに適用されることになります。ブラックアウトウィンドウの間は、これらの関数を呼び出すことはできません。
+* エポックの期間やブラックアウトウィンドウは、コントラクトの作成時に設定されるものですが、変更になる場合もあります
 
-* Doing due diligence on existing borrowers
-* Adding new borrowers to and/or removing existing borrowers from the Staking Liquidity Pool&#x20;
-* Changing allocations of borrowed USDC to approved borrowers
-  * The `setBorrowerAllocations` and `setBorrowingRestriction` functions are called to change the allocations of certain borrowers. They can be used to add and remove borrowers. Increases take effect in the next epoch, but decreases will restrict borrowing immediately. These functions cannot be called during the blackout window.
-* Epoch length and blackout window are set upon creating the contract but can be changed
+## **借入者に関するFAQ**
 
-## **Borrowers FAQ**
+### **借入**
 
-### **Borrowing**
+ステーキングされたUSDCは、承認された借入者に割り当てられているプールに投入されます。各借入者には、ガバナンスが管理する割り当て比率があり、この割り当て分まで借り入れることができます。ステーキング解除は、「エポックスケジュール」の対象となります。したがい、ステーキングされたUSDCはエポックの開始時のみ出金可能\（すなわち「非アクティブ」\）になります。
 
-Staked USDC enters a pool which is allocated to approved borrowers. Each borrower has an allocation percentage controlled by governance and may borrow up to this allocation. Unstaking is subject up an “epoch schedule”—staked USDC may only become withdrawable (i.e. “inactive”) at the start of an epoch.
+出金リクエストのUSDCは、借入者がエポックの終了前に返済する必要があります。未返済の場合、未返済額は「債務残高」となり、ステーキングコントラクトは再安定化されます。問題の借入者は、債務残高を返済しなければならず、ガバナンスにより元どおりに戻るまで、借入は制限されることになります。
 
-USDC requested for withdrawal must be returned by borrowers before the end of the epoch. In case of underpayment, the underpaid amount becomes a “debt balance” and the staking contract is re-stabilized. The offending borrower must pay back the debt balance and will be restricted from borrowing until reinstated by governance.
+借入者は、リボルティングクレジット契約\（リンクは[こちら](https://dydx.foundation/revolving-credit-agreement)\）のすべての条件の対象となります。
 
-Borrowers are subject to all of the terms of the Revolving Credit Agreement (link [here](https://dydx.foundation/revolving-credit-agreement)).
+### **StarkProxyの特徴**
 
-### **StarkProxy Features**
+#### **自動支払い**
 
-#### **Auto-Pay**
+借入者は、`autoPayOrBorrow()`を使用することにより、割り当てのUSDCを最大限に使用して、出金リクエストのタイミングで返済を確実に行うことができるようになります。借入者が確実に責任を果たしていく上で必要なことは、毎エポック1回滞りなく関数を呼び出すことだけです。
 
-Borrowers can use `autoPayOrBorrow()` to ensure maximum usage of allocated USDC and timely repayment of requested withdrawals. The function only needs to be called successfully once per epoch for a borrower to ensure they are meeting their responsibilities.
+エポックの前半に関数が呼び出された場合、ブラックアウトウィンドウの期間外になるため、関数は元に戻ることになります。`StarkProxy`コントラクトにて返済できるだけのUSDCが十分にない場合、元に戻ることになります。この場合、`autoPayOrBorrow()`を呼び出す前に、USDCを追加するか、取引を中止する必要があります。
 
-The function will revert if called in the first half of the epoch, since this is outside the blackout window. It will revert if the`StarkProxy`contract does not have enough USDC for repayment. In this case, USDC must be added, or withdrawn from the exchange before calling `autoPayOrBorrow()`.
+#### **借入者が保有しているUSDC**
 
-#### **Borrower-Owned USDC**
+借入者は、保有しているUSDCを`StarkProxy`に安全に入金し、USDCを借り入れた時と同じアカウントでdYdXレイヤ2プロトコルにて使用します。以下のいずれかの状況において、`StarkProxy`からUSDCを出金することができます。
 
-A borrower may safely deposit its own USDC to the`StarkProxy`and use its on the dYdX Layer 2 Protocol in the same account as borrowed USDC. USDC may be withdrawn from `StarkProxy` in either of the following situations:
+* `StarkProxy`コントラクトで保有しているUSDCが借入残高を超えている場合、出金はいつでも可能です。
+* ガバナンスにより、一定の金額の出金が承認される場合があります。
+   * 注：これにより、借入者はdYdXレイヤ2プロトコルの大部分を喪失することなく、利益を引き出すことができるようになります。
 
-* USDC held within the`StarkProxy`contract in excess of the borrowed balance may be withdrawn at any time.
-* Governance may approve a withdrawal of a certain amount.
-  * Note: This can be used to allow the borrower to withdraw profits without having to move most USDC off of the dYdX Layer 2 Protocol.
+#### **借入者の役割**
 
-#### **Borrower Roles**
+`StarkProxy`コントラクトにより、借入者の管理に関する役割は以下のようにサポートされます。役割は、借入者のセキュリティニーズに応じて、単独のアドレスか複数の個々のアドレスが担います。各役割を担うことができるアドレスの数は任意です。
 
-The `StarkProxy`contract supports the following borrower-controlled roles. These may be held by a single address or separate addresses depending on the security needs of the borrower. Each role can be held by any number of addresses.
+所有者
 
-Owner
+* 委任管理者の役割の付与または取り消し。
+* `StarkProxy`からUSDCの出金ができる受取人の追加または削除。
+* dYdXレイヤ2プロトコルで使用できるSTARKキーの追加または削除。
+* `LiquidityStakingV1`および`StarkPerpetual`コントラクトにおけるERC20の許可設定。
+* `StarkExパーペチュアル取引`コントラクトにおける`forcedWithdrawalRequest()`または`forcedTradeRequest()`の呼び出し。
 
-* Grant or revoke the delegation admin role.
-* Add or remove allowed recipients for USDC withdrawn from `StarkProxy`.
-* Add or remove allowed STARK keys for use on the dYdX Layer 2 Protocol.
-* Set ERC20 allowances on the `LiquidityStakingV1` and `StarkPerpetual` contracts.
-* Call `forcedWithdrawalRequest()` or `forcedTradeRequest()` on the `StarkEx Perpetual Exchange` contract.
+委任管理
 
-Delegation Admin
+* 借入者、取引オペレーター、出金オペレーターの役割の付与または取り消し。
 
-* Grant or revoke the borrower, exchange operator, and withdrawal operator roles.
+借入者
 
-Borrower
+* 流動性ステーキングコントラクトにおける`autoPayOrBorrow()`、`borrow()`、`repay()`、`repayDebt()`の呼び出し。
 
-* Call `autoPayOrBorrow()`, `borrow()`, `repay()`, and `repayDebt()` on the Liquidity Staking contract.
+取引オペレーター
 
-Exchange Operator
+* `StarkExパーペチュアル取引`コントラクトにおける`registerUserOnExchange()`、`depositToExchange()`、`withdrawFromExchange()`の呼び出し。
 
-* Call `registerUserOnExchange()`, `depositToExchange()`, and `withdrawFromExchange()` on the `StarkEx Perpetual Exchange` contract.
+出金オペレーター
 
-Withdrawal Operator
+* 許可されている受取人に対して、`StarkProxy`から適正な外部出金\（上記参照\）を行います。
 
-* Make a valid external withdrawal (see above) out of `StarkProxy` to an allowed recipient.
+#### **制限**
 
-#### **Limitations**
+`StarkProxy`が管理するアカウントでは、dYdXレイヤ2プロトコルでのレイヤ2の転送は無効になります。
 
-Layer 2 transfers on the dYdX Layer 2 Protocol are disabled for accounts controlled by a `StarkProxy`.
+#### **監視者の権限**
 
-#### **Guardian Powers**
+監視者の役割は、dYdXガバナンスによって制御されます。借入したUSDCの安全性を確保する役割を有し、借入者の秘密鍵が紛失または不正使用された場合、権限がステーカーに戻ります。
 
-The guardian role will be controlled by dYdX governance. Its role is to ensure the safety of borrowed USDC and to allow them to be returned to stakers in the case where a borrower’s private key is lost or misused.
+監視者は、いつでも\（タイムロック対象\）以下のアクションを実行することができます。
 
-The guardian may take the following actions at any time (subject to time-lock):
+* 取引で借入されたUSDCの借入および入金を制限。
+* `StarkProxy`コントラクトにおけるUSDC使用の借入残高を返済。
+* `StarkProxy`コントラクトにおけるUSDC使用の債務残高を返済。
+* StarkExコントラクトから`StarkProxy`コントラクトまでを中止\（取引中止に次ぐ他の手順としてなど\）。
+* 借入者によって開始された強制トレードリクエストをキャンセル。
+* バランスチェックを回避する一方で、借入者が`StarkProxy`コントラクトにより、ある金額を出金することを承認。
+* スマートコントラクトをアップグレード。
 
-* Restrict borrowing and depositing of borrowed USDC to the exchange.
-* Repay a borrowed balance using USDC in the `StarkProxy` contract.
-* Repay a debt balance using USDC in the `StarkProxy` contract.
-* Withdraw from the StarkEx contract to the `StarkProxy` contract (e.g. as the second step of a slow withdrawal from the exchange).
-* Cancel a forced trade request initiated by the borrower.
-* Approve the borrower to withdraw an amount from the `StarkProxy` contract while circumventing the balance check.
-* Upgrade the smart contract.
+**借入者が未払いの債務残高\（タイムロック対象\）を保有している場合、監視者は次のアクションを実行することができます。**
 
-**The guardian may take the following actions if the borrower has an outstanding debt balance (subject to time-lock):**
+* dYdXレイヤ2プロトコルから強制出金を実施。
+* dYdXレイヤ2プロトコルで強制トレード\（リデュースオンリー\）を実施。
 
-* Make a forced withdrawal from the dYdX Layer 2 Protocol.
-* Make a forced trade (reduce-only) on the dYdX Layer 2 Protocol.
+## ステーキングのリスクに関するFAQ
 
-## Staking Risks FAQ
+### 流動性ステーキングプールへのステーキングにはどんなリスクがありますか？借入者が借入した資金を返済できないとどうなりますか？
 
-### What are the risks of staking to the liquidity staking pool? What happens if a borrower fails to pay back borrowed funds?
+無担保借入のシステムでは求められる信頼度が非常に高く、借入者はそれを満たさなければなりません。流動性ステーキングプールから借入する流動性プロバイダーは、借入資金を流動性ステーキングシステムおよびdYdXレイヤ2プロトコル以外に移動することはできません。なお、流動性プロバイダーがトレード資金を失うことになり、外部の資金源により借入した割り当てに補填できない場合、ステーキングされたUSDCが失われる可能性があります。
 
-A system for un-collateralized borrowing requires a much higher standard of trust that must be met by a borrower. Liquidity providers borrowing from the liquidity staking pool cannot move borrowed funds outside of the liquidity staking system and dYdX Layer 2 Protocol. Still, staked USDC could be lost if a liquidity provider were to lose funds trading and be unable to replenish its borrowed allocations through external funding sources.
+こうした状況で、ショートフォールが発生して借入者が出金リクエストした資金の返済に遅延が生じた場合、非アクティブの資金は、以下のように社会化された損失の対象になる可能性があります。借入資金における債務不履行の場合、滞納の借入者は著しい風評被害に直面することになります。
 
-In this event, inactive funds may be subject to socialized losses as laid out below in the event of a shortfall where a borrower is late to pay back funds that have been requested for withdrawal. In case of default on borrowed funds, a delinquent borrower will face significant reputational damage.
+各ステーカーおよび借入者は、リボルビングクレジット契約\（リンクは[こちら](https://dydx.foundation/revolving-credit-agreement)\）の当事者となりますが、本契約は、借入者が債務を返済することを保証するものではありません。
 
-Although each staker and borrower is party to the Revolving Credit Agreement (link [here](https://dydx.foundation/revolving-credit-agreement)), this agreement does not provide a guarantee that borrowers will repay their obligations.
+### コントラクトにより、ソルベンシーがどのように維持されるのですか？
 
-### How does the contract maintain solvency?
+どんなときも、ステーキングされた残高と借入した残高の関係に基づき、コントラクトは以下のいずれかの状態になります。
 
-At any point in time, the contract will be in one of the following states based on the relationship between the staked and borrowed balances:
+![コントラクトのソルベンシー](../.gitbook/assets/image%20%2841%29.png)
 
-![Contract Solvency](<../.gitbook/assets/image (41).png>)
+コントラクトにおいて**債務超過**とされるのは以下の場合です。
 
-The contract is said to be **insolvent**:
+* 借入の総残高がアクティブの総残高を上回っている場合。
+* すなわち、非アクティブの総残高が未借入の総残高を上回っている場合。
+* すなわち、出金可能な総残高がコントラクトのUSDC残高を上回っている場合。
 
-* if the total borrowed balance is greater than the total active balance;
-* or equivalently, if the total inactive balance is greater than the total unborrowed balance;
-* or equivalently, if the total withdrawable balance is greater than the contract’s USDC balance.
+上記のとおりでなければ、コントラクトにおいて**支払い能力あり**とされます。
 
-Otherwise, the contract is said to be **solvent**.
+借入は、アクティブなUSDCのうち借入者の割り当て比率分に限られ、また非アクティブな残高は、エポック間は増加のみであるため、コントラクトはエポックの移行期間中に支払能力ありから支払能力なし（債務超過）の状態にしか変わらないのが一般的です。
 
-Because borrowing is limited to a borrower’s allocated proportion of active USDC, and because the inactive balance can only increase between epochs, the contract can typically only move from a solvent to an insolvent state during the transitions between epochs.
+エポックが新たに開始する際にコントラクトが債務超過の場合、できるだけ早く再安定化することが重要です。ソルベンシーは、「債務処理」のメカニズムにより回復します。コントラクトが債務超過の場合は、割り当てを超過している借入者のリストを指定することで、誰でも`markDebt()`関数を呼び出すことができます。借入者の借入残高に対する割り当ての超過額がショートフォール額と見なされます。
 
-If, at the start of a new epoch, the contract is insolvent, is it important to re-stabilize it as soon as possible. Solvency is restored via a mechanism called “debt accounting.” Anytime the contract is insolvent, the `markDebt()` function may be called, by anyone, by specifying a list of borrowers who have exceeded their allocations. The amount by which a borrower's borrowed balance exceeds their allocation is called the borrower's shortfall amount.
+`markDebt()`が呼び出されると、各借入のショートフォール額は借入残高から債務残高と呼ばれるようになります。同時に、これらのショートフォールの総額は、ステーカーの非アクティブな残高から差し引かれ、ステーカーが債務を受けるものとして割り当てられます。各ステーカーの非アクティブな残高が削減される一方で、各ステーカーは同じ金額の債務を受け取ることになります。このようにして、非アクティブな残高を保有するすべてのステーカーにおいて、債務超過による損失が社会化\(比例配分\)されるのです。
 
-When `markDebt()` is called, the shortfall amount of each borrower is moved out of their borrowed balance and into a balance called the debt balance. At the same time, the aggregate of these shortfall amounts is taken out of staker inactive balances and distributed as staker debt receipts. Each staker’s inactive balance will take a haircut, and each staker will receive an equivalent amount in the form of debt. In this way, the loss from insolvency is socialized (pro-rata) across all stakers holding inactive balances.
+この過程を図解すると以下のようになります。
 
-This process is illustrated below:
+![債務不履行](../.gitbook/assets/image%20%2844%29.png)
 
-![Default](<../.gitbook/assets/image (46).png>)
+### 債務は何を表していますか？
 
-### What does Debt represent?
+借入者の債務不履行が発生した場合、ショートフォール額\（非アクティブな残高のうち最大100％まで)）は、非アクティブな残高から債務残高\（非アクティブな残高の保有者の間で社会化された損失\）に切り替わります。ステーカーの債務残高により、ステーカーは、ステーキングされたUSDCのプールから出金する権利が与えられるわけではありません。債務返済という明確な形で返済する必要があります。
 
-In the event of a borrower default, the shortfall amount (up to 100% of inactive balances) is converted from an inactive balance into a debt balance (socialized loss among inactive balance holders). A staker's debt balance does not entitle the staker to withdraw from the pool of staked USDC — it must be paid back specifically in the form of debt repayments.
+借入者が債務を返済する場合、またはガバナンスによって決定される別の回収手段で行う場合、債務はUSDCでの受け取りとされ、後に買い戻すことができます。
 
-The Debt represents a receipt for USDC which can later be redeemed for USDC, either when the Borrower makes a debt repayment, or via another means of recuperation as determined by governance.
+### 借入者による債務不履行の場合、ステーカーはどのような償還請求ができますか？
 
-### What recourses are available to stakers if a borrower defaults?
+ステーカーおよび借入者は、各ステーカーと各借入者との間に強制力のある取り決めを構築することを目的としたリボルビングクレジット契約\（リンクは[こちら](https://dydx.foundation/revolving-credit-agreement)\）の当事者となります。さらに、流動性ステーキングプールのスマートコントラクトは、借入者に対してステーカーが償還請求できる内容になっていますが、これにより返済を保証することはできません。
 
-Stakers and borrowers are parties to the Revolving Credit Agreement (link [here](https://dydx.foundation/revolving-credit-agreement)) which is intended to create an enforceable agreement between each staker and each borrower. In addition, the Liquidity Staking Pool smart contract is designed to give stakers recourse against borrowers, though it cannot guarantee repayment.
+借入者において`markDebt()`が呼び出されると、借入者はコントラクトからさらなる資金を借り入れる権利を失います。この権利は、ガバナンスで回復させることができます。
 
-When `markDebt()` is called on a borrower, that borrower loses the right to borrow any further funds from the contract. This right can be reinstated by governance.
+債務に「マーク」が入った場合、計算の主要システムからマークを削除すると、ステーカーによりさまざまな方法で回復させることが可能になります。債務のある借入者が債務を返済する場合\（またはガバナンスなどの他の当事者が代理して返済する場合\）、債務を有するステーカーたちは、先着順で資金を回収することができます。スマートコントラクトの「債務オペレーター」インターフェースにより、より柔軟なソリューションを実施することができます。
 
-Once debt has been “marked,” it is removed from the main system of accounting, and can be recovered by stakers in multiple ways. If the indebted borrower pays back the debt (or if another party, such as governance, pays it back on its behalf) then the stakers who were owed the debt may recoup the funds on a first-come, first-served basis. More flexible solutions may be implemented via the “debt operator” interface on the smart contract.
+ステーカーが債務を負うことで実際に生じることは、状況によりさまざまです。承認された借入者のうっかりミスによるものであれば、ステーカーとしてはすぐに全額が返済されると思うことでしょう。USDCの資金が失われた場合、ガバナンスにより、影響を受けたステーカーに対し返済金が一部支給される場合があります。解決が不確実な場合、ガバナンスでは影響を受けたステーカーにERC20の受取証の交付を選択することができ、解決を待つ一方で、即時的な流動性を実現します。適切と判断される場合、ガバナンスでは、解決するまで受取証の保有者に対して利息支払の交付を選択できます。
 
-What happens in practice after stakers receive debt will depend on the context. If it was an honest mistake by an approved borrower, stakers can expect to be paid back quickly and in full. If USDC funds were lost, governance can issue a partial repayment to the affected stakers. If the resolution is uncertain, governance may choose to issue an ERC20 receipt to affected stakers, allowing them instant liquidity while waiting for a resolution. If deemed appropriate, governance could choose to issue interest payments to receipt holders until a resolution is reached.
+これらのケースはすべて、ステーキングコントラクトによって徹底的にサポートされていますが、dYdXガバナンスによる適切な対応の決定と実行が必要になります。状況によっては、これにより、ペリフェラルスマートコントラクトの書き込みおよび展開が必要になる場合があります。
 
-All of these cases are fundamentally supported by the staking contract, but the appropriate response has to be decided on and executed upon by dYdX governance. Depending on the situation, this may require a peripheral smart contract to be written and deployed.

@@ -1,23 +1,24 @@
 ---
-description: Overview of the Trading Rewards program.
+description: トレード報酬プログラムの概要。
+
 ---
 
-# Trading Rewards
+# トレード報酬
 
-`25.00%` of the initial token supply (`250,000,000 DYDX`) will be distributed to users who trade on the dYdX Layer 2 Protocol based on a combination of fees paid and open interest.
+支払い済み手数料およびオープンインタレストの組み合わせに基づくdYdXレイヤ2プロトコルでトレードするユーザーには、初回のトークン提供額\（`2億5,000万DYDX`\）の`25.00％`が分配されます。
 
-**Objectives**
+**目的**
 
-* Incentivize all traders to use the dYdX Layer 2 Protocol.
-* Accelerate market liquidity and overall product usage.
+* dYdXレイヤ2プロトコルの使用をすべてのトレーダーに促進する。
+* マーケットの流動性および全体的な商品利用を加速する。
 
-## **Overview**
+## **概要**
 
-![Earn rewards by trading on the dYdX Layer 2 Protocol](<../.gitbook/assets/image (17).png>)
+![dYdXレイヤ2プロトコルでトレードすることで報酬を獲得する](../.gitbook/assets/image%20%2814%29.png)
 
-DYDX will be distributed to traders based on a formula that rewards a combination of fees paid and open interest on the dYdX Layer 2 Protocol. DYDX will be distributed on a 28-day epoch basis over five years and is not subject to any vesting or lockups. 3,835,616 DYDX will be distributed per epoch.
+DYDXは、dYdXレイヤ2プロトコルで支払い済みの手数料およびオープンインタレストの組み合わせによる報酬計算公式に基づき、トレーダーに提供されます。DYDXは、5年間にわたって28日間のエポックを基本として提供され、権利確定やロックアップの対象にはなりません。各エポックで383万5,616DYDXが提供されます。
 
-The Cobb-Douglas function is used to compute how much DYDX is awarded to each trader during each epoch:
+Cobb-Douglas関数により、各エポックで各トレーダーに提供されるDYDXが計算されます。
 
 $$
 w\ =\ f ^{\alpha } \times d \ ^{1-\alpha }
@@ -27,60 +28,61 @@ $$
 r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k
 $$
 
-| Term                         | Definition                                                                                               |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------- |
-| r                            | Reward for a specific trader.                                                                            |
-| R                            | Total reward to be split between all traders in the pool for the epoch.                                  |
-| f                            | Total fees paid by a trader in this epoch.                                                               |
-| w                            | Individual trader score.                                                                                 |
-| $${\sum\limits _{n} w_{n}}$$ | Sum of all trader scores.                                                                                |
-| d                            | A trader’s average open interest (measured every minute) across all markets in this epoch.               |
-| k                            | Total number of traders in this epoch.                                                                   |
-| α                            | A constant in the range that determines the weight of fees vs open interest. The initial value is α=0.7. |
+| 用語 | 定義 |
+| :--- | :--- |
+| r | 特定のトレーダーに対する報酬。 |
+| R | 全トレーダー間で分割するためにエポックごとにプールされている報酬総額。 |
+| f | このエポックでトレーダーが支払った手数料総額。 |
+| w | 個々のトレーダーのスコア。 |
+| $${\sum\limits &lt;g id="1" ctype="italic" equiv-text="_"&gt;{n} w</g>{n}}$$ | 全トレーダーのスコアの合計。 |
+| 日 | このエポックでの全マーケットにおけるトレーダーの平均オープンインタレスト \（1時間ごとに算定\）。 |
+| k | このエポックでのトレーダーの総数。 |
+| α | 手数料とオープンインタレストの加重が定められる範囲内の定数。初期値はα=0.7です。 |
 
-The following example illustrates Trading Rewards earned by Traders A, B, and C using the formula listed above:
+以下の例は、上記の計算式を使用してトレーダーA、B、Cが獲得したトレード報酬を示しています。
 
-![An example distribution for Trading Rewards](<../.gitbook/assets/Frame 1208.png>)
+![トレード報酬の分配例](../.gitbook/assets/image%20%2838%29.png)
 
 ## FAQ
 
-### Who is eligible for trading rewards?
+### どのような人がトレード報酬の対象になるのですか？
 
-All traders on the dYdX Layer 2 protocol are eligible to receive DYDX as trading rewards.
+dYdXレイヤ2プロトコルの全トレーダーは、トレード報酬としてDYDXを受取る資格を有しています。
 
-The dYdX Layer 2 Protocol is not available to traders in the United States or Restricted Territories, as defined in dYdX Trading Inc.’s [Terms of Use](https://dydx.exchange/terms).
+dYdXレイヤ2プロトコルは、dYdX Trading Inc.の[利用規約](https://dydx.exchange/terms)に定義されているように、米国または制限地域のトレーダーにはご利用いただけません。
 
-### How much DYDX did I earn in the Trading Rewards program?
+### トレード報酬プログラムでどれくらいDYDXを獲得できたのかを知ることはできますか？
 
-In the current epoch, users can see fees paid, average open interest, and estimated trading rewards at [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) where users' trading data exists.
+現在のエポックについては、[**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)にてユーザーのトレードデータがご覧いただけますので、そこでユーザーは支払い済手数料、平均オープンインタレスト、トレード報酬の推定額を確認できます。
 
-![Rewards info for the current epoch](<../.gitbook/assets/image (18).png>)
+![現在のエポックの報酬情報](../.gitbook/assets/image%20%2820%29.png)
 
-Rewards from past epochs can be viewed at [**dydx.community/history/rewards**](https://dydx.community/history/rewards) **** (coming soon).
+過去のエポックの報酬は、[**dydx.community/history/rewards**](https://dydx.community/history/rewards) ****\（近日公開予定\）にてご覧いただけます。
 
-### How do I claim my Trading Rewards? When can I withdraw and transfer my earned DYDX?
+### トレード報酬を請求するにはどうすればよいですか？いつから獲得したDYDXを出金および移動することができますか？
 
-Earned DYDX tokens via Trading Rewards will be transferable at the end of each epoch. DYDX token holders are required to wait approximately `7 days` (**Waiting Period**) after the end of the epoch to claim their tokens. Once tokens have been claimed, they can be used for dYdX governance.
+トレード報酬で獲得したDYDXトークンは、各エポックの終了時から移動することができるようになります。DYDXトークン保有者は、トークンを請求するために、エポックの終了から約`7日間`\（**待機期間**\）待つ必要があります。トークンが請求されると、dYdXガバナンスでトークンを使用することが可能になります。
 
-Traders can claim their trading rewards at the end of every epoch, after the **Waiting Period**, [here](https://dydx.community/dashboard).&#x20;
+**待機期間**を過ぎると、トレーダーは[こちら](https://dydx.community/dashboard)からトレード報酬を請求することができるようになります。
 
-Users will need to click on "Claim", sign a transaction, and pay gas fees to claim DYDX.
+DYDXを請求するには、ユーザーは「請求」をクリックし、トランザクションに署名し、ガス手数料を支払う必要があります。
 
-![Portfolio overview of rewards](<../.gitbook/assets/image (20).png>)
+![報酬のポートフォリオ概要](../.gitbook/assets/image.png)
 
-### What is Open Interest?
+### オープンインタレストとは何ですか？
 
-Total open interest is the USD value of all outstanding long or short positions (the total units of longs always equals the total units of shorts) for a given market. Increasing open interest represents new or additional money coming into the market while decreasing open interest indicates money flowing out of the market.
+オープンインタレストの合計とは、特定の市場におけるすべての未決済のロングポジションまたはショートポジションの米ドル換算値です（ロングの合計単位は常にショートの合計単位と同じです）。オープンインタレストの増加は、通貨がマーケットに新たに流入していることを示すのに対し、オープンインタレストの減少は、通貨がマーケットから流出していることを示しています。
 
-Below is a table of trading activity for traders, A, B, C, D, and E. Open interest is calculated in USDC terms following the trading activity for each day:
+以下は、トレーダーA、B、C、D、Eのトレード活動の表です。各日のトレード活動に応じたUSDCの条件でオープンインタレストが算定されています。
 
-| Time    | Trading Activity                                                           | Total Net Open Interest (USDC) |
-| ------- | -------------------------------------------------------------------------- | ------------------------------ |
-| July 1  | **Trader A** buys 1 BTC at $30,000 and **Trader B** sells 1 BTC at $30,000 | $30,000                        |
-| July 3  | **Trader C** buys 5 BTC at $30,000 and **Trader D** sells 5 BTC at $30,000 | $180,000                       |
-| July 5  | **Trader A** sells 1 BTC at $30,000 and **Trader D** buys 1 BTC at $30,000 | $150,000                       |
-| July 10 | **Trader E** buys 5 BTC at $30,000 and **Trader C** sells 5 BTC at $30,000 | $150,000                       |
+| 時間 | トレード活動 | 正味のオープンインタレストの合計 \(USDC\) |
+| :--- | :--- | :--- |
+| 7月1日 | **トレーダーA**は3万ドルで1BTCを購入し、**トレーダーB**は3万ドルで1BTCを売却します。 | 3万ドル |
+| 7月3日 | **トレーダーC**は30,000ドルで5BTCを購入し、**トレーダーD**は30,000ドルで5BTCを売却します。 | 18万ドル |
+| 7月5日 | **トレーダーA**は30,000ドルで1BTCを売却し、**トレーダーD**は30,000ドルで1BTCを購入します。 | 15万ドル |
+| 7月10日 | **トレーダーE**は3万ドルで5BTCを購入し、**トレーダーC**は3万ドルで5BTCを売却します。 | 15万ドル |
 
-In the context of the **Trading Rewards** formula, open interest is measured every minute (at a random time in each minute) across all markets and averaged across a given epoch to calculate rewards.
+**トレード報酬**の公式を用いて、すべてのマーケットで1分ごとに（毎分のランダム時間で）オープンインタレストが算定され、所定のエポックで平均化されて報酬が計算されています。
 
-A trader's own open interest is the USD value of all of that trader's open positions. For the purposes of **Trading Rewards**, a trader's open interest is measured every minute (at a random time in each minute) across all markets and averaged across a given epoch.
+トレーダーが所有するオープンインタレストは、未決済となっているすべてのオープンポジションのUSD価格になります。**トレード報酬**においては、トレーダーのオープンインタレストは、すべてのマーケットで1時間ごとに\（毎時のランダム時間で\）算定され、所定のエポックで平均化されます。
+
