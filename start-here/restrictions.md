@@ -1,7 +1,9 @@
 ---
-description: Restrictions on the use of DYDX and the DYDX Portal.
+description: Ограничения на использование токенов DYDX и портала DYDX.
+
 ---
 
-# Restrictions
+# Ограничения
 
-DYDX is not available in the United States or other prohibited jurisdictions. If you are a resident of, or incorporated or headquartered in, the United States of America or another prohibited jurisdiction, then you are not permitted to receive a distribution of, or transact in, DYDX.
+Токен DYDX недоступен в Соединенных Штатах и других запрещенных юрисдикциях. Если вы резидент либо зарегистрированы в качестве юридического лица или имеете штаб-квартиру в Соединенных Штатах Америки или другой запрещенной юрисдикции, вам не разрешается получать распределение DYDX или совершать сделки с этим токеном.
+

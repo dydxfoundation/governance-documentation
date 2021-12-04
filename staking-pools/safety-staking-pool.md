@@ -1,119 +1,121 @@
 ---
-description: An overview of the Safety Staking Pool
+description: Обзор пула стейкинга безопасности
+
 ---
 
-# Safety Module
+# Модуль безопасности
 
-`2.50%` of the initial token supply (`25,000,000 DYDX`) will be distributed to users staking DYDX to a Safety pool for backstopping the system.
+`2,50%` от первоначального запаса токенов \(`25 000 000 DYDX`\) получат пользователи, размещающие DYDX в пуле стейкинга безопасности для технической поддержки системы.
 
-**Objectives**
+**Цели**
 
-* Bootstrap a decentralized fund to be used in the case of insolvency or other issues with the protocol.
-* Incentivize DYDX holders to govern correctly: DYDX holders risk dilutive events as the ultimate backstop and act as the governors of risk in the system.
+* Создайте независимый децентрализованный фонд для использования в случае финансовой неустойчивости или других проблем с протоколом.
+* Мотивируйте владельцев DYDX на должное управление: владельцы DYDX подвергаются риску разводнения капитала в качестве конечного механизма поддержки и управляют риском в системе.
 
-DYDX staked in the Safety Module retains its proposing and voting rights, as well as delegation abilities.
+Токены DYDX, размещенные в модуле безопасности, сохраняют право на внесение предложений и право голоса, а также возможности делегирования.
 
-Start staking at [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
+Чтобы приступить к стейкингу, перейдите по ссылке [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
 
-## Overview
+## Обзор
 
-User safety and protection have been a key focus since the launch of the Protocol. For that reason, DYDX will be distributed to users who stake DYDX to the safety pool to create an additional safety net for users of the Protocol.  Stakers will receive DYDX continuously proportional to their portion of the total DYDX in the pool.
+С момента запуска протокола безопасность и защита пользователей — наш приоритет. Поэтому токены DYDX будут распределяться между пользователями, которые размещают DYDX в пуле стейкинга безопасности, чтобы создать дополнительную защитную сеть для пользователей протокола.  Стейкеры будут получать DYDX непрерывно и пропорционально своей доли в общем объеме токенов DYDX, размещенных пуле.
 
-The Safety pool will go live upon DYDX becoming transferrable on September 8th, 2021, 15:00 UTC.
+Пул стейкинга безопасности станет доступен после того, как 8 сентября 2021 г. в 15:00 по времени в формате UTC появится возможность перевода DYDX.
 
-## Withdrawals
+## Вывод средств
 
-Stakers must request to withdraw funds at least `14 days` **(Blackout Window)** before the end of the epoch in order to be able to withdraw funds after the end of that epoch. If stakers do not request to withdraw, their staked DYDX is rolled over into the next epoch.&#x20;
+Для вывода средств по окончании эпохи стейкеры должны направлять соответствующий запрос по меньшей мере за `14 дней` **\(период недоступности вывода средств из стейка\)** до окончания этой эпохи. В противном случае размещенные в стейке DYDX будут переноситься на следующую эпоху.
 
-## Risks
+## Риски
 
-Staked DYDX may be slashed as a result of a shortfall event. Slashing occurs at the discretion of DYDX governance, and requires a governance vote to enact.
+Вследствие события дефицита количество размещенных в стейке DYDX может быть сокращено. Сокращение проводится по усмотрению управления DYDX и предусматривает проведение голосования.
 
-Like participants in any DeFi protocol, stakers in the Safety Module are exposed to smart contract risk if there is a vulnerability in the underlying smart contract code. All DYDX & governance smart contracts have been audited and rigorously tested.
+Наряду с участниками любого протокола децентрализованных финансовых сервисов стейкеры в модуле безопасности подвергаются риску в рамках смарт-контракта при возникновении уязвимости в базовом коде смарт-контракта. Все смарт-контракты DYDX и управления прошли аудит и тщательную проверку.
 
-## Shortfall Events
+## События дефицита
 
-The interpretation for the occurrence of a Shortfall Event is subject to a dYdX governance vote but may include:
+Процесс принятия решения о наступлении события дефицита осуществляется управлением dYdX с помощью голосования, но может включать в себя учет следующих факторов:
 
-* Exchange Solvency (e.g., exchange becoming under-collateralized due to unprofitable liquidations)
-* Smart contract attacks
-* Other events dYdX governance deems to have resulted in a shortfall
+* Финансовая устойчивость биржи \(например, снижение уровня залоговой обеспеченности биржи в связи с убыточными ликвидациями\)
+* Атаки на смарт-контракты
+* Другие события, которые, по мнению управления dYdX, привели к дефициту
 
-In a Shortfall Event, token holder balances can be slashed and transferred to another address or contract (set by dYdX governance on a case by case basis). dYdX governance must pass a short timelock proposal to slash staked tokens. After a governance vote on slashing staked DYDX tokens, slashed DYDX may be auctioned on the market to be sold against the assets needed to mitigate the incurred deficit.
+В случае возникновения дефицита балансы владельцев токенов могут быть сокращены и переведены на другой адрес или в другой контракт \(в каждом случае устанавливается управлением dYdX индивидуально\). Для сокращения количества размещенных в стейке токенов управление dYdX должно утвердить предложение о короткой блокировке по времени. После того как управление проголосовало по вопросу о сокращении количества размещенных в стейке токенов DYDX, сокращенная часть DYDX может быть продана с аукциона на рынке под активы, которые требуются для минимизации последствий, вызванных дефицитом.
 
-## FAQ
+## Часто задаваемые вопросы
 
-### How do I earn staking rewards?
+### Как получить награды за стейкинг?
 
-Stakers can deposit DYDX at any time to the safety staking pool and start earning rewards immediately. DYDX rewards are earned on a continuous basis according to each staker’s share of the total pool on a second-by-second basis. Rewards can be claimed and withdrawn at any time.
+Стейкеры могут разместить USDC в пуле стейкинга безопасности в любое время и немедленно начать получать награды. Награды в виде DYDX распределяются постоянно в соответствии с долей каждого стейкера в общем пуле на ежесекундной основе. Награды можно получить и вывести в любое время.
 
-Active funds earn rewards for the period of time that they remain active. This means, after requesting a withdrawal of some funds, those funds will continue to earn rewards until the end of the epoch. This is demonstrated in the following example from the [Liquidity staking pool](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool):
+Пока активные средства находятся в активном состоянии, за них присуждаются награды. Это означает, что после отправки запроса на вывод некоторого количества средств, награды за них будут и дальше присуждаться до окончания эпохи. Это подтверждается в следующем примере из [пула стейкинга ликвидности](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool):
 
-![](<../.gitbook/assets/image (59).png>)
+![](../.gitbook/assets/image%20%2865%29.png)
 
-In the above scenario, the user would earn rewards for the period from **Time0** to **Time2**, varying with the total staked balance in that period. If the user only requests a withdrawal for a part of their balance, then the remaining balance would continue earning rewards beyond **Time2**.
+В вышеприведенном сценарии пользователь получит награды за период с **Time0** по **Time2** в зависимости от общего баланса размещенных в стейке средств в том периоде. Если пользователь запросит вывод только части средств со своего баланса, то за остаток продолжат присуждаться награды в период после **Time2**.
 
-### How do I deposit and stake DYDX to the Safety Pool?
+### Как разместить DYDX в пуле стейкинга безопасности?
 
-To stake DYDX to the Safety Pool, follow these steps:
+Чтобы разместить DYDX в пуле стейкинга безопасности, сделайте следующее:
 
-* Go to [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
-* Click on “**Stake**”
-* You must enable DYDX the first time you deposit. You will only have to do this once and incur gas fees only once.
-* Enter the amount of DYDX you want to stake to the pool.
-* Click “**Stake Funds**”.  You will need to pay gas fees to stake and unstake funds.
+* Перейдите по ссылке [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
+* Нажмите «**Разместить в стейке**»
+* При первом размещении нужно разрешить операции с DYDX. Это действие и оплату комиссии за газ необходимо выполнить только один раз.
+* Введите количество DYDX, которое вы хотите разместить в пуле для стейкинга.
+* Нажмите «**Разместить средства в стейке**».  Для размещения средств в стейке и их вывода вам потребуется уплатить комиссии за газ.
 
-Staked funds are now active and start earning rewards immediately.
+Размещенные в стейке средства теперь активны, и вы можете сразу начать получать награды.
 
-To deposit and stake and funds directly on the smart contract, users call the \`stake\` [function](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L59). Users can also deposit and stake on behalf of another address by calling the \`stakeFor\` [function](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L64).
+Чтобы разместить средства непосредственно в смарт-контракте, пользователи вызывают [функцию](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L59) \`stake\`. Пользователи могут также размещать средства в стейке от имени другого адреса при помощи [функции](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L64) \`stakeFor\.
 
-### What is stkDYDX?
+### Что такое stkDYDX?
 
-To contribute to the safety of the protocol and receive incentives, DYDX holders will deposit their tokens into the Safety Module. In return, they will receive a tokenized position (**stkDYDX**) that can be withdrawn or transferred as an ERC-20. The **stkDYDX** token has the same proposing and voting rights as DYDX on dYdX governance.
+Чтобы содействовать обеспечению безопасности протокола и получать за это вознаграждение, владельцы DYDX будут вносить свои токены в модуль безопасности. В свою очередь, они будут получать токенизированную позицию \(**stkDYDX**\), которую можно вывести или перевести в виде ERC-20. Токен **stkDYDX** обладает тем же правом на внесение предложений и правом голоса, что и токен DYDX для управления dYdX.
 
-### What is the blackout window?
+### Что такое период недоступности вывода средств из стейка?
 
-A blackout window is a period of time during which users cannot request withdrawals of staked funds. An epoch schedule is enforced for withdrawals in order to provide predictability and a regular cadence for the availability of funds in the pool. A staker must request to unstake funds before the blackout window in order to be able to withdraw their funds after the end of that epoch. If a staker does not request to withdraw, their staked funds are rolled over into the next epoch.
+Период недоступности вывода средств из стейка — это период времени, в течение которого пользователи не могут запрашивать вывод размещенных в стейке средств. Чтобы обеспечить предсказуемость и регулярность доступности средств в пуле, для их вывода используется график эпох. Для вывода средств из стейка по окончании эпохи стейкер должен направить соответствующий запрос до начала периода недоступности вывода средств из стейка. В случае если от стейкера не поступает запрос на вывод размещенных в стейке средств, то они переносятся на следующую эпоху.
 
-The recommended blackout window for the Safety Pool is `14 days`.
+Рекомендуемая продолжительность периода недоступности вывода средств из стейка для пула стейкинга безопасности составляет `14 дней`.
 
-### How does staked balance accounting work?
+### Как происходит учет баланса размещенных в стейке средств?
 
-A staked balance is in one of two states:
+Баланс размещенных в стейке средств может находиться в двух состояниях:
 
-* **Active**: Available for borrowing; earning staking rewards; cannot be withdrawn by staker.
-* **Inactive**: Unavailable for borrowing; does not earn rewards; can be withdrawn by the staker.
+* **Активный**: средства доступны для выдачи займа; присуждаются награды за стейкинг; остаток не может быть выведен стейкером.
+* **Неактивный**: средства недоступны для выдачи займа; не присуждаются награды; остаток может быть выведен стейкером.
 
-A staker may have a combination of active and inactive balances. Funds are accounted for epoch-by-epoch as shown in the following example:
+У стейкера может иметься сочетание активных и неактивных балансов. Учет средств производится для каждой эпохи, как показано в следующем примере:
 
-![](<../.gitbook/assets/image (36).png>)
+![](../.gitbook/assets/image%20%2834%29.png)
 
-The following operations affect staked balances as follows:
+На баланс размещенных в стейке средств оказывают влияние следующие операции, как описано ниже:
 
-* **Deposit**: Increase active balance.
-* **Request** **withdrawal**: At the end of the current epoch, move some active funds to inactive.
-* **Withdraw**: Decrease inactive balance.
-* **Transfer**: Move some active funds to another staker.
+* **Внесение средств**: увеличение активного баланса.
+* **Запрос на** **вывод**: перевод некоторых активных средств в неактивные в конце текущей эпохи.
+* **Вывод средств**: уменьшение неактивного баланса.
+* **Перевод**: перевод некоторых активных средств другому стейкеру.
 
-To encode the fact that a balance may be scheduled to change at the end of a certain epoch, we store each balance as a struct of three fields: currentEpoch, currentEpochBalance, and nextEpochBalance.
+Для кодировки того факта, что изменение баланса может быть запланировано на конец определенной эпохи, мы храним каждый баланс в виде структуры из трех полей: currentEpoch, currentEpochBalance и nextEpochBalance.
 
-### How do I withdraw funds from the staking pool? How long does it take?
+### Как вывести средства из пула стейкинга? Сколько времени занимает этот процесс?
 
-An epoch schedule is enforced for withdrawals in order to provide predictability and a regular cadence for the availability of funds in the pool. A staker must request to withdraw funds at least `14 days` before the end of an epoch in order to be able to withdraw their funds after the end of that epoch. If stakers do not request to withdraw, their staked DYDX is rolled over into the next epoch.
+Чтобы обеспечить предсказуемость и регулярность доступности средств в пуле, для их вывода используется график эпох. Чтобы вывести свои средства по окончании эпохи, стейкер должен отправить соответствующий запрос минимум за `14 дней` до конца эпохи. В противном случае размещенные в стейке DYDX будут переноситься на следующую эпоху.
 
-To withdraw funds, users call the \`requestWithdrawal\` function to request to withdraw funds for the next epoch. User funds will remain staked and not withdrawable for the current epoch. Starting in the next epoch, funds will be “inactive” and available for withdrawal.
+Для вывода средств пользователи вызывают функцию \`requestWithdrawal\`, отправляющую соответствующий запрос в следующую эпоху. В текущей эпохе средства пользователей будут оставаться в стейке и не подлежат выводу. Начиная со следующей эпохи средства станут неактивными и доступными для вывода.
 
-In the next epoch, users call the \`withdrawStake\` function to withdraw inactive funds to a specific address. Users can select the amount of inactive funds they want to withdraw or call the \`withdrawMaxStake\` function to withdraw all inactive funds. Note that the \`withdrawMaxStake\` function is less gas-efficient than querying the max via eth\_call and calling \`withdrawStake()\`.
+Для вывода неактивных средств на конкретный адрес в следующую эпоху пользователи вызывают функцию \`withdrawStake\`. Для вывода всех неактивных средств пользователи могут выбрать то количество, которое они желают вывести, или вызвать функцию \`withdrawMaxStake\`. Обратите внимание, что при использовании функции \`withdrawMaxStake\` размер комиссии за газ будет выше, чем при запросе максимальной величины с помощью eth\_call и вызове функции \`withdrawStake\(\)\`.
 
-To withdraw DYDX from the Liquidity Pool, follow these steps:
+Чтобы вывести DYDX из пула стейкинга ликвидности, сделайте следующее:
 
-* Go to [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
-* Click on “**Request**”, and enter the amount of DYDX you want to request to withdraw from the pool.
-* Click “**Request withdraw**”. You will need to pay gas fees to withdraw funds.
-* Stakers who request to withdraw DYDX at least 14 days before the current epoch ends can withdraw their DYDX at the start of the next epoch.
+* Перейдите по ссылке [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
+* Нажмите «**Запросить**» и введите необходимое количество DYDX для вывода из пула.
+* Нажмите «**Запросить вывод средств**». Чтобы вывести средства, вам потребуется уплатить комиссию за газ.
+* Стейкеры, которые запрашивают вывод DYDX не позднее чем за 14 дней до окончания текущей эпохи, могут вывести DYDX в начале следующей эпохи.
 
-### What are the risks for stakers to the safety staking pool? What happens in the case of a Shortfall Event?
+### Каковы риски для стейкеров при участии в пуле стейкинга безопасности? Что произойдет при наступлении события дефицита?
 
-A staker’s decision to lock DYDX into the Safety Pool exposes them to the risk of a shortfall event, which can result in the slashing of staked DYDX funds at the discretion of DYDX governance.
+Решение стейкера о блокировке DYDX в пуле стейкинга безопасности несет в себе риск возникновения дефицита, что может привести к сокращению количества размещенных в стейке DYDX по усмотрению управления dYdX.
 
-All funds in the contract, active or inactive, are slashable. Within the contract, slashing is implemented via an update to the exchange rate between DYDX and stkDYDX. This means that as slashes occur, the exchange rate between DYDX and stkDYDX will diverge from its initial value of 1:1. Note that the earning of staking rewards is unaffected by slashes.
+В рамках контракта сократить можно количество как активных, так и неактивных средств. В рамках контракта процедура сокращения осуществляется путем корректировки обменного курса между DYDX и stkDYDX. Это означает, что по мере проведения процедуры сокращения обменный курс между DYDX и stkDYDX будет отклоняться от своего первоначального значения 1:1. Обратите внимание, что процедуры сокращения не влияют на получение наград за стейкинг.
+

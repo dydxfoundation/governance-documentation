@@ -5,7 +5,7 @@ description: Обзор dYdX Foundation
 
 # dYdX Foundation
 
-dYdX Foundation — это независимый некоммерческий фонд, штаб-квартира которого находится в Цуге, Швейцария. Дополнительную информацию о dYdX Foundation можно получить по ссылке [**dydx.foundation**](https://dydx.foundation).
+dYdX Foundation — это независимый некоммерческий фонд, штаб-квартира которого находится в Цуге, Швейцария. Дополнительную информацию о dYdX Foundation можно получить по ссылке [dydx.foundation](https://dydx.foundation).
 
 ### Миссия
 

@@ -1,63 +1,51 @@
-# Table of contents
+# Содержание
 
-* [Introduction](README.md)
+* [Введение](README.md)
 
-## Start Here
+## НАЧАЛО
 
-* [Interface](start-here/dydx.community.md)
-* [Restrictions](start-here/restrictions.md)
-* [Allocations](start-here/dydx-allocations.md)
-* [Epochs](start-here/epochs.md)
-* [Fee Discounts](start-here/trading-fee-discount.md)
-* [Treasury](start-here/community-treasury.md)
+* [Интерфейс](start-here/dydx.community.md)
+* [Ограничения](start-here/restrictions.md)
+* [Распределение](start-here/dydx-allocations.md)
+* [Эпохи](start-here/epochs.md)
+* [Скидки на комиссии](start-here/trading-fee-discount.md)
+* [Казна](start-here/community-treasury.md)
 
-## Rewards
+## НАГРАДЫ
 
-* [Retroactive Mining Rewards](rewards/retroactive-mining-rewards.md)
-* [Trading Rewards](rewards/trading-rewards.md)
-* [Liquidity Provider Rewards](rewards/liquidity-provider-rewards.md)
+* [Награды за ретроактивный майнинг](rewards/retroactive-mining-rewards.md)
+* [Награды за торговлю](rewards/trading-rewards.md)
+* [Награды для поставщиков ликвидности](rewards/liquidity-provider-rewards.md)
 
-## STAKING POOLS
+## ПУЛЫ СТЕЙКИНГА
 
-* [Liquidity Module](staking-pools/liquidity-staking-pool.md)
-* [Safety Module](staking-pools/safety-staking-pool.md)
+* [Награды для поставщиков ликвидности](staking-pools/liquidity-staking-pool.md)
+* [Модуль безопасности](staking-pools/safety-staking-pool.md)
 
-## Voting & Governance
+## ГОЛОСОВАНИЕ И УПРАВЛЕНИЕ
 
-* [Architecture](voting-and-governance/governance-process.md)
-* [Proposal Lifecycle](voting-and-governance/dip-proposal-lifecycle.md)
-* [Voting Process](voting-and-governance/voting.md)
-* [Parameters](voting-and-governance/governance-parameters.md)
+* [Архитектура](voting-and-governance/governance-process.md)
+* [Жизненный цикл предложения](voting-and-governance/dip-proposal-lifecycle.md)
+* [Процесс голосования](voting-and-governance/voting.md)
+* [Параметры](voting-and-governance/governance-parameters.md)
 
-## RESOURCES
+## МАТЕРИАЛЫ
 
-* [Technical Overview](resources/technical-overview.md)
-* [Foundation](resources/dydx-foundation.md)
-* [Market Maker Onboarding](resources/market-maker-onboarding.md)
-* [Glossary](resources/glossary.md)
+* [Технический обзор](resources/technical-overview.md)
+* [dYdX Foundation](resources/dydx-foundation.md)
+* [Глоссарий](resources/glossary.md)
 
-## External Links
+## ВНЕШНИЕ ССЫЛКИ
 
-* [Forums](http://forums.dydx.community)
-* [dYdX Layer 2](https://trade.dydx.exchange)
-* [dYdX Layer 2 API](https://docs.dydx.exchange)
+---
+
+* [Форумы](http://forums.dydx.community/)
+* [dYdX уровня 2](https://trade.dydx.exchange/)
+* [API dYdX уровня 2](https://docs.dydx.exchange/)
 * [dYdX Trading Inc.](https://dydx.exchange)
-* [Metrics Dashboard](http://metrics.dydx.exchange)
+* [Панель показателей](http://metrics.dydx.exchange/)
 
-## 挖矿简介 <a href="#chinese" id="chinese"></a>
+## 中文 <a id="chinese"></a>
 
 * [DYDX 介绍](chinese/dydx-jie-shao.md)
-* [中文问答](chinese/zhong-wen-wen-da.md)
-* [追溯性挖矿教程](chinese/zhui-su-xing-wa-kuang-jiao-cheng.md)
-* [交易挖矿教程](chinese/jiao-yi-wa-kuang-jiao-cheng.md)
-* [DYDX领取教程](chinese/dydx-ling-qu-jiao-cheng.md)
 
-## 交易教程
-
-* [如何在dYdX上开空单（做空）](jiao-yi-jiao-cheng/ru-he-zai-dydx-shang-kai-kong-dan-zuo-kong/README.md)
-  * [如何在dYdX上开多单（做多）](jiao-yi-jiao-cheng/ru-he-zai-dydx-shang-kai-kong-dan-zuo-kong/ru-he-zai-dydx-shang-kai-duo-dan-zuo-duo.md)
-
-## 公告
-
-* [关于暂停保险质押池的通知](gong-gao/guan-yu-zan-ting-bao-xian-zhi-ya-chi-de-tong-zhi.md)
-* [Epoch 0回顾](gong-gao/untitled.md)

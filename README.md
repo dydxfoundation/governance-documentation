@@ -1,20 +1,22 @@
 ---
-description: An overview of the DYDX token and governance.
+description: Обзор токена DYDX и управления.
+
 ---
 
-# Introduction
+# Введение
 
-DYDX is a governance token that allows the dYdX community to truly govern the dYdX Layer 2 Protocol ("the protocol"). By enabling shared control of the protocol, DYDX allows traders, liquidity providers, and partners of dYdX to work collectively towards an enhanced Protocol.
+DYDX — это токен управления, который позволяет сообществу dYdX действительно контролировать протокол dYdX уровня 2 \(далее — «Протокол»\). Токен DYDX позволяет трейдерам, поставщикам ликвидности и партнерам dYdX совместно улучшать протокол благодаря общему контролю над ним.
 
-DYDX enables a robust ecosystem around governance, rewards, and staking — each designed to drive future growth and decentralization of dYdX, resulting in a better experience for users.&#x20;
+Токен DYDX обеспечивает надежную экосистему управления, получения наград и стейкинга, которая призвана стимулировать дальнейшие развитие и децентрализацию биржи dYdX, что сделает работу пользователей с ней удобней.
 
-Staking pools are designed to promote liquidity and safety on the Protocol. Rewards programs for trading, liquidity providing, and past usage of dYdX will help drive growth and adoption of dYdX.
+Пулы стейкинга предназначены для повышения ликвидности и безопасности протокола. Развитию и принятию dYdX содействуют программы вознаграждения за торговлю, обеспечение ликвидности, а также прошлое использование dYdX.
 
-Alongside the launch of DYDX, we also released:\
-\
-🖥️ A governance product at [**dydx.community**](https://dydx.community)\
-📈 [**Liquidity Staking Pool**](staking-pools/liquidity-staking-pool.md) for USDC\
-🔒[ **Safety Staking Pool**](staking-pools/safety-staking-pool.md) for DYDX\
-💰 [**Trading Rewards**](rewards/trading-rewards.md)****\
-****💸 [**Retroactive Mining Rewards**](rewards/retroactive-mining-rewards.md) for past users\
-📊 [**Liquidity Provider Rewards**](rewards/liquidity-provider-rewards.md)
+Помимо DYDX мы также выпустили следующие продукты:
+
+🖥️ Продукт управления на d[**ydx.community
+**](https://dydx.community)   📈 П[**ул стейкинга ликвидности д**](staking-pools/liquidity-staking-pool.md)ля USDC
+   🔒 Пул [**стейкинга безопасности для **](staking-pools/safety-staking-pool.md)DYDX
+   💰 На[**грады за торговлю **](rewards/trading-rewards.md)  
+****💸 Наг[**рады за ретроактивный майнинг для **](rewards/retroactive-mining-rewards.md)бывших пользователей
+   📊 На[**грады для поставщиков ликвидности**](rewards/liquidity-provider-rewards.md)
+

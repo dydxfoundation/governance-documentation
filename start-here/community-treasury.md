@@ -1,29 +1,31 @@
 ---
-description: An overview of the community treasury.
+description: Обзор казны сообщества.
+
 ---
 
-# Treasury
+# Казна
 
-`5.00%` of the initial token supply (`50,000,000 DYDX`) will be distributed to a community treasury to be allocated on an ongoing basis through contributor grants, community initiatives, liquidity mining, and other programs.
+`5,00%` от первоначального запаса токенов \(`50 000 000 DYDX`\) будет направлено в казну сообщества для распределения в виде грантов участникам на постоянной основе, реализации инициатив сообщества, майнинга ликвидности и осуществления других программ.
 
-**Objectives**
+**Цели**
 
-* Fund programs and initiatives that drive the growth of dYdX.
-* Develop grant programs to fund community NFTs, hackathons, analytics dashboards, memes, swag, third-party tools, translations, and other projects.
-* Develop a best-in-class governance system and incentivize robust governance.
+* Финансируйте программы и инициативы, которые способствуют развитию dYdX.
+* Разрабатывайте программы грантов для финансирования невзаимозаменяемых токенов, хакатонов, панелей аналитики, мемов, сувенирной продукции, сторонних инструментов, переводов и других проектов.
+* Развивайте лучшую в своем классе систему управления и стимулируйте надежное управление.
 
-## Overview
+## Обзор
 
-The community treasury will retain DYDX to use as DYDX holders decide, whether it be for grants, new liquidity mining pools, or any other program. DYDX will vest to the community treasury on a continuous basis over the course of five years. A governance vote will be required to spend any DYDX from the community treasury.
+В казне сообщества будут храниться DYDX, которые будут использоваться по решению владельцев токена, будь то для субсидий, новых пулов майнинга ликвидности или любой другой программы. Токены DYDX будут помещаться в казну сообщества на постоянной основе в течение пяти лет. Для продажи DYDX, хранящихся в казне сообщества, потребуется голосование среди лиц, управляющих токеном.
 
-If, after five years, governance decides to enact perpetual inflation (at a maximum annual inflation of `2%`), any newly minted DYDX will be available to the community treasury.
+Если по истечении пяти лет управление примет решение о введении инфляции для бессрочных контрактов \(максимальный уровень которой составляет `2%` в год), все новые токены DYDX станут доступными для казны сообщества.
 
-## FAQ
+## Часто задаваемые вопросы
 
-### Who can submit proposals to spend DYDX tokens from the Community Treasury?
+### Кто может вносить предложения о расходовании токенов DYDX, находящихся в казне сообщества?
 
-Any user with sufficient proposing power can submit proposals. A governance vote will be required to spend any DYDX from the community treasury. To submit a proposal, please submit a dYdX Improvement Proposal (DIP) as laid out in the [DIP Proposal Lifecycle](../voting-and-governance/dip-proposal-lifecycle.md).
+Предложения может вносить любой пользователь, обладающий соответствующим правом. Для продажи DYDX, хранящихся в казне сообщества, потребуется голосование среди лиц, управляющих токеном. Чтобы внести какое-либо предложение, представьте предложение по улучшению dYdX \(далее — «ППУ»\), описанное в статье [«Жизненный цикл ППУ»](../voting-and-governance/dip-proposal-lifecycle.md).
 
-### What types of proposals can be submitted to the Community Treasury?
+### Какие типы предложений для казны сообщества можно вносить?
 
-A community-managed treasury opens up a world of possibilities. We hope to see various experiments and initiatives, including ecosystem grants, which can foster the dYdX Layer 2 Protocol’s ecosystem growth.
+Казна, управляемая сообществом, открывает множество возможностей. Мы надеемся увидеть различные эксперименты и инициативы, включая экосистемные субсидии, которые могут способствовать развитию экосистемы протокола dYdX уровня 2.
+
