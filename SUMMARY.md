@@ -1,4 +1,4 @@
-# 目录
+# Table of contents
 
 * [简介](README.md)
 
@@ -37,15 +37,12 @@
 
 ## 外部链接
 
----
-
-* [论坛](http://forums.dydx.community/)
-* [dYdX Layer 2](https://trade.dydx.exchange/)
-* [dYdX Layer 2 API](https://docs.dydx.exchange/)
+* [论坛](http://forums.dydx.community)
+* [dYdX Layer 2](https://trade.dydx.exchange)
+* [dYdX Layer 2 API](https://docs.dydx.exchange)
 * [dYdX Trading Inc.](https://dydx.exchange)
-* [指标控制面板](http://metrics.dydx.exchange/)
+* [指标控制面板](http://metrics.dydx.exchange)
 
-## 中文<a id="chinese"></a>
+## 中文 <a href="#chinese" id="chinese"></a>
 
 * [DYDX介绍](chinese/dydx-jie-shao.md)
-
