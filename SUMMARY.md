@@ -1,4 +1,4 @@
-# Содержание
+# Table of contents
 
 * [Введение](README.md)
 
@@ -37,15 +37,8 @@
 
 ## ВНЕШНИЕ ССЫЛКИ
 
----
-
-* [Форумы](http://forums.dydx.community/)
-* [dYdX уровня 2](https://trade.dydx.exchange/)
-* [API dYdX уровня 2](https://docs.dydx.exchange/)
+* [Форумы](http://forums.dydx.community)
+* [dYdX уровня 2](https://trade.dydx.exchange)
+* [API dYdX уровня 2](https://docs.dydx.exchange)
 * [dYdX Trading Inc.](https://dydx.exchange)
-* [Панель показателей](http://metrics.dydx.exchange/)
-
-## 中文 <a id="chinese"></a>
-
-* [DYDX 介绍](chinese/dydx-jie-shao.md)
-
+* [Панель показателей](http://metrics.dydx.exchange)
