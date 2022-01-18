@@ -19,28 +19,25 @@ DYDX will be distributed to traders based on a formula that rewards a combinatio
 
 The Cobb-Douglas function is used to compute how much DYDX is awarded to each trader during each epoch:
 
-$$
-w\ =\ f ^{\alpha } \times d \ ^{1-\alpha }
-$$
+![](../.gitbook/assets/math-20211221.png)
 
 $$
 r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k
 $$
 
-| Term                         | Definition                                                                                               |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------- |
-| r                            | Reward for a specific trader.                                                                            |
-| R                            | Total reward to be split between all traders in the pool for the epoch.                                  |
-| f                            | Total fees paid by a trader in this epoch.                                                               |
-| w                            | Individual trader score.                                                                                 |
-| $${\sum\limits _{n} w_{n}}$$ | Sum of all trader scores.                                                                                |
-| d                            | A trader’s average open interest (measured every minute) across all markets in this epoch.               |
-| k                            | Total number of traders in this epoch.                                                                   |
-| α                            | A constant in the range that determines the weight of fees vs open interest. The initial value is α=0.7. |
-
-The following example illustrates Trading Rewards earned by Traders A, B, and C using the formula listed above:
-
-![An example distribution for Trading Rewards](<../.gitbook/assets/Frame 1208.png>)
+| Term                         | Definition                                                                                 |
+| ---------------------------- | ------------------------------------------------------------------------------------------ |
+| r                            | Reward for a specific trader.                                                              |
+| R                            | Total reward to be split between all traders in the pool for the epoch.                    |
+| f                            | Total fees paid by a trader in this epoch.                                                 |
+| w                            | Individual trader score.                                                                   |
+| $${\sum\limits _{n} w_{n}}$$ | Sum of all trader scores.                                                                  |
+| d                            | A trader’s average open interest (measured every minute) across all markets in this epoch. |
+| k                            | Total number of traders in this epoch.                                                     |
+| g                            | A trader’s average stkDYDX held (measured randomly every minute) throughout the epoch      |
+| a                            | 0.67                                                                                       |
+| b                            | 0.28                                                                                       |
+| c                            | 0.05                                                                                       |
 
 ## FAQ
 

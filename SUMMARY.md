@@ -28,6 +28,7 @@
 * [Proposal Lifecycle](voting-and-governance/dip-proposal-lifecycle.md)
 * [Voting Process](voting-and-governance/voting.md)
 * [Parameters](voting-and-governance/governance-parameters.md)
+* [Governance Guide](voting-and-governance/governance-guide.md)
 
 ## RESOURCES
 
