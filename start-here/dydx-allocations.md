@@ -1,30 +1,29 @@
 ---
 description: DYDXトークンの割り当て。
-
 ---
 
 # 割り当て
 
 **割り当て**
 
-合計で`10億DYDX`が作成され、**2021年8月3日午後3時（UTC協定世界時）**から5年間以上利用可能になります。DYDX総供給量に関する最初5年間の割り当ては、以下のとおりです。
+合計で`10億DYDX`が作成され、**2021年8月3日午後3時（協定世界時）**から5年間以上利用可能になります。DYDX総供給量に関する最初5年間の割り当ては、以下のとおりです。
 
-* 以下のコミュニティには**50.00％**\（`5億DYDX`\）：
-   * 支払い済み手数料およびオープン利息の組み合わせに基づき、dYdXレイヤ2プロトコルで取引するユーザーには**25.00％**\（`2億5,000万DYDX`\）\（[取引報酬\）](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/reward-pools-1/trading-rewards.md)
-   * dYdXレイヤ2プロトコルで特定の取引マイルストーンを完了した過去のユーザーには**7.50％**\`（7,500万DYDX`\）（[遡及マイニング報酬](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/reward-pools-1/retroactive-rewards.md)\）
-   * 稼働時間、両方向のデプス、売買スプレッド、およびサポートされているマーケット数の組み合わせによる報酬計算公式に基づき、流動性プロバイダーには**7.50％**\（`7,500万DYDX`\）\（[流動性プロバイダーの報酬](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/reward-pools-1/liquidity-provider-rewards.md)\）
-   * コミュニティ基金には**5.00％**\（`5,000万DYDX`\）\（[コミュニティ基金](community-treasury.md)\）
-   * 流動性ステーキングプールにUSDCをステーキングするユーザーには**2.50％**\（`2,500万DYDX`\）\（[流動性ステーキングプール](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/staking-pools/liquidity-staking-pool.md)\）
-   * 安全ステーキングプールにDYDXをステーキングするユーザーには**2.50％**\（`2,500万DYDX`\） \（[安全ステーキングプール](https://github.com/dydxfoundation/governance-docs/tree/777055c52f53459a3e85373e5801f65f5c58995f/staking-pools/safety-pool-1.md)\）
-* 過去の投資家には**27.73％**\（`2億7,729万5,070DYDX`\）
-* dYdX TradingまたはFoundationの創設者、従業員、アドバイザー、コンサルタントには**15.27％**\（`1億5,270万4,930DYDX`\）
-* dYdX TradingまたはdYdX Foundationの将来の従業員およびコンサルタントには**7.00％**\（`7,000万DYDX`\）
+* コミュニティには以下の通り**50.00％**（`5億DYDX`）。
+   * 支払い済み手数料およびオープンインタレスト（建玉）の組み合わせに基づき、dYdXレイヤ2プロトコルでトレードするユーザーには**25.00％**（`2億5,000万DYDX`）（[**取引報酬**](../rewards/trading-rewards.md)）。
+   * dYdXレイヤー2プロトコルで特定の取引マイルストーンを完了した過去のユーザーには**7.50％**（`7,500万DYDX`）（[**遡及マイニング報酬）**](../rewards/retroactive-mining-rewards.md)）
+   * 稼働時間、両方向のデプス、売買スプレッド、およびサポートされているマーケット数の組み合わせによる報酬計算公式に基づき、流動性プロバイダーには**7.50％**（`7,500万DYDX`）（[**流動性プロバイダーの報酬**](../rewards/liquidity-provider-rewards.md)）。
+   * コミュニティ基金（[**基金**](community-treasury.md)）には**5.00％**（`5,000万DYDX`）。
+   * 流動性ステーキングプールにUSDCをステーキングするユーザーには**2.50％**（`2,500万DYDX`）（[**流動性モジュール**](../staking-pools/liquidity-staking-pool.md)）。
+   * セーフティステーキングプールにDYDXをステーキングするユーザーには**2.50％**（`2,500万DYDX`）（[**セーフティモジュール**](../staking-pools/safety-staking-pool.md)）。
+* 過去の投資家には**27.73％**（`277,295,070DYDX`）。
+* dYdX TradingまたはdYdX Foundationの創設者、従業員、アドバイザー、コンサルタントには**15.27％**（`1億5,270万4,930DYDX`）。
+* dYdX TradingまたはdYdX Foundationの将来の従業員およびコンサルタントには**7.00％**（`7,000万DYDX`）。
 
-![](../.gitbook/assets/dydx-allocations-initial-5-years-.png)
+![](<../.gitbook/assets/DYDX Allocations (Initial 5 Years).png>)
 
 立ち上げから5年後以降、DYDXの供給量を増やすため、コミュニティがプロトコルの開発および成長を継続するリソースを確保するように、ガバナンスにより年間最大`2％`のパーペチュアルインフレ率を使用できます。インフレは、ガバナンス提案を通じて制定され、年間`2％`に制限されます。
 
-![](../.gitbook/assets/allocation-10-years-inflation%20%281%29.png)
+![](<../.gitbook/assets/Allocation 10 Years Inflation (1).png>)
 
 コミュニティの割り当ては上記のように設定されていますが、DYDX保有者は今後のコミュニティの割り当ての使用方法について、ガバナンスを通じて完全な管理を保有しています。
 
@@ -49,11 +48,16 @@ DYDXは、dYdX TradingおよびFoundationの株主、取締役、役員、従業
 
 DYDXのロックアップにかかわらず、dYdX TradingまたはFoundationの投資家および先行する従業員またはコンサルタントは、DYDXを使用して、プロトコルに関する提案の作成、選択の委任、またはプロトコルに関する提案の選択にDYDXを使用できます。dYdX TradingまたはFoundationの現在の従業員およびコンサルタントは、当初は提案の実行や選択の参加はありませんが、将来的にはそうする可能性があります。dYdX TradingまたはFoundationの現在の従業員およびコンサルタントは、選択結果に影響を与えることを試みずに選択を委任することができます。
 
+すべての投資家は、dYdX Foundationとの契約により執行される資金の移動制限を遵守する必要があります。dYdX Foundationではウォレットアドレスを追跡し、その制限に違反して資金の移動が行われたかどうかを判断します。
+
+投資家は、セーフティモジュールにDYDXをステーキングすることが技術的かつ法的に許容されていますが、ショートフォールイベントやDYDXのスラッシュが発生した場合、投資家もその他のすべての人々と同様にスラッシュの影響を受けます。この時、債務不履行が発生します。スラッシュの結果、投資家は移動したトークンを再度購入することが求められ、すべての人が同じポジションをとることになります。このため、当社ではすべての投資家に対してステーキングを控え、セーフティモジュールにステーキングされているすべての資金を出金するようお願いしています。
+
+dYdX Foundationでは、これらの要件を遵守しない投資家に対して法的措置をとることを表明しています。
+
 ## DYDXの流動的供給曲線とは何ですか？
 
-エポック0の終了から`8日`後の2021年9月8日、トークンの最初の送信制限が解除され、DYDX供給量の約8.11％が流動化されます。
+エポック0の終了から`8日後`の2021年9月8日、トークンの最初の移動制限が解除され、DYDX供給量の約8.11％が流動化されます。
 
 以下のグラフは、時間の経過に伴う総流動化供給量を示しています。
 
-![](../.gitbook/assets/liquid-supply-schedule%20%282%29.png)
-
+![](<../.gitbook/assets/Liquid Supply Schedule (2).png>)
