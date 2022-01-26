@@ -1,41 +1,39 @@
 ---
-description: 'dydx.communityでのガバナンス、報酬、およびステーキングの拠点'
-
+description: dydx.communityでのガバナンス、報酬、およびステーキングの拠点
 ---
 
 # インターフェース
 
 ガバナンス、報酬、およびステーキングのインターフェースは、[**dydx.community**](https://dydx.community)から利用可能です。
 
-![報酬の獲得、または提案への選択](../.gitbook/assets/image%20%2852%29.png)
+![Earn & claim rewards, or vote on proposals](<../.gitbook/assets/image (73).png>)
 
 ### ガバナンス
 
 アクティブなおよび過去のガバナンス提案を表示でき、アクティブなガバナンス提案を選択できます。
 
-![提案のステータスを追跡し、変更についての選択](../.gitbook/assets/image%20%2816%29.png)
+![Track proposal status and vote on changes](<../.gitbook/assets/image (13).png>)
 
 DYDXおよびstkDYDXの保有者は、権限および選択権の提案という2種類のガバナンス権限が付与されます。ダッシュボードを通じて、ユーザーは提案および選択権限を表示し、他のアドレスに委任できます。
 
-![提案および選択権限の委任](../.gitbook/assets/image%20%2814%29%20%281%29.png)
+![Delegate your proposing and voting powers](<../.gitbook/assets/image (14).png>)
 
 ### ステーキング
 
 ユーザーは、USDCおよびDYDXをステークすることでステーキング報酬を獲得できます。
 
-![報酬を受け取るための資金のステーク](../.gitbook/assets/image%20%2817%29.png)
+![Stake funds to receive rewards](<../.gitbook/assets/image (15).png>)
 
-### トレード報酬
+### 取引報酬
 
 ユーザーは、レイヤ2取引所での取引活動を通じて獲得した報酬を表示できます。取引の報酬は、エポックスケジュールに従い、28日ごとに提供されます。
 
-![報酬を受け取るための取引](../.gitbook/assets/image%20%281%29.png)
+![Trade to receive rewards](<../.gitbook/assets/image (14) (1).png>)
 
 ### ポートフォリオ＆請求DYDX
 
 ユーザーは、DYDXの保有、請求可能DYDX、ステーク済みのDYDX、および出金可能DYDXの集計ビューを確認できます。
 
-ユーザーは、現在流通しているDYDXトークンの供給および毎日の提供を確認できます。ユーザーは、利用可能なすべてのDYDX報酬を請求できます。
+ユーザーは、現在流通しているDYDXトークンの供給および毎日の提供を確認できます。ユーザーは利用可能なすべてのDYDX報酬を請求できます。DYDXトークンは、**2021年9月8日**午後3時（協定世界時）頃以降に移動可能になります。
 
-![報酬の請求](../.gitbook/assets/image%20%2815%29.png)
-
+![Claim your rewards](<../.gitbook/assets/image (16).png>)
