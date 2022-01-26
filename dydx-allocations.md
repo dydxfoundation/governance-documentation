@@ -1,6 +1,5 @@
 ---
 description: DYDX分配。
-
 ---
 
 # DYDX分配
@@ -8,12 +7,12 @@ description: DYDX分配。
 总共创造了`1,000,000,000个DYDX`，并将在五年内投入使用。DYDX初始五年的总供应量分配如下：
 
 * 50%\（`500,000,000个DYDX`\）分配给社区，具体如下：
-   * 25%\（`250,000,000个DYDX`\）通过[交易奖励](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/reward-pools-1/trading-rewards.md)分配给符合资格的用户
-   * 7.5%\（`75,000,000个DYDX`\）通过[追溯性挖矿奖励](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/reward-pools-1/retroactive-rewards.md)分配给符合资格的用户
-   * 7.5%\（`75,000,000个DYDX`\）通过[流动性提供方奖励](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/reward-pools-1/liquidity-provider-rewards.md)分配给符合资格的用户
-   * 5%\（`50,000,000个DYDX`\）分配给[社区资金库](community-treasury.md)
-   * 2.5%\（`25,000,000个DYDX`\）通过[流动性质押池分配](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/staking-pools/liquidity-staking-pool.md)给符合资格的用户
-   * 2.5%\（`25,000,000个DYDX`\）通过[保险资金池](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/staking-pools/safety-pool-1.md)分配给符合资格的用户
+   * 25%\（`250,000,000个DYDX`\）通过[交易奖励](https://github.com/dydxfoundation/governance-documentation/blob/en/rewards/trading-rewards.md)分配给符合资格的用户
+   * 7.5%\（`75,000,000个DYDX`\）通过[追溯性挖矿奖励](https://github.com/dydxfoundation/governance-documentation/blob/en/rewards/retroactive-mining-rewards.md)分配给符合资格的用户
+   * 7.5%\（`75,000,000个DYDX`\）通过[流动性提供方奖励](https://github.com/dydxfoundation/governance-documentation/blob/en/rewards/liquidity-provider-rewards.md)分配给符合资格的用户
+   * 5%\（`50,000,000个DYDX`\）分配给[社区资金库](https://github.com/dydxfoundation/governance-documentation/blob/en/start-here/community-treasury.md)
+   * 2.5%\（`25,000,000个DYDX`\）通过[流动性质押池分配](https://github.com/dydxfoundation/governance-documentation/blob/en/staking-pools/liquidity-staking-pool.md)给符合资格的用户
+   * 2.5%\（`25,000,000个DYDX`\）通过[保险资金池](https://github.com/dydxfoundation/governance-documentation/blob/en/staking-pools/safety-staking-pool.md)分配给符合资格的用户
 * 29.59%\（`295,905,346个DYDX`\）分配给dYdX Trading的过往投资者
 * 15.75%\（`157,548,884个DYDX`\）分配给dYdX Trading或基金会的创始人、员工、顾问
 * 4.65%\（`46,545,770个DYDX`\）分配给dYdX Trading或基金会的未来员工和顾问
