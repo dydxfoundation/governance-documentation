@@ -1,6 +1,5 @@
 ---
 description: Распределение DYDX.
-
 ---
 
 # Распределение DYDX
@@ -8,12 +7,12 @@ description: Распределение DYDX.
 В общей сложности было создано `1 000 000 000 токенов DYDX`, которые станут доступны в течение пяти лет. В первые пять лет все токены DYDX будут распределены следующим образом:
 
 * 50% \(`500 000 000 DYDX`\) будут распределены между сообществом следующим образом:
-   * 25% \(`250 000 000 DYDX`\) получат пользователи в качестве [наград за торговлю](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/reward-pools-1/trading-rewards.md)
-   * 7,5% \(`75 000 000 DYDX`\) получат пользователи в виде [наград для поставщиков ликвидности](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/reward-pools-1/retroactive-rewards.md)
-   * 7,5% \(`75 000 000 DYDX`\) получат пользователи в качестве [наград за ретроактивный майнинг](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/reward-pools-1/liquidity-provider-rewards.md)
-   * 5% \(`50 000 000 DYDX`\) поступит в [казну сообщества](community-treasury.md)
-   * 2,5% \(`25 000 000 DYDX`\) получат пользователи, размещающие токены в [пуле стейкинга ликвидности](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/staking-pools/liquidity-staking-pool.md)
-   * 2,5% \(`25 000 000 DYDX`\) получат пользователи, размещающие токены в [пуле стейкинга безопасности](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/staking-pools/safety-pool-1.md)
+   * 25% \(`250 000 000 DYDX`\) получат пользователи в качестве [наград за торговлю](https://github.com/dydxfoundation/governance-documentation/blob/en/rewards/trading-rewards.md)
+   * 7,5% \(`75 000 000 DYDX`\) получат пользователи в виде [наград для поставщиков ликвидности](https://github.com/dydxfoundation/governance-documentation/blob/en/rewards/retroactive-mining-rewards.md)
+   * 7,5% \(`75 000 000 DYDX`\) получат пользователи в качестве [наград за ретроактивный майнинг](https://github.com/dydxfoundation/governance-documentation/blob/en/rewards/liquidity-provider-rewards.md)
+   * 5% \(`50 000 000 DYDX`\) поступит в [казну сообщества](https://github.com/dydxfoundation/governance-documentation/blob/en/start-here/community-treasury.md)
+   * 2,5% \(`25 000 000 DYDX`\) получат пользователи, размещающие токены в [пуле стейкинга ликвидности](https://github.com/dydxfoundation/governance-documentation/blob/en/staking-pools/liquidity-staking-pool.md)
+   * 2,5% \(`25 000 000 DYDX`\) получат пользователи, размещающие токены в [пуле стейкинга безопасности](https://github.com/dydxfoundation/governance-documentation/blob/en/staking-pools/safety-staking-pool.md)
 * 29,59% \(`295 905 346 DYDX`\) получат бывшие инвесторы dYdX Trading
 * 15,75% \(`157 548 884 DYDX`\) получат основатели, сотрудники, советники и консультанты dYdX Trading или dYdX Foundation
 * 4,65% \(`46 545 770 DYDX`\) получат будущие сотрудники и консультанты dYdX Trading или dYdX Foundation
