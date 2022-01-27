@@ -1,11 +1,10 @@
 ---
 description: 追溯性挖矿奖励计划概述。
-
 ---
 
 # 追溯性挖矿奖励
 
-`7.50%`初始代币供应量\（`75,000,000个DYDX`\）将分配给完成协议某些交易里程碑的dYdX协议过往用户，但不包括位于不允许提供DYDX的管辖区的用户，包括美国。如果要申领赚取的代币，用户需要在dYdX Layer 2协议上进行交易，并达到各自的申领里程碑。
+初始代币供应量的`7.50%`（`75,000,000个DYDX`）将分配给完成协议某些交易里程碑的dYdX协议过往用户，但不包括位于不允许提供DYDX的管辖区的用户，包括美国。如果要申领赚取的代币，用户需要在dYdX Layer 2协议上进行交易，并达到各自的申领里程碑。
 
 **目标**
 
@@ -16,9 +15,9 @@ description: 追溯性挖矿奖励计划概述。
 
 dYdX Layer 2协议的成功是成千上万名社区成员努力的结果，他们在过去三年中一直在dYdX Layer 2协议及其前身上进行交易。
 
-根据截止**中国时间2021年7月27日08:00:00**的快照，将DYDX分配给所有dYdX 协议的过往用户\（不包括不允许提供DYDX的管辖区的用户，包括美国\）。有五个分配等级，考虑了用户过去在所有dYdX协议上的活动。
+根据截至**中国时间2021年7月27日08:00:00**的快照，将DYDX分配给所有dYdX 协议的过往用户（不包括不允许提供DYDX的管辖区的用户，包括美国）。有五个分配等级，考虑了用户过去在所有dYdX协议上的活动。
 
-如果要申领DYDX，过往用户必须在首个28天时段\（0时段\）内满足[Layer 2永续合](https://trade.dydx.exchange)约的以下里程碑：
+如果要申领DYDX，过往用户必须在首个28天时段（0时段）内满足[Layer 2](https://trade.dydx.exchange)永续合约的以下里程碑：
 
 ![](../.gitbook/assets/buckets.png)
 
@@ -38,9 +37,9 @@ dYdX Layer 2协议上的任何历史成交量都将计入用户的申领里程�
 
 ### 我在追溯性奖励计划中赚取了多少DYDX？
 
-![查看申领里程碑和进度](../.gitbook/assets/image%20%2825%29.png)
+![View claim milestone and progress](<../.gitbook/assets/image (23).png>)
 
-过往dYdX用户可以在[**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)上查看他们过去的追溯性挖矿活动和等级。如果要赚取DYDX，用户必须在[**trade.dydx.exchange**](https://trade.dydx.exchange/)上在dYdX Layer 2协议上进行交易，以达到他们的标准阈值。
+过往dYdX用户可以在[**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)上查看他们过去的追溯性挖矿活动和等级。如果要赚取DYDX，用户必须在[**trade.dydx.exchange**](https://trade.dydx.exchange)上在dYdX Layer 2协议上进行交易，以达到他们的标准阈值。
 
 ### 如果我没有达到申领里程碑，会发生什么情况？
 
@@ -55,4 +54,3 @@ dYdX Layer 2协议上的任何历史成交量都将计入用户的申领里程�
 一旦初始转让限制期解除，通过追溯挖矿奖励获得的DYDX代币将可申领和转让。
 
 **中国时间2021年9月8 日晚上11:00:00**，即0时段结束后的`8天`，初始转让限制将被取消，并可以通过追溯性挖矿奖励申领、提现、转让或委托所赚取的DYDX代币。
-
