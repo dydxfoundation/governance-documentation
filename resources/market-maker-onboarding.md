@@ -1,19 +1,17 @@
 ---
 description: >-
-  In order to ease market maker onboarding, the dYdX team created this guide.
-  Please read through the document in its entirety before beginning any
-  integration steps.
+  dYdXチームではマーケットメーカーのオンボーディングを容易にするために、このガイドラインを作成しました。統合ステップを開始する前に、ドキュメント全体をお読みください。
 ---
 
-# Market Maker Onboarding
+# マーケットメーカーのオンボーディング
 
-## dYdX Suggested Market Maker Onboarding Flow:
+## dYdXが推奨するマーケットメーカーのオンボーディングフロー：
 
-1. Connect your preferred ethereum wallet to dYdX L2 Perpetual protocol.
-2. Deposit USDC into your Perpetual account.
-3. You will need to generate a STARK Key which identifies your account on Layer 2 and is saved locally on your browser. The Stark Key associates dYdX users with Ethereum account addresses so a user must first request to sign the linkage of an Ethereum key to a STARK Key and then register the STARK Key on dYdX’s smart contract before any other operation can take place. Click “Generate Stark Key” and sign the transaction. Signing is free and will not send a transaction. You can recover your Stark Key at any time with your wallet.
+1. 選択したイーサリアムウォレットをdYdX L2パーペチュアルプロトコルに接続してください。
+2. パーペチュアル口座にUSDCを入金してください。
+3. STARKキーを生成する必要があります。これはレイヤー2で口座を識別し、ブラウザでローカルに保存されます。STARKキーではdYdXユーザーとイーサリアム口座アドレスを関連付けています。ユーザーは最初にイーサリアムキーとSTARKキーとのリンク署名リクエストを行い、その他のオペレーションが実行される前にdYdXのスマートコントラクトにSTARKキーを登録する必要があります。「STARKキーを生成」をクリックし、トランザクションに署名します。署名は無料であり、トランザクションを伴いません。STARKキーはお客様のウォレットでいつでも再作成できます。
 
-Alternatively, programmatic traders may derive their STARK key pair using the following method:
+また、プログラマティックトレーダーは以下の方法でSTARKキーペアを取得する場合があります。
 
 ```
 key_pair_with_y_coordinate = client.onboarding.derive_stark_key(
@@ -22,11 +20,11 @@ key_pair_with_y_coordinate = client.onboarding.derive_stark_key(
 )
 ```
 
-More about STARK Keys can be found here.
+STARKキーの詳細についてはこちらをご覧ください。
 
-4\. Next you will need an API key which will require your Ethereum signature, or via a web3 provider. Note, Eth signatures are needed only for onboarding and managing API keys but not for trading—STARK key signatures are required for trading. API Keys can be registered and obtained using the following functions:
+4\.次に、APIキーが必要になりますが、これはイーサリアム署名が必要であるか、またはWeb3プロバイダーを介して取得しなければなりません。注：イーサリアム署名はAPIキーのオンボーディングおよび管理にのみ必要であり、取引には必要ありません。取引にはSTARKキーの署名が必要です。APIキーは以下の関数を使用して登録、入手できます。
 
-_Registering:_
+_登録：_
 
 ```
 api_key_response = client.api_keys.create_api_key(
@@ -35,18 +33,18 @@ ethereum_address='0x0123...',
 )
 ```
 
-_Obtaining:_
+_入手：_
 
 ```
 api_keys = client.private.get_api_keys()
 ```
 
-_Alternatively (3. And 4.)_, If you don't want the private key to be online, you can generate the STARK key securely with the following steps to get the required credentials.
+_代替手段（3.および4.）：_秘密鍵をオンラインで利用したくない場合、以下の手順でSTARKキーを安全に生成して必要な資金を入手できます。
 
-a. From the dYdX Perpetuals exchange, right-click anywhere in your web-browser, and select Inspect to open Developer Tools&#x20;
+a. dYdXパーペチュアル取引所からは、ウェブブラウザ内の任意の場所を右クリックし、開発者ツールをオープンする検査を選択してください。
 
-b. Go to Application > Local Storage > https://trade.dydx.exchange&#x20;
+b. アプリケーション >ローカルストレージ > https://trade.dydx.exchange
 
-c. Select STARK\_KEY\_PAIRS and click the drop-down next to your wallet address to get the stark private key&#x20;
+c. STARK\_KEY\_PAIRSを選択し、ウォレットアドレスの横にあるドロップダウンをクリックして、秘密鍵を取得します。
 
-d. Select API\_KEY\_PAIRS and click the drop-down next to your wallet address to get the API key, secret key, and passphrase
+d. API\_KEY\_PAIRSを選択し、ウォレットアドレスの横にあるドロップダウンをクリックしてAPIキー、共通鍵、パスフレーズを入手します。
