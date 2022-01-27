@@ -33,19 +33,31 @@
 
 * [기술 개요](resources/technical-overview.md)
 * [재단](resources/dydx-foundation.md)
+* [마켓 메이커 온보딩](resources/market-maker-onboarding.md)
 * [용어](resources/glossary.md)
 
 ## 외부 링크
 
----
-
-* [포럼](http://forums.dydx.community/)
-* [dYdX Layer 2](https://trade.dydx.exchange/)
-* [dYdX Layer 2 API](https://docs.dydx.exchange/)
+* [포럼](http://forums.dydx.community)
+* [dYdX Layer 2](https://trade.dydx.exchange)
+* [dYdX Layer 2 API](https://docs.dydx.exchange)
 * [dYdX Trading Inc.](https://dydx.exchange)
-* [측정치 대시보드](http://metrics.dydx.exchange/)
+* [측정치 대시보드](http://metrics.dydx.exchange)
 
-## 中文<a id="chinese"></a>
+## 挖矿简介 <a href="#chinese" id="chinese"></a>
 
 * [DYDX 介绍](chinese/dydx-jie-shao.md)
+* [中文问答](chinese/zhong-wen-wen-da.md)
+* [追溯性挖矿教程](chinese/zhui-su-xing-wa-kuang-jiao-cheng.md)
+* [交易挖矿教程](chinese/jiao-yi-wa-kuang-jiao-cheng.md)
+* [DYDX领取教程](chinese/dydx-ling-qu-jiao-cheng.md)
 
+## 交易教程
+
+* [如何在dYdX上开空单（做空）](jiao-yi-jiao-cheng/ru-he-zai-dydx-shang-kai-kong-dan-zuo-kong/README.md)
+   * [如何在dYdX上开多单（做多）](jiao-yi-jiao-cheng/ru-he-zai-dydx-shang-kai-kong-dan-zuo-kong/ru-he-zai-dydx-shang-kai-duo-dan-zuo-duo.md)
+
+## 公告
+
+* [关于暂停保险质押池的通知](gong-gao/guan-yu-zan-ting-bao-xian-zhi-ya-chi-de-tong-zhi.md)
+* [에폭 0回顾](gong-gao/untitled.md)

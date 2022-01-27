@@ -1,6 +1,5 @@
 ---
 description: DYDX 얼로케이션.
-
 ---
 
 # DYDX 얼로케이션
@@ -8,12 +7,12 @@ description: DYDX 얼로케이션.
 총 `1,000,000,000 DYDX`를 발행했으며 5년 이상 동안 액세스할 수 있습니다. DYDX 총 공급의 초기 5년 얼로케이션은 다음과 같습니다:
 
 * 50% \(`500,000,000 DYDX`\)는 다음과 같이 커뮤니티에 할당됩니다:
-   * 25% \(`250,000,000 DYDX`\)는 적격 사용자에게  [거래 보상](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/reward-pools-1/trading-rewards.md)으로 할당됩니다.
-   * 7.5% \(`75,000,000 DYDX`\)는 적격 사용자에게  [소급 채굴 보상](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/reward-pools-1/retroactive-rewards.md)으로 할당됩니다.
-   * 7.5% \(`75,000,000 DYDX`\)는 적격 사용자에게  [유동성 공급자 보상](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/reward-pools-1/liquidity-provider-rewards.md)으로 할당됩니다.
-   * 5% \(`50,000,000 DYDX`\)는 [커뮤니티 트레저리](community-treasury.md)에 할당됩니다.
-   * 2.5% \(`25,000,000 DYDX`\)는 적격 사용자에게  [유동성 스테이킹 풀](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/staking-pools/liquidity-staking-pool.md)로 할당됩니다.
-   * 2.5% \(`25,000,000 DYDX`\)는 적격 사용자에게  [안전 풀](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/staking-pools/safety-pool-1.md)로 할당됩니다.
+   * 25% \(`250,000,000 DYDX`\)는 적격 사용자에게  [거래 보상](https://github.com/dydxfoundation/governance-documentation/blob/en/rewards/trading-rewards.md)으로 할당됩니다.
+   * 7.5% \(`75,000,000 DYDX`\)는 적격 사용자에게  [소급 채굴 보상](https://github.com/dydxfoundation/governance-documentation/blob/en/rewards/retroactive-mining-rewards.md)으로 할당됩니다.
+   * 7.5% \(`75,000,000 DYDX`\)는 적격 사용자에게  [유동성 공급자 보상](https://github.com/dydxfoundation/governance-documentation/blob/en/rewards/liquidity-provider-rewards.md)으로 할당됩니다.
+   * 5% \(`50,000,000 DYDX`\)는 [커뮤니티 트레저리](https://github.com/dydxfoundation/governance-documentation/blob/en/start-here/community-treasury.md)에 할당됩니다.
+   * 2.5% \(`25,000,000 DYDX`\)는 적격 사용자에게  [유동성 스테이킹 풀](https://github.com/dydxfoundation/governance-documentation/blob/en/staking-pools/liquidity-staking-pool.md)로 할당됩니다.
+   * 2.5% \(`25,000,000 DYDX`\)는 적격 사용자에게  [안전 풀](https://github.com/dydxfoundation/governance-documentation/blob/en/staking-pools/safety-staking-pool.md)로 할당됩니다.
 * 29.59% \ (`295,905,346 DYDX`\)는 dYdX Trading의 과거 투자자에게 할당됩니다.
 * 15.75% \(`157,548,884 DYDX`\)는 dYdX Trading 또는 재단의 설립자, 직원, 어드바이저 및 컨설턴트에게 할당됩니다.
 * 4.65% \(`46,545,770 DYDX`\)는 dYdX Trading 또는 재단의 미래 직원 및 컨설턴트에게 할당됩니다.
