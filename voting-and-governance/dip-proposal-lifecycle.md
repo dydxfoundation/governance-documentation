@@ -38,15 +38,31 @@ Once posted on the governance forum, all questions and comments should be addres
 
 ## 3. DRC Snapshot Polling
 
-Once an off-chain DRC has a very rough consensus, a community member holding more than `10,000` DYDX can create an **off-chain vote** for the DRC on **Snapshot**.
+Snapshot polls serve two purposes: sentiment signaling for future on-chain DIPs and binding votes for variables controlled off-chain.
 
-Snapshot is a simple voting interface that allows users to signal sentiment off-chain. Votes on snapshot are weighted by the number of DYDX delegated to the address used to vote.
+Once an off-chain DRC has a very rough consensus, a community member holding more than `10,000` DYDX can create an **off-chain vote** for the DRC on **Snapshot**. We encourage the dYdX Community to create Snapshot polls on Mondays to increase visibility during the regular workweek.
 
-The DRC submitter will need to provide details of the DRC, a voting system, vote start date, vote end date, and snapshot block number. The Snapshot block number locks the state of community members who are able to vote. Token holders who hold tokens before the snapshot block number are eligible to vote.
+Snapshot is a simple voting interface that allows users to signal sentiment off-chain. Votes on Snapshot are weighted by the voting power of the address used to vote.&#x20;
 
-Snapshot poll lengths should be set to `5 days`.
+For Snapshot polls related to sentiment signaling, the proposer will need to provide:
 
-Proposals and votes are just signed messages, stored on IPFS, and available via the Commonwealth portal.
+* details of the DRC,
+* a voting system,&#x20;
+* a voting period - vote start date and vote end date set to a 4 day voting period, and&#x20;
+* a voting delay - a Snapshot block number that is 6570 blocks (approximately 1 day) in the future. The Snapshot block number locks the state of community members who can vote. Token holders who hold tokens before the Snapshot block number are eligible to vote. Before the snapshot of each address’ respective voting power, the voting delay gives DYDX/stkDYDY holders time to acquire tokens, delegate voting power, and move tokens between wallets (moving tokens between wallets only applies to DYDX holders).
+
+For decisions that don’t require an on-chain smart contract call, notably changes to the Trading and Liquidity Provider rewards formulas, Snapshot votes are considered the binding and final vote. The proposer will need to include the requirements above and provide:
+
+* binary voting options - for clarity, an address is either voting for or against a proposal.
+
+The proposed change(s) will be implemented by dYdX Trading Inc. if the results of the Snapshot poll satisfy:
+
+* the minimum quorum - at least 1M DYDX/stkDYDX. The minimum quorum contributes to the decentralization of decision-making and protects against unilateral decision-making, and
+* the minimum vote differential - at least 67% of votes must be in favor of the proposal. The minimum vote differential assists with filtering out proposals that are highly contentious and require further discussion.&#x20;
+
+dYdX Trading Inc. will have up to 1 Epoch (28 days), an execution grace period, to implement changes from a successful Snapshot poll.
+
+Note, proposals and votes are just signed messages, stored on IPFS, and available via the Commonwealth portal.
 
 ## 4. (On-chain) DIP Creation
 

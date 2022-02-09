@@ -19,7 +19,7 @@ DYDX will be distributed to traders based on a formula that rewards a combinatio
 
 The Cobb-Douglas function is used to compute how much DYDX is awarded to each trader during each epoch:
 
-![](<../.gitbook/assets/math-20211221 (2).png>)
+![](../.gitbook/assets/math-20211221.png)
 
 $$
 r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k
@@ -53,13 +53,13 @@ In the current epoch, users can see fees paid, average open interest, and estima
 
 ![Rewards info for the current epoch](<../.gitbook/assets/image (18).png>)
 
-Rewards from past epochs can be viewed at [**dydx.community/history/rewards**](https://dydx.community/history/rewards) \*\*\*\* (coming soon).
+Rewards from past epochs can be viewed at [**dydx.community/history/rewards**](https://dydx.community/history/rewards) **** (coming soon).
 
 ### How do I claim my Trading Rewards? When can I withdraw and transfer my earned DYDX?
 
 Earned DYDX tokens via Trading Rewards will be transferable at the end of each epoch. DYDX token holders are required to wait approximately `7 days` (**Waiting Period**) after the end of the epoch to claim their tokens. Once tokens have been claimed, they can be used for dYdX governance.
 
-Traders can claim their trading rewards at the end of every epoch, after the **Waiting Period**, [here](https://dydx.community/dashboard).
+Traders can claim their trading rewards at the end of every epoch, after the **Waiting Period**, [here](https://dydx.community/dashboard).&#x20;
 
 Users will need to click on "Claim", sign a transaction, and pay gas fees to claim DYDX.
 
