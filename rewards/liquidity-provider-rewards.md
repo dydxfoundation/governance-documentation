@@ -12,7 +12,7 @@ description: Overview of the Liquidity Provider rewards Program.
 
 ## **Overview**
 
-To incentivize market liquidity, DYDX will be distributed to liquidity providers based on a formula that rewards participation in markets, two-sided depth, spread (vs. mid-market), and uptime on dYdX’s Layer 2 Protocol. Any Ethereum address can earn these rewards, subject to a minimum maker volume threshold of 1% of maker volume in the preceding epoch. DYDX will be distributed on a 28-day epoch basis over five years and are not subject to any vesting or lockups. 1,150,685 DYDX will be distributed per epoch.
+To incentivize market liquidity, DYDX will be distributed to liquidity providers based on a formula that rewards participation in markets, two-sided depth, spread (vs. mid-market), and uptime on dYdX’s Layer 2 Protocol. Any Ethereum address can earn these rewards, subject to a minimum maker volume threshold of 0.25% of maker volume in the preceding epoch. DYDX will be distributed on a 28-day epoch basis over five years and are not subject to any vesting or lockups. 1,150,685 DYDX will be distributed per epoch.
 
 The following function is used to compute how much DYDX should be rewarded to each liquidity provider per epoch. The amount of DYDX earned is determined by the relative share of each participant’s $$Q_{FINAL}$$&#x20;
 
@@ -49,9 +49,7 @@ Each market will have its own rewards pool that will be weighted differently. Th
 
 ### Who is eligible for liquidity provider rewards?
 
-All liquidity providers who have achieved a minimum of 1% of maker volume on the dYdX Layer 2 Protocol in the prior epoch are eligible to receive DYDX as rewards in a given epoch.
-
-For Epoch 0, dYdX Trading Inc. intends to display which liquidity providers achieve a minimum of 1% of maker volume.&#x20;
+All liquidity providers who have achieved a minimum of 0.25% of maker volume on the dYdX Layer 2 Protocol in the prior epoch are eligible to receive DYDX as rewards in a given epoch.
 
 The dYdX Layer 2 Protocol is not available to liquidity providers in the United States or Restricted Territories, as defined in dYdX Trading Inc.’s [Terms of Use](https://dydx.exchange/terms).
 

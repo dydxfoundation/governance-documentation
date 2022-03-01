@@ -25,7 +25,9 @@ The two examples featured in the guide are _DIP 2 (off-chain proposal) - Reducin
 
 _**Summary:**_
 
-The majority of the community (399 voters and 86% of DYDX) voted on [Snapshot](https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN) to reduce the volume threshold to obtain Liquidity Provider rewards from 5% to 1%. An [off-chain DIP](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-2.md) to reduce the Liquidity Provider rewards volume threshold for market makers from 5% to 1% was submitted by Jacob Goh (jteam0x) at DeFiance Capital. Market makers that met the 1% threshold in Epoch 2 were eligible to earn Liquidity Provider rewards in Epoch 3. The proposal did not require any on-chain smart contract changes.
+In Epoch 6, the dYdX community voted on [Snapshot ](https://commonwealth.im/dydx/snapshot/dydxgov.eth/0x785066561be1e5d170eb28960da5ef2643ee0d0c3d590fd797c028512cc6be43)to reduce the LP rewards volume threshold for market makers from 1% to 0.25%. The reduction of the LP rewards threshold from 5% to 1% in Epoch 2 followed the same process as the reduction in Epoch 6 (1% to 0.25%). The step-by-step overview to reduce the LP rewards volume threshold from 5% to 1% is included below.&#x20;
+
+The majority of the community (399 voters and 86% of DYDX) voted on [Snapshot](https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN) to reduce the volume threshold to obtain Liquidity Provider rewards from 5% to 1%. An [off-chain DIP](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-2.md) to reduce the Liquidity Provider rewards volume threshold for market makers from 5% to 1% was submitted by Jacob Goh (jteam0x) at DeFiance Capital. Market makers that met the 1% threshold in Epoch 2 were eligible to earn Liquidity Provider rewards in Epoch 3. The proposal did not require any on-chain smart contract changes.&#x20;
 
 _**Background:**_
 
