@@ -12,6 +12,9 @@ DYDX能够围绕治理、奖励和质押形成强大的生态系统——这些�
 
 除了推出DYDX，我们还发布了：\
 \
-🖥️ dy[**dx.community的一个治理产品**](https://dydx.community)📈\ USDC[**的流动性质押资金池
-🔒**](staking-pools/liquidity-staking-pool.md)\ DYD[**X的保险资金质押池💰**](staking-pools/safety-staking-pool.md)\ [**交易奖励**](rewards/trading-rewards.md)****\
-****💸 过往用户的追[**溯性挖矿奖励📊**](rewards/retroactive-mining-rewards.md)\ 流动性提[**供方奖励**](rewards/liquidity-provider-rewards.md)
+🖥️ dy[**dx.community的一个治理产品**](https://dydx.community)****\
+****📈 USDC[**的流动性质押资金池** \
+**🔒**](staking-pools/liquidity-staking-pool.md) DYD[**X的保险资金质押池**\
+**💰**](staking-pools/safety-staking-pool.md) [**交易奖励**](rewards/trading-rewards.md)\
+💸 过往用户的追[**溯性挖矿奖励**\
+**📊**](rewards/retroactive-mining-rewards.md) **** 流动性提[**供方奖励**](rewards/liquidity-provider-rewards.md)

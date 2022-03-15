@@ -13,7 +13,7 @@ description: 保险质押池概述
 
 质押在保险模块中的DYDX保留其提议和投票权以及委托能力。
 
-开始在[**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)上进行质押****
+开始在[**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)上进行质押\*\*\*\*
 
 ## 概述
 
@@ -23,7 +23,7 @@ DYDX于中国时间2021年9月8日晚上11:00开始可以转让，届时，保�
 
 ## 提现
 
-如果要在时段结束后能够提现资金，质押人必须至少在时段结束前`14天`**（停市窗口期）**请求提现资金。如果质押人不请求提现，他们质押的DYDX将被转入下一时段。
+如果要在时段结束后能够提现资金，质押人必须至少在时段结束前`14天`\*\*（停市窗口期）\*\*请求提现资金。如果质押人不请求提现，他们质押的DYDX将被转入下一时段。
 
 ## 风险
 
@@ -57,7 +57,7 @@ DYDX于中国时间2021年9月8日晚上11:00开始可以转让，届时，保�
 
 如果要把DYDX质押到保险资金池，请按照以下步骤操作：
 
-* 转到[**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
+* 转到[**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
 * 单击“**质押**”
 * 首次存入时，您必须启用DYDX。这样只需操作一次，并仅产生一次Gas费用。
 * 输入您希望质押到资金池的DYDX数量。
@@ -65,7 +65,7 @@ DYDX于中国时间2021年9月8日晚上11:00开始可以转让，届时，保�
 
 质押资金现在已经生效，并立即开始赚取奖励。
 
-如果要在智能合约上存入并质押资金，用户请调用\`stake\'[函数](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L59)。用户也可以调用\`stakeFor\'[函数](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L64)，代表另一地址进行存入和质押。
+如果要在智能合约上存入并质押资金，用户请调用\`stake'[函数](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L59)。用户也可以调用\`stakeFor'[函数](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L64)，代表另一地址进行存入和质押。
 
 ### 什么是stkDYDX？
 
@@ -81,17 +81,17 @@ DYDX于中国时间2021年9月8日晚上11:00开始可以转让，届时，保�
 
 质押余额处于两种状态之一：
 
-* **活跃：**可以用于借款；赚取质押奖励；质押人不能提现。
+* \*\*活跃：\*\*可以用于借款；赚取质押奖励；质押人不能提现。
 * **非活跃**：借款不可用；不赚取奖励；可以由质押人提现。
 
 质押人可能具有活跃和非活跃余额的组合。资金按时段进行计算，如以下例子所示：
 
-![](<../.gitbook/assets/image (36).png>)
+![](<../.gitbook/assets/image (36) (1).png>)
 
 以下操作会影响质押余额，如下所示：
 
 * **存款**：增加活跃余额。
-* **请求****提现**：在本时段结束时，将一些活跃资金移至非活跃状态。
+* **请求\*\*\*\*提现**：在本时段结束时，将一些活跃资金移至非活跃状态。
 * **提现**：减少非活跃余额。
 * **转让**：将一些活跃资金转移给另一个质押人。
 
@@ -107,7 +107,7 @@ DYDX于中国时间2021年9月8日晚上11:00开始可以转让，届时，保�
 
 如果要从流动性资金池提现DYDX，请按照以下步骤操作：
 
-* 转到[**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
+* 转到[**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
 * 单击“**请求**”，并输入您希望请求从资金池中提现的DYDX数量。
 * 单击“**请求提现**”。您需要支付gas费才能提现资金。
 * 如果质押人在当前时段结束前至少14天请求提现DYDX，则可以在下一时段开始时提现DYDX。
