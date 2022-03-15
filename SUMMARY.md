@@ -28,6 +28,7 @@
 * [提议生命周期](voting-and-governance/dip-proposal-lifecycle.md)
 * [投票过程](voting-and-governance/voting.md)
 * [参数](voting-and-governance/governance-parameters.md)
+* [治理指南](voting-and-governance/governance-guide.md)
 
 ## 资源
 
@@ -55,7 +56,7 @@
 ## 交易教程
 
 * [如何在dYdX上开空单（做空）](jiao-yi-jiao-cheng/ru-he-zai-dydx-shang-kai-kong-dan-zuo-kong/README.md)
-   * [如何在dYdX上开多单（做多）](jiao-yi-jiao-cheng/ru-he-zai-dydx-shang-kai-kong-dan-zuo-kong/ru-he-zai-dydx-shang-kai-duo-dan-zuo-duo.md)
+   * [如何在 dYdX上开多单 （做多）](jiao-yi-jiao-cheng/ru-he-zai-dydx-shang-kai-kong-dan-zuo-kong/ru-he-zai-dydx-shang-kai-duo-dan-zuo-duo.md)
 
 ## 公告
 
