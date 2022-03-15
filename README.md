@@ -10,5 +10,10 @@ DYDX는 dYdX의 향후 성장 및 탈중앙화를 주도하도록 설계된 거�
 
 스테이킹 풀은 프로토콜의 유동성 및 안전성을 위해 설계되었습니다. dYdX의 트레이딩, 유동성 공급 및 과거 사용량에 대한 보상 프로그램은 dYdX의 성장 및 채택을 견인하는데 도움이 될 것입니다.
 
-DYDX의 출시에 함께, 우리는 출시됩니다.\\
-🖥️ [**dydx.community의**](https://dydx.community)\ 거버넌스 제품 📈 USDC [**유동성 스테이킹 풀**](staking-pools/liquidity-staking-pool.md)\ 🔒DYDX [**안전 스테이킹 풀**](staking-pools/safety-staking-pool.md)\ 💰 [**거래 보상**](rewards/trading-rewards.md)****\ ****💸 과거 사용자에 대한 [**소급 채굴 보상**](rewards/retroactive-mining-rewards.md)\ 📊 [**유동성 공급자 보상**](rewards/liquidity-provider-rewards.md)
+DYDX의 출시에 함께, 우리는 출시됩니다.\
+🖥️ [**dydx.community의**](https://dydx.community)거버넌스 제품 \
+📈 USDC [**유동성 스테이킹 풀**](staking-pools/liquidity-staking-pool.md)\
+🔒 DYDX [**안전 스테이킹 풀**](staking-pools/safety-staking-pool.md)\
+💰 [**거래 보상**](rewards/trading-rewards.md)\
+💸 과거 사용자에 대한 [**소급 채굴 보상**](rewards/retroactive-mining-rewards.md)\
+📊 [**유동성 공급자 보상**](rewards/liquidity-provider-rewards.md)
