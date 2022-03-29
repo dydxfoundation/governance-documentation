@@ -1,4 +1,4 @@
-# Table of contents
+# 목차
 
 * [소개](README.md)
 
@@ -56,9 +56,9 @@
 ## 交易教程
 
 * [如何在dYdX上开空单（做空）](jiao-yi-jiao-cheng/ru-he-zai-dydx-shang-kai-kong-dan-zuo-kong/README.md)
-  * [如何在dYdX上开多单（做多）](jiao-yi-jiao-cheng/ru-he-zai-dydx-shang-kai-kong-dan-zuo-kong/ru-he-zai-dydx-shang-kai-duo-dan-zuo-duo.md)
+   * [如何在dYdX上开多单（做多）](jiao-yi-jiao-cheng/ru-he-zai-dydx-shang-kai-kong-dan-zuo-kong/ru-he-zai-dydx-shang-kai-duo-dan-zuo-duo.md)
 
 ## 公告
 
 * [关于暂停保险质押池的通知](gong-gao/guan-yu-zan-ting-bao-xian-zhi-ya-chi-de-tong-zhi.md)
-* [에폭 0回顾](gong-gao/0-hui-gu.md)
+* [에폭 0回顾](gong-gao/untitled.md)

@@ -45,23 +45,23 @@ _**DIP 2에 대한 적용:**_
 
 Three Arrows Capital의 Su Zhu(zhusu)는 유동성 제공자 보상 기준을 낮추기 위한 [오프체인 포럼 토론을](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/) 생성하였습니다. Wintermute의 Evgeny, Kronos의 Ben, Sixtant 소속의 Josh 외에도 많은 다양한 커뮤니티 회원들이 토론에 참여하고 소중한 피드백을 제공했습니다.
 
-![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](<.. /.gitbook/assets/image (99).png>)
+![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](<../.gitbook/assets/image (99).png>)
 
-![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](<.. /.gitbook/assets/image (97).png>)
+![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](<../.gitbook/assets/image (97).png>)
 
 #### _Commonwealth에 게시 및 댓글 남기는 방법:_
 
 * 이더리움 지갑 또는 Github 계정으로 Commonwealth에 등록하고 [여기에서](https://forums.dydx.community) dYdX 커뮤니티에 가입하세요.
 
-![https://forums.dydx.community/](<.. /.gitbook/assets/Untitled 1>)
+![https://forums.dydx.community/](<../.gitbook/assets/Untitled 1>)
 
 * 방을 선택하고 스크롤하여 댓글을 확인하고 각 댓글 아래의 아이콘을 클릭하여 좋아요를 누르거나 답변을 남기세요.
 
-![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](<.. /.gitbook/assets/image (107).png>)
+![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](<../.gitbook/assets/image (107).png>)
 
 * '새로운 방 만들기'를 클릭하고 주제 카테고리를 선택하여 새로운 토론방을 개설하거나 DRC를 게시하세요.
 
-![https://forums.dydx.community/new/discussion](<.. /.gitbook/assets/Untitled 3>)
+![https://forums.dydx.community/new/discussion](<../.gitbook/assets/Untitled 3>)
 
 * DRC를 생성할 경우, [여기](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) 링크의 템플릿을 사용하시기 바랍니다. [제안 수명 주기](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)의 _DRC 생성_에 따라 설명된 바와 같이, 최소 DRC에는 다음이 포함되어야 합니다.
    * DRC의 짧고 간결한 제목.
@@ -93,27 +93,27 @@ _**DIP 2에 대한 적용:**_
 * MM 기준 2.5%로 하향
 * MM 기준 5%로 유지
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<.. /.gitbook/assets/Untitled 4>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 4>)
 
 #### _스냅샷 여론조사에서 투표하는 방법:_
 
 * 이더리움 지갑으로 스냅샷에 등록하고 [여기](https://snapshot.org/#/dydxgov.eth)에서 dYdX 제안을 팔로우하세요. 아니면 [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth)에서 스냅샷 여론조사를 직접 투표하고 생성할 수도 있습니다.
 
-![https://snapshot.org/#/dydxgov.eth](<.. /.gitbook/assets/Untitled 5 (1)>)
+![https://snapshot.org/#/dydxgov.eth](<../.gitbook/assets/Untitled 5 (1)>)
 
 * 활성 스냅샷 제안을 보려면 [스냅샷](https://snapshot.org/#/dydxgov.eth) 또는 [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth)로 이동하세요.
 
-![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](<.. /.gitbook/assets/Untitled 6 (2)>)
+![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 6 (2)>)
 
 * 활성 스냅샷 여론조사에 투표하려면 DYDX를 보유하거나 스냅샷 블록 번호 이전에 귀하의 주소로 위임된 투표권을 스냅샷 여론조사가 활성화되는 시점에 보유하고 있어야 합니다.
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<.. /.gitbook/assets/Untitled 7>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 7>)
 
 * 투표하려면 제안을 클릭하고 '네' 또는 '아니오'를 선택하고 '투표하기'를 선택하세요.
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<.. /.gitbook/assets/Untitled 8 (2)>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 8 (2)>)
 
-![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<.. /.gitbook/assets/Untitled 9 (2)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 9 (2)>)
 
 #### _스냅샷에서 투표 생성하는 방법:_
 
@@ -121,9 +121,9 @@ _**DIP 2에 대한 적용:**_
 * 스냅샷 제안은 단일 또는 다중 작업으로, 제안당 최대 10개의 작업까지 구성될 수 있습니다. 작업은 제안에 명시된 변경 사항입니다.
 *  10,000의 최소 제안권 요건을 충족하는 경우, '새로운 제안'을 선택하고 아래 콘텐츠 요건에 따라 빈 칸을 채우세요.
 
-![https://snapshot.org/#/dydxgov.eth/create](<.. /.gitbook/assets/Untitled 10 (2)>)
+![https://snapshot.org/#/dydxgov.eth/create](<../.gitbook/assets/Untitled 10 (2)>)
 
-![https://forums.dydx.community/new/snapshot/dydxgov.eth](<.. /.gitbook/assets/Untitled 11>)
+![https://forums.dydx.community/new/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 11>)
 
 DRC 스냅샷 여론조사 콘텐츠 요건:
 
@@ -138,11 +138,11 @@ DRC 스냅샷 여론조사 콘텐츠 요건:
 
 * 이진 투표 옵션. 명확성을 위해 주소는 찬성 또는 반대 하나에만 투표해야 합니다.
 
-![](<.. /.gitbook/assets/Untitled 12>)
+![](<../.gitbook/assets/Untitled 12>)
 
 * 투표 이후, 관련 정보는 IPFS에 저장되며, 보고서가 자동으로 생성되고 다운로드 가능합니다.
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<.. /.gitbook/assets/Untitled 13>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 13>)
 
 ### **3단계 - DIP 생성(오프체인 제안)**
 
@@ -154,11 +154,11 @@ _**DIP 2에 대한 적용:**_
 
 이 경우, [DIP](https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md)는 @Jteamdc에 의해 승인되었습니다.
 
-![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](<.. /.gitbook/assets/Untitled 14 (2)>)
+![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](<../.gitbook/assets/Untitled 14 (2)>)
 
 DIP 2에 대한 제안 초본이 완성되었을 때, @Jteamdc는 dYdX Foundation의 보류 DIP 브랜치에 대한 업무 브랜치에서 ****PR([Pull Request](https://github.com/dydxfoundation/dip/pull/8))을 생성했습니다. dYdX Foundation이 제안을 검토 및 서명한 후, 보류 DIP의 변경 사항은 마스터 브랜치로 합병되었습니다.
 
-![https://github.com/dydxfoundation/dip/pulls](<.. /.gitbook/assets/Untitled 15 (2)>)
+![https://github.com/dydxfoundation/dip/pulls](<../.gitbook/assets/Untitled 15 (2)>)
 
 유동성 제공자의 보상 기준 하향이 다른 온체인 스마트 계약 변경 사항을 필요로 하지 않기 때문에 이 프로세스는 이제 완전하며 변경 사항은 다음 에폭에 유효하게 됩니다.
 
@@ -169,24 +169,24 @@ DIP 2에 대한 제안 초본이 완성되었을 때, @Jteamdc는 dYdX Foundatio
 * Github 계정에 등록하기: [https://github.com/signup](https://github.com/signup).
 * [여기](https://github.com/dydxfoundation/dip) 링크의 dYdX 저장소 페이지로 이동하여 Github 계정의 저장소를 포킹하세요.
 
-![https://github.com/dydxfoundation/dip](<.. /.gitbook/assets/image (104).png>)
+![https://github.com/dydxfoundation/dip](<../.gitbook/assets/image (104).png>)
 
 * 포킹된 DIP 저장소에서 DIP의 콘텐츠가 포함된 디렉토리로 이동하세요: [https://github.com/\[user\_name\]/dip/tree/master/content/dips](https://github.com/yt8073/dip/tree/master/content/dips).
 
-![](<.. /.gitbook/assets/Untitled 16>)
+![](<../.gitbook/assets/Untitled 16>)
 
 * DIP 폴더를 선택하세요: [https://github.com/\[user\_name\]/dip/tree/master/content](https://github.com/Jwatts15/dip/tree/master/content).
 
-![](<.. /.gitbook/assets/Untitled 17>)
+![](<../.gitbook/assets/Untitled 17>)
 
 DIP 폴더는 [여기](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) 링크의 DIP 템플릿을 따르는 이전 제안 디렉토리를 포함합니다.
 
-![https://github.com/dydxfoundation/dip/tree/master/content/dips](<.. /.gitbook/assets/image (98).png>)
+![https://github.com/dydxfoundation/dip/tree/master/content/dips](<../.gitbook/assets/image (98).png>)
 
 * 제안 초본을 시작하기 전에 포킹한 브랜치가 마스터 브랜치의 최신 버전인지를 확인하시기 바랍니다. DIP 저장소의 이전 버전을 사용하는 경우, 귀하의 포킹한 버전이 최신 변경 사항이 적용된 최신 상태인지 확인하시기 바랍니다. 포킹한 버전을 리베이스하는 데 도움이 필요한 경우, 다음 링크의 단계를 수행할 수 있습니다: [https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master)
 * 제안에 대한 정보로 [DIP 템플릿을](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) 편집하세요. DIP 저장소를 포킹하지 않았을 경우, 편집 아이콘을 선택하면 사용자는 관리자가 아니기 때문에 마스터에서 저장소를 자동으로 포킹합니다.
 
-![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](<.. /.gitbook/assets/Untitled 19 (2)>)
+![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](<../.gitbook/assets/Untitled 19 (2)>)
 
 * [템플릿](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md)을 따르고 `content/dips/` 디렉토리의 포킹한 저장소에 DIP를 추가하세요. 아래 명시된 DIP 상태 명명 규칙을 따르시기 바랍니다.
 
@@ -303,11 +303,11 @@ README 파일에 포함된 제안 실행 단계는 다음 링크에서 확인하
 * 제안된 스마트 계약 이행 초안을 작성하세요.
 * IPFS 해시는 자동으로 생성되며 [여기](https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips)에서 확인할 수 있습니다. IPFS 해시는 `DIP-[NEW DIP #]-ipfs-hashes.json이라는` 파일 이름으로 dYdX Foundation의 디렉토리에서 찾을 수 있습니다.
 
-![https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips](<.. /.gitbook/assets/image (100).png>)
+![https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips](<../.gitbook/assets/image (100).png>)
 
 * 새로운 파일(`DIP-[NEW DIP #]-ipfs-hashes.jso`)을 선택한 후, 인코딩된 해시를 사용하시기 바랍니다.
 
-![https://github.com/dydxfoundation/dip/blob/master/content/ipfs-dips/DIP-3-Ipfs-hashes.json](<.. /.gitbook/assets/image (102).png>)
+![https://github.com/dydxfoundation/dip/blob/master/content/ipfs-dips/DIP-3-Ipfs-hashes.json](<../.gitbook/assets/image (102).png>)
 
 ### **2단계 - DIP 온체인 제출**
 
@@ -406,7 +406,7 @@ DIP가 온체인으로 실행되었을 당시의 [https://dydx.community/dashboa
 
 * 앱이 생성되면 Alchemy 키(7LOaQtguSm2kSEcFXQH88B)를 획득하기 위해 '키 보기'를 클릭하세요. [https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul](https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul)
 
-![https://dashboard.alchemyapi.io/apps/xogmjmlex8tlmr95](<.. /.gitbook/assets/image (105).png>)
+![https://dashboard.alchemyapi.io/apps/xogmjmlex8tlmr95](<../.gitbook/assets/image (105).png>)
 
 * Node.js and npm 다운로드 및 설치: [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 * Hardhat 설치: [https://hardhat.org/tutorial/setting-up-the-environment.html](https://hardhat.org/tutorial/setting-up-the-environment.html).
