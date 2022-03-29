@@ -339,7 +339,8 @@ Paradigmのチームが以下のスクリプトを実行することで、スマ
 
 `MNEMONIC=<... のエクスポート>`
 
-`npx hardhat --network mainnet deploy:safety-module-fix-proposal`\`--proposal-ipfs-hash-hex 0x...`\
+`npx hardhat --network mainnet deploy:safety-module-fix-proposal`\
+`--proposal-ipfs-hash-hex 0x...`\
 `--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
 `--long-timelock-address 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B`\
 `--safety-module-address 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC`\
