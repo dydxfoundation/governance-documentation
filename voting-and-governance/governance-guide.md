@@ -45,23 +45,23 @@ _**На примере ППУ 2:**_
 
 Су Чжу (zhusu) из Three Arrows Capital создал [обсуждение на форуме вне цепочки](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/), чтобы сократить пороговое значение объема, необходимого для получения награды для поставщиков ликвидности. Различные участники сообщества, такие как Евгений из Wintermute, Бен из Kronos, Джош из Sixtant и многие другие, приняли участие в обсуждении и предоставили полезные отзывы.
 
-![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](<.. /.gitbook/assets/image (99).png>)
+![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](<../.gitbook/assets/image (99).png>)
 
-![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](<.. /.gitbook/assets/image (97).png>)
+![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](<../.gitbook/assets/image (97).png>)
 
 #### _Как разместить публикацию и оставить комментарий на портале Commonwealth:_
 
 * Зарегистрируйтесь на портале Commonwealth, используя своей кошелек Ethereum или учетную запись GitHub, и присоединяйтесь к сообществу dYdX [здесь](https://forums.dydx.community).
 
-![https://forums.dydx.community/](<.. /.gitbook/assets/Untitled 1>)
+![https://forums.dydx.community/](<../.gitbook/assets/Untitled 1>)
 
 * После выбора беседы вы можете пролистывать комментарии, ставить отметку «Нравится» или отвечать на комментарии с помощью значков под соответствующим комментарием.
 
-![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](<.. /.gitbook/assets/image (107).png>)
+![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](<../.gitbook/assets/image (107).png>)
 
 * Создайте новую беседу или опубликуйте ЗК, нажав «Новая беседа» и выбрав категорию темы.
 
-![https://forums.dydx.community/new/discussion](<.. /.gitbook/assets/Untitled 3>)
+![https://forums.dydx.community/new/discussion](<../.gitbook/assets/Untitled 3>)
 
 * Если вы создаете ЗК, следуйте шаблону, приведенному [здесь](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md). Как описано в разделе _Создание ЗК_ в статье [Жизненный цикл предложения](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle), ЗК должны включать в себя как минимум следующее:
    * Краткое и лаконичное название ЗК.
@@ -91,27 +91,27 @@ _**На примере ППУ 2:**_
 * Сокращение порогового значения для маркетмейкеров до 2,5%
 * Сохранение порогового значения для маркетмейкеров на уровне 5%
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<.. /.gitbook/assets/Untitled 4>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 4>)
 
 #### _Как проголосовать в опросе Snapshot:_
 
 * Зарегистрируйтесь на Snapshot, используя свой кошелек Ethereum, и следите за предложениями dYdX [здесь](https://snapshot.org/#/dydxgov.eth). Кроме того, проголосовать и создать опрос Snapshot можно прямо на портале [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
 
-![https://snapshot.org/#/dydxgov.eth](<.. /.gitbook/assets/Untitled 5 (1)>)
+![https://snapshot.org/#/dydxgov.eth](<../.gitbook/assets/Untitled 5 (1)>)
 
 * Чтобы просмотреть активные предложения Snapshot, перейдите на веб-сайт [Snapshot](https://snapshot.org/#/dydxgov.eth) или [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
 
-![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](<.. /.gitbook/assets/Untitled 6 (2)>)
+![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 6 (2)>)
 
 * Для участия в голосовании по активным опросам Snapshot необходимо владеть DYDX или иметь право голоса, делегированное вашему адресу до достижения номера блока Snapshot, когда опрос Snapshot становится активным.
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<.. /.gitbook/assets/Untitled 7>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 7>)
 
 * Чтобы проголосовать, нажмите на предложение, выберите «Голосовать», а затем — «Да» или «Нет».
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<.. /.gitbook/assets/Untitled 8 (2)>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 8 (2)>)
 
-![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<.. /.gitbook/assets/Untitled 9 (2)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 9 (2)>)
 
 #### _Как создать опрос на Snapshot:_
 
@@ -119,9 +119,9 @@ _**На примере ППУ 2:**_
 * Предложение Snapshot может состоять из одного или нескольких действий (до 10). Действия — это изменения, указанные в предложении.  
 * Если вы владеете как минимум 10 000 DYDX, выберите «Новое предложение» и заполните открытые поля в соответствии с приведенными ниже требованиями к содержимому.
 
-![https://snapshot.org/#/dydxgov.eth/create](<.. /.gitbook/assets/Untitled 10 (2)>)
+![https://snapshot.org/#/dydxgov.eth/create](<../.gitbook/assets/Untitled 10 (2)>)
 
-![https://forums.dydx.community/new/snapshot/dydxgov.eth](<.. /.gitbook/assets/Untitled 11>)
+![https://forums.dydx.community/new/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 11>)
 
 Требования к содержимому опроса Snapshot по ЗК:
 
@@ -136,11 +136,11 @@ _**На примере ППУ 2:**_
 
 *  Бинарные варианты голосования. Для ясности, адрес голосует либо за предложение, либо против него.
 
-![](<.. /.gitbook/assets/Untitled 12>)
+![](<../.gitbook/assets/Untitled 12>)
 
 * После голосования соответствующая информация будет сохранена в IPFS, а отчет будет автоматически сформирован и доступен для загрузки.
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<.. /.gitbook/assets/Untitled 13>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 13>)
 
 ### **ЭТАП 3 — создание ППУ (предложение вне цепочки)**
 
@@ -152,11 +152,11 @@ _**На примере ППУ 2:**_
 
 В этом случае автором [ППУ](https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md) выступил @Jteamdc.
 
-![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](<.. /.gitbook/assets/Untitled 14 (2)>)
+![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](<../.gitbook/assets/Untitled 14 (2)>)
 
 Когда проект ППУ 2 был завершен, @Jteamdc внес [запрос на внесение изменений](https://github.com/dydxfoundation/dip/pull/8) **** из рабочей ветки в ветку dYdX Foundation, где рассматривается это ППУ. После того как dYdX Foundation рассмотрела предложение и подписала его, изменения в ветке, где рассматривается ППУ, были включены в основную ветку.
 
-![https://github.com/dydxfoundation/dip/pulls](<.. /.gitbook/assets/Untitled 15 (2)>)
+![https://github.com/dydxfoundation/dip/pulls](<../.gitbook/assets/Untitled 15 (2)>)
 
 Поскольку снижение порогового значения объема, необходимого для получения награды для поставщиков ликвидности, не требует внесения изменений в смарт-контракты в цепочке, то процесс завершен, и изменения вступят в силу в следующую эпоху.
 
@@ -166,24 +166,24 @@ _**На примере ППУ 2:**_
 * Зарегистрируйтесь и создайте учетную запись GitHub: [https://github.com/signup](https://github.com/signup).
 * Перейдите на страницу репозитория dYdX [здесь](https://github.com/dydxfoundation/dip) и дублируйте репозиторий в своей учетной записи GitHub.
 
-![https://github.com/dydxfoundation/dip](<.. /.gitbook/assets/image (104).png>)
+![https://github.com/dydxfoundation/dip](<../.gitbook/assets/image (104).png>)
 
 * В дублированном репозитории ППУ перейдите в каталог с содержимым ППУ: [https://github.com/\[user\_name\]/dip/tree/master/content/dips](https://github.com/yt8073/dip/tree/master/content/dips).
 
-![](<.. /.gitbook/assets/Untitled 16>)
+![](<../.gitbook/assets/Untitled 16>)
 
 * Выберите папку с ППУ: [https://github.com/\[user\_name\]/dip/tree/master/content](https://github.com/Jwatts15/dip/tree/master/content).
 
-![](<.. /.gitbook/assets/Untitled 17>)
+![](<../.gitbook/assets/Untitled 17>)
 
 Папка с ППУ содержит каталог предыдущих предложений, которые соответствуют шаблону ППУ, приведенному [здесь.](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md)
 
-![https://github.com/dydxfoundation/dip/tree/master/content/dips](<.. /.gitbook/assets/image (98).png>)
+![https://github.com/dydxfoundation/dip/tree/master/content/dips](<../.gitbook/assets/image (98).png>)
 
 * Прежде чем начать составлять предложение, убедитесь, что ветка, которую вы дублировали, соответствует последней версии основной ветки. Если вы используете старую версию репозитория ППУ, убедитесь, что дублированная версия содержит последние изменения. Чтобы узнать, как переместить дублированную версию, вы можете выполнить действия, указанные здесь: [https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master).
 * Измените [шаблон ППУ](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md), внеся информацию о вашем предложении. Если вы не дублировали репозиторий ППУ, выберите значок изменения. При этом репозиторий будет автоматически дублирован из основной ветки, поскольку вы не являетесь администратором.
 
-![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](<.. /.gitbook/assets/Untitled 19 (2)>)
+![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](<../.gitbook/assets/Untitled 19 (2)>)
 
 * Следуйте [шаблону](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) и добавьте ППУ в дублированный репозиторий в каталог `content/dips/`. Следуйте приведенным ниже правилам обозначения статусов ППУ.
 
@@ -300,11 +300,11 @@ _**На примере ППУ 3:**_
 * Составьте проект предлагаемых вами реализаций смарт-контрактов.
 * Хэш IPFS генерируется автоматически. Его можно получить [здесь](https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips). Хэш IPFS будет находиться в каталоге dYdX Foundation под именем файла `ЗК-[Новый ЗК #]-ipfs-hashes.json`.
 
-![https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips](<.. /.gitbook/assets/image (100).png>)
+![https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips](<../.gitbook/assets/image (100).png>)
 
 * Выберите новый файл (`ЗК-[Новый ЗК #]-ipfs-hashes.jso`) и используйте encodedHash.
 
-![https://github.com/dydxfoundation/dip/blob/master/content/ipfs-dips/DIP-3-Ipfs-hashes.json](<.. /.gitbook/assets/image (102).png>)
+![https://github.com/dydxfoundation/dip/blob/master/content/ipfs-dips/DIP-3-Ipfs-hashes.json](<../.gitbook/assets/image (102).png>)
 
 ### **ЭТАП 2 — отправка ППУ в цепочке**
 
@@ -329,9 +329,9 @@ _**На примере ППУ 3:**_
 `export MNEMONIC=<... >`
 
 `npx hardhat --network mainnet deploy:safety-module-recovery`\
- `--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
- `--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
- `--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`
+`--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
+`--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
+`--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`
 
 **Предложение по управлению: исправление модуля безопасности**
 
@@ -340,12 +340,12 @@ _**На примере ППУ 3:**_
 `export MNEMONIC=<... >`
 
 `npx hardhat --network mainnet deploy:safety-module-fix-proposal`\
- `--proposal-ipfs-hash-hex 0x...`\
- `--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
- `--long-timelock-address 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B`\
- `--safety-module-address 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC`\
- `--safety-module-proxy-admin-address 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C`\
- `--safety-module-new-impl-address 0x...`
+`--proposal-ipfs-hash-hex 0x...`\
+`--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
+`--long-timelock-address 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B`\
+`--safety-module-address 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC`\
+`--safety-module-proxy-admin-address 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C`\
+`--safety-module-new-impl-address 0x...`
 
 **Предложение по управлению: компенсация за модуль безопасности**
 
@@ -354,12 +354,12 @@ _**На примере ППУ 3:**_
 `export MNEMONIC=<... >`
 
 `npx hardhat --network mainnet deploy:safety-module-compensation-proposal`\
- `--proposal-ipfs-hash-hex 0x...`\
- `--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
- `--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
- `--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
- `--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`\
- `--safety-module-recovery-address 0x...`
+`--proposal-ipfs-hash-hex 0x...`\
+`--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
+`--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
+`--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
+`--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`\
+`--safety-module-recovery-address 0x...`
 
 
 
@@ -411,7 +411,7 @@ _**На примере ППУ 3:**_
 
 * После создания приложения нажмите «Посмотреть ключ», чтобы получить ключ Alchemy (7LOaQtguSm2kSEcFXQH88B): [https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul](https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul).
 
-![https://dashboard.alchemyapi.io/apps/xogmjmlex8tlmr95](<.. /.gitbook/assets/image (105).png>)
+![https://dashboard.alchemyapi.io/apps/xogmjmlex8tlmr95](<../.gitbook/assets/image (105).png>)
 
 * Скачайте и установите Node.js и npm: [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 * Установите Hardhat: [https://hardhat.org/tutorial/setting-up-the-environment.html](https://hardhat.org/tutorial/setting-up-the-environment.html).
