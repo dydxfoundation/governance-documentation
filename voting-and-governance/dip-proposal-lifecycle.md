@@ -15,7 +15,7 @@ dYdX 거버넌스 프로세스는 [**forum.dydx.community**](https://forums.dydx
 다음 플로우 차트는 제안 통과를 위한 초기 제안 단계입니다.
 
 
-![Stages of a DIP](<.. /.gitbook/assets/image (81).png>)
+![Stages of a DIP](<../.gitbook/assets/image (81).png>)
 
 ## 0. 포럼 논의
 
@@ -100,7 +100,7 @@ DIP를 생성하려면 계정에 요구되는 최소 보유/위임 토큰 수를
 다음에서 DIP 상태 플로우 차트를 확인할 수 있습니다.
 
 
-![Lifecycle of a DIP](<.. /.gitbook/assets/image (63).png>)
+![Lifecycle of a DIP](<../.gitbook/assets/image (63).png>)
 
 DIP가 온체인으로 생성되면, 해당 DIP에는 **투표 딜레이**, **투표 기간**, **최소 정족수** 및 최소 **투표 격차**가 적용됩니다. 초기 파라미터는 다음과 같습니다.
 
