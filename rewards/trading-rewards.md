@@ -35,9 +35,11 @@ $$
 | d                            | A trader’s average open interest (measured every minute) across all markets in this epoch. |
 | k                            | Total number of traders in this epoch.                                                     |
 | g                            | A trader’s average stkDYDX held (measured randomly every minute) throughout the epoch      |
-| a                            | 0.67                                                                                       |
-| b                            | 0.28                                                                                       |
+| a                            | 0.80                                                                                       |
+| b                            | 0.15                                                                                       |
 | c                            | 0.05                                                                                       |
+
+In [DIP-10](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-10.md), the dYdX Community voted to change the weight of the fee parameter from `a=0.67` to `a=0.8`, and decrease the open interest parameter from `b=0.28` to `b=0.15.`
 
 ## FAQ
 
