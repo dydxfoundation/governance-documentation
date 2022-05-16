@@ -6,7 +6,7 @@ description: Overview of the dYdX Improvement Proposal (DIP) lifecycle.
 
 ## **Proposal Stages**
 
-The dYdX Governance Process is fueled by governance forums at [**forums.dydx.community**](https://forums.dydx.community) and ratified through dYdX Improvement Proposal (“DIPs”).
+The dYdX Governance Process is fueled by governance forums at [**forums.dydx.community**](https://forums.dydx.community/) and ratified through dYdX Improvement Proposal (“DIPs”).
 
 Below we outline a preliminary draft explaining how the dYdX governance process will flow, from the inception and definition of the concept to the actual implementation. These processes are subject to change according to feedback from the DYDX community.
 
@@ -16,7 +16,7 @@ The following flow chart is the initial proposed stages to pass a proposal:
 
 ## 0. Forum Discussion
 
-Anyone can sign up and set up a thread on any topic on dYdX’s Governance forums hosted at [**forums.dydx.community**](https://forums.dydx.community). Community members are required to register using an email address or an Ethereum wallet.
+Anyone can sign up and set up a thread on any topic on dYdX’s Governance forums hosted at [**forums.dydx.community**](https://forums.dydx.community/). Community members are required to register using an email address or an Ethereum wallet.
 
 ## 1. (Off-chain) DRC Creation
 

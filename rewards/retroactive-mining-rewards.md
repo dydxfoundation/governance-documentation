@@ -39,7 +39,7 @@ All retroactive rewards allocations are final and cannot be changed.
 
 ![View claim milestone and progress](<../.gitbook/assets/image (23).png>)
 
-Past dYdX users can view their past activity and tier for Retroactive Mining at [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards). To earn DYDX, users must trade on the dYdX Layer 2 Protocol at [**trade.dydx.exchange**](https://trade.dydx.exchange) to meet their criteria threshold.
+Past dYdX users can view their past activity and tier for Retroactive Mining at [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards). To earn DYDX, users must trade on the dYdX Layer 2 Protocol at [**trade.dydx.exchange**](https://trade.dydx.exchange/) to meet their criteria threshold.
 
 ### What happens if I don’t reach my claim milestone?
 

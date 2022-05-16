@@ -43,7 +43,7 @@ Next, we provide a step-by-step overview of how dYdX governance functions in pra
 
 _**Description:**_
 
-The dYdX Governance Process is fueled by [governance forums](https://forums.dydx.community). Community members post and comment on discussion threads to reach a rough consensus off-chain. More information about forum discussions and DRC Creation is linked [here](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
+The dYdX Governance Process is fueled by [governance forums](https://forums.dydx.community/). Community members post and comment on discussion threads to reach a rough consensus off-chain. More information about forum discussions and DRC Creation is linked [here](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
 
 _**Application to DIP 2:**_
 
@@ -55,7 +55,7 @@ Su Zhu (zhusu) from Three Arrows Capital created an [off-chain Forum Discussion]
 
 #### _How to Post and Comment on Commonwealth:_
 
-* Register on Commonwealth with your Ethereum wallet or Github account and join the dYdX community [here](https://forums.dydx.community).
+* Register on Commonwealth with your Ethereum wallet or Github account and join the dYdX community [here](https://forums.dydx.community/).
 
 ![https://forums.dydx.community/](<../.gitbook/assets/Untitled 1>)
 
@@ -298,7 +298,7 @@ Under “4. Start Building,” select “try deploying your first smart contract
 
 ![https://docs.alchemy.com/alchemy/introduction/getting-started](../.gitbook/assets/32.png)
 
-* Open Windows command line, the default Terminal App, or download iTerm: [https://iterm2.com/](https://iterm2.com).
+* Open Windows command line, the default Terminal App, or download iTerm: [https://iterm2.com/](https://iterm2.com/).
 * Download and install Node.js and npm if you have not already: [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 * Hardhat is a development tool to compile and test Ethereum software. Install Hardhat if you have not already: [https://hardhat.org/tutorial/setting-up-the-environment.html](https://hardhat.org/tutorial/setting-up-the-environment.html).
 * Draft your proposed smart contract implementation(s).

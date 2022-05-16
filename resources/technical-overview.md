@@ -72,7 +72,7 @@ All smart contract source code for the governance contracts and staking pools ca
 
 The source code for the governance frontend hosted at dydx.community can be found [here](https://github.com/dydxfoundation/pnyx).
 
-All major new smart contracts have been audited by Peckshield. No significant or high priority security issues were found. The core governance and token contracts are forked from the Aave governance contracts which were audited by [CertiK](https://www.certik.io), [Certora](https://www.certora.com), and [Peckshield](https://peckshield.com/en) and have been battle-tested live on mainnet for months.
+All major new smart contracts have been audited by Peckshield. No significant or high priority security issues were found. The core governance and token contracts are forked from the Aave governance contracts which were audited by [CertiK](https://www.certik.io/), [Certora](https://www.certora.com/), and [Peckshield](https://peckshield.com/en) and have been battle-tested live on mainnet for months.
 
 ## Core Governance Contracts
 
