@@ -1,85 +1,83 @@
 ---
-description: Overview of the Trading Rewards program.
+description: Visión general del programa de recompensas por operaciones.
 ---
 
-# Trading Rewards
+# Recompensas por operaciones
 
-`25.00%` of the initial token supply (`250,000,000 DYDX`) will be distributed to users who trade on the dYdX Layer 2 Protocol based on a combination of fees paid and open interest.
+`El 25,00%` del suministro inicial de tokens (`250,000,000 DYDX`) se distribuirá a los usuarios que operen bajo el Protocolo de Capa 2 de dYdX basado en una combinación de tasas pagadas y de intereses abiertos.
 
-**Objectives**
+**Objetivos**
 
-* Incentivize all traders to use the dYdX Layer 2 Protocol.
-* Accelerate market liquidity and overall product usage.
+* Incentivar a todos los traders a utilizar el Protocolo de Capa 2 de dYdX.
+* Acelerar la liquidez del mercado y el uso de los productos en general.
 
-## **Overview**
+## **Visión general**
 
-![Earn rewards by trading on the dYdX Layer 2 Protocol](<../.gitbook/assets/image (17).png>)
+![Gana recompensas al realizar operaciones en el protocolo de Capa 2 de dYdX](<../.gitbook/assets/image (17).png>)
 
-DYDX will be distributed to traders based on a formula that rewards a combination of fees paid and open interest on the dYdX Layer 2 Protocol. DYDX will be distributed on a 28-day epoch basis over five years and is not subject to any vesting or lockups. 3,835,616 DYDX will be distributed per epoch.
+DYDX se distribuirá a los traders según una fórmula que recompensa una combinación de tarifas pagadas e interés abierto en el Protocolo de Capa 2 de dYdX. Los DYDX serán distribuidos en una etapa de 28 días durante cinco años y no están sujetos a ningún tipo de adquisición o bloqueo. Se distribuirán 3,835,616 DYDX por etapa.
 
-The Cobb-Douglas function is used to compute how much DYDX is awarded to each trader during each epoch:
+La función Cobb-Douglas se usa para calcular cuántos DYDX se otorgarán a cada trader durante cada época:
 
 ![](../.gitbook/assets/math-20211221.png)
 
-$$
-r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k
-$$
+$$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ ,n=1,2..k $$
 
-| Term                         | Definition                                                                                 |
+| Plazo | Definición |
 | ---------------------------- | ------------------------------------------------------------------------------------------ |
-| r                            | Reward for a specific trader.                                                              |
-| R                            | Total reward to be split between all traders in the pool for the epoch.                    |
-| f                            | Total fees paid by a trader in this epoch.                                                 |
-| w                            | Individual trader score.                                                                   |
-| $${\sum\limits _{n} w_{n}}$$ | Sum of all trader scores.                                                                  |
-| d                            | A trader’s average open interest (measured every minute) across all markets in this epoch. |
-| k                            | Total number of traders in this epoch.                                                     |
-| g                            | A trader’s average stkDYDX held (measured randomly every minute) throughout the epoch      |
-| a                            | 0.80                                                                                       |
-| b                            | 0.15                                                                                       |
-| c                            | 0.05                                                                                       |
+| r | Recompensa para un trader específico. |
+| R | La recompensa total se dividirá entre todos los traders en el fondo para la etapa. |
+| f | El total de las tasas pagadas por un trader en esta etapa. |
+| w | Puntaje individual de trader. |
+| $${\sum\limits _{n} w_{n}}$$ | Suma de todas las puntuaciones de cada trader. |
+| d | El interés abierto promedio de un trader (medido por minuto) en todos los mercados durante esta etapa. |
+| k | Número total de traders en esta etapa. |
+| g | El stkDYDX promedio obtenido por un trader (medido aleatoriamente por minuto) a lo largo de la etapa |
+| a | 0,80 |
+| b | 0,15 |
+| c | 0,05 |
 
-In [DIP-10](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-10.md), the dYdX Community voted to change the weight of the fee parameter from `a=0.67` to `a=0.8`, and decrease the open interest parameter from `b=0.28` to `b=0.15.`
+En [DIP-10](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-10.md), la Comunidad de dYdX votó a favor de cambiar el peso del parámetro de la tasa de `a = 0,67` a `a = 0,8` y de disminuir el parámetro del interés abierto de `b = 0,28` a `b = 0,15.`
 
-## FAQ
+## Preguntas frecuentes
 
-### Who is eligible for trading rewards?
+### ¿Quién es elegible para las recompensas por operaciones?
 
-All traders on the dYdX Layer 2 protocol are eligible to receive DYDX as trading rewards.
+Todos los traders en el protocolo de Capa 2 de dYdX son elegibles para recibir DYDX como recompensas por operaciones.
 
-The dYdX Layer 2 Protocol is not available to traders in the United States or Restricted Territories, as defined in dYdX Trading Inc.’s [Terms of Use](https://dydx.exchange/terms).
+El Protocolo de la Capa 2 de dYdX no está disponible para los traders en los Estados Unidos o en los territorios restringidos, tal como se describe en los [Términos de uso de](https://dydx.exchange/terms) dYdX Trading Inc.
 
-### How much DYDX did I earn in the Trading Rewards program?
+### ¿Cuántos DYDX gané en el programa de recompensas por operaciones?
 
-In the current epoch, users can see fees paid, average open interest, and estimated trading rewards at [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) where users' trading data exists.
+En la etapa actual, los usuarios pueden ver las tarifas pagadas, el interés abierto promedio y las recompensas comerciales estimadas en [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) donde se encuentran los datos de operaciones de los usuarios.
 
-![Rewards info for the current epoch](<../.gitbook/assets/image (18).png>)
+![Información sobre las recompensas para la etapa actual](<../.gitbook/assets/image (18).png>)
 
-Rewards from past epochs can be viewed at [**dydx.community/history/rewards**](https://dydx.community/history/rewards) **** (coming soon).
+Las recompensas de las etapas anteriores se podrán ver en [**dydx.community/history/rewards**](https://dydx.community/history/rewards) **** (próximamente).
 
-### How do I claim my Trading Rewards? When can I withdraw and transfer my earned DYDX?
+### ¿Cómo reclamo mis recompensas por operaciones? ¿Cuándo puedo retirar y transferir mis DYDX ganados?
 
-Earned DYDX tokens via Trading Rewards will be transferable at the end of each epoch. DYDX token holders are required to wait approximately `7 days` (**Waiting Period**) after the end of the epoch to claim their tokens. Once tokens have been claimed, they can be used for dYdX governance.
+Los tokens DYDX ganados a través de las recompensas por operaciones serán transferibles al final de cada etapa. Los titulares de tokens DYDX están obligados a esperar aproximadamente `7 días` (período de **espera**) después del final de la etapa para reclamar sus tokens. Una vez que se han reclamado los tokens, se pueden utilizar para la gobernanza de dYdX.
 
-Traders can claim their trading rewards at the end of every epoch, after the **Waiting Period**, [here](https://dydx.community/dashboard).&#x20;
+Los traders pueden reclamar sus recompensas comerciales al final de cada época, después del **período** de espera [aquí](https://dydx.community/dashboard)
 
-Users will need to click on "Claim", sign a transaction, and pay gas fees to claim DYDX.
+Los usuarios tendrán que hacer clic en "Reclamo", firmar una transacción y pagar las tasas de gas para reclamar sus DYDX.
 
-![Portfolio overview of rewards](<../.gitbook/assets/image (20).png>)
+![Visión general de la cartera de recompensas](<../.gitbook/assets/image (20).png>)
 
-### What is Open Interest?
+### ¿Qué es un interés abierto?
 
-Total open interest is the USD value of all outstanding long or short positions (the total units of longs always equals the total units of shorts) for a given market. Increasing open interest represents new or additional money coming into the market while decreasing open interest indicates money flowing out of the market.
+El interés abierto total es el valor en USD de todas las posiciones largas o cortas pendientes (las unidades totales de posiciones largas siempre equivalen a las unidades totales de posiciones cortas) para un mercado determinado. El aumento del interés abierto representa la entrada de dinero nuevo o adicional en el mercado, mientras que la disminución del interés abierto indica que el dinero sale del mercado.
 
-Below is a table of trading activity for traders, A, B, C, D, and E. Open interest is calculated in USDC terms following the trading activity for each day:
+A continuación se muestra una tabla de actividad de operaciones para los traders, A, B, C, D y E. El interés abierto se calcula en términos de USDC, de acuerdo a la actividad comercial de cada día:
 
-| Time    | Trading Activity                                                           | Total Net Open Interest (USDC) |
+| Tiempo | Actividad de operaciones | Interés abierto total por red (USDC) |
 | ------- | -------------------------------------------------------------------------- | ------------------------------ |
-| July 1  | **Trader A** buys 1 BTC at $30,000 and **Trader B** sells 1 BTC at $30,000 | $30,000                        |
-| July 3  | **Trader C** buys 5 BTC at $30,000 and **Trader D** sells 5 BTC at $30,000 | $180,000                       |
-| July 5  | **Trader A** sells 1 BTC at $30,000 and **Trader D** buys 1 BTC at $30,000 | $150,000                       |
-| July 10 | **Trader E** buys 5 BTC at $30,000 and **Trader C** sells 5 BTC at $30,000 | $150,000                       |
+| 1 de julio | **El trader A** compra 1 BTC a $30,000 y **el trader B** vende 1 BTC a $30,000 | $30,000 |
+| 3 de julio | **El trader C** compra 5 BTC a $30,000 y **el trader D** vende 5 BTC a $30,000 | $180,000 |
+| 5 de julio | **El trader A** vende 1 BTC a $30,000 y **el trader D** compra 1 BTC a $30,000 | $150,000 |
+| 10 de julio | **El trader E** compra 5 BTC a $30,000 y **el trader C** vende 5 BTC a $30,000 | $150,000 |
 
-In the context of the **Trading Rewards** formula, open interest is measured every minute (at a random time in each minute) across all markets and averaged across a given epoch to calculate rewards.
+En el contexto de la fórmula para obtener **Recompensas por Operaciones**, el interés abierto se mide cada minuto (en un momento aleatorio por minuto) en todos los mercados y se promedia en una etapa determinada para calcular las recompensas.
 
-A trader's own open interest is the USD value of all of that trader's open positions. For the purposes of **Trading Rewards**, a trader's open interest is measured every minute (at a random time in each minute) across all markets and averaged across a given epoch.
+El propio interés abierto de un trader es el valor de USD de todas las posiciones abiertas de ese mismo trader. A los efectos de **obtener Recompensas por Operaciones**, el interés abierto de un comerciante se mide cada minuto (en un momento aleatorio por minuto) en todos los mercados y se promedia en una etapa determinada.
