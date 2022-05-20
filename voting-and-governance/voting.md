@@ -1,69 +1,69 @@
 ---
-description: An overview of the voting process.
+description: Uma visão geral do processo de votação.
 ---
 
-# Voting Process
+# Processo de votação
 
-The Protocol is governed and upgraded by DYDX holders and delegatees.
+O protocolo é governado e atualizado pelos titulares de tokens DYDX e por aqueles que fazem delegações.
 
-## **Proposing & Voting Powers**
+## **Poderes de proposição e votação**
 
-There are two powers associated with each DYDX token:
+Há dois poderes associados a cada token DYDX:
 
-* The **proposing power** gives access to creating and sustaining a proposal.
-* The **voting power** is used to vote for or against existing proposals.
+* O **poder de proposição** dá acesso à criação e sustentação de uma proposta.
+* O **poder de votação** é usado para votar a favor ou contra propostas existentes.
 
-DYDX holders receive governance powers proportionally to their sum of owned and delegated tokens at a given block.
+Os holders da DYDX recebem poderes de governança proporcionalmente à sua soma de tokens, além de tokens delegados em um determinado bloco.
 
-**`Proposing Power =`**`Proposing Power from DYDX token + `\
-`Proposing Power from staked-DYDX token + `\
-`Proposing Power from DYDX token received as delegatee - `\
-`Proposing Power from DYDX delegated`
+**`Poder de proposição =`**`Poder de proposição do token DYDX + `\
+ `Poder de proposição do token em staked-DYDX + `\
+ `Poder de proposição do token DYDX recebido como delegado - `\
+ `Poder de proposição de DYDX delegado`
 
-**`Voting Power =`**`Voting Power from DYDX token + `\
-`Voting Power from staked-DYDX token + `\
-`Voting Power from DYDX token received as delegatee - `\
-`Voting Power from DYDX delegated`
+**`Poder de votação =`**`Poder de votação de tokens DYDX + `\
+ `Poder de votação do token em staked-DYDX + `\
+ `Poder de votação do token DYDX recebido como delegado - `\
+ `Poder de votação de DYDX delegado`
 
-## FAQ
+## Perguntas e respostas
 
-### How do I vote?
+### Como posso votar?
 
-In order to participate in DYDX on-chain governance, you will need to have or be delegated DYDX tokens. You will also need ETH to cover transaction costs.
+Para participar da governança DYDX on-chain, você precisará possuir ou ter delegado tokens DYDX. Você também precisará de ETH para cobrir os custos de transação.
 
-If you have tokens or have been delegated tokens and there is an active proposal, you are ready to vote in dYdX Governance.&#x20;
+Se você tiver tokens ou os tiver delegado e houver uma proposta ativa, você estará pronto para votar na governança da dYdX.
 
-![Cast votes using your voting power](<../.gitbook/assets/image (87).png>)
+![Cast votes using your voting power](<.. /.gitbook/assets/image (87).png>)
 
-To cast your vote, navigate to the proposals page and click on an active proposal.
+Para votar, navegue até a página de propostas e clique em uma proposta ativa.
 
-### **How do I delegate?**
+### **Como faço a delegação?**
 
-DYDX allows holders to delegate voting rights to the address of their choice. Anybody can participate in dYdX governance by receiving delegation, without needing to own DYDX. Users can delegate to one address at a time, and the number of votes added to the delegatee’s vote count is equivalent to the balance of DYDX in the user’s account. Votes are delegated from the current block and onward, until the sender delegates again, or transfers their DYDX.
+A DYDX permite que os titulares deleguem os direitos de voto para o endereço de sua escolha. Qualquer pessoa pode participar da governança da dYdX recebendo a delegação, sem precisar possuir DYDX. Os usuários podem delegar a um endereço por vez, e a quantidade de votos adicionados à contagem de votos do delegado é equivalente ao saldo de DYDX na conta do usuário. Os votos são delegados a partir do bloco atual e adiante, até que os DYDX sejam delegados ou transferidos novamente.
 
-![Delegate away your voting & proposing powers](<../.gitbook/assets/image (86).png>)
+![Delegate away your voting & proposing powers](<.. /.gitbook/assets/image (86).png>)
 
-Token holders can choose to delegate one or both of the governance powers associated with a token, either through the governance portal or programmatically. A user that has received delegated power can not forward this delegated power to another delegatee.
+Os holders de tokens podem optar por delegar ambos os poderes de governança associados a um token por meio do portal de governança ou de forma programática. Um usuário que recebeu o poder de delegação não pode encaminhar este poder delegado para outro.
 
-Token holders can delegate proposing power and voting power to different addresses. However, there is no partial delegation (only 100% or 0% of power.)
+Os holders de tokens podem delegar o poder de proposição e de voto para diferentes endereços. No entanto, não há uma delegação parcial (apenas 100% ou 0% de poder).
 
-To delegate your tokens to a wallet address:&#x20;
+Para delegar seus tokens a um endereço de carteira:
 
-* Go to [dydx.community/dashboard](https://dydx.community/dashboard)
-* Click on "Delegate"
-* Select type of power you want to delegate
-* Enter a Wallet Address for a third party to whom you would like to delegate your voting and/or proposal power to. Delegating powers does not transfer your tokens
+* Visite [dydx.community/dashboard](https://dydx.community/dashboard)
+* Clique em “Delegate (Delegar)”
+* Selecione o tipo de poder que você deseja delegar
+* Digite um endereço de carteira para um terceiro a quem você gostaria de delegar seu poder de voto e/ou de proposição. Os poderes de delegação não transferem seus tokens
 
-Delegating and undelegating DYDX require users to spend Ethereum gas fees.
+Delegar ou remover a delegação de DYDX exige que os usuários gastem taxas de gás Ethereum.
 
-### Can I change my vote after I have already voted?
+### Posso alterar meu voto depois de já ter votado?
 
-Once a vote is cast on-chain, it is not possible to change your vote.
+Uma vez que o voto é feito on-chain, não é possível alterá-lo.
 
-### Can I transfer my DYDX while the vote is in progress?
+### Posso transferir meu DYDX enquanto a votação está em andamento?
 
-Yes.
+Sim.
 
-### Can I add more tokens to my vote?
+### Posso adicionar mais tokens ao meu voto?
 
-When a DIP is submitted on-chain, a snapshot is taken of current token holders. Users will need to own or be staked DYDX tokens before the start block.
+Quando uma DIP é enviada on-chain, um snapshot é feito dos holders de tokens atuais. Os usuários precisarão possuir ou ter tokens DYDX em staking antes do bloco de início.
