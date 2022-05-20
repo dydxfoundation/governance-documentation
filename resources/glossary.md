@@ -1,57 +1,57 @@
 ---
-description: Overview of key governance-related terms.
+description: Yönetişimle ilgili önemli terimlere genel bakış.
 ---
 
-# Glossary
+# Sözlük
 
-**DYDX:** The native asset of the DYDX ecosystem, which constitutes the foundation of governance and safety for the dUdX Protocol. DYDX is an ERC-20 token that designates the weight of a user’s voting or proposing power.
+**DYDX:** DYDX ekosisteminin yerel varlığı olup dUdX Protokolü için yönetişim ve güvenliğin temelini oluşturur. DYDX, bir kullanıcının oy verme veya teklif verme yetkisinin ağırlığını belirleyen bir ERC-20 token'ıdır.
 
-**dYdX Protocol:** dYdX’s Layer 2 perpetuals protocol.
+**dYdX Protokolü:** dYdX'in Katman 2 sürekli varlık protokolü.
 
-**dYdX Foundation:** an independent foundation, headquartered in Zug, Switzerland, was created to participate in propelling the dYdX Protocol into the future.
+**dYdX Vakfı:** Merkezi İsviçre'nin Zug şehrinde bulunan bağımsız bir vakıf olup dYdX Protokolü'nü geleceğe taşımaya katkıda bulunmak üzere oluşturulmuştur.
 
-**DYDX Token contract**: has snapshots of each address’ voting power at different blocks in time.
+**DYDX Token sözleşmesi**: Her bir adresin oy verme yetkisinin zaman içinde farklı bloklardaki anlık görüntülerine sahiptir.
 
-**DIP:** dYdX Improvements Proposals are on-chain proposals.
+**DIP:** dYdX İyileştirme Teklifleri zincir içi tekliflerdir.
 
-**DRC**: dYdX Request for Comments are off-chain proposals and the first required step in the governance improvement process.
+**DRC**: dYdX Yorum Talepleri zincir dışı teklifler olup yönetişimi iyileştirme sürecindeki ilk gerekli adımdır.
 
-**Quorum:** In order for a vote to pass, it must achieve a minimum quorum of DYDX tokens in the affirmative. The purpose of the quorum is to ensure that the only measures that pass have adequate voter participation.
+**Karar Yeter Sayısı:** Bir oylamanın geçmesi için, olumlu yönde oy kullanan DYDX token'larının karar yeter sayısına ulaşması gerekir. Karar yeter sayısının amacı, oylamayı geçen önlemlerde oylamaya katılanların sayısının yeterli olduğundan emin olmaktır.
 
-**Epoch:** All other contracts operate on 28-day cycles, referred to as epochs.
+**Dönem:** Tüm diğer sözleşmeler 28 günlük döngülerle çalışır ve bu döngülere dönem denir.
 
-**Execution Grace Period:** The period after vote when a DIP proposa becomes executable, during which it must be executed.
+**Yürütme Mühleti:** Bir DIP teklifinin yürütülebilir hale geldiği ve bu süre zarfında yürütülmesi gereken, oylama sonrasındaki süre.
 
-**Governance Strategy contract**: contains logic to measure users' relative power to propose and vote.
+**Yönetişim Stratejisi sözleşmesi**: Kullanıcıların teklif verme ve oy verme yetkisini ölçen mantığı içerir.
 
-**Governor contract**: tracks proposals and can execute proposals via the Timelock smart contract.
+**Amir sözleşme**: Teklifleri izler ve Timelock akıllı sözleşmesi aracılığıyla teklifleri yürütür.
 
-**Long timelock executor:** The long timelock executor can execute proposals that generally change parts of the Protocol that affect governance consensus.
+**Long timelock executor:** Long timelock executor, genelde Protokol'ün yönetişim mutabakatını etkileyen bölümlerini değiştiren teklifleri yürütür.
 
-**Merkle-pauser executor:** The Merkle-pauser executor can execute proposals that freeze the Merkle root, which is updated periodically with each user's cumulative reward balance, allowing new rewards to be distributed to users over time, in case the proposed root is incorrect or malicious.
+**Merkle-pauser executor:** Merkle-pauser executor, her bir kullanıcının toplam ödül bakiyesi ile düzenli aralıklarla güncellenen Merkle kökünü donduran teklifleri yürütür ve önerilen kökün yanlış veya kötü amaçlı olması durumunda kullanıcılara yeni ödüllerin zamanla dağıtılmasına olanak verir.
 
-**Safety Pool:** Component in charge of shielding the protocol from insolvency.
+**Güvenlik Havuzu:** Protokolü iflasa karşı korumakla sorumlu bileşen.
 
-**Staked dYdX contract**: contains logics to stake DYDX tokens, tokenize the position and get rewards.
+**Stake edilen dYdX sözleşmesi**: DYDX token'larının stake edilmesi, pozisyonun token'a dönüştürülmesi ve ödüllerin alınmasını sağlayan mantıkları içerir.
 
-**Short timelock executor:** The short timelock executor can execute proposals that generally change Rewards and Incentive contracts or the Community Treasury that require quick intervention.
+**Short timelock executor:** Short timelock executor, genelde Ödül ve Teşvik sözleşmelerini veya Topluluk Hazinesi'ni değiştiren ve hızlı müdahale gerektiren teklifleri yürütür.
 
-**Starkware executor:** The Starkware executor can execute proposals that generally change parts of the Protocol that currently require intervention from Starkware.
+**Starkware executor:** Starkware executor, genelde şu anda Starkware'in müdahale etmesini gerektiren Protokol'ün bölümlerini değiştiren teklifleri yürütür.
 
-**Timelock contract**: can queue, cancel, or execute transactions voted by Governance. The functions in a proposal are initiated by the Timelock contract. Queued transactions can be executed after a delay and until Grace period is not over.&#x20;
+**Timelock sözleşmesi**: Yönetişim tarafından oylanan işlemleri sıraya koyar, iptal eder veya yürütür. Bir teklifteki işlevler Timelock sözleşmesi tarafından başlatılır. Sıraya koyulan işlemler bir bekleme süresi sonrasında ve Mühlet sona ermeden gerçekleştirilir.
 
-**Timelock Delay:** The delay before a DIP proposal is executed after a proposal passes and is queued.
+**Timelock Bekleme Süresi:** Bir teklif geçtikten ve sıraya koyulduktan sonra DIP teklifinin yürütülmesinden önceki bekleme süresi.
 
-**Proposal Theshold:** To prevent a system where countless spam proposals are created, a proposal threshold requires an address has a certain number of votes before they can make a proposal.
+**Teklif Eşiği:** Bir sistemde sayısız gereksiz teklifin oluşturulmasını önlemek için, teklif eşiği bir teklif verilmeden önce bir adresin belirli sayıda oya sahip olmasını gerektirir.
 
-**Proposing Power:** Token stake giving access to creating and sustaining a proposal.
+**Teklif Verme Yetkisi:** Bir teklif oluşturma ve sürdürme yetkisi veren, stake edilen token miktarı.
 
-**Voting Power:** Voting power which is used to vote for or against existing proposals.
+**Oy Verme Yetkisi:** Mevcut tekliflere olumlu veya olumsuz yönde oy vermek için kullanılan oy verme yetkisi.
 
-**Voting Delay:** This is the length of time between which a proposal can be created and it is available to be voted upon. By requiring at least one block to pass, the governance is protected from Flash Loan attacks that might borrow a large number of tokens, propose a vote, and vote on it all in one block.
+**Oylama Bekleme Süresi:** Bu, bir teklifin oluşturulması ve oylanabilmesi arasındaki süredir. En az bir blokun geçmesini gerekli kılınarak, yönetişim tek bir blokta çok sayıda token ödünç alabilen, oylama teklifi verebilen ve ona oy verebilen Flash Loan saldırılarına karşı korunur.
 
-**Voting Period:** Once a DIP proposal has been put forward, DYDX community members will have to cast their votes before the end of the Voting Period. This is the length of time for which proposals are available to be voted upon, with time in Ethereum Blocks.
+**Oylama Süresi:** Bir DIP teklifi verildikten sonra, DYDX topluluk üyeleri Oylama Süresi sona ermeden önce oylarını vermek zorundadır. Bu, tekliflerin oylanabileceği süre olup Ethereum Blokları cinsinden ifade edilir.
 
-**Proposal Threshold:** Minimum tokens held/delegated required to create a DIP proposal.
+**Teklif Eşiği:** Bir DIP teklifi oluşturmak için tutulması ya da delege edilmesi gereken minimum token miktarı.
 
-**Vote Differential:** Required yes–no gap for DIP proposal to pass.
+**Oy Farkı:** DIP teklifinin geçmesi için gerekli olan, evet ve hayır oyları arasındaki fark.
