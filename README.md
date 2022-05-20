@@ -1,20 +1,13 @@
 ---
-description: An overview of the DYDX token and governance.
+description: DYDX token ve yönetişime genel bir bakış.
 ---
 
-# Introduction
+# Giriş
 
-DYDX is a governance token that allows the dYdX community to truly govern the dYdX Layer 2 Protocol ("the protocol"). By enabling shared control of the protocol, DYDX allows traders, liquidity providers, and partners of dYdX to work collectively towards an enhanced Protocol.
+DYDX, dYdX topluluğunun dYdX Katman 2 Protokolünü ("protokol") gerçekten yönetmesine olanak tanıyan bir yönetişim token'ıdır. DYDX, protokolün kontrolünün paylaşılmasına olanak tanıyarak yatırımcıların, likidite sağlayıcıların ve dYdX'in ortaklarının Protokol'ü güçlendirmek için birlikte çalışmasına olanak tanır.
 
-DYDX enables a robust ecosystem around governance, rewards, and staking — each designed to drive future growth and decentralization of dYdX, resulting in a better experience for users.&#x20;
+DYDX yönetişim, ödüller ve staking çerçevesinde sağlam bir ekosisteme olanak tanır; bunların her biri dYdX'in gelecekteki büyümesini ve merkeziyetsizleşmesini artıracak ve bu da kullanıcılar için daha iyi bir deneyim sağlayacak şekilde tasarlanmıştır.
 
-Staking pools are designed to promote liquidity and safety on the Protocol. Rewards programs for trading, liquidity providing, and past usage of dYdX will help drive growth and adoption of dYdX.
+Staking havuzları, Protokol'de likidite ve güvenliği artırmak amacıyla tasarlanmıştır. dYdX alım satımı, likidite sağlama ve geçmişteki kullanımına yönelik ödül programları dYdX'in büyümesini ve benimsenmesini sağlamaya yardımcı olacaktır.
 
-Alongside the launch of DYDX, we also released:\
-\
-🖥️ A governance product at [**dydx.community**](https://dydx.community)\
-📈 [**Liquidity Staking Pool**](staking-pools/liquidity-staking-pool.md) for USDC\
-🔒[ **Safety Staking Pool**](staking-pools/safety-staking-pool.md) for DYDX\
-💰 [**Trading Rewards**](rewards/trading-rewards.md)****\
-****💸 [**Retroactive Mining Rewards**](rewards/retroactive-mining-rewards.md) for past users\
-📊 [**Liquidity Provider Rewards**](rewards/liquidity-provider-rewards.md)
+DYDX'i kullanıma sunmanın yanı sıra şunları da çıkardık:\\ 🖥️ [**dydx.community**](https://dydx.community) adresinde bir yönetişim ürünü\ 📈 USDC için [**Likidite Staking Havuzu**](staking-pools/liquidity-staking-pool.md)\ 🔒 DYDX için [**Güvenlik Staking Havuzu**](staking-pools/safety-staking-pool.md)\ 💰 [**Alım Satım Ödülleri**](rewards/trading-rewards.md)****\ ****💸 Geçmişteki kullanıcılar için [**Geriye Dönük Madencilik Ödülleri**](rewards/retroactive-mining-rewards.md)\ 📊 [**Likidite Sağlayıcı Ödülleri**](rewards/liquidity-provider-rewards.md)
