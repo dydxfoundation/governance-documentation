@@ -1,63 +1,63 @@
 ---
-description: Allocations for the DYDX token.
+description: Asignaciones para los token de DYDX.
 ---
 
-# Allocations
+# Asignaciones
 
-**Allocations**
+**Asignaciones**
 
-A total of `1,000,000,000 DYDX` have been minted, and will become accessible over five (5) years, starting on **August 3rd, 2021, at 15:00:00 UTC**. The initial five-year allocation of the total supply of DYDX is as follows:
+Se han acuñado un total de `1 000 000 000 DYDX` y estarán disponibles durante 5 años a partir del **3 de agosto de 2021 a las 15:00:00 UTC**. La asignación inicial de cinco años del suministro total de DYDX es la siguiente:
 
-* **50.00%** (`500,000,000 DYDX`) to the community as follows:
-  * **25.00%** (`250,000,000 DYDX`) to users who trade on the dYdX Layer 2 Protocol based on a combination of fees paid and open interest ([**Trading Rewards**](../rewards/trading-rewards.md))
-  * **7.50%** (`75,000,000 DYDX`) to past users who complete certain trading milestones on the dYdX Layer 2 Protocol ([**Retroactive Mining Rewards**](../rewards/retroactive-mining-rewards.md))
-  * **7.50%** (`75,000,000 DYDX`) to liquidity providers based on a formula rewarding a combination of uptime, two-sided depth, bid-ask spreads, and the number of markets supported ([**Liquidity Provider Rewards**](../rewards/liquidity-provider-rewards.md))
-  * **5.00%** (`50,000,000 DYDX`) to a community treasury ([**Treasury**](community-treasury.md))
-  * **2.50%** (`25,000,000 DYDX`) to users staking USDC to a liquidity staking pool ([**Liquidity Module**](../staking-pools/liquidity-staking-pool.md))
-  * **2.50%** (`25,000,000 DYDX`) to users staking DYDX to a safety staking pool ([**Safety Module**](../staking-pools/safety-staking-pool.md))
-* **27.73%** (`277,295,070 DYDX`) to past investors
-* **15.27%** (`152,704,930 DYDX`) to founders, employees, advisors, and consultants of dYdX Trading or the Foundation
-* **7.00%** (`70,000,000 DYDX`) to future employees and consultants of dYdX Trading or the dYdX Foundation&#x20;
+* **50.00%** (`500,000,000 DYDX`) a la comunidad de la siguiente manera:
+   * **25,00%** (`250,000,000 DYDX`) a los usuarios que operan en el Protocolo de Capa 2 de dYdX basado en una combinación de tarifas pagadas y de intereses abiertos ([**recompensas de operaciones**](../rewards/trading-rewards.md))
+   * **7,50%** (`75.000.000 DYDX`) a los usuarios anteriores que llegan a ciertos hitos de operaciones en el Protocolo de Capa 2 de dYdX ([**recompensas de minería retroactivas**](../rewards/retroactive-mining-rewards.md))
+   * **7,50%** (`75.000.000 DYDX`) a los proveedores de liquidez con base en una fórmula que recompensa una combinación de tiempo de actividad, profundidad en dos lados, diferencia de bid-ask y el número de mercados compatibles ([**recompensas de proveedores de liquidez**](../rewards/liquidity-provider-rewards.md))
+   * **5,00%** (`50.000.000 DYDX`) a una tesorería de la comunidad ([**tesorería**](community-treasury.md))
+   * **2,50%** (`25.000.000 DYDX`) a los usuarios que inviertan USDC en un fondo de participación de liquidez ([**módulo de liquidez**](../staking-pools/liquidity-staking-pool.md))
+   * **2,50%** (`25.000.000 DYDX`) a los usuarios que invierten DYDX en un fondo de participación de seguridad ([**módulo de seguridad**](../staking-pools/safety-staking-pool.md))
+* **27,73%** (`277.295.070 DYDX`) a los inversores pasados
+* **15,27%** (`152.704.930 DYDX`) a los fundadores, empleados, asesores y consultores de dYdX Trading o la Fundación
+* **7,00%** (`70.000.000 DYDX`) a los futuros empleados y consultores de dYdX Trading o la Fundación dYdX
 
-![](<../.gitbook/assets/DYDX Allocations (Initial 5 Years).png>)
+![](<.. /.gitbook/assets/DYDX Allocations (Initial 5 Years).png>)
 
-Starting five years after launch, a maximum perpetual inflation rate of `2%` per year may be utilized by governance to increase the supply of DYDX, ensuring the community has the resources to continue the development and growth of the Protocol. Inflation must be enacted via a governance proposal and is capped at `2%` per year.
+A partir de los cinco años posteriores al lanzamiento, una tasa de inflación máxima perpetua del `2%` por año puede ser utilizada por la gobernanza para aumentar el suministro de DYDX, asegurando que la comunidad tenga los recursos para continuar el desarrollo y el crecimiento del Protocolo. La inflación debe ser promulgada por medio de una propuesta de la gobernanza y está limitada al `2%` anual.
 
-![](<../.gitbook/assets/Allocation 10 Years Inflation (1).png>)
+![](<.. /.gitbook/assets/Allocation 10 Years Inflation (1).png>)
 
-Although the community allocation has been established as laid out above, DYDX holders have full control via governance over how the community allocation is used going forwards.
+Aunque la asignación de la comunidad se ha establecido como se ha establecido anteriormente, los titulares de DYDX tienen pleno control mediante la gobernanza sobre la forma en que la asignación de la comunidad se utiliza en el futuro.
 
-## **FAQs**
+## **Preguntas frecuentes**
 
-### **Can new DYDX tokens be minted?**
+### **¿Se pueden acuñar nuevos tokens en DYDX?**
 
-Starting five years after launch, a maximum perpetual inflation rate of `2%` per year can be used to increase the supply of DYDX, ensuring the community has the resources to continue contributing to the dYdX Layer 2 Protocol.
+A partir de los cinco años posteriores al lanzamiento, se puede utilizar una tasa de inflación máxima perpetua del `2%` anual para aumentar el suministro de DYDX, asegurando que la comunidad tenga los recursos para continuar contribuyendo al Protocolo de la Capa 2 de dYdX.
 
-Beginning on **July 14th, 2026 at 15:00:00 UTC**, dYdX governance can decide the maximum supply of new tokens to be minted, up to the maximum inflation rate of `2%` per year at each mint. Only one mint is possible in a given 365 day period. All newly issued tokens will be allocated by governance and will vest immediately. These newly issued tokens can then be sent to any address specified.
+A partir del **14 de julio de 2026 a las 15:00:00 UTC**, la gobernanza de dYdX puede decidir el suministro máximo de nuevos tokens a ser acuñados, hasta la tasa de inflación máxima del `2%` anual en cada acuñación. Solo es posible una moneda en un período determinado de 365 días. Todos los tokens recién emitidos serán asignados por la gobernanza y otorgarán derechos inmediatamente. Estos tokens recién emitidos se pueden enviar a cualquier dirección especificada.
 
-### **What is the lockup for DYDX issued to investors, existing and future employees, and consultants?**
+### **¿Cuál es el bloqueo de DYDX emitido a los inversores, a los empleados existentes y futuros y a los consultores?**
 
-DYDX will be issued to stockholders, directors, officers, employees, and consultants of dYdX Trading and the Foundation. All DYDX distributed to these parties will initially be subject to contractual agreements, off-chain, mandating a lockup according to which:
+DYDX se emitirá a los accionistas, directivos, funcionarios, empleados y consultores de dYdX Trading y la Fundación. Todos los DYDX distribuidos a esas partes estarán sujetos inicialmente a acuerdos contractuales, fuera de la cadena, que ordenen un bloqueo de acuerdo con el cual:
 
-* 30% of DYDX holdings will unlock after 18 months post-launch;
-* 40% will unlock equally from month 19 through month 24;
-* 20% will unlock equally from month 25 through month 36;
-* 10% will unlock equally from month 37 through month 48.
+* El 30% de las tenencias en DYDX se desbloquearán después de 18 meses después del lanzamiento;
+* El 40% se desbloqueará igualmente desde el mes 19 hasta el mes 24;
+* El 20% se desbloqueará igualmente desde el mes 25 hasta el mes 36;
+* El 10% se desbloqueará igualmente desde el mes 37 hasta el mes 48.
 
-All employees and consultants also will be subject to various vesting schedules that could result in them losing their rights to DYDX. No employee’s or consultant’s receipt of DYDX is, or will in the future be, based on providing services related to the Protocol or other services that may benefit the Protocol. Instead, employees and consultants may receive DYDX for services that benefit only dYdX Trading, the dYdX Foundation or another party.
+Todos los empleados y consultores también estarán sujetos a varios calendarios de adquisición de derechos que podrían dar como resultado que pierdan sus derechos sobre DYDX. La recepción de DYDX por parte de ningún empleado ni consultor está ni estará basada en la prestación de servicios relacionados con el Protocolo ni otros servicios que pueden beneficiar al Protocolo. En su lugar, los empleados y los consultores pueden recibir DYDX por servicios que solo beneficien a dYdX Trading, la Fundación dYdX u otra parte.
 
-Regardless of any lockup on DYDX, investors and prior employees or consultants of dYdX Trading or the Foundation may use DYDX to make proposals, delegate votes, or vote on proposals related to the Protocol. Current employees and consultants of dYdX Trading or the Foundation will initially not make any proposals or participate in any votes but may do so in the future. Current employees and consultants of dYdX Trading or the Foundation may delegate votes without attempting to influence voting outcomes.
+Independientemente de cualquier bloqueo de DYDX, los inversores y empleados anteriores o consultores de dYdX Trading o la Fundación pueden usar DYDX para hacer propuestas, delegar votos o votar sobre propuestas relacionadas con el Protocolo. Los empleados actuales y los consultores de dYdX Trading o la Fundación inicialmente no harán ninguna propuesta ni participarán en ningún voto pero pueden hacerlo en el futuro. Los empleados actuales y consultores de dYdX Trading o la Fundación pueden delegar votos sin intentar influir en los resultados de la votación.
 
-All investors are required to comply with the transfer restriction enforced through contractual agreements with the dYdX Foundation. The dYdX Foundation tracks wallet addresses to determine whether any transfers have been made in violation of that restriction.
+Todos los inversores están obligados a cumplir con la restricción de transferencia aplicada mediante acuerdos contractuales con la Fundación dYdX. La Fundación dYdX hace seguimiento de las direcciones de las billeteras para determinar si alguna transferencia se ha realizado infringiendo esa restricción.
 
-While investors are technically and legally allowed to stake their DYDX to the Safety Module, in the event of a Shortfall Event and slashing of DYDX, investors would get slashed like every one else. At this time, they would be in default against their obligations. Investors would be required to purchase again any tokens that were transferred as a result of slashing so that everyone is in the same position. For this reason, we ask all investors to refrain from staking and request to withdraw any funds currently staked to the Safety Module.
+Aunque los inversores están autorizados técnica y legalmente a invertir su DYDX en el módulo de seguridad, en caso de un evento de déficit y reducción de DYDX, los inversores tendrían un recorte como todos los demás. En ese momento, estarían en mora con sus obligaciones. Los inversores estarían obligados a comprar de nuevo cualquier token que fuera transferido como resultado de la reducción, de modo que todos estén en la misma posición. Por esa razón, les pedimos a todos los inversores que se abstengan de invertir y soliciten retirar cualquier fondo invertido actualmente en el módulo de seguridad.
 
-The dYdX Foundation has expressed its willingness to bring legal action against investors who do not comply with these requirements.
+La Fundación dYdX ha expresado su disposición de iniciar acciones legales contra inversores que no cumplan con esos requisitos.
 
-## What is the liquid supply curve of DYDX?
+## ¿Cuál es la curva de suministro líquida de DYDX?
 
-On September 8, 2021, `8 days` after the end of Epoch 0, the initial transfer restrictions on the token will be lifted and approximately 8.11% of the DYDX supply will become liquid.&#x20;
+El 8 de septiembre de 2021, `8 días` después del final del Epoch 0, las restricciones de transferencia iniciales sobre el token se levantarán y aproximadamente el 8,11% del suministro de DYDX se volverá líquido.
 
-The following chart shows the total liquid supply over time:
+El siguiente gráfico muestra el suministro total de líquidez en el tiempo:
 
-![](<../.gitbook/assets/Liquid Supply Schedule (2).png>)
+![](<.. /.gitbook/assets/Liquid Supply Schedule (2).png>)
