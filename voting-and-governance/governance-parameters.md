@@ -1,146 +1,146 @@
 ---
-description: Overview of governance parameters.
+description: Visión general de los parámetros de gobernanza.
 ---
 
-# Parameters
+# Parámetros
 
-**\[PARAMETERS PAGE IS UNDER DEVELOPMENT AND WILL BE UPDATED SOON]**
+**\[LA PÁGINA DE PARÁMETROS ESTÁ EN DESARROLLO Y SE ACTUALIZARÁ PRONTO]**
 
-At the time of launching governance, DYDX holders have immediate and irrevocable control over:
+Al momento de lanzar la gobernanza, los titulares de DYDX tienen control inmediato e irrevocable sobre:
 
-* Allocation of the community treasury
-* New token listings on the Protocol
-* Risk parameters for the Protocol
-* Capital allocations to market makers in the liquidity staking pool
-* Addition of new market makers to the liquidity staking pool
-* Determining safety staking pool payouts in the event of a loss
-* Changing any of the rewards and pools existing at launch
-* The governance contracts themselves
+* Asignación de la tesorería de la comunidad
+* Nuevos listados de tokens en el Protocolo
+* Parámetros de riesgo para el Protocolo
+* Asignaciones de capital a creadores de mercado en el fondo de participación de liquidez
+* Adición de nuevos creadores de mercado al fondo de participación de liquidez
+* Determinar los pagos del fondo de participación de seguridad en caso de una pérdida
+* Cambiar cualquiera de las recompensas y fondos existentes en el lanzamiento
+* Los propios contratos de gobernanza
 
-dYdX Governance has control over the parameters of the following contracts:
+La gobernanza dYdX control de los parámetros de los siguientes contratos:
 
-* [Timelock](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/voting-and-governance-process/parameters.md#timelock-parameters)
-* Priority Timelock
-* Governor
-* DYDX Token
-* Treasury
-* Merkle Distributor
-* Liquidity Staking
-* Safety Module
-* Stark Proxy
-* Stark Perpetual
+* [Bloqueo de tiempo](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/voting-and-governance-process/parameters.md#timelock-parameters)
+* Bloqueo de tiempo de prioridad
+* Gobernador
+* Tokens de DYDX
+* Tesorería
+* Distribuidor Merkle
+* Participación de liquidez
+* Módulo de seguridad
+* Proxy de Stark
+* Perpetuals de Stark
 
-## Timelock Parameters
+## Parámetros de bloqueo de tiempo
 
-![](<../.gitbook/assets/image (77).png>)
+![](<.. /.gitbook/assets/image (77).png>)
 
-## Governor Parameters
+## Parámetros de gobernanza
 
-| Parameter         | Description                                                                   | Value          |
+| Parámetro | Descripción | Valor |
 | ----------------- | ----------------------------------------------------------------------------- | -------------- |
-| Voting Delay      | Delay (in blocks) between proposal creation and voting on the proposal        | 6,570 blocks   |
-| Add Executor role | Address that can add new executors                                            | Short Timelock |
-| Owner role        | Can change strategy / voting delay / unauthorize executors + owns other roles | Long Timelock  |
+| Retraso de votación | Retraso (en bloques) entre la creación de propuestas y la votación | 6,570 bloques |
+| Agregar un rol de ejecutor | Dirección que puede agregar nuevos ejecutores | Bloqueo de corto tiempo |
+| Función de propietario | Puede cambiar la estrategia / retraso de votación / desautorizar ejecutores y tiene otros roles | Bloqueo de largo tiempo |
 
 
 
-## DYDX Token
+## Tokens de DYDX
 
-| Parameter | Description                                 | Value          |
+| Parámetro | Descripción | Valor |
 | --------- | ------------------------------------------- | -------------- |
-| Owner     | Can mint DYDX tokens after mint restriction | Short Timelock |
+| Propietario | Puede acuñar tokens de DYDX después de la restricción de acuñación | Bloqueo de corto tiempo |
 
 
 
-## Rewards Treasury Parameters
+## Parámetros de tesorería de recompensas
 
-| Parameter   | Description                                            | Value          |
+| Parámetro | Descripción | Valor |
 | ----------- | ------------------------------------------------------ | -------------- |
-| Owner       | Can approve or transfer any token held by the treasury | Short Timelock |
-| Proxy Admin | Can upgrade the contract                               | Short Timelock |
+| Propietario | Puede aprobar o transferir cualquier token en poder de la tesorería | Bloqueo de corto tiempo |
+| Administrador de proxy | Puede actualizar el contrato | Bloqueo de corto tiempo |
 
 ##
 
-## Community Treasury Parameters
+## Parámetros de tesorería de la comunidad
 
-| Parameter   | Description                                            | Value          |
+| Parámetro | Descripción | Valor |
 | ----------- | ------------------------------------------------------ | -------------- |
-| Owner       | Can approve or transfer any token held by the treasury | Short Timelock |
-| Proxy Admin | Can upgrade the contract                               | Short Timelock |
+| Propietario | Puede aprobar o transferir cualquier token en poder de la tesorería | Bloqueo de corto tiempo |
+| Administrador de proxy | Puede actualizar el contrato | Bloqueo de corto tiempo |
 
 ##
 
-## Merkle Distributor
+## Distribuidor Merkle
 
-| Parameter           | Description                                                                                                                    | Value                        |
+| Parámetro | Descripción | Valor |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------- |
-| Owner role          | Can update the rewards oracle address, update the IPNS name, and is admin of all roles                                         | Short Timelock               |
-| Config updater role | May set rewards parameters, change the epoch schedule, or change the IPFS update period                                        | Short Timelock               |
-| Pauser role         | Can pause updates to the merkle root                                                                                           | Merkle-pauser Timelock       |
-| Unpauser role       | Can unpause updates to the merkle root                                                                                         | Short Timelock               |
-| Claim operator role | May claim rewards on behalf of a user                                                                                          | Claims Proxy                 |
-| Interval            | Length of an epoch                                                                                                             | 28 days                      |
-| Offset              | Start of epoch zero                                                                                                            | August 3rd 15:00 UTC 2021    |
-| IPNS name           | IPNS name where rewards data is published                                                                                      | rewards-data.dydx.foundation |
-| IPFS update period  | Period of time after the epoch end after which the new epoch exchange statistics should be available on IPFS via the IPNS name | 3 minutes                    |
-| Proxy Admin         | Can upgrade the contract                                                                                                       | Short Timelock               |
+| Función de propietario | Puede actualizar la dirección del oráculo de recompensas, actualizar el nombre de IPNS y es administrador de todos los roles | Bloqueo de corto tiempo |
+| Función de actualización de configuración | Puede establecer parámetros de recompensas, cambiar el cronograma de la etapa o cambiar el período de actualización de IPFS | Bloqueo de corto tiempo |
+| Función de pauser | Puede detener las actualizaciones de la raíz de merkle | Bloqueo de tiempo de Merkle-pauser |
+| Función de Unpauser | Puede reanudar las actualizaciones de la raíz de merkle | Bloqueo de corto tiempo |
+| Función de operador de reclamos | Puede reclamar recompensas en nombre de un usuario | Proxy de reclamos |
+| Intervalo | Duración de una etapa | 28 días |
+| Compensación | Inicio de la etapa 0 | 3 de agosto de 2021, 15:00 UTC |
+| Nombre de IPNS | Nombre de IPNS en el que se publican los datos de recompensas | rewards-data.dydx.foundation |
+| Período de actualización de IPFS | Período de tiempo después del final de la etapa después de la cual las estadísticas de intercambio de la nueva etapa deberían estar disponibles en IPFS a través del nombre de IPNS | 3 minutos |
+| Administrador de proxy | Puede actualizar el contrato | Bloqueo de corto tiempo |
 
 ##
 
-## Liquidity Staking
+## Participación de liquidez
 
-| Parameter             | Description                                                                       | Value                                                               |
+| Parámetro | Descripción | Valor |
 | --------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| Owner role            | Admin of all roles                                                                | Short Timelock                                                      |
-| Epoch parameters role | May set epoch parameters such as the interval, offset, and blackout window        | Short Timelock                                                      |
-| Rewards rate role     | May set the emission rate of rewards                                              | Short Timelock                                                      |
-| Borrower admin role   | May set borrower allocations and allow/restrict borrowers from borrowing          | Short Timelock                                                      |
-| Claim operator role   | May claim rewards on behalf of a user                                             | Claims proxy                                                        |
-| Stake operator role   | May manipulate user's staked funds (e.g. perform withdrawals) on behalf of a user | Short Timelock                                                      |
-| Debt operator role    | May decrease borrow debt and decrease staker debt                                 | Short Timelock                                                      |
-| Interval              | Length of an epoch                                                                | 28 days                                                             |
-| Offset                | Start of epoch zero                                                               | August 3rd 15:00 UTC 2021                                           |
-| Blackout window       | Length of the blackout window                                                     | 14 days                                                             |
-| Rewards emission rate | Tokens allocated to stakers as rewards per second                                 | 0.1585489619 \* 10^18 (in wei)                                      |
-| Borrower allocations  | Percent of funds allocated to each borrower                                       | Wintermute 25%, Amber 25%, Sixtant 20%, Kronos 20%, DAT Trading 10% |
-| Proxy Admin           | Can upgrade the contract                                                          | Short Timelock                                                      |
+| Función de propietario | Administración de todos los roles | Bloqueo de corto tiempo |
+| Función de parámetros de etapa | Puede establecer parámetros de la etapa como el intervalo, el desplazamiento y la ventana de bloqueo | Bloqueo de corto tiempo |
+| Función de tasa de recompensas | Puede establecer la tasa de emisión de recompensas | Bloqueo de corto tiempo |
+| Función de administrador de prestatario | Puede establecer asignaciones de prestatarios y permitir o restringir a los prestatarios | Bloqueo de corto tiempo |
+| Función de operador de reclamos | Puede reclamar recompensas en nombre de un usuario | Proxy de reclamos |
+| Función de operador de participación | Puede manipular los fondos invertidos de un usuario (por ejemplo, realizar retiros de usuario) | Bloqueo de corto tiempo |
+| Función de operador de deuda | Puede disminuir las deudas de préstamo y disminuir las deudas de los inversores | Bloqueo de corto tiempo |
+| Intervalo | Duración de una etapa | 28 días |
+| Compensación | Inicio de la etapa 0 | 3 de agosto de 2021, 15:00 UTC |
+| Ventana de bloqueo | Duración de la ventana de bloqueo | 14 días |
+| Tasa de emisión de recompensas | Tokens asignados a los inversores como recompensas por segundo | 0.1585489619 \* 10^18 (en wei) |
+| Asignaciones de prestatario | Porcentaje de fondos asignados a cada prestatario | Wintermute 25%, Amber 25%, Sixtant 20%, Kronos 20%, DAT Trading 10%      |
+| Administrador de proxy | Puede actualizar el contrato | Bloqueo de corto tiempo |
 
-## Safety Module
+## Módulo de seguridad
 
-| Parameter             | Description                                                                       | Value                          |
+| Parámetro | Descripción | Valor |
 | --------------------- | --------------------------------------------------------------------------------- | ------------------------------ |
-| Owner role            | Admin of all roles                                                                | Short Timelock                 |
-| Slasher role          | Can slash staked token balances and withdraw those funds                          | Short Timelock                 |
-| Epoch parameters role | May set epoch parameters such as the interval, offset, and blackout window        | Short Timelock                 |
-| Rewards rate role     | May set the emission rate of rewards                                              | Short Timelock                 |
-| Claim operator role   | May claim rewards on behalf of a user                                             | Claims proxy                   |
-| Stake operator role   | May manipulate user's staked funds (e.g. perform withdrawals) on behalf of a user | Short Timelock                 |
-| Interval              | Length of an epoch                                                                | 28 days                        |
-| Offset                | Start of epoch zero                                                               | August 3rd 15:00 UTC 2021      |
-| Blackout window       | Length of the blackout window                                                     | 14 days                        |
-| Rewards emission rate | Tokens allocated to stakers as rewards per second                                 | 0.1585489619 \* 10^18 (in wei) |
-| Proxy Admin           | Can upgrade the contract                                                          | Long Timelock                  |
+| Función de propietario | Administración de todos los roles | Bloqueo de corto tiempo |
+| Función de Slasher | Puede reducir los saldos de los tokens invertidos y retirar esos fondos | Bloqueo de corto tiempo |
+| Función de parámetros de etapa | Puede establecer parámetros de la etapa como el intervalo, el desplazamiento y la ventana de bloqueo | Bloqueo de corto tiempo |
+| Función de tasa de recompensas | Puede establecer la tasa de emisión de recompensas | Bloqueo de corto tiempo |
+| Función de operador de reclamos | Puede reclamar recompensas en nombre de un usuario | Proxy de reclamos |
+| Función de operador de participación | Puede manipular los fondos invertidos de un usuario (por ejemplo, realizar retiros de usuario) | Bloqueo de corto tiempo |
+| Intervalo | Duración de una etapa | 28 días |
+| Compensación | Inicio de la etapa 0 | 3 de agosto de 2021, 15:00 UTC |
+| Ventana de bloqueo | Duración de la ventana de bloqueo | 14 días |
+| Tasa de emisión de recompensas | Tokens asignados a los inversores como recompensas por segundo | 0.1585489619 \* 10^18 (en wei) |
+| Administrador de proxy | Puede actualizar el contrato | Bloqueo de largo tiempo |
 
-## Stark Proxy
+## Proxy de Stark
 
-| Parameter                | Description                                                                                                                                                                                                      | Value                  |
+| Parámetro | Descripción | Valor |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
-| Owner role               | Can add/remove recipients who receive funds + STARK keys, set ERC20 allowances on liquidity staking and stark perpetual contracts, call forced actions, and is admin of owner + delegation admin roles           | Market Maker           |
-| Delegation admin role    | Is admin of borrower, exchange operator, and withdrawal operator roles                                                                                                                                           | Market Maker           |
-| Borrower role            | May call borrow functions on the liquidity staking contract                                                                                                                                                      | Market Maker           |
-| Exchange operator role   | May call exchange functions on the stark perpetual contract                                                                                                                                                      | Market Maker           |
-| Withdrawal operator role | May withdraw funds in excess of the borrowed balance to an allowed recipient                                                                                                                                     | Market Maker           |
-| Guardian role            | May perform close actions, perform force actions if borrower has overdue debt, restrict open actions with borrowed funds, and approve a token amount to be withdrawn externally by the withdrawal operator role. | Short Timelock         |
-| Veto guardian role       | May veto forced trade requests initiated by the owner, during the waiting period                                                                                                                                 | Merkle-pauser timelock |
+| Función de propietario | Puede agregar/eliminar destinatarios que reciben fondos + claves de STARK, establecer asignaciones de ERC20 en operaciones de liquidez y contratos de perpetuals estrictos, utilizar acciones forzadas y es administrador como propietario + roles de administrador de delegación | Creador de mercado |
+| Función de administrador de delegación | Es el administrador de los prestatarios, operador de bolsa y ejerce los roles de operador de retiros | Creador de mercado |
+| Función de prestatario | Puede utilizar funciones de préstamo en el contrato de participación de liquidez | Creador de mercado |
+| Función de operador de bolsa | Puede usar funciones de bolsa en el contrato de perpetuals de stark | Creador de mercado |
+| Función de operador de retiros | Puede retirar fondos en exceso del saldo prestado a un destinatario permitido | Creador de mercado |
+| Función de custodio | Puede realizar acciones de cierre, acciones forzadas si el prestatario tiene una deuda vencida, restringir acciones abiertas con fondos prestados y aprobar un monto simbólico para ser retirado externamente por el rol de operador de retiros. | Bloqueo de corto tiempo |
+| Función de custodio de veto | Puede vetar las solicitudes de operaciones forzadas iniciadas por el propietario, durante el período de espera | Bloqueo de tiempo de Merkle-pauser |
 
-## Stark Perpetual
+## Perpetuals de Stark
 
-| Parameter                              | Description | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
+| Parámetro | Descripción | Ejecutor de bloqueo de corto tiempo | Ejecutor Merkle-pauser | Ejecutor de bloqueo de largo tiempo  | Ejecutor de Starkware |
 | -------------------------------------- | ----------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
-| Add new asset                          |             | N                       | N                      | N                      | Y                  |
-| Change configuration of existing asset |             | N                       | N                      | N                      | Y                  |
-| Proxy admin                            |             | N                       | N                      | N                      | Y                  |
-| Add operator                           |             | N                       | N                      | N                      | Y                  |
-| Remove operator                        |             | N                       | N                      | N                      | Y                  |
-| Add verifier                           |             | N                       | N                      | N                      | Y                  |
-| Remove verifier                        |             | N                       | N                      | N                      | Y                  |
+| Agrega un nuevo activo |             | N | N | N | Y |
+| Cambia la configuración de los activos existentes |             | N | N | N | Y |
+| Administrador de proxy |             | N | N | N | Y |
+| Añadir operador |             | N | N | N | Y |
+| Eliminar el operador |             | N | N | N | Y |
+| Añadir verificador |             | N | N | N | Y |
+| Eliminar el verificador |             | N | N | N | Y |
