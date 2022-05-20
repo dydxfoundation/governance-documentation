@@ -1,69 +1,63 @@
 ---
-description: An overview of the voting process.
+description: Oylama sürecine genel bir bakış.
 ---
 
-# Voting Process
+# Oylama Süreci
 
-The Protocol is governed and upgraded by DYDX holders and delegatees.
+Protokol, DYDX sahipleri ve delegeler tarafından yönetilir ve yükseltilir.
 
-## **Proposing & Voting Powers**
+## **Teklif Verme ve Oy Verme Yetkileri**
 
-There are two powers associated with each DYDX token:
+Her DYDX token ile ilişkili iki yetki vardır:
 
-* The **proposing power** gives access to creating and sustaining a proposal.
-* The **voting power** is used to vote for or against existing proposals.
+* **Teklif verme yetkisi** bir teklif oluşturma ve sürdürme erişimi sağlar.
+* **Oy verme yetkisi** mevcut teklifler lehine veya aleyhine oy vermek için kullanılır.
 
-DYDX holders receive governance powers proportionally to their sum of owned and delegated tokens at a given block.
+DYDX sahipleri belirli bir blokta sahip oldukları ve kendilerine delege edilen token'ların toplamı ile orantılı yönetişim yetkileri alırlar.
 
-**`Proposing Power =`**`Proposing Power from DYDX token + `\
-`Proposing Power from staked-DYDX token + `\
-`Proposing Power from DYDX token received as delegatee - `\
-`Proposing Power from DYDX delegated`
+**`Teklif Verme Yetkisi =`** `DYDX token'larından gelen Teklif Verme Yetkisi + `\`Stake Edilen DYDX token'larından gelen Teklif Verme Yetkisi + `\`Delege olarak alınan DYDX token'larından gelen Teklif Verme Yetkisi - `\`Delege edilen DYDX'lerden gelen Teklif Verme Yetkisi`
 
-**`Voting Power =`**`Voting Power from DYDX token + `\
-`Voting Power from staked-DYDX token + `\
-`Voting Power from DYDX token received as delegatee - `\
-`Voting Power from DYDX delegated`
+**`Oy Verme Yetkisi =`** `DYDX token'larından gelen Oy Verme Yetkisi + `\`Stake Edilen DYDX token'larından gelen Oy Verme Yetkisi + `\`Delege olarak alınan DYDX token'larından gelen Oy Verme Yetkisi - `\`Delege edilen DYDX'lerden gelen Oy Verme Yetkisi`
 
-## FAQ
+## SSS
 
-### How do I vote?
+### Nasıl oy veririm?
 
-In order to participate in DYDX on-chain governance, you will need to have or be delegated DYDX tokens. You will also need ETH to cover transaction costs.
+DYDX zincir içi yönetişimine katılmak için DYDX token'larına sahip olmanız veya DYDX token'larının size delege edilmiş olması gerekir. Ayrıca işlem maliyetlerini karşılamak için ETH'ye de ihtiyacınız olacaktır.
 
-If you have tokens or have been delegated tokens and there is an active proposal, you are ready to vote in dYdX Governance.&#x20;
+Token sahibi iseniz veya size delege edilmiş token'larınız varsa ve aktif bir teklif varsa, dYdX Yönetişiminde oy vermeye hazırsınız demektir.
 
-![Cast votes using your voting power](<../.gitbook/assets/image (87).png>)
+![Cast votes using your voting power](<.. /.gitbook/assets/image (87).png>)
 
-To cast your vote, navigate to the proposals page and click on an active proposal.
+Oyunuzu vermek için teklifler sayfasına gidin ve aktif bir teklifin üzerine tıklayın.
 
-### **How do I delegate?**
+### **Nasıl delege edebilirim?**
 
-DYDX allows holders to delegate voting rights to the address of their choice. Anybody can participate in dYdX governance by receiving delegation, without needing to own DYDX. Users can delegate to one address at a time, and the number of votes added to the delegatee’s vote count is equivalent to the balance of DYDX in the user’s account. Votes are delegated from the current block and onward, until the sender delegates again, or transfers their DYDX.
+DYDX, sahiplerinin oy verme haklarını kendi seçtikleri bir adrese delege etmelerine olanak tanır. İsteyen herkes, DYDX'e sahip olması gerekmeden, delegasyon alarak dYdX yönetişimine katılabilir. Kullanıcılar bir seferde tek bir adrese delege edebilir ve delegenin oy sayısına eklenen oyların sayısı kullanıcının hesabındaki DYDX bakiyesine eşittir. Oylar, gönderen tekrar delege edene veya DYDX'lerini transfer edene kadar mevcut bloktan ve sonraki bloklardan delege edilir.
 
-![Delegate away your voting & proposing powers](<../.gitbook/assets/image (86).png>)
+![Delegate away your voting & proposing powers](<.. /.gitbook/assets/image (86).png>)
 
-Token holders can choose to delegate one or both of the governance powers associated with a token, either through the governance portal or programmatically. A user that has received delegated power can not forward this delegated power to another delegatee.
+Token sahipleri, yönetişim portalından veya programlama yoluyla bir token ile ilişkili yönetişim yetkilerinden birini veya her ikisini birden delege etmeyi seçebilirler. Delege edilmiş bir yetki alan bir kullanıcı kendisine delege edilen bu yetkiyi başka bir delegeye iletemez.
 
-Token holders can delegate proposing power and voting power to different addresses. However, there is no partial delegation (only 100% or 0% of power.)
+Token sahipleri teklif verme yetkisini ve oy verme yetkisini farklı adreslere delege edebilir. Ancak kısmi delegasyon yoktur (yetkinin yalnızca %100'ü veya %0'ı).
 
-To delegate your tokens to a wallet address:&#x20;
+Token'larınızı bir cüzdan adresine delege etmek için:
 
-* Go to [dydx.community/dashboard](https://dydx.community/dashboard)
-* Click on "Delegate"
-* Select type of power you want to delegate
-* Enter a Wallet Address for a third party to whom you would like to delegate your voting and/or proposal power to. Delegating powers does not transfer your tokens
+* [dydx.community/dashboard](https://dydx.community/dashboard) adresine gidin
+* "Delege Et" seçeneğine tıklayın
+* Delege etmek istediğiniz yetki türünü seçin
+* Oy verme ve/veya teklif verme yetkinizi delege etmek istediğiniz üçüncü taraf için bir Cüzdan Adresi girin. Yetkilerin delege edilmesi ile token'larınız transfer edilmez
 
-Delegating and undelegating DYDX require users to spend Ethereum gas fees.
+DYDX delege etmek ve delegasyonu iptal etmek kullanıcıların Ethereum gas ücretleri ödemelerini gerektirir.
 
-### Can I change my vote after I have already voted?
+### Oy verdikten sonra oyumu değiştirebilir miyim?
 
-Once a vote is cast on-chain, it is not possible to change your vote.
+Zincir içi bir oy verdikten sonra oyunuzu değiştirmeniz mümkün değildir.
 
-### Can I transfer my DYDX while the vote is in progress?
+### Oy verme işlemi devam ederken DYDX'lerimi transfer edebilir miyim?
 
-Yes.
+Evet.
 
-### Can I add more tokens to my vote?
+### Oyuma daha fazla token ekleyebilir miyim?
 
-When a DIP is submitted on-chain, a snapshot is taken of current token holders. Users will need to own or be staked DYDX tokens before the start block.
+Zincir içi bir DIP gönderildiğinde, mevcut token sahiplerinin bir anlık görüntüsü alınır. Kullanıcıların başlangıç bloku öncesinde DYDX token'larına sahip olması veya kendisine DYDX token'larının stake edilmiş olması gerekir.
