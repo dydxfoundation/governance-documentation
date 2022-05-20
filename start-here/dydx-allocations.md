@@ -1,63 +1,63 @@
 ---
-description: Allocations for the DYDX token.
+description: DYDX token tahsisleri.
 ---
 
-# Allocations
+# Tahsisler
 
-**Allocations**
+**Tahsisler**
 
-A total of `1,000,000,000 DYDX` have been minted, and will become accessible over five (5) years, starting on **August 3rd, 2021, at 15:00:00 UTC**. The initial five-year allocation of the total supply of DYDX is as follows:
+Toplam `1.000.000.000 DYDX` çıkarılmış olup **3 Ağustos 2021 günü saat 18.00.00 (TSİ**) itibarıyla beş (5) yıl içerisinde bu token'lar erişilebilir hale gelecektir. İlk beş yıl zarfında DYDX'in toplam arzı aşağıdaki şekilde tahsis edilecektir:
 
-* **50.00%** (`500,000,000 DYDX`) to the community as follows:
-  * **25.00%** (`250,000,000 DYDX`) to users who trade on the dYdX Layer 2 Protocol based on a combination of fees paid and open interest ([**Trading Rewards**](../rewards/trading-rewards.md))
-  * **7.50%** (`75,000,000 DYDX`) to past users who complete certain trading milestones on the dYdX Layer 2 Protocol ([**Retroactive Mining Rewards**](../rewards/retroactive-mining-rewards.md))
-  * **7.50%** (`75,000,000 DYDX`) to liquidity providers based on a formula rewarding a combination of uptime, two-sided depth, bid-ask spreads, and the number of markets supported ([**Liquidity Provider Rewards**](../rewards/liquidity-provider-rewards.md))
-  * **5.00%** (`50,000,000 DYDX`) to a community treasury ([**Treasury**](community-treasury.md))
-  * **2.50%** (`25,000,000 DYDX`) to users staking USDC to a liquidity staking pool ([**Liquidity Module**](../staking-pools/liquidity-staking-pool.md))
-  * **2.50%** (`25,000,000 DYDX`) to users staking DYDX to a safety staking pool ([**Safety Module**](../staking-pools/safety-staking-pool.md))
-* **27.73%** (`277,295,070 DYDX`) to past investors
-* **15.27%** (`152,704,930 DYDX`) to founders, employees, advisors, and consultants of dYdX Trading or the Foundation
-* **7.00%** (`70,000,000 DYDX`) to future employees and consultants of dYdX Trading or the dYdX Foundation&#x20;
+* Aşağıdaki şekilde, topluluğa **%50,00** (`500.000.000 DYDX`):
+   * dYdX Katman 2 Protokolü üzerinde alım satım yapan kullanıcılara, ödenen ücretlerin ve açık faizin bir kombinasyonu esasında **%25,00** (`250.000.000 DYDX`) ([**Alım Satım Ödülleri**](../rewards/trading-rewards.md))
+   * dYdX Katman 2 Protokolü üzerinde belirli alım satım eşiklerini tamamlayan geçmiş kullanıcılara **%7,50** (`75.000.000 DYDX`) ([**Geriye Dönük Madencilik Ödülleri**](../rewards/retroactive-mining-rewards.md))
+   * Çalışma süresi, iki taraflı derinlik, teklif-talep farkı ve desteklenen piyasaların sayısının bir kombinasyonunu ödüllendiren bir formül esasında likidite sağlayıcılara **%7,50** (`75.000.000 DYDX`) ([**Likidite Sağlayıcı Ödülleri**](../rewards/liquidity-provider-rewards.md))
+   * Bir topluluk hazinesine ([**Hazine**](community-treasury.md)) **%5,00** (`50.000.000 DYDX`)
+   * Bir likidite staking havuzunda ([**Likidite Modülü**](../staking-pools/liquidity-staking-pool.md)) USDC stake eden kullanıcılara **%2,50** (`25.000.000 DYDX`)
+   * Bir güvenlik staking havuzunda ([**Güvenlik Modülü**](../staking-pools/safety-staking-pool.md)) DYDX stake eden kullanıcılara **%2,50** (`25.000.000 DYDX`)
+* Geçmiş yatırımcılara **%27,73** (`277.295.070 DYDX`)
+* dYdX Trading veya dYdX Vakfı'nın kurucuları, çalışanları, müşavirleri ve danışmanlarına **%15,27** (`152.704.930 DYDX`)
+* dYdX Trading veya dYdX Vakfı'nın gelecekteki çalışanları ve danışmanlarına **%7,00** (`70.000.000 DYDX`)
 
-![](<../.gitbook/assets/DYDX Allocations (Initial 5 Years).png>)
+![](<.. /.gitbook/assets/DYDX Allocations (Initial 5 Years).png>)
 
-Starting five years after launch, a maximum perpetual inflation rate of `2%` per year may be utilized by governance to increase the supply of DYDX, ensuring the community has the resources to continue the development and growth of the Protocol. Inflation must be enacted via a governance proposal and is capped at `2%` per year.
+Lansmandan beş yıl sonra başlamak üzere, topluluğun Protokol'ün gelişimini ve büyümesini sürdürmeye yetecek kaynaklara sahip olmasını sağlamak amacıyla yönetişim tarafından yıllık `%2` oranında bir maksimum sürekli enflasyon oranı uygulanabilir. Enflasyon bir yönetişim teklifi aracılığıyla uygulamaya konmalı ve üst sınırı yıllık `%2` olmalıdır.
 
-![](<../.gitbook/assets/Allocation 10 Years Inflation (1).png>)
+![](<.. /.gitbook/assets/Allocation 10 Years Inflation (1).png>)
 
-Although the community allocation has been established as laid out above, DYDX holders have full control via governance over how the community allocation is used going forwards.
+Her ne kadar topluluk tahsisi yukarıda belirtilen şekilde tespit edilmiş olsa da DYDX sahipleri topluluk tahsisinin ileride nasıl kullanılacağı konusunda yönetişim yoluyla tam kontrol sahibidir.
 
-## **FAQs**
+## **SSS**
 
-### **Can new DYDX tokens be minted?**
+### **Yeni DYDX token'ları çıkarılabilir mi?**
 
-Starting five years after launch, a maximum perpetual inflation rate of `2%` per year can be used to increase the supply of DYDX, ensuring the community has the resources to continue contributing to the dYdX Layer 2 Protocol.
+Lansmandan beş yıl sonra başlamak üzere, topluluğun dYdX Katman 2 Protokolü'ne katkıda bulunmaya devam edebilecek kaynaklara sahip olmasını sağlamak amacıyla yıllık `%2` oranında bir maksimum sürekli enflasyon oranı kullanılabilir.
 
-Beginning on **July 14th, 2026 at 15:00:00 UTC**, dYdX governance can decide the maximum supply of new tokens to be minted, up to the maximum inflation rate of `2%` per year at each mint. Only one mint is possible in a given 365 day period. All newly issued tokens will be allocated by governance and will vest immediately. These newly issued tokens can then be sent to any address specified.
+**14 Temmuz 2026 günü saat 18.00.00'den (TSİ)** itibaren, dYdX yönetişimi yıllık `%2` oranındaki maksimum enflasyon oranına kadar her bir token çıkarma işleminde basılacak maksimum yeni token arzına karar verebilir. Her 365 günlük süre içinde yalnızca bir kez token basma işlemi yapılabilir. Yeni çıkarılan tüm token'lar yönetişim tarafından tahsis edilecek ve hemen elde edilecektir. Bunun ardından bu yeni çıkarılan token'lar belirtilen herhangi bir adrese gönderilebilir.
 
-### **What is the lockup for DYDX issued to investors, existing and future employees, and consultants?**
+### **Yatırımcılar, mevcut ve gelecekteki çalışanlar ve danışmanlara tahsis edilen DYDX'lerin kilitlenme süreci nasıldır?**
 
-DYDX will be issued to stockholders, directors, officers, employees, and consultants of dYdX Trading and the Foundation. All DYDX distributed to these parties will initially be subject to contractual agreements, off-chain, mandating a lockup according to which:
+dYdX Trading ve dYdX Vakfı'nın hisse sahipleri, müdürleri, memurları, çalışanları ve danışmanlarına DYDX tahsis edilecektir. Bu taraflara dağıtılan tüm DYDX'ler, zincir dışı sözleşme hükümlerine ve aşağıda belirtilen şekilde bir zorunlu kilitlenme sürecine tabi olacaktır:
 
-* 30% of DYDX holdings will unlock after 18 months post-launch;
-* 40% will unlock equally from month 19 through month 24;
-* 20% will unlock equally from month 25 through month 36;
-* 10% will unlock equally from month 37 through month 48.
+* Lansmandan 18 ay sonra DYDX bakiyelerinin %30'unun kilidi açılacaktır;
+* 19. aydan 24. aya kadar %40'ının kilidi eşit bir oranda açılacaktır;
+* 25. aydan 36. aya kadar %20'sinin kilidi eşit bir oranda açılacaktır;
+* 37. aydan 48. aya kadar %10'unun kilidi eşit bir oranda açılacaktır.
 
-All employees and consultants also will be subject to various vesting schedules that could result in them losing their rights to DYDX. No employee’s or consultant’s receipt of DYDX is, or will in the future be, based on providing services related to the Protocol or other services that may benefit the Protocol. Instead, employees and consultants may receive DYDX for services that benefit only dYdX Trading, the dYdX Foundation or another party.
+Tüm çalışanlar ve danışmanlar ayrıca DYDX üzerindeki haklarını kaybetmelerine neden olabilecek çeşitli vesting takvimlerine de tabi olacaktır. Bir çalışanın veya danışmanın DYDX alması Protokol'e ilişkin hizmetler veya Protokol'e fayda sağlayabilecek diğer hizmetlere dayalı değildir ve gelecekte de olmayacaktır. Bunun yerine, çalışanlar ve danışmanlar yalnızca dYdX Trading'e, dYdX Vakfı'na veya başka bir tarafa fayda sağlayan hizmetler için DYDX alabilir.
 
-Regardless of any lockup on DYDX, investors and prior employees or consultants of dYdX Trading or the Foundation may use DYDX to make proposals, delegate votes, or vote on proposals related to the Protocol. Current employees and consultants of dYdX Trading or the Foundation will initially not make any proposals or participate in any votes but may do so in the future. Current employees and consultants of dYdX Trading or the Foundation may delegate votes without attempting to influence voting outcomes.
+DYDX'lerin tabi olduğu herhangi bir kilitlenme sürecine bakılmaksızın, dYdX Trading'in veya dYdX Vakfı'nın yatırımcıları ve önceki çalışanları veya danışmanları teklif vermek, oy verme yetkisini devretmek ve Protokol'e ilişkin tekliflerde oy vermek için DYDX kullanabilir. dYdX Trading'in veya dYdX Vakfı'nın mevcut çalışanları ve danışmanları, ilk başta hiçbir teklif veremeyecek ve hiçbir oylamaya katılamayacaktır ancak gelecekte bunu yapmaları mümkün olabilir. dYdX Trading'in veya dYdX Vakfı'nın mevcut çalışanları ve danışmanları oylama sonuçlarını etkilemeye çalışmadan oy verme yetkilerini devredebilir.
 
-All investors are required to comply with the transfer restriction enforced through contractual agreements with the dYdX Foundation. The dYdX Foundation tracks wallet addresses to determine whether any transfers have been made in violation of that restriction.
+Tüm yatırımcıların dYdX Vakfı ile yapılan sözleşmelerin hükümleriyle getirilen transfer kısıtlamalarına uyması gerekmektedir. dYdX Vakfı, bu kısıtlamayı ihlal eden herhangi bir transferin yapılıp yapılmadığını belirlemek için cüzdan adreslerini izlemektedir.
 
-While investors are technically and legally allowed to stake their DYDX to the Safety Module, in the event of a Shortfall Event and slashing of DYDX, investors would get slashed like every one else. At this time, they would be in default against their obligations. Investors would be required to purchase again any tokens that were transferred as a result of slashing so that everyone is in the same position. For this reason, we ask all investors to refrain from staking and request to withdraw any funds currently staked to the Safety Module.
+Her ne kadar yatırımcıların DYDX'lerini Güvenlik Modülünde stake etmesine teknik ve yasal olarak izin veriliyor olsa da bir Eksi Bakiyeye Düşme ve DYDX'te slashing (iptal) yaşanması durumunda yatırımcılar da herkes gibi slashing sürecine maruz kalır. Bu durumda, yükümlülüklerini yerine getirmemiş olurlar. Herkesin aynı pozisyonda olması için, yatırımcıların slashing sonucunda transfer edilen tüm token'ları tekrar satın alması gerekecektir. Bu nedenle, tüm yatırımcılardan staking'den kaçınmalarını ve şu anda Güvenlik Modülü'nde stake edilen tüm fonları çekme talebinde bulunmalarını rica ediyoruz.
 
-The dYdX Foundation has expressed its willingness to bring legal action against investors who do not comply with these requirements.
+dYdX Vakfı, bu gerekliliklere uymayan yatırımcılara karşı yasal işlem başlatma amacında olduğunu ifade etmiştir.
 
-## What is the liquid supply curve of DYDX?
+## DYDX'in likit arz eğrisi nedir?
 
-On September 8, 2021, `8 days` after the end of Epoch 0, the initial transfer restrictions on the token will be lifted and approximately 8.11% of the DYDX supply will become liquid.&#x20;
+Dönem 0'ın sona ermesinden `8 gün` sonra, 8 Eylül 2021 tarihinde, token üzerindeki ilk baştaki transfer kısıtlamaları kaldırılacak ve DYDX arzının yaklaşık %8,11'i likit hale gelecektir.
 
-The following chart shows the total liquid supply over time:
+Aşağıdaki grafikte, zaman içerisindeki toplam likit arz gösterilmektedir:
 
-![](<../.gitbook/assets/Liquid Supply Schedule (2).png>)
+![](<.. /.gitbook/assets/Liquid Supply Schedule (2).png>)
