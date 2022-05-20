@@ -1,119 +1,119 @@
 ---
-description: An overview of the Safety Staking Pool
+description: Un aperçu du pool de staking de sécurité
 ---
 
-# Safety Module
+# Module de sécurité
 
-`2.50%` of the initial token supply (`25,000,000 DYDX`) will be distributed to users staking DYDX to a Safety pool for backstopping the system.
+`2,50 %` de l'offre initiale de jetons (`25 000 000 DYDX`) seront distribués aux utilisateurs qui stakent DYDX dans un pool de sécurité pour soutenir le système.
 
-**Objectives**
+**Objectifs**
 
-* Bootstrap a decentralized fund to be used in the case of insolvency or other issues with the protocol.
-* Incentivize DYDX holders to govern correctly: DYDX holders risk dilutive events as the ultimate backstop and act as the governors of risk in the system.
+* Démarrez un fonds décentralisé à utiliser en cas d'insolvabilité ou d'autres problèmes avec le protocole.
+* Inciter les détenteurs de DYDX à gouverner correctement : les détenteurs de DYDX risquent des événements dilutifs en tant que backstop ultime et agissent en tant que gouverneurs du risque dans le système.
 
-DYDX staked in the Safety Module retains its proposing and voting rights, as well as delegation abilities.
+DYDX staké dans le module de sécurité conserve ses droits de proposition et de vote, ainsi que ses capacités de délégation.
 
-Start staking at [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
+Commencez à staker sur [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
 
-## Overview
+## Aperçu
 
-User safety and protection have been a key focus since the launch of the Protocol. For that reason, DYDX will be distributed to users who stake DYDX to the safety pool to create an additional safety net for users of the Protocol.  Stakers will receive DYDX continuously proportional to their portion of the total DYDX in the pool.
+La sécurité et la protection des utilisateurs sont au centre des préoccupations depuis le lancement du Protocole. Pour cette raison, DYDX sera distribué aux utilisateurs qui stakent DYDX dans le pool de sécurité afin de créer un filet de sécurité supplémentaire pour les utilisateurs du protocole. Les stakers recevront DYDX en continu proportionnellement à leur part du DYDX total dans le pool.
 
-The Safety pool will go live upon DYDX becoming transferrable on September 8th, 2021, 15:00 UTC.
+Le pool de sécurité sera mis en ligne lorsque DYDX deviendra transférable le 8 septembre 2021, 15 h 00 UTC.
 
-## Withdrawals
+## Retraits
 
-Stakers must request to withdraw funds at least `14 days` **(Blackout Window)** before the end of the epoch in order to be able to withdraw funds after the end of that epoch. If stakers do not request to withdraw, their staked DYDX is rolled over into the next epoch.&#x20;
+Les stakers doivent demander de retirer des fonds au moins `14 jours` **(Fenêtre de blocage)** avant la fin de l'époch afin de pouvoir retirer des fonds après la fin de cette époch. Si les stakers ne demandent pas de retrait, leur DYDX staké est reporté à l'époch suivante.
 
-## Risks
+## Risques
 
-Staked DYDX may be slashed as a result of a shortfall event. Slashing occurs at the discretion of DYDX governance, and requires a governance vote to enact.
+Le DYDX staké peut être réduit en raison d'un événement de pénurie. La réduction se produit à la discrétion de la gouvernance de DYDX et nécessite un vote de gouvernance pour être promulguée.
 
-Like participants in any DeFi protocol, stakers in the Safety Module are exposed to smart contract risk if there is a vulnerability in the underlying smart contract code. All DYDX & governance smart contracts have been audited and rigorously tested.
+Comme les participants à tout protocole DeFi, les intervenants du module de sécurité sont exposés au risque de contrat intelligent s'il existe une vulnérabilité dans le code de contrat intelligent sous-jacent. Tous les contrats intelligents DYDX et de gouvernance ont été audités et rigoureusement testés.
 
-## Shortfall Events
+## Événements de pénurie
 
-The interpretation for the occurrence of a Shortfall Event is subject to a dYdX governance vote but may include:
+L'interprétation de la survenance d'un événement de pénurie est soumise à un vote de gouvernance dYdX mais peut inclure :
 
-* Exchange Solvency (e.g., exchange becoming under-collateralized due to unprofitable liquidations)
-* Smart contract attacks
-* Other events dYdX governance deems to have resulted in a shortfall
+* Solvabilité de l'échange (par exemple, l'échange devient sous-garanti en raison de liquidations non rentables)
+* Attaques de contrats intelligents
+* D'autres événements que la gouvernance dYdX estime avoir entraîné une pénurie
 
-In a Shortfall Event, token holder balances can be slashed and transferred to another address or contract (set by dYdX governance on a case by case basis). dYdX governance must pass a short timelock proposal to slash staked tokens. After a governance vote on slashing staked DYDX tokens, slashed DYDX may be auctioned on the market to be sold against the assets needed to mitigate the incurred deficit.
+Lors d'un événement de pénurie, les soldes des détenteurs de jetons peuvent être réduits et transférés vers une autre adresse ou un autre contrat (défini par la gouvernance dYdX au cas par cas). La gouvernance dYdX doit passer une courte proposition de verrouillage pour réduire les jetons stakés. Après un vote de gouvernance sur la réduction des jetons DYDX stakés, les jetons DYDX réduits peuvent être vendus aux enchères sur le marché pour être vendus contre les actifs nécessaires pour atténuer la pénurie encouru.
 
 ## FAQ
 
-### How do I earn staking rewards?
+### Comment puis-je gagner des récompenses de staking ?
 
-Stakers can deposit DYDX at any time to the safety staking pool and start earning rewards immediately. DYDX rewards are earned on a continuous basis according to each staker’s share of the total pool on a second-by-second basis. Rewards can be claimed and withdrawn at any time.
+Les stakers peuvent déposer des DYDX à tout moment dans le pool de staking de sécurité et commencer à gagner des récompenses immédiatement. Les récompenses DYDX sont gagnées sur une base continue en fonction de la part de chaque staker dans le pool total, seconde par seconde. Les récompenses peuvent être réclamées et retirées à tout moment.
 
-Active funds earn rewards for the period of time that they remain active. This means, after requesting a withdrawal of some funds, those funds will continue to earn rewards until the end of the epoch. This is demonstrated in the following example from the [Liquidity staking pool](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool):
+Les fonds actifs gagnent des récompenses pour la période pendant laquelle ils restent actifs. Cela signifie qu'après avoir demandé le retrait de certains fonds, ces fonds continueront à gagner des récompenses jusqu'à la fin de l'époch. Ceci est démontré dans l'exemple suivant du [pool de staking de liquidité](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool) :
 
-![](<../.gitbook/assets/image (59).png>)
+![](<.. /.gitbook/assets/image (59).png>)
 
-In the above scenario, the user would earn rewards for the period from **Time0** to **Time2**, varying with the total staked balance in that period. If the user only requests a withdrawal for a part of their balance, then the remaining balance would continue earning rewards beyond **Time2**.
+Dans le scénario ci-dessus, l'utilisateur gagnerait des récompenses pour la période de **Time0** à **Time2**, variant avec le solde total staké au cours de cette période. Si l'utilisateur ne demande un retrait que pour une partie de son solde, le solde restant continuera à gagner des récompenses au-delà de **Time2**.
 
-### How do I deposit and stake DYDX to the Safety Pool?
+### Comment puis-je déposer et staker DYDX sur le pool de sécurité ?
 
-To stake DYDX to the Safety Pool, follow these steps:
+Pour staker DYDX dans le pool de sécurité, procédez comme suit :
 
-* Go to [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
-* Click on “**Stake**”
-* You must enable DYDX the first time you deposit. You will only have to do this once and incur gas fees only once.
-* Enter the amount of DYDX you want to stake to the pool.
-* Click “**Stake Funds**”.  You will need to pay gas fees to stake and unstake funds.
+* Allez sur [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
+* Cliquez sur « **Staker** »
+* Vous devez activer DYDX la première fois que vous déposez. Vous n'aurez à le faire qu'une seule fois et à ne payer qu'une seule fois les frais de gaz.
+* Entrez le montant de DYDX que vous souhaitez staker sur le pool.
+* Cliquez sur « **Staker des fonds** ». Vous devrez payer des frais de gaz pour staker et annuler des fonds.
 
-Staked funds are now active and start earning rewards immediately.
+Les fonds stakés sont désormais actifs et commencent à gagner des récompenses immédiatement.
 
-To deposit and stake and funds directly on the smart contract, users call the \`stake\` [function](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L59). Users can also deposit and stake on behalf of another address by calling the \`stakeFor\` [function](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L64).
+Pour déposer et staker des fonds directement sur le contrat intelligent, les utilisateurs appellent la [fonction](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L59) \`stake\`. Les utilisateurs peuvent également déposer et staker au nom d'une autre adresse en appelant la [fonction](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L64) \`stakeFor\`.
 
-### What is stkDYDX?
+### Qu'est-ce que stkDYDX ?
 
-To contribute to the safety of the protocol and receive incentives, DYDX holders will deposit their tokens into the Safety Module. In return, they will receive a tokenized position (**stkDYDX**) that can be withdrawn or transferred as an ERC-20. The **stkDYDX** token has the same proposing and voting rights as DYDX on dYdX governance.
+Pour contribuer à la sécurité du protocole et recevoir des incitations, les détenteurs de DYDX déposeront leurs jetons dans le module de sécurité. En retour, ils recevront une position tokenisée (**stkDYDX**) qui peut être retirée ou transférée en tant qu'ERC-20. Le jeton **stkDYDX** a les mêmes droits de proposition et de vote que DYDX sur la gouvernance dYdX.
 
-### What is the blackout window?
+### Qu'est-ce qu'une fenêtre de blocage ?
 
-A blackout window is a period of time during which users cannot request withdrawals of staked funds. An epoch schedule is enforced for withdrawals in order to provide predictability and a regular cadence for the availability of funds in the pool. A staker must request to unstake funds before the blackout window in order to be able to withdraw their funds after the end of that epoch. If a staker does not request to withdraw, their staked funds are rolled over into the next epoch.
+Une fenêtre de blocage est une période de temps pendant laquelle les utilisateurs ne peuvent pas demander de retraits de fonds stakés. Un calendrier d'époch est appliqué pour les retraits afin de fournir une prévisibilité et une cadence régulière pour la disponibilité des fonds dans le pool. Un staker doit demander à retirer des fonds avant la fenêtre de blocage afin de pouvoir retirer leurs fonds après la fin de cette période. Si un staker ne demande pas de retrait, leurs fonds stakés sont reportés à l'époch suivante.
 
-The recommended blackout window for the Safety Pool is `14 days`.
+La fenêtre de blocage recommandée pour le pool de sécurité est `de 14 jours`.
 
-### How does staked balance accounting work?
+### Comment fonctionne la comptabilité du solde staké ?
 
-A staked balance is in one of two states:
+Un solde staké est dans l'un des deux états suivants :
 
-* **Active**: Available for borrowing; earning staking rewards; cannot be withdrawn by staker.
-* **Inactive**: Unavailable for borrowing; does not earn rewards; can be withdrawn by the staker.
+* **Actif** : disponible pour emprunt ; gagner des récompenses de staking ; ne peut pas être retiré par le staker.
+* **Inactif** : non disponible pour emprunt ; ne gagne pas de récompenses ; peut être retiré par le staker.
 
-A staker may have a combination of active and inactive balances. Funds are accounted for epoch-by-epoch as shown in the following example:
+Un staker peut avoir une combinaison de soldes actifs et inactifs. Les fonds sont comptabilisés époch par époch, comme illustré dans l'exemple suivant :
 
-![](<../.gitbook/assets/image (36).png>)
+![](<.. /.gitbook/assets/image (36).png>)
 
-The following operations affect staked balances as follows:
+Les opérations suivantes affectent les soldes stakés comme suit :
 
-* **Deposit**: Increase active balance.
-* **Request** **withdrawal**: At the end of the current epoch, move some active funds to inactive.
-* **Withdraw**: Decrease inactive balance.
-* **Transfer**: Move some active funds to another staker.
+* **Dépôt** : augmenter le solde actif.
+* **Demande** de **retrait** : à la fin de l'époch en cours, déplacez certains fonds actifs vers inactifs.
+* **Retrait** : diminuer le solde inactif.
+* **Transfert** : déplacer quelques fonds actifs vers un autre staker.
 
-To encode the fact that a balance may be scheduled to change at the end of a certain epoch, we store each balance as a struct of three fields: currentEpoch, currentEpochBalance, and nextEpochBalance.
+Pour coder le fait qu'un solde peut être programmé pour changer à la fin d'une certaine époch, nous stockons chaque solde sous la forme d'une structure de trois champs : currentEpoch, currentEpochBalance et nextEpochBalance.
 
-### How do I withdraw funds from the staking pool? How long does it take?
+### Comment puis-je retirer des fonds du pool de staking ? Combien de temps cela prend-il ?
 
-An epoch schedule is enforced for withdrawals in order to provide predictability and a regular cadence for the availability of funds in the pool. A staker must request to withdraw funds at least `14 days` before the end of an epoch in order to be able to withdraw their funds after the end of that epoch. If stakers do not request to withdraw, their staked DYDX is rolled over into the next epoch.
+Un calendrier d'époch est appliqué pour les retraits afin de fournir une prévisibilité et une cadence régulière pour la disponibilité des fonds dans le pool. Un staker doit demander de retirer des fonds au moins `14 jours` avant la fin d'une époch afin de pouvoir retirer ses fonds après la fin de cette époch. Si les stakers ne demandent pas de retrait, leur DYDX staké est reporté à l'époch suivante.
 
-To withdraw funds, users call the \`requestWithdrawal\` function to request to withdraw funds for the next epoch. User funds will remain staked and not withdrawable for the current epoch. Starting in the next epoch, funds will be “inactive” and available for withdrawal.
+Pour retirer des fonds, les utilisateurs appellent la fonction \`requestWithdrawal\` pour demander de retirer des fonds pour la prochaine époch. Les fonds des utilisateurs resteront stakés et non retirables pour l'époch actuelle. À partir de la prochaine époch, les fonds seront « inactifs » et disponibles pour retrait.
 
-In the next epoch, users call the \`withdrawStake\` function to withdraw inactive funds to a specific address. Users can select the amount of inactive funds they want to withdraw or call the \`withdrawMaxStake\` function to withdraw all inactive funds. Note that the \`withdrawMaxStake\` function is less gas-efficient than querying the max via eth\_call and calling \`withdrawStake()\`.
+À l'époch suivante, les utilisateurs appellent la fonction \`withdrawStake\` pour retirer des fonds inactifs à une adresse spécifique. Les utilisateurs peuvent sélectionner le montant des fonds inactifs qu'ils souhaitent retirer ou appeler la fonction \`withdrawMaxStake\` pour retirer tous les fonds inactifs. Notez que la fonction \`withdrawMaxStake\` est moins économe en gaz que d'interroger le max via eth\_call et d'appeler \`withdrawStake()\`.
 
-To withdraw DYDX from the Liquidity Pool, follow these steps:
+Pour retirer DYDX du pool de liquidité, procédez comme suit :
 
-* Go to [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
-* Click on “**Request**”, and enter the amount of DYDX you want to request to withdraw from the pool.
-* Click “**Request withdraw**”. You will need to pay gas fees to withdraw funds.
-* Stakers who request to withdraw DYDX at least 14 days before the current epoch ends can withdraw their DYDX at the start of the next epoch.
+* Allez sur [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
+* Cliquez sur « **Demander** » et entrez le montant de DYDX que vous souhaitez retirer du pool.
+* Cliquez sur « **Demander un retrait** ». Vous devrez payer des frais de gaz pour retirer des fonds.
+* Les stakers qui demandent de retirer DYDX au moins 14 jours avant la fin de l'époch en cours peuvent retirer leur DYDX au début de l'époch suivante.
 
-### What are the risks for stakers to the safety staking pool? What happens in the case of a Shortfall Event?
+### Quels sont les risques pour les stakers par rapport au pool de staking de sécurité ? Que se passe-t-il dans le cas d'un événement de pénurie ?
 
-A staker’s decision to lock DYDX into the Safety Pool exposes them to the risk of a shortfall event, which can result in the slashing of staked DYDX funds at the discretion of DYDX governance.
+La décision d'un staker de verrouiller DYDX dans le pool de sécurité l'expose au risque d'un événement de pénurie, ce qui peut entraîner la réduction des fonds DYDX stakés à la discrétion de la gouvernance de DYDX.
 
-All funds in the contract, active or inactive, are slashable. Within the contract, slashing is implemented via an update to the exchange rate between DYDX and stkDYDX. This means that as slashes occur, the exchange rate between DYDX and stkDYDX will diverge from its initial value of 1:1. Note that the earning of staking rewards is unaffected by slashes.
+Tous les fonds du contrat, actifs ou inactifs, peuvent être réduits. Dans le cadre du contrat, la réduction est mise en œuvre via une mise à jour du taux de change entre DYDX et stkDYDX Cela signifie que lorsque des réductions se produisent, le taux de change entre DYDX et stkDYDX divergera de sa valeur initiale de 1:1. Notez que le gain des récompenses de staking n'est pas affecté par les réductions.
