@@ -22,7 +22,7 @@ dYdX链上治理支持以下功能：
 * **`DydxToken`合约**：保留支持查询地址投票或任何区块编号提议权的快照。支持单独委托投票权和提议权。
 * **`DydxJordine`合约**：跟踪提议并可以通过执行器智能合约执行提议。
 * **`执行器`合约**：可以排队、取消和执行由治理投票的交易。如果提议通过，则提议中调用的功能可以由提议中指定的执行器合约执行。排队的交易可以在延迟后执行，其期限由执行器合约确定。
-* ******`优先时间锁`****合约**：与时间锁合约相同，但允许优先级控制器在时间锁延迟之前，在**优先期**（7天）内执行交易。
+* **`优先`**时间锁**合约：**与时间锁合约相同，但允许**优先级******控制器在时间锁延迟之前，在优先期（7天）内执行交易。
 * **`治理战略`合约**：包含计票逻辑。目前，统计票数来自DYDX代币和保险模块。可以通过长时间锁进行升级。
 * **`保险模块`合约**：包含质押DYDX代币的逻辑，表示质押的头寸，并赚取奖励，同时保留了基本代币的投票权和提议权利和委托功能。
 
@@ -61,7 +61,7 @@ dYdX链上治理支持以下功能：
 | StarkProxy代理管理 \[0]          | 0xE16718eace44e0CB06b9cd164490A69A6425D1e3 |
 | StarkProxy代理管理 \[1]          | 0x78e899e576C3565C3219dbC9Ea5042A9DBed36d3 |
 | StarkProxy代理管理 \[2]          | 0x15774D4555fEfD57C9Fc8b11C8beba993eafcc13 |
-| StarkProxy代理管理 \[3]          | 0x4d9460e5C958f46a1Fe129954A069a37972f16EA |
+| StarkProxy 代理管理者 \[3]          | 0x4d9460e5C958f46a1Fe129954A069a37972f16EA |
 | StarkProxy代理管理 \[4]          | 0xfa45DCDbEc82C94082d283B62506320DB8632054 |
 {% endtab %}
 {% endtabs %}
@@ -72,7 +72,7 @@ dYdX链上治理支持以下功能：
 
 dydx.community 托管的治理前端的源代码，请访问[此处](https://github.com/dydxfoundation/pnyx)。
 
-所有主要的新智能合约都已由 Peckshield 进行审计。没有发现重大或高度优先的安全问题。核心治理和代币合约是根据AAVA治理合约质押的，该合约由[CertiK](https://www.certik.io)、[Certora](https://www.certora.com)和[Peckshield](https://peckshield.com/en)进行审计，并已在主网上进行了数月的攻防测试。
+所有主要的新智能合约都已由 Peckshield 进行审计。没有发现重大或高度优先的安全问题。核心治理和代币合约是根据Aave治理合约质押的，该合约由[CertiK](https://www.certik.io)、[Certora](https://www.certora.com)和[Peckshield](https://peckshield.com/en)进行审计，并已在主网上进行了数月的攻防测试。
 
 ## 核心治理合约
 
@@ -188,7 +188,7 @@ Merkle分配器智能合约受到Uniswap和Badger设计的启发。智能合约�
 
 ![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM.png>)
 
-TrisryVester合约受到[Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol)的启发。
+TreasuryVester合约受到[Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol)的启发。
 
 短时间锁只能执行治理批准的操作。
 
