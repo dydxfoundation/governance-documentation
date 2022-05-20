@@ -1,57 +1,57 @@
 ---
-description: Overview of key governance-related terms.
+description: Aperçu des principaux termes liés à la gouvernance.
 ---
 
-# Glossary
+# Glossaire
 
-**DYDX:** The native asset of the DYDX ecosystem, which constitutes the foundation of governance and safety for the dUdX Protocol. DYDX is an ERC-20 token that designates the weight of a user’s voting or proposing power.
+**DYDX :** l'actif natif de l'écosystème DYDX, qui constitue le fondement de la gouvernance et de la sécurité du protocole dYdX. DYDX est un jeton ERC-20 qui désigne le poids du pouvoir de vote ou de proposition d'un utilisateur.
 
-**dYdX Protocol:** dYdX’s Layer 2 perpetuals protocol.
+**Protocole dYdX :** protocole perpétuel de couche 2 de dYdX.
 
-**dYdX Foundation:** an independent foundation, headquartered in Zug, Switzerland, was created to participate in propelling the dYdX Protocol into the future.
+**Fondation dYdX :** une fondation indépendante, dont le siège est à Zoug, en Suisse, a été créée pour participer à propulser le protocole dYdX dans le futur.
 
-**DYDX Token contract**: has snapshots of each address’ voting power at different blocks in time.
+**Contrat de jeton DYDX** : contient des instantanés du pouvoir de vote de chaque adresse à différents blocs dans le temps.
 
-**DIP:** dYdX Improvements Proposals are on-chain proposals.
+**DIP :** les propositions d'améliorations dYdX sont des propositions sur la chaîne.
 
-**DRC**: dYdX Request for Comments are off-chain proposals and the first required step in the governance improvement process.
+**RDC** : les demandes de commentaires dYdX sont des propositions hors chaîne et la première étape requise dans le processus d'amélioration de la gouvernance.
 
-**Quorum:** In order for a vote to pass, it must achieve a minimum quorum of DYDX tokens in the affirmative. The purpose of the quorum is to ensure that the only measures that pass have adequate voter participation.
+**Quorum :** pour qu'un vote soit adopté, il doit atteindre un quorum minimum de jetons DYDX dans l'affirmative. Le but du quorum est de s'assurer que les seules mesures qui passent ont une participation électorale adéquate.
 
-**Epoch:** All other contracts operate on 28-day cycles, referred to as epochs.
+**Époch :** tous les autres contrats fonctionnent sur des cycles de 28 jours, appelés épochs.
 
-**Execution Grace Period:** The period after vote when a DIP proposa becomes executable, during which it must be executed.
+**Période de grâce d'exécution :** la période après le vote où une proposition DIP devient exécutable, pendant laquelle elle doit être exécutée.
 
-**Governance Strategy contract**: contains logic to measure users' relative power to propose and vote.
+**Contrat de stratégie de gouvernance** : contient une logique pour mesurer le pouvoir relatif des utilisateurs à proposer et à voter.
 
-**Governor contract**: tracks proposals and can execute proposals via the Timelock smart contract.
+**Contrat gouverneur** : suit les propositions et peut exécuter des propositions via le contrat intelligent Timelock.
 
-**Long timelock executor:** The long timelock executor can execute proposals that generally change parts of the Protocol that affect governance consensus.
+**Exécuteur de longue durée :** l'exécuteur de longue durée peut exécuter des propositions qui modifient généralement des parties du protocole qui affectent le consensus de gouvernance.
 
-**Merkle-pauser executor:** The Merkle-pauser executor can execute proposals that freeze the Merkle root, which is updated periodically with each user's cumulative reward balance, allowing new rewards to be distributed to users over time, in case the proposed root is incorrect or malicious.
+**Exécuteur Merkle-pauser :** l'exécuteur Merkle-pauser peut exécuter des propositions qui bloquent la racine Merkle, qui est mise à jour périodiquement avec le solde cumulatif des récompenses de chaque utilisateur, permettant de distribuer de nouvelles récompenses aux utilisateurs au fil du temps, au cas où la racine proposée serait incorrecte ou malveillante.
 
-**Safety Pool:** Component in charge of shielding the protocol from insolvency.
+**Pool de sécurité :** composant chargé de protéger le protocole contre l'insolvabilité.
 
-**Staked dYdX contract**: contains logics to stake DYDX tokens, tokenize the position and get rewards.
+**Contrat dYdX staké** : contient des logiques pour staker des jetons DYDX, tokeniser la position et obtenir des récompenses.
 
-**Short timelock executor:** The short timelock executor can execute proposals that generally change Rewards and Incentive contracts or the Community Treasury that require quick intervention.
+**Exécuteur de courte durée :** l'exécuteur de courte durée peut exécuter des propositions qui modifient généralement les contrats de récompenses et d'incitation ou la trésorerie de la communauté qui nécessitent une intervention rapide
 
-**Starkware executor:** The Starkware executor can execute proposals that generally change parts of the Protocol that currently require intervention from Starkware.
+**Exécuteur Starkware :** l'exécuteur Starkware peut exécuter des propositions qui modifient généralement des parties du protocole qui nécessitent actuellement l'intervention de Starkware.
 
-**Timelock contract**: can queue, cancel, or execute transactions voted by Governance. The functions in a proposal are initiated by the Timelock contract. Queued transactions can be executed after a delay and until Grace period is not over.&#x20;
+**Contrat Timelock** : peut mettre en file d'attente, annuler ou exécuter des transactions votées par la gouvernance. Les fonctions d'une proposition sont initiées par le contrat Timelock. Les transactions en file d'attente peuvent être exécutées après un délai et tant que la période de grâce n'est pas terminée.
 
-**Timelock Delay:** The delay before a DIP proposal is executed after a proposal passes and is queued.
+**Délai de verrouillage :** le délai avant qu'une proposition DIP ne soit exécutée une fois qu'une proposition a été acceptée et mise en file d'attente.
 
-**Proposal Theshold:** To prevent a system where countless spam proposals are created, a proposal threshold requires an address has a certain number of votes before they can make a proposal.
+**Seuil de proposition :** pour empêcher un système où d'innombrables propositions de spam sont créées, un seuil de proposition exige qu'une adresse ait un certain nombre de votes avant de pouvoir faire une proposition.
 
-**Proposing Power:** Token stake giving access to creating and sustaining a proposal.
+**Pouvoir de proposition :** participation symbolique donnant accès à la création et au maintien d'une proposition.
 
-**Voting Power:** Voting power which is used to vote for or against existing proposals.
+**Pouvoir de vote :** pouvoir de vote utilisé pour voter pour ou contre les propositions existantes.
 
-**Voting Delay:** This is the length of time between which a proposal can be created and it is available to be voted upon. By requiring at least one block to pass, the governance is protected from Flash Loan attacks that might borrow a large number of tokens, propose a vote, and vote on it all in one block.
+**Délai de vote :** il s'agit entre le moment où une proposition peut être créée et celui où elle est disponible pour être votée. En exigeant au moins un bloc pour passer, la gouvernance est protégée contre les attaques Flash Loan qui pourraient emprunter un grand nombre de jetons, proposer un vote et voter sur le tout en un seul bloc.
 
-**Voting Period:** Once a DIP proposal has been put forward, DYDX community members will have to cast their votes before the end of the Voting Period. This is the length of time for which proposals are available to be voted upon, with time in Ethereum Blocks.
+**Période de vote :** une fois qu'une proposition DIP a été présentée, les membres de la communauté DYDX devront voter avant la fin de la période de vote. Il s'agit de la durée pendant laquelle les propositions sont disponibles pour être votées, avec le temps dans les blocs Ethereum.
 
-**Proposal Threshold:** Minimum tokens held/delegated required to create a DIP proposal.
+**Seuil de proposition :** nombre minimal de jetons détenus/délégués requis pour créer une proposition DIP.
 
-**Vote Differential:** Required yes–no gap for DIP proposal to pass.
+**Différentiel de vote :** écart obligatoire oui-non pour que la proposition DIP soit acceptée.
