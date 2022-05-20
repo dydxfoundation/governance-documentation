@@ -1,19 +1,17 @@
 ---
 description: >-
-  In order to ease market maker onboarding, the dYdX team created this guide.
-  Please read through the document in its entirety before beginning any
-  integration steps.
+  Bu kılavuz, piyasa yapıcı katılımını kolaylaştırmak için dYdX ekibi tarafından hazırlanmıştır. Entegrasyon adımlarına başlamadan önce lütfen bu belgeyi baştan sona okuyun.
 ---
 
-# Market Maker Onboarding
+# Piyasa Yapıcı Katılım Süreci
 
-## dYdX Suggested Market Maker Onboarding Flow:
+## dYdX Tarafından Önerilen Piyasa Yapıcı Katılım Süreci Akışı:
 
-1. Connect your preferred ethereum wallet to dYdX L2 Perpetual protocol.
-2. Deposit USDC into your Perpetual account.
-3. You will need to generate a STARK Key which identifies your account on Layer 2 and is saved locally on your browser. The Stark Key associates dYdX users with Ethereum account addresses so a user must first request to sign the linkage of an Ethereum key to a STARK Key and then register the STARK Key on dYdX’s smart contract before any other operation can take place. Click “Generate Stark Key” and sign the transaction. Signing is free and will not send a transaction. You can recover your Stark Key at any time with your wallet.
+1. Tercih ettiğiniz Ethereum cüzdanını dYdX L2 Perpetual protokolüne bağlayın.
+2. Perpetual hesabınıza USDC yatırın.
+3. Katman 2 üzerindeki hesabınızı tanımlayan ve tarayıcınızda yerel olarak kaydedilen bir STARK Anahtarı oluşturmanız gerekecektir. Stark Anahtarı dYdX kullanıcılarını Ethereum hesap adresleri ile ilişkilendirir. Dolayısıyla, bir kullanıcı önce bir Ethereum anahtarının bir STARK Anahtarına bağlanmasını imzalamayı talep etmeli ve ardından da başka herhangi bir işlemin gerçekleşebilmesi için önce dYdX'in akıllı sözleşmesinde STARK Anahtarını kaydetmelidir. “Stark Anahtarı Oluştur”a tıklayın ve işlemi imzalayın. İmzalama ücretsizdir ve bir işlem göndermez. Stark Anahtarınızı cüzdanınızla dilediğiniz zaman geri yükleyebilirsiniz.
 
-Alternatively, programmatic traders may derive their STARK key pair using the following method:
+Alternatif olarak, programlamayı bilen yatırımcılar şu yöntemi kullanarak STARK anahtar çiftini türetebilir:
 
 ```
 key_pair_with_y_coordinate = client.onboarding.derive_stark_key(
@@ -22,11 +20,11 @@ key_pair_with_y_coordinate = client.onboarding.derive_stark_key(
 )
 ```
 
-More about STARK Keys can be found here.
+STARK Anahtarları hakkında daha fazla bilgiyi burada bulabilirsiniz.
 
-4\. Next you will need an API key which will require your Ethereum signature, or via a web3 provider. Note, Eth signatures are needed only for onboarding and managing API keys but not for trading—STARK key signatures are required for trading. API Keys can be registered and obtained using the following functions:
+4\. Bunun ardından, Ethereum imzanızı gerektiren ve bir web3 sağlayıcısı aracılığıyla edinebileceğiniz bir API anahtarına ihtiyacınız olacaktır. Not: Eth imzalarına yalnızca katılım sağlamak ve API anahtarlarını yönetmek için ihtiyaç duyulur, alım satım için ise duyulmaz. Alım satım için STARK anahtarı imzaları gerekir. API Anahtarları aşağıdaki işlevleri kullanarak kaydedilebilir ve elde edilebilir:
 
-_Registering:_
+_Kaydetme:_
 
 ```
 api_key_response = client.api_keys.create_api_key(
@@ -35,18 +33,18 @@ ethereum_address='0x0123...',
 )
 ```
 
-_Obtaining:_
+_Elde Etme:_
 
 ```
 api_keys = client.private.get_api_keys()
 ```
 
-_Alternatively (3. And 4.)_, If you don't want the private key to be online, you can generate the STARK key securely with the following steps to get the required credentials.
+_Alternatif olarak (3. Ve 4.)_, özel anahtarın çevrimiçi olmasını istemiyorsanız, gerekli kimlik bilgilerini almak için aşağıdaki adımlarla STARK anahtarını güvenli bir şekilde oluşturabilirsiniz.
 
-a. From the dYdX Perpetuals exchange, right-click anywhere in your web-browser, and select Inspect to open Developer Tools&#x20;
+a. dYdX Perpetuals borsasındayken web tarayıcınızda herhangi bir yere sağ tıklayın ve Geliştirici Araçlarını açmak için İncele ögesini seçin
 
-b. Go to Application > Local Storage > https://trade.dydx.exchange&#x20;
+Sırasıyla Application > Local Storage > https://trade.dydx.exchange ögelerine gidin
 
-c. Select STARK\_KEY\_PAIRS and click the drop-down next to your wallet address to get the stark private key&#x20;
+c. STARK\_KEY\_PAIRS ögesini seçin ve stark özel anahtarını almak için cüzdan adresinizin yanındaki açılır listeye tıklayın
 
-d. Select API\_KEY\_PAIRS and click the drop-down next to your wallet address to get the API key, secret key, and passphrase
+d. API\_KEY\_PAIRS ögesini seçin ve API anahtarı, gizli anahtar ve parolayı almak için cüzdan adresinizin yanındaki açılır listeye tıklayın
