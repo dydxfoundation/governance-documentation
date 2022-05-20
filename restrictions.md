@@ -1,8 +1,8 @@
 ---
-description: Restrictions on the use of DYDX and the DYDX Portal.
+description: DYDX ve DYDX Portalının kullanımı ile ilgili kısıtlamalar.
 ---
 
-# Restrictions
+# Kısıtlamalar
 
-DYDX is not available in the United States or other prohibited jurisdictions. If you are located in, incorporated or otherwise established in, or a resident of the United States of America, you are not permitted to receive a distribution of, or transact in, DYDX.
+DYDX Amerika Birleşik Devletleri'nde ve diğer yasaklanmış yargı alanlarında kullanılamaz. Amerika Birleşik Devletleri'nde bulunuyorsanız, şirketiniz Amerika Birleşik Devletleri'nde kurulmuş veya diğer bir şekilde tesis edilmiş ise veya Amerika Birleşik Devletleri'nde ikamet ediyorsanız DYDX'in bir dağıtımını almanıza veya DYDX'te işlem yapmanıza izin verilmez.
 
