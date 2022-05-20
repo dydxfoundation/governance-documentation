@@ -1,85 +1,81 @@
 ---
-description: Overview of the Trading Rewards program.
+description: Alım Satım Ödülleri programına genel bakış.
 ---
 
-# Trading Rewards
+# Alım Satım Ödülleri
 
-`25.00%` of the initial token supply (`250,000,000 DYDX`) will be distributed to users who trade on the dYdX Layer 2 Protocol based on a combination of fees paid and open interest.
+İlk token arzının (`250.000.000 DYDX`) `%25,00`'i dYdX Katman 2 Protokolü üzerinde alım satım yapan kullanıcılara, ödenen ücretlerin ve açık faizin bir kombinasyonuna dayalı olarak dağıtılacaktır.
 
-**Objectives**
+**Hedefler**
 
-* Incentivize all traders to use the dYdX Layer 2 Protocol.
-* Accelerate market liquidity and overall product usage.
+* Tüm yatırımcıları dYdX Katman 2 Protokolünü kullanmaya teşvik etmek.
+* Piyasa likiditesini ve toplamda ürün kullanımını artırmak.
 
-## **Overview**
+## **Genel bakış**
 
-![Earn rewards by trading on the dYdX Layer 2 Protocol](<../.gitbook/assets/image (17).png>)
+![Earn rewards by trading on the dYdX Layer 2 Protocol](<.. /.gitbook/assets/image (17).png>)
 
-DYDX will be distributed to traders based on a formula that rewards a combination of fees paid and open interest on the dYdX Layer 2 Protocol. DYDX will be distributed on a 28-day epoch basis over five years and is not subject to any vesting or lockups. 3,835,616 DYDX will be distributed per epoch.
+DYDX, dYdX Katman 2 Protokolü üzerinde ödenen ücretlerin ve açık faizin bir kombinasyonunu ödüllendiren bir formüle dayalı olarak yatırımcılara dağıtılacaktır. DYDX, beş yıl boyunca 28 günlük dönemler esasında dağıtılacak ve herhangi bir vesting veya kilitleme sürecine tabi tutulmayacaktır. Her dönemde 3.835.616 DYDX dağıtılacaktır.
 
-The Cobb-Douglas function is used to compute how much DYDX is awarded to each trader during each epoch:
+Her bir dönem boyunca her yatırımcıya ne kadar DYDX verileceğini hesaplamak için Cobb-Douglas fonksiyonu kullanılır:
 
 ![](../.gitbook/assets/math-20211221.png)
 
-$$
-r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k
-$$
+$$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k $$
 
-| Term                         | Definition                                                                                 |
+| Süre | Tanım |
 | ---------------------------- | ------------------------------------------------------------------------------------------ |
-| r                            | Reward for a specific trader.                                                              |
-| R                            | Total reward to be split between all traders in the pool for the epoch.                    |
-| f                            | Total fees paid by a trader in this epoch.                                                 |
-| w                            | Individual trader score.                                                                   |
-| $${\sum\limits _{n} w_{n}}$$ | Sum of all trader scores.                                                                  |
-| d                            | A trader’s average open interest (measured every minute) across all markets in this epoch. |
-| k                            | Total number of traders in this epoch.                                                     |
-| g                            | A trader’s average stkDYDX held (measured randomly every minute) throughout the epoch      |
-| a                            | 0.80                                                                                       |
-| b                            | 0.15                                                                                       |
-| c                            | 0.05                                                                                       |
+| r | Belirli bir yatırımcının ödülü. |
+| R | Dönem için havuzdaki tüm yatırımcılar arasında bölünecek toplam ödül. |
+| f | Bu dönemde bir yatırımcı tarafından ödenen toplam ücret. |
+| w | Bireysel yatırımcı puanı. |
+| $${\sum\limits &lt;g id="1" ctype="italic" equiv-text="_"&gt;{n} w</g>{n}}$$ | Tüm yatırımcı puanlarının toplamı. |
+| d | Bir yatırımcının bu dönemde tüm piyasalardaki ortalama açık faizi (her dakika ölçülür). |
+| k | Bu dönemdeki toplam yatırımcı sayısı. |
+| g | Bir yatırımcının dönem boyunca tuttuğu ortalama stkDYDX (her dakika rastgele ölçülür) |
+| a | 0,67 |
+| b | 0,28 |
+| c | 0,05 |
 
-In [DIP-10](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-10.md), the dYdX Community voted to change the weight of the fee parameter from `a=0.67` to `a=0.8`, and decrease the open interest parameter from `b=0.28` to `b=0.15.`
+## SSS
 
-## FAQ
+### Alım satım ödüllerini kimler alabilir?
 
-### Who is eligible for trading rewards?
+dYdX Katman 2 protokolündeki tüm yatırımcılar alım satım ödülleri olarak DYDX alabilir.
 
-All traders on the dYdX Layer 2 protocol are eligible to receive DYDX as trading rewards.
+dYdX Katman 2 Protokolü, dYdX Trading Inc.'in [Kullanım Şartları](https://dydx.exchange/terms)'nda tanımlandığı üzere Amerika Birleşik Devletleri ve Kısıtlanmış Bölgelerdeki yatırımcılar tarafından kullanılamaz.
 
-The dYdX Layer 2 Protocol is not available to traders in the United States or Restricted Territories, as defined in dYdX Trading Inc.’s [Terms of Use](https://dydx.exchange/terms).
+### Alım Satım Ödülleri programında ne kadar DYDX kazandım?
 
-### How much DYDX did I earn in the Trading Rewards program?
+Kullanıcılar, mevcut dönemde kullanıcıların alım satım verilerinin yer aldığı [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) sayfasında ödenen ücretleri, ortalama açık faizi ve tahmini alım satım ödüllerini görebilir.
 
-In the current epoch, users can see fees paid, average open interest, and estimated trading rewards at [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) where users' trading data exists.
+![Rewards info for the current epoch](<.. /.gitbook/assets/image (18).png>)
 
-![Rewards info for the current epoch](<../.gitbook/assets/image (18).png>)
+Geçmiş dönemlerde alınan ödüller, [**dydx.community/history/rewards**](https://dydx.community/history/rewards) sayfasında görüntülenebilir **** (yakında eklenecek).
 
-Rewards from past epochs can be viewed at [**dydx.community/history/rewards**](https://dydx.community/history/rewards) **** (coming soon).
+### Alım Satım Ödüllerimi nasıl alabilirim? Kazandığım DYDX'leri ne zaman çekebilir ve transfer edebilirim?
 
-### How do I claim my Trading Rewards? When can I withdraw and transfer my earned DYDX?
+Alım Satım Ödülleri aracılığıyla kazanılan DYDX token'ları her dönemin sonunda transfer edilebilir. DYDX token sahiplerinin dönem sona erdikten sonra token'larını almak için yaklaşık `7 gün` (**Bekleme Süresi**) beklemeleri gerekir. Token'lar talep edildikten sonra dYdX yönetişimi için kullanılabilir.
 
-Earned DYDX tokens via Trading Rewards will be transferable at the end of each epoch. DYDX token holders are required to wait approximately `7 days` (**Waiting Period**) after the end of the epoch to claim their tokens. Once tokens have been claimed, they can be used for dYdX governance.
+Yatırımcılar her dönem sonunda, **Bekleme Süresi** sona erdikten sonra alım satım ödüllerini [buradan](https://dydx.community/dashboard) talep edebilir.
 
-Traders can claim their trading rewards at the end of every epoch, after the **Waiting Period**, [here](https://dydx.community/dashboard).&#x20;
+Kullanıcılar DYDX'lerini alabilmek için "Talep Et" seçeneğine tıklamalı, bir işlemi imzalamalı ve gas ücretlerini ödemelidir.
 
-Users will need to click on "Claim", sign a transaction, and pay gas fees to claim DYDX.
+![Portfolio overview of rewards](<.. /.gitbook/assets/image (20).png>)
 
-![Portfolio overview of rewards](<../.gitbook/assets/image (20).png>)
+### Açık Faiz nedir?
 
-### What is Open Interest?
+Toplam açık faiz, belirli bir piyasadaki tüm uzun veya kısa açık pozisyonların USD değeridir (uzun pozisyonların toplam birimi her zaman kısa pozisyonların toplam birimine eşittir) Açık faizin artması piyasaya yeni veya ek para geldiğini, düşmesi ise piyasadan para çıktığını gösterir.
 
-Total open interest is the USD value of all outstanding long or short positions (the total units of longs always equals the total units of shorts) for a given market. Increasing open interest represents new or additional money coming into the market while decreasing open interest indicates money flowing out of the market.
+Aşağıdaki tabloda yatırımcılar A, B, C, D ve E'nin alım satım faaliyetleri gösterilmektedir. Her günün alım satım faaliyetlerini takiben açık faiz USDC cinsinden hesaplanmaktadır:
 
-Below is a table of trading activity for traders, A, B, C, D, and E. Open interest is calculated in USDC terms following the trading activity for each day:
-
-| Time    | Trading Activity                                                           | Total Net Open Interest (USDC) |
+| Zaman | Alım Satım Etkinliği | Toplam Net Açık Faiz (USDC) |
 | ------- | -------------------------------------------------------------------------- | ------------------------------ |
-| July 1  | **Trader A** buys 1 BTC at $30,000 and **Trader B** sells 1 BTC at $30,000 | $30,000                        |
-| July 3  | **Trader C** buys 5 BTC at $30,000 and **Trader D** sells 5 BTC at $30,000 | $180,000                       |
-| July 5  | **Trader A** sells 1 BTC at $30,000 and **Trader D** buys 1 BTC at $30,000 | $150,000                       |
-| July 10 | **Trader E** buys 5 BTC at $30,000 and **Trader C** sells 5 BTC at $30,000 | $150,000                       |
+| 1 Temmuz | **A Yatırımcısı** 30.000 $ fiyatla 1 BTC alıyor ve **B Yatırımcısı** 30.000 $ fiyatla 1 BTC satıyor | 30.000 $ |
+| 3 Temmuz | **C Yatırımcısı** 30.000 $ fiyatla 5 BTC alıyor ve **D Yatırımcısı** 30.000 $ fiyatla 5 BTC satıyor | 180.000 $ |
+| 5 Temmuz | **A Yatırımcısı** 30.000 $ fiyatla 1 BTC satıyor ve **D Yatırımcısı** 30.000 $ fiyatla 1 BTC alıyor | 150.000 $ |
+| 10 Temmuz | **E Yatırımcısı** 30.000 $ fiyatla 5 BTC alıyor ve **C Yatırımcısı** 30.000 $ fiyatla 5 BTC satıyor | 150.000 $ |
 
-In the context of the **Trading Rewards** formula, open interest is measured every minute (at a random time in each minute) across all markets and averaged across a given epoch to calculate rewards.
+**Alım Satım Ödülleri** formülü bağlamında, ödülleri hesaplamak için açık faiz tüm piyasalarda her dakika (her dakika içinde rastgele bir zamanda) ölçülür ve söz konusu dönemdeki ortalaması alınır.
 
-A trader's own open interest is the USD value of all of that trader's open positions. For the purposes of **Trading Rewards**, a trader's open interest is measured every minute (at a random time in each minute) across all markets and averaged across a given epoch.
+Bir yatırımcının kendi açık faizi, o yatırımcının tüm açık pozisyonlarının USD değeridir. **Alım Satım Ödüllerinin** amaçları doğrultusunda, bir yatırımcının açık faizi tüm piyasalarda her dakika (her dakika içinde rastgele bir zamanda) ölçülür ve söz konusu dönemdeki ortalaması alınır.
