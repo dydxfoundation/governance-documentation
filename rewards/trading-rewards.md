@@ -13,7 +13,7 @@ description: トレード報酬プログラムの概要。
 
 ## **概要**
 
-![Earn rewards by trading on the dYdX Layer 2 Protocol](<../.gitbook/assets/image (17).png>)
+![dYdXレイヤ2プロトコルでトレードすることで報酬を獲得する](<../.gitbook/assets/image (17).png>)
 
 DYDXは、dYdXレイヤ2プロトコルで支払い済みの手数料およびオープンインタレストの組み合わせによる報酬計算公式に基づき、トレーダーに提供されます。DYDXは、5年間にわたって28日間のエポックを基本として提供され、権利確定やロックアップの対象にはなりません。各エポックで383万5,616DYDXが提供されます。
 
@@ -35,11 +35,13 @@ $$
 | 日 | このエポックでの全マーケットにおけるトレーダーの平均オープンインタレスト（1分ごとに算定）。 |
 | k | このエポックでのトレーダーの総数。 |
 | g | トレーダーがエポックを通じて保有する平均ステーキングDYDX（毎分ランダムに計測） |
-| a | 0.67 |
-| b | 0.28 |
+| a | 0.80 |
+| b | 0.15 |
 | c | 0.05 |
 
-## よくある質問
+[DIP-10](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-10.md)で、dYdXコミュニティは手数料パラメータへの加重を`a=0.67`から`a=0.8`に変更し、オープンインタレストパラメータを`b=0.28`から`b=0.15`に減少させます。
+
+## FAQ
 
 ### どのような人がトレード報酬の対象になるのですか？
 
@@ -51,7 +53,7 @@ dYdXレイヤ2プロトコルは、dYdX Trading Inc.の[利用規約](https://dy
 
 現在のエポックについては、[**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)にてユーザーのトレードデータがご覧いただけますので、そこでユーザーは支払い済手数料、平均オープンインタレスト、トレード報酬の推定額を確認できます。
 
-![Rewards info for the current epoch](<../.gitbook/assets/image (18).png>)
+![現在のエポックの報酬情報](<../.gitbook/assets/image (18).png>)
 
 過去のエポックの報酬は、[**dydx.community/history/rewards**](https://dydx.community/history/rewards)で確認できます****（近日公開）。
 
@@ -63,7 +65,7 @@ dYdXレイヤ2プロトコルは、dYdX Trading Inc.の[利用規約](https://dy
 
 DYDXを請求するには、ユーザーは「請求」をクリックし、トランザクションに署名し、ガス手数料を支払う必要があります。
 
-![Portfolio overview of rewards](<../.gitbook/assets/image (20).png>)
+![報酬のポートフォリオ概要](<../.gitbook/assets/image (20).png>)
 
 ### オープンインタレストとは何ですか？
 
