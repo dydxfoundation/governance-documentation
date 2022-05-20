@@ -17,7 +17,7 @@ dYdX 온체인 거버넌스는 다음 기능을 지원합니다.
    * 단기 타임락 실행자를 통한 빠른 프로토콜 업그레이드 및 자금 분배
    * 장기 타임락 실행자를 통한 거버넌스 업그레이드
 
-dYdX 거버넌스를 지원하는 스마트 계약은 6가지가 있습니다.
+dYdX 거버넌스를 지원하는 스마트 계약은 6개가 있습니다.
 
 * **`DydxToken` 계약 **: 모든 블록 번호에서 주소의 투표 또는 제안 권한에 대한 쿼리를 지원하는 스냅샷을 유지합니다. 투표 및 제안 권한에 대한 별도의 위임을 지원합니다.
 * **`DydxGovernor` 계약**: 제안서를 추적하고 실행자 스마트 컨트랙트를 통해 제안을 실행할 수 있습니다.
@@ -31,34 +31,33 @@ dYdX 거버넌스를 지원하는 스마트 계약은 6가지가 있습니다.
 {% tab title="메인넷" %} | 계약                                     | 주소                                            |
  | ------------------------------------ | ------------------------------------------ |
  | DydxToken                            | 0x92D6C1e31e14520e676a687F0a93788B716BEff5 |
- | DydxGovernors | 0x7E9B1672616FF6D629Ef2879419aaE79A9018D2 | | Short Timelock Executor              | 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc |
- | 장기 타임락 실행자 | 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B | | 머클-포저 실행자 | 0xd98e7A71BacB6F11438A8271dDB2EFd7f9361F52 | | Starkware 타임락 실행자 | 0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE | | Rewards Treasury                     | 0x639192D54431F8c816368D3FB4107Bc168d0E871 |
- | Community Treasury                   | 0xE710CEd57456D3A16152c32835B5FB4E72D9eA5b |
- | Safety Module                        | 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC |
+ | DydxGovernor                         | 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2 | | 단기 타임락 실행자              | 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc | | 장기 타임락 실행자               | 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B | | 머클-포저 실행자 | 0xd98e7A71BacB6F11438A8271dDB2EFd7f9361F52 | | Starkware 타임락 실행자 | 0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE | | 보상 트레저리                    | 0x639192D54431F8c816368D3FB4107Bc168d0E871 |
+ | 커뮤니티 트레저리                   | 0xE710CEd57456D3A16152c32835B5FB4E72D9eA5b |
+ | 안전 모듈                        | 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC |
  | GovernanceStrategy                   | 0x90Dfd35F4a0BB2d30CDf66508085e33C353475D9 |
- | Rewards Treasury Vester              | 0xb9431E19B29B952d9358025f680077C3Fd37292f |
- | Community Treasury Vester            | 0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8 |
- | Merkle Distributor                   | 0x01d3348601968aB85b4bb028979006eac235a588 |
- | Chainlink Adapter                    | 0x99B0599952a4FD2d1A1561Fa4C010827EaD30354 |
- | Liquidity Staking                    | 0x5Aa653A076c1dbB47cec8C1B4d152444CAD91941 |
- | Claims Proxy                         | 0x0fd829C3365A225FB9226e75c97c3A114bD3199e |
- | StarkEx Helper Governor              | 0x0db9b3F7Dd83e29C9bece8E5e1089bA4369E694a |
- | StarkEx Remover Governor V2          | 0xFCAac0F14deA11eDe11Afcb875f29130e1ad5ec0 |
- | Rewards Treasury Proxy Admin         | 0x40D6992cbd03E0DC1c2DE9606D29Cb245E737a5d |
- | Community Treasury Proxy Admin       | 0x9d51599A6b10f562619D8ef2EFDcA1B68aE80D03 |
- | Safety Module Proxy Admin            | 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C |
- | Merkle Distributor Proxy Admin       | 0x6C5cd3aD7A16Ae207D221908E6b997d9B0DcD7b0 |
- | Liquidity Staking Proxy Admin        | 0xAc5D8bCD13da463bea96c75f9085c4e40037F790 |
+ | 보상 트레저리 베스터              | 0xb9431E19B29B952d9358025f680077C3Fd37292f |
+ | 커뮤니티 트레저리 베스터            | 0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8 |
+ | 머클 배포자                   | 0x01d3348601968aB85b4bb028979006eac235a588 |
+ | 체인링크 어댑터                    | 0x99B0599952a4FD2d1A1561Fa4C010827EaD30354 |
+ | 유동성 스테이킹                    | 0x5Aa653A076c1dbB47cec8C1B4d152444CAD91941 |
+ | 클레임 프록시                         | 0x0fd829C3365A225FB9226e75c97c3A114bD3199e |
+ | StarkEx 도움말 거버너              | 0x0db9b3F7Dd83e29C9bece8E5e1089bA4369E694a |
+ | StarkEx 리무버 거버너 V2          | 0xFCAac0F14deA11eDe11Afcb875f29130e1ad5ec0 |
+ | 보상 트레저리 프록시 관리자         | 0x40D6992cbd03E0DC1c2DE9606D29Cb245E737a5d |
+ | 커뮤니티 트레저리 프록시 관리자       | 0x9d51599A6b10f562619D8ef2EFDcA1B68aE80D03 |
+ | 안전 모듈 프록시 관리자            | 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C |
+ | 머클 배포자 프록시 관리자       | 0x6C5cd3aD7A16Ae207D221908E6b997d9B0DcD7b0 |
+ | 유동성 스테이킹 프록시 관리자        | 0xAc5D8bCD13da463bea96c75f9085c4e40037F790 |
  | StarkProxy \[0]                      | 0x0b2B08AC98a1568A34208121c26F4F41a9e0FbB6 |
  | StarkProxy \[1]                      | 0x3e6E9EFb0A677a24F47093a22044dc5451A028cF |
  | StarkProxy \[2]                      | 0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2 |
  | StarkProxy \[3]                      | 0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06 |
  | StarkProxy \[4]                      | 0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874 |
- | StarkProxy Proxy Admin \[0]          | 0xE16718eace44e0CB06b9cd164490A69A6425D1e3 |
- | StarkProxy Proxy Admin \[1]          | 0x78e899e576C3565C3219dbC9Ea5042A9DBed36d3 |
- | StarkProxy Proxy Admin \[2]          | 0x15774D4555fEfD57C9Fc8b11C8beba993eafcc13 |
- | StarkProxy Proxy Admin \[3]          | 0x4d9460e5C958f46a1Fe129954A069a37972f16EA |
- | StarkProxy Proxy Admin \[4]          | 0xfa45DCDbEc82C94082d283B62506320DB8632054 |
+ | StarkProxy 프록시 관리자 \[0]          | 0xE16718eace44e0CB06b9cd164490A69A6425D1e3 |
+ | StarkProxy 프록시 관리자 \[1]          | 0x78e899e576C3565C3219dbC9Ea5042A9DBed36d3 |
+ | StarkProxy 프록시 관리자 \[2]          | 0x15774D4555fEfD57C9Fc8b11C8beba993eafcc13 |
+ | StarkProxy 프록시 관리자 \[3]          | 0x4d9460e5C958f46a1Fe129954A069a37972f16EA |
+ | StarkProxy 프록시 관리자 \[4]          | 0xfa45DCDbEc82C94082d283B62506320DB8632054 |
  {% endtab %} {% endtabs %}
 
 ## 오픈소스 코드 및 감사
@@ -67,7 +66,7 @@ dYdX 거버넌스를 지원하는 스마트 계약은 6가지가 있습니다.
 
 dydx.community에서 호스팅되는 거버넌스 프론트엔드용 소스 코드는 [여기](https://github.com/dydxfoundation/pnyx)를 참조하십시오.
 
-모든 주요 신규 스마트 컨트랙트는 Peckshield의 감사를 받았습니다. 중요하거나 우선 순위가 높은 보안 문제가 발견되지 않았습니다. 핵심 거버넌스 및 토큰 계약은 [CertiK](https://www.certik.io), [Certora](https://www.certora.com) 및 [Peckshield](https://peckshield.com/en)가 감사한 AAVA 거버넌스 계약에서 포크되었으며 몇 달 동안 메인넷에서 실시간으로 배틀 테스트를 거쳤습니다.
+모든 주요 신규 스마트 컨트랙트는 Peckshield의 감사를 받았습니다. 중요하거나 우선 순위가 높은 보안 문제가 발견되지 않았습니다. 핵심 거버넌스 및 토큰 계약은 [CertiK](https://www.certik.io), [Certora](https://www.certora.com) 및 [Peckshield가](https://peckshield.com/en) 감사한 AAVA 거버넌스 계약에서 포크되었으며 몇 달 동안 메인넷에서 실시간으로 배틀 테스트를 거쳤습니다.
 
 ## 핵심 거버넌스 계약
 
