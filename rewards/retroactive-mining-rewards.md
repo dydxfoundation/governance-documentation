@@ -1,56 +1,56 @@
 ---
-description: Overview of the Retroactive Mining Rewards program.
+description: Geriye Dönük Madencilik Ödülleri programına genel bakış.
 ---
 
-# Retroactive Mining Rewards
+# Geriye Dönük Madencilik Ödülleri
 
-`7.50%` of the initial token supply (`75,000,000 DYDX`) will be distributed to past users of any dYdX protocol who complete certain trading milestones on the Protocol, except for users located in a jurisdiction where DYDX is not permitted, including the United States. To claim earned tokens, users will need to trade on dYdX’s Layer 2 Protocol and achieve their respective claim milestone.
+Amerika Birleşik Devletleri de dâhil olmak üzere DYDX'e izin verilmeyen bir yargı alanında yer alan kullanıcılar hariç, ilk token arzının (`75.000.000 DYDX`) `%7,5'i`, Protokolde belirli alım satım eşiklerini tamamlayan, herhangi bir dYdX protokolünü geçmiş kullanıcılarına dağıtılacaktır. Kazanılan token'ları alabilmek için, kullanıcıların dYdX'in Katman 2 Protokolü üzerinde alım satım yapmaları ve ilgili hakediş eşiklerine ulaşmaları gerekecektir.
 
-**Objectives**
+**Hedefler**
 
-* Reward historical dYdX users with a retroactive reward based on past usage.
-* Incentivize historical dYdX users to trade on dYdX's Layer 2 Protocol.
+* Geçmiş kullanıma dayalı geriye dönük bir ödül ile geçmiş dYdX kullanıcılarını ödüllendirmek.
+* Geçmiş dYdX kullanıcılarını dYdX'in Katman 2 Protokolü üzerinde alım satım yapmaya teşvik etmek.
 
-## Overview
+## Genel bakış
 
-The success of the dYdX Layer 2 Protocol is the result of thousands of community members who have been trading on the dYdX Layer 2 Protocol and its predecessors over the past three years.
+dYdX Katman 2 Protokolü'nün başarısı, son üç yıl içerisinde dYdX Katman 2 Protokolü ve selefleri üzerinde alım satım yapan binlerce topluluk üyesi sayesinde sağlanmıştır.
 
-DYDX has been allocated to historical users of all dYdX protocols (except for users located in a jurisdiction where DYDX is not permitted, including the United States) based on a snapshot ending **July 26, 2021, at 00:00:00 UTC**. There are five allocation tiers which take into account a user's past activity across all dYdX protocols.
+DYDX, **26 Temmuz 2021 tarihinde TSİ 03.00.00** itibarıyla alınması sona eren bir anlık görüntüye dayalı olarak tüm dYdX protokollerinin geçmiş kullanıcılarına (Amerika Birleşik Devletleri de dâhil olmak üzere DYDX'e izin verilmeyen bir yargı alanında yer alan kullanıcılar hariç) tahsis edilmiştir. Bir kullanıcının tüm dYdX protokollerindeki geçmiş etkinliğini dikkate alan beş tahsis kademesi vardır.
 
-To claim DYDX, historical users must meet the following milestones on [Layer 2 Perpetuals](https://trade.dydx.exchange) within the first 28-day epoch (Epoch 0):
+DYDX alabilmek için, geçmiş kullanıcılar ilk 28 günlük dönem (Dönem 0) içinde [Katman 2 Sürekli Varlıklarda](https://trade.dydx.exchange) aşağıda belirtilen hakediş eşiklerine ulaşmalıdır:
 
 ![](../.gitbook/assets/buckets.png)
 
-Any historical volume on the dYdX Layer 2 Protocol counts towards a user’s claim milestone. Progress towards your claim milestone can only be viewed at [trade.dydx.exchange/portfolio/rewards](https://trade.dydx.exchange/portfolio/rewards) because the dYdX Foundation does not have visibility into each user's ongoing volume.
+dYdX Katman 2 Protokolü üzerinde geçmişte gerçekleştirilmiş tüm hacimler kullanıcının hakediş eşiği hesaplamasına dâhil edilir. dYdX Vakfı her kullanıcının süregelen hacmini gösteremediği için, hakediş eşiği hesaplamanızın güncel durumunu yalnızca [trade.dydx.exchange/portfolio/rewards](https://trade.dydx.exchange/portfolio/rewards) adresinden görüntüleyebilirsiniz.
 
-Users will be able to reach their claim milestones until the end of Epoch 0. All unearned rewards will be forfeited and automatically distributed to the community treasury. Rewarded DYDX tokens via the Retroactive Mining Rewards will become claimable in perpetuity and transferable once the initial transfer restriction period is lifted.
+Kullanıcılar Dönem 0'ın sonuna kadar hakediş eşiklerine ulaşabilirler. Kazanılmamış tüm ödüller kaybedilecek ve otomatik olarak topluluk hazinesine aktarılacaktır. Geriye Dönük Madencilik Ödülleri aracılığıyla ödül olarak verilen DYDX token'ları, hiçbir süre tahdidi olmaksızın alınabilir ve ilk baştaki transfer kısıtlama süresi kaldırıldığında transfer edilebilir.
 
-## **FAQ**
+## **SSS**
 
-### **Who is eligible for retroactive rewards?**
+### **Geriye dönük ödülleri kimler alabilir?**
 
-Past dYdX users who have traded on dYdX protocols (perpetual, margin, spot) on Layer 2 or Layer 1 or deposited funds into dYdX’s borrow / supply pools are eligible to receive DYDX through retroactive rewards.
+Katman 2 veya Katman 1 üzerindeki dYdX protokollerinde (sürekli, marj, spot) alım satım yapmış veya dYdX'in borç alma/arz havuzlarına fon yatırmış geçmiş dYdX kullanıcıları, geriye dönük ödüller aracılığıyla DYDX almaya hak kazanır.
 
-In line with restrictions on the availability of DYDX and the dYdX Layer 2 Protocol in the United States, retroactive mining is not available to users who are residents of, or incorporated or headquartered in, the United States or any other prohibited jurisdiction. Any accounts that appeared to be clearly associated with bot activity speculating on a future airdrop were also excluded from retroactive rewards.
+Amerika Birleşik Devletleri'nde DYDX ve dYdX Katman 2 Protokolünün kullanımına ilişkin kısıtlamalar uyarınca, geriye dönük madencilik Amerika Birleşik Devletleri veya diğer herhangi bir yasaklanmış yargı alanında ikamet eden, şirketi Amerika Birleşik Devletleri veya diğer herhangi bir yasaklanmış yargı alanında kurulmuş veya şirket merkezi Amerika Birleşik Devletleri veya diğer herhangi bir yasaklanmış yargı alanında bulunan kullanıcılara sunulmamaktadır. Gelecekteki bir airdrop üzerinde spekülasyon yapan bir bot etkinliği ile açıkça ilişkili gibi görünen tüm hesaplar da geriye dönük ödüllere dâhil edilmemiştir.
 
-All retroactive rewards allocations are final and cannot be changed.
+Tüm geriye dönük ödül tahsisleri kesindir ve değiştirilemez.
 
-### How much DYDX did I earn in the retroactive rewards program?
+### Geriye dönük ödül programında ne kadar DYDX kazandım?
 
-![View claim milestone and progress](<../.gitbook/assets/image (23).png>)
+![View claim milestone and progress](<.. /.gitbook/assets/image (23).png>)
 
-Past dYdX users can view their past activity and tier for Retroactive Mining at [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards). To earn DYDX, users must trade on the dYdX Layer 2 Protocol at [**trade.dydx.exchange**](https://trade.dydx.exchange/) to meet their criteria threshold.
+Geçmiş dYdX kullanıcıları, Geriye Dönük Madencilik kapsamındaki geçmiş etkinliklerini ve kademelerini [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) adresinde görüntüleyebilirler. DYDX kazanmak adına, kullanıcılar kriter eşiklerini karşılamak için [**trade.dydx.exchange**](https://trade.dydx.exchange) adresindeki dYdX Katman 2 Protokolü üzerinde alım satım yapmalıdır.
 
-### What happens if I don’t reach my claim milestone?
+### Hakediş eşiğime ulaşamazsam ne olur?
 
-To claim the full allocation of DYDX tokens, users must meet their specific target volume tier trading perpetuals on the dYdX Layer 2 Protocol.
+Tahsis edilen tüm DYDX token'larını alabilmek için, kullanıcılar dYdX Katman 2 Protokolü üzerindeki sürekli varlıkların alım satımında belirli hedef hacimlerine ulaşmalıdır.
 
-Earned retroactive rewards are linearly claimable with the target volume. For example, if a user’s claim milestone is $5,000 in trading volume on the dYdX Layer 2 Protocol but the user only trades $2,500 in volume over the course of epoch 0, the user will only be able to claim 50% of the allocated reward.
+Kazanılan geriye dönük ödüller hedef hacimle doğru orantılı olarak alınabilir. Örneğin bir kullanıcının dYdX Katman 2 Protokolü üzerindeki hakediş eşiği alım satım hacminde 5.000 $ ise ancak kullanıcı dönem 0 boyunca yalnızca 2.500 $ tutarında alım satım yaparsa, kullanıcı tahsis edilen ödülün yalnızca %50'sini alabilecektir.
 
-Any unclaimed DYDX at the end of the epoch 0 will be forfeited and automatically distributed to the community treasury.
+Dönem 0 sonunda alınmamış tüm DYDX'ler kaybedilecek ve otomatik olarak topluluk hazinesine aktarılacaktır.
 
-### When can I withdraw and transfer my claimed DYDX retroactive rewards?
+### Aldığım geriye dönük DYDX ödüllerimi ne zaman çekebilir ve transfer edebilirim?
 
-Earned DYDX tokens via the Retroactive Mining Rewards will become claimable and transferable once the initial transfer restriction period is lifted.
+Geriye Dönük Madencilik Ödülleri aracılığıyla kazanılan DYDX token'ları ilk baştaki transfer kısıtlama süresi kaldırıldığında talep edilebilir ve transfer edilebilir.
 
-On approximately **September 8, 2021 15:00:00 UTC**, `8 days` after the end of Epoch 0, the initial transfer restrictions will be lifted and earned DYDX tokens via the Retroactive Mining Rewards can be claimed, withdrawn, transferred, or delegated.
+Dönem 0'ın sona ermesinden `8 gün` sonra, yaklaşık **8 Eylül 2021 günü TSİ saat 18.00.00 itibarıyla** ilk baştaki transfer kısıtlamaları kaldırılacak ve Geriye Dönük Madencilik Ödülleri aracılığıyla kazanılan DYDX token'ları talep edilebilecek, çekilebilecek, transfer edilebilecek veya devredilebilecektir.
