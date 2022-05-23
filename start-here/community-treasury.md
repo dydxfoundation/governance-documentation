@@ -1,29 +1,29 @@
 ---
-description: An overview of the community treasury.
+description: Un aperçu du trésor de la communauté.
 ---
 
-# Treasury
+# Trésor
 
-`5.00%` of the initial token supply (`50,000,000 DYDX`) will be distributed to a community treasury to be allocated on an ongoing basis through contributor grants, community initiatives, liquidity mining, and other programs.
+`5,00 %` de l'approvisionnement initial en jetons (`50 000 000 DYDX`) seront distribués à un trésor communautaire pour être alloués de manière continue par le biais de subventions de contributeurs, d'initiatives communautaires, d'extraction de liquidités et d'autres programmes.
 
-**Objectives**
+**Objectifs**
 
-* Fund programs and initiatives that drive the growth of dYdX.
-* Develop grant programs to fund community NFTs, hackathons, analytics dashboards, memes, swag, third-party tools, translations, and other projects.
-* Develop a best-in-class governance system and incentivize robust governance.
+* Financer des programmes et des initiatives qui stimulent la croissance de dYdX.
+* Développer des programmes de subventions pour financer des NFT communautaires, des hackathons, des tableaux de bord d'analyse, des mèmes, du swag, des outils tiers, des traductions et d'autres projets.
+* Développer un système de gouvernance de premier ordre et encourager une gouvernance solide.
 
-## Overview
+## Aperçu
 
-The community treasury will retain DYDX to use as DYDX holders decide, whether it be for grants, new liquidity mining pools, or any other program. DYDX will vest to the community treasury on a continuous basis over the course of five years. A governance vote will be required to spend any DYDX from the community treasury.
+Le trésor communautaire conservera DYDX pour l'utiliser au gré des détenteurs de DYDX, que ce soit pour des subventions, de nouveaux pools de minage de liquidités ou tout autre programme. DYDX sera dévolu au trésor de la communauté sur une base continue pendant cinq ans. Un vote de gouvernance sera nécessaire pour dépenser tout DYDX du trésor de la communauté.
 
-If, after five years, governance decides to enact perpetual inflation (at a maximum annual inflation of `2%`), any newly minted DYDX will be available to the community treasury.
+Si, après cinq ans, la gouvernance décide d'adopter une inflation perpétuelle (à une inflation annuelle maximale de `2 %`), tout DYDX nouvellement créé sera disponible pour le trésor de la communauté.
 
 ## FAQ
 
-### Who can submit proposals to spend DYDX tokens from the Community Treasury?
+### Qui peut soumettre des propositions pour dépenser des jetons DYDX du trésor de la communauté ?
 
-Any user with sufficient proposing power can submit proposals. A governance vote will be required to spend any DYDX from the community treasury. To submit a proposal, please submit a dYdX Improvement Proposal (DIP) as laid out in the [DIP Proposal Lifecycle](../voting-and-governance/dip-proposal-lifecycle.md).
+Tout utilisateur disposant d'un pouvoir de proposition suffisant peut soumettre des propositions. Un vote de gouvernance sera nécessaire pour dépenser tout DYDX du trésor de la communauté. Pour soumettre une proposition, veuillez soumettre une proposition d'amélioration dYdX (DIP) comme indiqué dans le [cycle de vie de la proposition DIP](../voting-and-governance/dip-proposal-lifecycle.md).
 
-### What types of proposals can be submitted to the Community Treasury?
+### Quels types de propositions peuvent être soumises au trésor de la communauté ?
 
-A community-managed treasury opens up a world of possibilities. We hope to see various experiments and initiatives, including ecosystem grants, which can foster the dYdX Layer 2 Protocol’s ecosystem growth.
+Un trésor géré par la communauté ouvre un monde de possibilités. Nous espérons voir diverses expériences et initiatives, y compris des subventions d'écosystème, qui peuvent favoriser la croissance de l'écosystème du protocole dYdX de couche 2.
