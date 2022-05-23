@@ -1,19 +1,17 @@
 ---
 description: >-
-  In order to ease market maker onboarding, the dYdX team created this guide.
-  Please read through the document in its entirety before beginning any
-  integration steps.
+  Para facilitar o processo de onboarding de market maker, a equipe da dYdX criou este guia. Leia todo o documento antes de iniciar quaisquer etapas de integração.
 ---
 
-# Market Maker Onboarding
+# Onboarding de market maker
 
-## dYdX Suggested Market Maker Onboarding Flow:
+## Fluxo de onboarding de market maker sugerido pela dYdX:
 
-1. Connect your preferred ethereum wallet to dYdX L2 Perpetual protocol.
-2. Deposit USDC into your Perpetual account.
-3. You will need to generate a STARK Key which identifies your account on Layer 2 and is saved locally on your browser. The Stark Key associates dYdX users with Ethereum account addresses so a user must first request to sign the linkage of an Ethereum key to a STARK Key and then register the STARK Key on dYdX’s smart contract before any other operation can take place. Click “Generate Stark Key” and sign the transaction. Signing is free and will not send a transaction. You can recover your Stark Key at any time with your wallet.
+1. Conecte sua carteira Ethereum preferida ao protocolo dYdX L2 Perpetual.
+2. Deposite USDC em sua conta Perpétua.
+3. Será necessário gerar uma chave STARK que identifica sua conta na Layer 2 e é salva localmente no seu navegador. A chave Key associa os usuários da dYdX a endereços Ethereum, de modo que um usuário deve primeiro solicitar a assinatura da vinculação de uma chave Ethereum a uma chave STARK e registrar a chave STARK no contrato inteligente da dYdX antes da realização de qualquer outra operação. Clique em “Gerar chave Stark” e assine a transação. A assinatura é gratuita e não enviará uma transação. Você pode recuperar sua chave Stark a qualquer momento com a sua carteira.
 
-Alternatively, programmatic traders may derive their STARK key pair using the following method:
+Alternativamente, traders programáticos podem derivar seu par de chaves STARK usando o seguinte método:
 
 ```
 key_pair_with_y_coordinate = client.onboarding.derive_stark_key(
@@ -22,11 +20,11 @@ key_pair_with_y_coordinate = client.onboarding.derive_stark_key(
 )
 ```
 
-More about STARK Keys can be found here.
+Saiba mais sobre as chaves STARK aqui.
 
-4\. Next you will need an API key which will require your Ethereum signature, or via a web3 provider. Note, Eth signatures are needed only for onboarding and managing API keys but not for trading—STARK key signatures are required for trading. API Keys can be registered and obtained using the following functions:
+4\. Em seguida, você precisará de uma chave de API que exige sua assinatura Ethereum ou via provedor web3. Observação: as assinaturas Eth são necessárias apenas para o processo de onboarding e gerenciamento de chaves de API e não para operar trades. As chaves STARK são necessárias para operar trades. As chaves de API podem ser registradas e obtidas usando as seguintes funções:
 
-_Registering:_
+_Registro:_
 
 ```
 api_key_response = client.api_keys.create_api_key(
@@ -35,18 +33,18 @@ ethereum_address='0x0123...',
 )
 ```
 
-_Obtaining:_
+_Obtenção:_
 
 ```
 api_keys = client.private.get_api_keys()
 ```
 
-_Alternatively (3. And 4.)_, If you don't want the private key to be online, you can generate the STARK key securely with the following steps to get the required credentials.
+_Alternativamente (3. e 4.)_, se você não quiser que a chave privada fique online, é possível gerar a chave STARK de forma segura com as seguintes etapas a fim de se obterem as credenciais necessárias.
 
-a. From the dYdX Perpetuals exchange, right-click anywhere in your web-browser, and select Inspect to open Developer Tools&#x20;
+a. A partir da exchange de perpétuos dYdX, clique com o botão direito em qualquer lugar do seu navegador e selecione Inspecionar para abrir as ferramentas de desenvolvedor
 
-b. Go to Application > Local Storage > https://trade.dydx.exchange&#x20;
+b. Acesse Aplicativo > Armazenamento local > https://trade.dydx.exchange
 
-c. Select STARK\_KEY\_PAIRS and click the drop-down next to your wallet address to get the stark private key&#x20;
+c. Selecione STARK\_KEY\_PAIRS e clique no menu suspenso ao lado de seu endereço de carteira para obter a chave privada stark
 
-d. Select API\_KEY\_PAIRS and click the drop-down next to your wallet address to get the API key, secret key, and passphrase
+d. Selecione API\_KEY\_PAIRS e clique no menu suspenso ao lado do seu endereço de carteira para obter a chave de API, a chave secreta e a senha
