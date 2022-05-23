@@ -13,7 +13,7 @@ description: 交易奖励计划概述。
 
 ## **概述**
 
-![Earn rewards by trading on the dYdX Layer 2 Protocol](<../.gitbook/assets/image (17).png>)
+![通过dYdX Layer 2协议的交易赚取奖励](<../.gitbook/assets/image (17).png>)
 
 DYDX将根据一条公式分配给交易者，该公式奖励在dYdX Layer 2协议上支付的交易费用和未平仓量的组合。DYDX将在五年内以28天时段为周期进行分配，不受任何兑现或锁定的限制。每个纪元内将分配3,835,616个DYDX。
 
@@ -35,9 +35,11 @@ $$
 | 天 | 本时段内一个交易者在所有交易对中的平均未平仓合约（每分钟测量）。 |
 | k | 本时段的交易者总数。 |
 | g | 交易者在整个时段内持有的平均 stkDYDX（每分钟随机测量） |
-| a | 0.67 |
-| b | 0.28 |
+| a | 0.80 |
+| b | 0.15 |
 | c | 0.05 |
+
+在 [DIP-10](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-10.md)，dYdX 社区进行了投票，将交易费率参数从 `a=0.67` 变更为 `a=0.8`，并将未平仓合约利率参数从 `b=0.28` 降为 `b=0.15。`
 
 ## 常见问题解答
 
@@ -51,7 +53,7 @@ dYdX Layer 2协议的所有交易者都有资格获得DYDX作为交易奖励。
 
 在当前时段，用户可以在[**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)（保存了用户的交易数据）查看支付的费用、平均未平仓合约和估计交易奖励。
 
-![Rewards info for the current epoch](<../.gitbook/assets/image (18).png>)
+![当前时段的奖励信息](<../.gitbook/assets/image (18).png>)
 
 来自过去时段的奖励，请访问[**dydx.community/history/rewards**](https://dydx.community/history/rewards)****（即将推出）。
 
@@ -63,7 +65,7 @@ dYdX Layer 2协议的所有交易者都有资格获得DYDX作为交易奖励。
 
 用户需要单击“申领”，签署交易，并支付gas费用以申领DYDX。
 
-![Portfolio overview of rewards](<../.gitbook/assets/image (20).png>)
+![资金组合奖励概述](<../.gitbook/assets/image (20).png>)
 
 ### 什么是未平仓合约？
 
