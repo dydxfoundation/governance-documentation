@@ -1,4 +1,4 @@
-# Índice
+# Table of contents
 
 * [Introdução](README.md)
 
@@ -24,7 +24,6 @@
 
 ## Voto e governança
 
-* [Arquitetura](voting-and-governance/governance-process.md)
 * [Ciclo de vida de propostas](voting-and-governance/dip-proposal-lifecycle.md)
 * [Processo de votação](voting-and-governance/voting.md)
 * [Parâmetros](voting-and-governance/governance-parameters.md)
@@ -44,21 +43,3 @@
 * [API dYdX Layer 2](https://docs.dydx.exchange)
 * [dYdX Trading Inc.](https://dydx.exchange)
 * [Painel de métricas](http://metrics.dydx.exchange)
-
-## 挖矿简介<a href="#chinese" id="chinese"></a>
-
-* [DYDX 介绍](chinese/dydx-jie-shao.md)
-* [中文问答](chinese/zhong-wen-wen-da.md)
-* [追溯性挖矿教程](chinese/zhui-su-xing-wa-kuang-jiao-cheng.md)
-* [交易挖矿教程](chinese/jiao-yi-wa-kuang-jiao-cheng.md)
-* [DYDX领取教程](chinese/dydx-ling-qu-jiao-cheng.md)
-
-## 交易教程
-
-* [如何在dYdX上开空单（做空）](jiao-yi-jiao-cheng/ru-he-zai-dydx-shang-kai-kong-dan-zuo-kong/README.md)
-   * [如何在dYdX上开多单（做多）](jiao-yi-jiao-cheng/ru-he-zai-dydx-shang-kai-kong-dan-zuo-kong/ru-he-zai-dydx-shang-kai-duo-dan-zuo-duo.md)
-
-## 公告
-
-* [关于暂停保险质押池的通知](gong-gao/guan-yu-zan-ting-bao-xian-zhi-ya-chi-de-tong-zhi.md)
-* [Epoch 0回顾](gong-gao/untitled.md)
