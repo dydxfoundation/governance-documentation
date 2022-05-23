@@ -34,7 +34,7 @@ Todo el código fuente de contratos inteligentes para los contratos de gobernanz
 
 El código fuente para el frontend de gobernanza alojado en dydx.community se puede encontrar [aquí](https://github.com/dydxfoundation/pnyx).
 
-Todos los contratos inteligentes nuevos principales han sido auditados por Peckshield. No se encontraron problemas de seguridad significativos o de alta prioridad. Los contratos de gobernanza y de tokens básicos están basados en los contratos de gobernanza de AAVA que fueron auditados por [CertiK](https://www.certik.io), [Certora](https://www.certora.com) y [Peckshield](https://peckshield.com/en) y han sido probados en la batalla en vivo en mainnet durante meses.
+Todos los contratos inteligentes nuevos principales han sido auditados por Peckshield. No se encontraron problemas de seguridad significativos o de alta prioridad. Los contratos básicos de gobernanza y tokens se basan en los contratos de gobernanza de Aave que fueron auditados por [CertiK](https://www.certik.io), [Certora](https://www.certora.com) y [Peckshield](https://peckshield.com/en) y se han puesto a prueba en vivo en la red principal durante meses.
 
 ## Contratos básicos de gobernanza
 
