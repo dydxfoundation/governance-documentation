@@ -1,273 +1,273 @@
 ---
-description: An overview of the Liquidity Staking Pool
+description: Una visión general del fondo de participación de liquidez
 ---
 
-# Liquidity Module
+# Módulo de liquidez
 
-`2.50%` of the initial token supply (`25,000,000 DYDX`) will be distributed to users staking USDC to the liquidity staking pool.
+El `2.50%` del suministro de token inicial (`25,000,000 DYDX`) se distribuirá a los usuarios que participen con USDC al fondo de participación de liquidez.
 
-### Objectives
+### Objetivos
 
-* Incentivize the allocation of USDC for market-making purposes on the dYdX Layer 2 protocol.
-* Allocate capital to top-performing liquidity providers to increase spread, depth, and uptime on dYdX.
+* Incentivar la asignación de USDC con fines de creación de mercado en el protocolo dYdX de la capa 2.
+* Asignar capital a proveedores de liquidez de alto rendimiento para aumentar el margen, la profundidad y el tiempo de actividad en dYdX.
 
-Start staking at [**dydx.community/dashboard/pools/liquidity**](https://dydx.community/dashboard/pools/liquidity)**.**
+Comenzar a participar en [**dydx.community/dashboard/pools/liquidez**](https://dydx.community/dashboard/pools/liquidity)**.**
 
-## **Staking** Overview
+## Visión general **de la participación**
 
-Liquidity is a core component of any successful exchange. To promote liquidity network effects and incentivize professional liquidity providers, DYDX will be distributed to users who stake USDC to the liquidity staking pool. Community-approved liquidity providers will use the staked USDC to make markets on the dYdX Layer 2 Protocol, furthering the liquidity available across the markets. Liquidity providers are restricted from using borrowed funds outside of the dYdX Layer 2 Protocol.
+La liquidez es un componente central de cualquier operación exitosa. Para promover los efectos de la red de liquidez e incentivar a los proveedores profesionales de liquidez, DYDX se distribuirá a los usuarios que inviertan USDC en el fondo de participación de liquidez. Los proveedores de liquidez aprobados por la comunidad utilizarán el USDC apostado para crear mercados en el Protocolo de la Capa 2 de dYdX, aumentando la liquidez disponible en los mercados. Los proveedores de liquidez están restringidos a usar fondos prestados fuera del Protocolo de la capa 2 de dYdX.
 
-Stakers will earn DYDX rewards for staking USDC. DYDX rewards will be distributed continuously according to each staker’s portion of the total USDC in the pool.&#x20;
+Los inversores ganarán recompensas de DYDX por invertir en USDC. Las recompensas de DYDX se distribuirán continuamente de acuerdo con la porción de USDC total de cada participante en el fondo.
 
-Each staker and liquidity provider is required to become party to the Revolving Credit Agreement (link [here](https://dydx.foundation/revolving-credit-agreement)). The agreement puts into natural language the terms of the liquidity staking pool to give each staker an enforceable right against any liquidity provider who does not repay the borrowed USDC. The agreement is only between each staker and each liquidity provider. The dYdX Foundation is not a party to the agreement and has no rights or obligations under it.
+Cada proveedor de liquidez e inversor está obligado a ser parte del Acuerdo de crédito rotativo (enlace [aquí](https://dydx.foundation/revolving-credit-agreement)). El acuerdo pone en lenguaje natural los términos del grupo de participación de liquidez para otorgar a cada participante un derecho exigible contra cualquier proveedor de liquidez que no reembolse el USDC prestado. El acuerdo es solo entre cada inversor y cada proveedor de liquidez. La Fundación dYdX no es parte en el acuerdo y no tiene derechos u obligaciones en él.
 
-## USDC Unstaking & Withdrawals
+## Desinversión y retiros de USDC
 
-A staker must request to withdraw USDC at least `14 days` (**Blackout Window**) before the end of an [**epoch**](../start-here/epochs.md) in order to be able to withdraw the staker's USDC after the end of that epoch. If stakers do not request to withdraw, their staked USDC is rolled over into the next epoch.
+Un inversor debe solicitar retirar USDC al menos `14 días` (**Ventana de bloqueo**) antes del final de una [**etapa**](../start-here/epochs.md)  para poder retirar los USDC del inversor después del final de esa etapa. Si los inversores no solicitan retirar, sus USDC invertidos se transferirán a la siguiente etapa.
 
-Withdrawals cannot be requested during the **Blackout Window**.
+No se pueden solicitar retiros durante la **ventana de bloqueo**.
 
-## Staking Risks
+## Riesgos de participación
 
-Borrowers from the pool are not required to lock collateral. All borrowers are professional and reputable liquidity providers. The list of allowed borrowers and their pool allocations are updatable by governance.
+Los prestatarios del grupo no están obligados a bloquear la garantía. Todos los prestatarios son proveedores de liquidez profesionales y de confianza. La gobernanza puede actualizar la lista de prestatarios permitidos y sus asignaciones de fondos.
 
-When users request to withdraw USDC, a borrower’s allocated balance for the next epoch may drop below the borrower's currently borrowed amount. In this situation, the borrower is responsible for paying back the difference between its borrowed and allocated balances before the end of the epoch.
+Cuando los usuarios solicitan retirar USDC, el saldo asignado de un prestatario para la próxima etapa puede caer por debajo del monto del prestatario actualmente prestado. En esta situación, el prestatario es responsable de pagar la diferencia entre sus saldos prestados y asignados antes del final de la etapa.
 
-If a borrower fails to repay an owed balance back to the pool by the end of the epoch, it is considered to be in default and is disallowed from borrowing further USDC until the debt is repaid. Stakers may lose USDC in the event a borrower never repays a debt. Stakers can lose a portion of staked USDC if a market maker were to lose USDC and be unable to replenish the liquidity staking pool.
+Si un prestatario no paga al fondo un saldo adeudado al final de la etapa, se considera que está en incumplimiento y no se le permitirá pedir prestado más USDC hasta que pague la deuda. Los inversores pueden perder USDC en caso de que un prestatario nunca pague una deuda. Los inversores pueden perder una parte de los USDC invertidos si un creador de mercado pierde USDC y no puede reponer el fondo de participación de liquidez.
 
-Stakers also are exposed to smart contract risk if there is a vulnerability in the underlying smart contract code. All DYDX & governance smart contracts have been audited and rigorously tested.
+Los inversores también están expuestos al riesgo del contrato inteligente si existe una vulnerabilidad en el código del contrato inteligente subyacente. Todos los contratos inteligentes de DYDX y gobernanza han sido auditados y probados rigurosamente.
 
-To reduce the risk to stakers, each staker and liquidity provider will be required to become party to the Revolving Credit Agreement (link [here](https://dydx.foundation/revolving-credit-agreement)), but entering into the agreement does not ensure that a liquidity provider will repay all amounts borrowed, even if a staker's rights under the agreement are enforced.&#x20;
+Con el fin de reducir el riesgo para los inversores, cada inversor y proveedor de liquidez deberá convertirse en parte del acuerdo de crédito rotativo (enlace [aquí](https://dydx.foundation/revolving-credit-agreement)), pero celebrar el contrato no garantiza que un proveedor de liquidez reembolse todos los montos prestados, incluso si se hacen cumplir los derechos de una parte interesada en virtud del acuerdo.
 
-## Approved Borrowers
+## Prestatarios aprobados
 
-The Liquidity Staking Pool contract operates as a two-sided, under-collateralized, interest-free liquidity system.
+El contrato de fondo de participación de liquidez como un sistema de liquidez libre de intereses, sin colateral y bilateral.
 
-The amount that can be withdrawn depends on a borrower's allocation percentage and the total available USDC staked in the pool. Both the allocation percentage and total available USDC can change, at predefined times specified by `LS1EpochSchedule`. The borrowed USDC may only be used on dYdX’s Layer 2 Protocol — this is enforced via the`StarkProxy`contract which interacts with the`StarkEx Perpetual Exchange`contract.
+El monto que se puede retirar depende del porcentaje de asignación del prestatario y de los USDC total disponibles invertidos en el fondo. Tanto el porcentaje de asignación como los USDC total disponibles pueden cambiar, en momentos predefinidos especificados por el `LS1EpochSchedule` Los USDC prestados solo se puede usar en el Protocolo de capa 2 de dYdX; esto se aplica a través del contrato `StarkProxy` que interactúa con el `contrato de bolsa de perpetuals de StarkEx`.
 
-The initially approved liquidity providers include `Wintermute`, `Amber Group`, `Wootrade (Kronos)`, `Sixtant`, and `DAT Trading`, who have been actively market-making on the dYdX Layer 2 Protocol.
+Los proveedores de liquidez aprobados inicialmente incluyen `Wintermute`, `Amber Group`, `Wootrade (Kronos)`, `Sixtant` y `DAT Trading`, que han estado creando mercado activamente en el protocolo de capa 2 de dYdX.
 
-| Pre-approved Borrowers | Initial Allocation Percentage | Ethereum Address                                                                                                      | StarkProxy                                                                                                            | Details on Liquidity Providers                                                                                                                                                         |
+| Prestatarios previamente aprobados | Porcentaje de asignación inicial | Dirección de Ethereum | StarkProxy | Detalles sobre proveedores de liquidez |
 | ---------------------- | ----------------------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Wintermute             | 25%                           | [0x4f3a120E72C76c22ae802D129F599BFDbc31cb81](https://etherscan.io/address/0x4f3a120E72C76c22ae802D129F599BFDbc31cb81) | [0x0b2B08AC98a1568A34208121c26F4F41a9e0FbB6](https://etherscan.io/address/0x0b2B08AC98a1568A34208121c26F4F41a9e0FbB6) | [https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/](https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/)                             |
-| Amber Group            | 25%                           | [0x39Ad99E33ab7Ee85818741dD6076112188bc2611](https://etherscan.io/address/0x39Ad99E33ab7Ee85818741dD6076112188bc2611) | [0x3e6E9EFb0A677a24F47093a22044dc5451A028cF](https://etherscan.io/address/0x3e6E9EFb0A677a24F47093a22044dc5451A028cF) | [https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/](https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/)                           |
-| WOO Network (Kronos)   | 20%                           | [0x38d981c3c42b2ec8e9572f560552407d0f1279fb](https://etherscan.io/address/0x38d981c3c42b2ec8e9572f560552407d0f1279fb) | [0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06](https://etherscan.io/address/0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06) | [https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/](https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/) |
-| Sixtant                | 20%                           | [0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c](https://etherscan.io/address/0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c) | [0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2](https://etherscan.io/address/0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2) | [https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/](https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/)                                   |
-| DAT Trading            | 10%                           | [0x83E8fb8f4DAE0f42d68FdbBf85d4191a5e6f92F8](https://etherscan.io/address/0x83e8fb8f4dae0f42d68fdbbf85d4191a5e6f92f8) | [0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874](https://etherscan.io/address/0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874) | [https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/](https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/)                           |
+| Wintermute | 25% | [0x4f3a120E72C76c22ae802D129F599BFDbc31cb81](https://etherscan.io/address/0x4f3a120E72C76c22ae802D129F599BFDbc31cb81) | [0x0b2B08AC98a1568A34208121c26F4F41a9e0FbB6](https://etherscan.io/address/0x0b2B08AC98a1568A34208121c26F4F41a9e0FbB6) | [https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/](https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/) |
+| Amber Group | 25% | [0x39Ad99E33ab7Ee85818741dD6076112188bc2611](https://etherscan.io/address/0x39Ad99E33ab7Ee85818741dD6076112188bc2611) | [0x3e6E9EFb0A677a24F47093a22044dc5451A028cF](https://etherscan.io/address/0x3e6E9EFb0A677a24F47093a22044dc5451A028cF) | [https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/](https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/) |
+| WOO Network (Kronos) | 20% | [0x38d981c3c42b2ec8e9572f560552407d0f1279fb](https://etherscan.io/address/0x38d981c3c42b2ec8e9572f560552407d0f1279fb) | [0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06](https://etherscan.io/address/0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06) | [https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/](https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/) |
+| Sixtant | 20% | [0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c](https://etherscan.io/address/0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c) | [0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2](https://etherscan.io/address/0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2) | [https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/](https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/) |
+| DAT Trading  | 10% | [0x83E8fb8f4DAE0f42d68FdbBf85d4191a5e6f92F8](https://etherscan.io/address/0x83e8fb8f4dae0f42d68fdbbf85d4191a5e6f92f8) | [0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874](https://etherscan.io/address/0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874) | [https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/](https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/) |
 
-## Staked Balance Accounting
+## Contabilidad de saldo invertido
 
-A staked balance is in one of two states:
+Un saldo invertido puede estar en uno de dos estados:
 
-* **Active**: Available for borrowing; earns staking rewards; cannot be withdrawn by the staker.
-* **Inactive**: Unavailable for borrowing; does not earn rewards; can be withdrawn by the staker.
+* **Activo**: Disponible para pedir prestado, gana recompensas de participación y no puede ser retirado por el inversor.
+* **Inactivo**: no disponible para pedir prestado, no gana recompensas y puede ser retirado por el inversor.
 
-A staker may have a combination of active and inactive balances. USDC is accounted for epoch-by-epoch as shown in the following example:
+Un participante puede tener una combinación de saldos activos e inactivos. Los USDC se contabilizan etapa por etapa como se muestra en el siguiente ejemplo:
 
-![Staked balance accounting ](<../.gitbook/assets/image (34).png>)
+![Staked balance accounting](<.. /.gitbook/assets/image (34).png>)
 
-The following operations affect staked balances as follows:
+Las siguientes operaciones afectan a los saldos invertidos de la siguiente manera:
 
-* **Deposit**: Increase active balance.
-* **Request withdrawal**: At the end of the current epoch, move some active USDC to inactive.
-* **Withdraw**: Decrease inactive balance.
-* **Transfer**: Move some active USDC to another staker.
+* **Depósito**: aumentar el saldo activo.
+* **Solicitud de retiro**: al final de la etapa actual, pasar de algunos USDC activos a inactivos.
+* **Retirar**: disminuir el saldo inactivo.
+* **Transferir**: pasar algunos USDC activos a otro participante.
 
-To encode the fact that a balance may be scheduled to change at the end of a certain epoch, each balance is stored as a struct of three fields: currentEpoch, currentEpochBalance, and nextEpochBalance. Inactive user balances also make use of the shortfallCounter field.
+Para codificar el hecho de que un saldo puede programarse para cambiar al final de una determinada etapa, cada saldo se almacena como una estructura de tres campos: currentEpoch, currentEpochBalance y nextEpochBalance. Los saldos de usuarios inactivos también hacen uso del sector shortfallCounter.
 
-### What is stkUSDC?
+### ¿Qué es stkUSDC?
 
-USDC holders who deposit and stake their USDC into the Liquidity Staking Pool will receive a tokenized position (**stkUSDC**). stkUSDC is minted when a user stakes USDC, and is burned when a user calls `withdrawStake`. In the same transaction that USDC leaves a staker's wallet, stkUSDC enters the staker's wallet; or vice-versa when unstaking.
+Los titulares de USDC que depositen e inviertan sus USDC en el fondo de participación de liquidez recibirán una posición tokenizada (**stkUSDC**). stkUSDC se acuña cuando un usuario invierte en USDC y se quema cuando un usuario utiliza el `withdrawStake` En la misma transacción en la que los USDC salen de la billetera de un inversor, stkUSDC ingresa a la billetera del inversor o viceversa cuando se desinvierte.
 
-A stkUSDC balance can be active or inactive. Active stkUSDC can be transferred as an ERC-20, but cannot be withdrawn. Inactive stkUSDC can be withdrawn, but cannot be transferred. For example, a user may have 100 active and 100 inactive stkUSDC in their wallet, and the user's balance will show 200 stkUSDC, but a transfer will revert if the user tries to transfer more than 100 stkUSDC.
+Un saldo de stkUSDC puede estar activo o inactivo. Los stkUSDC activos se pueden transferir como ERC-20, pero no se pueden retirar. Los stkUSDC inactivos se pueden retirar, pero no se pueden transferir. Por ejemplo, un usuario puede tener 100 stkUSDC activos y 100 inactivos en su billetera, y el saldo del usuario mostrará 200 stkUSDC, pero la transferencia se revertirá si el usuario intenta transferir más de 100 stkUSDC.
 
-A staked balance for which the staker has requested a withdraw prior to the end of epoch would be considered inactive, and therefore not transferable.
+Un saldo invertido para el cual el participante haya solicitado un retiro antes del final de la etapa se consideraría inactivo y, por lo tanto, no transferible.
 
-## **Stakers** FAQ
+## Preguntas frecuentes **de los participantes**
 
-### How do I earn staking rewards?
+### ¿Cómo puedo ganar recompensas de participación?
 
-Stakers can deposit USDC at any time to the liquidity staking pool and start earning rewards immediately. DYDX rewards are earned on a continuous basis according to each staker’s share of the total pool on a second-by-second basis. Rewards can be claimed and withdrawn at any time.
+Los inversores pueden depositar USDC en cualquier momento en el fondo de participación de liquidez y comenzar a ganar recompensas de inmediato. Las recompensas de DYDX se obtienen de forma continua según la participación de cada inversor en el fondo total en el lapso de un segundo. Las recompensas se pueden reclamar y retirar en cualquier momento.
 
-Staked USDC earns rewards for the period of time that it remains active. This means that after requesting a withdrawal of some USDC, that USDC will continue to earn rewards until the end of the epoch. For example:
+Los USDC invertidos ganan recompensas por el período de tiempo que permanecen activos. Esto significa que después de solicitar un retiro de algunos USDC, estos USDC continuarán ganando recompensas hasta el final de la etapa. Por ejemplo:
 
-![Rewards accounting](<../.gitbook/assets/image (65).png>)
+![Rewards accounting](<.. /.gitbook/assets/image (65).png>)
 
-In the above scenario, the user would earn rewards for the period from **Time0** to **Time2**, varying with the total staked balance in that period. If the user only requests a withdrawal for a part of the user's balance, then the remaining balance would continue earning rewards beyond **Time2**.
+En el escenario anterior, el usuario ganaría recompensas por **el** período 0 al **periodo 2**, que variaría con el saldo total invertido en ese período. Si el usuario solicita únicamente un retiro de parte del saldo del usuario, entonces el saldo restante continuará ganando recompensas más allá del **periodo 2**.
 
-### How do I deposit and stake USDC to the Liquidity Pool?
+### ¿Cómo deposito e invierto USDC en el fondo de liquidez?
 
-To stake USDC to the Liquidity Pool, follow these steps:
+Para apostar USDC en el fondo de liquidez, sigue estos pasos:
 
-* Go to [https://dydx.community/dashboard/pools/liquidity](https://dydx.community/dashboard/pools/liquidity)
-* Click on “Stake”
-* You must enable USDC the first time you deposit. You will only have to do this once and pay gas fees only once.
-* Enter the amount of USDC you want to stake to the pool.
-* Click “Stake Funds” - you will need to pay gas fees to stake, request to withdraw, and withdraw USDC.
+* Dirígete a [https://dydx.community/dashboard/pools/liquidity](https://dydx.community/dashboard/pools/liquidity)
+* Haz clic en “invertir”
+* Debes habilitar la opción de USDC la primera vez que deposites. Solo tendrás que hacer esto una vez y pagar las tasas de gas solo una vez.
+* Ingresa la cantidad de USDC que deseas invertir en el fondo.
+* Haz clic en “Fondos de participación” - tendrás que pagar las tasas de gas para invertir, solicitar retiros y retirar USDC.
 
-![](<../.gitbook/assets/image (57).png>)
+![](<.. /.gitbook/assets/image (57).png>)
 
-Staked USDC us now active and start earning rewards immediately.
+Los USDC invertidos ahora están activos y puedes empezar a ganar recompensas inmediatamente.
 
-To deposit and stake USDC directly on the smart contract, users call the`stake`function. Users can also deposit and stake USDC on behalf of another address by calling the`stakeFor`function. Even if you stake USDC directly on the smart contract, you will be deemed to have notice of, and reviewed, the Revolving Credit Agreement (link [here](https://dydx.foundation/revolving-credit-agreement)).
+Para depositar e invertir USDC directamente en el contrato inteligente`,` los usuarios solicitan la función de participación. Los usuarios también pueden depositar e invertir USDC en nombre de otra dirección llamando a la función `stakeFor`. Incluso si inviertes USDC directamente en el contrato inteligente, se considerará que has recibido una notificación y ha revisado el acuerdo de crédito renovable (enlace [aquí](https://dydx.foundation/revolving-credit-agreement))
 
-### What is the Blackout Window?
+### ¿Qué es la ventana de bloqueo?
 
-A blackout window is a period of time during which users cannot request withdrawals of staked USDC. The`requestWithdrawal`function cannot be called during a blackout window, which is initially configured as the last`14 days`of an epoch. New epochs start every 28 days. In other words, users can request a withdrawal for the next epoch up to`14 days`before the end of a given epoch.
+Una ventana de bloqueo es un período de tiempo durante el cual los usuarios no pueden solicitar retiros de USDC invertidos. La función `de solicitud de retiro` no se puede utilizar durante una ventana de bloqueo, que inicialmente se configura como los últimos `14 días` de una etapa. Las nuevas etapas comienzan cada 28 días. En otras palabras, los usuarios pueden solicitar un retiro para la próxima etapa hasta `14 días` antes del final de una etapa determinada.
 
-### How do I withdraw USDC from the staking pool? How long does it take?
+### ¿Cómo retiro USDC del fondo de participación? ¿Cuánto tiempo tarda?
 
-An epoch schedule is enforced for withdrawals in order to provide predictability and a regular cadence for the availability of USDC in the pool. A staker must request to unstake USDC at least`14 days`before the end of an epoch in order to be able to withdraw the staker's USDC after the end of that epoch. If stakers do not request to withdraw, their staked USDC is rolled over into the next epoch.
+Se aplica un cronograma de etapas para los retiros a fin de brindar previsibilidad y una cadencia regular para la disponibilidad de USDC en el fondo. Un inversor debe solicitar retirar los USDC al menos `14 días` antes del final de una etapa para poder retirar los USDC del inversor después del final de esa etapa. Si los inversores no solicitan retirar, sus USDC invertidos se transferirán a la siguiente etapa.
 
-To withdraw USDC, users call the`requestWithdrawal`function to request to withdraw USDC for the next epoch. User funds will remain staked and not withdrawable for the current epoch. Starting in the next epoch, funds will be “inactive” and available for withdrawal.
+Para retirar USDC, los usuarios utilizan la función `de solicitud de` retiro para solicitar el retiro de USDC para la próxima etapa. Los fondos de los usuarios permanecerán invertidos y no se podrán retirar durante la etapa actual. A partir de la siguiente etapa, los fondos estarán “inactivos” y disponibles para el retiro.
 
-In the next epoch, users call the `withdrawStake` function to withdraw inactive USDC to a specific address. Users can select the amount of inactive funds they want to withdraw or call the \`withdrawMaxStake\` function to withdraw all inactive funds. The `withdrawMaxStake` function is less gas-efficient than querying the max via eth\_call and calling `withdrawStake()`.
+En la próxima etapa, los usuarios solicitan la función de `withdrawStake` para transferir USDC inactivos a una dirección específica. Los usuarios pueden seleccionar la cantidad de fondos inactivos que desean retirar o utilizar la función \`withdrawMaxStake\` para retirar todos los fondos inactivos. La función `withdrawMaxStake` es menos eficiente en gas que consultar el máximo a través de eth\_call y utilizar `el withdrawMaxStake()`
 
-To unstake USDC to the Liquidity Pool, following the following steps:
+Para desinvertir USDC del fondo de liquidez, sigue los siguientes pasos:
 
-* Go to [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)****
-* Click on “**Request**”, to open the following modal:
+* Ve a [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)****
+* Haz clic en “**Solicitar**”, para abrir el siguiente modo:
 
-![Requesting withdraw](<../.gitbook/assets/image (58).png>)
+![Requesting withdraw](<.. /.gitbook/assets/image (58).png>)
 
-* Enter the amount of USDC you want to request to withdraw from the pool, and click "**Request withdraw**". You will need to pay gas fees to unstake USDC.
-* Stakers who request to unstake USDC at least 14 days (**Blackout Window**) before the current epoch ends can withdraw their USDC at the start of the next epoch.
+* Ingresa la cantidad de USDC que deseas solicitar retirar del fondo y haz clic en "**Solicitar retiro**". Tendrás que pagar las tasas de gas para desinvertir USDC.
+* Los inversores que solicitan desinvertir USDC al menos 14 días (**ventana de bloqueo**) antes de que la etapa final actual pueden retirar sus USDC al inicio de la siguiente etapa.
 
-### What parameters can governance change?
+### ¿Qué parámetros pueden cambiar la gobernanza?
 
-dYdX governance is responsible for:
+La gobernanza de dYdX es responsable de:
 
-* Doing due diligence on existing borrowers
-* Adding new borrowers to and/or removing existing borrowers from the Staking Liquidity Pool&#x20;
-* Changing allocations of borrowed USDC to approved borrowers
-  * The `setBorrowerAllocations` and `setBorrowingRestriction` functions are called to change the allocations of certain borrowers. They can be used to add and remove borrowers. Increases take effect in the next epoch, but decreases will restrict borrowing immediately. These functions cannot be called during the blackout window.
-* Epoch length and blackout window are set upon creating the contract but can be changed
+* Hacer la debida diligencia en los prestatarios existentes
+* Añadir nuevos prestatarios a y/o eliminar prestatarios existentes del fondo de liquidez de participación
+* Cambiar las asignaciones de los USDC prestados a los prestatarios aprobados
+   * Las `setBorrowerAllocations` de prestatarios y de asignación de fondos de `setBorrowerAllocations` requieren cambiar las asignaciones de ciertos prestatarios. Se pueden utilizar para agregar y eliminar prestatarios. Los aumentos entran en vigor en la próxima etapa, pero las reducciones restringirán el endeudamiento de inmediato. Estas funciones no se pueden solicitar durante la ventana de bloqueo.
+* La duración de la etapa y la ventana de bloqueo se establecen al crear el contrato, pero pueden modificarse
 
-## **Borrowers FAQ**
+## **Preguntas frecuentes de los prestatarios**
 
-### **Borrowing**
+### **Solicitud de préstamos**
 
-Staked USDC enters a pool which is allocated to approved borrowers. Each borrower has an allocation percentage controlled by governance and may borrow up to this allocation. Unstaking is subject up an “epoch schedule”—staked USDC may only become withdrawable (i.e. “inactive”) at the start of an epoch.
+Los USDC invertidos ingresan a un fondo asignado a los prestatarios aprobados. Cada prestatario tiene un porcentaje de asignación controlado por la gobernanza y puede pedir prestado hasta esta asignación. La desinversión está sujeta a un “calendario de etapa”: los USDC invertidos solo pueden ser retirables (es decir, “inactivos”) al inicio de una etapa.
 
-USDC requested for withdrawal must be returned by borrowers before the end of the epoch. In case of underpayment, the underpaid amount becomes a “debt balance” and the staking contract is re-stabilized. The offending borrower must pay back the debt balance and will be restricted from borrowing until reinstated by governance.
+Los USDC solicitados para el retiro deben ser devueltos por los prestatarios antes del final de la etapa. En caso de pago insuficiente, la cantidad pagada de manera insuficiente se convierte en un "saldo en mora" y el contrato de participación se vuelve a estabilizar. El prestatario infractor debe pagar el saldo de la deuda y se le restringirá el endeudamiento hasta que la gobernanza lo restablezca.
 
-Borrowers are subject to all of the terms of the Revolving Credit Agreement (link [here](https://dydx.foundation/revolving-credit-agreement)).
+Los prestatarios están sujetos a todos los términos del Acuerdo de crédito rotativo (enlace [aquí](https://dydx.foundation/revolving-credit-agreement)).
 
-### **StarkProxy Features**
+### **Características de StarkProxy**
 
-#### **Auto-Pay**
+#### **Auto-pago**
 
-Borrowers can use `autoPayOrBorrow()` to ensure maximum usage of allocated USDC and timely repayment of requested withdrawals. The function only needs to be called successfully once per epoch for a borrower to ensure they are meeting their responsibilities.
+Los prestatarios pueden utilizar `autoPayOrBorrow()` para garantizar el máximo uso de los USDC asignados y el reembolso de los retiros solicitados. La función solo debe ser utilizada correctamente una vez por etapa para que un prestatario pueda asegurar que cumple con sus responsabilidades.
 
-The function will revert if called in the first half of the epoch, since this is outside the blackout window. It will revert if the`StarkProxy`contract does not have enough USDC for repayment. In this case, USDC must be added, or withdrawn from the exchange before calling `autoPayOrBorrow()`.
+La función se revertirá si se utiliza en la primera mitad de la etapa, ya que está fuera de la ventana de bloqueo. Se revertirá si el contrato de `StarkProxy`contract no tiene suficientes USDC para realizar el reembolso. En este caso, se deben agregar o retirar USDC de la bolsa antes de utilizar el `autoPayOrBorrow()`
 
-#### **Borrower-Owned USDC**
+#### **USDC de propiedad de los prestatarios**
 
-A borrower may safely deposit its own USDC to the`StarkProxy`and use its on the dYdX Layer 2 Protocol in the same account as borrowed USDC. USDC may be withdrawn from `StarkProxy` in either of the following situations:
+Un prestatario puede depositar sus propios USDC de forma `segura` en el protocolo de la capa 2 de dYdX y en la misma cuenta que los USDC prestados. Los USDC pueden retirarse de `StarkProxy` en cualquiera de las siguientes situaciones:
 
-* USDC held within the`StarkProxy`contract in excess of the borrowed balance may be withdrawn at any time.
-* Governance may approve a withdrawal of a certain amount.
-  * Note: This can be used to allow the borrower to withdraw profits without having to move most USDC off of the dYdX Layer 2 Protocol.
+* Los USDC mantenidos dentro del contrato `StarkProxy` en exceso del saldo prestado se puede retirar en cualquier momento.
+* La gobernanza puede aprobar el retiro de una cantidad determinada.
+   * Nota: Esto se puede usar para permitir que el prestatario retire ganancias sin tener que retirar la mayor parte de USDC del Protocolo de la Capa 2 de dYdX.
 
-#### **Borrower Roles**
+#### **Roles de los prestatarios**
 
-The `StarkProxy`contract supports the following borrower-controlled roles. These may be held by a single address or separate addresses depending on the security needs of the borrower. Each role can be held by any number of addresses.
+El contrato `StarkProxy`contract soporta los siguientes roles controlados por los prestatarios. Estos pueden ejercerse en una sola dirección o direcciones separadas dependiendo de las necesidades de seguridad del prestatario. Cada rol puede ser ocupado por cualquier número de direcciones.
 
-Owner
+Propietario
 
-* Grant or revoke the delegation admin role.
-* Add or remove allowed recipients for USDC withdrawn from `StarkProxy`.
-* Add or remove allowed STARK keys for use on the dYdX Layer 2 Protocol.
-* Set ERC20 allowances on the `LiquidityStakingV1` and `StarkPerpetual` contracts.
-* Call `forcedWithdrawalRequest()` or `forcedTradeRequest()` on the `StarkEx Perpetual Exchange` contract.
+* Otorga o revoca el rol de administrador de delegación.
+* Agrega o elimina destinatarios permitidos para USDC retirados de `StarkProxy`.
+* Agrega o elimina claves STARK permitidas para usar en el protocolo de capa 2 de dYdX.
+* Establece las asignaciones de ERC20 en los contratos de `LiquidityStakingV1` y `StarkPerpetual`   
+* Llama a `forcedWithdrawalRequest()` o `forcedTradeRequest()` en el contrato `de bolsa de Perpetuals de StarkEx`.
 
-Delegation Admin
+Administrador de delegación
 
-* Grant or revoke the borrower, exchange operator, and withdrawal operator roles.
+* Otorga o revoca el prestatario, el operador de bolsa y los roles de operador de retiro.
 
-Borrower
+Prestatario
 
-* Call `autoPayOrBorrow()`, `borrow()`, `repay()`, and `repayDebt()` on the Liquidity Staking contract.
+* Utiliza el `autoPayOrBorrow()`, `borrow()`, `repay()`, y `repayDebt()` en el contrato de participación de liquidez.
 
-Exchange Operator
+Operador intercambio
 
-* Call `registerUserOnExchange()`, `depositToExchange()`, and `withdrawFromExchange()` on the `StarkEx Perpetual Exchange` contract.
+* Utiliza el `registerUserOnExchange()`, `depositToExchange()`, y `withdrawFromExchange()` en el contrato `de bolsa de perpetuals de StarkEx`.
 
-Withdrawal Operator
+Operador de retiro
 
-* Make a valid external withdrawal (see above) out of `StarkProxy` to an allowed recipient.
+* Hace un retiro externo válido (ver arriba) fuera de `StarkProxy` a un destinatario permitido.
 
-#### **Limitations**
+#### **Limitaciones**
 
-Layer 2 transfers on the dYdX Layer 2 Protocol are disabled for accounts controlled by a `StarkProxy`.
+Las transferencias de la capa 2 en el Protocolo de la capa 2 de dYdX están desactivadas para las cuentas controladas por un `StarkProxy`.
 
-#### **Guardian Powers**
+#### **Poderes de Custodio**
 
-The guardian role will be controlled by dYdX governance. Its role is to ensure the safety of borrowed USDC and to allow them to be returned to stakers in the case where a borrower’s private key is lost or misused.
+El rol de custodio será controlado por la gobernanza de dYdX. Su función es garantizar la seguridad de los USDC prestados y permitir que sean devueltos a los inversores en caso de pérdida o uso indebido de la clave privada del prestatario.
 
-The guardian may take the following actions at any time (subject to time-lock):
+El custodio puede tomar las siguientes acciones en cualquier momento (sujeto al bloqueo de tiempo):
 
-* Restrict borrowing and depositing of borrowed USDC to the exchange.
-* Repay a borrowed balance using USDC in the `StarkProxy` contract.
-* Repay a debt balance using USDC in the `StarkProxy` contract.
-* Withdraw from the StarkEx contract to the `StarkProxy` contract (e.g. as the second step of a slow withdrawal from the exchange).
-* Cancel a forced trade request initiated by the borrower.
-* Approve the borrower to withdraw an amount from the `StarkProxy` contract while circumventing the balance check.
-* Upgrade the smart contract.
+* Restringir el endeudamiento y el depósito de USDC prestado a la bolsa.
+* Repagar un saldo prestado usando USDC en el contrato de `StarkProxy`.
+* Repagar un saldo en mora usando USDC en el contrato de `StarkProxy`.
+* Transferir del contrato de StarkEx al contrato de `StarkProxy` (por ejemplo, como el segundo paso de un retiro lento de la bolsa).
+* Cancelar una solicitud de operación forzada iniciada por el prestatario.
+* Aprobar al prestatario para retirar una cantidad del contrato `StarkProxy` mientras elude la verificación de saldo.
+* Actualizar el contrato inteligente.
 
-**The guardian may take the following actions if the borrower has an outstanding debt balance (subject to time-lock):**
+**El custodio puede tomar las siguientes acciones si el prestatario tiene un saldo en mora pendiente (sujeto al bloqueo de tiempo):**
 
-* Make a forced withdrawal from the dYdX Layer 2 Protocol.
-* Make a forced trade (reduce-only) on the dYdX Layer 2 Protocol.
+* Hacer un retiro forzado del Protocolo de la capa 2 de dYdX.
+* Hacer una operación forzada (reducir-únicamente) en el Protocolo de la capa 2 de dYdX.
 
-## Staking Risks FAQ
+## Preguntas frecuentes de riesgos de participación
 
-### What are the risks of staking to the liquidity staking pool? What happens if a borrower fails to pay back borrowed funds?
+### ¿Cuáles son los riesgos de invertir en el fondo de participación de liquidez? ¿Qué sucede si un prestatario no paga los fondos prestados?
 
-A system for un-collateralized borrowing requires a much higher standard of trust that must be met by a borrower. Liquidity providers borrowing from the liquidity staking pool cannot move borrowed funds outside of the liquidity staking system and dYdX Layer 2 Protocol. Still, staked USDC could be lost if a liquidity provider were to lose funds trading and be unable to replenish its borrowed allocations through external funding sources.
+Un sistema de préstamos sin garantía requiere un estándar de confianza mucho más alto que el prestatario debe cumplir. Los proveedores de liquidez que toman prestado del grupo de participación de liquidez no pueden transferir fondos prestados fuera del sistema de participación de liquidez y el Protocolo de capa 2 de dYdX. Sin embargo, los USDC invertidos podrían perderse si un proveedor de liquidez perdiera la bolsa de fondos y no pudiese reponer sus asignaciones prestadas a través de fuentes de financiación externas.
 
-In this event, inactive funds may be subject to socialized losses as laid out below in the event of a shortfall where a borrower is late to pay back funds that have been requested for withdrawal. In case of default on borrowed funds, a delinquent borrower will face significant reputational damage.
+En este caso, los fondos inactivos pueden estar sujetos a pérdidas socializadas como se establece a continuación en el caso de un déficit en el que un prestatario se atrasa en el pago de los fondos que se han solicitado para retirar. En caso de incumplimiento de los fondos prestados, un prestatario moroso enfrentará un daño significativo para su reputación.
 
-Although each staker and borrower is party to the Revolving Credit Agreement (link [here](https://dydx.foundation/revolving-credit-agreement)), this agreement does not provide a guarantee that borrowers will repay their obligations.
+Aunque cada participante y prestatario son parte del Acuerdo de crédito rotativo (enlace [aquí](https://dydx.foundation/revolving-credit-agreement)), este acuerdo no brinda una garantía de que los prestatarios pagarán sus obligaciones.
 
-### How does the contract maintain solvency?
+### ¿Cómo mantiene el contrato la solvencia?
 
-At any point in time, the contract will be in one of the following states based on the relationship between the staked and borrowed balances:
+En cualquier momento, el contrato estará en uno de los siguientes estados según la relación entre los saldos invertidos y los prestados:
 
-![Contract Solvency](<../.gitbook/assets/image (41).png>)
+![Contract Solvency](<.. /.gitbook/assets/image (41).png>)
 
-The contract is said to be **insolvent**:
+Se dice que el contrato es **insolvente**:
 
-* if the total borrowed balance is greater than the total active balance;
-* or equivalently, if the total inactive balance is greater than the total unborrowed balance;
-* or equivalently, if the total withdrawable balance is greater than the contract’s USDC balance.
+* si el saldo total prestado es mayor que el saldo total activo;
+* o equivalentemente, si el saldo total inactivo es mayor que el saldo total no prestado;
+* o equivalentemente, si el saldo total de retirable es mayor que el saldo de USDC del contrato.
 
-Otherwise, the contract is said to be **solvent**.
+De lo contrario, se dice que el contrato es **solvente**.
 
-Because borrowing is limited to a borrower’s allocated proportion of active USDC, and because the inactive balance can only increase between epochs, the contract can typically only move from a solvent to an insolvent state during the transitions between epochs.
+Debido a que el préstamo se limita a la proporción asignada al prestatario de USDC activos, y puesto que el saldo inactivo solo puede aumentar entre etapas, el contrato generalmente solo puede pasar de un estado solvente a insolvente durante las transiciones realizadas entre etapas.
 
-If, at the start of a new epoch, the contract is insolvent, is it important to re-stabilize it as soon as possible. Solvency is restored via a mechanism called “debt accounting.” Anytime the contract is insolvent, the `markDebt()` function may be called, by anyone, by specifying a list of borrowers who have exceeded their allocations. The amount by which a borrower's borrowed balance exceeds their allocation is called the borrower's shortfall amount.
+Si, al comienzo de una nueva etapa, el contrato es insolvente, ¿es importante reestabilizarlo lo antes posible? La solvencia se restaura a través de un mecanismo llamado "contabilidad de la deuda". Cuando el contrato sea insolvente, se puede utilizar la función `markDebt()` por cualquier persona, especificando una lista de prestatarios que hayan superado sus asignaciones. La cantidad por la cual el saldo prestado de un prestatario excede su asignación se llama la cantidad de déficit del prestatario.
 
-When `markDebt()` is called, the shortfall amount of each borrower is moved out of their borrowed balance and into a balance called the debt balance. At the same time, the aggregate of these shortfall amounts is taken out of staker inactive balances and distributed as staker debt receipts. Each staker’s inactive balance will take a haircut, and each staker will receive an equivalent amount in the form of debt. In this way, the loss from insolvency is socialized (pro-rata) across all stakers holding inactive balances.
+Cuando se llama `markDebt()`, la cantidad de déficit de cada prestatario se elimina de su saldo prestado y a un saldo llamado saldo en mora. Al mismo tiempo, el total de estos montos faltantes se extrae de los saldos inactivos de los participantes y se distribuye como recibos de deuda de los inversores. El saldo inactivo de cada participante se reducirá y cada participante recibirá una cantidad equivalente en forma de deuda. De esta forma, la pérdida por insolvencia se socializa (prorratea) entre todos los interesados que mantienen saldos inactivos.
 
-This process is illustrated below:
+Este proceso se describe a continuación:
 
-![Default](<../.gitbook/assets/image (46).png>)
+![Default](<.. /.gitbook/assets/image (46).png>)
 
-### What does Debt represent?
+### ¿Qué representa una deuda?
 
-In the event of a borrower default, the shortfall amount (up to 100% of inactive balances) is converted from an inactive balance into a debt balance (socialized loss among inactive balance holders). A staker's debt balance does not entitle the staker to withdraw from the pool of staked USDC — it must be paid back specifically in the form of debt repayments.
+En caso de incumplimiento del prestatario, el monto del déficit (hasta el 100% de los saldos inactivos) pasa de ser un saldo inactivo a un saldo deudor (pérdida socializada entre los titulares de saldos inactivos). El saldo de la deuda de un inversor no le da derecho a retirarse del grupo de USDC invertidos debe devolverse específicamente a modo de reembolso de la deuda.
 
-The Debt represents a receipt for USDC which can later be redeemed for USDC, either when the Borrower makes a debt repayment, or via another means of recuperation as determined by governance.
+La deuda representa un recibo de USDC que luego se puede canjear por USDC, ya sea cuando el prestatario realiza un pago de la deuda o mediante otro medio de recuperación, según lo determine la gobernanza.
 
-### What recourses are available to stakers if a borrower defaults?
+### Si un prestatario incumple, ¿qué recursos están disponibles para las partes interesadas?
 
-Stakers and borrowers are parties to the Revolving Credit Agreement (link [here](https://dydx.foundation/revolving-credit-agreement)) which is intended to create an enforceable agreement between each staker and each borrower. In addition, the Liquidity Staking Pool smart contract is designed to give stakers recourse against borrowers, though it cannot guarantee repayment.
+Los interesados y los prestatarios son partes del Acuerdo de Crédito Rotatorio (enlace [aquí](https://dydx.foundation/revolving-credit-agreement)) que tiene como objetivo crear un acuerdo exigible entre cada interesado y cada prestatario. Además, el contrato inteligente de fondo de participación liquidez está diseñado para brindar a los participantes un recurso contra los prestatarios, aunque no puede garantizar el pago.
 
-When `markDebt()` is called on a borrower, that borrower loses the right to borrow any further funds from the contract. This right can be reinstated by governance.
+Cuando se utiliza un `markDebt()` en un prestatario, ese prestatario pierde el derecho a tomar prestados más fondos del contrato. Este derecho puede ser restablecido por la gobernanza.
 
-Once debt has been “marked,” it is removed from the main system of accounting, and can be recovered by stakers in multiple ways. If the indebted borrower pays back the debt (or if another party, such as governance, pays it back on its behalf) then the stakers who were owed the debt may recoup the funds on a first-come, first-served basis. More flexible solutions may be implemented via the “debt operator” interface on the smart contract.
+Una vez que la deuda ha sido "marcada", se elimina del sistema principal de contabilidad y los participantes pueden recuperarla de varias maneras. Si el prestatario endeudado paga la deuda (o si otra parte, como la gobernanza, la paga en su nombre), entonces las partes interesadas a las que se les debía la deuda pueden recuperar los fondos por orden de llegada. Se pueden implementar soluciones más flexibles a través de la interfaz de "operador de deuda" en el contrato inteligente.
 
-What happens in practice after stakers receive debt will depend on the context. If it was an honest mistake by an approved borrower, stakers can expect to be paid back quickly and in full. If USDC funds were lost, governance can issue a partial repayment to the affected stakers. If the resolution is uncertain, governance may choose to issue an ERC20 receipt to affected stakers, allowing them instant liquidity while waiting for a resolution. If deemed appropriate, governance could choose to issue interest payments to receipt holders until a resolution is reached.
+Lo que suceda en la práctica después de que las partes interesadas reciban la deuda dependerá del contexto. Si fue un error de un prestatario aprobado en buena fe, los participantes pueden esperar que se les pague rápidamente y en su totalidad. Si los fondos en USDC se perdieron, la gobernanza puede emitir un reembolso parcial a las partes interesadas afectadas. Si la resolución es incierta, el gobierno puede optar por emitir  a las partes afectadas un recibo ERC20, lo que les permite liquidez instantánea mientras esperan una resolución. Si lo considera apropiado, la gobernanza podría optar por emitir pagos de intereses a los titulares de recibos hasta que se llegue a una resolución.
 
-All of these cases are fundamentally supported by the staking contract, but the appropriate response has to be decided on and executed upon by dYdX governance. Depending on the situation, this may require a peripheral smart contract to be written and deployed.
+Todos estos casos están respaldados fundamentalmente por el contrato de participación, pero la gobernanza de dYdX debe decidir y ejecutar la respuesta adecuada. Dependiendo de la situación, esto puede requerir que se redacte e implemente un contrato inteligente periférico.
