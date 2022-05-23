@@ -13,7 +13,7 @@ description: Visão geral do programa de recompensas de trades.
 
 ## **Visão geral**
 
-![Earn rewards by trading on the dYdX Layer 2 Protocol](<.. /.gitbook/assets/image (17).png>)
+![Ganhe recompensas ao fazer trades no protocolo da dYdX Camada 2](<../.gitbook/assets/image (17).png>)
 
 Os tokens DYDX serão distribuídos a traders com base em uma fórmula que recompensa uma combinação de taxas pagas e posições abertas no protocolo dYdX Layer 2. Os tokens DYDX serão distribuídos dentro de um ciclo de 28 dias ao longo de um período de cinco anos, não estando sujeitos a vesting ou bloqueios. 3.835.616 DYDX serão distribuídos por epoch.
 
@@ -31,13 +31,15 @@ $$
 | R | Total de recompensa a ser dividida entre todos os traders do pool para a epoch. |
 | f | Total de taxas pagas por um trader nesta epoch. |
 | w | Pontuação individual de traders. |
-| $${\sum\limits &lt;g id="1" ctype="italic" equiv-text="_"&gt;{n} w</g>{n}}$$ | Soma de todas as pontuações de traders. |
+| $${\sum\limits _{n} w_{n}}$$ | Soma de todas as pontuações de traders. |
 | d | A taxa de posições abertas média de um trader (medida a cada minuto) em todos os mercados nesta epoch. |
 | k | Número total de traders nesta epoch. |
 | g | A stkDYDX média que um trader tem (medida aleatoriamente a cada minuto) ao longo da epoch |
-| a | 0,67 |
-| b | 0,28 |
+| a | 0,80 |
+| b | 0,15 |
 | c | 0,05 |
+
+Em [DIP-10](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-10.md), a Comunidade dYdX votou para alterar o peso do parâmetro de taxa de `a=0,67` para `a=0,8` e para diminuir o parâmetro de ordens abertas de `b=0,28` para `b=0,15.`
 
 ## Perguntas e respostas
 
@@ -51,7 +53,7 @@ O protocolo dYdX Layer 2 não está disponível para traders nos Estados Unidos 
 
 Na epoch atual, os usuários podem consultar as taxas pagas, média de posições abertas e recompensas estimadas em [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards), onde os dados de trades dos usuários se encontram.
 
-![Rewards info for the current epoch](<.. /.gitbook/assets/image (18).png>)
+![Informações de recompensas para a epoch atual](<../.gitbook/assets/image (18).png>)
 
 As recompensas de epoch passadas podem ser exibidas em [**dydx.community/history/rewards**](https://dydx.community/history/rewards) **** (em breve).
 
@@ -63,7 +65,7 @@ Os traders podem resgatar suas recompensas de trades ao final de cada epoch [aqu
 
 Os usuários precisarão clicar em “Claim (Resgatar)”, assinar uma transação e pagar as taxas de gás para o resgate de DYDX.
 
-![Portfolio overview of rewards](<.. /.gitbook/assets/image (20).png>)
+![Visão geral de recompensas do portfólio](<../.gitbook/assets/image (20).png>)
 
 ### O que são posições abertas?
 
