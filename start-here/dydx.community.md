@@ -2,7 +2,7 @@
 description: A home for governance, rewards, and staking at dydx.community
 ---
 
-# Interface
+# Интерфейс
 
 The interface for governance, rewards, and staking is live at [**dydx.community**](https://dydx.community).
 
@@ -28,7 +28,7 @@ Users can stake USDC and DYDX to earn staking rewards.
 
 Users can view their rewards earned through trading activity on the layer 2 exchange. Trading rewards are distributed every 28 days according to an epoch schedule.
 
-![Trade to receive rewards](<../.gitbook/assets/image (14) (1).png>)
+![Trade to receive rewards](<../.gitbook/assets/image (14) (2).png>)
 
 ### Portfolio & Claiming DYDX
 
