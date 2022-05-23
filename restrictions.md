@@ -1,8 +1,8 @@
 ---
-description: Restrictions on the use of DYDX and the DYDX Portal.
+description: Restricciones de uso de DYDX y del portal DYDX.
 ---
 
-# Restrictions
+# Restricciones
 
-DYDX is not available in the United States or other prohibited jurisdictions. If you are located in, incorporated or otherwise established in, or a resident of the United States of America, you are not permitted to receive a distribution of, or transact in, DYDX.
+DYDX no está disponible en los Estados Unidos ni en otras jurisdicciones prohibidas. Si estás ubicado, constituido o establecido de otro modo, o eres residente de los Estados Unidos de América, no puedes recibir una distribución ni hacer transacciones en DYDX.
 
