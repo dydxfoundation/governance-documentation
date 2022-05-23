@@ -1,160 +1,160 @@
 ---
-description: Overview of Liquidity Staking Pools.
+description: Likidite Staking Havuzlarına genel bakış.
 ---
 
-# Liquidity Staking Pool
+# Likidite Staking Havuzu
 
-2.5% \(`25,000,000 DYDX`\) will be distributed to users staking USDC to a liquidity staking pool.
+Bir likidite staking havuzunda USDC stake eden kullanıcılara %2,5 \(`25.000.000 DYDX`\) dağıtılacaktır.
 
-### Objectives
+### Hedefler
 
-* Bootstrap dYdX liquidity network effects
+* dYdX likidite ağının etkilerini artırmak
 
-## Overview
+## Genel bakış
 
-Liquidity, especially when used properly, is a core component of any successful exchange. To further liquidity network effects and incentivize professional market makers, DYDX will be distributed to users who stake USDC to the liquidity staking pool. Known and approved market makers will use the staked USDC to make markets on the Protocol, furthering liquidity available across the markets. The market makers will not be able to withdraw the USDC from the Protocol, requiring them to use it only in the Protocol. However, a portion of staked USDC could be lost if a market maker were to lose funds \(via unprofitable trading\) and be unable to replenish the liquidity staking pool. Stakers will receive DYDX, distributed continuously according to each staker’s portion of the total USDC in the pool. A staker must request to unstake USDC at least `14 days` \(**Blackout Window**\) before the epoch in order to be able to withdraw their USDC after the end of that epoch. If stakers do not request to withdraw, their staked USDC is rolled over into the next epoch.
+Likidite, özellikle de doğru kullanıldığında başarılı bir borsanın temel bileşenlerinden biridir. Likidite ağının etkilerini artırmak ve profesyonel piyasa yapıcıları teşvik etmek için likidite staking havuzunda USDC stake eden kullanıcılara DYDX dağıtılacaktır. Bilinen ve onaylanmış piyasa yapıcılar, Protokol'de piyasalar oluşturmak için stake edilen USDC'leri kullanarak piyasalarda mevcut olan likiditeyi artıracaktır. Piyasa yapıcılar Protokol'den USDC çekemeyecek ve USDC'leri sadece Protokol'de kullanmaları gerekecektir. Bununla birlikte, bir piyasa yapıcı fon kaybederse \(kâr sağlamayan alım satım işlemleri sonucunda\) ve likidite staking havuzunu besleyemezse stake eden USDC'lerin bir kısmı kaybedilebilir. Stake edenler, stake eden her bir kişinin havuzdaki toplam USDC miktarı içindeki payıyla orantılı olarak sürekli dağıtılacak bir şekilde DYDX alacaktır. Stake eden bir kişi, o dönem sona erdikten sonra **USDC**'lerini çekebilmek için dönem sona ermeden en az `14 gün` önce USDC'lerini stakingden çıkarma talebinde bulunmalıdır. Stake edenler fon çekme talebinde bulunmazsa, stake ettikleri USDC'ler bir sonraki döneme devredilir.
 
-## Approved Borrowers
+## Onaylanmış Borç Alanlar
 
-The Liquidity Staking Pool contract operates as a two-sided, undercollateralized lending system.
+Likidite Staking Havuzu sözleşmesi iki taraflı, eksik teminatlandırılmış bir borç verme sistemi şeklinde çalışır.
 
-The amount that can be withdrawn depends on a borrower's allocation percentage and the total available funds staked in the pool. Both the allocation percentage and total available funds can change, at predefined times specified by `LS1EpochSchedule`. The borrowed funds may only be used on dYdX’s Layer 2 exchange. This is enforced via the `TrustedBorrowerL2Proxy` contract which interacts with the L2 exchange contract \(`StarkPerpetual`\).
+Çekilebilecek miktar, bir borç alanın tahsis yüzdesine ve havuzda stake edilen kullanılabilir fonların toplamına bağlıdır. Hem tahsis yüzdesi hem de kullanılabilir fonlar `LS1EpochSchedule` tarafından belirlenen önceden tanımlanmış zamanlarda değişebilir. Borç alınan fonlar sadece dYdX'in Katman 2 borsasında kullanılabilir. Bu zorunluluk, L2 borsa sözleşmesi \(`StarkPerpetual`\) ile etkileşime giren `TrustedBorrowerL2Proxy` sözleşmesi aracılığıyla gözetilir.
 
-The initial approved liquidity providers include `Wintermute`, `Sixtant`, `Kronos`, `Amber`, and `MGNR`, who have been actively market-making on the Protocol since launch.
+Onaylanan ilk likidite sağlayıcılar arasında açılış tarihinden bu yana Protokol'de aktif olarak piyasa yapan `Wintermute`, `Sixtant`, `Kronos`, `Amber` ve `MGNR` yer almaktadır.
 
-| Pre-approved Borrowers | Initial Allocation Percentage | Details on Liquidity Providers |
+| Önceden Onaylanmış Borç Alanlar | İlk Tahsis Yüzdesi | Likidite Sağlayıcılar hakkındaki bilgiler |
 | :--- | :--- | :--- |
-| Wintermute | `X%` TBD | [https://dydx.exchange/blog/ama-recap-wintermute](https://dydx.exchange/blog/ama-recap-wintermute) |
-| Sixtant | Y% TBD | [https://dydx.exchange/blog/ama-recap-sixtant](https://dydx.exchange/blog/ama-recap-sixtant) |
-| Kronos \(Wootrade\) | Z% TBD | [https://dydx.exchange/blog/ama-recap-wootrade](https://dydx.exchange/blog/ama-recap-wootrade) |
-| Amber | Z% TBD |  |
-| MGNR | Z% TBD |  |
+| Wintermute | `%X` TBD | [https://dydx.exchange/blog/ama-recap-wintermute](https://dydx.exchange/blog/ama-recap-wintermute) |
+| Sixtant | %Y TBD | [https://dydx.exchange/blog/ama-recap-sixtant](https://dydx.exchange/blog/ama-recap-sixtant) |
+| Kronos \(Wootrade\) | %Z TBD | [https://dydx.exchange/blog/ama-recap-wootrade](https://dydx.exchange/blog/ama-recap-wootrade) |
+| Amber | %Z TBD |  |
+| MGNR | %Z TBD |  |
 
-When users request to unstake funds, a borrower’s allocated balance for the next epoch may drop below their currently borrowed amount. In this situation, the borrower is responsible for paying back the difference between their borrowed and allocated balances before the end of the epoch. If a borrower's borrowed balance is greater than their allocation at the start of the next epoch then they are expected and trusted to return the difference before the start of that epoch.
+Kullanıcılar fonları staking'den çıkarma talebinde bulunduğunda, bir borç alanın bir sonraki dönem için tahsis edilen bakiyesi an itibarıyla borç almış olduğu miktarın altına düşebilir. Bu durumda, borç alan kişi dönem sona ermeden önce borç aldığı ve kendisine tahsis edilen bakiyeler arasındaki farkı ödemekle yükümlüdür. Bir borç alanın borç bakiyesi bir sonraki dönemin başında kendisine tahsis edilenden büyükse, o dönemin başlangıcından önce farkı iade etmesi beklenir ve bunu yapacağına güvenilir.
 
-As borrowers borrow and repay funds, their net borrowed balance is recorded. The total net borrowed balance across all borrowers is tracked as well. The remaining balance held by the contract is called the unborrowed balance.
+Borç alanlar fon borç alırken ve geri ödeme yaparken net borç bakiyeleri kaydedilir. Tüm borç alanların toplam borç bakiyesi de izlenir. Sözleşme tarafından tutulan kalan bakiyeye ise borç alınmamış bakiye denir.
 
-The following equality holds true at all times when considering the contract as a whole:
+Sözleşmeyi bir bütün olarak düşünürken aşağıdaki denklem her zaman doğrudur:
 
-total active + total inactive = total borrowed + total unborrowed
+toplam aktif + toplam aktif olmayan = toplam borç alınan + toplam borç alınmamış
 
-### Governance
+### Yönetişim
 
-dYdX Governance is responsible for:
+dYdX Yönetişimi şunlardan sorumludur:
 
-* Doing due diligence on existing borrowers
-* Adding new borrowers to the Staking pool 
-* Changing allocations of borrowed funds to approved borrowers
-  * The \`setBorrowerAllocations\` and \`setBorrowingRestriction\` functions are called to change the allocations of certain borrowers. They can be used to add and remove borrowers. Increases take effect in the next epoch, but decreases will restrict borrowing immediately. These functions cannot be called during the blackout window.
-* Epoch length and blackout window are set upon creating the contract but can be changed by dYdX governance
+* Mevcut borç alanları kapsamlı bir incelemeye tabi tutmak
+* Staking havuzuna yeni borç alanlar eklemek
+* Onaylanmış borç alanların borç alınmış fon tahsislerini değiştirmek
+   * Belirli borç alanların tahsislerini değiştirmek için \`setBorrowerAllocations\` ve \`setBorrowingRestriction\` fonksiyonları çağrılır. Bu fonksiyonlar borç alanlar eklemek ve borç alanları kaldırmak için kullanılabilir. Artışlar bir sonraki dönemde yürürlüğe girer ancak düşüşler borç almayı hemen kısıtlar. Bu fonksiyonlar karartma süresi boyunca çağrılamaz.
+* Dönem uzunluğu ve karartma süresi sözleşme oluşturulduğunda belirlenir ancak dYdX yönetişimi tarafından değiştirilebilir
 
-### Staked Balance Accounting
+### Stake Edilen Bakiyelerin Muhasebesi
 
-A staked balance is in one of two states:
+Stake edilen bir bakiye şu iki durumdan birinde olur:
 
-* active: Available for borrowing; earning staking rewards; cannot be withdrawn by staker.
-* inactive: Unavailable for borrowing; does not earn rewards; can be withdrawn by the staker.
+* Aktif: Borç almak için kullanılabilir; staking ödülleri kazanır; stake eden kişi tarafından çekilemez.
+* Aktif Değil: Borç almak için kullanılamaz; ödül kazanmaz; stake eden kişi tarafından çekilebilir.
 
-A staker may have a combination of active and inactive balances. Funds are accounted for epoch-by-epoch as shown in the following example:
+Stake eden bir kişi, hem aktif hem de aktif olmayan bakiyelere sahip olabilir. Fonlar aşağıdaki örnekte gösterilen şekilde dönem bazında hesaplanır:
 
-The following operations affect staked balances as follows:
+Aşağıdaki işlemler stake edilen bakiyeleri belirtilen şekilde etkiler:
 
-* deposit: Increase active balance.
-* request withdrawal: At the end of the current epoch, move some active funds to inactive.
-* withdraw: Decrease inactive balance.
-* transfer: Move some active funds to another staker.
+* Fon Yatırma: Aktif bakiyeyi artırır.
+* Fon Çekme Talebi: Mevcut dönemin sonunda, bazı aktif fonları aktif olmayan bir konuma taşır.
+* Fon Çekme: Aktif olmayan bakiyeyi azaltır.
+* Transfer: Bazı aktif fonları stake eden başka bir kişiye aktarır.
 
-To encode the fact that a balance may be scheduled to change at the end of a certain epoch, we store each balance as a struct of three fields: currentEpoch, currentEpochBalance, and nextEpochBalance. Inactive user balances also make use of the shortfallCounter field.
+Belirli bir dönemin sonunda bir bakiyenin değişmesinin planlanmış olabileceğini kodlamak için her bakiyeyi üç alandan oluşan bir yapı halinde saklarız: currentEpoch, currentEpochBalance ve nextEpochBalance. Aktif olmayan kullanıcı bakiyeleri de shortfallCounter alanını kullanır.
 
-## FAQ
+## SSS
 
-### How do I earn staking rewards?
+### Staking ödüllerini nasıl kazanabilirim?
 
-Stakers can deposit USDC at any time to the liquidity staking pool and start earning rewards immediately. DYDX rewards are earned on a continuous basis according to each staker’s share of the total pool. Rewards can be claimed and withdrawn at any time.
+Stake edenler diledikleri zaman likidite staking havuzuna USDC yatırabilir ve hemen ödül kazanmaya başlayabilir. DYDX ödülleri, her bir stake eden kişinin toplam havuzdaki payına göre sürekli olarak kazanılır. Ödüller istendiği zaman alınabilir ve çekilebilir.
 
-### How do I deposit and stake USDC to the Liquidity Pool?
+### Likidite Havuzuna nasıl USDC yatırabilir ve stake edebilirim?
 
-To deposit and stake and funds, users call the \`stake\` [function](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L59). Users can also deposit and stake on behalf of another address by calling the \`stakeFor\` [function](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L64).
+Kullanıcılar fon yatırmak ve stake etmek için \'stake\' [fonksiyonunu](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L59) çağırır. Kullanıcılar ayrıca \'stakeFor\' [fonksiyonunu](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L64) çağırarak başka bir adres adına da fon yatırabilir ve stake edebilirler.
 
-To stake USDC to the Liquidity Pool, following the following steps:
+Likidite Havuzunda USDC stake etmek için aşağıdaki adımları izleyin:
 
-* Click on “Stake”
-* You must enable USDC the first time you deposit. You will only have to do this once.
-* Enter the amount of USDC you want to stake to the pool
-* Click “Stake Funds” - you will need to pay gas fees to stake and unstake funds
+* "Stake Et" seçeneğine tıklayın
+* İlk yatırma işleminizde USDC'yi etkinleştirmeniz gerekir. Bunu sadece bir kez yapmanız gerekecektir.
+* Havuzda stake etmek istediğiniz USDC miktarını girin
+* "Fonları Stake Et" seçeneğine tıklayın. Fonları stake etmek ve staking'den çıkarmak için gas ücretleri ödemeniz gerekecektir
 
 ![](https://lh4.googleusercontent.com/caSDz783Gi-asRNYP8Gm8L5qv_yAuJZwEmUAfl8I1MfHecIF2In10IQCqZBCIpxeXl90eT28GGLbZyts8-x9U5w4Y6LBC4kyehMEalsZu_-aI11S6V7nwPrwtcc75m2M8847jFvv)
 
-Staked funds are active and start earning rewards immediately.
+Stake edilen fonlar aktiftir ve hemen ödül kazanmaya başlar.
 
-### Rewards Accounting
+### Ödül Muhasebesi
 
-Active funds earn rewards for the period of time that they remain active. This means, after requesting a withdrawal of some funds, those funds will continue to earn rewards until the end of the epoch. For example:
+Aktif fonlar, aktif kaldıkları süre boyunca ödül kazanır. Bu da bazı fonların çekilmesi talep edildikten sonra o fonların dönem sonuna kadar ödül kazanmaya devam edeceği anlamına gelir. Örneğin:
 
-In the above scenario, the user would earn rewards for the period from t\_0 to t\_2, varying with the total staked balance in that period. If the user only requests a withdrawal for a part of their balance, then the remaining balance would continue earning rewards beyond t\_2.
+Yukarıdaki senaryoda, kullanıcı t\_0'dan t\_2'ye kadar olan süre için ödül kazanır ve ödül de o dönemde stake edilen toplam bakiyeye göre değişir. Kullanıcı bakiyesinin yalnızca bir kısmını çekmeyi talep ederse, geriye kalan bakiye t\_2'nin ötesinde de ödül kazanmaya devam eder.
 
-### What is the blackout window?
+### Karartma Süresi nedir?
 
-A blackout window is a period of time during which users cannot request withdrawals of staked funds. The \`requestWithdrawal\` function cannot be called during a blackout window, which is initially configured as the last 14 days of an epoch. New epochs start every 28 days. In other words, users can request a withdrawal for the next epoch up to 7 days before the end of a given epoch.
+Karartma süresi, kullanıcıların stake edilen fonlarını çekmeyi talep edemediği bir zaman dilimidir. \'requestWithdrawal\' fonksiyonu, ilk başta bir dönemin son 14 günü olarak yapılandırılan karartma süresi boyunca çağrılamaz. Yeni dönemler 28 günde bir başlar. Diğer bir deyişle, kullanıcılar belirli bir dönemin sona ermesinden 7 gün öncesine kadar bir sonraki dönemde fon çekmeyi talep edebilir.
 
-### How do I withdraw funds from the staking pool? How long does it take?
+### Stake havuzundan nasıl fon çekebilirim? Ne kadar sürer?
 
-An epoch schedule is enforced for withdrawals in order to provide predictability and a regular cadence for the availability of funds in the pool. A staker must request to unstake funds at least 14 days before the end of an epoch in order to be able to withdraw their funds after the end of that epoch. If stakers do no request to withdraw, their staked USDC is rolled over into the next epoch
+Havuzdaki fonların kullanılabilirliği için öngörülebilirlik ve düzenli bir tempo sağlamak amacıyla çekim işlemleri için bir dönem takvimi uygulanmaktadır. Stake eden bir kişi, fonlarını o dönem sona erdikten sonra çekebilmek için bir dönemin sona ermesinden en az 14 gün önce fonları staking'den çıkarma talebinde bulunmalıdır. Stake edenler hiçbir fon çekme talebinde bulunmazsa, stake ettikleri USDC'ler bir sonraki döneme devredilir
 
-To withdraw funds, users call the \`requestWithdrawal\` [function](https://github.com/dydxprotocol/governance-private/blob/master/contracts/liquidity/v1/impl/LS1Staking.sol#L73-L83) to request to withdraw funds for the next epoch. User funds will remain staked and not withdrawable for the current epoch. Starting in the next epoch, funds will be “inactive” and available for withdrawal.
+Fonlarını çekebilmek amacıyla, kullanıcılar bir sonraki dönemde fon çekme talebinde bulunmak için \`requestWithdrawal\` [fonksiyonunu](https://github.com/dydxprotocol/governance-private/blob/master/contracts/liquidity/v1/impl/LS1Staking.sol#L73-L83) çağırır. Kullanıcı fonları stake edilmeye devam edecektir ve mevcut dönem boyunca çekilemez. Bir sonraki dönemden başlayarak, fonlar "aktif değil" olacak ve çekilebilecektir.
 
-In the next epoch, users call the \`[withdrawStake](https://github.com/dydxprotocol/governance-private/blob/master/contracts/liquidity/v1/impl/LS1Staking.sol#L91)\` function to withdraw inactive funds to a specific address. Users can select the amount of inactive funds they want to withdraw or call the \`withdrawMaxStake\` function to withdraw all inactive funds. The \`withdrawMaxStake\` function is less gas-efficient than querying the max via eth\_call and calling \`withdrawStake\(\)\`.
+Bir sonraki dönemde, kullanıcılar aktif olmayan fonlarını belirli bir adrese çekmek için \`[withdrawStake](https://github.com/dydxprotocol/governance-private/blob/master/contracts/liquidity/v1/impl/LS1Staking.sol#L91)\` fonksiyonunu çağırır. Kullanıcılar çekmek istedikleri aktif olmayan fon miktarını seçebilir veya aktif olmayan tüm fonlarını çekmek için \`withdrawMaxStake\` fonksiyonunu çağırabilir. \`withdrawMaxStake\` fonksiyonunu çağırmak, eth\_call aracılığıyla maksimum değeri sorgulayıp \`withdrawStake\()\` fonksiyonunu çağırmaktan daha fazla gas ücreti ödemenize neden olur.
 
-### What are the risks of staking to the liquidity staking pool? What happens if a borrower fails to pay back its debt?
+### Likidite staking havuzunda stake etmenin riskleri nelerdir? Borç alan bir kişi borcunu geri ödeyemezse ne olur?
 
-Uncollateralized loans come with a much higher standard of trust that must be met by a borrower. Liquidity providers cannot withdraw staked USDC from the Protocol, requiring them to use it only in the Protocol. However, staked USDC could be lost if a liquidity provider were to lose funds trading and be unable to replenish their borrowed allocations through external funding sources.
+Teminatlandırılmamış borçlar, borç alan kişi tarafından karşılanması gereken çok daha yüksek bir güven standardı içerir. Likidite sağlayıcılar stake edilen USDC'leri Protokol'den çekemez ve bunları sadece Protokol'de kullanmaları gerekir. Bununla birlikte, bir likidite sağlayıcısı alım satım işlemlerinde fon kaybederse, stake edilen USDC'lerini kaybedebilir ve borç tahsisini dış finansman kaynakları aracılığıyla yenileyemeyebilir.
 
-In this event, inactive funds may be subject to pro-rata socialized losses in the event of a shortfall where a borrower is late to pay back funds that have been requested for withdrawal. In case of default on an uncollateralized loan, a delinquent borrower will face significant reputational damage.
+Bu durumda, borç alanın fon çekme talebinde bulunulan fonları geri ödemekte gecikmesi durumunda eksi bakiyeye düşmesi halinde aktif olmayan fonlara kayıplar için orantılı olarak el koyulabilir. Teminatlandırılmamış bir borçta temerrüde düşmesi durumunda, kabahatli bir borç alanın itibarı önemli ölçüde zedelenir.
 
-Contract solvency:
+Sözleşmenin ödeme kabiliyeti:
 
-At any point in time, the contract will be in one of the following states based on the relationship between the staked and borrowed balances:
+Herhangi bir zamanda, sözleşme stake edilen ve borç alınan bakiyeler arasındaki ilişkiye bağlı olarak aşağıdaki durumlardan birinde olacaktır:
 
 | ![](https://lh3.googleusercontent.com/nTJuAC4WSmhOiAGkM6r-YWzy6z2MIHQnydr8U0n-TReAh_gfqD6ZyalxQpYv9RNBsJzrlw78QB_wp9utqBc-PQZipwzWpxDifD1_zEtyVBhYXRl_f8V-iDMwLBO70LQsftDlXrsr) | ![](https://lh3.googleusercontent.com/x_Yev8ZJrYYm8FTDSdoj0jDXEBY_b9xOC69lpQudQdoALQ_tuQFEbFc5hAU6TbpGNCB6J2BsjMwHb59GrCqR52747j45jSC_BmyzyiY72gTRk4oamv35gO8PPZalA43COZF1pgtP) |
 | :--- | :--- |
 | ![](https://lh6.googleusercontent.com/wX37DQoW9oR4OhJzb4hc5ZxPE1X05OPfyETbUv7WTY0b__WH2PydjJoBuQIREHgeWL18GDn7E1ORgGmcre0R6iYPmwSsdFNzBZ7DBPs0wkajjoDBjxDYDPHcet_-dPPAyS1GWL0v) |  |
 
-The contract is said to be insolvent if:
+Şu durumlarda sözleşmenin ödeme aczine düştüğü söylenir:
 
-* the total borrowed balance is greater than the total active balance
-* equivalently: the total inactive balance is greater than the total unborrowed balance
-* equivalently: the total withdrawable balance is greater than the contract’s USDC balance
+* toplam borç bakiyesi toplam aktif bakiyeden fazla ise
+* benzer şekilde, toplam aktif olmayan bakiye toplam borç alınmamış bakiyeden fazla ise
+* benzer şekilde, toplam çekilebilir bakiye sözleşmenin USDC bakiyesinden fazla ise
 
-Otherwise, the contract is said to be solvent.
+Aksi takdirde, sözleşmenin borcunu ödeyebilecek durumda olduğu söylenir.
 
-Because borrowing is limited to a borrower’s allocated proportion of active funds, and because the inactive balance can only increase between epochs \(except in the case of “naked” USDC transfers to the contract\), the contract can typically only move from a solvent to an insolvent state during the transitions between epochs.
+Borç alma, bir borç alana tahsis edilen aktif fon oranı ile sınırlı olduğu ve aktif olmayan bakiyenin sadece dönemler arasında yükselebileceği için \(sözleşmeye "çıplak" USDC transferleri hariç\), sözleşme genellikle sadece dönemler arasındaki geçişler sırasında borcunu ödeyebilecek durumdan ödeme aczine düşmüş duruma geçebilir.
 
-An individual borrower will always have at least a week’s notice before their own allocated balance falls below their outstanding borrowed balance. Such a transition can only happen between epochs.
+Bireysel bir borç alanın kendisine tahsis edilen bakiyesi ödenmemiş borç bakiyesinin altına düşmeden önce, her zaman en az bir hafta öncesinden bu durum kendisine bildirilir. Böyle bir geçiş sadece dönemler arasında gerçekleşebilir.
 
-While the contract is insolvent, users may be unable to withdraw all the funds they are owed. Furthermore, the situation poses additional risks if there is any uncertainty around whether the shortfall will be addressed, and how quickly:
+Sözleşme ödeme aczine düşmüş durumdayken, kullanıcılar alacaklı oldukları tüm fonları çekemeyebilir. Dahası, eksi bakiyenin giderilip giderilemeyeceği ve ne kadar hızlı giderilebileceği konusunda herhangi bir belirsizlik varsa durum ek riskler de içerir:
 
-1. Users may be disincentivized from staking additional funds, since doing so may put them in a position where they can’t get their funds back.
-2. Currently staked users may be incentivized to “run for the exit” and withdraw as soon as possible, in order to maximize their chances of getting their funds back.
+1. Kullanıcılar daha fazla fon stake etmek istemeyebilir çünkü bunu yapmak onları fonlarını geri alamayacakları bir konuma sokabilir.
+2. Hâlihazırda stake eden kullanıcılar, fonlarını geri alma ihtimallerini en üst düzeye çıkarmak için "çıkışa koşmak" ve mümkün olan en kısa sürede fonlarını çekmek isteyebilir.
 
-Losses are tracked via indexes which represent the fraction of inactive funds that were converted into debt during a given shortfall event. Each staker inactive balance stores a cached shortfall counter, representing the number of shortfalls that occurred in the past relative to when the balance was last updated. Any losses incurred by an inactive balance translate into an equal credit to that staker's debt balance. See LS1DebtAccounting for more info about how the index is calculated.
+Kayıplar, bir eksi bakiyeye düşme olayı sırasında borca dönüştürülmüş aktif olmayan fonların oranını temsil eden endeksler aracılığıyla takip edilir. Stake eden her bir kişinin bakiyesinde önbelleğe alınmış bir eksi bakiye sayacı bulunur ve bu sayaç bakiyenin en son ne zaman güncellendiğine göre geçmişte meydana gelen eksi bakiyelerin sayısını temsil eder. Aktif olmayan bir bakiyenin maruz kaldığı tüm kayıplar, stake eden o kişinin borç bakiyesine aynı oranda yansıtılır. Endeksin nasıl hesaplandığına dair daha fazla bilgi için LS1DebtAccounting'e bakın.
 
-If the contract is insolvent, the markDebt\(\) function may be called \(by anyone\), targeting a borrower who has exceeded their allocation. The amount by which their borrowed balance exceeds their allocation balance is called their debt balance. The amount of the debt balance is moved out of their borrowed balance and into a special balance used specifically to account for unpaid shortfall debt.
+Sözleşme ödeme aczine düşmüşse, tahsisini aşmış bir borç alan hedeflenerek \(herkes tarafından\) markDebt\(\) fonksiyonu çağrılabilir. Borç alanın borç alınmış bakiyesinin tahsis bakiyesini aşan miktarı borç bakiyesi olarak adlandırılır. Borç bakiyesinin miktarı borç alınan bakiyeden düşülür ve ödenmemiş eksi bakiye borcunu hesaplamak için kullanılan özel bir bakiyeye taşınır.
 
-An equal adjustment is made to the accounting of staked funds. An amount equal to the debt amount is removed from inactive balances and added to a special balance accounting for shortfall debt owed to stakers. Each staker’s inactive balance will take a haircut, and they will receive an equivalent amount in the form of debt. In this way, the loss from insolvency is socialized \(pro-rata\) across all stakers holding inactive balances.
+Stake edilen fonların hesaplanmasında da buna eşit bir ayarlama yapılır. Borç miktarına eşit bir miktar aktif olmayan bakiyelerden düşülür ve stake edenlere borçlu olunan eksi bakiye borcunu hesaplamak için özel bir bakiyeye eklenir. Her bir stake eden kişinin aktif olmayan bakiyesinden bir kesinti yapılacak ve bu kişi borç şeklinde eş değer bir miktar alacaktır. Bu şekilde, ödeme aczine düşünce yaşanan kayıplar, aktif olmayan bakiyelere sahip tüm stake edenlerden tahsil edilir \(orantılı olarak\).
 
-This process is illustrated below:
+Bu süreç aşağıda gösterilmektedir:
 
 ![](https://lh5.googleusercontent.com/2b2e67wVF3DL32NU0ykTVV0PJWaJ_bdmRQRKgx-5c3_qr_nWNYsuE77JviLtbBxXzASEfIp2Fw4hvzRPeM1a7TAIxq0NYUfo3dZLUhChilDpa5Ygq-YugSvNXKmyf2ul3GQM22SZ)
 
-If the indebted borrower pays back the debt \(or if another party, such as governance, pays it back on their behalf\) then the stakers who were owed the debt may recoup the funds on a first-come first-served basis.
+Borçlu olan borç alan borcunu geri öderse \(veya yönetişim gibi başka bir taraf onun adına geri öderse\), borcun alacaklısı olan stake edenler ilk gelen alır esasında fonları alabilir.
 
-### What does Debt represent?
+### Borç neyi temsil eder?
 
-The Deb
+Borç
 
-### Is there any recourse for stakers if a borrower defaults?
+### Borç alan bir kişi temerrüde düştüğü takdirde stake edenler için herhangi bir yasal çözüm var mı?
 
-When markDebt\(\) is called on a borrower, that borrower loses the right to borrow any further funds from the contract. This right can be reinstated by governance.
+Bir borç alan için markDebt\(\) çağrıldığında, borç alan sözleşmeden daha fazla fon borç alma hakkını kaybeder. Bu hak yönetişim tarafından yeniden verilebilir.
 
-Potentially add content on market maker agreement with the Foundation
+Potansiyel olarak Vakıf ile piyasa yapıcı sözleşmesi hakkında içerik ekleyebilirsiniz
 

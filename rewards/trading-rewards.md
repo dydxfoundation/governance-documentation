@@ -71,6 +71,47 @@ Toplam açık faiz, belirli bir piyasadaki tüm uzun veya kısa açık pozisyonl
 
 Aşağıdaki tabloda yatırımcılar A, B, C, D ve E'nin alım satım faaliyetleri gösterilmektedir. Her günün alım satım faaliyetlerini takiben açık faiz USDC cinsinden hesaplanmaktadır:
 
+=======
+| $${\sum\limits &lt;g id="1" ctype="italic" equiv-text="_"&gt;{n} w</g>{n}}$$ | Tüm yatırımcı puanlarının toplamı. |
+| d | Bir yatırımcının bu dönemde tüm piyasalardaki ortalama açık faizi (her dakika ölçülür). |
+| k | Bu dönemdeki toplam yatırımcı sayısı. |
+| g | Bir yatırımcının dönem boyunca tuttuğu ortalama stkDYDX (her dakika rastgele ölçülür) |
+| a | 0,67 |
+| b | 0,28 |
+| c | 0,05 |
+
+## SSS
+
+### Alım satım ödüllerini kimler alabilir?
+
+dYdX Katman 2 protokolündeki tüm yatırımcılar alım satım ödülleri olarak DYDX alabilir.
+
+dYdX Katman 2 Protokolü, dYdX Trading Inc.'in [Kullanım Şartları](https://dydx.exchange/terms)'nda tanımlandığı üzere Amerika Birleşik Devletleri ve Kısıtlanmış Bölgelerdeki yatırımcılar tarafından kullanılamaz.
+
+### Alım Satım Ödülleri programında ne kadar DYDX kazandım?
+
+Kullanıcılar, mevcut dönemde kullanıcıların alım satım verilerinin yer aldığı [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) sayfasında ödenen ücretleri, ortalama açık faizi ve tahmini alım satım ödüllerini görebilir.
+
+![Rewards info for the current epoch](<.. /.gitbook/assets/image (18).png>)
+
+Geçmiş dönemlerde alınan ödüller, [**dydx.community/history/rewards**](https://dydx.community/history/rewards) sayfasında görüntülenebilir **** (yakında eklenecek).
+
+### Alım Satım Ödüllerimi nasıl alabilirim? Kazandığım DYDX'leri ne zaman çekebilir ve transfer edebilirim?
+
+Alım Satım Ödülleri aracılığıyla kazanılan DYDX token'ları her dönemin sonunda transfer edilebilir. DYDX token sahiplerinin dönem sona erdikten sonra token'larını almak için yaklaşık `7 gün` (**Bekleme Süresi**) beklemeleri gerekir. Token'lar talep edildikten sonra dYdX yönetişimi için kullanılabilir.
+
+Yatırımcılar her dönem sonunda, **Bekleme Süresi** sona erdikten sonra alım satım ödüllerini [buradan](https://dydx.community/dashboard) talep edebilir.
+
+Kullanıcılar DYDX'lerini alabilmek için "Talep Et" seçeneğine tıklamalı, bir işlemi imzalamalı ve gas ücretlerini ödemelidir.
+
+![Portfolio overview of rewards](<.. /.gitbook/assets/image (20).png>)
+
+### Açık Faiz nedir?
+
+Toplam açık faiz, belirli bir piyasadaki tüm uzun veya kısa açık pozisyonların USD değeridir (uzun pozisyonların toplam birimi her zaman kısa pozisyonların toplam birimine eşittir) Açık faizin artması piyasaya yeni veya ek para geldiğini, düşmesi ise piyasadan para çıktığını gösterir.
+
+Aşağıdaki tabloda yatırımcılar A, B, C, D ve E'nin alım satım faaliyetleri gösterilmektedir. Her günün alım satım faaliyetlerini takiben açık faiz USDC cinsinden hesaplanmaktadır:
+
 | Zaman | Alım Satım Etkinliği | Toplam Net Açık Faiz (USDC) |
 | ------- | -------------------------------------------------------------------------- | ------------------------------ |
 | 1 Temmuz | **A Yatırımcısı** 30.000 $ fiyatla 1 BTC alıyor ve **B Yatırımcısı** 30.000 $ fiyatla 1 BTC satıyor | 30.000 $ |

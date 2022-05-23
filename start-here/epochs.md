@@ -1,139 +1,139 @@
 ---
-description: An overview of the epoch system
+description: Dönem sistemine genel bir bakış
 ---
 
-# Epochs
+# Dönemler
 
-All rewards and staking contracts operate on `28 days` cycles, referred to as **epochs**. A new epoch automatically begins when the current epoch ends.
+Tüm ödüller ve staking sözleşmeleri **dönem** olarak adlandırılan `28 günlük` döngülerle işler. Mevcut dönem sona erdiğinde otomatik olarak yeni bir dönem başlar.
 
-The following will occur at the end of each epoch:
+Her dönemin sonunda şunlar gerçekleşir:
 
-* **Trading Rewards** are distributed. Rewards are claimable at [**dydx.community**](https://dydx.community) approximately `7 days` after the end of the epoch.
-* **Liquidity Provider Rewards** are distributed. Rewards are claimable at [**dydx.community**](https://dydx.community) approximately `7 days` after the end of the epoch.
-* Requested withdrawals for the **Liquidity Staking Pool** in the ended epoch may be withdrawn.
-* Requested withdrawals for the **Safety Staking Pool** in the ended epoch may be withdrawn.
+* **Alım Satım Ödülleri** dağıtılır. Dönemin sona ermesinden yaklaşık `7 gün` sonra [**dydx.community**](https://dydx.community) sitesinde ödüller alınabilir.
+* **Likidite Sağlayıcı Ödülleri** dağıtılır. Dönemin sona ermesinden yaklaşık `7 gün` sonra [**dydx.community**](https://dydx.community) sitesinde ödüller alınabilir.
+* Sona eren dönemde **Likidite Staking Havuzundan** talep edilen çekme işlemleri gerçekleştirilebilir.
+* Sona eren dönemde **Güvenlik Staking Havuzunda** talep edilen çekme işlemleri gerçekleştirilebilir.
 
-The following will occur only at the end of **Epoch 0**:
+Şunlar sadece **Dönem 0'ın** sonunda gerçekleşir:
 
-* Retroactive Mining Rewards will be distributed. Rewards are claimable at [**dydx.community**](https://dydx.community) approximately `8 days` after the end of Epoch 0.&#x20;
-* Transfers of DYDX are initially restricted. The Initial Transfer Restriction period will be lifted approximately `8 days` after the end of Epoch 0.&#x20;
-* **DYDX will become transferable on September 8th, 2021 at 15:00:00 UTC.**
+* Geriye Dönük Madencilik Ödülleri dağıtılır. Dönem 0'ın sona ermesinden yaklaşık `8 gün` sonra [**dydx.community**](https://dydx.community) sitesinde ödüller alınabilir.
+* DYDX transferleri ilk başta kısıtlanmıştır. İlk Baştaki Transfer Kısıtlama süresi Dönem 0'ın sona ermesinden yaklaşık `8 gün` sonra kaldırılacaktır.
+* **DYDX, 8 Eylül 2021 günü saat 18.00.00'den (TSİ) itibaren transfer edilebilir.**
 
-**Epoch 0** will go live on **August 3rd, 2021 at 15:00:00 UTC**. The following table outlines epoch start and end dates (which can be modified by dYdX governance):
+**Dönem 0**, **3 Ağustos 2021 günü saat 18.00.00'de (TSİ) başlayacaktır**. Aşağıdaki tabloda dönem başlangıç ve sona erme tarihleri verilmektedir (bu tarihler dYdX yönetişimi tarafından değiştirilebilir):
 
-| Epoch | Start Date (UTC)    | End Date (UTC)      | Days | Cumulative Years |
+| Dönem | Başlangıç Tarihi (TSİ) | Bitiş Tarihi (TSİ) | Gün | Kümülatif Yıl |
 | ----- | ------------------- | ------------------- | ---- | ---------------- |
-| 0     | 8/3/2021 15:00:00   | 8/31/2021 15:00:00  | 28   | 0.08             |
-| 1     | 8/31/2021 15:00:00  | 9/28/2021 15:00:00  | 28   | 0.15             |
-| 2     | 9/28/2021 15:00:00  | 10/26/2021 15:00:00 | 28   | 0.23             |
-| 3     | 10/26/2021 15:00:00 | 11/23/2021 15:00:00 | 28   | 0.31             |
-| 4     | 11/23/2021 15:00:00 | 12/21/2021 15:00:00 | 28   | 0.38             |
-| 5     | 12/21/2021 15:00:00 | 1/18/2022 15:00:00  | 28   | 0.46             |
-| 6     | 1/18/2022 15:00:00  | 2/15/2022 15:00:00  | 28   | 0.54             |
-| 7     | 2/15/2022 15:00:00  | 3/15/2022 15:00:00  | 28   | 0.61             |
-| 8     | 3/15/2022 15:00:00  | 4/12/2022 15:00:00  | 28   | 0.69             |
-| 9     | 4/12/2022 15:00:00  | 5/10/2022 15:00:00  | 28   | 0.77             |
-| 10    | 5/10/2022 15:00:00  | 6/7/2022 15:00:00   | 28   | 0.84             |
-| 11    | 6/7/2022 15:00:00   | 7/5/2022 15:00:00   | 28   | 0.92             |
-| 12    | 7/5/2022 15:00:00   | 8/2/2022 15:00:00   | 28   | 1.00             |
-| 13    | 8/2/2022 15:00:00   | 8/30/2022 15:00:00  | 28   | 1.07             |
-| 14    | 8/30/2022 15:00:00  | 9/27/2022 15:00:00  | 28   | 1.15             |
-| 15    | 9/27/2022 15:00:00  | 10/25/2022 15:00:00 | 28   | 1.23             |
-| 16    | 10/25/2022 15:00:00 | 11/22/2022 15:00:00 | 28   | 1.30             |
-| 17    | 11/22/2022 15:00:00 | 12/20/2022 15:00:00 | 28   | 1.38             |
-| 18    | 12/20/2022 15:00:00 | 1/17/2023 15:00:00  | 28   | 1.46             |
-| 19    | 1/17/2023 15:00:00  | 2/14/2023 15:00:00  | 28   | 1.53             |
-| 20    | 2/14/2023 15:00:00  | 3/14/2023 15:00:00  | 28   | 1.61             |
-| 21    | 3/14/2023 15:00:00  | 4/11/2023 15:00:00  | 28   | 1.69             |
-| 22    | 4/11/2023 15:00:00  | 5/9/2023 15:00:00   | 28   | 1.76             |
-| 23    | 5/9/2023 15:00:00   | 6/6/2023 15:00:00   | 28   | 1.84             |
-| 24    | 6/6/2023 15:00:00   | 7/4/2023 15:00:00   | 28   | 1.92             |
-| 25    | 7/4/2023 15:00:00   | 8/1/2023 15:00:00   | 28   | 1.99             |
-| 26    | 8/1/2023 15:00:00   | 8/29/2023 15:00:00  | 28   | 2.07             |
-| 27    | 8/29/2023 15:00:00  | 9/26/2023 15:00:00  | 28   | 2.15             |
-| 28    | 9/26/2023 15:00:00  | 10/24/2023 15:00:00 | 28   | 2.22             |
-| 29    | 10/24/2023 15:00:00 | 11/21/2023 15:00:00 | 28   | 2.30             |
-| 30    | 11/21/2023 15:00:00 | 12/19/2023 15:00:00 | 28   | 2.38             |
-| 31    | 12/19/2023 15:00:00 | 1/16/2024 15:00:00  | 28   | 2.45             |
-| 32    | 1/16/2024 15:00:00  | 2/13/2024 15:00:00  | 28   | 2.53             |
-| 33    | 2/13/2024 15:00:00  | 3/12/2024 15:00:00  | 28   | 2.61             |
-| 34    | 3/12/2024 15:00:00  | 4/9/2024 15:00:00   | 28   | 2.68             |
-| 35    | 4/9/2024 15:00:00   | 5/7/2024 15:00:00   | 28   | 2.76             |
-| 36    | 5/7/2024 15:00:00   | 6/4/2024 15:00:00   | 28   | 2.84             |
-| 37    | 6/4/2024 15:00:00   | 7/2/2024 15:00:00   | 28   | 2.92             |
-| 38    | 7/2/2024 15:00:00   | 7/30/2024 15:00:00  | 28   | 2.99             |
-| 39    | 7/30/2024 15:00:00  | 8/27/2024 15:00:00  | 28   | 3.07             |
-| 40    | 8/27/2024 15:00:00  | 9/24/2024 15:00:00  | 28   | 3.15             |
-| 41    | 9/24/2024 15:00:00  | 10/22/2024 15:00:00 | 28   | 3.22             |
-| 42    | 10/22/2024 15:00:00 | 11/19/2024 15:00:00 | 28   | 3.30             |
-| 43    | 11/19/2024 15:00:00 | 12/17/2024 15:00:00 | 28   | 3.38             |
-| 44    | 12/17/2024 15:00:00 | 1/14/2025 15:00:00  | 28   | 3.45             |
-| 45    | 1/14/2025 15:00:00  | 2/11/2025 15:00:00  | 28   | 3.53             |
-| 46    | 2/11/2025 15:00:00  | 3/11/2025 15:00:00  | 28   | 3.61             |
-| 47    | 3/11/2025 15:00:00  | 4/8/2025 15:00:00   | 28   | 3.68             |
-| 48    | 4/8/2025 15:00:00   | 5/6/2025 15:00:00   | 28   | 3.76             |
-| 49    | 5/6/2025 15:00:00   | 6/3/2025 15:00:00   | 28   | 3.84             |
-| 50    | 6/3/2025 15:00:00   | 7/1/2025 15:00:00   | 28   | 3.91             |
-| 51    | 7/1/2025 15:00:00   | 7/29/2025 15:00:00  | 28   | 3.99             |
-| 52    | 7/29/2025 15:00:00  | 8/26/2025 15:00:00  | 28   | 4.07             |
-| 53    | 8/26/2025 15:00:00  | 9/23/2025 15:00:00  | 28   | 4.14             |
-| 54    | 9/23/2025 15:00:00  | 10/21/2025 15:00:00 | 28   | 4.22             |
-| 55    | 10/21/2025 15:00:00 | 11/18/2025 15:00:00 | 28   | 4.30             |
-| 56    | 11/18/2025 15:00:00 | 12/16/2025 15:00:00 | 28   | 4.37             |
-| 57    | 12/16/2025 15:00:00 | 1/13/2026 15:00:00  | 28   | 4.45             |
-| 58    | 1/13/2026 15:00:00  | 2/10/2026 15:00:00  | 28   | 4.53             |
-| 59    | 2/10/2026 15:00:00  | 3/10/2026 15:00:00  | 28   | 4.60             |
-| 60    | 3/10/2026 15:00:00  | 4/7/2026 15:00:00   | 28   | 4.68             |
-| 61    | 4/7/2026 15:00:00   | 5/5/2026 15:00:00   | 28   | 4.76             |
-| 62    | 5/5/2026 15:00:00   | 6/2/2026 15:00:00   | 28   | 4.83             |
-| 63    | 6/2/2026 15:00:00   | 6/30/2026 15:00:00  | 28   | 4.91             |
-| 64    | 6/30/2026 15:00:00  | 7/28/2026 15:00:00  | 28   | 4.99             |
-| 65    | 7/28/2026 15:00:00  | 8/25/2026 15:00:00  | 28   | 5.06             |
+| 0 | 03.08.2021 18.00.00 | 31.08.2021 18.00.00 | 28 | 0,08 |
+| 1 | 31.08.2021 18.00.00 | 28.09.2021 18.00.00 | 28 | 0,15 |
+| 2 | 28.09.2021 18.00.00 | 26.10.2021 18.00.00 | 28 | 0,23 |
+| 3 | 26.10.2021 18.00.00 | 23.11.2021 18.00.00 | 28 | 0,31 |
+| 4 | 23.11.2021 18.00.00 | 21.12.2021 18.00.00 | 28 | 0,38 |
+| 5 | 21.12.2021 18.00.00 | 18.01.2022 18.00.00 | 28 | 0,46 |
+| 6 | 18.01.2022 18.00.00 | 15.02.2021 18.00.00 | 28 | 0,54 |
+| 7 | 15.02.2021 18.00.00 | 15.03.2022 18.00.00 | 28 | 0,61 |
+| 8 | 15.03.2022 18.00.00 | 12.04.2022 18.00.00 | 28 | 0,69 |
+| 9 | 12.04.2022 18.00.00 | 10.05.2022 18.00.00 | 28 | 0,77 |
+| 10 | 10.05.2022 18.00.00 | 07.06.2022 18.00.00 | 28 | 0,84 |
+| 11 | 07.06.2022 18.00.00 | 05.07.2022 18.00.00 | 28 | 0,92 |
+| 12 | 05.07.2022 18.00.00 | 02.08.2022 18.00.00 | 28 | 1,00 |
+| 13 | 02.08.2022 18.00.00 | 30.08.2022 18.00.00 | 28 | 1,07 |
+| 14 | 30.08.2022 18.00.00 | 27.09.2022 18.00.00 | 28 | 1,15 |
+| 15 | 27.09.2022 18.00.00 | 25.10.2022 18.00.00 | 28 | 1,23 |
+| 16 | 25.10.2022 18.00.00 | 22.11.2022 18.00.00 | 28 | 1,30 |
+| 17 | 22.11.2022 18.00.00 | 20.12.2022 18.00.00 | 28 | 1,38 |
+| 18 | 20.12.2022 18.00.00 | 17.01.2023 18.00.00 | 28 | 1,46 |
+| 19 | 17.01.2023 18.00.00 | 14.02.2023 18.00.00 | 28 | 1,53 |
+| 20 | 14.02.2023 18.00.00 | 14.03.2023 18.00.00 | 28 | 1,61 |
+| 21 | 14.03.2023 18.00.00 | 11.04.2023 18.00.00 | 28 | 1,69 |
+| 22 | 11.04.2023 18.00.00 | 09.05.2023 18.00.00 | 28 | 1,76 |
+| 23 | 09.05.2023 18.00.00 | 06.06.2023 18.00.00 | 28 | 1,84 |
+| 24 | 06.06.2023 18.00.00 | 04.07.2023 18.00.00 | 28 | 1,92 |
+| 25 | 04.07.2023 18.00.00 | 01.08.2023 18.00.00 | 28 | 1,99 |
+| 26 | 01.08.2023 18.00.00 | 29.08.2023 18.00.00 | 28 | 2,07 |
+| 27 | 29.08.2023 18.00.00 | 26.09.2023 18.00.00 | 28 | 2,15 |
+| 28 | 26.09.2023 18.00.00 | 24.10.2023 18.00.00 | 28 | 2,22 |
+| 29 | 24.10.2023 18.00.00 | 21.11.2023 18.00.00 | 28 | 2,30 |
+| 30 | 21.11.2023 18.00.00 | 19.12.2023 18.00.00 | 28 | 2,38 |
+| 31 | 19.12.2023 18.00.00 | 16.01.2024 18.00.00 | 28 | 2,45 |
+| 32 | 16.01.2024 18.00.00 | 13.02.2024 18.00.00 | 28 | 2,53 |
+| 33 | 13.02.2024 18.00.00 | 12.03.2024 18.00.00 | 28 | 2,61 |
+| 34 | 12.03.2024 18.00.00 | 09.04.2024 18.00.00 | 28 | 2,68 |
+| 35 | 09.04.2024 18.00.00 | 07.05.2024 18.00.00 | 28 | 2,76 |
+| 36 | 07.05.2024 18.00.00 | 04.06.2024 18.00.00 | 28 | 2,84 |
+| 37 | 04.06.2024 18.00.00 | 02.07.2024 18.00.00 | 28 | 2,92 |
+| 38 | 02.07.2024 18.00.00 | 30.07.2024 18.00.00 | 28 | 2,99 |
+| 39 | 30.07.2024 18.00.00 | 27.08.2024 18.00.00 | 28 | 3,07 |
+| 40 | 27.08.2024 18.00.00 | 24.09.2024 18.00.00 | 28 | 3,15 |
+| 41 | 24.09.2024 18.00.00 | 22.10.2024 18.00.00 | 28 | 3,22 |
+| 42 | 22.10.2024 18.00.00 | 19.11.2024 18.00.00 | 28 | 3,30 |
+| 43 | 19.11.2024 18.00.00 | 17.12.2024 18.00.00 | 28 | 3,38 |
+| 44 | 17.12.2024 18.00.00 | 14.01.2025 18.00.00 | 28 | 3,45 |
+| 45 | 14.01.2025 18.00.00 | 11.02.2025 18.00.00 | 28 | 3,53 |
+| 46 | 11.02.2025 18.00.00 | 11.03.2025 18.00.00 | 28 | 3,61 |
+| 47 | 11.03.2025 18.00.00 | 08.04.2025 18.00.00 | 28 | 3,68 |
+| 48 | 08.04.2025 18.00.00 | 06.05.2025 18.00.00 | 28 | 3,76 |
+| 49 | 06.05.2025 18.00.00 | 03.06.2025 18.00.00 | 28 | 3,84 |
+| 50 | 03.06.2025 18.00.00 | 01.07.2025 18.00.00 | 28 | 3,91 |
+| 51 | 01.07.2025 18.00.00 | 29.07.2025 18.00.00 | 28 | 3,99 |
+| 52 | 29.07.2025 18.00.00 | 26.08.2025 18.00.00 | 28 | 4,07 |
+| 53 | 26.08.2025 18.00.00 | 23.09.2025 18.00.00 | 28 | 4,14 |
+| 54 | 23.09.2025 18.00.00 | 21.10.2025 18.00.00 | 28 | 4,22 |
+| 55 | 21.10.2025 18.00.00 | 18.11.2025 18.00.00 | 28 | 4,30 |
+| 56 | 18.11.2025 18.00.00 | 16.12.2025 18.00.00 | 28 | 4,37 |
+| 57 | 16.12.2025 18.00.00 | 13.01.2026 18.00.00 | 28 | 4,45 |
+| 58 | 13.01.2026 18.00.00 | 10.02.2026 18.00.00 | 28 | 4,53 |
+| 59 | 10.02.2026 18.00.00 | 10.03.2026 18.00.00 | 28 | 4,60 |
+| 60 | 10.03.2026 18.00.00 | 07.04.2026 18.00.00 | 28 | 4,68 |
+| 61 | 07.04.2026 18.00.00 | 05.05.2026 18.00.00 | 28 | 4,76 |
+| 62 | 05.05.2026 18.00.00 | 02.06.2026 18.00.00 | 28 | 4,83 |
+| 63 | 02.06.2026 18.00.00 | 30.06.2026 18.00.00 | 28 | 4,91 |
+| 64 | 30.06.2026 18.00.00 | 28.07.2026 18.00.00 | 28 | 4,99 |
+| 65 | 28.07.2026 18.00.00 | 25.08.2026 18.00.00 | 28 | 5,06 |
 
-The dYdX Foundation has created a public Google Calendar with start / end dates for Epochs and Blackout Windows - you can subscribe [**here**](https://calendar.google.com/calendar/u/3?cid=Y19wZjIwYzBoZzQ3dTR2cHRja283NDl1ajQyb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
+dYdX Vakfı, Dönemler ve Karartma Sürelerinin başlangıç​​/sona erme tarihlerini içeren herkese açık bir Google Takvimi oluşturmuştur. Ttakvime [**buradan**](https://calendar.google.com/calendar/u/3?cid=Y19wZjIwYzBoZzQ3dTR2cHRja283NDl1ajQyb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) abone olabilirsiniz.
 
-## **When will the rewards and staking pools be activated?**
+## **Ödüller ve staking havuzları ne zaman etkinleştirilecektir?**
 
-* The [Retroactive Mining Rewards](../rewards/retroactive-mining-rewards.md) are now live on the Protocol. These rewards will run until **August 31th, 2021, 15:00:00 UTC**.
-* The [Trading Rewards ](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md)are now live on the Protocol. These rewards will run until **August 3rd, 2026, 15:00:00 UTC**.
-* The [Liquidity Provider Rewards](../rewards/liquidity-provider-rewards.md) is now live on the Protocol. These rewards will run until **August 3rd, 2026, 15:00:00 UTC**.
-* The [Liquidity Staking pool ](../staking-pools/liquidity-staking-pool.md)is now live on the Protocol. This pool will run until **August 2nd, 2026, at approximately 15:00:00 UTC** (exact timestamp: 1785682798).
-* The [Safety Staking pool](../staking-pools/safety-staking-pool.md) will automatically go live on the Protocol a few days after the end of epoch 0 when transfer restrictions are lifted. This pool will run until **September 7th, 2026, at approximately 15:00:00 UTC** (exact timestamp: 1788793198).
+* [Geriye Dönük Madencilik Ödülleri](../rewards/retroactive-mining-rewards.md) şu anda Protokol kullanıma açılmıştır. Bu ödüller **31 Ağustos 2021 günü saat 18.00.00'e (TSİ)** kadar devam edecektir.
+* [Alı](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md)m Satım Ödülleri şu anda Protokol kullanıma açılmıştır. Bu ödüller **3 Ağustos 2026 günü saat 18.00.00'e (TSİ)** kadar devam edecektir.
+* [Likidite Sağlayıcı Ödülleri](../rewards/liquidity-provider-rewards.md) şu anda Protokol kullanıma açılmıştır. Bu ödüller **3 Ağustos 2026 günü saat 18.00.00'e (TSİ)** kadar devam edecektir.
+* [Likidite Staking havuzu](../staking-pools/liquidity-staking-pool.md) şu anda Protokol üzerinde kullanıma açılmıştır. Bu havuz **2 Ağustos 2026 günü yaklaşık saat 18.00.00'e** (TSİ) (tam zaman damgası: 1785682798) kadar kullanıma açık olacaktır.
+* [Güvenlik Staking havuzu](../staking-pools/safety-staking-pool.md), dönem 0 sona erdikten birkaç gün sonra, transfer kısıtlamaları kaldırıldığında Protokol üzerinde otomatik olarak kullanıma açılacaktır. Bu havuz **7 Eylül 2026 günü yaklaşık saat 18.00.00'e** (TSİ) (tam zaman damgası: 1788793198) kadar kullanıma açık olacaktır.
 
-## Can dYdX governance modify the epoch schedule?
+## dYdX yönetişimi dönem takvimini değiştirebilir mi?
 
-The initial epoch length is `28 days`. dYdX governance can vote to modify epoch lengths, within the specified bounds. The minimum and maximum epoch lengths are `6 days` and `92 days`, respectively.
+İlk başta belirlenen dönem uzunluğu `28 gündür`. dYdX yönetişimi dönem uzunluklarının belirtilen sınırlar dâhilinde değiştirilmesini oylayabilir. Minimum ve maksimum dönem uzunlukları sırasıyla `6 gün` ve `92 gündür`.
 
-## What is the Blackout Window?
+## Karartma Süresi nedir?
 
-For the [Liquidity Staking Pool](../staking-pools/liquidity-staking-pool.md) and the [Safety Staking Pool](../staking-pools/safety-staking-pool.md), an epoch schedule is enforced for withdrawals in order to provide predictability and a regular cadence for the availability of funds in the pool. A staker must request to unstake funds before the blackout window in order to be able to withdraw the staker's funds after the end of that epoch. If a staker does not request to withdraw, then the staker's staked funds are rolled over into the next epoch.
+[Likidite Staking Havuzu](../staking-pools/liquidity-staking-pool.md) ve [Güvenlik Staking](../staking-pools/safety-staking-pool.md) Havuzu için, havuzdaki fonların kullanılabilirliği için öngörülebilirlik ve düzenli bir tempo sağlamak amacıyla çekim işlemleri için bir dönem takvimi uygulanmaktadır. Stake eden bir kişi, fonlarını o dönem sona erdikten sonra çekebilmek için karartma süresi başlamadan önce fonlarını staking'den çıkarma talebinde bulunmalıdır. Stake eden bir kişi eğer çekim talebinde bulunmazsa, bu kişinin stake edilen fonları bir sonraki döneme devredilir.
 
-The recommended blackout window for each of the Liquidity Staking Pool and the Safety Pool is `14 days`. dYdX governance can vote to modify the blackout window, within the specified bounds. The minimum and maximum blackout windows are `3 days` and `46 days`, respectively.
+Hem Likidite Staking Havuzu hem de Güvenlik Havuzu için önerilen karartma süresi `14 gündür`. dYdX yönetişimi belirtilen sınırlar dâhilinde karartma süresini değiştirmeyi oylayabilir. Minimum ve maksimum karartma süreleri sırasıyla `3 gün` ve `46 gündür`.
 
-## When can I withdraw and transfer my earned DYDX Rewards?
+## Kazandığım DYDX Ödüllerimi ne zaman çekebilir ve transfer edebilirim?
 
-Earned DYDX tokens via the [Retroactive Mining Rewards](../rewards/retroactive-mining-rewards.md), [Trading Rewards](../rewards/trading-rewards.md), and [Liquidity Provider Rewards](../rewards/liquidity-provider-rewards.md) are transferable at the end of each epoch. DYDX holders are required to wait approximately `7 days` (**Waiting Period**) after the end of the epoch to claim their tokens. Once tokens have been claimed, they can be transferred or delegated to dYdX governance.
+[Geriye Dönük Madencilik Ödülleri](../rewards/retroactive-mining-rewards.md), [Alım Satım Ödülleri](../rewards/trading-rewards.md) ve [Likidite Sağlayıcı Ödülleri](../rewards/liquidity-provider-rewards.md) aracılığıyla kazanılan DYDX token'ları her dönemin sonunda transfer edilebilir. Dönem sona erdikten sonra token'larını alabilmek için DYDX sahiplerinin yaklaşık `7 gün` (**Bekleme Süresi**) beklemeleri gerekir. Token'lar alındıktan sonra transfer edilebilir veya dYdX yönetişimine delege edilebilir.
 
-Earned DYDX tokens via the Liquidity Staking pool and the Safety Staking pool are claimable every block and can be withdrawn at any time during a given epoch.
+Likidite Staking havuzu ve Güvenlik Staking havuzu aracılığıyla kazanılan DYDX token'ları her blokta alınabilir ve ilgili dönem boyunca herhangi bir zamanda çekilebilir.
 
-On **September 8th, 2021 at 15:00:00 UTC**, 8 days after the end of Epoch 0, the initial transfer restrictions will be automatically lifted, at which point approximately **8.11%** of the DYDX supply will become liquid.
+Dönem 0'ın sona ermesinden 8 gün sonra, **8 Eylül 2021 günü saat 18.00.00'de** ilk baştaki transfer kısıtlamaları otomatik olarak kaldırılacak ve DYDX arzının yaklaşık **%8,11'i** likit hale gelecektir.
 
-## What is the purpose of the Waiting Period? How are rewards stored at the end of every epoch?
+## Bekleme Süresinin amacı nedir? Her dönemin sonunda ödüller nasıl saklanır?
 
-[Retroactive Mining Rewards](../rewards/retroactive-mining-rewards.md), [Trading Rewards](../rewards/trading-rewards.md), and [Liquidity Provider Rewards](../rewards/liquidity-provider-rewards.md) are stored in a Merkle tree, which contains the cumulative rewards earned by each user since the start of the distribution program.
+[Geriye Dönük Madencilik Ödülleri](../rewards/retroactive-mining-rewards.md), Alım [Satım Ödülleri](../rewards/trading-rewards.md) ve [Likidite Sağlayıcı Ödülleri](../rewards/liquidity-provider-rewards.md) dağıtım programının başlangıcından bu yana her kullanıcı tarafından kazanılan toplam ödülü içeren bir Merkle ağacında saklanır.
 
-At the end of each epoch, the Merkle root is updated via the ChainLink oracle system on the `MerkleDistributorV1` smart contract to reflect rewards earned in the last epoch. An update is performed by setting the proposed Merkle root to the latest value returned by the oracle contract. The proposed Merkle root can be made active after a **Waiting Period** of `7 days` has elapsed. During the waiting period, dYdX governance has the opportunity to freeze the Merkle root, in case the proposed root is incorrect or malicious. If the Merkle root is not frozen, the new Merkle root is activated and users can claim their rewards from the past epoch.
+Her dönemin sonunda, Merkle kökü son dönemde kazanılan ödülleri yansıtacak şekilde `MerkleDistributorV1` üzerindeki ChainLink oracle sistemi aracılığıyla güncellenir. Bir güncelleme, teklif edilen Merkle kökünü oracle sözleşmesi tarafından döndürülen en son değere ayarlayarak gerçekleştirilir. Teklif edilen Merkle kökü `7 günlük` bir **Bekleme Süresi** geçtikten sonra etkinleştirilebilir. Bekleme süresi zarfında, dYdX Yönetişimi teklif edilen kökün yanlış veya kötü amaçlı olması durumunda Merkle kökünü dondurma imkânına sahiptir. Merkle kökü dondurulmamışsa, yeni Merkle kökü etkinleştirilir ve kullanıcılar geçmiş dönemde kazandıkları ödülleri alabilir.
 
-Each time the epoch changes, the following occurs in order:
+Dönem her değiştiğinde, sırasıyla şunlar gerçekleşir:
 
-* When an epoch ends, rewards data is calculated for all user activity from the last epoch.
-* This data is added to a data structure on IPFS, stored under a fixed IPNS name.
-* The ChainLink oracle system, also noticing the change in epoch, queries the latest rewards data using the known IPNS name.
-* Each oracle signer uses this rewards data to calculate newly earned rewards for each user.
-* Each oracle signer computes the new cumulative Merkle tree and Merkle root.
-* Each oracle signer writes the Merkle tree data to IPFS, receiving an IPFS CID. (They should have calculated the same tree and should therefore receive the same CID.)
-* If the oracle signers agree on the same values, then the RewardsOracle is updated with the new Merkle root, IPFS CID, and epoch number.
-* An oracle signer (or a third party) calls the public function `MerkleDistributorV1.proposeRoot()` to set the proposed Merkle root to the new oracle value.
-* A waiting period takes place, during which governance can call `MerkleDistributorV1.pauseRootUpdates()` to prevent the proposed Merkle root from taking effect.
-* After the waiting period, an oracle signer (or a third party) calls the public function `MerkleDistributorV1.updateRoot()` causing the proposed Merkle root to become active.
-* Once the new Merkle root is active, users are able to claim rewards from the last epoch.
+* Bir dönem sona erdiğinde, son dönemdeki tüm kullanıcı etkinlikleri için ödül verileri hesaplanır.
+* Bu veriler IPFS üzerindeki bir veri yapısına eklenir ve sabit bir IPNS adı altında depolanır.
+* ChainLink oracle sistemi, dönemin değiştiğini de fark ederek, bilinen IPNS adını kullanarak en son ödül verilerini sorgular.
+* Her oracle imzalayıcısı, her kullanıcının yeni kazandığı ödülleri hesaplamak için bu ödül verilerini kullanır.
+* Her oracle imzalayıcısı, yeni kümülatif Merkle ağacını ve Merkle kökünü hesaplar.
+* Her oracle imzalayıcısı, Merkle ağacı verilerini IPFS'ye yazar ve bir IPFS CID'si alır. (Aynı ağacı hesaplamış olmaları ve bu nedenle de aynı CID'yi almaları gerekir.)
+* Oracle imzalayıcıları aynı değerler üzerinde mutabık kalırsa, RewardsOracle yeni Merkle kökü, IPFS CID'si ve dönem numarası ile güncellenir.
+* Bir oracle imzalayıcısı (veya bir üçüncü taraf), teklif edilen Merkle kökünü yeni oracle değerine ayarlamak için genel `MerkleDistributorV1.proveneRoot()` fonksiyonunu çağırır.
+* Teklif edilen Merkle kökünün yürürlüğe girmesini önlemek için yönetişimin `MerkleDistributorV1.pauseRootUpdates()` fonksiyonunu çağırabileceği bir bekleme süresi devreye girer.
+* Bekleme süresi sona erdikten sonra, bir oracle imzalayıcısı (veya bir üçüncü taraf), genel `MerkleDistributorV1.updateRoot()` fonksiyonunu çağırır ve teklif edilen Merkle kökünün etkinleşmesini sağlar.
+* Yeni Merkle kökü etkinleştiğinde, kullanıcılar son dönemde kazandıkları ödülleri alabilir.

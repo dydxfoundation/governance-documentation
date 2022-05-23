@@ -1,143 +1,143 @@
 ---
-description: Overview of the dYdX Improvement Proposal (DIP) lifecycle.
+description: dYdX İyileştirme Teklifi (DIP) yaşam döngüsüne genel bakış.
 ---
 
-# Proposal Lifecycle
+# Teklif Yaşam Döngüsü
 
-## **Proposal Stages**
+## **Teklif Aşamaları**
 
-The dYdX Governance Process is fueled by governance forums at [**forums.dydx.community**](https://forums.dydx.community/) and ratified through dYdX Improvement Proposal (“DIPs”).
+dYdX Yönetişim Süreci, [**forums.dydx.community**](https://forums.dydx.community) adresindeki yönetişim forumları tarafından desteklenir ve dYdX İyileştirme Teklifi ("DIP") aracılığıyla onaylanır.
 
-Below we outline a preliminary draft explaining how the dYdX governance process will flow, from the inception and definition of the concept to the actual implementation. These processes are subject to change according to feedback from the DYDX community.
+Aşağıda konseptin başlangıcından ve tanımlanmasından fiilen uygulanmasına kadar dYdX yönetişim sürecinin nasıl aktığını açıklayan bir ön taslağı özetliyoruz. Bu süreçler DYDX topluluğundan gelen geri bildirimlere göre değişebilir.
 
-The following flow chart is the initial proposed stages to pass a proposal:
+Aşağıdaki akış şeması bir teklifin geçmesi için başlangıçta önerilen aşamalardır:
 
-![Stages of a DIP](<../.gitbook/assets/image (81).png>)
+![Stages of a DIP](<.. /.gitbook/assets/image (81).png>)
 
-## 0. Forum Discussion
+## 0. Forum Tartışması
 
-Anyone can sign up and set up a thread on any topic on dYdX’s Governance forums hosted at [**forums.dydx.community**](https://forums.dydx.community/). Community members are required to register using an email address or an Ethereum wallet.
+Herkes [**forums.dydx.community**](https://forums.dydx.community) adresinde barındırılan dYdX'in Yönetişim forumlarında kayıt olup herhangi bir konuda bir ileti dizisi oluşturabilir. Topluluk üyelerinin bir e-posta adresi veya bir Ethereum cüzdanı kullanarak kaydolması gerekir.
 
-## 1. (Off-chain) DRC Creation
+## 1. (Zincir Dışı) DRC Oluşturma
 
-Off-chain **dYdX Request for Comments** (DRCs) creation is the first step in the governance improvement process. Anyone can participate in the Governance Forum, create off-chain DRCs, and discuss improvements.
+Zincir dışı **dYdX Yorum Talebi** (DRC) oluşturulması yönetişimi iyileştirme sürecindeki ilk adımdır. Herkes Yönetişim Forumu'na katılabilir, zincir dışı DRC'ler oluşturabilir ve iyileştirmeleri tartışabilir.
 
-To create a DRC, use [this template](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) (available on our Github). The DRC should cover all the information of the potentially final DIP.
+Bir DRC oluşturmak için [bu şablonu](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) (Github'ımızda mevcuttur) kullanın. DRC, potansiyel olarak nihai DIP'nin tüm bilgilerini kapsamalıdır.
 
-At a minimum, DRCs must include:
+DRC'ler en azından şunları içermelidir:
 
-* Short and concise titles of the DRC
-* A short and concise description of the proposal
-* The rationale for the DRC, e.g. why?
-* The title of the forum post must include DRC: with the short title of the DRC. E.g. DRC: New Market Request
-* A community poll that community members can use to vote on improvements off-chain
+* Kısa ve öz DRC başlıkları
+* Teklifin kısa ve öz bir açıklaması
+* DRC'nin gerekçesi, örneğin neden?
+* Forum gönderisinin başlığında DRC: DRC'nin kısa başlığı yer almalıdır. Örneğin, DRC: Yeni Piyasa Talebi
+* Topluluk üyelerinin zincir dışı iyileştirmeleri oylamak için kullanabileceği bir topluluk anketi
 
-## 2. DRC Discussion & Feedback
+## 2. DRC Tartışması ve Geri Bildirim
 
-Once posted on the governance forum, all questions and comments should be addressed & taken into consideration, to further improve the DRC.
+Yönetişim forumunda yayınlandıktan sonra, DRC'yi daha da iyileştirmek için tüm sorular ve yorumlar ele alınıp yanıtlanmalı ve dikkate alınmalıdır.
 
-## 3. DRC Snapshot Polling
+## 3. DRC Snapshot Anketi
 
-Snapshot polls serve two purposes: sentiment signaling for future on-chain DIPs and binding votes for variables controlled off-chain.
+Snapshot anketleri iki amaca hizmet eder: Gelecekteki zincir içi DIP'ler için duyarlılık gösterilmesi ve zincir dışında kontrol edilen değişkenler için bağlayıcı oylamalar.
 
-Once an off-chain DRC has a very rough consensus, a community member holding more than `10,000` DYDX can create an **off-chain vote** for the DRC on **Snapshot**. We encourage the dYdX Community to create Snapshot polls on Mondays to increase visibility during the regular workweek.
+Zincir dışı bir DRC üzerinde çok açık bir mutabakat sağlandığında, `10.000'den` fazla DYDX tutan bir topluluk üyesi DRC için **Snapshot** üzerinde **zincir dışı bir oylama** oluşturabilir. Normal çalışma haftası boyunca görünürlüğü artırmak için dYdX Topluluğu'nun Snapshot anketlerini Pazartesi günleri oluşturmasını öneririz.
 
-Snapshot is a simple voting interface that allows users to signal sentiment off-chain. Votes on Snapshot are weighted by the voting power of the address used to vote.&#x20;
+Snapshot, kullanıcıların duyarlılığı zincir dışında göstermesini sağlayan basit bir oylama arayüzüdür. Snapshot üzerindeki oylamalarda, oy vermek için kullanılan adresin oy verme yetkisine göre ağırlık verilir.
 
-For Snapshot polls related to sentiment signaling, the proposer will need to provide:
+Duyarlılık gösterilmesine ilişkin Snapshot anketleri için, teklifi verenin şunları sağlaması gerekir:
 
-* details of the DRC,
-* a voting system,&#x20;
-* a voting period - vote start date and vote end date set to a 4 day voting period, and&#x20;
-* a voting delay - a Snapshot block number that is 6570 blocks (approximately 1 day) in the future. The Snapshot block number locks the state of community members who can vote. Token holders who hold tokens before the Snapshot block number are eligible to vote. Before the snapshot of each address’ respective voting power, the voting delay gives DYDX/stkDYDY holders time to acquire tokens, delegate voting power, and move tokens between wallets (moving tokens between wallets only applies to DYDX holders).
+* DRC hakkındaki ayrıntılı bilgiler,
+* bir oylama sistemi,
+* bir oylama süresi; oylama başlangıç tarihi ve oylama bitiş tarihi arasında 4 günlük bir oylama süresi olmalıdır ve
+* bir oylama bekleme süresi; 6.570 blok (yaklaşık 1 gün) ileride olan bir Snapshot blok numarası. Snapshot blok numarası, oy kullanabilen topluluk üyelerinin durumunu kilitler. Snapshot blok numarası öncesinde token tutan token sahipleri oy verme hakkına sahiptir. Her bir adresin ilgili oylama yetkisinin anlık görüntüsünü almadan önce, oylama için bekleme süresi DYDX/stkDYDY sahiplerine token edinmek, oylama yetkisini delege etmek ve token'ları cüzdanlar arasında taşımak (token'ların cüzdanlar arasındaki taşınması yalnızca DYDX sahipleri için geçerlidir) için zaman verir.
 
-For decisions that don’t require an on-chain smart contract call, notably changes to the Trading and Liquidity Provider rewards formulas, Snapshot votes are considered the binding and final vote. The proposer will need to include the requirements above and provide:
+Zincir içi bir akıllı sözleşmenin çağrılmasını gerektirmeyen kararlar, özellikle de Alım Satım ve Likidite Sağlayıcı ödüllerinin formüllerinde yapılacak değişiklikler için Snapshot oylamaları bağlayıcı ve kesin oylama olarak kabul edilir. Teklif verenin yukarıdaki gereksinimleri karşılaması ve şunları sağlaması gerekir:
 
-* binary voting options - for clarity, an address is either voting for or against a proposal.
+* iki oylama seçeneği; açıkça belirtmek gerekirse, bir adres bir teklifin lehine veya aleyhine oy verir.
 
-The proposed change(s) will be implemented by dYdX Trading Inc. if the results of the Snapshot poll satisfy:
+Teklif edilen değişiklik/değişiklikler, Snapshot anketinin sonuçları şunları karşılarsa dYdX Trading Inc. tarafından uygulamaya koyulur:
 
-* the minimum quorum - at least 1M DYDX/stkDYDX. The minimum quorum contributes to the decentralization of decision-making and protects against unilateral decision-making, and
-* the minimum vote differential - at least 67% of votes must be in favor of the proposal. The minimum vote differential assists with filtering out proposals that are highly contentious and require further discussion.&#x20;
+* karar yeter sayısı - en az 1 milyon DYDX/stkDYDX. Karar yeter sayısı karar alma sürecinin merkeziyetsizleştirilmesine katkıda bulunur ve tek taraflı karar alınmasına karşı korur ve
+* minimum oy farkı - verilen oyların en az %67'si teklifin lehine olmalıdır. Minimum oy farkı, son derece tartışmalı ve daha fazla tartışılması gereken tekliflerin filtrelenmesini sağlar.
 
-dYdX Trading Inc. will have up to 1 Epoch (28 days), an execution grace period, to implement changes from a successful Snapshot poll.
+dYdX Trading Inc.'in başarılı bir Snapshot anketinde kabul edilen değişiklikleri uygulamak için uygulamaya koyma mühleti olarak 1 Döneme varan bir süreye (28 gün) sahip olacaktır.
 
-Note, proposals and votes are just signed messages, stored on IPFS, and available via the Commonwealth portal.
+Teklifler ve oyların IPFS'de depolanan ve Commonwealth portalında mevcut olan yalnızca imzalanmış mesajlar olduğunu unutmayın.
 
-## 4. (On-chain) DIP Creation
+## 4. (Zincir içi) DIP Oluşturma
 
-When a rough consensus is reached, an on-chain DIP may be submitted by a community member who holds enough proposition power for the type of proposal. An on-chain DIP is initiated via a smart contract call. The proposal should be based on the winning outcome of the off-chain DIP voting on Snapshot and can consist of one or multiple actions, up to a maximum of 10 actions per proposal.
+Açık bir mutabakata varıldığında, teklifin türü için yeterli teklif yetkisine sahip bir topluluk üyesi tarafından zincir içi bir DIP verilebilir. Zincir içi bir DIP bir akıllı sözleşme çağrısı aracılığıyla başlatılır. Teklif, Snapshot üzerindeki zincir dışı DIP oylamasının kazanan sonucuna dayalı olmalıdır ve teklif başına en fazla 10 eylem olmak kaydıyla bir veya birden fazla eylemden oluşabilir.
 
-A DIP creation is subject to a minimum number of tokens held/delegated required for an account. A Timelock executor must be specified when a proposal is created. The initial parameters are as follows (and can be modified by governance):
+Bir DIP'nin oluşturulabilmesi için, bir hesap için gerekli olan minimum sayıda token'ın tutulması/delege edilmesi gerekir. Bir teklif oluşturulduğunda bir Timelock executor belirtilmelidir. Başlangıç parametreleri aşağıdaki gibidir (ve yönetişim tarafından değiştirilebilir):
 
-| Parameter          | Description                                      | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor   |
+| Parametre | Açıklama | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
 | ------------------ | ------------------------------------------------ | ----------------------- | ---------------------- | ---------------------- | -------------------- |
-| Proposal Threshold | Minimum tokens held/delegated to create proposal | 0.5% of total supply    | 0.5% of total supply   | 2% of total supply     | 0.5% of total supply |
+| Teklif Eşiği | Teklif oluşturmak için tutulması/delege edilmiş olması gereken minimum token miktarı | Toplam arzın %0,5'i | Toplam arzın %0,5'i | Toplam arzın %2'si | Toplam arzın %0,5'i |
 
-## 5. (On-chain) DIP Voting
+## 5. (Zincir içi) DIP Oylaması
 
-After an On-Chain DIP is created, the proposal enters a `pending` state for a period defined by the **Voting Delay**, which is currently configured to `6570` blocks or approximately 1 day (assuming 13 seconds per block). In other words, user snapshots are recorded 1 day after the DIP is created, at which point the proposal transitions to an `active` state.
+Bir Zincir içi DIP oluşturulduktan sonra, teklif şu anda `6570` blok veya yaklaşık 1 gün (blok başına yaklaşık 13 saniye gerektiğini varsayarak) olarak yapılandırılan **Oylama Bekleme Süresi** ile tanımlanan bir `bekleme` durumuna geçer. Diğer bir deyişle, kullanıcı anlık görüntüleri DIP oluşturulduktan 1 gün sonra kaydedilir ve bu noktada teklif `aktif` duruma geçer.
 
-After the Voting Delay, the Voting Period is activated. The voting period length depends on the proposal type.
+Oylama Bekleme Süresi dolduktan sonra Oylama Süresi etkinleştirilir. Oylama süresinin uzunluğu teklifin türüne bağlıdır.
 
-The following chart shows a DIP state flowchart:
+Aşağıdaki grafik bir DIP durumu akış şemasını göstermektedir:
 
-![Lifecycle of a DIP](<../.gitbook/assets/image (63).png>)
+![Lifecycle of a DIP](<.. /.gitbook/assets/image (63).png>)
 
-After a DIP is created on-chain it is subject to a **Voting Delay**, **Voting Period**, **Minimum Quorum**, and a minimum **Vote Differential**. The initial parameters are as follows:
+Zincir içi bir DIP oluşturulduktan sonra, bir **Oylama Bekleme Süresi**, **Oylama Süresi**, **Karar Yeter Sayısı** ve bir minimum **Oy Farkına** tabi olur. Başlangıç parametreleri aşağıdaki gibidir:
 
-| Parameter         | Description                                                                                           | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor   |
+| Parametre | Açıklama | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
 | ----------------- | ----------------------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | -------------------- |
-| Voting Delay      | Number of Ethereum blocks to wait before voting on a proposal may begin after a proposal is submitted | 6,570 blocks            | 6,570 blocks           | 6,570 blocks           | 6,570 blocks         |
-| Voting Period     | Length of time for which proposals are available to be voted upon                                     | 4 days                  | 2 days                 | 10 days                | 4 days               |
-| Minimum Quorum    | Minimum yes votes for a DIP proposal to pass                                                          | 2% of total supply      | 1% of total supply     | 10% of total supply    | 2% of total supply   |
-| Vote Differential | Required yes-no gap for a DIP proposal to pass                                                        | 0.5% of total supply    | 0.5% of total supply   | 10% of total supply    | 0.5% of total supply |
+| Oylama Bekleme Süresi | Bir teklifi oylamadan önce beklenmesi gereken Ethereum blok sayısı, teklif sunulduktan sonra başlayabilir | 6.570 blok | 6.570 blok | 6.570 blok | 6.570 blok |
+| Oylama Süresi | Tekliflerin oylanmaya açık olduğu süre | 4 gün | 2 gün | 10 gün | 4 gün |
+| Karar Yeter Sayısı | Bir DIP teklifinin geçmesi için gereken minimum evet oyu | Toplam arzın %2'si | Toplam arzın %1'i | Toplam arzın %10'u | Toplam arzın %2'si |
+| Oy Farkı | Bir DIP teklifinin geçmesi için gereken evet-hayır oyları arasındaki fark | Toplam arzın %0,5'i | Toplam arzın %0,5'i | Toplam arzın %10'u | Toplam arzın %0,5'i |
 
-Only the voting delay can be modified by governance, and it can only be changed to values in between (inclusive) the minimum and maximum delay. The voting period, minimum quorum, and vote differential can't be changed.
+Yalnızca oylama bekleme süresi yönetişim tarafından değiştirilebilir ve yalnızca minimum ve maksimum bekleme süreleri (dâhil olarak) arasındaki değerlere değiştirilebilir. Oylama süresi, karar yeter sayısı ve oy farkı değiştirilemez.
 
-## 6. Proposal Queuing & Execution
+## 6. Teklifin Kuyruğa ve Uygulamaya Konulması
 
-After a DIP has passed, any address can call the queue method to move the proposal into the timelock queue. A DIP can only be queued if it has passed.
+Bir DIP geçtikten sonra, herhangi bir adres teklifi timelock kuyruğuna taşımak için kuyruk metodunu çağırabilir. Bir DIP sadece geçmişse kuyruğa koyulabilir.
 
-| Parameter              | Description                                                                           | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
+| Parametre | Açıklama | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
 | ---------------------- | ------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
-| Timelock Delay         | After a proposal passes and is queued, delay before the proposal is executed          | 2 days                  | 0 days                 | 7 days                 | 2-9 days           |
-| Execution Grace Period | The time after which a proposal becomes executable, during which it must be executed. | 7 days                  | 7 days                 | 7 days                 | 7 days             |
-| Minimum Timelock Delay | Minimum delay before a proposal is executed (after queuing)                           | 1 day                   | 0 days                 | 5 days                 | 4 days             |
-| Maximum Timelock Delay | Maximum delay before a proposal is executed (after queuing)                           | 7 days                  | 1 day                  | 21 days                | 21 days            |
+| Timelock Bekleme Süresi | Bir teklif geçtikten ve kuyruğa koyulduktan sonra, teklif uygulamaya koyulmadan önce beklenen süre | 2 gün | 0 gün | 7 gün | 2-9 gün |
+| Uygulamaya Koyma Mühleti | Bir teklifin, uygulamaya konulabilir hale geldikten sonra uygulamaya konması gereken süre. | 7 gün | 7 gün | 7 gün | 7 gün |
+| Minimum Timelock Bekleme Süresi | Bir teklif uygulamaya koyulmadan önce beklenen minimum süre (kuyruğa koyulduktan sonra) | 1 gün | 0 gün | 5 gün | 4 gün |
+| Maksimum Timelock Bekleme Süresi | Bir teklif uygulamaya koyulmadan önce beklenen maksimum süre (kuyruğa koyulduktan sonra) | 7 gün | 1 gün | 21 gün | 21 gün |
 
-As soon as the voting period ends and a proposal has succeeded, anyone can call queue to begin the timelock delay.
+Oylama süresi bitip bir teklif başarılı olur olmaz timelock bekleme süresini başlatmak için herkes kuyruk metodunu çağırabilir.
 
-For the Starkware priority timelock executor, it has a priority period of 7 days out of the 9 day timelock delay. This means that after 9 days anyone can execute a proposal, but within days 2-9 (the priority period) Starkware has the option to execute the proposal.
+Starkware priority timelock executor söz konusu olduğunda, 9 günlük timelock bekleme süresi boyunca 7 günlük bir öncelik süresi vardır. Bu da 9 gün sonra bir teklifi herkesin uygulamaya koyabileceği anlamına gelir ancak Starkware 2-9 gün (öncelik süresi) içinde teklifi uygulamaya koyma seçeneğine sahiptir.
 
-In practical terms it's:&#x20;
+Pratikte:
 
-* Days 0–2: No one can execute&#x20;
-* Days 2–9: Only Starkware can execute&#x20;
-* Days 9: Anyone can execute
+* 0.-2. Günler: Hiç kimse uygulamaya koyamaz
+* 2.-9. Günler: Yalnızca Starkware uygulamaya koyabilir
+* 9. Gün: Herkes uygulamaya koyabilir
 
-## 7. (Optional) Proposal Cancellation
+## 7. (İsteğe Bağlı) Teklif İptali
 
-At any point in a DIP lifecycle, the proposer can cancel the DIP. A proposal can be cancelled by anyone before it is executed if the proposer does not have sufficient proposition power at the current block.
+Bir DIP'in yaşam döngüsündeki herhangi bir noktada, teklif veren DIP'yi iptal edebilir. Teklif veren mevcut blokta yeterli teklif yetkisine sahip değilse, bir teklif uygulamaya koyulmadan önce herkes tarafından iptal edilebilir.
 
 
 
-## FAQ
+## SSS
 
-### What is the purpose of the Voting Delay?
+### Oylama Bekleme Süresinin amacı nedir?
 
-The **Voting Delay** is the number of Ethereum blocks to wait before voting on a proposal may begin after a proposal is submitted.&#x20;
+**Oylama Bekleme Süresi**, bir teklif sunulduktan sonra oylama yapılmadan önce beklenmesi gereken Ethereum bloklarının sayısıdır.
 
-DYDX voting power must be delegated to an address either entirely before a proposal has been submitted or during the proposal **Voting Delay**.&#x20;
+DYDX oylama yetkisi, bir teklif henüz sunulmadan önce veya teklifin **Oylama Bekleme Süresi** sırasında bir adrese delege edilmelidir.
 
-For now, the **Voting Delay** is set to `6,570 blocks`, which is about 1 day. This value is added to the current block number when a proposal is created.
+Şu an için, **Oylama Bekleme Süresi** `6.570 blok` olarak belirlenmiştir ve bu da yaklaşık 1 gündür. Bu değer, bir teklif oluşturulduğunda mevcut blok sayısına eklenir.
 
-In the future, dYdX Governance may vote to increase or decrease the **Voting Delay**. While there are obvious benefits to an increased **Voting Delay.** It may introduce some potential adverse outcomes such as opportunistic edge case exploitation.
+İleride, dYdX Yönetişimi **Oylama Bekleme Süresinin** artırılmasını veya azaltılmasını oylayabilir. **Oylama Bekleme Süresinin** artırılmasının bariz faydaları vardır. Bununla birlikte, aşırı durumlardan fırsatçı bir şekilde yararlanma gibi bazı olası olumsuz sonuçlara da yol açabilir.
 
-### What is the purpose of the Proposal Threshold?
+### Teklif Eşiğinin amacı nedir?
 
-Since DYDX is a freely tradable asset, anyone can attempt a governance takeover via market buying. That said, to force-pass a bad faith vote would require a minimum of 5 million DYDX in the event of a short timelock or 20 million DYDX in the event of long timelock. If not outright impossible, this amount would be prohibitively expensive and likely cost more when accounting for price fluctuation than the net gain from the attack.
+DYDX serbestçe alınıp satılabilen bir varlık olduğundan, piyasa alımı yoluyla herkes yönetişimi ele geçirmeyi deneyebilir. Bununla birlikte, kötü niyetli bir oylamayı geçmeye zorlamak, bir short timelock durumunda minimum 5 milyon DYDX ve bir long timelock durumunda ise 20 milyon DYDX gerektirir. Her ne kadar kesinlikle imkânsız olmasa da bu miktar son derece pahalı olacak ve fiyat dalgalanması da hesaba katıldığında saldırıdan elde edilecek net kazançtan çok daha maliyetli olacaktır.
 
-If a group somehow achieved a bad faith takeover, the timelock delay would give affected agents time to withdraw their assets from the protocol. This would also be an opportunity to fork the protocol, a path that would likely be taken by the remaining good-faith actors.
+Bir grup bir şekilde kötü niyetli bir şekilde yönetişimi ele geçirmeyi başaracak olsa, timelock bekleme süresi etkilenen kişilere varlıklarını protokolden çekmeleri için zaman verecektir. Bu, geri kalan iyi niyetli oyuncular tarafından muhtemelen tutulacak bir yol olarak protokolü çatallamak için bir fırsat da olabilir.
 
 ###
