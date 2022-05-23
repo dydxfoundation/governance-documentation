@@ -1,143 +1,143 @@
 ---
-description: Overview of the dYdX Improvement Proposal (DIP) lifecycle.
+description: Aperçu du cycle de vie de la proposition d'amélioration dYdX (DIP).
 ---
 
-# Proposal Lifecycle
+# Cycle de vie de la proposition
 
-## **Proposal Stages**
+## **Étapes de la proposition**
 
-The dYdX Governance Process is fueled by governance forums at [**forums.dydx.community**](https://forums.dydx.community/) and ratified through dYdX Improvement Proposal (“DIPs”).
+Le processus de gouvernance dYdX est alimenté par des forums de gouvernance sur [**forums.dydx.community**](https://forums.dydx.community) et ratifié par le biais de propositions d'amélioration dYdX (« DIP »).
 
-Below we outline a preliminary draft explaining how the dYdX governance process will flow, from the inception and definition of the concept to the actual implementation. These processes are subject to change according to feedback from the DYDX community.
+Ci-dessous, nous décrivons un avant-projet expliquant comment le processus de gouvernance dYdX se déroulera, de la conception et de la définition du concept à la mise en œuvre effective. Ces processus sont susceptibles d'être modifiés en fonction des commentaires de la communauté DYDX.
 
-The following flow chart is the initial proposed stages to pass a proposal:
+L'organigramme suivant représente les étapes initiales proposées pour passer une proposition :
 
-![Stages of a DIP](<../.gitbook/assets/image (81).png>)
+![Stages of a DIP](<.. /.gitbook/assets/image (81).png>)
 
-## 0. Forum Discussion
+## 0. Discussion sur le forum
 
-Anyone can sign up and set up a thread on any topic on dYdX’s Governance forums hosted at [**forums.dydx.community**](https://forums.dydx.community/). Community members are required to register using an email address or an Ethereum wallet.
+Tout le monde peut s'inscrire et créer un fil de discussion sur n'importe quel sujet sur les forums de gouvernance de dYdX hébergés sur [**forums.dydx.community**](https://forums.dydx.community). Les membres de la communauté doivent s'inscrire en utilisant une adresse e-mail ou un portefeuille Ethereum.
 
-## 1. (Off-chain) DRC Creation
+## 1. Création de la DRC (hors chaîne)
 
-Off-chain **dYdX Request for Comments** (DRCs) creation is the first step in the governance improvement process. Anyone can participate in the Governance Forum, create off-chain DRCs, and discuss improvements.
+La création **de demandes de commentaires (DRC) dYdX** hors chaîne est la première étape du processus d'amélioration de la gouvernance. Tout le monde peut participer au Forum sur la gouvernance, créer des DRC hors chaîne et discuter des améliorations.
 
-To create a DRC, use [this template](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) (available on our Github). The DRC should cover all the information of the potentially final DIP.
+Pour créer une DRC, utilisez [ce modèle](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) (disponible sur notre Github). La DRC devrait couvrir toutes les informations du DIP potentiellement final.
 
-At a minimum, DRCs must include:
+Au minimum, les DRC doivent comprendre :
 
-* Short and concise titles of the DRC
-* A short and concise description of the proposal
-* The rationale for the DRC, e.g. why?
-* The title of the forum post must include DRC: with the short title of the DRC. E.g. DRC: New Market Request
-* A community poll that community members can use to vote on improvements off-chain
+* Des titres courts et concis de la DRC
+* Une description courte et concise de la proposition
+* La justification de la DRC, par exemple pourquoi ?
+* Le titre de la publication du forum doit inclure la DRC : avec le titre abrégé de la DRC. Par exemple : DRC : nouvelle demande de marché
+* Un sondage communautaire que les membres de la communauté peuvent utiliser pour voter sur les améliorations hors chaîne
 
-## 2. DRC Discussion & Feedback
+## 2. Discussion et commentaires sur la DRC
 
-Once posted on the governance forum, all questions and comments should be addressed & taken into consideration, to further improve the DRC.
+Une fois postés sur le forum de gouvernance, toutes les questions et commentaires doivent être traités et pris en considération, pour améliorer encore la RDC.
 
-## 3. DRC Snapshot Polling
+## 3. Vote Snapshot de la DRC
 
-Snapshot polls serve two purposes: sentiment signaling for future on-chain DIPs and binding votes for variables controlled off-chain.
+Les sondages Snapshot ont deux objectifs : la signalisation des sentiments pour les futurs DIP sur la chaîne et les votes contraignants pour les variables contrôlées hors chaîne.
 
-Once an off-chain DRC has a very rough consensus, a community member holding more than `10,000` DYDX can create an **off-chain vote** for the DRC on **Snapshot**. We encourage the dYdX Community to create Snapshot polls on Mondays to increase visibility during the regular workweek.
+Une fois qu'une RDC hors chaîne a un consensus très approximatif, un membre de la communauté détenant plus de `10 000` DYDX peut créer un **vote hors chaîne** pour la RDC sur **Snapshot**. Nous encourageons la communauté dYdX à créer des sondages Snapshot le lundi pour augmenter la visibilité pendant la semaine de travail normale.
 
-Snapshot is a simple voting interface that allows users to signal sentiment off-chain. Votes on Snapshot are weighted by the voting power of the address used to vote.&#x20;
+Snapshot est une interface de vote simple qui permet aux utilisateurs de signaler une opinion hors chaîne. Les votes sur Snapshot sont pondérés par le pouvoir de vote de l'adresse utilisée pour voter.
 
-For Snapshot polls related to sentiment signaling, the proposer will need to provide:
+Pour les sondages Snapshot liés à la signalisation de sentiment, le proposant devra fournir :
 
-* details of the DRC,
-* a voting system,&#x20;
-* a voting period - vote start date and vote end date set to a 4 day voting period, and&#x20;
-* a voting delay - a Snapshot block number that is 6570 blocks (approximately 1 day) in the future. The Snapshot block number locks the state of community members who can vote. Token holders who hold tokens before the Snapshot block number are eligible to vote. Before the snapshot of each address’ respective voting power, the voting delay gives DYDX/stkDYDY holders time to acquire tokens, delegate voting power, and move tokens between wallets (moving tokens between wallets only applies to DYDX holders).
+* détails de la DRC,
+* un système de vote,
+* une période de vote - la date de début du vote et la date de fin du vote sont définies sur une période de vote de 4 jours, et
+* un délai de vote - un numéro de bloc Snapshot qui est de 6570 blocs (environ 1 jour) dans le futur. Le numéro de bloc Snapshot verrouille l'état des membres de la communauté qui peuvent voter. Les détenteurs de jetons qui détiennent des jetons avant le numéro de bloc Snapshot sont éligibles pour voter. Avant le snapshot du pouvoir de vote respectif de chaque adresse, le délai de vote donne aux détenteurs de DYDX/stkDYDY le temps d'acquérir des jetons, de déléguer le pouvoir de vote et de déplacer des jetons entre les portefeuilles (le déplacement de jetons entre les portefeuilles ne s'applique qu'aux détenteurs de DYDX).
 
-For decisions that don’t require an on-chain smart contract call, notably changes to the Trading and Liquidity Provider rewards formulas, Snapshot votes are considered the binding and final vote. The proposer will need to include the requirements above and provide:
+Pour les décisions qui ne nécessitent pas d'appel de contrat intelligent sur la chaîne, notamment les modifications apportées aux formules de récompenses du fournisseur de trading et de liquidité, les votes Snapshot sont considérés comme le vote contraignant et final. Le proposant devra inclure les exigences ci-dessus et fournir :
 
-* binary voting options - for clarity, an address is either voting for or against a proposal.
+* options de vote binaires - pour plus de clarté, une adresse vote pour ou contre une proposition.
 
-The proposed change(s) will be implemented by dYdX Trading Inc. if the results of the Snapshot poll satisfy:
+Le ou les changements proposés seront mis en œuvre par dYdX Trading Inc. si les résultats du sondage Snapshot satisfont :
 
-* the minimum quorum - at least 1M DYDX/stkDYDX. The minimum quorum contributes to the decentralization of decision-making and protects against unilateral decision-making, and
-* the minimum vote differential - at least 67% of votes must be in favor of the proposal. The minimum vote differential assists with filtering out proposals that are highly contentious and require further discussion.&#x20;
+* le quorum minimum - au moins 1 million de DYDX/stkDYDX. Le quorum minimum contribue à la décentralisation de la prise de décision et protège contre la prise de décision unilatérale, et
+* le différentiel de vote minimum - au moins 67 % des votes doivent être en faveur de la proposition. Le différentiel de vote minimum aide à filtrer les propositions qui sont très controversées et nécessitent une discussion plus approfondie.
 
-dYdX Trading Inc. will have up to 1 Epoch (28 days), an execution grace period, to implement changes from a successful Snapshot poll.
+dYdX Trading Inc. aura jusqu'à 1 Époch (28 jours), une période de grâce d'exécution, pour mettre en œuvre les modifications à partir d'un sondage Snapshot réussi.
 
-Note, proposals and votes are just signed messages, stored on IPFS, and available via the Commonwealth portal.
+Notez que les propositions et les votes ne sont que des messages signés, stockés sur IPFS et disponibles via le portail du Commonwealth.
 
-## 4. (On-chain) DIP Creation
+## 4. Création de DIP (sur la chaîne)
 
-When a rough consensus is reached, an on-chain DIP may be submitted by a community member who holds enough proposition power for the type of proposal. An on-chain DIP is initiated via a smart contract call. The proposal should be based on the winning outcome of the off-chain DIP voting on Snapshot and can consist of one or multiple actions, up to a maximum of 10 actions per proposal.
+Lorsqu'un consensus approximatif est atteint, un DIP sur la chaîne peut être soumis par un membre de la communauté qui détient suffisamment de pouvoir de proposition pour le type de proposition. Un DIP sur la chaîne est lancé via un appel de contrat intelligent. La proposition doit être basée sur le résultat gagnant du vote DIP hors chaîne sur Snapshot et peut consister en une ou plusieurs actions, jusqu'à un maximum de 10 actions par proposition.
 
-A DIP creation is subject to a minimum number of tokens held/delegated required for an account. A Timelock executor must be specified when a proposal is created. The initial parameters are as follows (and can be modified by governance):
+Une création de DIP est soumise à un nombre minimum de jetons détenus/délégués requis pour un compte. Un exécuteur Verrouillage doit être spécifié lorsqu'une proposition est créée. Les paramètres initiaux sont les suivants (et peuvent être modifiés par la gouvernance) :
 
-| Parameter          | Description                                      | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor   |
+| Paramètre | Description | Exécuteur de courte durée | Exécuteur Merkle-pauser | Exécuteur de longue durée | Exécuteur Starkware |
 | ------------------ | ------------------------------------------------ | ----------------------- | ---------------------- | ---------------------- | -------------------- |
-| Proposal Threshold | Minimum tokens held/delegated to create proposal | 0.5% of total supply    | 0.5% of total supply   | 2% of total supply     | 0.5% of total supply |
+| Seuil de proposition | Jetons minimaux détenus/délégués pour créer une proposition | 0,5 % de l'offre totale | 0,5 % de l'offre totale | 2 % de l'offre totale | 0,5 % de l'offre totale |
 
-## 5. (On-chain) DIP Voting
+## 5. Voter le DIP (en chaîne)
 
-After an On-Chain DIP is created, the proposal enters a `pending` state for a period defined by the **Voting Delay**, which is currently configured to `6570` blocks or approximately 1 day (assuming 13 seconds per block). In other words, user snapshots are recorded 1 day after the DIP is created, at which point the proposal transitions to an `active` state.
+Après la création d'un DIP sur la chaîne, la proposition entre dans un état `d'attente` pendant une période définie par le **délai de vote**, qui est actuellement configuré sur `6570` blocs ou environ 1 jour (en supposant 13 secondes par bloc). En d'autres termes, les snapshots d'utilisateurs sont enregistrés 1 jour après la création du DIP, moment auquel la proposition passe à un état `actif`.
 
-After the Voting Delay, the Voting Period is activated. The voting period length depends on the proposal type.
+Après le délai de vote, la période de vote est activée. La durée de la période de vote dépend du type de proposition.
 
-The following chart shows a DIP state flowchart:
+Le graphique suivant montre un diagramme d'état DIP :
 
-![Lifecycle of a DIP](<../.gitbook/assets/image (63).png>)
+![Lifecycle of a DIP](<.. /.gitbook/assets/image (63).png>)
 
-After a DIP is created on-chain it is subject to a **Voting Delay**, **Voting Period**, **Minimum Quorum**, and a minimum **Vote Differential**. The initial parameters are as follows:
+Une fois qu'un DIP est créé sur la chaîne, il est soumis à un **délai de vote**, une **période de vote**, un **quorum minimum** et un **différentiel de vote** minimum. Les paramètres initiaux sont les suivants :
 
-| Parameter         | Description                                                                                           | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor   |
+| Paramètre | Description | Exécuteur de courte durée | Exécuteur Merkle-pauser | Exécuteur de longue durée | Exécuteur Starkware |
 | ----------------- | ----------------------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | -------------------- |
-| Voting Delay      | Number of Ethereum blocks to wait before voting on a proposal may begin after a proposal is submitted | 6,570 blocks            | 6,570 blocks           | 6,570 blocks           | 6,570 blocks         |
-| Voting Period     | Length of time for which proposals are available to be voted upon                                     | 4 days                  | 2 days                 | 10 days                | 4 days               |
-| Minimum Quorum    | Minimum yes votes for a DIP proposal to pass                                                          | 2% of total supply      | 1% of total supply     | 10% of total supply    | 2% of total supply   |
-| Vote Differential | Required yes-no gap for a DIP proposal to pass                                                        | 0.5% of total supply    | 0.5% of total supply   | 10% of total supply    | 0.5% of total supply |
+| Délai de vote | Nombre de blocs Ethereum à attendre avant que le vote sur une proposition puisse commencer après la soumission d'une proposition | 6570 blocs | 6570 blocs | 6570 blocs | 6570 blocs |
+| Période de vote | Durée pendant laquelle les propositions sont disponibles pour être soumises au vote | 4 jours | 2 jours | 10 jours | 4 jours |
+| Quorum minimum | Votes positifs minimum pour qu'une proposition DIP soit adoptée | 2 % de l'offre totale | 1 % de l'offre totale | 10 % de l'offre totale | 2 % de l'offre totale |
+| Différentiel de vote | Écart obligatoire oui-non pour qu'une proposition DIP soit acceptée | 0,5 % de l'offre totale | 0,5 % de l'offre totale | 10 % de l'offre totale | 0,5 % de l'offre totale |
 
-Only the voting delay can be modified by governance, and it can only be changed to values in between (inclusive) the minimum and maximum delay. The voting period, minimum quorum, and vote differential can't be changed.
+Seul le délai de vote peut être modifié par la gouvernance, et il ne peut être modifié qu'à des valeurs comprises entre (inclus) le délai minimum et maximum. La période de vote, le quorum minimum et le différentiel de vote ne peuvent pas être modifiés.
 
-## 6. Proposal Queuing & Execution
+## 6. Mise en file d'attente et exécution des propositions
 
-After a DIP has passed, any address can call the queue method to move the proposal into the timelock queue. A DIP can only be queued if it has passed.
+Après l'expiration d'un DIP, n'importe quelle adresse peut appeler la méthode de la file d'attente pour déplacer la proposition dans la file d'attente de verrouillage. Un DIP ne peut être mis en file d'attente que s'il est passé.
 
-| Parameter              | Description                                                                           | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
+| Paramètre | Description | Exécuteur de courte durée | Exécuteur Merkle-pauser | Exécuteur de longue durée | Exécuteur Starkware |
 | ---------------------- | ------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
-| Timelock Delay         | After a proposal passes and is queued, delay before the proposal is executed          | 2 days                  | 0 days                 | 7 days                 | 2-9 days           |
-| Execution Grace Period | The time after which a proposal becomes executable, during which it must be executed. | 7 days                  | 7 days                 | 7 days                 | 7 days             |
-| Minimum Timelock Delay | Minimum delay before a proposal is executed (after queuing)                           | 1 day                   | 0 days                 | 5 days                 | 4 days             |
-| Maximum Timelock Delay | Maximum delay before a proposal is executed (after queuing)                           | 7 days                  | 1 day                  | 21 days                | 21 days            |
+| Délai de verrouillage | Une fois qu'une proposition a été acceptée et mise en file d'attente, le délai avant l'exécution de la proposition | 2 jours | 0 jour | 7 jours | 2-9 jours |
+| Période de grâce d'exécution | Le temps après lequel une proposition devient exécutable, pendant lequel elle doit être exécutée. | 7 jours | 7 jours | 7 jours | 7 jours |
+| Délai de durée minimum | Délai minimum avant l'exécution d'une proposition (après mise en file d'attente) | 1 jour | 0 jour | 5 jours | 4 jours |
+| Délai de durée maximum | Délai maximum avant l'exécution d'une proposition (après mise en file d'attente) | 7 jours | 1 jour | 21 jours | 21 jours |
 
-As soon as the voting period ends and a proposal has succeeded, anyone can call queue to begin the timelock delay.
+Dès que la période de vote se termine et qu'une proposition a réussi, n'importe qui peut appeler la file d'attente pour commencer le délai de verrouillage.
 
-For the Starkware priority timelock executor, it has a priority period of 7 days out of the 9 day timelock delay. This means that after 9 days anyone can execute a proposal, but within days 2-9 (the priority period) Starkware has the option to execute the proposal.
+Pour l'exécuteur de verrouillage horaire prioritaire Starkware, il a une période de priorité de 7 jours sur le délai de verrouillage horaire de 9 jours. Cela signifie qu'après 9 jours, n'importe qui peut exécuter une proposition, mais dans les jours 2 à 9 (la période de priorité), Starkware a la possibilité d'exécuter la proposition.
 
-In practical terms it's:&#x20;
+Concrètement c'est :
 
-* Days 0–2: No one can execute&#x20;
-* Days 2–9: Only Starkware can execute&#x20;
-* Days 9: Anyone can execute
+* Jours 0-2 : personne ne peut exécuter
+* Jours 2-9 : seul Starkware peut exécuter
+* Jours 9 : n'importe qui peut exécuter
 
-## 7. (Optional) Proposal Cancellation
+## 7. (Facultatif) Annulation de la proposition
 
-At any point in a DIP lifecycle, the proposer can cancel the DIP. A proposal can be cancelled by anyone before it is executed if the proposer does not have sufficient proposition power at the current block.
+À tout moment du cycle de vie d'un DIP, le proposant peut annuler le DIP. Une proposition peut être annulée par n'importe qui avant d'être exécutée si le proposant n'a pas suffisamment de puissance de proposition au niveau du bloc actuel.
 
 
 
 ## FAQ
 
-### What is the purpose of the Voting Delay?
+### Quel est le but du délai de vote ?
 
-The **Voting Delay** is the number of Ethereum blocks to wait before voting on a proposal may begin after a proposal is submitted.&#x20;
+Le **délai de vote** est le nombre de blocs Ethereum à attendre avant que le vote sur une proposition puisse commencer après la soumission d'une proposition.
 
-DYDX voting power must be delegated to an address either entirely before a proposal has been submitted or during the proposal **Voting Delay**.&#x20;
+Le pouvoir de vote de DYDX doit être délégué à une adresse soit entièrement avant qu'une proposition ne soit soumise, soit pendant le **délai de vote** de la proposition.
 
-For now, the **Voting Delay** is set to `6,570 blocks`, which is about 1 day. This value is added to the current block number when a proposal is created.
+Pour l'instant, le **délai de vote** est fixé à `6 570 blocs`, soit environ 1 jour. Cette valeur est ajoutée au numéro de bloc actuel lorsqu'une proposition est créée.
 
-In the future, dYdX Governance may vote to increase or decrease the **Voting Delay**. While there are obvious benefits to an increased **Voting Delay.** It may introduce some potential adverse outcomes such as opportunistic edge case exploitation.
+À l'avenir, la gouvernance dYdX pourra voter pour augmenter ou diminuer le **délai de vote**. Bien qu'il y ait des avantages évidents à augmenter le **délai de vote.** Cela peut introduire des effets indésirables potentiels tels que l'exploitation opportuniste des cas périphériques.
 
-### What is the purpose of the Proposal Threshold?
+### Quel est l'objectif du seuil de proposition ?
 
-Since DYDX is a freely tradable asset, anyone can attempt a governance takeover via market buying. That said, to force-pass a bad faith vote would require a minimum of 5 million DYDX in the event of a short timelock or 20 million DYDX in the event of long timelock. If not outright impossible, this amount would be prohibitively expensive and likely cost more when accounting for price fluctuation than the net gain from the attack.
+Étant donné que DYDX est un actif librement négociable, n'importe qui peut tenter une prise de contrôle de la gouvernance via l'achat sur le marché. Cela dit, forcer un vote de mauvaise foi nécessiterait un minimum de 5 millions de DYDX en cas de durée courte ou 20 millions de DYDX en cas de durée longue. Si ce n'est pas carrément impossible, ce montant serait prohibitif et coûterait probablement plus cher, si l'on tient compte de la fluctuation des prix, que le gain net de l'attaque.
 
-If a group somehow achieved a bad faith takeover, the timelock delay would give affected agents time to withdraw their assets from the protocol. This would also be an opportunity to fork the protocol, a path that would likely be taken by the remaining good-faith actors.
+Si un groupe réalisait d'une manière ou d'une autre une prise de contrôle de mauvaise foi, le délai de verrouillage donnerait aux agents concernés le temps de retirer leurs actifs du protocole. Ce serait également l'occasion de bifurquer le protocole, une voie qui serait probablement empruntée par les acteurs de bonne foi restants.
 
 ###

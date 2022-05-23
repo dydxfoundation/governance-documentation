@@ -1,9 +1,9 @@
 ---
-description: Holders receive trading fee discounts based on their current holdings
+description: Les détenteurs bénéficient de remises sur les frais de trading en fonction de leurs avoirs actuels
 ---
 
-# Fee Discounts
+# Réductions des frais
 
-dYdX Trading Inc. is currently offering DYDX holders trading fee discounts based on their current holdings of DYDX tokens. Traders can see their current DYDX holdings, fee tier, and trading fee discounts [**here**](https://trade.dydx.exchange/portfolio/fees). More information is also available on the dYdX Trading Help Center available [**here**](https://help.dydx.exchange/en/articles/4798040-perpetual-trade-fees).
+dYdX Trading Inc. offre actuellement aux détenteurs de DYDX des réductions sur les frais de trading en fonction de leurs avoirs actuels en jetons DYDX. Les traders peuvent voir leurs avoirs DYDX actuels, leur niveau de frais et leurs remises sur les frais de trading [**ici**](https://trade.dydx.exchange/portfolio/fees). Plus d'informations sont également disponibles sur le centre d'aide de dYdX Trading disponible [**ici**](https://help.dydx.exchange/en/articles/4798040-perpetual-trade-fees).
 
-![You may pay lower fees for holding DYDX tokens](<../.gitbook/assets/image (89).png>)
+![You may pay lower fees for holding DYDX tokens](<.. /.gitbook/assets/image (89).png>)

@@ -1,67 +1,67 @@
 ---
-description: A high-level overview of governance architecture.
+description: Un aperçu de haut niveau de l'architecture de gouvernance.
 ---
 
 # Architecture
 
-## Overview
+## Aperçu
 
-DYDX grants holders the right to propose and vote on changes to the Protocol. DYDX governance is based on the AAVE governance contracts, and supports voting based on DYDX token holdings.
+DYDX accorde aux titulaires le droit de proposer et de voter des modifications du Protocole. La gouvernance DYDX est basée sur les contrats de gouvernance AAVE et prend en charge le vote basé sur les avoirs en jetons DYDX.
 
-Proposals must pass a given threshold and percent of yes votes based on the type of proposal.
+Les propositions doivent franchir un seuil donné et un pourcentage de votes favorables en fonction du type de proposition.
 
-These DYDX tokens can be used to make proposals or vote on governance proposals or be delegated to other Ethereum addresses.
+Ces jetons DYDX peuvent être utilisés pour faire des propositions ou voter sur des propositions de gouvernance ou être délégués à d'autres adresses Ethereum.
 
-There are 6 smart contracts at the core of dYdX Governance:
+Il existe 6 contrats intelligents au cœur de la gouvernance dYdX :
 
-* **The `DYDX Token` contract**: has snapshots of each address’ voting power at different blocks in time.
-* **The `Governance Strategy` contract**: contains logic to measure users' relative power to propose and vote.
-* **The `Safety Module` contract**: contains logics to stake DYDX tokens, tokenize the position and get rewards. Token staked the safety module retain full governance rights.
-* **The `Governor` contract**: tracks proposals and can execute proposals via the Timelock smart contract.
-* **The `Timelock` contracts**: can queue, cancel, or execute transactions voted by Governance. The functions in a proposal are initiated by the Timelock contract. Queued transactions can be executed after a delay and before the expiration of the grace period.&#x20;
-* **The `Priority Timelock` contract**: The same as the timelock contract, but allows a priority controller to execute transactions within the **Priority Period** (7 days) before the end of the timelock delay.&#x20;
+* **Le contrat de `jeton DYDX`** : contient des instantanés du pouvoir de vote de chaque adresse à différents blocs dans le temps.
+* **Le contrat `de stratégie de gouvernance`** : contient une logique pour mesurer le pouvoir relatif des utilisateurs à proposer et à voter.
+* **Le contrat `Module de sécurité`** : contient des logiques pour staker des jetons DYDX, tokeniser la position et obtenir des récompenses. Les jetons stakés dans le module de sécurité conservent tous les droits de gouvernance.
+* **Le contrat `Gouverneur`** : trace les propositions et peut exécuter des propositions via les contrats intelligents Timelock.
+* **Les contrats `Timelock`** : peuvent mettre en file d'attente, annuler ou exécuter des transactions votées par la gouvernance. Les fonctions d'une proposition sont initiées par le contrat Timelock. Les transactions en file d'attente peuvent être exécutées après un délai et avant l'expiration du délai de grâce.
+* **Le contrat `Verrouillage prioritaire`** : identique au contrat de verrouillage, mais permet à un contrôleur prioritaire d'exécuter des transactions dans la **période prioritaire** (7 jours) avant la fin du délai de verrouillage.
 
-![Smart contract architecture](<../.gitbook/assets/image (49).png>)
+![Smart contract architecture](<.. /.gitbook/assets/image (49).png>)
 
-dYdX on-chain governance allows for:
+La gouvernance sur la chaîne dYdX permet de :
 
-* Voting on proposals to be executed by any authorized executor contract
-* Snapshotting token holdings at the start of a proposal
-* Separate delegation of voting and proposing powers
-* Setting governance thresholds including proposals, quorums, and vote differential powers
-* Changing how votes are counted (by changing the “Governance Strategy” smart contract address on the Governor contract)
+* Voter sur les propositions à exécuter par tout contrat d'exécuteur autorisé
+* Instantané des portefeuilles de jetons au début d'une proposition
+* Délégation séparée des pouvoirs de vote et de proposition
+* Fixer des seuils de gouvernance, y compris des propositions, des quorums et des pouvoirs différentiels de vote
+* Changer la façon dont les votes sont comptés (en changeant l'adresse du contrat intelligent « Stratégie de gouvernance » sur le contrat Gouverneur)
 
-## Proposal Types
+## Types de propositions
 
-There are four types of proposals with different parameters which affect the length and execution of a proposal, i.e. critical proposals that affect governance consensus require more voting time and a higher vote differential, whereas proposals affecting only protocol parameters require less voting time and can be quickly implemented. An executor must validate each type of proposal.
+Il existe quatre types de propositions avec différents paramètres qui affectent la durée et l'exécution d'une proposition, c'est-à-dire que les propositions critiques qui affectent le consensus de gouvernance nécessitent plus de temps de vote et un différentiel de vote plus élevé, alors que les propositions affectant uniquement les paramètres de protocole nécessitent moins de temps de vote et peuvent être rapidement mis en œuvre. Un exécuteur doit valider chaque type de proposition.
 
-#### **Short timelock executor**
+#### **Exécuteur de courte durée**
 
-The short timelock executor controls the following:
+L'exécuteur de courte durée contrôle les éléments suivants :
 
-* Incentive contracts including the Liquidity Module, Safety Module, and Merkle Distributor Module
-* funds in the Rewards and Community Treasuries
-* minting new tokens
-* all proxy contracts except the safety module
-* guardian roles on stark proxy contracts
+* Contrats incitatifs comprenant le module de liquidité, le module de sécurité et le module de distribution Merkle
+* fonds dans les récompenses et les Trésoreries de la communauté
+* frapper de nouveaux jetons
+* tous les contrats proxy sauf le module de sécurité
+* rôles de gardien sur les contrats proxy stricts
 
-**Starkware priority timelock executor**
+**Exécuteur de verrouillage prioritaire Starkware**
 
-The Starkware priority timelock executor owns the StarkEx Perpetual Exchange contract. It can execute proposals that control the configuration of the dYdX Layer 2 Exchange.
+L'exécuteur de verrouillage prioritaire Starkware possède le contrat StarkEx Perpetual Exchange. Il peut exécuter des propositions qui contrôlent la configuration de l'échange de couche 2 dYdX.
 
-Depending on the action to be taken, the Starkware team may need to be involved in order to correctly implement the change on the exchange. For this reason, this executor is provided with a “priority controller” role, which provides Starkware with a period of 7 days (**Priority Period**) in which only they have the ability to trigger execution of a proposal.
+En fonction de l'action à entreprendre, l'équipe Starkware peut devoir s'impliquer afin d'implémenter correctement le changement sur l'échange. Pour cette raison, cet exécuteur est doté d'un rôle de « contrôleur prioritaire », qui fournit à Starkware une période de 7 jours (**période prioritaire**) pendant laquelle lui seul a la capacité de déclencher l'exécution d'une proposition.
 
-Starkware does not have control over _which_ protocol changes are made. Only DYDX tokenholders, via dYdX governance, have the ability to approve or deny changes to the exchange protocol.
+Starkware n'a aucun contrôle sur _les_ modifications apportées au protocole. Seuls les détenteurs de jetons DYDX, via la gouvernance dYdX, ont la capacité d'approuver ou de refuser les modifications du protocole d'échange.
 
-#### **Long timelock executor**
+#### **Exécuteur de longue durée**
 
-The long timelock executor can execute proposals that generally change parts of the Protocol that affect governance consensus.
+L'exécuteur de longue durée peut exécuter des propositions qui modifient généralement des parties du protocole qui affectent le consensus de gouvernance.
 
-#### **Merkle-pauser executor**
+#### **Exécuteur Merkle-pauser**
 
-The Merkle-pauser executor can execute proposals that freeze the Merkle root, which is updated periodically with each user's cumulative reward balance, allowing new rewards to be distributed to users over time, in case the proposed root is incorrect or malicious. It can also veto forced trade requests by any of the stark proxy contracts.
+L'exécuteur Merkle-pauser peut exécuter des propositions qui gèlent la racine Merkle, qui est mise à jour périodiquement avec le solde cumulatif des récompenses de chaque utilisateur, permettant de distribuer de nouvelles récompenses aux utilisateurs au fil du temps, au cas où la racine proposée serait incorrecte ou malveillante. Il peut également opposer son veto aux demandes d'échange forcé par l'un des contrats proxy stricts.
 
-The initial timelock parameters are as follows:
+Les paramètres de durée initiaux sont les suivants :
 
-![Initial timelock parameters](<../.gitbook/assets/Initial Timelock Parameters.png>)
+![Initial timelock parameters](<.. /.gitbook/assets/Paramètres de verrouillage temporel initial.png>)
 

@@ -1,116 +1,116 @@
 ---
-description: Overview of the Liquidity Provider rewards Program.
+description: Aperçu du programme de récompenses des fournisseurs de liquidités.
 ---
 
-# Liquidity Provider Rewards
+# Récompenses des fournisseurs de liquidités
 
-7.5% of the initial token supply (`75,000,000 DYDX`) will be distributed to liquidity providers based on a formula rewarding a combination of uptime, two-sided depth, bid-ask spreads, and the number of markets supported.
+7,5 % de l'offre initiale de jetons (`75 000 000 DYDX`) seront distribués aux fournisseurs de liquidité sur la base d'une formule récompensant une combinaison de temps de disponibilité, de profondeur bilatérale, d'écarts acheteur-vendeur et du nombre de marchés pris en charge.
 
-**Objectives**
+**Objectifs**
 
-* Improve two-sided liquidity and programmatically reward liquidity providers.
+* Améliorez la liquidité bilatérale et récompensez par programme les fournisseurs de liquidité.
 
-## **Overview**
+## **Aperçu**
 
-To incentivize market liquidity, DYDX will be distributed to liquidity providers based on a formula that rewards participation in markets, two-sided depth, spread (vs. mid-market), and uptime on dYdX’s Layer 2 Protocol. Any Ethereum address can earn these rewards, subject to a minimum maker volume threshold of 0.25% of maker volume in the preceding epoch. DYDX will be distributed on a 28-day epoch basis over five years and are not subject to any vesting or lockups. 1,150,685 DYDX will be distributed per epoch.
+Pour encourager la liquidité du marché, DYDX sera distribué aux fournisseurs de liquidité sur la base d'une formule qui récompense la participation aux marchés, la profondeur bilatérale, la propagation (par rapport au marché intermédiaire) et la disponibilité sur le protocole de couche 2 de dYdX. Toute adresse Ethereum peut gagner ces récompenses, sous réserve d'un seuil de volume minimum du teneur de 0,25 % du volume du teneur à l'époch précédente. DYDX sera distribué sur une période de 28 jours sur cinq ans et ne sera soumis à aucune acquisition ou blocage. 1 150 685 DYDX seront distribués par époch.
 
-The following function is used to compute how much DYDX should be rewarded to each liquidity provider per epoch. The amount of DYDX earned is determined by the relative share of each participant’s $$Q_{FINAL}$$&#x20;
+La fonction suivante est utilisée pour calculer combien de DYDX doivent être accordés à chaque fournisseur de liquidité par époch. Le montant de DYDX gagné est déterminé par la part relative des $$Q_{FINAL}$$ de chaque participant
 
-![](<../.gitbook/assets/LP Rewards.png>)
+![](<.. /.gitbook/assets/LP Rewards.png>)
 
-Orders below a certain **minimum depth** (size) ($$MinDepth$$) per market are excluded, and orders over a certain **maximum spread** (mid-market spread) ($$MaxSpread$$) market are excluded as well.
+Les ordres inférieurs à une certaine **profondeur minimale** (taille) ($$MinDepth$$) par marché sont exclus, et les ordres supérieurs à un certain **écart maximum** (écart de marché moyen) ($$MaxSpread$$) sont également exclus.
 
-Liquidity provider performance is monitored and calculated on a minute-by-minute basis (using randomized sampling) and aggregated into a $$Q_{SCORE}$$ ($$Q_{FINAL}$$) for a given market. Given minute-by-minute sampling, each epoch has 28 days \* 24 hours \* 60 minutes of data points—40,320 data points per epoch in total.
+Les performances du fournisseur de liquidités sont surveillées et calculées minute par minute (à l'aide d'un échantillonnage aléatoire) et agrégées en un $$Q_{SCORE}$$ ($$Q_{FINAL}$$) pour un marché donné. Avec un échantillonnage minute par minute, chaque époch a 28 jours \* 24 heures \* 60 minutes de points de données, soit 40 320 points de données par époch au total.
 
-Liquidity providers earn monthly rewards based on their relative $$Q_{FINAL}$$ share per epoch.
+Les fournisseurs de liquidité gagnent des récompenses mensuelles en fonction de leur part relative de $$Q_{FINAL}$$ par époch.
 
-The above formula is broken out into step-by-step calculations below for detail:
+La formule ci-dessus est décomposée en calculs étape par étape ci-dessous pour plus de détails :
 
-| Term / Formula (in order of calculation)                                          | Explanation / Example                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <img src="../.gitbook/assets/image (96).png" alt="" data-size="original">         | <p>Assume a liquidity provider has multiple open bid orders (1 BTC at $29,900, 5 BTC at $29,850, 10 BTC at $29,500) on the BTC-USD order book and BTC is currently at $30,000 (based on mid-market). Assume MinDepth is $5000 and MaxSpread vs. mid-market is $200, or 6.7 Basis Points ($200/30000). A BP is one-hundredth of one percent.<br></p><p> <span class="math">Q_{BID} = (1\ \times \left(\frac{\$29,900}{\$100/30000}\right)) + (5\ \times \left(\frac{\$29,850}{\$150/30000}\right))</span> </p><p><br> <span class="math">Q_{BID}</span>is calculated every minute using random sampling.<br></p>          |
-| <img src="../.gitbook/assets/math-20210908 (1).png" alt="" data-size="original">  | <p>Assume a liquidity provider has multiple open ask orders (0.1 BTC at $30,100, 5 BTC at $30,150, 10 BTC at $30,175) on the BTC-USD order book and BTC is currently trading at $30,000 (based on mid-market). Assume MinDepth is $5000 and MaxSpread vs. mid-market is $200, or 6.7 Basis Points ($200/30000). A BP is one-hundredth of one percent.</p><p></p><p><span class="math">Q_{ASK} = (5\ \times \left(\frac{\$30,150}{\$150/30000}\right)) + (10\ \times \left(\frac{\$30,175}{\$175/30000}\right)) </span> </p><p><br><span class="math">Q_{ASK}</span> is calculated every minute at a random interval.</p> |
-| <img src="../.gitbook/assets/math-20210908 (2).png" alt="" data-size="original">  | <p>Rewards 2-sided liquidity by taking the minimum of <span class="math">Q_{BID}</span> and <span class="math">Q_{ASK}</span>.<br></p><p>Calculated every minute.</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| <img src="../.gitbook/assets/math-20210908 (3).png" alt="" data-size="original">  | $$Q_{EPOCH}$$is the sum of all $$Q_{MIN}$$in a given epoch.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| <img src="../.gitbook/assets/math-20210908 (4).png" alt="" data-size="original">  | $$Uptime_{EPOCH}$$is the percentage of time in an epoch that a given market maker was live and quoting on both the bid and ask sides with order sizes greater than stated order minimum (noted below by market) and spreads smaller than stated maximum spread (noted below by market).                                                                                                                                                                                                                                                                                                                                  |
-| <img src="../.gitbook/assets/math-20210908 (5).png" alt="" data-size="original">  | $$Q_{FINAL}$$normalizes $$Q_{EPOCH}$$to account for uptime                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| _stkDYDX_                                                                         | Average amount of stkDYDX held (measured randomly every minute) across the epoch                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| _Total Pool stkDYDX_                                                              | Total amount of all Liquidity Provider participants’ _stkDYDX score_ across the epoch.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Terme / Formule (dans l'ordre de calcul) | Explication / Exemple |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![](<.. /.gitbook/assets/image (96).png>) | <p></p>Supposons qu'un fournisseur de liquidité ait plusieurs ordres d'achat ouverts (1 BTC à 29 900 $, 5 BTC à 29 850 $, 10 BTC à 29 500 $) sur le carnet d'ordres BTC-USD et que le BTC soit actuellement à 30 000 $ (basé sur le marché intermédiaire). Supposons que MinDepth est de 5000 $ et que MaxSpread par rapport au marché intermédiaire est de 200 $, soit 6,7 points de base (200 $/30 000). Un BP est un centième de un pour cent.<br><p> <span class="math">Q_{BID} = (1\ \times \left(\frac{\$29,900}{\$100/30000}\right)) + (5\ \times \left(\frac{\$29,850}{\$150/3000}\right))</span> </p><p><br> </p><span class="math">Q_{BID}</span> est calculé chaque minute à l'aide d'un échantillonnage aléatoire.<br> |
+| ![](<.. /.gitbook/assets/math-20210908 (1).png>) | <p></p>Supposons qu'un fournisseur de liquidité ait plusieurs ordres de demande ouverts (0,1 BTC à 30 100 $, 5 BTC à 30 150 $, 10 BTC à 30 175 $) sur le carnet d'ordres BTC-USD et que BTC se négocie actuellement à 30 000 $ (basé sur le marché intermédiaire). Supposons que MinDepth est de 5000 $ et que MaxSpread par rapport au marché intermédiaire est de 200 $, soit 6,7 points de base (200 $/30 000). Un BP est un centième de un pour cent.<p></p><p><span class="math">Q_{ASK} = (5\ \times \left(\frac{\$30,150}{\$150/30000}\right)) + (10\ \times \left(\frac{\$30,175}{\$175/30000}\right)) </span> </p><p></p><br><span class="math">Q_{ASK}</span> est calculé chaque minute à un intervalle aléatoire. |
+| ![](<.. /.gitbook/assets/math-20210908 (2).png>) | <p></p>Récompense la liquidité bilatérale en prenant le minimum de <span class="math">Q_{BID}</span> et <span class="math">Q_{ASK}</span>.<br><p></p>Calculé chaque minute. |
+| ![](<.. /.gitbook/assets/math-20210908 (3).png>) | $$Q_{EPOCH}$$ est la somme de toutes les $$Q_{MIN}$$ dans une époch donnée. |
+| ![](<.. /.gitbook/assets/math-20210908 (4).png>) | $$Uptime_{EPOCH}$$ est le pourcentage de temps au cours d'une époch où un teneur de marché donné était en direct et cotait à la fois du côté de l'offre et de la demande avec des tailles d'ordre supérieures au minimum d'ordre indiqué (noté ci-dessous par marché) et des spreads inférieurs à spread maximal indiqué (indiqué ci-dessous par marché). |
+| ![](<.. /.gitbook/assets/math-20210908 (5).png>) | $$Q_{FINAL}$$ normalise $$Q_{FINAL}$$ pour tenir compte de la disponibilité |
+| _stkDYDX_ | Quantité moyenne de stkDYDX détenue (mesurée au hasard toutes les minutes) à travers l'époch |
+| _Pool total stkDYDX_ | Montant total du _score stkDYDX_ de tous les participants du fournisseur de liquidités dans l'époch. |
 
-Each market will have its own rewards pool that will be weighted differently. The initial set of weights applied to each market is as follows:
+Chaque marché aura son propre pool de récompenses qui sera pondéré différemment. L'ensemble initial de pondérations appliqué à chaque marché est le suivant :
 
-| Market                 | % Allocation of Total Rewards Pool                                 |
+| Marché | % d'allocation du pool total de récompenses |
 | ---------------------- | ------------------------------------------------------------------ |
-| BTC-USD                | 20%                                                                |
-| ETH-USD                | 20%                                                                |
-| Other perpetual market | ![](<../.gitbook/assets/Screen Shot 2021-07-15 at 1.20.17 PM.png>) |
+| BTC-USD | 20 % |
+| ETH-USD | 20 % |
+| Autre marché perpétuel | ![](<.. /.gitbook/assets/Screen Shot 15/07/2021 à 1.20.17 PM.png>) |
 
 ## FAQ
 
-### Who is eligible for liquidity provider rewards?
+### Qui est admissible aux récompenses des fournisseurs de liquidités ?
 
-All liquidity providers who have achieved a minimum of 0.25% of maker volume on the dYdX Layer 2 Protocol in the prior epoch are eligible to receive DYDX as rewards in a given epoch.
+Tous les fournisseurs de liquidités qui ont atteint un minimum de 0,25 % de volume de trader sur le protocole dYdX de couche 2 à l'époch précédente sont admissibles pour recevoir DYDX en tant que récompenses à une époch donnée.
 
-The dYdX Layer 2 Protocol is not available to liquidity providers in the United States or Restricted Territories, as defined in dYdX Trading Inc.’s [Terms of Use](https://dydx.exchange/terms).
+Le protocole de couche 2 de dYdX n'est pas disponible pour les fournisseurs de liquidités aux États-Unis ou dans les territoires restreints, tels que définis dans les [conditions d'utilisation](https://dydx.exchange/terms) de dYdX Trading Inc.
 
-### How much DYDX did I earn in the Liquidity Provider Rewards program?
+### Combien de DYDX ai-je gagné dans le cadre du programme de récompenses des fournisseurs de liquidité ?
 
-In a given epoch, liquidity providers earn yield based on their relative $$Q_{SCORE}$$ in a given pair’s market. Each pair has its own relative reward amount set by governance. The expected amount of DYDX earned can be determined based on the number of liquidity providers involved, the relative $$Q_{SCORE}$$, and the amount of reward available for a given pair.
+À une époch donnée, les fournisseurs de liquidité gagnent un rendement en fonction de leur $$Q_{SCORE}$$ relatif sur le marché d'une paire donnée. Chaque paire a son propre montant de récompense relatif fixé par la gouvernance. Le montant attendu de DYDX gagné peut être déterminé en fonction du nombre de fournisseurs de liquidités impliqués, du $$Q_{SCORE}$$ relatif et du montant de la récompense disponible pour une paire donnée.
 
-### How do I claim my Liquidity Provider Rewards?
+### Comment puis-je réclamer mes récompenses de fournisseur de liquidité ?
 
-Liquidity Provider Rewards are surfaced in the [dYdX API](https://docs.dydx.exchange/). Although not surfaced on the governance user interface, they are still claimable via the governance at the end of every epoch [here](https://dydx.community/dashboard).&#x20;
+Les récompenses des fournisseurs de liquidités sont apparues dans l' [API dYdX](https://docs.dydx.exchange). Bien qu'elles n'apparaissent pas sur l'interface utilisateur de gouvernance, elles sont toujours réclamables via la gouvernance à la fin de chaque époch [ici](https://dydx.community/dashboard).
 
-### When can I withdraw and transfer my claimed DYDX Liquidity Provider Rewards?
+### Quand puis-je retirer et transférer mes récompenses de fournisseur de liquidité DYDX réclamées ?
 
-DYDX tokens rewarded via the Liquidity Provider Rewards will become claimable and transferable once the initial transfer restriction period is lifted.
+Les jetons DYDX récompensés via les récompenses de fournisseurs de liquidités deviendront réclamables et transférables une fois la période de restriction de transfert initiale levée.
 
-Starting in Epoch 1, DYDX tokens rewarded via the Liquidity Provider Rewards will become claimable `7 days` (**Waiting Period**) after the end of each epoch.
+À partir de l'époch 1, les jetons DYDX récompensés via les récompenses de fournisseurs de liquidité deviendront réclamables `7 jours` (**période d'attente**) après la fin de chaque époch.
 
-### How are two-sided depth, bid-ask spread, and uptime defined and measured?
+### Comment la profondeur bilatérale, l'écart acheteur-vendeur et le temps de disponibilité sont-ils définis et mesurés ?
 
-**Two-sided depth**&#x20;
+**Profondeur bilatérale**
 
-A two-sided liquidity provider is a firm or individual who actively quotes two-sided markets on the dYdX Layer 2 Protocol, providing bids and asks for a given market. They provide liquidity to the protocol overall.
+Un fournisseur de liquidités bilatéral est une entreprise ou un individu qui cote activement des marchés bilatéraux sur le protocole de couche 2 de  dYdX, en fournissant des offres et des demandes pour un marché donné. Ils fournissent de la liquidité au protocole dans son ensemble.
 
-For instance, a liquidity provider in the BTC-USD market may provide a quote of $30,000-$30,100, 10x50. This means that they bid (they will buy) 10 BTC for $30,000 and also offer (they will sell) 50 BTC at $30,100. Other market participants may then buy (lift the offer) from the liquidity provider at $30,100 or sell to them (hit the bid) at $30,000.
+Par exemple, un fournisseur de liquidité sur le marché BTC-USD peut fournir une cotation de 30 000 $ à 30 100 $, 10x50. Cela signifie qu'ils enchérissent (ils achèteront) 10 BTC pour 30 000 $ et offriront également (ils vendront) 50 BTC à 30 100 $. D'autres participants au marché peuvent alors acheter (lever l'offre) du fournisseur de liquidité à 30 100 $ ou lui vendre (atteindre l'offre) à 30 000 $.
 
-Liquidity providers are assessed on their ability to provide both bids and asks on a given market. Liquidity providers who only quote on 1-side (either just bids or asks) are excluded from receiving rewards due to the min() function.
+Les fournisseurs de liquidité sont évalués sur leur capacité à fournir à la fois des offres et des demandes sur un marché donné. Les fournisseurs de liquidité qui ne fait une estimation de prix que d'un côté (soit uniquement des offres, soit des demandes) sont exclus de la réception des récompenses en raison de la fonction min().
 
-**Mid-market spread**
+**Écart moyen du marché**
 
-One common measure of liquidity is the bid-ask spread: the spread between the highest bid (order to buy) price and the lowest ask (order to sell) price in a market. The difference between the bid and the ask, the spread, is the principal transaction cost of trading (outside commissions), and it is collected by the liquidity provider by processing orders at the bid and ask prices. The spread measures the cost of transacting immediately to a user.
+Une mesure courante de la liquidité est l'écart acheteur-vendeur : l'écart entre le prix acheteur (ordre d'achat) le plus élevé et le prix vendeur (ordre de vente) le plus bas sur un marché. La différence entre l'offre et la demande, le spread, est le principal coût de transaction du trading (hors commissions), et il est collecté par le fournisseur de liquidité en traitant les ordres aux cours acheteur et vendeur. Le spread mesure le coût d'une transaction immédiate pour un utilisateur.
 
-The mid-market spread specifically takes the midpoint of the market. With this formula, orders below the MinDepth amount for each market are excluded also.
+Le spread du marché moyen prend spécifiquement le point médian du marché. Avec cette formule, les ordres inférieurs au montant MinDepth pour chaque marché sont également exclus.
 
-For instance, if a liquidity provider’s bid price for BTC-USD is $30,000 and the ask price is $30,100, then the bid-ask spread is $100. The mid-market price is $30,050, and the mid-market spread is $50.
+Par exemple, si le cours acheteur d'un fournisseur de liquidité pour BTC-USD est de 30 000 $ et le cours vendeur est de 30 100 $, alors l'écart acheteur-vendeur est de 100 $. Le prix moyen du marché est de 30 050 $ et le spread du marché moyen est de 50 $.
 
-**Uptime**
+**Temps de disponibilité**
 
-Liquidity provider uptime is critical for markets, especially in periods of high volatility. By applying an exponent of 5 to $$Uptime_{epoch}$$ as an input to the $$Q_{FINAL}$$, the rewards are skewed towards liquidity providers who maintain 2-sided liquidity constantly. In other words, a liquidity provider who provides uptime 99% of the time is exponentially more valuable than a liquidity provider who provides 90% uptime.
+La disponibilité des fournisseurs de liquidité est essentielle pour les marchés, en particulier en période de forte volatilité. En appliquant un exposant de 5 à $$Uptime_{epoch}$$ comme entrée au $$Q_{FINAL}$$, les récompenses sont faussées vers les fournisseurs de liquidité qui maintiennent constamment une liquidité bilatérale. En d'autres termes, un fournisseur de liquidité qui fournit une disponibilité de 99 % du temps est exponentiellement plus précieux qu'un fournisseur de liquidité qui fournit une disponibilité de 90 %.
 
-Uptime is defined as the percentage of time orders are in a given market providing liquidity on a minute-by-minute basis (with randomized sampling). Uptime excludes periods of time when outages exist on the dYdX Layer 2 Protocol itself. There may be edge cases where the exchange is slow or not accepting orders (but is not an outage)—in which case the above would not apply (but that would be considered a bug and all liquidity providers would be similarly affected, as with outages).
+La disponibilité est définie comme le pourcentage de temps pendant lequel les ordres sont sur un marché donné fournissant de la liquidité minute par minute (avec échantillonnage aléatoire). La disponibilité exclut les périodes de temps pendant lesquelles des pannes existent sur le protocole de couche 2 de dYdX lui-même. Il peut y avoir des cas extrêmes où l'échange est lent ou n'accepte pas les ordres (mais n'est pas une panne) - auquel cas ce qui précède ne s'appliquerait pas (mais cela serait considéré comme un bogue et tous les fournisseurs de liquidités seraient affectés de la même manière, comme avec les pannes).
 
-### How is the maximum spreads per market defined?
+### Comment les spreads maximaux par marché sont-ils définis ?
 
-No $$Q_{BID}$$ or $$Q_{ASK}$$will be generated when the spread is above a given market’s $$MaxSpread$$.
+Aucune $$Q_{BID}$$ ou $$Q_{ASK}$$ ne sera générée lorsque le spread est supérieur au $$MaxSpread$$ d'un marché donné.
 
-The initial Max Spreads are as follows:
+Les spreads maximaux initiaux sont les suivants :
 
-| Market                  | Max Spread vs Mid-Market (Bid and Ask) |
+| Marché | Max Spread vs Mid-Market (offre et demande) |
 | ----------------------- | -------------------------------------- |
-| BTC-USD                 | 20 bps                                 |
-| ETH-USD                 | 20 bps                                 |
-| Other perpetual markets | 40 bps                                 |
+| BTC-USD | 20 bps |
+| ETH-USD | 20 bps |
+| Autres marchés perpétuels | 40 bps |
 
-### How is the minimum depth (size) per market defined?
+### Comment la profondeur minimale (taille) par marché est-elle définie ?
 
-No $$Q_{BID}$$ or $$Q_{ASK}$$will be generated when the size is below a given market’s $$MinDepth$$.
+Aucune $$Q_{BID}$$ ou $$Q_{ASK}$$ ne sera générée lorsque la taille est inférieure à la $$MinDepth$$ d'un marché donné.
 
-The initial Min Depths are as follows:
+Les profondeurs minimales initiales sont les suivantes :
 
-| **Market**              | **Min Depth (Bid and Ask)** |
+| **Marché** | **Profondeur minimale (offre et demande)** |
 | ----------------------- | --------------------------- |
-| BTC-USD                 | $5000                       |
-| ETH-USD                 | $5000                       |
-| Other perpetual markets | $1000                       |
+| BTC-USD | 5000 $ |
+| ETH-USD | 5000 $ |
+| Autres marchés perpétuels | 1000 $ |
