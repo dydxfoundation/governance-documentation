@@ -1,267 +1,265 @@
 ---
 description: >-
-  A step-by-step overview of the governance process: DRC creation, Snapshot poll
-  creation, DIP creation, voting on a Snapshot poll, voting on a DIP, queueing a
-  DIP, and executing a DIP.
+  DRC oluşturma, Snapshot anketinin oluşturulması, DIP oluşturma, bir Snapshot anketinin oylanması, bir DIP'nin oylanması, bir DIP'nin kuyruğa koyulması ve bir DIP'nin uygulamaya koyulmasına ilişkin yönetişim sürecine adım adım bir genel bakış.
 ---
 
-# Governance Guide
+# Yönetişim Rehberi
 
-The dYdX Foundation created this guide to assist the dYdX community with understanding the dYdX governance process. The guide provides a step-by-step overview of:
+dYdX Vakfı, dYdX topluluğunun dYdX yönetişim sürecini anlamasına yardımcı olmak için bu kılavuzu oluşturmuştur. Kılavuzda şu konulara adım adım bir genel bakış sağlanmaktadır:
 
-* [Forum Discussions (off-chain)](governance-guide.md#step-1-forum-discussions-drc-creation-off-chain-and-drc-feedback)
-* [DRC creation (off-chain)](governance-guide.md#step-1-forum-discussions-drc-creation-off-chain-and-drc-feedback)
-* [Snapshot poll creation (off-chain)](governance-guide.md#step-2-drc-snapshot-polling-off-chain)
-* [Voting on a Snapshot poll](governance-guide.md#how-to-vote-on-a-snapshot-poll)
-* [DIP creation (off-chain)](governance-guide.md#step-3-dip-creation-off-chain-proposal)
-* [DIP creation (on-chain)](governance-guide.md#step-1-on-chain-dip-drafting)
-* [Voting on a DIP (on-chain)](governance-guide.md#how-to-vote-on-a-dip)
-* [Queueing a DIP (on-chain)](governance-guide.md#how-to-queue-a-proposal)
-* [Executing a DIP (on-chain)](governance-guide.md#how-to-execute-a-proposal)
+* [Forum Tartışmaları (zincir dışı)](governance-guide.md#step-1-forum-discussions-drc-creation-off-chain-and-drc-feedback)
+* [DRC oluşturma (zincir dışı)](governance-guide.md#step-1-forum-discussions-drc-creation-off-chain-and-drc-feedback)
+* [Snapshot anketi oluşturma (zincir dışı)](governance-guide.md#step-2-drc-snapshot-polling-off-chain)
+* [Bir Snapshot anketinin oylanması](governance-guide.md#how-to-vote-on-a-snapshot-poll)
+* [DIP oluşturma (zincir dışı)](governance-guide.md#step-3-dip-creation-off-chain-proposal)
+* [DIP oluşturma (zincir içi)](governance-guide.md#step-1-on-chain-dip-drafting)
+* [Bir DIP'nin oylanması (zincir içi)](governance-guide.md#how-to-vote-on-a-dip)
+* [Bir DIP'nin kuyruğa koyulması (zincir içi)](governance-guide.md#how-to-queue-a-proposal)
+* [Bir DIP'nin uygulamaya koyulması (zincir içi)](governance-guide.md#how-to-execute-a-proposal)
 
-The two examples featured in the guide are _DIP 2 (off-chain proposal) - Reducing Liquidity Provider Rewards Threshold_ and _DIP 3 (on-chain proposal) - Safety Module Restoration_.
+Kılavuzda yer alan iki örnek _DIP 2 (zincir dışı teklif) - Likidite Sağlayıcı Ödülleri Eşiğinin Düşürülmesi_ ve _DIP 3 (zincir içi teklif) Safety Module'un Restorasyonu'dur_.
 
-## DIP 2 (Off-Chain Proposal) - Reducing Liquidity Provider Rewards Threshold
+## DIP 2 (Zincir Dışı Teklif) - Likidite Sağlayıcı Ödülleri Eşiğinin Düşürülmesi
 
-_**Summary:**_
+_**Özet:**_
 
-In Epoch 6, the dYdX community voted on [Snapshot ](https://commonwealth.im/dydx/snapshot/dydxgov.eth/0x785066561be1e5d170eb28960da5ef2643ee0d0c3d590fd797c028512cc6be43)to reduce the LP rewards volume threshold for market makers from 1% to 0.25%. The reduction of the LP rewards threshold from 5% to 1% in Epoch 2 followed the same process as the reduction in Epoch 6 (1% to 0.25%). The step-by-step overview to reduce the LP rewards volume threshold from 5% to 1% is included below.&#x20;
+Dönem 6'da dYdX topluluğu, piyasa yapıcılar için LP ödülleri hacmi eşiğinin %1'den %0,25'e düşürülmesini [Snapshot](https://commonwealth.im/dydx/snapshot/dydxgov.eth/0x785066561be1e5d170eb28960da5ef2643ee0d0c3d590fd797c028512cc6be43)'ta oylamıştır. LP ödülleri eşiğinin Dönem 2'de %5'den %1'e düşürülmesinde, Dönem 6'daki düşürme (%1'den %0,25'e) ile aynı süreç izlenmiştir. LP ödülleri hacmi eşiğinin %5'den %1'e düşürülmesi sürecine adım adım genel bakış aşağıda yer almaktadır.
 
-The majority of the community (399 voters and 86% of DYDX) voted on [Snapshot](https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN) to reduce the volume threshold to obtain Liquidity Provider rewards from 5% to 1%. An [off-chain DIP](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-2.md) to reduce the Liquidity Provider rewards volume threshold for market makers from 5% to 1% was submitted by Jacob Goh (jteam0x) at DeFiance Capital. Market makers that met the 1% threshold in Epoch 2 were eligible to earn Liquidity Provider rewards in Epoch 3. The proposal did not require any on-chain smart contract changes.&#x20;
+Topluluğun çoğunluğu (399 oy veren ve [DYDX](https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN)'in %86'sı) Likidite Sağlayıcı ödüllerinin alınması için hacim eşiğinin %5'den %1'e düşürülmesi yönünde oy kullanmıştır. Piyasa yapıcılar için Likidite Sağlayıcı ödülleri hacmi eşiğinin %5'den %1'e düşürülmesi için [zincir dışı bir DIP](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-2.md) DeFiance Capital'da Jacob Goh (jweam0x) tarafından sunulmuştur. Dönem 2'de %1'lik eşiği karşılayan piyasa yapıcılar Dönem 3'te Likidite Sağlayıcı ödülleri kazanmaya hak kazanmışlardır. Teklif, hiçbir zincir içi akıllı sözleşme değişikliği gerektirmemiştir.
 
-_**Background:**_
+_**Geçmiş:**_
 
-As part of the Liquidity Provider [rewards program](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards), 1,150,685 DYDX is distributed per epoch (28 days) to Liquidity Providers who market make for the protocol. Rewards are distributed based on a formula rewarding a combination of uptime, two-sided depth, bid-ask spreads, and the number of markets supported. To be eligible for this rewards program, liquidity providers need to provide a minimum percentage of the total maker volume during the preceding epoch.
+Likidite Sağlayıcı [ödülleri programı](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards) kapsamında, protokol için piyasa yapan Likidite Sağlayıcılara her dönem (28 gün) 1.150.685 DYDX dağıtılmaktadır. Ödüller çalışma süresi, iki taraflı derinlik, teklif-talep farkları ve desteklenen piyasaların sayısının bir kombinasyonunu ödüllendiren bir formül esasında dağıtılmaktadır. Bu ödül programına hak kazanmak için, likidite sağlayıcıların bir önceki dönem boyunca toplam piyasa yapıcı hacminin minimum bir yüzdesini sağlaması gerekmektedir.
 
-The dYdX community has "immediate and irrevocable control over" the Liquidity Provider rewards threshold. The full list of parameters that the community controls is linked [here](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+dYdX topluluğu, Likidite Sağlayıcı ödülleri eşiğinin üzerinde "anında ve gayri kabili rücu kontrol" sahibidir. Topluluğun kontrol ettiği parametrelerin tam listesini [burada](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) bulabilirsiniz.
 
-The community was motivated to lower the Liquidity Provider rewards threshold because it would incentivize new Market Makers and small to medium size Market Makers to increase liquidity on the dYdX platform. Further, increasing the number of Market Makers on the platform helps the dYdX protocol become more decentralized.
+Topluluk Likidite Sağlayıcı ödülleri eşiğinin düşürülmesini istemektedir çünkü bu yeni Piyasa Yapıcıları ve küçük ila orta ölçekli Piyasa Yapıcıları dYdX platformundaki likiditeyi artırmaya teşvik edecektir. Dahası, platformdaki Piyasa Yapıcıların sayısının artırılması dYdX protokolünün daha merkeziyetsiz bir hale gelmesini sağlar.
 
-Next, we provide a step-by-step overview of how dYdX governance functions in practice. More information about the dYdX governance process is linked [here](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
+Bunun ardından, dYdX yönetişiminin pratikte nasıl işlediğine dair adım adım bir genel bakış sunuyoruz. dYdX yönetişim süreci hakkında daha fazla bilgiyi [burada](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle) bulabilirsiniz.
 
-### **STEP 1 - Forum Discussions, DRC Creation (Off-Chain), and DRC Feedback**
+### **1. ADIM - Forum Tartışmaları, DRC Oluşturma (Zincir Dışı) ve DRC Geri Bildirimi**
 
-_**Description:**_
+_**Açıklama:**_
 
-The dYdX Governance Process is fueled by [governance forums](https://forums.dydx.community/). Community members post and comment on discussion threads to reach a rough consensus off-chain. More information about forum discussions and DRC Creation is linked [here](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
+dYdX Yönetişim Süreci, [yönetişim forumları](https://forums.dydx.community) tarafından desteklenir. Topluluk üyeleri zincir dışı bir açık mutabakat sağlamak için tartışma ileti dizilerinde gönderi oluşturur ve yorum yapar. Forum tartışmaları ve DRC Oluşturma hakkında daha fazla bilgiyi [burada](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle) bulabilirsiniz.
 
-_**Application to DIP 2:**_
+_**DIP 2 başvurusu:**_
 
-Su Zhu (zhusu) from Three Arrows Capital created an [off-chain Forum Discussion](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/) to lower the Liquidity Provider Rewards Threshold. Various community members, such as Evgeny from Wintermute, Ben from Kronos, Josh from Sixtant, and many more, participated in the discussion and offered valuable feedback.
+Three Arrows Capital'dan Su Zhu (zhusu) Likidite Sağlayıcı Ödülleri Eşiğinin düşürülmesi için [zincir dışı bir Forum Tartışması](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/) oluşturmuştur. Wintermute'tan Evgeny, Kronos'dan Ben, Sixtant'tan Josh ve daha birçok topluluk üyesi tartışmaya katılmış ve değerli geri bildirimler sağlamıştır.
 
-![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](<../.gitbook/assets/image (99).png>)
+![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](<.. /.gitbook/assets/image (99).png>)
 
-![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](<../.gitbook/assets/image (97).png>)
+![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](<.. /.gitbook/assets/image (97).png>)
 
-#### _How to Post and Comment on Commonwealth:_
+#### _Commonwealth'te nasıl Gönderi Oluşturulur ve Yorum Yapılır:_
 
-* Register on Commonwealth with your Ethereum wallet or Github account and join the dYdX community [here](https://forums.dydx.community/).
+* Ethereum cüzdanınız veya Github hesabınız ile Commonwealth'e kaydolun ve dYdX topluluğuna [buradan](https://forums.dydx.community) katılın.
 
-![https://forums.dydx.community/](<../.gitbook/assets/Untitled 1>)
+![https://forums.dydx.community/](<.. /.gitbook/assets/Untitled 1>)
 
-* Select a thread, scroll through the comments, and like or reply to comments by clicking the icons under the respective comment.
+* Bir ileti dizisi seçin, yorumları okuyun ve ilgili yorumun altındaki simgelere tıklayarak yorumları beğenin veya yorumlara yanıt verin.
 
-![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](<../.gitbook/assets/image (107).png>)
+![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](<.. /.gitbook/assets/image (107).png>)
 
-* Create a new discussion thread or post a DRC by clicking on “New thread” and selecting the topic category.
+* "Yeni ileti dizisi" seçeneğine tıklayarak ve konu kategorisini seçerek yeni bir tartışma ileti dizisi oluşturun veya bir DRC yayınlayın.
 
-![https://forums.dydx.community/new/discussion](<../.gitbook/assets/Untitled 3>)
+![https://forums.dydx.community/new/discussion](<.. /.gitbook/assets/Untitled 3>)
 
-* If you are creating a DRC, please follow the template linked [here](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md). As outlined under _DRC Creation_ in the [Proposal Lifecycle](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle), DRCs at a minimum must include the following:
-  * A short and concise title of the DRC.
-  * A short and concise description of the proposal.
-  * The rationale for the DRC (e.g. why?).
-  * The title of the forum post must include DRC: \[insert short title of the DRC] (E.g. DRC: New Market Request).
-  * A community poll that community members can use to vote on improvements off-chain.
+* Eğer bir DRC oluşturuyorsanız lütfen [buradaki](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) şablonu izleyin. [Teklif Yaşam Döngüsü](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle) bölümünde _DRC Oluşturma_ başlığı altında belirtildiği üzere DRC'ler en az şunları içermelidir:
+   * DRC'nin kısa ve öz bir başlığı.
+   * Teklifin kısa ve öz bir açıklaması.
+   * DRC'nin gerekçesi (örneğin neden?).
+   * Forum gönderisinin başlığı DRC: \[DRC'nin kısa başlığını ekleyin] şeklinde olmalıdır (Örneğin, DRC: Yeni Piyasa Talebi).
+   * Topluluk üyelerinin zincir dışı iyileştirmeleri oylamak için kullanabileceği bir topluluk anketi.
 
-### **STEP 2 - DRC Snapshot Polling (Off-Chain)**
+### **2. ADIM - DRC Snapshot Anketi (Zincir Dışı)**
 
-_**Description:**_
+_**Açıklama:**_
 
-After the community achieves a rough consensus, a community member with 10K proposing power can create an off-chain vote for the DRC on [Snapshot](https://snapshot.org/#/). [Proposing power](https://docs.dydx.community/dydx-governance/voting-and-governance/voting) gives access to creating and sustaining a proposal. Snapshot is a simple voting interface that allows users to signal sentiment off-chain. Votes on snapshot are weighted by the number of DYDX held by or delegated to the address used to vote. The community member that creates the Snapshot poll must provide details about the DRC, a voting system, vote start date, vote end date, and snapshot block number. The voting period should be 5 days in length and voting should start after a 1 day voting delay. The voting delay provides time for dYdX community members to learn more about the DRC, purchase DYDX, or delegate the voting power of their DYDX. Community members who hold DYDX or who have been delegated voting power before the Snapshot block number are eligible to vote. More information about Snapshot polling is linked [here](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
+Topluluk açıkça bir mutabakat sağladıktan sonra, 10.000 teklif verme yetkisine sahip bir topluluk üyesi [Snapshot](https://snapshot.org/#/) üzerinde DRC için zincir dışı bir oylama oluşturabilir. [Teklif verme yetkisi](https://docs.dydx.community/dydx-governance/voting-and-governance/voting) bir teklif oluşturma ve sürdürme erişimi sağlar. Snapshot, kullanıcıların duyarlılığı zincir dışında göstermesini sağlayan basit bir oylama arayüzüdür. Snapshot üzerindeki oylamalarda, oylama yapmak için kullanılan adrese ait veya bu adrese delege edilmiş DYDX sayısına göre ağırlık verilir. Snapshot anketini oluşturan topluluk üyesi DRC hakkında ayrıntılı bilgi, bir oylama sistemi, oylamanın başlangıç tarihi, oylamanın sona erme tarihi ve snapshot blok numarasını sağlamalıdır. Oylama süresi 5 gün olmalı ve oylama 1 günlük oylama bekleme süresi sonrasında başlamalıdır. Oylama bekleme süresi dYdX topluluk üyelerinin DRC hakkında daha fazla bilgi edinmesi, DYDX satın alması veya DYDX'lerinin oylama yetkisini delege etmesi için zaman sağlar. Snapshot blok numarası öncesinde DYDX tutan veya oylama yetkisi kendisine delege edilen topluluk üyeleri oy verme hakkına sahiptir. Snapshot anketleri hakkında daha fazla bilgiyi [burada](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle) bulabilirsiniz.
 
-_**Application to DIP 2:**_
+_**DIP 2 başvurusu:**_
 
-Community members provided feedback on Su Zhu's post. The following rewards thresholds were suggested by the community:
+Topluluk üyeleri Su Zhu'nun gönderisi hakkında geri bildirim sağlamıştır. Topluluk tarafından aşağıdaki ödül eşikleri önerilmiştir:
 
-* [0.5%](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=body) - Su Zhu from Three Arrows Capital,
-* [1%](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=4972) - Sam from BitTrading,
-* [2.5%](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=4855) - Ben from Kronos / WOO Network, and
-* [5%](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=4872) - Evgeny from Wintermute.
+* [%0,5](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=body) - Three Arrows Capital'dan Su Zhu,
+* [%1](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=4972) - BitTrading'den Sam,
+* [%2,5](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=4855) - Kronos / WOO Network'ten Bin ve
+* [%5](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=4872) - Wintermute'tan Evgeny.
 
-Next, Su Zhu created a Snapshot poll with the following options:
+Bunun ardından, Su Zhu aşağıdaki seçeneklerle bir Snapshot anketi oluşturmuştur:
 
-* Lower MM threshold to 1%
-* Lower MM threshold to 2.5%
-* Keep the MM threshold at 5%
+* MM eşiğinin %1'e düşürülmesi
+* MM eşiğinin %2,5'e düşürülmesi
+* MM eşiğinin %5 olarak bırakılması
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 4>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<.. /.gitbook/assets/Untitled 4>)
 
-#### _How to Vote on a Snapshot Poll:_
+#### _Bir Snapshot Anketi Üzerinde Oylama Yapma:_
 
-* Register on Snapshot with your Ethereum wallet and follow dYdX proposals [here](https://snapshot.org/#/dydxgov.eth). Alternatively, you can vote and create a Snapshot poll directly on [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
+* Ethereum cüzdanınız ile Snapshot'a kaydolun ve [buradaki](https://snapshot.org/#/dydxgov.eth) dYdX tekliflerini izleyin. Alternatif olarak, doğrudan [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth)'te bir Snapshot anketi oluşturabilir ve oylayabilirsiniz.
 
-![https://snapshot.org/#/dydxgov.eth](<../.gitbook/assets/Untitled 5 (1)>)
+![https://snapshot.org/#/dydxgov.eth](<.. /.gitbook/assets/Untitled 5 (1)>)
 
-* To view active Snapshot Proposals, go to [Snapshot](https://snapshot.org/#/dydxgov.eth) or [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
+* Aktif Snapshot Tekliflerini görüntülemek için, [Snapshot](https://snapshot.org/#/dydxgov.eth)'a veya [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth)'e gidin.
 
-![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 6 (2)>)
+![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](<.. /.gitbook/assets/Untitled 6 (2)>)
 
-* To vote on active Snapshot polls, you need to hold DYDX or have voting power delegated to your address before the Snapshot block number when the Snapshot poll becomes active.
+* Aktif Snapshot anketlerinde oy vermek için, Snapshot anketinin aktif hale geldiği Snapshot blok numarası öncesinde adresinizde DYDX tutmanız veya adresinize oylama yetkisi delege edilmiş olması gerekir.
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 7>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<.. /.gitbook/assets/Untitled 7>)
 
-* To vote, click on the proposal and select “yes” or “no” followed by “vote.”
+* Oy vermek için, teklife tıklayıp "evet" veya "hayır" seçeneğini seçin ve ardından "oy ver" seçeneğine tıklayın.
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 8 (2)>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<.. /.gitbook/assets/Untitled 8 (2)>)
 
-![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 9 (2)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<.. /.gitbook/assets/Untitled 9 (2)>)
 
-#### _How to Create a Poll on Snapshot:_
+#### _Snapshot Üzerinde Bir Anket Nasıl Oluşturulur:_
 
-* To create a Snapshot poll, you will need to hold a minimum of 10k DYDX and/or have proposing power delegated to the address that you are using to create the proposal.
-* The Snapshot proposal can consist of one or multiple actions, up to a maximum of 10 actions per proposal. Actions are changes specified in a proposal. &#x20;
-* If you meet the minimum 10k proposing power requirement, select “New Proposal” and fill in the open fields as per the content requirements below.
+* Bir Snapshot anketi oluşturabilmek için, teklifi oluşturmak için kullandığınız adreste en az 10.000 DYDX tutmanız ve/veya bu adrese oylama yetkisi delege edilmiş olması gerekir.
+* Snapshot teklifi, teklif başına en fazla 10 eylem olmak üzere bir veya birden fazla eylemden oluşabilir. Eylemler, bir teklifte belirtilen değişikliklerdir.
+* Minimum 10.000 teklif verme yetkisi gereksinimini karşılıyorsanız "Yeni Teklif" seçeneğine tıklayın ve aşağıdaki içerik gereksinimleri uyarınca açık alanları doldurun.
 
-![https://snapshot.org/#/dydxgov.eth/create](<../.gitbook/assets/Untitled 10 (2)>)
+![https://snapshot.org/#/dydxgov.eth/create](<.. /.gitbook/assets/Untitled 10 (2)>)
 
-![https://forums.dydx.community/new/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 11>)
+![https://forums.dydx.community/new/snapshot/dydxgov.eth](<.. /.gitbook/assets/Untitled 11>)
 
-DRC Snapshot Poll Content Requirements:
+DRC Snapshot Anketi İçerik Gereksinimleri:
 
-* details of the DRC with a link to the forum discussion,
-* a voting system,
-* vote start date and vote end date set to 4 days in total length, and
-* Snapshot poll is posted 1 day (\~6570 blocks) before voting starts.
+* Forum tartışmasına bir bağlantı ile beraber DRC hakkında ayrıntılı bilgi,
+* bir oylama sistemi,
+* toplam oylama süresi 4 gün olacak şekilde oylama başlangıç tarihi ve oylama sona erme tarihi ve
+* Snapshot anketi oylama başlamadan 1 gün (\~6.570 blok) önce yayınlanır.
 
-Requirement for Binding Snapshot Polls:
+Bağlayıcı Snapshot Anketleri için gereksinim:
 
-For most decisions, a Snapshot poll acts as signaling, while an on-chain vote is required for a binding outcome that changes the smart contract(s). For decisions that don’t require an on-chain smart contract call, notably changes to the Trading and Liquidity Provider rewards formulas, Snapshot votes are considered the binding and final vote. In addition to the content requirements above, Snapshot polls that are binding votes for variables controlled off-chain must include:
+Bir Snapshot anketi çoğu karar için yalnızca görüşlerin yansıtılmasını sağlarken, akıllı sözleşmeleri değiştiren bağlayıcı bir sonuç için zincir içi bir oylama gereklidir. Zincir içi bir akıllı sözleşmenin çağrılmasını gerektirmeyen kararlar, özellikle de Alım Satım ve Likidite Sağlayıcı ödüllerinin formüllerinde yapılacak değişiklikler için, Snapshot oylamaları bağlayıcı ve kesin oylama olarak kabul edilir. Yukarıdaki içerik gereksinimlerine ek olarak, zincir dışı kontrol edilen değişkenler için bağlayıcı bir oylama niteliğindeki Snapshot anketleri şunları içermelidir:
 
-* &#x20;Binary voting options. For clarity, an address is either voting for or against a proposal.
+* İki ayrı oylama seçeneği. Açıkça belirtmek gerekirse, bir adres bir teklifin lehine veya aleyhine oy verir.
 
-![](<../.gitbook/assets/Untitled 12>)
+![](<.. /.gitbook/assets/Untitled 12>)
 
-* After the vote, the related info will be stored on IPFS and a report will be automatically generated and available to download.
+* Oylama sonrasında ilgili bilgiler IPFS üzerinde saklanacak ve bir rapor otomatik olarak oluşturulup indirilmeye hazır hale getirilecektir.
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 13>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<.. /.gitbook/assets/Untitled 13>)
 
-### **STEP 3 - DIP Creation (Off-Chain Proposal)**
+### **3. ADIM - DIP Oluşturma (Zincir Dışı Teklif)**
 
-_**Description**:_
+_**Açıklama**:_
 
-A DIP needs to be created when (1) a Snapshot poll results in an off-chain parameter (such as modifications to the Trading Rewards or LP Rewards formulas) being updated and (2) when a community member wants to submit a proposal to modify on-chain smart contracts. For votes that do not require any on-chain smart contract updates, the result of the Snapshot poll must be formalized in an off-chain DIP and submitted via a Pull Request to the Pending-DIP branch of the dYdX Foundation’s Github. The DIP should reflect the winning outcome of the Snapshot. The DIP must specify the information included in the template linked [here](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md).&#x20;
+(1) Bir Snapshot anketi zincir dışı bir parametrenin (Alım Satım Ödülleri veya LP Ödülleri formüllerinde yapılan değişiklikler gibi) güncellenmesi sonucunu doğurduğunda ve (2) bir topluluk üyesi zincir içi akıllı sözleşmeleri değiştirme teklifinde bulunmak istediğinde bir DIP oluşturulması gerekir. Herhangi bir zincir içi akıllı sözleşme güncellemesi gerektirmeyen oylamalarda Snapshot anketi bir zincir dışı DIP ile resmileştirilmeli dYdX Vakfı'nın Github'ının Beklemedeki DIP dalına bir Çekme Talebi aracılığıyla gönderilmelidir. DIP, Snapshot oylamasının kazanan sonucunu yansıtmalıdır. DIP'te, [buradaki](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) şablonda yer alan bilgiler belirtilmelidir.
 
-_**Application to DIP 2:**_
+_**DIP 2 başvurusu:**_
 
-In this case, the [DIP](https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md) was authored by @Jteamdc.
+Bu örnekte, [DIP](https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md) @Jteamdc. tarafından yazılmıştır.
 
-![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](<../.gitbook/assets/Untitled 14 (2)>)
+![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](<.. /.gitbook/assets/Untitled 14 (2)>)
 
-When the draft proposal for DIP 2 was completed, @Jteamdc created a **** [Pull Request](https://github.com/dydxfoundation/dip/pull/8) from the working branch against the dYdX foundation's Pending-DIPs branch. After the dYdX Foundation reviewed the proposal and signed off, the changes from the Pending-DIPs were merged to the Master Branch.
+DIP 2 için teklif taslağı tamamlandığında, @Jteamdc çalışma dalından dYdX Vakfı'nın Beklemedeki DIP'ler dalına gönderilen bir **** [Çekme Talebi](https://github.com/dydxfoundation/dip/pull/8) oluşturmuştur. dYdX Vakfı teklifi gözden geçirdikten ve onayladıktan sonra, Beklemedeki DIP'lerdeki değişiklikler Ana Dal ile birleştirilmiştir.
 
-![https://github.com/dydxfoundation/dip/pulls](<../.gitbook/assets/Untitled 15 (2)>)
+![https://github.com/dydxfoundation/dip/pulls](<.. /.gitbook/assets/Untitled 15 (2)>)
 
-Since reducing the liquidity providers' rewards threshold does not require any on-chain smart contract changes, the process is now complete and the changes will be effective during the next epoch.
+Likidite sağlayıcıların ödül eşiğinin düşürülmesi herhangi bir zincir içi akıllı sözleşme değişikliği gerektirmediği için süreç artık tamamlanmıştır ve değişiklikler bir sonraki dönemde yürürlüğe girecektir.
 
-#### _How to Create a DIP:_
+#### _Bir DIP Nasıl Oluşturulur:_
 
-* The DIP should be based on the winning outcome of the off-chain DIP voting on Snapshot and can consist of one or multiple actions, up to a maximum of 10 actions per proposal. Actions are changes specified in a proposal. More information can be found under [DIP Creation](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle#6.-proposal-queuing-and-execution).
-* Register for a Github account: [https://github.com/signup](https://github.com/signup).
-* Go to the dYdX repo page linked [here](https://github.com/dydxfoundation/dip) and fork the repo under your Github account.
+* DIP, Snapshot üzerindeki zincir dışı DIP oylamasının kazanan sonucuna dayalı olmalıdır ve teklif başına en fazla 10 eylem olmak kaydıyla bir veya birden fazla eylemden oluşabilir. Eylemler, bir teklifte belirtilen değişikliklerdir. Daha fazla bilgiyi [DIP Oluşturma](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle#6.-proposal-queuing-and-execution) başlığı altında bulabilirsiniz.
+* Bir Github hesabı açmak için kaydolun: [https://github.com/signup](https://github.com/signup).
+* [Buradaki](https://github.com/dydxfoundation/dip) dYdX repo sayfasına gidin ve Github hesabınızın altındaki repo'yu çatallayın.
 
-![https://github.com/dydxfoundation/dip](<../.gitbook/assets/image (104).png>)
+![https://github.com/dydxfoundation/dip](<.. /.gitbook/assets/image (104).png>)
 
-* In the forked DIP repo, go to the directory that contains the content of the DIPs: [https://github.com/\[user\_name\]/dip/tree/master/content/dips](https://github.com/yt8073/dip/tree/master/content/dips).
+* Çatallanan DIP repo'sunda DIP'lerin içeriğinin yer aldığı dizine gidin: [https://github.com/\[user\_name\]/dip/tree/master/content/dips](https://github.com/yt8073/dip/tree/master/content/dips).
 
-![](<../.gitbook/assets/Untitled 16>)
+![](<.. /.gitbook/assets/Untitled 16>)
 
-* Select the dips folder: [https://github.com/\[user\_name\]/dip/tree/master/content](https://github.com/Jwatts15/dip/tree/master/content).
+* Dips klasörünü seçin: [https://github.com/\[user\_name\]/dip/tree/master/content](https://github.com/Jwatts15/dip/tree/master/content).
 
-![](<../.gitbook/assets/Untitled 17>)
+![](<.. /.gitbook/assets/Untitled 17>)
 
-The dips folder includes a directory of previous proposals that follow the DIP template linked [here.](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md)
+Dips klasörü, [buradaki](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) DIP şablonunu izleyen önceki tekliflerin bir dizinini içerir.
 
-![https://github.com/dydxfoundation/dip/tree/master/content/dips](<../.gitbook/assets/image (98).png>)
+![https://github.com/dydxfoundation/dip/tree/master/content/dips](<.. /.gitbook/assets/image (98).png>)
 
-* Before you start drafting a proposal, please ensure that the branch that you forked is up to date with the lastet version of the master branch. If you are using an old version of the DIP repo, please confirm that your forked version is up to date with the latest changes. For assistance rebasing your forked version, you can follow the steps here: [https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master).
-* Edit the [DIP template](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) with the information for your proposal. If you did not fork the DIP repo, selecting the edit icon will automatically fork the repo from the master because you are not an admin.
+* Bir teklif taslağına başlamadan önce, çatalladığınız dalın ana dalın en son sürümü ile güncellenmiş olduğundan emin olun. DIP repo'sunun eski bir sürümünü kullanıyorsanız, çatallanmış sürümünüzün en son değişiklikleri içeren bir şekilde güncel olduğunu lütfen doğrulayın. Çatallanmış sürümünüzü yeniden temellendirme konusunda yardım almak için şuradaki adımları izleyebilirsiniz: [https://stackoverflow.com/quotions/7929369/how-to-repase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master).
+* [DIP şablonunu](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) teklifinizin bilgileri ile düzenleyin. Eğer DIP repo'sunu çatallamadıysanız, düzenle simgesini seçtiğinizde, yönetici olmadığınız için repo ana daldan otomatik olarak çatallanacaktır.
 
-![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](<../.gitbook/assets/Untitled 19 (2)>)
+![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](<.. /.gitbook/assets/Untitled 19 (2)>)
 
-* Follow the [template](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) and add your DIP to your fork of the repository in the `content/dips/` directory. Please follow the DIP Statuses naming conventions included below.
+* [Şablonu](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) izleyin ve DIP'inizi `content/dips/` dizinindeki depo çatalınıza ekleyin. Lütfen aşağıda verilen DIP Durumları adlandırma ilkelerini izleyin.
 
 ![](../.gitbook/assets/20.png)
 
-DIP Statuses:
+DIP Durumları:
 
-* WIP - a DIP that is still being developed.
-* Proposed - a DIP that is ready to be proposed on-chain.
-* Approved - a DIP that has been accepted for implementation by the dYdX community.
-* Implemented - a DIP that has been released to mainnet.
-* Rejected - a DIP that has been rejected.
+* WIP - hâlâ geliştirilmeye devam eden bir DIP.
+* Teklif Edildi - zincir içinde teklif edilmeye hazır bir DIP.
+* Onaylandı - uygulamaya koyulması dYdX topluluğu tarafından kabul edilen bir DIP.
+* Uygulamaya Koyuldu - ana ağda yayınlanan bir DIP.
+* Reddedildi - reddedilen bir DIP.
 
 
 
-* After checking that all of the content is correct, create a Pull Request from your working branch against the dYdX Foundation's Pending-DIPs branch. Please **do not** submit this Pull Request against the dYdX Foundation's master branch because the IPFS job will fail if any external parties want to merge to the master branch. Please use the Pull Request linked [here](https://github.com/dydxfoundation/dip/pull/8) as an example.
+* Tüm içeriğin doğru olduğunu kontrol ettikten sonra, çalışma dalınızdan dYdX Vakfı'nın Beklemedeki DIP'ler dalına bir Çekme Talebi oluşturun. Bu Çekme Talebini dYdX Vakfı'nın ana dalına lütfen **göndermeyin** çünkü herhangi bir dış taraf ana dalla birleştirmek isterse IPFS işi başarısız olacaktır. Lütfen [burada](https://github.com/dydxfoundation/dip/pull/8) örnek olarak verilen Çekme Talebini kullanın.
 
 ![](../.gitbook/assets/21.png)
 
-* After review, the dYdX Foundation will merge the changes from the Pending-DIPs branch to the Master branch.
+* İnceleme sonrasında, dYdX Vakfı, Beklemedeki DIP'ler dalındaki değişiklikleri Ana şube ile birleştirecektir.
 
 ![https://github.com/dydxfoundation/dip/pull/9](../.gitbook/assets/22.png)
 
-* Before **the merge,** a job will run automatically to upload the DIP to IPFS. You can verify the upload of the DIP to IPFS here: [https://github.com/dydxfoundation/dip/pull/9/checks](https://github.com/dydxfoundation/dip/pull/9/checks).
-* The DIP is added under [**`dip`**](https://github.com/dydxfoundation/dip)`/`[`content`](https://github.com/dydxfoundation/dip/tree/master/content)`/`**`dips`**`/`.
+* **Birleşme** öncesinde, DIP'yi IPFS'ye yüklemek için bir iş otomatik olarak çalışacaktır. DIP'nin IPFS'ye yüklendiğini buradan doğrulayabilirsiniz: [https://github.com/dydxfoundation/dip/pull/9/check](https://github.com/dydxfoundation/dip/pull/9/checks).
+* DIP, [**`dip`**](https://github.com/dydxfoundation/dip)`/`[`content`](https://github.com/dydxfoundation/dip/tree/master/content)`/`**`dips`**`/` altında eklenir.
 
 ![](../.gitbook/assets/23.png)
 
-Since the proposal does not require any on-chain smart contract changes, the process is now complete and the changes will be effective during the next epoch
+Teklif herhangi bir zincir içi akıllı sözleşme değişikliği gerektirmediği için, süreç artık tamamlanmıştır ve değişiklikler bir sonraki dönemde yürürlüğe girecektir
 
-## DIP 3 (On-Chain Proposal) - Safety Module Restoration
+## DIP 3 (Zincir İçi Teklif) - Safety Module Restorasyonu
 
-_**Summary:**_
+_**Özet:**_
 
-On November 1st, an on-chain [DIP](https://dydx.community/dashboard/proposal/3) was created by Dan Robinson from Paradigm to restore the functionality of the Safety Module staking pool. The majority of the community (251 voters and nearly 142M DYDX) voted in favor of restoring the functionality of the Safety Module. After a 10 day Voting Period, it took almost 3 days for a community member to call the queue and move the proposal into the 7 day long timelock delay. On November 20th, the Safety Module was restored and reset to a clean state.
+1 Kasım günü, Safety Module staking havuzunun işlevlerini restore etmek için Paradigm'den Dan Robinson tarafından zincir içi bir [DIP](https://dydx.community/dashboard/proposal/3) oluşturulmuştur. Topluluğun çoğunluğu (251 oy veren ve yaklaşık 142 milyon DYDX) Safety Module'un işlevlerini restore etme lehine oy vermiştir. 10 günlük bir Oylama Süresinin ardından, bir topluluk üyesinin kuyruğu çağırması ve teklifin 7 günlük timelock bekleme süresine taşınması yaklaşık 3 gün sürmüştür. 20 Kasım günü, Safety Module eski durumuna getirilmiş ve temiz bir duruma sıfırlanmıştır.
 
-_**Background:**_
+_**Geçmiş:**_
 
-The dYdX Safety Module is a staking contract designed to bootstrap a decentralized pool of funds that can be used to backstop the dYdX protocol. Users stake DYDX into the safety pool and receive stkDYDX (1:1). stkDYDX is a tokenized position transferred as an ERC-20 that has the same voting and proposing rights as DYDX. In the event of a shortfall event, a governance vote is required to slash staked DYDX to mitigate losses. From the DYDX token supply, 2.5% (25,000,000 DYDX) of the token supply will be distributed to users who stake DYDX in the safety staking pool. More information about the safety staking pool can be found [here](https://dydx.foundation/blog/en/safety-staking).
+dYdX Safety Module, dYdX protokolünü desteklemek için kullanılabilecek merkeziyetsiz bir fon havuzuna kaynak sağlamak için tasarlanmış bir staking sözleşmesidir. Kullanıcılar güvenlik havuzunda DYDX stake eder ve stkDYDX (1:1) alır. stkDYDX, DYDX ile aynı oy verme ve teklif verme haklarına sahip bir ERC-20 olarak transfer edilen, token'a dönüştürülmüş bir pozisyondur. Eksi bakiyeye düşme durumunda, kayıpları azaltmak için stake edilen DYDX'leri slash etmek için bir yönetişim oylaması gerekir. DYDX token arzının %2,5'i (25.000.000 DYDX) güvenlik staking havuzunda DYDX stake eden kullanıcılara dağıtılacaktır. Güvenlik staking havuzu hakkında daha fazla bilgiyi [burada](https://dydx.foundation/blog/en/safety-staking) bulabilirsiniz.
 
-As part of the [safety staking pool rewards](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool), 383,562 DYDX will be distributed per epoch (28 days) to stakers. Rewards are distributed pro-rata every second to stakers.
+[Güvenlik staking havuzu ödülleri](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool) kapsamında, stake edenlere her dönem (28 gün) 383.562 DYDX dağıtılacaktır. Ödüller, stake edenlere her saniye orantılı olarak dağıtılır.
 
-The dYdX community has "immediate and irrevocable control over" the parameters of the safety module smart contract. The full list of parameters that the community controls is linked [here](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+dYdX topluluğu, safety module akıllı sözleşmesinin parametreleri üzerinde "anında ve gayri kabili rücu" kontrol sahibidir. Topluluğun kontrol ettiği parametrelerin tam listesini [burada](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) bulabilirsiniz.
 
-On September 8th at 15:00 UTC, the transfer restriction on DYDX tokens was lifted and effectively opened staking to the dYdX Safety Module. Over 50 different addresses staked approximately 157K DYDX over the course of almost 1 hour. A bug caused an error in the deployment process and no stkDYDX was issued to the addresses who staked into the Safety Module. As a result, each staker’s funds were stuck in the contract and the dYdX team disabled staking on the dYdX governance UI.
+8 Eylül günü TSİ saat 18.00'de, DYDX token'ları üzerindeki transfer kısıtlaması kaldırılmış ve dYdX Safety Module üzerinde staking fiilen açılmıştır. 50'den fazla farklı adres 1 saate yakın bir süre boyunca yaklaşık 157.000 DYDX stake etmiştir. Bir yazılım hatası konuşlandırma sürecinde bir hataya neden olmuş ve Safety Module'da stake eden adreslere hiçbir stkDYDX verilmemiştir. Bunun sonucunda da her bir stake edenin fonları sözleşmede takılmış ve dYdX ekibi dYdX yönetişim arayüzünde staking'i devre dışı bırakmıştır.
 
-[DIP 1](https://dydx.community/dashboard/proposal/0) proposed restoring functionality to the Safety Module and allowing the affected addresses to recover their funds and receive an additional 10% of their staked tokens as compensation to make them whole. While community sentiment was strongly in favor of [DIP 1 - Safety Module Restoration and Staker Recovery](https://dydx.community/dashboard/proposal/0), the proposal failed because it did not meet the 100M DYDX minimum quorum required for a Long Timelock vote to pass. As a result, Jacob Goh (jteam0x) at DeFiance Capital created [DIP 4 - Safety Module Staker Reimbursement and Compensation](https://dydx.community/dashboard/proposal/2) to reimburse and compensate affected addresses for their missed rewards and inconvenience. [DIP 4](https://dydx.community/dashboard/proposal/2) involved deploying the recovery contract for the users staked tokens and compensating affected addresses an additional 10% from the Rewards Treasury. The DIP was governed by the less stringent governance parameters of a Short Timelock.
+[DIP 1](https://dydx.community/dashboard/proposal/0)'de, Safety Module'un işlevlerinin eski durumuna getirilmesi ve etkilenen adreslerin fonlarını kurtarmalarına ve bunları bir bütün haline getirmek için stake ettikleri token'ların %10'u kadar bir ek tazminat almalarına izin verilmesi önerilmiştir. Topluluk [DIP 1 - Safety Module Restorasyonu ve Stake Edenlerin](https://dydx.community/dashboard/proposal/0) Kurtarılması teklifini desteklemiş olsa da teklif bir Long Timelock oylamasının geçmesi için gereken 100 milyon DYDX karar yeter sayısına ulaşamadığı için başarısız olmuştur. Bunun sonucunda da DeFiance Capital'dan Jacob Goh (jteam0x), kaçırdıkları ödüller ve kendilerine verilen rahatsızlıktan dolayı etkilenen adreslere geri ödeme yapılması ve tazminat verilmesi için [DIP 4 - Safety Module'da Stake Edenlere Geri Ödeme Yapılması ve Tazminat Verilmesi](https://dydx.community/dashboard/proposal/2) teklifini oluşturmuştur. [DIP 4](https://dydx.community/dashboard/proposal/2), kullanıcıların stake ettiği token'lar için kurtarma sözleşmesinin konuşlandırılmasını ve etkilenen adreslere Ödül Hazinesi'nden %10 oranında ek bir tazminat ödenmesini içermektedir. DIP, Short Timelock'ın daha az katı olan yönetişim parametreleri tarafından yönetilmiştir.
 
-The proposal lifecycle of a DIP is generally consistent up until DIP creation. The major difference between DIP 3 (on-chain) and DIP 2 (off-chain) was that DIP 3 required on-chain voting and smart contract deployment. Since the process for forum discussions, DRC creation, and draft DIP creation are the same, we start our step-by-step discussion with the content requirements to draft on-chain DIP. For more information please follow the links below:
+Bir DIP'nin teklif yaşam döngüsü DIP'in oluşturulmasına kadar genellikle tutarlıdır. DIP 3 (zincir içi) ve DIP 2 (zincir dışı) arasındaki en büyük fark, DIP 3'ün zincir içi bir oylama ve bir akıllı sözleşmenin konuşlandırılmasını gerektirmesidir. Forum tartışmaları, DRC oluşturma ve DIP taslağının oluşturulması süreci aynı olduğundan, adım adım açıklamamıza zincir içi DIP taslağı için içerik gereksinimleri ile başlıyoruz.. Daha fazla bilgi için lütfen aşağıdaki bağlantıları izleyin:
 
-* dYdX's governance process - [https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
-* Safety Module Incident Report - [https://dydx.foundation/blog/en/outage-1](https://dydx.foundation/blog/en/outage-1).
-* Off-Chain Forum discussion **-** [https://commonwealth.im/dydx/proposal/discussion/1743-safety-staking-pool-on-pause](https://commonwealth.im/dydx/proposal/discussion/1743-safety-staking-pool-on-pause).
-* Off-Chain DRC **-** [https://commonwealth.im/dydx/proposal/discussion/1770-drc-incident-report-of-the-safety-module-outage-proposed-solution](https://commonwealth.im/dydx/proposal/discussion/1770-drc-incident-report-of-the-safety-module-outage-proposed-solution)
-* Off-Chain DRC Snapshot Polling **-** [https://snapshot.org/#/dydxgov.eth/proposal/QmbJ5QxHr1pyShKTDaF5DjAr6vxQn8DVxshH2fyWgzDCBn](https://snapshot.org/#/dydxgov.eth/proposal/QmbJ5QxHr1pyShKTDaF5DjAr6vxQn8DVxshH2fyWgzDCBn)
-* DIP proposed on Github **-** [https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md)
+* dYdX'in yönetişim süreci - [https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
+* Safety Module Olay Raporu - [https://dydx.foundation/blog/en/outage-1](https://dydx.foundation/blog/en/outage-1).
+* Zincir Dışı Forum tartışması **-** [https://commonwealth.im/dydx/proposal/discussion/1743-safety-staking-pool-on-pause](https://commonwealth.im/dydx/proposal/discussion/1743-safety-staking-pool-on-pause).
+* Zincir Dışı DRC **-** [https://commonwealth.im/dydx/proposal/discussion/1770-drc-incident-report-of-the-safety-module-outage-proposed-solution](https://commonwealth.im/dydx/proposal/discussion/1770-drc-incident-report-of-the-safety-module-outage-proposed-solution)
+* Zincir Dışı DRC Snapshot Anketi **-** [https://snapshot.org/#/dydxgov.eth/proposal/QmbJ5QxHr1pyShKTDaF5DjAr6vxQn8DVxshH2fyWgzDCBn](https://snapshot.org/#/dydxgov.eth/proposal/QmbJ5QxHr1pyShKTDaF5DjAr6vxQn8DVxshH2fyWgzDCBn)
+* Github'da teklif edilen DIP **-** [https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md)
 
-### **STEP 1 - On-Chain DIP Drafting**
+### **1. ADIM - Zincir İçi DIP Taslağı**
 
-_**Description:**_
+_**Açıklama:**_
 
-Drafting an on-chain DIP that affects governance consensus on the dYdX protocol must outline the specific steps for implementing smart contract changes. After the community achieves rough consensus from Snapshot or a previously failed DIP, a community member with enough proposing power can submit the new DIP on-chain. More information about the proposing power threshold, the timelock executor, and other governance parameters are linked [here](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+dYdX protokolünde yönetişim mutabakatını etkileyen zincir içi bir DIP taslağında akıllı sözleşme değişikliklerinin uygulanması için atılacak adımlar özetlenmelidir. Topluluğun Snapshot'ta veya daha önce başarısız olmuş bir DIP'te açık bir mutabakat sağlamasının ardından, yeterli teklif verme yetkisine sahip bir topluluk üyesi yeni DIP'yi zincir içinde gönderebilir. Teklif verme yetki eşiği, timelock executor ve diğer yönetişim parametreleri hakkında daha fazla bilgiyi [burada](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) bulabilirsiniz.
 
-_**Application to DIP 3:**_
+_**DIP 3 başvurusu:**_
 
-In this case, the [DIP](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md) was authored by Dan Robinson from Paradigm. Given that the proposal included on-chain smart contract changes, the proposal included a link to the specific smart contract implementations.
+Bu örnekte [DIP](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md), Paradigm'den Dan Robinson tarafından yazılmıştır. Teklif zincir içi akıllı sözleşme değişiklikleri içerdiğinden, teklifte belirli akıllı sözleşme uygulamalarına bir bağlantı da yer almıştır.
 
 ![https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md](../.gitbook/assets/24.png)
 
-Navigating from the SafetyModuleV2.sol deployment contract to the Safety folder shows the README that contains the specific details of how the proposal will be implemented.
+SafetyModuleV2.sol konuşlandırma sözleşmesinden Safety klasörüne gezinti yolu teklifin nasıl uygulanacağına dair belirli ayrıntıları içeren README dosyasını gösterir.
 
 ![](../.gitbook/assets/25.png)
 
-The steps to implement the proposal included in the README are linked here: [https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety).
+Teklifin uygulanmasına ilişkin olarak README dosyasında yer alan adımları şurada bulabilirsiniz: [https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety).
 
 ![https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](../.gitbook/assets/26.png)
 
@@ -269,214 +267,214 @@ The steps to implement the proposal included in the README are linked here: [htt
 
 ![https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](../.gitbook/assets/28.png)
 
-#### _How to draft an On-Chain DIP (WIP):_
+#### _Bir Zincir İçi DIP (WIP) taslağı nasıl oluşturulur:_
 
-* Create a new wallet to create the DIP. The deployment process will require inputting your seed phrase as an environment variable, so we recommend that you use a one-off wallet for on-chain DIP creation.
-*   Delegate enough proposing power to the one-off wallet for DIP creation. You can delegate proposing power [here.](https://dydx.community/dashboard) The different proposing power thresholds are included below and linked [here](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+* DIP'yi oluşturmak için yeni bir cüzdan oluşturun. Konuşlandırma süreci bir çevre değişkeni olarak kurtarma cümlenizi girmenizi gerektirecektir; bu yüzden zincir içi DIP oluşturmak için tek kullanımlık bir cüzdan kullanmanızı öneririz.
+* DIP'yi oluşturmak için tek kullanımlık cüzdana yeterli teklif verme yetkisi delege edin. Teklif verme yetkisini [burada](https://dydx.community/dashboard) delege edebilirsiniz. Farklı teklif verme gücü eşikleri aşağıda verilmiştir ve eşikleri [burada](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) da bulabilirsiniz.
 
-    * Short Timelock: 0.5% of the total supply (5M in proposing power).
-    * Starkware Executor: 0.5% of the total supply (5M in proposing power).
-    * Long Timelock Executor: 2.0% of the total supply (20M in proposing power).
-    * Merkle Pauser Executor: 0.5% of the total supply (5M in proposing power).
+   * Short Timelock: toplam arzın %0,5'i (teklif verme yetkili 5 milyon).
+   * Starkware Executor: toplam arzın %0,5'i (teklif verme yetkili 5 milyon).
+   * Long Timelock Executor: toplam arzın %2,0'si (teklif verme yetkili 20 milyon).
+   * Merkle Pauser Executor: toplam arzın %0,5'i (teklif verme yetkili 5 milyon).
 
 
-* Create an Alchemy Key. With the Alchemy Key, you do not need to run an Ethereum Node to interact with Ethereum and deploy the smart contract. The guide for creating an Alchemy Key is linked [here](https://docs.alchemy.com/alchemy/introduction/getting-started).
+* Bir Alchemy Anahtarı oluşturun. Alchemy Anahtarı sayesinde Ethereum ile etkileşim kurmak ve akıllı sözleşmeyi konuşlandırmak için bir Ethereum Düğümü çalıştırmanıza gerek yoktur. Bir Alchemy Anahtarı oluşturma kılavuzunu [burada](https://docs.alchemy.com/alchemy/introduction/getting-started) bulabilirsiniz.
 
 ![https://docs.alchemy.com/alchemy/introduction/getting-started](../.gitbook/assets/29.png)
 
-Select Ethereum and “Get Started.”
+Ethereum'u seçin ve "Başla" seçeneğine tıklayın.
 
 ![](../.gitbook/assets/30.png)
 
-Fill in the required information, select the Ropsten Network and select “create app.”
+Gerekli bilgileri doldurun, Ropsten Ağını seçin ve "uygulama oluştur" seçeneğine tıklayın.
 
 ![](../.gitbook/assets/31.png)
 
-After creating your account, follow the setup instructions linked [here](https://docs.alchemy.com/alchemy/introduction/getting-started).
+Hesabınızı oluşturduktan sonra, [buradaki](https://docs.alchemy.com/alchemy/introduction/getting-started) kurulum talimatlarını izleyin.
 
-Under “4. Start Building,” select “try deploying your first smart contract” and follow the guide.
+"4. Oluşturmaya Başla" başlığının altında, "ilk akıllı sözleşmenizi konuşlandırmayı deneyin" seçeneğine tıklayın ve kılavuzu izleyin.
 
 ![https://docs.alchemy.com/alchemy/introduction/getting-started](../.gitbook/assets/32.png)
 
-* Open Windows command line, the default Terminal App, or download iTerm: [https://iterm2.com/](https://iterm2.com/).
-* Download and install Node.js and npm if you have not already: [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
-* Hardhat is a development tool to compile and test Ethereum software. Install Hardhat if you have not already: [https://hardhat.org/tutorial/setting-up-the-environment.html](https://hardhat.org/tutorial/setting-up-the-environment.html).
-* Draft your proposed smart contract implementation(s).
-* The IPFS hash is generated automatically and can be obtained [here](https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips). The IPFS hash will be in the dYdX Foundation's directory under the file name `DIP-[New DIP #]-ipfs-hashes.json`.
+* Windows komut satırını ve varsayılan Terminal Uygulamasını açın veya iTerm'i indirin: [https://iterm2.com/](https://iterm2.com).
+* Daha önce yapmadıysanız, Node.js ve npm'yi indirin ve kurun: [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+* Hardhat, Ethereum yazılımlarını derlemek ve test etmek için bir geliştirme aracıdır. Daha önce yapmadıysanız, Hardhat'i kurun: [https://hardhat.org/tutorial/setting-up-the-environment.html](https://hardhat.org/tutorial/setting-up-the-environment.html).
+* Teklif ettiğiniz akıllı sözleşme uygulamalarınızın taslağını oluşturun.
+* IPFS hash'i otomatik olarak oluşturulur ve [buradan](https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips) edinilebilir. IPFS hash'i, `DIP-[New DIP #]-ipfs-hashes.json` dosya adı altında dYdX Vakfı'nın dizininde olacaktır.
 
-![https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips](<../.gitbook/assets/image (100).png>)
+![https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips](<.. /.gitbook/assets/image (100).png>)
 
-* After you select the new file (`DIP-[New DIP #]-ipfs-hashes.jso`), ensure that you use the encodedHash.&#x20;
+* Yeni dosyayı (`DIP-[New DIP #]-ipfs-hashes.jso`) seçtikten sonra, encodedHash kullandığınızdan emin olun.
 
-![https://github.com/dydxfoundation/dip/blob/master/content/ipfs-dips/DIP-3-Ipfs-hashes.json](<../.gitbook/assets/image (102).png>)
+![https://github.com/dydxfoundation/dip/blob/master/content/ipfs-dips/DIP-3-Ipfs-hashes.json](<.. /.gitbook/assets/image (102).png>)
 
-### **STEP 2 - Submit a DIP On-chain**
+### **2. ADIM - Zincir içinde bir DIP gönderin**
 
-_**Description:**_
+_**Açıklama:**_
 
-After a community member has confirmed that the proposed smart contract implementation(s) is/are correct and the DIP is finalized, the DIP can be submitted on-chain. When an on-chain DIP is created, the proposal enters a “Pending” state for the Voting Delay that lasts approximately 1 day (approximately 6570 blocks). User snapshots are recorded after the Voting Delay to account for DYDX holdings and delegated voting power. Next, the proposal enters an "Active" state and voting length varies from 2-10 days depending on the proposal type. For a proposal to be implemented, the vote must pass the minimum quorum and minimum vote differential that changes depending on the type of proposal. If the DIP satisfies the minimum quorum, the minimum vote differential, and a majority of voting community members vote in favor of the DIP, any address can call the queue to move the proposal into the timelock queue. The timelock contracts can queue, cancel, or execute transactions voted on by the dYdX community. The length of the timelock queue varies depending on the type of proposal.
+Bir topluluk üyesi teklif edilen akıllı sözleşme uygulamalarının doğru olduğunu ve DIP'nin kesinleştiğini onayladıktan sonra, DIP zincir içinde gönderilebilir. Bir zincir içi DIP oluşturulduğunda, teklif yaklaşık 1 gün (yaklaşık 6.570 blok) sürecek Oylama Bekleme Süresi için "Beklemede" durumuna geçer. Kullanıcı anlık görüntüleri, DYDX bakiyelerini ve delege edilmiş oylama yetkisini hesaplamak için Oylama Bekleme Süresinin ardından kaydedilir. Bunun ardından, teklif "Aktif" duruma geçer ve oylama süresi teklif türüne bağlı olarak 2-10 gün arasında değişir. Bir teklifin uygulanması için, oylama, teklifin türüne bağlı olarak değişen karar yeter sayısını ve minimum oy farkını geçmelidir. DIP karar yeter sayısını ve minimum oy farkını geçer ve oy veren topluluk üyelerinin çoğunluğu DIP lehine oy verirse, teklifin timelock kuyruğuna taşınması için herhangi bir adres kuyruğu çağırabilir. Timelock sözleşmeleri, dYdX topluluğu tarafından oylanan işlemleri kuyruğa koyabilir, iptal edebilir veya uygulamaya koyabilir. Timelock kuyruğunun uzunluğu teklifin türüne bağlı olarak değişir.
 
-_**Application to DIP 3:**_
+_**DIP 3 başvurusu:**_
 
-The Paradigm team finalized the solidity code for `SafetyModuleV2.sol.`
+Paradigm ekibi, `SafetyModuleV2.sol`'un solidity kodunu tamamlamış ve kesinleştirmiştir.
 
 ![https://github.com/dydxfoundation/governance-contracts/blob/master/contracts/safety/v2/SafetyModuleV2.sol](../.gitbook/assets/34.png)
 
-The Paradigm team simulated the updates in both a local and forked mainnet environment. The test suite was then run, to ensure that full functionality would be restored, following the execution of the governance proposal on mainnet.
+Paradigm ekibi, güncellemeleri hem yerel hem de çatallanmış bir ana ağ ortamında simüle etmiştir. Bunun ardından, yönetişim teklifinin ana ağda uygulamaya koyulmasının ardından tüm işlevlerin restore edilmesini sağlamak için test paketi çalıştırılmıştır.
 
-The Paradigm team deployed the smart contract updates by running the scripts below.
+Paradigm ekibi, aşağıdaki betikleri çalıştırarak akıllı sözleşme güncellemelerini konuşlandırmıştır.
 
-**Safety Module Recovery Deployment**
+**Safety Module Kurtarma Konuşlandırması**
 
-`export ALCHEMY_KEY=<...>`&#x20;
+`export ALCHEMY_KEY=<... >`
 
-`export MNEMONIC=<...>`&#x20;
+`export MNEMONIC=<... >`
 
 `npx hardhat --network mainnet deploy:safety-module-recovery`\
-`--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
-`--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
-`--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`
+ `--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
+ `--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
+ `--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`
 
-**Governance Proposal: Safety Module Fix**
+**Yönetişim Teklifi: Safety Module Düzeltmesi**
 
-`export ALCHEMY_KEY=<...>`&#x20;
+`export ALCHEMY_KEY=<... >`
 
-`export MNEMONIC=<...>`&#x20;
+`export MNEMONIC=<... >`
 
 `npx hardhat --network mainnet deploy:safety-module-fix-proposal`\
-`--proposal-ipfs-hash-hex 0x...`\
-`--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
-`--long-timelock-address 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B`\
-`--safety-module-address 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC`\
-`--safety-module-proxy-admin-address 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C`\
-`--safety-module-new-impl-address 0x...`
+ `--proposal-ipfs-hash-hex 0x...`\
+ `--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
+ `--long-timelock-address 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B`\
+ `--safety-module-address 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC`\
+ `--safety-module-proxy-admin-address 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C`\
+ `--safety-module-new-impl-address 0x...`
 
-**Governance Proposal: Safety Module Compensation**
+**Yönetişim Teklifi: Safety Module Tazminatı**
 
-`export ALCHEMY_KEY=<...>`&#x20;
+`export ALCHEMY_KEY=<... >`
 
-`export MNEMONIC=<...>`&#x20;
+`export MNEMONIC=<... >`
 
 `npx hardhat --network mainnet deploy:safety-module-compensation-proposal`\
-`--proposal-ipfs-hash-hex 0x...`\
-`--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
-`--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
-`--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
-`--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`\
-`--safety-module-recovery-address 0x...`
+ `--proposal-ipfs-hash-hex 0x...`\
+ `--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
+ `--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
+ `--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
+ `--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`\
+ `--safety-module-recovery-address 0x...`
 
 
 
-The DIP was simultaneously posted on [https://dydx.community/dashboard](https://dydx.community/dashboard).
+Aynı anda DIP, [https://dydx.community/dashboard](https://dydx.community/dashboard) üzerinde yayınlanmıştır.
 
 ![https://dydx.community/dashboard](../.gitbook/assets/35.png)
 
 ![https://dydx.community/dashboard](../.gitbook/assets/36.png)
 
-The dYdX Governance contract is 0x7e9b1672616ff6d6629ef2879419aae79a9018d2: [https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10](https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10).
+dYdX Yönetişim sözleşmesi [0x7e9b1672616ff6d629ef2879419aae79ae79a9018d2'dir: https://eterscan.io/txs?a=0x7e9b1672616ff6629ef2879419aae79ae79a9018d2\&p=10](https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10).
 
-The DIP deployment can be confirmed on Etherscan: [https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad).
+DIP konuşlandırması Etherscan üzerinde doğrulanabilir: [https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad).
 
-The DIP was created on November 1, 2021, at block 13532376. For 6570 blocks into the future, the DIP status is “Pending.”
+DIP, 1 Kasım 2021 tarihinde 13.532.376 numaralı blokta oluşturulmuştur. Sıradaki 6.570 blok boyunca DIP durumu "Beklemede" olur.
 
 ![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/37.png)
 
-DYDX holders were able to vote on the DIP when it transitioned to an “Active” state at block 13538946.
+DIP 13.538.946 numaralı blokta "Aktif" duruma geçtiğinde DYDX sahipleri DIP'yi oylamıştır.
 
-The first vote was cast on November 2, 2021, at 5:51:22 PM UTC (block 13538959), 6583 blocks from when the DIP was created on-chain.&#x20;
+İlk oy 2 Kasım 2021 tarihinde TSİ saat 08.51.22'de (13.538.959 numaralı blokta), DIP'nin zincir içinde oluşturulduğu andan 6.583 blok sonra verilmiştir.
 
 ![https://etherscan.io/tx/0xc3d0ace92be4ac3da40dc17f45a573d4dbd83d31f7a95733071de883ded67a4f](../.gitbook/assets/38.png)
 
-After the 10 day voting period involved with a Long Timelock, any community member can call the queue and move the proposal into the 7 day timelock delay. For DIP 3, it took almost 3 days for a community member to call the queue.
+Long Timelock kapsamındaki 10 günlük oylama süresi sonrasında, herhangi bir topluluk üyesi kuyruğu çağırabilir ve teklifi 7 günlük timelock bekleme süresine taşıyabilir. DIP 3 söz konusu olduğunda, bir topluluk üyesinin kuyruğu çağırması neredeyse 3 gün sürmüştür.
 
-![https://etherscan.io/tx/0x3402372aa549d2270a6b5d4f84884ae2bfec6922fc808703b47d53b27d288c81](../.gitbook/assets/39.png)
+![https://etherscan.io/tx/0x3402372a549d2270a6b5d4f84884ae2bfec6922fc808703b47d53b27d288c81](../.gitbook/assets/39.png)
 
-After the 7 day timelock delay, the DIP was executed on-chain.
+7 günlük timelock bekleme süresi dolduğunda DIP zincir üzerinde uygulamaya koyulmuştur.
 
 ![https://etherscan.io/tx/0xfd332147899fd3ef1db62f262ffae92bbd7d18a5ed4e142eb0407a173dbf0453](../.gitbook/assets/40.png)
 
-At the moment the DIP was executed on-chain the DIPs status at [https://dydx.community/dashboard/proposal/3](https://dydx.community/dashboard/proposal/3) was updated to “Executed.”
+DIP'nin zincir üzerinde uygulamaya koyulduğu anda [https://dydx.community/dashboard/provention/3](https://dydx.community/dashboard/proposal/3) adresindeki DIP durumu "Uygulamaya Koyuldu" şeklinde güncellenmiştir.
 
 ![](../.gitbook/assets/41.png)
 
-Note, (1) proposals must be executed within the 7 day Execution Grace Period that starts immediately after the timelock delay and (2) the proposing address must maintain the minimum amount of proposing power required by the respective timelock contract until the DIP is executed (either 5M or 20M in proposing power).
+(1) Tekliflerin timelock bekleme süresinden hemen sonra başlayan 7 günlük Uygulama Mühleti sona ermeden uygulamaya koyulması ve (2) teklifi veren adresin DIP uygulamaya koyulana kadar ilgili timelock sözleşmesi tarafından gerekli kılınan minimum teklif verme yetkisini (teklif verme yetkili 5 milyon veya 20 milyon) muhafaza etmesi gerektiğini unutmayın.
 
-#### _How to Submit a DIP On-Chain:_
+#### _Bir DIP Zincir İçinde Nasıl Gönderilir:_
 
-* Ensure that you have enough proposing power to create the DIP. More information can be found under[ DIP Creation](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
-  * Short Timelock Executor: 0.5% of the total supply (5M in proposing power).
-  * Starkware Executor: 0.5% of the total supply (5M in proposing power).
-  * Long Timelock Executor: 2.0% of the total supply (20M in proposing power).
-  * Merkle Pauser Executor: 0.5% of the total supply (5M in proposing power).
-* Ensure that there is ETH in the wallet to pay for the gas fee.
-* Create an app on Alchemy for the Ethereum Mainnet network.
+* DIP'yi oluşturmak için yeterli teklif verme yetkisine sahip olduğunuzdan emin olun. Daha fazla bilgiyi [DIP Oluşturma](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle) başlığı altında bulabilirsiniz.
+   * Short Timelock Executor: toplam arzın %0,5'i (teklif verme yetkili 5 milyon).
+   * Starkware Executor: toplam arzın %0,5'i (teklif verme yetkili 5 milyon).
+   * Long Timelock Executor: toplam arzın %2,0'si (teklif verme yetkili 20 milyon).
+   * Merkle Pauser Executor: toplam arzın %0,5'i (teklif verme yetkili 5 milyon).
+* Gas ücretini ödemek için cüzdanda ETH olduğundan emin olun.
+* Ethereum Mainnet ağı için Alchemy üzerinde bir uygulama oluşturun.
 
 ![https://dashboard.alchemyapi.io/](../.gitbook/assets/42.png)
 
-* After the app is created, click "View Key" to obtain your Alchemy Key (7LOaQtguSm2kSEcFXQH88B): [https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul](https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul).
+* Uygulama oluşturulduktan sonra, Alchemy Anahtarınızı (7LOaQtguSm2kSEcFXQH88B) almak için "Anahtarı Görüntüle" seçeneğine tıklayın: [https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul](https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul).
 
-![https://dashboard.alchemyapi.io/apps/xogmjmlex8tlmr95](<../.gitbook/assets/image (105).png>)
+![https://dashboard.alchemyapi.io/apps/xogmjmlex8tlmr95](<.. /.gitbook/assets/image (105).png>)
 
-* Download and install Node.js and npm: [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
-* Install Hardhat: [https://hardhat.org/tutorial/setting-up-the-environment.html](https://hardhat.org/tutorial/setting-up-the-environment.html).
-* Run the script that you have drafted.
-* Check the Governance Contract to verify that the proposal was created on-chain: [https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10](https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10).
-* With the address that submitted the proposal, you must maintain the minimum amount of proposing power required by the respective timelock contract until the proposal is executed.
+* Node.js ve npm'yi indirin ve kurun: [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+* Hardhat'i kurun: [https://hardhat.org/tutorial/setting-up-the-environment.html](https://hardhat.org/tutorial/setting-up-the-environment.html).
+* Taslağını hazırladığınız komut dizisini çalıştırın.
+* Teklifin zincir içinde oluşturulduğunu doğrulamak için Yönetişim Sözleşmesini kontrol edin: [https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10](https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10).
+* Teklifi gönderen adreste, ilgili timelock sözleşmesi tarafından gerekli kılınan minimum teklif verme yetkisini teklif uygulamaya koyulana kadar muhafaza etmeniz gerekir.
 
-#### _How to Vote on a DIP:_
+#### _Bir DIP için nasıl oy verilir:_
 
-* Ensure that there is ETH in the wallet to pay for the gas fee.
-* You may vote on an Active DIP by selecting the DIP from: [https://dydx.community/dashboard](https://dydx.community/dashboard).
+* Gas ücretini ödemek için cüzdanda ETH olduğundan emin olun.
+* Aktif bir DIP için [https://dydx.community/dashboard](https://dydx.community/dashboard) adresinde DIP'yi seçerek oy verebilirsiniz.
 
 ![](../.gitbook/assets/43.png)
 
-* In the future, you may also vote on an Active DIP on Commonwealth.
+* İleride, Aktif bir DIP için Commonwealth üzerinde de oy vermeniz mümkün olacaktır.
 
 ![](../.gitbook/assets/44.png)
 
-The voting length depends on the type of proposal. More information can be found under [DIP Creation](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
+Oylama süresi teklifin türüne bağlıdır. Daha fazla bilgiyi [DIP Oluşturma](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle) başlığı altında bulabilirsiniz.
 
-* Short Timelock Executor: 4 days.
-* Starkware Executor: 4 days.
-* Long Timelock Executor: 10 days.
-* Merkle Pauser Executor: 2 days.
+* Short Timelock Executor: 4 gün.
+* Starkware Executor: 4 gün.
+* Long Timelock Executor: 10 gün.
+* Merkle Pauser Executor: 2 gün.
 
-#### _How to Queue a Proposal:_
+#### _Bir Teklif Nasıl Kuyruğa Koyulur:_
 
-A successful proposal can be queued to start the Timelock Delay.
+Başarılı bir teklif, Timelock Bekleme Süresini başlatmak için kuyruğa koyulabilir.
 
-* Ensure that you are using a compatible wallet that contains Eth.
-* Go to the "Contract" Tab on Etherscan and click on "Write Contract." The Governance Contract is linked [here](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract).
+* Eth içeren uyumlu bir cüzdan kullandığınızdan emin olun.
+* Etherscan üzerinde "Sözleşme" Sekmesine gidin ve "Sözleşme Yaz" seçeneğine tıklayın. Yönetişim Sözleşmesini [burada](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract) bulabilirsiniz.
 
 ![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/45.png)
 
-* Select queue and submit the “proposalId.”
+* Kuyruk seçeneğine tıklayın ve "proposalId" bilgisini girip gönderin.
 
 ![](../.gitbook/assets/Nest.png)
 
-The “proposalId” can be found on Etherscan when the DIP was created: [https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad).
+DIP oluşturulduğunda, "proposalId" bilgisini Etherscan üzerinde bulabilirsiniz: [https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad).
 
-* Select “click to see more.”
+* "Daha fazlasını görmek için tıklayın" seçeneğine tıklayın.
 
 ![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/47.png)
 
-* Select “Decode Input Data.”
+* "Girdi Verilerinin Kodunu Çöz" seçeneğine tıklayın.
 
 ![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/48.png)
 
 ![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/49.png)
 
-#### _How to Execute a Proposal:_
+#### _Bir Teklif Nasıl Uygulamaya Koyulur:_
 
-After the Timelock Delay, a successful proposal can be executed.
+Timelock Bekleme Süresi dolduğunda, başarılı bir teklif uygulamaya koyulabilir.
 
-* Go to the "Contract" Tab on Etherscan and click on "Write Contract." The Governance Contract is linked [here](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract).
+* Etherscan üzerinde "Sözleşme" Sekmesine gidin ve "Sözleşme Yaz" seçeneğine tıklayın. Yönetişim Sözleşmesini [burada](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract) bulabilirsiniz.
 
 ![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/50.png)
 
-* Select “execute” and submit the “proposalId.”
+* "Uygulamaya koy" seçeneğine tıklayın ve "proposalId" bilgisini girip gönderin.
 
 ![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/51.png)
 
-* Follow the steps above (under _How to Queue a Proposal)_ to find the “proposalId.”
-* Enter ”0” under “payableAmount (ether).”
+* "proposalId" bilgisini bulmak için yukarıdaki adımları (_Bir Teklif Nasıl Kuyruğa Koyulur_ başlığı altındaki) izleyin.
+* "payableAmount (ether)" altında "0" girin.

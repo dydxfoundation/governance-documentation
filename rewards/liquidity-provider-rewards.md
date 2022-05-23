@@ -1,116 +1,116 @@
 ---
-description: Overview of the Liquidity Provider rewards Program.
+description: Likidite Sağlayıcı Ödülleri Programına genel bakış.
 ---
 
-# Liquidity Provider Rewards
+# Likidite Sağlayıcı Ödülleri
 
-7.5% of the initial token supply (`75,000,000 DYDX`) will be distributed to liquidity providers based on a formula rewarding a combination of uptime, two-sided depth, bid-ask spreads, and the number of markets supported.
+İlk token arzının (`75.000.000 DYDX`) %7,5'i çalışma süresi, iki taraflı derinlik, teklif-talep farkları ve desteklenen piyasaların sayısının bir kombinasyonunu ödüllendiren bir formül esasında likidite sağlayıcılara dağıtılacaktır.
 
-**Objectives**
+**Hedefler**
 
-* Improve two-sided liquidity and programmatically reward liquidity providers.
+* İki taraflı likiditeyi iyileştirmek ve programlı bir şekilde likidite sağlayıcıları ödüllendirmek.
 
-## **Overview**
+## **Genel bakış**
 
-To incentivize market liquidity, DYDX will be distributed to liquidity providers based on a formula that rewards participation in markets, two-sided depth, spread (vs. mid-market), and uptime on dYdX’s Layer 2 Protocol. Any Ethereum address can earn these rewards, subject to a minimum maker volume threshold of 0.25% of maker volume in the preceding epoch. DYDX will be distributed on a 28-day epoch basis over five years and are not subject to any vesting or lockups. 1,150,685 DYDX will be distributed per epoch.
+Piyasa likiditesini teşvik etmek için, DYDX piyasalara katılım, iki taraflı derinlik, teklif-talep farkı (orta piyasada) ve dYdX'in Katman 2 Protokolü üzerindeki çalışma süresini ödüllendiren bir formül esasında likidite sağlayıcılara dağıtılacaktır. Herhangi bir Ethereum adresi bu ödülleri kazanabilir ve önceki dönemdeki piyasa yapıcı hacminin %0,25'i kadar bir minimum piyasa yapıcı eşiğine tabidir. DYDX beş yıl boyunca 28 günlük dönemler esasında dağıtılacak ve herhangi bir vesting veya kilitleme sürecine tabi tutulmayacaktır. Dönem başına 1.150.685 DYDX dağıtılacaktır.
 
-The following function is used to compute how much DYDX should be rewarded to each liquidity provider per epoch. The amount of DYDX earned is determined by the relative share of each participant’s $$Q_{FINAL}$$&#x20;
+Dönem başına her bir likidite sağlayıcısına ödül olarak ne kadar DYDX verileceğini hesaplamak için aşağıdaki fonksiyon kullanılır. Kazanılan DYDX miktarı her katılımcının $ $ Q_{FINAL}$ değerinin ilgili payına göre belirlenir
 
-![](<../.gitbook/assets/LP Rewards.png>)
+![](<.. /.gitbook/assets/LP Rewards.png>)
 
-Orders below a certain **minimum depth** (size) ($$MinDepth$$) per market are excluded, and orders over a certain **maximum spread** (mid-market spread) ($$MaxSpread$$) market are excluded as well.
+Piyasa başına belirli bir **minimum derinliğin** (boyut) ($$MinDepth$$) altındaki emirler hariç tutulur ve piyasa başına belirli bir **maksimum teklif-talep farkı** (orta piyasa teklif-talep farkı) ($$MaxSpread$$) üzerindeki emirler de hariç tutulur.
 
-Liquidity provider performance is monitored and calculated on a minute-by-minute basis (using randomized sampling) and aggregated into a $$Q_{SCORE}$$ ($$Q_{FINAL}$$) for a given market. Given minute-by-minute sampling, each epoch has 28 days \* 24 hours \* 60 minutes of data points—40,320 data points per epoch in total.
+Belirli bir piyasadaki likidite sağlayıcı performansı dakika dakika hesaplanır (rastgeleleştirilmiş örnekleme kullanarak) ve toplanarak $$Q_{SCORE}$$ ($$Q_{FINAL}$$) değeri bulunur. Dakika dakika örnekleme söz konusu olduğunda, her dönemde 28 günlük \* 24 saatlik \* 60 dakikalık veri noktaları bulunur ve her dönemde toplam 40.320 veri noktası bulunur.
 
-Liquidity providers earn monthly rewards based on their relative $$Q_{FINAL}$$ share per epoch.
+Likidite sağlayıcılar dönem başına göreli $ $ Q_{FINAL}$ paylarına dayalı olarak aylık ödüller kazanır.
 
-The above formula is broken out into step-by-step calculations below for detail:
+Yukarıdaki formül ayrıntılı bilgi için aşağıda adım adım hesaplamalara bölünmüştür:
 
-| Term / Formula (in order of calculation)                                          | Explanation / Example                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <img src="../.gitbook/assets/image (96).png" alt="" data-size="original">         | <p>Assume a liquidity provider has multiple open bid orders (1 BTC at $29,900, 5 BTC at $29,850, 10 BTC at $29,500) on the BTC-USD order book and BTC is currently at $30,000 (based on mid-market). Assume MinDepth is $5000 and MaxSpread vs. mid-market is $200, or 6.7 Basis Points ($200/30000). A BP is one-hundredth of one percent.<br></p><p> <span class="math">Q_{BID} = (1\ \times \left(\frac{\$29,900}{\$100/30000}\right)) + (5\ \times \left(\frac{\$29,850}{\$150/30000}\right))</span> </p><p><br> <span class="math">Q_{BID}</span>is calculated every minute using random sampling.<br></p>          |
-| <img src="../.gitbook/assets/math-20210908 (1).png" alt="" data-size="original">  | <p>Assume a liquidity provider has multiple open ask orders (0.1 BTC at $30,100, 5 BTC at $30,150, 10 BTC at $30,175) on the BTC-USD order book and BTC is currently trading at $30,000 (based on mid-market). Assume MinDepth is $5000 and MaxSpread vs. mid-market is $200, or 6.7 Basis Points ($200/30000). A BP is one-hundredth of one percent.</p><p></p><p><span class="math">Q_{ASK} = (5\ \times \left(\frac{\$30,150}{\$150/30000}\right)) + (10\ \times \left(\frac{\$30,175}{\$175/30000}\right)) </span> </p><p><br><span class="math">Q_{ASK}</span> is calculated every minute at a random interval.</p> |
-| <img src="../.gitbook/assets/math-20210908 (2).png" alt="" data-size="original">  | <p>Rewards 2-sided liquidity by taking the minimum of <span class="math">Q_{BID}</span> and <span class="math">Q_{ASK}</span>.<br></p><p>Calculated every minute.</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| <img src="../.gitbook/assets/math-20210908 (3).png" alt="" data-size="original">  | $$Q_{EPOCH}$$is the sum of all $$Q_{MIN}$$in a given epoch.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| <img src="../.gitbook/assets/math-20210908 (4).png" alt="" data-size="original">  | $$Uptime_{EPOCH}$$is the percentage of time in an epoch that a given market maker was live and quoting on both the bid and ask sides with order sizes greater than stated order minimum (noted below by market) and spreads smaller than stated maximum spread (noted below by market).                                                                                                                                                                                                                                                                                                                                  |
-| <img src="../.gitbook/assets/math-20210908 (5).png" alt="" data-size="original">  | $$Q_{FINAL}$$normalizes $$Q_{EPOCH}$$to account for uptime                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| _stkDYDX_                                                                         | Average amount of stkDYDX held (measured randomly every minute) across the epoch                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| _Total Pool stkDYDX_                                                              | Total amount of all Liquidity Provider participants’ _stkDYDX score_ across the epoch.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Süre / Formül (hesaplama sırasıyla) | Açıklama / Örnek |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![](<.. /.gitbook/assets/image (96).png>) | <p></p>Bir likidite sağlayıcının BTC-USD emir defterinde birden fazla açık teklif emri (29.900 $ fiyatla 1 BTC, 29.850 $ fiyatla 5 BTC, 29.500 $ fiyatla 10 BTC) olduğunu ve güncel BTC fiyatının ise 30.000 $ (orta piyasaya dayalı olarak) olduğunu varsayalım. MinDepth'in 5.000 $ ve orta piyasada MaxSpread'in 200 $ veya 6,7 Baz Puanı (200/30.000 $) olduğunu varsayalım. Bir BP, yüzde birin yüzde biridir.<br><p> <span class="math">Q_{BID} = (1\ \times \left(\frac{\$29,900}{\$100/30000}\right)) + (5\ \times \left(\frac{\$29,850}{\$150/30000}\right))</span> </p><p><br> </p><span class="math">Q_{BID}</span> rastgele örnekleme kullanılarak her dakika hesaplanır.<br> |
+| ![](<.. /.gitbook/assets/math-20210908 (1).png>) | <p></p>Bir likidite sağlayıcının BTC-USD emir defterinde birden fazla açık teklif emri (30.100 $ fiyatla 0,1 BTC, 30.150 $ fiyatla 5 BTC, 30.175 $ fiyatla 10 BTC) olduğunu ve BTC'nin şu anda 30.000 $ fiyatla (orta piyasaya dayalı olarak) işlem gördüğünü varsayalım. MinDepth'in 5.000 $ ve orta piyasada MaxSpread'in 200 $ veya 6,7 Baz Puanı (200/30.000 $) olduğunu varsayalım. Bir BP, yüzde birin yüzde biridir.<p></p><p><span class="math">Q_{ASK} = (5\ \times \left(\frac{\$30,150}{\$150/30000}\right)) + (10\ \times \left(\frac{\$30,175}{\$175/30000}\right)) </span> </p><p></p><br><span class="math">Q_{ASK}</span> her dakika rastgele bir aralıkla hesaplanır. |
+| ![](<.. /.gitbook/assets/math-20210908 (2).png>) | <p></p><span class="math">Q_{BID}</span> ve <span class="math">Q_{ASK}</span>'in minimumunu alarak 2 taraflı likiditeyi ödüllendirir.<br><p></p>Her dakika hesaplanır. |
+| ![](<.. /.gitbook/assets/math-20210908 (3).png>) | $$Q_{EPOCH}$$, belirli bir dönemdeki tüm $$Q_{MIN}$$ değerlerinin toplamıdır. |
+| ![](<.. /.gitbook/assets/math-20210908 (4).png>) | $$Uptime_{EPOCH}$$, belirli bir piyasa yapıcının faal olduğu ve belirtilen minimum emir tutarından (aşağıda piyasa bazında verilmiştir) yüksek ve teklif-talep farkı belirtilen maksimum teklif-talep farkından (aşağıda piyasa bazında verilmiştir) düşük olan emirlerle hem teklif hem de talep tarafında teklif verdiği, bir dönemdeki zaman yüzdesidir. |
+| ![](<.. /.gitbook/assets/math-20210908 (5).png>) | $$Q_{FINAL}$$, çalışma süresini hesaplamak için $$Q_{EPOCH}$$'u normalleştirir |
+| _stkDYDX_ | Dönem boyunca tutulan ortalama stkDYDX miktarı (her dakika rastgele ölçülür) |
+| _Toplam stkDYDX Havuzu_ | Dönem boyunca tüm Likidite Sağlayıcı katılımcılarının _stkDYDX puanlarının_ toplam miktarı. |
 
-Each market will have its own rewards pool that will be weighted differently. The initial set of weights applied to each market is as follows:
+Her piyasa, farklı bir ağırlık verilecek kendi ödül havuzuna sahip olacaktır. Her bir piyasa için uygulanan başlangıç ağırlıkları aşağıdaki gibidir:
 
-| Market                 | % Allocation of Total Rewards Pool                                 |
+| Piyasa | Toplam Ödül Havuzu Tahsis %'si |
 | ---------------------- | ------------------------------------------------------------------ |
-| BTC-USD                | 20%                                                                |
-| ETH-USD                | 20%                                                                |
-| Other perpetual market | ![](<../.gitbook/assets/Screen Shot 2021-07-15 at 1.20.17 PM.png>) |
+| BTC-USD | %20 |
+| ETH-USD | %20 |
+| Diğer sürekli varlıklar piyasası | ![](<.. /.gitbook/assets/Screen Shot 2021-07-15 at 1.20.17 PM.png>) |
 
-## FAQ
+## SSS
 
-### Who is eligible for liquidity provider rewards?
+### Likidite sağlayıcı ödüllerini kimler alabilir?
 
-All liquidity providers who have achieved a minimum of 0.25% of maker volume on the dYdX Layer 2 Protocol in the prior epoch are eligible to receive DYDX as rewards in a given epoch.
+Önceki dönemde dYdX Katman 2 Protokolü üzerindeki piyasa yapıcı hacminin en az %0,25 kadarına ulaşan tüm likidite sağlayıcıları söz konusu dönemde DYDX ödüllerini almaya hak kazanır.
 
-The dYdX Layer 2 Protocol is not available to liquidity providers in the United States or Restricted Territories, as defined in dYdX Trading Inc.’s [Terms of Use](https://dydx.exchange/terms).
+dYdX Katman 2 Protokolü, dYdX Trading Inc.'in [Kullanım Şartları](https://dydx.exchange/terms)'nda tanımlandığı üzere Amerika Birleşik Devletleri ve Kısıtlanmış Bölgelerdeki likidite sağlayıcılar tarafından kullanılamaz.
 
-### How much DYDX did I earn in the Liquidity Provider Rewards program?
+### Likidite Sağlayıcı Ödülleri programında ne kadar DYDX kazandım?
 
-In a given epoch, liquidity providers earn yield based on their relative $$Q_{SCORE}$$ in a given pair’s market. Each pair has its own relative reward amount set by governance. The expected amount of DYDX earned can be determined based on the number of liquidity providers involved, the relative $$Q_{SCORE}$$, and the amount of reward available for a given pair.
+Belirli bir dönemde, likidite sağlayıcıları belirli bir işlem çifti piyasasındaki göreli $$Q_{SCORE}$$ değerlerine dayalı olarak getiri kazanır. Her bir işlem çifti, yönetişim tarafından belirlenen kendi göreli ödül miktarına sahiptir. Kazanılması beklenen DYDX miktarı, söz konusu işlem çifti için havuzdaki likidite sağlayıcı sayısı, göreli $$Q_{SCORE}$ değeri ve verilen ödüle dayalı olarak belirlenebilir.
 
-### How do I claim my Liquidity Provider Rewards?
+### Likidite Sağlayıcı Ödüllerimi nasıl alabilirim?
 
-Liquidity Provider Rewards are surfaced in the [dYdX API](https://docs.dydx.exchange/). Although not surfaced on the governance user interface, they are still claimable via the governance at the end of every epoch [here](https://dydx.community/dashboard).&#x20;
+Likidite Sağlayıcı Ödülleri [dYdX API](https://docs.dydx.exchange)'sinde açıklanır. Her ne kadar yönetişim kullanıcı arayüzünde açıklanmasa da her dönemin [sonunda](https://dydx.community/dashboard) yine de yönetişim yoluyla buradan alınabilirler.
 
-### When can I withdraw and transfer my claimed DYDX Liquidity Provider Rewards?
+### Aldığım DYDX Likidite Sağlayıcı Ödüllerimi ne zaman çekebilir ve transfer edebilirim?
 
-DYDX tokens rewarded via the Liquidity Provider Rewards will become claimable and transferable once the initial transfer restriction period is lifted.
+Likidite Sağlayıcı Ödülleri aracılığıyla ödül olarak verilen DYDX token'ları ilk baştaki transfer kısıtlama süresi kaldırıldığında alınabilir ve transfer edilebilir.
 
-Starting in Epoch 1, DYDX tokens rewarded via the Liquidity Provider Rewards will become claimable `7 days` (**Waiting Period**) after the end of each epoch.
+Dönem 1'den başlayarak, Likidite Sağlayıcı Ödülleri aracılığıyla ödül olarak verilen DYDX token'ları her dönem sona erdikten `7 gün` (**Bekleme Süresi**) sonra alınabilir.
 
-### How are two-sided depth, bid-ask spread, and uptime defined and measured?
+### İki taraflı derinlik, teklif-talep farkı ve çalışma süresi nasıl tanımlanıyor ve ölçülüyor?
 
-**Two-sided depth**&#x20;
+**İki taraflı derinlik**
 
-A two-sided liquidity provider is a firm or individual who actively quotes two-sided markets on the dYdX Layer 2 Protocol, providing bids and asks for a given market. They provide liquidity to the protocol overall.
+İki taraflı likidite sağlayıcısı, dYdX Katman 2 Protokolü üzerindeki iki taraflı piyasalarda aktif olarak teklif veren ve söz konusu piyasada teklif ve talep sağlayan bir firma veya bireydir. Protokole genel anlamda likidite sağlar.
 
-For instance, a liquidity provider in the BTC-USD market may provide a quote of $30,000-$30,100, 10x50. This means that they bid (they will buy) 10 BTC for $30,000 and also offer (they will sell) 50 BTC at $30,100. Other market participants may then buy (lift the offer) from the liquidity provider at $30,100 or sell to them (hit the bid) at $30,000.
+Örneğin, BTC-USD piyasasındaki bir likidite sağlayıcı, 30.000 $-30.100 $, 10x50 şeklinde bir teklif verebilir. Bu da 30.000 $ fiyatla 10 BTC için teklif verdiği (satın alacağı) ve ayrıca 50 BTC için 30.100 $ fiyat talep ettiği (satacağı) anlamına gelir. Bunun ardından diğer piyasa katılımcıları likidite sağlayıcıdan 30.100 $ fiyatla satın alabilir (teklifi kaldırabilir) veya likidite sağlayıcıya 30.000 $ fiyatla satabilir (talebi karşılayabilir).
 
-Liquidity providers are assessed on their ability to provide both bids and asks on a given market. Liquidity providers who only quote on 1-side (either just bids or asks) are excluded from receiving rewards due to the min() function.
+Likidite sağlayıcılar, belirli bir piyasadaki hem teklifleri hem de talepleri sağlama yetenekleri üzerinden değerlendirilir. Sadece tek bir tarafta (sadece teklif ya da sadece talep) teklif veren likidite sağlayıcılar, min() fonksiyonu nedeniyle ödül alamaz.
 
-**Mid-market spread**
+**Orta piyasada makas farkı**
 
-One common measure of liquidity is the bid-ask spread: the spread between the highest bid (order to buy) price and the lowest ask (order to sell) price in a market. The difference between the bid and the ask, the spread, is the principal transaction cost of trading (outside commissions), and it is collected by the liquidity provider by processing orders at the bid and ask prices. The spread measures the cost of transacting immediately to a user.
+Yaygın bir likidite ölçüsü de teklif-talep farkıdır. Bu, bir piyasadaki en yüksek teklif (satın alma emri) fiyatı ile en düşük talep (satış emri) fiyatı arasındaki farktır. Teklif ve talep arasındaki fark, yani makas farkı, alım satımda ana işlem maliyetidir (komisyonlar dışında) ve emirleri talep ve talep fiyatları üzerinden işleyerek likidite sağlayıcı tarafından alınır. Makas farkı, bir kullanıcının anında işlem yapma maliyetini ölçer.
 
-The mid-market spread specifically takes the midpoint of the market. With this formula, orders below the MinDepth amount for each market are excluded also.
+Orta piyasadaki teklif-talep farkı özellikle piyasanın orta noktasını alır. Bu formül ile her bir piyasadaki MinDepth miktarının altındaki emirler de hariç tutulur.
 
-For instance, if a liquidity provider’s bid price for BTC-USD is $30,000 and the ask price is $30,100, then the bid-ask spread is $100. The mid-market price is $30,050, and the mid-market spread is $50.
+Örneğin, bir likidite sağlayıcının BTC-USD için teklif fiyatı 30.000 $ ve talep fiyatı da 30.100 $ ise, teklif-talep farkı 100 $ olur. Orta piyasa fiyatı 30.050 $ ve orta piyasa makas farkı da 50 $'dır.
 
-**Uptime**
+**Çalışma süresi**
 
-Liquidity provider uptime is critical for markets, especially in periods of high volatility. By applying an exponent of 5 to $$Uptime_{epoch}$$ as an input to the $$Q_{FINAL}$$, the rewards are skewed towards liquidity providers who maintain 2-sided liquidity constantly. In other words, a liquidity provider who provides uptime 99% of the time is exponentially more valuable than a liquidity provider who provides 90% uptime.
+Likidite sağlayıcı çalışma süresi özellikle yüksek oynaklık dönemlerinde piyasalar için çok önemlidir. $$Q_{FINAL}$$ hesaplamasında bir girdi olarak $$Uptime_{epoch}$$ değerinin beşinci kuvvetini kullanarak ödüller sürekli olarak 2 taraflı likiditeyi sürdüren likidite sağlayıcılara verilir. Diğer bir deyişle, %99'luk bir çalışma süresine sahip bir likidite sağlayıcı %90'lık bir çalışma süresine sahip bir likidite sağlayıcıdan daha değerlidir.
 
-Uptime is defined as the percentage of time orders are in a given market providing liquidity on a minute-by-minute basis (with randomized sampling). Uptime excludes periods of time when outages exist on the dYdX Layer 2 Protocol itself. There may be edge cases where the exchange is slow or not accepting orders (but is not an outage)—in which case the above would not apply (but that would be considered a bug and all liquidity providers would be similarly affected, as with outages).
+Çalışma süresi, belirli bir piyasadaki likidite sağlayan emirlerin dakika dakika (rastgeleleştirilmiş örnekleme ile) var olduğu zaman yüzdesi şeklinde tanımlanır. Çalışma süresinde, dYdX Katman 2 Protokolü üzerinde kesinti yaşanan süreler hariç tutulur. Borsanın yavaş olduğu veya emirleri kabul etmediği (ancak bir kesinti yaşanmayan) bazı aşırı durumlar görülebilir ve bu durumda yukarıdakiler geçerli olmaz (ancak bu bir hata olarak kabul edilir ve tüm likidite sağlayıcılar tıpkı kesintilerde olduğu gibi benzer şekilde etkilenir).
 
-### How is the maximum spreads per market defined?
+### Bir piyasadaki maksimum teklif-talep farkı nasıl tanımlanır?
 
-No $$Q_{BID}$$ or $$Q_{ASK}$$will be generated when the spread is above a given market’s $$MaxSpread$$.
+Bir piyasadaki makas farkı $$MaxSpread$$ değerinden yüksek olduğunda hiçbir $$Q_{BID}$$ ve $$Q_{ASK}$$ değeri üretilmez.
 
-The initial Max Spreads are as follows:
+İlk baştaki Maksimum Teklif-Talep Farkı değerleri aşağıdaki gibidir:
 
-| Market                  | Max Spread vs Mid-Market (Bid and Ask) |
+| Piyasa | Orta Piyasadaki Maksimum Makas Farkı (Teklif ve Talep) |
 | ----------------------- | -------------------------------------- |
-| BTC-USD                 | 20 bps                                 |
-| ETH-USD                 | 20 bps                                 |
-| Other perpetual markets | 40 bps                                 |
+| BTC-USD | 20 bps |
+| ETH-USD | 20 bps |
+| Diğer sürekli varlık piyasaları | 40 bps |
 
-### How is the minimum depth (size) per market defined?
+### Bir piyasadaki minimum derinlik (boyut) nasıl tanımlanır?
 
-No $$Q_{BID}$$ or $$Q_{ASK}$$will be generated when the size is below a given market’s $$MinDepth$$.
+Bir piyasadaki büyüklük $$MinDepth$$ değerinin altında olduğunda hiçbir $$Q_{BID}$$ veya $Q_{ASK}$$$ değeri üretilmez.
 
-The initial Min Depths are as follows:
+İlk baştaki Minimum Derinlik değerleri aşağıdaki gibidir:
 
-| **Market**              | **Min Depth (Bid and Ask)** |
+| **Piyasa** | **Minimum Derinlik (Teklif ve Talep)** |
 | ----------------------- | --------------------------- |
-| BTC-USD                 | $5000                       |
-| ETH-USD                 | $5000                       |
-| Other perpetual markets | $1000                       |
+| BTC-USD | 5.000 $ |
+| ETH-USD | 5.000 $ |
+| Diğer sürekli varlık piyasaları | 1.000 $ |

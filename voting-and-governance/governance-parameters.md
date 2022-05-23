@@ -1,146 +1,146 @@
 ---
-description: Overview of governance parameters.
+description: Yönetişim parametrelerine genel bakış.
 ---
 
-# Parameters
+# Parametreler
 
-**\[PARAMETERS PAGE IS UNDER DEVELOPMENT AND WILL BE UPDATED SOON]**
+**\[PARAMETRELER SAYFASI GELİŞTİRİLMEKTEDİR VE YAKINDA GÜNCELLENECEKTİR]**
 
-At the time of launching governance, DYDX holders have immediate and irrevocable control over:
+Yönetişimin başladığı tarih itibarıyla, DYDX sahipleri şunlar üzerinde anında ve gayri kabili rücu kontrol sahibidir:
 
-* Allocation of the community treasury
-* New token listings on the Protocol
-* Risk parameters for the Protocol
-* Capital allocations to market makers in the liquidity staking pool
-* Addition of new market makers to the liquidity staking pool
-* Determining safety staking pool payouts in the event of a loss
-* Changing any of the rewards and pools existing at launch
-* The governance contracts themselves
+* Topluluk hazinesinin tahsisi
+* Protokoldeki yeni token listelemeleri
+* Protokolün risk parametreleri
+* Likidite staking havuzunda piyasa yapıcılara sermaye tahsisleri
+* Likidite staking havuzuna yeni piyasa yapıcıların eklenmesi
+* Bir kayıp durumunda güvenlik staking havuzu ödemelerinin belirlenmesi
+* Lansman anında mevcut ödüllerin ve havuzlardan herhangi birinin değiştirilmesi
+* Yönetişim sözleşmeleri
 
-dYdX Governance has control over the parameters of the following contracts:
+dYdX Yönetişimi şu sözleşmelerin parametreleri üzerinde kontrol sahibidir:
 
 * [Timelock](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/voting-and-governance-process/parameters.md#timelock-parameters)
 * Priority Timelock
 * Governor
 * DYDX Token
-* Treasury
+* Hazine
 * Merkle Distributor
-* Liquidity Staking
+* Likidite Staking
 * Safety Module
 * Stark Proxy
 * Stark Perpetual
 
-## Timelock Parameters
+## Timelock Parametreleri
 
-![](<../.gitbook/assets/image (77).png>)
+![](<.. /.gitbook/assets/image (77).png>)
 
-## Governor Parameters
+## Governor Parametreleri
 
-| Parameter         | Description                                                                   | Value          |
+| Parametre | Açıklama | Değer |
 | ----------------- | ----------------------------------------------------------------------------- | -------------- |
-| Voting Delay      | Delay (in blocks) between proposal creation and voting on the proposal        | 6,570 blocks   |
-| Add Executor role | Address that can add new executors                                            | Short Timelock |
-| Owner role        | Can change strategy / voting delay / unauthorize executors + owns other roles | Long Timelock  |
+| Oylama Bekleme Süresi | Teklifin oluşturulması ve oylanması arasındaki bekleme süresi (blok cinsinden) | 6.570 blok |
+| Executor rolü ekleyin | Yeni executor ekleyebilen adres | Short Timelock |
+| Sahip rolü | Stratejiyi / oylama bekleme süresini değiştirebilir / executor'ların yetkilerini iptal edebilir + diğer rollerin sahibidir | Long Timelock |
 
 
 
 ## DYDX Token
 
-| Parameter | Description                                 | Value          |
+| Parametre | Açıklama | Değer |
 | --------- | ------------------------------------------- | -------------- |
-| Owner     | Can mint DYDX tokens after mint restriction | Short Timelock |
+| Sahip | Token çıkarmanın kısıtlanmasının ardından DYDX token'ları çıkarabilir | Short Timelock |
 
 
 
-## Rewards Treasury Parameters
+## Ödül Hazinesi Parametreleri
 
-| Parameter   | Description                                            | Value          |
+| Parametre | Açıklama | Değer |
 | ----------- | ------------------------------------------------------ | -------------- |
-| Owner       | Can approve or transfer any token held by the treasury | Short Timelock |
-| Proxy Admin | Can upgrade the contract                               | Short Timelock |
+| Sahip | Hazine tarafından tutulan herhangi bir token'ı onaylayabilir veya transfer edebilir | Short Timelock |
+| Proxy Yöneticisi | Sözleşmenin sürümünü yükseltebilir | Short Timelock |
 
 ##
 
-## Community Treasury Parameters
+## Topluluk Hazinesi Parametreleri
 
-| Parameter   | Description                                            | Value          |
+| Parametre | Açıklama | Değer |
 | ----------- | ------------------------------------------------------ | -------------- |
-| Owner       | Can approve or transfer any token held by the treasury | Short Timelock |
-| Proxy Admin | Can upgrade the contract                               | Short Timelock |
+| Sahip | Hazine tarafından tutulan herhangi bir token'ı onaylayabilir veya transfer edebilir | Short Timelock |
+| Proxy Yöneticisi | Sözleşmenin sürümünü yükseltebilir | Short Timelock |
 
 ##
 
 ## Merkle Distributor
 
-| Parameter           | Description                                                                                                                    | Value                        |
+| Parametre | Açıklama | Değer |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------- |
-| Owner role          | Can update the rewards oracle address, update the IPNS name, and is admin of all roles                                         | Short Timelock               |
-| Config updater role | May set rewards parameters, change the epoch schedule, or change the IPFS update period                                        | Short Timelock               |
-| Pauser role         | Can pause updates to the merkle root                                                                                           | Merkle-pauser Timelock       |
-| Unpauser role       | Can unpause updates to the merkle root                                                                                         | Short Timelock               |
-| Claim operator role | May claim rewards on behalf of a user                                                                                          | Claims Proxy                 |
-| Interval            | Length of an epoch                                                                                                             | 28 days                      |
-| Offset              | Start of epoch zero                                                                                                            | August 3rd 15:00 UTC 2021    |
-| IPNS name           | IPNS name where rewards data is published                                                                                      | rewards-data.dydx.foundation |
-| IPFS update period  | Period of time after the epoch end after which the new epoch exchange statistics should be available on IPFS via the IPNS name | 3 minutes                    |
-| Proxy Admin         | Can upgrade the contract                                                                                                       | Short Timelock               |
+| Sahip rolü | Ödüllerin oracle adresini güncelleyebilir, IPNS adını güncelleyebilir ve tüm rollerin yöneticisidir | Short Timelock |
+| Config updater rolü | Ödül parametrelerini belirleyebilir, dönem takvimini değiştirebilir veya IPFS güncelleme süresini değiştirebilir | Short Timelock |
+| Pauser rolü | Merkle kökü üzerindeki güncellemeleri duraklatabilir | Merkle-pauser Timelock |
+| Unpauser rolü | Merkle kökü üzerindeki duraklatılmış güncellemeleri tekrar başlatabilir | Short Timelock |
+| Claim operator rolü | Bir kullanıcı adına ödülleri alabilir | Claims Proxy |
+| Aralık | Bir dönemin uzunluğu | 28 gün |
+| Başlangıç noktası | Dönem sıfırın başlangıcı | 3 Ağustos 2021 18.00 (TSİ) |
+| IPNS adı | Ödül verilerinin yayınlandığı IPNS adı | rewards-data.dydx.foundation |
+| IPFS güncelleme süresi | Dönem sona erdikten sonra yeni dönemin borsa istatistiklerinin IPNS adı aracılığıyla IPFS üzerinde yayınlanmaya başlaması gereken süre | 3 dakika |
+| Proxy Yöneticisi | Sözleşmenin sürümünü yükseltebilir | Short Timelock |
 
 ##
 
-## Liquidity Staking
+## Likidite Staking
 
-| Parameter             | Description                                                                       | Value                                                               |
+| Parametre | Açıklama | Değer |
 | --------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| Owner role            | Admin of all roles                                                                | Short Timelock                                                      |
-| Epoch parameters role | May set epoch parameters such as the interval, offset, and blackout window        | Short Timelock                                                      |
-| Rewards rate role     | May set the emission rate of rewards                                              | Short Timelock                                                      |
-| Borrower admin role   | May set borrower allocations and allow/restrict borrowers from borrowing          | Short Timelock                                                      |
-| Claim operator role   | May claim rewards on behalf of a user                                             | Claims proxy                                                        |
-| Stake operator role   | May manipulate user's staked funds (e.g. perform withdrawals) on behalf of a user | Short Timelock                                                      |
-| Debt operator role    | May decrease borrow debt and decrease staker debt                                 | Short Timelock                                                      |
-| Interval              | Length of an epoch                                                                | 28 days                                                             |
-| Offset                | Start of epoch zero                                                               | August 3rd 15:00 UTC 2021                                           |
-| Blackout window       | Length of the blackout window                                                     | 14 days                                                             |
-| Rewards emission rate | Tokens allocated to stakers as rewards per second                                 | 0.1585489619 \* 10^18 (in wei)                                      |
-| Borrower allocations  | Percent of funds allocated to each borrower                                       | Wintermute 25%, Amber 25%, Sixtant 20%, Kronos 20%, DAT Trading 10% |
-| Proxy Admin           | Can upgrade the contract                                                          | Short Timelock                                                      |
+| Sahip rolü | Tüm rollerin yöneticisi | Short Timelock |
+| Dönem parametreleri rolü | Aralık, başlangıç noktası ve karartma süresi gibi dönem parametrelerini belirleyebilir | Short Timelock |
+| Ödül oranı rolü | Ödüllerin verilme oranını belirleyebilir | Short Timelock |
+| Borç alan yöneticisi rolü | Borç alanların tahsislerini belirleyebilir ve borç alanların borç almasına izin verebilir/almasını kısıtlayabilir | Short Timelock |
+| Claim operator rolü | Bir kullanıcı adına ödülleri alabilir | Claims Proxy |
+| Stake operator rolü | Kullanıcının stake edilen fonlarını bir kullanıcı adına idare edebilir (örneğin fon çekme işlemi gerçekleştirebilir) | Short Timelock |
+| Debt operator rolü | Borç alanların borcunu azaltabilir ve stake edenlerin borcunu azaltabilir | Short Timelock |
+| Aralık | Bir dönemin uzunluğu | 28 gün |
+| Başlangıç noktası | Dönem sıfırın başlangıcı | 3 Ağustos 2021 18.00 (TSİ) |
+| Karartma süresi | Karartma süresinin uzunluğu | 14 gün |
+| Ödül verme oranı | Stake edenlere saniye başına ödül olarak tahsis edilen token'lar | 0,1585489619 \* 10^18 (wei cinsinden) |
+| Borç alan tahsisleri | Her bir borç alana tahsis edilen fonların yüzdesi | Wintermute %25, Amber %25, Sixtant %20, Kronos %20, DAT Trading %10 |
+| Proxy Yöneticisi | Sözleşmenin sürümünü yükseltebilir | Short Timelock |
 
 ## Safety Module
 
-| Parameter             | Description                                                                       | Value                          |
+| Parametre | Açıklama | Değer |
 | --------------------- | --------------------------------------------------------------------------------- | ------------------------------ |
-| Owner role            | Admin of all roles                                                                | Short Timelock                 |
-| Slasher role          | Can slash staked token balances and withdraw those funds                          | Short Timelock                 |
-| Epoch parameters role | May set epoch parameters such as the interval, offset, and blackout window        | Short Timelock                 |
-| Rewards rate role     | May set the emission rate of rewards                                              | Short Timelock                 |
-| Claim operator role   | May claim rewards on behalf of a user                                             | Claims proxy                   |
-| Stake operator role   | May manipulate user's staked funds (e.g. perform withdrawals) on behalf of a user | Short Timelock                 |
-| Interval              | Length of an epoch                                                                | 28 days                        |
-| Offset                | Start of epoch zero                                                               | August 3rd 15:00 UTC 2021      |
-| Blackout window       | Length of the blackout window                                                     | 14 days                        |
-| Rewards emission rate | Tokens allocated to stakers as rewards per second                                 | 0.1585489619 \* 10^18 (in wei) |
-| Proxy Admin           | Can upgrade the contract                                                          | Long Timelock                  |
+| Sahip rolü | Tüm rollerin yöneticisi | Short Timelock |
+| Slasher rolü | Stake edilen token bakiyelerini slash edebilir ve bu fonları çekebilir | Short Timelock |
+| Dönem parametreleri rolü | Aralık, başlangıç noktası ve karartma süresi gibi dönem parametrelerini belirleyebilir | Short Timelock |
+| Ödül oranı rolü | Ödüllerin verilme oranını belirleyebilir | Short Timelock |
+| Claim operator rolü | Bir kullanıcı adına ödülleri alabilir | Claims Proxy |
+| Stake operator rolü | Kullanıcının stake edilen fonlarını bir kullanıcı adına idare edebilir (örneğin fon çekme işlemi gerçekleştirebilir) | Short Timelock |
+| Aralık | Bir dönemin uzunluğu | 28 gün |
+| Başlangıç noktası | Dönem sıfırın başlangıcı | 3 Ağustos 2021 18.00 (TSİ) |
+| Karartma süresi | Karartma süresinin uzunluğu | 14 gün |
+| Ödül verme oranı | Stake edenlere saniye başına ödül olarak tahsis edilen token'lar | 0,1585489619 \* 10^18 (wei cinsinden) |
+| Proxy Yöneticisi | Sözleşmenin sürümünü yükseltebilir | Long Timelock |
 
 ## Stark Proxy
 
-| Parameter                | Description                                                                                                                                                                                                      | Value                  |
+| Parametre | Açıklama | Değer |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
-| Owner role               | Can add/remove recipients who receive funds + STARK keys, set ERC20 allowances on liquidity staking and stark perpetual contracts, call forced actions, and is admin of owner + delegation admin roles           | Market Maker           |
-| Delegation admin role    | Is admin of borrower, exchange operator, and withdrawal operator roles                                                                                                                                           | Market Maker           |
-| Borrower role            | May call borrow functions on the liquidity staking contract                                                                                                                                                      | Market Maker           |
-| Exchange operator role   | May call exchange functions on the stark perpetual contract                                                                                                                                                      | Market Maker           |
-| Withdrawal operator role | May withdraw funds in excess of the borrowed balance to an allowed recipient                                                                                                                                     | Market Maker           |
-| Guardian role            | May perform close actions, perform force actions if borrower has overdue debt, restrict open actions with borrowed funds, and approve a token amount to be withdrawn externally by the withdrawal operator role. | Short Timelock         |
-| Veto guardian role       | May veto forced trade requests initiated by the owner, during the waiting period                                                                                                                                 | Merkle-pauser timelock |
+| Sahip rolü | Fon alan alıcıları ve STARK anahtarlarını ekleyebilir/kaldırabilir, likidite staking ve stark perpetual sözleşmelerinde ERC20 tahsislerini belirleyebilir, zorlanan eylemleri çağırabilir ve sahip + delegasyon yöneticisi rollerinin yöneticisidir | Piyasa Yapıcı |
+| Delegasyon yöneticisi rolü | Borç alan, exchange operator ve withdrawal operator rollerinin yöneticisidir | Piyasa Yapıcı |
+| Borç alan rolü | Likidite staking sözleşmesinde borç alma fonksiyonlarını çağırabilir | Piyasa Yapıcı |
+| Exchange operator rolü | Stark perpetual sözleşmesinde borsa fonksiyonlarını çağırabilir | Piyasa Yapıcı |
+| Withdrawal operator rolü | Borç alınan bakiyeden fazla olan fonları izin verilen bir alıcıya çekebilir | Piyasa Yapıcı |
+| Guardian rolü | Borç alanın vadesi dolduğu halde ödenmemiş borcu varsa kapatma eylemlerini ve zorlama eylemlerini gerçekleştirebilir, borç alınan fonlarla açma işlemlerini kısıtlayabilir ve withdrawal operator rolü tarafından harici olarak çekilecek bir token miktarını onaylayabilir. | Short Timelock |
+| Veto guardian rolü | Sahip tarafından başlatılan zorla alım satım taleplerini bekleme süresi boyunca veto edebilir | Merkle-pauser Timelock |
 
 ## Stark Perpetual
 
-| Parameter                              | Description | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
+| Parametre | Açıklama | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
 | -------------------------------------- | ----------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
-| Add new asset                          |             | N                       | N                      | N                      | Y                  |
-| Change configuration of existing asset |             | N                       | N                      | N                      | Y                  |
-| Proxy admin                            |             | N                       | N                      | N                      | Y                  |
-| Add operator                           |             | N                       | N                      | N                      | Y                  |
-| Remove operator                        |             | N                       | N                      | N                      | Y                  |
-| Add verifier                           |             | N                       | N                      | N                      | Y                  |
-| Remove verifier                        |             | N                       | N                      | N                      | Y                  |
+| Yeni varlık ekle |             | H | H | H | E |
+| Mevcut varlığın yapılandırmasını değiştirin |             | H | H | H | E |
+| Proxy Yöneticisi |             | H | H | H | E |
+| Operator ekle |             | H | H | H | E |
+| Operator kaldır |             | H | H | H | E |
+| Doğrulayıcı ekle |             | H | H | H | E |
+| Doğrulayıcı kaldır |             | H | H | H | E |
