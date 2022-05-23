@@ -1,6 +1,8 @@
 ---
 description: >-
-  DRC oluşturma, Snapshot anketinin oluşturulması, DIP oluşturma, bir Snapshot anketinin oylanması, bir DIP'nin oylanması, bir DIP'nin kuyruğa koyulması ve bir DIP'nin uygulamaya koyulmasına ilişkin yönetişim sürecine adım adım bir genel bakış.
+  DRC oluşturma, Snapshot anketinin oluşturulması, DIP oluşturma, bir Snapshot
+  anketinin oylanması, bir DIP'nin oylanması, bir DIP'nin kuyruğa koyulması ve
+  bir DIP'nin uygulamaya koyulmasına ilişkin yön
 ---
 
 # Yönetişim Rehberi
@@ -47,30 +49,30 @@ _**DIP 2 başvurusu:**_
 
 Three Arrows Capital'dan Su Zhu (zhusu) Likidite Sağlayıcı Ödülleri Eşiğinin düşürülmesi için [zincir dışı bir Forum Tartışması](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/) oluşturmuştur. Wintermute'tan Evgeny, Kronos'dan Ben, Sixtant'tan Josh ve daha birçok topluluk üyesi tartışmaya katılmış ve değerli geri bildirimler sağlamıştır.
 
-![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](<.. /.gitbook/assets/image (99).png>)
+![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](..%20/.gitbook/assets/image%20\(99\).png)
 
-![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](<.. /.gitbook/assets/image (97).png>)
+![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](..%20/.gitbook/assets/image%20\(97\).png)
 
 #### _Commonwealth'te nasıl Gönderi Oluşturulur ve Yorum Yapılır:_
 
 * Ethereum cüzdanınız veya Github hesabınız ile Commonwealth'e kaydolun ve dYdX topluluğuna [buradan](https://forums.dydx.community) katılın.
 
-![https://forums.dydx.community/](<.. /.gitbook/assets/Untitled 1>)
+![https://forums.dydx.community/](..%20/.gitbook/assets/Untitled%201)
 
 * Bir ileti dizisi seçin, yorumları okuyun ve ilgili yorumun altındaki simgelere tıklayarak yorumları beğenin veya yorumlara yanıt verin.
 
-![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](<.. /.gitbook/assets/image (107).png>)
+![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](..%20/.gitbook/assets/image%20\(107\).png)
 
 * "Yeni ileti dizisi" seçeneğine tıklayarak ve konu kategorisini seçerek yeni bir tartışma ileti dizisi oluşturun veya bir DRC yayınlayın.
 
-![https://forums.dydx.community/new/discussion](<.. /.gitbook/assets/Untitled 3>)
+![https://forums.dydx.community/new/discussion](..%20/.gitbook/assets/Untitled%203)
 
 * Eğer bir DRC oluşturuyorsanız lütfen [buradaki](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) şablonu izleyin. [Teklif Yaşam Döngüsü](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle) bölümünde _DRC Oluşturma_ başlığı altında belirtildiği üzere DRC'ler en az şunları içermelidir:
-   * DRC'nin kısa ve öz bir başlığı.
-   * Teklifin kısa ve öz bir açıklaması.
-   * DRC'nin gerekçesi (örneğin neden?).
-   * Forum gönderisinin başlığı DRC: \[DRC'nin kısa başlığını ekleyin] şeklinde olmalıdır (Örneğin, DRC: Yeni Piyasa Talebi).
-   * Topluluk üyelerinin zincir dışı iyileştirmeleri oylamak için kullanabileceği bir topluluk anketi.
+  * DRC'nin kısa ve öz bir başlığı.
+  * Teklifin kısa ve öz bir açıklaması.
+  * DRC'nin gerekçesi (örneğin neden?).
+  * Forum gönderisinin başlığı DRC: \[DRC'nin kısa başlığını ekleyin] şeklinde olmalıdır (Örneğin, DRC: Yeni Piyasa Talebi).
+  * Topluluk üyelerinin zincir dışı iyileştirmeleri oylamak için kullanabileceği bir topluluk anketi.
 
 ### **2. ADIM - DRC Snapshot Anketi (Zincir Dışı)**
 
@@ -93,27 +95,27 @@ Bunun ardından, Su Zhu aşağıdaki seçeneklerle bir Snapshot anketi oluşturm
 * MM eşiğinin %2,5'e düşürülmesi
 * MM eşiğinin %5 olarak bırakılması
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<.. /.gitbook/assets/Untitled 4>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](..%20/.gitbook/assets/Untitled%204)
 
 #### _Bir Snapshot Anketi Üzerinde Oylama Yapma:_
 
 * Ethereum cüzdanınız ile Snapshot'a kaydolun ve [buradaki](https://snapshot.org/#/dydxgov.eth) dYdX tekliflerini izleyin. Alternatif olarak, doğrudan [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth)'te bir Snapshot anketi oluşturabilir ve oylayabilirsiniz.
 
-![https://snapshot.org/#/dydxgov.eth](<.. /.gitbook/assets/Untitled 5 (1)>)
+![https://snapshot.org/#/dydxgov.eth](..%20/.gitbook/assets/Untitled%205%20\(1\))
 
 * Aktif Snapshot Tekliflerini görüntülemek için, [Snapshot](https://snapshot.org/#/dydxgov.eth)'a veya [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth)'e gidin.
 
-![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](<.. /.gitbook/assets/Untitled 6 (2)>)
+![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](..%20/.gitbook/assets/Untitled%206%20\(2\))
 
 * Aktif Snapshot anketlerinde oy vermek için, Snapshot anketinin aktif hale geldiği Snapshot blok numarası öncesinde adresinizde DYDX tutmanız veya adresinize oylama yetkisi delege edilmiş olması gerekir.
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<.. /.gitbook/assets/Untitled 7>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](..%20/.gitbook/assets/Untitled%207)
 
 * Oy vermek için, teklife tıklayıp "evet" veya "hayır" seçeneğini seçin ve ardından "oy ver" seçeneğine tıklayın.
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<.. /.gitbook/assets/Untitled 8 (2)>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](..%20/.gitbook/assets/Untitled%208%20\(2\))
 
-![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<.. /.gitbook/assets/Untitled 9 (2)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](..%20/.gitbook/assets/Untitled%209%20\(2\))
 
 #### _Snapshot Üzerinde Bir Anket Nasıl Oluşturulur:_
 
@@ -121,9 +123,9 @@ Bunun ardından, Su Zhu aşağıdaki seçeneklerle bir Snapshot anketi oluşturm
 * Snapshot teklifi, teklif başına en fazla 10 eylem olmak üzere bir veya birden fazla eylemden oluşabilir. Eylemler, bir teklifte belirtilen değişikliklerdir.
 * Minimum 10.000 teklif verme yetkisi gereksinimini karşılıyorsanız "Yeni Teklif" seçeneğine tıklayın ve aşağıdaki içerik gereksinimleri uyarınca açık alanları doldurun.
 
-![https://snapshot.org/#/dydxgov.eth/create](<.. /.gitbook/assets/Untitled 10 (2)>)
+![https://snapshot.org/#/dydxgov.eth/create](..%20/.gitbook/assets/Untitled%2010%20\(2\))
 
-![https://forums.dydx.community/new/snapshot/dydxgov.eth](<.. /.gitbook/assets/Untitled 11>)
+![https://forums.dydx.community/new/snapshot/dydxgov.eth](..%20/.gitbook/assets/Untitled%2011)
 
 DRC Snapshot Anketi İçerik Gereksinimleri:
 
@@ -138,11 +140,11 @@ Bir Snapshot anketi çoğu karar için yalnızca görüşlerin yansıtılmasın�
 
 * İki ayrı oylama seçeneği. Açıkça belirtmek gerekirse, bir adres bir teklifin lehine veya aleyhine oy verir.
 
-![](<.. /.gitbook/assets/Untitled 12>)
+![](..%20/.gitbook/assets/Untitled%2012)
 
 * Oylama sonrasında ilgili bilgiler IPFS üzerinde saklanacak ve bir rapor otomatik olarak oluşturulup indirilmeye hazır hale getirilecektir.
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<.. /.gitbook/assets/Untitled 13>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](..%20/.gitbook/assets/Untitled%2013)
 
 ### **3. ADIM - DIP Oluşturma (Zincir Dışı Teklif)**
 
@@ -154,11 +156,11 @@ _**DIP 2 başvurusu:**_
 
 Bu örnekte, [DIP](https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md) @Jteamdc. tarafından yazılmıştır.
 
-![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](<.. /.gitbook/assets/Untitled 14 (2)>)
+![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](..%20/.gitbook/assets/Untitled%2014%20\(2\))
 
-DIP 2 için teklif taslağı tamamlandığında, @Jteamdc çalışma dalından dYdX Vakfı'nın Beklemedeki DIP'ler dalına gönderilen bir **** [Çekme Talebi](https://github.com/dydxfoundation/dip/pull/8) oluşturmuştur. dYdX Vakfı teklifi gözden geçirdikten ve onayladıktan sonra, Beklemedeki DIP'lerdeki değişiklikler Ana Dal ile birleştirilmiştir.
+DIP 2 için teklif taslağı tamamlandığında, @Jteamdc çalışma dalından dYdX Vakfı'nın Beklemedeki DIP'ler dalına gönderilen bir \*\*\*\* [Çekme Talebi](https://github.com/dydxfoundation/dip/pull/8) oluşturmuştur. dYdX Vakfı teklifi gözden geçirdikten ve onayladıktan sonra, Beklemedeki DIP'lerdeki değişiklikler Ana Dal ile birleştirilmiştir.
 
-![https://github.com/dydxfoundation/dip/pulls](<.. /.gitbook/assets/Untitled 15 (2)>)
+![https://github.com/dydxfoundation/dip/pulls](..%20/.gitbook/assets/Untitled%2015%20\(2\))
 
 Likidite sağlayıcıların ödül eşiğinin düşürülmesi herhangi bir zincir içi akıllı sözleşme değişikliği gerektirmediği için süreç artık tamamlanmıştır ve değişiklikler bir sonraki dönemde yürürlüğe girecektir.
 
@@ -168,24 +170,24 @@ Likidite sağlayıcıların ödül eşiğinin düşürülmesi herhangi bir zinci
 * Bir Github hesabı açmak için kaydolun: [https://github.com/signup](https://github.com/signup).
 * [Buradaki](https://github.com/dydxfoundation/dip) dYdX repo sayfasına gidin ve Github hesabınızın altındaki repo'yu çatallayın.
 
-![https://github.com/dydxfoundation/dip](<.. /.gitbook/assets/image (104).png>)
+![https://github.com/dydxfoundation/dip](..%20/.gitbook/assets/image%20\(104\).png)
 
 * Çatallanan DIP repo'sunda DIP'lerin içeriğinin yer aldığı dizine gidin: [https://github.com/\[user\_name\]/dip/tree/master/content/dips](https://github.com/yt8073/dip/tree/master/content/dips).
 
-![](<.. /.gitbook/assets/Untitled 16>)
+![](..%20/.gitbook/assets/Untitled%2016)
 
 * Dips klasörünü seçin: [https://github.com/\[user\_name\]/dip/tree/master/content](https://github.com/Jwatts15/dip/tree/master/content).
 
-![](<.. /.gitbook/assets/Untitled 17>)
+![](..%20/.gitbook/assets/Untitled%2017)
 
 Dips klasörü, [buradaki](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) DIP şablonunu izleyen önceki tekliflerin bir dizinini içerir.
 
-![https://github.com/dydxfoundation/dip/tree/master/content/dips](<.. /.gitbook/assets/image (98).png>)
+![https://github.com/dydxfoundation/dip/tree/master/content/dips](..%20/.gitbook/assets/image%20\(98\).png)
 
 * Bir teklif taslağına başlamadan önce, çatalladığınız dalın ana dalın en son sürümü ile güncellenmiş olduğundan emin olun. DIP repo'sunun eski bir sürümünü kullanıyorsanız, çatallanmış sürümünüzün en son değişiklikleri içeren bir şekilde güncel olduğunu lütfen doğrulayın. Çatallanmış sürümünüzü yeniden temellendirme konusunda yardım almak için şuradaki adımları izleyebilirsiniz: [https://stackoverflow.com/quotions/7929369/how-to-repase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master).
 * [DIP şablonunu](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) teklifinizin bilgileri ile düzenleyin. Eğer DIP repo'sunu çatallamadıysanız, düzenle simgesini seçtiğinizde, yönetici olmadığınız için repo ana daldan otomatik olarak çatallanacaktır.
 
-![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](<.. /.gitbook/assets/Untitled 19 (2)>)
+![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](..%20/.gitbook/assets/Untitled%2019%20\(2\))
 
 * [Şablonu](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) izleyin ve DIP'inizi `content/dips/` dizinindeki depo çatalınıza ekleyin. Lütfen aşağıda verilen DIP Durumları adlandırma ilkelerini izleyin.
 
@@ -198,12 +200,9 @@ DIP Durumları:
 * Onaylandı - uygulamaya koyulması dYdX topluluğu tarafından kabul edilen bir DIP.
 * Uygulamaya Koyuldu - ana ağda yayınlanan bir DIP.
 * Reddedildi - reddedilen bir DIP.
-
-
-
 * Tüm içeriğin doğru olduğunu kontrol ettikten sonra, çalışma dalınızdan dYdX Vakfı'nın Beklemedeki DIP'ler dalına bir Çekme Talebi oluşturun. Bu Çekme Talebini dYdX Vakfı'nın ana dalına lütfen **göndermeyin** çünkü herhangi bir dış taraf ana dalla birleştirmek isterse IPFS işi başarısız olacaktır. Lütfen [burada](https://github.com/dydxfoundation/dip/pull/8) örnek olarak verilen Çekme Talebini kullanın.
 
-![](../.gitbook/assets/21.png)
+![](<../.gitbook/assets/21 (2).png>)
 
 * İnceleme sonrasında, dYdX Vakfı, Beklemedeki DIP'ler dalındaki değişiklikleri Ana şube ile birleştirecektir.
 
@@ -271,13 +270,10 @@ Teklifin uygulanmasına ilişkin olarak README dosyasında yer alan adımları �
 
 * DIP'yi oluşturmak için yeni bir cüzdan oluşturun. Konuşlandırma süreci bir çevre değişkeni olarak kurtarma cümlenizi girmenizi gerektirecektir; bu yüzden zincir içi DIP oluşturmak için tek kullanımlık bir cüzdan kullanmanızı öneririz.
 * DIP'yi oluşturmak için tek kullanımlık cüzdana yeterli teklif verme yetkisi delege edin. Teklif verme yetkisini [burada](https://dydx.community/dashboard) delege edebilirsiniz. Farklı teklif verme gücü eşikleri aşağıda verilmiştir ve eşikleri [burada](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) da bulabilirsiniz.
-
-   * Short Timelock: toplam arzın %0,5'i (teklif verme yetkili 5 milyon).
-   * Starkware Executor: toplam arzın %0,5'i (teklif verme yetkili 5 milyon).
-   * Long Timelock Executor: toplam arzın %2,0'si (teklif verme yetkili 20 milyon).
-   * Merkle Pauser Executor: toplam arzın %0,5'i (teklif verme yetkili 5 milyon).
-
-
+  * Short Timelock: toplam arzın %0,5'i (teklif verme yetkili 5 milyon).
+  * Starkware Executor: toplam arzın %0,5'i (teklif verme yetkili 5 milyon).
+  * Long Timelock Executor: toplam arzın %2,0'si (teklif verme yetkili 20 milyon).
+  * Merkle Pauser Executor: toplam arzın %0,5'i (teklif verme yetkili 5 milyon).
 * Bir Alchemy Anahtarı oluşturun. Alchemy Anahtarı sayesinde Ethereum ile etkileşim kurmak ve akıllı sözleşmeyi konuşlandırmak için bir Ethereum Düğümü çalıştırmanıza gerek yoktur. Bir Alchemy Anahtarı oluşturma kılavuzunu [burada](https://docs.alchemy.com/alchemy/introduction/getting-started) bulabilirsiniz.
 
 ![https://docs.alchemy.com/alchemy/introduction/getting-started](../.gitbook/assets/29.png)
@@ -302,11 +298,11 @@ Hesabınızı oluşturduktan sonra, [buradaki](https://docs.alchemy.com/alchemy/
 * Teklif ettiğiniz akıllı sözleşme uygulamalarınızın taslağını oluşturun.
 * IPFS hash'i otomatik olarak oluşturulur ve [buradan](https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips) edinilebilir. IPFS hash'i, `DIP-[New DIP #]-ipfs-hashes.json` dosya adı altında dYdX Vakfı'nın dizininde olacaktır.
 
-![https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips](<.. /.gitbook/assets/image (100).png>)
+![https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips](..%20/.gitbook/assets/image%20\(100\).png)
 
 * Yeni dosyayı (`DIP-[New DIP #]-ipfs-hashes.jso`) seçtikten sonra, encodedHash kullandığınızdan emin olun.
 
-![https://github.com/dydxfoundation/dip/blob/master/content/ipfs-dips/DIP-3-Ipfs-hashes.json](<.. /.gitbook/assets/image (102).png>)
+![https://github.com/dydxfoundation/dip/blob/master/content/ipfs-dips/DIP-3-Ipfs-hashes.json](..%20/.gitbook/assets/image%20\(102\).png)
 
 ### **2. ADIM - Zincir içinde bir DIP gönderin**
 
@@ -331,9 +327,9 @@ Paradigm ekibi, aşağıdaki betikleri çalıştırarak akıllı sözleşme gün
 `export MNEMONIC=<... >`
 
 `npx hardhat --network mainnet deploy:safety-module-recovery`\
- `--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
- `--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
- `--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`
+`--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
+`--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
+`--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`
 
 **Yönetişim Teklifi: Safety Module Düzeltmesi**
 
@@ -342,12 +338,12 @@ Paradigm ekibi, aşağıdaki betikleri çalıştırarak akıllı sözleşme gün
 `export MNEMONIC=<... >`
 
 `npx hardhat --network mainnet deploy:safety-module-fix-proposal`\
- `--proposal-ipfs-hash-hex 0x...`\
- `--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
- `--long-timelock-address 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B`\
- `--safety-module-address 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC`\
- `--safety-module-proxy-admin-address 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C`\
- `--safety-module-new-impl-address 0x...`
+`--proposal-ipfs-hash-hex 0x...`\
+`--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
+`--long-timelock-address 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B`\
+`--safety-module-address 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC`\
+`--safety-module-proxy-admin-address 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C`\
+`--safety-module-new-impl-address 0x...`
 
 **Yönetişim Teklifi: Safety Module Tazminatı**
 
@@ -356,14 +352,12 @@ Paradigm ekibi, aşağıdaki betikleri çalıştırarak akıllı sözleşme gün
 `export MNEMONIC=<... >`
 
 `npx hardhat --network mainnet deploy:safety-module-compensation-proposal`\
- `--proposal-ipfs-hash-hex 0x...`\
- `--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
- `--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
- `--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
- `--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`\
- `--safety-module-recovery-address 0x...`
-
-
+`--proposal-ipfs-hash-hex 0x...`\
+`--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
+`--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
+`--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
+`--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`\
+`--safety-module-recovery-address 0x...`
 
 Aynı anda DIP, [https://dydx.community/dashboard](https://dydx.community/dashboard) üzerinde yayınlanmıştır.
 
@@ -402,10 +396,10 @@ DIP'nin zincir üzerinde uygulamaya koyulduğu anda [https://dydx.community/dash
 #### _Bir DIP Zincir İçinde Nasıl Gönderilir:_
 
 * DIP'yi oluşturmak için yeterli teklif verme yetkisine sahip olduğunuzdan emin olun. Daha fazla bilgiyi [DIP Oluşturma](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle) başlığı altında bulabilirsiniz.
-   * Short Timelock Executor: toplam arzın %0,5'i (teklif verme yetkili 5 milyon).
-   * Starkware Executor: toplam arzın %0,5'i (teklif verme yetkili 5 milyon).
-   * Long Timelock Executor: toplam arzın %2,0'si (teklif verme yetkili 20 milyon).
-   * Merkle Pauser Executor: toplam arzın %0,5'i (teklif verme yetkili 5 milyon).
+  * Short Timelock Executor: toplam arzın %0,5'i (teklif verme yetkili 5 milyon).
+  * Starkware Executor: toplam arzın %0,5'i (teklif verme yetkili 5 milyon).
+  * Long Timelock Executor: toplam arzın %2,0'si (teklif verme yetkili 20 milyon).
+  * Merkle Pauser Executor: toplam arzın %0,5'i (teklif verme yetkili 5 milyon).
 * Gas ücretini ödemek için cüzdanda ETH olduğundan emin olun.
 * Ethereum Mainnet ağı için Alchemy üzerinde bir uygulama oluşturun.
 
@@ -413,7 +407,7 @@ DIP'nin zincir üzerinde uygulamaya koyulduğu anda [https://dydx.community/dash
 
 * Uygulama oluşturulduktan sonra, Alchemy Anahtarınızı (7LOaQtguSm2kSEcFXQH88B) almak için "Anahtarı Görüntüle" seçeneğine tıklayın: [https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul](https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul).
 
-![https://dashboard.alchemyapi.io/apps/xogmjmlex8tlmr95](<.. /.gitbook/assets/image (105).png>)
+![https://dashboard.alchemyapi.io/apps/xogmjmlex8tlmr95](..%20/.gitbook/assets/image%20\(105\).png)
 
 * Node.js ve npm'yi indirin ve kurun: [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 * Hardhat'i kurun: [https://hardhat.org/tutorial/setting-up-the-environment.html](https://hardhat.org/tutorial/setting-up-the-environment.html).
