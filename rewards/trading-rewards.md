@@ -13,7 +13,7 @@ description: 거래 보상 프로그램 개요
 
 ## **개요**
 
-![Earn rewards by trading on the dYdX Layer 2 Protocol](<../.gitbook/assets/image (17).png>)
+![dYdX Layer 2 프로토콜 거래로 보상 획득하기](<../.gitbook/assets/image (17).png>)
 
 DYDX는 dYdX Layer 2 프로토콜에 대한 유료 및 미결제 이자의 조합을 보상으로 제공하는 공식을 기반으로 하여 트레이더에게 배포될 것입니다. DYDX는 5년 동안 28일 순환을 기준으로 배포될 예정이며 모든 베스팅 또는 락업에서 제외됩니다. 3,835,616 DYDX가 순환당 배포됩니다.
 
@@ -21,9 +21,7 @@ DYDX는 dYdX Layer 2 프로토콜에 대한 유료 및 미결제 이자의 조�
 
 ![](../.gitbook/assets/math-20211221.png)
 
-$$ 
-r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k 
-$$
+$$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k $$
 
 | 기간 | 정의 |
 | ---------------------------- | ------------------------------------------------------------------------------------------ |
@@ -35,11 +33,13 @@ $$
 | 일 | 이 에폭 내 모든 시장에 트레이더가 보유한 평균 미결제 약정(1분마다 측정) |
 | k | 이 에폭 내 총 트레이더 수 |
 | g | 에폭 전체에서 트레이더의 평균 stkDYDX 보유량(1분마다 임의로 측정) |
-| a | 0.67 |
-| b | 0.28 |
+| a | 0.80 |
+| b | 0.15 |
 | c | 0.05 |
 
-## 자주 묻는 질문
+[DIP-10](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-10.md)에서 dYdX 커뮤니티는 수수료 매개 변수의 무게를 `a=0.67`에서 `a=0.8`로 변경하고 미결 이자 매개 변수를 `b=0.28`에서 `b=0.15`로 감소하는 데 동의했습니다.
+
+## FAQ
 
 ### 거래 보상을 받을 수 있는 자격은 무엇입니까?
 
@@ -51,7 +51,7 @@ dYdX 레이어 2 프로토콜은 dYdX Trading Inc.의 [이용 약관](https://dy
 
 현재 에폭에서 사용자는 사용자의 거래 데이터가 존재하는 [**trade.dydx.exchange/portion**](https://trade.dydx.exchange/portfolio/rewards)에서 지불한 수수료, 평균 미결제 약정, 예상 거래 보상을 확인할 수 있습니다.
 
-![Rewards info for the current epoch](<../.gitbook/assets/image (18).png>)
+![현재 에폭에 대한 보상 정보](<../.gitbook/assets/image (18).png>)
 
 과거 에폭에서 얻은 보상은 [**dydx.community/boris/reward**](https://dydx.community/history/rewards) ****(곧 제공 예정)에서 확인할 수 있습니다.
 
@@ -63,7 +63,7 @@ dYdX 레이어 2 프로토콜은 dYdX Trading Inc.의 [이용 약관](https://dy
 
 사용자는 DYDX를 클레임하려면 "클레임"를 클릭하고 거래에 서명하고 가스 수수료를 지불해야 합니다.
 
-![Portfolio overview of rewards](<../.gitbook/assets/image (20).png>)
+![보상 포트폴리오 개요](<../.gitbook/assets/image (20).png>)
 
 ### 미결제 약정은 무엇입니까?
 
