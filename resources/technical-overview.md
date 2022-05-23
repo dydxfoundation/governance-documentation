@@ -71,7 +71,7 @@ Yönetişim sözleşmeleri ve staking havuzları için tüm akıllı sözleşme 
 
 dydx.community sitesinde barındırılan yönetişim ön ucu için kaynak kodunu [burada](https://github.com/dydxfoundation/pnyx) bulabilirsiniz.
 
-Önemli tüm yeni akıllı sözleşmeler Peckshield tarafından denetlenmiştir. Hiçbir önemli veya yüksek öncelikli güvenlik sorunu bulunmamıştır. Ana yönetişim ve token sözleşmeleri [CertiK](https://www.certik.io), [Certora](https://www.certora.com) ve [Peckshield](https://peckshield.com/en) tarafından denetlenen AAVA yönetişim sözleşmelerinden çatallanmıştır ve mainnet üzerinde aylarca savaş testine tabi tutulmuştur.
+Önemli tüm yeni akıllı sözleşmeler Peckshield tarafından denetlenmiştir. Hiçbir önemli veya yüksek öncelikli güvenlik sorunu bulunmamıştır. Çekirdek yönetişim ve token sözleşmeleri [CertiK](https://www.certik.io), [Certora](https://www.certora.com) ve [Peckshield](https://peckshield.com/en) tarafından denetlenen Aave yönetişim sözleşmelerinden fork'lanmıştır ve mainnet üzerinde aylarca saha testine tabi tutulmuştur.
 
 ## Ana Yönetişim Sözleşmeleri
 
