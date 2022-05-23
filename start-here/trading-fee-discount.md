@@ -1,9 +1,9 @@
 ---
-description: Holders receive trading fee discounts based on their current holdings
+description: Token sahipleri mevcut bakiyelerine göre işlem ücretlerinden indirim alır
 ---
 
-# Fee Discounts
+# Ücret İndirimleri
 
-dYdX Trading Inc. is currently offering DYDX holders trading fee discounts based on their current holdings of DYDX tokens. Traders can see their current DYDX holdings, fee tier, and trading fee discounts [**here**](https://trade.dydx.exchange/portfolio/fees). More information is also available on the dYdX Trading Help Center available [**here**](https://help.dydx.exchange/en/articles/4798040-perpetual-trade-fees).
+dYdX Trading Inc. şu anda DYDX sahiplerine, güncel DYDX token bakiyelerine göre işlem ücretlerinden indirimler sunmaktadır. Alım satım yapanlar güncel DYDX bakiyelerini, ücret kademelerini ve işlem ücreti indirimlerini [**burada**](https://trade.dydx.exchange/portfolio/fees) görebilirler. Daha fazla bilgi [**buradan**](https://help.dydx.exchange/en/articles/4798040-perpetual-trade-fees) ulaşılabilen dYdX Alım Satım Yardım Merkezi'nde mevcuttur.
 
-![You may pay lower fees for holding DYDX tokens](<../.gitbook/assets/image (89).png>)
+![You may pay lower fees for holding DYDX tokens](<.. /.gitbook/assets/image (89).png>)

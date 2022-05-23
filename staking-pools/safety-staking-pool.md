@@ -1,119 +1,119 @@
 ---
-description: An overview of the Safety Staking Pool
+description: Güvenlik Staking Havuzuna genel bir bakış
 ---
 
 # Safety Module
 
-`2.50%` of the initial token supply (`25,000,000 DYDX`) will be distributed to users staking DYDX to a Safety pool for backstopping the system.
+İlk baştaki token arzının (`25.000.000 DYDX`) `%2,50'si` sistemi desteklemek için bir Güvenlik havuzunda DYDX stake eden kullanıcılara dağıtılacaktır.
 
-**Objectives**
+**Hedefler**
 
-* Bootstrap a decentralized fund to be used in the case of insolvency or other issues with the protocol.
-* Incentivize DYDX holders to govern correctly: DYDX holders risk dilutive events as the ultimate backstop and act as the governors of risk in the system.
+* Ödeme aczi veya protokolle ilgili diğer sorunlar yaşanması durumunda kullanılacak merkezsizleştirilmiş bir fona kaynak sağlamak.
+* DYDX sahiplerini doğru bir şekilde yönetişime teşvik etmek: DYDX sahipleri temel destekleyiciler olarak sulandırıcı olayların riskini üstlenir ve sistemde riskleri yönetenler olarak hareket ederler.
 
-DYDX staked in the Safety Module retains its proposing and voting rights, as well as delegation abilities.
+Safety Module'da stake edilen DYDX teklif verme ve oy kullanma haklarının yanı sıra delegasyon imkânını da sürdürür.
 
-Start staking at [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
+[**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety) sayfasında staking yapmaya başlayın****
 
-## Overview
+## Genel bakış
 
-User safety and protection have been a key focus since the launch of the Protocol. For that reason, DYDX will be distributed to users who stake DYDX to the safety pool to create an additional safety net for users of the Protocol.  Stakers will receive DYDX continuously proportional to their portion of the total DYDX in the pool.
+Kullanıcı güvenliği ve koruması Protokol'ün kullanıma sunulmasından bu yana kilit bir odak noktası olmuştur. Bu nedenle, Protokol'ün kullanıcıları için ek bir güvenlik ağı oluşturmak amacıyla, güvenlik havuzunda DYDX stake eden kullanıcılara DYDX dağıtılacaktır. Stake edenler havuzdaki toplam DYDX içindeki paylarıyla orantılı olarak sürekli DYDX alacaktır.
 
-The Safety pool will go live upon DYDX becoming transferrable on September 8th, 2021, 15:00 UTC.
+Güvenlik havuzu, 8 Eylül 2021 günü saat 18.00'de (TSİ) DYDX transfer edilebilir hale geldiğinde kullanıma açılacaktır.
 
-## Withdrawals
+## Fon Çekme
 
-Stakers must request to withdraw funds at least `14 days` **(Blackout Window)** before the end of the epoch in order to be able to withdraw funds after the end of that epoch. If stakers do not request to withdraw, their staked DYDX is rolled over into the next epoch.&#x20;
+Stake edenler dönemin sona ermesinden sonra fon çekebilmek için dönemin sona ermesinden en az `14 gün` **(Karartma Süresi)** önce fon çekme talebinde bulunmalıdır. Stake edenler fon çekme talebinde bulunmazsa, stake ettikleri DYDX'ler bir sonraki döneme devredilir.
 
-## Risks
+## Riskler
 
-Staked DYDX may be slashed as a result of a shortfall event. Slashing occurs at the discretion of DYDX governance, and requires a governance vote to enact.
+Stake edilen DYDX'ler bir eksi bakiyeye düşme olayı yaşanması durumunda slashing sürecine maruz kalır. Slashing DYDX yönetişiminin takdirine bağlı olarak uygulanır ve yürürlüğe konması için bir yönetişim oylaması gerektirir.
 
-Like participants in any DeFi protocol, stakers in the Safety Module are exposed to smart contract risk if there is a vulnerability in the underlying smart contract code. All DYDX & governance smart contracts have been audited and rigorously tested.
+Tıpkı tüm diğer DeFi protokollerindeki katılımcılar gibi, Safety Module üzerinde stake edenler de dayanak akıllı sözleşme kodunda bir güvenlik açığı olması durumunda akıllı sözleşme riskine maruz kalır. Tüm DYDX ve yönetişim akıllı sözleşmeleri denetlenmiş ve titizlikle test edilmiştir.
 
-## Shortfall Events
+## Eksi Bakiyeye Düşme Olayları
 
-The interpretation for the occurrence of a Shortfall Event is subject to a dYdX governance vote but may include:
+Bir Eksi Bakiyeye Düşme Olayının meydana gelmesinin yorumlanması bir dYdX yönetişim oylamasına tabidir ancak şunları içerebilir:
 
-* Exchange Solvency (e.g., exchange becoming under-collateralized due to unprofitable liquidations)
-* Smart contract attacks
-* Other events dYdX governance deems to have resulted in a shortfall
+* Borsanın Ödeme Kabiliyeti (örneğin, borsanın kâr sağlamayan likidasyonlar nedeniyle eksik teminatlandırılmış bir hale gelmesi)
+* Akıllı sözleşme saldırıları
+* dYdX yönetişiminin eksi bakiyeye düşme sonucunda yaşandığını düşündüğü diğer olaylar
 
-In a Shortfall Event, token holder balances can be slashed and transferred to another address or contract (set by dYdX governance on a case by case basis). dYdX governance must pass a short timelock proposal to slash staked tokens. After a governance vote on slashing staked DYDX tokens, slashed DYDX may be auctioned on the market to be sold against the assets needed to mitigate the incurred deficit.
+Bir Eksi Bakiyeye Düşme Olayında, token sahiplerinin bakiyeleri slashing sürecine tabi tutulabilir ve başka bir adrese veya sözleşmeye transfer edilebilir (vaka bazında dYdX yönetişimi tarafından belirlenir). dYdX yönetişimi, stake edilen token'ları slash etmek için bir short timelock teklifini oylamadan geçirmelidir. Stake edilmiş DYDX token'larını slash etme konusunda bir yönetişim oylaması sonrasında, slash edilen DYDX'ler ortaya çıkan açığı kapatmak için ihtiyaç duyulan varlıklara karşılık piyasada açık artırmaya çıkarılabilir.
 
-## FAQ
+## SSS
 
-### How do I earn staking rewards?
+### Staking ödüllerini nasıl kazanabilirim?
 
-Stakers can deposit DYDX at any time to the safety staking pool and start earning rewards immediately. DYDX rewards are earned on a continuous basis according to each staker’s share of the total pool on a second-by-second basis. Rewards can be claimed and withdrawn at any time.
+Stake edenler diledikleri zaman güvenlik staking havuzuna DYDX yatırabilir ve hemen ödül kazanmaya başlayabilirler. DYDX ödülleri her bir stake edenin toplam havuzdaki payına göre saniye bazında sürekli olarak kazanılır. Ödüller istendiği zaman talep edilebilir ve çekilebilir.
 
-Active funds earn rewards for the period of time that they remain active. This means, after requesting a withdrawal of some funds, those funds will continue to earn rewards until the end of the epoch. This is demonstrated in the following example from the [Liquidity staking pool](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool):
+Aktif fonlar aktif kaldıkları süre boyunca ödül kazanır. Bu da bazı fonların çekilmesi talep edildikten sonra o fonların dönem sonuna kadar ödül kazanmaya devam edeceği anlamına gelir. Bu durum, [Likidite staking havuzundan](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool) aşağıdaki örnekte gösterilmektedir:
 
-![](<../.gitbook/assets/image (59).png>)
+![](<.. /.gitbook/assets/image (59).png>)
 
-In the above scenario, the user would earn rewards for the period from **Time0** to **Time2**, varying with the total staked balance in that period. If the user only requests a withdrawal for a part of their balance, then the remaining balance would continue earning rewards beyond **Time2**.
+Yukarıdaki senaryoda, kullanıcı **Zaman0'dan** **Zaman2**'ye kadar olan süre için ödül kazanır ve ödül de o dönemde stake edilen toplam bakiyeye göre değişir. Kullanıcı bakiyesinin yalnızca bir kısmını çekmeyi talep ederse geriye kalan bakiye **Zaman2'nin** ötesinde de ödül kazanmaya devam eder.
 
-### How do I deposit and stake DYDX to the Safety Pool?
+### Güvenlik Havuzuna nasıl DYDX yatırabilir ve stake edebilirim?
 
-To stake DYDX to the Safety Pool, follow these steps:
+Güvenlik Havuzunda DYDX stake etmek için şu adımları izleyin:
 
-* Go to [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
-* Click on “**Stake**”
-* You must enable DYDX the first time you deposit. You will only have to do this once and incur gas fees only once.
-* Enter the amount of DYDX you want to stake to the pool.
-* Click “**Stake Funds**”.  You will need to pay gas fees to stake and unstake funds.
+* [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety) adresine gidin****
+* "**Stake Et**" seçeneğine tıklayın
+* İlk yatırma işleminizde DYDX'i etkinleştirmeniz gerekir. Bunu sadece bir kez yapmanız ve gas ücretlerini de yalnızca bir kez ödemeniz gerekecektir.
+* Havuzda stake etmek istediğiniz DYDX miktarını girin.
+* "**Fonları Stake Et**" seçeneğine tıklayın. Fonları stake etmek ve staking'den çıkarmak için gas ücretleri ödemeniz gerekecektir.
 
-Staked funds are now active and start earning rewards immediately.
+Stake edilen fonlar artık aktiftir ve hemen ödül kazanmaya başlar.
 
-To deposit and stake and funds directly on the smart contract, users call the \`stake\` [function](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L59). Users can also deposit and stake on behalf of another address by calling the \`stakeFor\` [function](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L64).
+Doğrudan akıllı sözleşme üzerinde fon yatırmak ve stake etmek için, kullanıcılar \'stake\' [fonksiyonunu](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L59) çağırır. Kullanıcılar ayrıca \'stakeFor\' [fonksiyonunu](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L64) çağırarak başka bir adres adına da fon yatırabilir ve stake edebilirler.
 
-### What is stkDYDX?
+### stkDYDX nedir?
 
-To contribute to the safety of the protocol and receive incentives, DYDX holders will deposit their tokens into the Safety Module. In return, they will receive a tokenized position (**stkDYDX**) that can be withdrawn or transferred as an ERC-20. The **stkDYDX** token has the same proposing and voting rights as DYDX on dYdX governance.
+Protokolün güvenliğine katkıda bulunmak ve teşvik almak için, DYDX sahipleri token'larını Safety Module'a yatırır. Buna karşılık da bir ERC-20 olarak çekilebilen veya transfer edilebilen token'a dönüştürülmüş bir pozisyon (**stkDYDX**) alırlar. **stkDYDX** token'ı dYdX yönetişimi üzerinde DYDX ile aynı teklif verme ve oy verme haklarına sahiptir.
 
-### What is the blackout window?
+### Karartma süresi nedir?
 
-A blackout window is a period of time during which users cannot request withdrawals of staked funds. An epoch schedule is enforced for withdrawals in order to provide predictability and a regular cadence for the availability of funds in the pool. A staker must request to unstake funds before the blackout window in order to be able to withdraw their funds after the end of that epoch. If a staker does not request to withdraw, their staked funds are rolled over into the next epoch.
+Karartma süresi kullanıcıların stake edilen fonlarını çekmeyi talep edemediği bir zaman dilimidir. Havuzdaki fonların kullanılabilirliği için öngörülebilirlik ve düzenli bir tempo sağlamak amacıyla çekim işlemleri için bir dönem takvimi uygulanmaktadır. Stake eden bir kişi, fonlarını o dönem sona erdikten sonra çekebilmek için karartma süresi başlamadan önce fonlarını staking'den çıkarma talebinde bulunmalıdır. Stake eden bir kişi eğer çekim talebinde bulunmazsa, kendisinin stake edilen fonları bir sonraki döneme devredilir.
 
-The recommended blackout window for the Safety Pool is `14 days`.
+Güvenlik Havuzu için önerilen karartma süresi `14 gündür`.
 
-### How does staked balance accounting work?
+### Stake edilen bakiyelerin muhasebesi nasıl yapılır?
 
-A staked balance is in one of two states:
+Stake edilen bir bakiye şu iki durumdan birinde olur:
 
-* **Active**: Available for borrowing; earning staking rewards; cannot be withdrawn by staker.
-* **Inactive**: Unavailable for borrowing; does not earn rewards; can be withdrawn by the staker.
+* **Aktif**: Borç almak için kullanılabilir; staking ödülleri kazanır; stake eden kişi tarafından çekilemez.
+* **Aktif Değil**: Borç almak için kullanılamaz; ödül kazanmaz; stake eden kişi tarafından çekilebilir.
 
-A staker may have a combination of active and inactive balances. Funds are accounted for epoch-by-epoch as shown in the following example:
+Stake eden bir kişi hem aktif hem de aktif olmayan bakiyelere sahip olabilir. Fonlar aşağıdaki örnekte gösterilen şekilde dönem bazında hesaplanır:
 
-![](<../.gitbook/assets/image (36).png>)
+![](<.. /.gitbook/assets/image (36).png>)
 
-The following operations affect staked balances as follows:
+Aşağıdaki işlemler stake edilen bakiyeleri aşağıda belirtilen şekilde etkiler:
 
-* **Deposit**: Increase active balance.
-* **Request** **withdrawal**: At the end of the current epoch, move some active funds to inactive.
-* **Withdraw**: Decrease inactive balance.
-* **Transfer**: Move some active funds to another staker.
+* **Fon Yatırma**: Aktif bakiyeyi artırır.
+* **Fon Çekme** **Talebi**: Mevcut dönemin sonunda, bazı aktif fonları aktif olmayan bir konuma taşır.
+* **Fon Çekme**: Aktif olmayan bakiyeyi azaltır.
+* **Transfer**: Bazı aktif fonları stake eden başka bir kişiye aktarır.
 
-To encode the fact that a balance may be scheduled to change at the end of a certain epoch, we store each balance as a struct of three fields: currentEpoch, currentEpochBalance, and nextEpochBalance.
+Belirli bir dönemin sonunda bir bakiyenin değişmesinin planlanmış olabileceğini kodlamak için her bakiyeyi üç alandan oluşan bir yapı halinde saklarız: currentEpoch, currentEpochBalance ve nextEpochBalance.
 
-### How do I withdraw funds from the staking pool? How long does it take?
+### Stake havuzundan nasıl fon çekebilirim? Ne kadar sürer?
 
-An epoch schedule is enforced for withdrawals in order to provide predictability and a regular cadence for the availability of funds in the pool. A staker must request to withdraw funds at least `14 days` before the end of an epoch in order to be able to withdraw their funds after the end of that epoch. If stakers do not request to withdraw, their staked DYDX is rolled over into the next epoch.
+Havuzdaki fonların kullanılabilirliği için öngörülebilirlik ve düzenli bir tempo sağlamak amacıyla çekim işlemleri için bir dönem takvimi uygulanmaktadır. Stake eden bir kişi, fonlarını o dönem sona erdikten sonra çekebilmek için bir dönemin sona ermesinden en az `14 gün` önce fon çekme talebinde bulunmalıdır. Stake edenler fon çekme talebinde bulunmazsa, stake ettikleri DYDX'ler bir sonraki döneme devredilir.
 
-To withdraw funds, users call the \`requestWithdrawal\` function to request to withdraw funds for the next epoch. User funds will remain staked and not withdrawable for the current epoch. Starting in the next epoch, funds will be “inactive” and available for withdrawal.
+Fonlarını çekebilmek amacıyla, kullanıcılar bir sonraki dönemde fon çekme talebinde bulunmak için \`requestWithdrawal\` fonksiyonunu çağırır. Kullanıcı fonları stake edilmeye devam edecektir ve mevcut dönem boyunca çekilemez. Bir sonraki dönemden başlayarak, fonlar "aktif değil" olacak ve çekilebilecektir.
 
-In the next epoch, users call the \`withdrawStake\` function to withdraw inactive funds to a specific address. Users can select the amount of inactive funds they want to withdraw or call the \`withdrawMaxStake\` function to withdraw all inactive funds. Note that the \`withdrawMaxStake\` function is less gas-efficient than querying the max via eth\_call and calling \`withdrawStake()\`.
+Bir sonraki dönemde, kullanıcılar aktif olmayan fonlarını belirli bir adrese çekmek için \`withdrawStake\` fonksiyonunu çağırır. Kullanıcılar çekmek istedikleri aktif olmayan fon miktarını seçebilir veya aktif olmayan tüm fonlarını çekmek için \`withdrawMaxStake\` fonksiyonunu çağırabilir. \`withdrawMaxStake\` fonksiyonunu çağırmanın, eth\_call aracılığıyla maksimum değeri sorgulayıp \`withdrawStake()\` fonksiyonunu çağırmaktan daha fazla gas ücreti ödemenize neden olacağını unutmayın.
 
-To withdraw DYDX from the Liquidity Pool, follow these steps:
+Likidite Havuzundan DYDX çekmek için şu adımları izleyin:
 
-* Go to [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
-* Click on “**Request**”, and enter the amount of DYDX you want to request to withdraw from the pool.
-* Click “**Request withdraw**”. You will need to pay gas fees to withdraw funds.
-* Stakers who request to withdraw DYDX at least 14 days before the current epoch ends can withdraw their DYDX at the start of the next epoch.
+* [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety) adresine gidin****
+* "**Talep Et**" seçeneğine tıklayın ve havuzdan çekmeyi talep etmek istediğiniz DYDX miktarını girin.
+* "**Fon çekmeyi talep et**" seçeneğine tıklayın. Fon çekmek için gas ücretleri ödemeniz gerekecektir.
+* Mevcut dönemin sona ermesinden en az 14 gün önce DYDX çekme talebinde bulunan stake edenler bir sonraki dönemin başında DYDX'lerini çekebilirler.
 
-### What are the risks for stakers to the safety staking pool? What happens in the case of a Shortfall Event?
+### Güvenlik staking havuzunda stake edenler için riskler nelerdir? Eksi Bakiyeye Düşme Olayı durumunda ne olur?
 
-A staker’s decision to lock DYDX into the Safety Pool exposes them to the risk of a shortfall event, which can result in the slashing of staked DYDX funds at the discretion of DYDX governance.
+Stake eden bir kişinin Güvenlik Havuzu'nda DYDX kilitleme kararı bu kişiyi bir eksi bakiyeye düşme riski ile karşı karşıya bırakır ve bu da DYDX yönetişiminin takdirine bağlı olarak stake edilen DYDX fonlarının slashing sürecine tabi tutulmasına yol açabilir.
 
-All funds in the contract, active or inactive, are slashable. Within the contract, slashing is implemented via an update to the exchange rate between DYDX and stkDYDX. This means that as slashes occur, the exchange rate between DYDX and stkDYDX will diverge from its initial value of 1:1. Note that the earning of staking rewards is unaffected by slashes.
+Sözleşmedeki aktif veya aktif olmayan tüm fonlar slash edilebilir. Sözleşme kapsamında, slashing süreci DYDX ve stkDYDX arasındaki kurun güncellenmesi yoluyla gerçekleştirilir. Bu da slashing süreci sırasında DYDX ve stkDYDX arasındaki kurun ilk baştaki 1:1 değerinden sapacağı anlamına gelir. Staking ödüllerinin kazanılmasının slashing sürecinden etkilenmediğini unutmayın.

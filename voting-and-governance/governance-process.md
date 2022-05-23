@@ -1,67 +1,67 @@
 ---
-description: A high-level overview of governance architecture.
+description: Yönetişim mimarisine üst düzey bir bakış.
 ---
 
-# Architecture
+# Mimari
 
-## Overview
+## Genel bakış
 
-DYDX grants holders the right to propose and vote on changes to the Protocol. DYDX governance is based on the AAVE governance contracts, and supports voting based on DYDX token holdings.
+DYDX, sahiplerine Protokol üzerinde yapılacak değişiklikler için teklif verme ve oy verme hakkı verir. DYDX yönetişimi, AAVE yönetişim sözleşmelerine dayalıdır ve DYDX token bakiyelerine dayalı olarak oy vermeyi destekler.
 
-Proposals must pass a given threshold and percent of yes votes based on the type of proposal.
+Teklifler, teklif türüne bağlı olarak evet oylarında belirli bir eşiği ve yüzdeyi geçmelidir.
 
-These DYDX tokens can be used to make proposals or vote on governance proposals or be delegated to other Ethereum addresses.
+Bu DYDX token'ları teklif vermek veya yönetişim teklifleri üzerinde oy vermek için kullanılabilir veya başka Ethereum adreslerine delege edilebilir.
 
-There are 6 smart contracts at the core of dYdX Governance:
+dYdX Yönetişiminin merkezinde 6 akıllı sözleşme vardır:
 
-* **The `DYDX Token` contract**: has snapshots of each address’ voting power at different blocks in time.
-* **The `Governance Strategy` contract**: contains logic to measure users' relative power to propose and vote.
-* **The `Safety Module` contract**: contains logics to stake DYDX tokens, tokenize the position and get rewards. Token staked the safety module retain full governance rights.
-* **The `Governor` contract**: tracks proposals and can execute proposals via the Timelock smart contract.
-* **The `Timelock` contracts**: can queue, cancel, or execute transactions voted by Governance. The functions in a proposal are initiated by the Timelock contract. Queued transactions can be executed after a delay and before the expiration of the grace period.&#x20;
-* **The `Priority Timelock` contract**: The same as the timelock contract, but allows a priority controller to execute transactions within the **Priority Period** (7 days) before the end of the timelock delay.&#x20;
+* **`DYDX Token` sözleşmesi**: Her bir adresin oy verme yetkisinin zaman içinde farklı bloklardaki anlık görüntülerine sahiptir.
+* **`Governance Strategy` sözleşmesi**: Kullanıcıların teklif verme ve oy verme yetkisini ölçen mantığı içerir.
+* **`Safety Module` sözleşmesi**: DYDX token'larının stake edilmesini, pozisyonun token'a dönüştürülmesini ve ödüllerin alınmasını sağlayan mantıkları içerir. Güvenlik modülünde stake edilen token'lar tüm yönetişim haklarını muhafaza eder.
+* **`Governor` sözleşmesi**: Teklifleri izler ve Timelock akıllı sözleşmesi aracılığıyla teklifleri yürütür.
+* **`Timelock` sözleşmeleri**: Yönetişim tarafından oylanan işlemleri sıraya koyar, iptal eder veya yürütür. Bir teklifteki işlevler Timelock sözleşmesi tarafından başlatılır. Sıraya koyulan işlemler belirli bir süre sonra ve ödemesiz dönem sona ermeden önce yürütülür.
+* **`Priority Timelock` sözleşmesi: Timelock** sözleşmesi ile aynıdır, ancak bir öncelik denetleyicisinin timelock bekleme süresi sona ermeden önce **Öncelik Süresi** (7 gün) içinde işlemleri gerçekleştirmesine olanak tanır.
 
-![Smart contract architecture](<../.gitbook/assets/image (49).png>)
+![Smart contract architecture](<.. /.gitbook/assets/image (49).png>)
 
-dYdX on-chain governance allows for:
+Zincir içi dYdX yönetişimi şunlara olanak tanır:
 
-* Voting on proposals to be executed by any authorized executor contract
-* Snapshotting token holdings at the start of a proposal
-* Separate delegation of voting and proposing powers
-* Setting governance thresholds including proposals, quorums, and vote differential powers
-* Changing how votes are counted (by changing the “Governance Strategy” smart contract address on the Governor contract)
+* Yetkili herhangi bir executor sözleşmesi tarafından yürütülecek tekliflere oy verme
+* Bir teklifin başlangıcında token bakiyelerinin anlık görüntülerini alma
+* Oy verme ve teklif verme yetkilerini ayrı ayrı delege etme
+* Teklifler, karar yeter sayıları ve oy farkı yetkileri de dâhil olmak üzere yönetişim eşiklerini belirleme
+* Oyların nasıl sayıldığını değiştirme (Governor sözleşmesi üzerindeki "Governance Strategy" akıllı sözleşme adresini değiştirerek)
 
-## Proposal Types
+## Teklif Türleri
 
-There are four types of proposals with different parameters which affect the length and execution of a proposal, i.e. critical proposals that affect governance consensus require more voting time and a higher vote differential, whereas proposals affecting only protocol parameters require less voting time and can be quickly implemented. An executor must validate each type of proposal.
+Bir teklifin süresini ve yürütülmesini etkileyen farklı parametrelere sahip dört tür teklif vardır, yani yönetişim mutabakatını etkileyen önemli teklifler daha uzun bir oylama süresi ve daha yüksek bir oy farkı gerektirirken sadece protokol parametrelerini etkileyen teklifler ise daha kısa bir oylama süresi gerektirir ve hızlı bir şekilde uygulamaya koyulabilir. Bir executor her tür teklifi doğrulamalıdır.
 
 #### **Short timelock executor**
 
-The short timelock executor controls the following:
+Short timelock executor şunları kontrol eder:
 
-* Incentive contracts including the Liquidity Module, Safety Module, and Merkle Distributor Module
-* funds in the Rewards and Community Treasuries
-* minting new tokens
-* all proxy contracts except the safety module
-* guardian roles on stark proxy contracts
+* Liquidity Module, Safety Module ve Merkle Distributor Module da dâhil olmak üzere teşvik sözleşmeleri
+* Ödül ve Topluluk Hazinelerindeki fonlar
+* yeni token'ların basılması
+* Safety Module hariç tüm proxy sözleşmeleri
+* stark proxy sözleşmelerindeki koruyucu rolleri
 
 **Starkware priority timelock executor**
 
-The Starkware priority timelock executor owns the StarkEx Perpetual Exchange contract. It can execute proposals that control the configuration of the dYdX Layer 2 Exchange.
+Starkware priority timelock executor, StarkEx Perpetual Exchange sözleşmesinin sahibidir. dYdX Katman 2 Borsasının yapılandırmasını kontrol eden teklifleri yürütebilir.
 
-Depending on the action to be taken, the Starkware team may need to be involved in order to correctly implement the change on the exchange. For this reason, this executor is provided with a “priority controller” role, which provides Starkware with a period of 7 days (**Priority Period**) in which only they have the ability to trigger execution of a proposal.
+Alınacak eyleme bağlı olarak, borsa üzerindeki değişikliği doğru bir şekilde uygulamaya koymak için Starkware ekibinin sürece dâhil olması gerekebilir. Bu nedenle, bir teklifin yürütülmesini tetikleme imkânına sahip olduğu 7 günlük (**Öncelik Süresi**) bir süreyi Starkware'e sağlayan bir "priority controller" rolü bu executor'a verilir.
 
-Starkware does not have control over _which_ protocol changes are made. Only DYDX tokenholders, via dYdX governance, have the ability to approve or deny changes to the exchange protocol.
+Starkware, _hangi_ protokol değişikliklerinin yapılacağı üzerinde kontrole sahip değildir. Yalnızca DYDX token sahipleri, dYdX yönetişimi aracılığıyla borsa protokolündeki değişiklikleri onaylama veya reddetme imkânına sahiptir.
 
 #### **Long timelock executor**
 
-The long timelock executor can execute proposals that generally change parts of the Protocol that affect governance consensus.
+Long timelock executor, genellikle Protokol'ün yönetişim mutabakatını etkileyen bölümlerini değiştiren teklifleri yürütür.
 
 #### **Merkle-pauser executor**
 
-The Merkle-pauser executor can execute proposals that freeze the Merkle root, which is updated periodically with each user's cumulative reward balance, allowing new rewards to be distributed to users over time, in case the proposed root is incorrect or malicious. It can also veto forced trade requests by any of the stark proxy contracts.
+Merkle-pauser executor, her bir kullanıcının toplam ödül bakiyesi ile düzenli aralıklarla güncellenen Merkle kökünü donduran teklifleri yürütür ve önerilen kökün yanlış veya kötü amaçlı olması durumunda kullanıcılara yeni ödüllerin zamanla dağıtılmasına olanak verir. Ayrıca stark proxy sözleşmelerinden herhangi biri tarafından zorlanan alım satım taleplerini de veto edebilir.
 
-The initial timelock parameters are as follows:
+İlk baştaki timelock parametreleri aşağıdaki gibidir:
 
-![Initial timelock parameters](<../.gitbook/assets/Initial Timelock Parameters.png>)
+![Initial timelock parameters](<.. /.gitbook/assets/Initial Timelock Parameters.png>)
 

@@ -1,219 +1,218 @@
 ---
-description: Overview of governance architecture and smart contracts.
+description: Yönetişim mimarisi ve akıllı sözleşmelere genel bakış.
 ---
 
-# Technical Overview
+# Teknik Özet
 
-## Governance Architecture Overview
+## Yönetişim Mimarisine Genel Bakış
 
-dYdX on-chain governance supports the following features:
+dYdX zincir içi yönetişimi şu özellikleri destekler:
 
-* Creating and voting on proposals
-* Snapshotting token holdings at the start of a proposal
-* Delegating separate voting and proposing powers
-* Setting governance thresholds including proposing, quorum, and vote differential thresholds
-* Replacing the “Governance Strategy” smart contract, which determines how votes are counted
-* Configuring multiple executor contracts allowing for:
-  * rapid protocol upgrades and funds distribution via short time-lock executors;
-  * governance upgrades via long time-lock executors.
+* Teklif oluşturma ve oylama
+* Bir teklifin başlangıcında token bakiyelerinin anlık görüntülerini alma
+* Oy verme ve teklif verme yetkilerini ayrı ayrı devretme
+* Teklif verme, karar yeter sayısı ve oy farkı eşikleri de dâhil olmak üzere yönetişim eşiklerini belirleme
+* Oyların nasıl sayıldığını belirleyen “Governance Strategy” akıllı sözleşmesini değiştirme
+* Şunlara olanak veren birden fazla executor sözleşmesini yapılandırma:
+   * short time-lock executor'lar aracılığıyla hızlı protokol yükseltmeleri ve fon dağıtımı;
+   * long time-lock executor'lar aracılığıyla yönetişim yükseltmeleri.
 
-There are 6 smart contracts that support dYdX Governance:
+dYdX Yönetişimini destekleyen 6 akıllı sözleşme vardır:
 
-* **The `DydxToken` contract**: Keeps snapshots which support queries for an address’ voting or proposing power at any block number. Supports separate delegation of voting and proposing powers.
-* **The `DydxGovernor` contract**: Tracks proposals and can execute proposals via the Executor smart contracts.
-* **The `Executor` contracts**: Can queue, cancel, and execute transactions voted on by Governance. If a proposal passes, the functions calls in the proposal may be executed by the Executor contract specified in the proposal. Queued transactions can be executed after a delay, whose duration is determined by the Executor contract.
-* **The** **`Priority Timelock`** **contract**: The same as the timelock contract, but allows a priority controller to execute transactions within the **Priority Period** (7 days) before the end of the timelock delay.
-* **The `Governance Strategy` contract**: Contains the logic for counting votes. Currently, counts votes from the DYDX Token and the Safety Module. Can be upgraded via the long time-lock.
-* **The `Safety Module` contract**: Contains logics to stake DYDX tokens, tokenize a staked position, and earn rewards, while retaining the voting and proposing rights and delegation functions of the underlying tokens.
+* **`DydxToken` sözleşmesi**: Bir adresin herhangi bir blok numarasındaki oy verme veya teklif verme yetkisi için yapılan sorguları destekleyen anlık görüntüleri saklar. Oy verme ve teklif verme yetkilerinin ayrı ayrı devredilmesini destekler.
+* **`DydxGovernor` sözleşmesi**: Teklifleri izler ve Executor akıllı sözleşmeleri aracılığıyla teklifleri yürütür.
+* **`Executor` sözleşmeleri**: Yönetişim tarafından oylanan işlemleri sıraya koyar, iptal eder ve yürütür. Bir teklif geçerse, teklifteki işlev çağrıları teklifte belirtilen Executor sözleşmesi ile yürütülür. Sıraya koyulan işlemler belirli bir bekleme süresinin ardından gerçekleştirilir ve bu süre Executor sözleşmesi tarafından belirlenir.
+* ******`Priority Timelock`** **sözleşmesi**: Timelock sözleşmesi ile aynıdır ancak bir öncelik denetleyicisinin timelock bekleme süresi sona ermeden önce **Öncelik Süresi** (7 gün) içinde işlemleri gerçekleştirmesine olanak tanır.
+* **`Governance Strategy` sözleşmesi**: Oy sayma mantığını içerir. Şu anda, DYDX Token ve Safety Module'dan verilen oyları sayar. Long time-lock aracılığıyla yükseltilebilir.
+* **`Safety Module` sözleşmesi**: DYDX token'larını stake etme, stake edilmiş bir pozisyonu token'a dönüştürme ve ödül kazanma mantıklarını içerir ve dayanak token'ların oy verme ve teklif verme haklarını ve yetki devri işlevlerini sürdürür.
 
 {% tabs %}
-{% tab title="Mainnet" %}
-| Contract                             | Address                                    |
-| ------------------------------------ | ------------------------------------------ |
-| DydxToken                            | 0x92D6C1e31e14520e676a687F0a93788B716BEff5 |
-| DydxGovernor                         | 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2 |
-| Short Timelock Executor              | 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc |
-| Long Timelock Executor               | 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B |
-| Merkle-Pauser Timelock Executor      | 0xd98e7A71BacB6F11438A8271dDB2EFd7f9361F52 |
-| Starkware Priority Timelock Executor | 0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE |
-| Rewards Treasury                     | 0x639192D54431F8c816368D3FB4107Bc168d0E871 |
-| Community Treasury                   | 0xE710CEd57456D3A16152c32835B5FB4E72D9eA5b |
-| Safety Module                        | 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC |
-| GovernanceStrategy                   | 0x90Dfd35F4a0BB2d30CDf66508085e33C353475D9 |
-| Rewards Treasury Vester              | 0xb9431E19B29B952d9358025f680077C3Fd37292f |
-| Community Treasury Vester            | 0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8 |
-| Merkle Distributor                   | 0x01d3348601968aB85b4bb028979006eac235a588 |
-| Chainlink Adapter                    | 0x99B0599952a4FD2d1A1561Fa4C010827EaD30354 |
-| Liquidity Staking                    | 0x5Aa653A076c1dbB47cec8C1B4d152444CAD91941 |
-| Claims Proxy                         | 0x0fd829C3365A225FB9226e75c97c3A114bD3199e |
-| StarkEx Helper Governor              | 0x0db9b3F7Dd83e29C9bece8E5e1089bA4369E694a |
-| StarkEx Remover Governor V2          | 0xFCAac0F14deA11eDe11Afcb875f29130e1ad5ec0 |
-| Rewards Treasury Proxy Admin         | 0x40D6992cbd03E0DC1c2DE9606D29Cb245E737a5d |
-| Community Treasury Proxy Admin       | 0x9d51599A6b10f562619D8ef2EFDcA1B68aE80D03 |
-| Safety Module Proxy Admin            | 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C |
-| Merkle Distributor Proxy Admin       | 0x6C5cd3aD7A16Ae207D221908E6b997d9B0DcD7b0 |
-| Liquidity Staking Proxy Admin        | 0xAc5D8bCD13da463bea96c75f9085c4e40037F790 |
-| StarkProxy \[0]                      | 0x0b2B08AC98a1568A34208121c26F4F41a9e0FbB6 |
-| StarkProxy \[1]                      | 0x3e6E9EFb0A677a24F47093a22044dc5451A028cF |
-| StarkProxy \[2]                      | 0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2 |
-| StarkProxy \[3]                      | 0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06 |
-| StarkProxy \[4]                      | 0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874 |
-| StarkProxy Proxy Admin \[0]          | 0xE16718eace44e0CB06b9cd164490A69A6425D1e3 |
-| StarkProxy Proxy Admin \[1]          | 0x78e899e576C3565C3219dbC9Ea5042A9DBed36d3 |
-| StarkProxy Proxy Admin \[2]          | 0x15774D4555fEfD57C9Fc8b11C8beba993eafcc13 |
-| StarkProxy Proxy Admin \[3]          | 0x4d9460e5C958f46a1Fe129954A069a37972f16EA |
-| StarkProxy Proxy Admin \[4]          | 0xfa45DCDbEc82C94082d283B62506320DB8632054 |
-{% endtab %}
-{% endtabs %}
+ {% tab title="Mainnet" %}
+ | Sözleşme                             | Adres                                    |
+ | ------------------------------------ | ------------------------------------------ | | DydxToken                            | 0x92D6C1e31e14520e676a687F0a93788B716BEff5 |
+ | DydxGovernor                         | 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2 |
+ | Short Timelock Executor              | 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc |
+ | Long Timelock Executor               | 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B |
+ | Merkle-Pauser Timelock Executor      | 0xd98e7A71BacB6F11438A8271dDB2EFd7f9361F52 |
+ | Starkware Priority Timelock Executor | 0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE |
+ | Rewards Treasury                     | 0x639192D54431F8c816368D3FB4107Bc168d0E871 |
+ | Community Treasury                   | 0xE710CEd57456D3A16152c32835B5FB4E72D9eA5b |
+ | Safety Module                        | 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC |
+ | GovernanceStrategy                   | 0x90Dfd35F4a0BB2d30CDf66508085e33C353475D9 |
+ | Rewards Treasury Vester              | 0xb9431E19B29B952d9358025f680077C3Fd37292f |
+ | Community Treasury Vester            | 0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8 |
+ | Merkle Distributor                   | 0x01d3348601968aB85b4bb028979006eac235a588 |
+ | Chainlink Adapter                    | 0x99B0599952a4FD2d1A1561Fa4C010827EaD30354 |
+ | Liquidity Staking                    | 0x5Aa653A076c1dbB47cec8C1B4d152444CAD91941 |
+ | Claims Proxy                         | 0x0fd829C3365A225FB9226e75c97c3A114bD3199e |
+ | StarkEx Helper Governor              | 0x0db9b3F7Dd83e29C9bece8E5e1089bA4369E694a |
+ | StarkEx Remover Governor V2          | 0xFCAac0F14deA11eDe11Afcb875f29130e1ad5ec0 |
+ | Rewards Treasury Proxy Admin         | 0x40D6992cbd03E0DC1c2DE9606D29Cb245E737a5d |
+ | Community Treasury Proxy Admin       | 0x9d51599A6b10f562619D8ef2EFDcA1B68aE80D03 |
+ | Safety Module Proxy Admin            | 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C |
+ | Merkle Distributor Proxy Admin       | 0x6C5cd3aD7A16Ae207D221908E6b997d9B0DcD7b0 |
+ | Liquidity Staking Proxy Admin        | 0xAc5D8bCD13da463bea96c75f9085c4e40037F790 |
+ | StarkProxy \[0]                      | 0x0b2B08AC98a1568A34208121c26F4F41a9e0FbB6 |
+ | StarkProxy \[1]                      | 0x3e6E9EFb0A677a24F47093a22044dc5451A028cF |
+ | StarkProxy \[2]                      | 0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2 |
+ | StarkProxy \[3]                      | 0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06 |
+ | StarkProxy \[4]                      | 0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874 |
+ | StarkProxy Proxy Admin \[0]          | 0xE16718eace44e0CB06b9cd164490A69A6425D1e3 |
+ | StarkProxy Proxy Admin \[1]          | 0x78e899e576C3565C3219dbC9Ea5042A9DBed36d3 |
+ | StarkProxy Proxy Admin \[2]          | 0x15774D4555fEfD57C9Fc8b11C8beba993eafcc13 |
+ | StarkProxy Proxy Admin \[3]          | 0x4d9460e5C958f46a1Fe129954A069a37972f16EA |
+ | StarkProxy Proxy Admin \[4]          | 0xfa45DCDbEc82C94082d283B62506320DB8632054 |
+ {% endtab %}
+ {% endtabs %}
 
-## Open-source code & audited
+## Açık kaynak kodu ve denetlenmiş
 
-All smart contract source code for the governance contracts and staking pools can be found at [https://github.com/dydxfoundation/governance-contracts](https://github.com/dydxfoundation/governance-contracts).
+Yönetişim sözleşmeleri ve staking havuzları için tüm akıllı sözleşme kaynak kodlarını [https://github.com/dydxfoundation/governance-contracts](https://github.com/dydxfoundation/governance-contracts) adresinde bulabilirsiniz.
 
-The source code for the governance frontend hosted at dydx.community can be found [here](https://github.com/dydxfoundation/pnyx).
+dydx.community sitesinde barındırılan yönetişim ön ucu için kaynak kodunu [burada](https://github.com/dydxfoundation/pnyx) bulabilirsiniz.
 
-All major new smart contracts have been audited by Peckshield. No significant or high priority security issues were found. The core governance and token contracts are forked from the Aave governance contracts which were audited by [CertiK](https://www.certik.io/), [Certora](https://www.certora.com/), and [Peckshield](https://peckshield.com/en) and have been battle-tested live on mainnet for months.
+Önemli tüm yeni akıllı sözleşmeler Peckshield tarafından denetlenmiştir. Hiçbir önemli veya yüksek öncelikli güvenlik sorunu bulunmamıştır. Ana yönetişim ve token sözleşmeleri [CertiK](https://www.certik.io), [Certora](https://www.certora.com) ve [Peckshield](https://peckshield.com/en) tarafından denetlenen AAVA yönetişim sözleşmelerinden çatallanmıştır ve mainnet üzerinde aylarca savaş testine tabi tutulmuştur.
 
-## Core Governance Contracts
+## Ana Yönetişim Sözleşmeleri
 
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.17.43 PM.png>)
+![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/assets/Screen Shot 2021-09-03 at 5.17.43 PM.png>)
 
 ### DydxToken
 
-The DydxToken contract was inspired by Aave. Minor changes have been made by the dYdX team.
+DydxToken sözleşmesinde Aave'den esinlenilmiştir. dYdX ekibi tarafından küçük değişiklikler yapılmıştır.
 
-DYDX is deployed at [0x92D6C1e31e14520e676a687F0a93788B716BEff5](https://etherscan.io/address/0x92d6c1e31e14520e676a687f0a93788b716beff5) on the Ethereum mainnet. It was built from commit \[coming soon].
+DYDX, Ethereum mainnet'te [0x92D6C1e31e14520e676a687F0a93788B716Beff5](https://etherscan.io/address/0x92d6c1e31e14520e676a687f0a93788b716beff5) adresinde konuşlandırılmıştır. Commit'ten oluşturulmuştur \[pek yakında].
 
 **ABI**
 
-\[coming soon]
+\[pek yakında]
 
 ### DydxGovernor
 
-The DydxGovernor contract was inspired by Aave. Minor changes have been made by dYdX.&#x20;
+DydxGovernor sözleşmesinde Aave'den esinlenilmiştir. dYdX tarafından küçük değişiklikler yapılmıştır.
 
-Governor is deployed at [0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2) on the Ethereum mainnet. It was built from commit \[coming soon].
+Governor, Ethereum mainnet'te [0x7E9B1672616FF6629Ef2879419aE79A9018D2](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2) adresinde konuşlandırılmıştır. Commit'ten oluşturulmuştur \[pek yakında].
 
 ### GovernanceStrategy
 
-The GovernanceStrategy contract was inspired by Aave.
+GovernanceStrategy sözleşmesinde Aave'den esinlenilmiştir.
 
-Strategy is deployed at [0x90Dfd35F4a0BB2d30CDf66508085e33C353475D9](https://etherscan.io/address/0x90Dfd35F4a0BB2d30CDf66508085e33C353475D9) on the Ethereum mainnet. It was built from commit \[coming soon].
-
-**ABI**
-
-\[coming soon]
-
-### Executors
-
-The Executor contract was inspired by Aave. Minor changes have been made by dYdX.&#x20;
-
-The **Long Timelock** is deployed at [0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B](https://etherscan.io/address/0xecae9bf44a21d00e2350a42127a377bf5856d84b) on the Ethereum mainnet. It was built from commit \[coming soon].
+Strategy, Ethereum mainnet'te [0x90Dfd35F4a0BB2d30CDf665085e33C353475D9](https://etherscan.io/address/0x90Dfd35F4a0BB2d30CDf66508085e33C353475D9) adresinde konuşlandırılmıştır. Commit'ten oluşturulmuştur \[pek yakında].
 
 **ABI**
 
-\[coming soon]
+\[pek yakında]
 
-The **Short Timelock** is deployed at [0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B](https://etherscan.io/address/0xecae9bf44a21d00e2350a42127a377bf5856d84b) on the Ethereum mainnet. It was built from commit \[coming soon].
+### Executor'lar
 
-**ABI**
+Executor sözleşmesinde Aave'den esinlenilmiştir. dYdX tarafından küçük değişiklikler yapılmıştır.
 
-\[coming soon]
-
-The **Merkle Timelock** is deployed at [0xd98e7A71BacB6F11438A8271dDB2EFd7f9361F52](https://etherscan.io/address/0xd98e7a71bacb6f11438a8271ddb2efd7f9361f52) on the Ethereum mainnet. It was built from commit \[coming soon].
+**Long Timelock**, Ethereum mainnet'te [0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B](https://etherscan.io/address/0xecae9bf44a21d00e2350a42127a377bf5856d84b) adresinde konuşlandırılmıştır. Commit'ten oluşturulmuştur \[pek yakında].
 
 **ABI**
 
-\[coming soon]
+\[pek yakında]
 
-The **Starkware Priority Timelock** is deployed  at [0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE](https://etherscan.io/address/0xa306989ba6bcacdeccf3c0614fff2b8c668e3cae) on the Ethereum mainnet. It was built from commit \[coming soon].
+**Short Timelock**, Ethereum mainnet'te [0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B](https://etherscan.io/address/0xecae9bf44a21d00e2350a42127a377bf5856d84b) adresinde konuşlandırılmıştır. Commit'ten oluşturulmuştur \[pek yakında].
 
 **ABI**
 
-\[coming soon]
+\[pek yakında]
 
-## DYDX Incentives Contracts
+**Merkle Timelock**, Ethereum mainnet'te [0xd98e7A71BacB6F11438A8271dDB2EFd7f9361F52](https://etherscan.io/address/0xd98e7a71bacb6f11438a8271ddb2efd7f9361f52) adresinde konuşlandırılmıştır. Commit'ten oluşturulmuştur \[pek yakında].
+
+**ABI**
+
+\[pek yakında]
+
+**Starkware Priority Timelock**, Ethereum mainnet'te [0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE](https://etherscan.io/address/0xa306989ba6bcacdeccf3c0614fff2b8c668e3cae) adresinde konuşlandırılmıştır. Commit'ten oluşturulmuştur \[pek yakında].
+
+**ABI**
+
+\[pek yakında]
+
+## DYDX Teşvik Sözleşmeleri
 
 ### Merkle Distributor
 
 
 
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.23.50 PM.png>)
+![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/assets/Screen Shot 2021-09-03 at 5.23.50 PM.png>)
 
-The Merkle Distributor smart contract distributes DYDX token rewards according to a Merkle tree of balances. The tree can be updated periodically with each user's cumulative reward balance, allowing new rewards to be distributed to users over time.
+Merkle Distributor akıllı sözleşmesi Merkle bakiyeler ağacına göre DYDX token ödüllerini dağıtır. Ağaç her kullanıcının toplam ödül bakiyesi ile belirli aralıklarla güncellenebilir ve böylece yeni ödüller zaman içerisinde kullanıcılara dağıtılabilir.
 
-An update is performed by setting the proposed Merkle root to the latest value returned by the oracle contract. The proposed Merkle root can be made active after a waiting period has elapsed. During the waiting period, dYdX Governance has the opportunity to freeze the Merkle root, in case the proposed root is incorrect or malicious. Root updates can be unpaused by ShortTimelockExecutor.
+Bir güncelleme, teklif edilen Merkle kökünü oracle sözleşmesi tarafından döndürülen en son değere ayarlayarak gerçekleştirilir. Teklif edilen Merkle kökü, bekleme süresi geçtikten sonra aktif hale getirilebilir. Bekleme süresi zarfında, dYdX Yönetişimi teklif edilen kökün yanlış veya kötü amaçlı olması durumunda Merkle kökünü dondurma imkânına sahiptir. Kök güncellemelerinin duraklatması ShortTimelockExecutor tarafından kaldırılabilir.
 
-The Merkle Distributor smart contract was inspired by Uniswap and Badger designs. The smart contract is deployed at 0x01d3348601968aB85b4bb028979006eac235a588 on the Ethereum mainnet. It was built from commit \[coming soon].
+Merkle Distributor akıllı sözleşmesinde Uniswap ve Badger tasarımlarından esinlenilmiştir. Akıllı sözleşme Ethereum mainnet'te 0x01d3348601968aB85b4bb028979006eac235a588 adresinde konuşlandırılmıştır. Commit'ten oluşturulmuştur \[pek yakında].
 
 **ABI**
 
-\[coming soon]
+\[pek yakında]
 
 ### Safety Module
 
 
 
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.24.45 PM.png>)
+![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/assets/Screen Shot 2021-09-03 at 5.24.45 PM.png>)
 
-The Safety Module is a staking pool that offers DYDX rewards to users who stake DYDX towards the security of the Protocol.
+Safety Module, Protokol'ün güvenliği için DYDX stake eden kullanıcılara DYDX ödülleri sunan bir staking havuzudur.
 
 **ABI**
 
-\[coming soon]
+\[pek yakında]
 
 
 
-### Liquidity Module
+### Likidite Modülü
 
 
 
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.25.30 PM.png>)
+![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/assets/Screen Shot 2021-09-03 at 5.25.30 PM.png>)
 
-The Liquidity Module is a collection of smart contracts for staking and borrowing, which incentivize the allocation of USDC funds for market making purposes on the dYdX layer 2 exchange.
+Liquidity Module, staking ve borç verme için bir akıllı sözleşme koleksiyonudur ve bu sözleşmeler USDC fonlarının dYdX katman 2 borsası üzerinde piyasa yapıcı amaçları doğrultusunda tahsis edilmesini teşvik eder.
 
-Stakers earn DYDX rewards for staking USDC. The staked funds may be borrowed by certain pre-approved partners, on a reputational basis, without collateral. The funds may only be used on the L2 exchange—this is enforced via the StarkProxy contract which interacts with the StarkEx Perpetual Exchange contract.
+Stake edenler, USDC staking için DYDX ödülleri kazanır. Stake edilen fonlar, belirli önceden onaylanmış ortaklar tarafından itibarlarına bağlı olarak teminatsız bir şekilde borç alınabilir. Bu fonlar sadece L2 borsası üzerinde kullanılabilir. Bu zorunluluk, StarkEx Perpetual Exchange sözleşmesi ile etkileşime giren StarkProxy sözleşmesi aracılığıyla gözetilir.
 
-![A diagram of the Liquidity module](<../.gitbook/assets/image (66).png>)
+![A diagram of the Liquidity module](<.. /.gitbook/assets/image (66).png>)
 
 ### StarkProxy
 
-This contract allows the owner to borrow funds from LiquidityStaking and use those funds on StarkPerpetual. Additional funds may be deposited by the owner, and any funds in excess of the borrowed amount may be withdrawn freely. This contract interacts with the [StarkPerpetual](https://github.com/starkware-libs/starkex-contracts/tree/master/scalable-dex/contracts/src/perpetual) contract which was written by Starkware, and previously audited and deployed.
+Bu sözleşme token sahibinin LiquidityStaking'den fon borç almasına ve bu fonları StarkPerpetual'da kullanmasına olanak tanır. Token sahibi tarafından daha fazla fon yatırılabilir ve borç alınan tutarın üzerindeki fonlar serbestçe çekilebilir. Bu sözleşme, Starkware tarafından yazılmış ve daha önce denetlenmiş ve konuşlandırılmış olan [StarkPerpetual](https://github.com/starkware-libs/starkex-contracts/tree/master/scalable-dex/contracts/src/perpetual) sözleşmesi ile etkileşime girer.
 
 
 
-### Treasury Contracts
+### Hazine Sözleşmeleri
 
 
 
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM.png>)
+![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM.png>)
 
-The TreasuryVester contract was inspired by [Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol).
+TreasuryVester sözleşmesinde [Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol)'tan esinlenilmiştir.
 
-The Short Timelock can only execute governance-approved actions.
+Short Timelock yalnızca yönetişim tarafından onaylanmış eylemleri yürütebilir.
 
-There are two treasury vesters and treasury contracts, one is for incentive contract rewards and the other is for holding “general purpose” treasury funds.
+İki treasury vester ve hazine sözleşmesi vardır. Bunların ilki teşvik sözleşmesi ödülleri için, diğeri ise “genel amaçlı” hazine fonlarını tutmak içindir.
 
-Since governance controls each treasury, it can transfer funds to any address and/or approve any address to spend funds from either treasury. For example, the rewards programs will need to have token approval limits set by governance.
+Her bir hazineyi yönetişim kontrol ettiğinden, her iki hazineden de fonları herhangi bir adrese aktarabilir ve/veya fonların harcanacağı herhangi bir adresi onaylayabilir. Örneğin, ödül programlarında yönetişim tarafından belirlenen token onay limitleri olması gerekir.
 
-Each treasury vester will vest tokens linearly over \~5 years (August 3rd 2021 - August 3rd 2026) to the corresponding treasury.
+Her bir treasury vester, token'ları ilgili hazineye \~5 yıl (3 Ağustos 2021 - 3 Ağustos 2026) boyunca doğrusal bir şekilde vest edecektir.
 
 
 
-## Peripheral Contracts
+## Harici Sözleşmeler
 
-### Chainlink Oracle-Powered Rewards (Trading & Liquidity Provider Rewards)
+### Chainlink Oracle Tarafından Desteklenen Ödüller (Alım Satım ve Likidite Sağlayıcı Ödülleri)
 
-The goal of this system is to calculate and publish, via a decentralized network of oracle signers, the DYDX token rewards earned by traders using the dYdX layer 2 exchange. Rewards are stored in a Merkle tree, which contains the cumulative rewards earned by each user since the start of the distribution program. Each epoch, the Merkle root is updated on the MerkleDistributorV1 smart contract to reflect rewards earned in the last epoch.
+Bu sistemin amacı, dYdX katman 2 borsasını kullanan yatırımcılar tarafından kazanılan DYDX token ödüllerini merkeziyetsiz bir oracle imzalayanları ağı aracılığıyla hesaplamak ve yayınlamaktır. Ödüller, dağıtım programının başlangıcından itibaren her kullanıcı tarafından kazanılan toplam ödülü içeren bir Merkle ağacında saklanır. Her bir dönemde, Merkle kökü son dönemde kazanılan ödülleri yansıtacak şekilde MerkleDistributorV1 akıllı sözleşmesinde güncellenir.
 
-We have integrated with the Chainlink Oracle system to post rewards data on-chain. We use IPNS to post the trading data that Chainlink uses to build the Merkle tree. By using IPNS, we can post the trading data for the latest epoch under the same IPNS link as previous epochs, meaning the location of the data won't change.
+Ödül verilerini zincir içinde yayınlamak için Chainlink Oracle sistemi ile entegre olduk. Chainlink'in Merkle ağacını oluşturmak için kullandığı alım satım verilerini yayınlamak için IPNS kullanıyoruz. IPNS kullanmamız sayesinde, en son dönemin alım satım verilerini önceki dönemlerle aynı IPNS bağlantısı altında yayınlayabiliyoruz ve böylece verilerin konumu değişmiyor.
 
-After calculating the appropriate rewards from the raw trading data, Chainlink posts the Merkle tree of rewards to IPFS. The IPFS CID with the Merkle tree data is stored on the Merkle distributor contract along with the Merkle root for that epoch's rewards.
+Chainlink, ham alım satım verilerinden uygun ödülleri hesapladıktan sonra Merkle ödül ağacını IPFS'ye gönderiyor. Merkle ağacı verilerini içeren IPFS CID, o dönemin ödülleri için Merkle kökü ile birlikte Merkle distributor sözleşmesinde saklanıyor.
 
-The following flow chart shows the Chainlink Oracle-Powered Rewards system architecture:
+Aşağıdaki akış grafiği Chainlink Oracle Tarafından Desteklenen Ödüller sistem mimarisini göstermektedir:
 
-![](<../.gitbook/assets/Merkle Distributor.png>)
+![](<.. /.gitbook/assets/Merkle Distributor.png>)
 
-### Other Assets
+### Diğer Varlıklar
 
-* dYdX Foundation brand assets are available [**here**](https://dydx.foundation/brand)****
+* dYdX Vakfı markalı varlıklar [**burada**](https://dydx.foundation/brand) mevcuttur****
