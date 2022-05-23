@@ -34,7 +34,7 @@ Tous les codes source des contrats intelligents pour les contrats de gouvernance
 
 Le code source de l'interface de gouvernance hébergée sur dydx.community se trouve [ici](https://github.com/dydxfoundation/pnyx).
 
-Tous les nouveaux contrats intelligents majeurs ont été audités par Peckshield. Aucun problème de sécurité important ou hautement prioritaire n'a été détecté. Les contrats de gouvernance de base et de jetons sont dérivés des contrats de gouvernance AAVA qui ont été audités par [CertiK](https://www.certik.io), [Certora](https://www.certora.com) et [Peckshield](https://peckshield.com/en) et ont été testés en direct sur le mainnet pendant des mois.
+Tous les nouveaux contrats intelligents majeurs ont été audités par Peckshield. Aucun problème de sécurité important ou hautement prioritaire n'a été détecté. Les contrats de gouvernance de base et de jetons sont dérivés des contrats de gouvernance Aave qui ont été audités par [CertiK](https://www.certik.io), [Certora](https://www.certora.com) et [Peckshield](https://peckshield.com/en) et ont été testés en direct sur le mainnet pendant des mois.
 
 ## Contrats de gouvernance de base
 
