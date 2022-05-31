@@ -13,7 +13,7 @@ description: Aperçu du programme des récompenses de trading.
 
 ## **Aperçu**
 
-![Earn rewards by trading on the dYdX Layer 2 Protocol](<.. /.gitbook/assets/image (17).png>)
+![Gagnez des récompenses en tradant sur le protocole de layer 2](<../.gitbook/assets/image (17).png>)
 
 DYDX sera distribué aux traders sur la base d'une formule qui récompense une combinaison de frais payés et d'intérêts ouverts sur le protocole de couche 2 de dYdX. DYDX sera distribué sur une période de 28 jours sur cinq ans et n'est soumis à aucune acquisition ou blocage. 3 835 616 DYDX seront distribués par époch.
 
@@ -29,13 +29,15 @@ $$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k $$
 | R | Récompense totale à partager entre tous les traders dans le pool pour l'époch. |
 | f | Frais totaux payés par un trader dans cette époch. |
 | s | Score individuel des traders. |
-| $${\sum\limits &lt;g id="1" ctype="italic" equiv-text="_"&gt;{n} w</g>{n}}$$ | Somme de tous les scores des traders. |
+| $${\sum\limits _{n} w_{n}}$$ | Somme de tous les scores des traders. |
 | j | L'intérêt ouvert moyen d'un trader (mesuré toutes les minutes) sur tous les marchés à cette époch. |
 | k | Nombre total de traders dans cette époch. |
 | g | Le stkDYDX moyen détenu par un trader (mesuré au hasard toutes les minutes) tout au long de l'époch |
-| a | 0,67 |
-| b | 0,28 |
+| a | 0,80 |
+| b | 0,15 |
 | c | 0,05 |
+
+Dans [DIP-10](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-10.md), la communauté dYdX a voté pour modifier le poids du paramètre de frais de `a=0,67`  à `a=0,8`, et diminuer le paramètre de l'intérêt ouvert de `b=0,28` à `b=0,15.`
 
 ## FAQ
 
@@ -49,7 +51,7 @@ Le protocole de couche 2 de dYdX n'est pas disponible pour les traders aux État
 
 Dans l'époch actuelle, les utilisateurs peuvent voir les frais payés, l'intérêt ouvert moyen et les récompenses de trading estimées sur [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) où les données de trading des utilisateurs existent.
 
-![Rewards info for the current epoch](<.. /.gitbook/assets/image (18).png>)
+![Informations sur les récompenses pour l'époch actuelle](<../.gitbook/assets/image (18).png>)
 
 Les récompenses des épochs passées peuvent être consultées sur [**dydx.community/history/rewards**](https://dydx.community/history/rewards) **** (bientôt disponible).
 
@@ -61,7 +63,7 @@ Les traders peuvent réclamer leurs récompenses de trading à la fin de chaque 
 
 Les utilisateurs devront cliquer sur « Réclamer », signer une transaction et payer les frais de gaz pour réclamer DYDX.
 
-![Portfolio overview of rewards](<.. /.gitbook/assets/image (20).png>)
+![Aperçu du portefeuille des récompenses](<../.gitbook/assets/image (20).png>)
 
 ### Qu'est-ce que l'intérêt ouvert ?
 
