@@ -17,7 +17,7 @@ Start staking at [**dydx.community/dashboard/pools/liquidity**](https://dydx.com
 
 Liquidity is a core component of any successful exchange. To promote liquidity network effects and incentivize professional liquidity providers, DYDX will be distributed to users who stake USDC to the liquidity staking pool. Community-approved liquidity providers will use the staked USDC to make markets on the dYdX Layer 2 Protocol, furthering the liquidity available across the markets. Liquidity providers are restricted from using borrowed funds outside of the dYdX Layer 2 Protocol.
 
-Stakers will earn DYDX rewards for staking USDC. DYDX rewards will be distributed continuously according to each staker’s portion of the total USDC in the pool.&#x20;
+Stakers will earn DYDX rewards for staking USDC. DYDX rewards will be distributed continuously according to each staker’s portion of the total USDC in the pool.
 
 Each staker and liquidity provider is required to become party to the Revolving Credit Agreement (link [here](https://dydx.foundation/revolving-credit-agreement)). The agreement puts into natural language the terms of the liquidity staking pool to give each staker an enforceable right against any liquidity provider who does not repay the borrowed USDC. The agreement is only between each staker and each liquidity provider. The dYdX Foundation is not a party to the agreement and has no rights or obligations under it.
 
@@ -37,7 +37,7 @@ If a borrower fails to repay an owed balance back to the pool by the end of the 
 
 Stakers also are exposed to smart contract risk if there is a vulnerability in the underlying smart contract code. All DYDX & governance smart contracts have been audited and rigorously tested.
 
-To reduce the risk to stakers, each staker and liquidity provider will be required to become party to the Revolving Credit Agreement (link [here](https://dydx.foundation/revolving-credit-agreement)), but entering into the agreement does not ensure that a liquidity provider will repay all amounts borrowed, even if a staker's rights under the agreement are enforced.&#x20;
+To reduce the risk to stakers, each staker and liquidity provider will be required to become party to the Revolving Credit Agreement (link [here](https://dydx.foundation/revolving-credit-agreement)), but entering into the agreement does not ensure that a liquidity provider will repay all amounts borrowed, even if a staker's rights under the agreement are enforced.
 
 ## Approved Borrowers
 
@@ -64,7 +64,7 @@ A staked balance is in one of two states:
 
 A staker may have a combination of active and inactive balances. USDC is accounted for epoch-by-epoch as shown in the following example:
 
-![Staked balance accounting ](<../.gitbook/assets/image (34).png>)
+![Staked balance accounting](<../.gitbook/assets/image (34) (1).png>)
 
 The following operations affect staked balances as follows:
 
@@ -91,7 +91,7 @@ Stakers can deposit USDC at any time to the liquidity staking pool and start ear
 
 Staked USDC earns rewards for the period of time that it remains active. This means that after requesting a withdrawal of some USDC, that USDC will continue to earn rewards until the end of the epoch. For example:
 
-![Rewards accounting](<../.gitbook/assets/image (65).png>)
+![Rewards accounting](<../.gitbook/assets/image (65) (1).png>)
 
 In the above scenario, the user would earn rewards for the period from **Time0** to **Time2**, varying with the total staked balance in that period. If the user only requests a withdrawal for a part of the user's balance, then the remaining balance would continue earning rewards beyond **Time2**.
 
@@ -125,10 +125,10 @@ In the next epoch, users call the `withdrawStake` function to withdraw inactive 
 
 To unstake USDC to the Liquidity Pool, following the following steps:
 
-* Go to [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)****
+* Go to [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*
 * Click on “**Request**”, to open the following modal:
 
-![Requesting withdraw](<../.gitbook/assets/image (58).png>)
+![Requesting withdraw](<../.gitbook/assets/image (68).png>)
 
 * Enter the amount of USDC you want to request to withdraw from the pool, and click "**Request withdraw**". You will need to pay gas fees to unstake USDC.
 * Stakers who request to unstake USDC at least 14 days (**Blackout Window**) before the current epoch ends can withdraw their USDC at the start of the next epoch.
@@ -138,7 +138,7 @@ To unstake USDC to the Liquidity Pool, following the following steps:
 dYdX governance is responsible for:
 
 * Doing due diligence on existing borrowers
-* Adding new borrowers to and/or removing existing borrowers from the Staking Liquidity Pool&#x20;
+* Adding new borrowers to and/or removing existing borrowers from the Staking Liquidity Pool
 * Changing allocations of borrowed USDC to approved borrowers
   * The `setBorrowerAllocations` and `setBorrowingRestriction` functions are called to change the allocations of certain borrowers. They can be used to add and remove borrowers. Increases take effect in the next epoch, but decreases will restrict borrowing immediately. These functions cannot be called during the blackout window.
 * Epoch length and blackout window are set upon creating the contract but can be changed
@@ -266,7 +266,7 @@ Stakers and borrowers are parties to the Revolving Credit Agreement (link [here]
 
 When `markDebt()` is called on a borrower, that borrower loses the right to borrow any further funds from the contract. This right can be reinstated by governance.
 
-Once debt has been “marked,” it is removed from the main system of accounting, and can be recovered by stakers in multiple ways. If the indebted borrower pays back the debt (or if another party, such as governance, pays it back on its behalf) then the stakers who were owed the debt may recoup the funds on a first-come, first-served basis. More flexible solutions may be implemented via the “debt operator” interface on the smart contract.
+Once debt has been “marked,” it is removed from the main system of accounting, and can be recovered by stakers in multiple ways. If the indebted borrower pays back the debt (or if another party, such as governance, pays it back on its behalf) then the stakers who were owed the debt may recoup the funds on a first-come, first-served basis. More flexible solutions may be implemented via the “debt operator” interface on the smart contract.
 
 What happens in practice after stakers receive debt will depend on the context. If it was an honest mistake by an approved borrower, stakers can expect to be paid back quickly and in full. If USDC funds were lost, governance can issue a partial repayment to the affected stakers. If the resolution is uncertain, governance may choose to issue an ERC20 receipt to affected stakers, allowing them instant liquidity while waiting for a resolution. If deemed appropriate, governance could choose to issue interest payments to receipt holders until a resolution is reached.
 

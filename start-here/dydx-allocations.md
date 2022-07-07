@@ -17,13 +17,13 @@ A total of `1,000,000,000 DYDX` have been minted, and will become accessible ove
   * **2.50%** (`25,000,000 DYDX`) to users staking DYDX to a safety staking pool ([**Safety Module**](../staking-pools/safety-staking-pool.md))
 * **27.73%** (`277,295,070 DYDX`) to past investors
 * **15.27%** (`152,704,930 DYDX`) to founders, employees, advisors, and consultants of dYdX Trading or the Foundation
-* **7.00%** (`70,000,000 DYDX`) to future employees and consultants of dYdX Trading or the dYdX Foundation&#x20;
+* **7.00%** (`70,000,000 DYDX`) to future employees and consultants of dYdX Trading or the dYdX Foundation
 
-![](<../.gitbook/assets/DYDX Allocations (Initial 5 Years).png>)
+![](<../.gitbook/assets/DYDX Allocations (Initial 5 Years) (1).png>)
 
 Starting five years after launch, a maximum perpetual inflation rate of `2%` per year may be utilized by governance to increase the supply of DYDX, ensuring the community has the resources to continue the development and growth of the Protocol. Inflation must be enacted via a governance proposal and is capped at `2%` per year.
 
-![](<../.gitbook/assets/Allocation 10 Years Inflation (1).png>)
+![](<../.gitbook/assets/Allocation 10 Years Inflation (1) (1).png>)
 
 Although the community allocation has been established as laid out above, DYDX holders have full control via governance over how the community allocation is used going forwards.
 
@@ -56,8 +56,8 @@ The dYdX Foundation has expressed its willingness to bring legal action against 
 
 ## What is the liquid supply curve of DYDX?
 
-On September 8, 2021, `8 days` after the end of Epoch 0, the initial transfer restrictions on the token will be lifted and approximately 8.11% of the DYDX supply will become liquid.&#x20;
+On September 8, 2021, `8 days` after the end of Epoch 0, the initial transfer restrictions on the token will be lifted and approximately 8.11% of the DYDX supply will become liquid.
 
 The following chart shows the total liquid supply over time:
 
-![](<../.gitbook/assets/Liquid Supply Schedule (2).png>)
+![](<../.gitbook/assets/Liquid Supply Schedule (2) (1).png>)

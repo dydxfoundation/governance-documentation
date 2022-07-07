@@ -13,13 +13,13 @@ description: Overview of the Trading Rewards program.
 
 ## **Overview**
 
-![Earn rewards by trading on the dYdX Layer 2 Protocol](<../.gitbook/assets/image (17).png>)
+![Earn rewards by trading on the dYdX Layer 2 Protocol](<../.gitbook/assets/image (17) (1).png>)
 
 DYDX will be distributed to traders based on a formula that rewards a combination of fees paid and open interest on the dYdX Layer 2 Protocol. DYDX will be distributed on a 28-day epoch basis over five years and is not subject to any vesting or lockups. 3,835,616 DYDX will be distributed per epoch.
 
 The Cobb-Douglas function is used to compute how much DYDX is awarded to each trader during each epoch:
 
-![](../.gitbook/assets/math-20211221.png)
+![](<../.gitbook/assets/math-20211221 (1).png>)
 
 $$
 r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k
@@ -55,13 +55,13 @@ In the current epoch, users can see fees paid, average open interest, and estima
 
 ![Rewards info for the current epoch](<../.gitbook/assets/image (18).png>)
 
-Rewards from past epochs can be viewed at [**dydx.community/history/rewards**](https://dydx.community/history/rewards) **** (coming soon).
+Rewards from past epochs can be viewed at [**dydx.community/history/rewards**](https://dydx.community/history/rewards) \*\*\*\* (coming soon).
 
 ### How do I claim my Trading Rewards? When can I withdraw and transfer my earned DYDX?
 
 Earned DYDX tokens via Trading Rewards will be transferable at the end of each epoch. DYDX token holders are required to wait approximately `7 days` (**Waiting Period**) after the end of the epoch to claim their tokens. Once tokens have been claimed, they can be used for dYdX governance.
 
-Traders can claim their trading rewards at the end of every epoch, after the **Waiting Period**, [here](https://dydx.community/dashboard).&#x20;
+Traders can claim their trading rewards at the end of every epoch, after the **Waiting Period**, [here](https://dydx.community/dashboard).
 
 Users will need to click on "Claim", sign a transaction, and pay gas fees to claim DYDX.
 

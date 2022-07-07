@@ -13,17 +13,17 @@ description: An overview of the Safety Staking Pool
 
 DYDX staked in the Safety Module retains its proposing and voting rights, as well as delegation abilities.
 
-Start staking at [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
+Start staking at [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
 
 ## Overview
 
-User safety and protection have been a key focus since the launch of the Protocol. For that reason, DYDX will be distributed to users who stake DYDX to the safety pool to create an additional safety net for users of the Protocol.  Stakers will receive DYDX continuously proportional to their portion of the total DYDX in the pool.
+User safety and protection have been a key focus since the launch of the Protocol. For that reason, DYDX will be distributed to users who stake DYDX to the safety pool to create an additional safety net for users of the Protocol. Stakers will receive DYDX continuously proportional to their portion of the total DYDX in the pool.
 
 The Safety pool will go live upon DYDX becoming transferrable on September 8th, 2021, 15:00 UTC.
 
 ## Withdrawals
 
-Stakers must request to withdraw funds at least `14 days` **(Blackout Window)** before the end of the epoch in order to be able to withdraw funds after the end of that epoch. If stakers do not request to withdraw, their staked DYDX is rolled over into the next epoch.&#x20;
+Stakers must request to withdraw funds at least `14 days` **(Blackout Window)** before the end of the epoch in order to be able to withdraw funds after the end of that epoch. If stakers do not request to withdraw, their staked DYDX is rolled over into the next epoch.
 
 ## Risks
 
@@ -49,7 +49,7 @@ Stakers can deposit DYDX at any time to the safety staking pool and start earnin
 
 Active funds earn rewards for the period of time that they remain active. This means, after requesting a withdrawal of some funds, those funds will continue to earn rewards until the end of the epoch. This is demonstrated in the following example from the [Liquidity staking pool](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool):
 
-![](<../.gitbook/assets/image (59).png>)
+![](<../.gitbook/assets/image (65).png>)
 
 In the above scenario, the user would earn rewards for the period from **Time0** to **Time2**, varying with the total staked balance in that period. If the user only requests a withdrawal for a part of their balance, then the remaining balance would continue earning rewards beyond **Time2**.
 
@@ -57,11 +57,11 @@ In the above scenario, the user would earn rewards for the period from **Time0**
 
 To stake DYDX to the Safety Pool, follow these steps:
 
-* Go to [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
+* Go to [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
 * Click on “**Stake**”
 * You must enable DYDX the first time you deposit. You will only have to do this once and incur gas fees only once.
 * Enter the amount of DYDX you want to stake to the pool.
-* Click “**Stake Funds**”.  You will need to pay gas fees to stake and unstake funds.
+* Click “**Stake Funds**”. You will need to pay gas fees to stake and unstake funds.
 
 Staked funds are now active and start earning rewards immediately.
 
@@ -86,7 +86,7 @@ A staked balance is in one of two states:
 
 A staker may have a combination of active and inactive balances. Funds are accounted for epoch-by-epoch as shown in the following example:
 
-![](<../.gitbook/assets/image (36).png>)
+![](<../.gitbook/assets/image (36) (1).png>)
 
 The following operations affect staked balances as follows:
 
@@ -107,7 +107,7 @@ In the next epoch, users call the \`withdrawStake\` function to withdraw inactiv
 
 To withdraw DYDX from the Liquidity Pool, follow these steps:
 
-* Go to [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
+* Go to [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
 * Click on “**Request**”, and enter the amount of DYDX you want to request to withdraw from the pool.
 * Click “**Request withdraw**”. You will need to pay gas fees to withdraw funds.
 * Stakers who request to withdraw DYDX at least 14 days before the current epoch ends can withdraw their DYDX at the start of the next epoch.

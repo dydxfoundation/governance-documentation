@@ -101,7 +101,7 @@ Next, Su Zhu created a Snapshot poll with the following options:
 
 * Register on Snapshot with your Ethereum wallet and follow dYdX proposals [here](https://snapshot.org/#/dydxgov.eth). Alternatively, you can vote and create a Snapshot poll directly on [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
 
-![https://snapshot.org/#/dydxgov.eth](<../.gitbook/assets/Untitled 5 (1)>)
+![https://snapshot.org/#/dydxgov.eth](<../.gitbook/assets/Untitled 5>)
 
 * To view active Snapshot Proposals, go to [Snapshot](https://snapshot.org/#/dydxgov.eth) or [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
 
@@ -202,7 +202,7 @@ DIP Statuses:
 * Rejected - a DIP that has been rejected.
 * After checking that all of the content is correct, create a Pull Request from your working branch against the dYdX Foundation's Pending-DIPs branch. Please **do not** submit this Pull Request against the dYdX Foundation's master branch because the IPFS job will fail if any external parties want to merge to the master branch. Please use the Pull Request linked [here](https://github.com/dydxfoundation/dip/pull/8) as an example.
 
-![](<../.gitbook/assets/21 (2).png>)
+![](<../.gitbook/assets/Untitled 15 (3)>)
 
 * After review, the dYdX Foundation will merge the changes from the Pending-DIPs branch to the Master branch.
 
@@ -290,7 +290,7 @@ After creating your account, follow the setup instructions linked [here](https:/
 
 Under “4. Start Building,” select “try deploying your first smart contract” and follow the guide.
 
-![https://docs.alchemy.com/alchemy/introduction/getting-started](../.gitbook/assets/32.png)
+![https://docs.alchemy.com/alchemy/introduction/getting-started](<../.gitbook/assets/32 (1).png>)
 
 * Open Windows command line, the default Terminal App, or download iTerm: [https://iterm2.com/](https://iterm2.com/).
 * Download and install Node.js and npm if you have not already: [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
@@ -440,11 +440,11 @@ A successful proposal can be queued to start the Timelock Delay.
 * Ensure that you are using a compatible wallet that contains Eth.
 * Go to the "Contract" Tab on Etherscan and click on "Write Contract." The Governance Contract is linked [here](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract).
 
-![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/45.png)
+![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/50.png)
 
 * Select queue and submit the “proposalId.”
 
-![](../.gitbook/assets/Nest.png)
+![](<../.gitbook/assets/Nest (2).png>)
 
 The “proposalId” can be found on Etherscan when the DIP was created: [https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad).
 
@@ -464,7 +464,7 @@ After the Timelock Delay, a successful proposal can be executed.
 
 * Go to the "Contract" Tab on Etherscan and click on "Write Contract." The Governance Contract is linked [here](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract).
 
-![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/50.png)
+![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/45.png)
 
 * Select “execute” and submit the “proposalId.”
 

@@ -76,7 +76,7 @@ All major new smart contracts have been audited by Peckshield. No significant or
 
 ## Core Governance Contracts
 
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.17.43 PM.png>)
+![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.17.43 PM (1).png>)
 
 ### DydxToken
 
@@ -90,7 +90,7 @@ DYDX is deployed at [0x92D6C1e31e14520e676a687F0a93788B716BEff5](https://ethersc
 
 ### DydxGovernor
 
-The DydxGovernor contract was inspired by Aave. Minor changes have been made by dYdX.&#x20;
+The DydxGovernor contract was inspired by Aave. Minor changes have been made by dYdX.
 
 Governor is deployed at [0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2) on the Ethereum mainnet. It was built from commit \[coming soon].
 
@@ -106,7 +106,7 @@ Strategy is deployed at [0x90Dfd35F4a0BB2d30CDf66508085e33C353475D9](https://eth
 
 ### Executors
 
-The Executor contract was inspired by Aave. Minor changes have been made by dYdX.&#x20;
+The Executor contract was inspired by Aave. Minor changes have been made by dYdX.
 
 The **Long Timelock** is deployed at [0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B](https://etherscan.io/address/0xecae9bf44a21d00e2350a42127a377bf5856d84b) on the Ethereum mainnet. It was built from commit \[coming soon].
 
@@ -126,7 +126,7 @@ The **Merkle Timelock** is deployed at [0xd98e7A71BacB6F11438A8271dDB2EFd7f9361F
 
 \[coming soon]
 
-The **Starkware Priority Timelock** is deployed  at [0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE](https://etherscan.io/address/0xa306989ba6bcacdeccf3c0614fff2b8c668e3cae) on the Ethereum mainnet. It was built from commit \[coming soon].
+The **Starkware Priority Timelock** is deployed at [0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE](https://etherscan.io/address/0xa306989ba6bcacdeccf3c0614fff2b8c668e3cae) on the Ethereum mainnet. It was built from commit \[coming soon].
 
 **ABI**
 
@@ -136,9 +136,7 @@ The **Starkware Priority Timelock** is deployed  at [0xa306989BA6BcacdECCf3C0614
 
 ### Merkle Distributor
 
-
-
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.23.50 PM.png>)
+![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.23.50 PM (1).png>)
 
 The Merkle Distributor smart contract distributes DYDX token rewards according to a Merkle tree of balances. The tree can be updated periodically with each user's cumulative reward balance, allowing new rewards to be distributed to users over time.
 
@@ -152,9 +150,7 @@ The Merkle Distributor smart contract was inspired by Uniswap and Badger designs
 
 ### Safety Module
 
-
-
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.24.45 PM.png>)
+![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.24.45 PM (1).png>)
 
 The Safety Module is a staking pool that offers DYDX rewards to users who stake DYDX towards the security of the Protocol.
 
@@ -162,13 +158,9 @@ The Safety Module is a staking pool that offers DYDX rewards to users who stake 
 
 \[coming soon]
 
-
-
 ### Liquidity Module
 
-
-
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.25.30 PM.png>)
+![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.25.30 PM (1).png>)
 
 The Liquidity Module is a collection of smart contracts for staking and borrowing, which incentivize the allocation of USDC funds for market making purposes on the dYdX layer 2 exchange.
 
@@ -180,13 +172,9 @@ Stakers earn DYDX rewards for staking USDC. The staked funds may be borrowed by 
 
 This contract allows the owner to borrow funds from LiquidityStaking and use those funds on StarkPerpetual. Additional funds may be deposited by the owner, and any funds in excess of the borrowed amount may be withdrawn freely. This contract interacts with the [StarkPerpetual](https://github.com/starkware-libs/starkex-contracts/tree/master/scalable-dex/contracts/src/perpetual) contract which was written by Starkware, and previously audited and deployed.
 
-
-
 ### Treasury Contracts
 
-
-
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM.png>)
+![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM (1).png>)
 
 The TreasuryVester contract was inspired by [Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol).
 
@@ -197,8 +185,6 @@ There are two treasury vesters and treasury contracts, one is for incentive cont
 Since governance controls each treasury, it can transfer funds to any address and/or approve any address to spend funds from either treasury. For example, the rewards programs will need to have token approval limits set by governance.
 
 Each treasury vester will vest tokens linearly over \~5 years (August 3rd 2021 - August 3rd 2026) to the corresponding treasury.
-
-
 
 ## Peripheral Contracts
 
@@ -212,8 +198,8 @@ After calculating the appropriate rewards from the raw trading data, Chainlink p
 
 The following flow chart shows the Chainlink Oracle-Powered Rewards system architecture:
 
-![](<../.gitbook/assets/Merkle Distributor.png>)
+![](<../.gitbook/assets/Merkle Distributor (1).png>)
 
 ### Other Assets
 
-* dYdX Foundation brand assets are available [**here**](https://dydx.foundation/brand)****
+* dYdX Foundation brand assets are available [**here**](https://dydx.foundation/brand)\*\*\*\*
