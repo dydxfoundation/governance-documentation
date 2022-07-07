@@ -15,15 +15,31 @@ There are two powers associated with each DYDX token:
 
 DYDX holders receive governance powers proportionally to their sum of owned and delegated tokens at a given block.
 
-**`Proposing Power =`**`Proposing Power from DYDX token + `\
-`Proposing Power from staked-DYDX token + `\
-`Proposing Power from DYDX token received as delegatee - `\
-`Proposing Power from DYDX delegated`
+**`Proposing Power =`**`Proposing Power from DYDX token +`
 
-**`Voting Power =`**`Voting Power from DYDX token + `\
-`Voting Power from staked-DYDX token + `\
-`Voting Power from DYDX token received as delegatee - `\
-`Voting Power from DYDX delegated`
+`Proposing Power from staked-DYDX token +`
+
+`Proposing Power from DYDX token received as delegatee +`
+
+`Proposing Power from staked-DYDX token received as delegatee -`
+
+`Proposing Power from DYDX delegated -`&#x20;
+
+`Proposing Power from staked-DYDX delegated`
+
+``
+
+**`Voting Power =`**`Voting Power from DYDX token +`
+
+`Voting Power from staked-DYDX token +`
+
+`Voting Power from DYDX token received as delegatee +`
+
+`Voting Power from stkDYDX token received as delegatee -`
+
+`Voting Power from DYDX delegated -`
+
+`Voting Power from staked-DYDX delegated`
 
 ## FAQ
 
@@ -31,7 +47,7 @@ DYDX holders receive governance powers proportionally to their sum of owned and 
 
 In order to participate in DYDX on-chain governance, you will need to have or be delegated DYDX tokens. You will also need ETH to cover transaction costs.
 
-If you have tokens or have been delegated tokens and there is an active proposal, you are ready to vote in dYdX Governance.&#x20;
+If you have tokens or have been delegated tokens and there is an active proposal, you are ready to vote in dYdX Governance.
 
 ![Cast votes using your voting power](<../.gitbook/assets/image (87).png>)
 
@@ -47,7 +63,7 @@ Token holders can choose to delegate one or both of the governance powers associ
 
 Token holders can delegate proposing power and voting power to different addresses. However, there is no partial delegation (only 100% or 0% of power.)
 
-To delegate your tokens to a wallet address:&#x20;
+To delegate your tokens to a wallet address:
 
 * Go to [dydx.community/dashboard](https://dydx.community/dashboard)
 * Click on "Delegate"
