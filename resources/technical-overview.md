@@ -19,12 +19,12 @@ dYdX链上治理支持以下功能：
 
 有6个智能合约支持dYdX治理：
 
-* **`DydxToken`合约**：保留支持查询地址投票或任何区块编号提议权的快照。支持单独委托投票权和提议权。
-* **`DydxJordine`合约**：跟踪提议并可以通过执行器智能合约执行提议。
+* **`DydxToken` 合约**：保留支持查询地址投票或任何区块编号提议权的快照。支持单独委托投票权和提议权。
+* **`DydxJordine` 合约**：跟踪提议并可以通过执行器智能合约执行提议。
 * **`执行器`合约**：可以排队、取消和执行由治理投票的交易。如果提议通过，则提议中调用的功能可以由提议中指定的执行器合约执行。排队的交易可以在延迟后执行，其期限由执行器合约确定。
 * **`优先`**时间锁**合约：**与时间锁合约相同，但允许**优先级******控制器在时间锁延迟之前，在优先期（7天）内执行交易。
 * **`治理战略`合约**：包含计票逻辑。目前，统计票数来自DYDX代币和保险模块。可以通过长时间锁进行升级。
-* **`保险模块`合约**：包含质押DYDX代币的逻辑，表示质押的头寸，并赚取奖励，同时保留了基本代币的投票权和提议权利和委托功能。
+* **`保险模块`合约**：包含质押 DYDX 代币的逻辑，表示质押的头寸，并赚取奖励，同时保留了基本代币的投票权和提议权利和委托功能。
 
 {% tabs %}
 {% tab title="Mainnet" %}
@@ -72,11 +72,11 @@ dYdX链上治理支持以下功能：
 
 dydx.community 托管的治理前端的源代码，请访问[此处](https://github.com/dydxfoundation/pnyx)。
 
-所有主要的新智能合约都已由 Peckshield 进行审计。没有发现重大或高度优先的安全问题。核心治理和代币合约是根据Aave治理合约质押的，该合约由[CertiK](https://www.certik.io)、[Certora](https://www.certora.com)和[Peckshield](https://peckshield.com/en)进行审计，并已在主网上进行了数月的攻防测试。
+所有主要的新智能合约都已由 Peckshield 进行审计。没有发现重大或高度优先的安全问题。核心治理和代币合约是根据Aave治理合约质押的，该合约由[CertiK](https://www.certik.io/)、[Certora](https://www.certora.com/)和[Peckshield](https://peckshield.com/en)进行审计，并已在主网上进行了数月的攻防测试。
 
 ## 核心治理合约
 
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.17.43 PM.png>)
+![红色虚线表示合约可以升级](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.17.43 PM (1).png>)
 
 ### DydxToken
 
@@ -90,7 +90,7 @@ DYDX部署在以太坊主网上：[0x92D6C1e31e14520e676a687F0a93788B716BEff5](h
 
 ### DydxGovernor
 
-DydxGovernor合约受到Aave的启发。dYdX作了微小更改。
+DydxGovernor合约受到Aave的启发。dYdX作了微小变更。
 
 治理者部署在以太坊主网上：[0x7E9B1672616FF6D629Ef2879419aaE79A9018D2](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2)。根据承诺建立，\[即将推出]。
 
@@ -106,7 +106,7 @@ DydxGovernor合约受到Aave的启发。dYdX作了微小更改。
 
 ### 执行器
 
-执行器合约受到Aave的启发。dYdX作了微小更改。
+执行器合约受到Aave的启发。dYdX作了微小变更。
 
 **长时间锁**在以太坊主网上部署：[0xEcaE9BF44A21d0E2350a42127A377Bf5856d84B](https://etherscan.io/address/0xecae9bf44a21d00e2350a42127a377bf5856d84b)。根据承诺建立，\[即将推出]。
 
@@ -126,7 +126,7 @@ DydxGovernor合约受到Aave的启发。dYdX作了微小更改。
 
 \[即将推出]
 
-**Starkware优先时间锁**部署在以太坊主网上：[0xa306989BA6bcacdECf3C0614Ff2B8C68e3CaE](https://etherscan.io/address/0xa306989ba6bcacdeccf3c0614fff2b8c668e3cae)。根据承诺建立，\[即将推出]。
+**Starkware 优先时间锁**部署在以太坊主网上：[0xa306989BA6bcacdECf3C0614Ff2B8C68e3CaE](https://etherscan.io/address/0xa306989ba6bcacdeccf3c0614fff2b8c668e3cae)。根据承诺建立，\[即将推出]。
 
 **ABI**
 
@@ -136,9 +136,7 @@ DydxGovernor合约受到Aave的启发。dYdX作了微小更改。
 
 ### Merkle分配器
 
-
-
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.23.50 PM.png>)
+![红色虚线表示合约可以升级](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.23.50 PM (1).png>)
 
 Merkle分配器智能合约根据Merkle余额树分配DYDX代币奖励。可以根据每个用户的累计奖励余额定期更新，从而允许随着时间的推移向用户分配新的奖励。
 
@@ -152,9 +150,7 @@ Merkle分配器智能合约受到Uniswap和Badger设计的启发。智能合约�
 
 ### 保险模块
 
-
-
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.24.45 PM.png>)
+![红色虚线表示合约可以升级](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.24.45 PM (1).png>)
 
 保险模块是质押资金池，向质押DYDX以获得协议安全性的人群提供DYDX奖励。
 
@@ -162,31 +158,23 @@ Merkle分配器智能合约受到Uniswap和Badger设计的启发。智能合约�
 
 \[即将推出]
 
-
-
 ### 流动性模块
 
+![红色虚线表示合约可以升级](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.25.30 PM (1).png>)
 
-
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.25.30 PM.png>)
-
-流动性模块是质押和借款的智能合约集，激励了USDC资金分配，以达到dYdX layer 2交易所的做市目的。
+流动性模块是质押和借款的智能合约集，激励了 USDC 资金分配，以达到 dYdX layer 2 交易所的做市目的。
 
 质押人因质押USDC而赚取DYDX奖励。质押资金可以由某些事先批准的合伙人根据信誉为基础进行借贷，无需质押。资金只能用于L2交易所，这通过StarkProxy合约强制执行，该合约与StarkExperty永续交易所合约进行互动。
 
-![A diagram of the Liquidity module](<../.gitbook/assets/image (66).png>)
+![流动性模块图表](<../.gitbook/assets/image (66).png>)
 
 ### StarkProxy
 
 该合约允许所有者从LiquidityStaking中借贷资金，并在StarkPermal上使用这些资金。其他资金可以由质押人寄存，任何超过借款金额的资金也可以自由提现。该合约与[StarkPerpetual](https://github.com/starkware-libs/starkex-contracts/tree/master/scalable-dex/contracts/src/perpetual)合约互动，后者由Starkware编写，并且此前经审计和部署。
 
-
-
 ### 资金库合约
 
-
-
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM.png>)
+![红色虚线表示合约可以升级](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM (1).png>)
 
 TreasuryVester合约受到[Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol)的启发。
 
@@ -198,13 +186,11 @@ TreasuryVester合约受到[Uniswap](https://github.com/Uniswap/governance/blob/m
 
 每个资金库归属者将在大约5年内（2021年8月3日 - 2026年8月3日）将代币线性归属至相应的资金库。
 
-
-
 ## 外围合约
 
 ### Chainlink预言机支持的奖励（交易和流动性提供方奖励）
 
-该系统的目标是通过去中心化的预言机签名者网络，计算和发布交易者使用dYdX layer 2交易所获得的DYDX代币奖励。奖励存储在Merkle树上，该树包含了自分配计划开始以来每个用户的累计奖励。每个时段，Merkle根都在MerkleDistributorV1智能合约上更新，以反映上一时段赚取的奖励。
+该系统的目标是通过去中心化的预言机签名者网络，计算和发布交易者使用 dYdX layer 2 交易所获得的 DYDX 代币奖励。奖励存储在Merkle树上，该树包含了自分配计划开始以来每个用户的累计奖励。每个时段，Merkle根都在MerkleDistributorV1智能合约上更新，以反映上一时段赚取的奖励。
 
 我们已经与Chainlink预言机系统整合，在链上公布奖励数据。我们使用IPNS来发布Chainlink用于构建Merkle树的交易数据。通过使用IPNS，我们可以根据与前几时段相同的IPNS链接发布最新时段的交易数据，这意味着数据的位置不会变更。
 
@@ -212,8 +198,8 @@ TreasuryVester合约受到[Uniswap](https://github.com/Uniswap/governance/blob/m
 
 下表显示Chainlink预言机支持的奖励系统架构：
 
-![](<../.gitbook/assets/Merkle Distributor.png>)
+![](<../.gitbook/assets/Merkle Distributor (1).png>)
 
 ### 其他资产
 
-* dYdX基金会品牌资产，可在[**此处**](https://dydx.foundation/brand)查阅****
+* dYdX基金会品牌资产，可在[**此处**](https://dydx.foundation/brand)查阅\*\*\*\*
