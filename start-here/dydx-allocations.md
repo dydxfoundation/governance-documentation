@@ -8,22 +8,22 @@ description: DYDX代币的分配。
 
 总共有`1,000,000,000个DYDX`被挖出，并将于**中国时间2021年8月3日晚上23:00:00**开始，在五(5)年内可以使用。DYDX初始五年的总供应量分配如下：
 
-* **50.00%**（`500,000,000个DYDX`）分配给社区，具体如下：
-   * **25.00%**（`250,000,000个DYDX`）分配给在dYdX Layer 2协议上交易的用户，此分配以支付的交易费用和未平仓量的组合为基础[**（交易奖励）**](../rewards/trading-rewards.md)
-   * **7.50%**（`75,000,000个DYDX`）分配给完成dYdX Layer 2协议的某些交易里程碑的过往用户[**（追溯性挖矿奖励）**](../rewards/retroactive-mining-rewards.md)
+* **50.00%**`（500,000,000个DYDX）`分配给社区，具体如下：
+   * **25.00%**（`250,000,000个DYDX`）分配给在dYdX Layer 2协议上交易的用户，此分配以支付的交易费用和未平仓量的组合为基础（[**交易奖励**](../rewards/trading-rewards.md)）
+   * **7.50%**（`75,000,000个DYDX`）分配给完成dYdX Layer 2协议的某些交易里程碑的过往用户（[**追溯性挖矿奖励**](../rewards/retroactive-mining-rewards.md)）
    * **7.50%**（`75,000,000个DYDX`）根据一条公式分配给流动性提供方，此公式奖励正常运行时间、双侧交易深度、买卖价差和支持的市场数量（[**流动性提供方奖励**](../rewards/liquidity-provider-rewards.md)）
    * **5.00%**（`50,000,000个DYDX`）分配给社区资金库（[**资金库**](community-treasury.md)）
-   * **2.50%**（`25,000,000个DYDX`）分配给将USDC质押给流动性质押权益池的用户[**（流动性模块）**](../staking-pools/liquidity-staking-pool.md)
-   * **2.50%**（`25,000,000个DYDX`）分配给将DYDX质押给保险资金质押池的用户[**（保险模块）**](../staking-pools/safety-staking-pool.md)
-* **27.73%**（`277,295,070个DYDX`）分配给过往投资者
+   * **2.50%**（`25,000,000个DYDX`）分配给将USDC质押给流动性质押权益池的用户（[**流动性模块**](../staking-pools/liquidity-staking-pool.md)）
+   * **2.50%**（`25,000,000个DYDX`）分配给将DYDX质押给保险资金质押池的用户（[**保险模块**](../staking-pools/safety-staking-pool.md)）
+* `27.3%`（**277,295,070个DYDX**）分配给过往投资者
 * **15.27%**（`152,704,930个DYDX`）分配给dYdX Trading或基金会的创始人、员工、顾问和咨询人员。
-* **7.00%**（`70,000,000个DYDX`）分配给dYdX Trading或dYdX基金会的未来员工和顾问
+* **7.00%** （`70,000,000个 DYDX`）分配给 dYdX Trading 或 dYdX 基金会的未来员工和顾问
 
-![](<../.gitbook/assets/DYDX Allocations (Initial 5 Years).png>)
+![](<../.gitbook/assets/DYDX Allocations (Initial 5 Years) (1).png>)
 
 从推出五年后开始，管理部门可能会利用每年`2%`的最大永续性通货膨胀率来增加DYDX的供应，以确保社区拥有资源继续发展和完善该协议。通货膨胀必须通过治理提议来实施，每年的上限为`2%`。
 
-![](<../.gitbook/assets/Allocation 10 Years Inflation (1).png>)
+![](<../.gitbook/assets/Allocation 10 Years Inflation (1) (1).png>)
 
 尽管社区分配如上文所述，但DYDX持有人对社区分配的后续使用方式拥有完全的控制权。
 
@@ -60,4 +60,4 @@ dYdX基金会已表示会对不遵守这些要求的投资者采取法律行动�
 
 下图显示了流动性总供应量随时间的变化情况：
 
-![](<../.gitbook/assets/Liquid Supply Schedule (2).png>)
+![](<../.gitbook/assets/Liquid Supply Schedule (2) (1).png>)
