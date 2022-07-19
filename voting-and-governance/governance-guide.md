@@ -23,6 +23,8 @@ dYdX Foundation은 dYdX 커뮤니티의 dYdX 거버넌스 프로세스의 이해
 
 _**요약:**_
 
+에폭 6에 dYdX 커뮤니티는 마켓 메이커에 대한 LP 보상 거래량 기준을 1%에서 0.25%로 낮추기로 [Snapshot](https://commonwealth.im/dydx/snapshot/dydxgov.eth/0x785066561be1e5d170eb28960da5ef2643ee0d0c3d590fd797c028512cc6be43)에서 투표했습니다. 에폭 2에서의 LP 보상 기준 감소(5%에서 1%로 감소)는 에폭 6(1%에서 0.25%로 감소) 감소와 동일한 프로세스를 따랐습니다. LP 보상 거래량 기준을 5%에서 1%로 낮추기 위한 단계별 개요는 아래에 포함되어 있습니다.
+
 커뮤니티의 대다수(399명의 투표자 및 DYDX의 86%)는 유동성 제공자 보상 기준을 획득하기 위한 거래량 기준을 5%에서 1%로 감소시키기 위해 [스냅샷](https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN)에서 투표했습니다. 시장 조성자를 위한 유동성 제공자 보상 거래량 기준을 5%에서 1%로 감소시키기 위한 [오프체인 DIP는](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-2.md) DeFiance Capital에서 Jacob Goh(jteam0x)가 제출하였습니다. 에폭 2에서 1%의 기준을 충족한 시장 조성자는 에폭 3에서 유동성 제공자 보상을 받을 자격이 주어졌습니다. 해당 제안은 다른 온체인 스마트 계약 변경을 요구하지 않았습니다.
 
 _**배경:**_
@@ -39,7 +41,7 @@ dYdX 커뮤니티에는 유동성 제공자 보상 기준에 대한 '즉각적�
 
 _**설명:**_
 
-dYdX 거버넌스 프로세스는 [거버넌스 포럼](https://forums.dydx.community)을 기반으로 합니다. 커뮤니티 회원은 대략적인 합의 오프체인에 도달하기 위해 토론방에 글을 올리고 댓글을 남깁니다. 포럼 토론 및 DRC 생성에 대한 자세한 내용은 [여기](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle) 링크에서 확인하실 수 있습니다.
+dYdX 거버넌스 프로세스는 [거버넌스 포럼](https://forums.dydx.community/)을 기반으로 합니다. 커뮤니티 회원은 대략적인 합의 오프체인에 도달하기 위해 토론방에 글을 올리고 댓글을 남깁니다. 포럼 토론 및 DRC 생성에 대한 자세한 내용은 [여기](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle) 링크에서 확인하실 수 있습니다.
 
 _**DIP 2에 대한 적용:**_
 
@@ -51,9 +53,9 @@ Three Arrows Capital의 Su Zhu(zhusu)는 유동성 제공자 보상 기준을 �
 
 #### _Commonwealth에 게시 및 댓글 남기는 방법:_
 
-* 이더리움 지갑 또는 Github 계정으로 Commonwealth에 등록하고 [여기에서](https://forums.dydx.community) dYdX 커뮤니티에 가입하세요.
+* 이더리움 지갑 또는 Github 계정으로 Commonwealth에 등록하고 [여기에서](https://forums.dydx.community/) dYdX 커뮤니티에 가입하세요.
 
-![https://forums.dydx.community/](<../.gitbook/assets/Untitled 1>)
+![https://forums.dydx.community/](<../.gitbook/assets/Untitled 1 (2)>)
 
 * 방을 선택하고 스크롤하여 댓글을 확인하고 각 댓글 아래의 아이콘을 클릭하여 좋아요를 누르거나 답변을 남기세요.
 
@@ -61,7 +63,7 @@ Three Arrows Capital의 Su Zhu(zhusu)는 유동성 제공자 보상 기준을 �
 
 * '새로운 방 만들기'를 클릭하고 주제 카테고리를 선택하여 새로운 토론방을 개설하거나 DRC를 게시하세요.
 
-![https://forums.dydx.community/new/discussion](<../.gitbook/assets/Untitled 3>)
+![https://forums.dydx.community/new/discussion](<../.gitbook/assets/Untitled 3 (2)>)
 
 * DRC를 생성할 경우, [여기](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) 링크의 템플릿을 사용하시기 바랍니다. [제안 수명 주기](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)의 _DRC 생성_에 따라 설명된 바와 같이, 최소 DRC에는 다음이 포함되어야 합니다.
    * DRC의 짧고 간결한 제목.
@@ -93,13 +95,13 @@ _**DIP 2에 대한 적용:**_
 * MM 기준 2.5%로 하향
 * MM 기준 5%로 유지
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 4>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 4 (2)>)
 
 #### _스냅샷 여론조사에서 투표하는 방법:_
 
 * 이더리움 지갑으로 스냅샷에 등록하고 [여기](https://snapshot.org/#/dydxgov.eth)에서 dYdX 제안을 팔로우하세요. 아니면 [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth)에서 스냅샷 여론조사를 직접 투표하고 생성할 수도 있습니다.
 
-![https://snapshot.org/#/dydxgov.eth](<../.gitbook/assets/Untitled 5 (1)>)
+![https://snapshot.org/#/dydxgov.eth](<../.gitbook/assets/Untitled 5>)
 
 * 활성 스냅샷 제안을 보려면 [스냅샷](https://snapshot.org/#/dydxgov.eth) 또는 [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth)로 이동하세요.
 
@@ -107,7 +109,7 @@ _**DIP 2에 대한 적용:**_
 
 * 활성 스냅샷 여론조사에 투표하려면 DYDX를 보유하거나 스냅샷 블록 번호 이전에 귀하의 주소로 위임된 투표권을 스냅샷 여론조사가 활성화되는 시점에 보유하고 있어야 합니다.
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 7>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 7 (2)>)
 
 * 투표하려면 제안을 클릭하고 '네' 또는 '아니오'를 선택하고 '투표하기'를 선택하세요.
 
@@ -123,7 +125,7 @@ _**DIP 2에 대한 적용:**_
 
 ![https://snapshot.org/#/dydxgov.eth/create](<../.gitbook/assets/Untitled 10 (2)>)
 
-![https://forums.dydx.community/new/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 11>)
+![https://forums.dydx.community/new/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 11 (2)>)
 
 DRC 스냅샷 여론조사 콘텐츠 요건:
 
@@ -136,19 +138,19 @@ DRC 스냅샷 여론조사 콘텐츠 요건:
 
 대부분의 결정에 스냅샷 여론조사는 신호로 작용하는 반면, 온체인 투표는 스마트 계약을 변경하는 구속력 있는 결과에 필요합니다. 온체인 스마트 컨트랙트 호출이 필요하지 않은 결정의 경우, 눈에 띄는 거래 및 유동성 제공자 보상 공식, 스냅샷 투표에 대한 내용 변경은 구속력 있는 투표 및 최종 투표로 간주됩니다. 위 콘텐츠 요건 외에도 오프체인 제어 변수에 대한 구속력 있는 투표인 스냅샷 여론조사는 다음을 포함해야 합니다.
 
-* 이진 투표 옵션. 명확성을 위해 주소는 찬성 또는 반대 하나에만 투표해야 합니다.
+* 찬반 투표 옵션. 명확성을 위해 주소는 찬성 또는 반대 하나에만 투표해야 합니다.
 
-![](<../.gitbook/assets/Untitled 12>)
+![](<../.gitbook/assets/Untitled 12 (2)>)
 
 * 투표 이후, 관련 정보는 IPFS에 저장되며, 보고서가 자동으로 생성되고 다운로드 가능합니다.
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 13>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 13 (2)>)
 
 ### **3단계 - DIP 생성(오프체인 제안)**
 
 _**설명**:_
 
-DIP는 다음 상황에 생성되어야 합니다. (1) 오프체인 매개 변수(거래 보상 또는 LP 보상 공식의 변형 등)의 스냅샷 여론조사 결과가 업데이트될 때, (2) 커뮤니티 회원이 온체인 스마트 계약을 수정하려는 제안을 제출하고자 할 때. 다른 온체인 스마트 계약 업데이트가 필요하지 않은 투표의 경우, 스냅샷 여론조사 결과는 오프체인 DIP에서 공식화되어야 하며 dYdX Foundation의 Github의 보류 DIP 브랜치에 PR(Pull Request)를 통해 제출해야 합니다. DIP는 스냅샷의 우승 결과를 반영해야 합니다. DIP는 [여기](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) 링크의 템플릿에 포함된 정보를 명시해야 합니다.
+DIP는 다음 상황에 생성되어야 합니다. (1) 오프체인 매개 변수(거래 보상 또는 LP 보상 공식의 변형 등)의 스냅샷 여론조사 결과가 업데이트될 때, (2) 커뮤니티 회원이 온체인 스마트 계약을 수정하려는 제안을 제출하고자 할 때. 다른 온체인 스마트 계약 업데이트가 필요하지 않은 투표의 경우, 스냅샷 여론조사 결과는 오프체인 DIP에서 공식화되어야 하며 dYdX Foundation의 Github의 보류 DIP 브랜치에 PR(Pull Request)를 통해 제출해야 합니다. DIP는 스냅샷의 우승 결과를 반영해야 합니다. DIP는 [여기](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md)의 템플릿에 포함된 정보를 명시해야 합니다.
 
 _**DIP 2에 대한 적용:**_
 
@@ -156,7 +158,7 @@ _**DIP 2에 대한 적용:**_
 
 ![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](<../.gitbook/assets/Untitled 14 (2)>)
 
-DIP 2에 대한 제안 초본이 완성되었을 때, @Jteamdc는 dYdX Foundation의 보류 DIP 브랜치에 대한 업무 브랜치에서 ****PR([Pull Request](https://github.com/dydxfoundation/dip/pull/8))을 생성했습니다. dYdX Foundation이 제안을 검토 및 서명한 후, 보류 DIP의 변경 사항은 마스터 브랜치로 합병되었습니다.
+DIP 2에 대한 제안 초안이 완료되었을 때 @Jteamdc가 dYdX Foundation의 보류 DIP 브랜치에 대한 업무 브랜치에서 \*\*\*\* PR([Pull Request](https://github.com/dydxfoundation/dip/pull/8))을 생성했습니다. dYdX Foundation이 제안을 검토 및 서명한 후, 보류 DIP의 변경 사항은 마스터 브랜치로 합병되었습니다.
 
 ![https://github.com/dydxfoundation/dip/pulls](<../.gitbook/assets/Untitled 15 (2)>)
 
@@ -173,11 +175,11 @@ DIP 2에 대한 제안 초본이 완성되었을 때, @Jteamdc는 dYdX Foundatio
 
 * 포킹된 DIP 저장소에서 DIP의 콘텐츠가 포함된 디렉토리로 이동하세요: [https://github.com/\[user\_name\]/dip/tree/master/content/dips](https://github.com/yt8073/dip/tree/master/content/dips).
 
-![](<../.gitbook/assets/Untitled 16>)
+![](<../.gitbook/assets/Untitled 16 (2)>)
 
 * DIP 폴더를 선택하세요: [https://github.com/\[user\_name\]/dip/tree/master/content](https://github.com/Jwatts15/dip/tree/master/content).
 
-![](<../.gitbook/assets/Untitled 17>)
+![](<../.gitbook/assets/Untitled 17 (2)>)
 
 DIP 폴더는 [여기](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) 링크의 DIP 템플릿을 따르는 이전 제안 디렉토리를 포함합니다.
 
@@ -186,7 +188,7 @@ DIP 폴더는 [여기](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.m
 * 제안 초본을 시작하기 전에 포킹한 브랜치가 마스터 브랜치의 최신 버전인지를 확인하시기 바랍니다. DIP 저장소의 이전 버전을 사용하는 경우, 귀하의 포킹한 버전이 최신 변경 사항이 적용된 최신 상태인지 확인하시기 바랍니다. 포킹한 버전을 리베이스하는 데 도움이 필요한 경우, 다음 링크의 단계를 수행할 수 있습니다: [https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master)
 * 제안에 대한 정보로 [DIP 템플릿을](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) 편집하세요. DIP 저장소를 포킹하지 않았을 경우, 편집 아이콘을 선택하면 사용자는 관리자가 아니기 때문에 마스터에서 저장소를 자동으로 포킹합니다.
 
-![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](<../.gitbook/assets/Untitled 19 (2)>)
+![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](<../.gitbook/assets/Untitled 19 (2) (1)>)
 
 * [템플릿](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md)을 따르고 `content/dips/` 디렉토리의 포킹한 저장소에 DIP를 추가하세요. 아래 명시된 DIP 상태 명명 규칙을 따르시기 바랍니다.
 
@@ -199,12 +201,9 @@ DIP 상태:
 * 승인됨 - dYdX 커뮤니티에 의해 구현 승인된 DIP.
 * 구현됨 - 메인넷에 배포된 DIP.
 * 거절됨 - 승인 거부된 DIP.
-
-
-
 * 모든 콘텐츠가 올바른지 확인한 후, dYdX Foundation의 보류 DIP 브랜치에 대한 업무 브랜치에서 PR을 생성하세요. 외부 당사자가 마스터 브랜치로 병합을 원할 경우 IPFS 작업이 실패하게 되므로 dYdX Foundation의 마스터 브랜치에 대해 이 PR을 **제출하지 마세요**. [여기](https://github.com/dydxfoundation/dip/pull/8) 링크의 PR을 예시로 사용하시기 바랍니다.
 
-![](../.gitbook/assets/21.png)
+![](<../.gitbook/assets/Untitled 15 (3)>)
 
 * 검토 후, dYdX Foundation이 보류 DIP 브랜치의 변경 사항을 마스터 브랜치에 병합하게 됩니다.
 
@@ -272,13 +271,10 @@ README 파일에 포함된 제안 실행 단계는 다음 링크에서 확인하
 
 * DIP 생성을 위해 새로운 지갑을 만드세요. 배포 프로세스는 환경 변수로 보안 문구 입력이 필요하기 때문에 온체인 DIP 생성에 하나의 지갑을 사용하실 것을 권장합니다.
 * DIP 생성을 위해 하나의 지갑에 충분한 제안권을 위임하세요. 제안권 위임은 [여기](https://dydx.community/dashboard)에서 하실 수 있습니다. 다른 제안권 기준은 아래 및 [여기](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) 링크에서 확인하실 수 있습니다.
-
    * 단기 타임락: 총 공급량의 0.5%(제안권 5백만).
    * Starkware 실행자: 총 공급량의 0.5%(제안권 5백만).
    * 장기 타임락 실행자: 총 공급량의 2.0%(제안권 2천만)
    * 머클 일시정지자 타임락: 총 공급량의 0.5%(제안권 5백만).
-
-
 * Alchemy 키를 만드세요. Alchemy 키를 이용하면 이더리움과의 상호작용 및 스마트 계약 배포를 위해 이더리움 노드를 운영할 필요가 없습니다. Alchemy 키 생성 가이드는 [여기](https://docs.alchemy.com/alchemy/introduction/getting-started) 링크에서 확인하실 수 있습니다.
 
 ![https://docs.alchemy.com/alchemy/introduction/getting-started](../.gitbook/assets/29.png)
@@ -295,9 +291,9 @@ README 파일에 포함된 제안 실행 단계는 다음 링크에서 확인하
 
 '4. 구축 시작하기' 아래에서 '첫 스마트 계약 배포 시도'를 선택하고 가이드를 따르세요.
 
-![https://docs.alchemy.com/alchemy/introduction/getting-started](../.gitbook/assets/32.png)
+![https://docs.alchemy.com/alchemy/introduction/getting-started](<../.gitbook/assets/32 (1).png>)
 
-* 윈도우 명령어 창, 기본 터미널 앱을 열거나 다음에서 iTerm을 다운로드하세요. [https://iterm2.com/](https://iterm2.com)
+* 윈도우 명령어 창, 기본 터미널 앱을 열거나 다음에서 iTerm을 다운로드하세요. [https://iterm2.com/](https://iterm2.com/)
 * 아직 없는 경우, 다음 경로에서 'Node.js and npm'을 다운로드하고 설치하세요. [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 * Hardhat은 이더리움 소프트웨어를 컴파일하고 테스트하기 위한 개발 툴입니다. 아직 없는 경우, 다음 경로에서 Hardhat을 설치하세요. [https://hardhat.org/tutorial/setting-up-the-environment.html](https://hardhat.org/tutorial/setting-up-the-environment.html)
 * 제안된 스마트 계약 이행 초안을 작성하세요.
@@ -305,7 +301,7 @@ README 파일에 포함된 제안 실행 단계는 다음 링크에서 확인하
 
 ![https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips](<../.gitbook/assets/image (100).png>)
 
-* 새로운 파일(`DIP-[NEW DIP #]-ipfs-hashes.jso`)을 선택한 후, 인코딩된 해시를 사용하시기 바랍니다.
+* 새로운 파일(`DIP-[New DIP #]-ipfs-hashes.jso`)을 선택한 후, 인코딩된 해시를 사용하시기 바랍니다.
 
 ![https://github.com/dydxfoundation/dip/blob/master/content/ipfs-dips/DIP-3-Ipfs-hashes.json](<../.gitbook/assets/image (102).png>)
 
@@ -355,8 +351,6 @@ Paradigm 팀은 아래 스크립트를 실행하여 스마트 계약 업데이�
 `npx hardhat --네트워크 메인넷 배포:안전-모듈-보상-제안서`\ `--제안서-ipfs-해시-hex 0x...`\ `--dydx-토큰-주소 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\ `--거버너-주소 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
  `--단기-타임락-주소 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
  `--보상-트레저리-주소 0x639192D54431F8c816368D3FB4107Bc168d0E871`\ `--안전-모듈-복구-주소 0x...`
-
-
 
 DIP는 [https://dydx.community/dashboard](https://dydx.community/dashboard)에도 동시에 게시되었습니다.
 
@@ -439,11 +433,11 @@ DIP가 온체인으로 실행되었을 당시의 [https://dydx.community/dashboa
 * Eth가 포함된 호환되는 지갑을 사용하시기 바랍니다.
 * 이더스캔의 '계약' 탭으로 이동하고 '계약서 작성'을 클릭하세요. 거버넌스 계약은 [여기](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract) 링크에서 확인하실 수 있습니다.
 
-![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/45.png)
+![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/50.png)
 
 * 대기열을 선택하고 '제안ID'를 제출하세요.
 
-![](../.gitbook/assets/Nest.png)
+![](<../.gitbook/assets/Nest (2).png>)
 
 '제안ID'는 DIP가 생성되었을 때 이더스캔에서 확인하실 수 있습니다. [https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad)
 
@@ -463,7 +457,7 @@ DIP가 온체인으로 실행되었을 당시의 [https://dydx.community/dashboa
 
 * 이더스캔의 '계약' 탭으로 이동하고 '계약서 작성'을 클릭하세요. 거버넌스 계약은 [여기](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract) 링크에서 확인하실 수 있습니다.
 
-![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/50.png)
+![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/45.png)
 
 * '실행'을 선택하고 '제안ID'를 제출하세요.
 
