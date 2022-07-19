@@ -13,13 +13,13 @@ description: 交易奖励计划概述。
 
 ## **概述**
 
-![通过dYdX Layer 2协议的交易赚取奖励](<../.gitbook/assets/image (17).png>)
+![通过dYdX Layer 2协议的交易赚取奖励](<../.gitbook/assets/image (17) (1).png>)
 
 DYDX将根据一条公式分配给交易者，该公式奖励在dYdX Layer 2协议上支付的交易费用和未平仓量的组合。DYDX将在五年内以28天时段为周期进行分配，不受任何兑现或锁定的限制。每个纪元内将分配3,835,616个DYDX。
 
 Cobb-Douglas函数用来计算每个时段内给予每个交易者的DYDX数量：
 
-![](../.gitbook/assets/math-20211221.png)
+![](<../.gitbook/assets/math-20211221 (1).png>)
 
 $$
 r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k
@@ -55,7 +55,7 @@ dYdX Layer 2协议的所有交易者都有资格获得DYDX作为交易奖励。
 
 ![当前时段的奖励信息](<../.gitbook/assets/image (18).png>)
 
-来自过去时段的奖励，请访问[**dydx.community/history/rewards**](https://dydx.community/history/rewards)****（即将推出）。
+过往时段的奖励可于以下网址查看：[**dydx.community/history/rewards**](https://dydx.community/history/rewards) \*\*\*\*（即将推出）。
 
 ### 我如何申领我的交易奖励？何时可以提现并转让我赚取的DYDX？
 
