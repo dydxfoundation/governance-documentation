@@ -17,13 +17,13 @@ description: 유동성 스테이킹 풀 개요
 
 유동성은 성공적인 거래소의 핵심 요소입니다. 유동성 네트워크 효과를 증진하고 전문 유동성 공급자에게 인센티브를 제공하기 위해 DYDX는 유동성 스테이킹 풀에 USDC를 스테이킹하는 사용자들에게 배포됩니다. 커뮤니티에서 검증된 유동성 공급자들이 스테이킹된 USDC를 사용하여 dYdX 레이어 2 프로토콜에서 시장을 조성하고 시장 전반의 유동성을 촉진합니다. 유동성 공급자는 dYdX 레이어 2 프로토콜 외부에서 빌린 자금을 사용할 수 없습니다.
 
-스테이커는 USDC 스테이킹에 대한 DYDX 보상을 받을 것입니다. DYDX 보상은 풀의 총 USDC에서 각 스테이커가 차지하는 비중에 따라 지속적으로 분배됩니다.
+스테이커는 USDC 스테이킹에 대한 DYDX 보상을 받을 것입니다. DYDX 보상은 풀의 전체 USDC 비율에서 각 스테이커의 비율에서 지속적으로 분배됩니다.
 
 각 스테이커 및 유동성 공급자는 회전신용약정([링크](https://dydx.foundation/revolving-credit-agreement))의 당사자가 되어야 합니다. 이 약정은 대출받은 USDC를 상환하지 않는 유동성 공급자에 대해 집행 가능한 권리를 각 스테이커에게 부여하기 위한 유동성 스테이킹 풀의 조건을 나타냅니다. 이 약정은 각 스테이커 및 각 유동성 공급자 간에서만 이루어집니다. dYdX Foundation은 이 약정의 당사자가 아니며 해당 약정에 따른 권리나 의무를 가지지 않습니다.
 
 ## USDC 스테이킹 해제 및 인출
 
-스테이커는 반드시 해당 에폭이 종료하기 최소 `14일`(**블랙아웃 기간**) 전에 USDC 인출을 요청하여야 USDC를 [**에폭**](../start-here/epochs.md) 종료 후 인출할 수 있습니다. 스테이커가 인출을 요청하지 않으면 스테이킹된 USDC는 다음 에폭으로 롤오버됩니다.
+스테이커는 [**반드시 해당 에폭이**](../start-here/epochs.md) 종료되기 최소 `14일`(**블랙아웃 기간**) 전에 USDC 인출을 요청하여야 USDC를 에폭 종료 후 인출할 수 있습니다. 스테이커가 인출을 요청하지 않으면 스테이킹된 USDC는 다음 에폭으로 롤오버됩니다.
 
 **블랙아웃 기간**에는 인출을 요청할 수 없습니다.
 
@@ -37,7 +37,7 @@ description: 유동성 스테이킹 풀 개요
 
 스테이커는 또한 기본 스마트 컨트랙트 코드에 취약성이 있는 경우 스마트 컨트랙트 위험에 노출됩니다. 모든 DYDX와 거버넌스 스마트 컨트랙트는 엄격한 감사와 테스트를 통과했습니다.
 
-스테이커의 위험을 줄이기 위해 각 스테이커 및 유동성 공급자가 회전신용약정(여기 [링크](https://dydx.foundation/revolving-credit-agreement))의 당사자가 되어야 하지만, 계약을 체결한다고 해서 유동성 공급자가 차용 금액을 모두 상환하는 것은 아니며, 계약에 따른 스테이커의 권리가 실행되는 경우에도 마찬가지입니다.
+스테이커의 위험을 줄이기 위해 각 스테이커 및 유동성 공급자가 회전신용약정([링크](https://dydx.foundation/revolving-credit-agreement))의 당사자가 되어야 합니다. 계약 체결로 진입하는 것은 유동성 공급자가 채무가 강제하는 경우에도 모든 금액을 상환할 수 없습니다.
 
 ## 승인된 차용자
 
@@ -48,12 +48,12 @@ description: 유동성 스테이킹 풀 개요
 처음 승인된 유동성 공급자에는 dYdX 레이어 2 프로토콜에서 적극적으로 시장을 조성해온 `Wintermute`, `Amber Group`, `Wootrade(Kronos)`, `Sixtant` 및 `DAT Trading` 등이 포함됩니다.
 
 | 사전 승인된 차용자 | 초기 할당 비율 | 이더리움 주소 | StarkProxy | 유동성 공급자에 대한 세부 정보 |
-| ---------------------- | ----------------------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Wintermute | 25% | [0x4f3a120E72C76c22ae802D129F599BFDbc31cb81](https://etherscan.io/address/0x4f3a120E72C76c22ae802D129F599BFDbc31cb81) | [0x0b2B08AC98a1568A34208121c26F4F41a9e0FbB6](https://etherscan.io/address/0x0b2B08AC98a1568A34208121c26F4F41a9e0FbB6) | [https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/](https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/) |
-| Amber Group | 25% | [0x39Ad99E33ab7Ee85818741dD6076112188bc2611](https://etherscan.io/address/0x39Ad99E33ab7Ee85818741dD6076112188bc2611) | [0x3e6E9EFb0A677a24F47093a22044dc5451A028cF](https://etherscan.io/address/0x3e6E9EFb0A677a24F47093a22044dc5451A028cF) | [https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/](https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/) |
-| WOO Network(Kronos) | 20% | [0x38d981c3c42b2ec8e9572f560552407d0f1279fb](https://etherscan.io/address/0x38d981c3c42b2ec8e9572f560552407d0f1279fb) | [0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06](https://etherscan.io/address/0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06) | [https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/](https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/) |
-| Sixtant | 20% | [0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c](https://etherscan.io/address/0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c) | [0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2](https://etherscan.io/address/0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2) | [https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/](https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/) |
-| DAT Trading | 10% | [0x83E8fb8f4DAE0f42d68FdbBf85d4191a5e6f92F8](https://etherscan.io/address/0x83e8fb8f4dae0f42d68fdbbf85d4191a5e6f92f8) | [0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874](https://etherscan.io/address/0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874) | [https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/](https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/) |
+| ---------------------- | ----------------------------- | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Wintermute | 25% | 0x4f3a120E72C76c22ae802D129F599BFDbc31cb81 | 0x0b2B08AC98a1568A34208121c26F4F41a9e0FbB6 | [https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/](https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/) |
+| Amber Group | 25% | 0x4f3a120E72C76c22ae802D129F599BFDbc31cb81 | [0x3e6E9EFb0A677a24F47093a2044dc5451A028cF](https://etherscan.io/address/0x3e6E9EFb0A677a24F47093a22044dc5451A028cF) | [https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/](https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/) |
+| Wootrade (Kronos) | 20% | 0x38d981c3c42b2ec8e9572f560552407d0f1279fb | [0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06](https://etherscan.io/address/0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06) | [https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/](https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/) |
+| Sixtant | 20% | 0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c | [0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2](https://etherscan.io/address/0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2) | [https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/](https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/) |
+| DAT Trading | 10% | 0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c | [0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874](https://etherscan.io/address/0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874) | [https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/](https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/) |
 
 ## 스테이킹된 잔고 설명
 
@@ -64,7 +64,7 @@ description: 유동성 스테이킹 풀 개요
 
 스테이커는 활성 및 비활성 잔고의 모두 가질 수 있습니다. USDC 정보는 다음 예와 같이 에폭별로 표시될 수 있습니다.
 
-![스테이킹된 잔고 설명](<../.gitbook/assets/image (34) (1).png>)
+![Staked balance accounting](<.. /.gitbook/assets/image (34).png>)
 
 다음 작업은 다음과 같이 스테이킹된 잔고에 영향을 미칩니다.
 
@@ -89,9 +89,9 @@ stkUSDC 잔고는 활성화 또는 비활성될 수 있습니다. 활성 stkUSDC
 
 스테이커는 언제든지 USDC를 유동성 스테이킹 풀에 예금하고 즉시 보상을 받기 시작할 수 있습니다. DYDX 보상은 전체 풀에서 각 스테이커가 차지하는 비중(초 단위 측정)을 기준으로 연속 지급됩니다. 보상은 언제든지 클레임 및 인출될 수 있습니다.
 
-스테이킹된 USDC는 활성 상태를 유지하는 기간 동안 보상을 받습니다. 즉, 일부 USDC의 인출을 요청한 후 해당 USDC는 에폭이 끝날 때까지 계속해서 보상을 받습니다. 예를 들면 다음과 같습니다.
+스테이킹된 USDC는 활성 상태를 유지하는 기간 동안 보상을 받습니다. 즉, 일부 USDC의 인출을 요청한 후 해당 USDC는 에폭이 끝날 때까지 계속해서 보상을 받습니다. 예:
 
-![보상 설명](<../.gitbook/assets/image (65) (1).png>)
+![Rewards accounting](<.. /.gitbook/assets/image (65).png>)
 
 위 시나리오에서 사용자는 **Time0**에서 **Time2**의 기간 동안 보상을 획득할 수 있고, 보상은 해당 기간에 스테이킹된 잔고 총액에 따라 달라집니다. 사용자가 사용자 잔고의 일부를 인출하고자 하는 경우 잔여 잔고가 **Time2** 이후 계속해서 보상을 획득할 수 있습니다.
 
@@ -105,11 +105,11 @@ USDC를 유동성 풀에 스테이킹하려면 다음 단계를 따르십시오.
 * 풀에 스테이킹하려는 USDC의 금액을 입력하십시오.
 * "자금 스테이킹"을 클릭하십시오. 스테이킹에 대한 가스 수수료를 지불하고, 인출을 요청하고, USDC를 인출해야 합니다.
 
-![](<../.gitbook/assets/image (57).png>)
+![](<.. /.gitbook/assets/image (57).png>)
 
 스테이킹된 USDC는 현재 활성 상태로 즉시 보상을 획득하기 시작합니다.
 
-USDC를 스마트 컨트랙트에 직접 입금 및 스테이킹하기 위해 사용자는 `스테이킹` 기능을 호출합니다. 사용자는 또한 `stakeFor` 기능을 호출하여 다른 주소를 대신해 USDC를 입금 및 스테이킹할 수 있습니다. 스마트 계약에서 USDC를 직접 스테이킹하더라도 회전신용약정([링크](https://dydx.foundation/revolving-credit-agreement))에 대한 통보를 받고 해당 약정을 검토한 것으로 간주됩니다.
+USDC를 스마트 컨트랙트에 직접 입금 및 스테이킹하기 위해 사용자는 `스테이킹` 기능을 호출합니다. 사용자는 또한 `stakeFor` 기능을 호출하여 다른 주소를 대신해 USDC를 입금 및 스테이킹할 수 있습니다. 스마트 계약에서 USDC를 직접 스테이킹하더라도 회전신용약정[(링크](https://dydx.foundation/revolving-credit-agreement))에 대한 통보를 받고 해당 약정을 검토한 것으로 간주됩니다.
 
 ### 블랙아웃 기간은 무엇입니까?
 
@@ -125,10 +125,10 @@ USDC를 인출하려면 사용자는 `requestWithdrawal` 기능을 호출하여 
 
 유동성 풀에 대한 USDC의 스테이킹을 해제하려면 다음 단계를 따르십시오.
 
-* [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*로 이동합니다.
+* [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)****로 이동하세요
 * "**요청**"을 클릭하여 다음 모달을 엽니다.
 
-![인출 요청](<../.gitbook/assets/image (68).png>)
+![Requesting withdraw](<.. /.gitbook/assets/image (58).png>)
 
 * 풀에서 인출을 요청하고 싶은 USDC의 금액을 입력하고 "**인출 요청**"을 클릭합니다. USDC의 스테이킹을 해제하려면 가스 수수료를 지불해야 합니다.
 * 현재 에폭이 종료되기 최소 14일(**블랙아웃 기간**) 전에 USDC 스테이킹 해제를 요청한 스테이커는 다음 에폭 시작 시점에 USDC를 인출할 수 있습니다.
@@ -210,12 +210,12 @@ dYdX 레이어 2 프로토콜에서의 레이어 2 전송은 `StarkProxy`가 제
 * 차용한 USDC의 거래소 입금 및 차입을 제한합니다.
 * `StarkProxy` 계약의 USDC를 사용하여 차용된 잔고를 상환합니다.
 * `StarkProxy` 계약의 USDC를 사용하여 채무 잔고를 상환합니다.
-* ``StarkEx 계약에서 StarkProy 계약으로 인출합니다(예: 느린 거래소 인출의 두 번째 단계).
+* StarkEx 계약에서 `StarkProy` 계약으로 인출합니다(예: 느린 거래소 인출의 두 번째 단계).
 * 차용자가 시작한 강제 거래 요청을 취소합니다.
 * 차용자가 잔고 검사를 우회하는 동안 `StarkProy` 계약에서 금액을 인출하도록 승인합니다.
 * 스마트 컨트랙트를 업그레이드합니다.
 
-****차용자에게 미지불된 채무 잔액이 있는 경우 보호자는 다음 조치를 취할 수 있습니다(타임락 대상).
+**차용자에게 미지불된 채무 잔액이 있는 경우 보호자는 다음 조치를 취할 수 있습니다(타임락 대상).**
 
 * dYdX 레이어 2 프로토콜에서 강제 인출을 수행합니다.
 * dYdX 레이어 2 프로토콜에서 강제 거래(리듀스 온리)를 수행합니다.
@@ -228,13 +228,13 @@ dYdX 레이어 2 프로토콜에서의 레이어 2 전송은 `StarkProxy`가 제
 
 이 경우, 차용인이 인출 요청된 자금을 늦게 상환하는 부족 사태가 발생하면 비활성 자금은 아래에 설명된 바와 같이 동등한 손실을 입을 수 있습니다. 차용 자금에 대한 채무를 불이행하는 경우 체납 차용자는 평판에 상당한 피해를 입을 것입니다.
 
-[](https://dydx.foundation/revolving-credit-agreement)각 스테이커 및 차용자는 회전신용약정(링크)의 당사자이지만, 이 약정은 차용자의 의무 이행을 보장하지 않습니다.
+각 스테이커 및 차용자는 회전신용약정([링크](https://dydx.foundation/revolving-credit-agreement))의 당사자이지만, 이 약정은 차용자의 의무 이행을 보장하지 않습니다.
 
 ### 어떻게 계약이 지불 능력을 유지합니까?
 
 어느 시점에서든 계약은 스테이킹된 잔액과 빌린 잔액 간의 관계에 따라 다음 상태 중 하나가 됩니다.
 
-![계약 지불 능력](<../.gitbook/assets/image (41).png>)
+![Contract Solvency](<.. /.gitbook/assets/image (41).png>)
 
 다음의 경우 계약은 **지급 불능**이라고 합니다.
 
@@ -252,7 +252,7 @@ dYdX 레이어 2 프로토콜에서의 레이어 2 전송은 `StarkProxy`가 제
 
 이 프로세스는 다음과 같습니다.
 
-![채무 불이행](<../.gitbook/assets/image (46).png>)
+![Default](<.. /.gitbook/assets/image (46).png>)
 
 ### 채무는 무엇을 의미합니까?
 
@@ -266,7 +266,7 @@ dYdX 레이어 2 프로토콜에서의 레이어 2 전송은 `StarkProxy`가 제
 
 차용인에 대해 `markDebt()`가 호출되면 차용자는 계약에서 추가 자금을 차용할 권리를 잃습니다. 이 권리는 거버넌스에 의해 복구될 수 있습니다.
 
-부채가 "표시"되면 주요 회계 시스템에서 제거되고 다양한 방법으로 스테이커가 회수할 수 있습니다. 채무가 있는 차용인이 부채를 상환하면(또는 거버넌스 등의 다른 당사자가 대신하여 갚는 경우) 채권자인 스테이커는 선착순으로 자금을 회수할 수 있습니다. 보다 유연한 솔루션은 스마트 계약의 '채무 운영자' 인터페이스를 통해 구현될 수 있습니다.
+부채가 "표시"되면 주요 회계 시스템에서 제거되고 다양한 방법으로 스테이커가 회수할 수 있습니다. 채무가 있는 차용인이 부채를 상환하면(또는 거버넌스 등의 다른 당사자가 대신하여 갚는 경우) 채권자인 스테이커는 선착순으로 자금을 회수할 수 있습니다. 보다 유연한 솔루션은 스마트 컨트랙트의 "채무 운영자" 인터페이스를 통해 구현될 수 있습니다.
 
 스테이커가 채무를 받은 다음 실제로 발생하는 일은 상황에 달려 있습니다. 승인된 차용자의 단순한 실수라면 스테이커는 즉시 전액을 받을 것으로 기대할 수 있습니다. USDC 자금이 손실된 경우 거버넌스는 영향을 받은 스테이커에게 부분 상환을 할 수 있습니다. 해결 방안이 불확실하다면 거버넌스는 영향을 받은 스테이커에게 ERC20 영수증을 발행하여 해결을 기다리는 동안 임시 유동성을 허용할 수 있습니다. 적절하다고 판단되면 거버넌스는 해결될 때까지 영수증 보유자에게 이자를 지급할 수 있습니다.
 

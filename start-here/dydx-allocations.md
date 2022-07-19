@@ -10,20 +10,20 @@ description: DYDX 토큰의 할당
 
 * **50.00%**(`500,000,000 DYDX`)는 다음과 같이 커뮤니티에 할당됩니다.
    * **25.0%**(`250,000,000DYDX`)는 유료 및 미결제 약정의 조합을 기반으로 dYdX Layer 2 프로토콜에서 거래하는 사용자에게 할당됩니다([**거래 보상**](../rewards/trading-rewards.md))
-   * **7.50%**(`75,000,000DYDX`)는 dYdX 레이어 2 프로토콜에서 특정 거래 이정표를 완료한 과거 사용자에게 할당됩니다([**소급 채굴 보상**](../rewards/retroactive-mining-rewards.md))
+   * **7.50%**(`75,000,000DYDX)`는 dYdX 레이어 2 프로토콜에서 특정 거래 이정표를 완료한 과거 사용자에게 할당됩니다[**(소급 채굴 보상)**](../rewards/retroactive-mining-rewards.md)
    * **7.50%**(`75,000,000 DYDX`)는 가동 시간, 양방향 호가, 매수가 및 매도가의 차이 및 지원 시장 수의 조합을 보상하는 공식을 기반으로 유동성 공급자에게 할당됩니다([**유동성 공급자 보상**](../rewards/liquidity-provider-rewards.md))
-   * **5.00%**(`50,000,000 DYDX`)는 커뮤니티 트레저리에게 할당됩니다([**트레저리**](community-treasury.md))
-   * **2.50%**(`25,000,000DYDX`)는 USDC를 유동성 스테이킹 풀에 스테이킹하는 사용자에게 할당됩니다([**유동성 모듈**](../staking-pools/liquidity-staking-pool.md))
-   * **2.50%**(`25,000,000 DYDX`)는 안전 스테이킹 풀에 DYDX를 스테이킹하는 사용자에게 할당됩니다([**안전 모듈**](../staking-pools/safety-staking-pool.md))
+   * **5.00%**(`50,000,000 DYDX`)는 커뮤니티 트레저리에게 할당됩니다[**(트레저리)**](community-treasury.md)
+   * **2.50%**(`25,000,000DYDX`)는 USDC를 유동성 스테이킹 풀에 스테이킹하는 사용자에게 할당됩니다[**(유동성 모듈)**](../staking-pools/liquidity-staking-pool.md)
+   * **2.50%**(`25,000,000 DYDX`)는 안전 스테이킹 풀에 DYDX를 스테이킹하는 사용자에게 할당됩니다[**(안전 모듈)**](../staking-pools/safety-staking-pool.md)
 * **27.73%**(`277,295,070DYDX`)는 과거 투자자에게 할당됩니다
 * **15.27%**(`152,704,930 DYDX`)는 dYdX Trading 또는 Foundation의 설립자, 임직원, 고문 및 컨설턴트에게 할당됩니다
-* **7.00%**(`70,000,000 DYDX`)는 dYdX Trading 또는 dYdX Foundation의 미래 임직원 및 컨설턴트에게 할당됩니다.
+* **7.00%**(`70,000,000 DYDX`)는 dYdX Trading 또는 dYdX Foundation의 미래 임직원 및 컨설턴트에게 할당됩니다
 
-![](<../.gitbook/assets/DYDX Allocations (Initial 5 Years) (1).png>)
+![](<.. /.gitbook/assets/DYDX Allocations (Initial 5 Years).png>)
 
 출시로부터 5년 동안 연간 `2%`의 최대 무기한 인플레이션율을 거버넌스에서 활용하여 DYDX의 공급량을 늘리고, 이를 통해 커뮤니티는 프로토콜 개발 및 성장을 지속하기 위한 리소스를 확보할 수 있습니다. 인플레이션은 거버넌스 제안을 통해 제정되어야 하며 연간 `2%`로 제한됩니다.
 
-![](<../.gitbook/assets/Allocation 10 Years Inflation (1) (1).png>)
+![](<.. /.gitbook/assets/Allocation 10 Years Inflation (1).png>)
 
 커뮤니티 할당이 상기 명시된 대로 제정되어 있더라도, DYDX 보유자는 거버넌스를 통해 앞으로의 커뮤니티 할당 사용 방식에 대한 완전한 통제 권한을 가집니다.
 
@@ -60,4 +60,4 @@ dYdX Foundation은 이러한 요구 사항을 준수하지 않는 투자자에 �
 
 다음 차트는 시간 경과에 따른 총 유동성 공급을 보여줍니다.
 
-![](<../.gitbook/assets/Liquid Supply Schedule (2) (1).png>)
+![](<.. /.gitbook/assets/Liquid Supply Schedule (2).png>)
