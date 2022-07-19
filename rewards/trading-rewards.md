@@ -13,13 +13,13 @@ description: 거래 보상 프로그램 개요
 
 ## **개요**
 
-![dYdX Layer 2 프로토콜 거래로 보상 획득하기](<../.gitbook/assets/image (17).png>)
+![dYdX Layer 2 프로토콜 거래로 보상 획득하기](<../.gitbook/assets/image (17) (1).png>)
 
 DYDX는 dYdX Layer 2 프로토콜에 대한 유료 및 미결제 이자의 조합을 보상으로 제공하는 공식을 기반으로 하여 트레이더에게 배포될 것입니다. DYDX는 5년 동안 28일 순환을 기준으로 배포될 예정이며 모든 베스팅 또는 락업에서 제외됩니다. 3,835,616 DYDX가 순환당 배포됩니다.
 
 콥-더글라스 함수는 각 에폭 동안 각 트레이더에게 지급되는 DYDX의 양을 계산하는 데 사용됩니다.
 
-![](../.gitbook/assets/math-20211221.png)
+![](<../.gitbook/assets/math-20211221 (1).png>)
 
 $$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k $$
 
@@ -53,13 +53,13 @@ dYdX 레이어 2 프로토콜은 dYdX Trading Inc.의 [이용 약관](https://dy
 
 ![현재 에폭에 대한 보상 정보](<../.gitbook/assets/image (18).png>)
 
-과거 에폭에서 얻은 보상은 [**dydx.community/boris/reward**](https://dydx.community/history/rewards) ****(곧 제공 예정)에서 확인할 수 있습니다.
+과거 에폭에서 얻은 보상은 [**dydx.community/history/rewards**](https://dydx.community/history/rewards)\*\*\*\*(곧 제공 예정)에서 확인할 수 있습니다.
 
-### 거래 보상을 어떻게 클레임할 수 있습니까? 제가 획득한 DYDX를 언제 인출하고 양도할 수 있습니까?
+### 거래 보상을 어떻게 청구할 수 있습니까? 제가 획득한 DYDX를 언제 인출하고 양도할 수 있습니까?
 
 거래 보상을 통해 획득한 DYDX 토큰은 각 에폭이 종료될 때 양도할 수 있습니다. DYDX 보유자가 토큰을 클레임하려면 에폭이 종료되고 약 `7일`(**대기 기간**)을 기다려야 합니다. 토큰이 클레임되면 dYdX 거버넌스에 사용될 수 있습니다.
 
-트레이더는 [여기](https://dydx.community/dashboard)에서 에폭이 끝날 때마다 **대기 기간** 후 거래 보상을 청구할 수 있습니다.
+트레이더는 [여기](https://dydx.community/dashboard)에서 매 에폭이 끝날 때 **대기 기간** 후 거래 보상을 클레임할 수 있습니다.
 
 사용자는 DYDX를 클레임하려면 "클레임"를 클릭하고 거래에 서명하고 가스 수수료를 지불해야 합니다.
 
