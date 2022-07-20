@@ -13,13 +13,13 @@ description: トレード報酬プログラムの概要。
 
 ## **概要**
 
-![dYdXレイヤ2プロトコルでトレードすることで報酬を獲得する](<../.gitbook/assets/image (17).png>)
+![dYdXレイヤ2プロトコルでトレードすることで報酬を獲得する](<../.gitbook/assets/image (17) (1).png>)
 
 DYDXは、dYdXレイヤ2プロトコルで支払い済みの手数料およびオープンインタレストの組み合わせによる報酬計算公式に基づき、トレーダーに提供されます。DYDXは、5年間にわたって28日間のエポックを基本として提供され、権利確定やロックアップの対象にはなりません。各エポックで383万5,616DYDXが提供されます。
 
 Cobb-Douglas関数により、各エポックで各トレーダーに提供されるDYDXが計算されます。
 
-![](../.gitbook/assets/math-20211221.png)
+![](<../.gitbook/assets/math-20211221 (1).png>)
 
 $$
 r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k
@@ -55,7 +55,7 @@ dYdXレイヤ2プロトコルは、dYdX Trading Inc.の[利用規約](https://dy
 
 ![現在のエポックの報酬情報](<../.gitbook/assets/image (18).png>)
 
-過去のエポックの報酬は、[**dydx.community/history/rewards**](https://dydx.community/history/rewards)で確認できます****（近日公開）。
+過去のエポックからの報酬は、[**過去のエポックの報酬は、dydx.community/his**](https://dydx.community/history/rewards)tory/rewardsで確認できます****（近日公開）。
 
 ### トレード報酬を請求するにはどうすればよいですか？いつから獲得したDYDXを出金および移動することができますか？
 
