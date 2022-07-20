@@ -37,7 +37,7 @@ description: 流動性ステーキングプールの概要
 
 また、基礎となるスマートコントラクトコードに脆弱性が存在する場合、ステーカーはスマートコントラクトのリスクにさらされるおそれもあります。DYDXおよびガバナンスのスマートコントラクトはすべて監査され、厳密に検証されています。
 
-ステーカーのリスクを軽減するため、各ステーカーおよび流動性プロバイダーはリボルビングクレジット契約（リンクは[こちら](https://dydx.foundation/revolving-credit-agreement)）の会員になる必要があります。ただし、契約の締結はステーカーの権利が契約の下で施行されても、流動性プロバイダーが借入を全額返済することを保証するものではありません。
+ステーカーのリスクを軽減するため、各ステーカーおよび流動性プロバイダーはリボルビングクレジット契約（リンクは[こちら](https://dydx.foundation/revolving-credit-agreement)）の会員になる必要があります。ただし、契約の締結はステーカーの権利が契約の下で行使されても、流動性プロバイダーが借入を全額返済することを保証するものではありません。
 
 ## 承認済み借入者
 
@@ -48,12 +48,12 @@ description: 流動性ステーキングプールの概要
 古くから承認されている流動性プロバイダーには、dYdXレイヤ2プロトコルで積極的にマーケットメイキングを行っている`Wintermute`、`Amber Group`、`Wootrade（Kronos）`、`Sixtant`、`DAT Trading`が挙げられます。
 
 | 事前承認済みの借入者 | 当初の割り当て比率 | イーサリアムアドレス | StarkProxy | 流動性プロバイダーに関する詳細 |
-| ---------------------- | ----------------------------- | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Wintermute | 25％ | 0x4f3a120E72C76c22ae802D129F599BFDbc31cb81 | 0x0b2B08AC98a1568A34208121c26F4F41a9e0FbB6 | [https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/](https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/) |
-| Amber Group | 25％ | 0x4f3a120E72C76c22ae802D129F599BFDbc31cb81 | [0x3e6E9EFb0A677a24F47093a22044dc5451A028cF](https://etherscan.io/address/0x3e6E9EFb0A677a24F47093a22044dc5451A028cF) | [https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/](https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/) |
-| Wootrade (Kronos) | 20％ | 0x38d981c3c42b2ec8e9572f560552407d0f1279fb | [0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06](https://etherscan.io/address/0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06) | [https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/](https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/) |
-| Sixtant | 20％ | 0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c | [0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2](https://etherscan.io/address/0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2) | [https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/](https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/) |
-| DAT Trading | 10% | 0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c | [0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874](https://etherscan.io/address/0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874) | [https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/](https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/) |
+| ---------------------- | ----------------------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Wintermute | 25％ | [0x4f3a120E72C76c22ae802D129F599BFDbc31cb81](https://etherscan.io/address/0x4f3a120E72C76c22ae802D129F599BFDbc31cb81) | [0x0b2B08AC98a1568A34208121c26F4F41a9e0FbB6](https://etherscan.io/address/0x0b2B08AC98a1568A34208121c26F4F41a9e0FbB6) | [https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/](https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/) |
+| Amber Group | 25％ | [0x39Ad99E33ab7Ee85818741dD6076112188bc2611](https://etherscan.io/address/0x39Ad99E33ab7Ee85818741dD6076112188bc2611) | [0x3e6E9EFb0A677a24F47093a22044dc5451A028cF](https://etherscan.io/address/0x3e6E9EFb0A677a24F47093a22044dc5451A028cF) | [https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/](https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/) |
+| WOOネットワーク（Kronos） | 20％ | [0x38d981c3c42b2ec8e9572f560552407d0f1279fb](https://etherscan.io/address/0x38d981c3c42b2ec8e9572f560552407d0f1279fb) | [0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06](https://etherscan.io/address/0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06) | [https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/](https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/) |
+| Sixtant | 20％ | [0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c](https://etherscan.io/address/0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c) | [0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2](https://etherscan.io/address/0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2) | [https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/](https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/) |
+| DAT Trading | 10% | [0x83E8fb8f4DAE0f42d68FdbBf85d4191a5e6f92F8](https://etherscan.io/address/0x83e8fb8f4dae0f42d68fdbbf85d4191a5e6f92f8) | [0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874](https://etherscan.io/address/0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874) | [https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/](https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/) |
 
 ## ステーキングされた残高の計算
 
@@ -64,7 +64,7 @@ description: 流動性ステーキングプールの概要
 
 ステーカーによっては、アクティブな残高と非アクティブな残高の組み合わさっている場合があります。以下の例に示すように、USDCはエポックごとに構成されています。
 
-![Staked balance accounting](<../.gitbook/assets/image (34).png>)
+![ステーキングされた残高の計算](<../.gitbook/assets/image (34) (1).png>)
 
 ステーキングされた残高に関する操作は次のとおりです。
 
@@ -77,7 +77,7 @@ description: 流動性ステーキングプールの概要
 
 ### stkUSDCとは何ですか？
 
-USDCを流動性ステーキングプールに入金およびステーキングするUSDC保有者は、トークン化されたポジション(**stkUSDC**）を受け取ります。ユーザーがUSDCをステーキングするとstkUSDCが発行され、ユーザーが`withdrawStake`を要求するとstkUSDCが消費されます。同一のトランザクション内で、USDCがステーカーのウォレットから出ていき、stkUSDCがウォレットに入ってきます。ステーキングを解除すると、出入りが逆になります。
+USDCを流動性ステーキングプールに入金およびステーキングするUSDC保有者は、トークン化されたポジション（**stkUSDC**）を受け取ります。ユーザーがUSDCをステーキングするとstkUSDCが発行され、ユーザーが`withdrawStake`を要求するとstkUSDCが消費されます。同一のトランザクション内で、USDCがステーカーのウォレットから出ていき、stkUSDCがウォレットに入ってきます。ステーキングを解除すると、出入りが逆になります。
 
 stkUSDCの残高は、アクティブまたは非アクティブにすることができます。アクティブなstkUSDCは、ERC-20として移動はできますが、出金はできません。非アクティブなstkUSDCは、出金はできますが、移動はできません。たとえば、ユーザーがウォレットにアクティブおよび非アクティブなstkUSDCをそれぞれ100個ずつ有している場合、ユーザー残高は200stkUSDCと表示されますが、ユーザーが100個以上のstkUSDCを移動しようとすると、移動は取り消されてしまいます。
 
@@ -91,7 +91,7 @@ stkUSDCの残高は、アクティブまたは非アクティブにすること�
 
 アクティブな状態である間は、ステーキングされたUSDCにより報酬を獲得することができます。これは、USDCの一部出金をリクエストした後も、エポックの終了までUSDCにより引き続き報酬を獲得できることを意味します。例：
 
-![Rewards accounting](<../.gitbook/assets/image (65).png>)
+![報酬の計算](<../.gitbook/assets/image (65) (1).png>)
 
 上記のシナリオの場合、ユーザーは**Time0**から**Time2**までの期間で報酬を獲得しますが、ステーキングされた総残高によって変動します。ユーザーが、残高の一部を出金リクエストしただけであれば、残りの残高により**Time2**以降も引き続き報酬を獲得することになります。
 
@@ -125,10 +125,10 @@ USDCを出金するには、ユーザーは次のエポックに対する`reques
 
 流動性プールへのUSDCのステーキングを解除するには、以下の手順に従います。
 
-* [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)にアクセスします。****
+* [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*にアクセスします
 * 「**リクエスト**」をクリックし、以下のモーダルを開きます。
 
-![Requesting withdraw](<../.gitbook/assets/image (58).png>)
+![出金リクエスト](<../.gitbook/assets/image (68).png>)
 
 * プールからの出金リクエストをするUSDC額を入力し、「**出金リクエスト**」をクリックします。USDCのステーキングを解除するには、ガス手数料を支払う必要があります。
 * ステーカーは、現在のエポックが終了する遅くとも14日（**ブラックアウトウィンドウ**）前までにUSDCのステーキングを解除すると、次のエポックからUSDCを出金することが可能になります。
@@ -151,7 +151,7 @@ dYdXのガバナンスは、以下の責任があります。
 
 出金リクエストのUSDCは、借入者がエポックの終了前に返済する必要があります。未返済の場合、未返済額は「債務残高」となり、ステーキングコントラクトは再安定化されます。問題の借入者は、債務残高を返済しなければならず、ガバナンスにより元どおりに戻るまで、借入は制限されることになります。
 
-借入者はリボルビングクレジット契約のすべての条件の対象となります（リンクは[こちら](https://dydx.foundation/revolving-credit-agreement)）。
+借入者はリボルビングクレジット契約のすべての条件の対象になります（リンクは[こちら](https://dydx.foundation/revolving-credit-agreement)）。
 
 ### **StarkProxyの特徴**
 
@@ -228,13 +228,13 @@ dYdXのガバナンスは、以下の責任があります。
 
 こうした状況で、ショートフォールが発生して借入者が出金リクエストした資金の返済に遅延が生じた場合、非アクティブの資金は、以下のように社会化された損失の対象になる可能性があります。借入資金における債務不履行の場合、滞納の借入者は著しい風評被害に直面することになります。
 
-各ステーカーおよび借入者は、リボルビングクレジット契約（リンクは[こちら](https://dydx.foundation/revolving-credit-agreement)）の当事者となりますが、本契約は借入者が債務を返済することを保証するものではありません。
+各ステーカーおよび借入者はリボルビングクレジット契約（リンクは[こちら](https://dydx.foundation/revolving-credit-agreement)）の当事者となりますが、本契約は借入者が債務を返済することを保証するものではありません。
 
 ### コントラクトにより、ソルベンシーがどのように維持されるのですか？
 
 どんなときも、ステーキングされた残高と借入した残高の関係に基づき、コントラクトは以下のいずれかの状態になります。
 
-![Contract Solvency](<../.gitbook/assets/image (41).png>)
+![コントラクトのソルベンシー](<../.gitbook/assets/image (41).png>)
 
 コントラクトにおいて**債務超過**とされるのは以下の場合です。
 
@@ -252,7 +252,7 @@ dYdXのガバナンスは、以下の責任があります。
 
 この過程を図解すると以下のようになります。
 
-![Default](<../.gitbook/assets/image (46).png>)
+![債務不履行](<../.gitbook/assets/image (46).png>)
 
 ### 債務は何を表していますか？
 
@@ -262,7 +262,7 @@ dYdXのガバナンスは、以下の責任があります。
 
 ### 借入者による債務不履行の場合、ステーカーはどのような償還請求ができますか？
 
-ステーカーおよび借入者は、各ステーカーと各借入者との間に強制力のある取り決めを構築することを目的としたリボルビングクレジット契約（リンクは[こちら](https://dydx.foundation/revolving-credit-agreement)）の当事者となります。さらに、流動性ステーキングプールのスマートコントラクトは、借入者に対してステーカーが償還請求できる内容になっていますが、これにより返済を保証することはできません。
+ステーカーおよび借入者は、各ステーカーと各借入者との間に強制力のある取り決めを構築することを目的としたリボルビングクレジット契約（リンクは[こちら](https://dydx.foundation/revolving-credit-agreement)）の当事者になります。さらに、流動性ステーキングプールのスマートコントラクトは、借入者に対してステーカーが償還請求できる内容になっていますが、これにより返済を保証することはできません。
 
 借入者において`markDebt()`が呼び出されると、借入者はコントラクトからさらなる資金を借り入れる権利を失います。この権利は、ガバナンスで回復させることができます。
 
