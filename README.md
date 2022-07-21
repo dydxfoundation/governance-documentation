@@ -10,4 +10,6 @@ DYDX yönetişim, ödüller ve staking çerçevesinde sağlam bir ekosisteme ola
 
 Staking havuzları, Protokol'de likidite ve güvenliği artırmak amacıyla tasarlanmıştır. dYdX alım satımı, likidite sağlama ve geçmişteki kullanımına yönelik ödül programları dYdX'in büyümesini ve benimsenmesini sağlamaya yardımcı olacaktır.
 
-DYDX'i kullanıma sunmanın yanı sıra şunları da çıkardık:\\ 🖥️ [**dydx.community**](https://dydx.community) adresinde bir yönetişim ürünü\ 📈 USDC için [**Likidite Staking Havuzu**](staking-pools/liquidity-staking-pool.md)\ 🔒 DYDX için [**Güvenlik Staking Havuzu**](staking-pools/safety-staking-pool.md)\ 💰 [**Alım Satım Ödülleri**](rewards/trading-rewards.md)****\ ****💸 Geçmişteki kullanıcılar için [**Geriye Dönük Madencilik Ödülleri**](rewards/retroactive-mining-rewards.md)\ 📊 [**Likidite Sağlayıcı Ödülleri**](rewards/liquidity-provider-rewards.md)
+DYDX'i kullanıma sunmanın yanı sıra şunları da çıkardık:\\ 🖥️ [**dydx.community**](https://dydx.community) adresinde bir yönetişim ürünü\ 📈 USDC için [**Likidite Staking Havuzu**](staking-pools/liquidity-staking-pool.md)\ 🔒 DYDX için [**Güvenlik Staking Havuzu**](staking-pools/safety-staking-pool.md)\ 💰 [**Yatırım Ödülleri**](rewards/trading-rewards.md)\
+ 💸 [**Geriye Dönük Madencilik Ödülleri**](rewards/retroactive-mining-rewards.md), geçmiş kullanıcılar için\
+ 📊 [**Likidite Sağlayıcı Ödülleri**](rewards/liquidity-provider-rewards.md)
