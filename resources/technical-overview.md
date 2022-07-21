@@ -71,11 +71,11 @@ Todo o código-fonte do contrato inteligente para os contratos de governança e 
 
 O código-fonte do frontend de governança hospedado na dydx.community pode ser encontrado [aqui](https://github.com/dydxfoundation/pnyx).
 
-Todos os principais novos contratos inteligentes foram auditados pela Peckshield. Não foram encontrados problemas de segurança significativos nem de alta prioridade. A principal governança e os contratos de token são derivados dos contratos de governança da Aave, que foram auditados pelos [CertiK](https://www.certik.io), [Certora](https://www.certora.com) e [Peckshield](https://peckshield.com/en) e foram testados pela mainnet por meses.
+Todos os principais novos contratos inteligentes foram auditados pela Peckshield. Não foram encontrados problemas de segurança significativos nem de alta prioridade. A principal governança e os contratos de token são derivados dos contratos de governança da Aave, que foram auditados pelos [CertiK](https://www.certik.io/), [Certora](https://www.certora.com/) e [Peckshield](https://peckshield.com/en) e foram testados pela mainnet por meses.
 
 ## Contratos de governança principal
 
-![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/assets/Screen Shot 2021-09-03 at 5.17.43 PM.png>)
+![Linhas com tracejado vermelho indicam que o contrato é atualizável](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.17.43 PM (1).png>)
 
 ### DydxToken
 
@@ -135,9 +135,7 @@ O **contrato de timelock de prioridade Starkware** está implantado em [0xa30698
 
 ### Distribuidor Merkle
 
-
-
-![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/assets/Screen Shot 2021-09-03 at 5.23.50 PM.png>)
+![Linhas com tracejado vermelho indicam que o contrato é atualizável](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.23.50 PM (1).png>)
 
 O contrato inteligente Merkle distribui recompensas de token DYDX de acordo com uma árvore de Merkle de saldos. A árvore pode ser atualizada periodicamente com o saldo de recompensa cumulativo de cada usuário, permitindo que novas recompensas sejam distribuídas aos usuários ao longo do tempo.
 
@@ -151,9 +149,7 @@ O contrato inteligente Merkle foi inspirado por projetos como Uniswap e Badger. 
 
 ### Módulo de segurança
 
-
-
-![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/assets/Screen Shot 2021-09-03 at 5.24.45 PM.png>)
+![Linhas com tracejado vermelho indicam que o contrato é atualizável](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.24.45 PM (1).png>)
 
 O Módulo de Segurança é um pool de staking que oferece recompensas DYDX aos usuários que façam o stake de DYDX com vistas para a segurança do protocolo.
 
@@ -161,31 +157,23 @@ O Módulo de Segurança é um pool de staking que oferece recompensas DYDX aos u
 
 \[em breve]
 
-
-
 ### Módulo de liquidez
 
-
-
-![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/assets/Screen Shot 2021-09-03 at 5.25.30 PM.png>)
+![Linhas com tracejado vermelho indicam que o contrato é atualizável](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.25.30 PM (1).png>)
 
 O Módulo de Liquidez é uma coleção de contratos inteligentes para o staking e empréstimos, que incentivam a alocação de fundos em USDC para fins de criação de mercado na exchange dYdX Layer 2.
 
 Os stakers ganham recompensas DYDX ao fazerem o staking de USDC. Os fundos em staked podem ser emprestados por certos parceiros pré-aprovados com base em reputação e sem garantia. Os fundos só podem ser usados na exchange L2, isto é aplicado por meio do contrato StarkProxy que interage com o contrato da Exchange StarkEx Perpetual.
 
-![A diagram of the Liquidity module](<.. /.gitbook/assets/image (66).png>)
+![Um diagrama do módulo de liquidez](<../.gitbook/assets/image (66).png>)
 
 ### StarkProxy
 
 Este contrato permite que o proprietário empreste fundos da LiquidityStaking e use-os na StarkPerpetual. Fundos adicionais podem ser depositados pelo proprietário, e quaisquer fundos que excedam o valor emprestado podem ser retirados livremente. Este contrato interage com o contrato [StarkPerpetual](https://github.com/starkware-libs/starkex-contracts/tree/master/scalable-dex/contracts/src/perpetual) que foi escrito pela Starkware e anteriormente auditado e implantado.
 
-
-
 ### Contratos do Tesouro
 
-
-
-![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM.png>)
+![Linhas com tracejado vermelho indicam que o contrato é atualizável](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM (1).png>)
 
 O contrato do TreasuryVester foi inspirado pela [Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol).
 
@@ -196,8 +184,6 @@ Há dois investidores do tesouro e contratos do tesouro: um deles visa as recomp
 Como a governança controla cada tesouro, ela pode transferir fundos para qualquer endereço e/ou aprovar qualquer endereço para gastar fundos de qualquer um dos tesouros. Por exemplo, os programas de recompensas precisarão ter limites de aprovação de token definidos pela governança.
 
 Cada investidor do tesouro fará a aquisição de tokens de forma linear ao longo de \~5 anos (3 de agosto de 2021 - 3 de agosto de 2026) para o tesouro correspondente.
-
-
 
 ## Contratos periféricos
 
@@ -211,8 +197,8 @@ Após calcular as recompensas apropriadas a partir dos dados de trades brutos, a
 
 O fluxograma a seguir mostra a arquitetura do sistema de Recompensas da Chainlink Oracle-Powered:
 
-![](<.. /.gitbook/assets/Merkle Distributor.png>)
+![](<../.gitbook/assets/Merkle Distributor (1).png>)
 
 ### Outros ativos
 
-* Os ativos da marca dYdX Foundation estão disponíveis [**aqui**](https://dydx.foundation/brand)****
+* Os ativos da marca dYdX estão disponíveis [**aqui**](https://dydx.foundation/brand)\*\*\*\*

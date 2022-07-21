@@ -17,7 +17,7 @@ Comece a fazer staking em [**dydx.community/dashboard/pools/liquidez**](https://
 
 A liquidez é um componente essencial de qualquer exchange bem-sucedida. Para promover os efeitos de rede de liquidez e incentivar os provedores de liquidez profissionais, a DYDX será distribuída a usuários que fizerem stake de USDC no pool de staking de liquidez. Os provedores de liquidez aprovados pela comunidade usarão o USDC em staking para movimentar os mercados do protocolo dYdX Layer 2, aumentando a liquidez disponível nos mercados. Os provedores de liquidez ficam restritos de usar fundos emprestados fora do protocolo dYdX Layer 2.
 
-Os stakers ganham recompensas DYDX quando fazem staking de USDC. As recompensas da DYDX serão distribuídas continuamente de acordo com a parte de USDC total de cada staker no pool.
+Os stakers ganham recompensas DYDX quando fazem staking de USDC. As recompensas DYDX serão distribuídas continuamente de acordo com a parte de USDC total de cada staker no pool.
 
 Cada staker e provedor de liquidez precisam tomar parte do contrato de crédito de resgate (link [aqui](https://dydx.foundation/revolving-credit-agreement)). O contrato coloca em linguagem natural os termos do pool de staking de liquidez, que concede a cada staker um direito obrigatório sobre qualquer provedor de liquidez que não cubra o USDC emprestado. O contrato é apenas entre cada staker e cada provedor de liquidez. A dYdX Foundation não é uma parte do contrato e não tem direitos ou obrigações atribuídas por ele.
 
@@ -64,7 +64,7 @@ Um saldo em staking está em um dos dois estados:
 
 Um staker pode ter uma combinação de saldos ativos ativos e inativos. O USDC é contabilizado epoch a epoch, conforme mostrado no seguinte exemplo:
 
-![Staked balance accounting](<.. /.gitbook/assets/image (34).png>)
+![Contabilidade do saldo em stake](<../.gitbook/assets/image (34) (1).png>)
 
 As operações seguintes afetam os saldos em staking da seguinte forma:
 
@@ -91,7 +91,7 @@ Os stakers podem depositar USDC a qualquer momento no pool de staking de liquide
 
 O USDC em stake recebe recompensas pelo período no qual permanece ativo. Isso significa que após solicitar um saque de alguns USDC, este USDC continuará a ganhar recompensas até o final da epoch. Por exemplo:
 
-![Rewards accounting](<.. /.gitbook/assets/image (65).png>)
+![Contabilidade de recompensas](<../.gitbook/assets/image (65) (1).png>)
 
 No cenário acima, o usuário ganharia recompensas pelo período de **Time0** a **Time2**, havendo variações no saldo em staking total nesse período. Se o usuário solicitar apenas um saque para uma parte do saldo do usuário, o saldo restante continuará a receber recompensas além do **tempo 2**.
 
@@ -105,7 +105,7 @@ Para fazer stake de USDC no pool de liquidez, siga estes passos:
 * Digite o valor de USDC que deseja fazer o stake no pool.
 * Clique em “Stake Funds (Fazer stake dos fundos)”. Você precisará pagar as taxas de gás de stake, solicitação de saque e saque de USDC.
 
-![](<.. /.gitbook/assets/image (57).png>)
+![](<../.gitbook/assets/image (57).png>)
 
 O USDC em staking está ativo agora e começara a receber recompensas imediatamente.
 
@@ -125,10 +125,10 @@ Na próxima epoch, os usuários chamam a função `withdrawStake` para sacar o U
 
 Para remover o USDC do stake no pool de liquidez, siga as seguintes etapas:
 
-* Acesse [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)****
+* Visite [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*
 * Clique em “**Request (Solicitação)**”, para abrir o seguinte modal:
 
-![Requesting withdraw](<.. /.gitbook/assets/image (58).png>)
+![Solicitando saque](<../.gitbook/assets/image (68).png>)
 
 * Digite o valor de USDC que deseja solicitar para saque do pool e clique em “**Request withdraw (Solicitar saque)**”. Você precisará pagar as taxas de gás para remover o USDC do stake.
 * Os stakers que solicitarem a remoção do USDC pelo menos 14 dias (**janela de bloqueio**) antes da epoch atual terminar podem sacar seu USDC no início da próxima epoch.
@@ -138,7 +138,7 @@ Para remover o USDC do stake no pool de liquidez, siga as seguintes etapas:
 A governança da dYdX é responsável por:
 
 * Fazer a auditoria legal sobre os mutuários existentes
-* Adicionar novos mutuários e/ou remover os mutuários existentes do pool de staking de liquidez
+* Adicionar novos mutuários e/ou remover os mutuários atuais do pool de staking de liquidez
 * Alterar as alocações de USDC emprestadas a mutuários aprovados
    * As funções `setBorrowerAllocations` e `setBorrowingRestriction` são chamadas para alterar as alocações de determinados mutuários. Elas podem ser usadas para adicionar e remover os mutuários. Os aumentos entram em vigor na próxima epoch, mas as reduções restringirão empréstimos imediatamente. Essas funções não podem ser chamadas durante a janela de bloqueio.
 * O tamanho da epoch e a janela de bloqueio são configurados na criação do contrato, mas podem ser alterados
@@ -234,7 +234,7 @@ Embora cada staker e mutuário sejam parte do contrato de crédito em resgate (l
 
 A qualquer momento o contrato estará em um dos seguintes estados com base na relação entre os saldos de staking e os emprestados:
 
-![Contract Solvency](<.. /.gitbook/assets/image (41).png>)
+![Solvência do contrato](<../.gitbook/assets/image (41).png>)
 
 O contrato se encontrará em **estado de insolvência**:
 
@@ -252,7 +252,7 @@ Quando `markDebt()` é chamado, o valor de déficit de cada mutuário é removid
 
 Este processo é mostrado abaixo:
 
-![Default](<.. /.gitbook/assets/image (46).png>)
+![Inadimplência](<../.gitbook/assets/image (46).png>)
 
 ### O que a dívida representa?
 

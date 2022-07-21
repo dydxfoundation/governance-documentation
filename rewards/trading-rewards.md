@@ -13,13 +13,13 @@ description: Visão geral do programa de recompensas de trades.
 
 ## **Visão geral**
 
-![Ganhe recompensas ao fazer trades no protocolo da dYdX Camada 2](<../.gitbook/assets/image (17).png>)
+![Ganhe recompensas ao fazer trades no protocolo da dYdX Camada 2](<../.gitbook/assets/image (17) (1).png>)
 
 Os tokens DYDX serão distribuídos a traders com base em uma fórmula que recompensa uma combinação de taxas pagas e posições abertas no protocolo dYdX Layer 2. Os tokens DYDX serão distribuídos dentro de um ciclo de 28 dias ao longo de um período de cinco anos, não estando sujeitos a vesting ou bloqueios. 3.835.616 DYDX serão distribuídos por epoch.
 
 A função Cobb-Douglas é usada para calcular quanto DYDX é concedida a cada trader durante cada epoch:
 
-![](../.gitbook/assets/math-20211221.png)
+![](<../.gitbook/assets/math-20211221 (1).png>)
 
 $$
  r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k
@@ -55,13 +55,13 @@ Na epoch atual, os usuários podem consultar as taxas pagas, média de posiçõe
 
 ![Informações de recompensas para a epoch atual](<../.gitbook/assets/image (18).png>)
 
-As recompensas de epoch passadas podem ser exibidas em [**dydx.community/history/rewards**](https://dydx.community/history/rewards) **** (em breve).
+As recompensas de epochs passadas podem ser vistas em [**dydx.community/history/rewards**](https://dydx.community/history/rewards) \*\*\*\* (em breve).
 
 ### Como posso resgatar minhas recompensas de trades? Quando posso sacar e transferir a DYDX que recebi?
 
 Os tokens DYDX obtidos por meio de recompensas de trades se tornam transferíveis ao final de cada epoch. Os holders de tokens DYDX são obrigados a esperar aproximadamente `7 dias` (**período de espera**) após o final da epoch para resgatá-los. Uma vez que os tokens tenham sido resgatados, eles podem ser usados na governança da dYdX.
 
-Os traders podem resgatar suas recompensas de trades ao final de cada epoch [aqui](https://dydx.community/dashboard), após o **período de espera**.
+Os traders podem resgatar suas recompensas ao final de cada epoch [aqui](https://dydx.community/dashboard), após o **período de espera**.
 
 Os usuários precisarão clicar em “Claim (Resgatar)”, assinar uma transação e pagar as taxas de gás para o resgate de DYDX.
 

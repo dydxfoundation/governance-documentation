@@ -13,11 +13,11 @@ description: Uma visão geral do pool de staking de segurança
 
 A DYDX em staking no módulo de segurança mantém os direitos de voto e de proposição, assim como as capacidades de delegação.
 
-Comece a fazer staking em [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
+Comece a fazer staking em [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
 
 ## Visão geral
 
-A segurança e a proteção do usuário têm sido fundamental desde o lançamento do protocolo. Por essa razão, tokens DYDX são distribuídos aos usuários que fizerem stake de DYDX no pool de segurança, de modo a criar uma rede de segurança adicional para os usuários do protocolo.  Os stakers receberão DYDX continuamente e de modo proporcional à sua parte total de DYDX no pool.
+A segurança e a proteção do usuário têm sido fundamental desde o lançamento do protocolo. Por essa razão, tokens DYDX serão distribuídos aos usuários que fizerem stake em DYDX no pool de segurança, de modo a criar uma rede de segurança adicional para os usuários do protocolo. Os stakers receberão DYDX continuamente e de modo proporcional à sua parte total de DYDX no pool.
 
 O pool de segurança entrará em vigor quando a DYDX se tornar transferível, em 8 de setembro de 2021, 15:00 UTC.
 
@@ -49,7 +49,7 @@ Os stakers podem depositar DYDX a qualquer momento no pool de staking de seguran
 
 Os fundos ativos ganham recompensas pelo período em que permanecem ativos. Isso significa que após solicitar um saque de fundos, estes continuarão a ganhar recompensas até o final da epoch. Isso é mostrado no seguinte exemplo do [pool de staking de liquidez](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool):
 
-![](<.. /.gitbook/assets/image (59).png>)
+![](<../.gitbook/assets/image (65).png>)
 
 No cenário acima, o usuário ganharia recompensas pelo período de **Time0** a **Time2**, havendo variações no saldo em staking total nesse período. Se o usuário solicitar apenas um saque por uma parte do saldo, o saldo restante continuará a receber recompensas além de **Time2**.
 
@@ -57,11 +57,11 @@ No cenário acima, o usuário ganharia recompensas pelo período de **Time0** a 
 
 Para fazer stake de DYDX no pool de segurança, siga estas etapas:
 
-* Visite [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
+* Visite [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
 * Clique em “**Stake (Fazer stake)**”
 * É preciso habilitar a DYDX na primeira vez que fizer o depósito. Você só terá de fazer isso e pagar a taxa de gás uma vez.
 * Digite o valor de DYDX com o qual deseja fazer o stake no pool.
-* Clique em “**Stake Funds (Fazer stake de fundos)**”.  Você precisará pagar as taxas de gás para fazer stake ou remover os fundos dele.
+* Clique em “**Fazer stake de fundos**”. Você precisará pagar as taxas de gás para fazer stake ou remover os fundos dele.
 
 Os fundos em staking ficam ativos e começam a receber recompensas imediatamente.
 
@@ -86,7 +86,7 @@ Um saldo em staking está em um dos dois estados:
 
 Um staker pode ter uma combinação de saldos ativos e inativos. Os fundos são contabilizados por epoch, como mostrado no seguinte exemplo:
 
-![](<.. /.gitbook/assets/image (36).png>)
+![](<../.gitbook/assets/image (36) (1).png>)
 
 As operações seguintes afetam os saldos em staking da seguinte forma:
 
@@ -107,7 +107,7 @@ Na próxima epoch, os usuários chamam a função \`withdrawStake\` para sacar o
 
 Para sacar a DYDX do pool de liquidez, siga estas etapas:
 
-* Visite [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
+* Visite [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
 * Clique em “**Solicitar**” e digite o valor de DYDX que deseja sacar do pool.
 * Clique em “**Solicitar saque**”. Será necessário pagar as taxas para sacar os fundos.
 * Os stakers que solicitarem o saque de DYDX pelo menos 14 dias antes que a epoch atual termine poderão sacar sua DYDX no início da próxima epoch.
