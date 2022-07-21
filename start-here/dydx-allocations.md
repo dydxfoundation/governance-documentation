@@ -19,11 +19,11 @@ Toplam `1.000.000.000 DYDX` çıkarılmış olup **3 Ağustos 2021 günü saat 1
 * dYdX Trading veya dYdX Vakfı'nın kurucuları, çalışanları, müşavirleri ve danışmanlarına **%15,27** (`152.704.930 DYDX`)
 * dYdX Trading veya dYdX Vakfı'nın gelecekteki çalışanları ve danışmanlarına **%7,00** (`70.000.000 DYDX`)
 
-![](<.. /.gitbook/assets/DYDX Allocations (Initial 5 Years).png>)
+![](<../.gitbook/assets/DYDX Allocations (Initial 5 Years) (1).png>)
 
 Lansmandan beş yıl sonra başlamak üzere, topluluğun Protokol'ün gelişimini ve büyümesini sürdürmeye yetecek kaynaklara sahip olmasını sağlamak amacıyla yönetişim tarafından yıllık `%2` oranında bir maksimum sürekli enflasyon oranı uygulanabilir. Enflasyon bir yönetişim teklifi aracılığıyla uygulamaya konmalı ve üst sınırı yıllık `%2` olmalıdır.
 
-![](<.. /.gitbook/assets/Allocation 10 Years Inflation (1).png>)
+![](<../.gitbook/assets/Allocation 10 Years Inflation (1) (1).png>)
 
 Her ne kadar topluluk tahsisi yukarıda belirtilen şekilde tespit edilmiş olsa da DYDX sahipleri topluluk tahsisinin ileride nasıl kullanılacağı konusunda yönetişim yoluyla tam kontrol sahibidir.
 
@@ -60,4 +60,4 @@ Dönem 0'ın sona ermesinden `8 gün` sonra, 8 Eylül 2021 tarihinde, token üze
 
 Aşağıdaki grafikte, zaman içerisindeki toplam likit arz gösterilmektedir:
 
-![](<.. /.gitbook/assets/Liquid Supply Schedule (2).png>)
+![](<../.gitbook/assets/Liquid Supply Schedule (2) (1).png>)

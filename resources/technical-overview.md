@@ -71,11 +71,11 @@ Yönetişim sözleşmeleri ve staking havuzları için tüm akıllı sözleşme 
 
 dydx.community sitesinde barındırılan yönetişim ön ucu için kaynak kodunu [burada](https://github.com/dydxfoundation/pnyx) bulabilirsiniz.
 
-Önemli tüm yeni akıllı sözleşmeler Peckshield tarafından denetlenmiştir. Hiçbir önemli veya yüksek öncelikli güvenlik sorunu bulunmamıştır. Çekirdek yönetişim ve token sözleşmeleri [CertiK](https://www.certik.io), [Certora](https://www.certora.com) ve [Peckshield](https://peckshield.com/en) tarafından denetlenen Aave yönetişim sözleşmelerinden fork'lanmıştır ve mainnet üzerinde aylarca saha testine tabi tutulmuştur.
+Önemli tüm yeni akıllı sözleşmeler Peckshield tarafından denetlenmiştir. Hiçbir önemli veya yüksek öncelikli güvenlik sorunu bulunmamıştır. Çekirdek yönetişim ve token sözleşmeleri [CertiK](https://www.certik.io/), [Certora](https://www.certora.com/) ve [Peckshield](https://peckshield.com/en) tarafından denetlenen Aave yönetişim sözleşmelerinden fork'lanmıştır ve mainnet üzerinde aylarca saha testine tabi tutulmuştur.
 
 ## Ana Yönetişim Sözleşmeleri
 
-![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/assets/Screen Shot 2021-09-03 at 5.17.43 PM.png>)
+![Kırmızı kesik çizgiler sözleşmenin yükseltilebilir olduğunu gösterir](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.17.43 PM (1).png>)
 
 ### DydxToken
 
@@ -135,9 +135,7 @@ Executor sözleşmesinde Aave'den esinlenilmiştir. dYdX tarafından küçük de
 
 ### Merkle Distributor
 
-
-
-![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/assets/Screen Shot 2021-09-03 at 5.23.50 PM.png>)
+![Kırmızı kesik çizgiler sözleşmenin yükseltilebilir olduğunu gösterir](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.23.50 PM (1).png>)
 
 Merkle Distributor akıllı sözleşmesi Merkle bakiyeler ağacına göre DYDX token ödüllerini dağıtır. Ağaç her kullanıcının toplam ödül bakiyesi ile belirli aralıklarla güncellenebilir ve böylece yeni ödüller zaman içerisinde kullanıcılara dağıtılabilir.
 
@@ -151,9 +149,7 @@ Merkle Distributor akıllı sözleşmesinde Uniswap ve Badger tasarımlarından 
 
 ### Safety Module
 
-
-
-![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/assets/Screen Shot 2021-09-03 at 5.24.45 PM.png>)
+![Kırmızı kesik çizgiler sözleşmenin yükseltilebilir olduğunu gösterir](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.24.45 PM (1).png>)
 
 Safety Module, Protokol'ün güvenliği için DYDX stake eden kullanıcılara DYDX ödülleri sunan bir staking havuzudur.
 
@@ -161,31 +157,23 @@ Safety Module, Protokol'ün güvenliği için DYDX stake eden kullanıcılara DY
 
 \[pek yakında]
 
-
-
 ### Likidite Modülü
 
-
-
-![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/assets/Screen Shot 2021-09-03 at 5.25.30 PM.png>)
+![Kırmızı kesik çizgiler sözleşmenin yükseltilebilir olduğunu gösterir](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.25.30 PM (1).png>)
 
 Liquidity Module, staking ve borç verme için bir akıllı sözleşme koleksiyonudur ve bu sözleşmeler USDC fonlarının dYdX katman 2 borsası üzerinde piyasa yapıcı amaçları doğrultusunda tahsis edilmesini teşvik eder.
 
 Stake edenler, USDC staking için DYDX ödülleri kazanır. Stake edilen fonlar, belirli önceden onaylanmış ortaklar tarafından itibarlarına bağlı olarak teminatsız bir şekilde borç alınabilir. Bu fonlar sadece L2 borsası üzerinde kullanılabilir. Bu zorunluluk, StarkEx Perpetual Exchange sözleşmesi ile etkileşime giren StarkProxy sözleşmesi aracılığıyla gözetilir.
 
-![A diagram of the Liquidity module](<.. /.gitbook/assets/image (66).png>)
+![Likidite modülünün bir diyagramı](<../.gitbook/assets/image (66).png>)
 
 ### StarkProxy
 
 Bu sözleşme token sahibinin LiquidityStaking'den fon borç almasına ve bu fonları StarkPerpetual'da kullanmasına olanak tanır. Token sahibi tarafından daha fazla fon yatırılabilir ve borç alınan tutarın üzerindeki fonlar serbestçe çekilebilir. Bu sözleşme, Starkware tarafından yazılmış ve daha önce denetlenmiş ve konuşlandırılmış olan [StarkPerpetual](https://github.com/starkware-libs/starkex-contracts/tree/master/scalable-dex/contracts/src/perpetual) sözleşmesi ile etkileşime girer.
 
-
-
 ### Hazine Sözleşmeleri
 
-
-
-![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM.png>)
+![Kırmızı kesik çizgiler sözleşmenin yükseltilebilir olduğunu gösterir](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM (1).png>)
 
 TreasuryVester sözleşmesinde [Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol)'tan esinlenilmiştir.
 
@@ -196,8 +184,6 @@ Short Timelock yalnızca yönetişim tarafından onaylanmış eylemleri yürüte
 Her bir hazineyi yönetişim kontrol ettiğinden, her iki hazineden de fonları herhangi bir adrese aktarabilir ve/veya fonların harcanacağı herhangi bir adresi onaylayabilir. Örneğin, ödül programlarında yönetişim tarafından belirlenen token onay limitleri olması gerekir.
 
 Her bir treasury vester, token'ları ilgili hazineye \~5 yıl (3 Ağustos 2021 - 3 Ağustos 2026) boyunca doğrusal bir şekilde vest edecektir.
-
-
 
 ## Harici Sözleşmeler
 
@@ -211,8 +197,8 @@ Chainlink, ham alım satım verilerinden uygun ödülleri hesapladıktan sonra M
 
 Aşağıdaki akış grafiği Chainlink Oracle Tarafından Desteklenen Ödüller sistem mimarisini göstermektedir:
 
-![](<.. /.gitbook/assets/Merkle Distributor.png>)
+![](<../.gitbook/assets/Merkle Distributor (1).png>)
 
 ### Diğer Varlıklar
 
-* dYdX Vakfı markalı varlıklar [**burada**](https://dydx.foundation/brand) mevcuttur****
+* dYdX Vakfı marka tanıtım materyalleri [**burada mevcuttur**](https://dydx.foundation/brand)\*\*\*\*

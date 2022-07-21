@@ -19,9 +19,9 @@ dYdX Yönetişiminin merkezinde 6 akıllı sözleşme vardır:
 * **`Safety Module` sözleşmesi**: DYDX token'larının stake edilmesini, pozisyonun token'a dönüştürülmesini ve ödüllerin alınmasını sağlayan mantıkları içerir. Güvenlik modülünde stake edilen token'lar tüm yönetişim haklarını muhafaza eder.
 * **`Governor` sözleşmesi**: Teklifleri izler ve Timelock akıllı sözleşmesi aracılığıyla teklifleri yürütür.
 * **`Timelock` sözleşmeleri**: Yönetişim tarafından oylanan işlemleri sıraya koyar, iptal eder veya yürütür. Bir teklifteki işlevler Timelock sözleşmesi tarafından başlatılır. Sıraya koyulan işlemler belirli bir süre sonra ve ödemesiz dönem sona ermeden önce yürütülür.
-* **`Priority Timelock` sözleşmesi: Timelock** sözleşmesi ile aynıdır, ancak bir öncelik denetleyicisinin timelock bekleme süresi sona ermeden önce **Öncelik Süresi** (7 gün) içinde işlemleri gerçekleştirmesine olanak tanır.
+* **`Priority Timelock` sözleşmesi:** Timelock sözleşmesi ile aynıdır ancak bir öncelik denetleyicisinin timelock bekleme süresi sona ermeden önce **Öncelik Süresi** (7 gün) içinde işlemleri gerçekleştirmesine olanak tanır.
 
-![Smart contract architecture](<.. /.gitbook/assets/image (49).png>)
+![Akıllı sözleşme mimarisi](<../.gitbook/assets/image (49).png>)
 
 Zincir içi dYdX yönetişimi şunlara olanak tanır:
 
@@ -63,5 +63,4 @@ Merkle-pauser executor, her bir kullanıcının toplam ödül bakiyesi ile düze
 
 İlk baştaki timelock parametreleri aşağıdaki gibidir:
 
-![Initial timelock parameters](<.. /.gitbook/assets/Initial Timelock Parameters.png>)
-
+![Başlangıç timelock parametreleri](<../.gitbook/assets/Initial Timelock Parameters (1).png>)

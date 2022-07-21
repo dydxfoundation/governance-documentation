@@ -13,7 +13,7 @@ description: Güvenlik Staking Havuzuna genel bir bakış
 
 Safety Module'da stake edilen DYDX teklif verme ve oy kullanma haklarının yanı sıra delegasyon imkânını da sürdürür.
 
-[**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety) sayfasında staking yapmaya başlayın****
+[**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety) adresinde staking'e başlayın\*\*\*
 
 ## Genel bakış
 
@@ -49,7 +49,7 @@ Stake edenler diledikleri zaman güvenlik staking havuzuna DYDX yatırabilir ve 
 
 Aktif fonlar aktif kaldıkları süre boyunca ödül kazanır. Bu da bazı fonların çekilmesi talep edildikten sonra o fonların dönem sonuna kadar ödül kazanmaya devam edeceği anlamına gelir. Bu durum, [Likidite staking havuzundan](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool) aşağıdaki örnekte gösterilmektedir:
 
-![](<.. /.gitbook/assets/image (59).png>)
+![](<../.gitbook/assets/image (65).png>)
 
 Yukarıdaki senaryoda, kullanıcı **Zaman0'dan** **Zaman2**'ye kadar olan süre için ödül kazanır ve ödül de o dönemde stake edilen toplam bakiyeye göre değişir. Kullanıcı bakiyesinin yalnızca bir kısmını çekmeyi talep ederse geriye kalan bakiye **Zaman2'nin** ötesinde de ödül kazanmaya devam eder.
 
@@ -57,7 +57,7 @@ Yukarıdaki senaryoda, kullanıcı **Zaman0'dan** **Zaman2**'ye kadar olan süre
 
 Güvenlik Havuzunda DYDX stake etmek için şu adımları izleyin:
 
-* [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety) adresine gidin****
+* [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety) adresine gidin\*\*\*\*
 * "**Stake Et**" seçeneğine tıklayın
 * İlk yatırma işleminizde DYDX'i etkinleştirmeniz gerekir. Bunu sadece bir kez yapmanız ve gas ücretlerini de yalnızca bir kez ödemeniz gerekecektir.
 * Havuzda stake etmek istediğiniz DYDX miktarını girin.
@@ -86,7 +86,7 @@ Stake edilen bir bakiye şu iki durumdan birinde olur:
 
 Stake eden bir kişi hem aktif hem de aktif olmayan bakiyelere sahip olabilir. Fonlar aşağıdaki örnekte gösterilen şekilde dönem bazında hesaplanır:
 
-![](<.. /.gitbook/assets/image (36).png>)
+![](<../.gitbook/assets/image (36) (1).png>)
 
 Aşağıdaki işlemler stake edilen bakiyeleri aşağıda belirtilen şekilde etkiler:
 
@@ -107,7 +107,7 @@ Bir sonraki dönemde, kullanıcılar aktif olmayan fonlarını belirli bir adres
 
 Likidite Havuzundan DYDX çekmek için şu adımları izleyin:
 
-* [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety) adresine gidin****
+* [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety) adresine gidin\*\*\*\*
 * "**Talep Et**" seçeneğine tıklayın ve havuzdan çekmeyi talep etmek istediğiniz DYDX miktarını girin.
 * "**Fon çekmeyi talep et**" seçeneğine tıklayın. Fon çekmek için gas ücretleri ödemeniz gerekecektir.
 * Mevcut dönemin sona ermesinden en az 14 gün önce DYDX çekme talebinde bulunan stake edenler bir sonraki dönemin başında DYDX'lerini çekebilirler.

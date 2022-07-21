@@ -12,11 +12,11 @@ description: Likidite Sağlayıcı Ödülleri Programına genel bakış.
 
 ## **Genel bakış**
 
-Piyasa likiditesini teşvik etmek için, DYDX piyasalara katılım, iki taraflı derinlik, teklif-talep farkı (orta piyasada) ve dYdX'in Katman 2 Protokolü üzerindeki çalışma süresini ödüllendiren bir formül esasında likidite sağlayıcılara dağıtılacaktır. Herhangi bir Ethereum adresi bu ödülleri kazanabilir ve önceki dönemdeki piyasa yapıcı hacminin %0,25'i kadar bir minimum piyasa yapıcı eşiğine tabidir. DYDX beş yıl boyunca 28 günlük dönemler esasında dağıtılacak ve herhangi bir vesting veya kilitleme sürecine tabi tutulmayacaktır. Dönem başına 1.150.685 DYDX dağıtılacaktır.
+Piyasa likiditesini teşvik etmek için, DYDX piyasalara katılım, piyasa yapıcı hacmi, iki taraflı derinlik, teklif-talep farkı (orta piyasada) ve dYdX'in Katman 2 Protokolü üzerindeki çalışma süresini ödüllendiren bir formül esasında likidite sağlayıcılara dağıtılacaktır. Herhangi bir Ethereum adresi bu ödülleri kazanabilir ve önceki dönemdeki piyasa yapıcı hacminin %0,25'i kadar bir minimum piyasa yapıcı eşiğine tabidir. DYDX beş yıl boyunca 28 günlük dönemler esasında dağıtılacak ve herhangi bir vesting veya kilitleme sürecine tabi tutulmayacaktır. Dönem başına 1.150.685 DYDX dağıtılacaktır.
 
 Dönem başına her bir likidite sağlayıcısına ödül olarak ne kadar DYDX verileceğini hesaplamak için aşağıdaki fonksiyon kullanılır. Kazanılan DYDX miktarı her katılımcının $ $ Q_{FINAL}$ değerinin ilgili payına göre belirlenir
 
-![](<.. /.gitbook/assets/LP Rewards.png>)
+![](<../.gitbook/assets/Screen Shot 2022-05-17 at 1.08.12 PM.png>)
 
 Piyasa başına belirli bir **minimum derinliğin** (boyut) ($$MinDepth$$) altındaki emirler hariç tutulur ve piyasa başına belirli bir **maksimum teklif-talep farkı** (orta piyasa teklif-talep farkı) ($$MaxSpread$$) üzerindeki emirler de hariç tutulur.
 
@@ -26,24 +26,23 @@ Likidite sağlayıcılar dönem başına göreli $ $ Q_{FINAL}$ paylarına dayal
 
 Yukarıdaki formül ayrıntılı bilgi için aşağıda adım adım hesaplamalara bölünmüştür:
 
-| Süre / Formül (hesaplama sırasıyla) | Açıklama / Örnek |
-| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![](<.. /.gitbook/assets/image (96).png>) | <p></p>Bir likidite sağlayıcının BTC-USD emir defterinde birden fazla açık teklif emri (29.900 $ fiyatla 1 BTC, 29.850 $ fiyatla 5 BTC, 29.500 $ fiyatla 10 BTC) olduğunu ve güncel BTC fiyatının ise 30.000 $ (orta piyasaya dayalı olarak) olduğunu varsayalım. MinDepth'in 5.000 $ ve orta piyasada MaxSpread'in 200 $ veya 6,7 Baz Puanı (200/30.000 $) olduğunu varsayalım. Bir BP, yüzde birin yüzde biridir.<br><p> <span class="math">Q_{BID} = (1\ \times \left(\frac{\$29,900}{\$100/30000}\right)) + (5\ \times \left(\frac{\$29,850}{\$150/30000}\right))</span> </p><p><br> </p><span class="math">Q_{BID}</span> rastgele örnekleme kullanılarak her dakika hesaplanır.<br> |
-| ![](<.. /.gitbook/assets/math-20210908 (1).png>) | <p></p>Bir likidite sağlayıcının BTC-USD emir defterinde birden fazla açık teklif emri (30.100 $ fiyatla 0,1 BTC, 30.150 $ fiyatla 5 BTC, 30.175 $ fiyatla 10 BTC) olduğunu ve BTC'nin şu anda 30.000 $ fiyatla (orta piyasaya dayalı olarak) işlem gördüğünü varsayalım. MinDepth'in 5.000 $ ve orta piyasada MaxSpread'in 200 $ veya 6,7 Baz Puanı (200/30.000 $) olduğunu varsayalım. Bir BP, yüzde birin yüzde biridir.<p></p><p><span class="math">Q_{ASK} = (5\ \times \left(\frac{\$30,150}{\$150/30000}\right)) + (10\ \times \left(\frac{\$30,175}{\$175/30000}\right)) </span> </p><p></p><br><span class="math">Q_{ASK}</span> her dakika rastgele bir aralıkla hesaplanır. |
-| ![](<.. /.gitbook/assets/math-20210908 (2).png>) | <p></p><span class="math">Q_{BID}</span> ve <span class="math">Q_{ASK}</span>'in minimumunu alarak 2 taraflı likiditeyi ödüllendirir.<br><p></p>Her dakika hesaplanır. |
-| ![](<.. /.gitbook/assets/math-20210908 (3).png>) | $$Q_{EPOCH}$$, belirli bir dönemdeki tüm $$Q_{MIN}$$ değerlerinin toplamıdır. |
-| ![](<.. /.gitbook/assets/math-20210908 (4).png>) | $$Uptime_{EPOCH}$$, belirli bir piyasa yapıcının faal olduğu ve belirtilen minimum emir tutarından (aşağıda piyasa bazında verilmiştir) yüksek ve teklif-talep farkı belirtilen maksimum teklif-talep farkından (aşağıda piyasa bazında verilmiştir) düşük olan emirlerle hem teklif hem de talep tarafında teklif verdiği, bir dönemdeki zaman yüzdesidir. |
-| ![](<.. /.gitbook/assets/math-20210908 (5).png>) | $$Q_{FINAL}$$, çalışma süresini hesaplamak için $$Q_{EPOCH}$$'u normalleştirir |
+| _Piyasa Yapıcı Hacmi_ | Dönem için toplam piyasa yapıcı hacmi. |
+| --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="../.gitbook/assets/image (96).png" alt="" data-size="original"> | <p></p>Bir likidite sağlayıcının BTC-USD emir defterinde birden fazla açık teklif emri (29.900 $ fiyatla 1 BTC, 29.850 $ fiyatla 5 BTC, 29.500 $ fiyatla 10 BTC) olduğunu ve güncel BTC fiyatının ise 30.000 $ (orta piyasaya dayalı olarak) olduğunu varsayalım. MinDepth'in 5.000 $ ve orta piyasada MaxSpread'in 200 $ veya 6,7 Baz Puanı (200/30.000 $) olduğunu varsayalım. Bir BP, yüzde birin yüzde biridir.<br><p></p><span class="math">Q_{BID} = (1\ \times \left(\frac{$29,900}{$100/30000}\right)) + (5\ \times \left(\frac{$29,850}{$150/30000}\right))</span><p></p><br><span class="math">Q_{BID}</span> rastgele örnekleme kullanılarak her dakika hesaplanır.<br> |
+| <img src="../.gitbook/assets/math-20210908 (1) (1).png" alt="" data-size="original"> | <p></p>Bir likidite sağlayıcının BTC-USD emir defterinde birden fazla açık teklif emri (30.100 $ fiyatla 0,1 BTC, 30.150 $ fiyatla 5 BTC, 30.175 $ fiyatla 10 BTC) olduğunu ve BTC'nin şu anda 30.000 $ fiyatla (orta piyasaya dayalı olarak) işlem gördüğünü varsayalım. MinDepth'in 5.000 $ ve orta piyasada MaxSpread'in 200 $ veya 6,7 Baz Puanı (200/30.000 $) olduğunu varsayalım. Bir BP, yüzde birin yüzde biridir.<p></p><span class="math">Q_{ASK} = (5\ \times \left(\frac{$30,150}{$150/30000}\right)) + (10\ \times \left(\frac{$30,175}{$175/30000}\right))</span><p></p><br><span class="math">Q_{ASK}</span> her dakika rastgele bir aralıkla hesaplanır. |
+| <img src="../.gitbook/assets/math-20210908 (2) (1).png" alt="" data-size="original"> | <p></p><span class="math">Q_{BID}</span> ve <span class="math">Q_{ASK}</span>'in minimumunu alarak 2 taraflı likiditeyi ödüllendirir.<br><p></p>Her dakika hesaplanır. |
+| <img src="../.gitbook/assets/math-20210908 (3) (1).png" alt="" data-size="original"> | $$Q_{EPOCH}$$, belirli bir dönemdeki tüm $$Q_{MIN}$$ değerlerinin toplamıdır. |
+| <img src="../.gitbook/assets/Screen Shot 2022-05-17 at 1.07.16 PM.png" alt="" data-size="original"> | $Uptime_{EPOCH}$$, belli bir piyasa yapıcının faal olduğu ve hem alış, hem satış tarafında belirtilen minimum talimattan büyük talimat boyutlarıyla (aşağıda piyasa bazında belirtilmiştir) ve maksimum alış satış farkından daha küçük farklarla (aşağıda piyasa bazında belirtilmiştir) teklif verdiği, bir dönem içerisindeki zamandır. |
+| <img src="../.gitbook/assets/math-20210908 (5) (1).png" alt="" data-size="original"> | $$Q_{FINAL}$$, çalışma süresini hesaplamak için $$Q_{EPOCH}$$'u normalleştirir |
 | _stkDYDX_ | Dönem boyunca tutulan ortalama stkDYDX miktarı (her dakika rastgele ölçülür) |
-| _Toplam stkDYDX Havuzu_ | Dönem boyunca tüm Likidite Sağlayıcı katılımcılarının _stkDYDX puanlarının_ toplam miktarı. |
 
 Her piyasa, farklı bir ağırlık verilecek kendi ödül havuzuna sahip olacaktır. Her bir piyasa için uygulanan başlangıç ağırlıkları aşağıdaki gibidir:
 
 | Piyasa | Toplam Ödül Havuzu Tahsis %'si |
-| ---------------------- | ------------------------------------------------------------------ |
+| ---------------------- | ---------------------------------------------------------------------- |
 | BTC-USD | %20 |
 | ETH-USD | %20 |
-| Diğer sürekli varlıklar piyasası | ![](<.. /.gitbook/assets/Screen Shot 2021-07-15 at 1.20.17 PM.png>) |
+| Diğer sürekli varlıklar piyasası | ![](<../.gitbook/assets/Screen Shot 2021-07-15 at 1.20.17 PM (1).png>) |
 
 ## SSS
 
@@ -59,7 +58,7 @@ Belirli bir dönemde, likidite sağlayıcıları belirli bir işlem çifti piyas
 
 ### Likidite Sağlayıcı Ödüllerimi nasıl alabilirim?
 
-Likidite Sağlayıcı Ödülleri [dYdX API](https://docs.dydx.exchange)'sinde açıklanır. Her ne kadar yönetişim kullanıcı arayüzünde açıklanmasa da her dönemin [sonunda](https://dydx.community/dashboard) yine de yönetişim yoluyla buradan alınabilirler.
+Likidite Sağlayıcı Ödülleri [dYdX API](https://docs.dydx.exchange/)'sinde açıklanır. Her ne kadar yönetişim kullanıcı arayüzünde açıklanmasa da her dönemin [sonunda](https://dydx.community/dashboard) yine de yönetişim yoluyla buradan alınabilirler.
 
 ### Aldığım DYDX Likidite Sağlayıcı Ödüllerimi ne zaman çekebilir ve transfer edebilirim?
 

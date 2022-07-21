@@ -13,13 +13,13 @@ description: Alım Satım Ödülleri programına genel bakış.
 
 ## **Genel bakış**
 
-![dYdX Katman 2 Protokolü'nde işlem yaparak ödüller kazanın](<../.gitbook/assets/image (17).png>)
+![dYdX Katman 2 Protokolü'nde işlem yaparak ödüller kazanın](<../.gitbook/assets/image (17) (1).png>)
 
 DYDX, dYdX Katman 2 Protokolü üzerinde ödenen ücretlerin ve açık faizin bir kombinasyonunu ödüllendiren bir formüle dayalı olarak yatırımcılara dağıtılacaktır. DYDX, beş yıl boyunca 28 günlük dönemler esasında dağıtılacak ve herhangi bir vesting veya kilitleme sürecine tabi tutulmayacaktır. Her dönemde 3.835.616 DYDX dağıtılacaktır.
 
 Her bir dönem boyunca her yatırımcıya ne kadar DYDX verileceğini hesaplamak için Cobb-Douglas fonksiyonu kullanılır:
 
-![](../.gitbook/assets/math-20211221.png)
+![](<../.gitbook/assets/math-20211221 (1).png>)
 
 $$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k $$
 
@@ -53,7 +53,7 @@ Kullanıcılar, mevcut dönemde kullanıcıların alım satım verilerinin yer a
 
 ![Mevcut dönem için ödüller ile ilgili bilgi](<../.gitbook/assets/image (18).png>)
 
-Geçmiş dönemlerde alınan ödüller, [**dydx.community/history/rewards**](https://dydx.community/history/rewards) sayfasında görüntülenebilir **** (yakında eklenecek).
+Geçmiş dönemlerde alınan ödüller, [**dydx.community/history/rewards**](https://dydx.community/history/rewards) sayfasında görüntülenebilir \*\*\*\* (yakında eklenecek).
 
 ### Alım Satım Ödüllerimi nasıl alabilirim? Kazandığım DYDX'leri ne zaman çekebilir ve transfer edebilirim?
 
