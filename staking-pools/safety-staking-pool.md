@@ -13,7 +13,7 @@ description: Un aperçu du pool de staking de sécurité
 
 DYDX staké dans le module de sécurité conserve ses droits de proposition et de vote, ainsi que ses capacités de délégation.
 
-Commencez à staker sur [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
+Commencez à staker sur [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
 
 ## Aperçu
 
@@ -49,7 +49,7 @@ Les stakers peuvent déposer des DYDX à tout moment dans le pool de staking de 
 
 Les fonds actifs gagnent des récompenses pour la période pendant laquelle ils restent actifs. Cela signifie qu'après avoir demandé le retrait de certains fonds, ces fonds continueront à gagner des récompenses jusqu'à la fin de l'époch. Ceci est démontré dans l'exemple suivant du [pool de staking de liquidité](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool) :
 
-![](<.. /.gitbook/assets/image (59).png>)
+![](<../.gitbook/assets/image (65).png>)
 
 Dans le scénario ci-dessus, l'utilisateur gagnerait des récompenses pour la période de **Time0** à **Time2**, variant avec le solde total staké au cours de cette période. Si l'utilisateur ne demande un retrait que pour une partie de son solde, le solde restant continuera à gagner des récompenses au-delà de **Time2**.
 
@@ -57,7 +57,7 @@ Dans le scénario ci-dessus, l'utilisateur gagnerait des récompenses pour la p�
 
 Pour staker DYDX dans le pool de sécurité, procédez comme suit :
 
-* Allez sur [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
+* Allez sur [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
 * Cliquez sur « **Staker** »
 * Vous devez activer DYDX la première fois que vous déposez. Vous n'aurez à le faire qu'une seule fois et à ne payer qu'une seule fois les frais de gaz.
 * Entrez le montant de DYDX que vous souhaitez staker sur le pool.
@@ -86,7 +86,7 @@ Un solde staké est dans l'un des deux états suivants :
 
 Un staker peut avoir une combinaison de soldes actifs et inactifs. Les fonds sont comptabilisés époch par époch, comme illustré dans l'exemple suivant :
 
-![](<.. /.gitbook/assets/image (36).png>)
+![](<../.gitbook/assets/image (36) (1).png>)
 
 Les opérations suivantes affectent les soldes stakés comme suit :
 
@@ -107,7 +107,7 @@ Pour retirer des fonds, les utilisateurs appellent la fonction \`requestWithdraw
 
 Pour retirer DYDX du pool de liquidité, procédez comme suit :
 
-* Allez sur [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
+* Allez sur [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
 * Cliquez sur « **Demander** » et entrez le montant de DYDX que vous souhaitez retirer du pool.
 * Cliquez sur « **Demander un retrait** ». Vous devrez payer des frais de gaz pour retirer des fonds.
 * Les stakers qui demandent de retirer DYDX au moins 14 jours avant la fin de l'époch en cours peuvent retirer leur DYDX au début de l'époch suivante.
