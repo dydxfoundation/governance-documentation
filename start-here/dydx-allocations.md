@@ -12,18 +12,18 @@ Au total, `1 000 000 000 de DYDX` ont été frappés et deviendront accessibles 
    * **25,00 %** (`250 000 000 DYDX`) aux utilisateurs qui négocient sur le protocole dYdX de couche 2 sur la base d'une combinaison de frais payés et d'intérêts ouverts ([**Récompenses de trading**](../rewards/trading-rewards.md))
    * **7,50 %** (`75 000 000 DYDX`) aux anciens utilisateurs qui franchissent certaines étapes de trading sur le protocole dYdX de couche 2 ([**Récompenses de minage rétroactives**](../rewards/retroactive-mining-rewards.md))
    * **7,50 %** (`75 000 000 DYDX`) aux fournisseurs de liquidité sur la base d'une formule récompensant une combinaison de temps de disponibilité, de profondeur bilatérale, d'écarts acheteur-vendeur et du nombre de marchés pris en charge ([**Récompenses du fournisseur de liquidité**](../rewards/liquidity-provider-rewards.md))
-   * **5,00 %**(`50 000 000 DYDX)` à une trésorerie de la communauté (T[**résorerie)**](community-treasury.md)
+   * **5,00 %**(`50 000 000 DYDX)` à une trésorerie de la communauté ([**Trésorerie)**](community-treasury.md)
    * **2,50 %** (`25 000 000 DYDX`) aux utilisateurs qui stakent l'USDC dans un pool de staking de liquidité ([**Module de liquidité**](../staking-pools/liquidity-staking-pool.md))
    * **2,50 %** (`25 000 000 DYDX`) aux utilisateurs qui stakent DYDX dans un pool de staking de sécurité ([**Module de sécurité**](../staking-pools/safety-staking-pool.md))
 * **27,73 %** (`277 295 070 DYDX`) aux anciens investisseurs
 * **15,27 %** (`152 704 930 DYDX`) aux fondateurs, employés, conseillers et consultants de dYdX Trading ou de la Fondation
-* **7,00 %** (`70 000 000 DYDX`) aux futurs salariés et consultants de dYdX Trading ou de la Fondation dYdX
+* **7,00 %** (`70 000 000 DYDX`) aux futurs salariés et consultants de dYdX Trading ou de la Fondation dYdX
 
-![](<.. /.gitbook/assets/DYDX Allocations (5 premières années).png>)
+![](<../.gitbook/assets/DYDX Allocations (Initial 5 Years) (1).png>)
 
 À partir de cinq ans après le lancement, un taux d'inflation perpétuel maximum de `2 %` par an peut être utilisé par la gouvernance pour augmenter l'offre de DYDX, garantissant ainsi à la communauté les ressources nécessaires pour poursuivre le développement et la croissance du protocole. L'inflation doit être promulguée via une proposition de gouvernance et est plafonnée à `2 %` par an.
 
-![](<.. /.gitbook/assets/Allocation 10 ans d'inflation (1).png>)
+![](<../.gitbook/assets/Allocation 10 Years Inflation (1) (1).png>)
 
 Bien que l'allocation communautaire ait été établie comme indiqué ci-dessus, les détenteurs de DYDX ont un contrôle total via la gouvernance sur la façon dont l'allocation communautaire est utilisée à l'avenir.
 
@@ -56,8 +56,8 @@ La Fondation dYdX a exprimé sa volonté d'engager des poursuites judiciaires à
 
 ## Quelle est la courbe d'approvisionnement en liquide de DYDX ?
 
-Le 8 septembre 2021, `8 jours` après la fin de l'époch 0, les restrictions de transfert initiales sur le jeton seront levées et environ 8,11 % de l'offre DYDX deviendra liquide.
+Le 8 septembre 2021, `8 jours` après la fin de l'époch 0, les restrictions de transfert initiales sur le jeton seront levées et environ 8,11 % de l'offre DYDX deviendra liquide.
 
 Le tableau suivant montre l'offre totale en liquide au fil du temps :
 
-![](<.. /.gitbook/assets/Calendrier d'approvisionnement liquide (2).png>)
+![](<../.gitbook/assets/Liquid Supply Schedule (2) (1).png>)

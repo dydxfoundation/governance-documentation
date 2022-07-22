@@ -13,13 +13,13 @@ description: Aperçu du programme des récompenses de trading.
 
 ## **Aperçu**
 
-![Gagnez des récompenses en tradant sur le protocole de layer 2](<../.gitbook/assets/image (17).png>)
+![Gagnez des récompenses en tradant sur le protocole de layer 2](<../.gitbook/assets/image (17) (1).png>)
 
 DYDX sera distribué aux traders sur la base d'une formule qui récompense une combinaison de frais payés et d'intérêts ouverts sur le protocole de couche 2 de dYdX. DYDX sera distribué sur une période de 28 jours sur cinq ans et n'est soumis à aucune acquisition ou blocage. 3 835 616 DYDX seront distribués par époch.
 
 La fonction Cobb-Douglas est utilisée pour calculer la quantité de DYDX attribuée à chaque trader à chaque époch :
 
-![](../.gitbook/assets/math-20211221.png)
+![](<../.gitbook/assets/math-20211221 (1).png>)
 
 $$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k $$
 
@@ -53,7 +53,7 @@ Dans l'époch actuelle, les utilisateurs peuvent voir les frais payés, l'intér
 
 ![Informations sur les récompenses pour l'époch actuelle](<../.gitbook/assets/image (18).png>)
 
-Les récompenses des épochs passées peuvent être consultées sur [**dydx.community/history/rewards**](https://dydx.community/history/rewards) **** (bientôt disponible).
+Les récompenses des épochs passées peuvent être consultées sur [**dydx.community/history/rewards**](https://dydx.community/history/rewards) \*\*\*\* (bientôt disponible).
 
 ### Comment puis-je réclamer mes récompenses de trading ? Quand puis-je retirer et transférer mes DYDX gagnés ?
 

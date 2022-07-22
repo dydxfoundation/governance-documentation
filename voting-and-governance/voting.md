@@ -15,9 +15,31 @@ Deux pouvoirs sont associés à chaque jeton DYDX :
 
 Les détenteurs de DYDX reçoivent des pouvoirs de gouvernance proportionnellement à leur somme de jetons détenus et délégués à un bloc donné.
 
-**`Pouvoir de proposition =`**`Pouvoir de proposition du jeton DYDX + `\ `Pouvoir de proposition à partir du jeton DYDX staké + `\`Pouvoir de proposition du jeton DYDX reçu en tant que délégué - `\`Pouvoir de proposition de DYDX délégué`
+**`Pouvoir de proposition =`**`Pouvoir de proposition du jeton DYDX +`
 
-**`Pouvoir de vote =`**`Pouvoir de vote du jeton DYDX + `\`Pouvoir de vote à partir du jeton DYDX staké + `\`Pouvoir de vote du jeton DYDX reçu en tant que délégué - `\`Pouvoir de vote de DYDX délégué`
+`Pouvoir de proposition à partir du jeton DYDX staké +`
+
+`Pouvoir de proposition du jeton DYDX reçu en tant que délégué +`
+
+`Pouvoir de proposition du jeton DYDX jalonné reçu en tant que délégué -`
+
+`Pouvoir de proposition de DYDX délégué -`
+
+`Pouvoir de proposition de jalonner-DYDX délégué`
+
+``
+
+**`Pouvoir de vote =`**`Pouvoir de vote du jeton DYDX +`
+
+`Pouvoir de vote à partir du jeton DYDX staké +`
+
+`Pouvoir de vote du jeton DYDX reçu en tant que délégué +`
+
+`Pouvoir de vote du jeton stkDYDX reçu en tant que délégataire -`
+
+`Pouvoir de vote de DYDX délégué -`
+
+`Pouvoir de vote du staked-DYDX délégué`
 
 ## FAQ
 
@@ -25,9 +47,9 @@ Les détenteurs de DYDX reçoivent des pouvoirs de gouvernance proportionnelleme
 
 Afin de participer à la gouvernance sur la chaîne de DYDX, vous devrez disposer ou être délégué de jetons DYDX. Vous aurez également besoin d'ETH pour couvrir les frais de transaction.
 
-Si vous avez des jetons ou avez reçu des jetons délégués et qu'il y a une proposition active, vous êtes prêt à voter dans la gouvernance dYdX.
+Si vous avez des jetons ou si vous avez reçu des jetons délégués et qu'il y a une proposition active, alors vous êtes prêt à voter dans la gouvernance dYdX.
 
-![Cast votes using your voting power](<.. /.gitbook/assets/image (87).png>)
+![Votez en utilisant votre pouvoir de vote](<../.gitbook/assets/image (87).png>)
 
 Pour voter, accédez à la page des propositions et cliquez sur une proposition active.
 
@@ -35,7 +57,7 @@ Pour voter, accédez à la page des propositions et cliquez sur une proposition 
 
 DYDX permet aux titulaires de déléguer le droit de vote à l'adresse de leur choix. N'importe qui peut participer à la gouvernance de dYdX en recevant une délégation, sans avoir besoin de posséder DYDX. Les utilisateurs peuvent déléguer vers une adresse à la fois, et le nombre de votes ajoutés au décompte des votes du délégataire équivaut au solde de DYDX dans le compte de l'utilisateur. Les votes sont délégués à partir du bloc actuel et au-delà, jusqu'à ce que l'expéditeur délègue à nouveau ou transfère son DYDX.
 
-![Delegate away your voting & proposing powers](<.. /.gitbook/assets/image (86).png>)
+![Déléguez vos pouvoirs de vote et de proposition](<../.gitbook/assets/image (86).png>)
 
 Les détenteurs de jetons peuvent choisir de déléguer l'un ou les deux pouvoirs de gouvernance associés à un jeton, soit via le portail de gouvernance, soit par programmation. Un utilisateur qui a reçu un pouvoir délégué ne peut pas transmettre ce pouvoir délégué à un autre délégataire.
 
