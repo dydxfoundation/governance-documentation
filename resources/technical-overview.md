@@ -34,11 +34,11 @@ Tous les codes source des contrats intelligents pour les contrats de gouvernance
 
 Le code source de l'interface de gouvernance hébergée sur dydx.community se trouve [ici](https://github.com/dydxfoundation/pnyx).
 
-Tous les nouveaux contrats intelligents majeurs ont été audités par Peckshield. Aucun problème de sécurité important ou hautement prioritaire n'a été détecté. Les contrats de gouvernance de base et de jetons sont dérivés des contrats de gouvernance Aave qui ont été audités par [CertiK](https://www.certik.io), [Certora](https://www.certora.com) et [Peckshield](https://peckshield.com/en) et ont été testés en direct sur le mainnet pendant des mois.
+Tous les nouveaux contrats intelligents majeurs ont été audités par Peckshield. Aucun problème de sécurité important ou hautement prioritaire n'a été détecté. Les contrats de gouvernance de base et de jetons sont dérivés des contrats de gouvernance Aave qui ont été audités par [CertiK](https://www.certik.io/), [Certora](https://www.certora.com/) et [Peckshield](https://peckshield.com/en) et ont été testés en direct sur le mainnet pendant des mois.
 
 ## Contrats de gouvernance de base
 
-![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/assets/Screen Shot 09/03/2021 à 5.17.43 PM.png>)
+![Les lignes pointillées rouges indiquent que le contrat est évolutif](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.17.43 PM (1).png>)
 
 ### DydxToken
 
@@ -98,9 +98,7 @@ Le **verrouillage proritaire Starkware** est déployé à [0xa306989BA6BcacdECCf
 
 ### Distributeur Merkle
 
-
-
-![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/assets/Screen Shot 03-09-2021 à 5.23.50 PM.png>)
+![Les lignes pointillées rouges indiquent que le contrat est évolutif](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.23.50 PM (1).png>)
 
 Le contrat intelligent Distributeur Merkle distribue les récompenses de jetons DYDX selon un arbre des soldes Merkle. L'arbre peut être mis à jour périodiquement avec le solde cumulatif des récompenses de chaque utilisateur, ce qui permet de distribuer de nouvelles récompenses aux utilisateurs au fil du temps.
 
@@ -114,9 +112,7 @@ Le contrat intelligent Distributeur Merkle s'est inspiré des conceptions Uniswa
 
 ### Module de sécurité
 
-
-
-![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/assets/Screen Shot 03-09-2021 à 5.24.45 PM.png>)
+![Les lignes pointillées rouges indiquent que le contrat est évolutif](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.24.45 PM (1).png>)
 
 Le module de sécurité est un pool de staking qui offre des récompenses DYDX aux utilisateurs qui stakent DYDX pour la sécurité du protocole.
 
@@ -124,31 +120,23 @@ Le module de sécurité est un pool de staking qui offre des récompenses DYDX a
 
 \[bientôt disponible]
 
-
-
 ### Module de liquidité
 
-
-
-![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/assets/Screen Shot 03-09-2021 à 5.25.30 PM.png>)
+![Les lignes pointillées rouges indiquent que le contrat est évolutif](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.25.30 PM (1).png>)
 
 Le module de liquidité est une collection de contrats intelligents pour le staking et l'emprunt, qui incitent à l'allocation de fonds USDC pour maintenir le marché sur l'échange de couche 2 dYdX.
 
 Les stakers gagnent des récompenses DYDX pour avoir staké l'USDC. Les fonds stakés peuvent être empruntés par certains partenaires pré-approuvés, sur une base de réputation, sans garantie. Les fonds ne peuvent être utilisés que sur l'échange de couche 2 - ceci est appliqué via le contrat StarkProxy qui interagit avec le contrat StarkEx Perpetual Exchange.
 
-![A diagram of the Liquidity module](<.. /.gitbook/assets/image (66).png>)
+![Un schéma du module Liquidité](<../.gitbook/assets/image (66).png>)
 
 ### StarkProxy
 
 Ce contrat permet au propriétaire d'emprunter des fonds auprès de LiquidityStaking et d'utiliser ces fonds sur StarkPerpetual. Des fonds supplémentaires peuvent être déposés par le propriétaire, et tout fonds excédant le montant emprunté peut être retiré librement. Ce contrat interagit avec le contrat [StarkPerpetual](https://github.com/starkware-libs/starkex-contracts/tree/master/scalable-dex/contracts/src/perpetual) qui a été rédigé par Starkware, et précédemment audité et déployé.
 
-
-
 ### Contrats de trésorerie
 
-
-
-![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/assets/Screen Shot 03-09-2021 à 5.26.09 PM.png>)
+![Les lignes pointillées rouges indiquent que le contrat est évolutif](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM (1).png>)
 
 Le contrat TreasuryVester s'est inspiré d'[Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol).
 
@@ -159,8 +147,6 @@ Il existe deux vesters de trésorerie et des contrats de trésorerie, l'un pour 
 Étant donné que la gouvernance contrôle chaque trésorerie, elle peut transférer des fonds à n'importe quelle adresse et/ou approuver n'importe quelle adresse pour dépenser des fonds de l'une ou l'autre trésorerie. Par exemple, les programmes de récompenses devront avoir des limites d'approbation de jetons fixées par la gouvernance.
 
 Chaque détenteur de trésorerie investira des jetons de manière linéaire sur \~ 5 ans (3 août 2021 - 3 août 2026) à la trésorerie correspondante.
-
-
 
 ## Contrats périphériques
 
@@ -174,8 +160,8 @@ Après avoir calculé les récompenses appropriées à partir des données de tr
 
 L'organigramme suivant montre l'architecture du système Chainlink Oracle-Powered Rewards :
 
-![](<.. /.gitbook/assets/Distributeur Merkle.png>)
+![](<../.gitbook/assets/Merkle Distributor (1).png>)
 
 ### Autres actifs
 
-* Les actifs de marque de la Fondation dYdX sont disponibles [**ici**](https://dydx.foundation/brand)****
+* Les actifs de la marque dYdX Foundation sont disponibles [**ici**](https://dydx.foundation/brand)\*\*\*\*
