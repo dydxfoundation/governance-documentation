@@ -19,9 +19,9 @@ Il existe 6 contrats intelligents au cœur de la gouvernance dYdX :
 * **Le contrat `Module de sécurité`** : contient des logiques pour staker des jetons DYDX, tokeniser la position et obtenir des récompenses. Les jetons stakés dans le module de sécurité conservent tous les droits de gouvernance.
 * **Le contrat `Gouverneur`** : trace les propositions et peut exécuter des propositions via les contrats intelligents Timelock.
 * **Les contrats `Timelock`** : peuvent mettre en file d'attente, annuler ou exécuter des transactions votées par la gouvernance. Les fonctions d'une proposition sont initiées par le contrat Timelock. Les transactions en file d'attente peuvent être exécutées après un délai et avant l'expiration du délai de grâce.
-* **Le contrat `Verrouillage prioritaire`** : identique au contrat de verrouillage, mais permet à un contrôleur prioritaire d'exécuter des transactions dans la **période prioritaire** (7 jours) avant la fin du délai de verrouillage.
+* Le contrat **`Verrouillage prioritaire`** : identique au contrat de verrouillage, mais permet à un contrôleur prioritaire d'exécuter des transactions dans la **période prioritaire** (7 jours) avant la fin du délai de verrouillage.
 
-![Smart contract architecture](<.. /.gitbook/assets/image (49).png>)
+![Architecture du contrat intelligent](<../.gitbook/assets/image (49).png>)
 
 La gouvernance sur la chaîne dYdX permet de :
 
@@ -63,5 +63,4 @@ L'exécuteur Merkle-pauser peut exécuter des propositions qui gèlent la racine
 
 Les paramètres de durée initiaux sont les suivants :
 
-![Initial timelock parameters](<.. /.gitbook/assets/Paramètres de verrouillage temporel initial.png>)
-
+![Paramètres de verrouillage initiaux](<../.gitbook/assets/Initial Timelock Parameters (1).png>)
