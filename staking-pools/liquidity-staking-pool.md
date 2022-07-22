@@ -17,7 +17,7 @@ Comenzar a participar en [**dydx.community/dashboard/pools/liquidez**](https://d
 
 La liquidez es un componente central de cualquier operación exitosa. Para promover los efectos de la red de liquidez e incentivar a los proveedores profesionales de liquidez, DYDX se distribuirá a los usuarios que inviertan USDC en el fondo de participación de liquidez. Los proveedores de liquidez aprobados por la comunidad utilizarán el USDC apostado para crear mercados en el Protocolo de la Capa 2 de dYdX, aumentando la liquidez disponible en los mercados. Los proveedores de liquidez están restringidos a usar fondos prestados fuera del Protocolo de la capa 2 de dYdX.
 
-Los inversores ganarán recompensas de DYDX por invertir en USDC. Las recompensas de DYDX se distribuirán continuamente de acuerdo con la porción de USDC total de cada participante en el fondo.
+Los inversores ganarán recompensas de DYDX por invertir en USDC. Las recomensas de dYxY se distribuirán de manera continua según la porción de cada parte interesada del USDC total en el fondo.
 
 Cada proveedor de liquidez e inversor está obligado a ser parte del Acuerdo de crédito rotativo (enlace [aquí](https://dydx.foundation/revolving-credit-agreement)). El acuerdo pone en lenguaje natural los términos del grupo de participación de liquidez para otorgar a cada participante un derecho exigible contra cualquier proveedor de liquidez que no reembolse el USDC prestado. El acuerdo es solo entre cada inversor y cada proveedor de liquidez. La Fundación dYdX no es parte en el acuerdo y no tiene derechos u obligaciones en él.
 
@@ -64,7 +64,7 @@ Un saldo invertido puede estar en uno de dos estados:
 
 Un participante puede tener una combinación de saldos activos e inactivos. Los USDC se contabilizan etapa por etapa como se muestra en el siguiente ejemplo:
 
-![Staked balance accounting](<.. /.gitbook/assets/image (34).png>)
+![Conteo de saldo invertido](<../.gitbook/assets/image (34) (1).png>)
 
 Las siguientes operaciones afectan a los saldos invertidos de la siguiente manera:
 
@@ -91,7 +91,7 @@ Los inversores pueden depositar USDC en cualquier momento en el fondo de partici
 
 Los USDC invertidos ganan recompensas por el período de tiempo que permanecen activos. Esto significa que después de solicitar un retiro de algunos USDC, estos USDC continuarán ganando recompensas hasta el final de la etapa. Por ejemplo:
 
-![Rewards accounting](<.. /.gitbook/assets/image (65).png>)
+![Conteo de recompensas](<../.gitbook/assets/image (65) (1).png>)
 
 En el escenario anterior, el usuario ganaría recompensas por **el** período 0 al **periodo 2**, que variaría con el saldo total invertido en ese período. Si el usuario solicita únicamente un retiro de parte del saldo del usuario, entonces el saldo restante continuará ganando recompensas más allá del **periodo 2**.
 
@@ -105,7 +105,7 @@ Para apostar USDC en el fondo de liquidez, sigue estos pasos:
 * Ingresa la cantidad de USDC que deseas invertir en el fondo.
 * Haz clic en “Fondos de participación” - tendrás que pagar las tasas de gas para invertir, solicitar retiros y retirar USDC.
 
-![](<.. /.gitbook/assets/image (57).png>)
+![](<../.gitbook/assets/image (57).png>)
 
 Los USDC invertidos ahora están activos y puedes empezar a ganar recompensas inmediatamente.
 
@@ -125,10 +125,10 @@ En la próxima etapa, los usuarios solicitan la función de `withdrawStake` para
 
 Para desinvertir USDC del fondo de liquidez, sigue los siguientes pasos:
 
-* Ve a [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)****
+* Visita [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*
 * Haz clic en “**Solicitar**”, para abrir el siguiente modo:
 
-![Requesting withdraw](<.. /.gitbook/assets/image (58).png>)
+![Solicitud de retiro](<../.gitbook/assets/image (68).png>)
 
 * Ingresa la cantidad de USDC que deseas solicitar retirar del fondo y haz clic en "**Solicitar retiro**". Tendrás que pagar las tasas de gas para desinvertir USDC.
 * Los inversores que solicitan desinvertir USDC al menos 14 días (**ventana de bloqueo**) antes de que la etapa final actual pueden retirar sus USDC al inicio de la siguiente etapa.
@@ -138,7 +138,7 @@ Para desinvertir USDC del fondo de liquidez, sigue los siguientes pasos:
 La gobernanza de dYdX es responsable de:
 
 * Hacer la debida diligencia en los prestatarios existentes
-* Añadir nuevos prestatarios a y/o eliminar prestatarios existentes del fondo de liquidez de participación
+* Añadir nuevos prestatarios al, o eliminar prestatarios existentes del, fondo de liquidez de participación
 * Cambiar las asignaciones de los USDC prestados a los prestatarios aprobados
    * Las `setBorrowerAllocations` de prestatarios y de asignación de fondos de `setBorrowerAllocations` requieren cambiar las asignaciones de ciertos prestatarios. Se pueden utilizar para agregar y eliminar prestatarios. Los aumentos entran en vigor en la próxima etapa, pero las reducciones restringirán el endeudamiento de inmediato. Estas funciones no se pueden solicitar durante la ventana de bloqueo.
 * La duración de la etapa y la ventana de bloqueo se establecen al crear el contrato, pero pueden modificarse
@@ -234,7 +234,7 @@ Aunque cada participante y prestatario son parte del Acuerdo de crédito rotativ
 
 En cualquier momento, el contrato estará en uno de los siguientes estados según la relación entre los saldos invertidos y los prestados:
 
-![Contract Solvency](<.. /.gitbook/assets/image (41).png>)
+![Solvencia de contrato](<../.gitbook/assets/image (41).png>)
 
 Se dice que el contrato es **insolvente**:
 
@@ -252,7 +252,7 @@ Cuando se llama `markDebt()`, la cantidad de déficit de cada prestatario se eli
 
 Este proceso se describe a continuación:
 
-![Default](<.. /.gitbook/assets/image (46).png>)
+![Predeterminado](<../.gitbook/assets/image (46).png>)
 
 ### ¿Qué representa una deuda?
 

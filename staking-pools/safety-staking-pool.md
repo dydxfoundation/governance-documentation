@@ -13,11 +13,11 @@ description: Una visión general del fondo de participación de seguridad
 
 Los DYDX invertidos en el módulo de seguridad conservan sus derechos de propuesta y voto, así como sus capacidades de delegación.
 
-Comenzar a participar en [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
+Comienza a invertir en [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
 
 ## Visión general
 
-La seguridad y la protección del usuario han sido un enfoque clave desde el lanzamiento del Protocolo. Por esa razón, se distribuirán DYDX a los usuarios que inviertas DYDX en el fondo de seguridad para crear una red de seguridad adicional para los usuarios del Protocolo. Los inversores recibirán DYDX continuamente de manera proporcional a su porción total de DYDX en el fondo.
+La seguridad y la protección del usuario han sido un enfoque clave desde el lanzamiento del Protocolo. Por ese motivo, se distribuirá DYDX a los usuarios que inviertan DYDX en el fondo de seguridad para crear una red de seguridad adicional para los usuarios del Protocolo. Los inversores recibirán DYDX continuamente de manera proporcional a su porción total de DYDX en el fondo.
 
 El fondo de seguridad se activará en DYDX y serán transferibles el 8 de septiembre de 2021 a las 15:00 UTC.
 
@@ -49,23 +49,23 @@ Los inversores pueden depositar DYDX en el fondo de participación de seguridad 
 
 Los fondos activos ganan recompensas por el período de tiempo que permanecen activos. Esto significa que, después de solicitar el retiro de algunos fondos, esos fondos seguirán ganando recompensas hasta el final de la etapa. Esto se puede confirmar en el siguiente ejemplo del [fondo de participación de liquidez](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool):
 
-![](<.. /.gitbook/assets/image (59).png>)
+![](<../.gitbook/assets/image (65).png>)
 
-En el escenario anterior, el usuario ganaría recompensas por **el** período 0 al **periodo 2**, que variaría con el saldo total invertido en ese período. Si el usuario solo solicita un retiro de una parte de su saldo, el saldo restante seguirá ganando recompensas más allá del **Periodo 2**.
+En el escenario anterior, el usuario ganaría recompensas por el **período 0** al **periodo 2**, que variaría con el saldo total invertido en ese período. Si el usuario solo solicita un retiro de una parte de su saldo, el saldo restante seguirá ganando recompensas más allá del **Periodo 2**.
 
 ### ¿Cómo deposito e invierto DYDX en el fondo de seguridad?
 
 Para invertir DYDX en el fondo de seguridad, sigue estos pasos:
 
-* Ve a [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
-* Haz clic en “**invertir**”
+* Visita  [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
+* Haz clic en “**Stake**”
 * Debes habilitar DYDX la primera vez que deposites. Solo tendrás que hacer esto una vez e incurrir en tarifas de gas únicamente una vez.
 * Ingresa la cantidad de DYDX que deseas invertir en el fondo.
 * Haz clic en “**Fondos de participación**”. Tendrás que pagar tasas de gas para invertir y desinvertir fondos.
 
 Los fondos invertidos están ahora activos y empiezan a ganar recompensas de inmediato.
 
-Para depositar e invertir fondos directamente en el contrato inteligente, los usuarios utilizan la [función](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L59) \`stake\` Los usuarios también pueden depositar e invertir en nombre de otra dirección utilizando la [función](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L64) \`stakeFor\`
+Para depositar e invertir fondos directamente en el contrato inteligente, los usuarios utilizan la [función](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L59) \`stake\`. Los usuarios también pueden depositar e invertir en nombre de otra dirección utilizando la [función](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L64) \`stakeFor\`.
 
 ### ¿Qué son los stkDYDX?
 
@@ -86,7 +86,7 @@ Un saldo invertido puede estar en uno de dos estados:
 
 Un participante puede tener una combinación de saldos activos e inactivos. Los fondos se contabilizan etapa por etapa como se muestra en el siguiente ejemplo:
 
-![](<.. /.gitbook/assets/image (36).png>)
+![](<../.gitbook/assets/image (36) (1).png>)
 
 Las siguientes operaciones afectan a los saldos invertidos de la siguiente manera:
 
@@ -107,7 +107,7 @@ En la próxima etapa, los usuarios utilizan la función \`withdrawStake\` para t
 
 Para retirar DYDX del fondo de liquidez, sigue estos pasos:
 
-* Ve a [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)****
+* Visita  [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
 * Haz clic en “**Solicitud**” e ingresa la cantidad de DYDX que deseas solicitar retirar del fondo.
 * Haz clic en “**Solicitar retiro**”. Tendrás que pagar tasas de gas para retirar fondos.
 * Los inversores que solicitan retirar DYDX al menos 14 días antes de que la etapa actual finalice pueden retirar sus DYDX al comienzo de la siguiente etapa.

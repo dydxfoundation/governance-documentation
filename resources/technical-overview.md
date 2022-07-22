@@ -34,11 +34,11 @@ Todo el código fuente de contratos inteligentes para los contratos de gobernanz
 
 El código fuente para el frontend de gobernanza alojado en dydx.community se puede encontrar [aquí](https://github.com/dydxfoundation/pnyx).
 
-Todos los contratos inteligentes nuevos principales han sido auditados por Peckshield. No se encontraron problemas de seguridad significativos o de alta prioridad. Los contratos básicos de gobernanza y tokens se basan en los contratos de gobernanza de Aave que fueron auditados por [CertiK](https://www.certik.io), [Certora](https://www.certora.com) y [Peckshield](https://peckshield.com/en) y se han puesto a prueba en vivo en la red principal durante meses.
+Todos los contratos inteligentes nuevos principales han sido auditados por Peckshield. No se encontraron problemas de seguridad significativos o de alta prioridad. Los contratos básicos de gobernanza y tokens se basan en los contratos de gobernanza de Aave que fueron auditados por [CertiK](https://www.certik.io/), [Certora](https://www.certora.com/) y [Peckshield](https://peckshield.com/en) y se han puesto a prueba en vivo en la red principal durante meses.
 
 ## Contratos básicos de gobernanza
 
-![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/activos/captura de pantalla 2021-09-03 a las 5:17:43 PM.png>)
+![Las líneas rojas discontinuas indican que el contrato es actualizable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.17.43 PM (1).png>)
 
 ### DydxToken
 
@@ -52,7 +52,7 @@ DYDX se implementa en [0x92D6C1e31e14520e676a687F0a93788B716BEff5](https://ether
 
 ### DydxGovernor
 
-El contrato de DydxGovernor está inspirado en Aave. dYdX ha realizado cambios menores
+El contrato de DydxGovernor está inspirado en Aave. dYdX ha realizado cambios menores.
 
 Gobernador se implementa en [0x7E9B1672616FF6D6629Ef2879419aE79A9018D2](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2) en la red principal de Ethereum. Fue construido a partir de la comisión \[próximamente].
 
@@ -68,7 +68,7 @@ La estrategia se implementa en [0x90Dfd35F4a0BB2d30CDf66508085e33C353475D9](http
 
 ### Ejecutores
 
-El contrato de ejecutor está inspirada en Aave. dYdX ha realizado cambios menores
+El contrato de ejecutor está inspirada en Aave. dYdX ha realizado cambios menores.
 
 El **bloqueo de tiempo largo** se implementa en [0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B](https://etherscan.io/address/0xecae9bf44a21d00e2350a42127a377bf5856d84b) en la red principal de Ethereum. Fue construido a partir de la comisión \[próximamente].
 
@@ -88,7 +88,7 @@ El **bloqueo de tiempo de Merkle** se implementa en [0xd98e7A71BacB6F11438A8271d
 
 \[próximamente]
 
-El **bloqueo de tiempo de prioridad de Starkware** se implementa en [0xa306989BA6BcacdECCf3C0614FfF2B8C668e3Ca](https://etherscan.io/address/0xa306989ba6bcacdeccf3c0614fff2b8c668e3cae) en la red principal de Ethereum.         Fue construido a partir de la comisión \[próximamente].
+El **bloqueo de tiempo de prioridad de Starkware** se implementa en [0xa306989BA6BcacdECCf3C0614FfF2B8C668e3Ca](https://etherscan.io/address/0xa306989ba6bcacdeccf3c0614fff2b8c668e3cae), en la red principal de Ethereum.         Fue construido a partir de la comisión \[próximamente].
 
 **ABI**
 
@@ -98,9 +98,7 @@ El **bloqueo de tiempo de prioridad de Starkware** se implementa en [0xa306989BA
 
 ### Distribuidor Merkle
 
-
-
-![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/activos/captura de pantalla 2021-09-03 a las 5:23:50 PM.png>)
+![Las líneas rojas discontinuas indican que el contrato es actualizable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.23.50 PM (1).png>)
 
 El contrato inteligente de distribuidor Merkle distribuye recompensas de token de DYDX de acuerdo con un árbol de saldos de Merkle. El árbol se puede actualizar periódicamente con el saldo de recompensas acumulado de cada usuario, permitiendo que las nuevas recompensas se distribuyan a los con el tiempo.
 
@@ -114,9 +112,7 @@ El contrato inteligente de Distribuidor de Merkle estaba inspirado en los diseñ
 
 ### Módulo de seguridad
 
-
-
-![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/activos/captura de pantalla 2021-09-03 a las 5:24:45 PM.png>)
+![Las líneas rojas discontinuas indican que el contrato es actualizable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.24.45 PM (1).png>)
 
 El módulo de seguridad es una reserva de participación que ofrece recompensas de DYDX a los usuarios que están apostando en DYDX con miras a la seguridad del Protocolo.
 
@@ -124,31 +120,23 @@ El módulo de seguridad es una reserva de participación que ofrece recompensas 
 
 \[próximamente]
 
-
-
 ### Módulo de liquidez
 
-
-
-![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/activos/captura de pantalla 2021-09-03 a las 5:25:30 PM.png>)
+![Las líneas rojas discontinuas indican que el contrato es actualizable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.25.30 PM (1).png>)
 
 El módulo de liquidez es una colección de contratos inteligentes para apostar y pedir prestado, que incentivan la asignación de fondos USDC con fines de crear mercado en las operaciones de capa 2 de dYdX.
 
 Los participantes ganan recompensas de DYDX por apostar en USD. Los fondos en juego pueden ser tomados prestados por ciertos socios previamente aprobados, de forma reputacional, sin garantía. Los fondos solo pueden ser utilizados en el intercambio de L2, esto se aplica a través del contrato de StarkProxy que interactúa con el contrato de intercambio perpetuo de StarkEx.
 
-![A diagram of the Liquidity module](<.. /.gitbook/activos/imagen (66).png>)
+![Un diagrama del módulo de liquidez](<../.gitbook/assets/image (66).png>)
 
 ### StarkProxy
 
 Este contrato permite al propietario tomar préstamos de LiquidityStaking y utilizar esos fondos en StarkPerpetual. Los fondos adicionales pueden ser depositados por el propietario, y cualquier fondo que exceda el monto prestado puede ser retirado libremente. Este contrato interactúa con el contrato de [StarkPerpetual](https://github.com/starkware-libs/starkex-contracts/tree/master/scalable-dex/contracts/src/perpetual) escrito por Starkware y previamente auditado e implementado.
 
-
-
 ### Contratos de tesorería
 
-
-
-![Red dashed lines indicate contract is upgradeable](<.. /.gitbook/activos/captura de pantalla 2021-09-03 a las 5:26:09 PM.png>)
+![Las líneas rojas discontinuas indican que el contrato es actualizable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM (1).png>)
 
 El contrato de TreasuryVester estaba inspirado en [Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol).
 
@@ -159,8 +147,6 @@ Hay dos vesters de tesorería y contratos de tesorería, uno es para recompensas
 Dado que la gobernanza controla cada tesorería, puede transferir fondos a cualquier dirección y/o aprobar cualquier dirección para gastar fondos de cualquiera de las tesorerías. Por ejemplo, los programas de recompensas necesitarán tener límites de aprobación de tokens establecidos por gobernanza.
 
 Cada vester de tesorería ganará tokens linealmente en \~5 años (3 de agosto de 2021 - 3 de agosto de 2026) a la tesorería correspondiente.
-
-
 
 ## Contratos periféricos
 
@@ -174,8 +160,8 @@ Después de calcular las recompensas apropiadas de los datos de operaciones en b
 
 El siguiente gráfico de flujo muestra la arquitectura de sistema de recompensas con energía de Chainlink Oracle-Powered Rewards:
 
-![](<.. /.gitbook/activos/Merkle Distributor.png>)
+![](<../.gitbook/assets/Merkle Distributor (1).png>)
 
 ### Otros activos
 
-* Los activos de la marca de la Fundación dYdX están disponibles [**aquí**](https://dydx.foundation/brand)****
+* Los activos de la marca de la Fundación dYdX están disponibles [**aquí**](https://dydx.foundation/brand)\*\*\*\*

@@ -19,9 +19,9 @@ Hay 6 contratos inteligentes en el eje de la gobernanza de dYdX:
 * **El contrato `de módulo de seguridad`**: contiene las dinámicas para invertir tokens DYDX, tokenizar la posición y obtener recompensas. Los tokens invertidos en el módulo de seguridad conservan todos los derechos de gobernanza.
 * **El contrato `de gobernanza`**: realiza un seguimiento de las propuestas y puede ejecutar propuestas a través del contrato inteligente de bloqueo de tiempo.
 * **Los contratos `de bloqueo de tiempo`**: pueden poner en cola, cancelar o ejecutar transacciones votadas por la gobernanza. Las funciones de una propuesta son iniciadas por el contrato de bloqueo de tiempo. Las transacciones en cola se pueden ejecutar después de un retraso y antes de la expiración del período de gracia.
-* **El contrato `de bloqueo cronométrico de prioridad`**: Lo mismo que el contrato de bloqueo de tiempo, pero permite que un controlador de prioridad ejecute transacciones dentro del **período** prioritario (7 días) antes del final del retraso del bloqueo de tiempo.
+* **El contrato `de Bloqueo cronométrico de prioridad`**: Lo mismo que el contrato de bloqueo de tiempo, pero permite que un controlador de prioridad ejecute transacciones dentro del **período** prioritario (7 días) antes del final del retraso del bloqueo de tiempo.
 
-![Smart contract architecture](<.. /.gitbook/assets/image (49).png>)
+![Arquitectura de contratos inteligente](<../.gitbook/assets/image (49).png>)
 
 La gobernanza en la cadena de dYdX permite:
 
@@ -53,7 +53,7 @@ Dependiendo de la acción a tomar, es posible que el equipo de Starkware deba in
 
 Starkware no tiene control sobre _los_ cambios que se realizan en el protocolo. Solo los titulares de tokens DYDX a través de la gobernanza de dYdX, tienen la capacidad de aprobar o denegar los cambios en el protocolo de operaciones.
 
-#### **Ejecutor de bloqueo de largo tiempo **
+#### **Ejecutor de bloqueo de largo tiempo**
 
 El ejecutor de bloqueo de largo tiempo puede ejecutar propuestas que generalmente cambian partes del Protocolo afectando el consenso de gobernanza.
 
@@ -63,5 +63,4 @@ Ejecutor Merkle-pauser: el ejecutor Merkle-pauser puede ejecutar propuestas que 
 
 Los parámetros de bloqueo de tiempo inicial son los siguientes:
 
-![Initial timelock parameters](<.. /.gitbook/assets/Initial Timelock Parameters.png>)
-
+![Parámetros de bloqueo de tiempo inicial](<../.gitbook/assets/Initial Timelock Parameters (1).png>)
