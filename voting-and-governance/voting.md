@@ -15,9 +15,31 @@ Her DYDX token ile ilişkili iki yetki vardır:
 
 DYDX sahipleri belirli bir blokta sahip oldukları ve kendilerine delege edilen token'ların toplamı ile orantılı yönetişim yetkileri alırlar.
 
-**`Teklif Verme Yetkisi =`** `DYDX token'larından gelen Teklif Verme Yetkisi + `\`Stake Edilen DYDX token'larından gelen Teklif Verme Yetkisi + `\`Delege olarak alınan DYDX token'larından gelen Teklif Verme Yetkisi - `\`Delege edilen DYDX'lerden gelen Teklif Verme Yetkisi`
+**`Teklif Verme Yetkisi =`**`DYDX token'larından gelen Teklif Verme Yetkisi +`
 
-**`Oy Verme Yetkisi =`** `DYDX token'larından gelen Oy Verme Yetkisi + `\`Stake Edilen DYDX token'larından gelen Oy Verme Yetkisi + `\`Delege olarak alınan DYDX token'larından gelen Oy Verme Yetkisi - `\`Delege edilen DYDX'lerden gelen Oy Verme Yetkisi`
+`Stake Edilen DYDX token'larından gelen Teklif Verme Yetkisi +`
+
+``Delege olarak alınan DYDX token'larından gelen Teklif Verme Yetkisi +
+
+`Delege olarak alınan stake edilmiş DYDX token'larından gelen Teklif Verme Yetkisi -`
+
+`Delege edilen DYDX'ten gelen Teklif Verme Yetkisi -`
+
+`Stake edilen DYDX'ten gelen Teklif Verme Yetkisi`
+
+``
+
+**`Oy Verme Yetkisi =`**`DYDX token'larından gelen Oy Verme Yetkisi +`
+
+`Stake Edilen DYDX token'larından gelen Oy Verme Yetkisi +`
+
+`Delege olarak alınan DYDX token'larından gelen Oy Verme Yetkisi +`
+
+`Delege olarak alınan stkDYDX token'larından gelen Oy Verme Yetkisi -`
+
+`Delege edilen DYDX'ten gelen Oy Verme Yetkisi -`
+
+`Stake Edilen delege edilen DYDX'ten gelen Oy Verme Yetkisi`
 
 ## SSS
 
@@ -27,7 +49,7 @@ DYDX zincir içi yönetişimine katılmak için DYDX token'larına sahip olmanı
 
 Token sahibi iseniz veya size delege edilmiş token'larınız varsa ve aktif bir teklif varsa, dYdX Yönetişiminde oy vermeye hazırsınız demektir.
 
-![Cast votes using your voting power](<.. /.gitbook/assets/image (87).png>)
+![Oy verme yetkinizi kullanarak oyunuzu kullanın](<../.gitbook/assets/image (87).png>)
 
 Oyunuzu vermek için teklifler sayfasına gidin ve aktif bir teklifin üzerine tıklayın.
 
@@ -35,7 +57,7 @@ Oyunuzu vermek için teklifler sayfasına gidin ve aktif bir teklifin üzerine t
 
 DYDX, sahiplerinin oy verme haklarını kendi seçtikleri bir adrese delege etmelerine olanak tanır. İsteyen herkes, DYDX'e sahip olması gerekmeden, delegasyon alarak dYdX yönetişimine katılabilir. Kullanıcılar bir seferde tek bir adrese delege edebilir ve delegenin oy sayısına eklenen oyların sayısı kullanıcının hesabındaki DYDX bakiyesine eşittir. Oylar, gönderen tekrar delege edene veya DYDX'lerini transfer edene kadar mevcut bloktan ve sonraki bloklardan delege edilir.
 
-![Delegate away your voting & proposing powers](<.. /.gitbook/assets/image (86).png>)
+![Oy kullanma ve teklif verme yetkilerinizi delege edin](<../.gitbook/assets/image (86).png>)
 
 Token sahipleri, yönetişim portalından veya programlama yoluyla bir token ile ilişkili yönetişim yetkilerinden birini veya her ikisini birden delege etmeyi seçebilirler. Delege edilmiş bir yetki alan bir kullanıcı kendisine delege edilen bu yetkiyi başka bir delegeye iletemez.
 

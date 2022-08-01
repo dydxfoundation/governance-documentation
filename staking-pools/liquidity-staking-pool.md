@@ -64,7 +64,7 @@ Stake edilen bir bakiye şu iki durumdan birinde olur:
 
 Stake eden bir kişi, hem aktif hem de aktif olmayan bakiyelere sahip olabilir. USDC, aşağıdaki örnekte gösterilen şekilde dönem bazında hesaplanır:
 
-![Staked balance accounting](<.. /.gitbook/assets/image (34).png>)
+![Stake edilen bakiyenin muhasebesi](<../.gitbook/assets/image (34) (1).png>)
 
 Aşağıdaki işlemler stake edilen bakiyeleri aşağıda belirtilen şekilde etkiler:
 
@@ -91,7 +91,7 @@ Stake edenler diledikleri zaman likidite staking havuzuna USDC yatırabilir ve h
 
 Stake edilen USDC'ler aktif kaldığı süre için ödül kazanır. Bu da bir miktar USDC çekme talebinde bulunulduktan sonra, o USDC'lerin dönem sonuna kadar ödül kazanmaya devam edeceği anlamına gelir. Örneğin:
 
-![Rewards accounting](<.. /.gitbook/assets/image (65).png>)
+![Ödül muhasebesi](<../.gitbook/assets/image (65) (1).png>)
 
 Yukarıdaki senaryoda, kullanıcı **Zaman0'dan** **Zaman2**'ye kadar olan süre için ödül kazanır ve ödül de o dönemde stake edilen toplam bakiyeye göre değişir. Kullanıcı bakiyesinin sadece bir kısmını çekme talebinde bulunursa, kalan bakiye **Zaman2**'nin ötesinde ödül kazanmaya devam eder.
 
@@ -105,7 +105,7 @@ Likidite Havuzunda USDC stake etmek için şu adımları izleyin:
 * Havuzda stake etmek istediğiniz USDC miktarını girin.
 * "Fonları Stake Et" seçeneğine tıklayın; stake etmek, fon çekme talebinde bulunmak ve USDC çekmek için gas ücretleri ödemeniz gerekecektir.
 
-![](<.. /.gitbook/assets/image (57).png>)
+![](<../.gitbook/assets/image (57).png>)
 
 Stake edilen USDC'ler artık aktiftir ve hemen ödül kazanmaya başlar.
 
@@ -125,10 +125,10 @@ Bir sonraki dönemde, kullanıcılar aktif olmayan USDC'leri belirli bir adrese 
 
 Likidite Havuzunda USDC'leri staking'den çıkarmak için aşağıdaki adımları izleyin:
 
-* [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity) adresine gidin****
+* [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity) adresine gidin\*\*\*\*
 * Aşağıdaki ekranı açmak için "**Talep Et**" seçeneğine tıklayın:
 
-![Requesting withdraw](<.. /.gitbook/assets/image (58).png>)
+![Çekme talebi](<../.gitbook/assets/image (68).png>)
 
 * Havuzdan çekme talebinde bulunmak istediğiniz USDC miktarını girin ve "**Fon çekme talebinde bulun**" seçeneğine tıklayın. USDC'leri staking'den çıkarmak için gas ücretleri ödemeniz gerekecektir.
 * Mevcut dönem sona ermeden en az 14 gün (**Karartma Süresi**) önce USDC'lerini staking'den çıkarma talebinde bulunan stake edenler USDC'lerini bir sonraki dönemin başında çekebilirler.
@@ -234,7 +234,7 @@ Her bir stake eden ve borç alan kişi her ne kadar Döner Kredi Sözleşmesine 
 
 Herhangi bir zamanda, sözleşme stake edilen ve borç alınan bakiyeler arasındaki ilişkiye bağlı olarak aşağıdaki durumlardan birinde olacaktır:
 
-![Contract Solvency](<.. /.gitbook/assets/image (41).png>)
+![Sözleşmenin Ödeme Kabiliyeti](<../.gitbook/assets/image (41).png>)
 
 Şu durumlarda sözleşmenin **ödeme aczine** düştüğü söylenir:
 
@@ -252,7 +252,7 @@ Eğer yeni bir dönemin başlangıcında sözleşme ödeme aczine düşmüş dur
 
 Bu süreç aşağıda gösterilmektedir:
 
-![Default](<.. /.gitbook/assets/image (46).png>)
+![Temerrüt](<../.gitbook/assets/image (46).png>)
 
 ### Borç neyi temsil eder?
 
