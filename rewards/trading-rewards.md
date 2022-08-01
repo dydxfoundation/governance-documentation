@@ -13,13 +13,13 @@ description: Visión general del programa de recompensas por operaciones.
 
 ## **Visión general**
 
-![Gana recompensas al realizar operaciones en el protocolo de Capa 2 de dYdX](<../.gitbook/assets/image (17).png>)
+![Gana recompensas al realizar operaciones en el protocolo de Capa 2 de dYdX](<../.gitbook/assets/image (17) (1).png>)
 
 DYDX se distribuirá a los traders según una fórmula que recompensa una combinación de tarifas pagadas e interés abierto en el Protocolo de Capa 2 de dYdX. Los DYDX serán distribuidos en una etapa de 28 días durante cinco años y no están sujetos a ningún tipo de adquisición o bloqueo. Se distribuirán 3,835,616 DYDX por etapa.
 
 La función Cobb-Douglas se usa para calcular cuántos DYDX se otorgarán a cada trader durante cada época:
 
-![](../.gitbook/assets/math-20211221.png)
+![](<../.gitbook/assets/math-20211221 (1).png>)
 
 $$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ ,n=1,2..k $$
 
@@ -59,7 +59,7 @@ Las recompensas de las etapas anteriores se podrán ver en [**dydx.community/his
 
 Los tokens DYDX ganados a través de las recompensas por operaciones serán transferibles al final de cada etapa. Los titulares de tokens DYDX están obligados a esperar aproximadamente `7 días` (período de **espera**) después del final de la etapa para reclamar sus tokens. Una vez que se han reclamado los tokens, se pueden utilizar para la gobernanza de dYdX.
 
-Los traders pueden reclamar sus recompensas comerciales al final de cada época, después del **período** de espera [aquí](https://dydx.community/dashboard)
+Los traders pueden reclamar sus recompensas comerciales al final de cada etapa, después del **período** de espera [aquí](https://dydx.community/dashboard)
 
 Los usuarios tendrán que hacer clic en "Reclamo", firmar una transacción y pagar las tasas de gas para reclamar sus DYDX.
 

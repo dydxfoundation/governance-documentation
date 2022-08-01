@@ -12,11 +12,11 @@ El 7,5 % del suministro inicial de tokens (`75,000 000 DYDX`) se distribuirá a
 
 ## **Visión general**
 
-Para incentivar la liquidez del mercado, DYDX se distribuirá a los proveedores de liquidez en función de una fórmula que recompensa la participación en los mercados, la profundidad bilateral, el diferencial (frente al mercado medio) y el tiempo de actividad en el Protocolo de la capa 2 de dYdX. Cualquier dirección de Ethereum puede obtener estas recompensas, sujetas a un umbral mínimo de volumen de creadores del 0,25% del volumen de creadores en la etapa anterior. DYDX se distribuirá en una etapa de 28 días durante cinco años y no está sujeto a ninguna adquisición o bloqueo. Se distribuirán 1,150.685 DYDX por etapa.
+Para incentivar la liquidez del mercado, DYDX se distribuirá a los proveedores de liquidez en función de una fórmula que recompensa la participación en los mercados, el volumen del creador, la profundidad bilateral, el diferencial (frente al mercado medio) y el tiempo de actividad en el Protocolo de la capa 2 de dYdX. Cualquier dirección de Ethereum puede obtener estas recompensas, sujetas a un umbral mínimo de volumen de creadores del 0,25% del volumen de creadores en la etapa anterior. DYDX se distribuirá en una etapa de 28 días durante cinco años y no está sujeto a ninguna adquisición o bloqueo. Se distribuirán 1 150 685 DYDX por etapa.
 
 La siguiente función se utiliza para calcular la cantidad de DYDX que se debe recompensar a cada proveedor de liquidez por etapa. La cantidad de DYDX ganada está determinada por la participación relativa de los $$Q_{FINAL}$$ de cada participante
 
-![](<.. /.gitbook/assets/LP Rewards.png>)
+![](<../.gitbook/assets/Screen Shot 2022-05-17 at 1.08.12 PM.png>)
 
 Se excluyen las órdenes por debajo de una determinada **profundidad mínima** (tamaño) ($$MinDepth$$) por mercado, y también se excluyen las órdenes por encima de un cierto **diferencial máximo** (diferencial de mercado medio) ($$MaxSpread$$).
 
@@ -26,24 +26,23 @@ Los proveedores de liquidez obtienen recompensas mensuales en función de su par
 
 A continuación, la fórmula anterior se desglosa en cálculos paso a paso para obtener más detalles:
 
-| Plazo / Fórmula (en orden de cálculo) | Explicación / Ejemplo |
-| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![](<.. /.gitbook/assets/image (96).png>) | <p></p>Supón que un proveedor de liquidez tiene varias órdenes de oferta abierta (1 BTC a $29 900, 5 BTC a $29 850, 10 BTC a $29 500) en el libro de órdenes de BTC-USD y BTC está actualmente a $30,000 (basado en el mercado medio). Supón que el MinDepth es de $5,000 y MaxSpread frente al mercado medio es de $200, o 6,7 puntos básicos ($200/30,000). Un BP es la centésima de uno por ciento.<br><p> <span class="math">Q_{BID} = (1\ \times \left(\frac{\$29,900}{\$100/30000}\right)) + (5\ \times \left(\frac{\$29,850}{\$150/30000}\right))</span> </p><p><br> </p><span class="math">Q_{BID}</span> se calcula cada minuto utilizando un muestreo aleatorio.<br> |
-| ![](<.. /.gitbook/assets/math-20210908 (1).png>) | <p></p>Supongamos que un proveedor de liquidez tiene varias órdenes de compra abiertas (0,1 BTC a $30 100, 5 BTC a $30 150, 10 BTC a $30 175) en el libro de órdenes BTC-USD y BTC cotiza actualmente a $30,000 (basado en el mercado medio). Supón que el MinDepth es de $5,000 y MaxSpread frente al mercado medio es de $200, o 6,7 puntos básicos ($200/30,000). Un BP es la centésima de uno por ciento.<p></p><p><span class="math">Q_{ASK} = (5\ \times \left(\frac{\$30,150}{\$150/30000}\right)) + (10\ \times \left(\frac{\$30,175}{\$175/30000}\right)) </span> </p><p></p><br><span class="math">Q_{ASK}</span> se calcula cada minuto en un intervalo aleatorio. |
-| ![](<.. /.gitbook/assets/math-20210908 (2).png>) | <p></p>Recompensa la liquidez bilateral tomando el mínimo de <span class="math">Q_{BID}</span> y <span class="math">Q_{ASK}</span>.<br><p></p>Se calcula cada minuto. |
-| ![](<.. /.gitbook/assets/math-20210908 (3).png>) | $$Q_{EPOCH}$$ es la suma de todos los $$Q_{MIN}$$ en una etapa determinada. |
-| ![](<.. /.gitbook/assets/math-20210908 (4).png>) | $$Uptime_{EPOCH}$$ es el porcentaje de tiempo en una etapa en la que un creador de mercado determinado ha estado activo y cotizando tanto en el lado de la oferta como en el de la demanda con tamaños de órdenes mayores que el mínimo de orden establecido (indicado a continuación por mercado) y diferenciales menores que la propagación máxima establecida (indicada a continuación por mercado). |
-| ![](<.. /.gitbook/assets/math-20210908 (5).png>) | $$Q_{FINAL}$$ normaliza $$Q_{EPOCH}$$ para tener en cuenta el tiempo de actividad |
+| _Volumen de creador_ | Volumen total de creador para la etapa |
+| --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="../.gitbook/assets/image (96).png" alt="" data-size="original"> | <p></p>Supón que un proveedor de liquidez tiene varias órdenes de oferta abierta (1 BTC a $29 900, 5 BTC a $29 850, 10 BTC a $29 500) en el libro de órdenes de BTC-USD y BTC está actualmente a $30,000 (basado en el mercado medio). Supón que el MinDepth es de $5,000 y MaxSpread frente al mercado medio es de $200, o 6,7 puntos básicos ($200/30,000). Un BP es la centésima de uno por ciento.<br><p></p><span class="math">Q_{BID} = (1\ \times \left(\frac{$29,900}{$100/3000}\right)) + (5\ \times \left(\frac{$29,850}{$150/300}\right))</span><p></p><br><span class="math">Q_{BID}</span> se calcula cada minuto utilizando un muestreo aleatorio.<br> |
+| <img src="../.gitbook/assets/math-20210908 (1) (1).png" alt="" data-size="original"> | <p></p>Supongamos que un proveedor de liquidez tiene varias órdenes de compra abiertas (0,1 BTC a $30 100, 5 BTC a $30 150, 10 BTC a $30 175) en el libro de órdenes BTC-USD y BTC cotiza actualmente a $30,000 (basado en el mercado medio). Supón que el MinDepth es de $5,000 y MaxSpread frente al mercado medio es de $200, o 6,7 puntos básicos ($200/30,000). Un BP es la centésima de uno por ciento.<p></p><span class="math">1···Q_{ASK} = (5\ \times \left(\frac{$30,150}{$150/30000}\right)) + (10\ \times \left(\frac{$30,175}{$175/30000}\right))1</span><p></p><br><span class="math">Q_{ASK}</span> se calcula cada minuto en un intervalo aleatorio. |
+| <img src="../.gitbook/assets/math-20210908 (2) (1).png" alt="" data-size="original"> | <p></p>Recompensa la liquidez bilateral tomando el mínimo de <span class="math">Q_{BID}</span> y <span class="math">Q_{ASK}</span>.<br><p></p>Se calcula cada minuto. |
+| <img src="../.gitbook/assets/math-20210908 (3) (1).png" alt="" data-size="original"> | $$Q_{EPOCH}$$ es la suma de todos los $$Q_{MIN}$$ en una etapa determinada. |
+| <img src="../.gitbook/assets/Screen Shot 2022-05-17 at 1.07.16 PM.png" alt="" data-size="original"> | $$Uptime_{EPOCH}$$ es el tiempo en una etapa en que un creador de mercado determinado estuvo activo y cotizando tanto en el lado de la oferta como en el de la demanda, con órdenes con montos mayores que el mínimo por orden establecido (indicado abajo por el mercado) y diferenciales más pequeños que el máximo establecido diferencial (indicado abajo por el mercado). |
+| <img src="../.gitbook/assets/math-20210908 (5) (1).png" alt="" data-size="original"> | $$Q_{FINAL}$$ normaliza $$Q_{EPOCH}$$ para tener en cuenta el tiempo de actividad |
 | _stkDYDX_ | Cantidad retenida promedio de stkDYDX (medida aleatoriamente cada minuto) a lo largo de la etapa |
-| _Fondo total de stkDYDX_ | Monto total de la _calificación de stkDYDX_ de todos los participantes de provisión de liquidez a lo largo de la etapa. |
 
 Cada mercado tendrá su propio fondo de recompensas que se calculará de manera diferente. El conjunto inicial de ponderaciones aplicado a cada mercado es el siguiente:
 
 | Mercado | % Asignación del grupo de recompensas totales |
-| ---------------------- | ------------------------------------------------------------------ |
+| ---------------------- | ---------------------------------------------------------------------- |
 | BTC-USD | 20% |
 | ETH-USD | 20% |
-| Otro mercado de perpetuals | ![](<.. /.gitbook/assets/Screen Shot 2021-07-15 at 1.20.17 PM.png>) |
+| Otro mercado de perpetuals | ![](<../.gitbook/assets/Screen Shot 2021-07-15 at 1.20.17 PM (1).png>) |
 
 ## Preguntas frecuentes
 
@@ -59,7 +58,7 @@ En una etapa determinada, los proveedores de liquidez obtienen un rendimiento en
 
 ### ¿Cómo reclamo mis recompensas de proveedores de liquidez?
 
-Las recompensas de proveedores de liquidez se muestran en la [API de dYdX](https://docs.dydx.exchange). Aunque no aparecen en la interfaz de usuario de gobernanza, todavía se pueden reclamar a través de la gobernanza al final de cada etapa [aquí](https://dydx.community/dashboard).
+Las recompensas de proveedores de liquidez se muestran en la [API de dYdX](https://docs.dydx.exchange/). Aunque no aparecen en la interfaz de usuario de gobernanza, todavía se pueden reclamar a través de la gobernanza al final de cada etapa [aquí](https://dydx.community/dashboard).
 
 ### ¿Cuándo puedo retirar y transferir mis Recompensas de Proveedor de Liquidez de DYDX reclamadas?
 
