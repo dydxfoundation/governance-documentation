@@ -13,7 +13,7 @@ description: Un aperçu du pool de staking de liquidité
 
 Commencez à miser sur [**dydx.community/dashboard/pools/liquidity**](https://dydx.community/dashboard/pools/liquidity)**.**
 
-## Aperçu **du staking**
+## Aperçu du **staking**
 
 La liquidité est un composant central de tout échange réussi. Pour promouvoir les effets de réseau de liquidité et inciter les fournisseurs de liquidité professionnels, DYDX sera distribué aux utilisateurs qui investissent l'USDC dans le pool de staking de liquidité. Les fournisseurs de liquidités approuvés par la communauté utiliseront l'USDC jalonné pour créer des marchés sur le protocole dYdX de couche 2, renforçant ainsi la liquidité disponible sur les marchés. Les fournisseurs de liquidité ne sont pas autorisés à utiliser des fonds empruntés en dehors du protocole de couche 2 de dYdX.
 
@@ -64,7 +64,7 @@ Un solde staké est dans l'un des deux états suivants :
 
 Un staker peut avoir une combinaison de soldes actifs et inactifs. USDC est comptabilisé époch par époch, comme indiqué dans l'exemple suivant :
 
-![Staked balance accounting](<.. /.gitbook/assets/image (34).png>)
+![Comptabilité du solde jalonné](<../.gitbook/assets/image (34) (1).png>)
 
 Les opérations suivantes affectent les soldes stakés comme suit :
 
@@ -91,7 +91,7 @@ Les stakers peuvent déposer l'USDC à tout moment dans le pool de staking de li
 
 L'USDC staké gagne des récompenses pour la période pendant laquelle il reste actif. Cela signifie qu'après avoir demandé un retrait de certains USDC, cet USDC continuera à gagner des récompenses jusqu'à la fin de l'époch. Par exemple :
 
-![Rewards accounting](<.. /.gitbook/assets/image (65).png>)
+![Comptabilité des récompenses](<../.gitbook/assets/image (65) (1).png>)
 
 Dans le scénario ci-dessus, l'utilisateur gagnerait des récompenses pour la période de **Time0** à **Time2**, variant avec le solde total staké au cours de cette période. Si l'utilisateur ne demande un retrait que pour une partie du solde de l'utilisateur, le solde restant continuera à gagner des récompenses au-delà de **Time2**.
 
@@ -105,7 +105,7 @@ Pour implanter l'USDC dans le pool de liquidités, suivez ces étapes :
 * Entrez le montant de USDC que vous souhaitez staker sur le pool.
 * Cliquez sur « Staker des fonds » - vous devrez payer des frais de gaz pour staker, demander de retirer et retirer les USDC.
 
-![](<.. /.gitbook/assets/image (57).png>)
+![](<../.gitbook/assets/image (57).png>)
 
 L'USDC staké est maintenant actif et commence à gagner des récompenses immédiatement.
 
@@ -125,10 +125,10 @@ Pour retirer l'USDC, les utilisateurs appellent la fonction `requestWithdrawal` 
 
 Pour annuler l'USDC sur le pool de liquidité, suivez les étapes suivantes :
 
-* Allez sur [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)****
+* Allez sur [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*
 * Cliquez sur « **Demande** », pour ouvrir le modèle suivant :
 
-![Requesting withdraw](<.. /.gitbook/assets/image (58).png>)
+![Demande de retrait](<../.gitbook/assets/image (68).png>)
 
 * Entrez le montant d'USDC que vous souhaitez demander de retirer du pool, puis cliquez sur "**Demander un retrait**". Vous devrez payer des frais de gaz pour annuler l'USDC.
 * Les stakers qui demandent à retirer l'USDC au moins 14 jours (**fenêtre de blocage**) avant la fin de l'époch en cours peuvent retirer leur USDC au début de l'époch suivante.
@@ -234,7 +234,7 @@ Bien que chaque staker et emprunteur soit partie à l'accord de crédit renouvel
 
 À tout moment, le contrat sera dans l'un des états suivants en fonction de la relation entre les soldes stakés et empruntés :
 
-![Contract Solvency](<.. /.gitbook/assets/image (41).png>)
+![Solvabilité du contrat](<../.gitbook/assets/image (41).png>)
 
 Le contrat est dit **insolvable** :
 
@@ -252,7 +252,7 @@ Lorsque la fonction `markDebt()` est appelée, le montant du manque à gagner de
 
 Ce processus est illustré ci-dessous :
 
-![Default](<.. /.gitbook/assets/image (46).png>)
+![Par défaut](<../.gitbook/assets/image (46).png>)
 
 ### Que représente la dette ?
 
