@@ -12,11 +12,11 @@ description: Visão geral do programa de recompensas do provedor de liquidez.
 
 ## **Visão geral**
 
-Para incentivar a liquidez do mercado, DYDX será distribuída a provedores de liquidez com base em uma fórmula que recompensa a participação nos mercados, profundidade do par, spread (vs. o mid-market) e o tempo de atividade no protocolo Layer 2 da dYdX. Qualquer endereço de Ethereum pode ganhar essas recompensas, estando sujeito a um limite de volume mínimo de 0,25% do volume de maker na epoch anterior. A DYDX será distribuída numa base de 28 dias ao longo de cinco anos e não está sujeita a vesting ou bloqueios. 1.150.685 DYDX serão distribuídos por epoch.
+Para incentivar a liquidez do mercado, DYDX será distribuída a provedores de liquidez com base em uma fórmula que recompensa a participação nos mercados, volume de maker, profundidade do par, spread (vs. o mid-market) e o tempo de atividade no protocolo Layer 2 da dYdX. Qualquer endereço de Ethereum pode ganhar essas recompensas, estando sujeito a um limite de volume mínimo de 0,25% do volume de maker na epoch anterior. A DYDX será distribuída numa base de 28 dias ao longo de cinco anos e não está sujeita a vesting ou bloqueios. 1.150.685 DYDX serão distribuídos por epoch.
 
-A função a seguir é usada para calcular quanto de DYDX deve ser enviada como recompensa a cada provedor de liquidez por epoch. A quantia de DYDX obtida é determinada por parte relativa do $$Q_{FINAL}$$ de cada participante
+A função a seguir é usada para calcular quanto de DYDX deve ser enviada como recompensa a cada provedor de liquidez por epoch. A quantia de DYDX obtida é determinada por parte relativa de $$Q_{FINAL}$$ de cada participante
 
-![](<.. /.gitbook/assets/LP Rewards.png>)
+![](<../.gitbook/assets/Screen Shot 2022-05-17 at 1.08.12 PM.png>)
 
 Ordens abaixo de uma determinada **profundidade mínima** (tamanho) ($$MinDepth$$) por mercado são excluídas e ordens de um determinado **spread máximo** (spread de mid-market) ($$MaxSpread$$) de mercado também são excluídas.
 
@@ -26,24 +26,23 @@ Os provedores de liquidez ganham recompensas mensais com base na sua parte $$Q_{
 
 A fórmula acima é explicada em detalhes abaixo:
 
-| Termo / Fórmula (por ordem de cálculo) | Explicação / exemplo |
-| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![](<.. /.gitbook/assets/image (96).png>) | <p></p>Considere que um provedor de liquidez tenha várias ordens abertas (1 BTC em US$ 29.900, 5 BTC em US$ 29.850, 10 BTC em US$ 29.500) no livro de ordens de BTC-USD, e o BTC está atualmente em US$ 30.000 (com base no mid-market). Suponha que o MinDepth é de US$ 5.000 e o MaxSpread vs. mid-market é de US$ 200 ou 6,7 pontos de base (US$ 200/30000). BP é de cem por cento de um por cento.<br><p> <span class="math">Q_{BID} = (1\ \times \left(\frac{\$29,900}{\$100/30000}\right)) + (5\ \times \left(\frac{\$29,850}{\$150/30000}\right))</span> </p><p><br> </p><span class="math">Q_{BID}</span> é calculado a cada minuto usando uma amostragem aleatória.<br> |
-| ![](<.. /.gitbook/assets/math-20210908 (1).png>) | <p></p>Suponha que um provedor de liquidez tenha várias ordens abertas (0,1 BTC em US$ 30.100, 5 BTC em US$ 30.150, 10 BTC em US$ 30.175) no livro de ordens de BTC-USD, e o BTC seja negociado no momento a US$ 30.000 (com base no mid-market). Suponha que o MinDepth é de US$ 5.000 e o MaxSpread vs. mid-market é de US$ 200 ou 6,7 pontos de base (US$ 200/30000). BP é de cem por cento de um por cento.<p></p><p><span class="math">Q_{ASK} = (5\ \times \left(\frac{\$30,150}{\$150/30000}\right)) + (10\ \times \left(\frac{\$30,175}{\$175/30000}\right)) </span> </p><p></p><br><span class="math">Q_{ASK}</span> é calculado a cada minuto em um intervalo aleatório. |
-| ![](<.. /.gitbook/assets/math-20210908 (2).png>) | <p></p>As recompensas de liquidez do par são calculadas levando em conta o mínimo de <span class="math">Q_{BID}</span> e <span class="math">Q_{ASK}</span>.<br><p></p>Calculado a cada minuto. |
-| ![](<.. /.gitbook/assets/math-20210908 (3).png>) | $$Q_{EPOCH}$$ é a soma de todo $$Q_{MIN}$$ em uma determinada epoch. |
-| ![](<.. /.gitbook/assets/math-20210908 (4).png>) | $$Uptime_{EPOCH}$$ é a porcentagem de tempo em uma epoch para a qual um maker de mercado estava ativo e negociando compras e vendas dos dois lados com ordens maiores que o tamanho mínimo de ordem definido (marcado abaixo pelo mercado) e spreads menores do que o especificado como o spread máximo (marcado abaixo pelo mercado). |
-| ![](<.. /.gitbook/assets/math-20210908 (5).png>) | $$Q_{FINAL}$$ normaliza $$Q_{EPOCH}$$ para a conta por tempo de atividade |
+| _Volume de Maker_ | Volume de maker total para a Epoch. |
+| --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="../.gitbook/assets/image (96).png" alt="" data-size="original"> | <p></p>Considere que um provedor de liquidez tenha várias ordens abertas (1 BTC em US$ 29.900, 5 BTC em US$ 29.850, 10 BTC em US$ 29.500) no livro de ordens de BTC-USD, e o BTC está atualmente em US$ 30.000 (com base no mid-market). Suponha que o MinDepth é de US$ 5.000 e o MaxSpread vs. mid-market é de US$ 200 ou 6,7 pontos de base (US$ 200/30000). BP é de cem por cento de um por cento.<br><p></p><span class="math">Q_{BID} = (1\ \times \left(\frac{$29,900}{$100/30000}\right)) + (5\ \times \left(\frac{$29,850}{$150/30000}\right))</span><p></p><br><span class="math">Q_{BID}</span> é calculado a cada minuto usando uma amostragem aleatória.<br> |
+| <img src="../.gitbook/assets/math-20210908 (1) (1).png" alt="" data-size="original"> | <p></p>Suponha que um provedor de liquidez tenha várias ordens abertas (0,1 BTC em US$ 30.100, 5 BTC em US$ 30.150, 10 BTC em US$ 30.175) no livro de ordens de BTC-USD, e o BTC seja negociado no momento a US$ 30.000 (com base no mid-market). Suponha que o MinDepth é de US$ 5.000 e o MaxSpread vs. mid-market é de US$ 200 ou 6,7 pontos de base (US$ 200/30000). BP é de cem por cento de um por cento.<p></p><span class="math">Q_{ASK} = (5\ \times \left(\frac{$30,150}{$150/30000}\right)) + (10\ \times \left(\frac{$30,175}{$175/30000}\right))</span><p></p><br><span class="math">Q_{ASK}</span> é calculado a cada minuto em um intervalo aleatório. |
+| <img src="../.gitbook/assets/math-20210908 (2) (1).png" alt="" data-size="original"> | <p></p>As recompensas de liquidez do par são calculadas levando em conta o mínimo de <span class="math">Q_{BID}</span> e <span class="math">Q_{ASK}</span>.<br><p></p>Calculado a cada minuto. |
+| <img src="../.gitbook/assets/math-20210908 (3) (1).png" alt="" data-size="original"> | $$Q_{EPOCH}$$ é a soma de todo $$Q_{MIN}$$ em uma determinada epoch. |
+| <img src="../.gitbook/assets/Screen Shot 2022-05-17 at 1.07.16 PM.png" alt="" data-size="original"> | $$Uptime_{EPOCH}$$ é o momento de uma epoch na qual um determinado maker de mercado estava ativo e negociando, tanto em compra como em venda, com tamanhos de ordem maiores que o tamanho mínimo declarado (marcado abaixo por mercado) e spreads menores do que o spread máximo declarado (marcado abaixo por mercado). |
+| <img src="../.gitbook/assets/math-20210908 (5) (1).png" alt="" data-size="original"> | $$Q_{FINAL}$$ normaliza $$Q_{EPOCH}$$ para a conta por tempo de atividade |
 | _stkDYDX_ | Valor médio de stkDYDX mantido (medido aleatoriamente a cada minuto) dentro da epoch |
-| _Pool total de stkDYDX_ | Valor total de toda a _pontuação de stkDYDX_ dos participantes provedores de liquidez na epoch. |
 
 Cada mercado terá seu próprio pool de recompensas que será ponderado de maneira diferente. O conjunto inicial de pesos aplicados a cada mercado é o seguinte:
 
 | Mercado | % Alocação de pool de recompensas totais |
-| ---------------------- | ------------------------------------------------------------------ |
+| ---------------------- | ---------------------------------------------------------------------- |
 | BTC-USD | 20% |
 | ETH-USD | 20% |
-| Outro mercado perpétuo | ![](<.. /.gitbook/assets/Screen Shot 2021-07-15 at 1.20.17 PM.png>) |
+| Outro mercado perpétuo | ![](<../.gitbook/assets/Screen Shot 2021-07-15 at 1.20.17 PM (1).png>) |
 
 ## Perguntas e respostas
 
@@ -59,7 +58,7 @@ Numa determinada epoch, os provedores de liquidez ganham um rendimento com base 
 
 ### Como posso resgatar minhas recompensas para provedores de liquidez?
 
-As recompensas para provedores de liquidez são cobertas na [API da dYdX](https://docs.dydx.exchange). Embora não seja mostrada na interface de usuário da governança, elas ainda são resgatáveis por meio da governança ao final de cada epoch [aqui](https://dydx.community/dashboard).
+As recompensas para provedores de liquidez são cobertas na [API da dYdX](https://docs.dydx.exchange/). Embora não seja mostrada na interface de usuário da governança, elas ainda são resgatáveis por meio da governança ao final de cada epoch [aqui](https://dydx.community/dashboard).
 
 ### Quando posso fazer o saque e transferir minhas recompensas para provedores de liquidez DYDX que resgatei?
 

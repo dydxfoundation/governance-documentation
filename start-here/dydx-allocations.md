@@ -19,11 +19,11 @@ Houve um mint total de `1.000.000.000 DYDX` que ficará acessível por mais de c
 * **15,27%** (`152.704.930 DYDX`) para fundadores, funcionários e consultores da dYdX Trading ou dYdX Foundation
 * **7,00%** (`70.000.000 DYDX`) para futuros funcionários e consultores da dYdX Trading ou dYdX Foundation
 
-![](<.. /.gitbook/assets/DYDX Allocations (Initial 5 Years).png>)
+![](<../.gitbook/assets/DYDX Allocations (Initial 5 Years) (1).png>)
 
 A partir de cinco anos após o lançamento, uma taxa de inflação perpétua máxima de `2%` ao ano poderá ser usada pela governança para aumentar o fornecimento de DYDX, garantindo que a comunidade tenha recursos para continuar o desenvolvimento e o crescimento do protocolo. A inflação deve ser promulgada por meio de uma proposta da governança, ficando limitada a `2%` ao ano.
 
-![](<.. /.gitbook/assets/Allocation 10 Years Inflation (1).png>)
+![](<../.gitbook/assets/Allocation 10 Years Inflation (1) (1).png>)
 
 Embora a alocação da comunidade tenha sido estabelecida como exposta acima, os detentores de tokens DYDX têm total controle acerca da alocação da comunidade para usos futuros por meio da governança.
 
@@ -60,4 +60,4 @@ Em 8 de setembro de 2021, `8 dias` após o final da Epoch 0, as restrições de 
 
 O gráfico a seguir mostra o fornecimento total líquido ao longo do tempo:
 
-![](<.. /.gitbook/assets/Liquid Supply Schedule (2).png>)
+![](<../.gitbook/assets/Liquid Supply Schedule (2) (1).png>)
