@@ -15,4 +15,5 @@ Juntamente com o lançamento da DYDX, também lançamos:\
  🖥️ Um produto de governança na [**dydx.community**](https://dydx.community)\
  📈 [**Uma pool de staking de liquidez**](staking-pools/liquidity-staking-pool.md) para USDC\
  🔒[**Uma pool de staking de segurança**](staking-pools/safety-staking-pool.md) para DYDX\
- 💰 [**Recompensas de Trading**](rewards/trading-rewards.md)\ 💸 [**Recompensas de mineração retroativas**](rewards/retroactive-mining-rewards.md) para usuários antigos\ 📊 [**Recompensas para provedores de liquidez**](rewards/liquidity-provider-rewards.md)
+ 💰 [**Recompensas de Trading**](rewards/trading-rewards.md)\ 💸 [**Recompensas de mineração retroativas**](rewards/retroactive-mining-rewards.md) para usuários antigos\ 
+ 📊 [**Recompensas para provedores de liquidez**](rewards/liquidity-provider-rewards.md)
