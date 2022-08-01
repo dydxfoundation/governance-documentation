@@ -4,26 +4,26 @@ description: 流动性质押池概述
 
 # 流动性模块
 
-初始代币供应量的`2.50%`（`25,000,000个DYDX`）将分配给把USDC质押到流动性质押池的用户。
+初始代币供应量的 `2.50%`（`25,000,000 个 DYDX`）将分配给把 USDC 质押到流动性质押池的用户。
 
 ### 目标
 
-* 鼓励在dYdX Layer 2协议上为做市目的分配USDC。
+* 鼓励在 dYdX Layer 2 协议上为做市目的分配 USDC。
 * 将资金分配给表现最好的流动性提供方，以提高dYdX的价差、深度和正常运行时间。
 
-开始在[**dydx.community/dashboard/pools/liquidity**](https://dydx.community/dashboard/pools/liquidity)**上进行质押。**
+开始在 [**dydx.community/dashboard/pools/liquidity**](https://dydx.community/dashboard/pools/liquidity)** 上进行质押。**
 
 ## **质押**概述
 
-流动性是任何成功交易所的核心组成部分。为提高流动性网络效应，激励专业流动性提供方，DYDX将被分配给向流动性质押池质押USDC的用户。社区批准的流动性提供方将使用质押的USDC基于dYdX Layer 2协议进行做市，从而进一步提高市场的可用流动性。流动性提供方被限制使用dYdX Layer 2协议以外的借贷资金。
+流动性是任何成功交易所的核心组成部分。为提高流动性网络效应，激励专业流动性提供方，DYDX将被分配给向流动性质押池质押USDC的用户。社区批准的流动性提供方将使用质押的 USDC 基于 dYdX Layer 2 协议进行做市，从而进一步提高市场的可用流动性。流动性提供方被限制使用 dYdX Layer 2 协议以外的借贷资金。
 
 质押人将通过质押USDC赚取DYDX奖励。DYDX奖励将根据每个质押人占质押池中总USDC的比例持续进行分配。
 
-每个质押人和流动性提供方必须成为循环信贷协议的缔约方（[此处链接](https://dydx.foundation/revolving-credit-agreement)）。该协议将流动性质押池的条款用自然语言表达出来，赋予每个质押者针对任何不偿还所借USDC的流动性提供方的可执行权利。该协议仅在每个质押人与每个流动性提供方之间签署。dYdX基金会不是协议的缔约方，并且没有该协议的权利或义务。
+每个质押人和流动性提供方必须成为循环信贷协议的缔约方（[此处](https://dydx.foundation/revolving-credit-agreement)链接）。该协议将流动性质押池的条款用自然语言表达出来，赋予每个质押者针对任何不偿还所借USDC的流动性提供方的可执行权利。该协议仅在每个质押人与每个流动性提供方之间签署。dYdX基金会不是协议的缔约方，并且没有该协议的权利或义务。
 
 ## USDC解除质押和提现
 
-质押人必须在时段结束前至少`14`天请求提现USDC\*\*（停市窗口期）\*\*，才能在该[**时段**](../start-here/epochs.md)结束后提现质押人的USDC。如果质押人不请求提现，他们质押的USDC将被转入下一纪元。
+质押人必须在[**时段**](../start-here/epochs.md)结束前至少`14天`请求提现USDC（**停市窗口期**），才能在该时段结束后提现质押人的USDC。如果质押人不请求提现，他们质押的USDC将被转入下一纪元。
 
 在**停市窗口期**期间，无法请求提现。
 
@@ -37,23 +37,23 @@ description: 流动性质押池概述
 
 如果基本的智能合约代码存在漏洞，质押人也会面临智能合约风险。所有DYDX和治理智能合约都已被审计并进行了严格的测试。
 
-为了减少质押人的风险，每个质押人和流动性提供方都必须成为循环信用协议的缔约方，（[此处链接](https://dydx.foundation/revolving-credit-agreement)），但签订该协议不能确保流动性提供方将偿还所有借款金额，即使根据协议强制执行质押人的权利，也是如此。
+为了减少质押人的风险，每个质押人和流动性提供方都必须成为循环信用协议的缔约方，（[此处](https://dydx.foundation/revolving-credit-agreement)链接），但签订该协议不能确保流动性提供方将偿还所有借款金额，即使根据协议强制执行质押人的权利，也是如此。
 
 ## 批准的借款人
 
 流动性质押池合约是一种双侧、质押不足、无利息的流动性系统。
 
-可以提现的金额取决于借款人分配比例和质押资金池中质押的USDC总量。USDC分配百分比和可用总数可以根据`LS1EpochSchedule`指定的预定义时间进行变更。借款的USDC只能在dYdX Layer 2协议上使用，此协议通过`StarkProxy`合约强制执行，该合约与`StarkEx永续交易所`合约互动。
+可以提现的金额取决于借款人分配比例和质押资金池中质押的USDC总量。USDC分配百分比和可用总数可以根据`LS1EpochSchedule`指定的预定义时间进行变更。借款的 USDC 只能在 dYdX Layer 2 协议上使用，此协议通过 `StarkProxy` 合约强制执行，该合约与 `StarkEx 永续交易所`合约互动。
 
-初始获批准的流动性提供方包括`Wintermute`、`Amber Group`、`Wootrade (Kronos)`、`Sixtant`和`DAT Trading`，他们一直在dYdX Layer 2协议上积极做市。
+初始获批准的流动性提供方包括 `Wintermute`、`Amber Group`、`Wootrade (Kronos)`、`Sixtant` 和 `DAT Trading`，他们一直在 dYdX Layer 2 协议上积极做市。
 
-| 事先批准的借款人          | 初始分配百分比 | 以太坊地址                                      | StarkProxy                                                                                                            | 流动性提供方的详细信息                                                                                                                                                                            |
-| ----------------- | ------- | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Wintermute        | 25%     | 0x4f3a120E72C76c22ae802D129F599BFDbc31cb81 | 0x0b2B08AC98a1568A34208121c26F4F41a9e0FbB6                                                                            | [https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/](https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/)                             |
-| Amber Group       | 25%     | 0x4f3a120E72C76c22ae802D129F599BFDbc31cb81 | [0x3e6E9EFb0A677a24F47093a22044dc5451A028cF](https://etherscan.io/address/0x3e6E9EFb0A677a24F47093a22044dc5451A028cF) | [https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/](https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/)                           |
-| Wootrade (Kronos) | 20%     | 0x38d981c3c42b2ec8e9572f56052407d0f1279fb  | [0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06](https://etherscan.io/address/0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06) | [https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/](https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/) |
-| Sixtant           | 20%     | 0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c | [0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2](https://etherscan.io/address/0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2) | [https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/](https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/)                                   |
-| DAT Trading       | 10%     | 0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c | [0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874](https://etherscan.io/address/0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874) | [https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/](https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/)                           |
+| 事先批准的借款人 | 初始分配百分比 | 以太坊地址 | StarkProxy | 流动性提供方的详细信息 |
+| ---------------------- | ----------------------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Wintermute | 25% | [0x4f3a120E72C76c22ae802D129F599BFDbc31cb81](https://etherscan.io/address/0x4f3a120E72C76c22ae802D129F599BFDbc31cb81) | [0x0b2B08AC98a1568A34208121c26F4F41a9e0FbB6](https://etherscan.io/address/0x0b2B08AC98a1568A34208121c26F4F41a9e0FbB6) | [https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/](https://forums.dydx.community/proposal/discussion/1486-borrower-wintermute/) |
+| Amber Group | 25% | [0x39Ad99E33ab7Ee85818741dD6076112188bc2611](https://etherscan.io/address/0x39Ad99E33ab7Ee85818741dD6076112188bc2611) | [0x3e6E9EFb0A677a24F47093a22044dc5451A028cF](https://etherscan.io/address/0x3e6E9EFb0A677a24F47093a22044dc5451A028cF) | [https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/](https://forums.dydx.community/proposal/discussion/1487-borrower-amber-group/) |
+| WOO Network (Kronos) | 20% | [0x38d981c3c42b2ec8e9572f560552407d0f1279fb](https://etherscan.io/address/0x38d981c3c42b2ec8e9572f560552407d0f1279fb) | [0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06](https://etherscan.io/address/0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06) | [https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/](https://forums.dydx.community/proposal/discussion/1485-borrower-wootrade-kronos-research/) |
+| Sixtant | 20% | [0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c](https://etherscan.io/address/0x89ded350b2be3dc2014c71f1e49cdfad17ccaf7c) | [0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2](https://etherscan.io/address/0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2) | [https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/](https://forums.dydx.community/proposal/discussion/1484-borrower-sixtant/) |
+| DAT Trading | 10% | [0x83E8fb8f4DAE0f42d68FdbBf85d4191a5e6f92F8](https://etherscan.io/address/0x83e8fb8f4dae0f42d68fdbbf85d4191a5e6f92f8) | [0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874](https://etherscan.io/address/0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874) | [https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/](https://forums.dydx.community/proposal/discussion/1483-borrower-dat-trading/) |
 
 ## 质押余额会计处理
 
@@ -64,7 +64,7 @@ description: 流动性质押池概述
 
 质押人可能具有活跃和非活跃余额的组合。USDC按时段进行计算，如以下示例所示：
 
-![Staked balance accounting](<../.gitbook/assets/image (34).png>)
+![质押余额会计处理](<../.gitbook/assets/image (34) (1).png>)
 
 以下操作会影响质押余额，如下所示：
 
@@ -91,7 +91,7 @@ stkUSDC余额可能是活跃的或不活跃的。活跃的stkUSDC可以作为ERC
 
 质押的USDC在活跃时期内便会获得奖励。这意味着，在请求提现部分USDC后，USDC将继续赚取奖励，直至时段结束。例如：
 
-![Rewards accounting](<../.gitbook/assets/image (65) (2).png>)
+![奖励会计处理](<../.gitbook/assets/image (65) (1).png>)
 
 在上述情景中，用户将从**Time0**到**Time2**期间内赚取奖励，随着该期间质押余额总数的变化而变化。如果用户仅请求提现部分用户余额，那么剩余的余额将在**Time2**后继续赚取奖励。
 
@@ -121,17 +121,17 @@ stkUSDC余额可能是活跃的或不活跃的。活跃的stkUSDC可以作为ERC
 
 如果要提现 USDC，用户请调用`requestWithdrawal`，以请求在下一时段提现USDC。用户资金将持续质押，并且无法在当前时段提现。从下一时段开始，资金将变成“非活跃”，并可用于提现。
 
-在下一时段，用户将调用`withdrawStake`函数，将非活跃USDC提现至特定地址。用户可以选择要提取的非活跃资金金额或调用\`withdrawMaxStake\`函数以提取所有非活跃资金。`withdrawMaxStake`函数的gas效率低于通过eth\_call查询最大值和调用`withdrawStake()`。
+在下一时段，用户将调用`withdrawStake`函数，将非活跃USDC提现至特定地址。用户可以选择要提取的非活跃资金金额或调用\`withdrawMaxStake\`函数以提取所有非活跃资金。`withdrawMaxStake` 函数的 gas 效率低于通过 eth\_call 查询最大值和调用 `withdrawStake()`。
 
 如要将USDC解除质押到流动性质押池，按照以下步骤操作：
 
 * 转到[**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*
 * 单击“**请求**”，以打开以下模式：
 
-![Requesting withdraw](<../.gitbook/assets/image (58).png>)
+![请求提现](<../.gitbook/assets/image (68).png>)
 
 * 输入您希望请求从资金池中提现的USDC金额，然后单击“**请求提现**”。您需要支付gas费以解除质押USDC。
-* 如果质押人在当前时段结束前至少14天\*\*（停市窗口期）\*\*请求解除质押USDC，则可以在下一时段开始时提现USDC。
+* 如果质押人在当前时段结束前至少14天（**停市窗口期**）请求解除质押USDC，则可以在下一时段开始时提现USDC。
 
 ### 治理可以更改哪些参数？
 
@@ -140,7 +140,7 @@ dYdX治理负责：
 * 对现有借款人进行尽职调查
 * 将新借款人添加到质押流动性资金池中，和/或从资金池中删除现有借款人
 * 更改将借款USDC分配给获批借款人的数额
-  * 调用`setBorrowerAllocations`和`setBorrowingRestriction`函数，以更改某些借款人的分配。可以使用它们添加和删除借款人。增加将于下一时段生效，但减少将立即限制借贷。“停市窗口期”期间无法调用这些函数。
+   * 调用`setBorrowerAllocations`和`setBorrowingRestriction`函数，以更改某些借款人的分配。可以使用它们添加和删除借款人。增加将于下一时段生效，但减少将立即限制借贷。“停市窗口期”期间无法调用这些函数。
 * 时段长度和停市窗口期在创建合约时确定，但可以更改
 
 ## **借款人常见问题解答**
@@ -163,21 +163,21 @@ dYdX治理负责：
 
 #### **质押人拥有的USDC**
 
-借款人可以在与借款USDC相同的账户中，安全地将自己的USDC存入`StarkProxy`并用于dYdX Layer 2协议。在下列任何一种情况下，可以从`StarkProxy`提现USDC：
+借款人可以在与借款 USDC 相同的账户中，安全地将自己的 USDC 存入 `StarkProxy` 并用于 dYdX Layer 2 协议。在下列任何一种情况下，可以从`StarkProxy`提现USDC：
 
 * 在`StarkProxy`合约中持有超过借款余额的USDC可以随时提现。
 * 治理可以批准某种数额的提现。
-  * 注意：可以利用此方法允许借款人提现利润，而不必将大多数USDC从dYdX Layer 2协议中移出。
+   * 注意：可以利用此方法允许借款人提现利润，而不必将大多数 USDC 从 dYdX Layer 2 协议中移出。
 
 #### **借款人角色**
 
-`StarkProxy`合约支持以下由借款人控制的角色。这些可以根据借款人的保险需求由一个地址或单独的地址持有。每种角色可以由任何数量的地址来持有。
+`StarkProxy` 合约支持以下由借款人控制的角色。这些可以根据借款人的保险需求由一个地址或单独的地址持有。每种角色可以由任何数量的地址来持有。
 
 所有者
 
 * 授予或撤销委托管理员的角色。
 * 添加或删除`StarkProxy`中提现的USDC的允许接收者。
-* 添加或删除在dYdX Layer 2协议上使用的允许的STARK密钥。
+* 添加或删除在 dYdX Layer 2 协议上允许使用的 STARK 密钥。
 * 在`LiquidityStakingV1`和`StarkPerpetual`合约上设定ERC20限额。
 * 在`StarkEx永续交易所`合约上调用`forcedWithdrawalRequest()`或`forcedTradeRequest()`。
 
@@ -199,7 +199,7 @@ dYdX治理负责：
 
 #### **限制**
 
-在dYdX Layer 2协议上，Layer 2转让因`StarkProxy`控制的账户而被禁用。
+在 dYdX Layer 2 协议上，Layer 2 转让因 `StarkProxy` 控制的账户而被禁用。
 
 #### **监护权**
 
@@ -217,14 +217,14 @@ dYdX治理负责：
 
 **如果借款人有未偿债务余额，则监护人可以采取以下行动（视时间锁而定）：**
 
-* 从dYdX Layer 2协议中强制提现。
-* 在dYdX Layer 2协议上进行强制交易(仅限于削减)。
+* 从 dYdX Layer 2 协议中强制提现。
+* 在 dYdX Layer 2 协议上进行强制交易（仅限于削减）。
 
 ## 质押风险常见问题解答
 
 ### 质押到流动性质押池的风险是什么？如果借款人未能偿还借款资金，会发生什么？
 
-非质押借款的系统需要更高的信托标准，借款人必须达到该标准。从流动性质押池中借贷的流动性提供方不能在流动性质押系统和dYdX Layer 2协议之外转移借贷的资金。但是，如果流动性提供方将失去资金交易，并且无法通过外部资金来源补充其借贷的分配，那么质押的USDC可能会亏损。
+非质押借款的系统需要更高的信托标准，借款人必须达到该标准。从流动性质押池中借贷的流动性提供方不能在流动性质押系统和 dYdX Layer 2 协议之外转移借贷的资金。但是，如果流动性提供方将失去资金交易，并且无法通过外部资金来源补充其借贷的分配，那么质押的USDC可能会亏损。
 
 在这种情况下，如果借款人迟迟未偿还请求提现的资金，那么不活跃资金可能会受到以下社会化损失。如果借款资金出现违约，一个拖欠的借款人将面临严重的声誉损害。
 
@@ -234,7 +234,7 @@ dYdX治理负责：
 
 在任何时候，合约将根据质押余额和借款余额之间的关系处于以下其中一种状态：
 
-![Contract Solvency](<../.gitbook/assets/image (41).png>)
+![合约偿债能力](<../.gitbook/assets/image (41).png>)
 
 在以下情况下，合约**无法偿债**：
 
@@ -242,7 +242,7 @@ dYdX治理负责：
 * 或者如果非活跃总余额超过未借贷总余额；
 * 或者如果可提现余额总数超过合约的USDC余额。
 
-否则，合约被认为是**可以偿债**。
+否则，合约被认为**可以偿债**。
 
 由于借款限于借款人分配的活跃USDC比例，而且由于非活跃余额只能在时段之间增加，因此在时段之间的过渡期间，合约通常只能从偿债状态变成无法偿债状态。
 
@@ -252,7 +252,7 @@ dYdX治理负责：
 
 该过程如下所示：
 
-![Default](<../.gitbook/assets/image (46).png>)
+![违约](<../.gitbook/assets/image (46).png>)
 
 ### 债务代表什么？
 
