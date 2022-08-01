@@ -38,11 +38,11 @@ dYdXガバナンスをサポートするスマートコントラクトは6つあ
 
 dydx.communityでホストされているガバナンスフロントエンドのソースコードは、[こちら](https://github.com/dydxfoundation/pnyx)をご覧ください。
 
-すべての主要な新しいスマートコントラクトは、Peckshieldによって監査されました。重要または優先度の高いセキュリティの問題は見つかりませんでした。コアガバナンスおよびトークンに関する契約は、[CertiK](https://www.certik.io)、[Certora](https://www.certora.com)、[Peckshield](https://peckshield.com/en)によって監査され、数ヶ月間メインネットで試行済みのAaveガバナンス契約から派生しています。
+すべての主要な新しいスマートコントラクトは、Peckshieldによって監査されました。重要または優先度の高いセキュリティの問題は見つかりませんでした。コアガバナンスおよびトークンに関する契約は、[CertiK](https://www.certik.io/)、[Certora](https://www.certora.com/)、[Peckshield](https://peckshield.com/en)によって監査され、数ヶ月間メインネットで試行済みのAaveガバナンス契約から派生しています。
 
 ## コアガバナンス契約
 
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.17.43 PM.png>)
+![赤い点線はコントラクトがアップグレード可能であることを示しています](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.17.43 PM (1).png>)
 
 ### DydxToken
 
@@ -102,9 +102,7 @@ GovernanceStrategy（ガバナンス戦略）コントラクトはAaveにより�
 
 ### Merkleディストリビュータ
 
-
-
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.23.50 PM.png>)
+![赤い点線はコントラクトがアップグレード可能であることを示しています](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.23.50 PM (1).png>)
 
 Merkleディストリビューターのスマートコントラクトは、Merkleの残高ツリーに従ってDYDXトークン報酬を配布します。各ユーザーの累積報酬残高によりツリーを定期的に更新できることで、時間の経過に伴い新しい報酬をユーザーに提供できます。
 
@@ -118,9 +116,7 @@ Merkleディストリビューターのスマートコントラクトは、Unisw
 
 ### 安全モジュール
 
-
-
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.24.45 PM.png>)
+![赤い点線はコントラクトがアップグレード可能であることを示しています](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.24.45 PM (1).png>)
 
 セーフティモジュールは、プロトコルのセキュリティに向けてDYDXをステークするユーザーにDYDX報酬を提供するステーキングプールです。
 
@@ -128,31 +124,23 @@ Merkleディストリビューターのスマートコントラクトは、Unisw
 
 \[近日公開]
 
-
-
 ### 流動性モジュール
 
-
-
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.25.30 PM.png>)
+![赤い点線はコントラクトがアップグレード可能であることを示しています](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.25.30 PM (1).png>)
 
 流動性モジュールは、ステーキングおよび借入のためのスマートコントラクトの集合体であり、dYdXレイヤ2取引所でのマーケット作成目的のUSDC資金の割り当てを奨励します。
 
 ステーカーはUSDCをステーキングする際にDYDX報酬を獲得します。ステークされた資金はレピュテーションに基づき、無担保で事前に承認された特定のパートナーによって借り入れされる場合があります。資金はL2取引所でのみ使用できます。これはStarkExパーペチュアル取引所契約と相互に適用されるStarkProxy契約を通じて実施されます。
 
-![A diagram of the Liquidity module](<../.gitbook/assets/image (66).png>)
+![流動性モジュールの図](<../.gitbook/assets/image (66).png>)
 
 ### StarkProxy
 
 この契約により、所有者はLiquidityStakingから資金を借り、StarkPerpetualでそれらの資金を使用できます。所有者は追加資金を入金することが可能で、借入金額を超える資金は自由に出金できます。この契約はStarkwareによって作成され、以前に監査およびデプロイされた[StarkPerpetual](https://github.com/starkware-libs/starkex-contracts/tree/master/scalable-dex/contracts/src/perpetual)契約と相互に適用されます。
 
-
-
 ### 資金調達契約
 
-
-
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM.png>)
+![赤い点線はコントラクトがアップグレード可能であることを示しています](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM (1).png>)
 
 TreasuryVester（基金ベスター）契約は、[Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol)によりインスパイアされました。
 
@@ -163,8 +151,6 @@ TreasuryVester（基金ベスター）契約は、[Uniswap](https://github.com/U
 各基金はガバナンスにより管理されているため、資金を任意のアドレスに移動したり、任意のアドレスがいずれかの基金にある資金を使用することを承認したりすることができます。たとえば、ガバナンスは報酬プログラムにトークンの承認制限を設定する必要があります。
 
 各基金ベスターは、対応する基金に関して5年間（2021年8月3日～2026年8月3日）にわたりリニアにトークンを保有します。
-
-
 
 ## 周辺契約
 
@@ -178,8 +164,8 @@ TreasuryVester（基金ベスター）契約は、[Uniswap](https://github.com/U
 
 以下のフローチャートは、Chainlink Oracle-Powered Rewardsのシステムアーキテクチャを示しています。
 
-![](<../.gitbook/assets/Merkle Distributor.png>)
+![](<../.gitbook/assets/Merkle Distributor (1).png>)
 
 ### その他の資産
 
-* dYdX Foundationのブランド資産は[**こちら**](https://dydx.foundation/brand)で利用可能です****
+* dYdX Foundationのブランド資産は、[**こちら**](https://dydx.foundation/brand)をご覧ください\*\*\*\*
