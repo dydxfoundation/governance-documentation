@@ -57,7 +57,7 @@ Su Zhu (zhusu) from Three Arrows Capital created an [off-chain Forum Discussion]
 
 * Register on Commonwealth with your Ethereum wallet or Github account and join the dYdX community [here](https://forums.dydx.community/).
 
-![https://forums.dydx.community/](<../.gitbook/assets/Untitled 1 (2)>)
+![https://forums.dydx.community/](<../.gitbook/assets/Untitled 1 (1) (1)>)
 
 * Select a thread, scroll through the comments, and like or reply to comments by clicking the icons under the respective comment.
 
@@ -65,7 +65,7 @@ Su Zhu (zhusu) from Three Arrows Capital created an [off-chain Forum Discussion]
 
 * Create a new discussion thread or post a DRC by clicking on “New thread” and selecting the topic category.
 
-![https://forums.dydx.community/new/discussion](<../.gitbook/assets/Untitled 3 (2)>)
+![https://forums.dydx.community/new/discussion](<../.gitbook/assets/Untitled 3 (1)>)
 
 * If you are creating a DRC, please follow the template linked [here](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md). As outlined under _DRC Creation_ in the [Proposal Lifecycle](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle), DRCs at a minimum must include the following:
   * A short and concise title of the DRC.
@@ -95,7 +95,7 @@ Next, Su Zhu created a Snapshot poll with the following options:
 * Lower MM threshold to 2.5%
 * Keep the MM threshold at 5%
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 4 (2)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 4 (1)>)
 
 #### _How to Vote on a Snapshot Poll:_
 
@@ -105,17 +105,17 @@ Next, Su Zhu created a Snapshot poll with the following options:
 
 * To view active Snapshot Proposals, go to [Snapshot](https://snapshot.org/#/dydxgov.eth) or [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
 
-![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 6 (2)>)
+![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 6 (1) (2)>)
 
 * To vote on active Snapshot polls, you need to hold DYDX or have voting power delegated to your address before the Snapshot block number when the Snapshot poll becomes active.
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 7 (2)>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 7 (1) (1)>)
 
 * To vote, click on the proposal and select “yes” or “no” followed by “vote.”
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 8 (2)>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 8 (1) (2)>)
 
-![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 9 (2)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 9 (1) (2)>)
 
 #### _How to Create a Poll on Snapshot:_
 
@@ -123,9 +123,9 @@ Next, Su Zhu created a Snapshot poll with the following options:
 * The Snapshot proposal can consist of one or multiple actions, up to a maximum of 10 actions per proposal. Actions are changes specified in a proposal.
 * If you meet the minimum 10k proposing power requirement, select “New Proposal” and fill in the open fields as per the content requirements below.
 
-![https://snapshot.org/#/dydxgov.eth/create](<../.gitbook/assets/Untitled 10 (2)>)
+![https://snapshot.org/#/dydxgov.eth/create](<../.gitbook/assets/Untitled 10 (1) (2)>)
 
-![https://forums.dydx.community/new/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 11 (2)>)
+![https://forums.dydx.community/new/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 11 (1)>)
 
 DRC Snapshot Poll Content Requirements:
 
@@ -140,11 +140,11 @@ For most decisions, a Snapshot poll acts as signaling, while an on-chain vote is
 
 * Binary voting options. For clarity, an address is either voting for or against a proposal.
 
-![](<../.gitbook/assets/Untitled 12 (2)>)
+![](<../.gitbook/assets/Untitled 12 (1) (1)>)
 
 * After the vote, the related info will be stored on IPFS and a report will be automatically generated and available to download.
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 13 (2)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 13 (1) (1)>)
 
 ### **STEP 3 - DIP Creation (Off-Chain Proposal)**
 
@@ -156,11 +156,11 @@ _**Application to DIP 2:**_
 
 In this case, the [DIP](https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md) was authored by @Jteamdc.
 
-![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](<../.gitbook/assets/Untitled 14 (2)>)
+![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](<../.gitbook/assets/Untitled 14 (1) (1)>)
 
 When the draft proposal for DIP 2 was completed, @Jteamdc created a \*\*\*\* [Pull Request](https://github.com/dydxfoundation/dip/pull/8) from the working branch against the dYdX foundation's Pending-DIPs branch. After the dYdX Foundation reviewed the proposal and signed off, the changes from the Pending-DIPs were merged to the Master Branch.
 
-![https://github.com/dydxfoundation/dip/pulls](<../.gitbook/assets/Untitled 15 (2)>)
+![https://github.com/dydxfoundation/dip/pulls](<../.gitbook/assets/21 (2) (3).png>)
 
 Since reducing the liquidity providers' rewards threshold does not require any on-chain smart contract changes, the process is now complete and the changes will be effective during the next epoch.
 
@@ -174,11 +174,11 @@ Since reducing the liquidity providers' rewards threshold does not require any o
 
 * In the forked DIP repo, go to the directory that contains the content of the DIPs: [https://github.com/\[user\_name\]/dip/tree/master/content/dips](https://github.com/yt8073/dip/tree/master/content/dips).
 
-![](<../.gitbook/assets/Untitled 16 (2)>)
+![](<../.gitbook/assets/Untitled 16 (1)>)
 
 * Select the dips folder: [https://github.com/\[user\_name\]/dip/tree/master/content](https://github.com/Jwatts15/dip/tree/master/content).
 
-![](<../.gitbook/assets/Untitled 17 (2)>)
+![](<../.gitbook/assets/Untitled 17 (1) (1)>)
 
 The dips folder includes a directory of previous proposals that follow the DIP template linked [here.](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md)
 
@@ -187,7 +187,7 @@ The dips folder includes a directory of previous proposals that follow the DIP t
 * Before you start drafting a proposal, please ensure that the branch that you forked is up to date with the lastet version of the master branch. If you are using an old version of the DIP repo, please confirm that your forked version is up to date with the latest changes. For assistance rebasing your forked version, you can follow the steps here: [https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master).
 * Edit the [DIP template](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) with the information for your proposal. If you did not fork the DIP repo, selecting the edit icon will automatically fork the repo from the master because you are not an admin.
 
-![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](<../.gitbook/assets/Untitled 19 (2) (1)>)
+![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](<../.gitbook/assets/Untitled 19 (1) (2)>)
 
 * Follow the [template](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) and add your DIP to your fork of the repository in the `content/dips/` directory. Please follow the DIP Statuses naming conventions included below.
 
@@ -202,7 +202,7 @@ DIP Statuses:
 * Rejected - a DIP that has been rejected.
 * After checking that all of the content is correct, create a Pull Request from your working branch against the dYdX Foundation's Pending-DIPs branch. Please **do not** submit this Pull Request against the dYdX Foundation's master branch because the IPFS job will fail if any external parties want to merge to the master branch. Please use the Pull Request linked [here](https://github.com/dydxfoundation/dip/pull/8) as an example.
 
-![](<../.gitbook/assets/Untitled 15 (3)>)
+![](<../.gitbook/assets/21 (2).png>)
 
 * After review, the dYdX Foundation will merge the changes from the Pending-DIPs branch to the Master branch.
 
@@ -444,7 +444,7 @@ A successful proposal can be queued to start the Timelock Delay.
 
 * Select queue and submit the “proposalId.”
 
-![](<../.gitbook/assets/Nest (2).png>)
+![](<../.gitbook/assets/46 (2).png>)
 
 The “proposalId” can be found on Etherscan when the DIP was created: [https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad).
 

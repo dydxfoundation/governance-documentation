@@ -64,7 +64,7 @@ A staked balance is in one of two states:
 
 A staker may have a combination of active and inactive balances. USDC is accounted for epoch-by-epoch as shown in the following example:
 
-![Staked balance accounting](<../.gitbook/assets/image (34) (1).png>)
+![Staked balance accounting](<../.gitbook/assets/image (34) (1) (2).png>)
 
 The following operations affect staked balances as follows:
 
@@ -91,7 +91,7 @@ Stakers can deposit USDC at any time to the liquidity staking pool and start ear
 
 Staked USDC earns rewards for the period of time that it remains active. This means that after requesting a withdrawal of some USDC, that USDC will continue to earn rewards until the end of the epoch. For example:
 
-![Rewards accounting](<../.gitbook/assets/image (65) (1).png>)
+![Rewards accounting](<../.gitbook/assets/image (65) (1) (1).png>)
 
 In the above scenario, the user would earn rewards for the period from **Time0** to **Time2**, varying with the total staked balance in that period. If the user only requests a withdrawal for a part of the user's balance, then the remaining balance would continue earning rewards beyond **Time2**.
 
@@ -128,7 +128,7 @@ To unstake USDC to the Liquidity Pool, following the following steps:
 * Go to [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*
 * Click on “**Request**”, to open the following modal:
 
-![Requesting withdraw](<../.gitbook/assets/image (68).png>)
+![Requesting withdraw](<../.gitbook/assets/image (68) (1).png>)
 
 * Enter the amount of USDC you want to request to withdraw from the pool, and click "**Request withdraw**". You will need to pay gas fees to unstake USDC.
 * Stakers who request to unstake USDC at least 14 days (**Blackout Window**) before the current epoch ends can withdraw their USDC at the start of the next epoch.
