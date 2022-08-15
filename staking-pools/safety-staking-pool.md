@@ -49,7 +49,7 @@ DYDX 于中国时间 2021 年 9 月 8 日晚上 11:00 开始可以转让，届�
 
 在保持活跃的时期内，活跃资金会赚取奖励。这意味着，在请求提现部分资金后，这些资金将继续赚取奖励，直至时段结束。[流动性质押池](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool)的以下例子证明了这一点：
 
-![](<../.gitbook/assets/image (65).png>)
+![](<../.gitbook/assets/image (65) (1).png>)
 
 在上述情景中，用户将从**Time0**到**Time2**期间赚取奖励，随着该期间质押余额总数的变化而变化。如果用户仅请求提现部分余额，那么剩余的余额将在**Time2**后继续赚取奖励。
 
@@ -86,7 +86,7 @@ DYDX 于中国时间 2021 年 9 月 8 日晚上 11:00 开始可以转让，届�
 
 质押人可能具有活跃和非活跃余额的组合。资金按时段进行计算，如以下例子所示：
 
-![](<../.gitbook/assets/image (36) (1).png>)
+![](<../.gitbook/assets/image (34) (1) (3).png>)
 
 以下操作会影响质押余额，如下所示：
 

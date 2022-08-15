@@ -64,7 +64,7 @@ description: 流动性质押池概述
 
 质押人可能具有活跃和非活跃余额的组合。USDC按时段进行计算，如以下示例所示：
 
-![质押余额会计处理](<../.gitbook/assets/image (34) (1).png>)
+![质押余额会计处理](<../.gitbook/assets/image (34) (1) (2).png>)
 
 以下操作会影响质押余额，如下所示：
 
@@ -91,7 +91,7 @@ stkUSDC余额可能是活跃的或不活跃的。活跃的stkUSDC可以作为ERC
 
 质押的USDC在活跃时期内便会获得奖励。这意味着，在请求提现部分USDC后，USDC将继续赚取奖励，直至时段结束。例如：
 
-![奖励会计处理](<../.gitbook/assets/image (65) (1).png>)
+![奖励会计处理](<../.gitbook/assets/image (65) (1) (1).png>)
 
 在上述情景中，用户将从**Time0**到**Time2**期间内赚取奖励，随着该期间质押余额总数的变化而变化。如果用户仅请求提现部分用户余额，那么剩余的余额将在**Time2**后继续赚取奖励。
 
@@ -128,7 +128,7 @@ stkUSDC余额可能是活跃的或不活跃的。活跃的stkUSDC可以作为ERC
 * 转到[**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*
 * 单击“**请求**”，以打开以下模式：
 
-![请求提现](<../.gitbook/assets/image (68).png>)
+![请求提现](<../.gitbook/assets/image (68) (1).png>)
 
 * 输入您希望请求从资金池中提现的USDC金额，然后单击“**请求提现**”。您需要支付gas费以解除质押USDC。
 * 如果质押人在当前时段结束前至少14天（**停市窗口期**）请求解除质押USDC，则可以在下一时段开始时提现USDC。

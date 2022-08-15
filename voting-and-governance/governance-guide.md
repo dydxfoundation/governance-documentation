@@ -55,7 +55,7 @@ Three Arrows Capital的Su Zhu (zhusu)创建了一个[链下论坛讨论](https:/
 
 * 用以太坊钱包或 Github 帐户在 Commonwealth 上注册，并点击[此处](https://forums.dydx.community/)加入 dYdX 社区。
 
-![https://forums.dydx.community/](<../.gitbook/assets/Untitled 1 (2)>)
+![https://forums.dydx.community/](<../.gitbook/assets/Untitled 1 (1) (1)>)
 
 * 选择一个帖子，滚动查看评论，并通过点击相应评论下方的图标来点赞或回复评论。
 
@@ -63,7 +63,7 @@ Three Arrows Capital的Su Zhu (zhusu)创建了一个[链下论坛讨论](https:/
 
 * 通过单击“创建新帖”并选择主题类别来创建新的讨论帖或发布DRC。
 
-![https://forums.dydx.community/new/discussion](<../.gitbook/assets/Untitled 3 (2)>)
+![https://forums.dydx.community/new/discussion](<../.gitbook/assets/Untitled 3 (1)>)
 
 * 如果您要创建DRC，请点击[此处](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md)访问链接并按照模板进行操作。如提议[生命周期](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)中的_DRC创建_中所述，DRC至少必须包括以下内容：
    * DRC的简短标题。
@@ -93,7 +93,7 @@ _**适用于DIP 2：**_
 * 将MM阈值降低至2.5%
 * 将MM阈值保持在5%
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 4 (2)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 4 (1)>)
 
 #### _如何对快照投票进行投票：_
 
@@ -103,17 +103,17 @@ _**适用于DIP 2：**_
 
 * 要查看有效的快照提议，请转到[快照](https://snapshot.org/#/dydxgov.eth)或[Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth)。
 
-![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 6 (2)>)
+![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 6 (1) (2)>)
 
 * 要对有效的快照投票进行投票，您需要在快照投票生效时在快照区块编号之前持有DYDX或将投票权委托给您的地址。
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 7 (2)>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 7 (1) (1)>)
 
 * 要进行投票，请点击提议并选择“是”或“否”，然后选择“投票”。
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 8 (2)>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 8 (1) (2)>)
 
-![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 9 (2)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 9 (1) (2)>)
 
 #### _如何在快照上创建投票：_
 
@@ -121,9 +121,9 @@ _**适用于DIP 2：**_
 * 快照提议可以包含一个或多个操作，每个提议最多10个操作。操作是提议中指定的变更。
 * 如果您符合最低 1 万提议权要求，请选择“新提议”并根据以下内容要求填写开放栏位。
 
-![https://snapshot.org/#/dydxgov.eth/create](<../.gitbook/assets/Untitled 10 (2)>)
+![https://snapshot.org/#/dydxgov.eth/create](<../.gitbook/assets/Untitled 10 (1) (2)>)
 
-![https://forums.dydx.community/new/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 11 (2)>)
+![https://forums.dydx.community/new/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 11 (1)>)
 
 DRC快照投票内容要求：
 
@@ -138,11 +138,11 @@ DRC快照投票内容要求：
 
 * 二元投票选项。为清楚起见，一个地址要么投票赞成或投票反对提议。
 
-![](<../.gitbook/assets/Untitled 12 (2)>)
+![](<../.gitbook/assets/Untitled 12 (1) (1)>)
 
 * 投票结束后，相关信息将存储在IPFS上，然后自动生成报告并可供下载。
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 13 (2)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 13 (1) (1)>)
 
 ### **第3步 - DIP创建（链下提议）**
 
@@ -154,11 +154,11 @@ _**适用于DIP 2：**_
 
 在这种情况下，[DIP](https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md)由@Jteamdc编写。
 
-![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](<../.gitbook/assets/Untitled 14 (2)>)
+![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](<../.gitbook/assets/Untitled 14 (1) (1)>)
 
 当 DIP 2 的提议草案完成后，@Jteamdc 从工作分支针对 dYdX 基金会的 Pending-DIP 分支创建了一个**** [Pull Request](https://github.com/dydxfoundation/dip/pull/8)。在dYdX基金会审核提议并签名后，来自Pending-DIP的变更被合并到主分支。
 
-![https://github.com/dydxfoundation/dip/pulls](<../.gitbook/assets/Untitled 15 (2)>)
+![https://github.com/dydxfoundation/dip/pulls](<../.gitbook/assets/21 (2) (3).png>)
 
 由于降低流动性提供方的奖励阈值不需要任何链上智能合约变更，因此该过程现已完成，变更将在下一个时段生效。
 
@@ -172,11 +172,11 @@ _**适用于DIP 2：**_
 
 * 在分叉的DIP存储库中，转到包含DIP内容的目录：[https://github.com/\[user\_name\]/dip/tree/master/content/dips](https://github.com/yt8073/dip/tree/master/content/dips)。
 
-![](<../.gitbook/assets/Untitled 16 (2)>)
+![](<../.gitbook/assets/Untitled 16 (1)>)
 
 * 选择dips文件夹：[https://github.com/\[user\_name\]/dip/tree/master/content](https://github.com/Jwatts15/dip/tree/master/content)。
 
-![](<../.gitbook/assets/Untitled 17 (2)>)
+![](<../.gitbook/assets/Untitled 17 (1) (1)>)
 
 dips 文件夹包含一个先前提议的目录，这些提议遵循[此处](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md)链接的 DIP 模板。
 
@@ -185,7 +185,7 @@ dips 文件夹包含一个先前提议的目录，这些提议遵循[此处](htt
 * 在开始起草提议之前，请确保您分叉的分支与主分支的最新版本是最新的。如果您使用的是旧版本的 DIP 存储库，请确认您的分叉版本是最新的，并带有最新的变更。如需帮助重新定位您的分叉版本，您可以按照以下步骤进行操作：[https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master)。
 * 使用您的提议信息编辑[DIP模板](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md)。因为您不是管理员，所以如果您没有分叉DIP存储库，则选择编辑图标将自动从主分支分叉存储库。
 
-![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](<../.gitbook/assets/Untitled 19 (2) (1)>)
+![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](<../.gitbook/assets/Untitled 19 (1) (2)>)
 
 * 遵循[模板](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md)并将您的DIP添加到`content/dips/`目录中的存储库的分叉中。请遵循下面包含的DIP状态命名规范。
 
@@ -200,7 +200,7 @@ DIP状态：
 * 已拒绝 - 已被拒绝的DIP。
 * 在检查所有内容是否正确之后，从您的工作分支针对dYdX基金会的Pending-DIP分支创建一个Pull Request。请**不要**针对dYdX基金会的主分支提交此Pull Request，因为如果任何外部方想要合并到主分支，IPFS作业将失败。请使用[此处](https://github.com/dydxfoundation/dip/pull/8)链接的Pull Request作为示例。
 
-![](<../.gitbook/assets/Untitled 15 (3)>)
+![](<../.gitbook/assets/21 (2).png>)
 
 * 在审核之后，dYdX基金会将把Pending-DIP分支的变更合并到主分支。
 
@@ -442,7 +442,7 @@ DIP 于 2021 年 11 月 1 日在区块 13532376 创建。对于之后的 6570 �
 
 * 选择队列并提交 “proposalId”。
 
-![](<../.gitbook/assets/Nest (2).png>)
+![](<../.gitbook/assets/46 (2).png>)
 
 创建DIP时，可以在Etherscan上找到“proposalId”：[https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad)。
 
