@@ -55,7 +55,7 @@ _**На примере ППУ 2:**_
 
 * Зарегистрируйтесь на портале Commonwealth, используя своей кошелек Ethereum или учетную запись GitHub, и присоединяйтесь к сообществу dYdX [здесь](https://forums.dydx.community/).
 
-![https://forums.dydx.community/](<../.gitbook/assets/Untitled 1 (2)>)
+![https://forums.dydx.community/](<../.gitbook/assets/Untitled 1 (1) (1)>)
 
 * После выбора беседы вы можете пролистывать комментарии, ставить отметку «Нравится» или отвечать на комментарии с помощью значков под соответствующим комментарием.
 
@@ -63,7 +63,7 @@ _**На примере ППУ 2:**_
 
 * Создайте новую беседу или опубликуйте ЗК, нажав «Новая беседа» и выбрав категорию темы.
 
-![https://forums.dydx.community/new/discussion](<../.gitbook/assets/Untitled 3 (2)>)
+![https://forums.dydx.community/new/discussion](<../.gitbook/assets/Untitled 3 (1)>)
 
 * Если вы создаете ЗК, следуйте шаблону, приведенному [здесь](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md). Как описано в разделе _Создание ЗК_ в статье [Жизненный цикл предложения](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle), ЗК должны включать в себя как минимум следующее:
    * Краткое и лаконичное название ЗК.
@@ -93,7 +93,7 @@ _**На примере ППУ 2:**_
 * Сокращение порогового значения для маркетмейкеров до 2,5%
 * Сохранение порогового значения для маркетмейкеров на уровне 5%
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 4 (2)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 4 (1)>)
 
 #### _Как проголосовать в опросе Snapshot:_
 
@@ -103,17 +103,17 @@ _**На примере ППУ 2:**_
 
 * Чтобы просмотреть активные предложения Snapshot, перейдите на веб-сайт [Snapshot](https://snapshot.org/#/dydxgov.eth) или [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
 
-![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 6 (2)>)
+![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 6 (1) (2)>)
 
 * Для участия в голосовании по активным опросам Snapshot необходимо владеть DYDX или иметь право голоса, делегированное вашему адресу до достижения номера блока Snapshot, когда опрос Snapshot становится активным.
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 7 (2)>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 7 (1) (1)>)
 
 * Чтобы проголосовать, нажмите на предложение, выберите «Голосовать», а затем — «Да» или «Нет».
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 8 (2)>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 8 (1) (2)>)
 
-![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 9 (2)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 9 (1) (2)>)
 
 #### _Как создать опрос на Snapshot:_
 
@@ -121,9 +121,9 @@ _**На примере ППУ 2:**_
 * Предложение Snapshot может состоять из одного или нескольких действий (до 10). Действия — это изменения, указанные в предложении.
 * Если вы владеете как минимум 10 000 DYDX, выберите «Новое предложение» и заполните открытые поля в соответствии с приведенными ниже требованиями к содержимому.
 
-![https://snapshot.org/#/dydxgov.eth/create](<../.gitbook/assets/Untitled 10 (2)>)
+![https://snapshot.org/#/dydxgov.eth/create](<../.gitbook/assets/Untitled 10 (1) (2)>)
 
-![https://forums.dydx.community/new/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 11 (2)>)
+![https://forums.dydx.community/new/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 11 (1)>)
 
 Требования к содержимому опроса Snapshot по ЗК:
 
@@ -138,11 +138,11 @@ _**На примере ППУ 2:**_
 
 * Бинарные варианты голосования. Для ясности, адрес голосует либо за предложение, либо против него.
 
-![](<../.gitbook/assets/Untitled 12 (2)>)
+![](<../.gitbook/assets/Untitled 12 (1) (1)>)
 
 * После голосования соответствующая информация будет сохранена в IPFS, а отчет будет автоматически сформирован и доступен для загрузки.
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 13 (2)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 13 (1) (1)>)
 
 ### **ЭТАП 3 — создание ППУ (предложение вне цепочки)**
 
@@ -154,11 +154,11 @@ _**На примере ППУ 2:**_
 
 В этом случае автором [ППУ](https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md) выступил @Jteamdc.
 
-![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](<../.gitbook/assets/Untitled 14 (2)>)
+![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](<../.gitbook/assets/Untitled 14 (1) (1)>)
 
 Когда проект предложения для ППУ 2 был завершен, @Jteamdc создал [запрос на внесение изменений](https://github.com/dydxfoundation/dip/pull/8) \*\*\*\* из рабочей ветки в отношении ветки ожидающих рассмотрения ППУ dYdX Foundation. После того как dYdX Foundation рассмотрела предложение и подписала его, изменения в ветке, где рассматривается ППУ, были включены в основную ветку.
 
-![https://github.com/dydxfoundation/dip/pulls](<../.gitbook/assets/Untitled 15 (2)>)
+![https://github.com/dydxfoundation/dip/pulls](<../.gitbook/assets/21 (2) (3).png>)
 
 Поскольку снижение порогового значения объема, необходимого для получения награды для поставщиков ликвидности, не требует внесения изменений в смарт-контракты в цепочке, то процесс завершен, и изменения вступят в силу в следующую эпоху.
 
@@ -172,11 +172,11 @@ _**На примере ППУ 2:**_
 
 * В дублированном репозитории ППУ перейдите в каталог с содержимым ППУ: [https://github.com/\[user\_name\]/dip/tree/master/content/dips](https://github.com/yt8073/dip/tree/master/content/dips).
 
-![](<../.gitbook/assets/Untitled 16 (2)>)
+![](<../.gitbook/assets/Untitled 16 (1)>)
 
 * Выберите папку с ППУ: [https://github.com/\[user\_name\]/dip/tree/master/content](https://github.com/Jwatts15/dip/tree/master/content).
 
-![](<../.gitbook/assets/Untitled 17 (2)>)
+![](<../.gitbook/assets/Untitled 17 (1) (1)>)
 
 Папка с ППУ содержит каталог предыдущих предложений, которые соответствуют шаблону ППУ, приведенному [здесь.](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md)
 
@@ -185,7 +185,7 @@ _**На примере ППУ 2:**_
 * Прежде чем начать составлять предложение, убедитесь, что ветка, которую вы дублировали, соответствует последней версии основной ветки. Если вы используете старую версию репозитория ППУ, убедитесь, что дублированная версия содержит последние изменения. Чтобы узнать, как переместить дублированную версию, вы можете выполнить действия, указанные здесь: [https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master).
 * Измените [шаблон ППУ](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md), внеся информацию о вашем предложении. Если вы не дублировали репозиторий ППУ, выберите значок изменения. При этом репозиторий будет автоматически дублирован из основной ветки, поскольку вы не являетесь администратором.
 
-![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](<../.gitbook/assets/Untitled 19 (2) (1)>)
+![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](<../.gitbook/assets/Untitled 19 (1) (2)>)
 
 * Следуйте [шаблону](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) и добавьте ППУ в дублированный репозиторий в каталог `content/dips/`. Следуйте приведенным ниже правилам обозначения статусов ППУ.
 
@@ -200,7 +200,7 @@ _**На примере ППУ 2:**_
 * Отклонено — ППУ отклонено.
 * Проверьте правильность содержимого, создайте запрос на внесение изменений в вашей рабочей ветке и включите его в ветку dYdX Foundation, где рассматривается ППУ. Просьба **не** создавать этот запрос на внесение изменений в основной ветке dYdX Foundation, так как это приведет к сбою в работе IPFS, если какие-либо внешние стороны захотят включить свои изменения в основную ветку. Используйте запрос на внесение изменений, приведенный [здесь](https://github.com/dydxfoundation/dip/pull/8) в качестве примера.
 
-![](<../.gitbook/assets/Untitled 15 (3)>)
+![](<../.gitbook/assets/21 (2).png>)
 
 * После проверки dYdX Foundation включит изменения из ветки, где рассматривается ППУ, в основную ветку.
 
@@ -442,7 +442,7 @@ _**На примере ППУ 3:**_
 
 * Выберите очередь и отправьте proposalId.
 
-![](<../.gitbook/assets/Nest (2).png>)
+![](<../.gitbook/assets/46 (2).png>)
 
 proposalId можно найти на Etherscan после создания ППУ: [https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad).
 
