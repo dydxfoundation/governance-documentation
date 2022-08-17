@@ -55,7 +55,7 @@ Three Arrows Capital'dan Su Zhu (zhusu) Likidite Sağlayıcı Ödülleri Eşiği
 
 * Ethereum cüzdanınız veya Github hesabınız ile Commonwealth'e kaydolun ve dYdX topluluğuna [buradan](https://forums.dydx.community/) katılın.
 
-![https://forums.dydx.community/](<../.gitbook/assets/Untitled 1 (2)>)
+![https://forums.dydx.community/](<../.gitbook/assets/Untitled 1 (1) (1)>)
 
 * Bir ileti dizisi seçin, yorumları okuyun ve ilgili yorumun altındaki simgelere tıklayarak yorumları beğenin veya yorumlara yanıt verin.
 
@@ -63,7 +63,7 @@ Three Arrows Capital'dan Su Zhu (zhusu) Likidite Sağlayıcı Ödülleri Eşiği
 
 * "Yeni ileti dizisi" seçeneğine tıklayarak ve konu kategorisini seçerek yeni bir tartışma ileti dizisi oluşturun veya bir DRC yayınlayın.
 
-![https://forums.dydx.community/new/discussion](<../.gitbook/assets/Untitled 3 (2)>)
+![https://forums.dydx.community/new/discussion](<../.gitbook/assets/Untitled 3 (1)>)
 
 * Eğer bir DRC oluşturuyorsanız lütfen [buradaki](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) şablonu izleyin. [Teklif Yaşam Döngüsü](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle) bölümünde _DRC Oluşturma_ başlığı altında belirtildiği üzere DRC'ler en az şunları içermelidir:
    * DRC'nin kısa ve öz bir başlığı.
@@ -93,7 +93,7 @@ Bunun ardından, Su Zhu aşağıdaki seçeneklerle bir Snapshot anketi oluşturm
 * MM eşiğinin %2,5'e düşürülmesi
 * MM eşiğinin %5 olarak bırakılması
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 4 (2)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 4 (1)>)
 
 #### _Bir Snapshot Anketi Üzerinde Oylama Yapma:_
 
@@ -103,17 +103,17 @@ Bunun ardından, Su Zhu aşağıdaki seçeneklerle bir Snapshot anketi oluşturm
 
 * Aktif Snapshot Tekliflerini görüntülemek için, [Snapshot](https://snapshot.org/#/dydxgov.eth)'a veya [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth)'e gidin.
 
-![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 6 (2)>)
+![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 6 (1) (2)>)
 
 * Aktif Snapshot anketlerinde oy vermek için, Snapshot anketinin aktif hale geldiği Snapshot blok numarası öncesinde adresinizde DYDX tutmanız veya adresinize oylama yetkisi delege edilmiş olması gerekir.
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 7 (2)>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 7 (1) (1)>)
 
 * Oy vermek için, teklife tıklayıp "evet" veya "hayır" seçeneğini seçin ve ardından "oy ver" seçeneğine tıklayın.
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 8 (2)>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 8 (1) (2)>)
 
-![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 9 (2)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 9 (1) (2)>)
 
 #### _Snapshot Üzerinde Bir Anket Nasıl Oluşturulur:_
 
@@ -121,9 +121,9 @@ Bunun ardından, Su Zhu aşağıdaki seçeneklerle bir Snapshot anketi oluşturm
 * Snapshot teklifi, teklif başına en fazla 10 eylem olmak üzere bir veya birden fazla eylemden oluşabilir. Eylemler, bir teklifte belirtilen değişikliklerdir.
 * Minimum 10.000 teklif verme yetkisi gereksinimini karşılıyorsanız "Yeni Teklif" seçeneğine tıklayın ve aşağıdaki içerik gereksinimleri uyarınca açık alanları doldurun.
 
-![https://snapshot.org/#/dydxgov.eth/create](<../.gitbook/assets/Untitled 10 (2)>)
+![https://snapshot.org/#/dydxgov.eth/create](<../.gitbook/assets/Untitled 10 (1) (2)>)
 
-![https://forums.dydx.community/new/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 11 (2)>)
+![https://forums.dydx.community/new/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 11 (1)>)
 
 DRC Snapshot Anketi İçerik Gereksinimleri:
 
@@ -138,11 +138,11 @@ Bir Snapshot anketi çoğu karar için yalnızca görüşlerin yansıtılmasın�
 
 * İki ayrı oylama seçeneği. Açıkça belirtmek gerekirse, bir adres bir teklifin lehine veya aleyhine oy verir.
 
-![](<../.gitbook/assets/Untitled 12 (2)>)
+![](<../.gitbook/assets/Untitled 12 (1) (1)>)
 
 * Oylama sonrasında ilgili bilgiler IPFS üzerinde saklanacak ve bir rapor otomatik olarak oluşturulup indirilmeye hazır hale getirilecektir.
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 13 (2)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 13 (1) (1)>)
 
 ### **3. ADIM - DIP Oluşturma (Zincir Dışı Teklif)**
 
@@ -154,11 +154,11 @@ _**DIP 2 başvurusu:**_
 
 Bu örnekte, [DIP](https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md) @Jteamdc. tarafından yazılmıştır.
 
-![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](<../.gitbook/assets/Untitled 14 (2)>)
+![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](<../.gitbook/assets/Untitled 14 (1) (1)>)
 
 @Jteamdc; DIP 2 için taslak teklif tamamlandığında, dYdX Vakfı'nın Beklemedeki DIP'ler bölümüne karşı çalışma bölümünden bir \*\*\*\* [Çekme Talebi](https://github.com/dydxfoundation/dip/pull/8) oluşturmuştur. dYdX Vakfı teklifi gözden geçirdikten ve onayladıktan sonra, Beklemedeki DIP'lerdeki değişiklikler Ana Dal ile birleştirilmiştir.
 
-![https://github.com/dydxfoundation/dip/pulls](<../.gitbook/assets/Untitled 15 (2)>)
+![https://github.com/dydxfoundation/dip/pulls](<../.gitbook/assets/21 (2) (3).png>)
 
 Likidite sağlayıcıların ödül eşiğinin düşürülmesi herhangi bir zincir içi akıllı sözleşme değişikliği gerektirmediği için süreç artık tamamlanmıştır ve değişiklikler bir sonraki dönemde yürürlüğe girecektir.
 
@@ -172,11 +172,11 @@ Likidite sağlayıcıların ödül eşiğinin düşürülmesi herhangi bir zinci
 
 * Çatallanan DIP repo'sunda DIP'lerin içeriğinin yer aldığı dizine gidin: [https://github.com/\[user\_name\]/dip/tree/master/content/dips](https://github.com/yt8073/dip/tree/master/content/dips).
 
-![](<../.gitbook/assets/Untitled 16 (2)>)
+![](<../.gitbook/assets/Untitled 16 (1)>)
 
 * Dips klasörünü seçin: [https://github.com/\[user\_name\]/dip/tree/master/content](https://github.com/Jwatts15/dip/tree/master/content).
 
-![](<../.gitbook/assets/Untitled 17 (2)>)
+![](<../.gitbook/assets/Untitled 17 (1) (1)>)
 
 Dips klasörü, [buradaki](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) DIP şablonunu izleyen önceki tekliflerin bir dizinini içerir.
 
@@ -185,7 +185,7 @@ Dips klasörü, [buradaki](https://github.com/dydxfoundation/DIP/blob/master/DIP
 * Bir teklif taslağına başlamadan önce, çatalladığınız dalın ana dalın en son sürümü ile güncellenmiş olduğundan emin olun. DIP repo'sunun eski bir sürümünü kullanıyorsanız, çatallanmış sürümünüzün en son değişiklikleri içeren bir şekilde güncel olduğunu lütfen doğrulayın. Çatallanmış sürümünüzü yeniden temellendirme konusunda yardım almak için şuradaki adımları izleyebilirsiniz: [https://stackoverflow.com/quotions/7929369/how-to-repase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master).
 * [DIP şablonunu](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) teklifinizin bilgileri ile düzenleyin. Eğer DIP repo'sunu çatallamadıysanız, düzenle simgesini seçtiğinizde, yönetici olmadığınız için repo ana daldan otomatik olarak çatallanacaktır.
 
-![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](<../.gitbook/assets/Untitled 19 (2) (1)>)
+![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](<../.gitbook/assets/Untitled 19 (1) (2)>)
 
 * [Şablonu](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) izleyin ve DIP'inizi `content/dips/` dizinindeki depo çatalınıza ekleyin. Lütfen aşağıda verilen DIP Durumları adlandırma ilkelerini izleyin.
 
@@ -200,7 +200,7 @@ DIP Durumları:
 * Reddedildi - reddedilen bir DIP.
 * Tüm içeriğin doğru olduğunu kontrol ettikten sonra, çalışma dalınızdan dYdX Vakfı'nın Beklemedeki DIP'ler dalına bir Çekme Talebi oluşturun. Bu Çekme Talebini dYdX Vakfı'nın ana dalına lütfen **göndermeyin** çünkü herhangi bir dış taraf ana dalla birleştirmek isterse IPFS işi başarısız olacaktır. Lütfen [burada](https://github.com/dydxfoundation/dip/pull/8) örnek olarak verilen Çekme Talebini kullanın.
 
-![](<../.gitbook/assets/Untitled 15 (3)>)
+![](<../.gitbook/assets/21 (2).png>)
 
 * İnceleme sonrasında, dYdX Vakfı, Beklemedeki DIP'ler dalındaki değişiklikleri Ana şube ile birleştirecektir.
 
@@ -442,7 +442,7 @@ Başarılı bir teklif, Timelock Bekleme Süresini başlatmak için kuyruğa koy
 
 * Kuyruk seçeneğine tıklayın ve "proposalId" bilgisini girip gönderin.
 
-![](<../.gitbook/assets/Nest (2).png>)
+![](<../.gitbook/assets/46 (2).png>)
 
 DIP oluşturulduğunda, "proposalId" bilgisini Etherscan üzerinde bulabilirsiniz: [https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad).
 
