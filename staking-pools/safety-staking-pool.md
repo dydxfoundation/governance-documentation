@@ -49,7 +49,7 @@ Stake edenler diledikleri zaman güvenlik staking havuzuna DYDX yatırabilir ve 
 
 Aktif fonlar aktif kaldıkları süre boyunca ödül kazanır. Bu da bazı fonların çekilmesi talep edildikten sonra o fonların dönem sonuna kadar ödül kazanmaya devam edeceği anlamına gelir. Bu durum, [Likidite staking havuzundan](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool) aşağıdaki örnekte gösterilmektedir:
 
-![](<../.gitbook/assets/image (65).png>)
+![](<../.gitbook/assets/image (65) (1).png>)
 
 Yukarıdaki senaryoda, kullanıcı **Zaman0'dan** **Zaman2**'ye kadar olan süre için ödül kazanır ve ödül de o dönemde stake edilen toplam bakiyeye göre değişir. Kullanıcı bakiyesinin yalnızca bir kısmını çekmeyi talep ederse geriye kalan bakiye **Zaman2'nin** ötesinde de ödül kazanmaya devam eder.
 
@@ -86,7 +86,7 @@ Stake edilen bir bakiye şu iki durumdan birinde olur:
 
 Stake eden bir kişi hem aktif hem de aktif olmayan bakiyelere sahip olabilir. Fonlar aşağıdaki örnekte gösterilen şekilde dönem bazında hesaplanır:
 
-![](<../.gitbook/assets/image (36) (1).png>)
+![](<../.gitbook/assets/image (34) (1) (3).png>)
 
 Aşağıdaki işlemler stake edilen bakiyeleri aşağıda belirtilen şekilde etkiler:
 
