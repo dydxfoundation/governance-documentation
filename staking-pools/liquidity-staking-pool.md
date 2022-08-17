@@ -64,7 +64,7 @@ Stake edilen bir bakiye şu iki durumdan birinde olur:
 
 Stake eden bir kişi, hem aktif hem de aktif olmayan bakiyelere sahip olabilir. USDC, aşağıdaki örnekte gösterilen şekilde dönem bazında hesaplanır:
 
-![Stake edilen bakiyenin muhasebesi](<../.gitbook/assets/image (34) (1).png>)
+![Stake edilen bakiyenin muhasebesi](<../.gitbook/assets/image (34) (1) (2).png>)
 
 Aşağıdaki işlemler stake edilen bakiyeleri aşağıda belirtilen şekilde etkiler:
 
@@ -91,7 +91,7 @@ Stake edenler diledikleri zaman likidite staking havuzuna USDC yatırabilir ve h
 
 Stake edilen USDC'ler aktif kaldığı süre için ödül kazanır. Bu da bir miktar USDC çekme talebinde bulunulduktan sonra, o USDC'lerin dönem sonuna kadar ödül kazanmaya devam edeceği anlamına gelir. Örneğin:
 
-![Ödül muhasebesi](<../.gitbook/assets/image (65) (1).png>)
+![Ödül muhasebesi](<../.gitbook/assets/image (65) (1) (1).png>)
 
 Yukarıdaki senaryoda, kullanıcı **Zaman0'dan** **Zaman2**'ye kadar olan süre için ödül kazanır ve ödül de o dönemde stake edilen toplam bakiyeye göre değişir. Kullanıcı bakiyesinin sadece bir kısmını çekme talebinde bulunursa, kalan bakiye **Zaman2**'nin ötesinde ödül kazanmaya devam eder.
 
@@ -128,7 +128,7 @@ Likidite Havuzunda USDC'leri staking'den çıkarmak için aşağıdaki adımlar�
 * [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity) adresine gidin\*\*\*\*
 * Aşağıdaki ekranı açmak için "**Talep Et**" seçeneğine tıklayın:
 
-![Çekme talebi](<../.gitbook/assets/image (68).png>)
+![Çekme talebi](<../.gitbook/assets/image (68) (1).png>)
 
 * Havuzdan çekme talebinde bulunmak istediğiniz USDC miktarını girin ve "**Fon çekme talebinde bulun**" seçeneğine tıklayın. USDC'leri staking'den çıkarmak için gas ücretleri ödemeniz gerekecektir.
 * Mevcut dönem sona ermeden en az 14 gün (**Karartma Süresi**) önce USDC'lerini staking'den çıkarma talebinde bulunan stake edenler USDC'lerini bir sonraki dönemin başında çekebilirler.
@@ -252,7 +252,7 @@ Eğer yeni bir dönemin başlangıcında sözleşme ödeme aczine düşmüş dur
 
 Bu süreç aşağıda gösterilmektedir:
 
-![Temerrüt](<../.gitbook/assets/image (46).png>)
+![Varsayılan](<../.gitbook/assets/image (46).png>)
 
 ### Borç neyi temsil eder?
 
