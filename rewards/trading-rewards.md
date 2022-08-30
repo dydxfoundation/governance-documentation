@@ -4,7 +4,7 @@ description: Overview of the Trading Rewards program.
 
 # Trading Rewards
 
-`25.00%` of the initial token supply (`250,000,000 DYDX`) will be distributed to users who trade on the dYdX Layer 2 Protocol based on a combination of fees paid and open interest.
+`25.00%` of the initial token supply (`250,000,000 DYDX`) will be distributed to users who trade on the dYdX Layer 2 Protocol based on fees paid.
 
 **Objectives**
 
@@ -13,31 +13,26 @@ description: Overview of the Trading Rewards program.
 
 ## **Overview**
 
-![Earn rewards by trading on the dYdX Layer 2 Protocol](<../.gitbook/assets/image (14) (2) (1).png>)
+<figure><img src="../.gitbook/assets/Screenshot 2022-08-30 at 11.09.10 (1).png" alt=""><figcaption><p>Earn rewards by trading on the dYdX Layer 2 Protocol</p></figcaption></figure>
 
-DYDX will be distributed to traders based on a formula that rewards a combination of fees paid and open interest on the dYdX  Layer 2 Protocol. DYDX  will be distributed on a 28-day epoch basis over five years and is not subject to any vesting or lockups. 3,835,616  DYDX will be distributed  per epoch.
+DYDX will be distributed to traders based on fees paid on the dYdX Layer 2 Protocol. DYDX will be distributed on a 28-day epoch basis over five years and is not subject to any vesting or lockups. 3,835,616 DYDX will be distributed per epoch.
 
-![](<../.gitbook/assets/spaces\_-MeNfSkgj48hU0q8Zbjn\_uploads\_git-blob-b9b9ddb964b226f66ce4c454bcb29f0d724920d4\_math-20211221 (1).png>)
+<figure><img src="../.gitbook/assets/Screenshot 2022-08-12 at 17.50.17.png" alt=""><figcaption></figcaption></figure>
 
 $$
 r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k
 $$
 
-| Term                         | Definition                                                                                 |
-| ---------------------------- | ------------------------------------------------------------------------------------------ |
-| r                            | Reward for a specific trader.                                                              |
-| R                            | Total reward to be split between all traders in the pool for the epoch.                    |
-| f                            | Total fees paid by a trader in this epoch.                                                 |
-| w                            | Individual trader score.                                                                   |
-| $${\sum\limits _{n} w_{n}}$$ | Sum of all trader scores.                                                                  |
-| d                            | A trader’s average open interest (measured every minute) across all markets in this epoch. |
-| k                            | Total number of traders in this epoch.                                                     |
-| g                            | A trader’s average stkDYDX held (measured randomly every minute) throughout the epoch      |
-| a                            | 0.80                                                                                       |
-| b                            | 0.15                                                                                       |
-| c                            | 0.05                                                                                       |
+| Term                         | Definition                                                              |
+| ---------------------------- | ----------------------------------------------------------------------- |
+| r                            | Reward for a specific trader.                                           |
+| R                            | Total reward to be split between all traders in the pool for the epoch. |
+| f                            | Total fees paid by a trader in this epoch.                              |
+| w                            | Individual trader score.                                                |
+| $${\sum\limits _{n} w_{n}}$$ | Sum of all trader scores.                                               |
+| k                            | Total number of traders in this epoch.                                  |
 
-
+In [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md), the dYdX Community voted to simplify the formula to be based on total **** fees paid by a trader in a given epoch.&#x20;
 
 ## FAQ
 
@@ -49,11 +44,11 @@ The dYdX Layer 2 Protocol is not available to traders in the United States or Re
 
 ### How much DYDX did I earn in the Trading Rewards program?
 
-In the current epoch, users can see fees paid, average open interest, and estimated trading rewards at [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) where users' trading data exists.
+In the current epoch, users can see fees paid and estimated trading rewards at [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) where users' trading data exists.
 
-![Rewards info for the current epoch](<../.gitbook/assets/image (18).png>)
+<figure><img src="../.gitbook/assets/Screenshot 2022-08-30 at 11.09.10.png" alt=""><figcaption><p>Fees paid and estimated rewards in a given epoch</p></figcaption></figure>
 
-Rewards from past epochs can be viewed at [**dydx.community/history/rewards**](https://dydx.community/history/rewards) \*\*\*\* (coming soon).
+Rewards from past epochs can be viewed at [**dydx.community/history/rewards**](https://dydx.community/history/rewards)**.**
 
 ### How do I claim my Trading Rewards? When can I withdraw and transfer my earned DYDX?
 
@@ -64,23 +59,4 @@ Traders can claim their trading rewards at the end of every epoch, after the **W
 Users will need to click on "Claim", sign a transaction, and pay gas fees to claim DYDX.
 
 ![Portfolio overview of rewards](<../.gitbook/assets/image (20).png>)
-
-
-
-### What is Open Interest?
-
-Total open interest is the USD value of all outstanding long or short positions (the total units of longs always equals the total units of shorts) for a given market. Increasing open interest represents new or additional money coming into the market while decreasing open interest indicates money flowing out of the market.
-
-Below is a table of trading activity for traders, A, B, C, D, and E. Open interest is calculated in USDC terms following the trading activity for each day:
-
-| Time     | Trading Activity                                                   | Total Net Open Interest (USDC) |
-| -------- | ------------------------------------------------------------------ | ------------------------------ |
-| July 1   | Trader A buys 1 BTC at $30,000 and Trader B sells 1 BTC at $30,000 | $30,000                        |
-| July 3   | Trader C buys 5 BTC at $30,000 and Trader D sells 5 BTC at $30,000 | $180,000                       |
-| July 5   | Trader A sells 1 BTC at $30,000 and Trader D buys 1 BTC at $30,000 | $150,000                       |
-| July 10  | Trader E buys 5 BTC at $30,000 and Trader C sells 5 BTC at $30,000 | $150,000                       |
-
-In the context of the **Trading Rewards** formula, open interest is measured every minute (at a random time in each minute) across all markets and averaged across a given epoch to calculate rewards.
-
-A trader's own open interest is the USD value of all of that trader's open positions. For the purposes of **Trading Rewards**, a trader's open interest is measured every minute (at a random time in each minute) across all markets and averaged across a given epoch.
 
