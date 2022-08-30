@@ -13,7 +13,7 @@ description: Overview of the Trading Rewards program.
 
 ## **Overview**
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-08-30 at 11.09.10 (1).png" alt=""><figcaption><p>Earn rewards by trading on the dYdX Layer 2 Protocol</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2022-08-30 at 15.42.39.png" alt=""><figcaption><p>Fees paid and estimated rewards in a given epoch</p></figcaption></figure>
 
 DYDX will be distributed to traders based on fees paid on the dYdX Layer 2 Protocol. DYDX will be distributed on a 28-day epoch basis over five years and is not subject to any vesting or lockups. 3,835,616 DYDX will be distributed per epoch.
 
@@ -46,7 +46,7 @@ The dYdX Layer 2 Protocol is not available to traders in the United States or Re
 
 In the current epoch, users can see fees paid and estimated trading rewards at [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) where users' trading data exists.
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-08-30 at 11.09.10.png" alt=""><figcaption><p>Fees paid and estimated rewards in a given epoch</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2022-08-30 at 15.42.39.png" alt=""><figcaption><p>Fees paid and estimated rewards in a given epoch</p></figcaption></figure>
 
 Rewards from past epochs can be viewed at [**dydx.community/history/rewards**](https://dydx.community/history/rewards)**.**
 
