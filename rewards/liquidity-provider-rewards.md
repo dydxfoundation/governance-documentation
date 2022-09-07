@@ -12,9 +12,9 @@ description: Aperçu du programme de récompenses des fournisseurs de liquidité
 
 ## **Aperçu**
 
-Pour encourager la liquidité du marché, DYDX sera distribué aux fournisseurs de liquidité sur la base d'une formule qui récompense la participation aux marchés, le volume du maker, la profondeur bilatérale, la propagation (par rapport au marché intermédiaire) et la disponibilité sur le protocole de couche 2 de dYdX. Toute adresse Ethereum peut gagner ces récompenses, sous réserve d'un seuil de volume minimum du teneur de 0,25 % du volume du teneur à l'époch précédente. DYDX sera distribué sur une période de 28 jours sur cinq ans et ne sera soumis à aucune acquisition ou blocage. 1 150 685 DYDX seront distribués par époch.
+Pour encourager la liquidité du marché, DYDX sera distribué aux fournisseurs de liquidité sur la base d'une formule qui récompense la participation aux marchés, le volume du maker, la profondeur bilatérale, la propagation (par rapport au marché intermédiaire) et la disponibilité sur le protocole de couche 2 de dYdX. Toute adresse Ethereum peut gagner ces récompenses, sous réserve d'un seuil de volume minimum du teneur de 0,25 % du volume du teneur à l'epoch précédente. DYDX sera distribué sur une période de 28 jours sur cinq ans et ne sera soumis à aucune acquisition ou blocage. 1 150 685 DYDX seront distribués par époch.
 
-La fonction suivante est utilisée pour calculer combien de DYDX doivent être accordés à chaque fournisseur de liquidité par époch. Le montant de DYDX gagné est déterminé par la part relative des $$Q_{FINAL}$$ de chaque participant
+La fonction suivante est utilisée pour calculer combien de DYDX doivent être accordés à chaque fournisseur de liquidité par epoch. Le montant de DYDX gagné est déterminé par la part relative des $$Q_{FINAL}$$ de chaque participant
 
 ![](<../.gitbook/assets/Screen Shot 2022-05-17 at 1.08.12 PM.png>)
 
@@ -26,15 +26,15 @@ Les fournisseurs de liquidité gagnent des récompenses mensuelles en fonction d
 
 La formule ci-dessus est décomposée en calculs étape par étape ci-dessous pour plus de détails :
 
-| _Volume du maker_ | Volume total du maker pour l'époch. |
+| _Volume du maker_ | Volume total du maker pour l'epoch. |
 | --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img src="../.gitbook/assets/image (96).png" alt="" data-size="original"> | <p></p>Supposons qu'un fournisseur de liquidité ait plusieurs ordres d'achat ouverts (1 BTC à 29 900 $, 5 BTC à 29 850 $, 10 BTC à 29 500 $) sur le carnet d'ordres BTC-USD et que le BTC soit actuellement à 30 000 $ (basé sur le marché intermédiaire). Supposons que MinDepth est de 5000 $ et que MaxSpread par rapport au marché intermédiaire est de 200 $, soit 6,7 points de base (200 $/30 000). Un BP est un centième de un pour cent.<br><p></p><span class="math">Q_{BID} = (1\ \times \left(\frac{$29,900}{$100/30000}\right)) + (5\ \times \left(\frac{$29,850}{$150/3000}\right))</span><p></p><br><span class="math">Q_{BID}</span> est calculé chaque minute à l'aide d'un échantillonnage aléatoire.<br> |
 | <img src="../.gitbook/assets/math-20210908 (1) (1).png" alt="" data-size="original"> | <p></p>Supposons qu'un fournisseur de liquidité ait plusieurs ordres de demande ouverts (0,1 BTC à 30 100 $, 5 BTC à 30 150 $, 10 BTC à 30 175 $) sur le carnet d'ordres BTC-USD et que BTC se négocie actuellement à 30 000 $ (basé sur le marché intermédiaire). Supposons que MinDepth est de 5000 $ et que MaxSpread par rapport au marché intermédiaire est de 200 $, soit 6,7 points de base (200 $/30 000). Un BP est un centième de un pour cent.<p></p><span class="math">Q_{ASK} = (5\ \times \left(\frac{$30,150}{$150/30000}\right)) + (10\ \times \left(\frac{$30,175}{$175/300}\right))</span><p></p><br><span class="math">Q_{ASK}</span> est calculé chaque minute à un intervalle aléatoire. |
 | <img src="../.gitbook/assets/math-20210908 (2) (1).png" alt="" data-size="original"> | <p></p>Récompense la liquidité bilatérale en prenant le minimum de <span class="math">Q_{BID}</span> et <span class="math">Q_{ASK}</span>.<br><p></p>Calculé chaque minute. |
-| <img src="../.gitbook/assets/math-20210908 (3) (1).png" alt="" data-size="original"> | $$Q_{EPOCH}$$ est la somme de toutes les $$Q_{MIN}$$ dans une époch donnée. |
-| <img src="../.gitbook/assets/Screen Shot 2022-05-17 at 1.07.16 PM.png" alt="" data-size="original"> | $$Uptime_{EPOCH}$$ est la durée d'une époch pendant laquelle un teneur de marché donné était en direct et cotait à la fois du côté de l'offre et de la demande avec des tailles d'ordre supérieures au minimum d'ordre indiqué (noté ci-dessous par marché) et des spreads inférieurs au maximum indiqué spread (noté ci-dessous par marché). |
+| <img src="../.gitbook/assets/math-20210908 (3) (1).png" alt="" data-size="original"> | $$Q_{EPOCH}$$ est la somme de toutes les $$Q_{MIN}$$ dans une epoch donnée. |
+| <img src="../.gitbook/assets/Screen Shot 2022-05-17 at 1.07.16 PM.png" alt="" data-size="original"> | $$Uptime_{EPOCH}$$ est la durée d'une epoch pendant laquelle un teneur de marché donné était en direct et cotait à la fois du côté de l'offre et de la demande avec des tailles d'ordre supérieures au minimum d'ordre indiqué (noté ci-dessous par marché) et des spreads inférieurs au maximum indiqué spread (noté ci-dessous par marché). |
 | <img src="../.gitbook/assets/math-20210908 (5) (1).png" alt="" data-size="original"> | $$Q_{FINAL}$$ normalise $$Q_{FINAL}$$ pour tenir compte de la disponibilité |
-| _stkDYDX_ | Quantité moyenne de stkDYDX détenue (mesurée au hasard toutes les minutes) à travers l'époch |
+| _stkDYDX_ | Quantité moyenne de stkDYDX détenue (mesurée au hasard toutes les minutes) à travers l'epoch |
 
 Chaque marché aura son propre pool de récompenses qui sera pondéré différemment. L'ensemble initial de pondérations appliqué à chaque marché est le suivant :
 
@@ -54,11 +54,11 @@ Le protocole de couche 2 de dYdX n'est pas disponible pour les fournisseurs de l
 
 ### Combien de DYDX ai-je gagné dans le cadre du programme de récompenses des fournisseurs de liquidité ?
 
-À une époch donnée, les fournisseurs de liquidité gagnent un rendement en fonction de leur $$Q_{SCORE}$$ relatif sur le marché d'une paire donnée. Chaque paire a son propre montant de récompense relatif fixé par la gouvernance. Le montant attendu de DYDX gagné peut être déterminé en fonction du nombre de fournisseurs de liquidités impliqués, du $$Q_{SCORE}$$ relatif et du montant de la récompense disponible pour une paire donnée.
+À une époch donnée, les fournisseurs de liquidité gagnent un rendement en fonction de leur $$Q_{SCORE}$$ relatif sur le marché d'une paire donnée. Chaque paire a son propre montant de récompense relatif fixé par la gouvernance. Le montant attendu des DYDX gagnés est affiché dans le [tableau de bord des récompenses LP](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true) et peut être déterminé en fonction du nombre de fournisseurs de liquidités impliqués, du $$${SCORE}$ relatif et du montant de la récompense disponible pour une paire donnée.
 
 ### Comment puis-je réclamer mes récompenses de fournisseur de liquidité ?
 
-Les récompenses des fournisseurs de liquidités sont apparues dans l' [API dYdX](https://docs.dydx.exchange/). Bien qu'elles n'apparaissent pas sur l'interface utilisateur de gouvernance, elles peuvent toujours être réclamées via la gouvernance à la fin de chaque époch [ici](https://dydx.community/dashboard).
+Les récompenses des fournisseurs de liquidités sont apparues dans l' [API dYdX](https://docs.dydx.exchange/). Bien qu'elles n'apparaissent pas sur l'interface utilisateur de gouvernance, elles peuvent toujours être réclamées via la gouvernance à la fin de chaque epoch [ici](https://dydx.community/dashboard).
 
 ### Quand puis-je retirer et transférer mes récompenses de fournisseur de liquidité DYDX réclamées ?
 
