@@ -23,9 +23,9 @@ Les deux exemples présentés dans le guide sont une _DIP 2 (proposition hors ch
 
 _**Résumé :**_
 
-À l'époch 6, la communauté dYdX a voté sur [Snapshot](https://commonwealth.im/dydx/snapshot/dydxgov.eth/0x785066561be1e5d170eb28960da5ef2643ee0d0c3d590fd797c028512cc6be43) pour réduire le seuil de volume de récompenses LP pour les teneurs de marché de 1 % à 0,25 %. La réduction du seuil de récompenses LP de 5 % à 1 % à l'époch 2 a suivi le même processus que la réduction à l'époch 6 (1 % à 0,25 %). L'aperçu étape par étape pour réduire le seuil de volume des récompenses LP de 5 % à 1 % est inclus ci-dessous.
+À l'époch 6, la communauté dYdX a voté sur [Snapshot](https://commonwealth.im/dydx/snapshot/dydxgov.eth/0x785066561be1e5d170eb28960da5ef2643ee0d0c3d590fd797c028512cc6be43) pour réduire le seuil de volume de récompenses LP pour les teneurs de marché de 1 % à 0,25 %. La réduction du seuil de récompenses LP de 5 % à 1 % à l'epoch 2 a suivi le même processus que la réduction à l'epoch 6 (1 % à 0,25 %). L'aperçu étape par étape pour réduire le seuil de volume des récompenses LP de 5 % à 1 % est inclus ci-dessous.
 
-La majorité de la communauté (399 votants et 86 % de DYDX) a voté sur [Snapshot](https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN) pour réduire le seuil de volume pour obtenir des récompenses de fournisseur de liquidité de 5 % à 1 %. Une [DIP hors chaîne](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-2.md) visant à réduire le seuil de volume des récompenses du fournisseur de liquidités pour les teneurs de marché de 5 % à 1 % a été soumis par Jacob Goh (jteam0x) chez DeFiance Capital. Les teneurs de marché qui atteignaient le seuil de 1 % à l'époch 2 étaient éligibles pour gagner des récompenses de fournisseur de liquidités à l'époch 3. La proposition ne nécessitait aucune modification des contrats intelligents en chaîne.
+La majorité de la communauté (399 votants et 86 % de DYDX) a voté sur [Snapshot](https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN) pour réduire le seuil de volume pour obtenir des récompenses de fournisseur de liquidité de 5 % à 1 %. Une [DIP hors chaîne](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-2.md) visant à réduire le seuil de volume des récompenses du fournisseur de liquidités pour les teneurs de marché de 5 % à 1 % a été soumis par Jacob Goh (jteam0x) chez DeFiance Capital. Les teneurs de marché qui atteignaient le seuil de 1 % à l'epoch 2 étaient éligibles pour gagner des récompenses de fournisseur de liquidités à l'epoch 3. La proposition ne nécessitait aucune modification des contrats intelligents en chaîne.
 
 _**Contexte :**_
 
@@ -55,7 +55,7 @@ Su Zhu (zhusu) de Three Arrows Capital a créé un [forum de discussion hors cha
 
 * Inscrivez-vous sur Commonwealth avec votre portefeuille Ethereum ou votre compte Github et rejoignez la communauté dYdX [ici](https://forums.dydx.community/).
 
-![https://forums.dydx.community/](<../.gitbook/assets/Untitled 1 (2)>)
+![https://forums.dydx.community/](<../.gitbook/assets/Untitled 1 (1) (1)>)
 
 * Sélectionnez un fil, faites défiler les commentaires et aimez ou répondez aux commentaires en cliquant sur les icônes sous le commentaire respectif.
 
@@ -63,7 +63,7 @@ Su Zhu (zhusu) de Three Arrows Capital a créé un [forum de discussion hors cha
 
 * Créez un nouveau fil de discussion ou publiez une DRC en cliquant sur « Nouveau fil » et en sélectionnant la catégorie de sujet.
 
-![https://forums.dydx.community/new/discussion](<../.gitbook/assets/Untitled 3 (2)>)
+![https://forums.dydx.community/new/discussion](<../.gitbook/assets/Untitled 3 (1)>)
 
 * Si vous créez une DRC, veuillez suivre le modèle lié [ici](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md). Comme indiqué dans la rubrique _Création de la DRC_ dans le [cycle de vie de la proposition](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle), les DRC doivent au minimum inclure les éléments suivants :
    * Un titre court et concis de la DCR.
@@ -93,7 +93,7 @@ Ensuite, Su Zhu a créé un sondage Snapshot avec les options suivantes :
 * Abaisser le seuil de MM à 2,5 %
 * Maintenir le seuil de MM à 5 %
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 4 (2)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 4 (1)>)
 
 #### _Comment voter sur un sondage Snapshot :_
 
@@ -103,17 +103,17 @@ Ensuite, Su Zhu a créé un sondage Snapshot avec les options suivantes :
 
 * Pour voir les propositions Snapshot actives, rendez-vous sur [Snapshot](https://snapshot.org/#/dydxgov.eth) ou [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
 
-![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 6 (2)>)
+![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 6 (1) (2)>)
 
 * Pour voter sur des sondages Snapshot actifs, vous devez détenir des DYDX ou avoir un pouvoir de vote délégué à votre adresse avant le numéro de bloc Snapshot lorsque le sondage Snapshot devient actif.
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 7 (2)>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 7 (1) (1)>)
 
 * Pour voter, cliquez sur la proposition et sélectionnez « oui » ou « non » suivi de « vote ».
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 8 (2)>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 8 (1) (2)>)
 
-![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 9 (2)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 9 (1) (2)>)
 
 #### _Comment créer un sondage sur Snapshot :_
 
@@ -121,9 +121,9 @@ Ensuite, Su Zhu a créé un sondage Snapshot avec les options suivantes :
 * La proposition Snapshot peut consister en une ou plusieurs actions, jusqu'à un maximum de 10 actions par proposition. Les actions sont des changements spécifiés dans une proposition.
 * Si vous remplissez l'exigence minimale de puissance de proposition de 10 000, sélectionnez « Nouvelle proposition » et remplissez les champs ouverts conformément aux exigences de contenu ci-dessous.
 
-![https://snapshot.org/#/dydxgov.eth/create](<../.gitbook/assets/Untitled 10 (2)>)
+![https://snapshot.org/#/dydxgov.eth/create](<../.gitbook/assets/Untitled 10 (1) (2)>)
 
-![https://forums.dydx.community/new/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 11 (2)>)
+![https://forums.dydx.community/new/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 11 (1)>)
 
 Exigences de contenu du sondage Snapshot DRC :
 
@@ -138,11 +138,11 @@ Pour la plupart des décisions, un sondage Snapshot sert de signal, tandis qu'un
 
 * Options de vote binaire. Pour plus de clarté, une adresse signifie voter pour ou contre une proposition.
 
-![](<../.gitbook/assets/Untitled 12 (2)>)
+![](<../.gitbook/assets/Untitled 12 (1) (1)>)
 
 * Après le vote, les informations connexes seront stockées sur IPFS et un rapport sera automatiquement généré et disponible au téléchargement.
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 13 (2)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 13 (1) (1)>)
 
 ### **ÉTAPE 3 - Création d'une DIP (proposition hors chaîne)**
 
@@ -154,13 +154,13 @@ _**Candidature à la DIP 2 :**_
 
 Dans ce cas, la [DIP](https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md) a été rédigée par @Jteamdc.
 
-![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](<../.gitbook/assets/Untitled 14 (2)>)
+![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](<../.gitbook/assets/Untitled 14 (1) (1)>)
 
 Lorsque le projet de proposition pour DIP 2 a été terminé, @Jteamdc a créé une [demande d'extraction](https://github.com/dydxfoundation/dip/pull/8) \*\*\*\* de la branche de travail contre la branche Pending-DIPs de la fondation dYdX. Une fois que la Fondation dYdX a examiné la proposition et l'a approuvée, les modifications apportées aux DIP en attente ont été fusionnées avec la branche principale.
 
-![https://github.com/dydxfoundation/dip/pulls](<../.gitbook/assets/Untitled 15 (2)>)
+![https://github.com/dydxfoundation/dip/pulls](<../.gitbook/assets/21 (2) (3).png>)
 
-Étant donné que la réduction du seuil de récompenses des fournisseurs de liquidité ne nécessite aucune modification des contrats intelligents sur la chaîne, le processus est maintenant terminé et les modifications seront effectives au cours de la prochaine époch.
+Étant donné que la réduction du seuil de récompenses des fournisseurs de liquidité ne nécessite aucune modification des contrats intelligents sur la chaîne, le processus est maintenant terminé et les modifications seront effectives au cours de la prochaine epoch.
 
 #### _Comment créer une DIP :_
 
@@ -172,11 +172,11 @@ Lorsque le projet de proposition pour DIP 2 a été terminé, @Jteamdc a créé 
 
 * Dans le référentiel DIP forké, accédez au répertoire contenant le contenu des DIP : [https://github.com/\[user\_name\]/dip/tree/master/content/dips](https://github.com/yt8073/dip/tree/master/content/dips).
 
-![](<../.gitbook/assets/Untitled 16 (2)>)
+![](<../.gitbook/assets/Untitled 16 (1)>)
 
 * Sélectionnez le dossier dips : [https://github.com/\[user\_name\]/dip/tree/master/content](https://github.com/Jwatts15/dip/tree/master/content).
 
-![](<../.gitbook/assets/Untitled 17 (2)>)
+![](<../.gitbook/assets/Untitled 17 (1) (1)>)
 
 Le dossier dips comprend un répertoire des propositions précédentes qui suivent le modèle de DIP dont [le lien se trouve ici.](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md)
 
@@ -185,7 +185,7 @@ Le dossier dips comprend un répertoire des propositions précédentes qui suive
 * Avant de commencer à rédiger une proposition, assurez-vous que la branche que vous avez créée est à jour avec la dernière version de la branche principale. Si vous utilisez une ancienne version du référentiel DIP, veuillez confirmer que votre version forkée est à jour avec les dernières modifications. Pour obtenir de l'aide pour rebaser votre version forkée, vous pouvez suivre les étapes ici : [https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master).
 * Modifiez le [modèle de DIP](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) avec les informations pour votre proposition. Si vous n'avez pas forké le référentiel DIP, la sélection de l'icône de modification forkera automatiquement le référentiel principal car vous n'êtes pas un administrateur.
 
-![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](<../.gitbook/assets/Untitled 19 (2) (1)>)
+![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](<../.gitbook/assets/Untitled 19 (1) (2)>)
 
 * Suivez le [modèle](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) et ajoutez votre DIP à votre fork du référentiel dans le répertoire `content/dips/`. Veuillez suivre les conventions de dénomination des statuts DIP incluses ci-dessous.
 
@@ -200,7 +200,7 @@ Statuts DIP :
 * Rejeté - une DIP qui a été rejetée.
 * Après avoir vérifié que tout le contenu est correct, créez une demande d'extraction à partir de votre branche de travail contre la branche Pending-DIPs de la fondation dYdX. Veuillez **ne pas** soumettre cette demande d'extraction à la branche principale de la fondation dYdX, car la tâche IPFS échouera si des parties externes souhaitent fusionner avec la branche principale. Veuillez utiliser la demande d'extraction sont le lien se trouve [ici](https://github.com/dydxfoundation/dip/pull/8) comme exemple.
 
-![](<../.gitbook/assets/Untitled 15 (3)>)
+![](<../.gitbook/assets/21 (2).png>)
 
 * Après examen, la Fondation dYdX fusionnera les modifications de la branche Pending-DIPs vers la branche principale.
 
@@ -229,7 +229,7 @@ La communauté dYdX a « un contrôle immédiat et irrévocable sur » les par
 
 Le 8 septembre à 15 h 00 UTC, la restriction de transfert sur les jetons DYDX a été levée et a effectivement ouvert le staking vers le module de sécurité dYdX. Plus de 50 adresses différentes ont staké environ 157 000 DYDX au cours de près d'une heure. Un bogue a provoqué une erreur dans le processus de déploiement et aucun stkDYDX n'a été envoyé aux adresses qui se sont implantées dans le module de sécurité. En conséquence, les fonds de chaque participant étaient bloqués dans le contrat et l'équipe dYdX a désactivé le staking sur l'interface utilisateur de gouvernance dYdX.
 
-[DIP 1](https://dydx.community/dashboard/proposal/0) a proposé de restaurer la fonctionnalité du module de sécurité et de permettre aux adresses concernées de récupérer leurs fonds et de recevoir 10 % supplémentaires de leurs jetons stakés à titre de compensation pour les rendre entiers. Alors que le sentiment de la communauté était fortement en faveur de la [DIP 1 - Safety Module Restoration and Staker Recovery](https://dydx.community/dashboard/proposal/0), la proposition a échoué, car elle n'a pas atteint le quorum minimum de 100 millions de DYDX requis pour qu'un vote de longue durée passe. En conséquence, Jacob Goh (jteam0x) de DeFiance Capital a créé la DIP 4 - [Remboursement et indemnisation](https://dydx.community/dashboard/proposal/2) des stakers du module de sécurité pour rembourser et indemniser les adresses concernées pour les récompenses et les inconvénients manqués. La [DIP 4](https://dydx.community/dashboard/proposal/2) impliquait de déployer le contrat de récupération pour les jetons stakés d'utilisateurs et de compenser les adresses affectées de 10 % supplémentaires par la Trésorerie des récompenses. La DIP était régi par les paramètres de gouvernance moins stricts d'un verrouillage de courte durée.
+[DIP 1](https://dydx.community/dashboard/proposal/0) a proposé de restaurer la fonctionnalité du module de sécurité et de permettre aux adresses concernées de récupérer leurs fonds et de recevoir 10 % supplémentaires de leurs jetons stakés à titre de compensation pour les rendre entiers. Alors que le sentiment de la communauté était fortement en faveur de la [DIP 1 - Safety Module Restoration and Staker Recovery](https://dydx.community/dashboard/proposal/0), la proposition a échoué, car elle n'a pas atteint le quorum minimum de 100 millions de DYDX requis pour qu'un vote de longue durée passe. En conséquence, Jacob Goh (jteam0x) de DeFiance Capital a créé la DIP 4 - [Remboursement et indemnisation](https://dydx.community/dashboard/proposal/2) des stakers du module de sécurité pour rembourser et indemniser les adresses concernées pour les récompenses et les inconvénients manqués. La [DIP 4](https://dydx.community/dashboard/proposal/2) impliquait de déployer le contrat de récupération pour les tokens stakés d'utilisateurs et de compenser les adresses affectées de 10 % supplémentaires par la Trésorerie des récompenses. La DIP était régi par les paramètres de gouvernance moins stricts d'un verrouillage de courte durée.
 
 Le cycle de vie de la proposition d'une DIP est généralement cohérent jusqu'à la création du DIP. La principale différence entre DIP 3 (en chaîne) et DIP 2 (hors chaîne) était que DIP 3 nécessitait le vote en chaîne et le déploiement de contrats intelligents. Étant donné que le processus de discussion sur le forum, la création de la DRC et la création du projet de DIP sont les mêmes, nous commençons notre discussion étape par étape avec les exigences de contenu pour rédiger La DIP sur la chaîne. Pour plus d'informations, veuillez suivre les liens ci-dessous :
 
@@ -270,7 +270,7 @@ Les étapes pour mettre en œuvre la proposition incluse dans le README se trouv
 * Déléguez suffisamment de pouvoir de proposition au portefeuille unique pour la création d'une DIP. Vous pouvez déléguer le pouvoir de proposition [ici.](https://dydx.community/dashboard) Les différents seuils de pouvoir de proposition sont inclus ci-dessous et liés [ici](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
    * Courte période de temps : 0,5 % de l'offre totale (5 M en pouvoir de proposition).
    * Exécuteur Starkware : 0,5 % de l'offre totale (5 M en pouvoir de proposition).
-   * Exécuteur de longue durée : 2,0 % de l'offre totale (20 M en pouvoir de proposition).
+   * Exécuteur de longue durée : 2,0 % de l'offre totale (20M en pouvoir de proposition).
    * Exécuteur Merkle Pauser : 0,5 % de l'offre totale (5 M en pouvoir de proposition).
 * Créez une clé Alchemy. Avec la clé Alchemy, vous n'avez pas besoin d'exécuter un nœud Ethereum pour interagir avec Ethereum et déployer le contrat intelligent. Le lien du guide pour la création d'une clé Alchemy se trouve [ici](https://docs.alchemy.com/alchemy/introduction/getting-started).
 
@@ -381,7 +381,7 @@ Notez que (1) les propositions doivent être exécutées dans le délai de grâc
 * Assurez-vous que vous avez suffisamment de pouvoir de proposition pour créer la DIP. Vous pouvez trouver plus d'informations sous [Création d'une DIP](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
    * Exécuteur de courte durée : 0,5 % de l'offre totale (5 M en pouvoir de proposition).
    * Exécuteur Starkware : 0,5 % de l'offre totale (5 M en pouvoir de proposition).
-   * Exécuteur de longue durée : 2,0 % de l'offre totale (20 M en pouvoir de proposition).
+   * Exécuteur de longue durée : 2,0 % de l'offre totale (20M en pouvoir de proposition).
    * Exécuteur Merkle Pauser : 0,5 % de l'offre totale (5 M en pouvoir de proposition).
 * Assurez-vous qu'il y a des ETH dans le portefeuille pour payer les frais de gaz.
 * Créez une application sur Alchemy pour le réseau principal Ethereum.
@@ -427,7 +427,7 @@ Une proposition réussie peut être mise en file d'attente pour démarrer le dé
 
 * Sélectionnez la file d'attente et soumettez le « proposalId ».
 
-![](<../.gitbook/assets/Nest (2).png>)
+![](<../.gitbook/assets/46 (2).png>)
 
 Le « proposalId » se trouve sur Etherscan lors de la création de la DIP : [https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad).
 
