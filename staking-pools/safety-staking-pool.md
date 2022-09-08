@@ -17,13 +17,13 @@ Commencez à staker sur [**dydx.community/dashboard/pools/safety**](https://dydx
 
 ## Aperçu
 
-La sécurité et la protection des utilisateurs sont au centre des préoccupations depuis le lancement du Protocole. Pour cette raison, DYDX sera distribué aux utilisateurs qui stakent DYDX dans le pool de sécurité afin de créer un filet de sécurité supplémentaire pour les utilisateurs du protocole. Les stakers recevront DYDX en continu proportionnellement à leur part du DYDX total dans le pool.
+La sécurité et la protection des utilisateurs sont au centre des préoccupations depuis le lancement du Protocole. Pour cette raison, DYDX sera distribué aux utilisateurs qui stakent DYDX dans la pool de sécurité afin de créer un filet de sécurité supplémentaire pour les utilisateurs du protocole. Les stakers recevront DYDX en continu proportionnellement à leur part du DYDX total dans le pool.
 
 Le pool de sécurité sera mis en ligne lorsque DYDX deviendra transférable le 8 septembre 2021, 15 h 00 UTC.
 
 ## Retraits
 
-Les stakers doivent demander de retirer des fonds au moins `14 jours` **(Fenêtre de blocage)** avant la fin de l'époch afin de pouvoir retirer des fonds après la fin de cette époch. Si les stakers ne demandent pas de retrait, leur DYDX staké est reporté à l'époch suivante.
+Les stakers doivent demander de retirer des fonds au moins `14 jours` **(Fenêtre de blocage)** avant la fin de l'époch afin de pouvoir retirer des fonds après la fin de cette époch. Si les stakers ne demandent pas de retrait, leur DYDX staké est reporté à l'epoch suivante.
 
 ## Risques
 
@@ -47,15 +47,15 @@ Lors d'un événement de pénurie, les soldes des détenteurs de jetons peuvent 
 
 Les stakers peuvent déposer des DYDX à tout moment dans le pool de staking de sécurité et commencer à gagner des récompenses immédiatement. Les récompenses DYDX sont gagnées sur une base continue en fonction de la part de chaque staker dans le pool total, seconde par seconde. Les récompenses peuvent être réclamées et retirées à tout moment.
 
-Les fonds actifs gagnent des récompenses pour la période pendant laquelle ils restent actifs. Cela signifie qu'après avoir demandé le retrait de certains fonds, ces fonds continueront à gagner des récompenses jusqu'à la fin de l'époch. Ceci est démontré dans l'exemple suivant du [pool de staking de liquidité](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool) :
+Les fonds actifs gagnent des récompenses pour la période pendant laquelle ils restent actifs. Cela signifie qu'après avoir demandé le retrait de certains fonds, ces fonds continueront à gagner des récompenses jusqu'à la fin de l'epoch. Ceci est démontré dans l'exemple suivant du [pool de staking de liquidité](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool) :
 
-![](<../.gitbook/assets/image (65).png>)
+![](<../.gitbook/assets/image (65) (1).png>)
 
 Dans le scénario ci-dessus, l'utilisateur gagnerait des récompenses pour la période de **Time0** à **Time2**, variant avec le solde total staké au cours de cette période. Si l'utilisateur ne demande un retrait que pour une partie de son solde, le solde restant continuera à gagner des récompenses au-delà de **Time2**.
 
 ### Comment puis-je déposer et staker DYDX sur le pool de sécurité ?
 
-Pour staker DYDX dans le pool de sécurité, procédez comme suit :
+Pour staker DYDX dans la pool de sécurité, procédez comme suit :
 
 * Allez sur [**dydx.community/dashboard/pools/safety**](https://dydx.community/dashboard/pools/safety)\*\*\*\*
 * Cliquez sur « **Staker** »
@@ -73,7 +73,7 @@ Pour contribuer à la sécurité du protocole et recevoir des incitations, les d
 
 ### Qu'est-ce qu'une fenêtre de blocage ?
 
-Une fenêtre de blocage est une période de temps pendant laquelle les utilisateurs ne peuvent pas demander de retraits de fonds stakés. Un calendrier d'époch est appliqué pour les retraits afin de fournir une prévisibilité et une cadence régulière pour la disponibilité des fonds dans le pool. Un staker doit demander à retirer des fonds avant la fenêtre de blocage afin de pouvoir retirer leurs fonds après la fin de cette période. Si un staker ne demande pas de retrait, leurs fonds stakés sont reportés à l'époch suivante.
+Une fenêtre de blocage est une période de temps pendant laquelle les utilisateurs ne peuvent pas demander de retraits de fonds stakés. Un calendrier d'epoch est appliqué pour les retraits afin de fournir une prévisibilité et une cadence régulière pour la disponibilité des fonds dans le pool. Un staker doit demander à retirer des fonds avant la fenêtre de blocage afin de pouvoir retirer leurs fonds après la fin de cette période. Si un staker ne demande pas de retrait, leurs fonds stakés sont reportés à l'époch suivante.
 
 La fenêtre de blocage recommandée pour le pool de sécurité est `de 14 jours`.
 
@@ -86,7 +86,7 @@ Un solde staké est dans l'un des deux états suivants :
 
 Un staker peut avoir une combinaison de soldes actifs et inactifs. Les fonds sont comptabilisés époch par époch, comme illustré dans l'exemple suivant :
 
-![](<../.gitbook/assets/image (36) (1).png>)
+![](<../.gitbook/assets/image (34) (1) (3).png>)
 
 Les opérations suivantes affectent les soldes stakés comme suit :
 
@@ -95,15 +95,15 @@ Les opérations suivantes affectent les soldes stakés comme suit :
 * **Retrait** : diminuer le solde inactif.
 * **Transfert** : déplacer quelques fonds actifs vers un autre staker.
 
-Pour coder le fait qu'un solde peut être programmé pour changer à la fin d'une certaine époch, nous stockons chaque solde sous la forme d'une structure de trois champs : currentEpoch, currentEpochBalance et nextEpochBalance.
+Pour coder le fait qu'un solde peut être programmé pour changer à la fin d'une certaine epoch, nous stockons chaque solde sous la forme d'une structure de trois champs : currentEpoch, currentEpochBalance et nextEpochBalance.
 
 ### Comment puis-je retirer des fonds du pool de staking ? Combien de temps cela prend-il ?
 
 Un calendrier d'époch est appliqué pour les retraits afin de fournir une prévisibilité et une cadence régulière pour la disponibilité des fonds dans le pool. Un staker doit demander de retirer des fonds au moins `14 jours` avant la fin d'une époch afin de pouvoir retirer ses fonds après la fin de cette époch. Si les stakers ne demandent pas de retrait, leur DYDX staké est reporté à l'époch suivante.
 
-Pour retirer des fonds, les utilisateurs appellent la fonction \`requestWithdrawal\` pour demander de retirer des fonds pour la prochaine époch. Les fonds des utilisateurs resteront stakés et non retirables pour l'époch actuelle. À partir de la prochaine époch, les fonds seront « inactifs » et disponibles pour retrait.
+Pour retirer des fonds, les utilisateurs appellent la fonction \`requestWithdrawal\` pour demander de retirer des fonds pour la prochaine epoch. Les fonds des utilisateurs resteront stakés et non retirables pour l'époch actuelle. À partir de la prochaine époch, les fonds seront « inactifs » et disponibles pour retrait.
 
-À l'époch suivante, les utilisateurs appellent la fonction \`withdrawStake\` pour retirer des fonds inactifs à une adresse spécifique. Les utilisateurs peuvent sélectionner le montant des fonds inactifs qu'ils souhaitent retirer ou appeler la fonction \`withdrawMaxStake\` pour retirer tous les fonds inactifs. Notez que la fonction \`withdrawMaxStake\` est moins économe en gaz que d'interroger le max via eth\_call et d'appeler \`withdrawStake()\`.
+À l'epoch suivante, les utilisateurs appellent la fonction \`withdrawStake\` pour retirer des fonds inactifs à une adresse spécifique. Les utilisateurs peuvent sélectionner le montant des fonds inactifs qu'ils souhaitent retirer ou appeler la fonction \`withdrawMaxStake\` pour retirer tous les fonds inactifs. Notez que la fonction \`withdrawMaxStake\` est moins économe en gaz que d'interroger le max via eth\_call et d'appeler \`withdrawStake()\`.
 
 Pour retirer DYDX du pool de liquidité, procédez comme suit :
 
