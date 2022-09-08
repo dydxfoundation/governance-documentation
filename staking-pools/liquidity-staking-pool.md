@@ -64,7 +64,7 @@ Um saldo em staking está em um dos dois estados:
 
 Um staker pode ter uma combinação de saldos ativos ativos e inativos. O USDC é contabilizado epoch a epoch, conforme mostrado no seguinte exemplo:
 
-![Contabilidade do saldo em stake](<../.gitbook/assets/image (34) (1).png>)
+![Contabilidade do saldo em stake](<../.gitbook/assets/image (34) (1) (2).png>)
 
 As operações seguintes afetam os saldos em staking da seguinte forma:
 
@@ -91,7 +91,7 @@ Os stakers podem depositar USDC a qualquer momento no pool de staking de liquide
 
 O USDC em stake recebe recompensas pelo período no qual permanece ativo. Isso significa que após solicitar um saque de alguns USDC, este USDC continuará a ganhar recompensas até o final da epoch. Por exemplo:
 
-![Contabilidade de recompensas](<../.gitbook/assets/image (65) (1).png>)
+![Contabilidade de recompensas](<../.gitbook/assets/image (65) (1) (1).png>)
 
 No cenário acima, o usuário ganharia recompensas pelo período de **Time0** a **Time2**, havendo variações no saldo em staking total nesse período. Se o usuário solicitar apenas um saque para uma parte do saldo do usuário, o saldo restante continuará a receber recompensas além do **tempo 2**.
 
@@ -128,7 +128,7 @@ Para remover o USDC do stake no pool de liquidez, siga as seguintes etapas:
 * Visite [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*
 * Clique em “**Request (Solicitação)**”, para abrir o seguinte modal:
 
-![Solicitando saque](<../.gitbook/assets/image (68).png>)
+![Solicitando saque](<../.gitbook/assets/image (68) (1).png>)
 
 * Digite o valor de USDC que deseja solicitar para saque do pool e clique em “**Request withdraw (Solicitar saque)**”. Você precisará pagar as taxas de gás para remover o USDC do stake.
 * Os stakers que solicitarem a remoção do USDC pelo menos 14 dias (**janela de bloqueio**) antes da epoch atual terminar podem sacar seu USDC no início da próxima epoch.
