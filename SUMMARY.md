@@ -1,4 +1,4 @@
-# Table of contents
+# Table des matières
 
 * [Introduction](README.md)
 
@@ -39,8 +39,9 @@
 
 ## Liens externes
 
-* [Forums](http://forums.dydx.community)
-* [dYdX de couche 2](https://trade.dydx.exchange)
-* [API dYdX de couche 2](https://docs.dydx.exchange)
+* [Forums](http://forums.dydx.community/)
+* [dYdX de couche 2](https://trade.dydx.exchange/)
+* [API dYdX de couche 2](https://docs.dydx.exchange/)
 * [dYdX Trading Inc.](https://dydx.exchange)
-* [Tableau de bord des métriques](http://metrics.dydx.exchange)
+* [Tableau de bord des métriques](http://metrics.dydx.exchange/)
+* [Tableau de bord des récompenses LP](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true)
