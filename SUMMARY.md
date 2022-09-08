@@ -1,4 +1,4 @@
-# Table of contents
+# Índice
 
 * [Introdução](README.md)
 
@@ -24,6 +24,7 @@
 
 ## Voto e governança
 
+* [Arquitetura](voting-and-governance/governance-process.md)
 * [Ciclo de vida de propostas](voting-and-governance/dip-proposal-lifecycle.md)
 * [Processo de votação](voting-and-governance/voting.md)
 * [Parâmetros](voting-and-governance/governance-parameters.md)
@@ -38,8 +39,9 @@
 
 ## Links externos
 
-* [Fóruns](http://forums.dydx.community)
-* [dYdX Layer 2](https://trade.dydx.exchange)
-* [API dYdX Layer 2](https://docs.dydx.exchange)
+* [Fóruns](http://forums.dydx.community/)
+* [dYdX Layer 2](https://trade.dydx.exchange/)
+* [API dYdX Layer 2](https://docs.dydx.exchange/)
 * [dYdX Trading Inc.](https://dydx.exchange)
-* [Painel de métricas](http://metrics.dydx.exchange)
+* [Painel de métricas](http://metrics.dydx.exchange/)
+* [Painel de recompensas de LP](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true)
