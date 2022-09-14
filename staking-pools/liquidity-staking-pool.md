@@ -62,9 +62,9 @@ Un solde staké est dans l'un des deux états suivants :
 * **Actif** : disponible pour emprunt ; gagne des récompenses de staking ; ne peut pas être retiré par le staker.
 * **Inactif** : non disponible pour emprunt ; ne gagne pas de récompenses ; peut être retiré par le staker.
 
-Un staker peut avoir une combinaison de soldes actifs et inactifs. USDC est comptabilisé époch par époch, comme indiqué dans l'exemple suivant :
+Un staker peut avoir une combinaison de soldes actifs et inactifs. USDC est comptabilisé epoch par epoch, comme indiqué dans l'exemple suivant :
 
-![Comptabilité du solde jalonné](<../.gitbook/assets/image (34) (1).png>)
+![Comptabilité du solde staké](<../.gitbook/assets/image (34) (1) (2).png>)
 
 Les opérations suivantes affectent les soldes stakés comme suit :
 
@@ -91,7 +91,7 @@ Les stakers peuvent déposer l'USDC à tout moment dans le pool de staking de li
 
 L'USDC staké gagne des récompenses pour la période pendant laquelle il reste actif. Cela signifie qu'après avoir demandé un retrait de certains USDC, cet USDC continuera à gagner des récompenses jusqu'à la fin de l'époch. Par exemple :
 
-![Comptabilité des récompenses](<../.gitbook/assets/image (65) (1).png>)
+![Comptabilité des récompenses](<../.gitbook/assets/image (65) (1) (1).png>)
 
 Dans le scénario ci-dessus, l'utilisateur gagnerait des récompenses pour la période de **Time0** à **Time2**, variant avec le solde total staké au cours de cette période. Si l'utilisateur ne demande un retrait que pour une partie du solde de l'utilisateur, le solde restant continuera à gagner des récompenses au-delà de **Time2**.
 
@@ -113,13 +113,13 @@ Pour déposer et staker des USDC directement sur le contrat intelligent, les uti
 
 ### Qu'est-ce qu'une fenêtre de blocage ?
 
-Une fenêtre de blocage est une période de temps pendant laquelle les utilisateurs ne peuvent pas demander de retraits des USDC stakés. La fonction `requestWithdrawal` ne peut pas être appelée pendant une fenêtre de blocage, qui est initialement configurée comme les `14 derniers jours` d'une époch. Les nouvelles épochs commencent tous les 28 jours. En d'autres termes, les utilisateurs peuvent demander un retrait pour l'époch suivante jusqu'à `14 jours` avant la fin d'une époch donnée.
+Une fenêtre de blocage est une période de temps pendant laquelle les utilisateurs ne peuvent pas demander de retraits des USDC stakés. La fonction `requestWithdrawal` ne peut pas être appelée pendant une fenêtre de blocage, qui est initialement configurée comme les `14 derniers jours` d'une époch. Les nouvelles epochs commencent tous les 28 jours. En d'autres termes, les utilisateurs peuvent demander un retrait pour l'époch suivante jusqu'à `14 jours` avant la fin d'une époch donnée.
 
 ### Comment puis-je retirer des USDC du pool de staking ? Combien de temps cela prend-il ?
 
 Un calendrier d'époch est appliqué pour les retraits afin de fournir une prévisibilité et une cadence régulière pour la disponibilité des USDC dans le pool. Un staker doit demander à retirer l'USDC au moins `14 jours` avant la fin d'une époch afin de pouvoir retirer les USDC du staker après la fin de cette époch. Si les stakers ne demandent pas à retirer, leur USDC staké est reporté à l'époch suivante.
 
-Pour retirer l'USDC, les utilisateurs appellent la fonction `requestWithdrawal` pour demander de retirer l'USDC pour la prochaine époch. Les fonds des utilisateurs resteront stakés et non retirables pour l'époch actuelle. À partir de la prochaine époch, les fonds seront « inactifs » et disponibles pour retrait.
+Pour retirer l'USDC, les utilisateurs appellent la fonction `requestWithdrawal` pour demander de retirer l'USDC pour la prochaine époch. Les fonds des utilisateurs resteront stakés et non retirables pour l'epoch actuelle. À partir de la prochaine epoch, les fonds seront « inactifs » et disponibles pour retrait.
 
 À la prochaine époch, les utilisateurs appellent la fonction `withdrawStake` pour retirer l'USDC inactif à une adresse spécifique. Les utilisateurs peuvent sélectionner le montant des fonds inactifs qu'ils souhaitent retirer ou appeler la fonction \`withdrawMaxStake\` pour retirer tous les fonds inactifs. La fonction `withdrawMaxStake` est moins économe en gaz que d'interroger le max via eth\_call et d'appeler `withdrawStake()`.
 
@@ -128,7 +128,7 @@ Pour annuler l'USDC sur le pool de liquidité, suivez les étapes suivantes :
 * Allez sur [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*
 * Cliquez sur « **Demande** », pour ouvrir le modèle suivant :
 
-![Demande de retrait](<../.gitbook/assets/image (68).png>)
+![Demande de retrait](<../.gitbook/assets/image (68) (1).png>)
 
 * Entrez le montant d'USDC que vous souhaitez demander de retirer du pool, puis cliquez sur "**Demander un retrait**". Vous devrez payer des frais de gaz pour annuler l'USDC.
 * Les stakers qui demandent à retirer l'USDC au moins 14 jours (**fenêtre de blocage**) avant la fin de l'époch en cours peuvent retirer leur USDC au début de l'époch suivante.
