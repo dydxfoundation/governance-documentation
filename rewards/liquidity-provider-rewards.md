@@ -20,9 +20,9 @@ La fonction suivante est utilisée pour calculer combien de DYDX doivent être a
 
 Les ordres inférieurs à une certaine **profondeur minimale** (taille) ($$MinDepth$$) par marché sont exclus, et les ordres supérieurs à un certain **écart maximum** (écart de marché moyen) ($$MaxSpread$$) sont également exclus.
 
-Les performances du fournisseur de liquidités sont surveillées et calculées minute par minute (à l'aide d'un échantillonnage aléatoire) et agrégées en un $$Q_{SCORE}$$ ($$Q_{FINAL}$$) pour un marché donné. Avec un échantillonnage minute par minute, chaque époch a 28 jours \* 24 heures \* 60 minutes de points de données, soit 40 320 points de données par époch au total.
+Les performances du fournisseur de liquidités sont surveillées et calculées minute par minute (à l'aide d'un échantillonnage aléatoire) et agrégées en un $$Q_{SCORE}$$ ($$Q_{FINAL}$$) pour un marché donné. Avec un échantillonnage minute par minute, chaque Epoch a 28 jours \* 24 heures \* 60 minutes de points de données, soit 40 320 points de données par Epoch au total.
 
-Les fournisseurs de liquidité gagnent des récompenses mensuelles en fonction de leur part relative de $$Q_{FINAL}$$ par époch.
+Les fournisseurs de liquidité gagnent des récompenses mensuelles en fonction de leur part relative de $$Q_{FINAL}$$ par Epoch.
 
 La formule ci-dessus est décomposée en calculs étape par étape ci-dessous pour plus de détails :
 
@@ -48,7 +48,7 @@ Chaque marché aura son propre pool de récompenses qui sera pondéré différem
 
 ### Qui est admissible aux récompenses des fournisseurs de liquidités ?
 
-Tous les fournisseurs de liquidités qui ont atteint un minimum de 0,25 % de volume de trader sur le protocole dYdX de couche 2 à l'époch précédente sont admissibles pour recevoir DYDX en tant que récompenses à une époch donnée.
+Tous les fournisseurs de liquidités qui ont atteint un minimum de 0,25 % de volume de trader sur le protocole dYdX de couche 2 à l'Epoch précédente sont admissibles pour recevoir DYDX en tant que récompenses à une Epoch donnée.
 
 Le protocole de couche 2 de dYdX n'est pas disponible pour les fournisseurs de liquidités aux États-Unis ou dans les territoires restreints, tels que définis dans les [conditions d'utilisation](https://dydx.exchange/terms) de dYdX Trading Inc.
 
@@ -64,7 +64,7 @@ Les récompenses des fournisseurs de liquidités sont apparues dans l' [API dYdX
 
 Les jetons DYDX récompensés via les récompenses de fournisseurs de liquidités deviendront réclamables et transférables une fois la période de restriction de transfert initiale levée.
 
-À partir de l'époch 1, les jetons DYDX récompensés via les récompenses de fournisseurs de liquidité deviendront réclamables `7 jours` (**période d'attente**) après la fin de chaque époch.
+À partir de l'Epoch 1, les jetons DYDX récompensés via les récompenses de fournisseurs de liquidité deviendront réclamables 7 jours (période d'attente) après la fin de chaque Epoch.
 
 ### Comment la profondeur bilatérale, l'écart acheteur-vendeur et le temps de disponibilité sont-ils définis et mesurés ?
 
