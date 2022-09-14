@@ -12,7 +12,7 @@ description: Aperçu du programme de récompenses des fournisseurs de liquidité
 
 ## **Aperçu**
 
-Pour encourager la liquidité du marché, DYDX sera distribué aux fournisseurs de liquidité sur la base d'une formule qui récompense la participation aux marchés, le volume du maker, la profondeur bilatérale, la propagation (par rapport au marché intermédiaire) et la disponibilité sur le protocole de couche 2 de dYdX. Toute adresse Ethereum peut gagner ces récompenses, sous réserve d'un seuil de volume minimum du teneur de 0,25 % du volume du teneur à l'epoch précédente. DYDX sera distribué sur une période de 28 jours sur cinq ans et ne sera soumis à aucune acquisition ou blocage. 1 150 685 DYDX seront distribués par Epoch.
+Pour encourager la liquidité du marché, DYDX sera distribué aux fournisseurs de liquidité sur la base d'une formule qui récompense la participation aux marchés, le volume du maker, la profondeur bilatérale, la propagation (par rapport au marché intermédiaire) et la disponibilité sur le protocole de couche 2 de dYdX. Toute adresse Ethereum peut gagner ces récompenses, sous réserve d'un seuil de volume minimum du teneur de 0,25 % du volume du teneur à l'epoch précédente. DYDX sera distribué sur une période de 28 jours sur cinq ans et ne sera soumis à aucune acquisition ou blocage. 1 150 685 DYDX seront distribués par époch.
 
 La fonction suivante est utilisée pour calculer combien de DYDX doivent être accordés à chaque fournisseur de liquidité par epoch. Le montant de DYDX gagné est déterminé par la part relative des $$Q_{FINAL}$$ de chaque participant
 
@@ -54,7 +54,7 @@ Le protocole de couche 2 de dYdX n'est pas disponible pour les fournisseurs de l
 
 ### Combien de DYDX ai-je gagné dans le cadre du programme de récompenses des fournisseurs de liquidité ?
 
-À une Epoch donnée, les fournisseurs de liquidité gagnent un rendement en fonction de leur $$Q_{SCORE}$$ relatif sur le marché d'une paire donnée. Chaque paire a son propre montant de récompense relatif fixé par la gouvernance. Le montant attendu des DYDX gagnés est affiché dans le [tableau de bord des récompenses LP](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true) et peut être déterminé en fonction du nombre de fournisseurs de liquidités impliqués, du $$${SCORE}$ relatif et du montant de la récompense disponible pour une paire donnée.
+À une époch donnée, les fournisseurs de liquidité gagnent un rendement en fonction de leur $$Q_{SCORE}$$ relatif sur le marché d'une paire donnée. Chaque paire a son propre montant de récompense relatif fixé par la gouvernance. Le montant attendu des DYDX gagnés est affiché dans le [tableau de bord des récompenses LP](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true) et peut être déterminé en fonction du nombre de fournisseurs de liquidités impliqués, du $$${SCORE}$ relatif et du montant de la récompense disponible pour une paire donnée.
 
 ### Comment puis-je réclamer mes récompenses de fournisseur de liquidité ?
 

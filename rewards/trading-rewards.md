@@ -4,7 +4,7 @@ description: Aperçu du programme des récompenses de trading.
 
 # Récompenses de trading
 
-25,00 % de l'offre initiale de tokens (250 000 000 DYDX) seront distribués aux utilisateurs qui tradent sur le protocole de layer 2 de dYdX sur la base des frais payés.
+`25,00 %` de l'offre initiale de jetons (`250 000 000 DYDX`) seront distribués aux utilisateurs qui tradent sur le protocole de layer 2 de dYdX sur la base des frais payés.
 
 **Objectifs**
 
@@ -13,7 +13,7 @@ description: Aperçu du programme des récompenses de trading.
 
 ## **Aperçu**
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-08-30 at 15.42.39.png" alt=""><figcaption><p>Frais payés et récompenses estimées dans une Epoch donnée</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2022-08-30 at 15.42.39.png" alt=""><figcaption><p>Frais payés et récompenses estimées dans une époque donnée</p></figcaption></figure>
 
 DYDX sera distribué aux traders sur la base des frais payés sur le protocole de layer 2 de dYdX. DYDX sera distribué sur une période de 28 jours sur cinq ans et n'est soumis à aucune acquisition ou blocage. 3 835 616 DYDX seront distribués par epoch.
 
@@ -30,7 +30,7 @@ $$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k $$
 | $${\sum\limits _{n} w_{n}}$$ | Somme de tous les scores des traders. |
 | k | Nombre total de traders dans cette époch. |
 
-Dans le DIP-13, la communauté dYdX a voté pour simplifier la formule afin qu'elle soit basée sur le total des frais **** payés par un trader dans une Epoch donnée.
+Dans le [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md), la communauté dYdX a voté pour simplifier la formule afin qu'elle soit basée sur le total des frais **** payés par un trader dans une époque donnée.
 
 ## FAQ
 
@@ -44,13 +44,13 @@ Le protocole de couche 2 de dYdX n'est pas disponible pour les traders aux État
 
 À l'époch actuelle, les utilisateurs peuvent voir les frais payés et les récompenses de trading estimées sur [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) où les données de trading des utilisateurs existent.
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-08-30 at 15.42.39.png" alt=""><figcaption><p>Frais payés et récompenses estimées dans une Epoch donnée</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2022-08-30 at 15.42.39.png" alt=""><figcaption><p>Frais payés et récompenses estimées dans une époque donnée</p></figcaption></figure>
 
-Les récompenses des Epochs passées peuvent être consultées sur dydx.community/history/rewards.
+Les récompenses des époques passées peuvent être consultées sur [**dydx.community/history/rewards**](https://dydx.community/history/rewards)**.**
 
 ### Comment puis-je réclamer mes récompenses de trading ? Quand puis-je retirer et transférer mes DYDX gagnés ?
 
-Les tokens DYDX gagnés via les récompenses de trading seront transférables à la fin de chaque époch. Les détenteurs de tokens DYDX doivent attendre environ 7 jours (période d'attente) après la fin de l'époch pour réclamer leurs tokens. Une fois les tokens réclamés, ils peuvent être utilisés pour la gouvernance dYdX.
+Les jetons DYDX gagnés via les récompenses de trading seront transférables à la fin de chaque époch. Les détenteurs de jetons DYDX doivent attendre environ `7 jours` (**période d'attente**) après la fin de l'époch pour réclamer leurs jetons. Une fois les tokens réclamés, ils peuvent être utilisés pour la gouvernance dYdX.
 
 Les traders peuvent réclamer leurs récompenses de trading à la fin de chaque epoch, après la **période d'attente**, [ici](https://dydx.community/dashboard).
 
