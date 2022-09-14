@@ -54,7 +54,7 @@ O protocolo dYdX Layer 2 não está disponível para provedores de liquidez nos 
 
 ### Quanto DYDX ganhei no programa de recompensas para provedores de liquidez?
 
-Numa determinada epoch, os provedores de liquidez ganham um rendimento com base no seu valor $$Q_{SCORE}$$ em um determinado mercado do par. Cada par tem sua própria quantia de recompensas relativa definida pela governança. A quantidade esperada de DYDX obtida pode ser determinada com base no número de provedores de liquidez envolvidos, no valor $$Q_{SCORE}$$ relativo, e no valor de recompensa disponível para um determinado par.
+Numa determinada epoch, os provedores de liquidez ganham um rendimento com base no seu valor $$Q_{SCORE}$$ em um determinado mercado do par. Cada par tem sua própria quantia de recompensas relativa definida pela governança. A quantidade esperada de DYDX obtidos é exibida no [Painel de Recompensas LP](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true) e pode ser determinada com base no número de provedores de liquidez envolvidos, no valor de $Q_{SCORE}$$ e no valor da recompensa disponível para um determinado par.
 
 ### Como posso resgatar minhas recompensas para provedores de liquidez?
 

@@ -49,7 +49,7 @@ Os stakers podem depositar DYDX a qualquer momento no pool de staking de seguran
 
 Os fundos ativos ganham recompensas pelo período em que permanecem ativos. Isso significa que após solicitar um saque de fundos, estes continuarão a ganhar recompensas até o final da epoch. Isso é mostrado no seguinte exemplo do [pool de staking de liquidez](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool):
 
-![](<../.gitbook/assets/image (65).png>)
+![](<../.gitbook/assets/image (65) (1).png>)
 
 No cenário acima, o usuário ganharia recompensas pelo período de **Time0** a **Time2**, havendo variações no saldo em staking total nesse período. Se o usuário solicitar apenas um saque por uma parte do saldo, o saldo restante continuará a receber recompensas além de **Time2**.
 
@@ -86,7 +86,7 @@ Um saldo em staking está em um dos dois estados:
 
 Um staker pode ter uma combinação de saldos ativos e inativos. Os fundos são contabilizados por epoch, como mostrado no seguinte exemplo:
 
-![](<../.gitbook/assets/image (36) (1).png>)
+![](<../.gitbook/assets/image (34) (1) (3).png>)
 
 As operações seguintes afetam os saldos em staking da seguinte forma:
 
