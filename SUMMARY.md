@@ -1,4 +1,4 @@
-# Table of contents
+# Содержание
 
 * [Введение](README.md)
 
@@ -39,8 +39,9 @@
 
 ## ВНЕШНИЕ ССЫЛКИ
 
-* [Форумы](http://forums.dydx.community)
-* [dYdX уровня 2](https://trade.dydx.exchange)
-* [API dYdX уровня 2](https://docs.dydx.exchange)
+* [Форумы](http://forums.dydx.community/)
+* [dYdX уровня 2](https://trade.dydx.exchange/)
+* [API dYdX уровня 2](https://docs.dydx.exchange/)
 * [dYdX Trading Inc.](https://dydx.exchange)
-* [Панель показателей](http://metrics.dydx.exchange)
+* [Панель показателей](http://metrics.dydx.exchange/)
+* [Панель мониторинга наград для поставщиков ликвидности](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true)
