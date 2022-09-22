@@ -66,11 +66,11 @@ Su Zhu (zhusu) de Three Arrows Capital a créé un [forum de discussion hors cha
 ![https://forums.dydx.community/new/discussion](<../.gitbook/assets/Untitled 3 (1)>)
 
 * Si vous créez une DRC, veuillez suivre le modèle lié [ici](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md). Comme indiqué dans la rubrique _Création de la DRC_ dans le [cycle de vie de la proposition](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle), les DRC doivent au minimum inclure les éléments suivants :
-   * Un titre court et concis de la DCR.
-   * Une description courte et concise de la proposition.
-   * La justification de la DRC (par exemple, pourquoi ?).
-   * Le titre du post du forum doit inclure DRC : \[insérer un court titre du DRC] (Ex. DRC : Nouvelle demande de marché).
-   * Un sondage communautaire que les membres de la communauté peuvent utiliser pour voter sur les améliorations hors chaîne.
+  * Un titre court et concis de la DCR.
+  * Une description courte et concise de la proposition.
+  * La justification de la DRC (par exemple, pourquoi ?).
+  * Le titre du post du forum doit inclure DRC : \[insérer un court titre du DRC] (Ex. DRC : Nouvelle demande de marché).
+  * Un sondage communautaire que les membres de la communauté peuvent utiliser pour voter sur les améliorations hors chaîne.
 
 ### **ÉTAPE 2 - Sondage Snapshot DRC (hors chaîne)**
 
@@ -268,10 +268,10 @@ Les étapes pour mettre en œuvre la proposition incluse dans le README se trouv
 
 * Créez un nouveau portefeuille pour créer la DIP. Le processus de déploiement nécessitera la saisie de votre phrase de départ en tant que variable d'environnement. Nous vous recommandons donc d'utiliser un portefeuille unique pour la création d'une DIP sur la chaîne.
 * Déléguez suffisamment de pouvoir de proposition au portefeuille unique pour la création d'une DIP. Vous pouvez déléguer le pouvoir de proposition [ici.](https://dydx.community/dashboard) Les différents seuils de pouvoir de proposition sont inclus ci-dessous et liés [ici](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
-   * Courte période de temps : 0,5 % de l'offre totale (5 M en pouvoir de proposition).
-   * Exécuteur Starkware : 0,5 % de l'offre totale (5 M en pouvoir de proposition).
-   * Exécuteur de longue durée : 2,0 % de l'offre totale (20M en pouvoir de proposition).
-   * Exécuteur Merkle Pauser : 0,5 % de l'offre totale (5 M en pouvoir de proposition).
+  * Courte période de temps : 0,5 % de l'offre totale (5 M en pouvoir de proposition).
+  * Exécuteur Starkware : 0,5 % de l'offre totale (5 M en pouvoir de proposition).
+  * Exécuteur de longue durée : 2,0 % de l'offre totale (20M en pouvoir de proposition).
+  * Exécuteur Merkle Pauser : 0,5 % de l'offre totale (5 M en pouvoir de proposition).
 * Créez une clé Alchemy. Avec la clé Alchemy, vous n'avez pas besoin d'exécuter un nœud Ethereum pour interagir avec Ethereum et déployer le contrat intelligent. Le lien du guide pour la création d'une clé Alchemy se trouve [ici](https://docs.alchemy.com/alchemy/introduction/getting-started).
 
 ![https://docs.alchemy.com/alchemy/introduction/getting-started](../.gitbook/assets/29.png)
@@ -379,10 +379,10 @@ Notez que (1) les propositions doivent être exécutées dans le délai de grâc
 #### _Comment soumettre une DIP sur la chaîne :_
 
 * Assurez-vous que vous avez suffisamment de pouvoir de proposition pour créer la DIP. Vous pouvez trouver plus d'informations sous [Création d'une DIP](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
-   * Exécuteur de courte durée : 0,5 % de l'offre totale (5 M en pouvoir de proposition).
-   * Exécuteur Starkware : 0,5 % de l'offre totale (5 M en pouvoir de proposition).
-   * Exécuteur de longue durée : 2,0 % de l'offre totale (20M en pouvoir de proposition).
-   * Exécuteur Merkle Pauser : 0,5 % de l'offre totale (5 M en pouvoir de proposition).
+  * Exécuteur de courte durée : 0,5 % de l'offre totale (5 M en pouvoir de proposition).
+  * Exécuteur Starkware : 0,5 % de l'offre totale (5 M en pouvoir de proposition).
+  * Exécuteur de longue durée : 2,0 % de l'offre totale (20M en pouvoir de proposition).
+  * Exécuteur Merkle Pauser : 0,5 % de l'offre totale (5 M en pouvoir de proposition).
 * Assurez-vous qu'il y a des ETH dans le portefeuille pour payer les frais de gaz.
 * Créez une application sur Alchemy pour le réseau principal Ethereum.
 
