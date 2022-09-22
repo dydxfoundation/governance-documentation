@@ -282,9 +282,9 @@ Select Ethereum and “Get Started.”
 
 ![](../.gitbook/assets/30.png)
 
-Fill in the required information, select the Ropsten Network and select “create app.”
+Fill in the required information, select the Goerli Network and select “create app.”
 
-![](../.gitbook/assets/31.png)
+<figure><img src="../.gitbook/assets/Screenshot 2022-09-22 at 10.57.51.png" alt=""><figcaption></figcaption></figure>
 
 After creating your account, follow the setup instructions linked [here](https://docs.alchemy.com/alchemy/introduction/getting-started).
 
