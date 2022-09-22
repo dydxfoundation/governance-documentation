@@ -140,7 +140,7 @@ La gouvernance dYdX est responsable pour :
 * Faire une diligence raisonnable sur les emprunteurs existants
 * Ajouter de nouveaux emprunteurs et/ou supprimer des emprunteurs existants du pool de staking de liquidité
 * Modification des allocations de l'USDC emprunté aux emprunteurs approuvés
-   * Les fonctions `setBorrowerAllocations` et `setBorrowingRestriction` sont appelées à modifier les allocations de certains emprunteurs. Elles peuvent être utilisées pour ajouter et supprimer des emprunteurs. Les augmentations prennent effet à l'époch suivante, mais les diminutions restreignent immédiatement les emprunts. Ces fonctions ne peuvent pas être appelées pendant la fenêtre de blocage.
+  * Les fonctions `setBorrowerAllocations` et `setBorrowingRestriction` sont appelées à modifier les allocations de certains emprunteurs. Elles peuvent être utilisées pour ajouter et supprimer des emprunteurs. Les augmentations prennent effet à l'époch suivante, mais les diminutions restreignent immédiatement les emprunts. Ces fonctions ne peuvent pas être appelées pendant la fenêtre de blocage.
 * La durée de l'époch et la fenêtre de blocage sont définies lors de la création du contrat, mais peuvent être modifiées
 
 ## **FAQ sur les emprunteurs**
@@ -167,7 +167,7 @@ Un emprunteur peut déposer en toute sécurité son propre USDC sur le `StarkPro
 
 * L'USDC détenu dans le contrat `StarkProxy` au-delà du solde emprunté peut être retiré à tout moment.
 * La gouvernance peut approuver le retrait d'un certain montant.
-   * Remarque : cela peut être utilisé pour permettre à l'emprunteur de retirer des bénéfices sans avoir à déplacer la plupart des USDC hors du protocole de couche 2 de dYdX.
+  * Remarque : cela peut être utilisé pour permettre à l'emprunteur de retirer des bénéfices sans avoir à déplacer la plupart des USDC hors du protocole de couche 2 de dYdX.
 
 #### **Les rôles d'emprunteur**
 
