@@ -4,7 +4,7 @@ description: Overview of the Liquidity Provider rewards Program.
 
 # Liquidity Provider Rewards
 
-7.5% of the initial token supply (`75,000,000 DYDX`) will be distributed to liquidity providers based on a formula rewarding a combination of uptime, two-sided depth, bid-ask spreads, and the number of markets supported.
+7.5% of the initial token supply (`75,000,000 DYDX`) will be distributed to liquidity providers based on formulas that reward a combination of maker volume, uptime, two-sided depth, bid-ask spreads, stkDYDX, and the number of markets supported.
 
 **Objectives**
 
@@ -12,15 +12,15 @@ description: Overview of the Liquidity Provider rewards Program.
 
 ## **Overview**
 
-To incentivize market liquidity, DYDX will be distributed to liquidity providers based on a formula that rewards participation in markets, maker volume, two-sided depth, spread (vs. mid-market), and uptime on dYdX’s Layer 2 Protocol. Any Ethereum address can earn these rewards, subject to a minimum maker volume threshold of 0.25% of maker volume in the preceding epoch. DYDX will be distributed on a 28-day epoch basis over five years and are not subject to any vesting or lockups. 1,150,685 DYDX will be distributed per epoch.
+To incentivize market liquidity, DYDX will be distributed to liquidity providers based on formulas that reward participation in markets, maker volume, two-sided depth, spread (vs. mid-market), and uptime on dYdX’s Layer 2 Protocol. Any Ethereum address can earn these rewards, subject to a minimum maker volume threshold of 0.25% of maker volume in the preceding epoch. DYDX will be distributed on a 28-day epoch basis over five years and are not subject to any vesting or lockups. 1,150,685 DYDX will be distributed per epoch.
 
-The following function is used to compute how much DYDX should be rewarded to each liquidity provider per epoch. The amount of DYDX earned is determined by the relative share of each participant’s $$Q_{FINAL}$$
+The following functions are used to compute how much DYDX should be rewarded to each liquidity provider per epoch. In [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md), the dYdX community voted to revise the LP rewards formula by splitting the functions for BTC/ETH markets and non BTC/ETH markets. Overall, the weighting of volume in the functions was increased in all markets. The amount of DYDX earned is determined by the relative share of each participant’s $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​).
 
-![](<../.gitbook/assets/Screen Shot 2022-05-17 at 1.08.12 PM.png>)
+<figure><img src="../.gitbook/assets/New LP Rewards Fomula (BTCETHALL).png" alt=""><figcaption></figcaption></figure>
 
 Orders below a certain **minimum depth** (size) ($$MinDepth$$) per market are excluded, and orders over a certain **maximum spread** (mid-market spread) ($$MaxSpread$$) market are excluded as well.
 
-Liquidity provider performance is monitored and calculated on a minute-by-minute basis (using randomized sampling) and aggregated into a $$Q_{SCORE}$$ ($$Q_{FINAL}$$) for a given market. Given minute-by-minute sampling, each epoch has 28 days \* 24 hours \* 60 minutes of data points—40,320 data points per epoch in total.
+Liquidity provider performance is monitored and calculated on a minute-by-minute basis (using randomized sampling) and aggregated into a $$Q_{SCORE}$$ for a given market. Given minute-by-minute sampling, each epoch has 28 days \* 24 hours \* 60 minutes of data points—40,320 data points per epoch in total.
 
 Liquidity providers earn monthly rewards based on their relative $$Q_{FINAL}$$ share per epoch.
 
@@ -36,12 +36,12 @@ The above formula is broken out into step-by-step calculations below for detail:
 | <img src="../.gitbook/assets/math-20210908 (5) (1).png" alt="" data-size="original">                | $$Q_{FINAL}$$normalizes $$Q_{EPOCH}$$to account for uptime                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | _stkDYDX_                                                                                           | Average amount of stkDYDX held (measured randomly every minute) across the epoch                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
-Each market will have its own rewards pool that will be weighted differently. The initial set of weights applied to each market is as follows:
+Each market will have its own rewards pool that will be weighted differently. In DIP \[], the dYdX community voted to reduce the allocation of total rewards in BTC-USD and ETH-USDC to 10% each.  The set of weights applied to each market is as follows:
 
 | Market                 | % Allocation of Total Rewards Pool                                     |
 | ---------------------- | ---------------------------------------------------------------------- |
-| BTC-USD                | 20%                                                                    |
-| ETH-USD                | 20%                                                                    |
+| BTC-USD                | 10%                                                                    |
+| ETH-USD                | 10%                                                                    |
 | Other perpetual market | ![](<../.gitbook/assets/Screen Shot 2021-07-15 at 1.20.17 PM (1).png>) |
 
 ## FAQ
