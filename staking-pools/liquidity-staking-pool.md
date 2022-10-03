@@ -4,9 +4,9 @@ description: An overview of the Liquidity Staking Pool
 
 # Liquidity Module
 
-`2.50%` of the initial token supply (`25,000,000 DYDX`) will be distributed to users staking USDC to the liquidity staking pool. The Liquidity Staking Pool is no longer active as of September 29, 2022. In [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/7) to effectively wind down the Liquidity Staking Pool and the Borrowing Pool by setting the liquidity staking pool rewards per second to 0. \
+`2.50%` of the initial token supply (`25,000,000 DYDX`) will be distributed to users staking USDC to the Liquidity Staking Pool. The Liquidity Staking Pool is no longer active as of September 29, 2022. In [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/7) to effectively wind down the Liquidity Staking Pool and the Borrowing Pool by setting the Liquidity Staking Pool rewards per second to 0. \
 \
-Previously, DYDX was distributed to users who staked USDC to the liquidity staking pool. Community-approved liquidity providers used the staked USDC to make markets on the dYdX Layer 2 Protocol, furthering the liquidity available across the markets. Liquidity providers were restricted from using borrowed funds outside of the dYdX Layer 2 Protocol.
+Previously, DYDX was distributed to users who staked USDC to the Liquidity Staking Pool. Community-approved liquidity providers used the staked USDC to make markets on the dYdX Layer 2 Protocol, furthering the liquidity available across the markets. Liquidity providers were restricted from using borrowed funds outside of the dYdX Layer 2 Protocol.
 
 ## **Staking** Overview
 
@@ -14,11 +14,11 @@ Currently, USDC staked in the Liquidity Staking Pool is not earning rewards.
 
 ## USDC Unstaking & Withdrawals
 
-A staker must request to withdraw USDC at least 3 `days` (**Blackout Window**) before the end of an [**epoch**](../start-here/epochs.md) in order to be able to withdraw the staker's USDC after the end of that epoch. If stakers do not request to withdraw, their staked USDC is rolled over into the next epoch.
+A staker must request to withdraw USDC at least `3 days` (**Blackout Window**) before the end of an [**epoch**](../start-here/epochs.md) in order to be able to withdraw the staker's USDC after the end of that epoch. If stakers do not request to withdraw, their staked USDC is rolled over into the next epoch.
 
 Withdrawals cannot be requested during the **Blackout Window**.
 
-In [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/7) to reduce the length of the Blackout Window from 14 days to 3 days.&#x20;
+In [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/7) to reduce the length of the Blackout Window from `14 days` to `3 days`.&#x20;
 
 ## What is stkUSDC?
 
