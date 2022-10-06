@@ -4,7 +4,9 @@ description: Overview of the Trading Rewards program.
 
 # Trading Rewards
 
-`25.00%` of the initial token supply (`250,000,000 DYDX`) will be distributed to users who trade on the dYdX Layer 2 Protocol based on fees paid.
+`25.00%` of the initial token supply (`250,000,000 DYDX`) will be distributed to users who trade on the dYdX Layer 2 Protocol based on fees paid.\
+\
+In [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/8) in support of reducing trading rewards by 25%. As a result, trading rewards distributed in a given epoch were reduced from 3,835,616 DYDX to 2,876,712 DYDX in Epoch 15.&#x20;
 
 **Objectives**
 
@@ -15,7 +17,9 @@ description: Overview of the Trading Rewards program.
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-08-30 at 15.42.39.png" alt=""><figcaption><p>Fees paid and estimated rewards in a given epoch</p></figcaption></figure>
 
-DYDX will be distributed to traders based on fees paid on the dYdX Layer 2 Protocol. DYDX will be distributed on a 28-day epoch basis over five years and is not subject to any vesting or lockups. 3,835,616 DYDX will be distributed per epoch.
+DYDX will be distributed to traders based on fees paid on the dYdX Layer 2 Protocol. DYDX will be distributed on a 28-day epoch basis over five years and is not subject to any vesting or lockups. 2,876,712 DYDX will be distributed per epoch.&#x20;
+
+With the community voting to reduce trading rewards by 25% from 3,835,616 DYDX to 2,876,712 DYDX, the remaining 958,904 DYDX that accrues in the Rewards Treasury can be used/directed by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-08-12 at 17.50.17.png" alt=""><figcaption></figcaption></figure>
 
