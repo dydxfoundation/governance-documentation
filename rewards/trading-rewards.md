@@ -4,9 +4,7 @@ description: Overview of the Trading Rewards program.
 
 # Trading Rewards
 
-`25.00%` of the initial token supply (`250,000,000 DYDX`) will be distributed to users who trade on the dYdX Layer 2 Protocol based on fees paid.\
-\
-In [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/8) in support of reducing trading rewards by 25%. As a result, trading rewards distributed in a given epoch were reduced from 3,835,616 DYDX to 2,876,712 DYDX in Epoch 15.&#x20;
+`25.00%` of the initial token supply (`250,000,000 DYDX`) was allocated to be distributed to users who trade on the dYdX Layer 2 Protocol based on fees paid. In [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/8) in support of reducing trading rewards by 25%. As a result, trading rewards distributed in a given epoch were reduced from 3,835,616 DYDX to 2,876,712 DYDX in Epoch 15.&#x20;
 
 **Objectives**
 
