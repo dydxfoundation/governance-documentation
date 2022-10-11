@@ -4,7 +4,7 @@ description: An overview of the Liquidity Staking Pool
 
 # Liquidity Module
 
-`2.50%` of the initial token supply (`25,000,000 DYDX`) was allocated to be distributed to users staking USDC to the Liquidity Staking Pool. The Liquidity Staking Pool is no longer active as of September 29, 2022. In [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/7) to effectively wind down the Liquidity Staking Pool and the Borrowing Pool by setting the Liquidity Staking Pool rewards per second to 0. \
+`2.50%` of the initial token supply (`25,000,000 DYDX`) was allocated to be distributed to users staking USDC to the Liquidity Staking Pool. The Liquidity Staking Pool is no longer active as of September 29, 2022. In [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/7) to effectively wind down the Liquidity Staking Pool and the Borrowing Pool by setting the Liquidity Staking Pool rewards per second to 0.\
 \
 Previously, DYDX was distributed to users who staked USDC to the Liquidity Staking Pool. Community-approved liquidity providers used the staked USDC to make markets on the dYdX Layer 2 Protocol, furthering the liquidity available across the markets. Liquidity providers were restricted from using borrowed funds outside of the dYdX Layer 2 Protocol.
 
@@ -20,7 +20,7 @@ A staker must request to withdraw USDC at least `3 days` (**Blackout Window**) b
 
 Withdrawals cannot be requested during the **Blackout Window**.
 
-In [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/7) to reduce the length of the Blackout Window from `14 days` to `3 days`.&#x20;
+In [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/7) to reduce the length of the Blackout Window from `14 days` to `3 days`.
 
 ## What is stkUSDC?
 
@@ -49,7 +49,7 @@ To unstake USDC to the Liquidity Pool, following the following steps:
 * Go to [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*
 * Click on “**Request**”, to open the following modal:
 
-![Requesting withdraw](<../.gitbook/assets/image (68) (1).png>)
+![Requesting withdraw](../.gitbook/assets/1-withdraw-from-liquidity-pool.png)
 
 * Enter the amount of USDC you want to request to withdraw from the pool, and click "**Request withdraw**". You will need to pay gas fees to unstake USDC.
 * Stakers who request to unstake USDC at least `3 days` (**Blackout Window**) before the current epoch ends can withdraw their USDC at the start of the next epoch.

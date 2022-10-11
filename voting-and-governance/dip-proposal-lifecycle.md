@@ -12,7 +12,7 @@ Below we outline a preliminary draft explaining how the dYdX governance process 
 
 The following flow chart is the initial proposed stages to pass a proposal:
 
-![Stages of a DIP](<../.gitbook/assets/image (81).png>)
+![Stages of a DIP](../.gitbook/assets/1-proposal-stage-flow-chart.png)
 
 ## 0. Forum Discussion
 
@@ -42,13 +42,13 @@ Snapshot polls serve two purposes: sentiment signaling for future on-chain DIPs 
 
 Once an off-chain DRC has a very rough consensus, a community member holding more than `10,000` DYDX can create an **off-chain vote** for the DRC on **Snapshot**. We encourage the dYdX Community to create Snapshot polls on Mondays to increase visibility during the regular workweek.
 
-Snapshot is a simple voting interface that allows users to signal sentiment off-chain. Votes on Snapshot are weighted by the voting power of the address used to vote.&#x20;
+Snapshot is a simple voting interface that allows users to signal sentiment off-chain. Votes on Snapshot are weighted by the voting power of the address used to vote.
 
 For Snapshot polls related to sentiment signaling, the proposer will need to provide:
 
 * details of the DRC,
-* a voting system,&#x20;
-* a voting period - vote start date and vote end date set to a 4 day voting period, and&#x20;
+* a voting system,
+* a voting period - vote start date and vote end date set to a 4 day voting period, and
 * a voting delay - a Snapshot block number that is 6570 blocks (approximately 1 day) in the future. The Snapshot block number locks the state of community members who can vote. Token holders who hold tokens before the Snapshot block number are eligible to vote. Before the snapshot of each address’ respective voting power, the voting delay gives DYDX/stkDYDY holders time to acquire tokens, delegate voting power, and move tokens between wallets (moving tokens between wallets only applies to DYDX holders).
 
 For decisions that don’t require an on-chain smart contract call, notably changes to the Trading and Liquidity Provider rewards formulas, Snapshot votes are considered the binding and final vote. The proposer will need to include the requirements above and provide:
@@ -58,7 +58,7 @@ For decisions that don’t require an on-chain smart contract call, notably chan
 The proposed change(s) will be implemented by dYdX Trading Inc. if the results of the Snapshot poll satisfy:
 
 * the minimum quorum - at least 1M DYDX/stkDYDX. The minimum quorum contributes to the decentralization of decision-making and protects against unilateral decision-making, and
-* the minimum vote differential - at least 67% of votes must be in favor of the proposal. The minimum vote differential assists with filtering out proposals that are highly contentious and require further discussion.&#x20;
+* the minimum vote differential - at least 67% of votes must be in favor of the proposal. The minimum vote differential assists with filtering out proposals that are highly contentious and require further discussion.
 
 dYdX Trading Inc. will have up to 1 Epoch (28 days), an execution grace period, to implement changes from a successful Snapshot poll.
 
@@ -82,7 +82,7 @@ After the Voting Delay, the Voting Period is activated. The voting period length
 
 The following chart shows a DIP state flowchart:
 
-![Lifecycle of a DIP](<../.gitbook/assets/image (63).png>)
+![Lifecycle of a DIP](../.gitbook/assets/1-proposal-state-flowchart.png)
 
 After a DIP is created on-chain it is subject to a **Voting Delay**, **Voting Period**, **Minimum Quorum**, and a minimum **Vote Differential**. The initial parameters are as follows:
 
@@ -110,25 +110,23 @@ As soon as the voting period ends and a proposal has succeeded, anyone can call 
 
 For the Starkware priority timelock executor, it has a priority period of 7 days out of the 9 day timelock delay. This means that after 9 days anyone can execute a proposal, but within days 2-9 (the priority period) Starkware has the option to execute the proposal.
 
-In practical terms it's:&#x20;
+In practical terms it's:
 
-* Days 0–2: No one can execute&#x20;
-* Days 2–9: Only Starkware can execute&#x20;
+* Days 0–2: No one can execute
+* Days 2–9: Only Starkware can execute
 * Days 9: Anyone can execute
 
 ## 7. (Optional) Proposal Cancellation
 
 At any point in a DIP lifecycle, the proposer can cancel the DIP. A proposal can be cancelled by anyone before it is executed if the proposer does not have sufficient proposition power at the current block.
 
-
-
 ## FAQ
 
 ### What is the purpose of the Voting Delay?
 
-The **Voting Delay** is the number of Ethereum blocks to wait before voting on a proposal may begin after a proposal is submitted.&#x20;
+The **Voting Delay** is the number of Ethereum blocks to wait before voting on a proposal may begin after a proposal is submitted.
 
-DYDX voting power must be delegated to an address either entirely before a proposal has been submitted or during the proposal **Voting Delay**.&#x20;
+DYDX voting power must be delegated to an address either entirely before a proposal has been submitted or during the proposal **Voting Delay**.
 
 For now, the **Voting Delay** is set to `6,570 blocks`, which is about 1 day. This value is added to the current block number when a proposal is created.
 

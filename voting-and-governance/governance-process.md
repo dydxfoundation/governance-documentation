@@ -21,7 +21,7 @@ There are 6 smart contracts at the core of dYdX Governance:
 * **The `Timelock` contracts**: can queue, cancel, or execute transactions voted by Governance. The functions in a proposal are initiated by the Timelock contract. Queued transactions can be executed after a delay and before the expiration of the grace period.
 * **The `Priority Timelock` contract**: The same as the timelock contract, but allows a priority controller to execute transactions within the **Priority Period** (7 days) before the end of the timelock delay.
 
-![Smart contract architecture](<../.gitbook/assets/image (49).png>)
+![Smart contract architecture](../.gitbook/assets/1-smart-contract-architectue.png)
 
 dYdX on-chain governance allows for:
 
@@ -63,4 +63,4 @@ The Merkle-pauser executor can execute proposals that freeze the Merkle root, wh
 
 The initial timelock parameters are as follows:
 
-![Initial timelock parameters](<../.gitbook/assets/Initial Timelock Parameters (1).png>)
+![Initial timelock parameters](../.gitbook/assets/1-initial-timelock-parameters.png)
