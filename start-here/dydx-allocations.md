@@ -9,7 +9,7 @@ description: Allocations for the DYDX token.
 A total of `1,000,000,000 DYDX` have been minted, and will become accessible over five (5) years, starting on **August 3rd, 2021, at 15:00:00 UTC**. The initial five-year allocation of the total supply of DYDX is as follows:
 
 * **50.00%** (`500,000,000 DYDX`) to the community as follows:
-  * **25.00%** (`250,000,000 DYDX`) to users who trade on the dYdX Layer 2 Protocol based on  fees paid ([**Trading Rewards**](../rewards/trading-rewards.md)). In [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/8) in support of reducing trading rewards by 25%. As a result, trading rewards distributed in a given epoch were reduced from 3,835,616 DYDX to 2,876,712 DYDX in Epoch 15. The remaining 958,904 DYDX will accrue in the Rewards Treasury and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters),
+  * **25.00%** (`250,000,000 DYDX`) to users who trade on the dYdX Layer 2 Protocol based on fees paid ([**Trading Rewards**](../rewards/trading-rewards.md)). In [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/8) in support of reducing trading rewards by 25%. As a result, trading rewards distributed in a given epoch were reduced from 3,835,616 DYDX to 2,876,712 DYDX in Epoch 15. The remaining 958,904 DYDX will accrue in the Rewards Treasury and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters),
   * **7.50%** (`75,000,000 DYDX`) to past users who complete certain trading milestones on the dYdX Layer 2 Protocol ([**Retroactive Mining Rewards**](../rewards/retroactive-mining-rewards.md)),
   * **7.50%** (`75,000,000 DYDX`) to liquidity providers based on a formula rewarding a combination of uptime, two-sided depth, bid-ask spreads, and the number of markets supported ([**Liquidity Provider Rewards**](../rewards/liquidity-provider-rewards.md)),
   * **5.00%** (`50,000,000 DYDX`) to a community treasury ([**Treasury**](community-treasury.md)),
@@ -19,11 +19,11 @@ A total of `1,000,000,000 DYDX` have been minted, and will become accessible ove
 * **15.27%** (`152,704,930 DYDX`) to founders, employees, advisors, and consultants of dYdX Trading or the Foundation, and
 * **7.00%** (`70,000,000 DYDX`) to future employees and consultants of dYdX Trading or the dYdX Foundation.
 
-![](<../.gitbook/assets/DYDX Allocations (Initial 5 Years) (1).png>)
+![](../.gitbook/assets/1-dydx-allocations-initial-5-years.png)
 
 Starting five years after launch, a maximum perpetual inflation rate of `2%` per year may be utilized by governance to increase the supply of DYDX, ensuring the community has the resources to continue the development and growth of the Protocol. Inflation must be enacted via a governance proposal and is capped at `2%` per year.
 
-![](<../.gitbook/assets/Allocation 10 Years Inflation (1) (1).png>)
+![](../.gitbook/assets/1-allocation-10-years-inflation.png)
 
 Although the community allocation has been established as laid out above, DYDX holders have full control via governance over how the community allocation is used going forwards.
 
@@ -60,4 +60,4 @@ On September 8, 2021, `8 days` after the end of Epoch 0, the initial transfer re
 
 The following chart shows the total liquid supply over time:
 
-![](<../.gitbook/assets/Liquid Supply Schedule (2) (1).png>)
+![](../.gitbook/assets/1-liquid-supply-schedule.png)
