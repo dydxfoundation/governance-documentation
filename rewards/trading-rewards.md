@@ -4,7 +4,7 @@ description: Overview of the Trading Rewards program.
 
 # Trading Rewards
 
-`25.00%` of the initial token supply (`250,000,000 DYDX`) will be distributed to users who trade on the dYdX Layer 2 Protocol based on fees paid.
+`25.00%` of the initial token supply (`250,000,000 DYDX`) was allocated to be distributed to users who trade on the dYdX Layer 2 Protocol based on fees paid. In [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/8) in support of reducing trading rewards by 25%. As a result, trading rewards distributed in a given epoch were reduced from 3,835,616 DYDX to 2,876,712 DYDX in Epoch 15.
 
 **Objectives**
 
@@ -13,11 +13,13 @@ description: Overview of the Trading Rewards program.
 
 ## **Overview**
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-08-30 at 15.42.39.png" alt=""><figcaption><p>Fees paid and estimated rewards in a given epoch</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Fees paid and estimated rewards in a given epoch</p></figcaption></figure>
 
-DYDX will be distributed to traders based on fees paid on the dYdX Layer 2 Protocol. DYDX will be distributed on a 28-day epoch basis over five years and is not subject to any vesting or lockups. 3,835,616 DYDX will be distributed per epoch.
+DYDX will be distributed to traders based on fees paid on the dYdX Layer 2 Protocol. DYDX will be distributed on a 28-day epoch basis over five years and is not subject to any vesting or lockups. 2,876,712 DYDX will be distributed per epoch.
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-08-12 at 17.50.17.png" alt=""><figcaption></figcaption></figure>
+With the community voting to reduce trading rewards by 25% from 3,835,616 DYDX to 2,876,712 DYDX, the remaining 958,904 DYDX that accrues in the Rewards Treasury can be used/directed by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+
+<figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
 $$
 r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k
@@ -32,7 +34,7 @@ $$
 | $${\sum\limits _{n} w_{n}}$$ | Sum of all trader scores.                                               |
 | k                            | Total number of traders in this epoch.                                  |
 
-In [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md), the dYdX Community voted to simplify the formula to be based on total **** fees paid by a trader in a given epoch.&#x20;
+In [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md), the dYdX Community voted to simplify the formula to be based on total fees paid by a trader in a given epoch.
 
 ## FAQ
 
@@ -46,7 +48,7 @@ The dYdX Layer 2 Protocol is not available to traders in the United States or Re
 
 In the current epoch, users can see fees paid and estimated trading rewards at [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) where users' trading data exists.
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-08-30 at 15.42.39.png" alt=""><figcaption><p>Fees paid and estimated rewards in a given epoch</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Fees paid and estimated rewards in a given epoch</p></figcaption></figure>
 
 Rewards from past epochs can be viewed at [**dydx.community/history/rewards**](https://dydx.community/history/rewards)**.**
 
@@ -58,5 +60,4 @@ Traders can claim their trading rewards at the end of every epoch, after the **W
 
 Users will need to click on "Claim", sign a transaction, and pay gas fees to claim DYDX.
 
-![Portfolio overview of rewards](<../.gitbook/assets/image (69).png>)
-
+![Portfolio overview of rewards](../.gitbook/assets/1-portfolio-overview-rewards.png)

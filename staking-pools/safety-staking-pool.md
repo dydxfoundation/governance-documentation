@@ -49,7 +49,7 @@ Stakers can deposit DYDX at any time to the safety staking pool and start earnin
 
 Active funds earn rewards for the period of time that they remain active. This means, after requesting a withdrawal of some funds, those funds will continue to earn rewards until the end of the epoch. This is demonstrated in the following example from the [Liquidity staking pool](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool):
 
-![](<../.gitbook/assets/image (65).png>)
+![](../.gitbook/assets/1-earning-staking-rewards.png)
 
 In the above scenario, the user would earn rewards for the period from **Time0** to **Time2**, varying with the total staked balance in that period. If the user only requests a withdrawal for a part of their balance, then the remaining balance would continue earning rewards beyond **Time2**.
 
@@ -86,7 +86,7 @@ A staked balance is in one of two states:
 
 A staker may have a combination of active and inactive balances. Funds are accounted for epoch-by-epoch as shown in the following example:
 
-![](<../.gitbook/assets/image (36).png>)
+![](../.gitbook/assets/1-staked-balance-accounting.png)
 
 The following operations affect staked balances as follows:
 

@@ -76,7 +76,7 @@ All major new smart contracts have been audited by Peckshield. No significant or
 
 ## Core Governance Contracts
 
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.17.43 PM.png>)
+![Red dashed lines indicate contract is upgradeable](../.gitbook/assets/3-core-governance-contracts-1.png)
 
 ### DydxToken
 
@@ -136,7 +136,7 @@ The **Starkware Priority Timelock** is deployed at [0xa306989BA6BcacdECCf3C0614F
 
 ### Merkle Distributor
 
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.23.50 PM.png>)
+![Red dashed lines indicate contract is upgradeable](../.gitbook/assets/3-core-governance-contracts-2.png)
 
 The Merkle Distributor smart contract distributes DYDX token rewards according to a Merkle tree of balances. The tree can be updated periodically with each user's cumulative reward balance, allowing new rewards to be distributed to users over time.
 
@@ -150,7 +150,7 @@ The Merkle Distributor smart contract was inspired by Uniswap and Badger designs
 
 ### Safety Module
 
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.24.45 PM.png>)
+![Red dashed lines indicate contract is upgradeable](../.gitbook/assets/3-core-governance-contracts-3.png)
 
 The Safety Module is a staking pool that offers DYDX rewards to users who stake DYDX towards the security of the Protocol.
 
@@ -160,13 +160,13 @@ The Safety Module is a staking pool that offers DYDX rewards to users who stake 
 
 ### Liquidity Module
 
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.25.30 PM.png>)
+![Red dashed lines indicate contract is upgradeable](../.gitbook/assets/3-core-governance-contracts-4.png)
 
 The Liquidity Module is a collection of smart contracts for staking and borrowing, which incentivize the allocation of USDC funds for market making purposes on the dYdX layer 2 exchange.
 
 Stakers earn DYDX rewards for staking USDC. The staked funds may be borrowed by certain pre-approved partners, on a reputational basis, without collateral. The funds may only be used on the L2 exchange—this is enforced via the StarkProxy contract which interacts with the StarkEx Perpetual Exchange contract.
 
-![A diagram of the Liquidity module](<../.gitbook/assets/image (93).png>)
+![A diagram of the Liquidity module](../.gitbook/assets/3-core-governance-contracts-5.png)
 
 ### StarkProxy
 
@@ -174,7 +174,7 @@ This contract allows the owner to borrow funds from LiquidityStaking and use tho
 
 ### Treasury Contracts
 
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM.png>)
+![Red dashed lines indicate contract is upgradeable](../.gitbook/assets/3-core-governance-contracts-6.png)
 
 The TreasuryVester contract was inspired by [Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol).
 
@@ -198,7 +198,7 @@ After calculating the appropriate rewards from the raw trading data, Chainlink p
 
 The following flow chart shows the Chainlink Oracle-Powered Rewards system architecture:
 
-![](<../.gitbook/assets/Merkle Distributor.png>)
+![](../.gitbook/assets/3-core-governance-contracts-merkle-distributor.png)
 
 ### Other Assets
 

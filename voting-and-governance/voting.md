@@ -23,11 +23,11 @@ DYDX holders receive governance powers proportionally to their sum of owned and 
 
 `Proposing Power from staked-DYDX token received as delegatee -`
 
-`Proposing Power from DYDX delegated -`&#x20;
+`Proposing Power from DYDX delegated -`
 
 `Proposing Power from staked-DYDX delegated`
 
-``
+\`\`
 
 **`Voting Power =`**`Voting Power from DYDX token +`
 
@@ -49,7 +49,7 @@ In order to participate in DYDX on-chain governance, you will need to have or be
 
 If you have tokens or have been delegated tokens and there is an active proposal, you are ready to vote in dYdX Governance.
 
-![Cast votes using your voting power](../.gitbook/assets/image.png)
+![Cast votes using your voting power](../.gitbook/assets/1-voting-power.png)
 
 To cast your vote, navigate to the proposals page and click on an active proposal.
 
@@ -57,7 +57,7 @@ To cast your vote, navigate to the proposals page and click on an active proposa
 
 DYDX allows holders to delegate voting rights to the address of their choice. Anybody can participate in dYdX governance by receiving delegation, without needing to own DYDX. Users can delegate to one address at a time, and the number of votes added to the delegatee’s vote count is equivalent to the balance of DYDX in the user’s account. Votes are delegated from the current block and onward, until the sender delegates again, or transfers their DYDX.
 
-![Delegate away your voting & proposing powers](<../.gitbook/assets/image (87).png>)
+![Delegate away your voting & proposing powers](../.gitbook/assets/1-delegate-power.png)
 
 Token holders can choose to delegate one or both of the governance powers associated with a token, either through the governance portal or programmatically. A user that has received delegated power can not forward this delegated power to another delegatee.
 

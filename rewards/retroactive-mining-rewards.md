@@ -19,7 +19,7 @@ DYDX has been allocated to historical users of all dYdX protocols (except for us
 
 To claim DYDX, historical users must meet the following milestones on [Layer 2 Perpetuals](https://trade.dydx.exchange) within the first 28-day epoch (Epoch 0):
 
-![](../.gitbook/assets/buckets.png)
+![](../.gitbook/assets/1-retroactive-buckets.png)
 
 Any historical volume on the dYdX Layer 2 Protocol counts towards a user’s claim milestone. Progress towards your claim milestone can only be viewed at [trade.dydx.exchange/portfolio/rewards](https://trade.dydx.exchange/portfolio/rewards) because the dYdX Foundation does not have visibility into each user's ongoing volume.
 
@@ -37,7 +37,7 @@ All retroactive rewards allocations are final and cannot be changed.
 
 ### How much DYDX did I earn in the retroactive rewards program?
 
-![View claim milestone and progress](<../.gitbook/assets/image (58).png>)
+![View claim milestone and progress](../.gitbook/assets/1-retroactive-earn-view.png)
 
 Past dYdX users can view their past activity and tier for Retroactive Mining at [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards). To earn DYDX, users must trade on the dYdX Layer 2 Protocol at [**trade.dydx.exchange**](https://trade.dydx.exchange/) to meet their criteria threshold.
 

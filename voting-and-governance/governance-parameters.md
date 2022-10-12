@@ -4,8 +4,6 @@ description: Overview of governance parameters.
 
 # Parameters
 
-**\[PARAMETERS PAGE IS UNDER DEVELOPMENT AND WILL BE UPDATED SOON]**
-
 At the time of launching governance, DYDX holders have immediate and irrevocable control over:
 
 * Allocation of the community treasury
@@ -32,7 +30,7 @@ dYdX Governance has control over the parameters of the following contracts:
 
 ## Timelock Parameters
 
-![](<../.gitbook/assets/image (104).png>)
+![](../.gitbook/assets/1-initial-timelock-parameters.png)
 
 ## Governor Parameters
 
