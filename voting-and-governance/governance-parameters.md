@@ -32,7 +32,7 @@ dYdX Governance has control over the parameters of the following contracts:
 
 ## Timelock Parameters
 
-![](<../.gitbook/assets/image (28).png>)
+![](<../.gitbook/assets/image (104).png>)
 
 ## Governor Parameters
 

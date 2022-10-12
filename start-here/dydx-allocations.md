@@ -23,7 +23,7 @@ A total of `1,000,000,000 DYDX` have been minted, and will become accessible ove
 
 Starting five years after launch, a maximum perpetual inflation rate of `2%` per year may be utilized by governance to increase the supply of DYDX, ensuring the community has the resources to continue the development and growth of the Protocol. Inflation must be enacted via a governance proposal and is capped at `2%` per year.
 
-![](<../.gitbook/assets/Allocation 10 Years Inflation (1) (1).png>)
+![](<../.gitbook/assets/Allocation 10 Years Inflation (1).png>)
 
 Although the community allocation has been established as laid out above, DYDX holders have full control via governance over how the community allocation is used going forwards.
 
@@ -60,4 +60,4 @@ On September 8, 2021, `8 days` after the end of Epoch 0, the initial transfer re
 
 The following chart shows the total liquid supply over time:
 
-![](<../.gitbook/assets/Liquid Supply Schedule (2) (1).png>)
+![](<../.gitbook/assets/Liquid Supply Schedule (2).png>)

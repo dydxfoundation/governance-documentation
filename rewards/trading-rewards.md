@@ -58,5 +58,5 @@ Traders can claim their trading rewards at the end of every epoch, after the **W
 
 Users will need to click on "Claim", sign a transaction, and pay gas fees to claim DYDX.
 
-![Portfolio overview of rewards](<../.gitbook/assets/image (88).png>)
+![Portfolio overview of rewards](<../.gitbook/assets/image (69).png>)
 

@@ -64,7 +64,7 @@ A staked balance is in one of two states:
 
 A staker may have a combination of active and inactive balances. USDC is accounted for epoch-by-epoch as shown in the following example:
 
-![Staked balance accounting](<../.gitbook/assets/image (34) (1).png>)
+![Staked balance accounting](<../.gitbook/assets/image (34).png>)
 
 The following operations affect staked balances as follows:
 
@@ -105,7 +105,7 @@ To stake USDC to the Liquidity Pool, follow these steps:
 * Enter the amount of USDC you want to stake to the pool.
 * Click “Stake Funds” - you will need to pay gas fees to stake, request to withdraw, and withdraw USDC.
 
-![](<../.gitbook/assets/image (66).png>)
+![](<../.gitbook/assets/image (31).png>)
 
 Staked USDC us now active and start earning rewards immediately.
 
@@ -234,7 +234,7 @@ Although each staker and borrower is party to the Revolving Credit Agreement (li
 
 At any point in time, the contract will be in one of the following states based on the relationship between the staked and borrowed balances:
 
-![Contract Solvency](<../.gitbook/assets/image (35).png>)
+![Contract Solvency](<../.gitbook/assets/image (80).png>)
 
 The contract is said to be **insolvent**:
 
@@ -252,7 +252,7 @@ When `markDebt()` is called, the shortfall amount of each borrower is moved out 
 
 This process is illustrated below:
 
-![Default](<../.gitbook/assets/image (20).png>)
+![Default](<../.gitbook/assets/image (77).png>)
 
 ### What does Debt represent?
 

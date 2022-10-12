@@ -160,13 +160,13 @@ The Safety Module is a staking pool that offers DYDX rewards to users who stake 
 
 ### Liquidity Module
 
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.25.30 PM (1).png>)
+![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.25.30 PM.png>)
 
 The Liquidity Module is a collection of smart contracts for staking and borrowing, which incentivize the allocation of USDC funds for market making purposes on the dYdX layer 2 exchange.
 
 Stakers earn DYDX rewards for staking USDC. The staked funds may be borrowed by certain pre-approved partners, on a reputational basis, without collateral. The funds may only be used on the L2 exchange—this is enforced via the StarkProxy contract which interacts with the StarkEx Perpetual Exchange contract.
 
-![A diagram of the Liquidity module](<../.gitbook/assets/image (22).png>)
+![A diagram of the Liquidity module](<../.gitbook/assets/image (93).png>)
 
 ### StarkProxy
 
@@ -174,7 +174,7 @@ This contract allows the owner to borrow funds from LiquidityStaking and use tho
 
 ### Treasury Contracts
 
-![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM (1).png>)
+![Red dashed lines indicate contract is upgradeable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM.png>)
 
 The TreasuryVester contract was inspired by [Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol).
 

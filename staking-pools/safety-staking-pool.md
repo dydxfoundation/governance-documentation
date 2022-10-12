@@ -86,7 +86,7 @@ A staked balance is in one of two states:
 
 A staker may have a combination of active and inactive balances. Funds are accounted for epoch-by-epoch as shown in the following example:
 
-![](<../.gitbook/assets/image (36) (1).png>)
+![](<../.gitbook/assets/image (36).png>)
 
 The following operations affect staked balances as follows:
 
