@@ -20,9 +20,9 @@ Holders of DYDX and stkDYDX are granted two types of governance powers: proposin
 
 ### Staking
 
-Users can stake USDC and DYDX to earn staking rewards.
+Users can stake DYDX to earn staking rewards.
 
-![Stake funds to receive rewards](../.gitbook/assets/4.4-stake-funds.png)
+<figure><img src="../.gitbook/assets/interface-staking.png" alt=""><figcaption></figcaption></figure>
 
 ### Trading Rewards
 
