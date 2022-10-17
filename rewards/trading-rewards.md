@@ -2,9 +2,9 @@
 description: トレード報酬プログラムの概要。
 ---
 
-# トレード報酬
+# 取引報酬
 
-支払われた手数料に基づき、dYdXレイヤー2プロトコルのトレードを行うユーザーに対して、初回のトークン供給量の`25.00％`（`2億5,000万DYDX`）が配分されます。
+dYdXレイヤ2プロトコルで取引を行うユーザーに対して、支払われた手数料に基づいて初回のトークン提供額（`2億5,000万DYDX`）の`25.00％`が割り当てられました。[DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)において、dYdXコミュニティは取引報酬を25％引き下げることに[合意しました](https://dydx.community/dashboard/proposal/8)。その結果、所与のエポックで配分される取引報酬はエポック15において383万5,616DYDXから287万6,712DYDXに減少しました。
 
 **目的**
 
@@ -13,11 +13,13 @@ description: トレード報酬プログラムの概要。
 
 ## **概要**
 
-![dYdXレイヤー2プロトコルでトレードすることで報酬を獲得する](<../.gitbook/assets/image (14) (2) (1).png>)
+<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>所定のエポックにおける支払済みの手数料と推定される報酬</p></figcaption></figure>
 
-dYdXレイヤー2プロトコルで支払われた手数料に基づき、トレーダーにDYDXが配分されます。DYDXは、5年間にわたって28日間のエポックを基本として提供され、権利確定やロックアップの対象にはなりません。各エポックで383万5,616DYDXが提供されます。
+dYdXレイヤ2プロトコルで支払われた手数料に基づき、トレーダーにDYDXが配分されます。DYDXは、5年間にわたって28日間のエポックを基本として提供され、権利確定やロックアップの対象にはなりません。287万6,712DYDXはエポックごとに提供されます。
 
-![](<../.gitbook/assets/Screenshot 2022-08-12 at 17.50.17.png>)
+コミュニティが取引報酬を383万5,616DYDXから287万6,712DYDXへと25％減少させることに合意したため、報酬基金に加算される残りの95万8,904DYDXはdYdXコミュニティが[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)で使用/指示することができます。
+
+<figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
 $$
 r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k
@@ -32,7 +34,7 @@ $$
 | $${\sum\limits _{n} w_{n}}$$ | 全トレーダーのスコアの合計。 |
 | k | このエポックでのトレーダーの総数。 |
 
-[DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md)で、dYdXコミュニティは公式を簡素化し、特定のエポックでトレーダーが支払った手数料の総額に基づくことにしました。
+[DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md)において、dYdXコミュニティは公式を簡素化し、所与のエポックでトレーダーが支払った手数料の総額に基づくものにすることで合意しました。
 
 ## FAQ
 
@@ -46,9 +48,9 @@ dYdXレイヤ2プロトコルは、dYdX Trading Inc.の[利用規約](https://dy
 
 現在のエポックでは、ユーザーは[**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)で、支払われた手数料と推定されるトレード報酬を確認できます。
 
-![現在のエポックの報酬情報](<../.gitbook/assets/image (18).png>)
+<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>所定のエポックにおける支払済みの手数料と推定される報酬</p></figcaption></figure>
 
-過去のエポックからの報酬は、[**dydx.community/history/rewards**](https://dydx.community/history/rewards)で確認できます****（近日公開）。
+過去のエポックからの報酬は、[**dydx.community/history/rewards**](https://dydx.community/history/rewards)でご覧いただけます**。**
 
 ### トレード報酬を請求するにはどうすればよいですか？いつから獲得したDYDXを出金および移動することができますか？
 
@@ -58,5 +60,4 @@ dYdXレイヤ2プロトコルは、dYdX Trading Inc.の[利用規約](https://dy
 
 DYDXを請求するには、ユーザーは「請求」をクリックし、トランザクションに署名し、ガス手数料を支払う必要があります。
 
-![報酬のポートフォリオ概要](<../.gitbook/assets/image (20).png>)
-
+![報酬のポートフォリオ概要](../.gitbook/assets/1-portfolio-overview-rewards.png)
