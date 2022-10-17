@@ -19,11 +19,11 @@ description: DYDX代币的分配。
 * **15.27%** （`152,704,930 个 DYDX`） 分配给 dYdX Trading 或基金会的创始人、员工、顾问和咨询人员，
 * **7.00%** （`70,000,000 个 DYDX`） 分配给 dYdX Trading 或 dYdX 基金会的未来员工和顾问。
 
-![](../.gitbook/assets/1-dydx-allocations-initial-5-years.png)
+![](../.gitbook/1-dydx-allocations-initial-5-years.png)
 
 从推出五年后开始，管理部门可能会利用每年`2%`的最大永续性通货膨胀率来增加DYDX的供应，以确保社区拥有资源继续发展和完善该协议。通货膨胀必须通过治理提议来实施，每年的上限为`2%`。
 
-![](../.gitbook/assets/1-allocation-10-years-inflation.png)
+![](../.gitbook/1-allocation-10-years-inflation.png)
 
 尽管社区分配如上文所述，但DYDX持有人对社区分配的后续使用方式拥有完全的控制权。
 
@@ -35,7 +35,7 @@ description: DYDX代币的分配。
 
 在 [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) 中，dYdX 社区 [投票](https://dydx.community/dashboard/proposal/8) 支持将交易奖励减少 25%。因此，在给定特定时段内分配的交易奖励从 3,835,616 个 DYDX 减少到时段 15 的 2,876,712 个 DYDX。奖励资金库中所累积的剩余 958,904 个 DYDX 可由 dYdX 社区通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。\
 \
- 在 [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/7)将质押 USDC 的奖励设置为 0。先前分配给 USDC 质押人的 383,562 个 DYDX 将在奖励资金库中积累，并可由 dYdX 社区通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。
+在 [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/7)将质押 USDC 的奖励设置为 0。先前分配给 USDC 质押人的 383,562 个 DYDX 将在奖励资金库中积累，并可由 dYdX 社区通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。
 
 ### **是否可以创建新的DYDX代币？**
 
@@ -68,4 +68,4 @@ dYdX基金会已表示会对不遵守这些要求的投资者采取法律行动�
 
 下图显示了流动性总供应量随时间的变化情况：
 
-![](../.gitbook/assets/1-liquid-supply-schedule.png)
+![](../.gitbook/1-liquid-supply-schedule.png)

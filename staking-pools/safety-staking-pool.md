@@ -23,7 +23,7 @@ DYDX 于中国时间 2021 年 9 月 8 日晚上 11:00 开始可以转让，届�
 
 ## 提现
 
-如果要在时段结束后能够提现资金，质押人必须至少在时段结束前`14天`**（停市窗口期）**请求提现资金。如果质押人不请求提现，他们质押的DYDX将被转入下一时段。
+如果要在时段结束后能够提现资金，质押人必须至少在时段结束前`14天`\*\*（停市窗口期）\*\*请求提现资金。如果质押人不请求提现，他们质押的DYDX将被转入下一时段。
 
 ## 风险
 
@@ -49,7 +49,7 @@ DYDX 于中国时间 2021 年 9 月 8 日晚上 11:00 开始可以转让，届�
 
 在保持活跃的时期内，活跃资金会赚取奖励。这意味着，在请求提现部分资金后，这些资金将继续赚取奖励，直至时段结束。[流动性质押池](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool)的以下例子证明了这一点：
 
-![](../.gitbook/assets/1-earning-staking-rewards.png)
+![](../.gitbook/1-earning-staking-rewards.png)
 
 在上述情景中，用户将从**Time0**到**Time2**期间赚取奖励，随着该期间质押余额总数的变化而变化。如果用户仅请求提现部分余额，那么剩余的余额将在**Time2**后继续赚取奖励。
 
@@ -65,7 +65,7 @@ DYDX 于中国时间 2021 年 9 月 8 日晚上 11:00 开始可以转让，届�
 
 质押资金现在已经生效，并立即开始赚取奖励。
 
-如果要在智能合约上存入并质押资金，用户请调用\`stake\'[函数](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L59)。用户也可以调用 [\`stakeFor\` 函数](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L64)，代表另一地址进行存入和质押。
+如果要在智能合约上存入并质押资金，用户请调用\`stake'[函数](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L59)。用户也可以调用 [\`stakeFor\` 函数](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L64)，代表另一地址进行存入和质押。
 
 ### 什么是stkDYDX？
 
@@ -81,17 +81,17 @@ DYDX 于中国时间 2021 年 9 月 8 日晚上 11:00 开始可以转让，届�
 
 质押余额处于两种状态之一：
 
-* **活跃：**可以用于借款；赚取质押奖励；质押人不能提现。
+* \*\*活跃：\*\*可以用于借款；赚取质押奖励；质押人不能提现。
 * **非活跃**：借款不可用；不赚取奖励；可以由质押人提现。
 
 质押人可能具有活跃和非活跃余额的组合。资金按时段进行计算，如以下例子所示：
 
-![](../.gitbook/assets/1-staked-balance-accounting.png)
+![](../.gitbook/1-staked-balance-accounting.png)
 
 以下操作会影响质押余额，如下所示：
 
 * **存款**：增加活跃余额。
-* **请求****提现**：在本时段结束时，将一些活跃资金移至非活跃状态。
+* **请求\*\*\*\*提现**：在本时段结束时，将一些活跃资金移至非活跃状态。
 * **提现**：减少非活跃余额。
 * **转让**：将一些活跃资金转移给另一个质押人。
 
