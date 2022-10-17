@@ -1,57 +1,57 @@
 ---
-description: Overview of key governance-related terms.
+description: Überblick über die wichtigsten Governance-Begriffe.
 ---
 
-# Glossary
+# Glossar
 
-**DYDX:** The native asset of the DYDX ecosystem, which constitutes the foundation of governance and safety for the dUdX Protocol. DYDX is an ERC-20 token that designates the weight of a user’s voting or proposing power.
+**DYDX:** Die native Anlage des DYDX-Ökosystems, das die Grundlage für Governance und Sicherheit für das dUdX-Protokoll darstellt. DYDX ist ein ERC-20-Token, das das Gewicht der Abstimmungs- oder Vorschlagsbefugnis eines Benutzers angibt.
 
-**dYdX Protocol:** dYdX’s Layer 2 perpetuals protocol.
+**dYdX-Protokoll: **Das Ebene-2-Perpetuals-Protokoll von dYdX.
 
-**dYdX Foundation:** an independent foundation, headquartered in Zug, Switzerland, was created to participate in propelling the dYdX Protocol into the future.
+**dYdX Foundation:** Eine unabhängige Stiftung mit Hauptsitz in Zug, Schweiz, wurde gegründet, um sich an der Weiterentwicklung des dYdX-Protokolls in Zukunft zu beteiligen.
 
-**DYDX Token contract**: has snapshots of each address’ voting power at different blocks in time.
+**Der DYDX Token Contract**: verfügt über Speicherauszüge der Stimmrechte jeder einzelnen Adresse in unterschiedlichen Zeiträumen.
 
-**DIP:** dYdX Improvements Proposals are on-chain proposals.
+**DIP:** dYdX-Verbesserungsvorschläge sind On-Chain-Vorschläge.
 
-**DRC**: dYdX Request for Comments are off-chain proposals and the first required step in the governance improvement process.
+**DRC**: dYdX Request for Comments sind Off-Chain-Vorschläge und der erste erforderliche Schritt im Governance-Verbesserungsprozess.
 
-**Quorum:** In order for a vote to pass, it must achieve a minimum quorum of DYDX tokens in the affirmative. The purpose of the quorum is to ensure that the only measures that pass have adequate voter participation.
+**Quorum:** Damit eine Abstimmung angenommen wird, muss sie ein Mindestquorum von DYDX-Tokens zustimmend erreichen. Der Zweck des Quorums besteht darin, sicherzustellen, dass die einzigen Maßnahmen, die angenommen werden, eine angemessene Stimmbeteiligung haben.
 
-**Epoch:** All other contracts operate on 28-day cycles, referred to as epochs.
+**Epoche:** Alle anderen Verträge arbeiten in 28-Tage-Zyklen, die als Epochen bezeichnet werden.
 
-**Execution Grace Period:** The period after vote when a DIP proposa becomes executable, during which it must be executed.
+**Ausführungsfrist:** Der Zeitraum nach der Abstimmung, wenn ein DIP-Vorschlag ausführbar wird, während dessen er ausgeführt werden muss.
 
-**Governance Strategy contract**: contains logic to measure users' relative power to propose and vote.
+**Der Governance-Strategie-Vertrag**: enthält die Logik, um die relativen Vorschlags- und Abstimmungsrechte der Benutzer zu messen.
 
-**Governor contract**: tracks proposals and can execute proposals via the Timelock smart contract.
+**Gouverneursvertrag**: verfolgt Vorschläge und kann Vorschläge über den Timelock Smart-Vertrag ausführen.
 
-**Long timelock executor:** The long timelock executor can execute proposals that generally change parts of the Protocol that affect governance consensus.
+**Long Timelock Executor:** Der Long Timelock Executor kann Vorschläge ausführen, die im allgemeinen Teile des Protokolls ändern, die den Governance-Konsens beeinflussen.
 
-**Merkle-pauser executor:** The Merkle-pauser executor can execute proposals that freeze the Merkle root, which is updated periodically with each user's cumulative reward balance, allowing new rewards to be distributed to users over time, in case the proposed root is incorrect or malicious.
+**Der Merkle-Pauser Executor:** kann Vorschläge zur Einfrierung der Merkle Root ausführen, welche in regelmäßigen Abständen mit der kumulativen Prämienbilanz eines jeden Benutzers aktualisiert wird und somit sukzessive neue Prämien zur Verteilung an die Benutzers freisetzt, im Falle, dass die vorgeschlagene Root falsch oder bösartig ist.
 
-**Safety Pool:** Component in charge of shielding the protocol from insolvency.
+**Sicherheitspool:** Komponente, die dafür zuständig ist, das Protokoll vor Insolvenz zu schützen.
 
-**Staked dYdX contract**: contains logics to stake DYDX tokens, tokenize the position and get rewards.
+**Staked dYdX-Vertrag**: enthält Logiken, um DYDX Token zu staken, die Position zu tokenisieren and Prämien zu erhalten.
 
-**Short timelock executor:** The short timelock executor can execute proposals that generally change Rewards and Incentive contracts or the Community Treasury that require quick intervention.
+**Short Timelock Executor:** Der Short Timelock Executor kann Vorschläge ausführen, die im allgemeinen Prämien- und Incentive-Verträge oder die Gemeinschaftskasse ändern, die ein schnelles Eingreifen erfordern.
 
-**Starkware executor:** The Starkware executor can execute proposals that generally change parts of the Protocol that currently require intervention from Starkware.
+**Starkware-Executor:** Der Starkware-Executor kann Vorschläge ausführen, die im allgemeinen Teile des Protokolls ändern, die derzeit ein Eingreifen von Starkware erfordern.
 
-**Timelock contract**: can queue, cancel, or execute transactions voted by Governance. The functions in a proposal are initiated by the Timelock contract. Queued transactions can be executed after a delay and until Grace period is not over.
+**Timelock-Vertrag**: kann von Governance gewählte Transaktionen in die Warteschlange stellen, abbrechen oder ausführen. Die Funktionen in einem Vorschlag werden durch den Timelock Contract initiiert. Transaktionen in der Warteschlange können nach einer Verzögerung und bis zum Ablauf der Nachfrist ausgeführt werden.
 
-**Timelock Delay:** The delay before a DIP proposal is executed after a proposal passes and is queued.
+**Timelock-Verzögerung:** Die Verzögerung, bevor ein DIP-Vorschlag ausgeführt wird, nachdem ein Vorschlag bestanden und in die Warteschlange gestellt wurde.
 
-**Proposal Theshold:** To prevent a system where countless spam proposals are created, a proposal threshold requires an address has a certain number of votes before they can make a proposal.
+**Vorschlagsschwelle:** Um zu verhindern, dass unzählige Spam-Vorschläge erstellt werden, erfordert eine Vorschlagsschwelle, dass eine Adresse eine bestimmte Anzahl von Stimmen hat, bevor sie einen Vorschlag machen kann.
 
-**Proposing Power:** Token stake giving access to creating and sustaining a proposal.
+**Vorschlagsmacht:** Token Stake, der den Zugang zum Erstellen und Unterstützen eines Vorschlags ermöglicht.
 
-**Voting Power:** Voting power which is used to vote for or against existing proposals.
+**Stimmrecht:** Stimmrecht, das verwendet wird, um für oder gegen bestehende Vorschläge zu stimmen.
 
-**Voting Delay:** This is the length of time between which a proposal can be created and it is available to be voted upon. By requiring at least one block to pass, the governance is protected from Flash Loan attacks that might borrow a large number of tokens, propose a vote, and vote on it all in one block.
+**Abstimmungsverzögerung**: Dies ist die Zeitspanne, zwischen der ein Vorschlag erstellt werden kann und zur Abstimmung verfügbar ist. Indem mindestens ein Block bestanden werden muss, ist die Governance vor Flash-Loan-Angriffen geschützt, die möglicherweise eine große Anzahl von Token ausleihen, eine Abstimmung vorschlagen und über alles in einem Block abstimmen.
 
-**Voting Period:** Once a DIP proposal has been put forward, DYDX community members will have to cast their votes before the end of the Voting Period. This is the length of time for which proposals are available to be voted upon, with time in Ethereum Blocks.
+**Abstimmungszeitraum:** Sobald ein DIP-Vorschlag eingereicht wurde, müssen die Mitglieder der DYDX-Community ihre Stimme vor dem Ende des Abstimmungszeitraums abgeben. Dies ist die Zeitdauer, für die Vorschläge zur Abstimmung zur Verfügung stehen, mit Zeit in Ethereum-Blöcken.
 
-**Proposal Threshold:** Minimum tokens held/delegated required to create a DIP proposal.
+**Vorschlagsschwelle:** Mindestens gehaltene/delegierte Token, die zum Erstellen eines DIP-Vorschlags erforderlich sind.
 
-**Vote Differential:** Required yes–no gap for DIP proposal to pass.
+**Abstimmungsdifferenz:** Erforderliche Ja-Nein-Lücke, damit der DIP-Vorschlag angenommen wird.
