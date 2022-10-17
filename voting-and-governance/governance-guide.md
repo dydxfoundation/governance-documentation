@@ -47,30 +47,30 @@ _**适用于DIP 2：**_
 
 Three Arrows Capital的Su Zhu (zhusu)创建了一个[链下论坛讨论](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/)，目的是降低流动性提供方奖励阈值。各社区成员，例如 Wintermute 的 Evgeny、Kronos 的 Ben、Sixtan t的 Josh 等等，都参与了讨论并提供了宝贵的反馈意见。
 
-![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](<../.gitbook/assets/image (99).png>)
+![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](../.gitbook/assets/2-reduce-mm-incentives.png)
 
-![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](<../.gitbook/assets/image (97).png>)
+![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](../.gitbook/assets/2-reduce-mm-incentives-2.png)
 
 #### _如何在Commonwealth上发帖和评论：_
 
 * 用以太坊钱包或 Github 帐户在 Commonwealth 上注册，并点击[此处](https://forums.dydx.community/)加入 dYdX 社区。
 
-![https://forums.dydx.community/](<../.gitbook/assets/Untitled 1 (1) (1)>)
+![https://forums.dydx.community/](../.gitbook/assets/2-register-on-cw.png)
 
 * 选择一个帖子，滚动查看评论，并通过点击相应评论下方的图标来点赞或回复评论。
 
-![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](<../.gitbook/assets/image (107).png>)
+![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](../.gitbook/assets/2-select-thread.png)
 
 * 通过单击“创建新帖”并选择主题类别来创建新的讨论帖或发布DRC。
 
-![https://forums.dydx.community/new/discussion](<../.gitbook/assets/Untitled 3 (1)>)
+![https://forums.dydx.community/new/discussion](../.gitbook/assets/2-create-discussion-cw.png)
 
 * 如果您要创建DRC，请点击[此处](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md)访问链接并按照模板进行操作。如提议[生命周期](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)中的_DRC创建_中所述，DRC至少必须包括以下内容：
-   * DRC的简短标题。
-   * 简明扼要的提议描述。
-   * DRC的理由（例如，为什么？）。
-   * 论坛帖子的标题必须包含DRC：\[插入DRC的短标题]（例如，DRC：新交易对请求）。
-   * 社区成员可以使用的社区投票，对链下的改进进行投票。
+  * DRC的简短标题。
+  * 简明扼要的提议描述。
+  * DRC的理由（例如，为什么？）。
+  * 论坛帖子的标题必须包含DRC：\[插入DRC的短标题]（例如，DRC：新交易对请求）。
+  * 社区成员可以使用的社区投票，对链下的改进进行投票。
 
 ### **第2步 - DRC快照投票（链下）**
 
@@ -93,27 +93,27 @@ _**适用于DIP 2：**_
 * 将MM阈值降低至2.5%
 * 将MM阈值保持在5%
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 4 (1)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-create-snapshot.png)
 
 #### _如何对快照投票进行投票：_
 
 * 用您的以太坊钱包在快照上注册，并遵循[此处](https://snapshot.org/#/dydxgov.eth)的dYdX提议。或者，您可以直接在[Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth)上投票并创建快照投票。
 
-![https://snapshot.org/#/dydxgov.eth](<../.gitbook/assets/Untitled 5>)
+![https://snapshot.org/#/dydxgov.eth](../.gitbook/assets/2-register-snapshot.png)
 
 * 要查看有效的快照提议，请转到[快照](https://snapshot.org/#/dydxgov.eth)或[Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth)。
 
-![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 6 (1) (2)>)
+![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](../.gitbook/assets/2-view-snapshot.png)
 
 * 要对有效的快照投票进行投票，您需要在快照投票生效时在快照区块编号之前持有DYDX或将投票权委托给您的地址。
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 7 (1) (1)>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-snapshot-vote.png)
 
 * 要进行投票，请点击提议并选择“是”或“否”，然后选择“投票”。
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 8 (1) (2)>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-1.png)
 
-![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 9 (1) (2)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-2.png)
 
 #### _如何在快照上创建投票：_
 
@@ -121,9 +121,9 @@ _**适用于DIP 2：**_
 * 快照提议可以包含一个或多个操作，每个提议最多10个操作。操作是提议中指定的变更。
 * 如果您符合最低 1 万提议权要求，请选择“新提议”并根据以下内容要求填写开放栏位。
 
-![https://snapshot.org/#/dydxgov.eth/create](<../.gitbook/assets/Untitled 10 (1) (2)>)
+![https://snapshot.org/#/dydxgov.eth/create](../.gitbook/assets/2-snapshot-create-poll-1.png)
 
-![https://forums.dydx.community/new/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 11 (1)>)
+![https://forums.dydx.community/new/snapshot/dydxgov.eth](../.gitbook/assets/2-snapshot-create-poll-2.png)
 
 DRC快照投票内容要求：
 
@@ -138,11 +138,11 @@ DRC快照投票内容要求：
 
 * 二元投票选项。为清楚起见，一个地址要么投票赞成或投票反对提议。
 
-![](<../.gitbook/assets/Untitled 12 (1) (1)>)
+![](../.gitbook/assets/2-snapshot-binary-voting.png)
 
 * 投票结束后，相关信息将存储在IPFS上，然后自动生成报告并可供下载。
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 13 (1) (1)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-snapshot-ipfs.png)
 
 ### **第3步 - DIP创建（链下提议）**
 
@@ -154,11 +154,11 @@ _**适用于DIP 2：**_
 
 在这种情况下，[DIP](https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md)由@Jteamdc编写。
 
-![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](<../.gitbook/assets/Untitled 14 (1) (1)>)
+![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](../.gitbook/assets/2-dip-example.png)
 
 当 DIP 2 的提议草案完成后，@Jteamdc 从工作分支针对 dYdX 基金会的 Pending-DIP 分支创建了一个**** [Pull Request](https://github.com/dydxfoundation/dip/pull/8)。在dYdX基金会审核提议并签名后，来自Pending-DIP的变更被合并到主分支。
 
-![https://github.com/dydxfoundation/dip/pulls](<../.gitbook/assets/21 (2) (3).png>)
+![https://github.com/dydxfoundation/dip/pulls](../.gitbook/assets/2-dip-pending-merge.png)
 
 由于降低流动性提供方的奖励阈值不需要任何链上智能合约变更，因此该过程现已完成，变更将在下一个时段生效。
 
@@ -168,28 +168,28 @@ _**适用于DIP 2：**_
 * 注册 Github 帐户：[https://github.com/signup](https://github.com/signup)。
 * 转到[此](https://github.com/dydxfoundation/dip)处链接的 dYdX 存储库页面，并在您的 Github 帐户下分叉存储库。
 
-![https://github.com/dydxfoundation/dip](<../.gitbook/assets/image (104).png>)
+![https://github.com/dydxfoundation/dip](../.gitbook/assets/2-dip-create-1.png)
 
 * 在分叉的DIP存储库中，转到包含DIP内容的目录：[https://github.com/\[user\_name\]/dip/tree/master/content/dips](https://github.com/yt8073/dip/tree/master/content/dips)。
 
-![](<../.gitbook/assets/Untitled 16 (1)>)
+![](../.gitbook/assets/2-dip-create-2.png)
 
 * 选择dips文件夹：[https://github.com/\[user\_name\]/dip/tree/master/content](https://github.com/Jwatts15/dip/tree/master/content)。
 
-![](<../.gitbook/assets/Untitled 17 (1) (1)>)
+![](../.gitbook/assets/2-dip-create-3.png)
 
 dips 文件夹包含一个先前提议的目录，这些提议遵循[此处](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md)链接的 DIP 模板。
 
-![https://github.com/dydxfoundation/dip/tree/master/content/dips](<../.gitbook/assets/image (98).png>)
+![https://github.com/dydxfoundation/dip/tree/master/content/dips](../.gitbook/assets/2-dip-create-4.png)
 
 * 在开始起草提议之前，请确保您分叉的分支与主分支的最新版本是最新的。如果您使用的是旧版本的 DIP 存储库，请确认您的分叉版本是最新的，并带有最新的变更。如需帮助重新定位您的分叉版本，您可以按照以下步骤进行操作：[https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master)。
 * 使用您的提议信息编辑[DIP模板](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md)。因为您不是管理员，所以如果您没有分叉DIP存储库，则选择编辑图标将自动从主分支分叉存储库。
 
-![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](<../.gitbook/assets/Untitled 19 (1) (2)>)
+![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](../.gitbook/assets/2-dip-create-5.png)
 
 * 遵循[模板](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md)并将您的DIP添加到`content/dips/`目录中的存储库的分叉中。请遵循下面包含的DIP状态命名规范。
 
-![](../.gitbook/assets/20.png)
+![](../.gitbook/assets/2-dip-create-6.png)
 
 DIP状态：
 
@@ -200,16 +200,16 @@ DIP状态：
 * 已拒绝 - 已被拒绝的DIP。
 * 在检查所有内容是否正确之后，从您的工作分支针对dYdX基金会的Pending-DIP分支创建一个Pull Request。请**不要**针对dYdX基金会的主分支提交此Pull Request，因为如果任何外部方想要合并到主分支，IPFS作业将失败。请使用[此处](https://github.com/dydxfoundation/dip/pull/8)链接的Pull Request作为示例。
 
-![](<../.gitbook/assets/21 (2).png>)
+![](../.gitbook/assets/2-dip-status-1.png)
 
 * 在审核之后，dYdX基金会将把Pending-DIP分支的变更合并到主分支。
 
-![https://github.com/dydxfoundation/dip/pull/9](../.gitbook/assets/22.png)
+![https://github.com/dydxfoundation/dip/pull/9](../.gitbook/assets/2-dip-status-2.png)
 
 * 在**合并**之前，会自动运行一个作业将 DIP 上传到 IPFS。您可以在此处验证DIP到IPFS的上传：[https://github.com/dydxfoundation/dip/pull/9/checks](https://github.com/dydxfoundation/dip/pull/9/checks)。
 * DIP被添加在[**`dip`**](https://github.com/dydxfoundation/dip)`/`[`content`](https://github.com/dydxfoundation/dip/tree/master/content)`/`**`dips`**`/`下。
 
-![](../.gitbook/assets/23.png)
+![](../.gitbook/assets/2-dip-status-3.png)
 
 由于该提议不需要任何链上智能合约变更，因此该过程现已完成，变更将在下一个时段生效
 
@@ -250,45 +250,45 @@ _**适用于DIP 3：**_
 
 在这种情况下，[DIP](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md)由Paradigm的Dan Robinson编写。鉴于该提议包括链上智能合约变更，该提议包含一个指向特定智能合约实施的链接。
 
-![https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md](../.gitbook/assets/24.png)
+![https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md](../.gitbook/assets/2-dip3-example-1.png)
 
 从SafetyModuleV2.sol部署合约导航到Safety文件夹会显示自述文件，其中包含有关如何实施提议的详细情况。
 
-![](../.gitbook/assets/25.png)
+![](../.gitbook/assets/2-dip3-example-1a.png)
 
 关于实施自述文件中包含的提议的步骤，请点击此处链接：[https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety)。
 
-![https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](../.gitbook/assets/26.png)
+![https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](../.gitbook/assets/2-dip3-example-2.png)
 
-![https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](../.gitbook/assets/27.png)
+![https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](../.gitbook/assets/2-dip3-example-3.png)
 
-![https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](../.gitbook/assets/28.png)
+![https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](../.gitbook/assets/2-dip3-example-4.png)
 
 #### _如何起草链上DIP (WIP)：_
 
 * 创建一个新钱包以创建DIP。部署过程需要输入助记词作为环境变量，因此我们建议您使用一次性钱包进行链上DIP创建。
 * 将足够的提议权委托给一次性钱包以创建DIP。您可以在[此处](https://dydx.community/dashboard)委托提议权。下面包括不同的提议权阈值，请点击[此处](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)访问链接。
-   * 短时间锁：总供应量的 0.5%（500 万的提议权）。
-   * Starkware 执行器：总供应量的 0.5%（500 万的提议权）。
-   * 长时间锁执行器：总供应量的 2.0%（2 千万的提议权）。
-   * Merkle Pauser 执行器：总供应量的 0.5%（500 万的提议权）。
+  * 短时间锁：总供应量的 0.5%（500 万的提议权）。
+  * Starkware 执行器：总供应量的 0.5%（500 万的提议权）。
+  * 长时间锁执行器：总供应量的 2.0%（2 千万的提议权）。
+  * Merkle Pauser 执行器：总供应量的 0.5%（500 万的提议权）。
 * 创建Alchemy密钥。使用Alchemy密钥，您无需运行以太坊节点即可与以太坊进行交互并部署智能合约。关于创建Alchemy密钥的指南，请点击[此处](https://docs.alchemy.com/alchemy/introduction/getting-started)访问链接。
 
-![https://docs.alchemy.com/alchemy/introduction/getting-started](../.gitbook/assets/29.png)
+![https://docs.alchemy.com/alchemy/introduction/getting-started](../.gitbook/assets/2-draft-dip-example-1.png)
 
 选择以太坊和“开始”。
 
-![](../.gitbook/assets/30.png)
+![](../.gitbook/assets/2-draft-dip-example-2.png)
 
-填写所需信息，选择 Ropsten Network 并选择“创建应用程序”。
+填写所需信息，选择 Goerli Network 并选择“创建应用程序”。
 
-![](../.gitbook/assets/31.png)
+<figure><img src="../.gitbook/assets/2-draft-dip-example-3.png" alt=""><figcaption></figcaption></figure>
 
 在创建帐户之后，请按照[此处](https://docs.alchemy.com/alchemy/introduction/getting-started)链接的设置说明进行操作。
 
 在“4. 开始构建”中，选择“尝试部署您的第一个智能合约”并按照指南进行操作。
 
-![https://docs.alchemy.com/alchemy/introduction/getting-started](<../.gitbook/assets/32 (1).png>)
+![https://docs.alchemy.com/alchemy/introduction/getting-started](../.gitbook/assets/2-draft-dip-example-4.png)
 
 * 打开Windows命令行，默认Terminal应用程序，或下载iTerm：[https://iterm2.com/](https://iterm2.com/)。
 * 如果您尚未下载并安装Node.js和npm，请访问以下链接进行操作：[https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)。
@@ -296,11 +296,11 @@ _**适用于DIP 3：**_
 * 起草您提议的智能合约实施方案。
 * IPFS哈希是自动生成的，并且可以在[此处](https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips)获取。IPFS哈希将位于文件名`DIP-[New DIP #]-ipfs-hashes.json`下的dYdX基金会目录中。
 
-![https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips](<../.gitbook/assets/image (100).png>)
+![https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips](../.gitbook/assets/2-draft-dip-example-5.png)
 
 * 在选择新文件 (`DIP-[New DIP #]-ipfs-hashes.jso`) 之后，请确保使用 encodedHash。
 
-![https://github.com/dydxfoundation/dip/blob/master/content/ipfs-dips/DIP-3-Ipfs-hashes.json](<../.gitbook/assets/image (102).png>)
+![https://github.com/dydxfoundation/dip/blob/master/content/ipfs-dips/DIP-3-Ipfs-hashes.json](../.gitbook/assets/2-draft-dip-example-6.png)
 
 ### **第2步 - 提交链上DIP**
 
@@ -312,7 +312,7 @@ _**适用于DIP 3：**_
 
 Paradigm 团队最终确定了 `SafetyModuleV2.sol` 的 Solidity 代码。
 
-![https://github.com/dydxfoundation/governance-contracts/blob/master/contracts/safety/v2/SafetyModuleV2.sol](../.gitbook/assets/34.png)
+![https://github.com/dydxfoundation/governance-contracts/blob/master/contracts/safety/v2/SafetyModuleV2.sol](../.gitbook/assets/2-draft-dip-example-7.png)
 
 Paradigm团队在本地和分叉的主网环境中模拟了更新。然后运行测试套件，以确保在主网上执行治理提议后恢复全部功能。
 
@@ -359,9 +359,9 @@ Paradigm团队通过运行以下脚本来部署智能合约更新。
 
 DIP同时发布在[https://dydx.community/dashboard](https://dydx.community/dashboard)上。
 
-![https://dydx.community/dashboard](../.gitbook/assets/35.png)
+![https://dydx.community/dashboard](../.gitbook/assets/2-draft-dip-example-8.png)
 
-![https://dydx.community/dashboard](../.gitbook/assets/36.png)
+![https://dydx.community/dashboard](../.gitbook/assets/2-draft-dip-example-9.png)
 
 dYdX治理合约为0x7e9b1672616ff6d6629ef2879419aae79a9018d2：[https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10](https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10)。
 
@@ -369,43 +369,43 @@ DIP部署可以在Etherscan上确认：[https://etherscan.io/tx/0x5f2472e7dfcbf5
 
 DIP 于 2021 年 11 月 1 日在区块 13532376 创建。对于之后的 6570 个区块，DIP 状态为“待定”。
 
-![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/37.png)
+![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/2-draft-dip-example-10.png)
 
 当DIP在区块13538946转换为“活动”状态时，DYDX持有者能够对DIP进行投票。
 
 第一次投票于世界标准时间 2021 年 11 月 2 日下午 5:51:22 进行（区块 13538959），距离 DIP 在链上创建时有 6583 个区块。
 
-![https://etherscan.io/tx/0xc3d0ace92be4ac3da40dc17f45a573d4dbd83d31f7a95733071de883ded67a4f](../.gitbook/assets/38.png)
+![https://etherscan.io/tx/0xc3d0ace92be4ac3da40dc17f45a573d4dbd83d31f7a95733071de883ded67a4f](../.gitbook/assets/2-draft-dip-example-11.png)
 
 在与长时间锁相关的10天投票期结束后，任何社区成员都可以启动队列，并将提议移至7天的时间锁延迟。对于DIP 3，社区成员需要将近3天的时间才能启动队列。
 
-![https://etherscan.io/tx/0x3402372aa549d2270a6b5d4f84884ae2bfec6922fc808703b47d53b27d288c81](../.gitbook/assets/39.png)
+![https://etherscan.io/tx/0x3402372aa549d2270a6b5d4f84884ae2bfec6922fc808703b47d53b27d288c81](../.gitbook/assets/2-draft-dip-example-12.png)
 
 在7天的时间锁延迟之后，DIP在链上执行。
 
-![https://etherscan.io/tx/0xfd332147899fd3ef1db62f262ffae92bbd7d18a5ed4e142eb0407a173dbf0453](../.gitbook/assets/40.png)
+![https://etherscan.io/tx/0xfd332147899fd3ef1db62f262ffae92bbd7d18a5ed4e142eb0407a173dbf0453](../.gitbook/assets/2-draft-dip-example-13.png)
 
 当 DIP 在链上执行时，[https://dydx.community/dashboard/proposal/3](https://dydx.community/dashboard/proposal/3) 上的 DIP 状态被更新为“已执行”。
 
-![](../.gitbook/assets/41.png)
+![](../.gitbook/assets/2-draft-dip-example-14.png)
 
 请注意，(1) 提议必须在时间锁延迟后立即开始的7天执行宽限期内执行；(2) 提议地址必须保持相应时间锁合约要求的最低提议权数量，直到 DIP 被执行（5 百万或2 千万的提议权）。
 
 #### _如何提交链上DIP：_
 
 * 确保您有足够的提议权来创建DIP。可以在[DIP创建](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)中查阅更多信息。
-   * 短时间锁执行器：总供应量的 0.5%（500 万的提议权）。
-   * Starkware 执行器：总供应量的 0.5%（500 万的提议权）。
-   * 长时间锁执行器：总供应量的 2.0%（2 千万的提议权）。
-   * Merkle Pauser 执行器：总供应量的 0.5%（500 万的提议权）。
+  * 短时间锁执行器：总供应量的 0.5%（500 万的提议权）。
+  * Starkware 执行器：总供应量的 0.5%（500 万的提议权）。
+  * 长时间锁执行器：总供应量的 2.0%（2 千万的提议权）。
+  * Merkle Pauser 执行器：总供应量的 0.5%（500 万的提议权）。
 * 确保钱包中有ETH来支付gas费。
 * 在Alchemy上为以太坊主网网络创建一个应用程序。
 
-![https://dashboard.alchemyapi.io/](../.gitbook/assets/42.png)
+![https://dashboard.alchemyapi.io/](../.gitbook/assets/2-draft-dip-example-15.png)
 
 * 创建应用程序后，点击“查看密钥”获取您的Alchemy密钥(7LOaQtguSm2kSEcFXQH88B)：[https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul](https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul)。
 
-![https://dashboard.alchemyapi.io/apps/xogmjmlex8tlmr95](<../.gitbook/assets/image (105).png>)
+![https://dashboard.alchemyapi.io/apps/xogmjmlex8tlmr95](../.gitbook/assets/2-draft-dip-example-16.png)
 
 * 下载并安装Node.js和npm：[https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)。
 * 安装Hardhat：[https://hardhat.org/tutorial/setting-up-the-environment.html](https://hardhat.org/tutorial/setting-up-the-environment.html)。
@@ -418,11 +418,11 @@ DIP 于 2021 年 11 月 1 日在区块 13532376 创建。对于之后的 6570 �
 * 确保钱包中有ETH来支付gas费。
 * 您可以通过从[https://dydx.community/dashboard](https://dydx.community/dashboard)中选择DIP来对活动的DIP进行投票。
 
-![](../.gitbook/assets/43.png)
+![](../.gitbook/assets/2-draft-dip-example-17.png)
 
 * 将来，您还可以对Commonwealth中活动的DIP进行投票。
 
-![](../.gitbook/assets/44.png)
+![](../.gitbook/assets/2-draft-dip-example-18.png)
 
 投票时限取决于提议的类型。可以在[DIP创建](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)中查阅更多信息。
 
@@ -438,23 +438,23 @@ DIP 于 2021 年 11 月 1 日在区块 13532376 创建。对于之后的 6570 �
 * 确保您使用的是包含ETH的兼容钱包。
 * 转至 Etherscan 上的“合约”选项卡，然后点击“编写合约”。请点击[此处](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract)，访问治理合约链接。
 
-![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/50.png)
+![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/2-draft-dip-example-queue-1.png)
 
 * 选择队列并提交 “proposalId”。
 
-![](<../.gitbook/assets/46 (2).png>)
+![](../.gitbook/assets/2-draft-dip-example-queue-2.png)
 
 创建DIP时，可以在Etherscan上找到“proposalId”：[https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad)。
 
 * 选择“点击以查看更多”。
 
-![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/47.png)
+![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/2-draft-dip-example-queue-3.png)
 
 * 选择“解码输入数据”。
 
-![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/48.png)
+![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/2-draft-dip-example-queue-4.png)
 
-![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/49.png)
+![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/2-draft-dip-example-queue-5.png)
 
 #### _如何执行提议：_
 
@@ -462,11 +462,11 @@ DIP 于 2021 年 11 月 1 日在区块 13532376 创建。对于之后的 6570 �
 
 * 转至 Etherscan 上的“合约”选项卡，然后点击“编写合约”。请点击[此处](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract)，访问治理合约链接。
 
-![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/45.png)
+![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/2-draft-dip-example-execute-1.png)
 
 * 选择“执行”并提交 “proposalId”。
 
-![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/51.png)
+![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/2-draft-dip-example-execute-2.png)
 
 * 按照上述步骤（在_如何对提议进行排队_中）找到 “proposalId”。
 * 在 “payableAmount (ether)” 下输入 “0”。
