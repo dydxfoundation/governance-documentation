@@ -14,8 +14,8 @@ dYdX链上治理支持以下功能：
 * 设定治理阈值，包括提议、法定人数和投票差额阈值
 * 代替“治理战略”智能合约，该合约决定了计票方式
 * 配置多个执行器合约，允许：
-   * 通过短时间锁执行器进行快速协议升级和资金分配；
-   * 通过长时间锁执行器进行治理升级。
+  * 通过短时间锁执行器进行快速协议升级和资金分配；
+  * 通过长时间锁执行器进行治理升级。
 
 有6个智能合约支持dYdX治理：
 
@@ -76,7 +76,7 @@ dydx.community 托管的治理前端的源代码，请访问[此处](https://git
 
 ## 核心治理合约
 
-![红色虚线表示合约可以升级](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.17.43 PM (1).png>)
+![红色虚线表示合约可以升级](../.gitbook/assets/3-core-governance-contracts-1.png)
 
 ### DydxToken
 
@@ -136,7 +136,7 @@ DydxGovernor合约受到Aave的启发。dYdX作了微小变更。
 
 ### Merkle分配器
 
-![红色虚线表示合约可以升级](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.23.50 PM (1).png>)
+![红色虚线表示合约可以升级](../.gitbook/assets/3-core-governance-contracts-2.png)
 
 Merkle分配器智能合约根据Merkle余额树分配DYDX代币奖励。可以根据每个用户的累计奖励余额定期更新，从而允许随着时间的推移向用户分配新的奖励。
 
@@ -150,7 +150,7 @@ Merkle分配器智能合约受到Uniswap和Badger设计的启发。智能合约�
 
 ### 保险模块
 
-![红色虚线表示合约可以升级](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.24.45 PM (1).png>)
+![红色虚线表示合约可以升级](../.gitbook/assets/3-core-governance-contracts-3.png)
 
 保险模块是质押资金池，向质押DYDX以获得协议安全性的人群提供DYDX奖励。
 
@@ -160,13 +160,13 @@ Merkle分配器智能合约受到Uniswap和Badger设计的启发。智能合约�
 
 ### 流动性模块
 
-![红色虚线表示合约可以升级](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.25.30 PM (1).png>)
+![红色虚线表示合约可以升级](../.gitbook/assets/3-core-governance-contracts-4.png)
 
 流动性模块是质押和借款的智能合约集，激励了 USDC 资金分配，以达到 dYdX layer 2 交易所的做市目的。
 
 质押人因质押USDC而赚取DYDX奖励。质押资金可以由某些事先批准的合伙人根据信誉为基础进行借贷，无需质押。资金只能用于L2交易所，这通过StarkProxy合约强制执行，该合约与StarkExperty永续交易所合约进行互动。
 
-![流动性模块图表](<../.gitbook/assets/image (66).png>)
+![流动性模块图表](../.gitbook/assets/3-core-governance-contracts-5.png)
 
 ### StarkProxy
 
@@ -174,7 +174,7 @@ Merkle分配器智能合约受到Uniswap和Badger设计的启发。智能合约�
 
 ### 资金库合约
 
-![红色虚线表示合约可以升级](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM (1).png>)
+![红色虚线表示合约可以升级](../.gitbook/assets/3-core-governance-contracts-6.png)
 
 TreasuryVester合约受到[Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol)的启发。
 
@@ -198,7 +198,7 @@ TreasuryVester合约受到[Uniswap](https://github.com/Uniswap/governance/blob/m
 
 下表显示Chainlink预言机支持的奖励系统架构：
 
-![](<../.gitbook/assets/Merkle Distributor (1).png>)
+![](../.gitbook/assets/3-core-governance-contracts-merkle-distributor.png)
 
 ### 其他资产
 
