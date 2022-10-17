@@ -1,29 +1,33 @@
 ---
-description: An overview of the community treasury.
+description: Ein Überblick über die Gemeinschaftskasse.
 ---
 
 # Treasury
 
-`5.00%` of the initial token supply (`50,000,000 DYDX`) will be distributed to a community treasury to be allocated on an ongoing basis through contributor grants, community initiatives, liquidity mining, and other programs.
+`5,00` % des anfänglichen Token-Vorrats (`50.000.000 DYDX`) werden an eine Gemeinschaftskasse verteilt, die fortlaufend durch Beitragszuschüsse, Gemeinschaftsinitiativen, Liquiditätsabbau und andere Programme zugewiesen werden.
 
-**Objectives**
+**Ziele**
 
-* Fund programs and initiatives that drive the growth of dYdX.
-* Develop grant programs to fund community NFTs, hackathons, analytics dashboards, memes, swag, third-party tools, translations, and other projects.
-* Develop a best-in-class governance system and incentivize robust governance.
+* Finanzierungsprogramme und Initiativen, die das Wachstum von dYdX vorantreiben.
+* Entwickeln Sie Zuschussprogramme, um Community-NFTs, Hackathons, Analyse-Dashboards, Memes, Swag, Tools von Drittanbietern, Übersetzungen und andere Projekte zu finanzieren.
+* Entwickeln Sie ein erstklassiges Governance-System und schaffen Sie Anreize für eine robuste Governance.
 
-## Overview
+## Übersicht
 
-The community treasury will retain DYDX to use as DYDX holders decide, whether it be for grants, new liquidity mining pools, or any other program. DYDX will vest to the community treasury on a continuous basis over the course of five years. A governance vote will be required to spend any DYDX from the community treasury.
+Die Gemeinschaftskasse behält DYDX zur Verwendung, wenn DYDX-Inhaber entscheiden, sei es für Zuschüsse, neue Liquiditäts-Mining-Pools oder andere Programme. DYDX wird über einen Zeitraum von fünf Jahren kontinuierlich an die Gemeinschaftskasse übertragen. Eine Governance-Abstimmung ist erforderlich, um DYDX aus der Gemeinschaftskasse auszugeben.
 
-If, after five years, governance decides to enact perpetual inflation (at a maximum annual inflation of `2%`), any newly minted DYDX will be available to the community treasury.
+Wenn die Governance nach fünf Jahren beschließt, eine ewige Inflation (bei einer maximalen jährlichen Inflation von `2 %`) zu erlassen, wird jeder neu geprägte DYDX der Gemeinschaftskasse zur Verfügung stehen.
 
 ## FAQ
 
-### Who can submit proposals to spend DYDX tokens from the Community Treasury?
+### Wie hoch ist das tatsächliche Guthaben der Community-Treasury?
 
-Any user with sufficient proposing power can submit proposals. A governance vote will be required to spend any DYDX from the community treasury. To submit a proposal, please submit a dYdX Improvement Proposal (DIP) as laid out in the [DIP Proposal Lifecycle](../voting-and-governance/dip-proposal-lifecycle.md).
+Die dydx Foundation veröffentlicht den Kontostand der Community Treasury im [Epochenbericht](https://dydx.foundation/blog) am Ende jeder Epoche. Zusätzlich zu den in der Community Treasury hinterlegten DYDX kann die dYdX-Community auch auf die in der Prämien-Treasury aufgelaufenen DYDX zugreifen, dann wenn folgende Abstimmungsergebnisse auftreten: (1) Trading Rewards um 25 %  (958 904 DYDX) reduzieren und (2) USDC-Staking Awards auf 0 setzen (383 562 DYDX). Ab Epoche 15 werden sodann in jeder Epoche 1 342 466 DYDX in der Prämien Treasury angesammelt und können von der dYdX-Community im Rahmen einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
 
-### What types of proposals can be submitted to the Community Treasury?
+### Wer kann Vorschläge zur Ausgabe von DYDX-Token aus der Gemeinschaftskasse einreichen?
 
-A community-managed treasury opens up a world of possibilities. We hope to see various experiments and initiatives, including ecosystem grants, which can foster the dYdX Layer 2 Protocol’s ecosystem growth.
+Jeder Benutzer mit ausreichender Vorschlagsbefugnis kann Vorschläge einreichen. Eine Governance-Abstimmung ist erforderlich, um DYDX aus der Gemeinschaftskasse auszugeben. Um einen Vorschlag einzureichen, reichen Sie bitte einen dYdX-Verbesserungsvorschlag (DIP) ein, wie im [Lebenszyklus des DIP-Vorschlags](../voting-and-governance/dip-proposal-lifecycle.md) beschrieben.
+
+### Welche Arten von Vorschlägen können bei der Gemeinschaftskasse eingereicht werden?
+
+Eine von der Gemeinschaft verwaltete Kasse eröffnet eine Welt voller Möglichkeiten. Wir hoffen auf verschiedene Experimente und Initiativen, einschließlich Ökosystemzuschüsse, die das Wachstum des Ökosystems des dYdX-Ebene-2-Protokolls fördern können.
