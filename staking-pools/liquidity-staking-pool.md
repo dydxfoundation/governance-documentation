@@ -4,21 +4,24 @@ description: Likidite Staking Havuzuna genel bir bakış
 
 # Likidite Modülü
 
-İlk token arzının `%2,50'si` (`25.000.000 DYDX`), likidite staking havuzuna USDC stake eden kullanıcılara dağıtılacaktır. Likidite Staking Havuzu 29 Eylül 2022 itibarıyla artık aktif değildir. [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)'te, dYdX topluluğu Likidite Staking Havuzunun ve Borç Alma Havuzunun saniye başına likidite staking havuzu ödüllerinin 0'a ayarlanması suretiyle fiilen tasfiye edilmesi yönünde [oy kullandı](https://dydx.community/dashboard/proposal/7). \
+İlk token arzının `%2,50'si` (`25.000.000 DYDX`) Likidite Staking Havuzuna USDC stake eden kullanıcılara dağıtılmak üzere tahsis edilmişti. Likidite Staking Havuzu 29 Eylül 2022 itibarıyla artık aktif değildir. [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)'te, dYdX topluluğu Likidite Staking Havuzunun ve Borç Alma Havuzunun, Likidite Staking Havuzu ödüllerinin saniyede 0.\
 \
-Daha önce, likidite staking havuzuna USDC stake eden kullanıcılara DYDX dağıtılıyordu. Topluluğun onayladığı likidite sağlayıcılar bu stake edilen USDC'yi dYdX Katman 2 Protokolünde piyasalar yapmak ve piyasalarda mevcut likiditeyi daha da büyütmek için kullanıyorlardı. Likidite sağlayıcıların borç alınan fonları dYdX Katman 2 Protokolü dışında kullanmaları yasaktı.
+olarak ayarlanması suretiyle tasfiye edilmesi yönünde [oy kullandı](https://dydx.community/dashboard/proposal/7).
+Daha önce, Likidite Staking Havuzuna USDC stake eden kullanıcılara DYDX dağıtılıyordu. Topluluğun onayladığı likidite sağlayıcılar bu stake edilen USDC'yi dYdX Katman 2 Protokolünde piyasalar yapmak ve piyasalarda mevcut likiditeyi daha da büyütmek için kullanıyorlardı. Likidite sağlayıcıların borç alınan fonları dYdX Katman 2 Protokolü dışında kullanmaları yasaktı.
 
 ## **Staking**'e Genel Bakış
 
 Şu anda, Likidite Staking Havuzunda stake edilen USDC ödül kazandırmıyor.
 
+Daha önce USDC stake edenlere dağıtılan 383.562 DYDX Ödül Hazinesi'nde tahakkuk edecek ve dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir.
+
 ## USDC'yi Staking'den Çıkarma ve Çekme İşlemleri
 
-Stake eden bir kişi bir dönemin sona ermesinden sonra USDC'sini çekebilmek için o [**dönemin**](../start-here/epochs.md) sona ermesinden en az 3 `gün` (**Karartma Süresi**) önce USDC'sini çekme talebinde bulunmalıdır. Stake edenler fon çekme talebinde bulunmazsa, stake ettikleri USDC'ler bir sonraki döneme devredilir.
+Stake eden bir kişi bir dönemin sona ermesinden sonra USDC'sini çekebilmek için o [**dönemin**](../start-here/epochs.md) sona ermesinden en az `3 gün` (**Karartma Süresi**) önce USDC'sini çekme talebinde bulunmalıdır. Stake edenler fon çekme talebinde bulunmazsa, stake ettikleri USDC'ler bir sonraki döneme devredilir.
 
 **Karartma Süresi** boyunca fon çekme talebinde bulunulamaz.
 
-[DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)'te, dYdX topluluğu Karartma Süresinin 14 günden 3 güne düşürülmesi yönünde [oy kullandı](https://dydx.community/dashboard/proposal/7).
+DIP 14'te, dYdX topluluğu Karartma Süresinin 14 günden 3 güne düşürülmesi yönünde oy kullandı.
 
 ## stkUSDC nedir?
 
@@ -47,7 +50,7 @@ Likidite Havuzunda USDC'leri staking'den çıkarmak için aşağıdaki adımlar�
 * [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity) adresine gidin\*\*\*\*
 * Aşağıdaki ekranı açmak için "**Talep Et**" seçeneğine tıklayın:
 
-![Çekme talebi](<../.gitbook/assets/image (68) (1).png>)
+![Çekme talebi](../.gitbook/assets/1-withdraw-from-liquidity-pool.png)
 
 * Havuzdan çekme talebinde bulunmak istediğiniz USDC miktarını girin ve "**Fon çekme talebinde bulun**" seçeneğine tıklayın. USDC'leri staking'den çıkarmak için gas ücretleri ödemeniz gerekecektir.
 * USDC'sinin stake'inin kaldırılmasını cari dönemin sona ermesinden en az `3 gün` (**Karartma Süresi**) önce talep eden kullanıcılar USDC'lerini bir sonraki dönemin başında çekebilirler.

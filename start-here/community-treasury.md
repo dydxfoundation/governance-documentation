@@ -20,6 +20,10 @@ Beş yıl dolduktan sonra yönetişim sürekli enflasyon (yıllık maksimum `%2`
 
 ## SSS
 
+### Topluluk Hazinesinin kazanılmış bakiyesi nedir?
+
+dYdX Vakfı, her dönemin sonunda [Dönem Raporu](https://dydx.foundation/blog) ile Topluluk Hazinesinin kazanılmış bakiyesini yayınlamaktadır. Topluluk Hazinesinde kazanılmış DYDX'e ek olarak, dYdX topluluğu (1) alım satım ödüllerinin %25 oranında (958.904 DYDX) azaltılması ve (2) USDC staking ödüllerinin 0'a (383.562 DYDX) ayarlanması yönündeki oylarının bir sonucu olarak Ödül Hazinesinde tahakkuk eden DYDX'i kullanabilir. Dönem 15'ten başlayarak, Ödül Hazinesinde dönem başına 1.342.466 DYDX tahakkuk edecek ve dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir.
+
 ### Topluluk Hazinesi'nden DYDX token'ları harcamak için kimler teklif verebilir?
 
 Teklif vermek için yeterli yetkiye sahip her kullanıcı teklif verebilir. Topluluk hazinesinden herhangi bir miktarda DYDX harcamak için bir yönetişim oylaması gerekecektir. Bir teklif vermek için, lütfen [DIP Teklifi Yaşam Döngüsü](../voting-and-governance/dip-proposal-lifecycle.md)'nde belirtilen şekilde bir dYdX İyileştirme Teklifi (DIP) verin.

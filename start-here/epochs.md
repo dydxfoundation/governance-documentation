@@ -94,9 +94,9 @@ dYdX Vakfı, Dönemler ve Karartma Sürelerinin başlangıç​​/sona erme tar
 
 ## **Ödüller ve staking havuzları ne zaman etkinleştirilecektir?**
 
-* [Geriye Dönük Madencilik Ödülleri](../rewards/retroactive-mining-rewards.md) şu anda Protokol kullanıma açılmıştır. Bu ödüller **31 Ağustos 2021 günü saat 18.00.00'e (TSİ)** kadar devam edecektir.
-* [Alı](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md)m Satım Ödülleri şu anda Protokol kullanıma açılmıştır. Bu ödüller **3 Ağustos 2026 günü saat 18.00.00'e (TSİ)** kadar devam edecektir.
-* [Likidite Sağlayıcı Ödülleri](../rewards/liquidity-provider-rewards.md) şu anda Protokol kullanıma açılmıştır. Bu ödüller **3 Ağustos 2026 günü saat 18.00.00'e (TSİ)** kadar devam edecektir.
+* [Geriye Dönük Madencilik Ödülleri](../rewards/retroactive-mining-rewards.md) şimdi Protokol üzerinde canlıya geçmiştir. Bu ödüller **31 Ağustos 2021 günü saat 18.00.00'e (TSİ)** kadar devam edecektir.
+* [Alım Satım Ödülleri](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md) şimdi Protokol üzerinde canlıya geçmiştir. Bu ödüller **3 Ağustos 2026 günü saat 18.00.00'e (TSİ)** kadar devam edecektir.
+* [Likidite Sağlayıcı Ödülleri](../rewards/liquidity-provider-rewards.md) şimdi Protokol üzerinde canlıya geçmiştir. Bu ödüller **3 Ağustos 2026 günü saat 18.00.00'e (TSİ)** kadar devam edecektir.
 * [Likidite Staking havuzu](../staking-pools/liquidity-staking-pool.md) şu anda Protokol üzerinde kullanıma açılmıştır. Bu havuz **2 Ağustos 2026 günü yaklaşık saat 18.00.00'e** (TSİ) (tam zaman damgası: 1785682798) kadar kullanıma açık olacaktır.
 * [Güvenlik Staking havuzu](../staking-pools/safety-staking-pool.md), dönem 0 sona erdikten birkaç gün sonra, transfer kısıtlamaları kaldırıldığında Protokol üzerinde otomatik olarak kullanıma açılacaktır. Bu havuz **7 Eylül 2026 günü yaklaşık saat 18.00.00'e** (TSİ) (tam zaman damgası: 1788793198) kadar kullanıma açık olacaktır.
 

@@ -6,17 +6,17 @@ description: dYdX İyileştirme Teklifi (DIP) yaşam döngüsüne genel bakış.
 
 ## **Teklif Aşamaları**
 
-dYdX Yönetişim Süreci, [**forums.dydx.community**](https://forums.dydx.community) adresindeki yönetişim forumları tarafından desteklenir ve dYdX İyileştirme Teklifi ("DIP") aracılığıyla onaylanır.
+dYdX Yönetişim Süreci, [**forums.dydx.community**](https://forums.dydx.community/) adresindeki yönetişim forumları tarafından desteklenir ve dYdX İyileştirme Teklifi ("DIP") aracılığıyla onaylanır.
 
 Aşağıda konseptin başlangıcından ve tanımlanmasından fiilen uygulanmasına kadar dYdX yönetişim sürecinin nasıl aktığını açıklayan bir ön taslağı özetliyoruz. Bu süreçler DYDX topluluğundan gelen geri bildirimlere göre değişebilir.
 
 Aşağıdaki akış şeması bir teklifin geçmesi için başlangıçta önerilen aşamalardır:
 
-![Stages of a DIP](<.. /.gitbook/assets/image (81).png>)
+![Bir DIP'in Aşamaları](../.gitbook/assets/1-proposal-stage-flow-chart.png)
 
 ## 0. Forum Tartışması
 
-Herkes [**forums.dydx.community**](https://forums.dydx.community) adresinde barındırılan dYdX'in Yönetişim forumlarında kayıt olup herhangi bir konuda bir ileti dizisi oluşturabilir. Topluluk üyelerinin bir e-posta adresi veya bir Ethereum cüzdanı kullanarak kaydolması gerekir.
+Herkes [**forums.dydx.community**](https://forums.dydx.community/) adresinde barındırılan dYdX'in Yönetişim forumlarında kayıt olup herhangi bir konuda bir ileti dizisi oluşturabilir. Topluluk üyelerinin bir e-posta adresi veya bir Ethereum cüzdanı kullanarak kaydolması gerekir.
 
 ## 1. (Zincir Dışı) DRC Oluşturma
 
@@ -42,13 +42,13 @@ Snapshot anketleri iki amaca hizmet eder: Gelecekteki zincir içi DIP'ler için 
 
 Zincir dışı bir DRC üzerinde çok açık bir mutabakat sağlandığında, `10.000'den` fazla DYDX tutan bir topluluk üyesi DRC için **Snapshot** üzerinde **zincir dışı bir oylama** oluşturabilir. Normal çalışma haftası boyunca görünürlüğü artırmak için dYdX Topluluğu'nun Snapshot anketlerini Pazartesi günleri oluşturmasını öneririz.
 
-Snapshot, kullanıcıların duyarlılığı zincir dışında göstermesini sağlayan basit bir oylama arayüzüdür. Snapshot üzerindeki oylamalarda, oy vermek için kullanılan adresin oy verme yetkisine göre ağırlık verilir.
+Snapshot, kullanıcıların duyarlılığı zincir dışında göstermesini sağlayan basit bir oylama arayüzüdür. Snapshot'taki oylar, oy vermek için kullanılan adresin oylama gücüne (voting power) göre ağırlıklandırılır.
 
 Duyarlılık gösterilmesine ilişkin Snapshot anketleri için, teklifi verenin şunları sağlaması gerekir:
 
 * DRC hakkındaki ayrıntılı bilgiler,
 * bir oylama sistemi,
-* bir oylama süresi; oylama başlangıç tarihi ve oylama bitiş tarihi arasında 4 günlük bir oylama süresi olmalıdır ve
+* bir oylama dönemi - oylama başlangıç tarihi ve oylama bitiş tarihi 4 günlük bir oylama dönemine ayarlanır ve
 * bir oylama bekleme süresi; 6.570 blok (yaklaşık 1 gün) ileride olan bir Snapshot blok numarası. Snapshot blok numarası, oy kullanabilen topluluk üyelerinin durumunu kilitler. Snapshot blok numarası öncesinde token tutan token sahipleri oy verme hakkına sahiptir. Her bir adresin ilgili oylama yetkisinin anlık görüntüsünü almadan önce, oylama için bekleme süresi DYDX/stkDYDY sahiplerine token edinmek, oylama yetkisini delege etmek ve token'ları cüzdanlar arasında taşımak (token'ların cüzdanlar arasındaki taşınması yalnızca DYDX sahipleri için geçerlidir) için zaman verir.
 
 Zincir içi bir akıllı sözleşmenin çağrılmasını gerektirmeyen kararlar, özellikle de Alım Satım ve Likidite Sağlayıcı ödüllerinin formüllerinde yapılacak değişiklikler için Snapshot oylamaları bağlayıcı ve kesin oylama olarak kabul edilir. Teklif verenin yukarıdaki gereksinimleri karşılaması ve şunları sağlaması gerekir:
@@ -58,7 +58,7 @@ Zincir içi bir akıllı sözleşmenin çağrılmasını gerektirmeyen kararlar,
 Teklif edilen değişiklik/değişiklikler, Snapshot anketinin sonuçları şunları karşılarsa dYdX Trading Inc. tarafından uygulamaya koyulur:
 
 * karar yeter sayısı - en az 1 milyon DYDX/stkDYDX. Karar yeter sayısı karar alma sürecinin merkeziyetsizleştirilmesine katkıda bulunur ve tek taraflı karar alınmasına karşı korur ve
-* minimum oy farkı - verilen oyların en az %67'si teklifin lehine olmalıdır. Minimum oy farkı, son derece tartışmalı ve daha fazla tartışılması gereken tekliflerin filtrelenmesini sağlar.
+* minimum oy farkı - verilen oyların en az %67'si teklifin lehine olmalıdır. Gerekli asgari oy farkı, çok tartışmalı olan ve daha ileri düzeyde tartışılması gereken tekliflerin kenara ayrılmasına yardımcı olur.
 
 dYdX Trading Inc.'in başarılı bir Snapshot anketinde kabul edilen değişiklikleri uygulamak için uygulamaya koyma mühleti olarak 1 Döneme varan bir süreye (28 gün) sahip olacaktır.
 
@@ -82,7 +82,7 @@ Oylama Bekleme Süresi dolduktan sonra Oylama Süresi etkinleştirilir. Oylama s
 
 Aşağıdaki grafik bir DIP durumu akış şemasını göstermektedir:
 
-![Lifecycle of a DIP](<.. /.gitbook/assets/image (63).png>)
+![Bir DIP'in Yaşam Döngüsü](../.gitbook/assets/1-proposal-state-flowchart.png)
 
 Zincir içi bir DIP oluşturulduktan sonra, bir **Oylama Bekleme Süresi**, **Oylama Süresi**, **Karar Yeter Sayısı** ve bir minimum **Oy Farkına** tabi olur. Başlangıç parametreleri aşağıdaki gibidir:
 
@@ -112,15 +112,13 @@ Starkware priority timelock executor söz konusu olduğunda, 9 günlük timelock
 
 Pratikte:
 
-* 0.-2. Günler: Hiç kimse uygulamaya koyamaz
-* 2.-9. Günler: Yalnızca Starkware uygulamaya koyabilir
+* 0-2. Günler: Hiç kimse uygulamaya koyamaz
+* 2-9. Günler: Yalnızca Starkware uygulamaya koyabilir
 * 9. Gün: Herkes uygulamaya koyabilir
 
 ## 7. (İsteğe Bağlı) Teklif İptali
 
 Bir DIP'in yaşam döngüsündeki herhangi bir noktada, teklif veren DIP'yi iptal edebilir. Teklif veren mevcut blokta yeterli teklif yetkisine sahip değilse, bir teklif uygulamaya koyulmadan önce herkes tarafından iptal edilebilir.
-
-
 
 ## SSS
 

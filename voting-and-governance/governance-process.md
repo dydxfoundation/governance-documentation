@@ -16,12 +16,12 @@ dYdX Yönetişiminin merkezinde 6 akıllı sözleşme vardır:
 
 * **`DYDX Token` sözleşmesi**: Her bir adresin oy verme yetkisinin zaman içinde farklı bloklardaki anlık görüntülerine sahiptir.
 * **`Governance Strategy` sözleşmesi**: Kullanıcıların teklif verme ve oy verme yetkisini ölçen mantığı içerir.
-* **`Safety Module` sözleşmesi**: DYDX token'larının stake edilmesini, pozisyonun token'a dönüştürülmesini ve ödüllerin alınmasını sağlayan mantıkları içerir. Güvenlik modülünde stake edilen token'lar tüm yönetişim haklarını muhafaza eder.
+* **`Safety Module` sözleşmesi**: DYDX token'larının stake edilmesini, pozisyonun tokene dönüştürülmesini ve ödüllerin alınmasını sağlayan mantıkları içerir. Güvenlik modülünde stake edilen token'lar tüm yönetişim haklarını muhafaza eder.
 * **`Governor` sözleşmesi**: Teklifleri izler ve Timelock akıllı sözleşmesi aracılığıyla teklifleri yürütür.
-* **`Timelock` sözleşmeleri**: Yönetişim tarafından oylanan işlemleri sıraya koyar, iptal eder veya yürütür. Bir teklifteki işlevler Timelock sözleşmesi tarafından başlatılır. Sıraya koyulan işlemler belirli bir süre sonra ve ödemesiz dönem sona ermeden önce yürütülür.
-* **`Priority Timelock` sözleşmesi:** Timelock sözleşmesi ile aynıdır ancak bir öncelik denetleyicisinin timelock bekleme süresi sona ermeden önce **Öncelik Süresi** (7 gün) içinde işlemleri gerçekleştirmesine olanak tanır.
+* **`Timelock` sözleşmeleri**: Yönetişim tarafından oylanan işlemleri sıraya koyar, iptal eder veya yürütür. Bir teklifteki işlevler Timelock sözleşmesi tarafından başlatılır. Kuyruğa alınan işlemler, gecikmeden sonra ve ödemesiz sürenin bitiminden önce gerçekleştirilebilir.
+* **`Priority Timelock` contract** Timelock sözleşmesi ile aynıdır ancak bir öncelik denetleyicisinin timelock bekleme süresi sona ermeden önce **Öncelik Süresi** (7 gün) içinde işlemleri gerçekleştirmesine olanak tanır.
 
-![Akıllı sözleşme mimarisi](<../.gitbook/assets/image (49).png>)
+![Akıllı sözleşme mimarisi](../.gitbook/assets/1-smart-contract-architectue.png)
 
 Zincir içi dYdX yönetişimi şunlara olanak tanır:
 
@@ -35,7 +35,7 @@ Zincir içi dYdX yönetişimi şunlara olanak tanır:
 
 Bir teklifin süresini ve yürütülmesini etkileyen farklı parametrelere sahip dört tür teklif vardır, yani yönetişim mutabakatını etkileyen önemli teklifler daha uzun bir oylama süresi ve daha yüksek bir oy farkı gerektirirken sadece protokol parametrelerini etkileyen teklifler ise daha kısa bir oylama süresi gerektirir ve hızlı bir şekilde uygulamaya koyulabilir. Bir executor her tür teklifi doğrulamalıdır.
 
-#### **Short timelock executor**
+#### **Kısa timelock** yürütücüsü
 
 Short timelock executor şunları kontrol eder:
 
@@ -45,7 +45,7 @@ Short timelock executor şunları kontrol eder:
 * Safety Module hariç tüm proxy sözleşmeleri
 * stark proxy sözleşmelerindeki koruyucu rolleri
 
-**Starkware priority timelock executor**
+**Starkware öncelik timelock** yürütücüsü
 
 Starkware priority timelock executor, StarkEx Perpetual Exchange sözleşmesinin sahibidir. dYdX Katman 2 Borsasının yapılandırmasını kontrol eden teklifleri yürütebilir.
 
@@ -53,7 +53,7 @@ Alınacak eyleme bağlı olarak, borsa üzerindeki değişikliği doğru bir şe
 
 Starkware, _hangi_ protokol değişikliklerinin yapılacağı üzerinde kontrole sahip değildir. Yalnızca DYDX token sahipleri, dYdX yönetişimi aracılığıyla borsa protokolündeki değişiklikleri onaylama veya reddetme imkânına sahiptir.
 
-#### **Long timelock executor**
+#### **Uzun timelock** yürütücüsü
 
 Long timelock executor, genellikle Protokol'ün yönetişim mutabakatını etkileyen bölümlerini değiştiren teklifleri yürütür.
 
@@ -63,4 +63,4 @@ Merkle-pauser executor, her bir kullanıcının toplam ödül bakiyesi ile düze
 
 İlk baştaki timelock parametreleri aşağıdaki gibidir:
 
-![Başlangıç timelock parametreleri](<../.gitbook/assets/Initial Timelock Parameters (1).png>)
+![Başlangıç timelock parametreleri](../.gitbook/assets/1-initial-timelock-parameters.png)
