@@ -4,7 +4,7 @@ description: 交易奖励计划概述。
 
 # 交易奖励
 
-初始代币供应量的`25.00%`（`250,000,000 DYDX`）将根据支付的费用分配给在 dYdX Layer 2 协议上进行交易的用户。
+初始代币供应量的 `25.00%` （`250,000,000 个 DYDX`） 将根据支付的费用，分配给在 dYdX Layer 2 协议上交易的用户。在 [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) 中，dYdX社区 [投票](https://dydx.community/dashboard/proposal/8) 支持将交易奖励减少 25%。因此，在任意给定时段内分配的交易奖励从 3,835,616 个 DYDX 减少到时段 15 的 2,876,712 个 DYDX。
 
 **目标**
 
@@ -13,11 +13,13 @@ description: 交易奖励计划概述。
 
 ## **概述**
 
-![通过dYdX Layer 2协议的交易赚取奖励](<../.gitbook/assets/image (14) (2) (1).png>)
+<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>在给定时段内所支付的费用以及预估的奖励</p></figcaption></figure>
 
-DYDX 将根据支付的费用分配给 dYdX Layer 2 协议的交易者。DYDX将在五年内以28天时段为周期进行分配，不受任何兑现或锁定的限制。每个纪元内将分配3,835,616个DYDX。
+DYDX 将根据支付的费用分配给 dYdX Layer 2 协议的交易者。DYDX将在五年内以28天时段为周期进行分配，不受任何兑现或锁定的限制。每个时段内将分配 2,876,712 个 DYDX。
 
-![](<../.gitbook/assets/Screenshot 2022-08-12 at 17.50.17.png>)
+由于社区投票将交易奖励减少了 25%，奖励的数量也从 3,835,616 个 DYDX 减少到 2,876,712 个 DYDX，奖励资金库中所累积的剩余 958,904 个 DYDX 可由 dYdX 社区通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用/指导。
+
+<figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
 $$
 r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k
@@ -32,7 +34,7 @@ $$
 | $${\sum\limits _{n} w_{n}}$$ | 所有交易者分数的总和。 |
 | k | 本时段的交易者总数。 |
 
-在[DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md)，dYdX 社区进行了投票，将公式简化为基于交易者在给定时段内支付的总费用。
+在 [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md) 中，dYdX 社区投票表决，将公式简化为基于交易者在给定时段内支付的总费用。
 
 ## 常见问题解答
 
@@ -46,9 +48,9 @@ dYdX Layer 2协议的所有交易者都有资格获得DYDX作为交易奖励。
 
 在当前时段，用户可以在[**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)查看已支付的费用和预估的交易奖励，该网站存有用户的交易数据。
 
-![当前时段的奖励信息](<../.gitbook/assets/image (18).png>)
+<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>在给定时段内所支付的费用以及预估的奖励</p></figcaption></figure>
 
-过往时段的奖励可于以下网址查看：[**dydx.community/history/rewards**](https://dydx.community/history/rewards) \*\*\*\*（即将推出）。
+如需查看过去时段的奖励，请访问[**dydx.community/history/rewards**](https://dydx.community/history/rewards)**。**
 
 ### 我如何申领我的交易奖励？何时可以提现并转让我赚取的DYDX？
 
@@ -58,5 +60,4 @@ dYdX Layer 2协议的所有交易者都有资格获得DYDX作为交易奖励。
 
 用户需要单击“申领”，签署交易，并支付gas费用以申领DYDX。
 
-![资金组合奖励概述](<../.gitbook/assets/image (20).png>)
-
+![资金组合奖励概述](../.gitbook/assets/1-portfolio-overview-rewards.png)
