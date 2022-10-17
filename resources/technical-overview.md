@@ -14,8 +14,8 @@ dYdXのオンチェーン・ガバナンスは以下の機能をサポートし�
 * 提案数、定足数、選択の差異基準を含むガバナンス基準の設定
 * 選択のカウント方法を決定する「ガバナンス戦略」スマートコントラクトの置き換え
 * 以下の内容を許可する複数の実行管理者契約の構成：
-   * 1. ショートタイムロックの実行管理者による迅速なプロトコルのアップグレードおよび資金の配分。
-   * 2. ロングタイムロックの実行管理者によるガバナンスのアップグレード。
+  * 1. ショートタイムロックの実行管理者による迅速なプロトコルのアップグレードおよび資金の配分。
+  * 2. ロングタイムロックの実行管理者によるガバナンスのアップグレード。
 
 dYdXガバナンスをサポートするスマートコントラクトは6つあります。
 
@@ -42,7 +42,7 @@ dydx.communityでホストされているガバナンスフロントエンドの
 
 ## コアガバナンス契約
 
-![赤い点線はコントラクトがアップグレード可能であることを示しています](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.17.43 PM (1).png>)
+![赤い点線はコントラクトがアップグレード可能であることを示しています](../.gitbook/assets/3-core-governance-contracts-1.png)
 
 ### DydxToken
 
@@ -102,7 +102,7 @@ GovernanceStrategy（ガバナンス戦略）コントラクトはAaveにより�
 
 ### Merkleディストリビュータ
 
-![赤い点線はコントラクトがアップグレード可能であることを示しています](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.23.50 PM (1).png>)
+![赤い点線はコントラクトがアップグレード可能であることを示しています](../.gitbook/assets/3-core-governance-contracts-2.png)
 
 Merkleディストリビューターのスマートコントラクトは、Merkleの残高ツリーに従ってDYDXトークン報酬を配布します。各ユーザーの累積報酬残高によりツリーを定期的に更新できることで、時間の経過に伴い新しい報酬をユーザーに提供できます。
 
@@ -116,7 +116,7 @@ Merkleディストリビューターのスマートコントラクトは、Unisw
 
 ### 安全モジュール
 
-![赤い点線はコントラクトがアップグレード可能であることを示しています](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.24.45 PM (1).png>)
+![赤い点線はコントラクトがアップグレード可能であることを示しています](../.gitbook/assets/3-core-governance-contracts-3.png)
 
 セーフティモジュールは、プロトコルのセキュリティに向けてDYDXをステークするユーザーにDYDX報酬を提供するステーキングプールです。
 
@@ -126,13 +126,13 @@ Merkleディストリビューターのスマートコントラクトは、Unisw
 
 ### 流動性モジュール
 
-![赤い点線はコントラクトがアップグレード可能であることを示しています](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.25.30 PM (1).png>)
+![赤い点線はコントラクトがアップグレード可能であることを示しています](../.gitbook/assets/3-core-governance-contracts-4.png)
 
 流動性モジュールは、ステーキングおよび借入のためのスマートコントラクトの集合体であり、dYdXレイヤ2取引所でのマーケット作成目的のUSDC資金の割り当てを奨励します。
 
 ステーカーはUSDCをステーキングする際にDYDX報酬を獲得します。ステークされた資金はレピュテーションに基づき、無担保で事前に承認された特定のパートナーによって借り入れされる場合があります。資金はL2取引所でのみ使用できます。これはStarkExパーペチュアル取引所契約と相互に適用されるStarkProxy契約を通じて実施されます。
 
-![流動性モジュールの図](<../.gitbook/assets/image (66).png>)
+![流動性モジュールの図](../.gitbook/assets/3-core-governance-contracts-5.png)
 
 ### StarkProxy
 
@@ -140,7 +140,7 @@ Merkleディストリビューターのスマートコントラクトは、Unisw
 
 ### 資金調達契約
 
-![赤い点線はコントラクトがアップグレード可能であることを示しています](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM (1).png>)
+![赤い点線はコントラクトがアップグレード可能であることを示しています](../.gitbook/assets/3-core-governance-contracts-6.png)
 
 TreasuryVester（基金ベスター）契約は、[Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol)によりインスパイアされました。
 
@@ -164,7 +164,7 @@ TreasuryVester（基金ベスター）契約は、[Uniswap](https://github.com/U
 
 以下のフローチャートは、Chainlink Oracle-Powered Rewardsのシステムアーキテクチャを示しています。
 
-![](<../.gitbook/assets/Merkle Distributor (1).png>)
+![](../.gitbook/assets/3-core-governance-contracts-merkle-distributor.png)
 
 ### その他の資産
 
