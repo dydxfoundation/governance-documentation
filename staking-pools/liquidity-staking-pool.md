@@ -4,21 +4,23 @@ description: 流动性质押池概述
 
 # 流动性模块
 
-初始代币供应量的 `2.50%`（25,000,000 `个 DYDX`）将分配给把 USDC 质押到流动性质押池的用户。流动性质押池自 2022 年 9 月 29 日起不再运行。在 [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/7)决定将每秒流动性质押池奖励设置为 0，从而有效终止了流动性质押池和借款池。\
+初始代币供应量的 `2.50%` （`25,000,000 个 DYDX`） 分配给将 USDC 质押到流动性质押池的用户。 流动性质押池自 2022 年 9 月 29 日起不再运行。在 [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/7)决定将每秒流动性质押池奖励设置为 0，以便有效逐步终止流动性质押池和借款池。\
 \
-此前，DYDX 被分发给将 USDC 质押到流动性质押池的用户。社区批准的流动性提供方使用质押的 USDC 基于 dYdX Layer 2 协议进行做市，从而进一步提高市场的可用流动性。流动性提供方被限制使用 dYdX Layer 2 协议以外的借贷资金。
+此前，DYDX 分发给将 USDC 质押到流动性质押池的用户。社区批准的流动性提供方使用质押的 USDC 基于 dYdX Layer 2 协议进行做市，从而进一步提高市场的可用流动性。流动性提供方被限制使用 dYdX Layer 2 协议以外的借贷资金。
 
 ## **质押**概述
 
 目前，在流动性质押池中质押的 USDC 不会获得奖励。
 
+先前分配给 USDC 质押人的 383,562 个 DYDX 将在奖励资金库中积累，并可由 dYdX 社区通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。
+
 ## USDC解除质押和提现
 
-质押人必须在[**时段**](../start-here/epochs.md)结束前至少 3 `天`请求提现 USDC**（停市窗**口期），才能在该时段结束后提现质押人的 USDC。如果质押人不请求提现，他们质押的USDC将被转入下一纪元。
+质押人必须在[**时段**](../start-here/epochs.md)结束前至少 `3 天`请求提现 USDC（**停市窗口期**），才能在该时段结束后提现质押人的 USDC。如果质押人不请求提现，他们质押的USDC将被转入下一纪元。
 
 在**停市窗口期**期间，无法请求提现。
 
-在 [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/7)决定将停市窗口期从 14 天减少至 3 天。
+在 [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) 中，dYdX 社区 [投票](https://dydx.community/dashboard/proposal/7) 决定将停市窗口期从 `14 天`减少至 `3 天`。
 
 ## 什么是stkUSDC？
 
@@ -47,7 +49,7 @@ stkUSDC余额可能是活跃的或不活跃的。活跃的stkUSDC可以作为ERC
 * 转到[**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*
 * 单击“**请求**”，以打开以下模式：
 
-![请求提现](<../.gitbook/assets/image (68) (1).png>)
+![请求提现](../.gitbook/assets/1-withdraw-from-liquidity-pool.png)
 
 * 输入您希望请求从资金池中提现的USDC金额，然后单击“**请求提现**”。您需要支付gas费以解除质押USDC。
 * 如果质押人在当前时段结束前至少 `3 天`（**停**市窗口期）请求解除质押 USDC，则可以在下一时段开始时提现 USDC。

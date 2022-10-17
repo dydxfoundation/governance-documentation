@@ -21,7 +21,7 @@ dYdX治理的核心是6个智能合约：
 * **`时间锁`合约：**可以排队、取消或执行治理者投票的交易。提议中的功能是由时间锁合约启动的。排队的交易可以在延迟之后和宽限期届满之前执行。
 * **`优先时间锁`合约**：与时间锁合约相同，但允许优先级控制器在时间锁延迟结束之前的**优先期**（7 天）内执行交易。
 
-![智能合约架构](<../.gitbook/assets/image (49).png>)
+![智能合约架构](../.gitbook/assets/1-smart-contract-architectue.png)
 
 dYdX链上治理允许：
 
@@ -63,4 +63,4 @@ Merkle-pauser执行器可以执行冻结Merkle根的提议，Merkle根会根据�
 
 初始时间锁参数如下：
 
-![初始时间锁参数](<../.gitbook/assets/Initial Timelock Parameters (1).png>)
+![初始时间锁参数](../.gitbook/assets/1-initial-timelock-parameters.png)
