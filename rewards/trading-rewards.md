@@ -1,63 +1,61 @@
 ---
-description: Overview of the Trading Rewards program.
+description: Überblick über das Trading Prämien-Programm.
 ---
 
-# Trading Rewards
+# Trading-Prämien
 
-`25.00%` of the initial token supply (`250,000,000 DYDX`) was allocated to be distributed to users who trade on the dYdX Layer 2 Protocol based on fees paid. In [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/8) in support of reducing trading rewards by 25%. As a result, trading rewards distributed in a given epoch were reduced from 3,835,616 DYDX to 2,876,712 DYDX in Epoch 15.
+`25,00 %` der ursprünglichen Tokenversorgung (`250 000 000 DYDX`) wurden der Ausschüttung an die Nutzer zugewiesen, die auf der Grundlage der gezahlten Gebühren mit dem dYdX Layer 2-Protokoll handeln. Im Rahmen des [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) [stimmte](https://dydx.community/dashboard/proposal/8) die dYdX-Community dafür, die Trading Rewards um 25 % zu reduzieren. Daher wurden in Epoche 15 die in einer Epoche ausgeschütteten Trading Rewards von einst 3 835 616 DYDX nun auf 2 876 712 DYDX reduziert.
 
-**Objectives**
+**Ziele**
 
-* Incentivize all traders to use the dYdX Layer 2 Protocol.
-* Accelerate market liquidity and overall product usage.
+* Anreize zu schaffen, damit alle Trader das dYdX Layer 2-Protokoll verwenden.
+* Marktliquidität und die allgemeine Produktnutzung zu beschleunigen.
 
-## **Overview**
+## **Überblick**
 
-<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Fees paid and estimated rewards in a given epoch</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Bezahlte Gebühren und geschätzte Rewards in einer bestimmten Epoche</p></figcaption></figure>
 
-DYDX will be distributed to traders based on fees paid on the dYdX Layer 2 Protocol. DYDX will be distributed on a 28-day epoch basis over five years and is not subject to any vesting or lockups. 2,876,712 DYDX will be distributed per epoch.
+DYDX wird auf der Grundlage der Gebühren, die für das dYdX Layer 2-Protokoll gezahlt wurden, an die Trader ausgeschüttet. DYDX wird über fünf Jahre auf Basis von 28-Tage-Epochen verteilt und unterliegt weder Vesting noch Lockups. Pro Epoche werden 2 876 712 DYDX ausgeschüttet.
 
-With the community voting to reduce trading rewards by 25% from 3,835,616 DYDX to 2,876,712 DYDX, the remaining 958,904 DYDX that accrues in the Rewards Treasury can be used/directed by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+Da die Community dafür gestimmt hat, die Trading Rewards um 25 % von 3 835 616 DYDX auf 2 876 712 DYDX zu reduzieren, können die verbleibenden 958904 DYDX, die in der Rewards Treasury anfallen, von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet/ausgerichtet werden.
 
 <figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
-$$
-r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k
-$$
+$$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k $$
 
-| Term                         | Definition                                                              |
+| Begriff | Definition |
 | ---------------------------- | ----------------------------------------------------------------------- |
-| r                            | Reward for a specific trader.                                           |
-| R                            | Total reward to be split between all traders in the pool for the epoch. |
-| f                            | Total fees paid by a trader in this epoch.                              |
-| w                            | Individual trader score.                                                |
-| $${\sum\limits _{n} w_{n}}$$ | Sum of all trader scores.                                               |
-| k                            | Total number of traders in this epoch.                                  |
+| r | Prämie für einen bestimmten Trader. |
+| R | Gesamtmenge der Prämien, die zwischen allen Tradern im Pool für die Epoche aufgeteilt werden müssen. |
+| f | Gesamtgebühren, die von einem Trader in dieser Epoche gezahlt wurden. |
+| w | Individueller Trader Score |
+| $${\sum\limits {n} ${\sum\limits _{n} w_{n}} | Summer aller Trader Scores. |
+| k | Gesamtzahl der Trader in dieser Epoche. |
 
-In [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md), the dYdX Community voted to simplify the formula to be based on total fees paid by a trader in a given epoch.
+Im Rahmen des [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md), stimmte die dYdX-Community dafür, die Formel zu vereinfachen, sodass sie auf den Gesamtgebühren basiere, die von einem Trader in einem bestimmten Zeitraum gezahlt wurden.
 
 ## FAQ
 
-### Who is eligible for trading rewards?
+### Wer ist für Trading-Prämien berechtigt?
 
-All traders on the dYdX Layer 2 protocol are eligible to receive DYDX as trading rewards.
+Alle Trader des dYdX Layer 2-Protokolls sind berechtigt, DYDX als Trading-Prämien zu empfangen.
 
-The dYdX Layer 2 Protocol is not available to traders in the United States or Restricted Territories, as defined in dYdX Trading Inc.’s [Terms of Use](https://dydx.exchange/terms).
+Das dYdX Layer 2-Protokoll ist für Trader in den Vereinigten Staaten oder in beschränkten Gebieten nicht verfügbar, wie in den [Nutzungsbedingungen](https://dydx.exchange/terms) von dYdX Trading Inc. definiert.
 
-### How much DYDX did I earn in the Trading Rewards program?
+### Wie viel DYDX habe ich im Trading Rewards-Programm verdient?
 
-In the current epoch, users can see fees paid and estimated trading rewards at [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) where users' trading data exists.
+In der aktuellen Epoche können Benutzer gezahlte Gebühren und geschätzte Trading-Rewards unter [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) einsehen, wo die Tradingdaten der Benutzer vorhanden sind.
 
-<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Fees paid and estimated rewards in a given epoch</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Bezahlte Gebühren und geschätzte Rewards in einer bestimmten Epoche</p></figcaption></figure>
 
-Rewards from past epochs can be viewed at [**dydx.community/history/rewards**](https://dydx.community/history/rewards)**.**
+Rewards aus früheren Epochen können unter [**dydx.community/history/rewards**](https://dydx.community/history/rewards) eingesehen werden**.**
 
-### How do I claim my Trading Rewards? When can I withdraw and transfer my earned DYDX?
+### Wie kann ich meine Trading-Prämien abholen? Wann kann ich meine verdienten DYDX auszahlen lassen und überweisen?
 
-Earned DYDX tokens via Trading Rewards will be transferable at the end of each epoch. DYDX token holders are required to wait approximately `7 days` (**Waiting Period**) after the end of the epoch to claim their tokens. Once tokens have been claimed, they can be used for dYdX governance.
+Durch Trading-Prämien verdiente DYDX können am Ende jeder Epoche übertragen werden. DYDX Token-Inhaber sind dazu verpflichtet, etwa `7 Tage` (**Wartezeit**) nach Ablauf der Epoche zu warten, bis sie ihre Token beanspruchen können.  Sobald Token in Anspruch genommen wurden, können sie für die dYdX Governance verwendet werden.
 
-Traders can claim their trading rewards at the end of every epoch, after the **Waiting Period**, [here](https://dydx.community/dashboard).
+Trader können ihre Trading-Prämien am Ende jeder Epoche nach der **Wartezeit** [hier](https://dydx.community/dashboard) einfordern.
 
-Users will need to click on "Claim", sign a transaction, and pay gas fees to claim DYDX.
+Benutzer müssen auf "Abholen" klicken, eine Transaktion unterzeichnen und Gasgebühren zahlen, um ihre DYDX zu beanspruchen.
 
-![Portfolio overview of rewards](../.gitbook/assets/1-portfolio-overview-rewards.png)
+![Portfolio-Übersicht der Rewards](../.gitbook/assets/1-portfolio-overview-rewards.png)
