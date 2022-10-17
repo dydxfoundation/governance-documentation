@@ -213,7 +213,7 @@ description: 에폭 시스템 개요
  | 2026년 8월 25일 15:00:00
  | 28 | 5.06 |
 
-dYdX Foundation은 에폭의 시작 및 종료일과 블랙아웃 기간을 확인할 수 있는 공개 Google 캘린더를 제작하였습니다. 구독은 여[**기를**](https://calendar.google.com/calendar/u/3?cid=Y19wZjIwYzBoZzQ3dTR2cHRja283NDl1ajQyb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) 참조하세요.
+dYdX Foundation은 에폭의 시작 및 종료일과 블랙아웃 기간을 확인할 수 있는 공개 Google 캘린더를 제작하였습니다. 구독은 [**여기**](https://calendar.google.com/calendar/u/3?cid=Y19wZjIwYzBoZzQ3dTR2cHRja283NDl1ajQyb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)를 참조하세요.
 
 ## **보상 및 스테이킹 풀은 언제 활성화됩니까?**
 
