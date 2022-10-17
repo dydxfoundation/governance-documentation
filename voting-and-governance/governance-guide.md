@@ -47,30 +47,30 @@ _**DIP 2への適用**_：
 
 Three Arrows CapitalのSu Zhu氏（zhusu）は、流動性プロバイダー報酬のしきい値を引き下げるための[オフチェーンのフォーラムディスカッション](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/)を作成しました。WintermuteのEvgeny氏、KronosのBen氏、SixtantのJosh氏など、さまざまなコミュニティメンバーがディスカッションに参加し、貴重なフィードバックを提供しています。
 
-![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](<../.gitbook/assets/image (99).png>)
+![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](../.gitbook/assets/2-reduce-mm-incentives.png)
 
-![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](<../.gitbook/assets/image (97).png>)
+![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](../.gitbook/assets/2-reduce-mm-incentives-2.png)
 
 #### _コモンウェルスでのポストおよびコメントの方法：_
 
 * イーサリアムウォレットまたはGithubの口座でコモンウェルスに登録し、[こちら](https://forums.dydx.community/)からdYdXのコミュニティに参加してください。
 
-![https://forums.dydx.community/](<../.gitbook/assets/Untitled 1 (1) (1)>)
+![https://forums.dydx.community/](../.gitbook/assets/2-register-on-cw.png)
 
 * スレッドを選択してコメントをスクロールし、それぞれのコメントの下のアイコンをクリックして「いいね」を押すかコメントに返答します。
 
-![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](<../.gitbook/assets/image (107).png>)
+![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](../.gitbook/assets/2-select-thread.png)
 
 * 「新しいスレッド」をクリックしてトピックのカテゴリを選択し、新しいディスカッションスレッドの作成やDRCのポストを行います。
 
-![https://forums.dydx.community/new/discussion](<../.gitbook/assets/Untitled 3 (1)>)
+![https://forums.dydx.community/new/discussion](../.gitbook/assets/2-create-discussion-cw.png)
 
 * DRCを作成する場合、[こちら](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md)からテンプレートに従ってください。「[提案のライフサイクル](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)」の「_DRCの作成_」で概説しているように、DRCには少なくとも以下の内容を含めなければなりません：
-   * DRCの短い、簡潔なタイトル
-   * 提案の短い、簡潔な説明
-   * DRCの合理的理由（例：なぜ？）
-   * フォーラムポストのタイトルにはDRC：\[DRCの短いタイトルを挿入]（例えば、DRC：新しいマーケットリクエスト）を含めなければなりません。
-   * コミュニティのメンバーがオフチェーンの改善の選択のために使用できるコミュニティ調査
+  * DRCの短い、簡潔なタイトル
+  * 提案の短い、簡潔な説明
+  * DRCの合理的理由（例：なぜ？）
+  * フォーラムポストのタイトルにはDRC：\[DRCの短いタイトルを挿入]（例えば、DRC：新しいマーケットリクエスト）を含めなければなりません。
+  * コミュニティのメンバーがオフチェーンの改善の選択のために使用できるコミュニティ調査
 
 ### **ステップ2 - DRCのスナップショットの選択（オフチェーン）**
 
@@ -93,27 +93,27 @@ _**DIP 2への適用**_：
 * MMのしきい値を2.5％まで引き下げる
 * MMのしきい値を5％で維持する
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 4 (1)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-create-snapshot.png)
 
 #### _スナップショットの選択方法：_
 
 * イーサリアムウォレットでスナップショットに登録し、[こちら](https://snapshot.org/#/dydxgov.eth)からdYdXの提案をフォローしてください。代わりに、[コモンウェルス](https://forums.dydx.community/snapshot/dydxgov.eth)で直接スナップショットの選択を行い、作成することもできます。
 
-![https://snapshot.org/#/dydxgov.eth](<../.gitbook/assets/Untitled 5>)
+![https://snapshot.org/#/dydxgov.eth](../.gitbook/assets/2-register-snapshot.png)
 
 * アクティブなスナップショットの提案を表示するには、[スナップショット](https://snapshot.org/#/dydxgov.eth)または[コモンウェルス](https://forums.dydx.community/snapshot/dydxgov.eth)にアクセスしてください。
 
-![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 6 (1) (2)>)
+![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](../.gitbook/assets/2-view-snapshot.png)
 
 * アクティブなスナップショットを選択するには、スナップショットの選択がアクティブになる時点でDYDXを保有しているか、またはスナップショットブロック番号以前にアドレスに委任された選択権を有している必要があります。
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 7 (1) (1)>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-snapshot-vote.png)
 
 * 選択を行うには、提案をクリックして「はい」または「いいえ」を選択し、その後で「選択」をクリックします。
 
-![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 8 (1) (2)>)
+![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-1.png)
 
-![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 9 (1) (2)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-2.png)
 
 #### _スナップショットの選択の作成方法：_
 
@@ -121,9 +121,9 @@ _**DIP 2への適用**_：
 * スナップショットの提案は、提案ごとに最大10アクションまで、1つまたは複数のアクションで構成できます。アクションとは、提案で指定された変更を指します。
 * 提案権の最小要件である10k DYDXを満たしている場合、「新しい提案」を選択し、以下のコンテンツ要件に従ってオープンフィールドに記入してください。
 
-![https://snapshot.org/#/dydxgov.eth/create](<../.gitbook/assets/Untitled 10 (1) (2)>)
+![https://snapshot.org/#/dydxgov.eth/create](../.gitbook/assets/2-snapshot-create-poll-1.png)
 
-![https://forums.dydx.community/new/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 11 (1)>)
+![https://forums.dydx.community/new/snapshot/dydxgov.eth](../.gitbook/assets/2-snapshot-create-poll-2.png)
 
 DRCのスナップショット選択のコンテンツ要件：
 
@@ -138,11 +138,11 @@ DRCのスナップショット選択のコンテンツ要件：
 
 * 二者択一オプション明確化のため、アドレスは提案への賛成または反対のいずれかを選択します。
 
-![](<../.gitbook/assets/Untitled 12 (1) (1)>)
+![](../.gitbook/assets/2-snapshot-binary-voting.png)
 
 * 選択後、関連情報はIPFSに保存されます。レポートが自動的に生成され、ダウンロードできます。
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 13 (1) (1)>)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-snapshot-ipfs.png)
 
 ### **ステップ3 - DIPの作成（オフチェーン提案）**
 
@@ -154,11 +154,11 @@ _**DIP 2への適用**_：
 
 この場合、[DIP](https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md)は@Jteamdcによって執筆されました。
 
-![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](<../.gitbook/assets/Untitled 14 (1) (1)>)
+![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](../.gitbook/assets/2-dip-example.png)
 
 DIP 2のドラフト提案が完了したとき、@Jteamdcは使用中のブランチからdYdX FoundationのPending-DIPブランチに対して、\*\*\*\*[のプルリクエスト](https://github.com/dydxfoundation/dip/pull/8)を作成しました。dYdX Foundationが提案を確認し、署名した後、Pending-DIPの変更はマスターブランチに統合されました。
 
-![https://github.com/dydxfoundation/dip/pulls](<../.gitbook/assets/21 (2) (3).png>)
+![https://github.com/dydxfoundation/dip/pulls](../.gitbook/assets/2-dip-pending-merge.png)
 
 流動性プロバイダー報酬のしきい値を引き下げる必要はないため、このプロセスは完了し、変更は次のエポック期間に有効になります。
 
@@ -168,28 +168,28 @@ DIP 2のドラフト提案が完了したとき、@Jteamdcは使用中のブラ�
 * Githubの口座に登録：[https://github.com/signup](https://github.com/signup) 。
 * [こちら](https://github.com/dydxfoundation/dip)からdYdXのレポページに移動し、Github口座の下でレポをフォークします。
 
-![https://github.com/dydxfoundation/dip](<../.gitbook/assets/image (104).png>)
+![https://github.com/dydxfoundation/dip](../.gitbook/assets/2-dip-create-1.png)
 
 * フォークされたDIPレポで、DIPの内容を含むディレクトリに移動します：[https://github.com/\[user\_name\]/dip/tree/master/content/dips](https://github.com/yt8073/dip/tree/master/content/dips) 。
 
-![](<../.gitbook/assets/Untitled 16 (1)>)
+![](../.gitbook/assets/2-dip-create-2.png)
 
 * dipsフォルダを選択：[https://github.com/\[user\_name\]/dip/tree/master/content](https://github.com/Jwatts15/dip/tree/master/content) 。
 
-![](<../.gitbook/assets/Untitled 17 (1) (1)>)
+![](../.gitbook/assets/2-dip-create-3.png)
 
 [こちら](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md)のdipsフォルダには、DIPテンプレートをフォローしているこれまでの提案のディレクトリが含まれています。
 
-![https://github.com/dydxfoundation/dip/tree/master/content/dips](<../.gitbook/assets/image (98).png>)
+![https://github.com/dydxfoundation/dip/tree/master/content/dips](../.gitbook/assets/2-dip-create-4.png)
 
 * 提案のドラフティングを開始する前に、フォークされたブランチが最新のマスターブランチに対応していることを確認してください。DIPレポの旧バージョンを使用している場合、フォークされたバージョンが最新の変更に対応していることを確認してください。フォークされたバージョンのリベーシングについては、こちらから手順を確認できます：[https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master)
 * [DIPテンプレート](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md)を提案の情報を使用して編集します。DIPレポをフォークしていない場合、管理者ではないため、編集アイコンを選択するとマスターからのレポが自動的にフォークされます。
 
-![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](<../.gitbook/assets/Untitled 19 (1) (2)>)
+![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](../.gitbook/assets/2-dip-create-5.png)
 
 * [テンプレート](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md)をフォローし、`content/dips/` ディレクトリのリポジトリのフォークにDIPを追加します。以下のDIPステータスのネーミングコンベンションに従ってください。
 
-![](../.gitbook/assets/20.png)
+![](../.gitbook/assets/2-dip-create-6.png)
 
 DIPステータス：
 
@@ -200,16 +200,16 @@ DIPステータス：
 * 拒否 - 拒否されたDIP。
 * すべてのコンテンツが正しいことを確認した後、dYdX FoundationのPending-DIPブランチに対して、作業ブランチからのプルリクエストを作成します。外部のパーティーがマスターブランチへのマージを希望する場合、IPFSジョブが失敗するため、dYdX Foundationのマスターブランチに対するこのプルリクエストは提出**しないで**ください。一例として、[こちら](https://github.com/dydxfoundation/dip/pull/8)のプルリクエストを使用してください。
 
-![](<../.gitbook/assets/21 (2).png>)
+![](../.gitbook/assets/2-dip-status-1.png)
 
 * レビュー後、dYdX FoundationはPending-DIPブランチからマスターブランチへの変更をマージします。
 
-![https://github.com/dydxfoundation/dip/pull/9](../.gitbook/assets/22.png)
+![https://github.com/dydxfoundation/dip/pull/9](../.gitbook/assets/2-dip-status-2.png)
 
 * **マージ**前にジョブが自動的に実行され、IPFSにDIPをアップロードします。DIPのアップロードはこちらから確認できます：[https://github.com/dydxfoundation/dip/pull/9/checks](https://github.com/dydxfoundation/dip/pull/9/checks)
 * DIPは、[**`dip`**](https://github.com/dydxfoundation/dip)`/`[`content`](https://github.com/dydxfoundation/dip/tree/master/content)`/`**`dips`**`/`の下に追加されます。
 
-![](../.gitbook/assets/23.png)
+![](../.gitbook/assets/2-dip-status-3.png)
 
 この提案ではオンチェーンでのスマートコントラクト変更の必要はないため、このプロセスは完了し、変更は次のエポック期間に有効になります。
 
@@ -250,45 +250,45 @@ _**DIP 3への適用：**_
 
 この場合、[DIP](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md)はParadigmのDan Robinson氏によって執筆されました。この提案にはオンチェーンのスマートコントラクトの変更が含まれており、特定のスマートコントラクトの実装リンクも含まれていました。
 
-![https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md](../.gitbook/assets/24.png)
+![https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md](../.gitbook/assets/2-dip3-example-1.png)
 
 SafetyModuleV2.solのデプロイメントコントラクトからセーフティフォルダに移動すると、提案の実行方法に関する具体的かつ詳細な記述が含まれているREADMEが表示されます。
 
-![](../.gitbook/assets/25.png)
+![](../.gitbook/assets/2-dip3-example-1a.png)
 
 READMEに含まれる提案の実装手順はこちらです：[https://github.com/dydxfoundation/governance-contracts/tree/master/safet](https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety)y 。
 
-![https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](../.gitbook/assets/26.png)
+![https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](../.gitbook/assets/2-dip3-example-2.png)
 
-![https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](../.gitbook/assets/27.png)
+![https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](../.gitbook/assets/2-dip3-example-3.png)
 
-![https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](../.gitbook/assets/28.png)
+![https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](../.gitbook/assets/2-dip3-example-4.png)
 
 #### _オンチェーンDIP（WIP）のドラフト方法：_
 
 * 新しいウォレットでDIPを作成します。デプロイメントプロセスでは環境変数としてシードフレーズを入力する必要があるため、オンチェーンDIPの作成にはワンオフウォレットを使用することを推奨します。
 * DIPの作成に必要な提案権をワンオフウォレットに委任します。[こちら](https://dydx.community/dashboard)から提案権を委任できます。提案権の異なるしきい値は以下のとおりで、[こちら](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)からご覧いただけます。
-   * ショートタイムロック：総供給量の0.5％（提案権：5M）
-   * Starkwareの実行管理者：総供給量の0.5％（提案権：5M）
-   * ロングタイムロックの実行管理者：総供給量の2.0％（提案権：20M）
-   * Merkle Pauserの実行管理者：総供給量の0.5％（提案権：5M）
+  * ショートタイムロック：総供給量の0.5％（提案権：5M）
+  * Starkwareの実行管理者：総供給量の0.5％（提案権：5M）
+  * ロングタイムロックの実行管理者：総供給量の2.0％（提案権：20M）
+  * Merkle Pauserの実行管理者：総供給量の0.5％（提案権：5M）
 * Alchemyキーを作成します。Alchemyキーでは、イーサリアムとのインタラクションやスマートコントラクトのデプロイのためにイーサリアムノードを実行する必要はありません。Alchemyキーの作成ガイドは[こちら](https://docs.alchemy.com/alchemy/introduction/getting-started)からご覧いただけます。
 
-![https://docs.alchemy.com/alchemy/introduction/getting-started](../.gitbook/assets/29.png)
+![https://docs.alchemy.com/alchemy/introduction/getting-started](../.gitbook/assets/2-draft-dip-example-1.png)
 
 イーサリアムと「開始」を選択します。
 
-![](../.gitbook/assets/30.png)
+![](../.gitbook/assets/2-draft-dip-example-2.png)
 
-必要な情報を入力し、Ropsten Networkと「アプリの作成」を選択します。
+必要な情報を入力し、Goerli Network、「アプリの作成」の順に選択します。
 
-![](../.gitbook/assets/31.png)
+<figure><img src="../.gitbook/assets/2-draft-dip-example-3.png" alt=""><figcaption></figcaption></figure>
 
 口座を作成した後、[こちら](https://docs.alchemy.com/alchemy/introduction/getting-started)から設定指示に従います。
 
 「4. 構築の開始」で「最初のスマートコントラクトのデプロイを行う」を選択し、ガイドに従います。
 
-![https://docs.alchemy.com/alchemy/introduction/getting-started](<../.gitbook/assets/32 (1).png>)
+![https://docs.alchemy.com/alchemy/introduction/getting-started](../.gitbook/assets/2-draft-dip-example-4.png)
 
 * Windowsのコマンドラインからデフォルトのターミナルアプリを開くか、iTermをダウンロードします：[https://iterm2.com/](https://iterm2.com/) 。
 * Node.jsおよびnpmのダウンロードやインストールが済んでいない場合、以下から行います：[https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) 。
@@ -296,11 +296,11 @@ READMEに含まれる提案の実装手順はこちらです：[https://github.c
 * 提案されたスマートコントラクトの実装をドラフトします。
 * IPFSのハッシュが自動的に生成され、[こちら](https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips)から入手できます。IPFSのハッシュは、ファイル名`DIP-[新しいDIP #]-ipfs-hashes.json`のdYdX Foundationのディレクトリに含まれます。
 
-![https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips](<../.gitbook/assets/image (100).png>)
+![https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips](../.gitbook/assets/2-draft-dip-example-5.png)
 
 * 新しいファイル（`DIP-[新しいDIP #]-ipfs-hashes.json`）を選択した後、エンコードされたHashを使用していることを確認します。
 
-![https://github.com/dydxfoundation/dip/blob/master/content/ipfs-dips/DIP-3-Ipfs-hashes.json](<../.gitbook/assets/image (102).png>)
+![https://github.com/dydxfoundation/dip/blob/master/content/ipfs-dips/DIP-3-Ipfs-hashes.json](../.gitbook/assets/2-draft-dip-example-6.png)
 
 ### **ステップ2 - オンチェーンDIPの提出**
 
@@ -312,7 +312,7 @@ _**DIP 3への適用：**_
 
 Paradigmのチームが`SafetyModuleV2.sol`のソリディティコードを決定しました。
 
-![https://github.com/dydxfoundation/governance-contracts/blob/master/contracts/safety/v2/SafetyModuleV2.sol](../.gitbook/assets/34.png)
+![https://github.com/dydxfoundation/governance-contracts/blob/master/contracts/safety/v2/SafetyModuleV2.sol](../.gitbook/assets/2-draft-dip-example-7.png)
 
 Paradigmのチームが、ローカルとフォークされたメインネットの両方でのアップデートをシミュレートしました。その後、テストスイートが実行され、メインネットでのガバナンス提案の実行に続いて完全な機能復元が行われます。
 
@@ -358,9 +358,9 @@ Paradigmのチームが以下のスクリプトを実行することで、スマ
 
 DIPは[https://dydx.community/dashboard](https://dydx.community/dashboard)に同時にポストされました。
 
-![https://dydx.community/dashboard](../.gitbook/assets/35.png)
+![https://dydx.community/dashboard](../.gitbook/assets/2-draft-dip-example-8.png)
 
-![https://dydx.community/dashboard](../.gitbook/assets/36.png)
+![https://dydx.community/dashboard](../.gitbook/assets/2-draft-dip-example-9.png)
 
 dYdXのガバナンスコントラクトは、0x7e9b1672616ff6d6629ef2879419aae79a9018d2: [https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aaae79a9018d2\&p=10](https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10) です。
 
@@ -368,43 +368,43 @@ DIPのデプロイはEtherscan：[https://etherscan.io/tx/0x5f2472e7dfcbf50628d2
 
 このDIPは2021年11月1日、ブロック13532376で作成されました。将来の6,570ブロックの場合、DIPのステータスは「保留」です。
 
-![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/37.png)
+![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/2-draft-dip-example-10.png)
 
 DYDXの保有者は、ブロック13538946の「アクティブ」状態に移行した時にDIPを選択できました。
 
 最初の選択は2021年11月2日午後5時51分22秒（UTC）に行われ（ブロック13538959）、オンチェーンDIPが作成された時点から6,583ブロックでした。
 
-![https://etherscan.io/tx/0xc3d0ace92be4ac3da40dc17f45a573d4dbd83d31f7a95733071de883ded67a4f](../.gitbook/assets/38.png)
+![https://etherscan.io/tx/0xc3d0ace92be4ac3da40dc17f45a573d4dbd83d31f7a95733071de883ded67a4f](../.gitbook/assets/2-draft-dip-example-11.png)
 
 ロングタイムロックに関する10日間の選択期間後、コミュニティメンバーはキューを呼び出すことで提案を7日間のタイムロック遅延に移行させることができます。DIP 3では、コミュニティメンバーがキューを呼び出すのに約3日間かかりました。
 
-![https://etherscan.io/tx/0x3402372aa549d2270a6b5d4f84884ae2bfec6922fc808703b47d53b27d288c81](../.gitbook/assets/39.png)
+![https://etherscan.io/tx/0x3402372aa549d2270a6b5d4f84884ae2bfec6922fc808703b47d53b27d288c81](../.gitbook/assets/2-draft-dip-example-12.png)
 
 7日間のタイムロック遅延の後、DIPはオンチェーンで実行されました。
 
-![https://etherscan.io/tx/0xfd332147899fd3ef1db62f262ffae92bbd7d18a5ed4e142eb0407a173dbf0453](../.gitbook/assets/40.png)
+![https://etherscan.io/tx/0xfd332147899fd3ef1db62f262ffae92bbd7d18a5ed4e142eb0407a173dbf0453](../.gitbook/assets/2-draft-dip-example-13.png)
 
 オンチェーンでDIPが実行された時点で、[https://dydx.community/dashboard/proposal/3](https://dydx.community/dashboard/proposal/3) のDIPステータスは「実行済み」に更新されました。
 
-![](../.gitbook/assets/41.png)
+![](../.gitbook/assets/2-draft-dip-example-14.png)
 
 注：（1）提案はタイムロックの遅延直後に開始される7日間の期間内に実行される必要があり、（2）提案を行うアドレスはDIPが実行されるまでの間、各タイムロックコントラクトで必要な提案権の最小額を維持する必要があります（提案権は5Mまたは20M）。
 
 #### _オンチェーンDIPの提出方法：_
 
 * DIPを作成するのに十分な提案権を有していることを確認します。詳細については「[DIPの作成](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)」をご覧ください。
-   * ショートタイムロックの実行管理者：総供給量の0.5％（提案権：5M）
-   * Starkwareの実行管理者：総供給量の0.5％（提案権：5M）
-   * ロングタイムロックの実行管理者：総供給量の2.0％（提案権：20M）
-   * Merkle Pauserの実行管理者：総供給量の0.5％（提案権：5M）
+  * ショートタイムロックの実行管理者：総供給量の0.5％（提案権：5M）
+  * Starkwareの実行管理者：総供給量の0.5％（提案権：5M）
+  * ロングタイムロックの実行管理者：総供給量の2.0％（提案権：20M）
+  * Merkle Pauserの実行管理者：総供給量の0.5％（提案権：5M）
 * ガス代を支払うためのETHがウォレットにあることを確認します。
 * イーサリアムメインネットネットワークのAlchemyでアプリを作成します。
 
-![https://dashboard.alchemyapi.io/](../.gitbook/assets/42.png)
+![https://dashboard.alchemyapi.io/](../.gitbook/assets/2-draft-dip-example-15.png)
 
 * アプリが作成された後、「キーを表示」をクリックしてAlchemyキー（7LOaQtguSm2kSEcFXQH88B）を入手します：[https://eth-mainnet.alchemyapi.io/v2/7LOaQtgusm2kSEcFXQH88B-EN_K7t\_ul](https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul)
 
-![https://dashboard.alchemyapi.io/apps/xogmjmlex8tlmr95](<../.gitbook/assets/image (105).png>)
+![https://dashboard.alchemyapi.io/apps/xogmjmlex8tlmr95](../.gitbook/assets/2-draft-dip-example-16.png)
 
 * Node.jsとnpmをダウンロードおよびインストールします：[https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) 。
 * Hardhat：[https://hardhat.org/tutorial/setsing-up-the-environment.html](https://hardhat.org/tutorial/setting-up-the-environment.html) をインストールします。
@@ -417,11 +417,11 @@ DYDXの保有者は、ブロック13538946の「アクティブ」状態に移�
 * ガス代を支払うためのETHがウォレットにあることを確認します。
 * DIPを以下から選ぶことで、アクティブDIPを選択することができます：[https://dydx.community/dashboard](https://dydx.community/dashboard) 。
 
-![](../.gitbook/assets/43.png)
+![](../.gitbook/assets/2-draft-dip-example-17.png)
 
 * 将来的には、コモンウェルスでのアクティブDIPの選択もできるようになる可能性があります。
 
-![](../.gitbook/assets/44.png)
+![](../.gitbook/assets/2-draft-dip-example-18.png)
 
 選択期間は提案の種類によって異なります。詳細については「[DIPの作成](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)」で確認できます。
 
@@ -437,23 +437,23 @@ DYDXの保有者は、ブロック13538946の「アクティブ」状態に移�
 * Ethを含む互換性のあるウォレットを使用していることを確認します。
 * Etherscanの「コントラクト」タブに移動し、「コントラクトを書く」をクリックします。ガバナンスコントラクトは[こちら](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract)をご覧ください。
 
-![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/50.png)
+![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/2-draft-dip-example-queue-1.png)
 
 * キューを選択し、「proposalId」を提出します。
 
-![](<../.gitbook/assets/46 (2).png>)
+![](../.gitbook/assets/2-draft-dip-example-queue-2.png)
 
 「proposalId」はDIPが作成された時点で、Etherscanで確認できます：[https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad) 。
 
 * 「クリックして詳細を見る」を選択します。
 
-![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/47.png)
+![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/2-draft-dip-example-queue-3.png)
 
 * 「入力データのデコード」を選択します。
 
-![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/48.png)
+![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/2-draft-dip-example-queue-4.png)
 
-![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/49.png)
+![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/2-draft-dip-example-queue-5.png)
 
 #### _提案の実行方法：_
 
@@ -461,11 +461,11 @@ DYDXの保有者は、ブロック13538946の「アクティブ」状態に移�
 
 * Etherscanの「コントラクト」タブに移動し、「コントラクトを書く」をクリックします。ガバナンスコントラクトは[こちら](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract)をご覧ください。
 
-![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/45.png)
+![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/2-draft-dip-example-execute-1.png)
 
 * 「実行」を選択し、「proposalId」を提出します。
 
-![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/51.png)
+![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/2-draft-dip-example-execute-2.png)
 
 * 上記の手順（「_提案をキューする方法_」）に続いて、「proposalId」を見つけます。
 * 「payableAmount (ether)」に「0」を入力します。
