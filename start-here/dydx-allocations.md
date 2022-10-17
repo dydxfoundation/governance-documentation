@@ -9,25 +9,31 @@ description: DYDXトークンの割り当て。
 合計で`10億DYDX`が作成され、**2021年8月3日午後3時（協定世界時：UTC）**から5年間以上利用可能になります。DYDX総供給量に関する最初5年間の割り当ては、以下のとおりです。
 
 * コミュニティには以下の通り**50.00％**（`5億DYDX`）。
-   * 支払い済み手数料およびオープンインタレスト（建玉）の組み合わせに基づき、dYdXレイヤ2プロトコルでトレードするユーザーには**25.00％**（`2億5,000万DYDX`）（[**取引報酬**](../rewards/trading-rewards.md)）。
-   * dYdXレイヤ2プロトコルで特定の取引マイルストーンを達成した過去のユーザーには**7.50％**（`7,500万DYDX`）（[**遡及マイニング報酬**](../rewards/retroactive-mining-rewards.md)）。
-   * 稼働時間、両方向のデプス、売買スプレッド、およびサポートされているマーケット数の組み合わせによる報酬計算公式に基づき、流動性プロバイダーには**7.50％**（`7,500万DYDX`）（[**流動性プロバイダー報酬**](../rewards/liquidity-provider-rewards.md)）。
-   * コミュニティ基金には**5.00％**（`5,000万DYDX`）（[**基金**](community-treasury.md)）。
-   * 流動性ステーキングプールにUSDCをステーキングするユーザーには**2.50％**（`2,500万DYDX`）（[**流動性モジュール**](../staking-pools/liquidity-staking-pool.md)）。
-   * セーフティステーキングプールにDYDXをステーキングするユーザーには**2.50％**（`2,500万DYDX`）（[**セーフティモジュール**](../staking-pools/safety-staking-pool.md)）。
-* 過去の投資家には**27.73％**（`277,295,070DYDX`）。
+  * dYdXレイヤー2プロトコルで取引を行うユーザーには、支払われた手数料に基づいて**25.00％**（`2億5,000万DYDX`）（[**取引報酬**](../rewards/trading-rewards.md)）。[DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)において、dYdXコミュニティは取引報酬を25％引き下げることに[合意しました](https://dydx.community/dashboard/proposal/8)。その結果、所与のエポックで配分される取引報酬はエポック15において383万5,616DYDXから287万6,712DYDXに減少しました。残りの95万8,904DYDXは報酬基金に加算され、dYdXコミュニティが[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)で利用できるようになります。
+  * dYdXレイヤー2プロトコルで特定の取引マイルストーンを達成した過去のユーザーには**7.50％**（`7,500万DYDX`）（[**遡及マイニング報酬**](../rewards/retroactive-mining-rewards.md)）。
+  * 稼働時間、両方向のデプス、売買スプレッド、およびサポートされているマーケット数の組み合わせによる報酬計算公式に基づき、流動性プロバイダーには**7.50％**（`7,500万DYDX`）（[**流動性プロバイダー報酬**](../rewards/liquidity-provider-rewards.md)）。
+  * コミュニティ基金（[**基金**](community-treasury.md)）には**5.00％**（`5,000万DYDX`）。
+  * 流動性ステーキングプールにUSDCをステーキングするユーザーには**2.50％**（`2,500万DYDX`）（[**流動性モジュール**](../staking-pools/liquidity-staking-pool.md)）。[DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)において、dYdXコミュニティはUSDCのステーキングに関連する報酬を0にすることに[合意しました](https://dydx.community/dashboard/proposal/7)。これまでUSDCステーカーに対して提供されていた38万3,562DYDXは報酬基金に加算され、dYdXコミュニティが[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)で利用できるようになります。
+  * セーフティステーキングプールにDYDXをステーキングするユーザーには**2.50％**（`2,500万DYDX`）（[**セーフティモジュール**](../staking-pools/safety-staking-pool.md)）。
+* 過去の投資家には**27.73％**（`2億7,729万5,070DYDX`）。
 * dYdX TradingまたはFoundationの創設者、従業員、アドバイザー、コンサルタントには**15.27％**（`1億5,270万4,930DYDX`）。
 * dYdX TradingまたはdYdX Foundationの将来の従業員およびコンサルタントには**7.00％**（`7,000万DYDX`）。
 
-![](<../.gitbook/assets/DYDX Allocations (Initial 5 Years) (1).png>)
+![](../.gitbook/assets/1-dydx-allocations-initial-5-years.png)
 
 立ち上げから5年後以降、DYDXの供給量を増やすため、コミュニティがプロトコルの開発および成長を継続するリソースを確保するように、ガバナンスにより年間最大`2％`のパーペチュアルインフレ率を使用できます。インフレは、ガバナンス提案を通じて制定され、年間`2％`に制限されます。
 
-![](<../.gitbook/assets/Allocation 10 Years Inflation (1) (1).png>)
+![](../.gitbook/assets/1-allocation-10-years-inflation.png)
 
 コミュニティの割り当ては上記のように設定されていますが、DYDX保有者は今後のコミュニティの割り当ての使用方法について、ガバナンスを通じて完全な管理を保有しています。
 
 ## **よくある質問**
+
+### dYdXの割り当ては変更できますか？
+
+はい。dYdXコミュニティは[立ち上げ時に存在するすべての報酬とプール](../voting-and-governance/governance-parameters.md)を変更できます。これまでに、dYdXコミュニティは取引報酬を25％引き下げて、USDCのステーキング報酬を0にすることに合意しています。
+
+[DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)において、dYdXコミュニティは取引報酬を25％引き下げることに[合意しました](https://dydx.community/dashboard/proposal/8)。その結果、所与のエポックで配分される取引報酬はエポック15において383万5,616DYDXから287万6,712DYDXに減少しました。残りの95万8,904DYDXは報酬基金に加算され、dYdXコミュニティが[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)で利用できるようになります\\。[DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)において、dYdXコミュニティはUSDCのステーキングに関連する報酬を0にすることに[合意しました](https://dydx.community/dashboard/proposal/7)。これまでUSDCステーカーに対して提供されていた38万3,562DYDXは報酬基金に加算され、dYdXコミュニティが[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)で利用できるようになります。
 
 ### **新しいDYDXトークンは作成できますか？**
 
@@ -60,4 +66,4 @@ dYdX Foundationでは、これらの要件を遵守しない投資家に対し�
 
 以下のグラフは、時間の経過に伴う総流動化供給量を示しています。
 
-![](<../.gitbook/assets/Liquid Supply Schedule (2) (1).png>)
+![](../.gitbook/assets/1-liquid-supply-schedule.png)
