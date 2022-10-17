@@ -1,4 +1,4 @@
-# Table of contents
+# 目次
 
 * [イントロダクション](README.md)
 
@@ -39,8 +39,9 @@
 
 ## 外部リンク
 
-* [フォーラム](http://forums.dydx.community)
-* [dYdXレイヤ2](https://trade.dydx.exchange)
-* [dYdXレイヤ2 API](https://docs.dydx.exchange)
+* [フォーラム](http://forums.dydx.community/)
+* [dYdXレイヤ2](https://trade.dydx.exchange/)
+* [dYdXレイヤ2 API](https://docs.dydx.exchange/)
 * [dYdX Trading Inc.](https://dydx.exchange)
-* [メトリックダッシュボード](http://metrics.dydx.exchange)
+* [メトリックダッシュボード](http://metrics.dydx.exchange/)
+* [LP報酬ダッシュボード](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true)
