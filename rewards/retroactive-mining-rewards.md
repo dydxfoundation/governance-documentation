@@ -17,9 +17,9 @@ dYdXレイヤ2プロトコルの成功は、過去3年間にdYdXレイヤ2プロ
 
 DYDXは、**2021年7月26日午前0時（UTC）**に終了するスナップショットに基づき、dYdXプロトコルのすべての過去ユーザー（米国を含むDYDXが許可されていない国や地域に所在するユーザーを除きます）に割り当てられています。すべてのdYdXプロトコルにおけるユーザーの過去の活動を考慮して、5つの割り当て割り当て階層があります。
 
-DYDXの請求にあたり、過去ユーザーは最初の28日間のエポック（エポック0）において、[レイヤ2パーペチュアル](https://trade.dydx.exchange)のマイルストーンを以下のとおりに達成する必要があります。
+DYDXの請求にあたり、過去ユーザーは最初の28日間のエポック（エポック0）において、[レイヤー2パーペチュアル](https://trade.dydx.exchange)のマイルストーンを以下のとおりに達成する必要があります。
 
-![](../.gitbook/assets/buckets.png)
+![](../.gitbook/assets/1-retroactive-buckets.png)
 
 dYdXレイヤ2プロトコルの履歴ボリュームは、ユーザーのクレームマイルストーンにカウントされます。dYdX Foundationでは、各ユーザーの進行中のボリュームが可視化されていないため、クレームマイルストーンの進捗状況の確認は、[trade.dydx.exchange/portfolio/rewords](https://trade.dydx.exchange/portfolio/rewards)のみになります。
 
@@ -37,9 +37,9 @@ dYdXレイヤ2プロトコルの履歴ボリュームは、ユーザーのクレ
 
 ### 遡及報酬プログラムでどれくらいDYDXを獲得できたのかを知ることはできますか？
 
-![View claim milestone and progress](<../.gitbook/assets/image (23).png>)
+![クレームマイルストーンと進捗を確認](../.gitbook/assets/1-retroactive-earn-view.png)
 
-dYdXの過去ユーザーは、[**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)にて、過去のアクティビティや遡及マイニングの階層を確認することができます。DYDXを獲得するには、ユーザーは[**trade.dydx.exchange**](https://trade.dydx.exchange)のdYdXレイヤ2プロトコルでのトレードにより、基準値を満たす必要があります。
+dYdXの過去ユーザーは、[**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)にて、過去のアクティビティや遡及マイニングの階層を確認することができます。DYDXを獲得するには、ユーザーは[**trade.dydx.exchange**](https://trade.dydx.exchange/)のdYdXレイヤ2プロトコルでのトレードにより、基準値を満たす必要があります。
 
 ### クレームマイルストーンに到達しない場合はどのようになりますか？
 
