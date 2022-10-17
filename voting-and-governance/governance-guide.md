@@ -1,264 +1,262 @@
 ---
 description: >-
-  A step-by-step overview of the governance process: DRC creation, Snapshot poll
-  creation, DIP creation, voting on a Snapshot poll, voting on a DIP, queueing a
-  DIP, and executing a DIP.
+  Eine schrittweise Übersicht über die Governance-processDRC-Erstellung, die Erstellung von Snapshot-Umfragen, die Erstellung von DIPs, die Abstimmungen über Snapshot-Umfragen, die Abstimmung über einen DIP, das in die Warteschlange-Stellen eines DIPs und die Ausführung eines DIPs.
 ---
 
-# Governance Guide
+# Governance-Leitfaden
 
-The dYdX Foundation created this guide to assist the dYdX community with understanding the dYdX governance process. The guide provides a step-by-step overview of:
+Die dYdX Foundation hat diesen Leitfaden erstellt, um der dYdX-Community zu einem besseren Verständnis der dYdX-Governance-Prozesse zu verhelfen. Der Leitfaden bietet eine schrittweise Übersicht über:
 
-* [Forum Discussions (off-chain)](governance-guide.md#step-1-forum-discussions-drc-creation-off-chain-and-drc-feedback)
-* [DRC creation (off-chain)](governance-guide.md#step-1-forum-discussions-drc-creation-off-chain-and-drc-feedback)
-* [Snapshot poll creation (off-chain)](governance-guide.md#step-2-drc-snapshot-polling-off-chain)
-* [Voting on a Snapshot poll](governance-guide.md#how-to-vote-on-a-snapshot-poll)
-* [DIP creation (off-chain)](governance-guide.md#step-3-dip-creation-off-chain-proposal)
-* [DIP creation (on-chain)](governance-guide.md#step-1-on-chain-dip-drafting)
-* [Voting on a DIP (on-chain)](governance-guide.md#how-to-vote-on-a-dip)
-* [Queueing a DIP (on-chain)](governance-guide.md#how-to-queue-a-proposal)
-* [Executing a DIP (on-chain)](governance-guide.md#how-to-execute-a-proposal)
+* [Forumsdiskussionen (off-chain)](governance-guide.md#step-1-forum-discussions-drc-creation-off-chain-and-drc-feedback)
+* [DRC-Erstellung (off-chain)](governance-guide.md#step-1-forum-discussions-drc-creation-off-chain-and-drc-feedback)
+* [Erstellung von Snapshot-Umfragen (off-chain)](governance-guide.md#step-2-drc-snapshot-polling-off-chain)
+* [Abstimmungen über die Snapshot-Umfrage](governance-guide.md#how-to-vote-on-a-snapshot-poll)
+* [Erstellung eines DIPs (off-chain)](governance-guide.md#step-3-dip-creation-off-chain-proposal)
+* [Erstellung eines DIPs (on-chain)](governance-guide.md#step-1-on-chain-dip-drafting)
+* [Abstimmungen über einen DIP (on-chain)](governance-guide.md#how-to-vote-on-a-dip)
+* [In die Warteschlange-Stellen eines DIPs (on-chain)](governance-guide.md#how-to-queue-a-proposal)
+* [Durchführung eines DIPs (on-chain)](governance-guide.md#how-to-execute-a-proposal)
 
-The two examples featured in the guide are _DIP 2 (off-chain proposal) - Reducing Liquidity Provider Rewards Threshold_ and _DIP 3 (on-chain proposal) - Safety Module Restoration_.
+Die beiden im Leitfaden aufgeführten Beispiele sind _DIP 2 (off-chain Vorschlag) – zur Senkung des Schwellenwertes für Liquidity Provider Rewards_ und _DIP 3 (on-chain Vorschlag) – zur Wiederherstellung von Sicherheitsmodulen_.
 
-## DIP 2 (Off-Chain Proposal) - Reducing Liquidity Provider Rewards Threshold
+## DIP 2 (Off-Chain Vorschlag) - Senkung des Schwellenwertes für Liquidity-Provider-Prämien
 
-_**Summary:**_
+_**Zusammenfassung:**_
 
-In Epoch 6, the dYdX community voted on [Snapshot ](https://commonwealth.im/dydx/snapshot/dydxgov.eth/0x785066561be1e5d170eb28960da5ef2643ee0d0c3d590fd797c028512cc6be43)to reduce the LP rewards volume threshold for market makers from 1% to 0.25%. The reduction of the LP rewards threshold from 5% to 1% in Epoch 2 followed the same process as the reduction in Epoch 6 (1% to 0.25%). The step-by-step overview to reduce the LP rewards volume threshold from 5% to 1% is included below.
+In der Epoche 6 beschloss die dYdX-Community in einer Abstimmung auf [Snapshot](https://commonwealth.im/dydx/snapshot/dydxgov.eth/0x785066561be1e5d170eb28960da5ef2643ee0d0c3d590fd797c028512cc6be43), dass der Schwellenwert des LP-Reward-Volumens für Marktmacher von 1 % auf 0,25 % gesenkt werden sollte. Die Senkung des Schwellenwertes für LP-Prämien von 5 % auf 1 % in Epoche 2 folgte demselben Prozess wie bei der Senkung in Epoche 6 (1 % auf 0,25 %). Die schrittweise Übersicht darüber, wie der Schwellenwert für das LP-Prämien Volumen von 5 % auf 1 % gesenkt wurde, ist im Folgenden eingefügt.
 
-The majority of the community (399 voters and 86% of DYDX) voted on [Snapshot](https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN) to reduce the volume threshold to obtain Liquidity Provider rewards from 5% to 1%. An [off-chain DIP](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-2.md) to reduce the Liquidity Provider rewards volume threshold for market makers from 5% to 1% was submitted by Jacob Goh (jteam0x) at DeFiance Capital. Market makers that met the 1% threshold in Epoch 2 were eligible to earn Liquidity Provider rewards in Epoch 3. The proposal did not require any on-chain smart contract changes.
+Die Mehrheit der Community (399 Wähler und 86 % der DYDX) beschloss bei der Abstimmung auf [Snapshot](https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN), die Volumenschwelle abzusenken, um die Liquiditiy-Provider-Prämien von 5 % auf 1 % zu setzen. Ein [off-chain DIP](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-2.md) zur Senkung des Schwellenwertes des Liquidity-Provider-Prämien Volumens für Marktmacher von 5 % auf 1 % wurde von Jacob Goh (jteam0x) von DeFiance Capital eingereicht. Marktmacher, die die Schwelle von 1 % in Epoche 2 erfüllten, waren berechtigt, in Epoche 3 Liquidity-Provider-Prämien zu erhalten. Der Vorschlag erforderte keine Änderungen im on-chain Smart Contract.
 
-_**Background:**_
+_**Hintergrund:**_
 
-As part of the Liquidity Provider [rewards program](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards), 1,150,685 DYDX is distributed per epoch (28 days) to Liquidity Providers who market make for the protocol. Rewards are distributed based on a formula rewarding a combination of uptime, two-sided depth, bid-ask spreads, and the number of markets supported. To be eligible for this rewards program, liquidity providers need to provide a minimum percentage of the total maker volume during the preceding epoch.
+Im Rahmen des Liquidity Provider [Rewardprogrammes](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards) werden 1.150.685 DYDX pro Epoche (28 Tage) an Liquidity Provider, die als Marktmacher für das Protokoll fungieren, ausgeschüttet. Die Prämien werden auf der Grundlage einer Formel ausgeschüttet, die eine Kombination aus Uptime, Two-sided Depth, Bid-Ask-Spreads und der Anzahl der unterstützten Märkte belohnt. Um für dieses Prämienprogramm infrage zu kommen, müssen Liquiditätsanbieter in der vorhergehenden Epoche einen Mindestprozentsatz des gesamten Marktmacher-Volumens bereitgestellt haben.
 
-The dYdX community has "immediate and irrevocable control over" the Liquidity Provider rewards threshold. The full list of parameters that the community controls is linked [here](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+Die dYdX-Community hat „sofortige und unwiderrufliche Kontrolle" über den Schwellenwert der Liquidity-Provider-Prämien. Die vollständige Liste der Parameter, die unter der Kontrolle der Community stehen, ist [hier](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verlinkt.
 
-The community was motivated to lower the Liquidity Provider rewards threshold because it would incentivize new Market Makers and small to medium size Market Makers to increase liquidity on the dYdX platform. Further, increasing the number of Market Makers on the platform helps the dYdX protocol become more decentralized.
+Die Community beabsichtigte, den Schwellenwert für Liquiditätsanbieter zu senken, weil auf diese Weise neue Marktmacher und kleine bis mittlere Marktmacher Anreize dazu bekommen würden, die Liquidität auf der dYdX-Plattform zu erhöhen. Darüber hinaus trägt eine zunehmende Anzahl von Marktmachern auf der Plattform dazu bei, dass das dYdX-Protokoll dezentraler wird.
 
-Next, we provide a step-by-step overview of how dYdX governance functions in practice. More information about the dYdX governance process is linked [here](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
+Als Nächstes geben wir einen schrittweisen Überblick darüber, wie die dYdX-Governance in der Praxis funktioniert. Weitere Informationen über Prozesse in der dYdX-Governance finden Sie [hier](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
 
-### **STEP 1 - Forum Discussions, DRC Creation (Off-Chain), and DRC Feedback**
+### **STEP 1 - Forumsdiskussionen, DRC-Erstellung (Off-Chain) und DRC Feedback**
 
-_**Description:**_
+_**Beschreibung:**_
 
-The dYdX Governance Process is fueled by [governance forums](https://forums.dydx.community/). Community members post and comment on discussion threads to reach a rough consensus off-chain. More information about forum discussions and DRC Creation is linked [here](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
+Der dYdX-Governance-Prozess wird von [Governance-Foren](https://forums.dydx.community/) am Leben erhalten. Die Community-Mitglieder posten und kommentieren zu Diskussionsthemen, um off-chain einen groben Konsens zu erreichen. Weitere Informationen über Forumsdiskussionen und zur DRC-Erstellung finden [Sie hier](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
 
-_**Application to DIP 2:**_
+_**Bewerbung auf DIP 2:**_
 
-Su Zhu (zhusu) from Three Arrows Capital created an [off-chain Forum Discussion](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/) to lower the Liquidity Provider Rewards Threshold. Various community members, such as Evgeny from Wintermute, Ben from Kronos, Josh from Sixtant, and many more, participated in the discussion and offered valuable feedback.
+Su Zhu (zhusu) von Three Arrows Capital hat eine [off-chain Forumsdiskussion](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/) erstellt, um den Schwellenwert für Liquidity-Provider-Prämien zu senken. Verschiedene Community-Mitglieder, wie Evgeny aus Wintermute, Ben aus Kronos, Josh aus Sixtant und viele mehr, nahmen an der Diskussion teil und trugen mit ihren wertvollen Anregungen am Prozess bei.
 
 ![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](../.gitbook/assets/2-reduce-mm-incentives.png)
 
 ![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](../.gitbook/assets/2-reduce-mm-incentives-2.png)
 
-#### _How to Post and Comment on Commonwealth:_
+#### _Wie man zur Commonwealth posten und kommentieren kann:_
 
-* Register on Commonwealth with your Ethereum wallet or Github account and join the dYdX community [here](https://forums.dydx.community/).
+* Registrieren Sie sich in der Commonwealth mit Ihrer Ethereum-Wallet oder Ihrem Github-Account und treten Sie [hier](https://forums.dydx.community/) der dYdX-Community bei.
 
 ![https://forums.dydx.community/](../.gitbook/assets/2-register-on-cw.png)
 
-* Select a thread, scroll through the comments, and like or reply to comments by clicking the icons under the respective comment.
+* Wählen Sie ein Diskussionsthema aus, scrollen Sie durch die Kommentare und liken Sie Kommentare oder antworten auf diese, indem sie auf die Symbole unter dem jeweiligen Kommentar klicken.
 
 ![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](../.gitbook/assets/2-select-thread.png)
 
-* Create a new discussion thread or post a DRC by clicking on “New thread” and selecting the topic category.
+* Erstellen Sie einen neuen Diskussionsstrang oder posten Sie eine DRC, indem Sie auf „Neuer Thread“ klicken und die Themenkategorie auswählen.
 
-![https://forums.dydx.community/new/discussion](../.gitbook/assets/2-create-discussion-cw.png)
+![https://forums.dydx.community/new/discussions](../.gitbook/assets/2-create-discussion-cw.png)
 
-* If you are creating a DRC, please follow the template linked [here](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md). As outlined under _DRC Creation_ in the [Proposal Lifecycle](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle), DRCs at a minimum must include the following:
-  * A short and concise title of the DRC.
-  * A short and concise description of the proposal.
-  * The rationale for the DRC (e.g. why?).
-  * The title of the forum post must include DRC: \[insert short title of the DRC] (E.g. DRC: New Market Request).
-  * A community poll that community members can use to vote on improvements off-chain.
+* Wenn Sie eine DRC erstellen, folgen Sie bitte der [hier](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) verlinkten Vorlage. Wie unter _DRC-Erstellung_ im [Proposal-Lebenszyklus](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle) beschrieben, müssen die DRCs mindestens Folgendes enthalten:
+  * Einen kurzen und prägnanten Titel der DRC.
+  * Eine kurze und prägnante Beschreibung des Vorschlags.
+  * Die Begründung für die DRC (z. B. warum?).
+  * Der Titel des Forumsbeitrages muss DRC enthalten: \[Kurztitel der DRC einfügen] (z. B. DRC: Neue Marktanfrage).
+  * Eine Community-Umfrage, welche die Community-Mitglieder dazu verwenden können, über Verbesserungen off-chain abzustimmen.
 
-### **STEP 2 - DRC Snapshot Polling (Off-Chain)**
+### **SCHRITT 2 - DRC-Umfragen auf Snapshot (Off-Chain)**
 
-_**Description:**_
+_**Beschreibung:**_
 
-After the community achieves a rough consensus, a community member with 10K proposing power can create an off-chain vote for the DRC on [Snapshot](https://snapshot.org/#/). [Proposing power](https://docs.dydx.community/dydx-governance/voting-and-governance/voting) gives access to creating and sustaining a proposal. Snapshot is a simple voting interface that allows users to signal sentiment off-chain. Votes on snapshot are weighted by the number of DYDX held by or delegated to the address used to vote. The community member that creates the Snapshot poll must provide details about the DRC, a voting system, vote start date, vote end date, and snapshot block number. The voting period should be 5 days in length and voting should start after a 1 day voting delay. The voting delay provides time for dYdX community members to learn more about the DRC, purchase DYDX, or delegate the voting power of their DYDX. Community members who hold DYDX or who have been delegated voting power before the Snapshot block number are eligible to vote. More information about Snapshot polling is linked [here](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
+Nachdem die Community einen groben Konsens erreicht hat, kann ein Community-Mitglied mit 10K-Vorschlagsrechten, eine off-chain-Abstimmung für die DRC auf [Snapshot](https://snapshot.org/#/) erstellen. [Das Vorschlagsrecht](https://docs.dydx.community/dydx-governance/voting-and-governance/voting) ermöglicht die Ausgestaltung und Aufrechterhaltung eines Vorschlags. Snapshot ist eine einfache Abstimmungsschnittstelle, die es den Benutzern ermöglicht, die Stimmung off-chain zum Ausdruck zu bringen. Die Abstimmungen auf Snapshot werden durch die Anzahl der auf der für die Abstimmung verwendete Adresse gehaltenen oder delegierten DYDX gewichtet. Das Community-Mitglied, das die Snapshot-Umfrage erstellt, muss Details zur DRC, dem Abstimmungssystem, dem Startdatum der Abstimmung, dem Enddatum der Abstimmung sowie der Snapshot-Blocknummer angeben. Die Abstimmungsfrist sollte 5 Tage betragen und die Abstimmung sollte nach einer 1-tägigen Abstimmungsverzögerung beginnen. Die Abstimmungsverzögerung bietet den Community-Mitgliedern Zeit, um mehr über die DRC zu erfahren, DYDX zu kaufen oder die ihre DYDX-Stimmrechte zu delegieren. Diejenigen Community-Mitglieder, die DYDX halten oden denen Stimmrechte vor der Snapshot-Blocknummer übertragen wurden, sind für die Abstimmung zugelassen. Weitere Informationen über den Snapshot-Umfragen finden Sie [hier](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle) verlinkt.
 
-_**Application to DIP 2:**_
+_**Bewerbung auf DIP 2:**_
 
-Community members provided feedback on Su Zhu's post. The following rewards thresholds were suggested by the community:
+Die Community-Mitglieder gaben Feedback zu Su Zhus Beitrag. Folgende Prämie-Schwellenwerte wurden von der Community vorgeschlagen:
 
-* [0.5%](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=body) - Su Zhu from Three Arrows Capital,
-* [1%](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=4972) - Sam from BitTrading,
-* [2.5%](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=4855) - Ben from Kronos / WOO Network, and
-* [5%](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=4872) - Evgeny from Wintermute.
+* [0,5 %](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=body) - Su Zhu von Three Arrows Capital,
+* [1 %](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=4972) - Sam von BitTrading,
+* [2,5 %](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=4855) - Ben aus Kronos / WOO Network, und
+* [5 %](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=4872) - Evgeny aus Wintermute.
 
-Next, Su Zhu created a Snapshot poll with the following options:
+Als Nächstes hat Su Zhu eine Snapshot-Umfrage mit den folgenden Optionen erstellt:
 
-* Lower MM threshold to 1%
-* Lower MM threshold to 2.5%
-* Keep the MM threshold at 5%
+* MM-Schwellenwert auf 1 % senken
+* MM-Schwellenwert auf 2,5 % senken
+* MM-Schwellenwert von 5 % beibehalten
 
 ![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-create-snapshot.png)
 
-#### _How to Vote on a Snapshot Poll:_
+#### _Wie man auf einer Snapshot-Umfrage abstimmen kann:_
 
-* Register on Snapshot with your Ethereum wallet and follow dYdX proposals [here](https://snapshot.org/#/dydxgov.eth). Alternatively, you can vote and create a Snapshot poll directly on [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
+* Registrieren Sie sich auf Snapshot mit Ihrer Ethereum-Wallet und folgen Sie dYdX-Vorschlägen [hier](https://snapshot.org/#/dydxgov.eth). Alternativ können Sie an einer Snapshot-Umfrage direkt auf [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth) teilnehmen und diese dort erstellen.
 
 ![https://snapshot.org/#/dydxgov.eth](../.gitbook/assets/2-register-snapshot.png)
 
-* To view active Snapshot Proposals, go to [Snapshot](https://snapshot.org/#/dydxgov.eth) or [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
+* Um aktive Snapshot-Vorschläge einzusehen, gehen Sie zu [Snapshot](https://snapshot.org/#/dydxgov.eth) oder [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
 
 ![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](../.gitbook/assets/2-view-snapshot.png)
 
-* To vote on active Snapshot polls, you need to hold DYDX or have voting power delegated to your address before the Snapshot block number when the Snapshot poll becomes active.
+* Um in aktiven Snapshot-Umfragen abzustimmen, müssen Sie DYDX halten oder vorher Stimmrechte vor der Snapshot-Blocknummer übertragen bekommen haben, wenn die Snapshot-Umfrage aktiv wird.
 
 ![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-snapshot-vote.png)
 
-* To vote, click on the proposal and select “yes” or “no” followed by “vote.”
+* Um abzustimmen, klicken Sie auf den Vorschlag und wählen „Ja“ oder „Nein“ aus, anschließend klicken Sie auf „Abstimmen“.
 
 ![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-1.png)
 
 ![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-2.png)
 
-#### _How to Create a Poll on Snapshot:_
+#### _Wie man eine Umfrage auf Snapshot erstellt:_
 
-* To create a Snapshot poll, you will need to hold a minimum of 10k DYDX and/or have proposing power delegated to the address that you are using to create the proposal.
-* The Snapshot proposal can consist of one or multiple actions, up to a maximum of 10 actions per proposal. Actions are changes specified in a proposal.
-* If you meet the minimum 10k proposing power requirement, select “New Proposal” and fill in the open fields as per the content requirements below.
+* Um eine Snapshot-Umfrage zu erstellen, müssen Sie mindestens 10K DYDX halten und/oder Stimmrechte an diejenige Adresse zugewiesen bekommen haben, die Sie zur Erstellung des Vorschlages verwenden.
+* Der Snapshot-Vorschlag kann aus einer oder mehreren Aktionen bestehen, bis zu maximal 10 Aktionen pro Vorschlag. Aktionen sind in einem Vorschlag spezifizierte Änderungen.
+* Wenn Sie die Mindestleistung an Vorschlagsrechten von 10K erfüllen, wählen Sie „Neuer Vorschlag“ aus und füllen Sie die offenen Felder gemäß den unten aufgeführten Inhaltsbestimmungen aus.
 
 ![https://snapshot.org/#/dydxgov.eth/create](../.gitbook/assets/2-snapshot-create-poll-1.png)
 
 ![https://forums.dydx.community/new/snapshot/dydxgov.eth](../.gitbook/assets/2-snapshot-create-poll-2.png)
 
-DRC Snapshot Poll Content Requirements:
+Inhaltsbestimmungen für DRC-Snapshot-Umfragen:
 
-* details of the DRC with a link to the forum discussion,
-* a voting system,
-* vote start date and vote end date set to 4 days in total length, and
-* Snapshot poll is posted 1 day (\~6570 blocks) before voting starts.
+* Details der DRC mit einem Link zur Forumsdiskussion,
+* ein Abstimmungssystem,
+* Start- und Enddatum der Abstimmung mit einer auf 4 Tage beschränkten Gesamtlänge, und
+* Snapshot-Umfrage wird 1 Tag (\~6570 Blöcke) vor Abstimmungsstart veröffentlicht.
 
-Requirement for Binding Snapshot Polls:
+Anforderungen für verbindliche Snapshot-Umfragen:
 
-For most decisions, a Snapshot poll acts as signaling, while an on-chain vote is required for a binding outcome that changes the smart contract(s). For decisions that don’t require an on-chain smart contract call, notably changes to the Trading and Liquidity Provider rewards formulas, Snapshot votes are considered the binding and final vote. In addition to the content requirements above, Snapshot polls that are binding votes for variables controlled off-chain must include:
+Für die meisten Entscheidungen wirkt eine Snapshot-Umfrage als Signalisierung, während für ein verbindliches Ergebnis, das in den/die Smart Contract(s) eingreift, eine on-chain-Abstimmung erforderlich ist. Für Entscheidungen, die keinen on-chain Smart Contract-Anruf erfordern, gelten Snapshot-Abstimmungen vor allem für Änderungen der Trading und Liquidity Provider Reward-Formeln als verbindliche und endgültige Abstimmung. Neben den oben genannten Inhaltsbestimmungen müssen Snapshot-Umfragen, welche die Abstimmungen für off-chain kontrollierte Variablen verbindlich machen, Folgendes vorweisen:
 
-* Binary voting options. For clarity, an address is either voting for or against a proposal.
+* Binäre Abstimmungsoptionen Für die nötige Klarheit stimmt eine Adresse entweder für oder gegen einen Vorschlag.
 
 ![](../.gitbook/assets/2-snapshot-binary-voting.png)
 
-* After the vote, the related info will be stored on IPFS and a report will be automatically generated and available to download.
+* Nach der Abstimmung werden die zugehörigen Informationen auf IPFS gespeichert und es wird automatisch ein Bericht generiert und zum Download bereitgestellt.
 
 ![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-snapshot-ipfs.png)
 
-### **STEP 3 - DIP Creation (Off-Chain Proposal)**
+### **SCHRITT 3 - DIP-Erstellung (Off-Chain-Vorschlag)**
 
-_**Description**:_
+_**Beschreibung**:_
 
-A DIP needs to be created when (1) a Snapshot poll results in an off-chain parameter (such as modifications to the Trading Rewards or LP Rewards formulas) being updated and (2) when a community member wants to submit a proposal to modify on-chain smart contracts. For votes that do not require any on-chain smart contract updates, the result of the Snapshot poll must be formalized in an off-chain DIP and submitted via a Pull Request to the Pending-DIP branch of the dYdX Foundation’s Github. The DIP should reflect the winning outcome of the Snapshot. The DIP must specify the information included in the template linked [here](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md).
+Ein DIP muss erstellt werden, wenn (1) eine Snapshot-Umfrage dazu führt, dass ein off-chain-Parameter (wie Änderungen an den Trading-Prämie- oder LP Reward-Formeln) aktualisiert wird und (2) wenn ein Community-Mitglied einen Vorschlag zur Änderung von on-chain Smart Contracts einreichen möchte. Für Abstimmungen, die keine on-chain Smart Contract Updates erfordern, muss das Ergebnis der Snapshot-Umfrage in einen off-chain DIP umformuliert und über ein Pull Request an den Pending-DIP-Zweig im Github der dYdX Foundation eingereicht werden. Der DIP sollte den Mehrheitsbeschluss auf Snapshot widerspiegeln. Der DIP muss die in der [hier](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) verlinkten Vorlage enthaltenen Informationen spezifisch angeben.
 
-_**Application to DIP 2:**_
+_**Bewerbung auf DIP 2:**_
 
-In this case, the [DIP](https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md) was authored by @Jteamdc.
+In diesem Fall wurde der [DIP](https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md) von @Jteamdc verfasst.
 
 ![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](../.gitbook/assets/2-dip-example.png)
 
-When the draft proposal for DIP 2 was completed, @Jteamdc created a \*\*\*\* [Pull Request](https://github.com/dydxfoundation/dip/pull/8) from the working branch against the dYdX foundation's Pending-DIPs branch. After the dYdX Foundation reviewed the proposal and signed off, the changes from the Pending-DIPs were merged to the Master Branch.
+Als der Vorschlagsentwurf für den DIP 2 abgeschlossen wurde, hat @Jteamdc eine \*\*\*\* [Pull Request](https://github.com/dydxfoundation/dip/pull/8) aus dem Arbeitszweig gegen den Pending-DIP-Zweig der dYdX Foundation erstellt. Nachdem die dYdX Foundation den Vorschlag überprüft und gegengezeichnet hatte, wurden die Änderungen aus den Pending-DIPs in den Hauptzweig eingearbeitet.
 
 ![https://github.com/dydxfoundation/dip/pulls](../.gitbook/assets/2-dip-pending-merge.png)
 
-Since reducing the liquidity providers' rewards threshold does not require any on-chain smart contract changes, the process is now complete and the changes will be effective during the next epoch.
+Da das Herabsenken des Schwellenwertes für Liquidity-Provider-Prämien keine Änderungen im on-chain Smart Contract erfordert, ist der Prozess nun abgeschlossen und die Änderungen werden in der nächsten Epoche wirksam.
 
-#### _How to Create a DIP:_
+#### _Wie man einen DIP erstellt:_
 
-* The DIP should be based on the winning outcome of the off-chain DIP voting on Snapshot and can consist of one or multiple actions, up to a maximum of 10 actions per proposal. Actions are changes specified in a proposal. More information can be found under [DIP Creation](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle#6.-proposal-queuing-and-execution).
-* Register for a Github account: [https://github.com/signup](https://github.com/signup).
-* Go to the dYdX repo page linked [here](https://github.com/dydxfoundation/dip) and fork the repo under your Github account.
+* Der DIP sollte sich auf einen im Rahmen der off-chain Abstimmung auf Snapshot beschlossenen Mehrheitsbeschluss in der off-chain beziehen und kann aus einer oder mehreren Aktionen bestehen, bis zu maximal 10 Aktionen pro Vorschlag. Aktionen sind in einem Vorschlag spezifizierte Änderungen. Weitere Informationen finden Sie unter [DIP-Erstellung](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle#6.-proposal-queuing-and-execution).
+* Registrieren Sie sich für einen Github-Account: [https://github.com/signup](https://github.com/signup).
+* Gehen Sie auf die [hier](https://github.com/dydxfoundation/dip) verlinkte dYdX Repo-Seite und setzen Sie die Fork bei der Repo unter Ihrem Github-Account ein.
 
 ![https://github.com/dydxfoundation/dip](../.gitbook/assets/2-dip-create-1.png)
 
-* In the forked DIP repo, go to the directory that contains the content of the DIPs: [https://github.com/\[user\_name\]/dip/tree/master/content/dips](https://github.com/yt8073/dip/tree/master/content/dips).
+* In der mit der Fork versehenen DIP-Repo, gehen Sie in das Verzeichnis, das den Inhalt der DIPs enthält: [https://github.com/\[user\_name\]/dip/tree/master/content/dips](https://github.com/yt8073/dip/tree/master/content/dips).
 
 ![](../.gitbook/assets/2-dip-create-2.png)
 
-* Select the dips folder: [https://github.com/\[user\_name\]/dip/tree/master/content](https://github.com/Jwatts15/dip/tree/master/content).
+* Wählen Sie den dips folder aus: [https://github.com/\[user\_name\]/dip/tree/master/content](https://github.com/Jwatts15/dip/tree/master/content).
 
 ![](../.gitbook/assets/2-dip-create-3.png)
 
-The dips folder includes a directory of previous proposals that follow the DIP template linked [here.](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md)
+Der dips folder enthält ein Verzeichnis von früheren Vorschlägen, die der [hier](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) verlinkten DIP-Vorlage folgen.
 
 ![https://github.com/dydxfoundation/dip/tree/master/content/dips](../.gitbook/assets/2-dip-create-4.png)
 
-* Before you start drafting a proposal, please ensure that the branch that you forked is up to date with the lastet version of the master branch. If you are using an old version of the DIP repo, please confirm that your forked version is up to date with the latest changes. For assistance rebasing your forked version, you can follow the steps here: [https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master).
-* Edit the [DIP template](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) with the information for your proposal. If you did not fork the DIP repo, selecting the edit icon will automatically fork the repo from the master because you are not an admin.
+* Bevor Sie einen Vorschlag erstellen, stellen Sie bitte sicher, dass der von Ihnen mit einer Fork versehene Zweig mit der letzten aktualisierten Version des Hauptzweiges übereinstimmt. Wenn Sie eine veraltete Version der DIP-Repo verwenden, bestätigen Sie bitte, dass Ihre mit der Fork versehene Version mit den neuesten Änderungen übereinstimmt. Wenn Sie Unterstützung benötigen, um Ihre mit der Fork versehene Version neu zu erstellen, können Sie diesen Schritten hier folgen: [https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master).
+* Bearbeiten Sie die [DIP-Vorlage](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) mit den Informationen für Ihren Vorschlag. Wenn Sie die DIP-Repo nicht mit einer Fork versehen haben, wird die Auswahl des „Bearbeiten"-Symbols die Repo automatisch vom Hauptzweig aus mit einer Fork versehen, weil Sie kein Administrator sind.
 
 ![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](../.gitbook/assets/2-dip-create-5.png)
 
-* Follow the [template](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) and add your DIP to your fork of the repository in the `content/dips/` directory. Please follow the DIP Statuses naming conventions included below.
+* Folgen Sie der [Vorlage](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) und fügen Sie Ihren DIP in Ihre Fork des Repository im `content/dips/`-Verzeichnis hinzu. Bitte folgen Sie den unten aufgeführten Bestimmungen zur Bezeichnung von DIPs-Status.
 
 ![](../.gitbook/assets/2-dip-create-6.png)
 
-DIP Statuses:
+DIP Status:
 
-* WIP - a DIP that is still being developed.
-* Proposed - a DIP that is ready to be proposed on-chain.
-* Approved - a DIP that has been accepted for implementation by the dYdX community.
-* Implemented - a DIP that has been released to mainnet.
-* Rejected - a DIP that has been rejected.
-* After checking that all of the content is correct, create a Pull Request from your working branch against the dYdX Foundation's Pending-DIPs branch. Please **do not** submit this Pull Request against the dYdX Foundation's master branch because the IPFS job will fail if any external parties want to merge to the master branch. Please use the Pull Request linked [here](https://github.com/dydxfoundation/dip/pull/8) as an example.
+* WIP - ein DIP, der noch in der Entwicklung steht.
+* Vorgeschlagen - ein DIP, der bereit ist, on-chain vorgeschlagen zu werden.
+* Zugelassen - ein DIP, der von der dYdX-Community für die Umsetzung akzeptiert wurde.
+* Implementiert - ein DIP, der im Hauptnetz veröffentlicht wurde.
+* Abgelehnt - ein DIP, der abgelehnt wurde.
+* Nachdem Sie den gesamten Inhalt auf Korrektheit geprüft haben, erstellen Sie einen Pull Request aus Ihrem Arbeitszweig in den Pending-DIPs-Zweig der dYdX Foundation. Bitte reichen Sie diesen Pull Request **nicht** in den Hauptzweig der dYdX Foundation hinein, weil der IPFS-Auftrag fehlschlagen wird, wenn externe Parteien Informationen mit dem Hauptzweig zusammenführen möchten. Bitte verwenden Sie die [hier](https://github.com/dydxfoundation/dip/pull/8) verlinkten Pull Request als Beispiel.
 
 ![](../.gitbook/assets/2-dip-status-1.png)
 
-* After review, the dYdX Foundation will merge the changes from the Pending-DIPs branch to the Master branch.
+* Nach der Durchsicht wird die dYdX Foundation die Änderungen aus dem Pending-DIPs-Zweig in den Hauptzweig einarbeiten.
 
 ![https://github.com/dydxfoundation/dip/pull/9](../.gitbook/assets/2-dip-status-2.png)
 
-* Before **the merge,** a job will run automatically to upload the DIP to IPFS. You can verify the upload of the DIP to IPFS here: [https://github.com/dydxfoundation/dip/pull/9/checks](https://github.com/dydxfoundation/dip/pull/9/checks).
-* The DIP is added under [**`dip`**](https://github.com/dydxfoundation/dip)`/`[`content`](https://github.com/dydxfoundation/dip/tree/master/content)`/`**`dips`**`/`.
+* Vor **dem Zusammenführen** wird automatisch ein Auftrag zum Hochladen des DIP auf IPFS ausgeführt. Sie können den Upload des DIP auf IPFS hier nachverfolgen: [https://github.com/dydxfoundation/dip/pull/9/checks](https://github.com/dydxfoundation/dip/pull/9/checks).
+* Der DIP wird unter [**`dip`**](https://github.com/dydxfoundation/dip)`/`[`content`](https://github.com/dydxfoundation/dip/tree/master/content)`/`**`dips`**`/` hinzugefügt.
 
 ![](../.gitbook/assets/2-dip-status-3.png)
 
-Since the proposal does not require any on-chain smart contract changes, the process is now complete and the changes will be effective during the next epoch
+Da der Vorschlag keine Änderungen im on-chain Smart Contract erfordert, ist der Prozess jetzt abgeschlossen und die Änderungen werden in der nächsten Epoche wirksam
 
-## DIP 3 (On-Chain Proposal) - Safety Module Restoration
+## DIP 3 (On-Chain Vorschlag) - Wiederherstellung von Sicherheitsmodulen
 
-_**Summary:**_
+_**Zusammenfassung:**_
 
-On November 1st, an on-chain [DIP](https://dydx.community/dashboard/proposal/3) was created by Dan Robinson from Paradigm to restore the functionality of the Safety Module staking pool. The majority of the community (251 voters and nearly 142M DYDX) voted in favor of restoring the functionality of the Safety Module. After a 10 day Voting Period, it took almost 3 days for a community member to call the queue and move the proposal into the 7 day long timelock delay. On November 20th, the Safety Module was restored and reset to a clean state.
+Am 1. November wurde ein on-chain [DIP](https://dydx.community/dashboard/proposal/3) von Dan Robinson von Paradigm erstellt, um die Funktionalität des Safety Module Staking Pools wiederherzustellen. Die Mehrheit der Community (251 Wähler und fast 142 Mio. DYDX) stimmte für die Wiederherstellung der Funktionalität des Sicherheitsmoduls. Nach einem 10-tägigen Abstimmungszeitraum dauerte es fast 3 Tage, bis ein Community-Mitglied die Warteschlange aufrufen und den Vorschlag in die 7-Tage-lange Timelock-Verzögerung verschieben konnte. Am 20. November wurde das Sicherheitsmodul wiederhergestellt und in einen sauberen Zustand zurückgesetzt.
 
-_**Background:**_
+_**Hintergrund:**_
 
-The dYdX Safety Module is a staking contract designed to bootstrap a decentralized pool of funds that can be used to backstop the dYdX protocol. Users stake DYDX into the safety pool and receive stkDYDX (1:1). stkDYDX is a tokenized position transferred as an ERC-20 that has the same voting and proposing rights as DYDX. In the event of a shortfall event, a governance vote is required to slash staked DYDX to mitigate losses. From the DYDX token supply, 2.5% (25,000,000 DYDX) of the token supply will be distributed to users who stake DYDX in the safety staking pool. More information about the safety staking pool can be found [here](https://dydx.foundation/blog/en/safety-staking).
+Das dYdX Safety Module ist ein Staking Contract um einen dezentralen Pool mit Geldern zu betanken, die dem dYdX Protokoll Rückhalt bieten sollen. Die Benutzer staken DYDX im Safety Pool und erhalten stkDYDX (1: 1). stkDYDX ist eine tokenisierte Position, die als ERC-20 übertragen wird und über die gleichen Stimm- und Vorschlagsrechte wie DYDX verfügt. Im Falle einer Unterdeckung erfordert es eine Governance-Abstimmung, um zum Zwecke der Verlustminderung gestakte DYDX zu beschlagnahmen. Aus der DYDX Token-Versorgung werden 2,5 % (25.000.000 DYDX) der Token-Versorgung an diejenigen Benutzer verteilt, die DYDX im Safety Pool ins Staking geben. Weitere Informationen über den Safety Staking Pool finden Sie [hier](https://dydx.foundation/blog/en/safety-staking).
 
-As part of the [safety staking pool rewards](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool), 383,562 DYDX will be distributed per epoch (28 days) to stakers. Rewards are distributed pro-rata every second to stakers.
+Im Rahmen der [Safety-Staking-Pool-Prämien](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool), werden 383.562 DYDX pro Laufzeit (28 Tage) an die Staker ausgeschüttet. Prämien werden im Sekundentakt anteilsmäßig an die Staker ausgeschüttet.
 
-The dYdX community has "immediate and irrevocable control over" the parameters of the safety module smart contract. The full list of parameters that the community controls is linked [here](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+Die dYdX-Community hat „sofortige und unwiderrufliche Kontrolle über" die Parameter des Sicherheitsmodul-Smart Contracts. Die vollständige Liste der Parameter, die unter der Kontrolle der Community stehen, ist [hier](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verlinkt.
 
-On September 8th at 15:00 UTC, the transfer restriction on DYDX tokens was lifted and effectively opened staking to the dYdX Safety Module. Over 50 different addresses staked approximately 157K DYDX over the course of almost 1 hour. A bug caused an error in the deployment process and no stkDYDX was issued to the addresses who staked into the Safety Module. As a result, each staker’s funds were stuck in the contract and the dYdX team disabled staking on the dYdX governance UI.
+Am 8. September um 15:00 Uhr UTC wurde die Transferbeschränkung auf DYDX Token aufgehoben und das Staking ins dYdX Sicherheitsmodul wirksam eröffnet. Über 50 verschiedene Adressen stakten ungefähr 157K DYDX innerhalb fast 1 Stunde. Ein Bug verursachte einen Fehler im Bereitstellungsprozess und keine stkDYDX wurde an die Adressen ausgestellt, die im Sicherheitsmodul gestakt hatten. Als Ergebnis bleiben die Gelder eines jeden Stakers im Vertrag  und das dYdX Team deaktivierte das Staking auf der dYdX-Governance UI.
 
-[DIP 1](https://dydx.community/dashboard/proposal/0) proposed restoring functionality to the Safety Module and allowing the affected addresses to recover their funds and receive an additional 10% of their staked tokens as compensation to make them whole. While community sentiment was strongly in favor of [DIP 1 - Safety Module Restoration and Staker Recovery](https://dydx.community/dashboard/proposal/0), the proposal failed because it did not meet the 100M DYDX minimum quorum required for a Long Timelock vote to pass. As a result, Jacob Goh (jteam0x) at DeFiance Capital created [DIP 4 - Safety Module Staker Reimbursement and Compensation](https://dydx.community/dashboard/proposal/2) to reimburse and compensate affected addresses for their missed rewards and inconvenience. [DIP 4](https://dydx.community/dashboard/proposal/2) involved deploying the recovery contract for the users staked tokens and compensating affected addresses an additional 10% from the Rewards Treasury. The DIP was governed by the less stringent governance parameters of a Short Timelock.
+[DIP 1](https://dydx.community/dashboard/proposal/0) schlug vor, die Funktionalität im Sicherheitsmodul wiederherzustellen und den betroffenen Adressen zu gestatten, ihre Gelder wiederzuerlangen und ihnen zusätzliche 10 % ihrer gestakten Token als Entschädigung zu vergüten. Während die Stimmung in der Community stark zu [DIP 1 Sicherheitsmodul-Wiederherstellung und Staker-Wiedergutmachung](https://dydx.community/dashboard/proposal/0) tendierte, schlug der Vorschlag fehl, weil er nicht das 100M-DYDX-Minimum-Quorum erfüllte, das erforderlich ist, um einen Long Timelock-Beschluss zu verabschieden. Infolgedessen erstellte Jacob Goh (jteam0x) von DeFiance Capital die [DIP 4 Rückerstattung und Entschädigung von Stakern des Sicherheitsmoduls](https://dydx.community/dashboard/proposal/2), um den betroffenen Adressen ihre verpassten Prämien zurückzuerstatten und die Unannehmlichkeiten wiedergutzumachen. [DIP 4](https://dydx.community/dashboard/proposal/2) umfasste die Anwendung des Wiederherstellungs-Contracts für die von den Benutzern gestakten Token und Ausgleichszahlungen von zusätzlichen 10 % aus der Prämien-Treasury an betroffene Adressen. Der DIP wurde von den weniger strengen Governance-Parametern eines Short Timelocks geregelt.
 
-The proposal lifecycle of a DIP is generally consistent up until DIP creation. The major difference between DIP 3 (on-chain) and DIP 2 (off-chain) was that DIP 3 required on-chain voting and smart contract deployment. Since the process for forum discussions, DRC creation, and draft DIP creation are the same, we start our step-by-step discussion with the content requirements to draft on-chain DIP. For more information please follow the links below:
+Der DIP-Lebenszyklus wird im Allgemeinen so lange aufrechterhalten, bis der DIP erstellt ist. Der wesentliche Unterschied zwischen DIP 3 (On-chain) und DIP 2 (Off-chain) bestand darin, dass DIP 3-Vorschläge On-chain Abstimmungen und den Einsatz eines Smart Contracts voraussetzen. Da der Prozess für Forumsdiskussionen, die DRC-Erstellung und die DIP-Entwurfserstellung gleich sind, starten wir unsere schrittweise Diskussion mit den Inhaltsvorgaben für den Entwurf von On-chain DIPs. Für weitere Informationen folgen Sie bitte den folgenden Links:
 
-* dYdX's governance process - [https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
-* Safety Module Incident Report - [https://dydx.foundation/blog/en/outage-1](https://dydx.foundation/blog/en/outage-1).
-* Off-Chain Forum discussion **-** [https://commonwealth.im/dydx/proposal/discussion/1743-safety-staking-pool-on-pause](https://commonwealth.im/dydx/proposal/discussion/1743-safety-staking-pool-on-pause).
+* dYdX-Governance-Prozess - [https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
+* Sicherheitsmoduls-Vorfallbericht - [https://dydx.foundation/blog/de/outage-1](https://dydx.foundation/blog/en/outage-1).
+* Off-Chain Forumsdiskussion **-** [https://commonwealth.im/dydx/proposal/discussion/1743-safety-staking-pool-on-pause](https://commonwealth.im/dydx/proposal/discussion/1743-safety-staking-pool-on-pause).
 * Off-Chain DRC **-** [https://commonwealth.im/dydx/proposal/discussion/1770-drc-incident-report-of-the-safety-module-outage-proposed-solution](https://commonwealth.im/dydx/proposal/discussion/1770-drc-incident-report-of-the-safety-module-outage-proposed-solution)
-* Off-Chain DRC Snapshot Polling **-** [https://snapshot.org/#/dydxgov.eth/proposal/QmbJ5QxHr1pyShKTDaF5DjAr6vxQn8DVxshH2fyWgzDCBn](https://snapshot.org/#/dydxgov.eth/proposal/QmbJ5QxHr1pyShKTDaF5DjAr6vxQn8DVxshH2fyWgzDCBn)
-* DIP proposed on Github **-** [https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md)
+* Off-Chain DRC Snapshot-Umfragen **-** [https://snapshot.org/#/dydxgov.eth/proposal/QmbJ5QxHr1pyShKTDaF5DjAr6vxQn8DVxshH2fyWgzDCBn](https://snapshot.org/#/dydxgov.eth/proposal/QmbJ5QxHr1pyShKTDaF5DjAr6vxQn8DVxshH2fyWgzDCBn)
+* DIP auf Github vorgeschlagen **-** [https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md)
 
-### **STEP 1 - On-Chain DIP Drafting**
+### **SCHRITT 1 - On-Chain DIP-Entwurfserstellung**
 
-_**Description:**_
+_**Beschreibung:**_
 
-Drafting an on-chain DIP that affects governance consensus on the dYdX protocol must outline the specific steps for implementing smart contract changes. After the community achieves rough consensus from Snapshot or a previously failed DIP, a community member with enough proposing power can submit the new DIP on-chain. More information about the proposing power threshold, the timelock executor, and other governance parameters are linked [here](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+Der Entwurf eines On-chain DIPs, der den Governance-Konsens auf dem dYdX-Protokoll betrifft, muss die spezifischen Schritte für die Umsetzung von Änderungen am Smart Contract erläutern. Nachdem die Community von Snapshot zu einem groben Konsens gelangt ist, oder nachdem ein DIP zuvor fehlgeschlagen war, kann ein Community-Mitglied mit ausreichend Vorschlagsrechten den neuen DIP On-chain einreichen. Weitere Informationen über den Schwellenwert für Vorschlagsrechte, den Timelock Executor und andere Governance-Parameter sind [hier](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verlinkt.
 
-_**Application to DIP 3:**_
+_**Bewerbung auf DIP 3:**_
 
-In this case, the [DIP](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md) was authored by Dan Robinson from Paradigm. Given that the proposal included on-chain smart contract changes, the proposal included a link to the specific smart contract implementations.
+In diesem Fall wurde der [DIP](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md) von Dan Robinson von Paradigm verfasst. Da der Vorschlag Änderungen im On-Chain Smart Contract enthielt, verfügte der Vorschlag über einen Link zu den spezifischen Implementierungen im Smart Contract.
 
 ![https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md](../.gitbook/assets/2-dip3-example-1.png)
 
-Navigating from the SafetyModuleV2.sol deployment contract to the Safety folder shows the README that contains the specific details of how the proposal will be implemented.
+Wenn Sie von dem SafetyModuleV2.sol deployment Contract aus zum Safety folder navigieren, wird die README angezeigt, welche die spezifischen Details darüber enthält, wie der Vorschlag umgesetzt wird.
 
 ![](../.gitbook/assets/2-dip3-example-1a.png)
 
-The steps to implement the proposal included in the README are linked here: [https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety).
+Die Schritte zur Umsetzung des in der README enthaltenen Vorschlags sind hier verlinkt: [https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety).
 
 ![https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](../.gitbook/assets/2-dip3-example-2.png)
 
@@ -266,209 +264,194 @@ The steps to implement the proposal included in the README are linked here: [htt
 
 ![https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](../.gitbook/assets/2-dip3-example-4.png)
 
-#### _How to draft an On-Chain DIP (WIP):_
+#### _Wie man einen On-Chain DIP (WIP) entwirft:_
 
-* Create a new wallet to create the DIP. The deployment process will require inputting your seed phrase as an environment variable, so we recommend that you use a one-off wallet for on-chain DIP creation.
-* Delegate enough proposing power to the one-off wallet for DIP creation. You can delegate proposing power [here.](https://dydx.community/dashboard) The different proposing power thresholds are included below and linked [here](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
-  * Short Timelock: 0.5% of the total supply (5M in proposing power).
-  * Starkware Executor: 0.5% of the total supply (5M in proposing power).
-  * Long Timelock Executor: 2.0% of the total supply (20M in proposing power).
-  * Merkle Pauser Executor: 0.5% of the total supply (5M in proposing power).
-* Create an Alchemy Key. With the Alchemy Key, you do not need to run an Ethereum Node to interact with Ethereum and deploy the smart contract. The guide for creating an Alchemy Key is linked [here](https://docs.alchemy.com/alchemy/introduction/getting-started).
+* Erstellen Sie eine neue Wallet, um den DIP zu erstellen. Der Bereitstellungsprozess erfordert die Eingabe Ihrer Seed Phrase als eine Umgebungsvariable, weshalb wir empfehlen, eine einmalige Wallet für die On-Chain DIP-Erstellung zu verwenden.
+* Delegieren Sie für die DIP-Erstellung ausreichend Vorschlagsrechte zu der One-Off Wallet. Sie können die Vorschlagsrechte [hier](https://dydx.community/dashboard) delegieren. Die unterschiedlichen Schwellenwerte für Vorschlagsrechte sind unten enthalten und [hier](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verlinkt.
+  * Short Timelock: 0,5 % der Gesamtversorgung (5 Mio. in Vorschlagsrechten).
+  * Starkware Executor: 0,5 % der Gesamtversorgung (5 Mio. in Vorschlagsrechten).
+  * Long Timelock Executor: 2,0 % der Gesamtversorgung (20 Mio. in Vorschlagsrechten).
+  * Merkle Pauser Executor: 0,5 % der Gesamtversorgung (5 Mio. in Vorschlagsrechten).
+* Erstellen Sie einen Alchemy Key. Mit dem Alchemy Key müssen Sie keinen Ethereum Node laufen lassen, um mit Ethereum zu interagieren und den Smart Contract anzuwenden. Der Leitfaden für die Erstellung eines Alchemy Key ist [hier](https://docs.alchemy.com/alchemy/introduction/getting-started) verlinkt.
 
 ![https://docs.alchemy.com/alchemy/introduction/getting-started](../.gitbook/assets/2-draft-dip-example-1.png)
 
-Select Ethereum and “Get Started.”
+Wählen Sie Ethereum und „Starten".
 
 ![](../.gitbook/assets/2-draft-dip-example-2.png)
 
-Fill in the required information, select the Goerli Network and select “create app.”
+Füllen Sie die erforderlichen Informationen aus, wählen Sie das Goerli Network und wählen Sie "App erstellen".
 
 <figure><img src="../.gitbook/assets/2-draft-dip-example-3.png" alt=""><figcaption></figcaption></figure>
 
-After creating your account, follow the setup instructions linked [here](https://docs.alchemy.com/alchemy/introduction/getting-started).
+Nachdem Sie Ihr Konto erstellt haben, folgen Sie den [hier](https://docs.alchemy.com/alchemy/introduction/getting-started) verlinkten Setup-Anweisungen.
 
-Under “4. Start Building,” select “try deploying your first smart contract” and follow the guide.
+Unter „4". Starten Sie den Aufbau, wählen Sie „Versuchen, Ihren ersten Smart Contract anzuwenden" und folgen Sie dem Leitfaden.
 
 ![https://docs.alchemy.com/alchemy/introduction/getting-started](../.gitbook/assets/2-draft-dip-example-4.png)
 
-* Open Windows command line, the default Terminal App, or download iTerm: [https://iterm2.com/](https://iterm2.com/).
-* Download and install Node.js and npm if you have not already: [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
-* Hardhat is a development tool to compile and test Ethereum software. Install Hardhat if you have not already: [https://hardhat.org/tutorial/setting-up-the-environment.html](https://hardhat.org/tutorial/setting-up-the-environment.html).
-* Draft your proposed smart contract implementation(s).
-* The IPFS hash is generated automatically and can be obtained [here](https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips). The IPFS hash will be in the dYdX Foundation's directory under the file name `DIP-[New DIP #]-ipfs-hashes.json`.
+* Öffnen Sie die Windows-Kommandozeile, die default Terminal App oder laden Sie den iTerm: [https://iterm2.com/](https://iterm2.com/) herunter.
+* Laden Sie Node.js und npm herunter und installieren Sie beide, wenn sie dies noch nicht getan haben: [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+* Hardhat ist ein Entwicklungstool, um Ethereum Software zusammenzustellen und zu testen. Installieren Sie Hardhat, wenn Sie dies noch nicht getan haben: [https://hardhat.org/tutorial/setting-up-the-environment.html](https://hardhat.org/tutorial/setting-up-the-environment.html).
+* Entwerfen Sie Ihre vorgeschlagene(n) Smart Contract Ausführung(en).
+* Der IPFS-Hash wird automatisch generiert und kann [hier](https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips) abgerufen werden. Der IPFS-Hash wird im Verzeichnis der dYdX Foundation unter dem Dateinamen `DIP-[New DIP #]-ipfs-hashes.json` stehen.
 
 ![https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips](../.gitbook/assets/2-draft-dip-example-5.png)
 
-* After you select the new file (`DIP-[New DIP #]-ipfs-hashes.jso`), ensure that you use the encodedHash.
+* Nachdem Sie die neue Datei ausgewählt haben (`DIP-[New DIP #]-ipfs-hashes.jso`), vergewissern Sie sich, dass die den encodedHash verwenden.
 
 ![https://github.com/dydxfoundation/dip/blob/master/content/ipfs-dips/DIP-3-Ipfs-hashes.json](../.gitbook/assets/2-draft-dip-example-6.png)
 
-### **STEP 2 - Submit a DIP On-chain**
+### **SCHRITT 2 - Reichen Sie einen On-Chain DIP ein**
 
-_**Description:**_
+_**Beschreibung:**_
 
-After a community member has confirmed that the proposed smart contract implementation(s) is/are correct and the DIP is finalized, the DIP can be submitted on-chain. When an on-chain DIP is created, the proposal enters a “Pending” state for the Voting Delay that lasts approximately 1 day (approximately 6570 blocks). User snapshots are recorded after the Voting Delay to account for DYDX holdings and delegated voting power. Next, the proposal enters an "Active" state and voting length varies from 2-10 days depending on the proposal type. For a proposal to be implemented, the vote must pass the minimum quorum and minimum vote differential that changes depending on the type of proposal. If the DIP satisfies the minimum quorum, the minimum vote differential, and a majority of voting community members vote in favor of the DIP, any address can call the queue to move the proposal into the timelock queue. The timelock contracts can queue, cancel, or execute transactions voted on by the dYdX community. The length of the timelock queue varies depending on the type of proposal.
+Nachdem ein Community-Mitglied bestätigt hat, dass die vorgeschlagene(n) Smart Contract-Ausführung(en) korrekt ist/sind, und der DIP abgeschlossen ist, kann der DIP On-Chain eingereicht werden. Wenn ein On-Chain DIP erstellt wird, geht der Vorschlag zugunsten der Abstimmungsverzögerung in den Status „Ausstehend" über, der ungefähr 1 Tag (ungefähr 6570 Blöcke) dauert. Die Snapshots der Benutzer werden nach der Abstimmungsverzögerung aufgezeichnet, um DYDX-Bestände und die delegierten Abstimmungsrechte nachzuweisen. Im nächsten Schritt tritt der Vorschlag in einen „Aktiven" Zustand; die Abstimmungsdauer variiert zwischen 2 und 10 Tagen je nach Vorschlagstyp. Damit ein Vorschlag umgesetzt wird, muss die Abstimmung das Mindestquorum und die minimale Stimmendifferenz überschreiten, die je nach Vorschlagstyp anders ausfällt. Wenn der DIP das Mindestquorum, die minimale Stimmendifferenz und die Mehrheit der abstimmenden Community-Mitglieder zugunsten des DIP erreicht, kann jede beliebige Adresse den Vorschlag aus der Warteschlange abrufen, um in die Timelock-Warteschlange verschoben zu werden. Die Timelock Contracts können Transaktionen, über die von der dYdX Community abgestimmt wurde, in die Warteschlange stellen, sie stornieren oder durchführen. Die Länge der Timelock Warteschlange variiert je nach Vorschlagstyp.
 
-_**Application to DIP 3:**_
+_**Bewerbung auf DIP 3:**_
 
-The Paradigm team finalized the solidity code for `SafetyModuleV2.sol.`
+Das Paradigm-Team hat den Solidity-Code für das `SafetyModuleV2.sol.` fertiggestellt.
 
 ![https://github.com/dydxfoundation/governance-contracts/blob/master/contracts/safety/v2/SafetyModuleV2.sol](../.gitbook/assets/2-draft-dip-example-7.png)
 
-The Paradigm team simulated the updates in both a local and forked mainnet environment. The test suite was then run, to ensure that full functionality would be restored, following the execution of the governance proposal on mainnet.
+Das Paradigm-Team simulierte die Updates sowohl in einer lokalen als auch in einer mit einer Forked versehenen Mainnet-Umgebung. Die Testsuite wurde dann abgespielt, um sicherzustellen, dass die volle Funktionalität wiederhergestellt würde und folgte dabei der Ausführung des Governance-Vorschlages auf dem Mainnet.
 
-The Paradigm team deployed the smart contract updates by running the scripts below.
+Das Paradigm-Team wandte die Smart Contract Updates durch das Abspielen der unten aufgeführten Skripte an.
 
-**Safety Module Recovery Deployment**
+**Sicherheitsmodul-Wiederherstellung**
 
-`export ALCHEMY_KEY=<...>`
+`export ALCHEMY_KEY=<... >`
 
-`export MNEMONIC=<...>`
+`export MNEMONIC=<... >`
 
-`npx hardhat --network mainnet deploy:safety-module-recovery`\
-`--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
-`--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
-`--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`
+`npx hardhat --network mainnet deploy:safety-module-recovery`\ `--dydx-Token-Adresse 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\ `--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\ `--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`
 
-**Governance Proposal: Safety Module Fix**
+**Governance-Vorschlag: Sicherheitsmodul-Reparatur**
 
-`export ALCHEMY_KEY=<...>`
+`export ALCHEMY_KEY=<... >`
 
-`export MNEMONIC=<...>`
+`export MNEMONIC=<... >`
 
-`npx hardhat --network mainnet deploy:safety-module-fix-proposal`\
-`--proposal-ipfs-hash-hex 0x...`\
-`--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
-`--long-timelock-address 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B`\
-`--safety-module-address 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC`\
-`--safety-module-proxy-admin-address 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C`\
-`--safety-module-new-impl-address 0x...`
+`npx hardhat --network mainnet deploy:safety-module-fix-proposal`\ `--proposal-ipfs-hash-hex 0x...`\ `--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\ `--long-timelock-address 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B`\ `--safety-module-address 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC`\ `--safety-module-proxy-admin-address 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C`\ `--safety-module-new-impl-address 0x...`
 
-**Governance Proposal: Safety Module Compensation**
+**Governance-Vorschlag: Sicherheitsmodul-Entschädigung**
 
-`export ALCHEMY_KEY=<...>`
+`export ALCHEMY_KEY=<... >`
 
-`export MNEMONIC=<...>`
+`export MNEMONIC=<... >`
 
-`npx hardhat --network mainnet deploy:safety-module-compensation-proposal`\
-`--proposal-ipfs-hash-hex 0x...`\
-`--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
-`--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
-`--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
-`--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`\
-`--safety-module-recovery-address 0x...`
+`npx hardhat --network mainnet deploy:safety-module-compensation-proposal`\ `--proposal-ipfs-hash-hex 0x...`\ `--dydx-Token-Adresse 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\ `--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\ `--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\ `--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`\ `--safety-module-recovery-address 0x...`
 
-The DIP was simultaneously posted on [https://dydx.community/dashboard](https://dydx.community/dashboard).
+Der DIP wurde zeitgleich auf [https://dydx.community/dashboard](https://dydx.community/dashboard) veröffentlicht.
 
 ![https://dydx.community/dashboard](../.gitbook/assets/2-draft-dip-example-8.png)
 
 ![https://dydx.community/dashboard](../.gitbook/assets/2-draft-dip-example-9.png)
 
-The dYdX Governance contract is 0x7e9b1672616ff6d6629ef2879419aae79a9018d2: [https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10](https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10).
+Der dYdX-Governance-Contract ist 0x7e9b1672616ff6d6629ef2879419aae79a9018d2: [https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10](https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10).
 
-The DIP deployment can be confirmed on Etherscan: [https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad).
+Die DIP-Bereitstellung kann auf Etherscan bestätigt werden: [https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad).
 
-The DIP was created on November 1, 2021, at block 13532376. For 6570 blocks into the future, the DIP status is “Pending.”
+Der DIP wurde am 1. November 2021 im Block 13532376 erstellt. Liegt der DIP 6570 Blöcke in der Zukunft, gilt er als „Ausstehend".
 
 ![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/2-draft-dip-example-10.png)
 
-DYDX holders were able to vote on the DIP when it transitioned to an “Active” state at block 13538946.
+DYDX-Inhaber konnten über den DIP abstimmen, als er im Block 13538946 in einen „Aktiven" Zustand überging.
 
-The first vote was cast on November 2, 2021, at 5:51:22 PM UTC (block 13538959), 6583 blocks from when the DIP was created on-chain.
+Die erste Abstimmung wurde am 2. November 2021 um 17:51:22 UTC (Block 13538959) abgehalten, 6583 Blöcke nach der Erstellung des On-Chain-DIPs.
 
 ![https://etherscan.io/tx/0xc3d0ace92be4ac3da40dc17f45a573d4dbd83d31f7a95733071de883ded67a4f](../.gitbook/assets/2-draft-dip-example-11.png)
 
-After the 10 day voting period involved with a Long Timelock, any community member can call the queue and move the proposal into the 7 day timelock delay. For DIP 3, it took almost 3 days for a community member to call the queue.
+Nach der 10-tägigen Abstimmungsperiode, die an einen Long Timelock gekoppelt ist, kann eines der Community-Mitglieder die Warteschlange aufrufen und den Vorschlag in die 7-Tage-Timelock-Verzögerung verschieben. Bei DIP 3 dauerte es fast 3 Tage, bis ein Community-Mitglied die Warteschlange aufrief.
 
 ![https://etherscan.io/tx/0x3402372aa549d2270a6b5d4f84884ae2bfec6922fc808703b47d53b27d288c81](../.gitbook/assets/2-draft-dip-example-12.png)
 
-After the 7 day timelock delay, the DIP was executed on-chain.
+Nach der 7-tägigen Timelock-Verzögerung wurde der DIP On-Chain ausgeführt.
 
 ![https://etherscan.io/tx/0xfd332147899fd3ef1db62f262ffae92bbd7d18a5ed4e142eb0407a173dbf0453](../.gitbook/assets/2-draft-dip-example-13.png)
 
-At the moment the DIP was executed on-chain the DIPs status at [https://dydx.community/dashboard/proposal/3](https://dydx.community/dashboard/proposal/3) was updated to “Executed.”
+In dem Moment, als der DIP On-Chain ausgeführt wurde, wurde der DIP-Status unter [https://dydx.community/dashboard/proposal/3](https://dydx.community/dashboard/proposal/3) auf „Ausgeführt“ aktualisiert.
 
 ![](../.gitbook/assets/2-draft-dip-example-14.png)
 
-Note, (1) proposals must be executed within the 7 day Execution Grace Period that starts immediately after the timelock delay and (2) the proposing address must maintain the minimum amount of proposing power required by the respective timelock contract until the DIP is executed (either 5M or 20M in proposing power).
+Beachten Sie, dass (1) Vorschläge innerhalb der 7-tägigen Ausführungsnachfrist, welche unmittelbar nach der Timelock-Verzögerung beginnt, ausgeführt werden müssen und dass (2) die vorschlagende Adresse den Mindestbetrag an Vorschlagsrechten, der durch den jeweiligen Timelock-Vertrag erforderlich ist, beibehalten muss, bis der DIP ausgeführt worden ist (entweder 5 Mio. oder 20 Mio. in Vorschlagsrechten).
 
-#### _How to Submit a DIP On-Chain:_
+#### _Wie man einen DIP On-Chain einreicht:_
 
-* Ensure that you have enough proposing power to create the DIP. More information can be found under[ DIP Creation](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
-  * Short Timelock Executor: 0.5% of the total supply (5M in proposing power).
-  * Starkware Executor: 0.5% of the total supply (5M in proposing power).
-  * Long Timelock Executor: 2.0% of the total supply (20M in proposing power).
-  * Merkle Pauser Executor: 0.5% of the total supply (5M in proposing power).
-* Ensure that there is ETH in the wallet to pay for the gas fee.
-* Create an app on Alchemy for the Ethereum Mainnet network.
+* Stellen Sie sicher, dass Sie genügend Vorschlagsrechte haben, um den DIP zu erstellen. Weitere Informationen finden Sie unter [DIP-Erstellung](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
+  * Short Timelock Executor: 0,5 % der Gesamtversorgung (5 Mio. in Vorschlagsrechten).
+  * Starkware Executor: 0,5 % der Gesamtversorgung (5 Mio. in Vorschlagsrechten).
+  * Long Timelock Executor: 2,0 % der Gesamtversorgung (20 Mio. in Vorschlagsrechten).
+  * Merkle Pauser Executor: 0,5 % der Gesamtversorgung (5 Mio. in Vorschlagsrechten).
+* Stellen Sie sicher, dass Sie ETH in Ihrer Wallet besitzen, um die Gasgebühren zu bezahlen.
+* Erstellen Sie eine App auf Alchemy für das Ethereum Mainnet Netzwerk.
 
 ![https://dashboard.alchemyapi.io/](../.gitbook/assets/2-draft-dip-example-15.png)
 
-* After the app is created, click "View Key" to obtain your Alchemy Key (7LOaQtguSm2kSEcFXQH88B): [https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul](https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul).
+* Nachdem die App erstellt wurde, klicken Sie auf „Key anzeigen", um Ihren Alchemy Key (7LOaQtguSm2kSEcFXQH88B) zu erhalten: [https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul](https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul).
 
 ![https://dashboard.alchemyapi.io/apps/xogmjmlex8tlmr95](../.gitbook/assets/2-draft-dip-example-16.png)
 
-* Download and install Node.js and npm: [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
-* Install Hardhat: [https://hardhat.org/tutorial/setting-up-the-environment.html](https://hardhat.org/tutorial/setting-up-the-environment.html).
-* Run the script that you have drafted.
-* Check the Governance Contract to verify that the proposal was created on-chain: [https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10](https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10).
-* With the address that submitted the proposal, you must maintain the minimum amount of proposing power required by the respective timelock contract until the proposal is executed.
+* Laden Sie Node.js und npm herunter und installieren Sie sie: [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+* Installieren Sie Hardhat: [https://hardhat.org/tutorial/setting-up-the-environment.html](https://hardhat.org/tutorial/setting-up-the-environment.html).
+* Lassen Sie das Skript durchlaufen, welches Sie entworfen haben.
+* Überprüfen Sie den Governance Contract, um nachzusehen, ob der Vorschlag On-Chain erstellt wurde: [https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10](https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10).
+* Auf der Adresse, die den Vorschlag eingereicht hat, müssen Sie den Mindestbetrag an Vorschlagsrechten, die durch den jeweiligen Timelock-Vertrag erforderlich sind, beibehalten, bis der Vorschlag ausgeführt worden ist.
 
-#### _How to Vote on a DIP:_
+#### _Wie man über einen DIP abstimmt:_
 
-* Ensure that there is ETH in the wallet to pay for the gas fee.
-* You may vote on an Active DIP by selecting the DIP from: [https://dydx.community/dashboard](https://dydx.community/dashboard).
+* Stellen Sie sicher, dass Sie ETH in Ihrer Wallet besitzen, um die Gasgebühren zu bezahlen.
+* Sie können über einen Active DIP abstimmen, indem Sie den DIP auf [https://dydx.community/dashboard](https://dydx.community/dashboard) auswählen.
 
 ![](../.gitbook/assets/2-draft-dip-example-17.png)
 
-* In the future, you may also vote on an Active DIP on Commonwealth.
+* Zukünftig werden Sie auch über Active DIPs in der Commonwealth abstimmen können.
 
 ![](../.gitbook/assets/2-draft-dip-example-18.png)
 
-The voting length depends on the type of proposal. More information can be found under [DIP Creation](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
+Die Abstimmungsdauer hängt von der Art des Vorschlags ab. Weitere Informationen finden Sie unter [DIP-Erstellung](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
 
-* Short Timelock Executor: 4 days.
-* Starkware Executor: 4 days.
-* Long Timelock Executor: 10 days.
-* Merkle Pauser Executor: 2 days.
+* Short Timelock Executor: 4 Tage.
+* Starkware Executor: 4 Tage.
+* Long Timelock Executor: 10 Tage.
+* Merkle Pauser Executor: 2 Tage.
 
-#### _How to Queue a Proposal:_
+#### _Wie man einen Vorschlag in die Warteschlange stellt:_
 
-A successful proposal can be queued to start the Timelock Delay.
+Ein erfolgreicher Vorschlag kann in die Warteschlange gestellt werden, um die Timelock-Verzögerung zu starten.
 
-* Ensure that you are using a compatible wallet that contains Eth.
-* Go to the "Contract" Tab on Etherscan and click on "Write Contract." The Governance Contract is linked [here](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract).
+* Stellen Sie sicher, dass Sie eine kompatible Wallet verwenden, die Eths enthält.
+* Gehen Sie zum „Contract"-Symbol auf Etherscan und klicken Sie auf „Write Contract". Der Governance-Contract ist [hier](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract) verknüpft.
 
 ![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/2-draft-dip-example-queue-1.png)
 
-* Select queue and submit the “proposalId.”
+* Wählen Sie die Warteschlange aus und reichen Sie die „proposalId" ein.
 
 ![](../.gitbook/assets/2-draft-dip-example-queue-2.png)
 
-The “proposalId” can be found on Etherscan when the DIP was created: [https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad).
+Die „proposalId“ kann auf Etherscan gefunden werden, wenn der DIP erstellt wurde: [https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad).
 
-* Select “click to see more.”
+* Wählen Sie „Klicken und mehr erfahren.”.
 
 ![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/2-draft-dip-example-queue-3.png)
 
-* Select “Decode Input Data.”
+* Wählen Sie „Eingabedaten entschlüsseln" aus.
 
 ![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/2-draft-dip-example-queue-4.png)
 
 ![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/2-draft-dip-example-queue-5.png)
 
-#### _How to Execute a Proposal:_
+#### _Wie man einen Vorschlag ausführt:_
 
-After the Timelock Delay, a successful proposal can be executed.
+Nach der Timelock-Verzögerung kann ein erfolgreicher Vorschlag ausgeführt werden.
 
-* Go to the "Contract" Tab on Etherscan and click on "Write Contract." The Governance Contract is linked [here](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract).
+* Gehen Sie zum „Contract"-Symbol auf Etherscan und klicken Sie auf „Write Contract". Der Governance-Contract ist [hier](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract) verknüpft.
 
 ![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/2-draft-dip-example-execute-1.png)
 
-* Select “execute” and submit the “proposalId.”
+* Wählen Sie “Execute“ und reichen Sie die “proposalId“ ein.
 
 ![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/2-draft-dip-example-execute-2.png)
 
-* Follow the steps above (under _How to Queue a Proposal)_ to find the “proposalId.”
-* Enter ”0” under “payableAmount (ether).”
+* Folgen Sie den obigen Schritten (unter _Wie man einen Vorschlag in die Warteschlange setzt)_, um die „proposalId" zu finden.
+* Geben Sie „0" unter „payableAmount (ether)" ein.

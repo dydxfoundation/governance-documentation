@@ -1,85 +1,85 @@
 ---
-description: An overview of the voting process.
+description: Ein Überblick über den Abstimmungsprozess.
 ---
 
-# Voting Process
+# Abstimmungsprozess
 
-The Protocol is governed and upgraded by DYDX holders and delegatees.
+Das Protokoll wird von DYDX-Inhabern und -Delegierten geregelt und aktualisiert.
 
-## **Proposing & Voting Powers**
+## **Vorschlags- und Stimmrechte**
 
-There are two powers associated with each DYDX token:
+Jedem DYDX Token sind zwei Berechtigungen zugeordnet:
 
-* The **proposing power** gives access to creating and sustaining a proposal.
-* The **voting power** is used to vote for or against existing proposals.
+* Das **Vorschlagsrecht** ermöglicht die Ausgestaltung und Aufrechterhaltung eines Vorschlags.
+* Das **Stimmrecht** wird zur Abstimmung für oder gegen bestehende Vorschläge ausgeübt.
 
-DYDX holders receive governance powers proportionally to their sum of owned and delegated tokens at a given block.
+DYDX- Inhaber erhalten Governance-Rechte proportional zu der Summe ihrer in Besitz stehenden oder zugewiesenen Token in einem gewissen Block.
 
-**`Proposing Power =`**`Proposing Power from DYDX token +`
+**`Vorschlagsrechte =`** `Vorschlagsrechte von DYDX Token +`
 
-`Proposing Power from staked-DYDX token +`
+`Vorschlagsrechte aus staked-DYDX Token +`
 
-`Proposing Power from DYDX token received as delegatee +`
+`Vorschlagsrechte von DYDX Token, empfangen als Delegierter +`
 
-`Proposing Power from staked-DYDX token received as delegatee -`
+`Vorschlagsrechte von staked-DYDX Token, empfangen als Delegierter -`
 
-`Proposing Power from DYDX delegated -`
+`Vorschlagsrechte von delegierten DYDX -`
 
-`Proposing Power from staked-DYDX delegated`
+`Vorschlagsrechte von staked-DYDX delegated`
 
 \`\`
 
-**`Voting Power =`**`Voting Power from DYDX token +`
+**`Stimmrechte =`** Stimmrechte `von DYDX Token +`
 
-`Voting Power from staked-DYDX token +`
+`Vorschlagsrechte aus staked-DYDX Token +`
 
-`Voting Power from DYDX token received as delegatee +`
+`Stimmrechte von DYDX Token empfangen als Delegierter +`
 
-`Voting Power from stkDYDX token received as delegatee -`
+`Stimmrechte von stkDYDX Token empfangen als Delegierter -`
 
-`Voting Power from DYDX delegated -`
+`Stimmrechte von DYDX delegated -`
 
-`Voting Power from staked-DYDX delegated`
+`Stimmrechte von staked-DYDX delegated`
 
 ## FAQ
 
-### How do I vote?
+### Wie stimme ich ab?
 
-In order to participate in DYDX on-chain governance, you will need to have or be delegated DYDX tokens. You will also need ETH to cover transaction costs.
+Um an der auf der DYDX Chain zugehörigen Governance teilnehmen zu können, müssen Sie DYDX Token besitzen oder zugewiesen bekommen haben. Sie benötigen ebenfalls ETH, um Transaktionskosten zu decken.
 
-If you have tokens or have been delegated tokens and there is an active proposal, you are ready to vote in dYdX Governance.
+Wenn Sie Token besitzen oder Ihnen Token delegiert wurden und ein aktiver Vorschlag vorliegt, sind Sie bereit, in der dYdX Governance abzustimmen.
 
-![Cast votes using your voting power](../.gitbook/assets/1-voting-power.png)
+![Geben Sie ihre Stimme ab, indem sie von Ihren Stimmrechten Gebrauch machen](../.gitbook/assets/1-voting-power.png)
 
-To cast your vote, navigate to the proposals page and click on an active proposal.
+Um Ihre Abstimmung einzureichen, navigieren Sie zu der Vorschlagsseite und klicken Sie auf einen aktiven Vorschlag.
 
-### **How do I delegate?**
+### **Wie delegiere ich?**
 
-DYDX allows holders to delegate voting rights to the address of their choice. Anybody can participate in dYdX governance by receiving delegation, without needing to own DYDX. Users can delegate to one address at a time, and the number of votes added to the delegatee’s vote count is equivalent to the balance of DYDX in the user’s account. Votes are delegated from the current block and onward, until the sender delegates again, or transfers their DYDX.
+DYDX ermöglicht es Inhabern, Stimmrechte an die Adresse ihrer Wahl zu delegieren. Jeder kann sich an der dYdX Governance beteiligen, indem er eine Delegation empfängt, ohne dass er DYDX besitzen muss. Benutzer können gleichzeitig nur an eine Adresse delegieren, und die Anzahl der Stimmen, die der Stimmenzählung des Delegierten zugerechnet werden, entspricht der Bilanz von DYDX im Konto des Benutzers. Die Stimmen werden vom aktuellen Block aus delegiert, bis der Sender erneut delegiert oder seine DYDX überweist.
 
-![Delegate away your voting & proposing powers](../.gitbook/assets/1-delegate-power.png)
+![Weisen Sie anderen ihre Stimm- und Vorschlagsrechte zu](../.gitbook/assets/1-delegate-power.png)
 
-Token holders can choose to delegate one or both of the governance powers associated with a token, either through the governance portal or programmatically. A user that has received delegated power can not forward this delegated power to another delegatee.
+Token-Inhaber können auswählen, ob sie eine oder beide der Governance-Rechte, die mit einem Token verbunden sind, entweder über das Governance-Portal oder programmgesteuert delegieren wollen.Delegieren Sie Ihr Stimm- und Vorschlagsrecht Ein Benutzer, dem Rechte zugewiesen wurden, kann diese nicht an andere Delegierte weiterleiten.
 
-Token holders can delegate proposing power and voting power to different addresses. However, there is no partial delegation (only 100% or 0% of power.)
+Token-Inhaber können Vorschlagsrechte und Stimmrechte an verschiedene Adressen delegieren. Allerdings ist keine partielle Delegation möglich (nur 100 % oder 0 % Rechte).
 
-To delegate your tokens to a wallet address:
+So delegieren Sie Ihre Token an eine Wallet-Adresse:
 
-* Go to [dydx.community/dashboard](https://dydx.community/dashboard)
-* Click on "Delegate"
-* Select type of power you want to delegate
-* Enter a Wallet Address for a third party to whom you would like to delegate your voting and/or proposal power to. Delegating powers does not transfer your tokens
+* Gehen Sie zu [dydx.community/Dashboard](https://dydx.community/dashboard)
+* Klicken Sie auf "Delegieren"
+* Wählen Sie die Art der Rechte aus, die Sie delegieren möchten.
+* Geben Sie eine Wallet-Adresse derjenigen Drittpartei ein, an welche Sie Ihre Stimm- und/oder Vorschlagsrechte delegieren möchten. Das Delegieren von Rechten überträgt nicht Ihre Token
 
-Delegating and undelegating DYDX require users to spend Ethereum gas fees.
+Die Delegation und die Zurücknahme der Delegation erfordert, dass der Benutzer Etherum-Gasgebühren bezahlen muss.
 
-### Can I change my vote after I have already voted?
+### Kann ich meine Abstimmung ändern, nachdem ich bereits abgestimmt habe?
 
-Once a vote is cast on-chain, it is not possible to change your vote.
+Sobald eine Stimme auf der Chain abgegeben wurde, ist es nicht mehr möglich, Ihre Abstimmung zu ändern.
 
-### Can I transfer my DYDX while the vote is in progress?
+### Kann ich meine DYDX übertragen, während die Abstimmung läuft?
 
-Yes.
+Ja.
 
-### Can I add more tokens to my vote?
+### Kann ich meiner Abstimmung weitere Token hinzufügen?
 
-When a DIP is submitted on-chain, a snapshot is taken of current token holders. Users will need to own or be staked DYDX tokens before the start block.
+Wenn ein DIP auf der Chain eingereicht wird, wird ein Speicherauszug des aktuellen Token-Inhabers erstellt. Benutzer müssen vor dem Startblock DYDX Token besitzen oder ins Staking gegeben haben.
