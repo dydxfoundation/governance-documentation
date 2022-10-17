@@ -1,4 +1,4 @@
-# Table of contents
+# 목차
 
 * [소개](README.md)
 
@@ -39,8 +39,9 @@
 
 ## 외부 링크
 
-* [포럼](http://forums.dydx.community)
-* [dYdX Layer 2](https://trade.dydx.exchange)
-* [dYdX Layer 2 API](https://docs.dydx.exchange)
+* [포럼](http://forums.dydx.community/)
+* [dYdX Layer 2](https://trade.dydx.exchange/)
+* [dYdX Layer 2 API](https://docs.dydx.exchange/)
 * [dYdX Trading Inc.](https://dydx.exchange)
-* [측정치 대시보드](http://metrics.dydx.exchange)
+* [측정치 대시보드](http://metrics.dydx.exchange/)
+* [LP 보상 대시보드](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true)
