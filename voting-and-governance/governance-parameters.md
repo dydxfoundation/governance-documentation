@@ -4,8 +4,6 @@ description: Yönetişim parametrelerine genel bakış.
 
 # Parametreler
 
-**\[PARAMETRELER SAYFASI GELİŞTİRİLMEKTEDİR VE YAKINDA GÜNCELLENECEKTİR]**
-
 Yönetişimin başladığı tarih itibarıyla, DYDX sahipleri şunlar üzerinde anında ve gayri kabili rücu kontrol sahibidir:
 
 * Topluluk hazinesinin tahsisi
@@ -32,7 +30,7 @@ dYdX Yönetişimi şu sözleşmelerin parametreleri üzerinde kontrol sahibidir:
 
 ## Timelock Parametreleri
 
-![](<.. /.gitbook/assets/image (77).png>)
+![](../.gitbook/assets/1-initial-timelock-parameters.png)
 
 ## Governor Parametreleri
 
@@ -42,15 +40,11 @@ dYdX Yönetişimi şu sözleşmelerin parametreleri üzerinde kontrol sahibidir:
 | Executor rolü ekleyin | Yeni executor ekleyebilen adres | Short Timelock |
 | Sahip rolü | Stratejiyi / oylama bekleme süresini değiştirebilir / executor'ların yetkilerini iptal edebilir + diğer rollerin sahibidir | Long Timelock |
 
-
-
 ## DYDX Token
 
 | Parametre | Açıklama | Değer |
 | --------- | ------------------------------------------- | -------------- |
 | Sahip | Token çıkarmanın kısıtlanmasının ardından DYDX token'ları çıkarabilir | Short Timelock |
-
-
 
 ## Ödül Hazinesi Parametreleri
 
