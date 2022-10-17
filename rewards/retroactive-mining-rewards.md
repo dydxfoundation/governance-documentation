@@ -15,11 +15,11 @@ description: 소급 채굴 보상 프로그램 개요
 
 dYdX 레이어 2 프로토콜의 성공은 지난 3년 동안 dYdX 레이어 2 프로토콜 및 이전 프로토콜에서 거래한 수천 명의 커뮤니티 회원들이 이룬 결과입니다.
 
-DYDX는 **2021년 7월 26일 00:00:00(UTC**)에 종료되는 스냅샷을 기준으로 모든 dYdX 프로토콜의 과거 사용자에게 할당되었습니다\(미국 등 DYDX가 허용되지 않는 관할권에 있는 사용자 제외). 모든 dYdX 프로토콜에서 수행된 사용자의 과거 활동을 고려하는 5개의 할당 등급이 있습니다.
+DYDX는 **2021년 7월 26일 00:00:00(UTC)**에 종료되는 스냅샷을 기준으로 모든 dYdX 프로토콜의 과거 사용자에게 할당되었습니다\(미국 등 DYDX가 허용되지 않는 관할권에 있는 사용자 제외). 모든 dYdX 프로토콜에서 수행된 사용자의 과거 활동을 고려하는 5개의 할당 등급이 있습니다.
 
 DYDX를 청구하려면 과거 사용자는 첫 28일 에폭(에폭 0) 이내에 [레이어 2 무기한](https://trade.dydx.exchange)에서 다음 일정을 충족해야 합니다.
 
-![](../.gitbook/assets/buckets.png)
+![](../.gitbook/assets/1-retroactive-buckets.png)
 
 dYdX Layer 2 프로토콜 상의 모든 기록 거래량은 사용자의 청구 이정표에 포함됩니다. dYdX Foundation은 각 사용자의 진행 중인 거래량을 확인할 수 없으므로 사용자의 클레임 마일스톤 달성도는 [trade.dydx.exchange/portfolio/rewards](https://trade.dydx.exchange/portfolio/rewards)에서만 볼 수 있습니다.
 
@@ -37,9 +37,9 @@ DYDX 및 dYdX 레이어 2 프로토콜의 가용성에 대한 미국 내 제한�
 
 ### 소급 보상 프로그램에서 DYDX가 얼마나 적립되었습니까?
 
-![View claim milestone and progress](<.. /.gitbook/assets/image (23).png>)
+![클레임 마일스톤 및 진행 상황 보기](../.gitbook/assets/1-retroactive-earn-view.png)
 
-과거 dYdX 사용자는 [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)에서 소급 채굴 관련 과거 활동 및 등급을 볼 수 있습니다. DYDX를 획득하려면 사용자는 기준 임계치를 충족시키기 위해 반드시 [**trade.dydx.exchange**](https://trade.dydx.exchange)의 dYdX 레이어 2 프로토콜에서 거래해야 합니다.
+과거 dYdX 사용자는 [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)에서 소급 채굴 관련 과거 활동 및 등급을 볼 수 있습니다. DYDX를 획득하려면 사용자는 기준 임계치를 충족시키기 위해 반드시 [**trade.dydx.exchange**](https://trade.dydx.exchange/)의 dYdX 레이어 2 프로토콜에서 거래해야 합니다.
 
 ### 클레임 마일스톤에 도달하지 않으면 어떻게 됩니까?
 
