@@ -19,7 +19,7 @@ DYDX, **26 Temmuz 2021 tarihinde TSİ 03.00.00** itibarıyla alınması sona ere
 
 DYDX alabilmek için, geçmiş kullanıcılar ilk 28 günlük dönem (Dönem 0) içinde [Katman 2 Sürekli Varlıklarda](https://trade.dydx.exchange) aşağıda belirtilen hakediş eşiklerine ulaşmalıdır:
 
-![](../.gitbook/assets/buckets.png)
+![](../.gitbook/assets/1-retroactive-buckets.png)
 
 dYdX Katman 2 Protokolü üzerinde geçmişte gerçekleştirilmiş tüm hacimler kullanıcının hakediş eşiği hesaplamasına dâhil edilir. dYdX Vakfı her kullanıcının süregelen hacmini gösteremediği için, hakediş eşiği hesaplamanızın güncel durumunu yalnızca [trade.dydx.exchange/portfolio/rewards](https://trade.dydx.exchange/portfolio/rewards) adresinden görüntüleyebilirsiniz.
 
@@ -37,9 +37,9 @@ Tüm geriye dönük ödül tahsisleri kesindir ve değiştirilemez.
 
 ### Geriye dönük ödül programında ne kadar DYDX kazandım?
 
-![View claim milestone and progress](<.. /.gitbook/assets/image (23).png>)
+![Hakediş eşiğini ve durumunu görüntüleyin](../.gitbook/assets/1-retroactive-earn-view.png)
 
-Geçmiş dYdX kullanıcıları, Geriye Dönük Madencilik kapsamındaki geçmiş etkinliklerini ve kademelerini [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) adresinde görüntüleyebilirler. DYDX kazanmak adına, kullanıcılar kriter eşiklerini karşılamak için [**trade.dydx.exchange**](https://trade.dydx.exchange) adresindeki dYdX Katman 2 Protokolü üzerinde alım satım yapmalıdır.
+Geçmiş dYdX kullanıcıları, Geriye Dönük Madencilik kapsamındaki geçmiş etkinliklerini ve kademelerini [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) adresinde görüntüleyebilirler. DYDX kazanmak adına, kullanıcılar kriter eşiklerini karşılamak için [**trade.dydx.exchange**](https://trade.dydx.exchange/) adresindeki dYdX Katman 2 Protokolü üzerinde alım satım yapmalıdır.
 
 ### Hakediş eşiğime ulaşamazsam ne olur?
 
