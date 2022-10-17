@@ -4,7 +4,7 @@ description: 거래 보상 프로그램 개요
 
 # 거래 보상
 
-초기 토큰 공급량의 `25.00%`(`250,000,000 DYDX`)는 dYdX Layer 2 프로토콜에서 거래하는 사용자에게 지불한 수수료를 기준으로 분배됩니다.
+초기 토큰 공급량의 `25.00%`(`250,000,000 DYDX`)는 지불한 수수료를 기반으로 dYdX Layer 2 프로토콜에서 거래하는 사용자에게 배포되도록 할당되었습니다. [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)에서 dYdX 커뮤니티는 거래 보상을 25% 낮추기로 [투표](https://dydx.community/dashboard/proposal/8)했습니다. 그 결과, 해당 에폭에 배포된 거래 보상은 3,835,616 DYDX에서 에폭 15의 2,876,712 DYDX로 감소했습니다.
 
 **목표**
 
@@ -13,11 +13,13 @@ description: 거래 보상 프로그램 개요
 
 ## **개요**
 
-![dYdX Layer 2 프로토콜 거래로 보상 획득하기](<../.gitbook/assets/image (14) (2) (1).png>)
+<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>특정 에폭에서 지불한 수수료 및 예상 보상</p></figcaption></figure>
 
-DYDX는 dYdX Layer 2 프로토콜에서 지불한 수수료를 기반으로 거래자에게 배포됩니다. DYDX는 5년 동안 28일 순환을 기준으로 배포될 예정이며 모든 베스팅 또는 락업에서 제외됩니다. 3,835,616 DYDX가 순환당 배포됩니다.
+DYDX는 dYdX Layer 2 프로토콜에서 지불한 수수료를 기반으로 거래자에게 배포됩니다. DYDX는 5년 동안 28일 순환을 기준으로 배포될 예정이며 모든 베스팅 또는 락업에서 제외됩니다. 2,876,712 DYDX가 에폭당 배포됩니다.
 
-![](<../.gitbook/assets/Screenshot 2022-08-12 at 17.50.17.png>)
+커뮤니티가 투표를 통해 3,835,616 DYDX에서 2,876,712 DYDX로 거래 보상을 25% 낮추기로 결정함에 따라 보상 트레저리에 축적된 잔여 958,904 DYDX는 dYdX 커뮤니티에서 [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 사용/관리할 수 있습니다.
+
+<figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
 $$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k $$
 
@@ -30,7 +32,7 @@ $$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k $$
 | $${\sum\limits _{n} w_{n}}$$ | 모든 트레이더 점수의 합계입니다. |
 | k | 이 에폭 내 총 트레이더 수 |
 
-[DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md)에서 dYdX 커뮤니티는 공식을 단순화하여 주어진 에폭에 거래자가 지불한 총 수수료에 기반하기로 결정했습니다.
+[DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md)의 투표에서 dYdX 커뮤니티는 주어진 에폭에 거래자가 지불한 총 수수료에 기반하도록 공식을 단순화하기로 결정했습니다.
 
 ## FAQ
 
@@ -44,11 +46,11 @@ dYdX 레이어 2 프로토콜은 dYdX Trading Inc.의 [이용 약관](https://dy
 
 현재 에폭에 사용자는 사용자의 거래 데이터가 있는 [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)에서 지불한 수수료와 예상 거래 보상을 확인할 수 있습니다.
 
-![현재 에폭에 대한 보상 정보](<../.gitbook/assets/image (18).png>)
+<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>특정 에폭에서 지불한 수수료 및 예상 보상</p></figcaption></figure>
 
-과거 에폭에서 얻은 보상은 [**dydx.community/history/rewards**](https://dydx.community/history/rewards)\*\*\*\*(곧 제공 예정)에서 확인할 수 있습니다.
+지난 에폭의 보상은 [**dydx.community/history/rewards**](https://dydx.community/history/rewards)에서 확인하실 수 있습니다**.**
 
-### 거래 보상을 어떻게 청구할 수 있습니까? 제가 획득한 DYDX를 언제 인출하고 양도할 수 있습니까?
+### 거래 보상을 어떻게 클레임할 수 있습니까? 제가 획득한 DYDX를 언제 인출하고 양도할 수 있습니까?
 
 거래 보상을 통해 획득한 DYDX 토큰은 각 에폭이 종료될 때 양도할 수 있습니다. DYDX 보유자가 토큰을 클레임하려면 에폭이 종료되고 약 `7일`(**대기 기간**)을 기다려야 합니다. 토큰이 클레임되면 dYdX 거버넌스에 사용될 수 있습니다.
 
@@ -56,5 +58,4 @@ dYdX 레이어 2 프로토콜은 dYdX Trading Inc.의 [이용 약관](https://dy
 
 사용자는 DYDX를 클레임하려면 "클레임"를 클릭하고 거래에 서명하고 가스 수수료를 지불해야 합니다.
 
-![보상 포트폴리오 개요](<../.gitbook/assets/image (20).png>)
-
+![보상 포트폴리오 개요](../.gitbook/assets/1-portfolio-overview-rewards.png)

@@ -49,7 +49,7 @@ DYDX는 안전 모듈에 스테이킹되며, 제안 및 투표권뿐만 아니�
 
 활성 자금은 활성 상태로 남아있는 기간 동안 보상을 받습니다. 즉, 일부 자금의 인출을 요청하면 해당 자금은 해당 에폭이 끝날 때까지 계속해서 보상을 받게 됩니다. 이는 [유동성 스테이킹 풀](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool)에서의 다음 예에서 표시됩니다.
 
-![](<../.gitbook/assets/image (65) (1).png>)
+![](../.gitbook/assets/1-earning-staking-rewards.png)
 
 위 시나리오에서 사용자는 **Time0**에서 **Time2**의 기간 동안 보상을 획득할 수 있고, 보상은 해당 기간에 스테이킹된 잔고 총액에 따라 달라집니다. 사용자가 잔액의 일부에 대해서만 출금을 요청하면 나머지 잔액은 **Time2**를 초과하여 계속해서 보상을 받습니다.
 
@@ -86,7 +86,7 @@ DYDX를 안전 풀에 스테이킹하려면 아래의 단계를 따르십시오.
 
 스테이커는 활성 및 비활성 잔고를 모두 가질 수 있습니다. 자금 정보는 다음 예와 같이 에폭별로 표시될 수 있습니다.
 
-![](<../.gitbook/assets/image (34) (1) (3).png>)
+![](../.gitbook/assets/1-staked-balance-accounting.png)
 
 다음 작업은 다음과 같이 스테이킹된 잔고에 영향을 미칩니다.
 
