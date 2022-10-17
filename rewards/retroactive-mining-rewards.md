@@ -17,9 +17,9 @@ dYdX Layer 2协议的成功是成千上万名社区成员努力的结果，他�
 
 根据截至**中国时间2021年7月27日08:00:00**的快照，将DYDX分配给所有dYdX 协议的过往用户（不包括不允许提供DYDX的管辖区的用户，包括美国）。有五个分配等级，考虑了用户过去在所有dYdX协议上的活动。
 
-如果要申领DYDX，过往用户必须在首个28天时段（0时段）内满足[Layer 2](https://trade.dydx.exchange)永续合约的以下里程碑：
+如果要申领DYDX，过往用户必须在首个28天时段（0时段）内满足[Layer 2永续合约](https://trade.dydx.exchange)的以下里程碑：
 
-![](../.gitbook/assets/buckets.png)
+![](../.gitbook/assets/1-retroactive-buckets.png)
 
 dYdX Layer 2协议上的任何历史成交量都将计入用户的申领里程碑。只有在[trade.dydx.exchange/portfolio/rewards](https://trade.dydx.exchange/portfolio/rewards)上，才能查看您的申领里程碑的进展，因为dYdX基金会无法明确了解每个用户的持续交易量。
 
@@ -37,9 +37,9 @@ dYdX Layer 2协议上的任何历史成交量都将计入用户的申领里程�
 
 ### 我在追溯性奖励计划中赚取了多少DYDX？
 
-![View claim milestone and progress](<../.gitbook/assets/image (23).png>)
+![查看申领里程碑和进度](../.gitbook/assets/1-retroactive-earn-view.png)
 
-过往dYdX用户可以在[**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)上查看他们过去的追溯性挖矿活动和等级。如果要赚取DYDX，用户必须在[**trade.dydx.exchange**](https://trade.dydx.exchange)上在dYdX Layer 2协议上进行交易，以达到他们的标准阈值。
+过往dYdX用户可以在[**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)上查看他们过去的追溯性挖矿活动和等级。如果要赚取DYDX，用户必须在[**trade.dydx.exchange**](https://trade.dydx.exchange/)上在dYdX Layer 2协议上进行交易，以达到他们的标准阈值。
 
 ### 如果我没有达到申领里程碑，会发生什么情况？
 
