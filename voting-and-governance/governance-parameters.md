@@ -4,8 +4,6 @@ description: Visão geral dos parâmetros de governança.
 
 # Parâmetros
 
-**\[A PÁGINA PARÂMETROS ESTÁ EM DESENVOLVIMENTO E SERÁ ATUALIZADA EM BREVE]**
-
 No momento de lançamento de governança, os holders da DYDX têm controle imediato e irrevogável sobre:
 
 * Alocação do tesouro da comunidade
@@ -32,7 +30,7 @@ A governança da dYdX tem controle sobre os parâmetros dos seguintes contratos:
 
 ## Parâmetros de timelock
 
-![](<.. /.gitbook/assets/image (77).png>)
+![](../.gitbook/assets/1-initial-timelock-parameters.png)
 
 ## Parâmetros de governador
 
@@ -42,15 +40,11 @@ A governança da dYdX tem controle sobre os parâmetros dos seguintes contratos:
 | Adicionar função de executor | Endereço que pode adicionar novos executores | Timelock curto |
 | Função de proprietário | Pode alterar a estratégia / atraso de votação / não autorizar os executores + possui outras funções | Timelock longo |
 
-
-
 ## Token DYDX
 
 | Parâmetro | Descrição | Valor |
 | --------- | ------------------------------------------- | -------------- |
 | Proprietário | Pode fazer mint de tokens DYDX após restrição de mint | Timelock curto |
-
-
 
 ## Parâmetros do Tesouro de recompensas
 
