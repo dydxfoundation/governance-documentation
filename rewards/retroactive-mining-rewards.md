@@ -19,7 +19,7 @@ Foram alocados tokens DYDX a antigos usuários de todos os protocolos da dYdX (e
 
 Para resgatar DYDX, os usuários antigos precisam atender aos seguintes objetivos na [Layer 2 Perpetuals](https://trade.dydx.exchange) dentro da primeira epoch de 28 dias (Epoch 0):
 
-![](../.gitbook/assets/buckets.png)
+![](../.gitbook/assets/1-retroactive-buckets.png)
 
 Qualquer volume anterior no protocolo dYdX Layer 2 é contabilizado para a meta de resgate de um usuário. Os progressos da meta de resgate podem ser vistos apenas em [trade.dydx.exchange/portfolio/rewards](https://trade.dydx.exchange/portfolio/rewards), pois a dYdX Foundation não tem visibilidade do volume contínuo de cada usuário.
 
@@ -37,9 +37,9 @@ Todas as alocações de recompensas retroativas são definitivas e não podem se
 
 ### Quanto em DYDX ganhei no programa de recompensas retroativas?
 
-![View claim milestone and progress](<.. /.gitbook/assets/image (23).png>)
+![Veja seu claim milestone e o respectivo andamento](../.gitbook/assets/1-retroactive-earn-view.png)
 
-Os usuários antigos da dYdX podem consultar suas atividades passadas e nível na mineração retroativa em [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards). Para ganhar DYDX, os usuários devem fazer trades no protocolo dYdX Layer 2 em [**trade.dydx.exchange**](https://trade.dydx.exchange) para atender aos critérios-limite.
+Os usuários antigos da dYdX podem consultar suas atividades passadas e nível na mineração retroativa em [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards). Para ganhar DYDX, os usuários devem fazer trades no protocolo dYdX Layer 2 em [**trade.dydx.exchange**](https://trade.dydx.exchange/) para atender aos critérios-limite.
 
 ### O que acontece se eu não alcançar a minha meta para o resgate?
 
