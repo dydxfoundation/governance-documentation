@@ -9,25 +9,33 @@ description: Alocações para o token DYDX.
 Houve um mint total de `1.000.000.000 DYDX` que ficará acessível por mais de cinco (5) anos a partir de **3 de agosto de 2021, às 15:00:00 UTC**. A alocação inicial de cinco anos do fornecimento total de DYDX é a seguinte:
 
 * **50,00%** (`500.000.000 DYDX`) para a comunidade da seguinte forma:
-   * **25,00%** (`250.000.000 DYDX`) para usuários que fizerem trades no protocolo dYdX Layer 2 com base em uma combinação de taxas pagas e posições abertas ([**recompensas de trading**](../rewards/trading-rewards.md))
-   * **7,50%** (`75.000.000 DYDX`) para usuários antigos que concluírem certos alvos de trades no protocolo dYdX Layer 2 ([**recompensas de mineração retroativas**](../rewards/retroactive-mining-rewards.md))
-   * **7,50%** (`75.000.000 DYDX`) para provedores de liquidez com base em uma fórmula que recompensa uma combinação de tempo de atividade, profundidade de dois lados, spreads de compra e venda e a quantidade de mercados aceitos ([**recompensas para provedores de liquidez**](../rewards/liquidity-provider-rewards.md))
-   * **5,00%** (`50.000.000 DYDX`) para um tesouro da comunidade ([**Tesouro**](community-treasury.md))
-   * **2,50%** (`25.000.000 DYDX`) para usuários que fizerem staking de USDC em um pool de staking de liquidez ([**módulo de liquidez**](../staking-pools/liquidity-staking-pool.md))
-   * **2,50%** (`25.000.000 DYDX`) para usuários que fizerem staking DYDX em um pool de staking de segurança ([**módulo de segurança**](../staking-pools/safety-staking-pool.md))
-* **27,73%** (`277.295.070 DYDX`) para investidores antigos
-* **15,27%** (`152.704.930 DYDX`) para fundadores, funcionários e consultores da dYdX Trading ou dYdX Foundation
-* **7,00%** (`70.000.000 DYDX`) para futuros funcionários e consultores da dYdX Trading ou dYdX Foundation
+  * **25,00%** (`250.000.000 DYDX`) para usuários que fizerem trades no protocolo dYdX Layer 2 com base em taxas pagas ([**Recompensas de trading**](../rewards/trading-rewards.md)). No [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/8) pela redução das recompensas de trading em 25%. Como resultado, as recompensas de trading distribuídas em uma determinada epoch foram reduzidas de 3.835.616 DYDX para 2.876.712 DYDX na epoch 15. Os 958.904 DYDX restantes serão acumulados no Tesouro de Recompensas e poderão ser usados pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters),
+  * **7,50%** (`75.000.000 DYDX`) para usuários antigos que concluírem certos níveis de referência em trades no protocolo dYdX Layer 2 ([**Recompensas de mineração retroativas**](../rewards/retroactive-mining-rewards.md)),
+  * **7,50%** (`75.000.000 DYDX`) para provedores de liquidez com base em uma fórmula que recompensa uma combinação de tempo de atividade, profundidade bilateral, spreads de compra e venda e a quantidade de mercados aceitos ([**Recompensas para provedores de liquidez**](../rewards/liquidity-provider-rewards.md)),
+  * **5,00%** (`50.000.000 DYDX`) para um tesouro da comunidade ([**Tesouro**](community-treasury.md)),
+  * **2,50%** (`25.000.000 DYDX`) para usuários que fizerem staking de USDC em um pool de staking de liquidez ([**Módulo de liquidez**](../staking-pools/liquidity-staking-pool.md)). No [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/7) pela definição das recompensas associadas ao USDC em staking para 0. O valor de 383.562 DYDX anteriormente distribuída para stakers de USDC ficará acumulado no Tesouro de Recompensas e poderá ser usado pela cumunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters),
+  * **2,50%** (`25.000.000 DYDX`) para usuários que fizerem staking em DYDX em um pool de staking de segurança ([**Módulo de segurança**](../staking-pools/safety-staking-pool.md)),
+* **27,73%** (`277.295.070 DYDX`) para investidores antigos,
+* **15,27%** (`152.704.930 DYDX`) para fundadores, funcionários, conselheiros e consultores da dYdX Trading ou dYdX Foundation e
+* **7,00%** (`70.000.000 DYDX`) para futuros funcionários e consultores da dYdX Trading ou dYdX Foundation.
 
-![](<../.gitbook/assets/DYDX Allocations (Initial 5 Years) (1).png>)
+![](../.gitbook/assets/1-dydx-allocations-initial-5-years.png)
 
 A partir de cinco anos após o lançamento, uma taxa de inflação perpétua máxima de `2%` ao ano poderá ser usada pela governança para aumentar o fornecimento de DYDX, garantindo que a comunidade tenha recursos para continuar o desenvolvimento e o crescimento do protocolo. A inflação deve ser promulgada por meio de uma proposta da governança, ficando limitada a `2%` ao ano.
 
-![](<../.gitbook/assets/Allocation 10 Years Inflation (1) (1).png>)
+![](../.gitbook/assets/1-allocation-10-years-inflation.png)
 
 Embora a alocação da comunidade tenha sido estabelecida como exposta acima, os detentores de tokens DYDX têm total controle acerca da alocação da comunidade para usos futuros por meio da governança.
 
 ## **Perguntas e respostas**
+
+### A alocação de DYDX pode mudar?
+
+Sim, a comunidade dYdX pode alterar qualquer um dos [pools e recompensas que houver no lançamento](../voting-and-governance/governance-parameters.md). Até o momento, a comunidade dYdX votou pela redução das recompensas de trading em 25% e pela definição das recompensas de staking de USDC para 0.
+
+No [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/8) pela redução das recompensas de trading em 25%. Como resultado, as recompensas de trading distribuídas em uma determinada epoch foram reduzidas de 3.835.616 DYDX para 2.876.712 DYDX na epoch 15. O saldo de 958.904 DYDX será acumulado no Tesouro de Recompensas e poderá ser usado pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).\
+\
+ No [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/7) pela definição das recompensas associadas ao USDC em staking para 0. O valor 383.562 DYDX anteriormente distribuídos para stakers de USDC ficará acumulado no Tesouro de Recompensas e poderá ser usado pela comunidade dYdX com um[voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
 ### **É possível fazer o mint de novos tokens DYDX?**
 
@@ -60,4 +68,4 @@ Em 8 de setembro de 2021, `8 dias` após o final da Epoch 0, as restrições de 
 
 O gráfico a seguir mostra o fornecimento total líquido ao longo do tempo:
 
-![](<../.gitbook/assets/Liquid Supply Schedule (2) (1).png>)
+![](../.gitbook/assets/1-liquid-supply-schedule.png)
