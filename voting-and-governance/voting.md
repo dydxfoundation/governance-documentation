@@ -27,7 +27,7 @@ Os holders da DYDX recebem poderes de governança proporcionalmente à sua soma 
 
 `Poder de proposição delegado em staked-DYDX`
 
-``
+\`\`
 
 **`Poder de votação =`** `Poder de votação de tokens DYDX +`
 
@@ -49,7 +49,7 @@ Para participar da governança DYDX on-chain, você precisará possuir ou ter de
 
 Se você tiver tokens ou os tiver delegado e houver uma proposta ativa, você estará pronto para votar na governança da dYdX.
 
-![Envie os votos usando seu poder de votação](<../.gitbook/assets/image (87).png>)
+![Envie os votos usando seu poder de votação](../.gitbook/assets/1-voting-power.png)
 
 Para votar, navegue até a página de propostas e clique em uma proposta ativa.
 
@@ -57,7 +57,7 @@ Para votar, navegue até a página de propostas e clique em uma proposta ativa.
 
 A DYDX permite que os titulares deleguem os direitos de voto para o endereço de sua escolha. Qualquer pessoa pode participar da governança da dYdX recebendo a delegação, sem precisar possuir DYDX. Os usuários podem delegar a um endereço por vez, e a quantidade de votos adicionados à contagem de votos do delegado é equivalente ao saldo de DYDX na conta do usuário. Os votos são delegados a partir do bloco atual e adiante, até que os DYDX sejam delegados ou transferidos novamente.
 
-![Delegar seus poderes de votação e de proposição](<../.gitbook/assets/image (86).png>)
+![Delegar seus poderes de votação e de proposição](../.gitbook/assets/1-delegate-power.png)
 
 Os holders de tokens podem optar por delegar ambos os poderes de governança associados a um token por meio do portal de governança ou de forma programática. Um usuário que recebeu o poder de delegação não pode encaminhar este poder delegado para outro.
 
