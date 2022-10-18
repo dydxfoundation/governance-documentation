@@ -6,17 +6,17 @@ description: Visión general del ciclo de vida de la propuesta de mejora de dYdX
 
 ## **Etapas de la propuesta**
 
-El proceso de gobernanza de dYdX está impulsado por foros de gobernanza en [**forums.dydx.community**](https://forums.dydx.community) y ratificado a través de la propuesta de mejora de dYdX (“DIPs”).
+El proceso de gobernanza de dYdX está impulsado por foros de gobernanza en [**forums.dydx.community**](https://forums.dydx.community/) y ratificado a través de la propuesta de mejora de dYdX (“DIPs”).
 
 A continuación, describimos un borrador preliminar que explica cómo fluirá el proceso de gobernanza de dYdX, desde el inicio y la definición del concepto hasta la implementación. Esos procesos están sujetos a cambios según los comentarios de la comunidad de DYDX.
 
 El siguiente diagrama de flujo muestra las etapas iniciales propuestas para aprobar una propuesta:
 
-![Stages of a DIP](<.. /.gitbook/assets/image (81).png>)
+![Etapas de un DIP](../.gitbook/assets/1-proposal-stage-flow-chart.png)
 
 ## 0. Discusión en los foros
 
-Cualquier persona puede inscribirse e iniciar un hilo sobre cualquier tema en los foros de gobernanza de dYdX alojados en [**forums.dydx.community**](https://forums.dydx.community). Los miembros de la comunidad deben registrarse usando una dirección de correo electrónico o una billetera de Ethereum.
+Cualquier persona puede inscribirse e iniciar un hilo sobre cualquier tema en los foros de gobernanza de dYdX alojados en [**forums.dydx.community**](https://forums.dydx.community/). Los miembros de la comunidad deben registrarse usando una dirección de correo electrónico o una billetera de Ethereum.
 
 ## 1. Creación de DRC (fuera de la cadena)
 
@@ -82,7 +82,7 @@ Después del retraso de la votación, se activa el período de la votación. La 
 
 El siguiente gráfico muestra un diagrama de flujo de estado de DIP:
 
-![Lifecycle of a DIP](<.. /.gitbook/assets/image (63).png>)
+![Ciclo de vida de un DIP](../.gitbook/assets/1-proposal-state-flowchart.png)
 
 Después de que un DIP se crea en la cadena, está sujeto a un **retraso de la votación**, el **período de la votación**, el **quorum mínimo** y un **diferencial de voto** mínimo. Los parámetros iniciales son los siguientes:
 
@@ -120,19 +120,17 @@ En términos prácticos es:
 
 En cualquier momento del ciclo de vida del DIP, el proponente puede cancelar el DIP. Cualquier persona puede cancelar una propuesta antes de que sea ejecutada si el proponente no tiene suficiente poder de propuesta en el bloque actual.
 
-
-
 ## Preguntas frecuentes
 
 ### ¿Cuál es el objetivo de la demora en la votación?
 
-La **demora en la votación** es el número de bloques de Ethereum que hay esperar antes de votar sobre una propuesta, que puede comenzar después de que se envíe una propuesta.
+La **Demora en la votación** es el número de bloques de Ethereum que hay esperar antes de votar sobre una propuesta, que puede comenzar después de que se envíe una propuesta.
 
-La facultad de voto en DYDX debe delegarse a una dirección ya sea completamente antes de que se haya presentado una propuesta o durante la **demora de la** votación.
+La facultad de voto en DYDX debe delegarse a una dirección ya sea completamente antes de que se haya presentado una propuesta o durante la **Demora de la votación. **
 
 Por ahora, la **demora en la votación** está configurada en `6.570 bloques`, que es aproximadamente 1 día. Este valor se le agrega al número del bloque actual cuando se crea una propuesta.
 
-En el futuro, la gobernanza de dYdX puede votar para aumentar o disminuir **la demora en la votación**. Aunque hay beneficios obvios de una **demora en la votación**, puede presentar algunos resultados adversos potenciales como la explotación de casos de borde oportunista.
+En el futuro, la gobernanza de dYdX puede votar para aumentar o disminuir **la demora en la votación**. Si bien hay beneficios obvios para una **Demora en la votación.** Puede introducir algunos resultados adversos potenciales, como la explotación oportunista en casos extremos.
 
 ### ¿Cuál es el objetivo del umbral de la propuesta?
 
