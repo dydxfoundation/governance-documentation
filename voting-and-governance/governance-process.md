@@ -21,7 +21,7 @@ Há seis contratos inteligentes no núcleo da governança da dYdX:
 * **Contratos de `timelock`**: podem enfileirar, cancelar ou executar transações votadas pela Governança. As funções em uma proposta são iniciadas pelo contrato timelock. As transações em fila podem ser executadas após um atraso e antes do término do período de carência.
 * **Contrato `de timelock de prioridade`**: o mesmo que o contrato de timelock, mas que permite que um controlador de prioridade execute transações dentro do **período** de prioridade (7 dias) antes do fim do atraso de timelock.
 
-![Arquitetura do contrato inteligente](<../.gitbook/assets/image (49).png>)
+![Arquitetura do contrato inteligente](../.gitbook/assets/1-smart-contract-architectue.png)
 
 A governança da dYdX on-chain permite:
 
@@ -63,4 +63,4 @@ O executor Merkle-pauser é capaz de executar propostas que congelam a raiz Merk
 
 Os parâmetros de timelock iniciais são os seguintes:
 
-![Parâmetros de timelock iniciais](<../.gitbook/assets/Initial Timelock Parameters (1).png>)
+![Parâmetros de timelock iniciais](../.gitbook/assets/1-initial-timelock-parameters.png)
