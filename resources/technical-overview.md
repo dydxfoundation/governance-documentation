@@ -14,8 +14,8 @@ A governança on-chain da dYdX fornece as seguintes funcionalidades:
 * Definição de limites de governança, incluindo proposições, quórum e limites de diferenciais de voto
 * Substituição do contrato inteligente de “estratégia de governança”, que determina como os votos são contados
 * Configuração de vários contratos de execução que permitem:
-   * melhorias de protocolo e distribuição de fundos rápidas por meio de executores de timelock curto;
-   * atualizações de governança por meio de executores de timelock longo.
+  * melhorias de protocolo e distribuição de fundos rápidas por meio de executores de timelock curto;
+  * atualizações de governança por meio de executores de timelock longo.
 
 Existem seis contratos inteligentes que aceitam a governança da dYdX:
 
@@ -75,7 +75,7 @@ Todos os principais novos contratos inteligentes foram auditados pela Peckshield
 
 ## Contratos de governança principal
 
-![Linhas com tracejado vermelho indicam que o contrato é atualizável](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.17.43 PM (1).png>)
+![Linhas com tracejado vermelho indicam que o contrato é atualizável](../.gitbook/assets/3-core-governance-contracts-1.png)
 
 ### DydxToken
 
@@ -135,7 +135,7 @@ O **contrato de timelock de prioridade Starkware** está implantado em [0xa30698
 
 ### Distribuidor Merkle
 
-![Linhas com tracejado vermelho indicam que o contrato é atualizável](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.23.50 PM (1).png>)
+![Linhas com tracejado vermelho indicam que o contrato é atualizável](../.gitbook/assets/3-core-governance-contracts-2.png)
 
 O contrato inteligente Merkle distribui recompensas de token DYDX de acordo com uma árvore de Merkle de saldos. A árvore pode ser atualizada periodicamente com o saldo de recompensa cumulativo de cada usuário, permitindo que novas recompensas sejam distribuídas aos usuários ao longo do tempo.
 
@@ -149,7 +149,7 @@ O contrato inteligente Merkle foi inspirado por projetos como Uniswap e Badger. 
 
 ### Módulo de segurança
 
-![Linhas com tracejado vermelho indicam que o contrato é atualizável](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.24.45 PM (1).png>)
+![Linhas com tracejado vermelho indicam que o contrato é atualizável](../.gitbook/assets/3-core-governance-contracts-3.png)
 
 O Módulo de Segurança é um pool de staking que oferece recompensas DYDX aos usuários que façam o stake de DYDX com vistas para a segurança do protocolo.
 
@@ -159,13 +159,13 @@ O Módulo de Segurança é um pool de staking que oferece recompensas DYDX aos u
 
 ### Módulo de liquidez
 
-![Linhas com tracejado vermelho indicam que o contrato é atualizável](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.25.30 PM (1).png>)
+![Linhas com tracejado vermelho indicam que o contrato é atualizável](../.gitbook/assets/3-core-governance-contracts-4.png)
 
 O Módulo de Liquidez é uma coleção de contratos inteligentes para o staking e empréstimos, que incentivam a alocação de fundos em USDC para fins de criação de mercado na exchange dYdX Layer 2.
 
 Os stakers ganham recompensas DYDX ao fazerem o staking de USDC. Os fundos em staked podem ser emprestados por certos parceiros pré-aprovados com base em reputação e sem garantia. Os fundos só podem ser usados na exchange L2, isto é aplicado por meio do contrato StarkProxy que interage com o contrato da Exchange StarkEx Perpetual.
 
-![Um diagrama do módulo de liquidez](<../.gitbook/assets/image (66).png>)
+![Um diagrama do módulo de liquidez](../.gitbook/assets/3-core-governance-contracts-5.png)
 
 ### StarkProxy
 
@@ -173,7 +173,7 @@ Este contrato permite que o proprietário empreste fundos da LiquidityStaking e 
 
 ### Contratos do Tesouro
 
-![Linhas com tracejado vermelho indicam que o contrato é atualizável](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM (1).png>)
+![Linhas com tracejado vermelho indicam que o contrato é atualizável](../.gitbook/assets/3-core-governance-contracts-6.png)
 
 O contrato do TreasuryVester foi inspirado pela [Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol).
 
@@ -197,7 +197,7 @@ Após calcular as recompensas apropriadas a partir dos dados de trades brutos, a
 
 O fluxograma a seguir mostra a arquitetura do sistema de Recompensas da Chainlink Oracle-Powered:
 
-![](<../.gitbook/assets/Merkle Distributor (1).png>)
+![](../.gitbook/assets/3-core-governance-contracts-merkle-distributor.png)
 
 ### Outros ativos
 
