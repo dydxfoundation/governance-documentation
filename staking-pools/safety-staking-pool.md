@@ -49,7 +49,7 @@ Les stakers peuvent déposer des DYDX à tout moment dans le pool de staking de 
 
 Les fonds actifs gagnent des récompenses pour la période pendant laquelle ils restent actifs. Cela signifie qu'après avoir demandé le retrait de certains fonds, ces fonds continueront à gagner des récompenses jusqu'à la fin de l'epoch. Ceci est démontré dans l'exemple suivant du [pool de staking de liquidité](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool) :
 
-![](<../.gitbook/assets/image (65) (1).png>)
+![](../.gitbook/assets/1-earning-staking-rewards.png)
 
 Dans le scénario ci-dessus, l'utilisateur gagnerait des récompenses pour la période de **Time0** à **Time2**, variant avec le solde total staké au cours de cette période. Si l'utilisateur ne demande un retrait que pour une partie de son solde, le solde restant continuera à gagner des récompenses au-delà de **Time2**.
 
@@ -86,7 +86,7 @@ Un solde staké est dans l'un des deux états suivants :
 
 Un staker peut avoir une combinaison de soldes actifs et inactifs. Les fonds sont comptabilisés époch par époch, comme illustré dans l'exemple suivant :
 
-![](<../.gitbook/assets/image (34) (1) (3).png>)
+![](../.gitbook/assets/1-staked-balance-accounting.png)
 
 Les opérations suivantes affectent les soldes stakés comme suit :
 
