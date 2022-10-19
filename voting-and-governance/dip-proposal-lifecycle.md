@@ -6,17 +6,17 @@ description: Aperçu du cycle de vie de la proposition d'amélioration dYdX (DIP
 
 ## **Étapes de la proposition**
 
-Le processus de gouvernance dYdX est alimenté par des forums de gouvernance sur [**forums.dydx.community**](https://forums.dydx.community) et ratifié par le biais de propositions d'amélioration dYdX (« DIP »).
+Le processus de gouvernance dYdX est alimenté par des forums de gouvernance sur [**forums.dydx.community**](https://forums.dydx.community/) et ratifié par le biais de propositions d'amélioration dYdX (« DIP »).
 
 Ci-dessous, nous décrivons un avant-projet expliquant comment le processus de gouvernance dYdX se déroulera, de la conception et de la définition du concept à la mise en œuvre effective. Ces processus sont susceptibles d'être modifiés en fonction des commentaires de la communauté DYDX.
 
 L'organigramme suivant représente les étapes initiales proposées pour passer une proposition :
 
-![Stages of a DIP](<.. /.gitbook/assets/image (81).png>)
+![Étapes d'un DIP](../.gitbook/assets/1-proposal-stage-flow-chart.png)
 
 ## 0. Discussion sur le forum
 
-Tout le monde peut s'inscrire et créer un fil de discussion sur n'importe quel sujet sur les forums de gouvernance de dYdX hébergés sur [**forums.dydx.community**](https://forums.dydx.community). Les membres de la communauté doivent s'inscrire en utilisant une adresse e-mail ou un portefeuille Ethereum.
+Tout le monde peut s'inscrire et créer un fil de discussion sur n'importe quel sujet sur les forums de gouvernance de dYdX hébergés sur [**forums.dydx.community**](https://forums.dydx.community/). Les membres de la communauté doivent s'inscrire en utilisant une adresse e-mail ou un portefeuille Ethereum.
 
 ## 1. Création de la DRC (hors chaîne)
 
@@ -48,7 +48,7 @@ Pour les sondages Snapshot liés à la signalisation de sentiment, le proposant 
 
 * détails de la DRC,
 * un système de vote,
-* une période de vote - la date de début du vote et la date de fin du vote sont définies sur une période de vote de 4 jours, et
+* une période de vote - la date de début et la date de fin du vote sont définies sur une période de vote de 4 jours, et
 * un délai de vote - un numéro de bloc Snapshot qui est de 6570 blocs (environ 1 jour) dans le futur. Le numéro de bloc Snapshot verrouille l'état des membres de la communauté qui peuvent voter. Les détenteurs de jetons qui détiennent des jetons avant le numéro de bloc Snapshot sont éligibles pour voter. Avant le snapshot du pouvoir de vote respectif de chaque adresse, le délai de vote donne aux détenteurs de DYDX/stkDYDY le temps d'acquérir des jetons, de déléguer le pouvoir de vote et de déplacer des jetons entre les portefeuilles (le déplacement de jetons entre les portefeuilles ne s'applique qu'aux détenteurs de DYDX).
 
 Pour les décisions qui ne nécessitent pas d'appel de contrat intelligent sur la chaîne, notamment les modifications apportées aux formules de récompenses du fournisseur de trading et de liquidité, les votes Snapshot sont considérés comme le vote contraignant et final. Le proposant devra inclure les exigences ci-dessus et fournir :
@@ -82,7 +82,7 @@ Après le délai de vote, la période de vote est activée. La durée de la pér
 
 Le graphique suivant montre un diagramme d'état DIP :
 
-![Lifecycle of a DIP](<.. /.gitbook/assets/image (63).png>)
+![Cycle de vie d'un DIP](../.gitbook/assets/1-proposal-state-flowchart.png)
 
 Une fois qu'un DIP est créé sur la chaîne, il est soumis à un **délai de vote**, une **période de vote**, un **quorum minimum** et un **différentiel de vote** minimum. Les paramètres initiaux sont les suivants :
 
@@ -112,23 +112,21 @@ Pour l'exécuteur de verrouillage horaire prioritaire Starkware, il a une pério
 
 Concrètement c'est :
 
-* Jours 0-2 : personne ne peut exécuter
-* Jours 2-9 : seul Starkware peut exécuter
+* Jours 0 à 2 : personne ne peut exécuter
+* Jours 2 à 9 : seul Starkware peut exécuter
 * Jours 9 : n'importe qui peut exécuter
 
 ## 7. (Facultatif) Annulation de la proposition
 
 À tout moment du cycle de vie d'un DIP, le proposant peut annuler le DIP. Une proposition peut être annulée par n'importe qui avant d'être exécutée si le proposant n'a pas suffisamment de puissance de proposition au niveau du bloc actuel.
 
-
-
 ## FAQ
 
 ### Quel est le but du délai de vote ?
 
-Le **délai de vote** est le nombre de blocs Ethereum à attendre avant que le vote sur une proposition puisse commencer après la soumission d'une proposition.
+Le **délai** de vote est le nombre de blocs Ethereum à attendre avant que le vote sur une proposition puisse commencer après sa soumission.
 
-Le pouvoir de vote de DYDX doit être délégué à une adresse soit entièrement avant qu'une proposition ne soit soumise, soit pendant le **délai de vote** de la proposition.
+Le pouvoir de vote de DYDX doit être délégué à une adresse soit entièrement avant qu'une proposition ne soit soumise, soit pendant le **délai** de vote de la proposition.
 
 Pour l'instant, le **délai de vote** est fixé à `6 570 blocs`, soit environ 1 jour. Cette valeur est ajoutée au numéro de bloc actuel lorsqu'une proposition est créée.
 
