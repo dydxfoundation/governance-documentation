@@ -4,8 +4,6 @@ description: Aperçu des paramètres de gouvernance.
 
 # Paramètres
 
-**\[LA PAGE DES PARAMÈTRES EST EN COURS DE DÉVELOPPEMENT ET SERA BIENTÔT MIS À JOUR]**
-
 Au moment du lancement de la gouvernance, les détenteurs de DYDX ont un contrôle immédiat et irrévocable sur :
 
 * Allocation de la trésorerie de la communauté
@@ -32,7 +30,7 @@ La gouvernance dYdX a le contrôle des paramètres des contrats suivants :
 
 ## Paramètres de verrouillage
 
-![](<.. /.gitbook/assets/image (77).png>)
+![](../.gitbook/assets/1-initial-timelock-parameters.png)
 
 ## Paramètres du gouverneur
 
@@ -42,15 +40,11 @@ La gouvernance dYdX a le contrôle des paramètres des contrats suivants :
 | Ajouter le rôle d'exécuteur | Adresse pouvant ajouter de nouveaux exécuteurs | Courte durée |
 | Rôle du propriétaire | Peut changer de stratégie / retarder le vote / annuler l'autorisation des exécuteurs + détient d'autres rôles | Longue durée |
 
-
-
 ## Jeton DYDX
 
 | Paramètre | Description | Valeur |
 | --------- | ------------------------------------------- | -------------- |
 | Propriétaire | Peut frapper des jetons DYDX après la restriction de frappe | Courte durée |
-
-
 
 ## Paramètres Trésorerie des récompenses
 
