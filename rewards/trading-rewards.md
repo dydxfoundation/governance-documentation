@@ -4,7 +4,7 @@ description: Aperçu du programme des récompenses de trading.
 
 # Récompenses de trading
 
-`25,00 %` de l'offre initiale de jetons (`250 000 000 DYDX`) seront distribués aux utilisateurs qui tradent sur le protocole de layer 2 de dYdX sur la base des frais payés.
+`25,00 %` de l'offre de jetons initiale (`250 000 000 DYDX`) ont été alloués pour être distribués aux utilisateurs trade sur le protocole de couche 2 dYdX sur la base des frais payés. Dans [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/8) en faveur d'une réduction.de trading de 25 %. Par conséquent, les récompenses de trading distribuées dans une Epoch donnée ont été réduites de 3 835 616 DYDX à 2 876 712 DYDX dans l'Epoch 15.
 
 **Objectifs**
 
@@ -13,11 +13,13 @@ description: Aperçu du programme des récompenses de trading.
 
 ## **Aperçu**
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-08-30 at 15.42.39.png" alt=""><figcaption><p>Frais payés et récompenses estimées dans une Epoch donnée</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Frais payés et récompenses estimées dans une Epoch donnée</p></figcaption></figure>
 
-DYDX sera distribué aux traders sur la base des frais payés sur le protocole de layer 2 de dYdX. DYDX sera distribué sur une période de 28 jours sur cinq ans et n'est soumis à aucune acquisition ou blocage. 3 835 616 DYDX seront distribués par epoch.
+DYDX sera distribué aux traders sur la base des frais payés sur le protocole de layer 2 de dYdX. DYDX sera distribué sur une période de 28 jours sur cinq ans et n'est soumis à aucune acquisition ou blocage. 2 876 712 DYDX seront distribués par Epoch.
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-08-12 at 17.50.17.png" alt=""><figcaption></figcaption></figure>
+Grâce au vote de la communauté en faveur de la réduction des récompenses de trading de 25 %, les faisant passer de 3 835 616 DYDX à 2 876 712 DYDX, les 958 904 DYDX restants qui s'accumulent dans la trésorerie des récompenses peuvent être utilisés/dirigés par la communauté dYdX par le biais d'un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+
+<figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
 $$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k $$
 
@@ -30,7 +32,7 @@ $$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k $$
 | $${\sum\limits _{n} w_{n}}$$ | Somme de tous les scores des traders. |
 | k | Nombre total de traders dans cette époch. |
 
-Dans le [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md), la communauté dYdX a voté pour simplifier la formule afin qu'elle soit basée sur le total des frais **** payés par un trader dans une Epoch donnée.
+Dans [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md), la communauté dYdX a voté pour simplifier la formule afin qu'elle soit basée sur le total des frais payés par un trader à une Epoch donnée.
 
 ## FAQ
 
@@ -44,7 +46,7 @@ Le protocole de couche 2 de dYdX n'est pas disponible pour les traders aux État
 
 À l'époch actuelle, les utilisateurs peuvent voir les frais payés et les récompenses de trading estimées sur [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) où les données de trading des utilisateurs existent.
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-08-30 at 15.42.39.png" alt=""><figcaption><p>Frais payés et récompenses estimées dans une Epoch donnée</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Frais payés et récompenses estimées dans une Epoch donnée</p></figcaption></figure>
 
 Les récompenses des Epochs passées peuvent être consultées sur [**dydx.community/history/rewards**](https://dydx.community/history/rewards)**.**
 
@@ -56,5 +58,4 @@ Les traders peuvent réclamer leurs récompenses de trading à la fin de chaque 
 
 Les utilisateurs devront cliquer sur « Réclamer », signer une transaction et payer les frais de gaz pour réclamer DYDX.
 
-![Aperçu du portefeuille des récompenses](<../.gitbook/assets/image (20).png>)
-
+![Aperçu du portefeuille des récompenses](../.gitbook/assets/1-portfolio-overview-rewards.png)
