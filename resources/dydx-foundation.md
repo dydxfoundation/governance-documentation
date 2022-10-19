@@ -10,7 +10,7 @@ La Fondation dYdX est une fondation indépendante à but non lucratif dont le si
 
 L'objectif de la Fondation dYdX est de soutenir et de développer tous les aspects, techniques ou autres, de l'implémentation actuelle et de toutes les implémentations futures du protocole de couche 2 de dYdX, y compris, mais sans s'y limiter, l'écosystème lié au protocole de couche 2 de dYdX, et de favoriser la participation d'autres qui cherchent à soutenir et à développer tout aspect, technique ou autre, de l'écosystème ou de l'implémentation actuelle et de toutes les implémentations futures du protocole de couche 2 de dYdX. Plus précisément, le mandat habilite la Fondation dYdX à :
 
-* Soutenir et financer les activités et projets de recherche et développement appropriés
+* Soutenir et financer les activités et les projets de recherche et de développement appropriés
 * Promouvoir et éduquer le public sur l'écosystème et/ou le protocole de couche 2 de dYdX
 * Émettre, recevoir, dépenser et détenir des actifs numériques (pas d'activités de trading spéculatives)
 * Déployer des contrats intelligents de gouvernance et émettre des jetons de gouvernance
@@ -28,4 +28,4 @@ En favorisant une gouvernance décentralisée et en donnant aux traders des prod
 
 ### Opérations
 
-Les membres du conseil de la Fondation dYdX comprennent Arthur Cheong, Rebecca Rettig et Markus Spillman. Il s'agit de la première étape importante dans le cheminement vers la décentralisation complète du protocole de couche 2 de dYdX
+Les membres du conseil de la Fondation dYdX comprennent Arthur Cheong, Rebecca Rettig et Markus Spillman. Il s'agit de la première étape importante dans le cheminement vers la décentralisation complète du protocole de couche 2 de dYdX.
