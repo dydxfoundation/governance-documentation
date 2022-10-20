@@ -19,7 +19,7 @@ Los DYDX han sido asignados a usuarios históricos de todos los protocolos dYdX 
 
 Para reclamar DYDX, los usuarios históricos deben cumplir los siguientes hitos en los [perpetuals de Capa 2](https://trade.dydx.exchange) dentro de la primera etapa de 28 días (etapa 0):
 
-![](../.gitbook/assets/buckets.png)
+![](../.gitbook/assets/1-retroactive-buckets.png)
 
 Cualquier volumen histórico en el Protocolo de Capa 2 de dYdX cuenta para el hito de reclamo de un usuario. El progreso hacia tu hito de reclamo solo se puede visualizar en [trade.dydx.exchange/portfolio/rewards](https://trade.dydx.exchange/portfolio/rewards) ya que la Fundación dYdX no tiene acceso al volumen continuo de cada usuario.
 
@@ -37,9 +37,9 @@ Todas las asignaciones de recompensas retroactivas son finales y no se pueden mo
 
 ### ¿Cuántos DYDX gané en el programa de recompensas retroactivas?
 
-![View claim milestone and progress](<.. /.gitbook/assets/image (23).png>)
+![Ver el hito y el progreso del reclamo](../.gitbook/assets/1-retroactive-earn-view.png)
 
-Los usuarios anteriores de dYdX pueden ver su actividad previa y su nivel de minería retroactiva en [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards). Para ganar DYDX, los usuarios deben operar en el protocolo de Capa 2 de dYdX en [**trade.dydx.exchange**](https://trade.dydx.exchange) para cumplir con su umbral de criterios.
+Los usuarios anteriores de dYdX pueden ver su actividad previa y su nivel de minería retroactiva en [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards). Para ganar DYDX, los usuarios deben operar en el protocolo de Capa 2 de dYdX en [**trade.dydx.exchange**](https://trade.dydx.exchange/) para cumplir con su umbral de criterios.
 
 ### ¿Qué sucede si no logro mi hito de reclamo?
 

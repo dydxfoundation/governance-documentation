@@ -20,6 +20,10 @@ Si, después de cinco años, la gobernanza decide promulgar la inflación de los
 
 ## Preguntas frecuentes
 
+### ¿Cuál es el balance invertido del Tesoro de la Comunidad?
+
+La Fundación dYdX publica el balance invertido del Tesoro de la Comunidad en la [Revisión de la etapa](https://dydx.foundation/blog) al final de cada etapa. Además del dYdX invertido en el Tesoro de la Comunidad, la comunidad de dYdX también puede acceder a la dYdX acumulada en el Tesoro de Recompensas como resultado de los votos para (1) reducir las recompensas comerciales en un 25 % (958.904 dYdX y (2) fijar las recompensas por apostar USDC a 0 (383.562 dYDX). A partir de la etapa 15, 1.342.466 dYdX  se acumularán en el Tesoro de Recompensas en cada etapa y podrán ser utilizados por la comunidad dYdX con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+
 ### ¿Quién puede presentar propuestas para gastar tokens DYDX desde la tesorería de la comunidad?
 
 Cualquier usuario con poder de propuesta suficiente puede presentar propuestas. Se requerirá un voto de gobernanza para gastar cualquier DYDX de la tesorería de la comunidad. Para enviar una propuesta, envía una propuesta de mejora de dYdX (DIP) tal como se describe en el [ciclo de vida de la propuesta de DIP](../voting-and-governance/dip-proposal-lifecycle.md).

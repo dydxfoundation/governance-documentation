@@ -49,7 +49,7 @@ Los inversores pueden depositar DYDX en el fondo de participación de seguridad 
 
 Los fondos activos ganan recompensas por el período de tiempo que permanecen activos. Esto significa que, después de solicitar el retiro de algunos fondos, esos fondos seguirán ganando recompensas hasta el final de la etapa. Esto se puede confirmar en el siguiente ejemplo del [fondo de participación de liquidez](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool):
 
-![](<../.gitbook/assets/image (65).png>)
+![](../.gitbook/assets/1-earning-staking-rewards.png)
 
 En el escenario anterior, el usuario ganaría recompensas por el **período 0** al **periodo 2**, que variaría con el saldo total invertido en ese período. Si el usuario solo solicita un retiro de una parte de su saldo, el saldo restante seguirá ganando recompensas más allá del **Periodo 2**.
 
@@ -65,7 +65,7 @@ Para invertir DYDX en el fondo de seguridad, sigue estos pasos:
 
 Los fondos invertidos están ahora activos y empiezan a ganar recompensas de inmediato.
 
-Para depositar e invertir fondos directamente en el contrato inteligente, los usuarios utilizan la [función](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L59) \`stake\`. Los usuarios también pueden depositar e invertir en nombre de otra dirección utilizando la [función](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L64) \`stakeFor\`.
+Para depositar e invertir fondos directamente en el contrato inteligente, los usuarios utilizan la [función](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L59) \`stake\` Los usuarios también pueden depositar e invertir en nombre de otra dirección utilizando la [función](https://github.com/dydxprotocol/governance-private/blob/2645927b44f517f51c84e35a00a1ee810300c13f/contracts/liquidity/v1/impl/LS1Staking.sol#L64) \`stakeFor\`.
 
 ### ¿Qué son los stkDYDX?
 
@@ -86,7 +86,7 @@ Un saldo invertido puede estar en uno de dos estados:
 
 Un participante puede tener una combinación de saldos activos e inactivos. Los fondos se contabilizan etapa por etapa como se muestra en el siguiente ejemplo:
 
-![](<../.gitbook/assets/image (36) (1).png>)
+![](../.gitbook/assets/1-staked-balance-accounting.png)
 
 Las siguientes operaciones afectan a los saldos invertidos de la siguiente manera:
 

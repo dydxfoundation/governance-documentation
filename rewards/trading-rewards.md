@@ -4,7 +4,7 @@ description: Visión general del programa de recompensas por operaciones.
 
 # Recompensas por operaciones
 
-`El 25,00%` del suministro inicial de tokens (`250,000,000 DYDX`) se distribuirá a los usuarios que operen bajo el Protocolo de Capa 2 de dYdX basado en una combinación de tasas pagadas y de intereses abiertos.
+`El 25,00 %` del suministro inicial de tokens (`250.000.000 DYDX`) se asignó para ser distribuido a los usuarios que realizan operaciones sobre el Protocolo de capa 2 de dYdX en función de las tarifas pagadas. En [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), la comunidad dYdX [votó](https://dydx.community/dashboard/proposal/8) a favor de reducir las recompensas de trading en un 25 %. Como resultado, las recompensas de trading distribuidas en una etapa determinada se redujeron de 3.835.616 dYdX a 2.876.712 dYDX en la etapa 15.
 
 **Objetivos**
 
@@ -13,31 +13,26 @@ description: Visión general del programa de recompensas por operaciones.
 
 ## **Visión general**
 
-![Gana recompensas al realizar operaciones en el protocolo de Capa 2 de dYdX](<../.gitbook/assets/image (17) (1).png>)
+<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Tarifas pagadas y recompensas estimadas en una etapa determinada</p></figcaption></figure>
 
-DYDX se distribuirá a los traders según una fórmula que recompensa una combinación de tarifas pagadas e interés abierto en el Protocolo de Capa 2 de dYdX. Los DYDX serán distribuidos en una etapa de 28 días durante cinco años y no están sujetos a ningún tipo de adquisición o bloqueo. Se distribuirán 3,835,616 DYDX por etapa.
+DYDX se distribuirá a los traders en función de las tarifas pagadas en el Protocolo de la capa 2 de dYdX. Los DYDX serán distribuidos en una etapa de 28 días durante cinco años y no están sujetos a ningún tipo de adquisición o bloqueo. Se distribuirán 2.876.712 DYDX por etapa.
 
-La función Cobb-Douglas se usa para calcular cuántos DYDX se otorgarán a cada trader durante cada época:
+Con la votación de la comunidad para reducir las recompensas comerciales en un 25 % de 3.835.616 DYDX a 2.876.712 DYDX, los 958.904 DYDX restantes que se acumulan en el Tesoro de Recompensas pueden ser utilizados/administrados por la comunidad dYdX con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
-![](<../.gitbook/assets/math-20211221 (1).png>)
+<figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
 $$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ ,n=1,2..k $$
 
 | Plazo | Definición |
-| ---------------------------- | ------------------------------------------------------------------------------------------ |
+| ---------------------------- | ----------------------------------------------------------------------- |
 | r | Recompensa para un trader específico. |
 | R | La recompensa total se dividirá entre todos los traders en el fondo para la etapa. |
 | f | El total de las tasas pagadas por un trader en esta etapa. |
 | w | Puntaje individual de trader. |
 | $${\sum\limits _{n} w_{n}}$$ | Suma de todas las puntuaciones de cada trader. |
-| d | El interés abierto promedio de un trader (medido por minuto) en todos los mercados durante esta etapa. |
 | k | Número total de traders en esta etapa. |
-| g | El stkDYDX promedio obtenido por un trader (medido aleatoriamente por minuto) a lo largo de la etapa |
-| a | 0,80 |
-| b | 0,15 |
-| c | 0,05 |
 
-En [DIP-10](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-10.md), la Comunidad de dYdX votó a favor de cambiar el peso del parámetro de la tasa de `a = 0,67` a `a = 0,8` y de disminuir el parámetro del interés abierto de `b = 0,28` a `b = 0,15.`
+En el [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md), la Comunidad de dYdX votó para simplificar la fórmula para que se basara en el total de las tarifas pagadas por un trader en una época dada.
 
 ## Preguntas frecuentes
 
@@ -49,11 +44,11 @@ El Protocolo de la Capa 2 de dYdX no está disponible para los traders en los Es
 
 ### ¿Cuántos DYDX gané en el programa de recompensas por operaciones?
 
-En la etapa actual, los usuarios pueden ver las tarifas pagadas, el interés abierto promedio y las recompensas comerciales estimadas en [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) donde se encuentran los datos de operaciones de los usuarios.
+En la época actual, los usuarios pueden ver las recompensas de trading pagadas y estimadas en [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) donde están los datos de trading de los usuarios.
 
-![Información sobre las recompensas para la etapa actual](<../.gitbook/assets/image (18).png>)
+<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Tarifas pagadas y recompensas estimadas en una etapa determinada</p></figcaption></figure>
 
-Las recompensas de las etapas anteriores se podrán ver en [**dydx.community/history/rewards**](https://dydx.community/history/rewards) **** (próximamente).
+Las recompensas de las etapas anteriores se pueden ver en [**dydx.community/history/rewards**](https://dydx.community/history/rewards)**.**
 
 ### ¿Cómo reclamo mis recompensas por operaciones? ¿Cuándo puedo retirar y transferir mis DYDX ganados?
 
@@ -63,21 +58,4 @@ Los traders pueden reclamar sus recompensas comerciales al final de cada etapa, 
 
 Los usuarios tendrán que hacer clic en "Reclamo", firmar una transacción y pagar las tasas de gas para reclamar sus DYDX.
 
-![Visión general de la cartera de recompensas](<../.gitbook/assets/image (20).png>)
-
-### ¿Qué es un interés abierto?
-
-El interés abierto total es el valor en USD de todas las posiciones largas o cortas pendientes (las unidades totales de posiciones largas siempre equivalen a las unidades totales de posiciones cortas) para un mercado determinado. El aumento del interés abierto representa la entrada de dinero nuevo o adicional en el mercado, mientras que la disminución del interés abierto indica que el dinero sale del mercado.
-
-A continuación se muestra una tabla de actividad de operaciones para los traders, A, B, C, D y E. El interés abierto se calcula en términos de USDC, de acuerdo a la actividad comercial de cada día:
-
-| Tiempo | Actividad de operaciones | Interés abierto total por red (USDC) |
-| ------- | -------------------------------------------------------------------------- | ------------------------------ |
-| 1 de julio | **El trader A** compra 1 BTC a $30,000 y **el trader B** vende 1 BTC a $30,000 | $30,000 |
-| 3 de julio | **El trader C** compra 5 BTC a $30,000 y **el trader D** vende 5 BTC a $30,000 | $180,000 |
-| 5 de julio | **El trader A** vende 1 BTC a $30,000 y **el trader D** compra 1 BTC a $30,000 | $150,000 |
-| 10 de julio | **El trader E** compra 5 BTC a $30,000 y **el trader C** vende 5 BTC a $30,000 | $150,000 |
-
-En el contexto de la fórmula para obtener **Recompensas por Operaciones**, el interés abierto se mide cada minuto (en un momento aleatorio por minuto) en todos los mercados y se promedia en una etapa determinada para calcular las recompensas.
-
-El propio interés abierto de un trader es el valor de USD de todas las posiciones abiertas de ese mismo trader. A los efectos de **obtener Recompensas por Operaciones**, el interés abierto de un comerciante se mide cada minuto (en un momento aleatorio por minuto) en todos los mercados y se promedia en una etapa determinada.
+![Visión general de la cartera de recompensas](../.gitbook/assets/1-portfolio-overview-rewards.png)

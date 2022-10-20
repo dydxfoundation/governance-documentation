@@ -14,8 +14,8 @@ La gobernanza en la cadena de dYdX soporta las siguientes características:
 * Establecimiento de umbrales de gobernanza que incluyen la propuesta, el quórum y los umbrales diferenciales de votos
 * Sustitución del contrato inteligente de la “Estrategia de gobernanza”, que determina cómo se cuentan los votos
 * Configuración de múltiples contratos de ejecución que permiten:
-   * actualizaciones rápidas del protocolo y la distribución de fondos a través de ejecutores de bloqueo de corto tiempo;
-   * Mejoras de gobernanza a través de ejecutores de bloqueo de largo tiempo.
+  * actualizaciones rápidas del protocolo y la distribución de fondos a través de ejecutores de bloqueo de corto tiempo;
+  * Mejoras de gobernanza a través de ejecutores de bloqueo de largo tiempo.
 
 Hay 6 contratos inteligentes que admiten la gobernanza de dYdX:
 
@@ -38,7 +38,7 @@ Todos los contratos inteligentes nuevos principales han sido auditados por Pecks
 
 ## Contratos básicos de gobernanza
 
-![Las líneas rojas discontinuas indican que el contrato es actualizable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.17.43 PM (1).png>)
+![Las líneas rojas discontinuas indican que el contrato es actualizable](../.gitbook/assets/3-core-governance-contracts-1.png)
 
 ### DydxToken
 
@@ -98,7 +98,7 @@ El **bloqueo de tiempo de prioridad de Starkware** se implementa en [0xa306989BA
 
 ### Distribuidor Merkle
 
-![Las líneas rojas discontinuas indican que el contrato es actualizable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.23.50 PM (1).png>)
+![Las líneas rojas discontinuas indican que el contrato es actualizable](../.gitbook/assets/3-core-governance-contracts-2.png)
 
 El contrato inteligente de distribuidor Merkle distribuye recompensas de token de DYDX de acuerdo con un árbol de saldos de Merkle. El árbol se puede actualizar periódicamente con el saldo de recompensas acumulado de cada usuario, permitiendo que las nuevas recompensas se distribuyan a los con el tiempo.
 
@@ -112,7 +112,7 @@ El contrato inteligente de Distribuidor de Merkle estaba inspirado en los diseñ
 
 ### Módulo de seguridad
 
-![Las líneas rojas discontinuas indican que el contrato es actualizable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.24.45 PM (1).png>)
+![Las líneas rojas discontinuas indican que el contrato es actualizable](../.gitbook/assets/3-core-governance-contracts-3.png)
 
 El módulo de seguridad es una reserva de participación que ofrece recompensas de DYDX a los usuarios que están apostando en DYDX con miras a la seguridad del Protocolo.
 
@@ -122,13 +122,13 @@ El módulo de seguridad es una reserva de participación que ofrece recompensas 
 
 ### Módulo de liquidez
 
-![Las líneas rojas discontinuas indican que el contrato es actualizable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.25.30 PM (1).png>)
+![Las líneas rojas discontinuas indican que el contrato es actualizable](../.gitbook/assets/3-core-governance-contracts-4.png)
 
 El módulo de liquidez es una colección de contratos inteligentes para apostar y pedir prestado, que incentivan la asignación de fondos USDC con fines de crear mercado en las operaciones de capa 2 de dYdX.
 
 Los participantes ganan recompensas de DYDX por apostar en USD. Los fondos en juego pueden ser tomados prestados por ciertos socios previamente aprobados, de forma reputacional, sin garantía. Los fondos solo pueden ser utilizados en el intercambio de L2, esto se aplica a través del contrato de StarkProxy que interactúa con el contrato de intercambio perpetuo de StarkEx.
 
-![Un diagrama del módulo de liquidez](<../.gitbook/assets/image (66).png>)
+![Un diagrama del módulo de liquidez](../.gitbook/assets/3-core-governance-contracts-5.png)
 
 ### StarkProxy
 
@@ -136,7 +136,7 @@ Este contrato permite al propietario tomar préstamos de LiquidityStaking y util
 
 ### Contratos de tesorería
 
-![Las líneas rojas discontinuas indican que el contrato es actualizable](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM (1).png>)
+![Las líneas rojas discontinuas indican que el contrato es actualizable](../.gitbook/assets/3-core-governance-contracts-6.png)
 
 El contrato de TreasuryVester estaba inspirado en [Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol).
 
@@ -160,7 +160,7 @@ Después de calcular las recompensas apropiadas de los datos de operaciones en b
 
 El siguiente gráfico de flujo muestra la arquitectura de sistema de recompensas con energía de Chainlink Oracle-Powered Rewards:
 
-![](<../.gitbook/assets/Merkle Distributor (1).png>)
+![](../.gitbook/assets/3-core-governance-contracts-merkle-distributor.png)
 
 ### Otros activos
 
