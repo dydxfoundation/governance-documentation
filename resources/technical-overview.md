@@ -14,8 +14,8 @@ La gouvernance sur la chaîne dYdX prend en charge les fonctionnalités suivante
 * Fixer des seuils de gouvernance, y compris des seuils de proposition, de quorum et de vote différentiel
 * Remplacer le contrat intelligent « Stratégie de gouvernance », qui détermine le mode de comptage des votes
 * Configuration de contrats à plusieurs exécuteurs permettant :
-   * mises à niveau rapides du protocole et distribution des fonds via des exécuteurs de courte durée ;
-   * mises à niveau de la gouvernance via des exécuteurs à verrouillage de longue durée.
+  * mises à niveau rapides du protocole et distribution des fonds via des exécuteurs de courte durée ;
+  * mises à niveau de la gouvernance via des exécuteurs à verrouillage de longue durée.
 
 Il existe 6 contrats intelligents qui prennent en charge la gouvernance dYdX :
 
@@ -38,7 +38,7 @@ Tous les nouveaux contrats intelligents majeurs ont été audités par Peckshiel
 
 ## Contrats de gouvernance de base
 
-![Les lignes pointillées rouges indiquent que le contrat est évolutif](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.17.43 PM (1).png>)
+![Les lignes pointillées rouges indiquent que le contrat est évolutif](../.gitbook/assets/3-core-governance-contracts-1.png)
 
 ### DydxToken
 
@@ -98,9 +98,9 @@ Le **verrouillage proritaire Starkware** est déployé à [0xa306989BA6BcacdECCf
 
 ### Distributeur Merkle
 
-![Les lignes pointillées rouges indiquent que le contrat est évolutif](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.23.50 PM (1).png>)
+![Les lignes pointillées rouges indiquent que le contrat est évolutif](../.gitbook/assets/3-core-governance-contracts-2.png)
 
-Le contrat intelligent Distributeur Merkle distribue les récompenses de jetons DYDX selon un arbre des soldes Merkle. L'arbre peut être mis à jour périodiquement avec le solde cumulatif des récompenses de chaque utilisateur, ce qui permet de distribuer de nouvelles récompenses aux utilisateurs au fil du temps.
+Le contrat intelligent Distributeur Merkle distribue les récompenses de tokens DYDX selon un arbre des soldes Merkle. L'arbre peut être mis à jour périodiquement avec le solde cumulatif des récompenses de chaque utilisateur, ce qui permet de distribuer de nouvelles récompenses aux utilisateurs au fil du temps.
 
 Une mise à jour est effectuée en définissant la racine Merkle proposée sur la dernière valeur renvoyée par le contrat d'oracle. La racine Merkle proposée peut être rendue active après une période d'attente. Pendant la période d'attente, Gouvernance dYdX a la possibilité de geler la racine Merkle, au cas où la racine proposée serait incorrecte ou malveillante. Les mises à jour racine peuvent être rétablies par ShortTimelockExecutor.
 
@@ -112,7 +112,7 @@ Le contrat intelligent Distributeur Merkle s'est inspiré des conceptions Uniswa
 
 ### Module de sécurité
 
-![Les lignes pointillées rouges indiquent que le contrat est évolutif](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.24.45 PM (1).png>)
+![Les lignes pointillées rouges indiquent que le contrat est évolutif](../.gitbook/assets/3-core-governance-contracts-3.png)
 
 Le module de sécurité est un pool de staking qui offre des récompenses DYDX aux utilisateurs qui stakent DYDX pour la sécurité du protocole.
 
@@ -122,13 +122,13 @@ Le module de sécurité est un pool de staking qui offre des récompenses DYDX a
 
 ### Module de liquidité
 
-![Les lignes pointillées rouges indiquent que le contrat est évolutif](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.25.30 PM (1).png>)
+![Les lignes pointillées rouges indiquent que le contrat est évolutif](../.gitbook/assets/3-core-governance-contracts-4.png)
 
 Le module de liquidité est une collection de contrats intelligents pour le staking et l'emprunt, qui incitent à l'allocation de fonds USDC pour maintenir le marché sur l'échange de couche 2 dYdX.
 
 Les stakers gagnent des récompenses DYDX pour avoir staké l'USDC. Les fonds stakés peuvent être empruntés par certains partenaires pré-approuvés, sur une base de réputation, sans garantie. Les fonds ne peuvent être utilisés que sur l'échange de couche 2 - ceci est appliqué via le contrat StarkProxy qui interagit avec le contrat StarkEx Perpetual Exchange.
 
-![Un schéma du module Liquidité](<../.gitbook/assets/image (66).png>)
+![Un schéma du module Liquidité](../.gitbook/assets/3-core-governance-contracts-5.png)
 
 ### StarkProxy
 
@@ -136,7 +136,7 @@ Ce contrat permet au propriétaire d'emprunter des fonds auprès de LiquiditySta
 
 ### Contrats de trésorerie
 
-![Les lignes pointillées rouges indiquent que le contrat est évolutif](<../.gitbook/assets/Screen Shot 2021-09-03 at 5.26.09 PM (1).png>)
+![Les lignes pointillées rouges indiquent que le contrat est évolutif](../.gitbook/assets/3-core-governance-contracts-6.png)
 
 Le contrat TreasuryVester s'est inspiré d'[Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol).
 
@@ -160,7 +160,7 @@ Après avoir calculé les récompenses appropriées à partir des données de tr
 
 L'organigramme suivant montre l'architecture du système Chainlink Oracle-Powered Rewards :
 
-![](<../.gitbook/assets/Merkle Distributor (1).png>)
+![](../.gitbook/assets/3-core-governance-contracts-merkle-distributor.png)
 
 ### Autres actifs
 

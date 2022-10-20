@@ -19,7 +19,7 @@ DYDX a été attribué aux utilisateurs historiques de tous les protocoles dYdX 
 
 Pour réclamer DYDX, les utilisateurs historiques doivent respecter les étapes suivantes sur les [Perpétuels de couche 2](https://trade.dydx.exchange) au cours de la première période de 28 jours (Époch 0):
 
-![](../.gitbook/assets/buckets.png)
+![](../.gitbook/assets/1-retroactive-buckets.png)
 
 Tout volume historique sur le protocole de couche 2 de dYdX compte pour l'étape de réclamation d'un utilisateur. La progression vers votre étape de réclamation ne peut être consultée que sur [trade.dydx.exchange/portfolio/rewards](https://trade.dydx.exchange/portfolio/rewards) car la Fondation dYdX n'a pas de visibilité sur le volume en cours de chaque utilisateur.
 
@@ -37,9 +37,9 @@ Toutes les attributions de récompenses rétroactives sont définitives et ne pe
 
 ### Combien de DYDX ai-je gagné dans le cadre du programme de récompenses rétroactives ?
 
-![View claim milestone and progress](<.. /.gitbook/assets/image (23).png>)
+![Voir l'étape et l'avancement de la réclamation](../.gitbook/assets/1-retroactive-earn-view.png)
 
-Les anciens utilisateurs de dYdX peuvent voir leur activité passée et leur niveau pour le minage rétroactif sur [**trade.dydx.exchange/portfolio/récompenses**](https://trade.dydx.exchange/portfolio/rewards). Pour gagner DYDX, les utilisateurs doivent trader sur le protocole de couche 2 de dYdX sur [**trade.dydx.exchange**](https://trade.dydx.exchange) pour atteindre leur seuil de critères.
+Les anciens utilisateurs de dYdX peuvent voir leur activité passée et leur niveau pour le minage rétroactif sur [**trade.dydx.exchange/portfolio/récompenses**](https://trade.dydx.exchange/portfolio/rewards). Pour gagner DYDX, les utilisateurs doivent trader sur le protocole de couche 2 de dYdX sur [**trade.dydx.exchange**](https://trade.dydx.exchange/) pour atteindre leur seuil de critères.
 
 ### Que se passe-t-il si je n'atteins pas mon étape de réclamation ?
 

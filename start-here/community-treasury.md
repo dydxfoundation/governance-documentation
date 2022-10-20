@@ -20,6 +20,10 @@ Si, après cinq ans, la gouvernance décide d'adopter une inflation perpétuelle
 
 ## FAQ
 
+### Quel est le solde investi de la trésorerie de la communauté ?
+
+dYdX Foundation publie le solde investi de la trésorerie de la communauté dans la [révision d'Epoch](https://dydx.foundation/blog) à la fin de chaque epoch. En plus des dYdX investi dans la trésorerie de la communauté, cette dernière peut également accéder aux dYdX accumulés dans la trésorerie des récompenses en raison des votes visant (1) à réduire le trading des récompenses de 25 % (958 904 DYDX) et (2) à définir les récompenses pour le staking d'USDC à 0 (383 562 DYDX). À partir de l'Epoch 15, 1 342 466 DYDX s'accumuleront dans la trésorerie des récompenses à chaque epoch et ils pourront être utilisés par la communauté dYdX grâce à un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+
 ### Qui peut soumettre des propositions pour dépenser des jetons DYDX du trésor de la communauté ?
 
 Tout utilisateur disposant d'un pouvoir de proposition suffisant peut soumettre des propositions. Un vote de gouvernance sera nécessaire pour dépenser tout DYDX du trésor de la communauté. Pour soumettre une proposition, veuillez soumettre une proposition d'amélioration dYdX (DIP) comme indiqué dans le [cycle de vie de la proposition DIP](../voting-and-governance/dip-proposal-lifecycle.md).
