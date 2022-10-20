@@ -4,7 +4,7 @@ description: Visão geral do programa de recompensas de trades.
 
 # Recompensas de trades
 
-`25,00%` da oferta inicial de token (`250.000.000 DYDX`) serão distribuídos para usuários que fizerem trades no protocolo da Camada 2 da dYdX com base nas taxas pagas.
+`25,00%` do fornecimento de tokens iniciais (`250.000.000 dYdX`) foram alocados para distribuição aos usuários que fizerem trades no protocolo dYdX Layer 2 com base em taxas pagas. No [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/8) pela redução das recompensas de trading em 25%. Como resultado, as recompensas de trading distribuídas em uma determinada época foram reduzidas de 3.835.616 DYDX para 2.876.712 DYDX na Epoch 15.
 
 **Objetivos**
 
@@ -13,11 +13,13 @@ description: Visão geral do programa de recompensas de trades.
 
 ## **Visão geral**
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-08-30 at 15.42.39.png" alt=""><figcaption><p>Taxas pagas e recompensas estimadas em uma determinada época</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Taxas pagas e recompensas estimadas em uma determinada época</p></figcaption></figure>
 
-Os tokens DYDX serão distribuídos para os traders com base nas taxas pagas no protocolo da Camada 2 da dYdX. Os tokens DYDX serão distribuídos dentro de um ciclo de 28 dias ao longo de um período de cinco anos, não estando sujeitos a vesting ou bloqueios. 3.835.616 DYDX serão distribuídos por epoch.
+Os tokens DYDX serão distribuídos para os traders com base nas taxas pagas no protocolo da Camada 2 da dYdX. Os tokens DYDX serão distribuídos dentro de um ciclo de 28 dias ao longo de um período de cinco anos, não estando sujeitos a vesting ou bloqueios. 2.876.712 DYDX serão distribuídas por epoch.
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-08-12 at 17.50.17.png" alt=""><figcaption></figcaption></figure>
+Com a votação da comunidade pela redução das recompensas de trading em 25%, indo de 3.835.616 DYDX para 2.876.712 DYDX, o saldo de 958.904 DYDX que se acumula no Tesouro de Recompensas poderá ser usado/direcionado pela comunidade dYdX com o [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+
+<figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
 $$
  r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1.2...k
@@ -32,7 +34,7 @@ $$
 | $${\sum\limits _{n} w_{n}}$$ | Soma de todas as pontuações de traders. |
 | k | Número total de traders nesta epoch. |
 
-Na [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md), a Comunidade da dYdX votou pela simplificação da fórmula, que terá como base o total das **** taxas pagas por um trader em uma determinada época.
+Na [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md), a Comunidade da dYdX votou pela simplificação da fórmula, que terá como base o total das taxas pagas por um trader em uma determinada epoch.
 
 ## Perguntas e respostas
 
@@ -46,7 +48,7 @@ O protocolo dYdX Layer 2 não está disponível para traders nos Estados Unidos 
 
 Na epoch atual, os usuários podem ver as taxas pagas e as recompensas de trades estimadas em [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards), onde estão os dados de trades dos usuários.
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-08-30 at 15.42.39.png" alt=""><figcaption><p>Taxas pagas e recompensas estimadas em uma determinada época</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Taxas pagas e recompensas estimadas em uma determinada época</p></figcaption></figure>
 
 As recompensas de épocas anteriores podem ser vistas em [**dydx.community/history/rewards**](https://dydx.community/history/rewards)**.**
 
@@ -58,5 +60,4 @@ Os traders — **após o período de espera** — podem resgatar suas recompensa
 
 Os usuários precisarão clicar em “Claim (Resgatar)”, assinar uma transação e pagar as taxas de gás para o resgate de DYDX.
 
-![Visão geral de recompensas do portfólio](<../.gitbook/assets/image (20).png>)
-
+![Visão geral de recompensas do portfólio](../.gitbook/assets/1-portfolio-overview-rewards.png)

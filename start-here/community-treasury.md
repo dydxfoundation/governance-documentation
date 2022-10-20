@@ -20,7 +20,11 @@ Se, após cinco anos, a governança decidir promover uma inflação perpétua (n
 
 ## Perguntas e respostas
 
-### Quem pode enviar propostas de gastos com tokens DYDX na Tesouro da Comunidade?
+### Qual é o saldo investido do Tesouro da Comunidade?
+
+A dYdX Foundation publica o saldo investido do Tesouro da Comunidade no [Relatório da epoch](https://dydx.foundation/blog) ao final de cada epoch. Além do valor em DYDX investido no Tesouro da Comunidade, a comunidade dYdX também pode acessar o acumulado em DYDX no Tesouro de recompensas em consequência dos votos para (1) reduzir as recompensas de trading em 25% (958.904 DYDX) e (2) definir as recompensas de staking de USDC como 0 (383.562 DYDX). A partir da epoch 15, 1.342.466 em DYDX serão acumulados no Tesouro de Recompensas a cada epoch e poderão ser usados pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+
+### Quem pode enviar propostas de gastos com tokens DYDX no Tesouro da Comunidade?
 
 Qualquer usuário com poder de proposição suficiente pode enviar propostas. Será necessário haver uma votação por parte da governança para gastar qualquer DYDX no tesouro da comunidade. Para enviar uma proposta, é preciso enviar uma proposta de melhoria da dYdX (DIP, na sigla em inglês) conforme estabelecido no [ciclo de vida da proposta DIP](../voting-and-governance/dip-proposal-lifecycle.md).
 
