@@ -20,7 +20,7 @@ Les détenteurs de DYDX et de stkDYDX se voient accorder deux types de pouvoirs 
 
 ### Staking
 
-Les utilisateurs peuvent staker USDC et DYDX pour gagner des récompenses de staking.
+Les utilisateurs peuvent staker des USDC et DYDX pour gagner des récompenses de staking.
 
 <figure><img src="../.gitbook/assets/interface-staking.png" alt=""><figcaption></figcaption></figure>
 
