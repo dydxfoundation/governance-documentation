@@ -40,7 +40,7 @@ Once posted on the governance forum, all questions and comments should be addres
 
 Snapshot polls serve two purposes: sentiment signaling for future on-chain DIPs and binding votes for variables controlled off-chain.
 
-Once an off-chain DRC has a very rough consensus, a community member holding more than `10,000` DYDX can create an **off-chain vote** for the DRC on **Snapshot**. We encourage the dYdX Community to create Snapshot polls on Mondays to increase visibility during the regular workweek.
+Once an off-chain DRC has a very rough consensus, a community member with more than `10,000` DYDX proposing power can create an **off-chain vote** for the DRC on **Snapshot**. We encourage the dYdX Community to create Snapshot polls on Mondays to increase visibility during the regular workweek.
 
 Snapshot is a simple voting interface that allows users to signal sentiment off-chain. Votes on Snapshot are weighted by the voting power of the address used to vote.
 
