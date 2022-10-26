@@ -54,7 +54,7 @@ Rewards from past epochs can be viewed at [**dydx.community/history/rewards**](h
 
 ### How do I claim my Trading Rewards? When can I withdraw and transfer my earned DYDX?
 
-Earned DYDX tokens via Trading Rewards will be transferable at the end of each epoch. DYDX token holders are required to wait approximately `7 days` (**Waiting Period**) after the end of the epoch to claim their tokens.&#x20;
+Earned DYDX tokens via Trading Rewards will be transferable at the end of each epoch. DYDX token holders are required to wait approximately `7 days` (**Waiting Period**) after the end of the epoch to claim their DYDX tokens.&#x20;
 
 After the 7-day waiting period, any community member can call the `Write` function on the`updateRoot` parameter on the [Merkle Distributor contract](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) to make DYDX rewards claimable.&#x20;
 
@@ -74,6 +74,6 @@ Steps:
 * The 7-day waiting period is still in effect, or
 * A community member has already successfully called the `updateRoot` parameter on the [Merkle Distributor contract](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract).
 
-Once the transaction is finalized, traders can claim their trading rewards [here](https://dydx.community/dashboard). Users will need to click on `Claim`, sign a transaction, and pay gas fees to claim DYDX.
+Once the transaction is finalized, traders can claim their Trading Rewards [here](https://dydx.community/dashboard). Users will need to click on `Claim`, sign a transaction, and pay gas fees to claim DYDX.
 
 ![Portfolio overview of rewards](../.gitbook/assets/1-portfolio-overview-rewards.png)
