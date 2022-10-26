@@ -54,10 +54,26 @@ Rewards from past epochs can be viewed at [**dydx.community/history/rewards**](h
 
 ### How do I claim my Trading Rewards? When can I withdraw and transfer my earned DYDX?
 
-Earned DYDX tokens via Trading Rewards will be transferable at the end of each epoch. DYDX token holders are required to wait approximately `7 days` (**Waiting Period**) after the end of the epoch to claim their tokens. Once tokens have been claimed, they can be used for dYdX governance.
+Earned DYDX tokens via Trading Rewards will be transferable at the end of each epoch. DYDX token holders are required to wait approximately `7 days` (**Waiting Period**) after the end of the epoch to claim their tokens.&#x20;
 
-Traders can claim their trading rewards at the end of every epoch, after the **Waiting Period**, [here](https://dydx.community/dashboard).
+After the 7-day waiting period, any community member can call the `Write` function on the`updateRoot` parameter on the [Merkle Distributor contract](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) to make DYDX rewards claimable.&#x20;
 
-Users will need to click on "Claim", sign a transaction, and pay gas fees to claim DYDX.
+Steps:
+
+1. On the [Merkle Distributor contract](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) page on Etherscan, click on the `Contract` tab, and select `Write as Proxy.`
+2. Click on the `Connect to Web3` button and connect your Web3 Wallet.
+
+<figure><img src="../.gitbook/assets/merkle-distributor-contract.jpeg" alt=""><figcaption></figcaption></figure>
+
+3\. Scroll down to the `updateRoot` parameter, and click on the `Write` button.
+
+<figure><img src="../.gitbook/assets/updateRoot-claiming.jpeg" alt=""><figcaption></figcaption></figure>
+
+**This transaction would require some ETH for gas fees, and will the transaction will fail if:**
+
+* The 7-day waiting period is still in effect, or
+* A community member has already successfully called the `updateRoot` parameter on the [Merkle Distributor contract](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract).
+
+Once the transaction is finalized, traders can claim their trading rewards [here](https://dydx.community/dashboard). Users will need to click on `Claim`, sign a transaction, and pay gas fees to claim DYDX.
 
 ![Portfolio overview of rewards](../.gitbook/assets/1-portfolio-overview-rewards.png)
