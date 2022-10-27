@@ -49,7 +49,7 @@ stkUSDC余额可能是活跃的或不活跃的。活跃的stkUSDC可以作为ERC
 * 转到[**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*
 * 单击“**请求**”，以打开以下模式：
 
-![请求提现](../.gitbook/1-withdraw-from-liquidity-pool.png)
+![请求提现](../.gitbook/assets/1-withdraw-from-liquidity-pool.png)
 
 * 输入您希望请求从资金池中提现的USDC金额，然后单击“**请求提现**”。您需要支付gas费以解除质押USDC。
 * 如果质押人在当前时段结束前至少 `3 天`（**停**市窗口期）请求解除质押 USDC，则可以在下一时段开始时提现 USDC。
