@@ -19,7 +19,7 @@ dYdX Layer 2协议的成功是成千上万名社区成员努力的结果，他�
 
 如果要申领DYDX，过往用户必须在首个28天时段（0时段）内满足[Layer 2永续合约](https://trade.dydx.exchange)的以下里程碑：
 
-![](../.gitbook/1-retroactive-buckets.png)
+![](../.gitbook/assets/1-retroactive-buckets.png)
 
 dYdX Layer 2协议上的任何历史成交量都将计入用户的申领里程碑。只有在[trade.dydx.exchange/portfolio/rewards](https://trade.dydx.exchange/portfolio/rewards)上，才能查看您的申领里程碑的进展，因为dYdX基金会无法明确了解每个用户的持续交易量。
 
@@ -37,7 +37,7 @@ dYdX Layer 2协议上的任何历史成交量都将计入用户的申领里程�
 
 ### 我在追溯性奖励计划中赚取了多少DYDX？
 
-![查看申领里程碑和进度](../.gitbook/1-retroactive-earn-view.png)
+![查看申领里程碑和进度](../.gitbook/assets/1-retroactive-earn-view.png)
 
 过往dYdX用户可以在[**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)上查看他们过去的追溯性挖矿活动和等级。如果要赚取DYDX，用户必须在[**trade.dydx.exchange**](https://trade.dydx.exchange/)上在dYdX Layer 2协议上进行交易，以达到他们的标准阈值。
 
