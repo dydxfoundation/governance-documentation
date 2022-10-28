@@ -17,13 +17,13 @@ Les détenteurs de DYDX reçoivent des pouvoirs de gouvernance proportionnelleme
 
 **`Pouvoir de proposition =`**`Pouvoir de proposition du token DYDX +`
 
-`Pouvoir de proposition à partir du token DYDX staké +`
+`Pouvoir de proposition à partir des token DYDX staké +`
 
 `Pouvoir de proposition du token DYDX reçu en tant que délégué +`
 
 `Pouvoir de proposition du token DYDX staké reçu en tant que délégué -`
 
-`Pouvoir de proposition de DYDX délégué -`
+`Pouvoir de proposition des DYDX délégué -`
 
 `Pouvoir de proposition de DYDX staké délégué`
 
@@ -31,9 +31,9 @@ Les détenteurs de DYDX reçoivent des pouvoirs de gouvernance proportionnelleme
 
 **`Pouvoir de vote =`**`Pouvoir de vote du token DYDX +`
 
-`Pouvoir de vote à partir du token DYDX staké +`
+`Pouvoir de vote à partir des tokens DYDX staké +`
 
-`Pouvoir de vote du token DYDX reçu en tant que délégué +`
+`Pouvoir de vote des tokens DYDX reçu en tant que délégué +`
 
 `Pouvoir de vote du token stkDYDX reçu en tant que délégataire -`
 
