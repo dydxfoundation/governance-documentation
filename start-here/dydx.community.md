@@ -28,7 +28,7 @@ DYDX和stkDYDX的持有人被授予两种治理权：提议权和投票权。通
 
 用户可以在layer 2交易所查看通过交易活动赚取的奖励。交易奖励根据时段时间表每28天进行一次分配。
 
-![交易以获得奖励](../.gitbook/assets/4.5-trade-to-rewards.png)
+![交易以获得奖励](<../.gitbook/assets/4.5-trade-to-rewards (5).png>)
 
 ### 资金组合和申领DYDX
 
