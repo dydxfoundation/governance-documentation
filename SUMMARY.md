@@ -1,4 +1,4 @@
-# 目录
+# Table of contents
 
 * [简介](README.md)
 
@@ -36,6 +36,10 @@
 * [基金会](resources/dydx-foundation.md)
 * [做市商入门培训](resources/market-maker-onboarding.md)
 * [词汇表](resources/glossary.md)
+
+## chinese-guides
+
+* [Page 1](chinese-guides/page-1.md)
 
 ## 外部链接
 
