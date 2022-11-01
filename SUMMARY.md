@@ -11,6 +11,10 @@
 * [Fee Discounts](start-here/trading-fee-discount.md)
 * [Treasury](start-here/community-treasury.md)
 
+***
+
+* [Rewards Treasury](rewards-treasury.md)
+
 ## Rewards
 
 * [Retroactive Mining Rewards](rewards/retroactive-mining-rewards.md)
