@@ -19,4 +19,4 @@ Further, dYdX Foundation publishes the accrued balance of the Community Treasury
 
 ### Who can submit proposals to spend DYDX tokens from the Rewards Treasury?
 
-Any user with sufficient proposing power can submit proposals. A governance vote will be required to spend any DYDX from the community treasury and/or the rewards treasury. To submit a proposal, please submit a dYdX Improvement Proposal (DIP) as laid out in the [DIP Proposal Lifecycle](voting-and-governance/dip-proposal-lifecycle.md).
+Any user with sufficient proposing power can submit proposals. A governance vote will be required to spend any DYDX from the community treasury and/or the rewards treasury. To submit a proposal, please submit a dYdX Improvement Proposal (DIP) as laid out in the [DIP Proposal Lifecycle](../voting-and-governance/dip-proposal-lifecycle.md).
