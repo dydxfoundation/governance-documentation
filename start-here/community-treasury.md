@@ -20,9 +20,17 @@ Beş yıl dolduktan sonra yönetişim sürekli enflasyon (yıllık maksimum `%2`
 
 ## SSS
 
+### DYDX Topluluk Hazinesine nasıl devreder?
+
+Her saniye, Topluluk Hazinesi Devredicisi (ayrıntılara [buradan](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview) göz atın) Topluluk Hazinesine [`0.3169242627`](tel:03169242627) DYDX devreder. DYDX devredildikten sonra Topluluk Hazinesi Devredicisi üzerinde `claim` işlevini çağırmak, devredilen DYDX'i Topluluk Hazinesine aktaracaktır. Herhangi bir dYdX topluluk üyesi [buradan](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract) Etherscan üzerinde `claim` işlevini çağırarak (bir miktar gaz ücreti gerektirecektir) devredilen DYDX'i Topluluk Hazinesi Devredicisinden Topluluk Hazinesine taşıyabilir.
+
+<figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
+
 ### Topluluk Hazinesinin kazanılmış bakiyesi nedir?
 
-dYdX Vakfı, her dönemin sonunda [Dönem Raporu](https://dydx.foundation/blog) ile Topluluk Hazinesinin kazanılmış bakiyesini yayınlamaktadır. Topluluk Hazinesinde kazanılmış DYDX'e ek olarak, dYdX topluluğu (1) alım satım ödüllerinin %25 oranında (958.904 DYDX) azaltılması ve (2) USDC staking ödüllerinin 0'a (383.562 DYDX) ayarlanması yönündeki oylarının bir sonucu olarak Ödül Hazinesinde tahakkuk eden DYDX'i kullanabilir. Dönem 15'ten başlayarak, Ödül Hazinesinde dönem başına 1.342.466 DYDX tahakkuk edecek ve dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir.
+dYdX topluluk üyeleri topluluk hazinesinin devredilen bakiyesini [buradan](https://dydx.shippooor.xyz/) görüntüleyebilirler. \
+\
+ Dahası, dYdX Vakfı her dönemin sonunda [Dönem Raporu ile](https://dydx.foundation/blog) Topluluk Hazinesinin devredilmiş bakiyesini yayınlamaktadır. Topluluk Hazinesinde kazanılmış DYDX'e ek olarak, dYdX topluluğu (1) alım satım ödüllerinin %25 oranında (958.904 DYDX) azaltılması ve (2) USDC staking ödüllerinin 0'a (383.562 DYDX) ayarlanması yönündeki oylarının bir sonucu olarak Ödül Hazinesinde tahakkuk eden DYDX'i kullanabilir. Dönem 15'ten başlayarak, Ödül Hazinesinde dönem başına 1.342.466 DYDX tahakkuk edecek ve dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir.
 
 ### Topluluk Hazinesi'nden DYDX token'ları harcamak için kimler teklif verebilir?
 
