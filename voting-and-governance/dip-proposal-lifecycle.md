@@ -34,13 +34,13 @@ No mínimo, as DRCs devem incluir:
 
 ## 2. Discussão e feedback de DRC
 
-Uma vez postados no fórum de governança, todas as perguntas e comentários devem ser abordados e levados em consideração, de modo a melhorar ainda mais a DRC.
+Uma vez postados no fórum de governança, todas as perguntas e comentários devem ser abordados e considerados, de modo a melhorar ainda mais a DRC.
 
 ## 3. Pesquisas de snapshots de DRC
 
 As pesquisas de snapshots servem a dois fins: análise de sentimento para DIPs on-chain futuras e votos de vinculação para variáveis controladas off-chain.
 
-Uma vez que uma DRC off-chain tenha um consenso acirrado, um membro de uma comunidade que detenha mais de `10.000` DYDX pode criar uma **votação off-chain** para a DRC no **Snapshot**. Incentivamos a comunidade da dYdX a criar pesquisas de snapshots nas segundas-feiras para aumentar a visibilidade durante a semana.
+Assim que uma DRC off-chain tiver um consenso muito difícil, um membro da comunidade com poder de proposição acima de `10.000` DYDX pode criar um **voto off-chain** para a DRC no **Snapshot**. Incentivamos a comunidade da dYdX a criar pesquisas de snapshots nas segundas-feiras para aumentar a visibilidade durante a semana.
 
 Um snapshot é uma interface simples de votação que permite aos usuários indicar sentimentos off-chain. Os votos em Snapshots são ponderados de acordo com o poder de voto do endereço usado para tal.
 
@@ -48,7 +48,7 @@ Para pesquisas de snapshots relacionadas à sinalização de sentimentos, o prop
 
 * detalhes da DRC,
 * um sistema de votação,
-* um período de votação – data de início e data de término da votação, definidas em um período de 4 dias e
+* um período de votação — data de início e data de término da votação, definidas em um período de 4 dias e
 * um atraso de votação, isto é, um número de bloco de snapshots que esteja 6570 blocos (aproximadamente 1 dia) no futuro. O número de bloco do snapshot trava o estado de membros da comunidade que podem votar. Os holders de tokens que tenham tokens antes do número de bloco do snapshot se tornam elegíveis para votar. Antes do snapshot do poder de voto de cada endereço, o atraso de votação dá tempo aos holders DYDX/stkDYDY para que adquiram tokens, deleguem o poder de voto e movimentem tokens entre carteiras (mover tokens entre carteiras se aplica apenas aos holders da DYDX).
 
 Os votos de snapshot são considerados finais e vinculativos para decisões que não exijam uma chamada no contrato inteligente on-chain e mudanças consideráveis às fórmulas de recompensas de trades a provedores de liquidez. O proponente precisará incluir os requisitos acima e fornecer:
@@ -57,7 +57,7 @@ Os votos de snapshot são considerados finais e vinculativos para decisões que 
 
 As alterações propostas serão implementadas pela dYdX Trading Inc. se os resultados da pesquisa do snapshot atenderem aos seguintes critérios:
 
-* o quórum mínimo - pelo menos 1M de DYDX/stkDYDX. O quórum mínimo contribui para a descentralização da tomada de decisões e protege contra a tomada de decisões unilaterais e
+* o quórum mínimo — pelo menos 1M de DYDX/stkDYDX. O quórum mínimo contribui para a descentralização da tomada de decisões e protege contra a tomada de decisões unilaterais e
 * o diferencial de voto mínimo, ou seja, pelo menos 67% dos votos devem ser a favor da proposta. O diferencial de voto mínimo auxilia na filtragem das propostas que são altamente contenciosas e exigem mais discussões.
 
 A dYdX Trading Inc. terá até 1 epoch (28 dias), um período de carência de execução, para implementar alterações de uma pesquisa de snapshot bem-sucedida.
@@ -68,7 +68,7 @@ Observações, propostas e votos são apenas mensagens assinadas, armazenadas em
 
 Quando um consenso é atingido, uma DIP on-chain pode ser submetida por um membro da comunidade que detenha poder de proposição suficiente para o tipo de proposta. Uma DIP on-chain é iniciada por meio de uma chamada do contrato inteligente. A proposta deve ser baseada no resultado que venceu a votação da DIP off-chain no snapshot e pode consistir em uma ou várias ações, até no máximo de 10 ações por proposta.
 
-A criação de uma DIP está sujeita a um número mínimo de tokens que são mantidos/delegados por um conta. Um executor de timelock deve ser especificado quando uma proposta é criada. Os parâmetros iniciais são os seguintes (e podem ser modificados pela governança):
+A criação de uma DIP está sujeita a um número mínimo de tokens que são mantidos/delegados por uma conta. Um executor de timelock deve ser especificado quando uma proposta é criada. Os parâmetros iniciais são os seguintes (e podem ser modificados pela governança):
 
 | Parâmetro | Descrição | Executor de timelock curto | Executor Merkle-Pauser | Executor de timelock longo | Executor de Starkware |
 | ------------------ | ------------------------------------------------ | ----------------------- | ---------------------- | ---------------------- | -------------------- |
@@ -93,7 +93,7 @@ Depois que uma DIP é criada on-chain, ela fica sujeita a um **atraso de votaç�
 | Quórum mínimo | Mínimo de votos positivos para uma proposta de DIP passar | 2% do fornecimento total | 1% do fornecimento total | 10% do fornecimento | 2% do fornecimento total |
 | Diferencial de votos | É necessário que haja um diferencial entre votos a favor e contra para que uma proposta de DIP passe | 0,5% do fornecimento total | 0,5% do fornecimento total | 10% do fornecimento | 0,5% do fornecimento total |
 
-Apenas o atraso de votação pode ser modificado por parte da governança, este atraso só pode ser alterado para valores entre (inclusive) o atraso mínimo e máximo. O período de votação, quórum mínimo e diferencial de votos não podem ser alterados.
+A governança somente pode modificar o atraso de votação. Tal atraso somente pode ser alterado para valores entre (inclusive) o atraso mínimo e máximo. O período de votação, quórum mínimo e diferencial de votos não podem ser alterados.
 
 ## 6. Filas de propostas e execução
 
@@ -124,13 +124,13 @@ A qualquer momento em um ciclo de vida de DIP, o proponente pode cancelar a DIP.
 
 ### Qual é o propósito do atraso de votação?
 
-O **atraso** de votação é o número de blocos Ethereum de espera antes que a votação em uma proposta comece após seu envio.
+O **Atraso de votação** é o número de blocos Ethereum de espera antes que a votação em uma proposta comece após seu envio.
 
-O poder de voto da DYDX deve ser delegado em um endereço antes de uma proposta ser enviada ou durante o **atraso** de votação da proposta.
+O poder de voto da DYDX deve ser delegado para um endereço, em sua totalidade, antes de uma proposta ser enviada ou durante o **Atraso de votação** da proposta.
 
 Por enquanto, o **atraso de votação** está definido para `6.570 blocos`, o que é de cerca de 1 dia. Este valor é adicionado ao número do bloco atual quando uma proposta é criada.
 
-No futuro, a governança da dYdX pode votar para aumentar ou diminuir o **atraso de votação**. Embora existam benefícios óbvios para um **atraso de votação** maior. Isso pode apresentar alguns resultados adversos em potencial, como a exploração de casos de borda.
+No futuro, a governança da dYdX pode votar para aumentar ou diminuir o **atraso de votação**. Embora existam benefícios óbvios para um maior **Atraso de votação.** Isso pode apresentar alguns resultados adversos em potencial, como a exploração de casos de borda.
 
 ### Qual é o propósito do limiar de proposta?
 
