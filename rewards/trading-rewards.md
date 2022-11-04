@@ -52,10 +52,26 @@ Les récompenses des Epochs passées peuvent être consultées sur [**dydx.commu
 
 ### Comment puis-je réclamer mes récompenses de trading ? Quand puis-je retirer et transférer mes DYDX gagnés ?
 
-Les tokens DYDX gagnés via les récompenses de trading seront transférables à la fin de chaque époch. Les détenteurs de jetons DYDX doivent attendre environ `7 jours` (**période d'attente**) après la fin de l'époch pour réclamer leurs jetons. Une fois les tokens réclamés, ils peuvent être utilisés pour la gouvernance dYdX.
+Les tokens DYDX gagnés via les récompenses de trading seront transférables à la fin de chaque époch. Les détenteurs de jetons DYDX doivent attendre environ `7 jours` (**période d'attente**) après la fin de l'époch pour réclamer leurs jetons DYDX.
 
-Les traders peuvent réclamer leurs récompenses de trading à la fin de chaque epoch, après la **période d'attente**, [ici](https://dydx.community/dashboard).
+Après la période d'attente de 7 jours, tout membre de la communauté peut appeler la fonction `Écrire` sur le paramètre `updateRoot` dans le [contrat du distributeur Merkle](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) pour rendre les récompenses dYdX exigibles.
 
-Les utilisateurs devront cliquer sur « Réclamer », signer une transaction et payer les frais de gaz pour réclamer DYDX.
+Étapes :
+
+1. Sur la page [contrat du distributeur Merkle](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) sur Etherscan, cliquez sur l'onglet `Contrat` et sélectionnez `Ecrire en tant que Proxy.`
+2. Cliquez sur le bouton `Se connecter à Web3` et connectez votre portefeuille Web3.
+
+<figure><img src="../.gitbook/assets/merkle-distributor-contract.jpeg" alt=""><figcaption></figcaption></figure>
+
+3\. Faites défiler jusqu'au paramètre `updateRoot` et cliquez sur le bouton `Écrire`.
+
+<figure><img src="../.gitbook/assets/updateRoot-claiming.jpeg" alt=""><figcaption></figcaption></figure>
+
+**Cette transaction nécessitera quelques ETH pour les frais de gaz et la transaction échouera si :**
+
+* Le délai d'attente de 7 jours est toujours en vigueur, ou
+* Un membre de la communauté a déjà appelé avec succès le paramètre `updateRoot` dans le [contrat du distributeur Merkle](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract).
+
+Une fois la transaction finalisée, les traders peuvent réclamer leurs récompenses de trading [ici](https://dydx.community/dashboard). Les utilisateurs devront cliquer sur `Réclamer`, signer une transaction et payer des frais de gaz pour DYDX pour réclamer DYDX.
 
 ![Aperçu du portefeuille des récompenses](../.gitbook/assets/1-portfolio-overview-rewards.png)

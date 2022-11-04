@@ -20,9 +20,17 @@ Si, après cinq ans, la gouvernance décide d'adopter une inflation perpétuelle
 
 ## FAQ
 
+### Comment dYdX est-il investi dans la trésorerie de la communauté ?
+
+Chaque seconde, le détenteur de la trésorerie de la communauté (voir les détails [ici](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)) investit [`0,3169242627`](tel:03169242627) dYdX à la trésorerie de la communauté. Une fois dYdX investi, appeler la fonction `réclamer` sur le détenteur de la trésorerie de la communauté transférera le dYdX investi à la trésorerie de la communauté. Tout dYdX peut appeler la fonction `réclamer` sur Etherscan [ici](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract) (qui nécessitera quelque ETH pour les frais de gaz) pour déplacer le dYdX investi du détenteur de la trésorerie de la communauté à la trésorerie de la communauté.
+
+<figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
+
 ### Quel est le solde investi de la trésorerie de la communauté ?
 
-dYdX Foundation publie le solde investi de la trésorerie de la communauté dans la [révision d'Epoch](https://dydx.foundation/blog) à la fin de chaque epoch. En plus des dYdX investi dans la trésorerie de la communauté, cette dernière peut également accéder aux dYdX accumulés dans la trésorerie des récompenses en raison des votes visant (1) à réduire le trading des récompenses de 25 % (958 904 DYDX) et (2) à définir les récompenses pour le staking d'USDC à 0 (383 562 DYDX). À partir de l'Epoch 15, 1 342 466 DYDX s'accumuleront dans la trésorerie des récompenses à chaque epoch et ils pourront être utilisés par la communauté dYdX grâce à un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+Les membres de la communauté dYdX peuvent voir le solde investi de la trésorerie de la communauté[ici](https://dydx.shippooor.xyz/). \
+\
+ De plus, dYdX Foundation publie le solde investi de la trésorerie de la communauté dans la [révision d'epoch](https://dydx.foundation/blog) à la fin de chaque epoch. En plus des dYdX investi dans la trésorerie de la communauté, cette dernière peut également accéder aux dYdX accumulés dans la trésorerie des récompenses en raison des votes visant (1) à réduire le trading des récompenses de 25 % (958 904 DYDX) et (2) à définir les récompenses pour le staking d'USDC à 0 (383 562 DYDX). À partir de l'Epoch 15, 1 342 466 DYDX s'accumuleront dans la trésorerie des récompenses à chaque epoch et ils pourront être utilisés par la communauté dYdX grâce à un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
 ### Qui peut soumettre des propositions pour dépenser des jetons DYDX du trésor de la communauté ?
 

@@ -40,7 +40,7 @@ Une fois postés sur le forum de gouvernance, toutes les questions et commentair
 
 Les sondages Snapshot ont deux objectifs : la signalisation des sentiments pour les futurs DIP sur la chaîne et les votes contraignants pour les variables contrôlées hors chaîne.
 
-Une fois qu'une RDC hors chaîne a un consensus très approximatif, un membre de la communauté détenant plus de `10 000` DYDX peut créer un **vote hors chaîne** pour la RDC sur **Snapshot**. Nous encourageons la communauté dYdX à créer des sondages Snapshot le lundi pour augmenter la visibilité pendant la semaine de travail normale.
+Une fois qu'une DRC hors chaîne a un consensus très approximatif, un membre de la communauté détenant plus de `10 000` dYdX disposant d'un pouvoir de proposition peut créer un **vote hors chaîne** pour la DRC sur **Snapshot**. Nous encourageons la communauté dYdX à créer des sondages Snapshot le lundi pour augmenter la visibilité pendant la semaine de travail normale.
 
 Snapshot est une interface de vote simple qui permet aux utilisateurs de signaler une opinion hors chaîne. Les votes sur Snapshot sont pondérés par le pouvoir de vote de l'adresse utilisée pour voter.
 
