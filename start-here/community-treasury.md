@@ -20,9 +20,15 @@ description: コミュニティ基金の概要
 
 ## FAQ
 
+### コミュニティ基金でDYDXはどのようにベストしていますか？
+
+コミュニティ基金ベスター（詳細は[こちら](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)）は、コミュニティ基金に毎秒[`0.3169242627`](tel:03169242627)DYDXをベストしています。DYDXがベストされた後、コミュニティ基金ベスターで`請求`関数を呼び出すと、ベストされたDYDXがコミュニティ基金に送付されます。dYdXコミュニティメンバーは、[ここ](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract)からEtherscanで`請求`関数を呼び出して（Gas（ガス）代にETHが必要です）、既得のDYDXをコミュニティ基金ベスターからコミュニティ基金に移動させることができます。
+
+<figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
+
 ### コミュニティ基金の既得残高はいくらになりますか？
 
-dYdX Foundationは、各エポックの終了時にコミュニティ基金の既得残高を[エポックレビュー](https://dydx.foundation/blog)で公表しています。dYdXコミュニティはコミュニティ基金の既得DYDXに加えて、（1）取引報酬を25％削減し（95万8,904dYdX）、（2）USDCのステーキング報酬を0（38万3,562DYDX）にすることに合意したため、それにより報酬基金に加算されるDYDXにもアクセスできます。エポック15以降、各エポックごとに134万2,466DXDXが報酬基金に加算され、dYdXコミュニティは[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によってそれらを利用できるようになります。
+dYdXコミュニティメンバーは、コミュニティ基金の既得残高を[こちら](https://dydx.shippooor.xyz/)で確認できます。\\また、dYdX Foundationでは、各エポックの終了時にコミュニティ基金の既得残高を[エポックレビュー](https://dydx.foundation/blog)で公表しています。dYdXコミュニティはコミュニティ基金の既得DYDXに加えて、（1）取引報酬を25％削減し（95万8,904DYDX）、（2）USDCのステーキング報酬を0（38万3,562DYDX）にすることに合意したため、それにより報酬基金に加算されるDYDXにもアクセスできます。エポック15以降、各エポックごとに134万2,466DXDXが報酬基金に加算され、dYdXコミュニティは[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によってそれらを利用できるようになります。
 
 ### コミュニティ基金からのDYDXトークンを使用する提案はどういう人が提出することができますか？
 

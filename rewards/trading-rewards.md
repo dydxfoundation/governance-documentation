@@ -2,7 +2,7 @@
 description: トレード報酬プログラムの概要。
 ---
 
-# 取引報酬
+# トレード報酬
 
 dYdXレイヤ2プロトコルで取引を行うユーザーに対して、支払われた手数料に基づいて初回のトークン提供額（`2億5,000万DYDX`）の`25.00％`が割り当てられました。[DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)において、dYdXコミュニティは取引報酬を25％引き下げることに[合意しました](https://dydx.community/dashboard/proposal/8)。その結果、所与のエポックで配分される取引報酬はエポック15において383万5,616DYDXから287万6,712DYDXに減少しました。
 
@@ -54,10 +54,26 @@ dYdXレイヤ2プロトコルは、dYdX Trading Inc.の[利用規約](https://dy
 
 ### トレード報酬を請求するにはどうすればよいですか？いつから獲得したDYDXを出金および移動することができますか？
 
-トレード報酬で獲得したDYDXトークンは、各エポックの終了時から移動することができるようになります。DYDXトークン保有者は、トークンの請求のためにエポックの終了から約`7日間`（**待機期間**）待つ必要があります。トークンが請求されると、dYdXガバナンスでトークンを使用することが可能になります。
+トレード報酬で獲得したDYDXトークンは、各エポックの終了時から移動することができるようになります。DYDXトークン保有者は、エポックの終了から約`7日`間（**待機期間**）待機した後にDYDXトークンを請求できます。
 
-**待機期間**を過ぎると、トレーダーは[こちら](https://dydx.community/dashboard)からトレード報酬を請求することができるようになります。
+7日間の待機期間後、コミュニティメンバーは[Merkleディストリビュータコントラクト](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract)上の`updateRoot`パラメータで`Write`関数を呼び出して、DYDX報酬を請求できるようにすることができます。
 
-DYDXを請求するには、ユーザーは「請求」をクリックし、トランザクションに署名し、ガス手数料を支払う必要があります。
+ステップ：
+
+1. Etherscanの[Merkleディストリビュータコントラクト](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract)ページで、`コントラクト`タブをクリックし、`プロキシとして書き込む`を選択します。
+2. `Web3に接続する`ボタンをクリックし、Web3ウォレットを接続します。
+
+<figure><img src="../.gitbook/assets/merkle-distributor-contract.jpeg" alt=""><figcaption></figcaption></figure>
+
+3\. `updateRoot`パラメータまで下にスクロールし、`書き込み`ボタンをクリックします。
+
+<figure><img src="../.gitbook/assets/updateRoot-claiming.jpeg" alt=""><figcaption></figcaption></figure>
+
+**このトランザクションには、Gas（ガス）代のためにETHが必要となり、以下の場合トランザクションは失敗します。**
+
+* 7日間の待機期間がまだ有効な場合
+* コミュニティメンバーが、すでに[Merkleディストリビュータコントラクト](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract)で`updateRoot`パラメータを呼び出している場合
+
+トランザクションが確定した後、トレーダーは[こちら](https://dydx.community/dashboard)から取引報酬を請求できます。DYDXを請求するには、`請求`をクリックし、トランザクションに署名して、Gas（ガス）代を支払う必要があります。
 
 ![報酬のポートフォリオ概要](../.gitbook/assets/1-portfolio-overview-rewards.png)
