@@ -52,10 +52,26 @@ Geçmiş dönemlerdeki ödüller [**dydx.community/history/reward**](https://dyd
 
 ### Alım Satım Ödüllerimi nasıl alabilirim? Kazandığım DYDX'leri ne zaman çekebilir ve transfer edebilirim?
 
-Trading Ödülleri aracılığıyla kazanılan DYDX token'ları her dönemin sonunda transfer edilebilir. DYDX token sahiplerinin dönem sona erdikten sonra token'larını almak için yaklaşık `7 gün` (**Bekleme Süresi**) beklemeleri gerekir. Token'lar talep edildikten sonra dYdX yönetişimi için kullanılabilir.
+Trading Ödülleri aracılığıyla kazanılan DYDX token'ları her dönemin sonunda transfer edilebilir. DYDX token sahiplerinin dönem sona erdikten sonra DYDX token'larını almak için yaklaşık `7 gün` (**Bekleme Süresi**) beklemeleri gerekir.
 
-Yatırımcılar her dönem sonunda, **Bekleme Süresi** sona erdikten sonra alım satım ödüllerini [buradan](https://dydx.community/dashboard) talep edebilir.
+7 günlük bekleme süresi sonunda, herhangi bir topluluk üyesi DYDX ödüllerini talep edilebilir hale getirmek için [Merkle Distributor sözleşmesindeki](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) `updateRoot` parametresinde `Write` işlevini çağırabilir.
 
-Kullanıcılar DYDX'lerini alabilmek için "Talep Et" seçeneğine tıklamalı, bir işlemi imzalamalı ve gas ücretlerini ödemelidir.
+Adımlar:
+
+1. Etherscan'deki [Merkle Distributor sözleşme](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) sayfasında, `Contract` sekmesine tıklayın ve `Write as Proxy` tercihini seçin.
+2. `Connect to Web3` düğmesine tıklayın ve Web3 Cüzdanınızı bağlayın.
+
+<figure><img src="../.gitbook/assets/merkle-distributor-contract.jpeg" alt=""><figcaption></figcaption></figure>
+
+3\. `updateRoot` parametresi için aşağı kaydırın ve `Write` düğmesine tıklayın.
+
+<figure><img src="../.gitbook/assets/updateRoot-claiming.jpeg" alt=""><figcaption></figcaption></figure>
+
+**Bu işlem gaz ücreti olarak bir miktar ETH gerektirecektir ve işlem şu durumlarda başarısız olacaktır:**
+
+* 7 günlük bekleme süresi hala tamamlanmamıştır veya
+* Bir topluluk üyesi [Merkle Distributor sözleşmesindeki](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) `updateRoot` parametresini zaten başarıyla çağırmıştır.
+
+İşlem tamamlandıktan sonra, yatırımcılar Alım Satım Ödüllerini [buradan](https://dydx.community/dashboard) talep edebilirler. Kullanıcıların DYDX talep etmek için `Claim`'e tıklaması, bir işlem imzalaması ve gaz ücretlerini ödemesi gerekir.
 
 ![Ödüller için portföye genel bakış](../.gitbook/assets/1-portfolio-overview-rewards.png)
