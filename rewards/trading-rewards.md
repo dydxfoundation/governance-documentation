@@ -8,7 +8,7 @@ description: 交易奖励计划概述。
 
 **目标**
 
-* 激励所有交易者使用dYdX Layer 2协议。
+* 激励所有交易者使用 dYdX Layer 2 协议。
 * 加快市场流动性以及产品的总体使用情况。
 
 ## **概述**
@@ -40,9 +40,9 @@ $$
 
 ### 谁有资格获得交易奖励？
 
-dYdX Layer 2协议的所有交易者都有资格获得DYDX作为交易奖励。
+dYdX Layer 2 协议的所有交易者都有资格获得以 DYDX 支付的交易奖励。
 
-如dYdX Trading Inc.[使用条款](https://dydx.exchange/terms)所定义，DYdX Layer 2协议不适用于美国或受限制地区的交易者。
+如 dYdX Trading Inc.[ 使用条款](https://dydx.exchange/terms)所定义，DYdX Layer 2 协议不适用于美国或受限制地区的交易者。
 
 ### 我在交易奖励计划中赚取了多少DYDX？
 
@@ -54,10 +54,26 @@ dYdX Layer 2协议的所有交易者都有资格获得DYDX作为交易奖励。
 
 ### 我如何申领我的交易奖励？何时可以提现并转让我赚取的DYDX？
 
-通过交易奖励赚取的DYDX代币将在每个时段结束时可以转让。DYDX代币持有人必须在时段结束后等待大约`7天`**（**等待期）才能申领代币。在申领代币之后，可以将代币用于dYdX治理。
+通过交易奖励赚取的DYDX代币将在每个时段结束时可以转让。DYDX 代币持有人必须在时段结束后等待大约 `7 天`（**等待期**）才能申领 DYDX 代币。
 
-在**等待期**后，交易者可以在[此处](https://dydx.community/dashboard)在每个时段结束时申领其交易奖励。
+7 天等待期过后，任意社区成员均可以在 [Merkle 分发合约](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) `updateRoot` 参数上调用 `Write` 函数，以便申领 DYDX 奖励。
 
-用户需要单击“申领”，签署交易，并支付gas费用以申领DYDX。
+步骤：
+
+1. 在 Etherscan 的 [Merkle 分发合约](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract)页面上，单击`合约`选项卡，然后选择`以代理身份写入。`
+2. 单击`连接到 Web3` 按钮，连接您的 Web3 钱包。
+
+<figure><img src="../.gitbook/assets/merkle-distributor-contract.jpeg" alt=""><figcaption></figcaption></figure>
+
+3\. 向下滚动至 `updateRoot` 参数，然后单击 `Write` 按钮。
+
+<figure><img src="../.gitbook/assets/updateRoot-claiming.jpeg" alt=""><figcaption></figcaption></figure>
+
+**该笔交易需要一些以太币来支付 gas 费，如出现以下情况，交易将会失败：**
+
+* 7 天等待期仍然有效，或
+* 社区成员已成功调用 [Merkle 分发合约](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) 上的 `updateRoot` 参数。
+
+交易完成后，交易者可以在[此处](https://dydx.community/dashboard)申领交易奖励。 用户需要单击`申领`、签署交易并支付 gas 费才能申领 DYDX。
 
 ![资金组合奖励概述](../.gitbook/assets/1-portfolio-overview-rewards.png)
