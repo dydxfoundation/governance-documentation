@@ -52,10 +52,26 @@ dYdX 레이어 2 프로토콜은 dYdX Trading Inc.의 [이용 약관](https://dy
 
 ### 거래 보상을 어떻게 클레임할 수 있습니까? 제가 획득한 DYDX를 언제 인출하고 양도할 수 있습니까?
 
-거래 보상을 통해 획득한 DYDX 토큰은 각 에폭이 종료될 때 양도할 수 있습니다. DYDX 보유자가 토큰을 클레임하려면 에폭이 종료되고 약 `7일`(**대기 기간**)을 기다려야 합니다. 토큰이 클레임되면 dYdX 거버넌스에 사용될 수 있습니다.
+거래 보상을 통해 획득한 DYDX 토큰은 각 에폭이 종료될 때 양도할 수 있습니다. DYDX 토큰 보유자가 DYDX 토큰을 클레임하려면 에폭이 종료되고 약 `7일`(**대기 기간**)을 기다려야 합니다.
 
-트레이더는 [여기](https://dydx.community/dashboard)에서 매 에폭이 끝날 때 **대기 기간** 후 거래 보상을 클레임할 수 있습니다.
+7일의 대기 기간 후 커뮤니티 회원은 [머클 배포자 계약](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract)의 `updateRoot` 파라미터에서 `Write` 함수를 호출하여 DYDX 보상을 청구 가능한 상태로 만들 수 있습니다.
 
-사용자는 DYDX를 클레임하려면 "클레임"를 클릭하고 거래에 서명하고 가스 수수료를 지불해야 합니다.
+단계:
+
+1. Etherscan의 [머클 배포자 계약](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract)에서 `계약` 탭을 클릭하고 `프록시로 작성`을 선택합니다.
+2. `Web3에 연결` 버튼을 클릭하고 Web3 지갑을 연결하십시오.
+
+<figure><img src="../.gitbook/assets/merkle-distributor-contract.jpeg" alt=""><figcaption></figcaption></figure>
+
+3\. `updateRoot` 파라미터까지 아래로 스크롤한 다음 `작성` 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/updateRoot-claiming.jpeg" alt=""><figcaption></figcaption></figure>
+
+**이 거래에는 가스 수수료를 위해 일부 ETH가 필요하며 다음의 경우 거래는 일어나지 않습니다.**
+
+* 7일의 대기 기간이 여전히 진행 중인 경우, 또는
+* 커뮤니티 회원이 이미 [머클 배포자 계약](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract)에서 `updateRoot` 파라미터를 성공적으로 호출한 경우
+
+거래가 완료되면 트레이더는 [여기](https://dydx.community/dashboard)에서 거래 보상을 청구할 수 있습니다. 사용자가 DYDX를 청구하려면 `청구`를 클릭하고 거래에 서명하고 가스 수수료를 지불해야 합니다.
 
 ![보상 포트폴리오 개요](../.gitbook/assets/1-portfolio-overview-rewards.png)
