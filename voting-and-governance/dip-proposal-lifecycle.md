@@ -40,7 +40,7 @@ Yönetişim forumunda yayınlandıktan sonra, DRC'yi daha da iyileştirmek için
 
 Snapshot anketleri iki amaca hizmet eder: Gelecekteki zincir içi DIP'ler için duyarlılık gösterilmesi ve zincir dışında kontrol edilen değişkenler için bağlayıcı oylamalar.
 
-Zincir dışı bir DRC üzerinde çok açık bir mutabakat sağlandığında, `10.000'den` fazla DYDX tutan bir topluluk üyesi DRC için **Snapshot** üzerinde **zincir dışı bir oylama** oluşturabilir. Normal çalışma haftası boyunca görünürlüğü artırmak için dYdX Topluluğu'nun Snapshot anketlerini Pazartesi günleri oluşturmasını öneririz.
+Zincir dışı bir DRC çok açık bir mutabakat sağladığında, `10.000'den` fazla DYDX teklif etme yetkisi bulunan bir topluluk üyesi **Snapshot** üzerinde DRC için **zincir dışı** bir oy oluşturabilir. Normal çalışma haftası boyunca görünürlüğü artırmak için dYdX Topluluğu'nun Snapshot anketlerini Pazartesi günleri oluşturmasını öneririz.
 
 Snapshot, kullanıcıların duyarlılığı zincir dışında göstermesini sağlayan basit bir oylama arayüzüdür. Snapshot'taki oylar, oy vermek için kullanılan adresin oylama gücüne (voting power) göre ağırlıklandırılır.
 
