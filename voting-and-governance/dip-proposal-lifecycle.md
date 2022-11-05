@@ -40,7 +40,7 @@ Una vez publicadas en el foro de gobernanza, todas las preguntas y comentarios d
 
 Las encuestas de Snapshot sirven para dos objetivos: la señalización del sentimiento para futuros DIP y votos vinculantes en la cadena para variables controladas fuera de la cadena.
 
-Cuando un DRC fuera de la cadena tenga un consenso muy tentativo, un miembro de la comunidad que tenga más de `10.000` DYDX puede crear un **voto fuera de la cadena** para el DRC en **Snapshot**. Animamos a la comunidad de dYdX a crear encuestas de Snapshot los lunes para aumentar la visibilidad durante la semana de trabajo regular.
+Una vez que un DRC fuera de la cadena tiene un consenso muy aproximado, un miembro de la comunidad con más de `10,000` DYDX de poder de propuesta puede generar un **voto fuera de la cadena (off-chain**) para el DRC en **Snapshot**. Animamos a la comunidad de dYdX a crear encuestas de Snapshot los lunes para aumentar la visibilidad durante la semana de trabajo regular.
 
 Snapshot es una interfaz de votación simple que permite a los usuarios señalar sentimientos fuera de la cadena. Los votos en Snapshot son ponderados por la facultad de voto de la dirección utilizada para votar.
 
