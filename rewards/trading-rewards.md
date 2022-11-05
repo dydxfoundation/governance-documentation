@@ -54,10 +54,26 @@ As recompensas de épocas anteriores podem ser vistas em [**dydx.community/histo
 
 ### Como posso resgatar minhas recompensas de trades? Quando posso sacar e transferir a DYDX que recebi?
 
-Os tokens DYDX obtidos por meio de recompensas de trades se tornam transferíveis ao final de cada epoch. Os holders de tokens DYDX são obrigados a esperar aproximadamente `7 dias` (**período de espera**) após o final da epoch para resgatá-los. Uma vez que os tokens tenham sido resgatados, eles podem ser usados na governança da dYdX.
+Os tokens DYDX obtidos por meio de recompensas de trades se tornam transferíveis ao final de cada epoch. Os detentores de tokens DYDX são obrigados a esperar aproximadamente `7 dias` (**período de espera**) após o final da epoch para reivindicar seus tokens DYDX.
 
-Os traders — **após o período de espera** — podem resgatar suas recompensas ao final de cada epoch, [aqui](https://dydx.community/dashboard).
+Após o período de espera de 7 dias, qualquer membro da comunidade pode chamar a função `Gravar` no parâmetro `updateRoot`, no [Contrato do distribuidor Merkle](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) para tornar as recompensas de DYDX reivindicáveis.
 
-Os usuários precisarão clicar em “Claim (Resgatar)”, assinar uma transação e pagar as taxas de gás para o resgate de DYDX.
+Etapas:
+
+1. Na página [Contrato do distribuidor Merkle](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) na Etherscan, clique na guia `Contrato` e selecione `Gravar como proxy.`
+2. Clique no botão `Conectar à Web3` e conecte sua carteira da Web3.
+
+<figure><img src="../.gitbook/assets/merkle-distributor-contract.jpeg" alt=""><figcaption></figcaption></figure>
+
+3\. Role para baixo até o parâmetro `updateRoot` e clique no botão `Gravar`.
+
+<figure><img src="../.gitbook/assets/updateRoot-claiming.jpeg" alt=""><figcaption></figcaption></figure>
+
+**Essa transação exigiria algum ETH para cobrir as taxas de gás; a transação falhará se:**
+
+* O período de espera de 7 dias ainda estiver em vigor ou
+* Um membro da comunidade já tiver chamado com sucesso o parâmetro `updateRoot` no [Contrato do distribuidor Merkle](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract).
+
+Após a transação ter sido finalizada, os traders podem reivindicar suas recompensas de trades [aqui](https://dydx.community/dashboard). Os usuários precisarão clicar em `Reivindicar`, assinar uma transação e pagar as taxas de gás para reivindicar DYDX.
 
 ![Visão geral de recompensas do portfólio](../.gitbook/assets/1-portfolio-overview-rewards.png)
