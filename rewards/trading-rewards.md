@@ -52,10 +52,26 @@ Rewards aus früheren Epochen können unter [**dydx.community/history/rewards**]
 
 ### Wie kann ich meine Trading-Prämien abholen? Wann kann ich meine verdienten DYDX auszahlen lassen und überweisen?
 
-Durch Trading-Prämien verdiente DYDX können am Ende jeder Epoche übertragen werden. DYDX Token-Inhaber sind dazu verpflichtet, etwa `7 Tage` (**Wartezeit**) nach Ablauf der Epoche zu warten, bis sie ihre Token beanspruchen können.  Sobald Token in Anspruch genommen wurden, können sie für die dYdX Governance verwendet werden.
+Durch Trading-Prämien verdiente DYDX können am Ende jeder Epoche übertragen werden. Inhaber von DYDX-Token müssen ungefähr `7 Tage` (**Wartezeit**) nach dem Ende der Epoche warten, um ihre DYDX-Token zu beanspruchen.
 
-Trader können ihre Trading-Prämien am Ende jeder Epoche nach der **Wartezeit** [hier](https://dydx.community/dashboard) einfordern.
+Nach der 7-tägigen Wartezeit kann jedes Community-Mitglied die `Write`-Funktion für den `updateRoot`-Parameter im [Merkle-Distributor-Vertrag](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) aufrufen, um DYDX-Prämien zu beanspruchen.
 
-Benutzer müssen auf "Abholen" klicken, eine Transaktion unterzeichnen und Gasgebühren zahlen, um ihre DYDX zu beanspruchen.
+Schritte:
+
+1. Klicken Sie auf der Vertragsseite von [Merkle Distributor](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) auf Etherscan auf die Registerkarte `Vertrag` und wählen Sie `Als Proxy schreiben aus.`
+2. Klicken Sie auf die Schaltfläche `Connect to Web3` und verbinden Sie Ihr Web3 Wallet.
+
+<figure><img src="../.gitbook/assets/merkle-distributor-contract.jpeg" alt=""><figcaption></figcaption></figure>
+
+3\. Scrollen Sie nach unten zum Parameter `updateRoot` und klicken Sie auf die `Schaltfläche Schreiben`.
+
+<figure><img src="../.gitbook/assets/updateRoot-claiming.jpeg" alt=""><figcaption></figcaption></figure>
+
+**Diese Transaktion würde einige wenige ETH für Gasgebühren erfordern. Die Transaktion wird fehlschlagen, wenn:**
+
+* Die 7-tägige Wartefrist gilt weiterhin, oder
+* Ein Community-Mitglied hat bereits erfolgreich den `updateRoot`-Parameter im [Merkle-Distributor-Vertrag](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) aufgerufen.
+
+Sobald die Transaktion abgeschlossen ist, können Händler ihre Handelsprämien [hier](https://dydx.community/dashboard) einfordern. Benutzer müssen auf `Claim` klicken, eine Transaktion unterzeichnen und Gasgebühren bezahlen, um DYDX zu beanspruchen.
 
 ![Portfolio-Übersicht der Rewards](../.gitbook/assets/1-portfolio-overview-rewards.png)

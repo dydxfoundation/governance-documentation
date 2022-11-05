@@ -40,7 +40,7 @@ Nach der Veröffentlichung im Governance-Forum sollten alle Fragen und Kommentar
 
 Snapshot-Umfragen dienen zwei Zwecken: Stimmungssignalisierung für zukünftige On-Chain-DIPs und bindende Stimmen für Variablen, die außerhalb der Kette kontrolliert werden.
 
-Sobald ein Off-Chain-DRC einen sehr groben Konsens hat, kann ein Gemeinschafts-Mitglied, das mehr als `10.000` DYDX besitzt, eine **Off-Chain**-Abstimmung für die DRC auf **Snapshot** erstellen. Wir ermutigen die dYdX-Gemeinschaft, montags Snapshot-Umfragen zu erstellen, um die Sichtbarkeit während der regulären Arbeitswoche zu erhöhen.
+Sobald ein Off-Chain-DRC einen sehr groben Konsens hat, kann ein Community-Mitglied mit mehr als `10.000` DYDX-Vorschlagsmacht eine Off-**Chain**-Abstimmung für den DRC auf **Snapshot** erstellen. Wir ermutigen die dYdX-Gemeinschaft, montags Snapshot-Umfragen zu erstellen, um die Sichtbarkeit während der regulären Arbeitswoche zu erhöhen.
 
 Snapshot ist eine einfache Abstimmungsschnittstelle, die es den Benutzern ermöglicht, die Stimmung off-chain zum Ausdruck zu bringen. Stimmen auf Snapshot werden nach Anzahl der Stimmrechte der jeweiligen Adresse gewichtet, von welcher aus abgestimmt wurde.
 
