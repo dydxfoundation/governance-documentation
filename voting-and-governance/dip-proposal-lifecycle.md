@@ -28,7 +28,7 @@ DRCs müssen mindestens Folgendes enthalten:
 
 * Kurze und prägnante Titel der DRC
 * Eine kurze und prägnante Beschreibung des Vorschlags
-* Die Begründung für die DRC, z. B. warum?
+* Die Begründung für die DRC, z. B. warum?
 * Der Titel des Forenbeitrags muss DRC: mit dem Kurztitel der DRC enthalten. Z. B. DRC: Neue Marktanfrage
 * Eine Gemeinschafts-Umfrage, welche die Gemeinschafts-Mitglieder dazu verwenden können, über Verbesserungen off-chain abzustimmen
 
@@ -40,7 +40,7 @@ Nach der Veröffentlichung im Governance-Forum sollten alle Fragen und Kommentar
 
 Snapshot-Umfragen dienen zwei Zwecken: Stimmungssignalisierung für zukünftige On-Chain-DIPs und bindende Stimmen für Variablen, die außerhalb der Kette kontrolliert werden.
 
-Sobald ein Off-Chain-DRC einen sehr groben Konsens hat, kann ein Community-Mitglied mit mehr als `10.000` DYDX-Vorschlagsmacht eine Off-**Chain**-Abstimmung für den DRC auf **Snapshot** erstellen. Wir ermutigen die dYdX-Gemeinschaft, montags Snapshot-Umfragen zu erstellen, um die Sichtbarkeit während der regulären Arbeitswoche zu erhöhen.
+Sobald ein Off-Chain-DRC einen sehr groben Konsens hat, kann ein Community-Mitglied mit mehr als `10 000` DYDX-Vorschlagsmacht eine **Off-Chain-Abstimmung** für den DRC auf **Snapshot** erstellen. Wir ermutigen die dYdX-Gemeinschaft, montags Snapshot-Umfragen zu erstellen, um die Sichtbarkeit während der regulären Arbeitswoche zu erhöhen.
 
 Snapshot ist eine einfache Abstimmungsschnittstelle, die es den Benutzern ermöglicht, die Stimmung off-chain zum Ausdruck zu bringen. Stimmen auf Snapshot werden nach Anzahl der Stimmrechte der jeweiligen Adresse gewichtet, von welcher aus abgestimmt wurde.
 
@@ -49,16 +49,16 @@ Für Snapshot-Umfragen im Zusammenhang mit Stimmungssignalen muss der Vorschlage
 * Details der DRC,
 * ein Abstimmungssystem,
 * eine Abstimmungsperiode – Start- und Enddatum der Abstimmung, sind auf eine Abstimmungsperiode von 4 Tagen ausgelegt, und
-* eine Abstimmungsverzögerung - eine Snapshot-Blocknummer, die 6570 Blöcke (ungefähr 1 Tag) in der Zukunft liegt. Die Snapshot-Blocknummer sperrt den Status der Gemeinschafts-Mitglieder, die abstimmen können. Token-Inhaber, die Token vor der Snapshot-Blocknummer halten, sind stimmberechtigt. Vor dem Snapshot der jeweiligen Stimmrechte jeder Adresse gibt die Stimmverzögerung den DYDX/stkDYDY-Inhabern Zeit, Token zu erwerben, Stimmrechte zu delegieren und Token zwischen Wallets zu verschieben (das Verschieben von Token zwischen Wallets gilt nur für DYDX-Inhaber).
+* eine Abstimmungsverzögerung – eine Snapshot-Blocknummer, die 6570 Blöcke (ungefähr 1 Tag) in der Zukunft liegt. Die Snapshot-Blocknummer sperrt den Status der Gemeinschafts-Mitglieder, die abstimmen können. Token-Inhaber, die Token vor der Snapshot-Blocknummer halten, sind stimmberechtigt. Vor dem Snapshot der jeweiligen Stimmrechte jeder Adresse gibt die Stimmverzögerung den DYDX/stkDYDY-Inhabern Zeit, Token zu erwerben, Stimmrechte zu delegieren und Token zwischen Wallets zu verschieben (das Verschieben von Token zwischen Wallets gilt nur für DYDX-Inhaber).
 
 Für Entscheidungen, die keinen on-chain Smart Contract-Anruf erfordern, gelten Snapshot-Abstimmungen vor allem für Änderungen der Trading und Liquidity Provider Prämien-Formeln als verbindliche und endgültige Abstimmung. Der Vorschlagende muss die oben genannten Anforderungen erfüllen und Folgendes bereitstellen:
 
-* binäre Abstimmungsoptionen - zur Verdeutlichung stimmt eine Adresse entweder für oder gegen einen Vorschlag.
+* binäre Abstimmungsoptionen – zur Verdeutlichung stimmt eine Adresse entweder für oder gegen einen Vorschlag.
 
 Die vorgeschlagene(n) Änderung(en) wird/werden von dYdX Trading Inc. implementiert, wenn die Ergebnisse der Snapshot-Umfrage Folgendes erfüllen:
 
-* das Mindestquorum - mindestens 1M DYDX/stkDYDX. Das Mindestquorum trägt zur Dezentralisierung der Entscheidungsfindung bei und schützt vor einseitiger Entscheidungsfindung und
-* die Mindeststimmendifferenz - mindestens 67 % der Stimmen müssen für den Vorschlag ausfallen. Die Mindeststimmen-Differenz hilft beim Herausfiltern von Vorschlägen, die äußerst umstritten sind und weiterer Diskussion bedürfen.
+* das Mindestquorum – mindestens 1M DYDX/stkDYDX. Das Mindestquorum trägt zur Dezentralisierung der Entscheidungsfindung bei und schützt vor einseitiger Entscheidungsfindung und
+* die Mindeststimmendifferenz – mindestens 67 % der Stimmen müssen für den Vorschlag ausfallen. Die Mindeststimmen-Differenz hilft beim Herausfiltern von Vorschlägen, die äußerst umstritten sind und weiterer Diskussion bedürfen.
 
 dYdX Trading Inc. hat bis zu 1 Epoche (28 Tage), eine Nachfrist für die Ausführung, um Änderungen aus einer erfolgreichen Snapshot-Umfrage zu implementieren.
 
@@ -108,7 +108,7 @@ Nachdem ein DIP bestanden wurde, kann jede Adresse die Warteschlangen-Methode au
 
 Sobald der Abstimmungszeitraum endet und ein Vorschlag erfolgreich war, kann jeder die Warteschlange anrufen, um die Zeitsperrverzögerung zu beginnen.
 
-Für den Priority Timelock Executor von Starkware hat er eine Prioritätsperiode von 7 Tagen außerhalb der 9-tägigen Timelock-Verzögerung. Das bedeutet, dass nach 9 Tagen jeder einen Vorschlag ausführen kann, aber innerhalb von 2-9 Tagen (der Prioritätsfrist) hat Starkware die Möglichkeit, den Vorschlag auszuführen.
+Für den Priority Timelock Executor von Starkware hat er eine Prioritätsperiode von 7 Tagen außerhalb der 9-tägigen Timelock-Verzögerung. Das bedeutet, dass nach 9 Tagen jeder einen Vorschlag ausführen kann, aber innerhalb von 2–9 Tagen (der Prioritätsfrist) hat Starkware die Möglichkeit, den Vorschlag auszuführen.
 
 In der Praxis heißt das:
 
@@ -126,11 +126,11 @@ Zu jedem Zeitpunkt in einem DIP-Lebenszyklus kann der Vorschlagende den DIP stor
 
 Die **Abstimmungsverzögerung** ist die Anzahl der Ethereum-Blöcke, die gewartet werden muss, bevor die Abstimmung über einen Vorschlag beginnen kann, nachdem ein Vorschlag eingereicht wurde.
 
-Das DYDX-Stimmrecht muss entweder vollständig vor der Einreichung eines Vorschlags oder während der  **Abstimmungsverzögerung**  des Vorschlags an eine Adresse delegiert werden.
+Das DYDX-Stimmrecht muss entweder vollständig vor der Einreichung eines Vorschlags oder während der **Abstimmungsverzögerung** des Vorschlags an eine Adresse delegiert werden.
 
 Im Moment ist die **Abstimmungsverzögerung** auf `6.570 Blöcke` eingestellt, was etwa 1 Tag entspricht. Dieser Wert wird bei der Erstellung eines Vorschlags zur aktuellen Blocknummer addiert.
 
-In Zukunft kann dYdX Governance über eine Verlängerung oder Verkürzung der **Abstimmungsverzögerung** abstimmen. Eine erhöhte **Abstimmungsverzögerung** hat offensichtliche Vorteile. Es kann zu einigen potenziell nachteiligen Ergebnissen führen, wie z. B. opportunistische Grenzfallausnutzung.
+In Zukunft kann dYdX Governance über eine Verlängerung oder Verkürzung der **Abstimmungsverzögerung** abstimmen. Eine erhöhte **Abstimmungsverzögerung** hat offensichtliche Vorteile. Es kann zu einigen potenziell nachteiligen Ergebnissen führen, wie z. B. opportunistische Grenzfallausnutzung.
 
 ### Was ist der Zweck der Vorschlagsschwelle?
 
