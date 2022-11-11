@@ -4,7 +4,7 @@ description: Ein Überblick über die Gemeinschaftskasse.
 
 # Treasury
 
-`5,00` % des anfänglichen Token-Vorrats (`50.000.000 DYDX`) werden an eine Gemeinschaftskasse verteilt, die fortlaufend durch Beitragszuschüsse, Gemeinschaftsinitiativen, Liquiditätsabbau und andere Programme zugewiesen werden.
+`5,00 %` des anfänglichen Token-Vorrats (`50.000.000 DYDX`) werden an eine Gemeinschaftskasse verteilt, die fortlaufend durch Beitragszuschüsse, Gemeinschaftsinitiativen, Liquiditätsabbau und andere Programme zugewiesen werden.
 
 **Ziele**
 
@@ -20,17 +20,17 @@ Wenn die Governance nach fünf Jahren beschließt, eine ewige Inflation (bei ein
 
 ## FAQ
 
-### Wie investiert DYDX in die Community-Treasury?
+### Welche DYDX-Rücklagen fließen in die Community-Treasury?
 
-Jede Sekunde überträgt der Community Treasury Vester (siehe Details [hier](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)) [`0,3169242627`](tel:03169242627) DYDX an das Community Treasury. Sobald DYDX übertragen wurde, wird durch Aufrufen der `Anspruchsfunktion` auf dem Community Treasury Vester das übertragene DYDX an das Community Treasury überführen. Jedes dYdX kann [hier](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract) die `Anspruchsfunktion` auf Etherscan aufrufen (was einige ETH für Gasgebühren erfordert), um den übertragenen DYDX aus dem Community Treasury Vester in das Community Treasury Vester zu verschieben.
+Jede Sekunde überträgt der Community Treasury Vester (siehe Details [hier](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)) [`0,3169242627`](tel:03169242627) DYDX an die Community Treasury. Sobald DYDX einbehalten wurden, werden durch das Aufrufen der `Anfordern`-Funktion auf dem Community Treasury Vester die einbehaltenen DYDX in die Community Treasury überführt. Jedes Mitglied der dYdX-Community kann [hier](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract) die `Claim`-Funktion auf Etherscan aufrufen (was einige ETH für Gasgebühren erfordert), um die einbehaltenen DYDX aus dem Community Treasury Vester in die Community Treasury zu verschieben.
 
 <figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
 
 ### Wie hoch ist das tatsächliche Guthaben der Community-Treasury?
 
-Mitglieder der dYdX-Community Treasury können [hier](https://dydx.shippooor.xyz/) das übertragene Guthaben \\einsehen.
-
- Darüber hinaus veröffentlicht die dYdX Foundation das Besitzstandsguthaben der Gemeinschaftskasse im [Epoch Review](https://dydx.foundation/blog) am Ende jeder Epoche. Zusätzlich zu den in der Community Treasury hinterlegten DYDX kann die dYdX-Community auch auf die in der Prämien-Treasury aufgelaufenen DYDX zugreifen, dann wenn folgende Abstimmungsergebnisse auftreten: (1) Trading Rewards um 25 %  (958 904 DYDX) reduzieren und (2) USDC-Staking Awards auf 0 setzen (383 562 DYDX). Ab Epoche 15 werden sodann in jeder Epoche 1 342 466 DYDX in der Prämien Treasury angesammelt und können von der dYdX-Community im Rahmen einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
+Mitglieder der dYdX-Community können [hier](https://dydx.shippooor.xyz/) den Rücklagen-Kontostand der Community Treasury einsehen. \
+\
+ Darüber hinaus veröffentlicht die dYdX Foundation den Rücklagen-Kontostand der Community Treasury in der [Epochen-Rückschau](https://dydx.foundation/blog) am Ende jeder Epoche. Zusätzlich zu den in der Community Treasury hinterlegten DYDX kann die dYdX-Community auch auf die in der Prämien-Treasury aufgelaufenen DYDX zugreifen, dann wenn folgende Abstimmungsergebnisse auftreten: (1) Trading Rewards um 25 % (958 904 DYDX) reduzieren und (2) USDC-Staking Awards auf 0 setzen (383 562 DYDX). Ab Epoche 15 werden sodann in jeder Epoche 1 342 466 DYDX in der Prämien Treasury angesammelt und können von der dYdX-Community im Rahmen einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
 
 ### Wer kann Vorschläge zur Ausgabe von DYDX-Token aus der Gemeinschaftskasse einreichen?
 

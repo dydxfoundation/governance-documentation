@@ -58,19 +58,19 @@ Nach der 7-tägigen Wartezeit kann jedes Community-Mitglied die `Write`-Funktion
 
 Schritte:
 
-1. Klicken Sie auf der Vertragsseite von [Merkle Distributor](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) auf Etherscan auf die Registerkarte `Vertrag` und wählen Sie `Als Proxy schreiben aus.`
-2. Klicken Sie auf die Schaltfläche `Connect to Web3` und verbinden Sie Ihr Web3 Wallet.
+1. Klicken Sie auf der Seite des [Merkle Distributor Contract](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) auf Etherscan auf die Registerkarte `Contract` und wählen Sie `Write as Proxy` aus.
+2. Klicken Sie auf die Schaltfläche `Connect to Web3` und verbinden Sie Ihr Web3-Wallet.
 
 <figure><img src="../.gitbook/assets/merkle-distributor-contract.jpeg" alt=""><figcaption></figcaption></figure>
 
-3\. Scrollen Sie nach unten zum Parameter `updateRoot` und klicken Sie auf die `Schaltfläche Schreiben`.
+3\. Scrollen Sie nach unten zum Parameter `updateRoot` und klicken Sie auf die Schaltfläche `Write`.
 
 <figure><img src="../.gitbook/assets/updateRoot-claiming.jpeg" alt=""><figcaption></figcaption></figure>
 
 **Diese Transaktion würde einige wenige ETH für Gasgebühren erfordern. Die Transaktion wird fehlschlagen, wenn:**
 
-* Die 7-tägige Wartefrist gilt weiterhin, oder
-* Ein Community-Mitglied hat bereits erfolgreich den `updateRoot`-Parameter im [Merkle-Distributor-Vertrag](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) aufgerufen.
+* Die 7-tägige Wartefrist noch nicht abgelaufen ist oder
+* Ein Community-Mitglied bereits erfolgreich den `updateRoot`-Parameter im [Merkle-Distributor-Vertrag](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) aufgerufen hat.
 
 Sobald die Transaktion abgeschlossen ist, können Händler ihre Handelsprämien [hier](https://dydx.community/dashboard) einfordern. Benutzer müssen auf `Claim` klicken, eine Transaktion unterzeichnen und Gasgebühren bezahlen, um DYDX zu beanspruchen.
 
