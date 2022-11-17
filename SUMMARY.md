@@ -10,8 +10,9 @@
 * [Epochen](start-here/epochs.md)
 * [Gebührenrabatte](start-here/trading-fee-discount.md)
 * [Treasury](start-here/community-treasury.md)
+* [Prämien Treasury](start-here/rewards-treasury.md)
 
-## Belohnungen
+## Prämien
 
 * [Rückwirkende Mining-Prämien](rewards/retroactive-mining-rewards.md)
 * [Trading-Prämien](rewards/trading-rewards.md)
