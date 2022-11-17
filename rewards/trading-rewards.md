@@ -21,7 +21,7 @@ Topluluğun alım satım ödüllerinin %25 oranında 3.835.616 DYDX'ten 2.876.71
 
 <figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
-$$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k $$
+$$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \, n=1,2...k $$
 
 | Süre | Tanım |
 | ---------------------------- | ----------------------------------------------------------------------- |
