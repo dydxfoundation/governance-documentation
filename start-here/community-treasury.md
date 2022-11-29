@@ -30,7 +30,7 @@ Every second, the Community Treasury Vester (see details [here](https://docs.dyd
 
 dYdX community members can view the vested balance of the community treasury [here](https://dydx.shippooor.xyz/). \
 \
-Further, dYdX Foundation publishes the vested balance of the Community Treasury in the [Epoch Review](https://dydx.foundation/blog) at the end of each epoch. In addition to the vested DYDX in the Community Treasury, the dYdX community can also access the DYDX accruing in the Rewards Treasury as a result of the votes to (1) reduce trading rewards by 25% (958,904 DYDX) and (2) set the rewards for staking USDC to 0 (383,562 DYDX). Starting in Epoch 15, 1,342,466 DYDX  will accrue in the Rewards Treasury each epoch and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+Further, dYdX Foundation publishes the vested balance of the Community Treasury in the [Epoch Review](https://dydx.foundation/blog) at the end of each epoch. In addition to the vested DYDX in the Community Treasury, the dYdX community can also access the DYDX accruing in the Rewards Treasury as a result of the votes to (1) reduce trading rewards by 25% (958,904 DYDX), (2) set the rewards for staking USDC to 0 (383,562 DYDX), and (3) set the rewards for staking DYDX to 0 (383,562 DYDX). Starting in Epoch 17, 1,726,028 DYDX  will accrue in the Rewards Treasury each epoch and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
 ### Who can submit proposals to spend DYDX tokens from the Community Treasury?
 

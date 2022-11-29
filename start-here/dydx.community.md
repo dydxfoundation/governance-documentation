@@ -20,9 +20,7 @@ Holders of DYDX and stkDYDX are granted two types of governance powers: proposin
 
 ### Staking
 
-Users can stake DYDX to earn staking rewards.
-
-<figure><img src="../.gitbook/assets/interface-staking.png" alt=""><figcaption></figcaption></figure>
+Currently, the Liquidity Module and Safety Module are inactive. Users holding stkDYDX and stkUSDC are not earning rewards. Users can `request to withdraw` and `withdraw` at [**dydx.community**](https://dydx.community).
 
 ### Trading Rewards
 
