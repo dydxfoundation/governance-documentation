@@ -6,7 +6,7 @@ description: Ödül hazinesine genel bir bakış.
 
 ## Genel bakış
 
-[Topluluk Hazinesinde](https://docs.dydx.community/dydx-governance/start-here/community-treasury) kazanılmış DYDX'e ek olarak, dYdX topluluğu (1) alım satım ödüllerinin %25 oranında (958.904 DYDX) azaltılması ve (2) USDC staking ödüllerinin 0'a (383.562 DYDX) ayarlanması yönündeki oylarının bir sonucu olarak [Ödül Hazinesinde](https://etherscan.io/address/0x639192d54431f8c816368d3fb4107bc168d0e871) her dönem tahakkuk eden DYDX'i kullanabilir. Dönem 15'ten başlayarak, Ödül Hazinesinde dönem başına 1.342.466 DYDX tahakkuk edecek ve dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir. \
+[Topluluk Hazinesinde](https://docs.dydx.community/dydx-governance/start-here/community-treasury) kazanılmış DYDX'e ek olarak, dYdX topluluğu (1) alım satım ödüllerinin %25 oranında (958.904 DYDX) azaltılması ve (2) USDC staking ödüllerinin 0'a (383.562 DYDX) ayarlanması yönündeki oylarının bir sonucu olarak [Ödül Hazinesinde](https://etherscan.io/address/0x639192d54431f8c816368d3fb4107bc168d0e871) her dönem tahakkuk eden DYDX'i kullanabilir.j Dönem 15'ten başlayarak, Ödül Hazinesinde dönem başına 1.342.466 DYDX tahakkuk edecek ve dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir. \
 
 
 ## SSS
