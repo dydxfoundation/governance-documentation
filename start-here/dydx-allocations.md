@@ -14,7 +14,7 @@ description: DYDX代币的分配。
   * **7.50%** （`75,000,000 个 DYDX`） 根据一条公式分配给流动性提供方，此公式奖励正常运行时间、双侧交易深度、买卖价差和受支持市场数量的组合（[**流动性提供方奖励**](../rewards/liquidity-provider-rewards.md)），
   * **5.00%** （`50,000,000 个 DYDX`）分配给社区资金库（[**资金库**](community-treasury.md)），
   * **2.50%** （`25,000,000 个 DYDX`）分配给将 USDC 质押给流动性质押池的用户 （[**流动性模块**](../staking-pools/liquidity-staking-pool.md)）。在 [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) 中，dYdX 社区 [投票](https://dydx.community/dashboard/proposal/7) 将质押 USDC 的相关奖励设置为 0。先前分配给 USDC 质押人的 383,562 个 DYDX 将在奖励资金库中积累，并可由 dYdX 社区通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用，
-  * **2.50%** （`25,000,000 个 DYDX`） 分配给将 DYDX 质押给保险资金质押池的用户 （[**保险模块**](../staking-pools/safety-staking-pool.md)），
+  * **2.50%**（25,000,000 `个 DYDX`）分配给将 DYDX 质押给保险资金质押池（[**安全模块**](../staking-pools/safety-staking-pool.md)）的用户。在 [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/9)将质押 DYDX 相关的奖励设置为 0。先前分配给 DYDX 质押人的 383,562 个 DYDX 将在奖励资金库中累积，可由 dYdX 社区通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用，
 * **27.3%** （`277,295,070 个 DYDX`） 分配给过往投资者，
 * **15.27%** （`152,704,930 个 DYDX`） 分配给 dYdX Trading 或基金会的创始人、员工、顾问和咨询人员，
 * **7.00%** （`70,000,000 个 DYDX`） 分配给 dYdX Trading 或 dYdX 基金会的未来员工和顾问。
@@ -36,6 +36,8 @@ description: DYDX代币的分配。
 在 [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) 中，dYdX 社区 [投票](https://dydx.community/dashboard/proposal/8) 支持将交易奖励减少 25%。因此，在给定特定时段内分配的交易奖励从 3,835,616 个 DYDX 减少到时段 15 的 2,876,712 个 DYDX。奖励资金库中所累积的剩余 958,904 个 DYDX 可由 dYdX 社区通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。\
 \
  在 [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/7)将质押 USDC 的奖励设置为 0。先前分配给 USDC 质押人的 383,562 个 DYDX 将在奖励资金库中积累，并可由 dYdX 社区通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。
+
+在 [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/9)将质押 DYDX 相关奖励设置为 0。先前分配给 DYDX 质押人的 383,562 个 DYDX 将在奖励资金库中累积，可由 dYdX 社区通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。
 
 ### **是否可以创建新的DYDX代币？**
 
