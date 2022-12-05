@@ -1,4 +1,4 @@
-# Table of contents
+# 目录
 
 * [简介](README.md)
 
@@ -10,6 +10,7 @@
 * [时段](start-here/epochs.md)
 * [费率折扣](start-here/trading-fee-discount.md)
 * [资金库](start-here/community-treasury.md)
+* [奖励资金库](start-here/rewards-treasury.md)
 
 ## 奖励
 
@@ -36,10 +37,6 @@
 * [基金会](resources/dydx-foundation.md)
 * [做市商入门培训](resources/market-maker-onboarding.md)
 * [词汇表](resources/glossary.md)
-
-## chinese-guides
-
-* [Page 1](chinese-guides/page-1.md)
 
 ## 外部链接
 
