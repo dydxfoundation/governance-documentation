@@ -10,6 +10,7 @@
 * [Epochs](start-here/epochs.md)
 * [Réductions des frais](start-here/trading-fee-discount.md)
 * [Trésor](start-here/community-treasury.md)
+* [Trésorerie des récompenses](start-here/rewards-treasury.md)
 
 ## Récompenses
 
