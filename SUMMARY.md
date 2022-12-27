@@ -31,6 +31,10 @@
 * [Parameters](voting-and-governance/governance-parameters.md)
 * [Governance Guide](voting-and-governance/governance-guide.md)
 
+***
+
+* [Technical Guide on building a dYdX Community Treasury Spending Proposal](technical-guide-on-building-a-dydx-community-treasury-spending-proposal.md)
+
 ## RESOURCES
 
 * [Technical Overview](resources/technical-overview.md)

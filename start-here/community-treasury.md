@@ -36,6 +36,10 @@ Further, dYdX Foundation publishes the vested balance of the Community Treasury 
 
 Any user with sufficient proposing power can submit proposals. A governance vote will be required to spend any DYDX from the community treasury. To submit a proposal, please submit a dYdX Improvement Proposal (DIP) as laid out in the [DIP Proposal Lifecycle](../voting-and-governance/dip-proposal-lifecycle.md).
 
+### How do you go about building a proposal to spend funds from the Community Treasury?
+
+Reverie has put together a comprehensive, technical, step-by-step guide on how any dYdX community member with more than 5M DYDX ([proposal threshold](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters) for a [short timelock vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)) of proposal power can create a proposal to transfer DYDX from the Community Treasury to a destination address. Click [here](https://app.gitbook.com/o/-MeNgGQU0ucT2xo4s8-T/s/-MeNfSkgj48hU0q8Zbjn/\~/changes/EyisuFjLIyJ7K9RzaTfJ/technical-guide-on-building-a-dydx-community-treasury-spending-proposal) to access the technical guide.
+
 ### What types of proposals can be submitted to the Community Treasury?
 
 A community-managed treasury opens up a world of possibilities. We hope to see various experiments and initiatives, including ecosystem grants, which can foster the dYdX Layer 2 Protocol’s ecosystem growth.
