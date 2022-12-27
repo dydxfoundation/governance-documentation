@@ -4,7 +4,7 @@ description: Overview of the Liquidity Provider rewards Program.
 
 # Liquidity Provider Rewards
 
-7.5% of the initial token supply (`75,000,000 DYDX`) will be distributed to liquidity providers based on formulas that reward a combination of maker volume, uptime, two-sided depth, bid-ask spreads, stkDYDX, and the number of markets supported.
+7.5% of the initial token supply (`75,000,000 DYDX`) will be distributed to liquidity providers based on formulas that reward a combination of maker volume, uptime, two-sided depth, bid-ask spreads, and the number of markets supported.
 
 **Objectives**
 
@@ -14,9 +14,11 @@ description: Overview of the Liquidity Provider rewards Program.
 
 To incentivize market liquidity, DYDX will be distributed to liquidity providers based on formulas that reward participation in markets, maker volume, two-sided depth, spread (vs. mid-market), and uptime on dYdX’s Layer 2 Protocol. Any Ethereum address can earn these rewards, subject to a minimum maker volume threshold of 0.25% of maker volume in the preceding epoch. DYDX will be distributed on a 28-day epoch basis over five years and are not subject to any vesting or lockups. 1,150,685 DYDX will be distributed per epoch.
 
-The following functions are used to compute how much DYDX should be rewarded to each liquidity provider per epoch. In [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md), the dYdX community voted to revise the LP rewards formula by splitting the functions for BTC/ETH markets and non BTC/ETH markets. Overall, the weighting of volume in the functions was increased in all markets. The amount of DYDX earned is determined by the relative share of each participant’s $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​).
+The following functions are used to compute how much DYDX should be rewarded to each liquidity provider per epoch. In [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md), the dYdX community voted to revise the LP rewards formula by splitting the functions for BTC/ETH markets and non BTC/ETH markets. In [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md), the dYdX community voted to re-allocate the 0.05 stkDYDX weight to MakerVolume.&#x20;
 
-<figure><img src="../.gitbook/assets/1-new-lp-rewards-fomula-btcethall.png" alt=""><figcaption></figcaption></figure>
+Overall, the weighting of volume in the functions was increased in all markets. The amount of DYDX earned is determined by the relative share of each participant’s $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​).
+
+<figure><img src="../.gitbook/assets/Updated LP Rewards Formulas.png" alt=""><figcaption></figcaption></figure>
 
 Orders below a certain **minimum depth** (size) ($$MinDepth$$) per market are excluded, and orders over a certain **maximum spread** (mid-market spread) ($$MaxSpread$$) market are excluded as well.
 
@@ -34,15 +36,14 @@ The above formula is broken out into step-by-step calculations below for detail:
 | <img src="../.gitbook/assets/1-qpoech-formula.png" alt="" data-size="original">         | $$Q_{EPOCH}$$is the sum of all $$Q_{MIN}$$in a given epoch.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | <img src="../.gitbook/assets/1-q-uptime-epoch-formula.png" alt="" data-size="original"> | $$Uptime_{EPOCH}$$is the time in an epoch that a given market maker was live and quoting on both the bid and ask sides with order sizes greater than stated order minimum (noted below by market) and spreads smaller than stated maximum spread (noted below by market).                                                                                                                                                                                                                                                                                                                                  |
 | <img src="../.gitbook/assets/1-qfinal-epoch-formula.png" alt="" data-size="original">   | $$Q_{FINAL}$$normalizes $$Q_{EPOCH}$$to account for uptime                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| _stkDYDX_                                                                               | Average amount of stkDYDX held (measured randomly every minute) across the epoch                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
-Each market will have its own rewards pool that will be weighted differently. In DIP \[], the dYdX community voted to reduce the allocation of total rewards in BTC-USD and ETH-USDC to 10% each. The set of weights applied to each market is as follows:
+Each market will have its own rewards pool that will be weighted differently. In [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md), the dYdX community voted to reduce the allocation of total rewards in BTC-USD and ETH-USDC to 10% each. The set of weights applied to each market is as follows:
 
-| Market                 | % Allocation of Total Rewards Pool                               |
-| ---------------------- | ---------------------------------------------------------------- |
-| BTC-USD                | 10%                                                              |
-| ETH-USD                | 10%                                                              |
-| Other perpetual market | ![](../.gitbook/assets/1-other-perpetual-markets-lp-weights.png) |
+| Market                  | % Allocation of Total Rewards Pool                               |
+| ----------------------- | ---------------------------------------------------------------- |
+| BTC-USD                 | 10%                                                              |
+| ETH-USD                 | 10%                                                              |
+| Other perpetual markets | ![](../.gitbook/assets/1-other-perpetual-markets-lp-weights.png) |
 
 ## FAQ
 
