@@ -31,7 +31,7 @@ Although the community allocation has been established as laid out above, DYDX h
 
 ### Can the allocation of DYDX change?&#x20;
 
-Yes, the dYdX community can change any of the[ rewards and pools existing at launch](../voting-and-governance/governance-parameters.md). So far, the dYdX community has voted to reduce trading rewards by 25% and set rewards for staking USDC to 0.&#x20;
+Yes, the dYdX community can change any of the[ rewards and pools existing at launch](../voting-and-governance/governance-parameters.md). So far, the dYdX community has voted to reduce trading rewards by 25%, set rewards for staking USDC to 0, and set rewards for staking DYDX to 0.
 
 In [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/8) in support of reducing trading rewards by 25%. As a result, trading rewards distributed in a given epoch were reduced from 3,835,616 DYDX to 2,876,712 DYDX in Epoch 15. The remaining 958,904 DYDX will accrue in the Rewards Treasury and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).\
 \
