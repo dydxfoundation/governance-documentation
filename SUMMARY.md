@@ -31,6 +31,10 @@
 * [Parametreler](voting-and-governance/governance-parameters.md)
 * [Yönetişim Rehberi](voting-and-governance/governance-guide.md)
 
+***
+
+* [dYdX Topluluk Hazinesi Harcama Teklifi Oluşturmak için Teknik Kılavuz](technical-guide-on-building-a-dydx-community-treasury-spending-proposal.md)
+
 ## KAYNAKLAR
 
 * [Teknik Özet](resources/technical-overview.md)
