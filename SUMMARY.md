@@ -31,6 +31,10 @@
 * [Parameter](voting-and-governance/governance-parameters.md)
 * [Governance-Leitfaden](voting-and-governance/governance-guide.md)
 
+***
+
+* [Technischer Leitfaden zur Erstellung eines Ausgabenvorschalgs für die dYdX Community ](technical-guide-on-building-a-dydx-community-treasury-spending-proposal.md)
+
 ## RESSOURCEN
 
 * [Technische Übersicht](resources/technical-overview.md)
