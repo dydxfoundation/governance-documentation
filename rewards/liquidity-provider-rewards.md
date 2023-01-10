@@ -4,7 +4,7 @@ description: 流动性提供方奖励计划概述。
 
 # 流动性提供方奖励
 
-初始代币供应量的7.5%（`75,000,000个DYDX`）将根据公式分配给流动性提供方，这些公式奖励挂单量、正常运行时间、双侧交易深度、买卖价差、stkDYDX和支持的交易对数量。
+初始代币供应量的 7.5%（`75,000,000 个 DYDX`）将根据公式分配给流动性提供方。根据公式，将对挂单量、正常运行时间、双侧交易深度、买卖价差、所支持的交易对数量予以奖励。
 
 **目标**
 
@@ -14,9 +14,11 @@ description: 流动性提供方奖励计划概述。
 
 为了激励市场流动性，DYDX 将根据公式分配给流动性提供方，根据 dYdX Layer 2 协议，这些公式奖励参与做市、挂单量、双侧深度、价差（与中间市场相比）以及正常运行时间。任意以太坊地址均可以赚取这些奖励，但条件是挂单量最低起点为前一时段挂单量的 0.25%。DYDX将在五年内以28天时段为周期进行分配，不受任何兑现或锁定的限制。每个纪元内将分配1,150,685个DYDX。
 
-以下函数用于计算每个时段每个流动性提供方应当得到多少DYDX奖励。在 [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md) 中，dYdX 社区投票修订了 LP 奖励公式，将 BTC/ETH 市场和非 BTC/ETH 市场函数分开。总体而言，在所有市场中，交易量在函数中的权重都有所增加。所赚 DYDX 金额由各参与者 $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{非 BTC/ETH}$$​) 的相对份额决定。
+以下函数用于计算每个时段每个流动性提供方应当得到多少DYDX奖励。在 [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md) 中，dYdX 社区投票修订了 LP 奖励公式，将 BTC/ETH 市场和非 BTC/ETH 市场函数分开。在 [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md) 中，dYdX 社区投票赞成将 0.05 stkDYDX 权重重新分配给挂单量。
 
-<figure><img src="../.gitbook/assets/1-new-lp-rewards-fomula-btcethall.png" alt=""><figcaption></figcaption></figure>
+总体而言，在所有市场中，交易量在函数中的权重都有所增加。所赚 DYDX 金额由各参与者 $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{非 BTC/ETH}$$​) 的相对份额决定。
+
+<figure><img src="../.gitbook/assets/Updated LP Rewards Formulas.png" alt=""><figcaption></figcaption></figure>
 
 每个交易对低于特定**最低深度**（大小）($$MinDepth$$)的订单会被排除，超过特定**最大价差**（中间市场价差）($$MaxSpread$$)交易对的订单也会被排除。
 
@@ -34,12 +36,11 @@ description: 流动性提供方奖励计划概述。
 | <img src="../.gitbook/assets/1-qpoech-formula.png" alt="" data-size="original"> | $$Q_{EPOCH}$$是一个给定时段中所有$$Q_{MIN}$$的总和。 |
 | <img src="../.gitbook/assets/1-q-uptime-epoch-formula.png" alt="" data-size="original"> | $$Uptime_{EPOCH}$$ 是指特定做市商实时时段的时间，买卖双方报价均大于规定的最低订单量（按市场在下面注明）并且价差小于规定的最大价差（按市场在下面注明）。 |
 | <img src="../.gitbook/assets/1-qfinal-epoch-formula.png" alt="" data-size="original"> | $$Q_{FINAL}$$正常化$$Q_{EPOCH}$$，以计入正常运行时间 |
-| _stkDYDX_ | 整个时段持有的 stkDYDX 平均金额（每分钟随机测量） |
 
-每个交易对将拥有自己的奖励资金池，并以不同的方式加权。在 DIP \[] 中，dYdX 社区投票决定将 BTC-USD 和 ETH-USDC 的总奖励分配各降至 10%。适用于每个交易对的加权组如下：
+每个交易对将拥有自己的奖励资金池，并以不同的方式加权。在 [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md) 中，dYdX 社区投票赞成将总奖励（BTC-USD 和 ETH-USDC）的分配量分别降至 10%。适用于每个交易对的加权组如下：
 
 | 交易对 | 总奖励池的分配百分比 |
-| ---------------------- | ---------------------------------------------------------------- |
+| ----------------------- | ---------------------------------------------------------------- |
 | BTC-USD | 10% |
 | ETH-USD | 10% |
 | 其他永续交易对 | ![](../.gitbook/assets/1-other-perpetual-markets-lp-weights.png) |
