@@ -36,6 +36,10 @@ dYdX 社区成员可以在[此处](https://dydx.shippooor.xyz/)查看社区资�
 
 任何拥有足够提议权力的用户都可以提交提议。从社区资金库中支出任何DYDX都必须进行治理投票。如要提交提议，请按照[DIP提议生命周期](../voting-and-governance/dip-proposal-lifecycle.md)中所述，提交dYdX改进提议(DIP)。
 
+### 对于使用社区资金库的资金，您会如何制定提案？
+
+Reverie 已经编制了一份综合性的分步技术指南，讲解拥有超过 5 百万 DYDX（[短时间锁投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)的[提案阈值](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters)）提案权的 dYdX 社区成员如何制定提案，将 DYDX 从社区资金库转移到目的地地址。单击[此处](https://app.gitbook.com/o/-MeNgGQU0ucT2xo4s8-T/s/-MeNfSkgj48hU0q8Zbjn/\~/changes/EyisuFjLIyJ7K9RzaTfJ/technical-guide-on-building-a-dydx-community-treasury-spending-proposal)查阅技术指南。
+
 ### 可以向社区资金库提交哪些类型的提议？
 
 一个由社区管理的资金库打开了充满可能性的世界。我们希望看到各种尝试和方案，包括生态系统补偿金，这些可以促进 dYdX Layer 2 协议的生态系统增长。
