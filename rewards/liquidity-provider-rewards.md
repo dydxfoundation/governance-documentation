@@ -4,7 +4,7 @@ description: Resumen del programa de recompensas de proveedores de liquidez.
 
 # Recompensas de proveedores de liquidez
 
-El 7,5 % del suministro inicial de tokens (`75 000 000 DYDX`) se distribuirá entre los proveedores de liquidez en función de una fórmula que recompensa una combinación de tiempo de actividad, profundidad bilateral, diferenciales de oferta y demanda y la cantidad de mercados admitidos.
+El 7,5 % del suministro inicial de tokens (`75 000 000 DYDX`) se distribuirá entre los proveedores de liquidez en función de una fórmula que recompensa una combinación de volumen del creador, tiempo de actividad, profundidad bilateral, diferenciales de oferta y demanda, y cantidad de mercados admitidos.
 
 **Objetivos**
 
@@ -14,9 +14,11 @@ El 7,5 % del suministro inicial de tokens (`75 000 000 DYDX`) se distribuirá e
 
 Para incentivar la liquidez del mercado, DYDX se distribuirá entre los proveedores de liquidez en función de una fórmula que recompensa la participación en los mercados, el volumen del creador, la profundidad bilateral, el diferencial (frente al mercado medio) y el tiempo de actividad en el Protocolo de la capa 2 de dYdX. Cualquier dirección de Ethereum puede obtener estas recompensas, sujetas a un umbral mínimo de volumen de creadores del 0,25% del volumen de creadores en la etapa anterior. DYDX se distribuirá en una etapa de 28 días durante cinco años y no está sujeto a ninguna adquisición o bloqueo. Se distribuirán 1,150.685 DYDX por etapa.
 
-Las siguientes funciones se utilizan para calcular la cantidad de DYDX que se debe recompensar a cada proveedor de liquidez por etapa. En el [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md), la comunidad de dYdX votó para revisar la fórmula de recompensas de LP al dividir las funciones para los mercados de BTC y ETH y los mercados que no son de BTC o ETH. En general, la ponderación del volumen en las funciones se incrementó en todos los mercados. La cantidad de DYDX ganada está determinada por la participación relativa de los $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​) de cada participante.
+Las siguientes funciones se utilizan para calcular la cantidad de DYDX que se debe recompensar a cada proveedor de liquidez por etapa. En el [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md), la comunidad de dYdX votó para revisar la fórmula de recompensas de LP al dividir las funciones para los mercados de BTC y ETH y los mercados que no son de BTC o ETH. En [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md), dYdX la comunidad votó para reasignar una ponderación de 0,05 stkDYDX a MakerVolume.
 
-<figure><img src="../.gitbook/assets/1-new-lp-rewards-fomula-btcethall.png" alt=""><figcaption></figcaption></figure>
+En general, la ponderación del volumen en las funciones se incrementó en todos los mercados. La cantidad de DYDX ganada está determinada por la participación relativa de los $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​) de cada participante.
+
+<figure><img src="../.gitbook/assets/Updated LP Rewards Formulas.png" alt=""><figcaption></figcaption></figure>
 
 Se excluyen las órdenes por debajo de una determinada **profundidad mínima** (tamaño) ($$MinDepth$$) por mercado, y también se excluyen las órdenes por encima de un cierto **diferencial máximo** (diferencial de mercado medio) ($$MaxSpread$$).
 
@@ -34,15 +36,14 @@ A continuación, la fórmula anterior se desglosa en cálculos paso a paso para 
 | <img src="../.gitbook/assets/1-qpoech-formula.png" alt="" data-size="original"> | $$Q_{EPOCH}$$ es la suma de todos los $$Q_{MIN}$$ en una etapa determinada. |
 | <img src="../.gitbook/assets/1-q-uptime-epoch-formula.png" alt="" data-size="original"> | $$Uptime_{EPOCH}$$ es el tiempo en una etapa en que un creador de mercado determinado estuvo activo y cotizando tanto en el lado de la oferta como en el de la demanda, con órdenes con montos mayores que el mínimo por orden establecido (indicado abajo por el mercado) y diferenciales más pequeños que el máximo establecido diferencial (indicado abajo por el mercado). |
 | <img src="../.gitbook/assets/1-qfinal-epoch-formula.png" alt="" data-size="original"> | $$Q_{FINAL}$$ normaliza $$Q_{EPOCH}$$ para tener en cuenta el tiempo de actividad |
-| _stkDYDX_ | Cantidad retenida promedio de stkDYDX (medida aleatoriamente cada minuto) a lo largo de la etapa |
 
-Cada mercado tendrá su propio fondo de recompensas que se calculará de manera diferente. En el DIP \[], la comunidad de dYdX votó para reducir la asignación de recompensas totales en BTC-USD y ETH-USDC a 10 % cada uno. El conjunto inicial de ponderaciones aplicado a cada mercado es el siguiente:
+Cada mercado tendrá su propio fondo de recompensas que se calculará de manera diferente. En [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md), la comunidad de dYdX votó para reducir la asignación de recompensas totales en BTC-USD y ETH-USDC al 10 % cada una. El conjunto inicial de ponderaciones aplicado a cada mercado es el siguiente:
 
 | Mercado | % Asignación del grupo de recompensas totales |
-| ---------------------- | ---------------------------------------------------------------- |
+| ----------------------- | ---------------------------------------------------------------- |
 | BTC-USD | 10% |
 | ETH-USD | 10% |
-| Otro mercado de perpetuals | ![](../.gitbook/assets/1-other-perpetual-markets-lp-weights.png) |
+| Otros mercados de perpetuals | ![](../.gitbook/assets/1-other-perpetual-markets-lp-weights.png) |
 
 ## Preguntas frecuentes
 
