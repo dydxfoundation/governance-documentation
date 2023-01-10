@@ -30,11 +30,15 @@ Jede Sekunde überträgt der Community Treasury Vester (siehe Details [hier](htt
 
 Mitglieder der dYdX-Community können [hier](https://dydx.shippooor.xyz/) den Rücklagen-Kontostand der Community Treasury einsehen. \
 \
- Darüber hinaus veröffentlicht die dYdX Foundation den Rücklagen-Kontostand der Community Treasury in der [Epochen-Rückschau](https://dydx.foundation/blog) am Ende jeder Epoche. Zusätzlich zu den in der Community Treasury hinterlegten DYDX kann die dYdX-Community auch auf die in der Prämien-Treasury aufgelaufenen DYDX zugreifen, dann wenn folgende Abstimmungsergebnisse auftreten: (1) Trading Rewards um 25 % (958 904 DYDX) reduzieren und (2) USDC-Staking Awards auf 0 setzen (383 562 DYDX). Ab Epoche 15 werden sodann in jeder Epoche 1 342 466 DYDX in der Prämien Treasury angesammelt und können von der dYdX-Community im Rahmen einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
+Darüber hinaus veröffentlicht die dYdX Foundation den Rücklagen-Kontostand der Community Treasury in der [Epochen-Rückschau](https://dydx.foundation/blog) am Ende jeder Epoche. Zusätzlich zu den in der Community Treasury hinterlegten DYDX kann die dYdX-Community auch auf die in der Prämien-Treasury aufgelaufenen DYDX zugreifen, dann wenn folgende Abstimmungsergebnisse auftreten: (1) Trading Rewards um 25 % (958.904 DYDX) reduzieren, (2) USDC-Staking Awards auf 0 setzen (383.562 DYDX) und DYDX-Staking-Awards auf 0 setzen (383.562 DYDX). Ab Epoche 17 werden in jeder Epoche 1.726.028 DYDX in der Prämien-Treasury angesammelt und können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
 
 ### Wer kann Vorschläge zur Ausgabe von DYDX-Token aus der Gemeinschaftskasse einreichen?
 
 Jeder Benutzer mit ausreichender Vorschlagsbefugnis kann Vorschläge einreichen. Eine Governance-Abstimmung ist erforderlich, um DYDX aus der Gemeinschaftskasse auszugeben. Um einen Vorschlag einzureichen, reichen Sie bitte einen dYdX-Verbesserungsvorschlag (DIP) ein, wie im [Lebenszyklus des DIP-Vorschlags](../voting-and-governance/dip-proposal-lifecycle.md) beschrieben.
+
+### Wie erstellen Sie einen Vorschlag zur Verwendung von Mitteln der Community?
+
+Reverie hat eine umfassende, technische Schritt-für-Schritt-Anleitung zusammengestellt, wie jedes dYdX-Community-Mitglied mit mehr als 5 Mio. DYDX ([Vorschlagsschwellenwert](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters) für eine [kurzzeitige Wahl)](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor) einen Vorschlag erstellen kann, um DYDX aus der Community-Kasse an eine Zieladresse zu übertragen. Klicken Sie bitte [hier](https://app.gitbook.com/o/-MeNgGQU0ucT2xo4s8-T/s/-MeNfSkgj48hU0q8Zbjn/\~/changes/EyisuFjLIyJ7K9RzaTfJ/technical-guide-on-building-a-dydx-community-treasury-spending-proposal), um auf den technischen Leitfaden zuzugreifen.
 
 ### Welche Arten von Vorschlägen können bei der Gemeinschaftskasse eingereicht werden?
 
