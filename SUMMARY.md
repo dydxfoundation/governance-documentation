@@ -10,8 +10,9 @@
 * [Эпохи](start-here/epochs.md)
 * [Скидки на комиссии](start-here/trading-fee-discount.md)
 * [Казна](start-here/community-treasury.md)
+* [Казна наград](start-here/rewards-treasury.md)
 
-## НАГРАДЫ
+## Награды
 
 * [Награды за ретроактивный майнинг](rewards/retroactive-mining-rewards.md)
 * [Награды за торговлю](rewards/trading-rewards.md)
@@ -29,6 +30,10 @@
 * [Процесс голосования](voting-and-governance/voting.md)
 * [Параметры](voting-and-governance/governance-parameters.md)
 * [Руководство по управлению](voting-and-governance/governance-guide.md)
+
+***
+
+* [Техническое руководство по созданию предложения о расходовании средств, находящихся в казне сообщества dYdX](technical-guide-on-building-a-dydx-community-treasury-spending-proposal.md)
 
 ## МАТЕРИАЛЫ
 
