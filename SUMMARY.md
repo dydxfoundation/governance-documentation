@@ -10,6 +10,7 @@
 * [エポック](start-here/epochs.md)
 * [手数料割引](start-here/trading-fee-discount.md)
 * [資金](start-here/community-treasury.md)
+* [報酬基金](start-here/rewards-treasury.md)
 
 ## 報酬
 
@@ -29,6 +30,10 @@
 * [選択プロセス](voting-and-governance/voting.md)
 * [パラメータ](voting-and-governance/governance-parameters.md)
 * [ガバナンスガイド](voting-and-governance/governance-guide.md)
+
+***
+
+* [dYdXコミュニティトレジャリー支出提案の構築に関するテクニカルガイド](technical-guide-on-building-a-dydx-community-treasury-spending-proposal.md)
 
 ## リソース
 
