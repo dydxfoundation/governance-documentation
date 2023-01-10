@@ -10,6 +10,7 @@
 * [Etapas](start-here/epochs.md)
 * [Descuentos de tasas](start-here/trading-fee-discount.md)
 * [Tesorería](start-here/community-treasury.md)
+* [Tesoro de recompensas](start-here/rewards-treasury.md)
 
 ## Recompensas
 
@@ -29,6 +30,10 @@
 * [Proceso de votación](voting-and-governance/voting.md)
 * [Parámetros](voting-and-governance/governance-parameters.md)
 * [Guía de gobernanza](voting-and-governance/governance-guide.md)
+
+***
+
+* [Guía técnica para construir una Propuesta de gasto de tesorería de la comunidad dYdX](technical-guide-on-building-a-dydx-community-treasury-spending-proposal.md)
 
 ## RECURSOS
 
