@@ -31,6 +31,10 @@
 * [Paramètres](voting-and-governance/governance-parameters.md)
 * [Guide de gouvernance](voting-and-governance/governance-guide.md)
 
+***
+
+* [Guide technique sur l'élaboration d'une proposition de dépenses de trésorerie de la communauté dYdX](technical-guide-on-building-a-dydx-community-treasury-spending-proposal.md)
+
 ## RESSOURCES
 
 * [Aperçu technique](resources/technical-overview.md)

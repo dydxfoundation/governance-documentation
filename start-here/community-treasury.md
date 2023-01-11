@@ -30,11 +30,15 @@ Chaque seconde, le détenteur de la trésorerie de la communauté (voir les dét
 
 Les membres de la communauté dYdX peuvent voir le solde investi de la trésorerie de la communauté[ici](https://dydx.shippooor.xyz/). \
 \
- De plus, dYdX Foundation publie le solde investi de la trésorerie de la communauté dans la [révision d'epoch](https://dydx.foundation/blog) à la fin de chaque epoch. En plus des dYdX investi dans la trésorerie de la communauté, cette dernière peut également accéder aux dYdX accumulés dans la trésorerie des récompenses en raison des votes visant (1) à réduire le trading des récompenses de 25 % (958 904 DYDX) et (2) à définir les récompenses pour le staking d'USDC à 0 (383 562 DYDX), et (3) fixer les récompenses pour le staking de DYDX à 0 (383 562 DYDX). À partir de l'époch 17, 1 726 028 DYDX seront accumulés dans la trésorerie des récompenses à chaque époch et pourront être utilisés par la communauté dYdX avec un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+De plus, dYdX Foundation publie le solde investi de la trésorerie de la communauté dans la [révision d'epoch](https://dydx.foundation/blog) à la fin de chaque epoch. En plus des dYdX investi dans la trésorerie de la communauté, cette dernière peut également accéder aux dYdX accumulés dans la trésorerie des récompenses en raison des votes visant (1) à réduire le trading des récompenses de 25 % (958 904 DYDX) et (2) à définir les récompenses pour le staking d'USDC à 0 (383 562 DYDX), et (3) fixer les récompenses pour le staking de DYDX à 0 (383 562 DYDX). À partir de l'époch 17, 1 726 028 DYDX seront accumulés dans la trésorerie des récompenses à chaque époch et pourront être utilisés par la communauté dYdX avec un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
 ### Qui peut soumettre des propositions pour dépenser des jetons DYDX du trésor de la communauté ?
 
 Tout utilisateur disposant d'un pouvoir de proposition suffisant peut soumettre des propositions. Un vote de gouvernance sera nécessaire pour dépenser tout DYDX du trésor de la communauté. Pour soumettre une proposition, veuillez soumettre une proposition d'amélioration dYdX (DIP) comme indiqué dans le [cycle de vie de la proposition DIP](../voting-and-governance/dip-proposal-lifecycle.md).
+
+### Comment faire pour élaborer une proposition de dépense de fonds de la trésorerie communautaire ?
+
+Reverie a mis au point un guide complet, technique, étape par étape, sur la façon dont tout membre de la communauté dYdX disposant de plus de 5 millions de DYDX ([seuil de proposition](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters) pour un [vote de courte durée](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)) de pouvoir de proposition peut créer une proposition pour transférer des DYDX du Trésor communautaire vers une adresse de destination. Cliquez [ici](https://app.gitbook.com/o/-MeNgGQU0ucT2xo4s8-T/s/-MeNfSkgj48hU0q8Zbjn/\~/changes/EyisuFjLIyJ7K9RzaTfJ/technical-guide-on-building-a-dydx-community-treasury-spending-proposal) pour accéder au guide technique.
 
 ### Quels types de propositions peuvent être soumises au trésor de la communauté ?
 

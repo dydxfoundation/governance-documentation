@@ -4,7 +4,7 @@ description: Aperçu du programme de récompenses des fournisseurs de liquidité
 
 # Récompenses des fournisseurs de liquidités
 
-7,5 % de l'offre initiale de jetons (`75 000 000 DYDX`) seront distribués aux fournisseurs de liquidité sur la base de formules récompensant une combinaison de volume du maker, de temps de disponibilité de profondeur bilatérale, d'écarts acheteur-vendeur, de stkDYDX et du nombre de marchés pris en charge.
+7,5 % de l'offre initiale de jetons (`75 000 000 DYDX`) seront distribués aux fournisseurs de liquidité sur la base de formules récompensant une combinaison de volume du maker, de temps de disponibilité de profondeur bilatérale, d'écarts acheteur-vendeur et du nombre de marchés pris en charge.
 
 **Objectifs**
 
@@ -14,9 +14,11 @@ description: Aperçu du programme de récompenses des fournisseurs de liquidité
 
 Pour encourager la liquidité du marché, DYDX sera distribué aux fournisseurs de liquidité sur la base de formules qui récompensent la participation aux marchés, le volume du maker, la profondeur bilatérale, la propagation (par rapport au marché intermédiaire) et la disponibilité sur le protocole de couche 2 de dYdX. Toute adresse Ethereum peut gagner ces récompenses, sous réserve d'un seuil de volume minimum du teneur de 0,25 % du volume du teneur à l'epoch précédente. DYDX sera distribué sur une période de 28 jours sur cinq ans et ne sera soumis à aucune acquisition ou blocage. 1 150 685 DYDX seront distribués par Epoch.
 
-Les fonctions suivantes sont utilisées pour calculer combien de DYDX doivent être accordés à chaque fournisseur de liquidité par epoch. Dans [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md), la communauté dYdX a voté pour réviser la formule de récompenses des fournisseurs de liquidité en divisant les fonctions pour les Marchés BTC/ETH et les marchés non BTC/ETH. Dans l'ensemble, la pondération du volume des fonctions a été accrue sur tout les marchés. Le montant de DYDX gagné est déterminé par la part relative des $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​) de chaque participant.
+Les fonctions suivantes sont utilisées pour calculer combien de DYDX doivent être accordés à chaque fournisseur de liquidité par epoch. Dans [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md), la communauté dYdX a voté pour réviser la formule de récompenses des fournisseurs de liquidité en divisant les fonctions pour les Marchés BTC/ETH et les marchés non BTC/ETH. Dans le [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md), la communauté dYdX a voté pour réaffecter le poids de 0,05 stkDYDX à MakerVolume.
 
-<figure><img src="../.gitbook/assets/1-new-lp-rewards-fomula-btcethall.png" alt=""><figcaption></figcaption></figure>
+Dans l'ensemble, la pondération du volume des fonctions a été accrue sur tout les marchés. Le montant de DYDX gagné est déterminé par la part relative des $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​) de chaque participant.
+
+<figure><img src="../.gitbook/assets/Updated LP Rewards Formulas.png" alt=""><figcaption></figcaption></figure>
 
 Les ordres inférieurs à une certaine **profondeur minimale** (taille) ($$MinDepth$$) par marché sont exclus, et les ordres supérieurs à un certain **écart maximum** (écart de marché moyen) ($$MaxSpread$$) sont également exclus.
 
@@ -34,15 +36,14 @@ La formule ci-dessus est décomposée en calculs étape par étape ci-dessous po
 | <img src="../.gitbook/assets/1-qpoech-formula.png" alt="" data-size="original"> | $$Q_{EPOCH}$$ est la somme de toutes les $$Q_{MIN}$$ dans une epoch donnée. |
 | <img src="../.gitbook/assets/1-q-uptime-epoch-formula.png" alt="" data-size="original"> | $$Uptime_{EPOCH}$$ est la durée d'une epoch pendant laquelle un teneur de marché donné était en direct et cotait à la fois du côté de l'offre et de la demande avec des tailles d'ordre supérieures au minimum d'ordre indiqué (noté ci-dessous par marché) et des spreads inférieurs au maximum indiqué spread (noté ci-dessous par marché). |
 | <img src="../.gitbook/assets/1-qfinal-epoch-formula.png" alt="" data-size="original"> | $$Q_{FINAL}$$ normalise $$Q_{FINAL}$$ pour tenir compte de la disponibilité |
-| _stkDYDX_ | Quantité moyenne de stkDYDX détenue (mesurée au hasard toutes les minutes) à travers l'epoch |
 
-Chaque marché aura son propre pool de récompenses qui sera pondéré différemment. Dans DIP \[], la communauté dYdX a voté pour réduire l'allocation des récompenses totales des paires BTC-USD et ETH-USDC à 10 % à chacune. L'ensemble de pondérations appliqué à chaque marché est le suivant :
+Chaque marché aura son propre pool de récompenses qui sera pondéré différemment. Dans le [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md), la communauté dYdX a voté pour réduire l'allocation des récompenses totales en BTC-USD et en ETH-USDC à 10 % chacun. L'ensemble de pondérations appliqué à chaque marché est le suivant :
 
 | Marché | % d'allocation du pool total de récompenses |
-| ---------------------- | ---------------------------------------------------------------- |
+| ----------------------- | ---------------------------------------------------------------- |
 | BTC-USD | 10 % |
 | ETH-USD | 10 % |
-| Autre marché perpétuel | ![](../.gitbook/assets/1-other-perpetual-markets-lp-weights.png) |
+| Autres marchés perpétuels | ![](../.gitbook/assets/1-other-perpetual-markets-lp-weights.png) |
 
 ## FAQ
 
