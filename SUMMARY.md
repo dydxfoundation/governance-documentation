@@ -31,6 +31,10 @@
 * [参数](voting-and-governance/governance-parameters.md)
 * [治理指南](voting-and-governance/governance-guide.md)
 
+***
+
+* [关于构建 dYdX 社区资金库支出提案的技术指南](technical-guide-on-building-a-dydx-community-treasury-spending-proposal.md)
+
 ## 资源
 
 * [技术概览](resources/technical-overview.md)
