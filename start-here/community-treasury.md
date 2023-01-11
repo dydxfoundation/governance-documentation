@@ -28,11 +28,15 @@ description: コミュニティトレジャリーの概要
 
 ### コミュニティトレジャリーの既得残高は？
 
-dYdXコミュニティメンバーは、コミュニティトレジャリーの既得残高を[こちら](https://dydx.shippooor.xyz/)で確認できます。\\また、dYdX財団では、各エポックの終了時にコミュニティトレジャリーの既得残高を[エポックレビュー](https://dydx.foundation/blog)で公表しています。dYdXコミュニティはコミュニティトレジャリーの既得DYDXに加えて、（1）取引報酬を25％削減し（95万8,904DYDX）、（2）USDCのステーキング報酬を0（38万3,562DYDX）にすることに合意したため、それにより報酬基金に加算されるDYDXにもアクセスできます。エポック15以降、各エポックごとに134万2,466DXDXが報酬基金に加算され、dYdXコミュニティは[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によってそれらを利用できるようになります。
+dYdXコミュニティメンバーは、コミュニティトレジャリーの既得残高を[こちら](https://dydx.shippooor.xyz/)で確認できます。\\また、dYdX財団では、各エポックの終了時にコミュニティトレジャリーの既得残高を[エポックレビュー](https://dydx.foundation/blog)で公表しています。dYdXコミュニティはコミュニティトレジャリーの既得DYDXに加えて、（1）取引報酬を25％削減し（95万8,904DYDX）、（2）USDCのステーキング報酬を0（38万3,562DYDX）に設定し、（3）DYDXのステーキング報酬を0（38万3,562DYDX）に設定することに合意したため、それにより報酬基金に加算されるDYDXにもアクセスできます。エポック17以降、各エポックで報酬基金に172万6,028DYDXが加算され、[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によりdYdXコミュニティによって使用されることができます。
 
 ### コミュニティトレジャリーからのDYDXトークンを使用する提案はどういう人が提出することができますか？
 
 提案する実行力が十分にあればどのユーザーも提案を提出することができます。コミュニティトレジャリーからのDYDXを使用するには、ガバナンス投票が必要になります。提案を行う場合、dYdXの改善提案（DIP）の[提案ライフサイクル](../voting-and-governance/dip-proposal-lifecycle.md)に記載されているDIPを提出してください。
+
+### コミュニティトレジャリーからの資金を使う提案を構築するにはどうすればよいですか？
+
+Reverieは、5M dYdX（[短いタイムロック投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)の[しきい値](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters)）以上のdYdXコミュニティメンバーがdYdXをコミュニティトレジャリーから宛先アドレスにdYdXを送り込む提案を作成する方法について、包括的な、技術的、ステップバイステップガイドをまとめました。テクニカルガイドにアクセスするには、[こちら](https://app.gitbook.com/o/-MeNgGQU0ucT2xo4s8-T/s/-MeNfSkgj48hU0q8Zbjn/\~/changes/EyisuFjLIyJ7K9RzaTfJ/technical-guide-on-building-a-dydx-community-treasury-spending-proposal)をクリックしてください。
 
 ### コミュニティトレジャリーにはどのようなタイプの提案を提出することができますか？
 

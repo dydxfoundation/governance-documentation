@@ -4,7 +4,7 @@ description: 流動性プロバイダーの報酬プログラムの概要。
 
 # 流動性プロバイダーの報酬
 
-初回のトークン提供額の7.5％（`7,500万DYDX`）は、メイカーボリューム、稼働時間、両方向のデプス、ビッドアスクスプレッド、ステーキングDYDXおよびサポートされているマーケット数の組み合わせによる報酬計算公式に基づいて流動性プロバイダーに分配されます。
+初回のトークン提供額の7.5％（`7,500万DYDX`）は、メイカーボリューム、稼働時間、両方向のデプス、ビッドアスクスプレッド、stkDYDXおよびサポートされているマーケット数の組み合わせによる報酬計算公式に基づいて流動性プロバイダーに分配されます。
 
 **目的**
 
@@ -14,9 +14,11 @@ description: 流動性プロバイダーの報酬プログラムの概要。
 
 マーケットの流動性を利用できるようにするため、マーケット参入、メイカーボリューム、両方向のデプス、スプレッド（対ミッドマーケット）、およびdYdXレイヤ2プロトコルの稼働時間から計算される報酬計算公式に基づき、DYDXが流動性プロバイダーに提供されます。イーサリアムのアドレスでは、前身のエポックにおけるメイカーボリュームの0.25％の最小メーカーボリューム基準値を条件として、こうした報酬を獲得できます。DYDXは、5年間にわたって28日間のエポックを基本として提供され、権利確定やロックアップの対象にはなりません。115万685ドル DYDXは、各エポックにて提供されます。
 
-各エポックで流動性プロバイダーに支払われるDYDX報酬額を計算するには、以下の関数を使用します。[DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md)では、dYdXコミュニティがBTC/ETHマーケットと非BTC/ETHマーケットの関数を分割して、LP報酬公式の修正を行うことに合意しました。全体的には、すべてのマーケットで関数の加重値が増加しました。得られるDYDXの量は、各参加者の$$Q_{FINAL}$$（$$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​）の相対的なシェアによって決定されます。
+各エポックで流動性プロバイダーに支払われるDYDX報酬額を計算するには、以下の関数を使用します。[DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md)では、dYdXコミュニティがBTC/ETHマーケットと非BTC/ETHマーケットの関数を分割して、LP報酬公式の修正を行うことに合意しました。[DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md)において、dYdXコミュニティは、0.05 stkDYDX加重をMakerVolumeに再割り当てすることに賛成しました。
 
-<figure><img src="../.gitbook/assets/1-new-lp-rewards-fomula-btcethall.png" alt=""><figcaption></figcaption></figure>
+全体的には、すべてのマーケットで関数の加重値が増加しました。得られるDYDXの量は、各参加者の$$Q_{FINAL}$$（$$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​）の相対的なシェアによって決定されます。
+
+<figure><img src="../.gitbook/assets/Updated LP Rewards Formulas.png" alt=""><figcaption></figcaption></figure>
 
 マーケットごとに、一定の　**最小デプス**（サイズ）（$$MinDepth$$）を下回るオーダーおよび一定の**最大スプレッド**（ミッドマーケットスプレッド）（$$MaxSpread$$）を超えるオーダーは除外されます。
 
@@ -34,12 +36,11 @@ description: 流動性プロバイダーの報酬プログラムの概要。
 | <img src="../.gitbook/assets/1-qpoech-formula.png" alt="" data-size="original"> | $$Q_{EPOCH}$$は、所与のエポックにおけるすべての$$Q_{MIN}$$の合計です。 |
 | <img src="../.gitbook/assets/1-q-uptime-epoch-formula.png" alt="" data-size="original"> | $$Uptime_{EPOCH}$$は、あるエポックにおいて所定のマーケットメイカーが利用可能であり、指定された最小注文サイズを超える注文にビッドとアスクの両方で引き合いが行われ、スプレッドが指定された最大スプレッドよりも小さい範囲にとどまっている時刻を指します（マーケット別に以下に記載）。 |
 | <img src="../.gitbook/assets/1-qfinal-epoch-formula.png" alt="" data-size="original"> | $$Q_{EPOCH}$$に正規化します |
-| _ステーキングDYDX_ | エポック全体で保有される平均ステーキングDYDX（毎分ランダムに測定） |
 
-各マーケットには、加重が異なる独自の報酬プールがあります。DIP \[]では、dYdXコミュニティが、BTC-USDとETH-USDC単位での総報酬割り当てをそれぞれ10％に引き下げることに合意しました。各マーケットで適用される加重値は以下のとおりです。
+各マーケットには、加重が異なる独自の報酬プールがあります。[DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md)において、dYdXコミュニティは、BTC-USDとETH-USDCでの総報酬割り当てをそれぞれ10％に削減することに賛成しました。各マーケットで適用される加重値は以下のとおりです。
 
 | マーケット | ％総報酬プールの割り当て |
-| ---------------------- | ---------------------------------------------------------------- |
+| ----------------------- | ---------------------------------------------------------------- |
 | BTC-USD | 10% |
 | ETH-USD | 10% |
 | その他のパーペチュアルマーケット | ![](../.gitbook/assets/1-other-perpetual-markets-lp-weights.png) |
