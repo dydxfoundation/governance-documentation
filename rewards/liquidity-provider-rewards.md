@@ -4,7 +4,7 @@ description: Likidite Sağlayıcı Ödülleri Programına genel bakış.
 
 # Likidite Sağlayıcı Ödülleri
 
-İlk token arzının %7,5'i (`75.000.000 DYDX`) likidite sağlayıcılara piyasa yapıcı hacmi (maker volume), çalışma süresi (uptime), iki taraflı derinlik (two-sided depth), alış satış farkları (bid-ask spreads), stake edilen DYDX (stkDYDX) ve desteklenen piyasaların sayısı parametrelerinden oluşan bir kombinasyonu ödüllendirmek üzere belirlenen formüllere göre dağıtılacaktır.
+İlk token arzının %7,5'i (`75.000.000 DYDX`) likidite sağlayıcılara; piyasa yapıcı hacmi (maker volume), çalışma süresi (uptime), iki taraflı derinlik (two-sided depth), alış satış farkları (bid-ask spreads) ve desteklenen piyasaların sayısı parametrelerinden oluşan bir kombinasyonu ödüllendirecek şekilde belirlenen formüllere göre dağıtılacaktır.
 
 **Hedefler**
 
@@ -14,9 +14,11 @@ description: Likidite Sağlayıcı Ödülleri Programına genel bakış.
 
 Piyasa likiditesini teşvik etmek amacıyla likidite sağlayıcılara piyasalara katılımı, piyasa yapıcı hacmini, iki taraflı derinliği, (orta piyasaya kıyasla) fiyat farkını (spread) ve dYdX Katman 2 Protokolü üzerinde çalışma süresini (uptime) ödüllendirmek üzere belirlenen formüllere göre DYDX dağıtılacaktır. Herhangi bir Ethereum adresi bu ödülleri kazanabilir ve önceki dönemdeki piyasa yapıcı hacminin %0,25'i kadar bir minimum piyasa yapıcı eşiğine tabidir. DYDX beş yıl boyunca 28 günlük dönemler esasında dağıtılacak ve herhangi bir vesting veya kilitleme sürecine tabi tutulmayacaktır. Dönem başına 1.150.685 DYDX dağıtılacaktır.
 
-Her bir likidite sağlayıcıya dönem başına ne kadar DYDX'in ödül olarak verileceğini hesaplamak için aşağıdaki fonksiyonlar kullanılır. [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md)'te, dYdX topluluğu Likidite Sağlayıcı (LP) ödülleri formülünün, fonksiyonların BTC/ETH piyasaları ve BTC/EHT dışı piyasalar olarak ikiye ayrılması suretiyle revize edilmesi yönünde oy kullandı. Genel olarak, fonksiyonlarda hacmin ağırlığı tüm piyasalarda arttırıldı. Kazanılan DYDX miktarı her bir katılımcının $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​) miktarındaki göreli payıyla belirlenir.
+Her bir likidite sağlayıcıya dönem başına ne kadar DYDX'in ödül olarak verileceğini hesaplamak için aşağıdaki fonksiyonlar kullanılır. [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md)'te, dYdX topluluğu Likidite Sağlayıcı (LP) ödülleri formülünün, fonksiyonların BTC/ETH piyasaları ve BTC/EHT dışı piyasalar olarak ikiye ayrılması suretiyle revize edilmesi yönünde oy kullandı. [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md)'da dYdX topluluğu, 0.05 stkDYDX ağırlığının tekrar MakerVolume'a tahsis edilmesi yönünde oy kullandı.
 
-<figure><img src="../.gitbook/assets/1-new-lp-rewards-fomula-btcethall.png" alt=""><figcaption></figcaption></figure>
+Genel olarak, fonksiyonlarda hacmin ağırlığı tüm piyasalarda arttırıldı. Kazanılan DYDX miktarı her bir katılımcının $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​) miktarındaki göreli payıyla belirlenir.
+
+<figure><img src="../.gitbook/assets/Updated LP Rewards Formulas.png" alt=""><figcaption></figcaption></figure>
 
 Piyasa başına belirli bir **minimum derinliğin** (boyut) ($$MinDepth$$) altındaki emirler hariç tutulur ve piyasa başına belirli bir **maksimum teklif-talep farkı** (orta piyasa teklif-talep farkı) ($$MaxSpread$$) üzerindeki emirler de hariç tutulur.
 
@@ -34,15 +36,14 @@ Yukarıdaki formül ayrıntılı bilgi için aşağıda adım adım hesaplamalar
 | <img src="../.gitbook/assets/1-qpoech-formula.png" alt="" data-size="original"> | $$Q_{EPOCH}$$, belirli bir dönemdeki tüm $$Q_{MIN}$$ değerlerinin toplamıdır. |
 | <img src="../.gitbook/assets/1-q-uptime-epoch-formula.png" alt="" data-size="original"> | $Uptime_{EPOCH}$$, belli bir piyasa yapıcının faal olduğu ve hem alış, hem satış tarafında belirtilen minimum talimattan büyük talimat boyutlarıyla (aşağıda piyasa bazında belirtilmiştir) ve maksimum alış satış farkından daha küçük farklarla (aşağıda piyasa bazında belirtilmiştir) teklif verdiği, bir dönem içerisindeki zamandır. |
 | <img src="../.gitbook/assets/1-qfinal-epoch-formula.png" alt="" data-size="original"> | $$Q_{FINAL}$$, çalışma süresini hesaplamak için $$Q_{EPOCH}$$'u normalleştirir |
-| _stkDYDX_ | Dönem boyunca tutulan ortalama stkDYDX miktarı (her dakika rastgele ölçülür) |
 
-Her piyasa, farklı bir ağırlık verilecek kendi ödül havuzuna sahip olacaktır. DIP \[]'de, dYdX topluluğu BTC USD ve ETH-USDC cinsinden toplam ödüllerin tahsisinin bunların her biri için %10'a düşürülmesi yönünde oy kullandı. Her bir piyasaya uygulanan ağırlıklar seti aşağıdaki gibidir:
+Her piyasa, farklı bir ağırlık verilecek kendi ödül havuzuna sahip olacaktır. [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md)'te dYdX topluluğu, BTC-USD ve ETH-USDC toplam ödüllerinin tahsisinin her birinin %10'a düşürülmesi yönünde oy kullandı. Her bir piyasaya uygulanan ağırlıklar seti aşağıdaki gibidir:
 
 | Piyasa | Toplam Ödül Havuzu Tahsis %'si |
-| ---------------------- | ---------------------------------------------------------------- |
+| ----------------------- | ---------------------------------------------------------------- |
 | BTC-USD | %10 |
 | ETH-USD | %10 |
-| Diğer sürekli varlıklar piyasası | ![](../.gitbook/assets/1-other-perpetual-markets-lp-weights.png) |
+| Diğer sürekli varlık piyasaları | ![](../.gitbook/assets/1-other-perpetual-markets-lp-weights.png) |
 
 ## SSS
 
