@@ -4,7 +4,7 @@ description: 유동성 공급자 보상 프로그램 개요
 
 # 유동성 공급자 보상
 
-초기 토큰 공급량의 7.5%(`75,000,000 DYDX`)는 마켓 메이커 거래량, 가동시간, 양방향 호가, 매수-매도 호가, stkDYDX, 지원 시장 수의 조합을 보상하는 공식을 기반으로 유동성 제공자에게 할당됩니다.
+초기 토큰 공급량의 7.5%(`75,000,000 DYDX`)는 마켓 메이커 거래량, 가동시간, 양방향 호가, 매수-매도 호가, 지원 시장 수의 조합을 보상하는 공식을 기반으로 유동성 공급자에게 할당됩니다.
 
 **목표**
 
@@ -14,13 +14,15 @@ description: 유동성 공급자 보상 프로그램 개요
 
 시장 유동성을 장려하기 위해 DYDX는 dYdX 레이어 2 프로토콜에서의 시장 참여, 마켓 메이커 거래량, 양방향 호가, 스프레드(미드마켓 대비), 업타임을 보상하는 공식을 기반으로 유동성 공급자에게 배포될 것입니다. 모든 이더리움 주소는 이러한 보상을 받을 수 있으며, 이는 이전 에폭 내 마켓 메이커 거래량의 0.25%인 최소 마켓 메이커 거래량을 기준으로 합니다. DYDX는 5년에 걸쳐 28일 에폭 기반으로 배포되며 베스팅이나 락업이 적용되지 않습니다. 1,150,685 DYDX가 순환당 배포됩니다.
 
-다음 함수는 에폭당 각 유동성 공급자에게 DYDX가 얼마나 보상되어야 하는지 계산하는 데 사용됩니다. [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md)에서 dYdX 커뮤니티는 BTC/ETH 시장과 비 BTC/ETH 시장 간의 함수를 분할하여 LP 보상 공식을 개정하기로 결정했습니다. 전체적으로 모든 시장에서 해당 함수의 가중치가 증가했습니다. 획득하는 DYDX의 양은 각 참가자 $$Q_{FINAL}$$($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​)의 상대적 비중에 의해 결정됩니다.
+다음 함수는 에폭당 각 유동성 공급자에게 DYDX가 얼마나 보상되어야 하는지 계산하는 데 사용됩니다. [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md)에서 dYdX 커뮤니티는 BTC/ETH 시장과 비 BTC/ETH 시장 간의 함수를 분할하여 LP 보상 공식을 개정하기로 결정했습니다. [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md)에서 dYdX 커뮤니티는 0.05 stkDYDX 무게를 메이커 볼륨에 재할당하기로 결정했습니다.
 
-<figure><img src="../.gitbook/assets/1-new-lp-rewards-fomula-btcethall.png" alt=""><figcaption></figcaption></figure>
+전체적으로 모든 시장에서 해당 함수의 가중치가 증가했습니다. 획득하는 DYDX의 양은 각 참가자 $$Q_{FINAL}$$($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​)의 상대적 비중에 의해 결정됩니다.
+
+<figure><img src="../.gitbook/assets/Updated LP Rewards Formulas.png" alt=""><figcaption></figcaption></figure>
 
 시장당 특정 **최소 호가**(규모) ($$최소호가$$) 미만의 주문은 제외되며, 시장의 특정 **최대 스프레드**(중간 시장 스프레드) ($$최대스프레드$$)를 초과하는 주문도 마찬가지로 제외됩니다.
 
-유동성 공급자의 성과는 분 단위로 모니터링 및 계산되며\(무작위 샘플링 사용), 특정 시장에 대해 $$Q_{SCORE}$$(으)로 합산됩니다. 분 단위 샘플링을 감안할 때, 각 에폭에는 28일 \* 24시간 \* 60분의 데이터 포인트(에포크당 총합 40,320 데이터 포인트)가 포함됩니다.
+유동성 공급자의 성과는 분 단위로 모니터링 및 계산되며(무작위 샘플링 사용), 특정 시장에 대해 $$Q_{SCORE}$$(으)로 합산됩니다. 분 단위 샘플링을 감안할 때, 각 에폭에는 28일 \* 24시간 \* 60분의 데이터 포인트(에포크당 총합 40,320 데이터 포인트)가 포함됩니다.
 
 유동성 공급자는 에폭당 상대적 $$Q_{FINAL}$$ 비중에 따라 월간 보상을 받습니다.
 
@@ -34,12 +36,11 @@ description: 유동성 공급자 보상 프로그램 개요
 | <img src="../.gitbook/assets/1-qpoech-formula.png" alt="" data-size="original"> | $$Q_{EPOCH}$$는 주어진 에폭의 모든 $$Q_{MIN}$$의 합계입니다. |
 | <img src="../.gitbook/assets/1-q-uptime-epoch-formula.png" alt="" data-size="original"> | $$Uptime_{EPOCH}$$은 특정 마켓 메이커가 활동한 한 에폭 내 시간이며 명시된 주문 최소값(시장별로 하단에 명시)보다 큰 주문 규모와 명시된 최대 스프레드(시장별로 하단에 명시)보다 작은 스프레드로 매수 및 매도를 모두 호가합니다. |
 | <img src="../.gitbook/assets/1-qfinal-epoch-formula.png" alt="" data-size="original"> | $$Q_{FINAL}$$는 $$Q_{EPOCH}$$를 정규화하여 가동 시간을 고려합니다 |
-| _stkDYDX_ | 에폭 전체가 보유한 stkDYDX의 평균 금액(1분마다 임의의 간격으로 측정) |
 
-각 시장은 다르게 가중치를 부여할 자체 보상 풀을 보유할 것입니다. DIP \[]에서 dYdX 커뮤니티는 BTC-USD와 ETH-USDC에서 총 보상 할당을 각각 10%씩 줄이기로 결정했습니다. 각 시장에 적용되는 가중치의 세트는 다음과 같습니다.
+각 시장은 다르게 가중치를 부여할 자체 보상 풀을 보유할 것입니다. [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md)에서 dYdX 커뮤니티는 BTC-USD 및 ETH-USDC의 총 보상 할당을 각각 10%로 줄이기로 투표했습니다. 각 시장에 적용되는 가중치의 세트는 다음과 같습니다.
 
 | 시장 | 총 보상 풀의 % 할당 |
-| ---------------------- | ---------------------------------------------------------------- |
+| ----------------------- | ---------------------------------------------------------------- |
 | BTC-USD | 10% |
 | ETH-USD | 10% |
 | 기타 퍼페추얼 시장 | ![](../.gitbook/assets/1-other-perpetual-markets-lp-weights.png) |

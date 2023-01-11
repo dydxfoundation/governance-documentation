@@ -10,6 +10,7 @@
 * [에폭](start-here/epochs.md)
 * [수수료 할인](start-here/trading-fee-discount.md)
 * [트레저리](start-here/community-treasury.md)
+* [보상 트레저리](start-here/rewards-treasury.md)
 
 ## 보상
 
@@ -29,6 +30,10 @@
 * [투표 프로세스](voting-and-governance/voting.md)
 * [파라미터](voting-and-governance/governance-parameters.md)
 * [거버넌스 가이드](voting-and-governance/governance-guide.md)
+
+***
+
+* [dYdX 커뮤니티 트레저리 지출 제안서 작성에 대한 기술 가이드](technical-guide-on-building-a-dydx-community-treasury-spending-proposal.md)
 
 ## 리소스
 
