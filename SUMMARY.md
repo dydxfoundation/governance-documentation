@@ -10,6 +10,7 @@
 * [Epochs](start-here/epochs.md)
 * [Descontos de taxas](start-here/trading-fee-discount.md)
 * [Tesouro](start-here/community-treasury.md)
+* [Tesouro de Recompensas](start-here/rewards-treasury.md)
 
 ## Recompensas
 
@@ -30,11 +31,15 @@
 * [Parâmetros](voting-and-governance/governance-parameters.md)
 * [Guia de governança](voting-and-governance/governance-guide.md)
 
+***
+
+* [Guia técnico sobre a criação de uma proposta de gastos do Tesouro da Comunidade da dYdX](technical-guide-on-building-a-dydx-community-treasury-spending-proposal.md)
+
 ## RECURSOS
 
 * [Visão geral técnica](resources/technical-overview.md)
 * [Foundation](resources/dydx-foundation.md)
-* [Onboarding de market maker](resources/market-maker-onboarding.md)
+* [Onboarding de maker de mercado](resources/market-maker-onboarding.md)
 * [Glossário](resources/glossary.md)
 
 ## Links externos
