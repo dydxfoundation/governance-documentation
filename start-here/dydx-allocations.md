@@ -70,7 +70,7 @@ Part of the initial allocation was reserved for:
 * founders, employees, advisors, and consultants of dYdX Trading Inc. or dYdX Foundation (15.3%), and
 * future employees and consultants of dYdX Trading Inc. or dYdX Foundation (7.0%).
 
-On January 25, 2023, dYdX Foundation announced that dYdX Trading Inc., dYdX Foundation and certain parties to the Warrants to Purchase Tokens signed an amendment (the "Amendment") to, among other things, postpone the initial release date applicable to investor $DYDX tokens to December 1, 2023.
+On January 25, 2023, dYdX Foundation [announced](https://dydx.foundation/blog/lock-up-extension) that dYdX Trading Inc., dYdX Foundation and certain parties to the Warrants to Purchase Tokens signed an amendment (the "Amendment") to, among other things, postpone the initial release date applicable to investor $DYDX tokens to December 1, 2023.
 
 The Amendment mentioned above does not alter the staggered unlock that occurs after the Initial Unlock Date, and therefore, pursuant to the Amendment, relevant Tokens will be released from the transfer restriction as follows:&#x20;
 
