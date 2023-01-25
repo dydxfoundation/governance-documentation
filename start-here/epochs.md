@@ -15,9 +15,9 @@ The following will occur at the end of each epoch:
 
 The following will occur only at the end of **Epoch 0**:
 
-* Retroactive Mining Rewards will be distributed. Rewards are claimable at [**dydx.community**](https://dydx.community) approximately `8 days` after the end of Epoch 0.&#x20;
-* Transfers of DYDX are initially restricted. The Initial Transfer Restriction period will be lifted approximately `8 days` after the end of Epoch 0.&#x20;
-* **DYDX will become transferable on September 8th, 2021 at 15:00:00 UTC.**
+* Retroactive Mining Rewards will be distributed. Rewards are claimable at [**dydx.community**](https://dydx.community) approximately `8 days` after the end of Epoch 0.
+* Transfers of $DYDX are initially restricted. The Initial Transfer Restriction period will be lifted approximately `8 days` after the end of Epoch 0.
+* **$DYDX will become transferable on September 8th, 2021 at 15:00:00 UTC.**
 
 **Epoch 0** will go live on **August 3rd, 2021 at 15:00:00 UTC**. The following table outlines epoch start and end dates (which can be modified by dYdX governance):
 
