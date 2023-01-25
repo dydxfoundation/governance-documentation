@@ -4,7 +4,13 @@ description: An overview of the community treasury.
 
 # Community Treasury
 
-`5.00%` of the initial token supply (`50,000,000 $DYDX`) will be distributed to a community treasury to be allocated on an ongoing basis through contributor grants, community initiatives, liquidity mining, and other programs.
+`16.2`**`%` ** (`162,004,734 $DYDX`) of the token supply is allocated to the **** community treasury for the dYdX community to use on an ongoing basis for contributor grants, community initiatives, liquidity mining, and other programs. Initially,`5.0%` of the  token supply (`50,000,000 $DYDX`) was allocated to the community treasury and 766,703 $DYDX vested in the community treasury each epoch. Currently, 2,492,731 $DYDX vest in the community treasury because three governance proposals resulted in an 1,726,028 $DYDX increase in the amount of $DYDX available to the dYdX community each epoch:
+
+* [DIP 14](https://dydx.community/dashboard/proposal/7) - set the rewards for staking USDC to 0 (383,562 $DYDX per epoch),&#x20;
+* [DIP 16](https://dydx.community/dashboard/proposal/8) - reduce trading rewards by 25% (958,904 $DYDX per epoch), and&#x20;
+* [DIP 17](https://dydx.community/dashboard/proposal/9) - set the rewards for staking $DYDX to 0 (383,562 $DYDX per epoch).
+
+
 
 **Objectives**
 
@@ -14,7 +20,7 @@ description: An overview of the community treasury.
 
 ## Overview
 
-The community treasury will retain $DYDX to use as $DYDX holders decide, whether it be for grants, new liquidity mining pools, or any other program. $DYDX will vest to the community treasury on a continuous basis over the course of five years. A governance vote will be required to spend any DYDX from the community treasury.
+The community treasury will retain $DYDX to use as $DYDX holders decide, whether it be for grants, new liquidity mining pools, or any other program. $DYDX will vest to the community treasury on a continuous basis over the course of five years. A governance vote will be required to spend any $DYDX from the community treasury.
 
 If, after five years, governance decides to enact perpetual inflation (at a maximum annual inflation of `2%`), any newly minted $DYDX will be available to the community treasury.
 

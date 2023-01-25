@@ -85,7 +85,7 @@ All employees and consultants also will be subject to various vesting schedules 
 
 Regardless of any lockup on $DYDX, investors and prior employees or consultants of dYdX Trading Inc. or dYdX Foundation may use $DYDX to make proposals, delegate votes, or vote on proposals related to the dYdX Protocol. Current employees and consultants of dYdX Trading Inc. or dYdX Foundation will initially not make any proposals or participate in any votes but may do so in the future. Current employees and consultants of dYdX Trading Inc. or dYdX Foundation may delegate votes without attempting to influence voting outcomes.
 
-All investors are required to comply with the transfer restriction enforced through contractual agreements with the dYdX Foundation. dYdX Foundation tracks wallet addresses to determine whether any transfers have been made in violation of that restriction.
+All investors are required to comply with the transfer restriction enforced through contractual agreements with the dYdX Foundation and dYdX Trading Inc. dYdX Foundation tracks wallet addresses to determine whether any transfers have been made in violation of that restriction.
 
 The dYdX Foundation has expressed its willingness to bring legal action against investors who do not comply with these requirements.
 
