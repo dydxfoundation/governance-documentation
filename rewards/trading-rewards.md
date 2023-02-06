@@ -4,7 +4,7 @@ description:  取引報酬プログラムの概要。
 
 # 取引報酬
 
-dYdXレイヤ2プロトコルで取引を行うユーザーに対して、支払われた手数料に基づいて初回のトークン提供額（`2億5,000万DYDX`）の`25.00％`が割り当てられました。[DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)において、dYdXコミュニティは取引報酬を25％引き下げることに[合意しました](https://dydx.community/dashboard/proposal/8)。その結果、所与のエポックで配分される取引報酬はエポック15において383万5,616DYDXから287万6,712DYDXに減少しました。
+`20.2`**`%` ** (`201,883,560 $DYDX`) のトークンサプライは、dYdXレイヤ2プロトコルで取引するユーザーに支払い料金に応じて分配するために割り当てられます。当初、取引報酬にトークン供給の`25.0%`（`2億5000万DYDX`）が割り当てられました。[DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)では、dYdXコミュニティは取引報酬を25.0%削減することに賛[成しました](https://dydx.community/dashboard/proposal/8)。その結果、取引報酬の割り当ては`25.0%`から`20.2%`に減少しました。所定のエポックで配布された取引報酬は、エポック15で3835,61dYdXから2876,71dYdXに減少しました。
 
 **目的**
 
@@ -15,9 +15,9 @@ dYdXレイヤ2プロトコルで取引を行うユーザーに対して、支払
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>所定のエポックにおける支払済みの手数料と推定される報酬</p></figcaption></figure>
 
-dYdXレイヤ2プロトコルで支払われた手数料に基づき、トレーダーにDYDXが配分されます。DYDXは、5年間にわたって28日間のエポックを基本として提供され、権利確定やロックアップの対象にはなりません。287万6,712DYDXはエポックごとに提供されます。
+dYdXレイヤ2プロトコルで支払われた手数料に基づき、トレーダーに$dYdXが配分されます。$dYdXは、5年間にわたって28日間のエポックを基本として提供され、権利確定やロックアップの対象にはなりません。エポックごとに2876,712 $dYdXが配布されます。
 
-コミュニティが取引報酬を383万5,616DYDXから287万6,712DYDXへと25％減少させることに合意したため、報酬基金に加算される残りの95万8,904DYDXはdYdXコミュニティが[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)で使用/指示することができます。
+コミュニティが取引報酬を383万5,616$DYDXから287万6,712$DYDXへと25％減少させることに合意したため、報酬基金に加算される残りの95万8,904$DYDXはdYdXコミュニティが[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)で使用/指示することができます。
 
 <figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
@@ -40,7 +40,7 @@ $$
 
 ### 取引報酬の対象者とは？
 
-dYdXレイヤ2プロトコルの全トレーダーは、取引報酬としてDYDXを受取る資格を有しています。
+dYdXレイヤ2プロトコル上のすべてのトレーダーは、取引報酬として$dYdXを受ける資格があります。
 
 dYdXレイヤ2プロトコルは、dYdX Trading Inc.の[利用規約](https://dydx.exchange/terms)に定義されているように、米国または制限地域のトレーダーにはご利用いただけません。
 
@@ -52,9 +52,9 @@ dYdXレイヤ2プロトコルは、dYdX Trading Inc.の[利用規約](https://dy
 
 過去のエポックからの報酬は、[**dydx.community/history/rewards**](https://dydx.community/history/rewards)でご覧いただけます**。**
 
-### 取引報酬を請求するにはどうすればよいですか？いつから獲得したDYDXを出金および移動することができますか？
+### 取引報酬を請求するにはどうすればよいですか？いつから獲得した$dYdXを出金および移動することができますか？
 
-取引報酬で獲得したDYDXトークンは、各エポックの終了時から移動することができるようになります。DYDXトークン保有者は、エポックの終了から約`7日`間（**待機期間**）待機した後にDYDXトークンを請求できます。
+取引報酬で獲得した$dYdXトークンは、各エポックの終了時から移動することができるようになります。$DYDXトークン保有者は、エポックの終了から約`7日`間（**待機期間**）待機した後に$DYDXトークンを請求できます。
 
 7日間の待機期間後、コミュニティメンバーは[Merkleディストリビュータコントラクト](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract)上の`updateRoot`パラメータで`Write`関数を呼び出して、DYDX報酬を請求できるようにすることができます。
 
@@ -74,6 +74,6 @@ dYdXレイヤ2プロトコルは、dYdX Trading Inc.の[利用規約](https://dy
 * 7日間の待機期間がまだ有効な場合
 * コミュニティメンバーが、すでに[Merkleディストリビュータコントラクト](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract)で`updateRoot`パラメータを呼び出している場合
 
-トランザクションが確定した後、トレーダーは[こちら](https://dydx.community/dashboard)から取引報酬を請求できます。DYDXを請求するには、`請求`をクリックし、トランザクションに署名して、ガス代を支払う必要があります。
+トランザクションが確定した後、トレーダーは[こちら](https://dydx.community/dashboard)から取引報酬を請求できます。$DYDXを請求するには、`請`求をクリックし、トランザクションに署名して、ガス代を支払う必要があります。
 
 ![報酬のポートフォリオ概要](../.gitbook/assets/1-portfolio-overview-rewards.png)
