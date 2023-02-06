@@ -9,7 +9,7 @@
 * [할당](start-here/dydx-allocations.md)
 * [에폭](start-here/epochs.md)
 * [수수료 할인](start-here/trading-fee-discount.md)
-* [트레저리](start-here/community-treasury.md)
+* [커뮤니티 금고](start-here/community-treasury.md)
 * [보상 트레저리](start-here/rewards-treasury.md)
 
 ## 보상
