@@ -9,7 +9,7 @@
 * [割り当て](start-here/dydx-allocations.md)
 * [エポック](start-here/epochs.md)
 * [手数料割引](start-here/trading-fee-discount.md)
-* [資金](start-here/community-treasury.md)
+* [コミュニティ基金](start-here/community-treasury.md)
 * [報酬基金](start-here/rewards-treasury.md)
 
 ## 報酬
