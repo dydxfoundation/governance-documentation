@@ -9,7 +9,7 @@
 * [Распределение](start-here/dydx-allocations.md)
 * [Эпохи](start-here/epochs.md)
 * [Скидки на комиссии](start-here/trading-fee-discount.md)
-* [Казна](start-here/community-treasury.md)
+* [Казна сообщества](start-here/community-treasury.md)
 * [Казна наград](start-here/rewards-treasury.md)
 
 ## Награды
