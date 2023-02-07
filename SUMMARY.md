@@ -9,7 +9,7 @@
 * [Alocações](start-here/dydx-allocations.md)
 * [Epochs](start-here/epochs.md)
 * [Descontos de taxas](start-here/trading-fee-discount.md)
-* [Tesouro](start-here/community-treasury.md)
+* [Tesouro da Comunidade](start-here/community-treasury.md)
 * [Tesouro de Recompensas](start-here/rewards-treasury.md)
 
 ## Recompensas
