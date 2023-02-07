@@ -4,7 +4,7 @@ description: Visão geral do programa de recompensas de trades.
 
 # Recompensas de trades
 
-`25,00%` do fornecimento de tokens iniciais (`250.000.000 dYdX`) foram alocados para distribuição aos usuários que fizerem trades no protocolo dYdX Layer 2 com base em taxas pagas. No [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/8) pela redução das recompensas de trading em 25%. Como resultado, as recompensas de trading distribuídas em uma determinada época foram reduzidas de 3.835.616 DYDX para 2.876.712 DYDX na Epoch 15.
+`20,2`**`%` ** (`201.883.560 $DYDX`) do fornecimento de token é alocado para distribuição a usuários que fazem trades no protocolo dYdX Layer 2 com base em taxas pagas. Inicialmente, `25,0%` do fornecimento de token (`250.000.000 dYdX`) foram alocados para recompensas de trades. No [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/8) em apoio à redução de recompensas de trading de 25,0%. Como resultado, a alocação para recompensas de trading diminuiu de `25,0%` para `20,2%`. As recompensas de trading distribuídas em uma determinada epoch foram reduzidas de 3.835.616 DYDX para 2.876.712 DYDX na epoch 15.
 
 **Objetivos**
 
@@ -15,15 +15,15 @@ description: Visão geral do programa de recompensas de trades.
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Taxas pagas e recompensas estimadas em uma determinada época</p></figcaption></figure>
 
-Os tokens DYDX serão distribuídos para os traders com base nas taxas pagas no protocolo da Camada 2 da dYdX. Os tokens DYDX serão distribuídos dentro de um ciclo de 28 dias ao longo de um período de cinco anos, não estando sujeitos a vesting ou bloqueios. 2.876.712 DYDX serão distribuídas por epoch.
+Os tokens $DYDX serão distribuídos para os traders com base nas taxas pagas no protocolo da Camada 2 da dYdX. Os tokens $DYDX serão distribuídos dentro de um ciclo de 28 dias ao longo de um período de cinco anos, não estando sujeitos a vesting ou bloqueios. 2.876.712 $DYDX serão distribuídos por epoch.
 
-Com a votação da comunidade pela redução das recompensas de trading em 25%, indo de 3.835.616 DYDX para 2.876.712 DYDX, o saldo de 958.904 DYDX que se acumula no Tesouro de Recompensas poderá ser usado/direcionado pela comunidade dYdX com o [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+Com a votação da comunidade pela redução das recompensas de trading em 25%, indo de 3.835.616 $DYDX para 2.876.712 $DYDX, o saldo de 958.904 $DYDX que se acumula no Tesouro de Recompensas poderá ser usado/direcionado pela comunidade dYdX com o [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
 <figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
 $$
- r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1.2...k
- $$
+r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1.2...k
+$$
 
 | Termo | Definição |
 | ---------------------------- | ----------------------------------------------------------------------- |
@@ -40,7 +40,7 @@ Na [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-1
 
 ### Quem é elegível para as recompensas de trades?
 
-Todos os traders no protocolo dYdX Layer 2 são elegíveis para receber DYDX como recompensas.
+Todos os traders no protocolo dYdX Layer 2 são elegíveis para receber $DYDX como recompensas de trading.
 
 O protocolo dYdX Layer 2 não está disponível para traders nos Estados Unidos ou em territórios restritos, conforme definido nos [Termos de Uso](https://dydx.exchange/terms) da dYdX Trading Inc.
 
@@ -52,9 +52,9 @@ Na epoch atual, os usuários podem ver as taxas pagas e as recompensas de trades
 
 As recompensas de épocas anteriores podem ser vistas em [**dydx.community/history/rewards**](https://dydx.community/history/rewards)**.**
 
-### Como posso resgatar minhas recompensas de trades? Quando posso sacar e transferir a DYDX que recebi?
+### Como posso resgatar minhas recompensas de trades? Quando posso sacar e transferir a $DYDX que recebi?
 
-Os tokens DYDX obtidos por meio de recompensas de trades se tornam transferíveis ao final de cada epoch. Os detentores de tokens DYDX são obrigados a esperar aproximadamente `7 dias` (**período de espera**) após o final da epoch para reivindicar seus tokens DYDX.
+Os tokens $DYDX obtidos por meio de recompensas de trades se tornam transferíveis ao final de cada epoch. Os detentores de tokens $DYDX são obrigados a esperar aproximadamente `7 dias` (**período de espera**) após o final da epoch para reivindicar seus tokens $DYDX.
 
 Após o período de espera de 7 dias, qualquer membro da comunidade pode chamar a função `Gravar` no parâmetro `updateRoot`, no [Contrato do distribuidor Merkle](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) para tornar as recompensas de DYDX reivindicáveis.
 
@@ -74,6 +74,6 @@ Etapas:
 * O período de espera de 7 dias ainda estiver em vigor ou
 * Um membro da comunidade já tiver chamado com sucesso o parâmetro `updateRoot` no [Contrato do distribuidor Merkle](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract).
 
-Após a transação ter sido finalizada, os traders podem reivindicar suas recompensas de trades [aqui](https://dydx.community/dashboard). Os usuários precisarão clicar em `Reivindicar`, assinar uma transação e pagar as taxas de gás para reivindicar DYDX.
+Após a transação ter sido finalizada, os traders podem reivindicar suas recompensas de trades [aqui](https://dydx.community/dashboard). Os usuários precisarão clicar em `Reivindicar`, assinar uma transação e pagar as taxas de gás para reivindicar $DYDX.
 
 ![Visão geral de recompensas do portfólio](../.gitbook/assets/1-portfolio-overview-rewards.png)
