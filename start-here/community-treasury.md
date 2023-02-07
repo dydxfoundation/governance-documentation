@@ -2,9 +2,15 @@
 description: Uma visão geral do tesouro da comunidade.
 ---
 
-# Tesouro
+# Tesouro da Comunidade
 
-`5,00%` do fornecimento de token inicial (`50.000.000 DYDX`) será distribuído para um tesouro da comunidade, que será alocado de forma contínua por meio de contribuições, iniciativas da comunidade, mineração de liquidez e outros programas.
+`16,2`**`%` ** (16`2.004.734 $DYDX`) do fornecimento de tokens são alocados ao tesouro da comunidade **** para ela o use de forma contínua em benefícios a contribuidores, iniciativas comunitárias, mineração de liquidez e outros programas. Inicialmente, `5,0%` do fornecimento de tokens de (`50.000.000 $DYDX`) foram alocados ao tesouro da comunidade e 766.703 $DYDX foi investido no tesouro da comunidade a cada epoch. Atualmente, 2.492.731 $DYDX estão investidos (vested, em inglês) no tesouro da comunidade, pois três propostas de governança resultaram em um aumento de 1.726.028 $DYDX no valor de $DYDX disponível para a comunidade dYdX a cada epoch:
+
+* [DIP 14](https://dydx.community/dashboard/proposal/7) - Definição as recompensas de staking de USDC para 0 (383.562 $DYDX por epoch),
+* [DIP 16](https://dydx.community/dashboard/proposal/8) - Redução de recompensas de trading em 25% (958.904 $DYDX por epoch) e
+* [DIP 17](https://dydx.community/dashboard/proposal/9) — definição de recompensas de staking de $DYDX para 0 (383.562 $DYDX por epoch).
+
+
 
 **Objetivos**
 
@@ -14,15 +20,15 @@ description: Uma visão geral do tesouro da comunidade.
 
 ## Visão geral
 
-O tesouro da comunidade manterá DYDX para usar como os holders da DYDX decidirem, seja para subsídios, novas pools de mineração de liquidez ou qualquer outro programa. Haverá investimento de DYDX no tesouro da comunidade de forma contínua ao longo de cinco anos. Será necessário haver uma votação por parte da governança para gastar qualquer DYDX no tesouro da comunidade.
+O tesouro da comunidade manterá $DYDX para o uso conforme os holders de $DYDX decidirem, seja para subsídios, novas pools de mineração de liquidez ou qualquer outro programa. Haverá investimento de $DYDX no tesouro da comunidade de forma contínua ao longo de cinco anos. Será necessário uma votação por parte da governança para gastar qualquer $DYDX do tesouro da comunidade.
 
-Se, após cinco anos, a governança decidir promover uma inflação perpétua (numa inflação máxima anual de `2%`), qualquer mint de DYDX futuro ficará disponível para o tesouro da comunidade.
+Se, após cinco anos, a governança decidir promover uma inflação perpétua (numa inflação máxima anual de `2%`), qualquer mint de $DYDX futuro ficará disponível para o tesouro da comunidade.
 
 ## Perguntas e respostas
 
-### Como DYDX é investido no Tesouro da Comunidade?
+### Como $DYDX é investido no Tesouro da Comunidade?
 
-A cada segundo, o Investidor do Tesouro da Comunidade (veja detalhes [aqui](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)) investe [`0,3169242627`](tel:03169242627) DYDX no Tesouro da Comunidade. Após o DYDX ter sido investido, chamar a função `reivindicação` no Investidor do Tesouro da Comunidade transferirá o DYDX investido para o Tesouro da Comunidade. Qualquer membro da comunidade DYDX pode chamar a função `reivindicação` na Etherscan [aqui](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract) (o que exigiria algum ETH para cobrir as taxas de gás) para mover o DYDX investido do Investidor do Tesouro da Comunidade para o Tesouro da Comunidade.
+A cada segundo, o Investidor do Tesouro da Comunidade (veja detalhes [aqui](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)) investe [`0,3169242627`](tel:03169242627) $DYDX no Tesouro da Comunidade. Assim que $DYDX é investido, chamar a função `reivindicação` no Investidor do Tesouro da Comunidade transferirá o $DYDX investido ao tesouro. Qualquer membro da comunidade DYDX pode chamar a função `reivindicação` na Etherscan [aqui](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract) (o que exigiria algum ETH para cobrir as taxas de gás) e mover o $DYDX investido do Investidor do Tesouro da Comunidade para o Tesouro da Comunidade.
 
 <figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
 
@@ -30,15 +36,15 @@ A cada segundo, o Investidor do Tesouro da Comunidade (veja detalhes [aqui](http
 
 Os membros da comunidade DYDX podem visualizar o saldo investido do Tesouro da comunidade [aqui](https://dydx.shippooor.xyz/). \
 \
-Além disso, a dYdX Foundation publica o saldo investido do Tesouro da Comunidade no [Relatório da Epoch](https://dydx.foundation/blog) ao final de cada epoch. Além do valor em DYDX investido no Tesouro da Comunidade, a comunidade dYdX também pode acessar o acumulado em DYDX no Tesouro de Recompensas em consequência dos votos para (1) reduzir as recompensas de trading em 25% (958.904 DYDX), (2) definir as recompensas de staking de USDC como 0 (383.562 DYDX) e (3) definir as recompensas de staking de DYDX como 0 (383.562 DYDX). A partir da Epoch 17, 1.726.028 DYDX serão acumulados no Tesouro de Recompensas a cada epoch e poderão ser usadas pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+Além disso, a dYdX Foundation publica o saldo investido do Tesouro da Comunidade no [Relatório da Epoch](https://dydx.foundation/blog) ao final de cada epoch. Além do valor em $DYDX investido no Tesouro da Comunidade, a comunidade dYdX também pode acessar o acumulado em $DYDX no Tesouro de Recompensas em consequência dos votos para (1) reduzir as recompensas de trading em 25% (958.904 $DYDX), (2) definir as recompensas de staking de USDC como 0 (383.562 $DYDX) e (3) definir as recompensas de staking de $DYDX como 0 (383.562 $DYDX). A partir da epoch 17, 1.726.028 $DYDX serão acumulados no Tesouro de Recompensas a cada epoch e poderão ser usados pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
-### Quem pode enviar propostas de gastos com tokens DYDX no Tesouro da Comunidade?
+### Quem pode enviar propostas para gastar $DYDX do Tesouro da Comunidade?
 
-Qualquer usuário com poder de proposição suficiente pode enviar propostas. Será necessário haver uma votação por parte da governança para gastar qualquer DYDX no tesouro da comunidade. Para enviar uma proposta, é preciso enviar uma proposta de melhoria da dYdX (DIP, na sigla em inglês) conforme estabelecido no [ciclo de vida da proposta DIP](../voting-and-governance/dip-proposal-lifecycle.md).
+Qualquer usuário com poder de proposição suficiente pode enviar propostas. Será necessário haver uma votação por parte da governança para gastar qualquer $DYDX no tesouro da comunidade. Para enviar uma proposta, é preciso enviar uma proposta de melhoria da dYdX (DIP, na sigla em inglês) conforme estabelecido no [ciclo de vida da proposta DIP](../voting-and-governance/dip-proposal-lifecycle.md).
 
 ### Como você vai criar uma proposta de fundos do Tesouro da Comunidade?
 
-A Reverie criou um guia abrangente e técnico que dá o passo-a-passo sobre como qualquer membro da comunidade dYdX com mais de 5M dYdX ([limite de proposta](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters) para um [curto voto de timelock](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)) em poder proposicional pode criar uma proposta para transferir DYDX do Tesouro da Comunidade para um endereço de destino. Clique [aqui](https://app.gitbook.com/o/-MeNgGQU0ucT2xo4s8-T/s/-MeNfSkgj48hU0q8Zbjn/\~/changes/EyisuFjLIyJ7K9RzaTfJ/technical-guide-on-building-a-dydx-community-treasury-spending-proposal) para acessar o guia técnico.
+A Reverie criou um guia abrangente e técnico que dá o passo a passo sobre como qualquer membro da comunidade dYdX com mais de 5M $DYDX ([limite de proposta](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters) para um [curto voto de timelock](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)) em poder proposicional pode criar uma proposta para transferir $DYDX do Tesouro da Comunidade para um endereço de destino. Clique [aqui](https://app.gitbook.com/o/-MeNgGQU0ucT2xo4s8-T/s/-MeNfSkgj48hU0q8Zbjn/\~/changes/EyisuFjLIyJ7K9RzaTfJ/technical-guide-on-building-a-dydx-community-treasury-spending-proposal) para acessar o guia técnico.
 
 ### Quais tipos de propostas podem ser enviadas ao Tesouro da Comunidade?
 
