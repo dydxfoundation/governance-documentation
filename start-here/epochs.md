@@ -15,9 +15,9 @@ Ce qui suit se produira à la fin de chaque époch :
 
 Les éléments suivants ne se produiront qu'à la fin de **l'époch 0** :
 
-* Les récompenses de minage rétroactives seront distribuées. Les récompenses peuvent être réclamées sur [**dydx.community**](https://dydx.community) environ `8 jours` après la fin de l'époch 0.
-* Les transferts de DYDX sont initialement restreints. La période de restriction de transfert initiale sera levée environ `18 jours` après la fin de l'époch 0.
-* **DYDX deviendra transférable le 8 septembre 2021 à 15:00:00 UTC.**
+* Les récompenses de minage rétroactives seront distribuées. Les récompenses peuvent être réclamées sur [**dydx.community**](https://dydx.community) environ dans les `8 jours` qui suivent la fin de l'Epoch 0.
+* Initialement, les transferts de $DYDX sont restreints. La période de restriction de transfert initiale sera levée environ dans les `8 jours` qui suivent la fin de l'Epoch 0.
+* **Le transfert de $DYDX est autorisé depuis le 8 septembre 2021, 15 h 00 UTC.**
 
 **L'époch 0** sera actif le **3 août 2021 à 15:00:00 UTC**. Le tableau suivant indique les dates de début et de fin de l'époch (qui peuvent être modifiées par la gouvernance dYdX) :
 
@@ -97,8 +97,8 @@ La Fondation dYdX a créé un Google Calendar public avec des dates de début/fi
 * Les [récompenses de minage rétroactives](../rewards/retroactive-mining-rewards.md) sont maintenant en direct sur le protocole. Ces récompenses se poursuivront jusqu'au **31 août 2021, 15:00:00 UTC**.
 * Les [récompenses de trading](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md) sont désormais en direct sur le protocole. Ces récompenses se poursuivront jusqu'au **3 août 2026, 15:00:00 UTC**.
 * Les [récompenses du fournisseur de liquidité](../rewards/liquidity-provider-rewards.md) sont maintenant mis en ligne sur le protocole. Ces récompenses se poursuivront jusqu'au **3 août 2026, 15:00:00 UTC**.
-* Le [pool de staking de liquidité](../staking-pools/liquidity-staking-pool.md) est maintenant mis en ligne sur le protocole. Ce pool fonctionnera jusqu'au **2 août 2026, à environ 15:00:00 UTC** (horodatage exact : 1785682798).
-* Le [pool de staking de sécurité](../staking-pools/safety-staking-pool.md) sera automatiquement mis en ligne sur le protocole quelques jours après la fin de l'époch 0 lorsque les restrictions de transfert seront levées. Ce pool fonctionnera jusqu'au **7 septembre 2026, à environ 15:00:00 UTC** (horodatage exact : 1788793198).
+* Le [pool de mise en réserve de liquidité](../staking-pools/liquidity-staking-pool.md) a été fermé le 29 septembre 2022.
+* Le [pool de mise en réserve de sécurité](../staking-pools/safety-staking-pool.md) a été fermé le 28 novembre 2022.
 
 ## La gouvernance dYdX peut-elle modifier le calendrier des épochs ?
 
@@ -108,15 +108,15 @@ La durée initiale de l'époque est `de 28 jours`. La gouvernance dYdX peut vote
 
 Pour le [pool de staking de liquidité](../staking-pools/liquidity-staking-pool.md) et le [pool de staking de sécurité](../staking-pools/safety-staking-pool.md), un calendrier d'époch est appliqué pour les retraits afin de fournir une prévisibilité et une cadence régulière pour la disponibilité des fonds dans le pool. Un staker doit demander à retirer des fonds avant la fenêtre de blocage afin de pouvoir retirer les fonds du miseur après la fin de cette période. Si un staker ne demande pas de retrait, les fonds stakés du staker sont reportés à l'époch suivante.
 
-La fenêtre de blocage recommandée pour chacun des pool de staking de liquidité et pool de sécurité est `de 14 jours`. La gouvernance dYdX peut voter pour modifier la fenêtre de blocage, dans les limites spécifiées. Les fenêtres de blocage minimale et maximale sont respectivement de `3 jours` et `46 jours`.
+Pour chacun des pools de mise en réserve de liquidité et des pools de sécurité, la fenêtre de blocage recommandée est de `14 jours`. Dans la [DIP 17](https://dydx.community/dashboard/proposal/9), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/7) en faveur d'une réduction de la fenêtre de blocage de `14 jours` à `3 jours`. La gouvernance de dYdX peut voter la modification la fenêtre de blocage dans les limites spécifiées. Les fenêtres de blocage minimale et maximale sont respectivement de `3 jours` et `46 jours`.
 
 ## Quand puis-je retirer et transférer mes récompenses DYDX gagnées ?
 
-Les jetons DYDX gagnés via les [récompenses de minage rétroactives](../rewards/retroactive-mining-rewards.md), les [récompenses de trading](../rewards/trading-rewards.md) et les [récompenses de fournisseur de liquidité](../rewards/liquidity-provider-rewards.md) sont transférables à la fin de chaque époch. Les détenteurs de DYDX sont tenus d'attendre environ `7 jours` (**période d'attente**) après la fin de l'époch pour réclamer leurs jetons. Une fois les jetons réclamés, ils peuvent être transférés ou délégués à la gouvernance dYdX.
+Les jetons DYDX gagnés via les [récompenses de minage rétroactives](../rewards/retroactive-mining-rewards.md), les [récompenses de trading](../rewards/trading-rewards.md) et les [récompenses de fournisseur de liquidité](../rewards/liquidity-provider-rewards.md) sont transférables à la fin de chaque époch. Les détenteurs de $DYDX sont tenus d'attendre environ `7 jours` (**période d'attente**) après la fin de l'Epoch avant de pouvoir réclamer leurs jetons. Une fois les jetons réclamés, ils peuvent être transférés ou délégués à la gouvernance dYdX.
 
-Les jetons DYDX gagnés via le pool de jalonnement de liquidité et le pool de staking de sécurité sont réclamables à chaque bloc et peuvent être retirés à tout moment pendant une époch donnée.
+Les jetons $DYDX gagnés via le pool de mise en réserve de liquidité et le pool de mise en réserve de sécurité peuvent être réclamés au niveau de chaque bloc et être retirés à tout moment pendant une Epoch donnée.
 
-Le **8 septembre 2021 à 15:00:00 UTC**, 8 jours après la fin de l'Époch 0, les restrictions de transfert initiales seront automatiquement levées, date à laquelle environ **8,11 %** de l'approvisionnement en DYDX deviendra liquide.
+Le **8 septembre 2021 à 15 h 00 UTC**, 8 jours après la fin de l'Epoch 0, les restrictions de transfert initiales seront automatiquement levées, date à laquelle environ **8,11 %** de la réserve de $DYDX deviendra liquide.
 
 ## Quel est le but de la période d'attente ? Comment les récompenses sont-elles stockées à la fin de chaque époch ?
 
