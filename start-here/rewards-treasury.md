@@ -6,7 +6,7 @@ description: Ein Überblick über die Prämienkasse.
 
 ## Überblick
 
-Zusätzlich zu den in der [Community Treasury](https://docs.dydx.community/dydx-governance/start-here/community-treasury) hinterlegten DYDX kann die dYdX-Community auch auf die in jeder Epoche in der [Prämien-Treasury](https://etherscan.io/address/0x639192d54431f8c816368d3fb4107bc168d0e871) aufgelaufenen DYDX zugreifen, dann wenn folgende Abstimmungsergebnisse auftreten: (1) Trading Rewards um 25 % (958 904 DYDX) reduzieren und (2) USDC-Staking Awards auf 0 setzen (383 562 DYDX). Ab Epoche 15 werden sodann in jeder Epoche 1 342 466 DYDX in der Prämien Treasury angesammelt und können von der dYdX-Community im Rahmen einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden. \
+Neben den erworbenen DYDX in der Gemeinschaftskasse kann die dYdX-Community auch auf die $DYDX zugreifen, die in der Prämienkasse infolge der Abstimmungen über (1) die Senkung der Handelsprämien um 25% (958.904 $DYDX), (2) die Festlegung der Prämien für den Einsatz von $USDC auf 0 (383.562 $DYDX) und (3) die Festlegung der Prämien für den Einsatz von $DYDX auf 0 (383.562 $DYDX) anfallen. Ab Phase 17 werden 1.726.028 $DYDX in jeder Phase in der Prämien-Kasse anfallen und können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden. \
 
 
 ## FAQ
@@ -15,8 +15,8 @@ Zusätzlich zu den in der [Community Treasury](https://docs.dydx.community/dydx-
 
 Mitglieder der dYdX-Community können [hier](https://dydx.shippooor.xyz/) den Rücklagen-Kontostand der Community Treasury einsehen. \
 \
- Darüber hinaus veröffentlicht die dYdX Foundation das aufgelaufene Guthaben der Community Treasury in der [Epochen-Rückschau](https://dydx.foundation/blog) am Ende jeder Epoche. Zusätzlich zu den in der Community Treasury hinterlegten DYDX kann die dYdX-Community auch auf die in der Prämien-Treasury aufgelaufenen DYDX zugreifen, dann wenn folgende Abstimmungsergebnisse auftreten: (1) Trading Rewards um 25 % (958 904 DYDX) reduzieren und (2) USDC-Staking Awards auf 0 setzen (383 562 DYDX). Ab Epoche 15 werden sodann in jeder Epoche 1 342 466 DYDX in der Prämien Treasury angesammelt und können von der dYdX-Community im Rahmen einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
+Darüber hinaus veröffentlicht die dYdX Foundation das aufgelaufene Guthaben der Community Treasury in der [Epochen-Rückschau](https://dydx.foundation/blog) am Ende jeder Epoche. Abgesehen von den erworbenen $DYDX in der Gemeinschaftskasse kann die dYdX-Community auch auf die $DYDX zugreifen, die in der Prämienkasse infolge der Abstimmungen über (1) die Senkung der Handelsprämien um 25% (958.904 $DYDX), (2) die Festlegung der Prämien für den Einsatz von $USDC auf 0 (383.562 $DYDX) und (3) die Festlegung der Prämien für den Einsatz von $DYDX auf 0 (383.562 $DYDX) anfallen. Ab Phase 17 werden 1.726.028 $DYDX in jeder Phase in der Prämien-Kasse anfallen und können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
 
-### Wer kann Vorschläge zum Ausgeben von DYDX-Token aus dem Rewards Treasury einreichen?
+### Wer kann Vorschläge zur Ausgabe von $DYDX aus der Prämienkasse einreichen?
 
 Jeder Benutzer mit ausreichender Vorschlagsbefugnis kann Vorschläge einreichen. Eine Governance-Abstimmung ist erforderlich, um DYDX aus der Gemeinschaftskasse und/oder der Prämienkasse auszugeben. Um einen Vorschlag einzureichen, reichen Sie bitte einen dYdX-Verbesserungsvorschlag (DIP) ein, wie im [Lebenszyklus des DIP-Vorschlags](../voting-and-governance/dip-proposal-lifecycle.md) beschrieben.
