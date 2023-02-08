@@ -9,7 +9,7 @@
 * [分配](start-here/dydx-allocations.md)
 * [时段](start-here/epochs.md)
 * [费率折扣](start-here/trading-fee-discount.md)
-* [资金库](start-here/community-treasury.md)
+* [社区资金库](start-here/community-treasury.md)
 * [奖励资金库](start-here/rewards-treasury.md)
 
 ## 奖励
@@ -49,4 +49,4 @@
 * [dYdX Layer 2 API](https://docs.dydx.exchange/)
 * [dYdX Trading Inc.](https://dydx.exchange)
 * [指标控制面板](http://metrics.dydx.exchange/)
-* [LP奖励控制面板](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true)
+* [LP 奖励控制面板](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true)
