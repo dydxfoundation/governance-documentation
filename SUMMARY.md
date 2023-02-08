@@ -9,7 +9,7 @@
 * [Allokationen](start-here/dydx-allocations.md)
 * [Epochen](start-here/epochs.md)
 * [Gebührenrabatte](start-here/trading-fee-discount.md)
-* [Treasury](start-here/community-treasury.md)
+* [Gemeinschaftskasse](start-here/community-treasury.md)
 * [Prämien Treasury](start-here/rewards-treasury.md)
 
 ## Prämien

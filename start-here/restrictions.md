@@ -1,7 +1,7 @@
 ---
-description: Einschränkungen für die Verwendung von DYDX und dem DYDX Portal.
+description: Einschränkungen bei der Nutzung von $DYDX und dem $DYDX-Portal
 ---
 
 # Einschränkungen
 
-DYDX ist in den USA oder anderen verbotenen Geltungsbereichen nicht verfügbar. Wenn Sie in den Vereinigten Staaten von Amerika oder einer anderen verbotenen Gerichtsbarkeit ansässig oder eingetragen oder dort ansässig sind, ist es Ihnen nicht gestattet, eine Ausschüttung von DYDX zu erhalten oder dort Geschäfte zu tätigen.
+DYDX ist in den USA oder anderen unzulässigen Rechtsordnungen nicht verfügbar. Wenn Sie in den Vereinigten Staaten von Amerika oder einer anderen unzulässigen Rechtsordnung ansässig sind oder dort ihren Sitz haben, dürfen Sie keine Ausschüttungen von $DYDX erhalten oder mit diesen handeln.

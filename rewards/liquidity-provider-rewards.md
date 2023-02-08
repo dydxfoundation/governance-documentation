@@ -4,7 +4,7 @@ description: Überblick über das Prämienprogramm für Liquiditätsanbieter.
 
 # Prämien für Liquidity Provision
 
-7,5 % des anfänglichen Tokenangebots (`75.000.000 DYDX`) werden an Liquiditätsanbieter auf der Grundlage von Formeln verteilt, die eine Kombination aus Maker-Volumen, Betriebszeit, zweiseitiger Tiefe, Geld-Brief-Spannen und der Anzahl der unterstützten Märkte belohnen.
+7,5 % des ursprünglichen Token-Angebots (`$ 75.000.000 $DYDX`) werden an Liquiditätsanbieter basierend auf Formeln honoriert, die eine Kombination aus Maker-Volumen, Betriebszeit, zweiseitiger Tiefe, Geld-Brief-Spannen, und der Anzahl der unterstützten Märkte sind.
 
 **Ziele**
 
@@ -12,11 +12,11 @@ description: Überblick über das Prämienprogramm für Liquiditätsanbieter.
 
 ## **Überblick**
 
-Um Anreize für die Marktliquidität zu schaffen, wird DYDX an die Liquiditätsanbieter auf der Grundlage von Formeln verteilt, die die Teilnahme an den Märkten, das Maker-Volumen, die zweiseitige Tiefe, den Spread (im Vergleich zum mittleren Markt) und die Betriebszeit auf dem Layer-2-Protokoll von dYdX vergüten. Jede Ethereum-Adresse kann diese Prämien verdienen, vorbehaltlich eines Mindest-Macher-Volumens von 0,25 % des Macher-Volumens in der vorangegangenen Epoche. DYDX wird auf einer Epochenbasis von 28 Tagen über einen Zeitraum von fünf Jahren verteilt und unterliegt keinen Vesting- oder Sperrfristen. Pro Epoche werden 1.150.685 DYDX verteilt.
+Um Anreize für Marktliquidität zu schaffen, wird $DYDX an Liquiditätsanbieter verteilt, basierend auf Formeln, die die Marktbeteiligung, das Maker-Volumen, die zweiseitige Tiefe, den Spread (im Vergleich zum mittleren Markt) und die Betriebszeit auf dem Layer-2-Protokoll von dYdX honorieren. Jede Ethereum-Adresse kann diese Prämien verdienen, vorbehaltlich eines Mindest-Macher-Volumens von 0,25 % des Macher-Volumens in der vorangegangenen Epoche. $DYDX werden auf einer 28 Tage umfassenden Zeitbasis über einen Zeitraum von fünf Jahren ausgeschüttet und unterliegen keiner Sperrfrist oder einem Verfügungsverbot. 1.150.685 $DYDX werden pro Zeitraum ausgeschüttet.
 
-Die folgenden Funktionen werden verwendet, um zu berechnen, wie viel DYDX pro Epoche an jeden Liquiditätsanbieter vergütet werden sollte. In [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md) hat die dYdX-Gemeinschaft dafür gestimmt, die Formel für die LP-Vergütung zu überarbeiten, indem die Funktionen für BTC/ETH-Märkte und Nicht-BTC/ETH-Märkte aufgeteilt werden. In [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md)stimmte die dYdX-Gemeinschaft dafür, das Gewicht von 0,05 stkDYDX dem Maker-Volumen zuzuweisen.
+Die folgenden Funktionen werden zur Berechnung verwendet, wie viel $DYDX an jeden Liquiditätsanbieter pro Zeitabschnitt vergütet werden sollte. In [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md) hat die dYdX-Gemeinschaft dafür gestimmt, die Formel für die LP-Vergütung zu überarbeiten, indem die Funktionen für BTC/ETH-Märkte und Nicht-BTC/ETH-Märkte aufgeteilt werden. Unter [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md) stimmte die dYdX-Gemeinschaft dafür, die Gewichtung von 0,05 $stkDYDX auf Maker-Volumen umzuverteilen.
 
-Insgesamt wurde die Gewichtung des Volumens in den Funktionen in allen Märkten erhöht. Die Höhe des verdienten DYDX wird durch den relativen Anteil des $$Q_{FINAL}$$  ($$Q_{BTC}$$+$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$) jedes Teilnehmers bestimmt.
+Insgesamt wurde die Gewichtung des Volumens in den Funktionen in allen Märkten erhöht. Die Höhe der erwirtschafteten $DYDX wird durch den relativen Anteil der $$Q_{FINAL}$$ eines jeden Teilnehmers bestimmt ($$Q_{BTC}$$+$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$).
 
 <figure><img src="../.gitbook/assets/Updated LP Rewards Formulas.png" alt=""><figcaption></figcaption></figure>
 
@@ -49,11 +49,11 @@ Jeder Markt wird seinen eigenen Belohnungspool haben, der unterschiedlich gewich
 
 ### Wer hat Anspruch auf Prämien von Liquiditätsanbietern?
 
-Alle Liquiditätsanbieter, die in der vorherigen Epoche mindestens 0,25 % des Herstellervolumens auf dem dYdX-Ebene-2-Protokoll erreicht haben, sind berechtigt, DYDX als Belohnung in einer bestimmten Epoche zu erhalten.
+Alle Liquiditätsanbieter, die im vorherigen Zeitraum mindestens 0,25% des Maker-Volumens auf dem dYdX Layer 2 Protokoll erreicht haben, sind zum Bezug von $DYDX als Prämie in einer bestimmten Zeitspanne berechtigt.
 
 Das dYdX Layer 2-Protokoll ist für Trader in den Vereinigten Staaten oder in beschränkten Gebieten nicht verfügbar, wie in den [Nutzungsbedingungen](https://dydx.exchange/terms) von dYdX Trading Inc. definiert.
 
-### Wie viel DYDX habe ich im Liquidity Provider Rewards-Programm verdient?
+### Wie viel $DYDX habe ich im Rahmen des Bonusprogramms für Liquiditätsanbieter verdient?
 
 In einer bestimmten Epoche erzielen Liquiditätsanbieter Renditen basierend auf ihren relativen $$Q_{SCORE}$$ auf dem Markt eines bestimmten Paares. Jedes Paar hat seinen eigenen relativen Belohnungsbetrag, der von der Governance festgelegt wird. Der erwartete Betrag an verdienten DYDX wird im [LP-Rewards Dashboard](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true) angezeigt und kann auf Grundlage der Anzahl der beteiligten Liquiditätsanbieter, des relativen $$$Q_{SCORE}$$ und der Höhe der für ein bestimmtes Paar verfügbaren Rewards ermittelt werden.
 
@@ -61,11 +61,11 @@ In einer bestimmten Epoche erzielen Liquiditätsanbieter Renditen basierend auf 
 
 Belohnungen für Liquiditätsanbieter werden in der [dYdX API](https://docs.dydx.exchange/) aufgestellt. Obwohl sie nicht auf der Governance-Benutzeroberfläche aufgetaucht sind, können sie [hier](https://dydx.community/dashboard) immer noch über die Governance am Ende jeder Epoche beansprucht werden.
 
-### Wann kann ich meine beanspruchten DYDX Liquidity-Provider-Prämien abheben und übertragen?
+### Wann kann ich meine erworbenen $DYDX Prämien, die ich im Rahmen des Bonusprogramms für Liquiditätsanbieter erhalten habe, abheben und überweisen?
 
-DYDX-Token, die über die Liquidity-Provider-Prämien belohnt werden, werden beanspruchbar und übertragbar, sobald der anfängliche Übertragungsbeschränkungszeitraum aufgehoben ist.
+Diese DYDX-Token werden nach Ablauf der anfänglichen Übertragungssperre anspruchsberechtigt und übertragbar.
 
-Ab Epoche 1 können DYDX-Token, die über die Liquidity-Provider-Prämien belohnt werden, `7 Tage` (**Wartezeit**) nach dem Ende jeder Epoche eingefordert werden.
+Beginnend mit Phase 1 können $DYDX-Token, die über die Liquidity Provider Rewards vergeben werden, `nach` Ablauf jeder Phase eingelöst werden (7 Tage **Wartezeit** ), und zwar nach Ende jeder Zeitspanne.
 
 ### Wie werden zweiseitige Tiefe, Geld-Brief-Spanne und Betriebszeit definiert und gemessen?
 
