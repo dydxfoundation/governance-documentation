@@ -15,9 +15,9 @@ Am Ende jeder Epoche wird Folgendes geschehen:
 
 Folgendes wird erst am Ende der **Epoche 0** geschehen:
 
-* Rückwirkende Mining Awards werden ausgeschüttet. Die Prämien sind etwa `8 Tage` nach Ablauf der Epoche 0 bei [**dydx.community**](https://dydx.community) abholbereit.
-* Die Transfers von DYDX sind vorerst eingeschränkt. Der Zeitraum der anfänglichen Transferbeschränkung wird etwa `8 Tage` nach Ablauf der Epoche 0 aufgehoben.
-* **DYDX wird am 8. September 2021 um 15:00:00 UTC übertragbar sein.**
+* Rückwirkende Mining Awards werden ausgeschüttet. Die Prämien können etwa `8 Tage` nach Ablauf von Phase 0 [**dydx.community**](https://dydx.community) beansprucht werden.
+* Die Transfers von $DYDX sind vorerst eingeschränkt. Der Zeitraum der anfänglichen Transferbeschränkung wird etwa `8 Tage` nach Ablauf von Phase 0 aufgehoben.
+* **$DYDX wurde am 8. September 2021 um 15:00:00 UTC übertragbar.**
 
 **Die Epoche 0** wird am 3. **August 2021 um 15:00:00 UTC** live gehen. Die folgende Tabelle beschreibt die Epochenstart- und Enddaten (welche durch die dYdX-Governance abgeändert werden können):
 
@@ -97,8 +97,8 @@ Die dYdX Foundation hat einen öffentlichen Google-Kalender mit Start/Enddaten f
 * Die [Rückwirkenden Mining-Prämien](../rewards/retroactive-mining-rewards.md) sind jetzt auf dem Protokoll live. Diese Prämien werden nur bis **31. August 2021, 15:00:00 UTC** laufen.
 * Die [Trading-Prämien](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md) sind jetzt auf dem Protokoll live. Diese Prämien werden bis 3. **August 2026, 15:00:00 UTC** laufen.
 * Die [Prämien für Liquidity Provider](../rewards/liquidity-provider-rewards.md) sind nun auf dem Protokoll live. Diese Prämien werden bis 3. **August 2026, 15:00:00 UTC** laufen.
-* Der [Liquidity Staking Pool](../staking-pools/liquidity-staking-pool.md) ist jetzt auf dem Protokoll live. Dieser Pool wird bis **2. August 2026, bis ca. 15:00:00 UTC** laufen (exakter Zeitstempel: 1785682798).
-* Der [Safety Staking Pool](../staking-pools/safety-staking-pool.md) wird nur wenige Tage nach Ablauf der Epoche 0 automatisch auf dem Protokoll live gehen, wenn die Transferbeschränkungen aufgehoben worden sind. Dieser Pool wird bis **7. September 2026, bis etwa 15:00:00 Uhr UTC** (exakter Zeitstempel: 1788793198) laufen.
+* Der  [Liquidity Staking pool](../staking-pools/liquidity-staking-pool.md) wurde am 29. September 2022 aufgelöst.
+* Der [Safety Staking pool](../staking-pools/safety-staking-pool.md) wurde am 28. November 2022 aufgelöst.
 
 ## Kann die dYdX-Governance den Epochenplan abändern?
 
@@ -108,15 +108,15 @@ Die erste Epochenlänge beträgt `28 Tage`. Die dYdX Governance kann innerhalb d
 
 Für den [Liquidity Staking Pool](../staking-pools/liquidity-staking-pool.md) und den [Safety Staking Pool](../staking-pools/safety-staking-pool.md) wird ein Epochenplan für Auszahlungen streng eingehalten, um Vorhersagbarkeit und eine regelmäßige Abfolge verfügbar gemachter Gelder im Pool zu gewährleisten. Wenn ein Staker Gelder aus dem Staking nehmen möchte, muss er dies beantragen, bevor das Blackout Window öffnet, um sein Guthaben nach Ende dieser Epoche abheben zu können. Wenn ein Staker die Auszahlung nicht beantragt, werden die gestakten Gelder des Stakers in die nächste Epoche hinübergenommen.
 
-Das empfohlene Blackout Window für den Liquidity Staking Pool bzw. Safety Pool beträgt `14 Tage`. Die dYdX-Governance kann im Zuge einer Abstimmung das Blackout Window innerhalb der angegebenen Grenzen verändern. Die minimale Länge eines Blackout Windows beträgt `3 Tage`, die maximale Länge eines Blackout Windows beträgt `46 Tage`.
+Das empfohlene Sperrzeitfenster für den Liquidity Staking Pool und den Safety Pool beträgt `jeweils 14 Tage`. Bei [DIP 17](https://dydx.community/dashboard/proposal/9) [stimmte](https://dydx.community/dashboard/proposal/7) die dYdX-Gemeinschaft dafür, die Länge des Blackout-Fensters von `14` auf `3` Tage zu verkürzen. Die dYdX-Governance kann über eine Änderung des Sperrzeitfensters innerhalb der festgelegten Grenzen abstimmen. Die minimale Länge eines Blackout Windows beträgt `3 Tage`, die maximale Länge eines Blackout Windows beträgt `46 Tage`.
 
 ## Wann kann ich meine verdienten DYDX-Prämien auszahlen lassen und überweisen?
 
-Verdiente DYDX Token sind über die [Rückwirkenden Mining-Prämien](../rewards/retroactive-mining-rewards.md), [Trading-Prämien](../rewards/trading-rewards.md) und [Liquidity-Provider-Prämien](../rewards/liquidity-provider-rewards.md) am Ende jeder Epoche übertragbar. DYDX-Inhaber sind verpflichtet, etwa `7 Tage` (**Wartezeit**) nach Ablauf der Epoche zu warten, um ihre Token in Anspruch zu nehmen zu können. Sobald Token beansprucht wurden, können diese überwiesen oder an die dYdX-Governance delegiert werden.
+Verdiente DYDX Token sind über die [Rückwirkenden Mining-Prämien](../rewards/retroactive-mining-rewards.md), [Trading-Prämien](../rewards/trading-rewards.md) und [Liquidity-Provider-Prämien](../rewards/liquidity-provider-rewards.md) am Ende jeder Epoche übertragbar. $DYDX-Inhaber sind verpflichtet, etwa `7 Tage` (**Wartezeit**) nach Phasenablauf zu warten, um ihre Token in Anspruch nehmen zu können. Sobald Token beansprucht wurden, können diese überwiesen oder an die dYdX-Governance delegiert werden.
 
-Verdiente DYDX Token können über den Liquidity Staking Pool und den Safety Staking Pool in jedem Block abgeholt und jederzeit während einer gegebenen Epoche ausgezahlt werden.
+Verdiente $DYDX Token können über den Liquidity Staking Pool und den Safety Staking Pool in jedem Block abgeholt und jederzeit während einer gegebenen Phase ausgezahlt werden.
 
-Am **8. September 2021 um 15:00:00 UTC**, 8 Tage nach Ablauf der Epoche 0, werden die ersten Transferbeschränkungen automatisch aufgehoben, woraufhin etwa **8,11 %** der DYDX flüssig werden.
+Am 8. **September 2021 um 15:00:00 UTC**, 8 Tage nach dem Ende von Phase 0, werden die anfänglichen Transferbeschränkungen automatisch aufgehoben, so dass zu diesem Zeitpunkt etwa **8.11%** des $DYDX-Angebots verfügbar sein werden.
 
 ## Wozu dient die Wartezeit? Wie werden die Prämien am Ende jeder Epoche aufbewahrt?
 
