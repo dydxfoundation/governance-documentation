@@ -4,7 +4,7 @@ description: Überblick über das Trading Prämien-Programm.
 
 # Trading-Prämien
 
-`25,00 %` der ursprünglichen Tokenversorgung (`250 000 000 DYDX`) wurden der Ausschüttung an die Nutzer zugewiesen, die auf der Grundlage der gezahlten Gebühren mit dem dYdX Layer 2-Protokoll handeln. Im Rahmen des [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) [stimmte](https://dydx.community/dashboard/proposal/8) die dYdX-Community dafür, die Trading Rewards um 25 % zu reduzieren. Daher wurden in Epoche 15 die in einer Epoche ausgeschütteten Trading Rewards von einst 3 835 616 DYDX nun auf 2 876 712 DYDX reduziert.
+`20,2`**`%` ** (`201.883.560 $DYDX`) des Tokenangebots werden an Benutzer verteilt, die auf der Grundlage der gezahlten Gebühren das dYdX-Layer-2-Protokoll handeln. Anfangs wurden `25,0 %` des Tokenangebots (`250.000.000 DYDX`) für die Handelsprämien zugewiesen. In [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) [stimmte](https://dydx.community/dashboard/proposal/8) die dYdX-Gemeinde dafür, die Handelsprämien um 25 % zu verringern. Infolgedessen sank die Zuteilung für Handelsprämien von `25,0 %` auf `20,2 %`. Die in einer bestimmten Phase ausgeschütteten Handelsprämien wurden von 3.835.616 DYDX auf 2.876.712 DYDX in Phase 15 reduziert.
 
 **Ziele**
 
@@ -15,9 +15,9 @@ description: Überblick über das Trading Prämien-Programm.
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Bezahlte Gebühren und geschätzte Rewards in einer bestimmten Epoche</p></figcaption></figure>
 
-DYDX wird auf der Grundlage der Gebühren, die für das dYdX Layer 2-Protokoll gezahlt wurden, an die Trader ausgeschüttet. DYDX wird über fünf Jahre auf Basis von 28-Tage-Epochen verteilt und unterliegt weder Vesting noch Lockups. Pro Epoche werden 2 876 712 DYDX ausgeschüttet.
+$DYDX werden an Händler verteilt, basierend auf den Gebühren, die im dYdX Layer 2 Protokoll gezahlt werden. $DYDX wird über einen Zeitraum von fünf Jahren auf einer 28 Tage umfassenden Zeitbasis ausgeschüttet und unterliegt keinen Sperrfristen oder Sperrvermerken. 2.876.712 $DYDX werden pro Phase ausgeschüttet.
 
-Da die Community dafür gestimmt hat, die Trading Rewards um 25 % von 3 835 616 DYDX auf 2 876 712 DYDX zu reduzieren, können die verbleibenden 958904 DYDX, die in der Rewards Treasury anfallen, von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet/ausgerichtet werden.
+Nachdem die Community dafür gestimmt hat, die Handelsprämien um 25% von 3.835.616 $DYDX auf 2.876.712 $DYDX zu kürzen, können die verbleibenden 958.904 $DYDX, die sich in der Prämienkasse ansammeln, von der dYdX-Community durch eine [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet/angewiesen werden.
 
 <figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
@@ -38,7 +38,7 @@ Im Rahmen des [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content
 
 ### Wer ist für Trading-Prämien berechtigt?
 
-Alle Trader des dYdX Layer 2-Protokolls sind berechtigt, DYDX als Trading-Prämien zu empfangen.
+Alle Händler im dYdX Layer 2 Protokoll sind zum Bezug von $DYDX als Handelsprämien berechtigt.
 
 Das dYdX Layer 2-Protokoll ist für Trader in den Vereinigten Staaten oder in beschränkten Gebieten nicht verfügbar, wie in den [Nutzungsbedingungen](https://dydx.exchange/terms) von dYdX Trading Inc. definiert.
 
@@ -50,9 +50,9 @@ In der aktuellen Epoche können Benutzer gezahlte Gebühren und geschätzte Trad
 
 Rewards aus früheren Epochen können unter [**dydx.community/history/rewards**](https://dydx.community/history/rewards) eingesehen werden**.**
 
-### Wie kann ich meine Trading-Prämien abholen? Wann kann ich meine verdienten DYDX auszahlen lassen und überweisen?
+### Wie kann ich meine Trading-Prämien abholen? Wann kann ich meine verdienten $DYDX auszahlen lassen und überweisen?
 
-Durch Trading-Prämien verdiente DYDX können am Ende jeder Epoche übertragen werden. Inhaber von DYDX-Token müssen ungefähr `7 Tage` (**Wartezeit**) nach dem Ende der Epoche warten, um ihre DYDX-Token zu beanspruchen.
+Durch Handelsprämien verdiente $DYDX können am Ende eines jeden Zeitraums übertragen werden. Inhaber von $DYDX-Token müssen ungefähr `7 Tage` (**Wartezeit**) nach dem Ablauf der Zeitspanne warten, ehe sie ihre DYDX-Token beanspruchen können.
 
 Nach der 7-tägigen Wartezeit kann jedes Community-Mitglied die `Write`-Funktion für den `updateRoot`-Parameter im [Merkle-Distributor-Vertrag](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) aufrufen, um DYDX-Prämien zu beanspruchen.
 
@@ -72,6 +72,6 @@ Schritte:
 * Die 7-tägige Wartefrist noch nicht abgelaufen ist oder
 * Ein Community-Mitglied bereits erfolgreich den `updateRoot`-Parameter im [Merkle-Distributor-Vertrag](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) aufgerufen hat.
 
-Sobald die Transaktion abgeschlossen ist, können Händler ihre Handelsprämien [hier](https://dydx.community/dashboard) einfordern. Benutzer müssen auf `Claim` klicken, eine Transaktion unterzeichnen und Gasgebühren bezahlen, um DYDX zu beanspruchen.
+Sobald die Transaktion abgeschlossen ist, können Händler ihre Handelsprämien [hier](https://dydx.community/dashboard) einfordern. Zur Inanspruchnahme von $DYDX müssen die Benutzer auf `Anfordern` klicken, eine Transaktion unterzeichnen und Gasgebühren entrichten.
 
 ![Portfolio-Übersicht der Rewards](../.gitbook/assets/1-portfolio-overview-rewards.png)
