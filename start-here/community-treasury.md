@@ -2,9 +2,15 @@
 description: Un aperçu du trésor de la communauté.
 ---
 
-# Trésor
+# Trésorerie communautaire
 
-`5,00 %` de l'approvisionnement initial en jetons (`50 000 000 DYDX`) seront distribués à un trésor communautaire pour être alloués de manière continue par le biais de subventions de contributeurs, d'initiatives communautaires, d'extraction de liquidités et d'autres programmes.
+`16,2`** `%` ** (`162 004 734 $DYDX`) de la réserve de jetons sont alloués de la trésorerie de la communauté **** et sont continuellement utilisés au titre des subventions des contributeurs, des initiatives de la communauté, de l'extraction de liquidité et d'autres programmes. Initialement, `5,0 %` de la réserve de jetons (`50 000 000 $DYDX`) ont été alloués à la trésorerie de la communauté. À chaque Epoch, 766 703 $DYDX y ont été investis. Actuellement, 2 492 731 $DYDX sont dévolus à la trésorerie de la communauté, suite aux trois propositions de gouvernance qui ont entraîné une augmentation de 1 726 028 $DYDX du montant de $DYDX disponible pour la communauté de dYdX à chaque Epoch :
+
+* [DIP 14](https://dydx.community/dashboard/proposal/7) - fixer les récompenses pour le jalonnement de l'USDC à 0 (383 562 $DYDX par époque),
+* [DIP 16](https://dydx.community/dashboard/proposal/8) - réduire les récompenses du trading de 25 % (958 904 $DYDX par époque), et
+* [DIP 17](https://dydx.community/dashboard/proposal/9) - fixer les récompenses pour le jalonnement de $DYDX à 0 (383 562 $DYDX par époque).
+
+
 
 **Objectifs**
 
@@ -14,15 +20,15 @@ description: Un aperçu du trésor de la communauté.
 
 ## Aperçu
 
-Le trésor communautaire conservera DYDX pour l'utiliser au gré des détenteurs de DYDX, que ce soit pour des subventions, de nouveaux pools de minage de liquidités ou tout autre programme. DYDX sera dévolu au trésor de la communauté sur une base continue pendant cinq ans. Un vote de gouvernance sera nécessaire pour dépenser tout DYDX du trésor de la communauté.
+La trésorerie de la communauté conservera des $DYDX qui pourront être utilisés au gré des détenteurs de $DYDX, que ce soit au titre de subventions, de nouveaux pools de minage de liquidités ou de tout autre programme. $DYDX sera dévolu à la trésorerie de la communauté de manière continue, pendant cinq ans. Toute dépense de $DYDX provenant de la trésorerie de la communauté devra être soumise à un vote de gouvernance.
 
-Si, après cinq ans, la gouvernance décide d'adopter une inflation perpétuelle (à une inflation annuelle maximale de `2 %`), tout DYDX nouvellement créé sera disponible pour le trésor de la communauté.
+Si, après cinq ans, la gouvernance décide d'adopter une inflation perpétuelle (à une inflation annuelle maximale de `2 %`), tout $DYDX nouvellement créé sera mis à la disposition de la trésorerie de la communauté.
 
 ## FAQ
 
-### Comment dYdX est-il investi dans la trésorerie de la communauté ?
+### Comment $DYDX est-il investi dans la trésorerie de la communauté ?
 
-Chaque seconde, le détenteur de la trésorerie de la communauté (voir les détails [ici](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)) investit [`0,3169242627`](tel:03169242627) dYdX à la trésorerie de la communauté. Une fois dYdX investi, appeler la fonction `réclamer` sur le détenteur de la trésorerie de la communauté transférera le dYdX investi à la trésorerie de la communauté. Tout dYdX peut appeler la fonction `réclamer` sur Etherscan [ici](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract) (qui nécessitera quelque ETH pour les frais de gaz) pour déplacer le dYdX investi du détenteur de la trésorerie de la communauté à la trésorerie de la communauté.
+Chaque seconde, le détenteur de la trésorerie de la communauté (voir les détails [ici](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)) investit [`0,3169242627`](tel:03169242627) $DYDX dans la trésorerie de la communauté. Une fois le $DYDX dévolu, l'utilisation de la fonction `claim` sur le détenteur de trésor de la communauté permettra de transférer le $DYDX dévolu à la trésorerie de la communauté. Tout membre de la communauté dYdX peut utiliser la fonction `claim` sur Etherscan [ici](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract) (qui nécessitera quelque ETH pour les frais de gaz) et déplacer ainsi le dYdX investi du détenteur de la trésorerie de la communauté à la trésorerie de la communauté.
 
 <figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
 
@@ -30,15 +36,15 @@ Chaque seconde, le détenteur de la trésorerie de la communauté (voir les dét
 
 Les membres de la communauté dYdX peuvent voir le solde investi de la trésorerie de la communauté[ici](https://dydx.shippooor.xyz/). \
 \
-De plus, dYdX Foundation publie le solde investi de la trésorerie de la communauté dans la [révision d'epoch](https://dydx.foundation/blog) à la fin de chaque epoch. En plus des dYdX investi dans la trésorerie de la communauté, cette dernière peut également accéder aux dYdX accumulés dans la trésorerie des récompenses en raison des votes visant (1) à réduire le trading des récompenses de 25 % (958 904 DYDX) et (2) à définir les récompenses pour le staking d'USDC à 0 (383 562 DYDX), et (3) fixer les récompenses pour le staking de DYDX à 0 (383 562 DYDX). À partir de l'époch 17, 1 726 028 DYDX seront accumulés dans la trésorerie des récompenses à chaque époch et pourront être utilisés par la communauté dYdX avec un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+De plus, dYdX Foundation publie le solde investi de la trésorerie de la communauté dans la [révision d'epoch](https://dydx.foundation/blog) à la fin de chaque epoch. En plus des $DYDX investis dans la trésorerie de la communauté, cette dernière peut également accéder aux $DYDX cumulés dans la trésorerie des récompenses suite aux votes visant (1) à réduire les récompenses de trading de 25 % (958 904 $DYDX) et (2) à fixer les récompenses de mise en réserve d'USDC à 0 (383 562 $DYDX), et (3) fixer les récompenses de mise en réserve de $DYDX à 0 (383 562 $DYDX). À partir de l'Epoch 17, 1 726 028 $DYDX seront placés dans la trésorerie des récompenses de chaque Epoch et pourront être utilisés par la communauté dYdX au moyen d'un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
-### Qui peut soumettre des propositions pour dépenser des jetons DYDX du trésor de la communauté ?
+### Qui peut déposer des propositions de dépense de $DYDX de la trésorerie de la communauté ?
 
-Tout utilisateur disposant d'un pouvoir de proposition suffisant peut soumettre des propositions. Un vote de gouvernance sera nécessaire pour dépenser tout DYDX du trésor de la communauté. Pour soumettre une proposition, veuillez soumettre une proposition d'amélioration dYdX (DIP) comme indiqué dans le [cycle de vie de la proposition DIP](../voting-and-governance/dip-proposal-lifecycle.md).
+Tout utilisateur disposant d'un pouvoir de proposition suffisant peut soumettre des propositions. Toute dépense de $DYDX provenant de la trésorerie de la communauté devra être soumise à un vote de gouvernance. Pour soumettre une proposition, veuillez soumettre une proposition d'amélioration dYdX (DIP) comme indiqué dans le [cycle de vie de la proposition DIP](../voting-and-governance/dip-proposal-lifecycle.md).
 
 ### Comment faire pour élaborer une proposition de dépense de fonds de la trésorerie communautaire ?
 
-Reverie a mis au point un guide complet, technique, étape par étape, sur la façon dont tout membre de la communauté dYdX disposant de plus de 5 millions de DYDX ([seuil de proposition](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters) pour un [vote de courte durée](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)) de pouvoir de proposition peut créer une proposition pour transférer des DYDX du Trésor communautaire vers une adresse de destination. Cliquez [ici](https://app.gitbook.com/o/-MeNgGQU0ucT2xo4s8-T/s/-MeNfSkgj48hU0q8Zbjn/\~/changes/EyisuFjLIyJ7K9RzaTfJ/technical-guide-on-building-a-dydx-community-treasury-spending-proposal) pour accéder au guide technique.
+Reverie a mis au point un guide technique complet, étape par étape, sur la façon dont tout membre de la communauté dYdX disposant d'un pouvoir de proposition de plus de 5 millions $DYDX ([seuil de proposition](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters) pour un [vote de courte durée](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)) peut créer une proposition et transférer des $DYDX de la trésorerie de la communauté vers une adresse de destination. Cliquez [ici](https://app.gitbook.com/o/-MeNgGQU0ucT2xo4s8-T/s/-MeNfSkgj48hU0q8Zbjn/\~/changes/EyisuFjLIyJ7K9RzaTfJ/technical-guide-on-building-a-dydx-community-treasury-spending-proposal) pour accéder au guide technique.
 
 ### Quels types de propositions peuvent être soumises au trésor de la communauté ?
 
