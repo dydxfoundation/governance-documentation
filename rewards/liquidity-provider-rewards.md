@@ -4,7 +4,7 @@ description: Likidite Sağlayıcı Ödülleri Programına genel bakış.
 
 # Likidite Sağlayıcı Ödülleri
 
-İlk token arzının %7,5'i (`75.000.000 DYDX`) likidite sağlayıcılara; piyasa yapıcı hacmi (maker volume), çalışma süresi (uptime), iki taraflı derinlik (two-sided depth), alış satış farkları (bid-ask spreads) ve desteklenen piyasaların sayısı parametrelerinden oluşan bir kombinasyonu ödüllendirecek şekilde belirlenen formüllere göre dağıtılacaktır.
+İlk token arzının %7,5'i (`75.000.000 $DYDX`) piyasa yapıcı hacmi (maker volume), çalışma süresi (uptime), iki taraflı derinlik (two-sided depth), alış satış farkları (bid-ask spreads) ve desteklenen piyasaların sayısı parametrelerinden oluşan bir kombinasyonu ödüllendirecek şekilde belirlenen formüllere göre likidite sağlayıcılara dağıtılacaktır.
 
 **Hedefler**
 
@@ -12,11 +12,11 @@ description: Likidite Sağlayıcı Ödülleri Programına genel bakış.
 
 ## **Genel bakış**
 
-Piyasa likiditesini teşvik etmek amacıyla likidite sağlayıcılara piyasalara katılımı, piyasa yapıcı hacmini, iki taraflı derinliği, (orta piyasaya kıyasla) fiyat farkını (spread) ve dYdX Katman 2 Protokolü üzerinde çalışma süresini (uptime) ödüllendirmek üzere belirlenen formüllere göre DYDX dağıtılacaktır. Herhangi bir Ethereum adresi bu ödülleri kazanabilir ve önceki dönemdeki piyasa yapıcı hacminin %0,25'i kadar bir minimum piyasa yapıcı eşiğine tabidir. DYDX beş yıl boyunca 28 günlük dönemler esasında dağıtılacak ve herhangi bir vesting veya kilitleme sürecine tabi tutulmayacaktır. Dönem başına 1.150.685 DYDX dağıtılacaktır.
+Piyasa likiditesini teşvik etmek amacıyla, likidite sağlayıcılara piyasalara katılımı, piyasa yapıcı hacmini, iki taraflı derinliği, (orta piyasaya kıyasla) fiyat farkını (spread) ve dYdX Katman 2 Protokolü üzerinde çalışma süresini (uptime) ödüllendiren formüllere göre $DYDX dağıtılacaktır. Herhangi bir Ethereum adresi bu ödülleri kazanabilir ve önceki dönemdeki piyasa yapıcı hacminin %0,25'i kadar bir minimum piyasa yapıcı eşiğine tabidir. $DYDX beş yıl boyunca 28 günlük dönemler bazında dağıtılacak ve herhangi bir hakediş (vesting) veya kilitleme sürecine tabi tutulmayacaktır. Dönem başına 1.150.685 $DYDX dağıtılacaktır.
 
-Her bir likidite sağlayıcıya dönem başına ne kadar DYDX'in ödül olarak verileceğini hesaplamak için aşağıdaki fonksiyonlar kullanılır. [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md)'te, dYdX topluluğu Likidite Sağlayıcı (LP) ödülleri formülünün, fonksiyonların BTC/ETH piyasaları ve BTC/EHT dışı piyasalar olarak ikiye ayrılması suretiyle revize edilmesi yönünde oy kullandı. [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md)'da dYdX topluluğu, 0.05 stkDYDX ağırlığının tekrar MakerVolume'a tahsis edilmesi yönünde oy kullandı.
+Her bir likidite sağlayıcıya dönem başına ne kadar $DYDX'in ödül olarak verileceğini hesaplamak için aşağıdaki fonksiyonlar kullanılır. [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md)'te, dYdX topluluğu Likidite Sağlayıcı (LP) ödülleri formülünün, fonksiyonların BTC/ETH piyasaları ve BTC/EHT dışı piyasalar olarak ikiye ayrılması suretiyle revize edilmesi yönünde oy kullandı. [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md)'da, dYdX topluluğu, MakerVolume'a 0,05 $stkDYDX ağırlığının tekrar tahsis edilmesi yönünde oy kullandı.
 
-Genel olarak, fonksiyonlarda hacmin ağırlığı tüm piyasalarda arttırıldı. Kazanılan DYDX miktarı her bir katılımcının $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​) miktarındaki göreli payıyla belirlenir.
+Genel olarak, fonksiyonlarda hacmin ağırlığı tüm piyasalarda arttırıldı. Kazanılan $DYDX miktarı her bir katılımcının $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​) miktarındaki payına göre belirlenir.
 
 <figure><img src="../.gitbook/assets/Updated LP Rewards Formulas.png" alt=""><figcaption></figcaption></figure>
 
@@ -49,11 +49,11 @@ Her piyasa, farklı bir ağırlık verilecek kendi ödül havuzuna sahip olacakt
 
 ### Likidite sağlayıcı ödüllerini kimler alabilir?
 
-Önceki dönemde dYdX Katman 2 Protokolü üzerindeki piyasa yapıcı hacminin en az %0,25 kadarına ulaşan tüm likidite sağlayıcıları söz konusu dönemde DYDX ödüllerini almaya hak kazanır.
+Önceki dönemde dYdX Katman 2 Protokolü üzerindeki piyasa yapıcı hacminin en az %0,25 kadarına ulaşan tüm likidite sağlayıcıları söz konusu dönemde $DYDX ödüllerini almaya hak kazanır.
 
 dYdX Katman 2 Protokolü, dYdX Trading Inc.'in [Kullanım Şartları](https://dydx.exchange/terms)'nda tanımlandığı üzere Amerika Birleşik Devletleri ve Kısıtlanmış Bölgelerdeki likidite sağlayıcılar tarafından kullanılamaz.
 
-### Likidite Sağlayıcı Ödülleri programında ne kadar DYDX kazandım?
+### Likidite Sağlayıcı Ödülleri programında ne kadar $DYDX kazandım?
 
 Belirli bir dönemde, likidite sağlayıcıları belirli bir işlem çifti piyasasındaki göreli $$Q_{SCORE}$$ değerlerine dayalı olarak getiri kazanır. Her bir işlem çifti, yönetişim tarafından belirlenen kendi göreli ödül miktarına sahiptir. Beklenen kazanılmış DYDX miktarı [LP Ödülleri Panosu](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true) üzerinde görüntülenir ve ilgili likidite sağlayıcıların sayısına, göreceli $$Q_{SCORE}$$ düzeyine ve söz konusu çift için geçerli uygun ödül miktarına göre belirlenebilir.
 
@@ -61,11 +61,11 @@ Belirli bir dönemde, likidite sağlayıcıları belirli bir işlem çifti piyas
 
 Likidite Sağlayıcı Ödülleri [dYdX API](https://docs.dydx.exchange/)'sinde açıklanır. Her ne kadar yönetişim kullanıcı arayüzünde açıklanmasa da her dönemin [sonunda](https://dydx.community/dashboard) yine de yönetişim yoluyla buradan alınabilirler.
 
-### Aldığım DYDX Likidite Sağlayıcı Ödüllerimi ne zaman çekebilir ve transfer edebilirim?
+### Aldığım $DYDX Likidite Sağlayıcı Ödüllerimi ne zaman çekebilir ve transfer edebilirim?
 
-Likidite Sağlayıcı Ödülleri aracılığıyla ödül olarak verilen DYDX token'ları ilk baştaki transfer kısıtlama süresi kaldırıldığında alınabilir ve transfer edilebilir.
+Likidite Sağlayıcı Ödülleri aracılığıyla ödül olarak verilen $DYDX token'ları ilk baştaki transfer kısıtlama süresi kaldırıldığında alınabilir ve transfer edilebilir.
 
-Dönem 1'den başlayarak, Likidite Sağlayıcı Ödülleri aracılığıyla ödül olarak verilen DYDX token'ları her dönem sona erdikten `7 gün` (**Bekleme Süresi**) sonra alınabilir.
+1. Dönemden başlayarak, Likidite Sağlayıcı Ödülleri aracılığıyla ödül olarak verilen $DYDX token'ları, her dönem sona erdikten `7 gün` (**Bekleme Süresi**) sonra alınabilir.
 
 ### İki taraflı derinlik, teklif-talep farkı ve çalışma süresi nasıl tanımlanıyor ve ölçülüyor?
 
