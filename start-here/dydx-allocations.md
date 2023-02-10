@@ -1,71 +1,102 @@
 ---
-description: DYDX token tahsisleri.
+description: $DYDX token için tahsisler.
 ---
 
 # Tahsisler
 
 **Tahsisler**
 
-Toplam `1.000.000.000 DYDX` çıkarılmış olup **3 Ağustos 2021 günü saat 18.00.00 (TSİ**) itibarıyla beş (5) yıl içerisinde bu token'lar erişilebilir hale gelecektir. İlk beş yıl zarfında DYDX'in toplam arzı aşağıdaki şekilde tahsis edilecektir:
+Toplam `1.000.000.000 $DYDX` basılmıştır ve bu tutar, **3 Ağustos 2021, TSİ 18.00.00** itibariyle beş (5) yıl içinde erişilebilir hâle gelecektir. Toplam $DYDX arzının ilk beş yıllık tahsisi aşağıdaki gibidir:
 
-* Aşağıdaki şekilde, topluluğa **%50,00** (`500.000.000 DYDX`):
-  * **%25,00** (`250.000.000 DYDX`), dYdX Katman 2 Protokolü üzerinde alım satım yapan kullanıcılara, ödenen ücretlere göre ([**Alım Satım Ödülleri**](../rewards/trading-rewards.md)). [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)'da, dYdX topluluğu alım satım ödüllerinin %25 oranında düşürülmesi yönünde [oy kullandı](https://dydx.community/dashboard/proposal/8). Sonuç olarak, Dönem 15'te belirli bir dönem için dağıtılan alım satım ödülleri 3.835.616 DYDX'ten 2.876.712 DYDX'e düşürülmüştür. Bakiye 958.904 DYDX, Ödül Hazinesinde tahakkuk edecek ve dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir.
-  * dYdX Katman 2 Protokolü üzerinde belirli alım satım eşiklerini tamamlayan geçmiş kullanıcılara **%7,50** (`75.000.000 DYDX`) ([**Geriye Dönük Madencilik Ödülleri**](../rewards/retroactive-mining-rewards.md)),
-  * Çalışma süresi (uptime), iki taraflı derinlik (two-sided depth), alış satış farkları (bid-ask spreads) ve desteklenen piyasaların sayısının bir kombinasyonunu ödüllendiren bir formüle dayalı olarak likidite sağlayıcılara **%7,50** (`75.000.000 DYDX`) ([**Likidite Sağlayıcı Ödülleri**](../rewards/liquidity-provider-rewards.md)),
-  * Bir topluluk hazinesine ([**Hazine**](community-treasury.md)) **%5,00** (`50.000.000 DYDX`),
-  * Bir likidite staking havuzunda ([**Likidite Modülü**](../staking-pools/liquidity-staking-pool.md)) USDC stake eden kullanıcılara **%2,50** (`25.000.000 DYDX`). [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)'te, dYdX topluluğu USDC staking ile ilgili ödülleri 0'a ayarlamak yönünde [oy kullandı](https://dydx.community/dashboard/proposal/7). Daha önce USDC stake edenlere dağıtılmış 383.562 DYDX, Ödül Hazinesinde tahakkuk edecek ve dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir.
-  * Bir güvenlik staking havuzunda ([**Güvenlik Modülü**](../staking-pools/safety-staking-pool.md)) DYDX stake eden kullanıcılara **%2,50** (`25.000.000 DYDX`),
-* Geçmiş yatırımcılara **%27,73** (277`.295.070 DYDX`),
-* dYdX Trading veya dYdX Vakfı'nın kurucuları, çalışanları, müşavirleri ve danışmanlarına **%15,27** (`152.704.930 DYDX`); ayrıca
-* dYdX Trading veya dYdX Vakfı'nın gelecekteki çalışanları ve danışmanlarına **%7,00** (`70.000.000 DYDX`).
+* Topluluğa aşağıdaki şekilde **%50,0** (`500.000.000 $DYDX`):
+  * [Trade Ödülleri Formülü](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)'ne göre **%25,0** (`250.000.000 $DYDX`),
+  * Katman 2 protokolünde belirli trade eşiklerini tamamlayan [geçmiş](https://docs.dydx.community/dydx-governance/rewards/retroactive-mining-rewards) kullanıcılara **%7,5** (`75.000.000 $DYDX`) (Geriye Dönük Madencilik Ödülleri),
+  * [Likidite Sağlayıcı Ödülleri Formül(ler)i](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards)'ne göre **%7,5** (`75.000.000 $DYDX`),
+  * Bir [Topluluk Hazinesi](https://docs.dydx.community/dydx-governance/start-here/community-treasury/)'ne **%5,0** (`50.000.000 $DYDX`),
+  * Bir [Likidite Staking Havuzu](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool)'na $USDC stake eden kullanıcılara **%2,5** (`25.000.000 $DYDX`),
+  * [Bir Güvenlik Staking Havuzu](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool)'na $DYDX stake eden kullanıcılara **%2,5** (`25.000.000 $DYDX`),
+* dYdX Trading Inc.'in geçmiş yatırımcılarına **%27,7** (`277.295.070 $DYDX`),
+* dYdX Trading Inc. veya dYdX Vakfı'nın kurucuları, çalışanları, danışmanları ve müşavirlerine **%15,3** (`152.704.930 $DYDX`) ve
+* dYdX Trading Inc. veya Vakfı'nın gelecekteki çalışanlarına ve danışmanlarına **%7,0** (`70.000.000 $DYDX`).
 
-![](../.gitbook/assets/1-dydx-allocations-initial-5-years.png)
+$DYDX piyasaya sürüldüğünden beri, ilk tahsiste değişikliklerle sonuçlanan birkaç yönetişim teklifi olmuştur. Şu anda, tahsis aşağıdakileri içermektedir:
 
-Lansmandan beş yıl sonra başlamak üzere, topluluğun Protokol'ün gelişimini ve büyümesini sürdürmeye yetecek kaynaklara sahip olmasını sağlamak amacıyla yönetişim tarafından yıllık `%2` oranında bir maksimum sürekli enflasyon oranı uygulanabilir. Enflasyon bir yönetişim teklifi aracılığıyla uygulamaya konmalı ve üst sınırı yıllık `%2` olmalıdır.
+* Topluluğa aşağıdaki şekilde **%50,0** (`500.000.000 $DYDX`):
+  * [Trade Ödülleri Formülü](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)'ne göre **%20,2** (`201.883.560 $DYDX`),
+    * [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)'da, dYdX topluluğu alım satım ödüllerinin %25 oranında düşürülmesi yönünde [oy kullandı](https://dydx.community/dashboard/proposal/8). Sonuç olarak, Dönem 15'te belirli bir dönem için dağıtılan alım satım ödülleri 3.835.616 $DYDX'ten 2.876.712 $DYDX'e düşürülmüştür. Kalan 958.904 $DYDX, Ödül Hazinesi'ne tahakkuk edecek ve dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir.
+  * dYdX Katman 2 Protokolü'nde belirli trade eşiklerini tamamlayan geçmiş kullanıcılara **%5,0** (`50.309.197 $DYDX`) ([Geriye Dönük Madencilik Ödülleri](../rewards/retroactive-mining-rewards.md)),
+    * Dönem 0'dan sonra, Geriye Dönük Madencilik ödülleri programından talep edilmeyen 24.690.803 $DYDX, Topluluk Hazinesi'ne transfer edilmiştir.
+  * [Likidite Sağlayıcı Ödülleri Formül(ler)i](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards)'ne göre **%7,5** (`75.000.000 $DYDX`),
+  * [Topluluk Hazinesi](https://docs.dydx.community/dydx-governance/start-here/community-treasury/)'ne ve [Ödül Hazinesi](https://docs.dydx.community/dydx-governance/start-here/rewards-treasury)'ne **%16,2** (`162.004.734 $DYDX`),
+  * Bir [Likidite Staking Havuzu](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool)'na $USDC stake eden kullanıcılara **%0,6** (`5.753.430 $DYDX`),
+    * [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)'te, dYdX topluluğu $USDC stake etme ile ilgili ödülleri 0'a ayarlama yönünde [oy kullanmıştır](https://dydx.community/dashboard/proposal/7). Daha önce USDC stake edenlere dağıtılmış olan 383.562 $DYDX, Ödül Hazinesi'ne tahakkuk edecek ve dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir.
+  * [Bir Güvenlik Staking Havuzu](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool)'na $DYDX stake eden kullanıcılara **%0,5** (`5.049.079 $DYDX`),
+    * [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md)'de, dYdX topluluğu $DYDX stake etme ile ilgili ödülleri 0'a ayarlama yönünde [oy kullanmıştır](https://dydx.community/dashboard/proposal/9). Daha önce $DYDX stake edenlere dağıtılmış olan 383.562 $DYDX, Ödül Hazinesi'ne tahakkuk edecek ve dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir.
+* dYdX Trading Inc.'in geçmiş yatırımcılarına **%27,7** (`277.295.070 DYDX`),
+* dYdX Trading Inc. veya dYdX Vakfı'nın kurucuları, çalışanları, müşavirleri ve danışmanlarına **%15,3** (`152.704.930 DYDX`); ve
+* dYdX Trading Inc. veya dYdX Vakfı'nın gelecekteki çalışanlarına ve danışmanlarına **%7,0** (`70.000.000 DYDX`).
 
-![](../.gitbook/assets/1-allocation-10-years-inflation.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-01-20 at 4.19.16 PM.png" alt=""><figcaption></figcaption></figure>
 
-Her ne kadar topluluk tahsisi yukarıda belirtilen şekilde tespit edilmiş olsa da DYDX sahipleri topluluk tahsisinin ileride nasıl kullanılacağı konusunda yönetişim yoluyla tam kontrol sahibidir.
+Lansmandan beş yıl sonra başlamak üzere, topluluğun Protokol'ün gelişimini ve büyümesini sürdürmeye yetecek kaynaklara sahip olmasını sağlamak amacıyla yönetişim yoluyla yıllık `%2` oranında bir maksimum sürekli enflasyon oranı uygulanabilir. Enflasyon bir yönetişim teklifi aracılığıyla uygulamaya konmalı ve üst sınırı yıllık `%2` olmalıdır.
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-01-20 at 4.19.21 PM.png" alt=""><figcaption></figcaption></figure>
+
+Her ne kadar topluluk tahsisi yukarıda belirtilen şekilde kabul edilmiş olsa da $DYDX sahipleri, topluluk tahsisinin ileride nasıl kullanılacağı konusunda yönetişim yoluyla tam kontrole sahiptir.
 
 ## **SSS**
 
-### DYDX tahsis yapısı değişebilir mi?
+### $DYDX tahsisi değiştirilebilir mi?
 
-Evet, dYdX topluluğu [lansmandaki tüm ödül ve havuzları](../voting-and-governance/governance-parameters.md) değiştirebilir. Şimdiye kadar, dYdX topluluğu alım satım ödüllerinin %25 oranında düşürülmesi ve USDC staking ödüllerinin 0'a ayarlanması yönünde oy kullandı.
+Evet, dYdX topluluğu [lansmandaki tüm ödül ve havuzları](../voting-and-governance/governance-parameters.md) değiştirebilir. Şimdiye kadar, dYdX topluluğu, trade ödüllerinin %25 azaltılması, $USDC stake etme ödülünün 0 olarak belirlenmesi ve $DYDX stake etme ödülünün 0 olarak belirlenmesi yönünde oy kullanmıştır.
 
-[DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)'da, dYdX topluluğu alım satım ödüllerinin %25 oranında düşürülmesi yönünde [oy kullandı](https://dydx.community/dashboard/proposal/8). Sonuç olarak, Dönem 15'te belirli bir dönem için dağıtılan alım satım ödülleri 3.835.616 DYDX'ten 2.876.712 DYDX'e düşürülmüştür. Bakiye 958.904 DYDX, Ödül Hazinesinde tahakkuk edecek ve dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir.\
+[DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)'da, dYdX topluluğu alım satım ödüllerinin %25 oranında düşürülmesi yönünde [oy kullandı](https://dydx.community/dashboard/proposal/8). Sonuç olarak, Dönem 15'te, belirli bir dönem için dağıtılan trade ödülleri 3.835.616 $DYDX'ten 2.876.712 $DYDX'e düşürülmüştür. Kalan 958.904 $DYDX, Ödül Hazinesi'ne tahakkuk edecek ve dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir.\
 \
-  [DIP 14'te,](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) dYdX topluluğu USDC staking ile ilgili ödülleri 0'a ayarlamak yönünde [oy kullandı](https://dydx.community/dashboard/proposal/7). Daha önce USDC stake edenlere dağıtılmış 383.562 DYDX, Ödül Hazinesinde tahakkuk edecek ve dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir.
+ [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)'te, dYdX topluluğu $USDC stake etme ile ilgili ödülleri 0'a ayarlama yönünde [oy kullanmıştır](https://dydx.community/dashboard/proposal/7). Daha önce $USDC stake edenlere dağıtılmış olan 383.562 $DYDX, Ödül Hazinesi'ne tahakkuk edecek ve dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir.
 
-### **Yeni DYDX token'ları çıkarılabilir mi?**
+[DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md)'de, dYdX topluluğu, $DYDX stake etme ile ilgili ödülleri 0'a ayarlama yönünde [oy kullanmıştır](https://dydx.community/dashboard/proposal/9). Daha önce $DYDX stake edenlere dağıtılmış olan 383.562 $DYDX, Ödül Hazinesi'ne tahakkuk edecek ve dYdX topluluğu tarafından [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) yoluyla kullanılabilecektir.
+
+### **Yeni $DYDX token'ları basılabilir mi?**
 
 Lansmandan beş yıl sonra başlamak üzere, topluluğun dYdX Katman 2 Protokolü'ne katkıda bulunmaya devam edebilecek kaynaklara sahip olmasını sağlamak amacıyla yıllık `%2` oranında bir maksimum sürekli enflasyon oranı kullanılabilir.
 
-**14 Temmuz 2026 günü saat 18.00.00'den (TSİ)** itibaren, dYdX yönetişimi yıllık `%2` oranındaki maksimum enflasyon oranına kadar her bir token çıkarma işleminde basılacak maksimum yeni token arzına karar verebilir. Her 365 günlük süre içinde yalnızca bir kez token basma işlemi yapılabilir. Yeni çıkarılan tüm token'lar yönetişim tarafından tahsis edilecek ve hemen elde edilecektir. Bunun ardından bu yeni çıkarılan token'lar belirtilen herhangi bir adrese gönderilebilir.
+**14 Temmuz 2026 günü saat 18.00.00'den (TSİ)** itibaren, dYdX yönetişimi yıllık `%2` oranındaki maksimum enflasyon oranına kadar her bir token çıkarma işleminde basılacak maksimum yeni token arzına karar verebilir. Her 365 günlük süre içinde yalnızca bir kez token basma işlemi yapılabilir. Yeni çıkarılan tüm $DYDX token'ları yönetişim yoluyla tahsis edilecek ve anında hak edilmiş olacaktır. Bunun ardından bu yeni çıkarılan token'lar belirtilen herhangi bir adrese gönderilebilir.
 
-### **Yatırımcılar, mevcut ve gelecekteki çalışanlar ve danışmanlara tahsis edilen DYDX'lerin kilitlenme süreci nasıldır?**
+### **Yatırımcılar, mevcut ve gelecekteki çalışanlar ve danışmanlara verilen $DYDX'lerin kilitlenme süreci nasıldır?**
 
-dYdX Trading ve dYdX Vakfı'nın hisse sahipleri, müdürleri, memurları, çalışanları ve danışmanlarına DYDX tahsis edilecektir. Bu taraflara dağıtılan tüm DYDX'ler, zincir dışı sözleşme hükümlerine ve aşağıda belirtilen şekilde bir zorunlu kilitlenme sürecine tabi olacaktır:
+İlk tahsisin bir kısmı şunlar için ayrılmıştır:
 
-* Lansmandan 18 ay sonra DYDX bakiyelerinin %30'unun kilidi açılacaktır;
-* 19. aydan 24. aya kadar %40'ının kilidi eşit bir oranda açılacaktır;
-* 25. aydan 36. aya kadar %20'sinin kilidi eşit bir oranda açılacaktır;
-* 37. aydan 48. aya kadar %10'unun kilidi eşit bir oranda açılacaktır.
+* dYdX Trading Inc.'in geçmiş yatırımcıları (%27,7),
+* dYdX Trading Inc. veya dYdX Vakfı'nın kurucuları, çalışanlar, danışmanları ve müşavirleri (%15,3) ve
+* dYdX Trading Inc. veya dYdX Vakfı'nın gelecekteki çalışanları ve danışmanları (%7,0).
 
-Tüm çalışanlar ve danışmanlar ayrıca DYDX üzerindeki haklarını kaybetmelerine neden olabilecek çeşitli vesting takvimlerine de tabi olacaktır. Bir çalışanın veya danışmanın DYDX alması Protokol'e ilişkin hizmetler veya Protokol'e fayda sağlayabilecek diğer hizmetlere dayalı değildir ve gelecekte de olmayacaktır. Bunun yerine, çalışanlar ve danışmanlar yalnızca dYdX Trading'e, dYdX Vakfı'na veya başka bir tarafa fayda sağlayan hizmetler için DYDX alabilir.
+dYdX Vakfı, 25 Ocak 2023 tarihinde, dYdX Trading Inc., dYdX Vakfı ve Token Satın Alma Garantileri'nin belirli taraflarının diğer şeylerin yanı sıra yatırımcı $DYDX token'ları için geçerli olan ilk çıkış tarihini 1 Aralık 2023 tarihine erteleme yönünde bir değişikliğe ("Değişiklik") imza attığını [açıklamıştır](https://dydx.foundation/blog/lock-up-extension).
 
-DYDX'lerin tabi olduğu herhangi bir kilitlenme sürecine bakılmaksızın, dYdX Trading'in veya dYdX Vakfı'nın yatırımcıları ve önceki çalışanları veya danışmanları teklif vermek, oy verme yetkisini devretmek ve Protokol'e ilişkin tekliflerde oy vermek için DYDX kullanabilir. dYdX Trading'in veya dYdX Vakfı'nın mevcut çalışanları ve danışmanları, ilk başta hiçbir teklif veremeyecek ve hiçbir oylamaya katılamayacaktır ancak gelecekte bunu yapmaları mümkün olabilir. dYdX Trading'in veya dYdX Vakfı'nın mevcut çalışanları ve danışmanları oylama sonuçlarını etkilemeye çalışmadan oy verme yetkilerini devredebilir.
+Yukarıda bahsedilen Değişiklik, İlk Kilit Açma Tarihi'nden sonra gerçekleşen aşamalı kilit açma sürecini değiştirmemektedir ve bu nedenle, Değişiklik uyarınca, ilgili Token'lar aşağıdaki şekilde transfer kısıtlamasından çıkarılacaktır:
 
-Tüm yatırımcıların dYdX Vakfı ile yapılan sözleşmelerin hükümleriyle getirilen transfer kısıtlamalarına uyması gerekmektedir. dYdX Vakfı, bu kısıtlamayı ihlal eden herhangi bir transferin yapılıp yapılmadığını belirlemek için cüzdan adreslerini izlemektedir.
+* (i) 1 Aralık 2023 tarihinde %30 (yeni İlk Kilit Açma Tarihi);
+* (ii) 1 Ocak 2024 ve 1 Haziran 2024 tarihleri arasında her ayın ilk gününde eşit aylık taksitler hâlinde %40;
+* (iii) 1 Temmuz 2024 ve 1 Haziran 2025 tarihleri arasında her ayın ilk gününde eşit aylık taksitler hâlinde %20; ve
+* (iv) 1 Temmuz 2025 ve 1 Haziran 2026 tarihleri arasında her ayın ilk gününde eşit aylık taksitler hâlinde %10.
 
-Her ne kadar yatırımcıların DYDX'lerini Güvenlik Modülünde stake etmesine teknik ve yasal olarak izin veriliyor olsa da bir Eksi Bakiyeye Düşme ve DYDX'te slashing (iptal) yaşanması durumunda yatırımcılar da herkes gibi slashing sürecine maruz kalır. Bu durumda, yükümlülüklerini yerine getirmemiş olurlar. Herkesin aynı pozisyonda olması için, yatırımcıların slashing sonucunda transfer edilen tüm token'ları tekrar satın alması gerekecektir. Bu nedenle, tüm yatırımcılardan staking'den kaçınmalarını ve şu anda Güvenlik Modülü'nde stake edilen tüm fonları çekme talebinde bulunmalarını rica ediyoruz.
+dYdX Trading Inc. ve dYdX Vakfı'nın çeşitli kurucuları, çalışanları, danışmanları ve müşavirleri Değişiklik'te ortaya konulan transfer kısıtlamasına da tabidir.
+
+Tüm çalışanlar ve danışmanlar ayrıca $DYDX üzerindeki haklarını kaybetmelerine neden olabilecek çeşitli hakediş (vesting) takvimlerine de tabi olacaktır. Bir çalışanın veya danışmanın $DYDX alması dYdX Protokolü ile ilgili hizmetlere veya Protokol'e fayda sağlayabilecek diğer hizmetlere dayalı değildir ve gelecekte de olmayacaktır. Bunun yerine, çalışanlar ve danışmanlar sadece dYdX Trading Inc., dYdX Vakfı veya başka bir tarafa fayda sağlayan hizmetler için $DYDX alabilir.
+
+$DYDX'in tabi olduğu herhangi bir kilitlenme sürecine bakılmaksızın, dYdX Trading Inc. veya dYdX Vakfı'nın yatırımcıları ve önceki çalışanları veya danışmanları teklif vermek, oy verme yetkisini devretmek veya dYdX Protokolü ile ilgili tekliflerde oy vermek için $DYDX kullanabilir. dYdX Trading Inc. veya dYdX Vakfı'nın mevcut çalışanları ve danışmanları başlangıçta hiçbir teklif veremeyecek ve hiçbir oylamaya katılamayacaktır ancak gelecekte bunu yapmaları mümkün olabilecektir. dYdX Trading Inc. veya dYdX Vakfı'nın mevcut çalışanları ve danışmanları oylama sonuçlarını etkilemeye çalışmadan oy verme yetkisini devredebilir.
+
+Tüm yatırımcıların dYdX Vakfı ve dYdX Trading Inc. ile yapılan sözleşmeler yoluyla uygulanan transfer kısıtlamasına uyması gerekir. dYdX Vakfı, bu kısıtlamayı ihlal eden herhangi bir transfer yapılıp yapılmadığını belirlemek için cüzdan adreslerini takip etmektedir.
 
 dYdX Vakfı, bu gerekliliklere uymayan yatırımcılara karşı yasal işlem başlatma amacında olduğunu ifade etmiştir.
 
-## DYDX'in likit arz eğrisi nedir?
+## $DYDX'in likit arz eğrisi nedir?
 
-Dönem 0'ın sona ermesinden `8 gün` sonra, 8 Eylül 2021 tarihinde, token üzerindeki ilk baştaki transfer kısıtlamaları kaldırılacak ve DYDX arzının yaklaşık %8,11'i likit hale gelecektir.
+8 Eylül 2021 tarihinde, Dönem 0'ın bitişinden `8 gün` sonra, token üzerindeki ilk transfer kısıtlamaları kaldırılmıştır.
 
-Aşağıdaki grafikte, zaman içerisindeki toplam likit arz gösterilmektedir:
+Aşağıdaki grafikte, enflasyon olmadan toplam likit arz gösterilmektedir:
 
-![](../.gitbook/assets/1-liquid-supply-schedule.png)
+<figure><img src="../.gitbook/assets/liquid-supply-total-issuance.png" alt=""><figcaption></figcaption></figure>
+
+Aşağıdaki grafikte, enflasyon ile toplam likit arz gösterilmektedir:
+
+<figure><img src="../.gitbook/assets/liquid-supply-total issuance-2%-inflation.png" alt=""><figcaption></figcaption></figure>
