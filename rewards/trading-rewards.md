@@ -4,7 +4,7 @@ description: Trading Ödülleri programına genel bakış.
 
 # Alım Satım Ödülleri
 
-İlk token arzının `%25,00`'i (`250.000.000 DYDX`) dYdX Katman 2 Protokolü üzerinde alım satım yapan kullanıcılara ödenen ücretlere göre dağıtılmak üzere tahsis edilmişti. [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)'da, dYdX topluluğu alım satım ödüllerinin %25 oranında düşürülmesi yönünde [oy kullandı](https://dydx.community/dashboard/proposal/8). Sonuç olarak belirli bir dönemde dağıtılan alım satım ödülleri Dönem 15'te 3.835.616 DYDX'ten 2.876.712 DYDX'e düşürüldü.
+Token arzının **`%`**`20,2`'si (`201.883.560 $DYDX`), dYdX Katman 2 Protokolü üzerinde işlem yapan kullanıcılara ödenen ücretlere bazında dağıtılmak üzere ayrılmıştır. Başlangıçta, token arzının `%25,0'i` (`250.000.000 DYDX`) trading ödülleri için ayrılmıştır. [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)'da, dYdX topluluğu, trading ödüllerini %25,0 indirme yönünde [oy kullanmıştır](https://dydx.community/dashboard/proposal/8). Sonuç olarak, trading ödülleri için ayrılan miktar `%25,0`'ten `%20,2`'ye düşmüştür. Belirli bir dönemde dağıtılan trading ödülleri Dönem 15'te 3.835.616 DYDX'ten 2.876.712 DYDX'e düşürülmüştür.
 
 **Hedefler**
 
@@ -15,9 +15,9 @@ description: Trading Ödülleri programına genel bakış.
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Belirli bir dönemde ödenen ücretler ve tahmini ödüller</p></figcaption></figure>
 
-DYDX token'ları yatırımcılara dYdX Katman 2 Protokolü üzerinde ödenen ücretlere göre dağıtılacaktır. DYDX, beş yıl boyunca 28 günlük dönemler esasında dağıtılacak ve herhangi bir vesting veya kilitleme sürecine tabi tutulmayacaktır. Dönem başına 2.876.712 DYDX dağıtılacaktır.
+$DYDX token'ları trader'lara dYdX Katman 2 Protokolü üzerinde ödenen ücretlere göre dağıtılacaktır. $DYDX, beş yıl boyunca 28 günlük dönemler esasında dağıtılacak ve herhangi bir hakediş (vesting) veya kilitleme sürecine tabi tutulmayacaktır. Dönem başına 2.876.712 $DYDX dağıtılacaktır.
 
-Topluluğun alım satım ödüllerinin %25 oranında 3.835.616 DYDX'ten 2.876.712 DYDX'e düşürülmesi yönünde oy kullanmasıyla birlikte, Ödül Hazinesi'nde tahakkuk eden bakiye 958.904 DYDX, dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilir/yönlendirilebilir.
+Topluluğun trading ödüllerinin %25 oranında azaltılarak 3.835.616 $DYDX'ten 2.876.712 $DYDX'e düşürülmesi yönünde oy kullanmasıyla birlikte, Ödül Hazinesi'nde tahakkuk eden 958.904 $DYDX bakiye, dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilir/yönlendirilebilir.
 
 <figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
@@ -38,7 +38,7 @@ $$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \, n=1,2...k $$
 
 ### Alım satım ödüllerini kimler alabilir?
 
-dYdX Katman 2 protokolündeki tüm yatırımcılar trading ödülleri olarak DYDX almaya hak kazanırlar.
+dYdX Katman 2 protokolündeki tüm trader'lar trading ödülü olarak $DYDX almaya hak kazanır.
 
 dYdX Katman 2 Protokolü, dYdX Trading Inc.'in [Kullanım Şartları](https://dydx.exchange/terms)'nda tanımlandığı üzere Amerika Birleşik Devletleri ve Kısıtlanmış Bölgelerdeki yatırımcılar tarafından kullanılamaz.
 
@@ -50,9 +50,9 @@ Mevcut dönemde kullanıcılar, kullanıcıların işlem verilerinin bulunduğu 
 
 Geçmiş dönemlerdeki ödüller [**dydx.community/history/reward**](https://dydx.community/history/rewards) adresinde görüntülenebilir**.**
 
-### Alım Satım Ödüllerimi nasıl alabilirim? Kazandığım DYDX'leri ne zaman çekebilir ve transfer edebilirim?
+### Alım Satım Ödüllerimi nasıl alabilirim? Kazandığım $DYDX'leri ne zaman çekebilir ve transfer edebilirim?
 
-Trading Ödülleri aracılığıyla kazanılan DYDX token'ları her dönemin sonunda transfer edilebilir. DYDX token sahiplerinin dönem sona erdikten sonra DYDX token'larını almak için yaklaşık `7 gün` (**Bekleme Süresi**) beklemeleri gerekir.
+Trading Ödülleri aracılığıyla kazanılan $DYDX token'ları her dönemin sonunda transfer edilebilir. $DYDX token sahiplerinin dönemin bitişinden sonra $DYDX token'larını almak için yaklaşık `7 gün` (**Bekleme Süresi**) beklemeleri gerekir.
 
 7 günlük bekleme süresi sonunda, herhangi bir topluluk üyesi DYDX ödüllerini talep edilebilir hale getirmek için [Merkle Distributor sözleşmesindeki](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) `updateRoot` parametresinde `Write` işlevini çağırabilir.
 
@@ -72,6 +72,6 @@ Adımlar:
 * 7 günlük bekleme süresi hala tamamlanmamıştır veya
 * Bir topluluk üyesi [Merkle Distributor sözleşmesindeki](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) `updateRoot` parametresini zaten başarıyla çağırmıştır.
 
-İşlem tamamlandıktan sonra, yatırımcılar Alım Satım Ödüllerini [buradan](https://dydx.community/dashboard) talep edebilirler. Kullanıcıların DYDX talep etmek için `Claim`'e tıklaması, bir işlem imzalaması ve gaz ücretlerini ödemesi gerekir.
+İşlem tamamlandıktan sonra, yatırımcılar Alım Satım Ödüllerini [buradan](https://dydx.community/dashboard) talep edebilirler. Kullanıcıların $DYDX talep etmek için `Claim` (Talep Et) üzerine tıklaması, bir işlem imzalaması ve gaz ücretlerini ödemesi gerekir.
 
 ![Ödüller için portföye genel bakış](../.gitbook/assets/1-portfolio-overview-rewards.png)
