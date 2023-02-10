@@ -15,9 +15,9 @@ Her dönemin sonunda şunlar gerçekleşir:
 
 Şunlar sadece **Dönem 0'ın** sonunda gerçekleşir:
 
-* Geriye Dönük Madencilik Ödülleri dağıtılır. Dönem 0'ın sona ermesinden yaklaşık `8 gün` sonra [**dydx.community**](https://dydx.community) sitesinde ödüller alınabilir.
-* DYDX transferleri ilk başta kısıtlanmıştır. İlk Baştaki Transfer Kısıtlama süresi Dönem 0'ın sona ermesinden yaklaşık `8 gün` sonra kaldırılacaktır.
-* **DYDX, 8 Eylül 2021 günü saat 18.00.00'den (TSİ) itibaren transfer edilebilir.**
+* Geriye Dönük Madencilik Ödülleri dağıtılır. Ödüller, Dönem 0'ın bitişinden yaklaşık `8 gün` sonra [**dydx.community**](https://dydx.community) sitesinde talep edilebilir.
+* $DYDX transferleri başlangıçta kısıtlıdır. İlk Transfer Kısıtlaması süresi Dönem 0'ın bitişinden yaklaşık `8 gün` sonra kaldırılmıştır.
+* **$DYDX 8 Eylül 2021 tarihinde TSİ 18.00'da transfer edilebilir hâle gelmiştir.**
 
 **Dönem 0**, **3 Ağustos 2021 günü saat 18.00.00'de (TSİ) başlayacaktır**. Aşağıdaki tabloda dönem başlangıç ve sona erme tarihleri verilmektedir (bu tarihler dYdX yönetişimi tarafından değiştirilebilir):
 
@@ -97,8 +97,8 @@ dYdX Vakfı, Dönemler ve Karartma Sürelerinin başlangıç​​/sona erme tar
 * [Geriye Dönük Madencilik Ödülleri](../rewards/retroactive-mining-rewards.md) şimdi Protokol üzerinde canlıya geçmiştir. Bu ödüller **31 Ağustos 2021 günü saat 18.00.00'e (TSİ)** kadar devam edecektir.
 * [Alım Satım Ödülleri](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md) şimdi Protokol üzerinde canlıya geçmiştir. Bu ödüller **3 Ağustos 2026 günü saat 18.00.00'e (TSİ)** kadar devam edecektir.
 * [Likidite Sağlayıcı Ödülleri](../rewards/liquidity-provider-rewards.md) şimdi Protokol üzerinde canlıya geçmiştir. Bu ödüller **3 Ağustos 2026 günü saat 18.00.00'e (TSİ)** kadar devam edecektir.
-* [Likidite Staking havuzu](../staking-pools/liquidity-staking-pool.md) şu anda Protokol üzerinde kullanıma açılmıştır. Bu havuz **2 Ağustos 2026 günü yaklaşık saat 18.00.00'e** (TSİ) (tam zaman damgası: 1785682798) kadar kullanıma açık olacaktır.
-* [Güvenlik Staking havuzu](../staking-pools/safety-staking-pool.md), dönem 0 sona erdikten birkaç gün sonra, transfer kısıtlamaları kaldırıldığında Protokol üzerinde otomatik olarak kullanıma açılacaktır. Bu havuz **7 Eylül 2026 günü yaklaşık saat 18.00.00'e** (TSİ) (tam zaman damgası: 1788793198) kadar kullanıma açık olacaktır.
+* [Likidite Staking havuzu](../staking-pools/liquidity-staking-pool.md) 29 Eylül 2022 tarihinde kapatılmıştır.
+* [Güvenlik Staking havuzu](../staking-pools/safety-staking-pool.md) 28 Kasım 2022 tarihinde kapatılmıştır.
 
 ## dYdX yönetişimi dönem takvimini değiştirebilir mi?
 
@@ -108,15 +108,15 @@ dYdX Vakfı, Dönemler ve Karartma Sürelerinin başlangıç​​/sona erme tar
 
 [Likidite Staking Havuzu](../staking-pools/liquidity-staking-pool.md) ve [Güvenlik Staking](../staking-pools/safety-staking-pool.md) Havuzu için, havuzdaki fonların kullanılabilirliği için öngörülebilirlik ve düzenli bir tempo sağlamak amacıyla çekim işlemleri için bir dönem takvimi uygulanmaktadır. Stake eden bir kişi, fonlarını o dönem sona erdikten sonra çekebilmek için karartma süresi başlamadan önce fonlarını staking'den çıkarma talebinde bulunmalıdır. Stake eden bir kişi eğer çekim talebinde bulunmazsa, bu kişinin stake edilen fonları bir sonraki döneme devredilir.
 
-Hem Likidite Staking Havuzu hem de Güvenlik Havuzu için önerilen karartma süresi `14 gündür`. dYdX yönetişimi belirtilen sınırlar dâhilinde karartma süresini değiştirmeyi oylayabilir. Minimum ve maksimum karartma süreleri sırasıyla `3 gün` ve `46 gündür`.
+Likidite Staking Havuzu ve Güvenlik Havuzu'nun her biri için tavsiye edilen karartma süresi `14 gündür`. [DIP 17](https://dydx.community/dashboard/proposal/9)'de, dYdX topluluğu, Karartma Süresi uzunluğunun `14 günden` `3 güne` düşürülmesi yönünde [oy kullanmıştır](https://dydx.community/dashboard/proposal/7). dYdX yönetişimi, karartma süresini belirtilen sınırlar dâhilinde değiştirmek için oylama yapabilir. Minimum ve maksimum karartma süreleri sırasıyla `3 gün` ve `46 gündür`.
 
 ## Kazandığım DYDX Ödüllerimi ne zaman çekebilir ve transfer edebilirim?
 
-[Geriye Dönük Madencilik Ödülleri](../rewards/retroactive-mining-rewards.md), [Alım Satım Ödülleri](../rewards/trading-rewards.md) ve [Likidite Sağlayıcı Ödülleri](../rewards/liquidity-provider-rewards.md) aracılığıyla kazanılan DYDX token'ları her dönemin sonunda transfer edilebilir. Dönem sona erdikten sonra token'larını alabilmek için DYDX sahiplerinin yaklaşık `7 gün` (**Bekleme Süresi**) beklemeleri gerekir. Token'lar alındıktan sonra transfer edilebilir veya dYdX yönetişimine delege edilebilir.
+[Geriye Dönük Madencilik Ödülleri](../rewards/retroactive-mining-rewards.md), [Alım Satım Ödülleri](../rewards/trading-rewards.md) ve [Likidite Sağlayıcı Ödülleri](../rewards/liquidity-provider-rewards.md) aracılığıyla kazanılan DYDX token'ları her dönemin sonunda transfer edilebilir. $DYDX sahiplerinin, dönemin bitişinden sonra token'larını talep etmek için yaklaşık `7 gün` (**Bekleme Süresi**) beklemeleri gerekir. Token'lar alındıktan sonra transfer edilebilir veya dYdX yönetişimine delege edilebilir.
 
-Likidite Staking havuzu ve Güvenlik Staking havuzu aracılığıyla kazanılan DYDX token'ları her blokta alınabilir ve ilgili dönem boyunca herhangi bir zamanda çekilebilir.
+Likidite Staking havuzu ve Güvenlik Staking havuzu aracılığıyla kazanılan $DYDX token'ları her blokta talep edilebilir ve ilgili dönem boyunca herhangi bir zamanda çekilebilir.
 
-Dönem 0'ın sona ermesinden 8 gün sonra, **8 Eylül 2021 günü saat 18.00.00'de** ilk baştaki transfer kısıtlamaları otomatik olarak kaldırılacak ve DYDX arzının yaklaşık **%8,11'i** likit hale gelecektir.
+Dönem 0'ın bitişinden 8 gün **sonra, 8 Eylül 2021 günü TSİ saat 18.00'de** ilk transfer kısıtlamaları otomatik olarak kaldırılacak ve $DYDX arzının yaklaşık **%8,11'i** likit hâle gelecektir.
 
 ## Bekleme Süresinin amacı nedir? Her dönemin sonunda ödüller nasıl saklanır?
 
