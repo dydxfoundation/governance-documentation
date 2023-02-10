@@ -9,7 +9,7 @@
 * [Tahsisler](start-here/dydx-allocations.md)
 * [Dönemler](start-here/epochs.md)
 * [Ücret İndirimleri](start-here/trading-fee-discount.md)
-* [Hazine](start-here/community-treasury.md)
+* [Topluluk Hazinesi](start-here/community-treasury.md)
 * [Ödül Hazinesi](start-here/rewards-treasury.md)
 
 ## Ödüller
