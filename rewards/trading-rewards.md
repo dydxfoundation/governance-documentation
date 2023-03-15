@@ -7,7 +7,7 @@ description: Overview of the Trading Rewards program.
 `20.2`**`%` ** (`201,883,560 $DYDX`) of the token supply is allocated to be distributed to users who trade on the dYdX Layer 2 Protocol based on fees paid. Initially, `25.0%` of the token supply (`250,000,000 $DYDX`) was allocated for trading rewards.&#x20;
 
 * In [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/8) to reduce trading rewards by 25.0%. As a result, the allocation for trading rewards decreased from `25.0%` to `20.2%`.&#x20;
-* In [DIP20](https://dydx.community/dashboard/proposal/11), the dYdX community [voted](https://dydx.community/dashboard/proposal/11) to reduce trading rewards by a further 45.0%. As a result, the allocation for trading rewards decreased from `20.2%` to `14.47%`.&#x20;
+* In [DIP20](https://dydx.community/dashboard/proposal/11), the dYdX community [voted](https://dydx.community/dashboard/proposal/11) to reduce trading rewards by a further 45.0%. As a result, the allocation for trading rewards decreased from `20.2%` to `14.5%`.&#x20;
 
 Trading rewards distributed in a given epoch were reduced from 3,835,616 $DYDX to 2,876,712 $DYDX in Epoch 15, and from 2,876,712 $DYDX to 1,582,192 $DYDX in Epoch 21.
 
