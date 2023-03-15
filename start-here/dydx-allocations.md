@@ -22,12 +22,12 @@ A total of `1,000,000,000 $DYDX` have been minted, and will become accessible ov
 Since the launch of $DYDX, there have been several governance proposals that have resulted in changes to the initial allocation. Currently, the allocation includes:
 
 * **50.0%** (`500,000,000 $DYDX`) to the community as follows:
-  * **20.2%** (`201,883,560 $DYDX`) based on the [Trading Rewards Formula](https://docs.dydx.community/dydx-governance/rewards/trading-rewards),&#x20;
-    * In [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/8) in support of reducing trading rewards by 25%. As a result, trading rewards distributed in a given epoch were reduced from 3,835,616 $DYDX to 2,876,712 DYDX in Epoch 15. The remaining 958,904 $DYDX will accrue in the Rewards Treasury and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+  * **14.5%** (`144,693,506 $DYDX`) based on the [Trading Rewards Formula](https://docs.dydx.community/dydx-governance/rewards/trading-rewards),&#x20;
+    * In [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) and [DIP 20](https://dydx.community/dashboard/proposal/11), the dYdX community voted to reduce trading rewards by a total of 2.3M $DYDX. (958,904 $DYDX from DIP16 and 1,294,520 $DYDX from DIP20). The 2.3M $DYDX will accrue in the Rewards Treasury and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
   * **5.0%** (`50,309,197 $DYDX`) to past users who complete certain trading milestones on the dYdX Layer 2 Protocol ([Retroactive Mining Rewards](../rewards/retroactive-mining-rewards.md)),
     * After Epoch 0, 24,690,803 unclaimed $DYDX  from the Retroactive Mining rewards program were transferred to the Community Treasury.
   * **7.5%** (`75,000,000 $DYDX`) based on the [Liquidity Provider Rewards Formula(s)](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards),
-  * **16.2%** (`162,004,734 $DYDX`) to the [Community Treasury](https://docs.dydx.community/dydx-governance/start-here/community-treasury/) and [Rewards Treasury](https://docs.dydx.community/dydx-governance/start-here/rewards-treasury),
+  * **21.9%** (`219,194,788 $DYDX`) to the [Community Treasury](https://docs.dydx.community/dydx-governance/start-here/community-treasury/) and [Rewards Treasury](https://docs.dydx.community/dydx-governance/start-here/rewards-treasury),
   * **0.6%** (`5,753,430 $DYDX`) to users staking $USDC to a [Liquidity Staking Pool](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool),
     * In [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/7) to set the rewards associated with staking $USDC to 0. The 383,562 $DYDX previously distributed to USDC stakers will accrue in the Rewards Treasury and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
   * **0.5%** (`5,049,079 $DYDX`) to users staking $DYDX to a [Safety Staking Pool](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool),
@@ -36,11 +36,11 @@ Since the launch of $DYDX, there have been several governance proposals that hav
 * **15.3%** (`152,704,930 DYDX`) to founders, employees, advisors, and consultants of dYdX Trading Inc. or dYdX Foundation, and
 * **7.0%** (`70,000,000 DYDX`) to future employees and consultants of dYdX Trading Inc. or the dYdX Foundation.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-20 at 4.19.16 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.13 PM.png" alt=""><figcaption></figcaption></figure>
 
 Starting five years after launch, a maximum perpetual inflation rate of `2%` per year may be utilized by governance to increase the supply of $DYDX, ensuring the community has the resources to continue the development and growth of the Protocol. Inflation must be enacted via a governance proposal and is capped at `2%` per year.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-20 at 4.19.21 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.07 PM.png" alt=""><figcaption></figcaption></figure>
 
 Although the community allocation has been established as laid out above, $DYDX holders have full control via governance over how the community allocation is used going forward.
 
