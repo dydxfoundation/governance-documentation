@@ -4,7 +4,12 @@ description: 거래 보상 프로그램 개요
 
 # 거래 보상
 
-토큰 공급량의 `20.2`**`%` ** (`201,883,560 $DYDX`)는 지불된 수수료를 기준으로 dYdX 레이어 2 프로토콜에서 거래하는 사용자에게 분배되도록 할당됩니다. 처음에는 토큰 공급량의 `25.0%`(`250,000,000 DYDX`)가 거래 보상을 위해 할당되었습니다. [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)에서 dYdX 커뮤니티는 거래 보상을 25.0% 줄이는 것을 지지하는 [투표를 했습니다](https://dydx.community/dashboard/proposal/8). 그 결과, 거래 보상을 위한 할당은 `25.0%`에서 `20.2%`로 감소했습니다. 주어진 에폭에 배포된 거래 보상은 에폭 15에서 3,835,616 DYDX에서 2,876,712 DYDX로 감소했습니다.
+토큰 공급량의 `20.2`**`%` ** (`201,883,560 $DYDX`)는 지불된 수수료를 기준으로 dYdX 레이어 2 프로토콜에서 거래하는 사용자에게 분배되도록 할당됩니다. 처음에는 토큰 공급량의 `25.0%`(`250,000,000 DYDX`)가 거래 보상을 위해 할당되었습니다.
+
+* [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)에서 dYdX 커뮤니티는 거래 보상을 25.0% 감소시키기로 [결정했습니다](https://dydx.community/dashboard/proposal/8). 그 결과, 거래 보상을 위한 할당은 `25.0%`에서 `20.2%`로 감소했습니다.
+* [DIP20](https://dydx.community/dashboard/proposal/11)에서 dYdX 커뮤니티는 거래 보상을 45.0% 더 감소시키기로 [결정했습니다](https://dydx.community/dashboard/proposal/11). 그 결과, 거래 보상을 위한 할당은 `20.2%`에서 `14.5%`로 감소했습니다.
+
+주어진 에폭에 배포된 거래 보상은 에폭 15에서 3,835,616 $DYDX에서 2,876,712 DYDX로 감소했으며, 에폭 21에서는 2,876,712 $DYDX에서 1,582,192 $DYDX로 감소했습니다.
 
 **목표**
 
@@ -15,9 +20,9 @@ description: 거래 보상 프로그램 개요
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>특정 에폭에서 지불한 수수료 및 예상 보상</p></figcaption></figure>
 
-$DYDX는 dYdX 레이어 2 프로토콜에서 지불한 수수료를 기반으로 거래자에게 배포됩니다. $DYDX는 5년 동안 28일 순환을 기준으로 배포될 예정이며 모든 베스팅 또는 락업에서 제외됩니다. 2,876,712 $DYDX는 에폭당 배포됩니다.
+$DYDX는 dYdX 레이어 2 프로토콜에서 지불한 수수료를 기반으로 거래자에게 배포됩니다. $DYDX는 5년 동안 28일 순환을 기준으로 배포될 예정이며 모든 베스팅 또는 락업에서 제외됩니다. 1,582,192 $DYDX가 에폭당 배포됩니다.
 
-커뮤니티가 투표를 통해 3,835,616 $DYDX에서 2,876,712 $DYDX로 거래 보상을 25% 낮추기로 결정함에 따라 보상 트레저리에 축적된 잔여 958,904 $DYDX는 dYdX 커뮤니티에서 [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 사용/관리할 수 있습니다.
+커뮤니티가 [DIP16](https://dydx.community/dashboard/proposal/8)에서 거래 보상을 958,904 $DYDX로 25% 감소하고, [DIP20](https://dydx.community/dashboard/proposal/11)에서 1,294,520 $DYDX를 45% 추가로 감소시키며, 나머지 2,253,424 DYDX는 보상을 통해 보상금으로 축적되어 dYdX 커뮤니티가 [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 사용/지시할 수 있습니다.
 
 <figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
