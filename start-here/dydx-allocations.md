@@ -22,12 +22,12 @@ Toplam `1.000.000.000 $DYDX` basılmıştır ve bu tutar, **3 Ağustos 2021, TS�
 $DYDX piyasaya sürüldüğünden beri, ilk tahsiste değişikliklerle sonuçlanan birkaç yönetişim teklifi olmuştur. Şu anda, tahsis aşağıdakileri içermektedir:
 
 * Topluluğa aşağıdaki şekilde **%50,0** (`500.000.000 $DYDX`):
-  * [Trade Ödülleri Formülü](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)'ne göre **%20,2** (`201.883.560 $DYDX`),
-    * [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)'da, dYdX topluluğu alım satım ödüllerinin %25 oranında düşürülmesi yönünde [oy kullandı](https://dydx.community/dashboard/proposal/8). Sonuç olarak, Dönem 15'te belirli bir dönem için dağıtılan alım satım ödülleri 3.835.616 $DYDX'ten 2.876.712 $DYDX'e düşürülmüştür. Kalan 958.904 $DYDX, Ödül Hazinesi'ne tahakkuk edecek ve dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir.
+  * **%14,5** (`144.693.506 $DYDX`) [Alım-Satım Ödülleri Formülü](https://docs.dydx.community/dydx-governance/rewards/trading-rewards) temel alınarak,
+    * [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) ve [DIP 20](https://dydx.community/dashboard/proposal/11)'de, dYdX topluluğu, alım-satım ödüllerini toplam 2,3 Milyon $DYDX azaltma yönünde oy kullandı. (DIP16'dan 958.904 $DYDX ve DIP20'den 1.294.520 $DYDX). 2,3 Milyon $DYDX, Ödül Hazinesi'ne tahakkuk ettirilecek ve dYdX topluluğu tarafından, [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir.
   * dYdX Katman 2 Protokolü'nde belirli trade eşiklerini tamamlayan geçmiş kullanıcılara **%5,0** (`50.309.197 $DYDX`) ([Geriye Dönük Madencilik Ödülleri](../rewards/retroactive-mining-rewards.md)),
     * Dönem 0'dan sonra, Geriye Dönük Madencilik ödülleri programından talep edilmeyen 24.690.803 $DYDX, Topluluk Hazinesi'ne transfer edilmiştir.
   * [Likidite Sağlayıcı Ödülleri Formül(ler)i](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards)'ne göre **%7,5** (`75.000.000 $DYDX`),
-  * [Topluluk Hazinesi](https://docs.dydx.community/dydx-governance/start-here/community-treasury/)'ne ve [Ödül Hazinesi](https://docs.dydx.community/dydx-governance/start-here/rewards-treasury)'ne **%16,2** (`162.004.734 $DYDX`),
+  * **%21,9** (`219.194.788 $DYDX`) [Topluluk Hazinesine](https://docs.dydx.community/dydx-governance/start-here/community-treasury/) ve [Ödül Hazinesine](https://docs.dydx.community/dydx-governance/start-here/rewards-treasury),
   * Bir [Likidite Staking Havuzu](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool)'na $USDC stake eden kullanıcılara **%0,6** (`5.753.430 $DYDX`),
     * [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)'te, dYdX topluluğu $USDC stake etme ile ilgili ödülleri 0'a ayarlama yönünde [oy kullanmıştır](https://dydx.community/dashboard/proposal/7). Daha önce USDC stake edenlere dağıtılmış olan 383.562 $DYDX, Ödül Hazinesi'ne tahakkuk edecek ve dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir.
   * [Bir Güvenlik Staking Havuzu](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool)'na $DYDX stake eden kullanıcılara **%0,5** (`5.049.079 $DYDX`),
@@ -36,11 +36,11 @@ $DYDX piyasaya sürüldüğünden beri, ilk tahsiste değişikliklerle sonuçlan
 * dYdX Trading Inc. veya dYdX Vakfı'nın kurucuları, çalışanları, müşavirleri ve danışmanlarına **%15,3** (`152.704.930 DYDX`); ve
 * dYdX Trading Inc. veya dYdX Vakfı'nın gelecekteki çalışanlarına ve danışmanlarına **%7,0** (`70.000.000 DYDX`).
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-20 at 4.19.16 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.13 PM.png" alt=""><figcaption></figcaption></figure>
 
 Lansmandan beş yıl sonra başlamak üzere, topluluğun Protokol'ün gelişimini ve büyümesini sürdürmeye yetecek kaynaklara sahip olmasını sağlamak amacıyla yönetişim yoluyla yıllık `%2` oranında bir maksimum sürekli enflasyon oranı uygulanabilir. Enflasyon bir yönetişim teklifi aracılığıyla uygulamaya konmalı ve üst sınırı yıllık `%2` olmalıdır.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-20 at 4.19.21 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.07 PM.png" alt=""><figcaption></figcaption></figure>
 
 Her ne kadar topluluk tahsisi yukarıda belirtilen şekilde kabul edilmiş olsa da $DYDX sahipleri, topluluk tahsisinin ileride nasıl kullanılacağı konusunda yönetişim yoluyla tam kontrole sahiptir.
 
