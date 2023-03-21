@@ -22,12 +22,12 @@ Um mint no total de `1.000.000.000 $DYDX` foi realizado e ficará acessível por
 Desde o lançamento da $DYDX, houve várias propostas de governança que resultaram em alterações na alocação inicial. Atualmente, a alocação inclui:
 
 * **50,0%** (`500.000.000 $DYDX`) para a comunidade da seguinte forma:
-  * **20,2%** (`201.883.560 $DYDX`) com base na [fórmula de recompensas de trading](https://docs.dydx.community/dydx-governance/rewards/trading-rewards),
-    * No [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/8) pela redução das recompensas de trading em 25%. Como resultado, as recompensas de trading distribuídas em uma determinada epoch foram reduzidas de 3.835.616 $DYDX para 2.876.712 $DYDX na epoch 15. O saldo de 958.904 $DYDX será acumulado no Tesouro de Recompensas e poderá ser usado pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+  * **14,5%** (`144.693.506 $DYDX`) com base na [Fórmula de recompensas de trading](https://docs.dydx.community/dydx-governance/rewards/trading-rewards),
+    * No [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) e no [DIP 20](https://dydx.community/dashboard/proposal/11), a comunidade dYdX votou pela redução de recompensas de trading em um total de 2,3M $DYDX. (958.904 $DYDX de DIP16 e 1.294.520 $DYDX de DIP20). Os 2,3M $DYDX serão acumulados no Tesouro de Recompensas e podem ser usados pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
   * **5,0%** (`50.309.197 $DYDX`) para usuários antigos que concluírem certos objetivos de trading no protocolo dYdX Layer 2 ([Recompensas de mineração retroativas](../rewards/retroactive-mining-rewards.md)),
     * Após a epoch 0, 24.690.803 $DYDX não reivindicados do programa de recompensas de mineração retroativa foram transferidos para o Tesouro da Comunidade.
   * **7,5%** (`75.000.000 $DYDX`) com base nas fórmulas [de recompensas de provedores de liquidez](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards),
-  * **16,2%** (`162.004.734 $DYDX`) para o [Tesouro da Comunidade](https://docs.dydx.community/dydx-governance/start-here/community-treasury/) e [Tesouro de Recompensas](https://docs.dydx.community/dydx-governance/start-here/rewards-treasury),
+  * **21,9%** (`219.194.788 $DYDX`) para o [Tesouro da Comunidade](https://docs.dydx.community/dydx-governance/start-here/community-treasury/) e [Tesouro de Recompensas](https://docs.dydx.community/dydx-governance/start-here/rewards-treasury),
   * **0,6%** (`5.753.430 $DYDX`) para usuários fazendo staking de $USDC em um pool de [staking de liquidez](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool),
     * No [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/7) pela definição das recompensas associadas ao $USDC em staking para 0. O valor 383.562 $DYDX anteriormente distribuído para stakers de USDC ficará acumulado no Tesouro de Recompensas e poderá ser usado pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
   * **0,5%** (`5.049.079 $DYDX`) para usuários fazendo staking de $DYDX em um pool de [staking de segurança](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool),
@@ -36,11 +36,11 @@ Desde o lançamento da $DYDX, houve várias propostas de governança que resulta
 * **15,3%** (`152.704.930 DYDX`) para fundadores, funcionários, conselheiros e assessores da dYdX Trading Inc. ou dYdX Foundation, e
 * **7,0%** (`70.000.000 DYDX`) para futuros funcionários e consultores da dYdX Trading Inc. ou dYdX Foundation.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-20 at 4.19.16 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.13 PM.png" alt=""><figcaption></figcaption></figure>
 
 A partir de cinco anos após o lançamento, uma taxa de inflação perpétua máxima de `2%` ao ano poderá ser usada pela governança para aumentar o fornecimento de $DYDX, garantindo que a comunidade tenha recursos para continuar o desenvolvimento e o crescimento do protocolo. A inflação deve ser promulgada por meio de uma proposta da governança, ficando limitada a `2%` ao ano.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-20 at 4.19.21 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.07 PM.png" alt=""><figcaption></figcaption></figure>
 
 Embora a alocação da comunidade tenha sido estabelecida como exposta acima, os detentores de tokens $DYDX têm total controle acerca da alocação da comunidade para usos futuros por meio da governança.
 
