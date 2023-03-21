@@ -4,7 +4,12 @@ description: Visão geral do programa de recompensas de trades.
 
 # Recompensas de trades
 
-`20,2`**`%` ** (`201.883.560 $DYDX`) do fornecimento de token é alocado para distribuição a usuários que fazem trades no protocolo dYdX Layer 2 com base em taxas pagas. Inicialmente, `25,0%` do fornecimento de token (`250.000.000 dYdX`) foram alocados para recompensas de trades. No [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/8) em apoio à redução de recompensas de trading de 25,0%. Como resultado, a alocação para recompensas de trading diminuiu de `25,0%` para `20,2%`. As recompensas de trading distribuídas em uma determinada epoch foram reduzidas de 3.835.616 DYDX para 2.876.712 DYDX na epoch 15.
+`20,2`**`%` ** (`201.883.560 $DYDX`) do fornecimento de token é alocado para distribuição a usuários que fazem trades no protocolo dYdX Layer 2 com base em taxas pagas. Inicialmente, `25,0%` do fornecimento de token (`250.000.000 $DYDX`) foram alocados para recompensas de trades.
+
+* No [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/8) pela redução de recompensas de trades em 25,0%. Como resultado, a alocação para recompensas de trading diminuiu de `25,0%` para `20,2%`.
+* No [DIP20](https://dydx.community/dashboard/proposal/11), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/11) pela redução de recompensas de trading em mais 45,0%. Como resultado, a alocação para recompensas de trading diminuiu de `20,2%` para `14,5%`.
+
+As recompensas de trading distribuídas em uma determinada epoch foram reduzidas de 3.835.616 $DYDX para 2.876.712 $DYDX em Epoch 15 e de 2.876.712 $DYDX para 1.582.192 $DYDX em Epoch 21.
 
 **Objetivos**
 
@@ -15,9 +20,9 @@ description: Visão geral do programa de recompensas de trades.
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Taxas pagas e recompensas estimadas em uma determinada época</p></figcaption></figure>
 
-Os tokens $DYDX serão distribuídos para os traders com base nas taxas pagas no protocolo da Camada 2 da dYdX. Os tokens $DYDX serão distribuídos dentro de um ciclo de 28 dias ao longo de um período de cinco anos, não estando sujeitos a vesting ou bloqueios. 2.876.712 $DYDX serão distribuídos por epoch.
+Os tokens $DYDX serão distribuídos para os traders com base nas taxas pagas no protocolo da Camada 2 da dYdX. Os tokens $DYDX serão distribuídos dentro de um ciclo de 28 dias ao longo de um período de cinco anos, não estando sujeitos a vesting ou bloqueios. Serão distribuídos 1.582.192 $DYDX por epoch.
 
-Com a votação da comunidade pela redução das recompensas de trading em 25%, indo de 3.835.616 $DYDX para 2.876.712 $DYDX, o saldo de 958.904 $DYDX que se acumula no Tesouro de Recompensas poderá ser usado/direcionado pela comunidade dYdX com o [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+Com a votação da comunidade para seguir com uma redução de 25% nas recompensas de trading em 958.904 $DYDX em [DIP16](https://dydx.community/dashboard/proposal/8) e mais 45% em 1.294.520 $DYDX em [DIP20](https://dydx.community/dashboard/proposal/11), os 2.253.424 $DYDX restantes acumulados no Tesouro de Recompensas podem ser usados/direcionados pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
 <figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
