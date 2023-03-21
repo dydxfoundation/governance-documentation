@@ -6,7 +6,17 @@ description: 奖励资金库概述。
 
 ## 概述
 
-由于以下投票的结果：（1）将交易奖励减少 25%（958,904 个 $DYDX），（2）将质押 $USDC 的奖励设置为 0（383,562 个 $DYDX），(3) 将质押 $DYDX 的奖励设置为 0 (383,562 $DYDX)，因此除了社区资金库中已归属的 $DYDX 之外，dYdX 社区还可以获得奖励资金库中所累积的 $DYDX。从时段 17 开始，每个时段将在奖励资金库中积累 1,726,028 $DYDX，并可由 dYdX 社区通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。\
+除了分配在社区资金库中的 DYDX 之外，dYdX 社区还可以通过下列投票获得奖励资金库中积累的 $DYDX：
+
+(1) 将交易奖励减少 25% (958,904 $DYDX)，
+
+(2) 将质押奖励 $USDC 设置为 0 (383,562 $DYDX)，
+
+(3) 将质押奖励 $DYDX 设置为 0 (383,562 $DYDX)，并且
+
+(4) 将交易奖励再减少 45% (1,294,520 $DYDX)。
+
+从 21 时段开始，奖励资金库中每时段将积累 3,020,548 $DYDX，并可通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)由 dYdX 社区使用。\
 
 
 ## 常见问题解答
@@ -15,7 +25,7 @@ description: 奖励资金库概述。
 
 dYdX 社区成员可以在[此处](https://dydx.shippooor.xyz/)查看社区资金库的归属结余。 \
 \
-此外，在每个时段结束时，dYdX 基金会都会在[时段回顾](https://dydx.foundation/blog)中公布社区资金库的累积结余。由于以下投票的结果：（1）将交易奖励减少 25%（958,904 个 $DYDX），（2）将质押 $USDC 的奖励设置为 0（383,562 个 $DYDX），(3) 将质押 $DYDX 的奖励设置为 0 (383,562 $DYDX)，因此除了社区资金库中已归属的 $DYDX 之外，dYdX 社区还可以获得奖励资金库中所累积的 $DYDX。从时段 17 开始，每个时段将在奖励资金库中积累 1,726,028 $DYDX，并可由 dYdX 社区通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。
+此外，在每个时段结束时，dYdX 基金会都会在[时段回顾](https://dydx.foundation/blog)中公布社区资金库的累积结余。
 
 ### 谁可以提交奖励资金库 $DYDX 代币的支出提案？
 
