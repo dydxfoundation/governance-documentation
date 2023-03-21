@@ -4,7 +4,12 @@ description:  取引報酬プログラムの概要。
 
 # 取引報酬
 
-`20.2`**`%` ** (`201,883,560 $DYDX`) のトークンサプライは、dYdXレイヤ2プロトコルで取引するユーザーに支払い料金に応じて分配するために割り当てられます。当初、取引報酬にトークン供給の`25.0%`（`2億5000万DYDX`）が割り当てられました。[DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)では、dYdXコミュニティは取引報酬を25.0%削減することに賛[成しました](https://dydx.community/dashboard/proposal/8)。その結果、取引報酬の割り当ては`25.0%`から`20.2%`に減少しました。所定のエポックで配布された取引報酬は、エポック15で3835,61dYdXから2876,71dYdXに減少しました。
+`20.2`**`%` ** (`201,883,560 $DYDX`) のトークンサプライは、dYdXレイヤ2プロトコルで取引するユーザーに支払い料金に応じて分配するために割り当てられます。当初、取引報酬にトークン供給の`25.0%`（`2億5000万$DYDX`）が割り当てられました。
+
+* [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)では、dYdXコミュニティーが取引報酬を25.0%削減することに[投票](https://dydx.community/dashboard/proposal/8)しました。その結果、取引報酬の割り当ては`25.0%`から`20.2%`に減少しました。
+* [DIP20](https://dydx.community/dashboard/proposal/11)では、dYdXコミュニティーが取引報酬をさらに45.0%削減することに[投票](https://dydx.community/dashboard/proposal/11)しました。その結果、取引報酬の割り当ては`20.2%`から`14.5%`に減少しました。
+
+特定の時代に分配された取引報酬は、エポック15で3,835,616 $DYDXから2,876,712 $DYDXに、エポック21で2,876,712 $DYDXから1,582,192 $DYDXに減少しました。
 
 **目的**
 
@@ -15,9 +20,9 @@ description:  取引報酬プログラムの概要。
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>所定のエポックにおける支払済みの手数料と推定される報酬</p></figcaption></figure>
 
-dYdXレイヤ2プロトコルで支払われた手数料に基づき、トレーダーに$dYdXが配分されます。$dYdXは、5年間にわたって28日間のエポックを基本として提供され、権利確定やロックアップの対象にはなりません。エポックごとに2876,712 $dYdXが配布されます。
+dYdXレイヤ2プロトコルで支払われた手数料に基づき、トレーダーに$dYdXが配分されます。$dYdXは、5年間にわたって28日間のエポックを基本として提供され、権利確定やロックアップの対象にはなりません。エポックごとに1,582,192 $DYDXが配布されます。
 
-コミュニティが取引報酬を383万5,616$DYDXから287万6,712$DYDXへと25％減少させることに合意したため、報酬基金に加算される残りの95万8,904$DYDXはdYdXコミュニティが[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)で使用/指示することができます。
+[DIP16](https://dydx.community/dashboard/proposal/8)で958,904 $DYDXの取引報酬を25％削減し、[DIP20](https://dydx.community/dashboard/proposal/11)で1,294,520 $DYDXをさらに45％削減することをコミュニティーの投票で決定した場合、報酬トレジャリーに生じる残りの2,253,424 $DYDXはdYdXコミュニティーが[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によって使用/指示できるようになります。
 
 <figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 

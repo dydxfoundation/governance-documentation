@@ -22,12 +22,12 @@ description: $DYDXトークンの割り当て。
 $DYDXの立ち上げ以来、最初の割り当てに変更が生じたガバナンス提案がいくつかあります。現在、割り当てには以下のものが含まれます。
 
 * コミュニティへの**50.0％**（`5億$DYDX`）は以下：
-  * [取引報酬の計算式](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)に基づく**20.2％**（`2億188万3,560 $DYDX`）、
-    * [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)において、dYdXコミュニティは取引報酬を25％引き下げることに[合意しました](https://dydx.community/dashboard/proposal/8)。その結果、所定のエポックで配布される取引報酬は、エポック15において383万5,616 $DYDXから287万6,712 DYDXに減少しました。残りの95万8,904 $DYDXは、報酬基金に加算され、[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によりdYdXコミュニティによって使用されます。
+  * [取引報酬計算式](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)に基づく**14.5%**（`144,693,506 $DYDX`）、
+    * [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)と[DIP 20](https://dydx.community/dashboard/proposal/11)では、dYdXコミュニティが取引報酬を合計230万$DYDX削減することに投票しました。（DIP16から958,904 $DYDX、DIP20から1,294,520 $DYDX）。230万$DYDXはリワード財務省に蓄積され、[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)でdYdXコミュニティが使用できます。
   * dYdXレイヤ2プロトコルで取引マイルストーンを達成した過去のユーザーへの**5.0％**（`5,309,197 $DYDX`）（[遡及マイニング報酬](../rewards/retroactive-mining-rewards.md)）、
     * エポック0後、遡及マイニング報酬プログラムからの請求されていない2,469万,803 $DYDXがコミュニティ基金に送金されました。
   * [流動性プロバイダー報酬の計算式](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards)に基づく**7.5％**（`7,500万$DYDX`）、
-  * [コミュニティ基金](https://docs.dydx.community/dydx-governance/start-here/community-treasury/)および[報酬基金](https://docs.dydx.community/dydx-governance/start-here/rewards-treasury)への**16.2％**（`1億6,200万4,734 $DYDX`）、
+  * **21.9%**（`219,194,788 $DYDX`）は、[コミュニティー財務省](https://docs.dydx.community/dydx-governance/start-here/community-treasury/)および[リワード財務省](https://docs.dydx.community/dydx-governance/start-here/rewards-treasury)に対して、
   * 流[動性ステーキングプ](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool)ールに$USDCをステーキングするユーザーへの**0.6％**（`575万3,430 $DYDX`）、
     * [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)においては、dYdXコミュニティは$USDCのステーキングに関連する報酬を0に設定することに[合意](https://dydx.community/dashboard/proposal/7)しました。これまでUSDCステーカーに配布された38万3,562 $DYDXは、報酬基金に加算され、[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によりdYdXコミュニティによって使用されることができます。
   * [安全ステーキングプール](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool)に$DYDXをステーキングするユーザーへの**0.5％**（`504万9,079$DYDX`）、
@@ -36,11 +36,11 @@ $DYDXの立ち上げ以来、最初の割り当てに変更が生じたガバナ
 * dYdX取引株式会社またはdYdX財団の創設者、従業員、アドバイザー、コンサルタントには**15.3％**（`1億5,270万4,930DYDX`）。
 * dYdXトレーディング社またはdYdX財団の将来の従業員およびコンサルタントには**7.0％**（`7,000万DYDX`）。
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-20 at 4.19.16 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.13 PM.png" alt=""><figcaption></figcaption></figure>
 
 立ち上げから5年後以降、$DYDXの供給量を増やすため、コミュニティがプロトコルの開発および成長を継続するリソースを確保するように、ガバナンスにより年間`最大2％`のパーペチュアルインフレ率を使用できます。インフレは、ガバナンス提案を通じて制定され、年間`2％`に制限されます。
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-20 at 4.19.21 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.07 PM.png" alt=""><figcaption></figcaption></figure>
 
 コミュニティの割り当ては上記のように設定されていますが、$DYDX保有者は今後のコミュニティの割り当ての使用方法について、ガバナンスを通じて完全な管理を保有しています。
 
@@ -56,7 +56,7 @@ $DYDXの立ち上げ以来、最初の割り当てに変更が生じたガバナ
 
 ### **新しい$DYDXトークンは作成できますか？**
 
-立ち上げから5年後から、$DYDXの供給量を増やすには、年間最大2％のパーペチュアルインフレ率を使用して、コミュニティがdYdXレイヤ2プロトコルに継続するリソースを確保します。
+立ち上げから5年後から、$DYDXの供給量を増やすには、年間`最大2％`のパーペチュアルインフレ率を使用して、コミュニティがdYdXレイヤ2プロトコルに継続するリソースを確保します。
 
 **2026年7月14日午後3時（UTC協定世界時）**より、dYdXのガバナンスは、各ミントで毎年`最大2％`のインフレ率の最大$DYDX供給量を決定できます。指定された365日間の期間では、1ミントのみ可能です。新たに発行されたすべての$DYDXは、ガバナンスにより割り当てられ、直ちにベストします。これらの新しく発行されたトークンは、指定された任意のアドレスに送信できます。
 
