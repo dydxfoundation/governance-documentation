@@ -22,12 +22,12 @@ description: Распределение токена $DYDX.
 После запуска $DYDX было представлено несколько предложений по управлению, которые привели к изменению первоначального распределения. В настоящее время распределение включает в себя:
 
 * **50,0%** (`500 000 000 $DYDX`) распределяются между сообществом следующим образом:
-  * **20,2%** (`201 883 560 $DYDX`) распределяются на основе [формулы наград за торговлю](https://docs.dydx.community/dydx-governance/rewards/trading-rewards),
-    * В рамках [ППУ 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/8) за сокращение размера наград за торговлю на 25%. В результате в эпоху 15 размер наград за торговлю, распределяемых в эпоху, сократился с 3 835 616 $DYDX до 2 876 712 DYDX. Оставшиеся 958 904 $DYDX будут поступать в казну наград. Сообщество dYdX сможет использовать их после голосования среди пользователей, [управляющих токеном](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+  * **14,5%** (`144 693 506 $DYDX`) на основе [формулы расчета наград за торговлю](https://docs.dydx.community/dydx-governance/rewards/trading-rewards),
+    * В рамках [ППУ 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) и [ППУ 20](https://dydx.community/dashboard/proposal/11) сообщество dYdX проголосовало за сокращение размера наград за торговлю на общую сумму 2,3 млн $DYDX. (958 904 $DYDX из ППУ 16 и 1 294 520 $DYDX из ППУ 20). В казну наград будет зачисляться 2,3 млн $DYDX, и сообщество dYdX сможет использовать их при [голосовании управления](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
   * **5,0%** (`50 309 197 $DYDX`) получают бывшие пользователи, которые завершают определенные торговые этапы в рамках протокола dYdX уровня 2 (награды за [ретроактивный майнинг](../rewards/retroactive-mining-rewards.md)),
     * После эпохи 0 24 690 803 невостребованных $DYDX из программы наград за ретроактивный майнинг были переданы в казну сообщества.
   * **7,5%** (`75 000 000 $DYDX`) распределяются на основе [формулы (формул) наград для поставщиков ликвидности](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards);
-  * **16,2%** (`162 004 734 $DYDX`) распределяются в [казну сообщества](https://docs.dydx.community/dydx-governance/start-here/community-treasury/) и [казну наград](https://docs.dydx.community/dydx-governance/start-here/rewards-treasury);
+  * **21,9%** (`219 194 788 $DYDX`) в [казну сообщества](https://docs.dydx.community/dydx-governance/start-here/community-treasury/) и [казну наград](https://docs.dydx.community/dydx-governance/start-here/rewards-treasury).
   * **0,6%** (`5 753 430 $DYDX`) получают пользователи, размещающие $USDC в [пуле стейкинга ликвидности](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool);
     * В рамках [ППУ 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/7) за установку количества наград, связанных со стейкингом $USDC, равным 0. 383 562 $DYDX, ранее распределяемых между стейкерами USDC, будут поступать в казну наград. Сообщество dYdX сможет использовать их после [голосования среди пользователей, управляющих токеном](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
   * **0,5%** (`5 049 079 $DYDX`) получают пользователи, размещающие $DYDX в [пуле стейкинга безопасности](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool);
@@ -36,11 +36,11 @@ description: Распределение токена $DYDX.
 * **15,3%** (`152 704 930 DYDX`) получают основатели, сотрудники, советники и консультанты dYdX Trading или dYdX Foundation; и
 * **7,0%** (`70 000 000 DYDX`) получают будущие сотрудники и консультанты dYdX Trading Inc. или dYdX Foundation.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-20 at 4.19.16 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.13 PM.png" alt=""><figcaption></figcaption></figure>
 
 Через пять лет после запуска максимальный уровень инфляции для бессрочных контрактов в размере `2%` в год может быть использован управлением для увеличения предложения $DYDX, что обеспечит сообщество ресурсами для дальнейшего развития протокола. Инфляция должна быть принята по предложению управления и должна составлять не выше `2%` в год.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-20 at 4.19.21 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.07 PM.png" alt=""><figcaption></figcaption></figure>
 
 Хотя токен будет распределен между сообществом, как указано выше, через управление владельцы $DYDX полностью контролируют то, как токены будут распределяться между сообществом в будущем.
 
