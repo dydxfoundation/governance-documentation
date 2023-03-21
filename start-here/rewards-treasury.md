@@ -6,7 +6,17 @@ description: Ödül hazinesine genel bir bakış.
 
 ## Genel bakış
 
-Topluluk Hazinesi'ndeki hak edilmiş DYDX'e ek olarak, dYdX topluluğu (1) trade ödüllerinin %25 oranında (958.904 $DYDX) azaltılması, (2) $USDC staking ödüllerinin 0'a ayarlanması (383.562 $DYDX) ve (3) $DYDX staking ödüllerinin 0'a ayarlanması (383.562 DYDX) yönündeki oyların sonucunda Ödül Hazinesi'nde tahakkuk eden $DYDX'e de erişebilir. Dönem 17'den başlayarak, her bir dönemde Ödül Hazinesi'ne 1.726.028 $DYDX tahakkuk edecektir ve bu meblağ bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile dYdX topluluğu tarafından kullanılabilecektir. \
+Topluluk Hazinesi'ne devredilen DYDX'e ek olarak, dYdX topluluğu, aşağıdaki oylamalar sonucunda Ödül Hazinesi'ne tahakkuk ettirilen $DYDX'e de erişebilir:
+
+(1) Alım-satım ödüllerinin %25 azaltılması (958.904 $DYDX),
+
+(2) $USDC staking için ödüllerin 0 olarak belirlenmesi (383.562 $DYDX),
+
+(3) $DYDX staking için ödüllerin 0 olarak belirlenmesi (383.562 $DYDX) ve
+
+(4) Alım-satım ödüllerinin ilaveten %45 düşürülmesi (1.294.520 $DYDX).
+
+Dönem 21'den başlayarak, her dönem 3.020.548 $DYDX Ödül Hazinesi'ne tahakkuk ettirilecek ve dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir. \
 
 
 ## SSS
@@ -15,7 +25,7 @@ Topluluk Hazinesi'ndeki hak edilmiş DYDX'e ek olarak, dYdX topluluğu (1) trade
 
 dYdX topluluk üyeleri topluluk hazinesinin devredilen bakiyesini [buradan](https://dydx.shippooor.xyz/) görüntüleyebilirler. \
 \
-Dahası, dYdX Vakfı her dönemin sonunda [Dönem Raporu](https://dydx.foundation/blog) ile Topluluk Hazinesinin kazanılmış bakiyesini yayınlamaktadır. Topluluk Hazinesi'nde hak edilmiş $DYDX'e ek olarak, dYdX topluluğu (1) trade ödüllerinin %25 oranında azaltılması (958.904 $DYDX), (2) USDC staking ödüllerinin 0'a ayarlanması (383.562 DYDX) ve (3) DYDX staking ödüllerinin 0'a ayarlanması (383.562 DYDX) yönündeki oyların sonucunda Ödül Hazinesi'ne tahakkuk eden $DYDX'e de erişebilir. Dönem 17'den başlayarak, her bir dönemde Ödül Hazinesi'ne 1.726.028 $DYDX tahakkuk edecektir ve bu meblağ bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile dYdX topluluğu tarafından kullanılabilecektir.
+Dahası, dYdX Vakfı her dönemin sonunda [Dönem Raporu](https://dydx.foundation/blog) ile Topluluk Hazinesinin kazanılmış bakiyesini yayınlamaktadır.
 
 ### Ödül Hazinesi'ndeki $DYDX'i harcamak için kimler teklif verebilir?
 
