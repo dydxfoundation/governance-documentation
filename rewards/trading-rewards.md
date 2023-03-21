@@ -4,7 +4,12 @@ description: Trading Ödülleri programına genel bakış.
 
 # Alım Satım Ödülleri
 
-Token arzının **`%`**`20,2`'si (`201.883.560 $DYDX`), dYdX Katman 2 Protokolü üzerinde işlem yapan kullanıcılara ödenen ücretlere bazında dağıtılmak üzere ayrılmıştır. Başlangıçta, token arzının `%25,0'i` (`250.000.000 DYDX`) trading ödülleri için ayrılmıştır. [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)'da, dYdX topluluğu, trading ödüllerini %25,0 indirme yönünde [oy kullanmıştır](https://dydx.community/dashboard/proposal/8). Sonuç olarak, trading ödülleri için ayrılan miktar `%25,0`'ten `%20,2`'ye düşmüştür. Belirli bir dönemde dağıtılan trading ödülleri Dönem 15'te 3.835.616 DYDX'ten 2.876.712 DYDX'e düşürülmüştür.
+Token arzının **`%`**`20,2`'si (`201.883.560 $DYDX`), dYdX Katman 2 Protokolü üzerinde işlem yapan kullanıcılara ödenen ücretlere bazında dağıtılmak üzere ayrılmıştır. Başlangıçta, token arzının `%25,0'i` (`250.000.000 $DYDX`) trading ödülleri için ayrılmıştır.
+
+* [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)'da, dYdX topluluğu trading ödüllerinin %25,0 oranında azaltılması yönünde [oy kullanmıştır](https://dydx.community/dashboard/proposal/8). Sonuç olarak, trading ödülleri için ayrılan miktar `%25,0`'ten `%20,2`'ye düşmüştür.
+* [DIP20](https://dydx.community/dashboard/proposal/11)'de, dYdX topluluğu, trading ödüllerinin %45,0 oranında daha azaltılması yönünde [oy kullanmıştır](https://dydx.community/dashboard/proposal/11). Sonuç olarak, trading ödülleri için ayrılan miktar `%20,2’den` `%14,5'e` düşmüştür.
+
+Belirli bir dönemde dağıtılmış trading ödülleri, Dönem 15’te 3.835.616 $DYDX’den 2.876.712 $DYDX’e, Dönem 21’de 2.876.712 $DYDX‘den 1.582.192 $DYDX’e düşürülmüştür.
 
 **Hedefler**
 
@@ -15,9 +20,9 @@ Token arzının **`%`**`20,2`'si (`201.883.560 $DYDX`), dYdX Katman 2 Protokolü
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Belirli bir dönemde ödenen ücretler ve tahmini ödüller</p></figcaption></figure>
 
-$DYDX token'ları trader'lara dYdX Katman 2 Protokolü üzerinde ödenen ücretlere göre dağıtılacaktır. $DYDX, beş yıl boyunca 28 günlük dönemler esasında dağıtılacak ve herhangi bir hakediş (vesting) veya kilitleme sürecine tabi tutulmayacaktır. Dönem başına 2.876.712 $DYDX dağıtılacaktır.
+$DYDX token'ları trader'lara dYdX Katman 2 Protokolü üzerinde ödenen ücretlere göre dağıtılacaktır. $DYDX, beş yıl boyunca 28 günlük dönemler esasında dağıtılacak ve herhangi bir hakediş (vesting) veya kilitleme sürecine tabi tutulmayacaktır. Dönem başına 1.582.192 $DYDX dağıtılacaktır.
 
-Topluluğun trading ödüllerinin %25 oranında azaltılarak 3.835.616 $DYDX'ten 2.876.712 $DYDX'e düşürülmesi yönünde oy kullanmasıyla birlikte, Ödül Hazinesi'nde tahakkuk eden 958.904 $DYDX bakiye, dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilir/yönlendirilebilir.
+Topluluğun [DIP16](https://dydx.community/dashboard/proposal/8)'da trading ödüllerinde %25 azalmayla 958.904 $DYDX‘e ve daha sonra [DIP20](https://dydx.community/dashboard/proposal/11)’de %45 oranında azalmayla 1.294,520 $DYDX‘e inmesini onaylamasıyla, Ödül Hazinesi'ne tahakkuk eden 2.253.424 $DYDX, dYdX topluluğu tarafından [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir/yönetebilecektir.
 
 <figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
