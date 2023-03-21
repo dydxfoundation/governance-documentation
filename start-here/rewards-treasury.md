@@ -6,7 +6,17 @@ description: Panorama do tesouro de recompensas.
 
 ## Visão geral
 
-Além do valor em DYDX investido no Tesouro da Comunidade, a comunidade dYdX também pode acessar o acumulado em $DYDX no Tesouro de Recompensas em consequência dos votos para (1) reduzir as recompensas de trading em 25% (958.904 $DYDX), (2) definir as recompensas de staking de $USDC como 0 (383.562 $DYDX) e (3) definir as recompensas de staking de $DYDX como 0 (383.562 $DYDX). A partir da epoch 17, 1.726.028 $DYDX serão acumulados no Tesouro de Recompensas a cada epoch e poderão ser usados pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters). \
+Além do DYDX investido no Tesouro da Comunidade, a comunidade dYdX também pode acessar o $DYDX acumulado no Tesouro de Recompensas como resultado dos seguintes votos:
+
+(1) Reduzir as recompensas de trading em 25% (958.904 $DYDX),
+
+(2) Definir as recompensas pela participação de $USDC em 0 (383.562 $DYDX),
+
+(3) Definir as recompensas pela participação de $DYDX em 0 (383.562 $DYDX) e
+
+(4) Reduzir ainda mais as recompensas de trading em 45% (1.294.520 $DYDX).
+
+A partir da Epoch 21, serão acumulados 3.020.548 $DYDX no Tesouro de Recompensas de cada epoch, que poderão ser usados pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters). \
 
 
 ## Perguntas e respostas
@@ -15,7 +25,7 @@ Além do valor em DYDX investido no Tesouro da Comunidade, a comunidade dYdX tam
 
 Os membros da comunidade DYDX podem visualizar o saldo investido do Tesouro da comunidade [aqui](https://dydx.shippooor.xyz/). \
 \
-Além disso, ao final de cada epoch, a dYdX Foundation publica o saldo acumulado do Tesouro da Comunidade no [Relatório da Epoch](https://dydx.foundation/blog). Além do valor em $DYDX investido no Tesouro da Comunidade, a comunidade dYdX também pode acessar o acumulado em $DYDX no Tesouro de Recompensas em consequência dos votos para (1) reduzir as recompensas de trading em 25% (958.904 $DYDX), (2) definir as recompensas de staking de $USDC como 0 (383.562 $DYDX) e (3) definir as recompensas de staking de $DYDX como 0 (383.562 $DYDX). A partir da epoch 17, 1.726.028 $DYDX serão acumulados no Tesouro de Recompensas a cada epoch e poderão ser usados pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+Além disso, ao final de cada epoch, a dYdX Foundation publica o saldo acumulado do Tesouro da Comunidade no [Relatório da Epoch](https://dydx.foundation/blog).
 
 ### Quem pode enviar propostas para gastar $DYDX do Tesouro de Recompensas?
 
