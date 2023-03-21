@@ -22,12 +22,12 @@ description: $DYDX 토큰 할당
 $DYDX가 출시된 이후 초기 할당에 대한 변경을 유발한 여러 가지 거버넌스 제안이 있었습니다. 현재 할당은 다음과 같습니다.
 
 * **50.0%**(`500,000,000$DYDX`)가 다음과 같이 커뮤니티로 할당됩니다.
-  * **20.2%**(`201,883,560$DYDX`)는 [거래 보상 공식](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)을 기반으로 합니다.
-    * [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)에서 dYdX 커뮤니티는 거래 보상을 25% 낮추기로 [투표](https://dydx.community/dashboard/proposal/8)했습니다. 그 결과, 해당 에폭에 배포된 거래 보상은 3,835,616$DYDX에서 에폭 15에 2,876,712$DYDX로 감소했습니다. 잔여 958,904$DYDX는 보상 금고에 축적되며 dYdX 커뮤니티는 [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 이를 사용할 수 있습니다.
+  * **14.5%**(`144,693,506 $DYDX`)는 [거래 보상 공식](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)을 기반으로
+    * [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) 및 [DIP 20](https://dydx.community/dashboard/proposal/11)에서 dYdX 커뮤니티는 거래 보상을 총 2.3M $DX로 감소시키기로 결정했습니다. (DIP16에서 958,904 $DYDX, DIP20에서 1,294,520 $DYDX). 2.3M $DYDX는 보상 재무부에 축적되며 [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 dYdX 커뮤니티에서 사용할 수 있습니다.
   * **5.0%**(`50,309,197$DYDX`)는 특정한 거래 마일스톤을 dYdX 레이어 2 프로토콜에서 완료한 이전 사용자에게 할당됩니다([소급 채굴 보상](../rewards/retroactive-mining-rewards.md)).
     * 에폭 0 이후 소급 채굴 보상에서 클레임되지 않은 24,690,803$DYDX가 커뮤니티 금고로 이전되었습니다.
   * **7.5%**(`75,000,000 $DYDX`)는 [유동성 공급자 보상 공식](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards)에 따라 할당됩니다.
-  * **16.2%**(`162,004,734$DYDX`)는 [커뮤니티 금고](https://docs.dydx.community/dydx-governance/start-here/community-treasury/) 및 [보상 금고](https://docs.dydx.community/dydx-governance/start-here/rewards-treasury)에 할당됩니다.
+  * **21.9%**(`219,194,788 $DYDX`)는 [커뮤니티 재무부](https://docs.dydx.community/dydx-governance/start-here/community-treasury/)에 전달되고 [보상 재무](https://docs.dydx.community/dydx-governance/start-here/rewards-treasury),
   * **0.6%**(`5,753,430$DYDX`)는 $USDC를 [유동성 스테이킹 풀](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool)로 스테이킹하는 사용자에게 할당됩니다.
     * [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)의 [투표](https://dydx.community/dashboard/proposal/7)에서 dYdX 커뮤니티는 USDC 스테이킹 관련 보상을 0으로 설정하기로 결정했습니다. 이전에 USDC 스테이커에게 배포된 383,562$DYDX는 보상 금고에 축적되며 dYdX 커뮤니티는 [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 이를 사용할 수 있습니다.
   * **0.5%**(`5,049,079$DYDX`)는 $DYDX를 [안전 스테이킹 풀](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool)에 스테이킹하는 사용자에게 할당됩니다.
@@ -36,11 +36,11 @@ $DYDX가 출시된 이후 초기 할당에 대한 변경을 유발한 여러 가
 * **15.3%**(`152,704,930 DYDX`)는 dYdX Trading Inc. 또는 dYdX Foundation의 설립자, 직원, 고문, 컨설턴트에게 할당됩니다. 마지막으로
 * **7.0%**(`70,000,000 DYDX`)는 dYdX Trading Inc. 또는 dYdX Foundation의 미래 직원과 컨설턴트에게 할당됩니다.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-20 at 4.19.16 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.13 PM.png" alt=""><figcaption></figcaption></figure>
 
 출시로부터 5년 동안 연간 `2%`의 최대 무기한 인플레이션율을 거버넌스에서 활용하여 $DYDX의 공급량을 늘리고, 이를 통해 커뮤니티는 프로토콜 개발 및 성장을 지속하기 위한 리소스를 확보할 수 있습니다. 인플레이션은 거버넌스 제안을 통해 제정되어야 하며 연간 `2%`로 제한됩니다.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-20 at 4.19.21 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.07 PM.png" alt=""><figcaption></figcaption></figure>
 
 커뮤니티 할당이 상기 명시된 대로 제정되어 있더라도, $DYDX 보유자는 거버넌스를 통해 앞으로의 커뮤니티 할당 사용 방식에 대한 완전한 통제 권한을 가집니다.
 
