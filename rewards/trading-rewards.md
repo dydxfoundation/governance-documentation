@@ -4,7 +4,12 @@ description: Aperçu du programme des récompenses de trading.
 
 # Récompenses de trading
 
-`20,2`** `%` ** (`201 883 560 $DYDX`) de la réserve de jetons sont répartis entre les utilisateurs qui effectuent des échanges sur le protocole de couche 2 dYdX sur la base des frais payés. Initialement, `25,0 %` de la réserve de jetons (`250 000 000 dYdX`) ont été alloués aux récompenses de trading. Dans la [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/8) en faveur d'une réduction de 25,0 % sur les récompenses de trading. En conséquence, l'allocation de récompenses de trading a baissé, passant de `25,0 %` à `20,2 %`. Au cours de l'Epoch 15, les récompenses trading distribuées dans une Epoch donnée ont été réduites de 3 835 616 DYDX à 2 876 712 DYDX.
+`20,2`** `%` ** (`201 883 560 $DYDX`) de la réserve de jetons sont répartis entre les utilisateurs qui effectuent des échanges sur le protocole de couche 2 dYdX sur la base des frais payés. Initialement, `25,0 %` de la réserve de jetons (`250 000 000 dYdX $`) a été allouée aux récompenses de trading.
+
+* Dans [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/8) en faveur de la réduction des récompenses de trading de 25,0 %. En conséquence, l'allocation de récompenses de trading a baissé, passant de `25,0 %` à `20,2 %`.
+* Dans [DIP20](https://dydx.community/dashboard/proposal/11), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/11) en faveur de la réduction des récompenses de trading de 45,0 % supplémentaires. En conséquence, l'allocation de récompenses de trading a baissé, passant de `20,2 %` à `14,5 %`.
+
+Les récompenses de trading distribuées dans une epoch donnée ont été réduites de 3 835 616 DYDX $ à 2 876 712 DYDX $ durant l'epoch 15, et de 2 876 712 DYDX $ à 1 582 192 DYDX $ durant l'epoch 21.
 
 **Objectifs**
 
@@ -15,9 +20,9 @@ description: Aperçu du programme des récompenses de trading.
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Frais payés et récompenses estimées dans une Epoch donnée</p></figcaption></figure>
 
-Le versement de $DYDX aux traders se fera sur la base des frais payés sur le protocole de layer 2 de dYdX. La distribution de $DYDX se fera sur la base d'une Epoch de 28 jours, sur 5 ans et ne sera soumise à aucune acquisition ou aucun blocage. 2 876 712 $DYDX seront distribués par Epoch.
+Le versement de $DYDX aux traders se fera sur la base des frais payés sur le protocole de layer 2 de dYdX. La distribution de $DYDX se fera sur la base d'une Epoch de 28 jours, sur 5 ans et ne sera soumise à aucune acquisition ou aucun blocage. 1 582 192 DYDX $ seront distribués par Epoch.
 
-Grâce au vote de la communauté en faveur de la réduction des récompenses de trading de 25 %, les faisant passer de 3 835 616 $DYDX à 2 876 712 $DYDX, les 958 904 $DYDX restants accumulés dans la trésorerie des récompenses peuvent être utilisés / dirigés par la communauté dYdX au moyen d'un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+Avec le vote de la communauté pour procéder à une réduction de 25 % de récompenses de trading de 958 904 DYDX $ dans [DIP16](https://dydx.community/dashboard/proposal/8), et 45 % de plus avec 1 294 520 DYDX $ dans [DIP20](https://dydx.community/dashboard/proposal/11), les 2 253 424 DYDX restants qui s'accumulent dans le Trésor des récompenses peuvent être utilisés/dirigés par la communauté dYdX avec un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
 <figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
