@@ -4,9 +4,19 @@ description: Ein Überblick über die Prämienkasse.
 
 # Prämien Treasury
 
-## Überblick
+## Übersicht
 
-Neben den erworbenen DYDX in der Gemeinschaftskasse kann die dYdX-Community auch auf die $DYDX zugreifen, die in der Prämienkasse infolge der Abstimmungen über (1) die Senkung der Handelsprämien um 25% (958.904 $DYDX), (2) die Festlegung der Prämien für den Einsatz von $USDC auf 0 (383.562 $DYDX) und (3) die Festlegung der Prämien für den Einsatz von $DYDX auf 0 (383.562 $DYDX) anfallen. Ab Phase 17 werden 1.726.028 $DYDX in jeder Phase in der Prämien-Kasse anfallen und können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden. \
+Zusätzlich zu den übertragenen DYDX auf dem Community-Konto kann die dYdX-Community auch auf die auf dem Prämien-Konto anfallenden $DYDX als Resultat der folgenden Abstimmungen zugreifen:
+
+(1) Handelsprämien um 25 % (958.904 $DYDX) reduzieren,
+
+(2) Die Prämien für den Einsatz von $USDC auf 0 (383.562 $DYDX) festlegen,
+
+(3) Die Prämien für den Einsatz von $DYDX auf 0 (383.562 $DYDX) festlegen, und
+
+(4) Die Handelsprämien erneut um 45 % (1.294.520 $DYDX) reduzieren.
+
+Ab Epoche 21 werden auf dem Prämien-Konto je Epoche 3.020.,548 $DYDX anfallen. Diese können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden. \
 
 
 ## FAQ
@@ -15,7 +25,7 @@ Neben den erworbenen DYDX in der Gemeinschaftskasse kann die dYdX-Community auch
 
 Mitglieder der dYdX-Community können [hier](https://dydx.shippooor.xyz/) den Rücklagen-Kontostand der Community Treasury einsehen. \
 \
-Darüber hinaus veröffentlicht die dYdX Foundation das aufgelaufene Guthaben der Community Treasury in der [Epochen-Rückschau](https://dydx.foundation/blog) am Ende jeder Epoche. Abgesehen von den erworbenen $DYDX in der Gemeinschaftskasse kann die dYdX-Community auch auf die $DYDX zugreifen, die in der Prämienkasse infolge der Abstimmungen über (1) die Senkung der Handelsprämien um 25% (958.904 $DYDX), (2) die Festlegung der Prämien für den Einsatz von $USDC auf 0 (383.562 $DYDX) und (3) die Festlegung der Prämien für den Einsatz von $DYDX auf 0 (383.562 $DYDX) anfallen. Ab Phase 17 werden 1.726.028 $DYDX in jeder Phase in der Prämien-Kasse anfallen und können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
+Darüber hinaus veröffentlicht die dYdX Foundation das aufgelaufene Guthaben der Community Treasury in der [Epochen-Rückschau](https://dydx.foundation/blog) am Ende jeder Epoche.
 
 ### Wer kann Vorschläge zur Ausgabe von $DYDX aus der Prämienkasse einreichen?
 
