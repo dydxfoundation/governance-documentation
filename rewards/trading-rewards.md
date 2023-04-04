@@ -4,7 +4,12 @@ description: Überblick über das Trading Prämien-Programm.
 
 # Trading-Prämien
 
-`20,2`**`%` ** (`201.883.560 $DYDX`) des Tokenangebots werden an Benutzer verteilt, die auf der Grundlage der gezahlten Gebühren das dYdX-Layer-2-Protokoll handeln. Anfangs wurden `25,0 %` des Tokenangebots (`250.000.000 DYDX`) für die Handelsprämien zugewiesen. In [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) [stimmte](https://dydx.community/dashboard/proposal/8) die dYdX-Gemeinde dafür, die Handelsprämien um 25 % zu verringern. Infolgedessen sank die Zuteilung für Handelsprämien von `25,0 %` auf `20,2 %`. Die in einer bestimmten Phase ausgeschütteten Handelsprämien wurden von 3.835.616 DYDX auf 2.876.712 DYDX in Phase 15 reduziert.
+`20,2`**`%` ** (`201.883.560 $DYDX`) des Tokenangebots werden an Benutzer verteilt, die auf der Grundlage der gezahlten Gebühren das dYdX-Layer-2-Protokoll handeln. Anfangs wurden `25,0 %` des Tokenangebots (`250.000.000 $DYDX`) als Handelsprämien zugewiesen.
+
+* In [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) hat die dYdX-Community [vereinbart](https://dydx.community/dashboard/proposal/8), die Handelsprämien um 25,0 % zu verringern. Infolgedessen sank die Zuteilung für Handelsprämien von `25,0 %` auf `20,2 %`.
+* In [DIP20](https://dydx.community/dashboard/proposal/11) hat die dYdX-Community [vereinbart](https://dydx.community/dashboard/proposal/11), die Handelsprämien um weitere 45,.0 % zu verringern. In der Folge sank die Zuordnung als Handelsprämien von `20,2 %` auf `14,5 %`.
+
+Die in einer bestimmten Epoche verteilten Handelsprämien wurden von 3.835.616 $DYDX auf 2.876.712 $DYDX in Epoche 15 und von 2.876.712 $DYDX auf 1.582.192 $DYDX in Epoche 21 reduziert.
 
 **Ziele**
 
@@ -15,9 +20,9 @@ description: Überblick über das Trading Prämien-Programm.
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Bezahlte Gebühren und geschätzte Rewards in einer bestimmten Epoche</p></figcaption></figure>
 
-$DYDX werden an Händler verteilt, basierend auf den Gebühren, die im dYdX Layer 2 Protokoll gezahlt werden. $DYDX wird über einen Zeitraum von fünf Jahren auf einer 28 Tage umfassenden Zeitbasis ausgeschüttet und unterliegt keinen Sperrfristen oder Sperrvermerken. 2.876.712 $DYDX werden pro Phase ausgeschüttet.
+$DYDX werden an Händler verteilt, basierend auf den Gebühren, die im dYdX Layer 2 Protokoll gezahlt werden. $DYDX wird über einen Zeitraum von fünf Jahren auf einer 28 Tage umfassenden Zeitbasis ausgeschüttet und unterliegt keinen Sperrfristen oder Sperrvermerken. Pro Epoche werden 1.582.192 $DYDX verteilt.
 
-Nachdem die Community dafür gestimmt hat, die Handelsprämien um 25% von 3.835.616 $DYDX auf 2.876.712 $DYDX zu kürzen, können die verbleibenden 958.904 $DYDX, die sich in der Prämienkasse ansammeln, von der dYdX-Community durch eine [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet/angewiesen werden.
+Nachdem die Community dafür gestimmt hat, die Handelsprämien erneut um 25 % 958.904 $DYDX in [DIP16](https://dydx.community/dashboard/proposal/8) und um weitere 45 % 1.294.520 $DYDX in [DIP20](https://dydx.community/dashboard/proposal/11) zu verringern, können die verbleibenden 2.253.424 $DYDX, die im Handelsprämienkonto anfallen, von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet/angewiesen werden.
 
 <figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
