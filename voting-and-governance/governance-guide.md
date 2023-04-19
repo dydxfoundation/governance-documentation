@@ -43,7 +43,10 @@ Next, we provide a step-by-step overview of how dYdX governance functions in pra
 
 _**Description:**_
 
-The dYdX Governance Process is fueled by [governance forums](https://forums.dydx.community/). Community members post and comment on discussion threads to reach a rough consensus off-chain. More information about forum discussions and DRC Creation is linked [here](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
+The dYdX Governance Process is fueled by [governance forums](https://dydx.forum/). Community members post and comment on discussion threads to reach a rough consensus off-chain. More information about forum discussions and DRC Creation is linked [here](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle). \
+\
+Note - The operations subDAO has launched [**https://dydx.forum/**](https://dydx.forum/) as the new forum upon the [community voting to transition from Commonwealth to Discourse](https://snapshot.org/#/dydxgov.eth/proposal/0xa5e77732dd24edd26bd41b089969b3662c29eb41c3bacd35cb2931ca55882a8f). Some references in this guide to previous DRC discussions will still point to Commonwealth, but any new discussions should be happening on the newly launched [**Discourse**](https://dydx.forum/) forum. \
+
 
 _**Application to DIP 2:**_
 
@@ -53,19 +56,16 @@ Su Zhu (zhusu) from Three Arrows Capital created an [off-chain Forum Discussion]
 
 ![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](../.gitbook/assets/2-reduce-mm-incentives-2.png)
 
-#### _How to Post and Comment on Commonwealth:_
+#### _How to Post and Comment on Discourse:_
 
-* Register on Commonwealth with your Ethereum wallet or Github account and join the dYdX community [here](https://forums.dydx.community/).
+* Register on Discourse with your email account and join the dYdX community [here](https://dydx.forum/).
 
-![https://forums.dydx.community/](../.gitbook/assets/2-register-on-cw.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 10.59.27 AM.png" alt=""><figcaption></figcaption></figure>
 
-* Select a thread, scroll through the comments, and like or reply to comments by clicking the icons under the respective comment.
+* Select a thread, scroll through the comments, and like or reply to comments.
+* Create a new discussion thread or post a DRC by clicking on “**New Topic**” and selecting the topic category.
 
-![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](../.gitbook/assets/2-select-thread.png)
-
-* Create a new discussion thread or post a DRC by clicking on “New thread” and selecting the topic category.
-
-![https://forums.dydx.community/new/discussion](../.gitbook/assets/2-create-discussion-cw.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.03.33 AM.png" alt=""><figcaption></figcaption></figure>
 
 * If you are creating a DRC, please follow the template linked [here](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md). As outlined under _DRC Creation_ in the [Proposal Lifecycle](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle), DRCs at a minimum must include the following:
   * A short and concise title of the DRC.
@@ -99,33 +99,22 @@ Next, Su Zhu created a Snapshot poll with the following options:
 
 #### _How to Vote on a Snapshot Poll:_
 
-* Register on Snapshot with your Ethereum wallet and follow dYdX proposals [here](https://snapshot.org/#/dydxgov.eth). Alternatively, you can vote and create a Snapshot poll directly on [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
+* Register on Snapshot with your Ethereum wallet and follow dYdX proposals [here](https://snapshot.org/#/dydxgov.eth).&#x20;
 
 ![https://snapshot.org/#/dydxgov.eth](../.gitbook/assets/2-register-snapshot.png)
 
-* To view active Snapshot Proposals, go to [Snapshot](https://snapshot.org/#/dydxgov.eth) or [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
-
-![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](../.gitbook/assets/2-view-snapshot.png)
-
 * To vote on active Snapshot polls, you need to hold DYDX or have voting power delegated to your address before the Snapshot block number when the Snapshot poll becomes active.
-
-![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-snapshot-vote.png)
-
-* To vote, click on the proposal and select “yes” or “no” followed by “vote.”
-
-![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-1.png)
-
-![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-2.png)
+* To vote, click on the proposal and select “Yes” or “No” followed by “Vote.”
 
 #### _How to Create a Poll on Snapshot:_
 
-* To create a Snapshot poll, you will need to hold a minimum of 10k DYDX and/or have proposing power delegated to the address that you are using to create the proposal.
+* To create a Snapshot poll, you will need to **hold a minimum of 10k DYDX and/or have proposing power delegated to the address that you are using** to create the proposal.
 * The Snapshot proposal can consist of one or multiple actions, up to a maximum of 10 actions per proposal. Actions are changes specified in a proposal.
-* If you meet the minimum 10k proposing power requirement, select “New Proposal” and fill in the open fields as per the content requirements below.
+* If you meet the minimum 10k proposing power requirement, select “**New Proposal**” and fill in the open fields as per the content requirements below.
 
-![https://snapshot.org/#/dydxgov.eth/create](../.gitbook/assets/2-snapshot-create-poll-1.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.08.42 AM.png" alt=""><figcaption><p>dYdX Snapshot page - 'Create New Proposal' button</p></figcaption></figure>
 
-![https://forums.dydx.community/new/snapshot/dydxgov.eth](../.gitbook/assets/2-snapshot-create-poll-2.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.09.33 AM.png" alt=""><figcaption><p>Include details of the Snapshot here, and be sure to include a link to the DRC</p></figcaption></figure>
 
 DRC Snapshot Poll Content Requirements:
 
@@ -184,7 +173,7 @@ The dips folder includes a directory of previous proposals that follow the DIP t
 
 ![https://github.com/dydxfoundation/dip/tree/master/content/dips](../.gitbook/assets/2-dip-create-4.png)
 
-* Before you start drafting a proposal, please ensure that the branch that you forked is up to date with the lastet version of the master branch. If you are using an old version of the DIP repo, please confirm that your forked version is up to date with the latest changes. For assistance rebasing your forked version, you can follow the steps here: [https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master).
+* Before you start drafting a proposal, please ensure that the branch that you forked is up to date with the latest version of the master branch. If you are using an old version of the DIP repo, please confirm that your forked version is up to date with the latest changes. For assistance rebasing your forked version, you can follow the steps here: [https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master).
 * Edit the [DIP template](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) with the information for your proposal. If you did not fork the DIP repo, selecting the edit icon will automatically fork the repo from the master because you are not an admin.
 
 ![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](../.gitbook/assets/2-dip-create-5.png)
@@ -421,10 +410,6 @@ Note, (1) proposals must be executed within the 7 day Execution Grace Period tha
 * You may vote on an Active DIP by selecting the DIP from: [https://dydx.community/dashboard](https://dydx.community/dashboard).
 
 ![](../.gitbook/assets/2-draft-dip-example-17.png)
-
-* In the future, you may also vote on an Active DIP on Commonwealth.
-
-![](../.gitbook/assets/2-draft-dip-example-18.png)
 
 The voting length depends on the type of proposal. More information can be found under [DIP Creation](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
 
