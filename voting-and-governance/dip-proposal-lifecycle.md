@@ -82,7 +82,7 @@ After the Voting Delay, the Voting Period is activated. The voting period length
 
 The following chart shows a DIP state flowchart:
 
-![Lifecycle of a DIP](../.gitbook/assets/1-proposal-state-flowchart.png)
+<figure><img src="../.gitbook/assets/Proposal Lifecycle (1).png" alt=""><figcaption></figcaption></figure>
 
 After a DIP is created on-chain it is subject to a **Voting Delay**, **Voting Period**, **Minimum Quorum**, and a minimum **Vote Differential**. The initial parameters are as follows:
 
