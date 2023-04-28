@@ -6,7 +6,7 @@ description: dYdX İyileştirme Teklifi (DIP) yaşam döngüsüne genel bakış.
 
 ## **Teklif Aşamaları**
 
-dYdX Yönetişim Süreci, [**forums.dydx.community**](https://forums.dydx.community/) adresindeki yönetişim forumları tarafından desteklenir ve dYdX İyileştirme Teklifi ("DIP") aracılığıyla onaylanır.
+dYdX Yönetişim Süreci, [**https://dydx.forum/**](https://dydx.forum/) adresindeki yönetişim forumları ile desteklenir ve dYdX İyileştirme Teklifleri ("DIP'ler") ile onaylanır.
 
 Aşağıda konseptin başlangıcından ve tanımlanmasından fiilen uygulanmasına kadar dYdX yönetişim sürecinin nasıl aktığını açıklayan bir ön taslağı özetliyoruz. Bu süreçler DYDX topluluğundan gelen geri bildirimlere göre değişebilir.
 
@@ -16,13 +16,13 @@ Aşağıdaki akış şeması bir teklifin geçmesi için başlangıçta önerile
 
 ## 0. Forum Tartışması
 
-Herkes [**forums.dydx.community**](https://forums.dydx.community/) adresinde barındırılan dYdX'in Yönetişim forumlarında kayıt olup herhangi bir konuda bir ileti dizisi oluşturabilir. Topluluk üyelerinin bir e-posta adresi veya bir Ethereum cüzdanı kullanarak kaydolması gerekir.
+Herkes [**https://dydx.forum/**](https://dydx.forum/) adresinde barındırılan dYdX'in Yönetişim forumlarına kayıt olup herhangi bir konuda bir ileti dizisi oluşturabilir. Topluluk üyelerinin bir e-posta adresi veya bir Ethereum cüzdanı kullanarak kaydolması gerekir.
 
 ## 1. (Zincir Dışı) DRC Oluşturma
 
-Zincir dışı **dYdX Yorum Talebi** (DRC) oluşturulması yönetişimi iyileştirme sürecindeki ilk adımdır. Herkes Yönetişim Forumu'na katılabilir, zincir dışı DRC'ler oluşturabilir ve iyileştirmeleri tartışabilir.
+Zincir dışı **dYdX Yorum Talebi** (DRC) oluşturulması yönetişimi iyileştirme sürecindeki ilk adımdır. Herkes [Yönetişim Forumu](https://dydx.forum/)'na katılabilir, zincir dışı DRC'ler oluşturabilir ve iyileştirmeleri tartışabilir.
 
-Bir DRC oluşturmak için [bu şablonu](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) (Github'ımızda mevcuttur) kullanın. DRC, potansiyel olarak nihai DIP'nin tüm bilgilerini kapsamalıdır.
+Bir DRC oluşturmak için [bu şablonu](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) (Github'ımızda mevcuttur) kullanın. DRC, nihai olması muhtemel DIP'nin tüm bilgilerini kapsamalıdır.
 
 DRC'ler en azından şunları içermelidir:
 
@@ -82,7 +82,7 @@ Oylama Bekleme Süresi dolduktan sonra Oylama Süresi etkinleştirilir. Oylama s
 
 Aşağıdaki grafik bir DIP durumu akış şemasını göstermektedir:
 
-![Bir DIP'in Yaşam Döngüsü](../.gitbook/assets/1-proposal-state-flowchart.png)
+<figure><img src="../.gitbook/assets/Proposal Lifecycle (1).png" alt=""><figcaption></figcaption></figure>
 
 Zincir içi bir DIP oluşturulduktan sonra, bir **Oylama Bekleme Süresi**, **Oylama Süresi**, **Karar Yeter Sayısı** ve bir minimum **Oy Farkına** tabi olur. Başlangıç parametreleri aşağıdaki gibidir:
 
