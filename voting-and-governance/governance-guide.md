@@ -41,7 +41,8 @@ dYdX社区对流动性提供方奖励阈值具有“即时且不可撤销的控�
 
 _**说明：**_
 
-dYdX治理流程由[治理论坛](https://forums.dydx.community/)推动。社区成员在讨论论坛中进行发帖和评论，以在链下达成粗略的共识。有关论坛讨论和DRC创建的更多信息，请点击[此处](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)访问链接。
+dYdX治理流程由[治理论坛](https://dydx.forum/)推动。社区成员在讨论论坛中进行发帖和评论，以在链下达成粗略的共识。有关论坛讨论和 DRC 创建的更多信息，请点击[此处](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)访问链接。\\注 - subDAO 业务已推出 [**https://dydx.forum/**](https://dydx.forum/) 作为社区投票的新论坛，从 [Commonwealth 过渡到 Discource](https://snapshot.org/#/dydxgov.eth/proposal/0xa5e77732dd24edd26bd41b089969b3662c29eb41c3bacd35cb2931ca55882a8f)。本指南中关于以往 DRC 讨论的一些参考仍将指向 Commonwealth，但任何新讨论都应在新推出的 [**Discourse**](https://dydx.forum/) 论坛上进行。\
+
 
 _**适用于DIP 2：**_
 
@@ -51,19 +52,16 @@ Three Arrows Capital的Su Zhu (zhusu)创建了一个[链下论坛讨论](https:/
 
 ![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](../.gitbook/assets/2-reduce-mm-incentives-2.png)
 
-#### _如何在Commonwealth上发帖和评论：_
+#### _如何在 Discourse 上发帖和评论：_
 
-* 用以太坊钱包或 Github 帐户在 Commonwealth 上注册，并点击[此处](https://forums.dydx.community/)加入 dYdX 社区。
+* 使用电子邮件账户在 Discourse 上注册，并在[此处](https://dydx.forum/)加入 dYdX 社区。
 
-![https://forums.dydx.community/](../.gitbook/assets/2-register-on-cw.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 10.59.27 AM.png" alt=""><figcaption></figcaption></figure>
 
-* 选择一个帖子，滚动查看评论，并通过点击相应评论下方的图标来点赞或回复评论。
+* 选择主线，滚动查看评论，给评论点赞或回复。
+* 单击“**新主题 **”，并选择主题类别，来创建新的讨论线或发布 DRC。
 
-![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](../.gitbook/assets/2-select-thread.png)
-
-* 通过单击“创建新帖”并选择主题类别来创建新的讨论帖或发布DRC。
-
-![https://forums.dydx.community/new/discussion](../.gitbook/assets/2-create-discussion-cw.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.03.33 AM.png" alt=""><figcaption></figcaption></figure>
 
 * 如果您要创建DRC，请点击[此处](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md)访问链接并按照模板进行操作。如提议[生命周期](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)中的_DRC创建_中所述，DRC至少必须包括以下内容：
   * DRC的简短标题。
@@ -97,33 +95,22 @@ _**适用于DIP 2：**_
 
 #### _如何对快照投票进行投票：_
 
-* 用您的以太坊钱包在快照上注册，并遵循[此处](https://snapshot.org/#/dydxgov.eth)的dYdX提议。或者，您可以直接在[Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth)上投票并创建快照投票。
+* 用您的以太坊钱包在快照上注册，并遵循[此处](https://snapshot.org/#/dydxgov.eth)的dYdX提议。
 
 ![https://snapshot.org/#/dydxgov.eth](../.gitbook/assets/2-register-snapshot.png)
 
-* 要查看有效的快照提议，请转到[快照](https://snapshot.org/#/dydxgov.eth)或[Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth)。
-
-![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](../.gitbook/assets/2-view-snapshot.png)
-
 * 要对有效的快照投票进行投票，您需要在快照投票生效时在快照区块编号之前持有DYDX或将投票权委托给您的地址。
-
-![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-snapshot-vote.png)
-
 * 要进行投票，请点击提议并选择“是”或“否”，然后选择“投票”。
-
-![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-1.png)
-
-![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-2.png)
 
 #### _如何在快照上创建投票：_
 
-* 要创建快照投票，您需要至少持有 1 万个 DYDX 和/或将提议权委托给您用于创建提议的地址。
+* 要创建快照投票，您需要至少**持有 1 万个 DYDX 和/或将提议权委托给您用于创建提议的地址**。
 * 快照提议可以包含一个或多个操作，每个提议最多10个操作。操作是提议中指定的变更。
-* 如果您符合最低 1 万提议权要求，请选择“新提议”并根据以下内容要求填写开放栏位。
+* 如果您符合最低 1 万提议权要求，请选择“**新提议**”并根据以下内容要求填写开放栏位。
 
-![https://snapshot.org/#/dydxgov.eth/create](../.gitbook/assets/2-snapshot-create-poll-1.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.08.42 AM.png" alt=""><figcaption><p>dYdX 快照页面 - “创建新提议”按钮</p></figcaption></figure>
 
-![https://forums.dydx.community/new/snapshot/dydxgov.eth](../.gitbook/assets/2-snapshot-create-poll-2.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.09.33 AM.png" alt=""><figcaption><p>在这里附上快照的详细内容，并确保包含了与 DRC 的链接</p></figcaption></figure>
 
 DRC快照投票内容要求：
 
@@ -419,10 +406,6 @@ DIP 于 2021 年 11 月 1 日在区块 13532376 创建。对于之后的 6570 �
 * 您可以通过从[https://dydx.community/dashboard](https://dydx.community/dashboard)中选择DIP来对活动的DIP进行投票。
 
 ![](../.gitbook/assets/2-draft-dip-example-17.png)
-
-* 将来，您还可以对Commonwealth中活动的DIP进行投票。
-
-![](../.gitbook/assets/2-draft-dip-example-18.png)
 
 投票时限取决于提议的类型。可以在[DIP创建](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)中查阅更多信息。
 
