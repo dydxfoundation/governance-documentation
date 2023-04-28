@@ -44,7 +44,7 @@
 
 ## 외부 링크
 
-* [포럼](http://forums.dydx.community/)
+* [포럼](https://dydx.forum/)
 * [dYdX Layer 2](https://trade.dydx.exchange/)
 * [dYdX Layer 2 API](https://docs.dydx.exchange/)
 * [dYdX Trading Inc.](https://dydx.exchange)
