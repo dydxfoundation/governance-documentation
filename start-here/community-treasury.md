@@ -4,11 +4,12 @@ description: Ein Überblick über die Gemeinschaftskasse.
 
 # Gemeinschaftskasse
 
-`16,2`**`%` ** (`162.004.734 $DYDX`) des Tokenangebots werden der **** Gemeinschaftskasse für die dYdX-Community zugewiesen, die fortlaufend für Beitragszuschüsse, Gemeinschaftsinitiativen, Liquiditäts-Mining und andere Programme fortlaufend verwendet werden sollen. Zu Beginn wurden `5,0 %` des Tokenangebots ( `50.000.000 $DYDX` ) der Gemeinschaftskasse zugewiesen und 766.703 $DYDX gingen in jedem Durchgang in die Gemeinschaftskasse ein. Aktuell befinden sich 2.492.731 $DYDX in der Gemeinschaftskasse, da drei Governance-Vorschläge zu einer Erhöhung von 1.726.028 $DYDX führten, die der dYdX-Gemeinschaft pro Laufzeit zur Verfügung stehen:
+`21,9` **`%`** (`219.194.788 $DYDX`) des Tokenangebots werden der Community-Kasse zugewiesen, die die dYdX-Community fortlaufend für Spendengelder, Community-Initiativen, Liquidity Mining und andere Programme verwenden kann. Zu Beginn wurden `5,0 %` des Tokenangebots (`50.000.000 $DYDX` ) der Gemeinschaftskasse [zugewiesen](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations) und 766.703 $DYDX gingen in jedem Durchgang in die Gemeinschaftskasse ein. Derzeit werden 3.787.251 $DYDX in die Community-Kasse ausgegeben, da drei Governance-Vorschläge zu einer Erhöhung des der dYdX-Community in jeder Epoche verfügbaren DYDX-Betrags um 3.020.548 $DYDX führten:
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - wurden die Staking-Prämien für USDC auf 0 gesetzt (383.562 $DYDX pro Laufzeit)
-* [DIP 16](https://dydx.community/dashboard/proposal/8) - wurden die Handelsprämien um 25 % (958.904 $DYDX pro Laufzeit) reduziert, und
-* [DIP 17](https://dydx.community/dashboard/proposal/9) - wurden die Prämien für $DYDX-Staking auf 0 gesetzt (383.562 $DYDX pro Laufzeit).
+* [DIP 16](https://dydx.community/dashboard/proposal/8) - wurden die Handelsprämien um 25 % (958.904 $DYDX pro Laufzeit) reduziert,
+* [DIP 17](https://dydx.community/dashboard/proposal/9) - wurden die Prämien für $DYDX-Staking auf 0 gesetzt (383.562 $DYDX pro Laufzeit) und
+* [DIP 20](https://dydx.community/dashboard/proposal/11) - die Handelsprämien um 45 % (1.294.520 $DYDX pro Epoche) weiter reduzieren.
 
 
 
@@ -36,7 +37,7 @@ Jede Sekunde überweist der Gemeinschaftsschatzmeister (siehe Details [hier](htt
 
 Mitglieder der dYdX-Community können [hier](https://dydx.shippooor.xyz/) den Rücklagen-Kontostand der Community Treasury einsehen. \
 \
-Darüber hinaus veröffentlicht die dYdX Foundation den Rücklagen-Kontostand der Community Treasury in der [Epochen-Rückschau](https://dydx.foundation/blog) am Ende jeder Epoche. Zusätzlich zu den im Gemeinschaftskasse eingetragenen $DYDX kann die dYdX-Community auch auf die $DYDX, die in der Prämienkasse anfallen, zugreifen, weil die Abstimmungen (1) die Handelsprämien um 25 % (958.904 $DYDX) reduzieren, (2) die Prämien für USDC auf 0 (383.562 $DYDX) und (3) die Prämien für $DYDX auf 0 (383.562 $DYDX) setzen. [](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)Ab Periode 17 werden pro Laufzeit 1.726.028 $DYDX in der Prämienkasse angelegt und können von der dYdX-Gemeinschaft mit einer Governance-Abstimmung verwendet werden
+Darüber hinaus veröffentlicht die dYdX Foundation den Rücklagen-Kontostand der Community Treasury in der [Epochen-Rückschau](https://dydx.foundation/blog) am Ende jeder Epoche. Zusätzlich zu den im Gemeinschaftskasse eingetragenen $DYDX kann die dYdX-Community auch auf die $DYDX, die in der Prämienkasse anfallen, zugreifen, weil die Abstimmungen (1) die Handelsprämien um 25 % (958.904 $DYDX) reduzieren, (2) die Prämien für USDC auf 0 (383.562 $DYDX) und (3) die Prämien für $DYDX auf 0 (383.562 $DYDX) setzen. Ab Epoche 21 werden auf dem Prämien-Konto je Epoche 3.020.,548 $DYDX anfallen. Diese können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
 
 ### Wer kann Vorschläge zur Ausgabe von $DYDX aus der Gemeinschaftskasse einreichen?
 
