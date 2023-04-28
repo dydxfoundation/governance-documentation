@@ -41,7 +41,8 @@ dYdX 커뮤니티에는 유동성 제공자 보상 기준에 대한 '즉각적�
 
 _**설명:**_
 
-dYdX 거버넌스 프로세스는 [거버넌스 포럼](https://forums.dydx.community/)을 기반으로 합니다. 커뮤니티 회원은 대략적인 합의 오프체인에 도달하기 위해 토론방에 글을 올리고 댓글을 남깁니다. 포럼 토론 및 DRC 생성에 대한 자세한 내용은 [여기](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle) 링크에서 확인하실 수 있습니다.
+dYdX 거버넌스 프로세스는 [거버넌스 포럼](https://dydx.forum/)을 기반으로 합니다. 커뮤니티 회원은 대략적인 합의 오프체인에 도달하기 위해 토론방에 글을 올리고 댓글을 남깁니다. 포럼 토론 및 DRC 생성에 대한 자세한 내용은 [여기](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle) 링크에서 확인하실 수 있습니다.\\ 참고 - 운영 하위 DAO는 [Commonwealth to Discourse에서 전환에 커뮤니티 투표를 하는](https://snapshot.org/#/dydxgov.eth/proposal/0xa5e77732dd24edd26bd41b089969b3662c29eb41c3bacd35cb2931ca55882a8f) 새로운 포럼으로 [**https://dydx.forum/**](https://dydx.forum/) 을시작하였습니다. 이전 DRC 토론에 대한 이 가이드의 일부 참고 자료는 여전히 Commonwealth를 가리키지만, 새로 시작된 [**Discourse**](https://dydx.forum/) 포럼에서 새로운 논의가 일어나야 합니다. \
+
 
 _**DIP 2에 대한 적용:**_
 
@@ -51,19 +52,16 @@ Three Arrows Capital의 Su Zhu(zhusu)는 유동성 제공자 보상 기준을 �
 
 ![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](../.gitbook/assets/2-reduce-mm-incentives-2.png)
 
-#### _Commonwealth에 게시 및 댓글 남기는 방법:_
+#### _Discourse에 대한 게시글 및 댓글 작성 방법:_
 
-* 이더리움 지갑 또는 Github 계정으로 Commonwealth에 등록하고 [여기에서](https://forums.dydx.community/) dYdX 커뮤니티에 가입하세요.
+* [여기](https://dydx.forum/)에서 이메일 계정을 통해 Discourse에 등록하고, dYdX 커뮤니티에 가입하세요.
 
-![https://forums.dydx.community/](../.gitbook/assets/2-register-on-cw.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 10.59.27 AM.png" alt=""><figcaption></figcaption></figure>
 
-* 방을 선택하고 스크롤하여 댓글을 확인하고 각 댓글 아래의 아이콘을 클릭하여 좋아요를 누르거나 답변을 남기세요.
+* 스레드를 선택하고, 댓글을 스크롤하고, 댓글에 좋아요를 누르거나 답글을 답니다.
+* "**New Topic**"을 클릭하고 주제 카테고리를 선택하여 새로운 토론 스레드를 만들거나 DRC를 게시합니다.
 
-![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](../.gitbook/assets/2-select-thread.png)
-
-* '새로운 방 만들기'를 클릭하고 주제 카테고리를 선택하여 새로운 토론방을 개설하거나 DRC를 게시하세요.
-
-![https://forums.dydx.community/new/discussion](../.gitbook/assets/2-create-discussion-cw.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.03.33 AM.png" alt=""><figcaption></figcaption></figure>
 
 * DRC를 생성할 경우, [여기](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) 링크의 템플릿을 사용하시기 바랍니다. [제안 수명 주기](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)의 _DRC 생성_에 따라 설명된 바와 같이, 최소 DRC에는 다음이 포함되어야 합니다.
   * DRC의 짧고 간결한 제목.
@@ -99,33 +97,22 @@ _**DIP 2에 대한 적용:**_
 
 #### _스냅샷 여론조사에서 투표하는 방법:_
 
-* 이더리움 지갑으로 스냅샷에 등록하고 [여기](https://snapshot.org/#/dydxgov.eth)에서 dYdX 제안을 팔로우하세요. 아니면 [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth)에서 스냅샷 여론조사를 직접 투표하고 생성할 수도 있습니다.
+* 이더리움 지갑으로 스냅샷에 등록하고 [여기](https://snapshot.org/#/dydxgov.eth)에서 dYdX 제안을 팔로우하세요.
 
 ![https://snapshot.org/#/dydxgov.eth](../.gitbook/assets/2-register-snapshot.png)
 
-* 활성 스냅샷 제안을 보려면 [스냅샷](https://snapshot.org/#/dydxgov.eth) 또는 [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth)로 이동하세요.
-
-![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](../.gitbook/assets/2-view-snapshot.png)
-
 * 활성 스냅샷 여론조사에 투표하려면 DYDX를 보유하거나 스냅샷 블록 번호 이전에 귀하의 주소로 위임된 투표권을 스냅샷 여론조사가 활성화되는 시점에 보유하고 있어야 합니다.
-
-![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-snapshot-vote.png)
-
 * 투표하려면 제안을 클릭하고 '네' 또는 '아니오'를 선택하고 '투표하기'를 선택하세요.
-
-![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-1.png)
-
-![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-2.png)
 
 #### _스냅샷에서 투표 생성하는 방법:_
 
-* 스냅샷 여론조사를 생성하려면 최소 10,000DYDX를 보유하거나 제안 생성에 사용 중인 주소에 위임된 제안권을 보유해야 합니다.
+* 스냅샷 여론조사를 생성하려면 **최소 10,000DYDX를 보유하거나 제안 생성에 사용 중인 주소에 위임된 제안권을 보유해야** 합니다.
 * 스냅샷 제안은 단일 또는 다중 작업으로, 제안당 최대 10개의 작업까지 구성될 수 있습니다. 작업은 제안에 명시된 변경 사항입니다.
-*  10,000의 최소 제안권 요건을 충족하는 경우, '새로운 제안'을 선택하고 아래 콘텐츠 요건에 따라 빈 칸을 채우세요.
+* 10,000의 최소 제안권 요건을 충족하는 경우, '**새로운 제안**'을 선택하고 아래 콘텐츠 요건에 따라 빈 칸을 채우세요.
 
-![https://snapshot.org/#/dydxgov.eth/create](../.gitbook/assets/2-snapshot-create-poll-1.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.08.42 AM.png" alt=""><figcaption><p>dYdX 스냅 샷 페이지 - '새로운 제안 만들기' 버튼</p></figcaption></figure>
 
-![https://forums.dydx.community/new/snapshot/dydxgov.eth](../.gitbook/assets/2-snapshot-create-poll-2.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.09.33 AM.png" alt=""><figcaption><p>지금부터 스냅 샷의 세부 사항을 포함하며 DRC에 대한 링크를 포함해야 합니다.</p></figcaption></figure>
 
 DRC 스냅샷 여론조사 콘텐츠 요건:
 
@@ -328,7 +315,7 @@ Paradigm 팀은 아래 스크립트를 실행하여 스마트 계약 업데이�
 `MNEMONIC=<... 추출 >`
 
 `npx hardhat --네트워크 메인넷 배포:안전-모듈-복구`\ `--dydx-토큰-주소 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\ `--단기-타임락-주소 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
- `--보상-트레저리-주소 0x639192D54431F8c816368D3FB4107Bc168d0E871`
+`--보상-트레저리-주소 0x639192D54431F8c816368D3FB4107Bc168d0E871`
 
 **거버넌스 제안: 안전 모듈 수정**
 
@@ -337,10 +324,10 @@ Paradigm 팀은 아래 스크립트를 실행하여 스마트 계약 업데이�
 `MNEMONIC=<... 추출 >`
 
 `npx hardhat --네트워크 메인넷 배포:안전-모듈-수정-제안서`\ `--제안서-ipfs-해시-hex 0x...`\ `--거버너-주소 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
- `--장기-타임락-주소 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B`\
- `--안전-모듈-주소 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC`\
- `--안전-모듈-프록시-관리자-주소 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C`\
- `--안전-모듈-신규-실행-주소 0x...`
+`--장기-타임락-주소 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B`\
+`--안전-모듈-주소 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC`\
+`--안전-모듈-프록시-관리자-주소 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C`\
+`--안전-모듈-신규-실행-주소 0x...`
 
 **거버넌스 제안: 안전 모듈 보상**
 
@@ -349,8 +336,8 @@ Paradigm 팀은 아래 스크립트를 실행하여 스마트 계약 업데이�
 `MNEMONIC=<... 추출 >`
 
 `npx hardhat --네트워크 메인넷 배포:안전-모듈-보상-제안서`\ `--제안서-ipfs-해시-hex 0x...`\ `--dydx-토큰-주소 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\ `--거버너-주소 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
- `--단기-타임락-주소 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
- `--보상-트레저리-주소 0x639192D54431F8c816368D3FB4107Bc168d0E871`\ `--안전-모듈-복구-주소 0x...`
+`--단기-타임락-주소 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
+`--보상-트레저리-주소 0x639192D54431F8c816368D3FB4107Bc168d0E871`\ `--안전-모듈-복구-주소 0x...`
 
 DIP는 [https://dydx.community/dashboard](https://dydx.community/dashboard)에도 동시에 게시되었습니다.
 
@@ -414,10 +401,6 @@ DIP가 온체인으로 실행되었을 당시의 [https://dydx.community/dashboa
 * 다음에서 DIP를 선택하여 활성 DIP에서 투표하실 수 있습니다. [https://dydx.community/dashboard](https://dydx.community/dashboard)
 
 ![](../.gitbook/assets/2-draft-dip-example-17.png)
-
-* 향후에는 Commonwealth에서도 활성 DIP에 투표하실 수 있습니다.
-
-![](../.gitbook/assets/2-draft-dip-example-18.png)
 
 투표 기간은 제안의 유형에 따라 다릅니다. 자세한 정보는 [DIP 생성](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)에서 확인할 수 있습니다.
 
