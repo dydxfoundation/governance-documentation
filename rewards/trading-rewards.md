@@ -4,7 +4,7 @@ description: Visão geral do programa de recompensas de trades.
 
 # Recompensas de trades
 
-`20,2`**`%` ** (`201.883.560 $DYDX`) do fornecimento de token é alocado para distribuição a usuários que fazem trades no protocolo dYdX Layer 2 com base em taxas pagas. Inicialmente, `25,0%` do fornecimento de token (`250.000.000 $DYDX`) foram alocados para recompensas de trades.
+`20,2`**`%`** (`201.883.560 $DYDX`) do fornecimento de token é alocado para ser distribuído a usuários que fizeram trades no protocolo dYdX Layer 2 com base em taxas pagas. Inicialmente, 25,0% do fornecimento de token (`250.000.000 $DYDX```) foram alocados para recompensas de trades.
 
 * No [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/8) pela redução de recompensas de trades em 25,0%. Como resultado, a alocação para recompensas de trading diminuiu de `25,0%` para `20,2%`.
 * No [DIP20](https://dydx.community/dashboard/proposal/11), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/11) pela redução de recompensas de trading em mais 45,0%. Como resultado, a alocação para recompensas de trading diminuiu de `20,2%` para `14,5%`.
