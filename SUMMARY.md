@@ -14,9 +14,9 @@
 
 ## Prämien
 
-* [Rückwirkende Mining-Prämien](rewards/retroactive-mining-rewards.md)
+* [Rückwirkende Mining Rewards](rewards/retroactive-mining-rewards.md)
 * [Trading-Prämien](rewards/trading-rewards.md)
-* [Prämien für Liquidity Provision](rewards/liquidity-provider-rewards.md)
+* [Rewards für Liquidity Provision](rewards/liquidity-provider-rewards.md)
 
 ## STAKING POOLS
 
@@ -44,7 +44,7 @@
 
 ## Externe Links
 
-* [Foren](http://forums.dydx.community/)
+* [Foren](https://dydx.forum/)
 * [dYdX Layer 2](https://trade.dydx.exchange/)
 * [dYdX Layer 2-API](https://docs.dydx.exchange/)
 * [dYdX Trading Inc.](https://dydx.exchange)
