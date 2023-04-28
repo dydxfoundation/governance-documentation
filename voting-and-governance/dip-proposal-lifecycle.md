@@ -6,7 +6,7 @@ description: Visão geral do ciclo de vida de propostas de melhoria da dYdX (DIP
 
 ## **Fases da proposta**
 
-O processo de governança da dYdX é alimentado por fóruns de governança em [**forums.dydx.community**](https://forums.dydx.community/) e ratificado por meio das propostas de melhorias da dYdX (“DIP”).
+O processo de governança da dYdX é alimentado por fóruns de governança em [**https://dydx.forum/**](https://dydx.forum/) e ratificado por meio de propostas de melhoria da dYdX (“DIPs”).
 
 Abaixo descrevemos um rascunho preliminar que explica como o processo de governança da dYdX fluirá desde o início e a definição do conceito até a implementação atual. Esses processos estão sujeitos a alterações de acordo com o feedback da comunidade da DYDX.
 
@@ -16,11 +16,11 @@ O fluxograma a seguir mostra as etapas iniciais propostas para aprovar uma propo
 
 ## 0. Discussão no fórum
 
-Qualquer um pode se inscrever e configurar uma discussão em qualquer tópico nos fóruns de governança da dYdX, que estão hospedados em [**forums.dydx.community**](https://forums.dydx.community/). Os membros da comunidade são obrigados a se registrar usando um endereço de e-mail ou carteira Ethereum.
+Qualquer um pode se inscrever e configurar uma discussão em qualquer tópico nos fóruns de governança da dYdX, que estão hospedados em [**https://dydx.forum/**](https://dydx.forum/). Os membros da comunidade são obrigados a se registrar usando um endereço de e-mail ou carteira Ethereum.
 
 ## 1. Criação de DRC (Off-chain)
 
-A criação de **solicitação dYdX de comentários** (DRC, em inglês) é o primeiro passo no processo de melhoria da governança. Qualquer um pode participar do Fórum de Governança, criar DRCs off-chain e discutir melhorias.
+A criação de **solicitação dYdX de comentários** (DRC, em inglês) é o primeiro passo no processo de melhoria da governança. Qualquer um pode participar do [Fórum de Governança](https://dydx.forum/), criar DRCs off-chain e discutir melhorias.
 
 Para criar um DRC, use [este modelo](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) (disponível em nosso Github). A DRC deve cobrir todas as informações da DIP final em potencial.
 
@@ -48,7 +48,7 @@ Para pesquisas de snapshots relacionadas à sinalização de sentimentos, o prop
 
 * detalhes da DRC,
 * um sistema de votação,
-* um período de votação — data de início e data de término da votação, definidas em um período de 4 dias e
+* um período de votação – data de início e data de término da votação, definidas em um período de 4 dias e
 * um atraso de votação, isto é, um número de bloco de snapshots que esteja 6570 blocos (aproximadamente 1 dia) no futuro. O número de bloco do snapshot trava o estado de membros da comunidade que podem votar. Os holders de tokens que tenham tokens antes do número de bloco do snapshot se tornam elegíveis para votar. Antes do snapshot do poder de voto de cada endereço, o atraso de votação dá tempo aos holders DYDX/stkDYDY para que adquiram tokens, deleguem o poder de voto e movimentem tokens entre carteiras (mover tokens entre carteiras se aplica apenas aos holders da DYDX).
 
 Os votos de snapshot são considerados finais e vinculativos para decisões que não exijam uma chamada no contrato inteligente on-chain e mudanças consideráveis às fórmulas de recompensas de trades a provedores de liquidez. O proponente precisará incluir os requisitos acima e fornecer:
@@ -82,7 +82,7 @@ Após o atraso de votação, o período de votação é ativado. O comprimento d
 
 O gráfico a seguir mostra um fluxograma de estado de DIP:
 
-![Ciclo de vida de uma DIP](../.gitbook/assets/1-proposal-state-flowchart.png)
+<figure><img src="../.gitbook/assets/Proposal Lifecycle (1).png" alt=""><figcaption></figcaption></figure>
 
 Depois que uma DIP é criada on-chain, ela fica sujeita a um **atraso de votação**, **período de votação**, **quórum mínimo** e um **diferencial de votação** mínimo. Os parâmetros iniciais são os seguintes:
 
