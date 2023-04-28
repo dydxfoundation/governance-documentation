@@ -44,7 +44,7 @@
 
 ## 外部链接
 
-* [论坛](http://forums.dydx.community/)
+* [论坛](https://dydx.forum/)
 * [dYdX Layer 2](https://trade.dydx.exchange/)
 * [dYdX Layer 2 API](https://docs.dydx.exchange/)
 * [dYdX Trading Inc.](https://dydx.exchange)
