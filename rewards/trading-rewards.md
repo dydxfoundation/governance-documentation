@@ -4,7 +4,7 @@ description: Überblick über das Trading Prämien-Programm.
 
 # Trading-Prämien
 
-`20,2`**`%` ** (`201.883.560 $DYDX`) des Tokenangebots werden an Benutzer verteilt, die auf der Grundlage der gezahlten Gebühren das dYdX-Layer-2-Protokoll handeln. Anfangs wurden `25,0 %` des Tokenangebots (`250.000.000 $DYDX`) als Handelsprämien zugewiesen.
+`20,2` **`%`** (`201.883.560 $DYDX`) des Tokenangebots werden auf der Grundlage der gezahlten Gebühren an Benutzer verteilt, die auf dem dYdX Layer 2-Protokoll handeln. Anfangs wurden 25,0 % des Tokenangebots (`250.000.000 $DYDX```) als Handelsprämien zugewiesen.
 
 * In [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) hat die dYdX-Community [vereinbart](https://dydx.community/dashboard/proposal/8), die Handelsprämien um 25,0 % zu verringern. Infolgedessen sank die Zuteilung für Handelsprämien von `25,0 %` auf `20,2 %`.
 * In [DIP20](https://dydx.community/dashboard/proposal/11) hat die dYdX-Community [vereinbart](https://dydx.community/dashboard/proposal/11), die Handelsprämien um weitere 45,.0 % zu verringern. In der Folge sank die Zuordnung als Handelsprämien von `20,2 %` auf `14,5 %`.
@@ -31,7 +31,7 @@ $$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k $$
 | Begriff | Definition |
 | ---------------------------- | ----------------------------------------------------------------------- |
 | r | Prämie für einen bestimmten Trader. |
-| R | Gesamtmenge der Prämien, die zwischen allen Tradern im Pool für die Epoche aufgeteilt werden müssen. |
+| R | Gesamtmenge der Rewards, die zwischen allen Tradern im Pool für die Epoche aufgeteilt werden müssen. |
 | f | Gesamtgebühren, die von einem Trader in dieser Epoche gezahlt wurden. |
 | w | Individueller Trader Score |
 | $${\sum\limits {n} ${\sum\limits _{n} w_{n}} | Summer aller Trader Scores. |
