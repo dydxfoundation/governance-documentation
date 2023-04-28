@@ -41,7 +41,10 @@ Ensuite, nous fournissons un aperçu étape par étape du fonctionnement pratiqu
 
 _**Description :**_
 
-Le processus de gouvernance dYdX est alimenté par [des forums de gouvernance](https://forums.dydx.community/). Les membres de la communauté publient et commentent les fils de discussion pour parvenir à un consensus approximatif hors chaîne. Vous pouvez trouver plus d'informations sur les discussions sur le forum et la création d'une DRC [ici](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
+Le processus de gouvernance dYdX est alimenté par [des forums de gouvernance](https://dydx.forum/). Les membres de la communauté publient et commentent les fils de discussion pour parvenir à un consensus approximatif hors chaîne. Plus d'informations sur les discussions de forum et la création d'une DRC sont liées [ici](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle). \
+
+\Note - Le sous-DAO des opérations a lancé le nouveau forum [**https://dydx.forum/**](https://dydx.forum/) sur le [vote de la communauté pour la transition du Commonwealth au Discours](https://snapshot.org/#/dydxgov.eth/proposal/0xa5e77732dd24edd26bd41b089969b3662c29eb41c3bacd35cb2931ca55882a8f). Certaines références dans ce guide aux discussions précédentes de la DRC indiqueront toujours le Commonwealth, mais toute nouvelle discussion devrait être en cours sur le forum de [**Discours**](https://dydx.forum/) nouvellement lancé. \
+
 
 _**Candidature à la DIP 2 :**_
 
@@ -51,19 +54,16 @@ Su Zhu (zhusu) de Three Arrows Capital a créé un [forum de discussion hors cha
 
 ![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](../.gitbook/assets/2-reduce-mm-incentives-2.png)
 
-#### _Comment publier et commenter sur Commonwealth :_
+#### _Comment envoyer un commentaire sur Discours :_
 
-* Inscrivez-vous sur Commonwealth avec votre portefeuille Ethereum ou votre compte Github et rejoignez la communauté dYdX [ici](https://forums.dydx.community/).
+* Inscrivez-vous sur Discours avec votre compte e-mail et rejoignez dYdX [ici](https://dydx.forum/).
 
-![https://forums.dydx.community/](../.gitbook/assets/2-register-on-cw.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 10.59.27 AM.png" alt=""><figcaption></figcaption></figure>
 
-* Sélectionnez un fil, faites défiler les commentaires et aimez ou répondez aux commentaires en cliquant sur les icônes sous le commentaire respectif.
+* Sélectionnez un fil, faites défiler les commentaires et aimez ou répondez aux commentaires.
+* Créez un nouveau fil de discussion ou postez une DRC en cliquant sur « **Nouveau sujet** » et en sélectionnant la catégorie de sujet.
 
-![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](../.gitbook/assets/2-select-thread.png)
-
-* Créez un nouveau fil de discussion ou publiez une DRC en cliquant sur « Nouveau fil » et en sélectionnant la catégorie de sujet.
-
-![https://forums.dydx.community/new/discussion](../.gitbook/assets/2-create-discussion-cw.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.03.33 AM.png" alt=""><figcaption></figcaption></figure>
 
 * Si vous créez une DRC, veuillez suivre le modèle lié [ici](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md). Comme indiqué dans la rubrique _Création de la DRC_ dans le [cycle de vie de la proposition](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle), les DRC doivent au minimum inclure les éléments suivants :
   * Un titre court et concis de la DCR.
@@ -97,33 +97,22 @@ Ensuite, Su Zhu a créé un sondage Snapshot avec les options suivantes :
 
 #### _Comment voter sur un sondage Snapshot :_
 
-* Inscrivez-vous sur Snapshot avec votre portefeuille Ethereum et suivez les propositions dYdX [ici](https://snapshot.org/#/dydxgov.eth). Sinon, vous pouvez voter et créer un sondage Snapshot directement sur [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
+* Inscrivez-vous sur Snapshot avec votre portefeuille Ethereum et suivez les propositions dYdX [ici](https://snapshot.org/#/dydxgov.eth).
 
 ![https://snapshot.org/#/dydxgov.eth](../.gitbook/assets/2-register-snapshot.png)
 
-* Pour voir les propositions Snapshot actives, rendez-vous sur [Snapshot](https://snapshot.org/#/dydxgov.eth) ou [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
-
-![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](../.gitbook/assets/2-view-snapshot.png)
-
 * Pour voter sur des sondages Snapshot actifs, vous devez détenir des DYDX ou avoir un pouvoir de vote délégué à votre adresse avant le numéro de bloc Snapshot lorsque le sondage Snapshot devient actif.
-
-![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-snapshot-vote.png)
-
-* Pour voter, cliquez sur la proposition et sélectionnez « oui » ou « non » suivi de « vote ».
-
-![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-1.png)
-
-![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-2.png)
+* Pour voter, cliquez sur la proposition et sélectionnez « Oui » ou « Non » suivi de « Voter ».
 
 #### _Comment créer un sondage sur Snapshot :_
 
-* Pour créer un sondage Snapshot, vous devrez détenir un minimum de 10 000 DYDX et/ou disposer d'un pouvoir de proposition délégué à l'adresse que vous utilisez pour créer la proposition.
+* Pour créer un sondage instantané, vous devez **détenir un minimum de 10k dYdX et/ou avoir le pouvoir proposé délégué à l'adresse que vous utilisez** pour créer la proposition.
 * La proposition Snapshot peut consister en une ou plusieurs actions, jusqu'à un maximum de 10 actions par proposition. Les actions sont des changements spécifiés dans une proposition.
-* Si vous remplissez l'exigence minimale de puissance de proposition de 10 000, sélectionnez « Nouvelle proposition » et remplissez les champs ouverts conformément aux exigences de contenu ci-dessous.
+* Si vous remplissez l'exigence minimale de puissance de proposition de 10 000, sélectionnez « **Nouvelle proposition** » et remplissez les champs ouverts conformément aux exigences de contenu ci-dessous.
 
-![https://snapshot.org/#/dydxgov.eth/create](../.gitbook/assets/2-snapshot-create-poll-1.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.08.42 AM.png" alt=""><figcaption><p>Page Snapshot de dYdX - bouton « Créer une nouvelle proposition »</p></figcaption></figure>
 
-![https://forums.dydx.community/new/snapshot/dydxgov.eth](../.gitbook/assets/2-snapshot-create-poll-2.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.09.33 AM.png" alt=""><figcaption><p>Inclure les détails du Snapshot ici, et assurez-vous d'inclure un lien vers la DRC</p></figcaption></figure>
 
 Exigences de contenu du sondage Snapshot DRC :
 
@@ -182,7 +171,7 @@ Le dossier dips comprend un répertoire des propositions précédentes qui suive
 
 ![https://github.com/dydxfoundation/dip/tree/master/content/dips](../.gitbook/assets/2-dip-create-4.png)
 
-* Avant de commencer à rédiger une proposition, assurez-vous que la branche que vous avez créée est à jour avec la dernière version de la branche principale. Si vous utilisez une ancienne version du référentiel DIP, veuillez confirmer que votre version forkée est à jour avec les dernières modifications. Pour obtenir de l'aide pour rebaser votre version forkée, vous pouvez suivre les étapes ici : [https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master).
+* Avant de commencer à rédiger une proposition, veuillez vous assurer que la branche que vous avez faite bifurquer est à jour avec la dernière version de la branche principale. Si vous utilisez une ancienne version du référentiel DIP, veuillez confirmer que votre version forkée est à jour avec les dernières modifications. Pour obtenir de l'aide pour rebaser votre version forkée, vous pouvez suivre les étapes ici : [https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master).
 * Modifiez le [modèle de DIP](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) avec les informations pour votre proposition. Si vous n'avez pas forké le référentiel DIP, la sélection de l'icône de modification forkera automatiquement le référentiel principal car vous n'êtes pas un administrateur.
 
 ![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](../.gitbook/assets/2-dip-create-5.png)
@@ -404,10 +393,6 @@ Notez que (1) les propositions doivent être exécutées dans le délai de grâc
 * Vous pouvez voter pour une DIP active en sélectionnant la DIP à partir de : [https://dydx.community/dashboard](https://dydx.community/dashboard).
 
 ![](../.gitbook/assets/2-draft-dip-example-17.png)
-
-* À l'avenir, vous pourrez également voter pour une DIP active sur le Commonwealth.
-
-![](../.gitbook/assets/2-draft-dip-example-18.png)
 
 La durée du vote dépend du type de proposition. Plus d'informations peuvent être trouvées sous [Création d'une DIP](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
 
