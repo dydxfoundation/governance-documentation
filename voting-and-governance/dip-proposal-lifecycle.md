@@ -6,7 +6,7 @@ description: dYdX 개선점 제안(DIP) 수명주기 개요
 
 ## **제안 단계**
 
-dYdX 거버넌스 프로세스는 [**forum.dydx.community**](https://forums.dydx.community/)의 거버넌스 포럼을 기반으로 하며, dYdX 개선 제안(이하 'DIP')을 통해 승인됩니다.
+dYdX 거버넌스 프로세스는 [**https://dydx.forum/**](https://dydx.forum/)에서 거버넌스 포럼에 의해 움직이고, dYdX 개선책 제안("DIP")을 통해 비준되었습니다.
 
 아래의 초안에서는 거버넌스 개념의 시작 및 정의부터 실제 구현에 이르기까지 dYdX 거버넌스 프로세스가 어떻게 진행될 것인지를 설명합니다.
  해당 프로세스는 DYDX 커뮤니티의 피드백에 따라 변경될 수 있습니다.
@@ -18,11 +18,11 @@ dYdX 거버넌스 프로세스는 [**forum.dydx.community**](https://forums.dydx
 
 ## 0. 포럼 논의
 
-누구나 [**forums.dydx.community**](https://forums.dydx.community/)에 호스팅되는 dYdX 거버넌스 포럼에 가입하고 모든 주제로 스레드를 만들 수 있습니다. 커뮤니티 회원은 이메일 주소 또는 이더리움 지갑을 사용하여 등록해야 합니다.
+누구나 [**https://dydx.forum/**](https://dydx.forum/)에 호스팅되는 dYdX 거버넌스 포럼에 가입하고 모든 주제로 스레드를 만들 수 있습니다. 커뮤니티 회원은 이메일 주소 또는 이더리움 지갑을 사용하여 등록해야 합니다.
 
 ## 1. (오프체인) DRC 생성
 
-오프체인 **dYdX 의견 요청**(DRC) 생성은 거버넌스 개선 프로세스의 첫 번째 단계입니다. 누구나 거버넌스 포럼에 참여하여 오프체인 DRC를 생성하고 개선점을 논의할 수 있습니다.
+오프체인 **dYdX 의견 요청**(DRC) 생성은 거버넌스 개선 프로세스의 첫 번째 단계입니다. 누구나 [거버넌스 포럼](https://dydx.forum/)에 참여하여 오프체인 DRC를 생성하고 개선점을 논의할 수 있습니다.
 
 DRC를 생성하기 위해 [이 템플릿](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md)(Github에서 이용 가능)을 사용하세요. DRC는 잠정적으로 최종 DIP의 모든 정보를 다뤄야 합니다.
 
@@ -98,7 +98,8 @@ DIP를 생성하려면 계정에 요구되는 최소 보유/위임 토큰 수를
 
 다음에서 DIP 상태 플로우 차트를 확인할 수 있습니다.
 
-![DIP 수명주기](../.gitbook/assets/1-proposal-state-flowchart.png)
+
+<figure><img src="../.gitbook/assets/Proposal Lifecycle (1).png" alt=""><figcaption></figcaption></figure>
 
 DIP가 온체인으로 생성되면, 해당 DIP에는 **투표 딜레이**, **투표 기간**, **최소 정족수** 및 최소 **투표 격차**가 적용됩니다. 초기 파라미터는 다음과 같습니다.
 
