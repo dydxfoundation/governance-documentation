@@ -1,14 +1,15 @@
 ---
-description: Un aperçu du trésor de la communauté.
+description: Un aperçu de la trésorerie de la communauté.
 ---
 
-# Trésorerie communautaire
+# Trésorerie de la communauté
 
-`16,2`** `%` ** (`162 004 734 $DYDX`) de la réserve de jetons sont alloués de la trésorerie de la communauté **** et sont continuellement utilisés au titre des subventions des contributeurs, des initiatives de la communauté, de l'extraction de liquidité et d'autres programmes. Initialement, `5,0 %` de la réserve de jetons (`50 000 000 $DYDX`) ont été alloués à la trésorerie de la communauté. À chaque Epoch, 766 703 $DYDX y ont été investis. Actuellement, 2 492 731 $DYDX sont dévolus à la trésorerie de la communauté, suite aux trois propositions de gouvernance qui ont entraîné une augmentation de 1 726 028 $DYDX du montant de $DYDX disponible pour la communauté de dYdX à chaque Epoch :
+`21,9` **`%`** (`219 194 788 $DYDX`) de l'offre de jetons est alloué au Trésor de la communauté pour dYdX afin qu'il utilise en permanence les subventions des contributeurs, les initiatives communautaires, l'extraction de liquidité et d'autres programmes. Initialement, `5,0 %` de la réserve de jetons (`50 000 000 $DYDX`) ont été [alloués](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations) à la trésorerie de la communauté. À chaque Époch, 766 703 $DYDX y ont été investis. Actuellement, 3 787 251 $DYDX acquièrent dans le Trésor de dYdX de la communauté, parce que trois propositions de gouvernance ont entraîné une augmentation de 3 020 548 $DYDX du montant de $DYDX disponibles pour la communauté de dYdX à chaque époch :
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - fixer les récompenses pour le jalonnement de l'USDC à 0 (383 562 $DYDX par époque),
-* [DIP 16](https://dydx.community/dashboard/proposal/8) - réduire les récompenses du trading de 25 % (958 904 $DYDX par époque), et
-* [DIP 17](https://dydx.community/dashboard/proposal/9) - fixer les récompenses pour le jalonnement de $DYDX à 0 (383 562 $DYDX par époque).
+* [DIP 16](https://dydx.community/dashboard/proposal/8) - réduire les récompenses du trading de 25 % (958 904 $DYDX par époch), et
+* [DIP 17](https://dydx.community/dashboard/proposal/9) - fixer les récompenses pour le jalonnement de $DYDX à 0 (383 562 $DYDX par époch).
+* [DIP 20](https://dydx.community/dashboard/proposal/11) - réduire davantage les récompenses de trading de 45 % (1 294 520 $DYDX par époch).
 
 
 
@@ -36,7 +37,7 @@ Chaque seconde, le détenteur de la trésorerie de la communauté (voir les dét
 
 Les membres de la communauté dYdX peuvent voir le solde investi de la trésorerie de la communauté[ici](https://dydx.shippooor.xyz/). \
 \
-De plus, dYdX Foundation publie le solde investi de la trésorerie de la communauté dans la [révision d'epoch](https://dydx.foundation/blog) à la fin de chaque epoch. En plus des $DYDX investis dans la trésorerie de la communauté, cette dernière peut également accéder aux $DYDX cumulés dans la trésorerie des récompenses suite aux votes visant (1) à réduire les récompenses de trading de 25 % (958 904 $DYDX) et (2) à fixer les récompenses de mise en réserve d'USDC à 0 (383 562 $DYDX), et (3) fixer les récompenses de mise en réserve de $DYDX à 0 (383 562 $DYDX). À partir de l'Epoch 17, 1 726 028 $DYDX seront placés dans la trésorerie des récompenses de chaque Epoch et pourront être utilisés par la communauté dYdX au moyen d'un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+De plus, dYdX Foundation publie le solde investi de la trésorerie de la communauté dans la [révision d'epoch](https://dydx.foundation/blog) à la fin de chaque epoch. En plus des $DYDX investis dans la trésorerie de la communauté, cette dernière peut également accéder aux $DYDX cumulés dans la trésorerie des récompenses suite aux votes visant (1) à réduire les récompenses de trading de 25 % (958 904 $DYDX) et (2) à fixer les récompenses de mise en réserve d'USDC à 0 (383 562 $DYDX), et (3) fixer les récompenses de mise en réserve de $DYDX à 0 (383 562 $DYDX). À partir de l'Epoch 21, 3 020 548 $DYDX s'accumuleront dans le Trésor des récompenses à chaque Epoch et pourront être utilisés par la communauté dYdX avec un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
 ### Qui peut déposer des propositions de dépense de $DYDX de la trésorerie de la communauté ?
 
