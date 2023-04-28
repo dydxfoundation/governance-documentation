@@ -6,7 +6,7 @@ description: dYdX改进提议(DIP)生命周期概述。
 
 ## **提议阶段**
 
-dYdX治理进程由[**forums.dydx.community**](https://forums.dydx.community/)的治理论坛推动，并通过dYdX改进提议(“DIP”)予以批准。
+dYdX 治理进程由 [**https://dydx.forum/**](https://dydx.forum/) 治理论坛推动，并经过 dYdX 改进提案（“DIPs”）批准。
 
 下面，我们概述了一份初稿，解释dYdX治理进程从概念的开始和定义到实际执行的过程。这些流程将根据DYDX社区的反馈意见进行变更。
 
@@ -16,13 +16,13 @@ dYdX治理进程由[**forums.dydx.community**](https://forums.dydx.community/)�
 
 ## 0. 论坛讨论
 
-任何人都可以在[**forums.dydx.community**](https://forums.dydx.community/)上的dYdX治理论坛上注册并设置任何主题帖。社区成员必须使用电子邮件地址或以太坊钱包进行注册。
+任何人都可以在 [**https://dydx.forum/**](https://dydx.forum/) 上的 dYdX 治理论坛上注册并设置任何主题帖。社区成员必须使用电子邮件地址或以太坊钱包进行注册。
 
 ## 1.（链下）DRC创建
 
-链下 **dYdX征求意见**(DRC)的创建是治理改进过程的第一步。任何人都可以参加治理论坛，创建链下的DRC，并讨论改进。
+链下 **dYdX征求意见**(DRC)的创建是治理改进过程的第一步。任何人都可以参加[治理论坛](https://dydx.forum/)，创建链下的 DRC，并讨论如何改进。
 
-如果要创建DRC，请使用[此模板](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md)（在我们的Github上提供）。DRC应涵盖可能的最终DIP的所有信息。
+如果要创建DRC，请使用[此模板](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md)（在我们的Github上提供）。DRC 应涵盖可能的最终 DIP 的所有信息。
 
 DRC至少必须包括：
 
@@ -83,7 +83,7 @@ DIP创建受限于账户所需持有/委托的最少代币数量。在创建提�
 
 下图显示了DIP状态流程图：
 
-![DIP的生命周期](../.gitbook/assets/1-proposal-state-flowchart.png)
+<figure><img src="../.gitbook/assets/Proposal Lifecycle (1).png" alt=""><figcaption></figcaption></figure>
 
 在链上创建DIP后，会受到以下因素的限制：**投票延迟**、**投票期**、**最低法定人数和**最低投票差额****。初始参数如下：
 
