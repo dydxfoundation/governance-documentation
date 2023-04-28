@@ -41,7 +41,8 @@ dYdXのコミュニティには、流動性プロバイダー報酬のしきい�
 
 _**説明：**_
 
-dYdXのガバナンスプロセスは、[ガバナンスフォーラム](https://forums.dydx.community/)によって推進されます。コミュニティメンバーはディスカッションスレッドにポストやコメントを行うことで、オフチェーンの大まかなコンセンサスを達成します。フォーラムディスカッションおよびDRCの作成の詳細については[こちら](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)をご覧ください。
+dYdXのガバナンスプロセスは、[ガバナンスフォーラム](https://dydx.forum/)によって推進されます。コミュニティメンバーはディスカッションスレッドにポストやコメントを行うことで、オフチェーンの大まかなコンセンサスを達成します。フォーラムディスカッションおよびDRCの作成の詳細については[こちら](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)をご覧ください。\\注 - 運営subDAOは、[コミュニティ投票のコモンウェルスからDiscourseへの移行](https://snapshot.org/#/dydxgov.eth/proposal/0xa5e77732dd24edd26bd41b089969b3662c29eb41c3bacd35cb2931ca55882a8f)に際する新しいフォーラムとして[**https://dydx.forum/**](https://dydx.forum/)を立ち上げました。このガイドでは以前のDRCのディスカッションに関する言及の一部において引き続きコモンウェルスを対象にしていますが、あらゆる新しいディスカッションは新たに立ち上げられた[**Discourse**](https://dydx.forum/)フォーラムで行う必要があります。\
+
 
 _**DIP 2への適用**_：
 
@@ -51,19 +52,16 @@ Three Arrows CapitalのSu Zhu氏（zhusu）は、流動性プロバイダー報�
 
 ![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](../.gitbook/assets/2-reduce-mm-incentives-2.png)
 
-#### _コモンウェルスでのポストおよびコメントの方法：_
+#### _Discourseに投稿およびコメントする方法：_
 
-* イーサリアムウォレットまたはGithubの口座でコモンウェルスに登録し、[こちら](https://forums.dydx.community/)からdYdXのコミュニティに参加してください。
+* メールアカウントでDiscourseに登録し、[こちら](https://dydx.forum/)からdYdXコミュニティに参加してください。
 
-![https://forums.dydx.community/](../.gitbook/assets/2-register-on-cw.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 10.59.27 AM.png" alt=""><figcaption></figcaption></figure>
 
-* スレッドを選択してコメントをスクロールし、それぞれのコメントの下のアイコンをクリックして「いいね」を押すかコメントに返答します。
+* スレッドを選択し、コメントをスクロールし、コメントにいいねや返信をしましょう。
+* 「**新しい**トピック」をクリックしてトピックカテゴリを選択することで、新しいディスカッションスレッドを作成するか、DRCを投稿します。
 
-![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](../.gitbook/assets/2-select-thread.png)
-
-* 「新しいスレッド」をクリックしてトピックのカテゴリを選択し、新しいディスカッションスレッドの作成やDRCのポストを行います。
-
-![https://forums.dydx.community/new/discussion](../.gitbook/assets/2-create-discussion-cw.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.03.33 AM.png" alt=""><figcaption></figcaption></figure>
 
 * DRCを作成する場合、[こちら](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md)からテンプレートに従ってください。「[提案のライフサイクル](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)」の「_DRCの作成_」で概説しているように、DRCには少なくとも以下の内容を含めなければなりません：
   * DRCの短い、簡潔なタイトル
@@ -97,33 +95,22 @@ _**DIP 2への適用**_：
 
 #### _スナップショットの選択方法：_
 
-* イーサリアムウォレットでスナップショットに登録し、[こちら](https://snapshot.org/#/dydxgov.eth)からdYdXの提案をフォローしてください。代わりに、[コモンウェルス](https://forums.dydx.community/snapshot/dydxgov.eth)で直接スナップショットの選択を行い、作成することもできます。
+* イーサリアムウォレットでスナップショットに登録し、[こちら](https://snapshot.org/#/dydxgov.eth)からdYdXの提案をフォローしてください。
 
 ![https://snapshot.org/#/dydxgov.eth](../.gitbook/assets/2-register-snapshot.png)
 
-* アクティブなスナップショットの提案を表示するには、[スナップショット](https://snapshot.org/#/dydxgov.eth)または[コモンウェルス](https://forums.dydx.community/snapshot/dydxgov.eth)にアクセスしてください。
-
-![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](../.gitbook/assets/2-view-snapshot.png)
-
 * アクティブなスナップショットを選択するには、スナップショットの選択がアクティブになる時点でDYDXを保有しているか、またはスナップショットブロック番号以前にアドレスに委任された選択権を有している必要があります。
-
-![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-snapshot-vote.png)
-
 * 選択を行うには、提案をクリックして「はい」または「いいえ」を選択し、その後で「選択」をクリックします。
-
-![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-1.png)
-
-![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-2.png)
 
 #### _スナップショットの選択の作成方法：_
 
-* スナップショットの選択を作成するには、最小でも10k DYDXを保有しているか、または提案の作成に使用するアドレスに委任された提案権を有している必要があります。
+* スナップショットの選択を作成するには、**最小でも10k DYDXの保有および/または提案の作成に使用するアドレスに委任された提案権を**有している必要があります。
 * スナップショットの提案は、提案ごとに最大10アクションまで、1つまたは複数のアクションで構成できます。アクションとは、提案で指定された変更を指します。
-* 提案権の最小要件である10k DYDXを満たしている場合、「新しい提案」を選択し、以下のコンテンツ要件に従ってオープンフィールドに記入してください。
+* 提案権の最小要件である10k DYDXを満たしている場合、「**新しい提案**」を選択し、以下のコンテンツ要件に従って空欄に記入してください。
 
-![https://snapshot.org/#/dydxgov.eth/create](../.gitbook/assets/2-snapshot-create-poll-1.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.08.42 AM.png" alt=""><figcaption><p>dYdXスナップショットページ - 「新しい提案の作成」ボタン</p></figcaption></figure>
 
-![https://forums.dydx.community/new/snapshot/dydxgov.eth](../.gitbook/assets/2-snapshot-create-poll-2.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.09.33 AM.png" alt=""><figcaption><p>ここにスナップショットの詳細を記載し、DRCへのリンクを必ず添えてください。</p></figcaption></figure>
 
 DRCのスナップショット選択のコンテンツ要件：
 
@@ -182,7 +169,7 @@ DIP 2のドラフト提案が完了したとき、@Jteamdcは使用中のブラ�
 
 ![https://github.com/dydxfoundation/dip/tree/master/content/dips](../.gitbook/assets/2-dip-create-4.png)
 
-* 提案のドラフティングを開始する前に、フォークされたブランチが最新のマスターブランチに対応していることを確認してください。DIPレポの旧バージョンを使用している場合、フォークされたバージョンが最新の変更に対応していることを確認してください。フォークされたバージョンのリベーシングについては、こちらから手順を確認できます：[https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master)
+* プロポーザルの記述を開始する前に、フォークされたブランチが最新バージョンのマスターブランチに対応していることを確認してください。DIPレポの旧バージョンを使用している場合、フォークされたバージョンが最新の変更に対応していることを確認してください。フォークされたバージョンのリベーシングについては、こちらから手順を確認できます：[https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master)
 * [DIPテンプレート](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md)を提案の情報を使用して編集します。DIPレポをフォークしていない場合、管理者ではないため、編集アイコンを選択するとマスターからのレポが自動的にフォークされます。
 
 ![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](../.gitbook/assets/2-dip-create-5.png)
@@ -418,10 +405,6 @@ DYDXの保有者は、ブロック13538946の「アクティブ」状態に移�
 * DIPを以下から選ぶことで、アクティブDIPを選択することができます：[https://dydx.community/dashboard](https://dydx.community/dashboard) 。
 
 ![](../.gitbook/assets/2-draft-dip-example-17.png)
-
-* 将来的には、コモンウェルスでのアクティブDIPの選択もできるようになる可能性があります。
-
-![](../.gitbook/assets/2-draft-dip-example-18.png)
 
 選択期間は提案の種類によって異なります。詳細については「[DIPの作成](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)」で確認できます。
 
