@@ -23,7 +23,7 @@ $DYDXの立ち上げ以来、最初の割り当てに変更が生じたガバナ
 
 * コミュニティへの**50.0％**（`5億$DYDX`）は以下：
   * [取引報酬計算式](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)に基づく**14.5%**（`144,693,506 $DYDX`）、
-    * [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)と[DIP 20](https://dydx.community/dashboard/proposal/11)では、dYdXコミュニティが取引報酬を合計230万$DYDX削減することに投票しました。（DIP16から958,904 $DYDX、DIP20から1,294,520 $DYDX）。230万$DYDXはリワード財務省に蓄積され、[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)でdYdXコミュニティが使用できます。
+    * [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)と[DIP 20](https://dydx.community/dashboard/proposal/11)では、dYdXコミュニティが取引報酬を合計230万$DYDX削減することに投票しました。（DIP 16から958,904 $DYDX、DIP 20から1,294,520 $DYDX）。230万$DYDXはリワード財務省に蓄積され、[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)でdYdXコミュニティが使用できます。
   * dYdXレイヤ2プロトコルで取引マイルストーンを達成した過去のユーザーへの**5.0％**（`5,309,197 $DYDX`）（[遡及マイニング報酬](../rewards/retroactive-mining-rewards.md)）、
     * エポック0後、遡及マイニング報酬プログラムからの請求されていない2,469万,803 $DYDXがコミュニティ基金に送金されました。
   * [流動性プロバイダー報酬の計算式](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards)に基づく**7.5％**（`7,500万$DYDX`）、
