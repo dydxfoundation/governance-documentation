@@ -41,7 +41,10 @@ _**Справочная информация:**_
 
 _**Описание:**_
 
-Процесс управления dYdX осуществляется на [форумах управления](https://forums.dydx.community/). Участники сообщества размещают сообщения и комментарии в ветках обсуждения, чтобы достичь приблизительного консенсуса вне цепочки. Более подробную информацию об обсуждениях на форуме и создании ЗК можно найти [здесь](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
+Процесс управления dYdX осуществляется на [форумах управления](https://dydx.forum/). Участники сообщества размещают сообщения и комментарии в ветках обсуждения, чтобы достичь приблизительного консенсуса вне цепочки. Более подробную информацию об обсуждениях на форуме и создании ЗК можно найти [здесь](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle). \
+\
+Примечание. Операционная служба subDAO запустила [**https://dydx.forum/**](https://dydx.forum/) в качестве новой площадки для форумов после того, как [сообщество проголосовало за переход с Commonwealth на Discourse](https://snapshot.org/#/dydxgov.eth/proposal/0xa5e77732dd24edd26bd41b089969b3662c29eb41c3bacd35cb2931ca55882a8f). В этом руководстве некоторые ссылки на предыдущие обсуждения ЗК по-прежнему ведут на Commonwealth, однако все новые обсуждения должны проходить на новом форуме [**Discourse**](https://dydx.forum/). \
+
 
 _**На примере ППУ 2:**_
 
@@ -51,19 +54,16 @@ _**На примере ППУ 2:**_
 
 ![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](../.gitbook/assets/2-reduce-mm-incentives-2.png)
 
-#### _Как разместить публикацию и оставить комментарий на портале Commonwealth:_
+#### _Как разместить публикацию и комментарии в Discourse:_
 
-* Зарегистрируйтесь на портале Commonwealth, используя своей кошелек Ethereum или учетную запись GitHub, и присоединяйтесь к сообществу dYdX [здесь](https://forums.dydx.community/).
+* Зарегистрируйтесь в Discourse с помощью своего адреса электронной почты и присоединитесь к сообществу dYdX [здесь](https://dydx.forum/).
 
-![https://forums.dydx.community/](../.gitbook/assets/2-register-on-cw.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 10.59.27 AM.png" alt=""><figcaption></figcaption></figure>
 
-* После выбора беседы вы можете пролистывать комментарии, ставить отметку «Нравится» или отвечать на комментарии с помощью значков под соответствующим комментарием.
+* После выбора беседы вы можете пролистывать комментарии, ставить отметку «Нравится» или отвечать на комментарии.
+* Создайте новую беседу или опубликуйте ЗК, нажав **«Новая беседа»** и выбрав категорию темы.
 
-![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](../.gitbook/assets/2-select-thread.png)
-
-* Создайте новую беседу или опубликуйте ЗК, нажав «Новая беседа» и выбрав категорию темы.
-
-![https://forums.dydx.community/new/discussion](../.gitbook/assets/2-create-discussion-cw.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.03.33 AM.png" alt=""><figcaption></figcaption></figure>
 
 * Если вы создаете ЗК, следуйте шаблону, приведенному [здесь](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md). Как описано в разделе _Создание ЗК_ в статье [Жизненный цикл предложения](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle), ЗК должны включать в себя как минимум следующее:
   * Краткое и лаконичное название ЗК.
@@ -97,33 +97,22 @@ _**На примере ППУ 2:**_
 
 #### _Как проголосовать в опросе Snapshot:_
 
-* Зарегистрируйтесь на Snapshot, используя свой кошелек Ethereum, и следите за предложениями dYdX [здесь](https://snapshot.org/#/dydxgov.eth). Кроме того, проголосовать и создать опрос Snapshot можно прямо на портале [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
+* Зарегистрируйтесь на Snapshot, используя свой кошелек Ethereum, и следите за предложениями dYdX [здесь](https://snapshot.org/#/dydxgov.eth).
 
 ![https://snapshot.org/#/dydxgov.eth](../.gitbook/assets/2-register-snapshot.png)
 
-* Чтобы просмотреть активные предложения Snapshot, перейдите на веб-сайт [Snapshot](https://snapshot.org/#/dydxgov.eth) или [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
-
-![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](../.gitbook/assets/2-view-snapshot.png)
-
 * Для участия в голосовании по активным опросам Snapshot необходимо владеть DYDX или иметь право голоса, делегированное вашему адресу до достижения номера блока Snapshot, когда опрос Snapshot становится активным.
-
-![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-snapshot-vote.png)
-
 * Чтобы проголосовать, нажмите на предложение, выберите «Голосовать», а затем — «Да» или «Нет».
-
-![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-1.png)
-
-![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-2.png)
 
 #### _Как создать опрос на Snapshot:_
 
-* Чтобы создать опрос Snapshot, вы должны владеть минимум 10 000 DYDX и/или иметь право на внесение предложений, делегированные адресу, который вы используете для создания предложения.
+* Чтобы создать опрос Snapshot, вы должны **владеть минимум 10 000 DYDX и/или иметь право на внесение предложений, делегированное адресу, который вы используете** для создания предложения.
 * Предложение Snapshot может состоять из одного или нескольких действий (до 10). Действия — это изменения, указанные в предложении.
-* Если вы владеете как минимум 10 000 DYDX, выберите «Новое предложение» и заполните открытые поля в соответствии с приведенными ниже требованиями к содержимому.
+* Если вы владеете как минимум 10 000 DYDX, выберите **«Новое предложение»** и заполните открытые поля в соответствии с приведенными ниже требованиями к содержимому.
 
-![https://snapshot.org/#/dydxgov.eth/create](../.gitbook/assets/2-snapshot-create-poll-1.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.08.42 AM.png" alt=""><figcaption><p>Страница Snapshot dYdX — кнопка создания нового предложения</p></figcaption></figure>
 
-![https://forums.dydx.community/new/snapshot/dydxgov.eth](../.gitbook/assets/2-snapshot-create-poll-2.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.09.33 AM.png" alt=""><figcaption><p>Укажите здесь подробную информацию о Snapshot и обязательно укажите ссылку на ЗК</p></figcaption></figure>
 
 Требования к содержимому опроса Snapshot по ЗК:
 
@@ -182,7 +171,7 @@ _**На примере ППУ 2:**_
 
 ![https://github.com/dydxfoundation/dip/tree/master/content/dips](../.gitbook/assets/2-dip-create-4.png)
 
-* Прежде чем начать составлять предложение, убедитесь, что ветка, которую вы дублировали, соответствует последней версии основной ветки. Если вы используете старую версию репозитория ППУ, убедитесь, что дублированная версия содержит последние изменения. Чтобы узнать, как переместить дублированную версию, вы можете выполнить действия, указанные здесь: [https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master).
+* Прежде чем начать составление предложения, убедитесь, что ветка, которую вы дублировали, соответствует последней версии основной ветки. Если вы используете старую версию репозитория ППУ, убедитесь, что дублированная версия содержит последние изменения. Чтобы узнать, как переместить дублированную версию, вы можете выполнить действия, указанные здесь: [https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master).
 * Измените [шаблон ППУ](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md), внеся информацию о вашем предложении. Если вы не дублировали репозиторий ППУ, выберите значок изменения. При этом репозиторий будет автоматически дублирован из основной ветки, поскольку вы не являетесь администратором.
 
 ![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](../.gitbook/assets/2-dip-create-5.png)
@@ -325,9 +314,9 @@ _**На примере ППУ 3:**_
 `export MNEMONIC=<... >`
 
 `npx hardhat --network mainnet deploy:safety-module-recovery`\
- `--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
- `--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
- `--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`
+`--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
+`--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
+`--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`
 
 **Предложение по управлению: исправление модуля безопасности**
 
@@ -336,12 +325,12 @@ _**На примере ППУ 3:**_
 `export MNEMONIC=<... >`
 
 `npx hardhat --network mainnet deploy:safety-module-fix-proposal`\
- `--proposal-ipfs-hash-hex 0x...`\
- `--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
- `--long-timelock-address 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B`\
- `--safety-module-address 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC`\
- `--safety-module-proxy-admin-address 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C`\
- `--safety-module-new-impl-address 0x...`
+`--proposal-ipfs-hash-hex 0x...`\
+`--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
+`--long-timelock-address 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B`\
+`--safety-module-address 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC`\
+`--safety-module-proxy-admin-address 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C`\
+`--safety-module-new-impl-address 0x...`
 
 **Предложение по управлению: компенсация за модуль безопасности**
 
@@ -350,12 +339,12 @@ _**На примере ППУ 3:**_
 `export MNEMONIC=<... >`
 
 `npx hardhat --network mainnet deploy:safety-module-compensation-proposal`\
- `--proposal-ipfs-hash-hex 0x...`\
- `--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
- `--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
- `--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
- `--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`\
- `--safety-module-recovery-address 0x...`
+`--proposal-ipfs-hash-hex 0x...`\
+`--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
+`--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
+`--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
+`--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`\
+`--safety-module-recovery-address 0x...`
 
 ППУ было одновременно опубликовано на [https://dydx.community/dashboard](https://dydx.community/dashboard).
 
@@ -419,10 +408,6 @@ _**На примере ППУ 3:**_
 * Вы можете проголосовать по активному ППУ, выбрав один из них по ссылке [https://dydx.community/dashboard](https://dydx.community/dashboard).
 
 ![](../.gitbook/assets/2-draft-dip-example-17.png)
-
-* В будущем вы также сможете голосовать по активным ППУ на портале Commonwealth.
-
-![](../.gitbook/assets/2-draft-dip-example-18.png)
 
 Продолжительность голосования зависит от типа предложения. Более подробную информацию можно найти в разделе [Создание ППУ](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
 

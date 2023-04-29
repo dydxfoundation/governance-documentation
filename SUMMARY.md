@@ -44,7 +44,7 @@
 
 ## ВНЕШНИЕ ССЫЛКИ
 
-* [Форумы](http://forums.dydx.community/)
+* [Форумы](https://dydx.forum/)
 * [dYdX уровня 2](https://trade.dydx.exchange/)
 * [API dYdX уровня 2](https://docs.dydx.exchange/)
 * [dYdX Trading Inc.](https://dydx.exchange)
