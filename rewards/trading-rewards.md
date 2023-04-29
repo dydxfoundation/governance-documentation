@@ -4,7 +4,7 @@ description: 거래 보상 프로그램 개요
 
 # 거래 보상
 
-토큰 공급량의 `20.2`**`%` ** (`201,883,560 $DYDX`)는 지불된 수수료를 기준으로 dYdX 레이어 2 프로토콜에서 거래하는 사용자에게 분배되도록 할당됩니다. 처음에는 토큰 공급량의 `25.0%`(`250,000,000 DYDX`)가 거래 보상을 위해 할당되었습니다.
+토큰 공급의 `20.2`**`%`**(`201,883,560 $DYDX`)가 지급된 수수료를 기준으로 dYdX 레이어 2 프로토콜에서 거래하는 사용자에게 분배되도록 할당됩니다. 처음에는 토큰 공급량의 25.0%(`250,000,000 DYDX```)가 거래 보상을 위해 할당되었습니다.
 
 * [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)에서 dYdX 커뮤니티는 거래 보상을 25.0% 감소시키기로 [결정했습니다](https://dydx.community/dashboard/proposal/8). 그 결과, 거래 보상을 위한 할당은 `25.0%`에서 `20.2%`로 감소했습니다.
 * [DIP20](https://dydx.community/dashboard/proposal/11)에서 dYdX 커뮤니티는 거래 보상을 45.0% 더 감소시키기로 [결정했습니다](https://dydx.community/dashboard/proposal/11). 그 결과, 거래 보상을 위한 할당은 `20.2%`에서 `14.5%`로 감소했습니다.

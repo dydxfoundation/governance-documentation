@@ -4,11 +4,12 @@ description: 커뮤니티 트레저리에 대한 개요
 
 # 커뮤니티 금고
 
-토큰 공급량의 `16.2`**`%` ** (`162,004,734 $DYDX`)는 dYdX 커뮤니티가 기여자 보조금, 커뮤니티 이니셔티브, 유동성 채굴 및 기타 프로그램에 지속적으로 사용할 수 있도록 **** 커뮤니티 금고에 할당됩니다. 처음에는 토큰 공급량의 `5.0%` (`50,000,000 $DYDX`)를 커뮤니티 금고에 할당했으며 각 에폭마다 커뮤니티 금고에 766,703 $DYDX를 기부했습니다. 현재 2,492,731 $DYDX가 커뮤니티 금고에 귀속되어 있습니다. 다음 세 가지 거버넌스 제안으로 각 에폭마다 dYdX 커뮤니티가 사용할 수 있는 $DYDX의 양이 1,726,028 $DYDX 증가했기 때문입니다.
+토큰 공급의 `21.9`**`%`**(`219,194,788 $DYDX`)는 기여자 보조금, 지역 사회 이니셔티브, 유동성 채굴 및 기타 프로그램에 대한 지속적인 기반을 위해 사용되는 dYdX 커뮤니티를 위한 커뮤니티 재무에 할당됩니다. 처음에는 토큰 공급량의 `5.0%` (`50,000,000 $DYDX`)를 커뮤니티 금고에 [할당했으며](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations) 각 에폭마다 커뮤니티 금고에 766,703 $DYDX를 기부했습니다. 현재 지역 재무에 3,787,251 $DYDX를 투자한 이유는 3가지 정부 제안이 dYdX 커뮤니티의 각 세대에서 사용할 수 있는 $DYDX의 증가로 이어졌기 때문입니다.
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - USDC 스테이킹 보상을 0으로 설정(에폭당 383,562 $DYDX),
-* [DIP 16](https://dydx.community/dashboard/proposal/8) - 거래 보상을 25% 감소(에폭당 958,904 $DYDX) 그리고
-* [DIP 17](https://dydx.community/dashboard/proposal/9) - $DYDX 스테이킹에 대한 보상을 0으로 설정합니다(에폭당 383,562 $DYDX).
+* [DIP 16](https://dydx.community/dashboard/proposal/8) - 거래 보상을 25% 감소(에폭당 958,904 $DYDX), 그리고
+* [DIP 17](https://dydx.community/dashboard/proposal/9) - $DYDX 스테이킹에 대한 보상을 0으로 설정합니다(에폭당 383,562 $DYDX), 그리고
+* [DIP 20](https://dydx.community/dashboard/proposal/11) - 거래 보상을 45% 감소(에폭당 1,294,520 $DYDX)로 줄입니다.
 
 
 
@@ -36,7 +37,7 @@ description: 커뮤니티 트레저리에 대한 개요
 
 dYdX 커뮤니티 회원은 [여기](https://dydx.shippooor.xyz/)에서 커뮤니티 트레저리의 귀속 잔액을 볼 수 있습니다. \
 \
-또한, dYdX Foundation은 각 에폭 말에 [에폭 검토](https://dydx.foundation/blog)를 통해 커뮤니티 트레저리의 귀속 잔액을 공표합니다. 커뮤니티 트레저리의 귀속 $DYDX 외에도 dYdX 커뮤니티는 (1) 거래 보상을 25% 낮추고(958,904 $DYDX) (2) USDC 스테이킹 보상을 0으로 설정(383,562 $DYDX)하며 (3) $DYDX 스테이킹 보상을 0으로 설정(383,562 $DYDX)하기로 결정한 투표의 결과로 보상 트레저리에 발생한 $DYDX에 접근할 수 있습니다. 에폭 17부터 각 에폭마다 1,726,028 $DYDX가 보상 트레저리에 누적되며 [거버넌스 투표를](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) 통해 dYdX 커뮤니티에서 사용할 수 있습니다.
+또한, dYdX Foundation은 각 에폭 말에 [에폭 검토](https://dydx.foundation/blog)를 통해 커뮤니티 트레저리의 귀속 잔액을 공표합니다. 커뮤니티 트레저리의 귀속 $DYDX 외에도 dYdX 커뮤니티는 (1) 거래 보상을 25% 낮추고(958,904 $DYDX) (2) USDC 스테이킹 보상을 0으로 설정(383,562 $DYDX)하며 (3) $DYDX 스테이킹 보상을 0으로 설정(383,562 $DYDX)하기로 결정한 투표의 결과로 보상 트레저리에 발생한 $DYDX에 접근할 수 있습니다. 에폭 21에서 시작하여 3,020,548 $DYDX는 각 에폭마다 보상 재무부에 축적되며 [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 dYdX 커뮤니티에서 사용할 수 있습니다.
 
 ### 커뮤니티 트레저리에서 $DYDX 토큰을 지출하는 제안은 누가 제출할 수 있습니까?
 

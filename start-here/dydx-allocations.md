@@ -23,7 +23,7 @@ $DYDX가 출시된 이후 초기 할당에 대한 변경을 유발한 여러 가
 
 * **50.0%**(`500,000,000$DYDX`)가 다음과 같이 커뮤니티로 할당됩니다.
   * **14.5%**(`144,693,506 $DYDX`)는 [거래 보상 공식](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)을 기반으로
-    * [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) 및 [DIP 20](https://dydx.community/dashboard/proposal/11)에서 dYdX 커뮤니티는 거래 보상을 총 2.3M $DX로 감소시키기로 결정했습니다. (DIP16에서 958,904 $DYDX, DIP20에서 1,294,520 $DYDX). 2.3M $DYDX는 보상 재무부에 축적되며 [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 dYdX 커뮤니티에서 사용할 수 있습니다.
+    * [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) 및 [DIP 20](https://dydx.community/dashboard/proposal/11)에서 dYdX 커뮤니티는 거래 보상을 총 2.3M $DX로 감소시키기로 결정했습니다. (DIP 16에서 958,904 $DYDX, DIP 20에서 1,294,520 $DYDX). 2.3M $DYDX는 보상 재무부에 축적되며 [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 dYdX 커뮤니티에서 사용할 수 있습니다.
   * **5.0%**(`50,309,197$DYDX`)는 특정한 거래 마일스톤을 dYdX 레이어 2 프로토콜에서 완료한 이전 사용자에게 할당됩니다([소급 채굴 보상](../rewards/retroactive-mining-rewards.md)).
     * 에폭 0 이후 소급 채굴 보상에서 클레임되지 않은 24,690,803$DYDX가 커뮤니티 금고로 이전되었습니다.
   * **7.5%**(`75,000,000 $DYDX`)는 [유동성 공급자 보상 공식](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards)에 따라 할당됩니다.
