@@ -6,7 +6,7 @@ description: Überblick über den Lebenszyklus des dYdX-Verbesserungsvorschlags 
 
 ## **Vorschlagsstufen**
 
-Der dYdX-Governance-Prozess wird durch Governance-Foren unter [**forums.dydx.community**](https://forums.dydx.community/) vorangetrieben und durch dYdX-Verbesserungsvorschläge („DIPs“) ratifiziert.
+Der dYdX-Governance-Prozess wird durch Governance-Foren unter [**https://dydx.forum/**](https://dydx.forum/) unterstützt und durch dYdX-Verbesserungsvorschlag („DIPs“) ratifiziert.
 
 Im Folgenden skizzieren wir einen vorläufigen Entwurf, der erläutert, wie der dYdX-Governance-Prozess ablaufen wird, von der Einführung und Definition des Konzepts bis zur tatsächlichen Implementierung. Diese Prozesse können sich je nach Feedback der DYDX-Gemeinschaft ändern.
 
@@ -16,11 +16,11 @@ Das folgende Flussdiagramm zeigt die ersten vorgeschlagenen Stufen, um einen Vor
 
 ## 0. Forendiskussion
 
-Jeder kann sich anmelden und einen Thread zu jedem Thema in den Governance-Foren von dYdX erstellen, die unter [**forums.dydx.community**](https://forums.dydx.community/) gehostet werden. Gemeinschafts-Mitglieder müssen sich mit einer E-Mail-Adresse oder einem Ethereum-Wallet registrieren.
+Jeder kann sich anmelden und einen Thread zu jedem Thema in den Governance-Foren von dYdX erstellen, die unter [**forums.dydx.community**](https://dydx.forum/) gehostet werden. Gemeinschafts-Mitglieder müssen sich mit einer E-Mail-Adresse oder einem Ethereum-Wallet registrieren.
 
 ## 1. (Off-chain) DRC-Erstellung
 
-Die Off-Chain-Erstellung von **dYdX Request for Comments** (DRCs) ist der erste Schritt im Governance-Verbesserungsprozess. Jeder kann am Governance-Forum teilnehmen, Off-Chain-DRCs erstellen und Verbesserungen diskutieren.
+Die Off-Chain-Erstellung von **dYdX Request for Comments** (DRCs) ist der erste Schritt im Governance-Verbesserungsprozess. Jeder kann am [Governance](https://dydx.forum/)-Forum teilnehmen, Off-Chain-DRCs erstellen und Verbesserungen diskutieren.
 
 Um eine DRC zu erstellen, verwenden Sie [diese Vorlage](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) (verfügbar auf unserem Github). Die DRC sollte alle Informationen des möglicherweise endgültigen DIP abdecken.
 
@@ -28,7 +28,7 @@ DRCs müssen mindestens Folgendes enthalten:
 
 * Kurze und prägnante Titel der DRC
 * Eine kurze und prägnante Beschreibung des Vorschlags
-* Die Begründung für die DRC, z. B. warum?
+* Die Begründung für die DRC, z. B. warum?
 * Der Titel des Forenbeitrags muss DRC: mit dem Kurztitel der DRC enthalten. Z. B. DRC: Neue Marktanfrage
 * Eine Gemeinschafts-Umfrage, welche die Gemeinschafts-Mitglieder dazu verwenden können, über Verbesserungen off-chain abzustimmen
 
@@ -49,7 +49,7 @@ Für Snapshot-Umfragen im Zusammenhang mit Stimmungssignalen muss der Vorschlage
 * Details der DRC,
 * ein Abstimmungssystem,
 * eine Abstimmungsperiode – Start- und Enddatum der Abstimmung, sind auf eine Abstimmungsperiode von 4 Tagen ausgelegt, und
-* eine Abstimmungsverzögerung – eine Snapshot-Blocknummer, die 6570 Blöcke (ungefähr 1 Tag) in der Zukunft liegt. Die Snapshot-Blocknummer sperrt den Status der Gemeinschafts-Mitglieder, die abstimmen können. Token-Inhaber, die Token vor der Snapshot-Blocknummer halten, sind stimmberechtigt. Vor dem Snapshot der jeweiligen Stimmrechte jeder Adresse gibt die Stimmverzögerung den DYDX/stkDYDY-Inhabern Zeit, Token zu erwerben, Stimmrechte zu delegieren und Token zwischen Wallets zu verschieben (das Verschieben von Token zwischen Wallets gilt nur für DYDX-Inhaber).
+* eine Abstimmungsverzögerung - eine Snapshot-Blocknummer, die 6570 Blöcke (ungefähr 1 Tag) in der Zukunft liegt. Die Snapshot-Blocknummer sperrt den Status der Gemeinschafts-Mitglieder, die abstimmen können. Token-Inhaber, die Token vor der Snapshot-Blocknummer halten, sind stimmberechtigt. Vor dem Snapshot der jeweiligen Stimmrechte jeder Adresse gibt die Stimmverzögerung den DYDX/stkDYDY-Inhabern Zeit, Token zu erwerben, Stimmrechte zu delegieren und Token zwischen Wallets zu verschieben (das Verschieben von Token zwischen Wallets gilt nur für DYDX-Inhaber).
 
 Für Entscheidungen, die keinen on-chain Smart Contract-Anruf erfordern, gelten Snapshot-Abstimmungen vor allem für Änderungen der Trading und Liquidity Provider Prämien-Formeln als verbindliche und endgültige Abstimmung. Der Vorschlagende muss die oben genannten Anforderungen erfüllen und Folgendes bereitstellen:
 
@@ -57,7 +57,7 @@ Für Entscheidungen, die keinen on-chain Smart Contract-Anruf erfordern, gelten 
 
 Die vorgeschlagene(n) Änderung(en) wird/werden von dYdX Trading Inc. implementiert, wenn die Ergebnisse der Snapshot-Umfrage Folgendes erfüllen:
 
-* das Mindestquorum – mindestens 1M DYDX/stkDYDX. Das Mindestquorum trägt zur Dezentralisierung der Entscheidungsfindung bei und schützt vor einseitiger Entscheidungsfindung und
+* das Mindestquorum - mindestens 1M DYDX/stkDYDX. Das Mindestquorum trägt zur Dezentralisierung der Entscheidungsfindung bei und schützt vor einseitiger Entscheidungsfindung und
 * die Mindeststimmendifferenz – mindestens 67 % der Stimmen müssen für den Vorschlag ausfallen. Die Mindeststimmen-Differenz hilft beim Herausfiltern von Vorschlägen, die äußerst umstritten sind und weiterer Diskussion bedürfen.
 
 dYdX Trading Inc. hat bis zu 1 Epoche (28 Tage), eine Nachfrist für die Ausführung, um Änderungen aus einer erfolgreichen Snapshot-Umfrage zu implementieren.
@@ -82,7 +82,7 @@ Nach der Abstimmungsverzögerung wird die Abstimmungsperiode aktiviert. Die Län
 
 Das folgende Diagramm zeigt ein DIP-Status-Flussdiagramm:
 
-![Lebenszyklus eines DIP](../.gitbook/assets/1-proposal-state-flowchart.png)
+<figure><img src="../.gitbook/assets/Proposal Lifecycle (1).png" alt=""><figcaption></figcaption></figure>
 
 Nachdem ein DIP in der Kette erstellt wurde, unterliegt er einer **Abstimmungsverzögerung**, einem **Abstimmungszeitraum**, einem **Mindestquorum** und einer **Mindeststimmendifferenz**. Die ursprünglichen Parameter sind wie folgt:
 
@@ -126,7 +126,7 @@ Zu jedem Zeitpunkt in einem DIP-Lebenszyklus kann der Vorschlagende den DIP stor
 
 Die **Abstimmungsverzögerung** ist die Anzahl der Ethereum-Blöcke, die gewartet werden muss, bevor die Abstimmung über einen Vorschlag beginnen kann, nachdem ein Vorschlag eingereicht wurde.
 
-Das DYDX-Stimmrecht muss entweder vollständig vor der Einreichung eines Vorschlags oder während der **Abstimmungsverzögerung** des Vorschlags an eine Adresse delegiert werden.
+Das DYDX-Stimmrecht muss entweder vollständig vor der Einreichung eines Vorschlags oder während der  **Abstimmungsverzögerung**  des Vorschlags an eine Adresse delegiert werden.
 
 Im Moment ist die **Abstimmungsverzögerung** auf `6.570 Blöcke` eingestellt, was etwa 1 Tag entspricht. Dieser Wert wird bei der Erstellung eines Vorschlags zur aktuellen Blocknummer addiert.
 
