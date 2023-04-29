@@ -6,7 +6,7 @@ description: Visión general del ciclo de vida de la propuesta de mejora de dYdX
 
 ## **Etapas de la propuesta**
 
-El proceso de gobernanza de dYdX está impulsado por foros de gobernanza en [**forums.dydx.community**](https://forums.dydx.community/) y ratificado a través de la propuesta de mejora de dYdX (“DIPs”).
+El Proceso de gobernanza de dYdX se alimenta de los foros de gobernanza en [**https://dydx.forum/**](https://dydx.forum/) y se ratifica a través de la Propuesta de mejora de dYdX ("DIP").
 
 A continuación, describimos un borrador preliminar que explica cómo fluirá el proceso de gobernanza de dYdX, desde el inicio y la definición del concepto hasta la implementación. Esos procesos están sujetos a cambios según los comentarios de la comunidad de DYDX.
 
@@ -16,11 +16,11 @@ El siguiente diagrama de flujo muestra las etapas iniciales propuestas para apro
 
 ## 0. Discusión en los foros
 
-Cualquier persona puede inscribirse e iniciar un hilo sobre cualquier tema en los foros de gobernanza de dYdX alojados en [**forums.dydx.community**](https://forums.dydx.community/). Los miembros de la comunidad deben registrarse usando una dirección de correo electrónico o una billetera de Ethereum.
+Cualquier persona puede inscribirse e iniciar un hilo sobre cualquier tema en los foros de gobernanza de dYdX alojados en [**https://dydx.forum/**](https://dydx.forum/). Los miembros de la comunidad deben registrarse usando una dirección de correo electrónico o una billetera de Ethereum.
 
 ## 1. Creación de DRC (fuera de la cadena)
 
-La creación de la **solicitud de comentarios de dYdX** (DRC) fuera de la cadena es el primer paso en el proceso de mejora de la gobernanza. Cualquier persona puede participar en el Foro de gobernanza, crear DRC fuera de la cadena y discutir las mejoras.
+La creación de la **solicitud de comentarios de dYdX** (DRC) fuera de la cadena es el primer paso en el proceso de mejora de la gobernanza. Cualquier persona puede participar en el [Foro de gobernanza](https://dydx.forum/), crear DRC fuera de la cadena y discutir las mejoras.
 
 Para crear un DRC, utiliza [esta plantilla](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) (disponible en nuestro Github). El DRC debe abarcar toda la información del potencial DIP final.
 
@@ -82,7 +82,7 @@ Después del retraso de la votación, se activa el período de la votación. La 
 
 El siguiente gráfico muestra un diagrama de flujo de estado de DIP:
 
-![Ciclo de vida de un DIP](../.gitbook/assets/1-proposal-state-flowchart.png)
+<figure><img src="../.gitbook/assets/Proposal Lifecycle (1).png" alt=""><figcaption></figcaption></figure>
 
 Después de que un DIP se crea en la cadena, está sujeto a un **retraso de la votación**, el **período de la votación**, el **quorum mínimo** y un **diferencial de voto** mínimo. Los parámetros iniciales son los siguientes:
 

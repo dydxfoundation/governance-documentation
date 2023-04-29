@@ -4,7 +4,7 @@ description: Visión general del programa de recompensas por operaciones.
 
 # Recompensas por operaciones
 
-`20,2`**`%` ** (20`1.883.560 $DYDX`) del suministro de tokens se asigna para distribuirse entre los usuarios que comercian en el protocolo de capa 2 de dYdX en función de las tarifas pagadas. Inicialmente, el`25,0 %` del suministro de tokens (`250 000 000 DYDX`) se asignó para recompensas de trading.
+`El 20,2` **`%`** (`201 883 560 $DYDX`) del suministro de tokens se asigna para distribuirse a los usuarios que operan en el Protocolo de capa 2 de dYdX según las tarifas pagadas. Inicialmente, el25,0 % del suministro de tokens (`250 000 000 DYDX```) se asignó para recompensas de trading.
 
 * En [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), la comunidad de dYdX [votó](https://dydx.community/dashboard/proposal/8) para reducir las recompensas de trading en 25.0 %. Como resultado, la asignación de recompensas de trading bajó del `25,0 %` al `20,2 %`.
 * En [DIP20](https://dydx.community/dashboard/proposal/11), la comunidad de dYdX [votó](https://dydx.community/dashboard/proposal/11) para reducir las recompensas de trading en otro 45.0 %. Como resultado, la asignación de recompensas de trading bajó del `20,2 %` al `14,5 %`.
@@ -33,7 +33,7 @@ $$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ ,n=1,2..k $$
 | r | Recompensa para un trader específico. |
 | R | La recompensa total se dividirá entre todos los traders en el fondo para la etapa. |
 | f | El total de las tasas pagadas por un trader en esta etapa. |
-| w | Puntaje individual de cada trader. |
+| w | Puntaje individual de trader. |
 | $${\sum\limits _{n} w_{n}}$$ | Suma de todos los puntajes de cada trader. |
 | k | Número total de traders en esta etapa. |
 
@@ -63,7 +63,7 @@ Después del período de espera de 7 días, cualquier miembro de la comunidad pu
 
 Pasos:
 
-1. En la página [de contrato del distribuidor de Merkle](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) en Etherscan, haz clic en la pestaña `Contrato` y selecciona `Escribir como proxy`.
+1. En la página [de contrato del distribuidor de Merkle](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) en Etherscan, haz clic en la pestaña `Contrato` y selecciona `Escribir como proxy.`
 2. Haz clic en el botón `Conectar a Web3` y conecta tu billetera Web3.
 
 <figure><img src="../.gitbook/assets/merkle-distributor-contract.jpeg" alt=""><figcaption></figcaption></figure>
@@ -74,7 +74,7 @@ Pasos:
 
 **Esta transacción requeriría ETH para las tarifas de gas, y la transacción fallará si:**
 
-* el periodo de espera de 7 días aún está en efecto; o
+* El período de espera de 7 días aún está en efecto, o
 * Un miembro de la comunidad ya ha utilizado con éxito el parámetro `updateRoot` en el [contrato de distribuidor de Merkle](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract).
 
 Una vez finalizada la transacción, los traders pueden reclamar sus recompensas de trading  [aquí](https://dydx.community/dashboard). Los usuarios deberán hacer clic en `Reclamar`, firmar una transacción y pagar tarifas de gas para poder reclamar $DYDX.

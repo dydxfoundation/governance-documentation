@@ -23,7 +23,7 @@ Los dos ejemplos presentados en la guía son _DIP 2 (propuesta fuera de la caden
 
 _**Resumen:**_
 
-En la etapa 6, la comunidad de dYdX votó en [Snapshot](https://commonwealth.im/dydx/snapshot/dydxgov.eth/0x785066561be1e5d170eb28960da5ef2643ee0d0c3d590fd797c028512cc6be43) para reducir el umbral de volumen de recompensas de LP para los creadores de mercado del 1% al 0.25%. La reducción del umbral de recompensas de LP del 5% al 1% en la etapa 2 siguió el mismo proceso que la reducción en la etapa 6 (1% a 0.25%). El resumen paso a paso para reducir el umbral de volumen de recompensas de LP del 5 % al 1% está incluido a continuación.
+En la etapa 6, la comunidad de dYdX votó en [Snapshot](https://commonwealth.im/dydx/snapshot/dydxgov.eth/0x785066561be1e5d170eb28960da5ef2643ee0d0c3d590fd797c028512cc6be43) para reducir el umbral de volumen de recompensas de LP para los creadores de mercado del 1 % al 0,25 %. La reducción del umbral de recompensas de LP del 5% al 1% en la etapa 2 siguió el mismo proceso que la reducción en la etapa 6 (1% a 0.25%). El resumen paso a paso para reducir el umbral de volumen de recompensas de LP del 5 % al 1% está incluido a continuación.
 
 La mayoría de la comunidad (399 votantes y 86 % de DYDX) votaron en [Snapshot](https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN) para reducir el umbral de volumen para obtener recompensas de proveedores de liquidez del 5 % al 1 %. Un [DIP fuera de la cadena](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-2.md) para reducir el umbral de volumen de recompensas de proveedores de liquidez para los creadores de mercado del 5 % al 1 %. Jacob Goh (jteam0x) en DeFiance Capital. Los creadores de mercado que cumplieron el umbral del 1 % en la etapa 2 fueron elegibles para ganar recompensas de proveedores de liquidez en la etapa 3. La propuesta no requería ningún cambio de contrato inteligente en cadena.
 
@@ -41,7 +41,10 @@ A continuación, proporcionamos una descripción general paso a paso de cómo fu
 
 _**Descripción:**_
 
-El proceso de gobernanza de dYdX está impulsado por [foros de gobernanza](https://forums.dydx.community/). Los miembros de la comunidad publican y comentan sobre los hilos de discusión para llegar a un consenso aproximado fuera de la cadena. Más información sobre las discusiones en foros y la creación de DRC está vinculada [aquí](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
+El proceso de gobernanza de dYdX está impulsado por [foros de gobernanza](https://dydx.forum/). Los miembros de la comunidad publican y comentan sobre los hilos de discusión para llegar a un consenso aproximado fuera de la cadena. Más información sobre las discusiones en foros y la creación de DRC está vinculada [aquí](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle). \
+\
+Nota: El subDAO de operaciones ha lanzado [**https://dydx.forum/**](https://dydx.forum/) como el nuevo foro con la [votación de la comunidad para hacer la transición de Commonwealth a Discourse](https://snapshot.org/#/dydxgov.eth/proposal/0xa5e77732dd24edd26bd41b089969b3662c29eb41c3bacd35cb2931ca55882a8f). Algunas referencias en esta guía a discusiones anteriores de la DRC seguirán apuntando a Commonwealth, pero cualquier nueva discusión debe suceder en el foro de [**Discurso**](https://dydx.forum/) recientemente lanzado. \
+
 
 _**Aplicación para DIP 2:**_
 
@@ -51,19 +54,16 @@ Su Zhu (zhusu) de Three Arrows Capital creó una [discusión en los foros fuera 
 
 ![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](../.gitbook/assets/2-reduce-mm-incentives-2.png)
 
-#### _Cómo publicar y comentarios en Commonwealth:_
+#### _Cómo publicar y comentar en Discourse:_
 
-* Regístrate en Commonwealth con tu billetera de Ethereum o tu cuenta de Github y únete a la comunidad de dYdX [aquí](https://forums.dydx.community/).
+* Regístrate en Discourse con tu cuenta de correo electrónico y únete a la comunidad de dYdX [aquí](https://dydx.forum/).
 
-![https://forums.dydx.community/](../.gitbook/assets/2-register-on-cw.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 10.59.27 AM.png" alt=""><figcaption></figcaption></figure>
 
-* Selecciona un hilo, desplázate por los comentarios y dale me gusta o responde a los comentarios al hacer clic en los iconos debajo del comentario respectivo.
+* Selecciona un hilo, desplázate por los comentarios y dale a me gusta o responde a los comentarios.
+* Crea un nuevo hilo de discusión o publica un DRC al hacer clic en "**Nuevo tema**" y seleccionar la categoría de temas.
 
-![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](../.gitbook/assets/2-select-thread.png)
-
-* Crea un nuevo hilo de discusión o publica un DRC haciendo clic en “Nuevo hilo” y seleccionando la categoría de tema.
-
-![https://forums.dydx.community/new/discussion](../.gitbook/assets/2-create-discussion-cw.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.03.33 AM.png" alt=""><figcaption></figcaption></figure>
 
 * Si estás creando un DRC, por favor sigue la plantilla vinculada [aquí](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md). Como se describe en la creación de _DRC_ en el [ciclo de vida de la propuesta](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle), los DRC, como mínimo, deben incluir lo siguiente:
   * Un título corto y conciso del DRC.
@@ -82,48 +82,37 @@ _**Aplicación para DIP 2:**_
 
 Los miembros de la comunidad proporcionaron comentarios sobre el post de Su Zhu. Los siguientes umbrales de recompensas fueron sugeridos por la comunidad:
 
-* [0.5%](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=body) - Su Zhu de Three Arrows Capital,
-* [1%](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=4972) - Sam de BitTrading,
-* [2.5%](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=4855) - Ben de Kronos / WOO Network, y
+* [0,5 %](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=body) - Su Zhu de Three Arrows Capital,
+* [1 %](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=4972) - Sam de BitTrading,
+* [2,5 %](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=4855) - Ben de Kronos / WOO Network, y
 * [5 %](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=4872) - Evgeny de Wintermute.
 
 A continuación, Su Zhu creó una encuesta de Snapshot con las siguientes opciones:
 
-* Umbral inferior de MM al 1%
-* Umbral inferior de MM al 2.5%
+* Umbral inferior de MM al 1 %
+* Umbral inferior de MM al 2,5 %
 * Mantén el umbral de MM al 5 %
 
 ![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-create-snapshot.png)
 
 #### _Cómo votar en una encuesta de Snapshot:_
 
-* Regístrate en Snapshot con tu billetera de Ethereum y sigue las propuestas de dYdX [aquí](https://snapshot.org/#/dydxgov.eth). Alternativamente, puedes votar y crear una encuesta de Snapshot directamente en [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
+* Regístrate en Snapshot con tu billetera de Ethereum y sigue las propuestas de dYdX [aquí](https://snapshot.org/#/dydxgov.eth).
 
 ![https://snapshot.org/#/dydxgov.eth](../.gitbook/assets/2-register-snapshot.png)
 
-* Para ver las propuestas activas de Snapshot, dirígete a [Snapshot](https://snapshot.org/#/dydxgov.eth) o a [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
-
-![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](../.gitbook/assets/2-view-snapshot.png)
-
 * Para votar en encuestas activas en Snapshot, debe tener DYDX o contar con el poder de voto delegado en su dirección antes del número de bloque de Snapshot cuando la encuesta de Snapshot se encuentre activa.
-
-![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-snapshot-vote.png)
-
-* Para votar, haz clic en la propuesta y selecciona “sí” o “no” seguido de “votar”.
-
-![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea8957f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-1.png)
-
-![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-2.png)
+* Para votar, haz clic en la propuesta y selecciona “Sí” o “No” seguido de “Votar”.
 
 #### _Cómo crear una encuesta en Snapshot:_
 
-* Para crear una encuesta de Snapshot, deberás tener un mínimo de 10k DYDX y/o tener el poder de proponer delegado a la dirección que estás utilizando para crear la propuesta.
+* Para crear una encuesta de Snapshot, deberás **tener un mínimo de 10 000 DYDX o tener el poder de proponer delegado a la dirección que estás utilizando** para crear la propuesta.
 * La propuesta de Snapshot puede consistir en una o varias acciones, hasta un máximo de 10 acciones por propuesta. Las acciones son cambios especificados en una propuesta.
-* Si cumples con el requisito mínimo de poder de propuesta de 10k, selecciona "Nueva propuesta" y completa los campos abiertos según los requisitos de contenido a continuación.
+* Si cumples con el requisito mínimo de poder de propuesta de 10 000, selecciona "**Nueva propuesta**" y completa los campos abiertos según los requisitos de contenido a continuación.
 
-![https://snapshot.org/#/dydxgov.eth/create](../.gitbook/assets/2-snapshot-create-poll-1.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.08.42 AM.png" alt=""><figcaption><p>Página de instantáneas de dYdX - Botón de "Crear nueva propuesta"</p></figcaption></figure>
 
-![https://forums.dydx.community/new/snapshot/dydxgov.eth](../.gitbook/assets/2-snapshot-create-poll-2.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.09.33 AM.png" alt=""><figcaption><p>Incluye detalles de la instantánea aquí y asegúrate de incluir un enlace a la DRC.</p></figcaption></figure>
 
 Requisitos de contenido de la encuesta de DRC:
 
@@ -269,9 +258,9 @@ Los pasos para implementar la propuesta incluida en el README están enlazados a
 * Crea una nueva billetera para crear el DIP. El proceso de implementación requerirá que ingreses tu frase inicial como una variable de entorno, por lo que te recomendamos que uses una billetera única para la creación de DIP en la cadena.
 * Delega el poder de proponer a la billetera única para la creación de DIP. Puedes delegar el poder de proponer [aquí.](https://dydx.community/dashboard) Los diferentes umbrales de poder de propuesta están incluidos a continuación y están vinculados [aquí](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
   * Bloqueo de corto tiempo: 0,5% de la oferta total (5M en potencia propuesta).
-  * Ejecutor de Starkware: 0.5% del suministro total (5M en potencia de propuesta).
-  * Ejecutor de largo tiempo: 2.0% del suministro total (20M en el poder de propuesta).
-  * Ejecutor de bloqueo de tiempo Merkle-Pauser: 0.5% del suministro total (5M en el poder de propuesta).
+  * Ejecutor de Starkware: 0,5 % del suministro total (5M en potencia de propuesta)
+  * Ejecutor de largo tiempo: 2,0 % del suministro total (20M en el poder de propuesta)
+  * Ejecutor de bloqueo de tiempo Merkle-Pauser: 0,5 % del suministro total (5M en el poder de propuesta)
 * Crea una clave de Alchemy. Con la clave de Alchemy, no es necesario ejecutar un nodo de Ethereum para interactuar con Ethereum e implementar el contrato inteligente. La guía para crear una clave de Alchemy está vinculada [aquí](https://docs.alchemy.com/alchemy/introduction/getting-started).
 
 ![https://docs.alchemy.com/alchemy/introduction/getting-started](../.gitbook/assets/2-draft-dip-example-1.png)
@@ -325,9 +314,9 @@ El equipo de Paradigm implementó las actualizaciones de contratos inteligentes 
 `exportar MNEMONIC=<... >`
 
 `npx hardhat --network mainnet deploy:safety-module-recovery`\
- `--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
- `--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
- `--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`
+`--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
+`--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
+`--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`
 
 **Propuesta de gobernanza: módulo de seguridad Fix**
 
@@ -336,12 +325,12 @@ El equipo de Paradigm implementó las actualizaciones de contratos inteligentes 
 `exportar MNEMONIC=<... >`
 
 `npx hardhat --network mainnet deploy:safety-module-fix-proposal`\
- `--proposal-ipfs-hash-hex 0x...`\
- `--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
- `--long-timelock-address 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B`\
- `--safety-module-address 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC`\
- `--safety-module-proxy-admin-address 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C`\
- `--safety-module-new-impl-address 0x...`
+`--proposal-ipfs-hash-hex 0x...`\
+`--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
+`--long-timelock-address 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B`\
+`--safety-module-address 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC`\
+`--safety-module-proxy-admin-address 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C`\
+`--safety-module-new-impl-address 0x...`
 
 **Propuesta de gobernanza: Compensación de módulo de seguridad**
 
@@ -350,11 +339,11 @@ El equipo de Paradigm implementó las actualizaciones de contratos inteligentes 
 `exportar MNEMONIC=<... >`
 
 `npx hardhat --network mainnet deploy:safety-module-compensation-proposal`\ `--proposal-ipfs-hash-hex 0x...`\
- `--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
- `--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
- `--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
- `--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`\
- `--safety-module-recovery-address 0x...`
+`--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
+`--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
+`--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
+`--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`\
+`--safety-module-recovery-address 0x...`
 
 El DIP fue publicado simultáneamente en [https://dydx.community/dashboard](https://dydx.community/dashboard).
 
@@ -395,7 +384,7 @@ Ten en cuenta que (1) las propuestas deben ejecutarse dentro del Período de Gra
 * Asegúrate de tener suficiente poder de propuesta para crear el DIP. Se puede encontrar más información el Creación de un [DIP](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)
   * Ejecutor de bloqueo de corto tiempo: 0.5% del suministro total (5M en el poder de propuesta).
   * Ejecutor de Starkware: 0.5% del suministro total (5M en potencia de propuesta).
-  * Ejecutor de largo tiempo: 2.0% del suministro total (20M en el poder de propuesta).
+  * Ejecutor de largo tiempo: 2,0 % del suministro total (20M en el poder de propuesta)
   * Ejecutor de bloqueo de tiempo Merkle-Pauser: 0.5% del suministro total (5M en el poder de propuesta).
 * Asegúrate de que haya ETH en la billetera para pagar la tasa de gas.
 * Crea una aplicación en Alchemy para la red principal de Ethereum.
@@ -418,10 +407,6 @@ Ten en cuenta que (1) las propuestas deben ejecutarse dentro del Período de Gra
 * Puedes votar un DIP activo seleccionando el DIP desde: [https://dydx.community/dashboard](https://dydx.community/dashboard).
 
 ![](../.gitbook/assets/2-draft-dip-example-17.png)
-
-* En el futuro, también podrás votar un DIP activo en Commonwealth.
-
-![](../.gitbook/assets/2-draft-dip-example-18.png)
 
 La duración de la votación depende del tipo de propuesta. Se puede encontrar más información en [Creación de DIP](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
 
