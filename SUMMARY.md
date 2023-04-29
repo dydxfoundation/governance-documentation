@@ -44,7 +44,7 @@
 
 ## Dış Bağlantılar
 
-* [Forumlar](http://forums.dydx.community/)
+* [Forumlar](https://dydx.forum/)
 * [dYdX Katman 2](https://trade.dydx.exchange/)
 * [dYdX Katman 2 API'si](https://docs.dydx.exchange/)
 * [dYdX Trading A.Ş.](https://dydx.exchange)

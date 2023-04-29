@@ -41,7 +41,10 @@ Bunun ardından, dYdX yönetişiminin pratikte nasıl işlediğine dair adım ad
 
 _**Açıklama:**_
 
-dYdX Yönetişim Süreci, [yönetişim forumları](https://forums.dydx.community/) tarafından desteklenir. Topluluk üyeleri zincir dışı bir açık mutabakat sağlamak için tartışma ileti dizilerinde gönderi oluşturur ve yorum yapar. Forum tartışmaları ve DRC Oluşturma hakkında daha fazla bilgiyi [burada](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle) bulabilirsiniz.
+dYdX Yönetişim Süreci, [yönetişim forumları](https://dydx.forum/) tarafından desteklenir. Topluluk üyeleri zincir dışı bir açık mutabakat sağlamak için tartışma ileti dizilerinde gönderi oluşturur ve yorum yapar. Forum tartışmaları ve DRC Oluşturma hakkında daha fazla bilgiyi [burada bulabilirsiniz](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle). \
+\
+Not - Operasyonlar alt-DAO'su, [topluluk oylamalarının Commonwealth'ten Discourse'a geçişinin](https://snapshot.org/#/dydxgov.eth/proposal/0xa5e77732dd24edd26bd41b089969b3662c29eb41c3bacd35cb2931ca55882a8f) akabinde yeni forum konumu olarak [**https://dydx.forum/**](https://dydx.forum/) adresini devreye almıştır. Bu kılavuzda yer alan ve önceki DRC tartışmalarına yapılan bazı atıflar hala Commonwealth'e işaret edecektir; ancak yeni başlatılan tüm tartışmalar, yeni başlatılan [**Discourse**](https://dydx.forum/) forumunda gerçekleşmelidir. \
+
 
 _**DIP 2 başvurusu:**_
 
@@ -51,19 +54,16 @@ Three Arrows Capital'dan Su Zhu (zhusu) Likidite Sağlayıcı Ödülleri Eşiği
 
 ![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](../.gitbook/assets/2-reduce-mm-incentives-2.png)
 
-#### _Commonwealth'te nasıl Gönderi Oluşturulur ve Yorum Yapılır:_
+#### _Discourse Üzerinde Nasıl Gönderi ve Yorum Yapılır:_
 
-* Ethereum cüzdanınız veya Github hesabınız ile Commonwealth'e kaydolun ve dYdX topluluğuna [buradan](https://forums.dydx.community/) katılın.
+* E-posta hesabınızla Discourse'a kaydolun ve dYdX topluluğuna [buradan](https://dydx.forum/) katılın.
 
-![https://forums.dydx.community/](../.gitbook/assets/2-register-on-cw.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 10.59.27 AM.png" alt=""><figcaption></figcaption></figure>
 
-* Bir ileti dizisi seçin, yorumları okuyun ve ilgili yorumun altındaki simgelere tıklayarak yorumları beğenin veya yorumlara yanıt verin.
+* Bir ileti dizisi seçin, yorumlar arasında gezinin ve yorumları beğenin veya yanıtlayın.
+* "**Yeni Konu**" üzerine tıklayarak ve konu kategorisini seçerek yeni bir tartışma dizisi oluşturun veya bir DRC gönderin.
 
-![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](../.gitbook/assets/2-select-thread.png)
-
-* "Yeni ileti dizisi" seçeneğine tıklayarak ve konu kategorisini seçerek yeni bir tartışma ileti dizisi oluşturun veya bir DRC yayınlayın.
-
-![https://forums.dydx.community/new/discussion](../.gitbook/assets/2-create-discussion-cw.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.03.33 AM.png" alt=""><figcaption></figcaption></figure>
 
 * Eğer bir DRC oluşturuyorsanız lütfen [buradaki](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) şablonu izleyin. [Teklif Yaşam Döngüsü](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle) bölümünde _DRC Oluşturma_ başlığı altında belirtildiği üzere DRC'ler en az şunları içermelidir:
   * DRC'nin kısa ve öz bir başlığı.
@@ -97,33 +97,22 @@ Bunun ardından, Su Zhu aşağıdaki seçeneklerle bir Snapshot anketi oluşturm
 
 #### _Bir Snapshot Anketi Üzerinde Oylama Yapma:_
 
-* Ethereum cüzdanınız ile Snapshot'a kaydolun ve [buradaki](https://snapshot.org/#/dydxgov.eth) dYdX tekliflerini izleyin. Alternatif olarak, doğrudan [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth)'te bir Snapshot anketi oluşturabilir ve oylayabilirsiniz.
+* Ethereum cüzdanınız ile Snapshot'a kaydolun ve [buradaki](https://snapshot.org/#/dydxgov.eth) dYdX tekliflerini izleyin.
 
 ![https://snapshot.org/#/dydxgov.eth](../.gitbook/assets/2-register-snapshot.png)
 
-* Aktif Snapshot Tekliflerini görüntülemek için, [Snapshot](https://snapshot.org/#/dydxgov.eth)'a veya [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth)'e gidin.
-
-![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](../.gitbook/assets/2-view-snapshot.png)
-
 * Aktif Snapshot anketlerinde oy vermek için, Snapshot anketinin aktif hale geldiği Snapshot blok numarası öncesinde adresinizde DYDX tutmanız veya adresinize oylama yetkisi delege edilmiş olması gerekir.
-
-![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-snapshot-vote.png)
-
-* Oy vermek için, teklife tıklayıp "evet" veya "hayır" seçeneğini seçin ve ardından "oy ver" seçeneğine tıklayın.
-
-![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-1.png)
-
-![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-2.png)
+* Oy vermek için, teklife tıklayıp "Evet" veya "Hayır" seçeneğini belirleyin ve ardından "Oy Ver" seçeneğine tıklayın.
 
 #### _Snapshot Üzerinde Bir Anket Nasıl Oluşturulur:_
 
-* Bir Snapshot anketi oluşturabilmek için, teklifi oluşturmak için kullandığınız adreste en az 10.000 DYDX tutmanız ve/veya bu adrese oylama yetkisi delege edilmiş olması gerekir.
+* Bir Snapshot anketi oluşturabilmek için, teklifi oluşturmakta **kullandığınız adreste en az 10.000 DYDX bulundurmanız ve/veya bu adrese oylama yetkisi delege edilmiş olması** gerekir.
 * Snapshot teklifi, teklif başına en fazla 10 eylem olmak üzere bir veya birden fazla eylemden oluşabilir. Eylemler, bir teklifte belirtilen değişikliklerdir.
-* Minimum 10.000 teklif verme yetkisi gereksinimini karşılıyorsanız "Yeni Teklif" seçeneğine tıklayın ve aşağıdaki içerik gereksinimleri uyarınca açık alanları doldurun.
+* Minimum 10.000'lik teklif verme yetkisi gereksinimini karşılıyorsanız "**Yeni Teklif**" seçeneğine tıklayın ve aşağıdaki içerik gereksinimleri uyarınca açık alanları doldurun.
 
-![https://snapshot.org/#/dydxgov.eth/create](../.gitbook/assets/2-snapshot-create-poll-1.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.08.42 AM.png" alt=""><figcaption><p>dYdX Snapshot sayfası - "Yeni Teklif Oluştur" düğmesi</p></figcaption></figure>
 
-![https://forums.dydx.community/new/snapshot/dydxgov.eth](../.gitbook/assets/2-snapshot-create-poll-2.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.09.33 AM.png" alt=""><figcaption><p>Snapshot ayrıntılarını burada belirtin ve DRC için bir bağlantı eklediğinizden emin olun</p></figcaption></figure>
 
 DRC Snapshot Anketi İçerik Gereksinimleri:
 
@@ -325,9 +314,9 @@ Paradigm ekibi, aşağıdaki betikleri çalıştırarak akıllı sözleşme gün
 `export MNEMONIC=<... >`
 
 `npx hardhat --network mainnet deploy:safety-module-recovery`\
- `--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
- `--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
- `--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`
+`--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
+`--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
+`--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`
 
 **Yönetişim Teklifi: Safety Module Düzeltmesi**
 
@@ -336,12 +325,12 @@ Paradigm ekibi, aşağıdaki betikleri çalıştırarak akıllı sözleşme gün
 `export MNEMONIC=<... >`
 
 `npx hardhat --network mainnet deploy:safety-module-fix-proposal`\
- `--proposal-ipfs-hash-hex 0x...`\
- `--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
- `--long-timelock-address 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B`\
- `--safety-module-address 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC`\
- `--safety-module-proxy-admin-address 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C`\
- `--safety-module-new-impl-address 0x...`
+`--proposal-ipfs-hash-hex 0x...`\
+`--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
+`--long-timelock-address 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B`\
+`--safety-module-address 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC`\
+`--safety-module-proxy-admin-address 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C`\
+`--safety-module-new-impl-address 0x...`
 
 **Yönetişim Teklifi: Safety Module Tazminatı**
 
@@ -350,12 +339,12 @@ Paradigm ekibi, aşağıdaki betikleri çalıştırarak akıllı sözleşme gün
 `export MNEMONIC=<... >`
 
 `npx hardhat --network mainnet deploy:safety-module-compensation-proposal`\
- `--proposal-ipfs-hash-hex 0x...`\
- `--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
- `--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
- `--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
- `--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`\
- `--safety-module-recovery-address 0x...`
+`--proposal-ipfs-hash-hex 0x...`\
+`--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
+`--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
+`--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
+`--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`\
+`--safety-module-recovery-address 0x...`
 
 Aynı anda DIP, [https://dydx.community/dashboard](https://dydx.community/dashboard) üzerinde yayınlanmıştır.
 
@@ -363,7 +352,7 @@ Aynı anda DIP, [https://dydx.community/dashboard](https://dydx.community/dashbo
 
 ![https://dydx.community/dashboard](../.gitbook/assets/2-draft-dip-example-9.png)
 
-dYdX Yönetişim sözleşmesi [0x7e9b1672616ff6d629ef2879419aae79ae79a9018d2'dir: https://eterscan.io/txs?a=0x7e9b1672616ff6629ef2879419aae79ae79a9018d2\&p=10](https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10).
+dYdX Yönetişim sözleşmesi [0x7e9b1672616ff6d629ef2879419aae79ae79a9018d2'dir: https://etherscan.io/txs?a=0x7e9b1672616ff6629ef2879419aae79ae79a9018d2\&p=10](https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10).
 
 DIP konuşlandırması Etherscan üzerinde doğrulanabilir: [https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad).
 
@@ -419,10 +408,6 @@ DIP'nin zincir üzerinde uygulamaya koyulduğu anda [https://dydx.community/dash
 * Aktif bir DIP için [https://dydx.community/dashboard](https://dydx.community/dashboard) adresinde DIP'yi seçerek oy verebilirsiniz.
 
 ![](../.gitbook/assets/2-draft-dip-example-17.png)
-
-* İleride, Aktif bir DIP için Commonwealth üzerinde de oy vermeniz mümkün olacaktır.
-
-![](../.gitbook/assets/2-draft-dip-example-18.png)
 
 Oylama süresi teklifin türüne bağlıdır. Daha fazla bilgiyi [DIP Oluşturma](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle) başlığı altında bulabilirsiniz.
 

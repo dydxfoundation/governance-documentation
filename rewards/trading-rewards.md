@@ -4,7 +4,7 @@ description: Trading Ödülleri programına genel bakış.
 
 # Alım Satım Ödülleri
 
-Token arzının **`%`**`20,2`'si (`201.883.560 $DYDX`), dYdX Katman 2 Protokolü üzerinde işlem yapan kullanıcılara ödenen ücretlere bazında dağıtılmak üzere ayrılmıştır. Başlangıçta, token arzının `%25,0'i` (`250.000.000 $DYDX`) trading ödülleri için ayrılmıştır.
+Token arzının **`%`**`20,2`'si (`201.883.560 $DYDX`), dYdX Katman 2 Protokolü üzerinde işlem yapan kullanıcılara, ödenen ücretlere dayalı olarak ayrılmıştır. Başlangıçta, token arzının %25,0'i (`250.000.000 $DYDX```) trading ödülleri için ayrılmıştır.
 
 * [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)'da, dYdX topluluğu trading ödüllerinin %25,0 oranında azaltılması yönünde [oy kullanmıştır](https://dydx.community/dashboard/proposal/8). Sonuç olarak, trading ödülleri için ayrılan miktar `%25,0`'ten `%20,2`'ye düşmüştür.
 * [DIP20](https://dydx.community/dashboard/proposal/11)'de, dYdX topluluğu, trading ödüllerinin %45,0 oranında daha azaltılması yönünde [oy kullanmıştır](https://dydx.community/dashboard/proposal/11). Sonuç olarak, trading ödülleri için ayrılan miktar `%20,2’den` `%14,5'e` düşmüştür.
