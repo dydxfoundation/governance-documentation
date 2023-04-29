@@ -41,7 +41,10 @@ Em seguida, fornecemos uma visão geral passo a passo de como a governança da d
 
 _**Descrição:**_
 
-O processo de governança da dYdX é alimentado por [fóruns de governança](https://forums.dydx.community/). Os membros da comunidade postam e comentam a respeito de tópicos de discussão para chegar a um consenso off-chain. Mais informações sobre fóruns de discussões e criação de DRCs se encontram [aqui](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
+O processo de governança da dYdX é alimentado por [fóruns de governança](https://dydx.forum/). Os membros da comunidade postam e comentam a respeito de tópicos de discussão para chegar a um consenso off-chain. Mais informações sobre fóruns de discussões e criação de DRCs se encontram [aqui.](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle) \
+\
+Aviso - As operações de subDAO lançaram [**https://dydx.forum/**](https://dydx.forum/) como o novo fórum de [acordo com a votação da comunidade para a transição da Commonwealth para o Discourse](https://snapshot.org/#/dydxgov.eth/proposal/0xa5e77732dd24edd26bd41b089969b3662c29eb41c3bacd35cb2931ca55882a8f). Algumas referências neste guia para discussões de DRC anteriores ainda apontam para a Commonwealth, mas quaisquer novas discussões devem acontecer no fórum do [**Discourse**](https://dydx.forum/) que foi recém-lançado. \
+
 
 _**Envio de DIP 2:**_
 
@@ -51,19 +54,16 @@ Su Zhu (zhusu) da Three Arrows Capital criou um [fórum de discussão off-chain]
 
 ![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](../.gitbook/assets/2-reduce-mm-incentives-2.png)
 
-#### _Como postar e comentar na Commonwealth:_
+#### _Como postar e comentar no Discourse:_
 
-* Registre-se na Commonwealth com sua carteira Ethereum ou conta da Github e faça parte da comunidade da dYdX [aqui](https://forums.dydx.community/).
+* Registre-se no Discourse com sua conta de e-mail e junte-se à comunidade dYdX [aqui](https://dydx.forum/).
 
-![https://forums.dydx.community/](../.gitbook/assets/2-register-on-cw.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 10.59.27 AM.png" alt=""><figcaption></figcaption></figure>
 
-* Selecione um tópico, leia os comentários, marque como favoritos ou responda aos comentários clicando nos ícones abaixo do comentário.
+* Selecione uma thread, confira os comentários, dê likes ou responda aos comentários.
+* Crie um novo tópico de discussão ou publique uma DRC clicando em “**Novo Tópico**” e selecionando a categoria.
 
-![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](../.gitbook/assets/2-select-thread.png)
-
-* Crie um tópico de discussão ou publique uma DRC clicando em “New thread (Nova thread)” selecionando a categoria do tópico.
-
-![https://forums.dydx.community/new/discussion](../.gitbook/assets/2-create-discussion-cw.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.03.33 AM.png" alt=""><figcaption></figcaption></figure>
 
 * Se você estiver [criando](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) uma DRC, siga este modelo aqui. Conforme descrito na _criação de DRC_ no [ciclo de vida de propostas](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle), DRCs devem incluir ao menos os seguintes itens:
   * Um título curto e conciso da DRC.
@@ -97,33 +97,22 @@ Em seguida, Su Zhu criou uma pesquisa de snapshot com as seguintes opções:
 
 #### _Como votar em uma pesquisa do snapshot:_
 
-* Registre-se no snapshot com sua carteira Ethereum e siga as propostas da dYdX [aqui](https://snapshot.org/#/dydxgov.eth). De modo alternativo, você pode votar e criar uma pesquisa de snapshot diretamente na [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
+* Registre-se no snapshot com sua carteira Ethereum e siga as propostas da dYdX [aqui](https://snapshot.org/#/dydxgov.eth).
 
 ![https://snapshot.org/#/dydxgov.eth](../.gitbook/assets/2-register-snapshot.png)
 
-* Para conferir as propostas de snapshot ativas, acesse [Snapshot](https://snapshot.org/#/dydxgov.eth) ou [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
-
-![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](../.gitbook/assets/2-view-snapshot.png)
-
 * Para votar em pesquisas de snapshot ativas, você precisa ser um holder de DYDX ou ter poder de votação delegado para seu endereço antes do número de bloco de snapshot quando a pesquisa se tornou ativa.
-
-![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWaeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-snapshot-vote.png)
-
-* Para votar, clique na proposta e selecione “yes (sim)” ou “no (não)” e, depois “vote (votar)”.
-
-![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-1.png)
-
-![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](../.gitbook/assets/2-snapshot-vote-flow-2.png)
+* Para votar, clique na proposta e selecione “Yes (Sim)” ou “No (Não)” e, depois “Vote (Votar)”.
 
 #### _Como criar uma pesquisa no snapshot:_
 
-* Para criar uma pesquisa de snapshot, você precisará ter um mínimo de 10 mil tokens DYDX e/ou ter poder de voto delegado para o endereço que usa para criar a proposta.
+* Para criar uma pesquisa de snapshot, você precisará **ter um mínimo de 10 mil tokens DYDX e/ou ter poder de voto delegado para o endereço que usa** para criar a proposta.
 * A proposta de snapshot pode consistir em uma ou várias ações, até um máximo de 10 ações por proposta. As ações são alterações detalhas em uma proposta.
-* Se você atender ao requisito de 10 mil tokens de poder de proposição, selecione “New Proposal (Nova proposta)” e preencha os campos de acordo com os requisitos de conteúdo abaixo.
+* Se você atender ao requisito de 10 mil tokens de poder de proposição, selecione “**New Proposal** (Nova proposta)” e preencha os campos de acordo com os requisitos de conteúdo abaixo.
 
-![https://snapshot.org/#/dydxgov.eth/create](../.gitbook/assets/2-snapshot-create-poll-1.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.08.42 AM.png" alt=""><figcaption><p>Página de snapshot da dYdX - Botão "Criar nova proposta"</p></figcaption></figure>
 
-![https://forums.dydx.community/new/snapshot/dydxgov.eth](../.gitbook/assets/2-snapshot-create-poll-2.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.09.33 AM.png" alt=""><figcaption><p>Inclua detalhes do Snapshot aqui, e não deixe de incluir um link para a DRC</p></figcaption></figure>
 
 Requisitos de conteúdo de pesquisa de snapshot de DRC:
 
@@ -280,7 +269,7 @@ Escolha Ethereum e “Get Started (Começar)”.
 
 ![](../.gitbook/assets/2-draft-dip-example-2.png)
 
-Preencha as informações necessárias, selecione a rede Goerli e selecione “create app (criar aplicativo)”.
+Preencha as informações necessárias, selecione a rede Goerli e selecione “create app" (criar aplicativo).
 
 <figure><img src="../.gitbook/assets/2-draft-dip-example-3.png" alt=""><figcaption></figcaption></figure>
 
@@ -325,9 +314,9 @@ A equipe da Paradigm implantou as atualizações do contrato inteligente executa
 `export MNEMONIC=<… >`
 
 `npx hardhat --network mainnet deploy:safety-module-recovery`\
- `--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
- `--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
- `--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`
+`--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
+`--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
+`--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`
 
 **Proposta de Governança: resolução do módulo de segurança**
 
@@ -336,12 +325,12 @@ A equipe da Paradigm implantou as atualizações do contrato inteligente executa
 `export MNEMONIC=<… >`
 
 `npx hardhat --network mainnet deploy:safety-module-fix-proposal`\
- `--proposal-ipfs-hash-hex 0x...`\
- `--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
- `--long-timelock-address 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B`\
- `--safety-module-address 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC`\
- `--safety-module-proxy-admin-address 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C`\
- `--safety-module-new-impl-address 0x…`
+`--proposal-ipfs-hash-hex 0x...`\
+`--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
+`--long-timelock-address 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B`\
+`--safety-module-address 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC`\
+`--safety-module-proxy-admin-address 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C`\
+`--safety-module-new-impl-address 0x…`
 
 **Proposta de Governança: compensação do módulo de segurança**
 
@@ -350,12 +339,12 @@ A equipe da Paradigm implantou as atualizações do contrato inteligente executa
 `export MNEMONIC=<… >`
 
 `npx hardhat --network mainnet deploy:safety-module-compensation-proposal`\
- `--proposal-ipfs-hash-hex 0x...`\
- `--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
- `--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
- `--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
- `--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`\
- `--safety-module-recovery-address 0x…`
+`--proposal-ipfs-hash-hex 0x...`\
+`--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\
+`--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
+`--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
+`--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`\
+`--safety-module-recovery-address 0x…`
 
 A DIP foi publicada simultaneamente em [https://dydx.community/dashboard](https://dydx.community/dashboard).
 
@@ -419,10 +408,6 @@ Observações: (1) propostas devem ser executadas dentro do período de carênci
 * Você pode votar em uma DIP ativo selecionando-a em: [https://dydx.community/dashboard](https://dydx.community/dashboard).
 
 ![](../.gitbook/assets/2-draft-dip-example-17.png)
-
-* No futuro, você também poderá votar em uma DIP ativa na Commonwealth.
-
-![](../.gitbook/assets/2-draft-dip-example-18.png)
 
 O comprimento de votação depende do tipo de proposta. Mais informações podem ser encontradas em [Criação de DIP](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
 

@@ -4,11 +4,12 @@ description: Uma visão geral do tesouro da comunidade.
 
 # Tesouro da Comunidade
 
-`16,2`**`%` ** (16`2.004.734 $DYDX`) do fornecimento de tokens são alocados ao tesouro da comunidade **** para ela o use de forma contínua em benefícios a contribuidores, iniciativas comunitárias, mineração de liquidez e outros programas. Inicialmente, `5,0%` do fornecimento de tokens de (`50.000.000 $DYDX`) foram alocados ao tesouro da comunidade e 766.703 $DYDX foi investido no tesouro da comunidade a cada epoch. Atualmente, 2.492.731 $DYDX estão investidos (vested, em inglês) no tesouro da comunidade, pois três propostas de governança resultaram em um aumento de 1.726.028 $DYDX no valor de $DYDX disponível para a comunidade dYdX a cada epoch:
+`21,9`**`%`** (`219.194.788 $DYDX`) do fornecimento de token é alocado para o tesouro da comunidade, de modo que a dYdX o use de forma contínua para subvenções de contribuidores, iniciativas da comunidade, mineração de liquidez e outros programas. Inicialmente, `5,0%` do fornecimento de tokens de (`50.000.000 $DYDX`) foram [alocados](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations) ao tesouro da comunidade e 766.703 $DYDX foi investido no tesouro da comunidade a cada epoch. Atualmente, 3.787.251 $DYDX foi investido no tesouro da comunidade pois três propostas de governança resultaram em um aumento de 3.020.548 $DYDX na quantidade de $DYDX disponível para a comunidade dYdX a cada epoch:
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - Definição as recompensas de staking de USDC para 0 (383.562 $DYDX por epoch),
-* [DIP 16](https://dydx.community/dashboard/proposal/8) - Redução de recompensas de trading em 25% (958.904 $DYDX por epoch) e
-* [DIP 17](https://dydx.community/dashboard/proposal/9) — definição de recompensas de staking de $DYDX para 0 (383.562 $DYDX por epoch).
+* [DIP 16](https://dydx.community/dashboard/proposal/8) - Redução de recompensas de trading em 25% (958.904 $DYDX por epoch),
+* [DIP 17](https://dydx.community/dashboard/proposal/9) — definição de recompensas de staking de $DYDX para 0 (383.562 $DYDX por epoch) e
+* [DIP 20](https://dydx.community/dashboard/proposal/11) - redução de recompensas de trading em 45% (1.294.520 $DYDX por epoch).
 
 
 
@@ -36,7 +37,7 @@ A cada segundo, o Investidor do Tesouro da Comunidade (veja detalhes [aqui](http
 
 Os membros da comunidade DYDX podem visualizar o saldo investido do Tesouro da comunidade [aqui](https://dydx.shippooor.xyz/). \
 \
-Além disso, a dYdX Foundation publica o saldo investido do Tesouro da Comunidade no [Relatório da Epoch](https://dydx.foundation/blog) ao final de cada epoch. Além do valor em $DYDX investido no Tesouro da Comunidade, a comunidade dYdX também pode acessar o acumulado em $DYDX no Tesouro de Recompensas em consequência dos votos para (1) reduzir as recompensas de trading em 25% (958.904 $DYDX), (2) definir as recompensas de staking de USDC como 0 (383.562 $DYDX) e (3) definir as recompensas de staking de $DYDX como 0 (383.562 $DYDX). A partir da epoch 17, 1.726.028 $DYDX serão acumulados no Tesouro de Recompensas a cada epoch e poderão ser usados pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+Além disso, a dYdX Foundation publica o saldo investido do Tesouro da Comunidade no [Relatório da Epoch](https://dydx.foundation/blog) ao final de cada epoch. Além do valor em $DYDX investido no Tesouro da Comunidade, a comunidade dYdX também pode acessar o acumulado em $DYDX no Tesouro de Recompensas em consequência dos votos para (1) reduzir as recompensas de trading em 25% (958.904 $DYDX), (2) definir as recompensas de staking de USDC como 0 (383.562 $DYDX) e (3) definir as recompensas de staking de $DYDX como 0 (383.562 $DYDX). A partir da Epoch 21, serão acumulados 3.020.548 $DYDX no Tesouro de Recompensas de cada epoch, que poderão ser usados pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
 ### Quem pode enviar propostas para gastar $DYDX do Tesouro da Comunidade?
 

@@ -44,7 +44,7 @@
 
 ## Links externos
 
-* [Fóruns](http://forums.dydx.community/)
+* [Fóruns](https://dydx.forum/)
 * [dYdX Layer 2](https://trade.dydx.exchange/)
 * [API dYdX Layer 2](https://docs.dydx.exchange/)
 * [dYdX Trading Inc.](https://dydx.exchange)
