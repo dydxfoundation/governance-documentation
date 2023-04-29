@@ -44,7 +44,7 @@
 
 ## 外部リンク
 
-* [フォーラム](http://forums.dydx.community/)
+* [フォーラム](https://dydx.forum/)
 * [dYdXレイヤ2](https://trade.dydx.exchange/)
 * [dYdXレイヤ2 API](https://docs.dydx.exchange/)
 * [dYdX Trading Inc.](https://dydx.exchange)
