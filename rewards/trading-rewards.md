@@ -4,7 +4,7 @@ description: 交易奖励计划概述。
 
 # 交易奖励
 
-代币供应量的 `20.2`**`%` ** (`201,883,560 $DYDX`) 按照所付费用，分配给在 dYdX 第 2 层协议上交易的用户。最初，代币供应量 (`250,000,000 $DYDX`) 的 `25.0%` 分配给交易奖励。
+代币供应的 `20.2`**`%`**（`201,883,560 $DYDX`）将根据用户在 dYdX 第 2 层协议上交易所付的费用分配给用户。最初，代币供应量 (`250,000,000 $DYDX```) 的 25.0% 分配给交易奖励。
 
 * 在 [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/8)将交易奖励减少 25.0%。因此，分配给交易奖励的代币从 `25.0%` 降至 `20.2%`。
 * 在 [DIP 20](https://dydx.community/dashboard/proposal/11) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/11)将交易奖励再减少 45.0%。因此，分配给交易奖励的代币从 `20.2%` 降至 `14.5%`。

@@ -23,7 +23,7 @@ description: $DYDX 代币的分配。
 
 * **50.0%** (`500,000,000 个 $DYDX`) 分配给社区，如下所示：
   * **14.5%** (`144,693,506 $DYDX`) 根据[交易奖励公式](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)，
-    * 在 [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) 和 [DIP 20](https://dydx.community/dashboard/proposal/11) 中，dYdX 社区投票减少交易奖励，总共减少 230万 $DYDX。(958,904 $DYDX 来自 DIP 16，1,294,520 $DYDX 来自 DIP 20)。230万 $DYDX 将存入奖励资金库，可通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)由 dYdX 社区使用。
+    * 在 [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) 和 [DIP 20](https://dydx.community/dashboard/proposal/11) 中，dYdX 社区投票减少交易奖励，总共减少 230万 $DYDX。（958,904 $DYDX 来自 DIP 16，1,294,520 $DYDX 来自 DIP 20）。230万 $DYDX 将存入奖励资金库，可通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)由 dYdX 社区使用。
   * **5.0%** (`50,309,197 个 $DYDX`) 分配给在 dYdX 第二层协议上完成某些交易里程碑的用户（[追溯性挖矿奖励](../rewards/retroactive-mining-rewards.md)），
     * 在 0 时段之后，追溯性挖矿奖励计划中无人认领的 24,690,803 $DYDX 则转移到社区资金库。
   * **7.5%** (`75,000,000 个 $DYDX`) 根据[流动性提供方奖励公式而定](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards)，
