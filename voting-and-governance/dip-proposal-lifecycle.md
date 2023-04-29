@@ -6,7 +6,7 @@ description: Aperçu du cycle de vie de la proposition d'amélioration dYdX (DIP
 
 ## **Étapes de la proposition**
 
-Le processus de gouvernance dYdX est alimenté par des forums de gouvernance sur [**forums.dydx.community**](https://forums.dydx.community/) et ratifié par le biais de propositions d'amélioration dYdX (« DIP »).
+Le processus de gouvernance dYdX est alimenté par les forums de gouvernance sur [**https://dydx.forum/**](https://dydx.forum/) et ratifié par le biais de la proposition dYdX d'amélioration (« DIP »).
 
 Ci-dessous, nous décrivons un avant-projet expliquant comment le processus de gouvernance dYdX se déroulera, de la conception et de la définition du concept à la mise en œuvre effective. Ces processus sont susceptibles d'être modifiés en fonction des commentaires de la communauté DYDX.
 
@@ -16,13 +16,13 @@ L'organigramme suivant représente les étapes initiales proposées pour passer 
 
 ## 0. Discussion sur le forum
 
-Tout le monde peut s'inscrire et créer un fil de discussion sur n'importe quel sujet sur les forums de gouvernance de dYdX hébergés sur [**forums.dydx.community**](https://forums.dydx.community/). Les membres de la communauté doivent s'inscrire en utilisant une adresse e-mail ou un portefeuille Ethereum.
+Tout le monde peut s'inscrire et créer un fil de discussion sur n'importe quel sujet sur les forums de gouvernance de dYdX hébergés sur [**https://dydx.forum/**](https://dydx.forum/). Les membres de la communauté doivent s'inscrire en utilisant une adresse e-mail ou un portefeuille Ethereum.
 
 ## 1. Création de la DRC (hors chaîne)
 
-La création **de demandes de commentaires (DRC) dYdX** hors chaîne est la première étape du processus d'amélioration de la gouvernance. Tout le monde peut participer au Forum sur la gouvernance, créer des DRC hors chaîne et discuter des améliorations.
+La création **de demandes de commentaires (DRC) dYdX** hors chaîne est la première étape du processus d'amélioration de la gouvernance. Tout le monde peut participer au [Forum sur la gouvernance](https://dydx.forum/), créer des DRC hors chaîne et discuter des améliorations.
 
-Pour créer une DRC, utilisez [ce modèle](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) (disponible sur notre Github). La DRC devrait couvrir toutes les informations du DIP potentiellement final.
+Pour créer une DRC, utilisez [ce modèle](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) (disponible sur notre Github). La DRC devrait couvrir toutes les informations du DIP final potentiel.
 
 Au minimum, les DRC doivent comprendre :
 
@@ -82,7 +82,7 @@ Après le délai de vote, la période de vote est activée. La durée de la pér
 
 Le graphique suivant montre un diagramme d'état DIP :
 
-![Cycle de vie d'un DIP](../.gitbook/assets/1-proposal-state-flowchart.png)
+<figure><img src="../.gitbook/assets/Proposal Lifecycle (1).png" alt=""><figcaption></figcaption></figure>
 
 Une fois qu'un DIP est créé sur la chaîne, il est soumis à un **délai de vote**, une **période de vote**, un **quorum minimum** et un **différentiel de vote** minimum. Les paramètres initiaux sont les suivants :
 

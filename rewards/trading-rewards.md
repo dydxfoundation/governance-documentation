@@ -4,7 +4,7 @@ description: Aperçu du programme des récompenses de trading.
 
 # Récompenses de trading
 
-`20,2`** `%` ** (`201 883 560 $DYDX`) de la réserve de jetons sont répartis entre les utilisateurs qui effectuent des échanges sur le protocole de couche 2 dYdX sur la base des frais payés. Initialement, `25,0 %` de la réserve de jetons (`250 000 000 dYdX $`) a été allouée aux récompenses de trading.
+`20,2` **`%`** (20`1 883 560 $DYDX`) de l'offre de jetons est alloué pour être distribué aux utilisateursqui font du trading sur le protocole de couche 2 de dYdX sur la base des frais payés. Initialement, 25,0 % de la réserve de jetons (`250 000 000 dYdX $```) a été allouée aux récompenses de trading.
 
 * Dans [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/8) en faveur de la réduction des récompenses de trading de 25,0 %. En conséquence, l'allocation de récompenses de trading a baissé, passant de `25,0 %` à `20,2 %`.
 * Dans [DIP20](https://dydx.community/dashboard/proposal/11), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/11) en faveur de la réduction des récompenses de trading de 45,0 % supplémentaires. En conséquence, l'allocation de récompenses de trading a baissé, passant de `20,2 %` à `14,5 %`.
