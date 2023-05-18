@@ -1,100 +1,71 @@
 ---
-description: Asignaciones para el token $DYDX
+description: Asignaciones para los tokens de DYDX
 ---
 
 # Asignaciones
 
 **Asignaciones**
 
-Se han acuñado un total de `1 000 000 000 $DYDX`, los cuales se harán accesibles en cinco (5) años contados a partir del **3 de agosto de 2021 a las 15:00:00 UTC**. La asignación inicial de cinco años del suministro total de $DYDX fue la siguiente:
+Se han acuñado un total de `1 000 000 000 DYDX` y estarán disponibles durante 5 años a partir del **3 de agosto de 2021 a las 15:00:00 UTC**. La asignación inicial de cinco años del suministro total de DYDX es la siguiente:
 
-* **50,0 %** (`500 000 000 $DYDX`) a la comunidad de la siguiente manera:
-  * **25,0 %** (`250 000 000 $DYDX`) en función de la [Fórmula de Recompensas de trading](https://docs.dydx.community/dydx-governance/rewards/trading-rewards);
-  * **7,5 %** (`75 000 000 $DYDX`) a los usuarios anteriores que llegan a ciertos hitos de trading en el Protocolo de Capa 2 de dYdX ([recompensas de minería retroactivas](https://docs.dydx.community/dydx-governance/rewards/retroactive-mining-rewards));
-  * **7,5 %** (`75 000 000 $DYDX`) en función de [la(s) fórmula(s) de las Recompensas a proveedores de liquidez](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards);
-  * **5,0 %** (`50 000 000 $DYDX`) a una [Tesorería de la comunidad](https://docs.dydx.community/dydx-governance/start-here/community-treasury/);
-  * **2,5 %** (`25 000 000 $DYDX`) a los usuarios que invierten $USDC en un [Fondo de participación de liquidez](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool);
-  * **2,5 %** (`25 000 000 $DYDX`) a los usuarios que invierten $DYDX en un [Fondo de participación de seguridad](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool);
-* **27,7 %** (`277.295.070 $DYDX`) a los inversores anteriores de dYdX Trading Inc.,
-* **15,3 %** (`152 704 930 $DYDX`) a los fundadores, empleados, asesores y consultores de dYdX Trading Inc. o de la dYdX Foundation; y
-* **7,0 %** (`70 000 000 $DYDX`) a los futuros empleados y consultores de dYdX Trading Inc. o de la dYdX Foundation.
+* **50.00%** (`500,000,000 DYDX`) a la comunidad de la siguiente manera:
+  * **25,00 %** (`250,000,000 DYDX`) a los usuarios que realizan operaciones en el Protocolo de capa 2 de dYdX en función de las tarifas pagadas ([**recompensas de operaciones**](../rewards/trading-rewards.md)). En [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), la comunidad dYdX [votó](https://dydx.community/dashboard/proposal/8) a favor de reducir las recompensas de trading en un 25 %. Como resultado, las recompensas comerciales distribuidas en una época determinada se redujeron de 3 835 616 DYDX a 2 876 712 DYDX en la época 15. Los 958 904 DYDX restantes se acumularán en la Tesorería de recompensas y pueden ser utilizados por la comunidad dYdX con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+  * **7,50 %** (`75 000 000 DYDX`) a los usuarios anteriores que llegan a ciertos hitos de operaciones en el Protocolo de Capa 2 de dYdX ([**recompensas de minería retroactivas**](../rewards/retroactive-mining-rewards.md))
+  * **7,50 %** (`75 000 000 DYDX`) a los proveedores de liquidez con base en una fórmula que recompensa una combinación de tiempo de actividad, profundidad en dos lados, diferencia de bid-ask y el número de mercados compatibles ([**recompensas de proveedores de liquidez**](../rewards/liquidity-provider-rewards.md)),
+  * **5,00 %** (`50 000 000 DYDX`) a una tesorería de la comunidad ([**tesorería**](community-treasury.md)),
+  * **2,50 %** (`25 000 000 DYDX`) a los usuarios que inviertan USDC en un fondo de participación de liquidez ([**módulo de liquidez**](../staking-pools/liquidity-staking-pool.md)). En [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), la comunidad dYdX [votó](https://dydx.community/dashboard/proposal/7) para establecer las recompensas asociadas con la participación de USDC en 0. Los 383 562 DYDX distribuidos previamente a los participantes de USDC se acumularán en la Tesorería de recompensas y la comunidad dYdX podrá utilizarlos con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+  * **2,50 %** (`25 000 000 DYDX`) a los usuarios que invierten DYDX en un fondo de participación de seguridad ([**módulo de seguridad**](../staking-pools/safety-staking-pool.md)). En [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md), la comunidad dYdX [votó](https://dydx.community/dashboard/proposal/9) para establecer las recompensas asociadas con la participación de DYDX a 0. Los 383 562 DYDX previamente distribuidos a los inversores de DYDX se acumularán en la Tesorería de recompensas y pueden ser utilizados por la comunidad dYdX con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters),
+* **27,73 %** (`277,295,070 DYDX`) a los inversores pasados,
+* **15,27 %** (`152 704 930 DYDX`) a los fundadores, empleados, asesores y consultores de dYdX Trading o la Fundación, y
+* **7,00 %** (`70.000.000 DYDX`) a futuros empleados y consultores de dYdX Trading o de la Fundación dYdX.
 
-Desde el lanzamiento de $DYDX, ha habido varias propuestas de gobernanza que han dado lugar a cambios en la asignación inicial. Actualmente, la asignación incluye:
+![](../.gitbook/assets/1-dydx-allocations-initial-5-years.png)
 
-* **50,0 %** (`500 000 000 $DYDX`) a la comunidad de la siguiente manera:
-  * **14.5 %** (`144 693 506 $DYDX`) en función de la [Fórmula de Recompensas de trading](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)
-    * En [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) y [DIP 20](https://dydx.community/dashboard/proposal/11), la comunidad de dYdX votó para reducir las recompensas de trading en un total de 2.3 M de $DYDX. (958 904 $DYDX de DIP 16 y 1 294 520 $DYDX de DIP 20). Los 2.3 M de $DYDX se acumularán en el Fondo de Recompensas y la comunidad de dYdX podrá utilizarlos con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
-  * **5,0 %** (`50 309 197 $DYDX`) a los usuarios anteriores que alcancen ciertos hitos de trading en el protocolo de la capa 2 de dYdX ([Recompensas de minería retroactivas](../rewards/retroactive-mining-rewards.md));
-    * Después de la etapa 0, 24 690 803 $DYDX no reclamados del programa de Recompensas de minería retroactivas se transfirieron a la Tesorería de la comunidad.
-  * **7,5 %** (`75 000 000 $DYDX`) en función de [la(s) fórmula(s) de las Recompensas a proveedores de liquidez](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards);
-  * **21.9 %** (`219 194 788 $DYDX`) al Fondo [de la Comunidad y](https://docs.dydx.community/dydx-governance/start-here/community-treasury/) el Fondo de [Recompensas](https://docs.dydx.community/dydx-governance/start-here/rewards-treasury),
-  * **0,6 %** (`5 753 430 $DYDX`) a los usuarios que invirtieron $USDC en un [Fondo de participación de liquidez](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool);
-    * En [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), la comunidad dYdX [votó](https://dydx.community/dashboard/proposal/7) para establecer las recompensas asociadas con la participación de $USDC en 0. Los 383 562 $DYDX distribuidos previamente a los participantes de $USDC se acumularán en la Tesorería de recompensas y la comunidad dYdX podrá utilizarlos con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
-  * **0,5 %** (`5 049 079 $DYDX`) a los usuarios que inviertieron $DYDX en un [Fondo de participación de seguridad](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool);
-    * En [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md), la comunidad dYdX [votó](https://dydx.community/dashboard/proposal/9) para fijar las recompensas asociadas con la participación de $USDC en 0. Los 383.562 $DYDX distribuidos previamente a los participantes de $USDC se acumularán en la Tesorería de recompensas y la comunidad dYdX podrá utilizarlos con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
-* **27,7 %** (`277 295 070 DYDX`) a los inversores anteriores de dYdX Trading Inc.;
-* **15,3 %** (`152 704 930 DYDX`) a los fundadores, empleados, asesores y consultores de dYdX Trading Inc. o de la dYdX Foundation; y
-* **7,0 %** (`70 000 000 DYDX`) a futuros empleados y consultores de dYdX Trading Inc. o de la dYdX Foundation.
+A partir de los cinco años posteriores al lanzamiento, una tasa de inflación máxima perpetua del `2%` por año puede ser utilizada por la gobernanza para aumentar el suministro de DYDX, asegurando que la comunidad tenga los recursos para continuar el desarrollo y el crecimiento del Protocolo. La inflación debe ser promulgada por medio de una propuesta de la gobernanza y está limitada al `2 %` por año.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.13 PM.png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/1-allocation-10-years-inflation.png)
 
-A partir de los cinco años posteriores al lanzamiento, una tasa de inflación máxima perpetua del `2 %` por año puede ser utilizada por la gobernanza para aumentar el suministro de $DYDX, asegurando que la comunidad tenga los recursos para continuar el desarrollo y el crecimiento del Protocolo. La inflación debe ser promulgada por medio de una propuesta de la gobernanza y está limitada al `2 %` por año.
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.07 PM.png" alt=""><figcaption></figcaption></figure>
-
-Aunque la asignación de la comunidad se ha fijado como se ha descrito anteriormente, los titulares de DYDX tienen pleno control mediante la gobernanza sobre la forma en que la asignación de la comunidad se utiliza en el futuro.
+Aunque la asignación de la comunidad se ha establecido como se ha establecido anteriormente, los titulares de DYDX tienen pleno control mediante la gobernanza sobre la forma en que la asignación de la comunidad se utiliza en el futuro.
 
 ## **Preguntas frecuentes**
 
-### ¿Puede cambiar la asignación de $DYDX?
+### ¿La asignación de DYDX puede cambiar?
 
-Sí, la comunidad dYdX puede cambiar cualquiera de [las recompensas y grupos existentes en el lanzamiento](../voting-and-governance/governance-parameters.md). Hasta ahora, la comunidad de dYdX ha votado para reducir las recompensas de trading en un 25 %, fijar las recompensas por la participación en $USDC en 0 y fijar las recompensas por la participación de en $DYDX en 0.
+Sí, la comunidad dYdX puede cambiar cualquiera de [las recompensas y grupos existentes en el lanzamiento](../voting-and-governance/governance-parameters.md). Hasta ahora, la comunidad de dYdX ha votado para reducir las recompensas de trading en un 25 %, establecer las recompensas por la participación de USDC en 0 y establecer las recompensas por la participación de dYdX en 0.
 
-En [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), la comunidad dYdX [votó](https://dydx.community/dashboard/proposal/8) a favor de reducir las recompensas de trading en un 25 %. Como resultado, las recompensas comerciales distribuidas en una época determinada se redujeron de 3 835 616 $DYDX a 2.876.712 $DYDX en la época 15. Los 958 904 $DYDX restantes se acumularán en la Tesorería de recompensas y pueden ser utilizados por la comunidad dYdX con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).\\ En [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), la comunidad dYdX [votó](https://dydx.community/dashboard/proposal/7) para fijar las recompensas asociadas con la participación en $USDC en 0. Los 383 562 $DYDX distribuidos previamente a los participantes en $USDC se acumularán en la Tesorería de recompensas y la comunidad dYdX podrá utilizarlos con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+En [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), la comunidad dYdX [votó](https://dydx.community/dashboard/proposal/8) a favor de reducir las recompensas de trading en un 25 %. \\Como resultado, las recompensas comerciales distribuidas en una época determinada se redujeron de 3 835 616 DYDX a 2 876 712 DYDX en la época 15. Los 958 904 DYDX restantes se acumularán en la Tesorería de recompensas y pueden ser utilizados por la comunidad dYdX con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters). En [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)1, la comunidad dYdX [votó](https://dydx.community/dashboard/proposal/7) para establecer las recompensas asociadas con la participación de USDC en 0. Los 383 562 DYDX distribuidos previamente a los participantes de USDC se acumularán en la Tesorería de recompensas y la comunidad dYdX podrá utilizarlos con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
-En [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md), la comunidad dYdX [votó](https://dydx.community/dashboard/proposal/9) para fijar las recompensas asociadas con la participación en $DYDX en 0. Los 383 562 $DYDX distribuidos previamente a los inversores de DYDX se acumularán en la Tesorería de recompensas y pueden ser utilizados por la comunidad dYdX con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+En [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md), la comunidad dYdX [votó](https://dydx.community/dashboard/proposal/9) para establecer las recompensas asociadas con la participación de DYDX a 0. Los 383 562 DYDX distribuidos previamente a los inversores de DYDX se acumularán en la Tesorería de recompensas y pueden ser utilizados por la comunidad dYdX con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
-### **¿Se pueden acuñar nuevos tokens $DYDX?**
+### **¿Se pueden acuñar nuevos tokens en DYDX?**
 
-A partir de los cinco años posteriores al lanzamiento, se puede utilizar una tasa de inflación máxima perpetua del `2 %` anual para aumentar el suministro de $DYDX, asegurando que la comunidad tenga los recursos para continuar contribuyendo al Protocolo de la Capa 2 de dYdX.
+A partir de los cinco años posteriores al lanzamiento, se puede utilizar una tasa de inflación máxima perpetua del `2 %` anual para aumentar el suministro de DYDX, asegurando que la comunidad tenga los recursos para continuar contribuyendo al Protocolo de la Capa 2 de dYdX.
 
-A partir del **14 de julio de 2026 a las 15:00:00 UTC**, la gobernanza de dYdX puede decidir el suministro máximo de nuevos $DYDX a ser acuñados, hasta la tasa de inflación máxima del `2 %` anual en cada acuñación. Solo es posible una moneda en un periodo determinado de 365 días. Todos los tokens $DYDX emitidos serán asignados por la gobernanza y otorgarán derechos inmediatamente. Estos tokens recién emitidos se pueden enviar a cualquier dirección especificada.
+A partir del **14 de julio de 2026 a las 15:00:00 UTC**, la gobernanza de dYdX puede decidir el suministro máximo de nuevos tokens a ser acuñados, hasta la tasa de inflación máxima del `2 %` anual en cada acuñación. Solo es posible una moneda en un período determinado de 365 días. Todos los tokens recién emitidos serán asignados por la gobernanza y otorgarán derechos inmediatamente. Estos tokens recién emitidos se pueden enviar a cualquier dirección especificada.
 
-### **¿Cuál es el bloqueo de $DYDX emitido a los inversores, a los empleados existentes y futuros y a los consultores?**
+### **¿Cuál es el bloqueo de DYDX emitido a los inversores, a los empleados existentes y futuros y a los consultores?**
 
-Parte de la asignación inicial se reservó para:
+DYDX se emitirá a los accionistas, directivos, funcionarios, empleados y consultores de dYdX Trading y la Fundación. Todos los DYDX distribuidos a esas partes estarán sujetos inicialmente a acuerdos contractuales, fuera de la cadena, que ordenen un bloqueo de acuerdo con el cual:
 
-* inversores anteriores de dYdX Trading Inc. (27,7 %);
-* fundadores, empleados, asesores y consultores de dYdX Trading Inc. o de la dYdX Foundation (15,3 %); y
-* futuros empleados y consultores de dYdX Trading Inc. o de la dYdX Foundation (7,0 %).
+* El 30% de las tenencias en DYDX se desbloquearán después de 18 meses después del lanzamiento;
+* El 40% se desbloqueará igualmente desde el mes 19 hasta el mes 24;
+* El 20% se desbloqueará igualmente desde el mes 25 hasta el mes 36;
+* El 10% se desbloqueará igualmente desde el mes 37 hasta el mes 48.
 
-El 25 de enero de 2023, la dYdX Foundation [anunció](https://dydx.foundation/blog/lock-up-extension) que dYdX Trading Inc., la dYdX Foundation y ciertas partes de los Warrants to Purchase Tokens firmaron una enmienda (la "Enmienda") para, entre otras cosas, posponer la fecha de lanzamiento inicial aplicable a los tokens $DYDX de inversión hasta el 1 de diciembre de 2023.
+Todos los empleados y consultores también estarán sujetos a varios calendarios de adquisición de derechos que podrían dar como resultado que pierdan sus derechos sobre DYDX. La recepción de DYDX por parte de ningún empleado ni consultor está ni estará basada en la prestación de servicios relacionados con el Protocolo ni otros servicios que pueden beneficiar al Protocolo. En su lugar, los empleados y los consultores pueden recibir DYDX por servicios que solo beneficien a dYdX Trading, la Fundación dYdX u otra parte.
 
-La mencionada Enmienda no modifica el desbloqueo escalonado que se produce después de la Fecha de Desbloqueo Inicial y, por lo tanto, de conformidad con la Enmienda, los Tokens pertinentes se liberarán de la restricción de la transferencia de la siguiente manera:
+Independientemente de cualquier bloqueo de DYDX, los inversores y empleados anteriores o consultores de dYdX Trading o la Fundación pueden usar DYDX para hacer propuestas, delegar votos o votar sobre propuestas relacionadas con el Protocolo. Los empleados actuales y los consultores de dYdX Trading o la Fundación inicialmente no harán ninguna propuesta ni participarán en ningún voto pero pueden hacerlo en el futuro. Los empleados actuales y consultores de dYdX Trading o la Fundación pueden delegar votos sin intentar influir en los resultados de la votación.
 
-* (i) 30 % el 1 de diciembre de 2023 (la nueva Fecha de desbloqueo inicial);
-* ii) 40 % en cuotas mensuales iguales el primer día de cada mes desde el 1 de enero de 2024 hasta el 1 de junio de 2024;
-* (iii) 20 % en cuotas mensuales iguales el primer día de cada mes desde el 1 de julio de 2024 hasta el 1 de junio de 2025; y
-* (iv) 10 % en cuotas mensuales iguales el primer día de cada mes desde el 1 de julio de 2025 hasta el 1 de junio de 2026.
+Todos los inversores están obligados a cumplir con la restricción de transferencia aplicada mediante acuerdos contractuales con la Fundación dYdX. La Fundación dYdX hace seguimiento de las direcciones de las billeteras para determinar si alguna transferencia se ha realizado infringiendo esa restricción.
 
-Varios fundadores, empleados, asesores y consultores de dYdX Trading Inc. y de la dYdX Foundation también están sujetos al cronograma de restricción de transferencias establecido en la Enmienda.
-
-Todos los empleados y consultores también estarán sujetos a varios calendarios de adquisición de derechos que podrían dar como resultado que pierdan sus derechos sobre los $DYDX. La recepción de $DYDX por parte de un empleado o consultor, quienquiera que éste sea, no está ni estará basada en la prestación de servicios relacionados con el Protocolo dYdX ni otros servicios que puedan beneficiar al Protocolo. Sin embargo, los empleados y consultores pueden recibir $DYDX para servicios que beneficien solo a dYdX Trading Inc., a la dYdX Foundation o a otra parte cualquiera.
-
-Independientemente de cualquier bloqueo a los $DYDX, los inversores y empleados o consultores anteriores de dYdX Trading Inc. o de la dYdX Foundation pueden usar $DYDX para hacer propuestas, delegar votos o votar sobre propuestas relacionadas con el Protocolo dYdX. Al inicio, los empleados y consultores actuales de dYdX Trading Inc. o de la dYdX Foundation no harán ninguna propuesta ni participarán en ningún voto, pero podrán hacerlo en el futuro. Los empleados y consultores actuales de dYdX Trading Inc. o de la dYdX Foundation pueden delegar votos sin intentar influir en los resultados de la votación.
-
-Todos los inversores están obligados a cumplir con la restricción de transferencias aplicada a través de acuerdos contractuales con la dYdX Foundation y con dYdX Trading Inc. La dYdX Foundation realiza un seguimiento de direcciones de billetera para determinar si se han realizado transferencias que violen tal restricción.
+Aunque los inversores están autorizados técnica y legalmente a invertir su DYDX en el módulo de seguridad, en caso de un evento de déficit y reducción de DYDX, los inversores tendrían un recorte como todos los demás. En ese momento, estarían en mora con sus obligaciones. Los inversores estarían obligados a comprar de nuevo cualquier token que fuera transferido como resultado de la reducción, de modo que todos estén en la misma posición. Por esa razón, les pedimos a todos los inversores que se abstengan de invertir y soliciten retirar cualquier fondo invertido actualmente en el módulo de seguridad.
 
 La Fundación dYdX ha expresado su disposición de iniciar acciones legales contra inversores que no cumplan con esos requisitos.
 
-## ¿Cuál es la curva de suministro líquida de $DYDX?
+## ¿Cuál es la curva de suministro líquida de DYDX?
 
-El 8 de septiembre de 2021, `8 días` después del final de la etapa 0, se levantaron las restricciones de transferencia iniciales impuestas al token.
+El 8 de septiembre de 2021, `8 días` después del final de la etapa 0, las restricciones de transferencia iniciales sobre el token se levantarán y aproximadamente el 8,11% del suministro de DYDX se volverá líquido.
 
-El siguiente gráfico muestra el suministro líquido total, sin inflación:
+El siguiente gráfico muestra el suministro total de líquidez en el tiempo:
 
-<figure><img src="../.gitbook/assets/liquid-supply-total-issuance.png" alt=""><figcaption></figcaption></figure>
-
-El siguiente gráfico muestra el suministro líquido total, con inflación:
-
-<figure><img src="../.gitbook/assets/liquid-supply-total issuance-2%-inflation.png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/1-liquid-supply-schedule.png)
