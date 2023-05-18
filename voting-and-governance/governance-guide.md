@@ -41,36 +41,36 @@ _**Справочная информация:**_
 
 _**Описание:**_
 
-Процесс управления dYdX осуществляется на [форумах управления](https://dydx.forum/). Участники сообщества размещают сообщения и комментарии в ветках обсуждения, чтобы достичь приблизительного консенсуса вне цепочки. Более подробную информацию об обсуждениях на форуме и создании ЗК можно найти [здесь](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle). \
-\
-Примечание. Операционная служба subDAO запустила [**https://dydx.forum/**](https://dydx.forum/) в качестве новой площадки для форумов после того, как [сообщество проголосовало за переход с Commonwealth на Discourse](https://snapshot.org/#/dydxgov.eth/proposal/0xa5e77732dd24edd26bd41b089969b3662c29eb41c3bacd35cb2931ca55882a8f). В этом руководстве некоторые ссылки на предыдущие обсуждения ЗК по-прежнему ведут на Commonwealth, однако все новые обсуждения должны проходить на новом форуме [**Discourse**](https://dydx.forum/). \
-
+Процесс управления dYdX осуществляется на [форумах управления](https://forums.dydx.community/). Участники сообщества размещают сообщения и комментарии в ветках обсуждения, чтобы достичь приблизительного консенсуса вне цепочки. Более подробную информацию об обсуждениях на форуме и создании ЗК можно найти [здесь](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
 
 _**На примере ППУ 2:**_
 
 Су Чжу (zhusu) из Three Arrows Capital создал [обсуждение на форуме вне цепочки](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/), чтобы сократить пороговое значение объема, необходимого для получения награды для поставщиков ликвидности. Различные участники сообщества, такие как Евгений из Wintermute, Бен из Kronos, Джош из Sixtant и многие другие, приняли участие в обсуждении и предоставили полезные отзывы.
 
-![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](../.gitbook/assets/2-reduce-mm-incentives.png)
+![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](<../.gitbook/assets/image (99).png>)
 
-![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](../.gitbook/assets/2-reduce-mm-incentives-2.png)
+![https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](<../.gitbook/assets/image (97).png>)
 
-#### _Как разместить публикацию и комментарии в Discourse:_
+#### _Как разместить публикацию и оставить комментарий на портале Commonwealth:_
 
-* Зарегистрируйтесь в Discourse с помощью своего адреса электронной почты и присоединитесь к сообществу dYdX [здесь](https://dydx.forum/).
+* Зарегистрируйтесь на портале Commonwealth, используя своей кошелек Ethereum или учетную запись GitHub, и присоединяйтесь к сообществу dYdX [здесь](https://forums.dydx.community/).
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 10.59.27 AM.png" alt=""><figcaption></figcaption></figure>
+![https://forums.dydx.community/](<../.gitbook/assets/Untitled 1 (1) (1)>)
 
-* После выбора беседы вы можете пролистывать комментарии, ставить отметку «Нравится» или отвечать на комментарии.
-* Создайте новую беседу или опубликуйте ЗК, нажав **«Новая беседа»** и выбрав категорию темы.
+* После выбора беседы вы можете пролистывать комментарии, ставить отметку «Нравится» или отвечать на комментарии с помощью значков под соответствующим комментарием.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.03.33 AM.png" alt=""><figcaption></figcaption></figure>
+![https://forums.dydx.community/discussion/1805-reduce-market-maker-incentives?comment=4988](<../.gitbook/assets/image (107).png>)
+
+* Создайте новую беседу или опубликуйте ЗК, нажав «Новая беседа» и выбрав категорию темы.
+
+![https://forums.dydx.community/new/discussion](<../.gitbook/assets/Untitled 3 (1)>)
 
 * Если вы создаете ЗК, следуйте шаблону, приведенному [здесь](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md). Как описано в разделе _Создание ЗК_ в статье [Жизненный цикл предложения](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle), ЗК должны включать в себя как минимум следующее:
-  * Краткое и лаконичное название ЗК.
-  * Краткое и лаконичное описание предложения.
-  * Обоснование ЗК (например, причина его создания).
-  * Название публикации на форуме должно выглядеть следующим образом: ЗК: \[вставьте краткое название ЗК] (например, «ЗК: запрос на новый рынок»).
-  * Опрос сообщества, который его участники могут использовать для офчейн-голосования по улучшениям.
+   * Краткое и лаконичное название ЗК.
+   * Краткое и лаконичное описание предложения.
+   * Обоснование ЗК (например, причина его создания).
+   * Название публикации на форуме должно выглядеть следующим образом: ЗК: \[вставьте краткое название ЗК] (например, «ЗК: запрос на новый рынок»).
+   * Опрос сообщества, который его участники могут использовать для офчейн-голосования по улучшениям.
 
 ### **ЭТАП 2 — опрос Snapshot по ЗК (вне цепочки)**
 
@@ -93,26 +93,37 @@ _**На примере ППУ 2:**_
 * Сокращение порогового значения для маркетмейкеров до 2,5%
 * Сохранение порогового значения для маркетмейкеров на уровне 5%
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-create-snapshot.png)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 4 (1)>)
 
 #### _Как проголосовать в опросе Snapshot:_
 
-* Зарегистрируйтесь на Snapshot, используя свой кошелек Ethereum, и следите за предложениями dYdX [здесь](https://snapshot.org/#/dydxgov.eth).
+* Зарегистрируйтесь на Snapshot, используя свой кошелек Ethereum, и следите за предложениями dYdX [здесь](https://snapshot.org/#/dydxgov.eth). Кроме того, проголосовать и создать опрос Snapshot можно прямо на портале [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
 
-![https://snapshot.org/#/dydxgov.eth](../.gitbook/assets/2-register-snapshot.png)
+![https://snapshot.org/#/dydxgov.eth](<../.gitbook/assets/Untitled 5>)
+
+* Чтобы просмотреть активные предложения Snapshot, перейдите на веб-сайт [Snapshot](https://snapshot.org/#/dydxgov.eth) или [Commonwealth](https://forums.dydx.community/snapshot/dydxgov.eth).
+
+![https://snapshot.org/#/dydxgov.eth/create; https://forums.dydx.community/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 6 (1) (2)>)
 
 * Для участия в голосовании по активным опросам Snapshot необходимо владеть DYDX или иметь право голоса, делегированное вашему адресу до достижения номера блока Snapshot, когда опрос Snapshot становится активным.
+
+![https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 7 (1) (1)>)
+
 * Чтобы проголосовать, нажмите на предложение, выберите «Голосовать», а затем — «Да» или «Нет».
+
+![https://forums.dydx.community/snapshot/dydxgov.eth/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 8 (1) (2)>)
+
+![https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161](<../.gitbook/assets/Untitled 9 (1) (2)>)
 
 #### _Как создать опрос на Snapshot:_
 
-* Чтобы создать опрос Snapshot, вы должны **владеть минимум 10 000 DYDX и/или иметь право на внесение предложений, делегированное адресу, который вы используете** для создания предложения.
+* Чтобы создать опрос Snapshot, вы должны владеть минимум 10 000 DYDX и/или иметь право на внесение предложений, делегированные адресу, который вы используете для создания предложения.
 * Предложение Snapshot может состоять из одного или нескольких действий (до 10). Действия — это изменения, указанные в предложении.
-* Если вы владеете как минимум 10 000 DYDX, выберите **«Новое предложение»** и заполните открытые поля в соответствии с приведенными ниже требованиями к содержимому.
+* Если вы владеете как минимум 10 000 DYDX, выберите «Новое предложение» и заполните открытые поля в соответствии с приведенными ниже требованиями к содержимому.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.08.42 AM.png" alt=""><figcaption><p>Страница Snapshot dYdX — кнопка создания нового предложения</p></figcaption></figure>
+![https://snapshot.org/#/dydxgov.eth/create](<../.gitbook/assets/Untitled 10 (1) (2)>)
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.09.33 AM.png" alt=""><figcaption><p>Укажите здесь подробную информацию о Snapshot и обязательно укажите ссылку на ЗК</p></figcaption></figure>
+![https://forums.dydx.community/new/snapshot/dydxgov.eth](<../.gitbook/assets/Untitled 11 (1)>)
 
 Требования к содержимому опроса Snapshot по ЗК:
 
@@ -127,11 +138,11 @@ _**На примере ППУ 2:**_
 
 * Бинарные варианты голосования. Для ясности, адрес голосует либо за предложение, либо против него.
 
-![](../.gitbook/assets/2-snapshot-binary-voting.png)
+![](<../.gitbook/assets/Untitled 12 (1) (1)>)
 
 * После голосования соответствующая информация будет сохранена в IPFS, а отчет будет автоматически сформирован и доступен для загрузки.
 
-![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-snapshot-ipfs.png)
+![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](<../.gitbook/assets/Untitled 13 (1) (1)>)
 
 ### **ЭТАП 3 — создание ППУ (предложение вне цепочки)**
 
@@ -143,11 +154,11 @@ _**На примере ППУ 2:**_
 
 В этом случае автором [ППУ](https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md) выступил @Jteamdc.
 
-![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](../.gitbook/assets/2-dip-example.png)
+![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](<../.gitbook/assets/Untitled 14 (1) (1)>)
 
 Когда проект предложения для ППУ 2 был завершен, @Jteamdc создал [запрос на внесение изменений](https://github.com/dydxfoundation/dip/pull/8) \*\*\*\* из рабочей ветки в отношении ветки ожидающих рассмотрения ППУ dYdX Foundation. После того как dYdX Foundation рассмотрела предложение и подписала его, изменения в ветке, где рассматривается ППУ, были включены в основную ветку.
 
-![https://github.com/dydxfoundation/dip/pulls](../.gitbook/assets/2-dip-pending-merge.png)
+![https://github.com/dydxfoundation/dip/pulls](<../.gitbook/assets/21 (2) (3).png>)
 
 Поскольку снижение порогового значения объема, необходимого для получения награды для поставщиков ликвидности, не требует внесения изменений в смарт-контракты в цепочке, то процесс завершен, и изменения вступят в силу в следующую эпоху.
 
@@ -157,28 +168,28 @@ _**На примере ППУ 2:**_
 * Зарегистрируйтесь и создайте учетную запись GitHub: [https://github.com/signup](https://github.com/signup).
 * Перейдите на страницу репозитория dYdX [здесь](https://github.com/dydxfoundation/dip) и дублируйте репозиторий в своей учетной записи GitHub.
 
-![https://github.com/dydxfoundation/dip](../.gitbook/assets/2-dip-create-1.png)
+![https://github.com/dydxfoundation/dip](<../.gitbook/assets/image (104).png>)
 
 * В дублированном репозитории ППУ перейдите в каталог с содержимым ППУ: [https://github.com/\[user\_name\]/dip/tree/master/content/dips](https://github.com/yt8073/dip/tree/master/content/dips).
 
-![](../.gitbook/assets/2-dip-create-2.png)
+![](<../.gitbook/assets/Untitled 16 (1)>)
 
 * Выберите папку с ППУ: [https://github.com/\[user\_name\]/dip/tree/master/content](https://github.com/Jwatts15/dip/tree/master/content).
 
-![](../.gitbook/assets/2-dip-create-3.png)
+![](<../.gitbook/assets/Untitled 17 (1) (1)>)
 
 Папка с ППУ содержит каталог предыдущих предложений, которые соответствуют шаблону ППУ, приведенному [здесь.](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md)
 
-![https://github.com/dydxfoundation/dip/tree/master/content/dips](../.gitbook/assets/2-dip-create-4.png)
+![https://github.com/dydxfoundation/dip/tree/master/content/dips](<../.gitbook/assets/image (98).png>)
 
-* Прежде чем начать составление предложения, убедитесь, что ветка, которую вы дублировали, соответствует последней версии основной ветки. Если вы используете старую версию репозитория ППУ, убедитесь, что дублированная версия содержит последние изменения. Чтобы узнать, как переместить дублированную версию, вы можете выполнить действия, указанные здесь: [https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master).
+* Прежде чем начать составлять предложение, убедитесь, что ветка, которую вы дублировали, соответствует последней версии основной ветки. Если вы используете старую версию репозитория ППУ, убедитесь, что дублированная версия содержит последние изменения. Чтобы узнать, как переместить дублированную версию, вы можете выполнить действия, указанные здесь: [https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master](https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master).
 * Измените [шаблон ППУ](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md), внеся информацию о вашем предложении. Если вы не дублировали репозиторий ППУ, выберите значок изменения. При этом репозиторий будет автоматически дублирован из основной ветки, поскольку вы не являетесь администратором.
 
-![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](../.gitbook/assets/2-dip-create-5.png)
+![https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md](<../.gitbook/assets/Untitled 19 (1) (2)>)
 
 * Следуйте [шаблону](https://github.com/dydxfoundation/DIP/blob/master/DIP-X.md) и добавьте ППУ в дублированный репозиторий в каталог `content/dips/`. Следуйте приведенным ниже правилам обозначения статусов ППУ.
 
-![](../.gitbook/assets/2-dip-create-6.png)
+![](../.gitbook/assets/20.png)
 
 Статусы ППУ:
 
@@ -189,16 +200,16 @@ _**На примере ППУ 2:**_
 * Отклонено — ППУ отклонено.
 * Проверьте правильность содержимого, создайте запрос на внесение изменений в вашей рабочей ветке и включите его в ветку dYdX Foundation, где рассматривается ППУ. Просьба **не** создавать этот запрос на внесение изменений в основной ветке dYdX Foundation, так как это приведет к сбою в работе IPFS, если какие-либо внешние стороны захотят включить свои изменения в основную ветку. Используйте запрос на внесение изменений, приведенный [здесь](https://github.com/dydxfoundation/dip/pull/8) в качестве примера.
 
-![](../.gitbook/assets/2-dip-status-1.png)
+![](<../.gitbook/assets/21 (2).png>)
 
 * После проверки dYdX Foundation включит изменения из ветки, где рассматривается ППУ, в основную ветку.
 
-![https://github.com/dydxfoundation/dip/pull/9](../.gitbook/assets/2-dip-status-2.png)
+![https://github.com/dydxfoundation/dip/pull/9](../.gitbook/assets/22.png)
 
 * Перед **объединением** будет автоматически запущено задание по загрузке ППУ в IPFS. Проверить загрузку ППУ в IPFS можно здесь: [https://github.com/dydxfoundation/dip/pull/9/checks](https://github.com/dydxfoundation/dip/pull/9/checks).
 * ППУ добавляется в каталог [**`dip`**](https://github.com/dydxfoundation/dip)`/`[`content`](https://github.com/dydxfoundation/dip/tree/master/content)`/`**`dips`**`/`.
 
-![](../.gitbook/assets/2-dip-status-3.png)
+![](../.gitbook/assets/23.png)
 
 Поскольку предложение не требует внесения изменений в смарт-контракты в цепочке, то процесс завершен, и изменения вступят в силу в течение следующей эпохи.
 
@@ -239,45 +250,45 @@ _**На примере ППУ 3:**_
 
 В этом случае автором [ППУ](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md) был Дэн Робинсон из Paradigm. С учетом того что предложение подразумевало внесение изменений в смарт-контракты в цепочке, в него была включена ссылка на конкретные реализации смарт-контрактов.
 
-![https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md](../.gitbook/assets/2-dip3-example-1.png)
+![https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md](../.gitbook/assets/24.png)
 
 После перехода от контракта развертывания SafetyModuleV2.sol к папке Safety можно увидеть файл README, содержащий конкретные сведения о реализации предложения.
 
-![](../.gitbook/assets/2-dip3-example-1a.png)
+![](../.gitbook/assets/25.png)
 
 Действия по реализации предложения, включенные в README, приведены здесь: [https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety).
 
-![https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](../.gitbook/assets/2-dip3-example-2.png)
+![https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](../.gitbook/assets/26.png)
 
-![https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](../.gitbook/assets/2-dip3-example-3.png)
+![https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](../.gitbook/assets/27.png)
 
-![https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](../.gitbook/assets/2-dip3-example-4.png)
+![https://github.com/dydxfoundation/governance-contracts/tree/master/contracts/safety](../.gitbook/assets/28.png)
 
 #### _Как разработать проект ППУ в цепочке (со статусом «В разработке»)_
 
 * Создайте новый кошелек для разработки ППУ. В процессе развертывания потребуется ввести вашу сид-фразу в качестве переменной окружения, поэтому для создания ППУ в цепочке мы рекомендуем использовать одноразовый кошелек.
 * Для разработки ППУ делегируйте одноразовому кошельку достаточно прав на внесение предложений. Делегировать право на внесение предложений можно [здесь](https://dydx.community/dashboard). Различные пороговые значения для права на внесение предложений приведены [здесь](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
-  * Короткая блокировка по времени: 0,5% от общего количества токенов в обращении (5 млн для права на внесение предложений).
-  * Исполнитель Starkware: 0,5% от общего количества токенов в обращении (5 млн для права на внесение предложений).
-  * Исполнитель с правом на длительную блокировку по времени: 2,0% от общего количества токенов в обращении (20 млн для права на внесение предложений).
-  * Исполнитель с правом на остановку дерева Меркла: 0,5% от общего количества токенов в обращении (5 млн для права на внесение предложений).
+   * Короткая блокировка по времени: 0,5% от общего количества токенов в обращении (5 млн для права на внесение предложений).
+   * Исполнитель Starkware: 0,5% от общего количества токенов в обращении (5 млн для права на внесение предложений).
+   * Исполнитель с правом на длительную блокировку по времени: 2,0% от общего количества токенов в обращении (20 млн для права на внесение предложений).
+   * Исполнитель с правом на остановку дерева Меркла: 0,5% от общего количества токенов в обращении (5 млн для права на внесение предложений).
 * Создайте ключ Alchemy. Благодаря ключу Alchemy вам не нужно запускать узел Ethereum для взаимодействия с Ethereum и развертывания смарт-контракта. Руководство по созданию ключа Alchemy приведено [здесь](https://docs.alchemy.com/alchemy/introduction/getting-started).
 
-![https://docs.alchemy.com/alchemy/introduction/getting-started](../.gitbook/assets/2-draft-dip-example-1.png)
+![https://docs.alchemy.com/alchemy/introduction/getting-started](../.gitbook/assets/29.png)
 
 Выберите Ethereum и нажмите «Начать работу».
 
-![](../.gitbook/assets/2-draft-dip-example-2.png)
+![](../.gitbook/assets/30.png)
 
-Заполните необходимую информацию, выберите сеть Goerli и нажмите «Создать приложение».
+Заполните необходимую информацию, выберите сеть Ropsten и нажмите «Создать приложение».
 
-<figure><img src="../.gitbook/assets/2-draft-dip-example-3.png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/31.png)
 
 После создания учетной записи следуйте указаниям по настройке, приведенным [здесь](https://docs.alchemy.com/alchemy/introduction/getting-started).
 
 В разделе «4. Начало создания» выберите «Попробовать развернуть свой первый смарт-контракт» и следуйте указаниям.
 
-![https://docs.alchemy.com/alchemy/introduction/getting-started](../.gitbook/assets/2-draft-dip-example-4.png)
+![https://docs.alchemy.com/alchemy/introduction/getting-started](<../.gitbook/assets/32 (1).png>)
 
 * Откройте командную строку Windows, приложение терминала по умолчанию, или скачайте iTerm: [https://iterm2.com/](https://iterm2.com/).
 * Скачайте и установите Node.js и npm, если вы еще не сделали этого: [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
@@ -285,11 +296,11 @@ _**На примере ППУ 3:**_
 * Составьте проект предлагаемых вами реализаций смарт-контрактов.
 * Хэш IPFS генерируется автоматически. Его можно получить [здесь](https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips). Хэш IPFS будет находиться в каталоге dYdX Foundation под именем файла `ЗК-[Новый ЗК #]-ipfs-hashes.json`.
 
-![https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips](../.gitbook/assets/2-draft-dip-example-5.png)
+![https://github.com/dydxfoundation/dip/tree/master/content/ipfs-dips](<../.gitbook/assets/image (100).png>)
 
 * Выберите новый файл (`ППУ-[Новое ППУ #]-ipfs-hashes.jso`) и используйте encodedHash.
 
-![https://github.com/dydxfoundation/dip/blob/master/content/ipfs-dips/DIP-3-Ipfs-hashes.json](../.gitbook/assets/2-draft-dip-example-6.png)
+![https://github.com/dydxfoundation/dip/blob/master/content/ipfs-dips/DIP-3-Ipfs-hashes.json](<../.gitbook/assets/image (102).png>)
 
 ### **ЭТАП 2 — отправка ППУ в цепочке**
 
@@ -301,7 +312,7 @@ _**На примере ППУ 3:**_
 
 Специалисты Paradigm окончательно доработали код Solidity для `SafetyModuleV2.sol.`
 
-![https://github.com/dydxfoundation/governance-contracts/blob/master/contracts/safety/v2/SafetyModuleV2.sol](../.gitbook/assets/2-draft-dip-example-7.png)
+![https://github.com/dydxfoundation/governance-contracts/blob/master/contracts/safety/v2/SafetyModuleV2.sol](../.gitbook/assets/34.png)
 
 Специалисты Paradigm смоделировали обновления как в локальной версии основной сети, так и в форке основной сети. Затем был выполнен ряд тестов, чтобы убедиться, что после реализации предложения по управлению в основной сети будет восстановлена полная функциональность.
 
@@ -348,9 +359,9 @@ _**На примере ППУ 3:**_
 
 ППУ было одновременно опубликовано на [https://dydx.community/dashboard](https://dydx.community/dashboard).
 
-![https://dydx.community/dashboard](../.gitbook/assets/2-draft-dip-example-8.png)
+![https://dydx.community/dashboard](../.gitbook/assets/35.png)
 
-![https://dydx.community/dashboard](../.gitbook/assets/2-draft-dip-example-9.png)
+![https://dydx.community/dashboard](../.gitbook/assets/36.png)
 
 Контракт на управление dYdX 0x7e9b1672616ff6d6629ef2879419aa9018d2: [https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10](https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10).
 
@@ -358,43 +369,43 @@ _**На примере ППУ 3:**_
 
 ППУ было создано 1 ноября 2021 года при блоке 13532376. В течение 6570 будущих блоков ППУ находилось в состоянии ожидания.
 
-![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/2-draft-dip-example-10.png)
+![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/37.png)
 
 Владельцы DYDX смогли проголосовать по ППУ после его перехода в активное состояние на момент блока 13538946.
 
 Первый голос был отдан 2 ноября 2021 года в 17:51:22 по времени в формате UTC (блок 13538959) через 6583 блока с момента создания ППУ в цепочке.
 
-![https://etherscan.io/tx/0xc3d0ace92be4ac3da40dc17f45a573d4dbd83d31f7a95733071de883ded67a4f](../.gitbook/assets/2-draft-dip-example-11.png)
+![https://etherscan.io/tx/0xc3d0ace92be4ac3da40dc17f45a573d4dbd83d31f7a95733071de883ded67a4f](../.gitbook/assets/38.png)
 
 По истечении 10-дневного периода голосования, связанного с длительной блокировкой по времени, любой участник сообщества может вызвать функцию постановки в очередь и инициировать 7-дневную задержку блокировки по времени. Потребовалось почти 3 дня, чтобы один из участников сообщества вызвал функцию постановки ППУ 3 в очередь.
 
-![https://etherscan.io/tx/0x3402372aa549d2270a6b5d4f84884ae2bfec6922fc808703b47d53b27d288c81](../.gitbook/assets/2-draft-dip-example-12.png)
+![https://etherscan.io/tx/0x3402372aa549d2270a6b5d4f84884ae2bfec6922fc808703b47d53b27d288c81](../.gitbook/assets/39.png)
 
 После 7-дневной задержки блокировки по времени ППУ было реализовано в цепочке.
 
-![https://etherscan.io/tx/0xfd332147899fd3ef1db62f262ffae92bbd7d18a5ed4e142eb0407a173dbf0453](../.gitbook/assets/2-draft-dip-example-13.png)
+![https://etherscan.io/tx/0xfd332147899fd3ef1db62f262ffae92bbd7d18a5ed4e142eb0407a173dbf0453](../.gitbook/assets/40.png)
 
 В момент реализации ППУ в цепочке статус предложения по адресу [https://dydx.community/dashboard/proposal/3](https://dydx.community/dashboard/proposal/3) изменился на «Исполнено».
 
-![](../.gitbook/assets/2-draft-dip-example-14.png)
+![](../.gitbook/assets/41.png)
 
 Обращаем внимание, что (1) предложения должны быть исполнены в течение 7-дневного периода исполнения, который начинается сразу после задержки блокировки по времени, и (2) адрес, выдвинувший предложение, должен сохранять минимальное право на внесение предложений (либо 5 млн, либо 20 млн DYDX) до исполнения ППУ, что требуется соответствующим контрактом блокировки по времени.
 
 #### _Как отправить ППУ в цепочке:_
 
 * Убедитесь, что вы обладаете достаточным правом на внесение предложений для создания ППУ. Более подробную информацию об этом можно найти в разделе [Создание ППУ](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
-  * Исполнитель с правом на короткую блокировку по времени: 0,5% от общего количества токенов в обращении (5 млн для права на внесение предложений).
-  * Исполнитель Starkware: 0,5% от общего количества токенов в обращении (5 млн для права на внесение предложений).
-  * Исполнитель с правом на длительную блокировку по времени: 2,0% от общего количества токенов в обращении (20 млн для права на внесение предложений).
-  * Исполнитель с правом на остановку дерева Меркла: 0,5% от общего количества токенов в обращении (5 млн для права на внесение предложений).
+   * Исполнитель с правом на короткую блокировку по времени: 0,5% от общего количества токенов в обращении (5 млн для права на внесение предложений).
+   * Исполнитель Starkware: 0,5% от общего количества токенов в обращении (5 млн для права на внесение предложений).
+   * Исполнитель с правом на длительную блокировку по времени: 2,0% от общего количества токенов в обращении (20 млн для права на внесение предложений).
+   * Исполнитель с правом на остановку дерева Меркла: 0,5% от общего количества токенов в обращении (5 млн для права на внесение предложений).
 * Убедитесь, что в кошельке есть ETH для уплаты комиссии за газ.
 * Создайте приложение на Alchemy для основной сети Ethereum.
 
-![https://dashboard.alchemyapi.io/](../.gitbook/assets/2-draft-dip-example-15.png)
+![https://dashboard.alchemyapi.io/](../.gitbook/assets/42.png)
 
 * После создания приложения нажмите «Посмотреть ключ», чтобы получить ключ Alchemy (7LOaQtguSm2kSEcFXQH88B): [https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul](https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul).
 
-![https://dashboard.alchemyapi.io/apps/xogmjmlex8tlmr95](../.gitbook/assets/2-draft-dip-example-16.png)
+![https://dashboard.alchemyapi.io/apps/xogmjmlex8tlmr95](<../.gitbook/assets/image (105).png>)
 
 * Скачайте и установите Node.js и npm: [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 * Установите Hardhat: [https://hardhat.org/tutorial/setting-up-the-environment.html](https://hardhat.org/tutorial/setting-up-the-environment.html).
@@ -407,7 +418,11 @@ _**На примере ППУ 3:**_
 * Убедитесь, что в кошельке есть ETH для уплаты комиссии за газ.
 * Вы можете проголосовать по активному ППУ, выбрав один из них по ссылке [https://dydx.community/dashboard](https://dydx.community/dashboard).
 
-![](../.gitbook/assets/2-draft-dip-example-17.png)
+![](../.gitbook/assets/43.png)
+
+* В будущем вы также сможете голосовать по активным ППУ на портале Commonwealth.
+
+![](../.gitbook/assets/44.png)
 
 Продолжительность голосования зависит от типа предложения. Более подробную информацию можно найти в разделе [Создание ППУ](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
 
@@ -423,23 +438,23 @@ _**На примере ППУ 3:**_
 * Для этого нужно использовать совместимый кошелек, содержащий ETH.
 * Перейдите на вкладку «Контракт» на Etherscan и нажмите «Написать контракт». Контракт управления приведен [здесь](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract).
 
-![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/2-draft-dip-example-queue-1.png)
+![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/50.png)
 
 * Выберите очередь и отправьте proposalId.
 
-![](../.gitbook/assets/2-draft-dip-example-queue-2.png)
+![](<../.gitbook/assets/46 (2).png>)
 
 proposalId можно найти на Etherscan после создания ППУ: [https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad).
 
 * Выберите «Нажмите, чтобы получить дополнительные сведения».
 
-![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/2-draft-dip-example-queue-3.png)
+![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/47.png)
 
 * Выберите «Декодировать входные данные».
 
-![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/2-draft-dip-example-queue-4.png)
+![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/48.png)
 
-![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/2-draft-dip-example-queue-5.png)
+![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/49.png)
 
 #### _Как исполнить предложение:_
 
@@ -447,11 +462,11 @@ proposalId можно найти на Etherscan после создания ПП
 
 * Перейдите на вкладку «Контракт» на Etherscan и нажмите «Написать контракт». Контракт управления приведен [здесь](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract).
 
-![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/2-draft-dip-example-execute-1.png)
+![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/45.png)
 
 * Выберите «Исполнить» и отправьте proposalId.
 
-![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/2-draft-dip-example-execute-2.png)
+![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/51.png)
 
 * Чтобы найти proposalId, выполните действия, указанные выше в разделе _Как поставить предложение в очередь_.
 * В поле payableAmount (ether) введите 0.
