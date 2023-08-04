@@ -12,11 +12,13 @@ In addition to the vested DYDX in the Community Treasury, the dYdX community can
 
 (2) Set the rewards for staking $USDC to 0 (383,562 $DYDX),&#x20;
 
-(3) Set the rewards for staking $DYDX to 0 (383,562 $DYDX), and&#x20;
+(3) Set the rewards for staking $DYDX to 0 (383,562 $DYDX),&#x20;
 
-(4) Further reduce trading rewards by 45% (1,294,520 $DYDX).
+(4) Further reduce trading rewards by 45% (1,294,520 $DYDX), and
 
-Starting in Epoch 21, 3,020,548 $DYDX  will accrue in the Rewards Treasury each epoch and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).\
+(5) Reduce liquidity provider rewards by 50% (575,342 $DYDX).
+
+Starting in Epoch 26, 3,595,890 $DYDX  will accrue in the Rewards Treasury each epoch and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).\
 
 
 ## FAQ

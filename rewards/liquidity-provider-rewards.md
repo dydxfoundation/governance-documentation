@@ -4,7 +4,9 @@ description: Overview of the Liquidity Provider rewards Program.
 
 # Liquidity Provider Rewards
 
-7.5% of the initial token supply (`75,000,000 $DYDX`) will be distributed to liquidity providers based on formulas that reward a combination of maker volume, uptime, two-sided depth, bid-ask spreads, and the number of markets supported.
+**5.2%** (`52,458,925 $DYDX`) of the token supply is allocated to be distributed to liquidity providers ("LPs") based on formulas that reward a combination of maker volume, uptime, two-sided depth, bid-ask spreads, and the number of markets supported. Initially, **7.5%** (`75,000,000 $DYDX`)  of the token supply  was allocated for LP rewards.
+
+* In [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/14) to reduce Liquidity Provider Rewards by 50% from    `1,150,685 DYDX` per epoch to `575,343 DYDX` per epoch. As a result, the allocation for LP rewards decreased from `7.5%` to `5.2%`.&#x20;
 
 **Objectives**
 
