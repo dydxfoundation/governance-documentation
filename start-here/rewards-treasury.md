@@ -12,11 +12,13 @@ description: 奖励资金库概述。
 
 (2) 将质押奖励 $USDC 设置为 0 (383,562 $DYDX)，
 
-(3) 将质押奖励 $DYDX 设置为 0 (383,562 $DYDX)，并且
+(3) 将 $DYDX 的质押奖励设置为 0 (383,562 $DYDX)，
 
-(4) 将交易奖励再减少 45% (1,294,520 $DYDX)。
+(4) 将交易奖励再减少 45% (1,294,520 $DYDX)，并且
 
-从 21 时段开始，奖励资金库中每时段将积累 3,020,548 $DYDX，并可通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)由 dYdX 社区使用。\
+(5) 将流动性提供者奖励降低 50% (575,342 $DYDX)。
+
+从时段 26 开始，每个时段将在奖励资金库中积累 3,595,890 $DYDX，并可由 dYdX 社区通过 [治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。\
 
 
 ## 常见问题解答
