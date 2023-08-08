@@ -2,9 +2,11 @@
 description: Überblick über das Prämienprogramm für Liquiditätsanbieter.
 ---
 
-# Prämien für Liquidity Provision
+# Rewards für Liquidity Provision
 
-7,5 % des ursprünglichen Token-Angebots (`$ 75.000.000 $DYDX`) werden an Liquiditätsanbieter basierend auf Formeln honoriert, die eine Kombination aus Maker-Volumen, Betriebszeit, zweiseitiger Tiefe, Geld-Brief-Spannen, und der Anzahl der unterstützten Märkte sind.
+**5,2 %** (`52.458.925 $DYDX`) des Token-Angebots werden auf der Grundlage von Formeln, die eine Kombination aus Maker-Volumen, Verfügbarkeit, zweiseitiger Tiefe, Bid-Ask-Spreads und der Anzahl der unterstützten Märkte belohnen, an Liquiditätsanbieter („LPs“) verteilt. Zunächst wurden **7,5 %** (`75.000.000 $DYDX`)  des Token-Angebots  für LP-Prämien bereitgestellt.
+
+* In [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) hat die dYdX-Community [dafür gestimmt](https://dydx.community/dashboard/proposal/14), die Prämien für Liquiditätsanbieter von   `1.150.685 DYDX` pro Epoche um 50 % auf `575.343 DYDX` pro Epoche zu reduzieren. Infolgedessen sank die Zuteilung für LP-Prämien von `7,5 %` auf `5,2 %`.
 
 **Ziele**
 
