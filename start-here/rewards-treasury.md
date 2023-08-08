@@ -12,11 +12,13 @@ Zusätzlich zu den übertragenen DYDX auf dem Community-Konto kann die dYdX-Comm
 
 (2) Die Prämien für den Einsatz von $USDC auf 0 (383.562 $DYDX) festlegen,
 
-(3) Die Prämien für den Einsatz von $DYDX auf 0 (383.562 $DYDX) festlegen, und
+(3) Setzen Sie die Prämien für das Staking von $DYDX auf 0 (383.562 $DYDX),
 
-(4) Die Handelsprämien erneut um 45 % (1.294.520 $DYDX) reduzieren.
+(4) Die Handelsprämien um 45 % (1.294.520 $DYDX) weiter reduzieren und
 
-Ab Epoche 21 werden auf dem Prämien-Konto je Epoche 3.020.,548 $DYDX anfallen. Diese können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden. \
+(5) Reduzieren Sie die Prämien für Liquiditätsanbieter um 50 % (575.342 $DYDX).
+
+Ab Epoche 26 werden in jeder Epoche 3.595.890 $DYDX  in der Prämienkasse anfallen und können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden. \
 
 
 ## FAQ
