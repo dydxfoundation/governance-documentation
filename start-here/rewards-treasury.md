@@ -12,11 +12,13 @@ description: 리워드 트레저리에 대한 개요.
 
 (2) $USDC를 0(383,562 $DYDX)으로 하여 스테이킹에 대한 보상을 설정,
 
-(3) $DYDX를 0(383,562 $DX)으로 하여 스테이킹에 대한 보상을 설정, 및
+(3) $DYDX를 0(383,562 $DX)으로 하여 스테이킹에 대한 보상을 설정,
 
-(4) 거래 보상을 45%(1,294,520 $DYDX) 더 감소시킵니다.
+(4) 거래 보상을 45%(1,294,520 $DYDX) 더 감소,
 
-에폭 21에서 시작하여 3,020,548 $DYDX는 각 에폭마다 보상 재무부에 축적되며 [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 dYdX 커뮤니티에서 사용할 수 있습니다. \
+(5) 유동성 공급자 보상 50% 감소(575,342 $DYDX).
+
+에폭 26부터 각 에폭마다 3,595,890 $DYDX가 보상 트레저리에 누적되며 [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 dYdX 커뮤니티에서 사용할 수 있습니다. \
 
 
 ## FAQ
