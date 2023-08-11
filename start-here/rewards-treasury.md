@@ -8,15 +8,11 @@ description: An overview of the rewards treasury.
 
 In addition to the vested DYDX in the Community Treasury, the dYdX community can also access the $DYDX accruing in the Rewards Treasury as a result of the following votes:&#x20;
 
-(1) Reduce trading rewards by 25% (958,904 $DYDX),&#x20;
-
-(2) Set the rewards for staking $USDC to 0 (383,562 $DYDX),&#x20;
-
-(3) Set the rewards for staking $DYDX to 0 (383,562 $DYDX),&#x20;
-
-(4) Further reduce trading rewards by 45% (1,294,520 $DYDX), and
-
-(5) Reduce liquidity provider rewards by 50% (575,342 $DYDX).
+* [DIP 14](https://dydx.community/dashboard/proposal/7) - set the rewards for staking USDC to 0 (383,562 $DYDX per epoch),&#x20;
+* [DIP 16](https://dydx.community/dashboard/proposal/8) - reduce trading rewards by 25% (958,904 $DYDX per epoch),&#x20;
+* [DIP 17](https://dydx.community/dashboard/proposal/9) - set the rewards for staking $DYDX to 0 (383,562 $DYDX per epoch),
+* [DIP 20](https://dydx.community/dashboard/proposal/11) - further reduce trading rewards by 45% (1,294,520 $DYDX per epoch), and
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - reduce Liquidity Provider Rewards by 50% (575,342 $DYDX per epoch).&#x20;
 
 Starting in Epoch 26, 3,595,890 $DYDX  will accrue in the Rewards Treasury each epoch and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).\
 
