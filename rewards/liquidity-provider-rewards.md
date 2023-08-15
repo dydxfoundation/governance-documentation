@@ -4,7 +4,9 @@ description: Visão geral do programa de recompensas do provedor de liquidez.
 
 # Recompensas de provedores de liquidez
 
-7,5% da oferta inicial de token (`75.000.000 $DYDX`) será distribuída a provedores de liquidez com base em fórmulas que recompensam uma combinação de volume de maker, tempo de atividade, profundidade do par, spreads de compra e venda e a quantidade de mercados suportados.
+**5,2%** (`52.458.925 $DYDX`) do suprimento de token é alocado para ser distribuído aos provedores de liquidez ("LPs") com base em fórmulas que recompensam uma combinação de volume do Maker, tempo de atividade, profundidade bilateral, spreads de oferta-venda e o número de mercados suportados. Inicialmente, **7,5%** (`75.000.000 $DYDX`)  do suprimento de tokens  foi alocado para recompensas de LP.
+
+* No [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), a comunidade da dYdX [votou](https://dydx.community/dashboard/proposal/14) para reduzir as recompensas de provedor de liquidez em 50%, de    `1.150.685 DYDX` por época para `575.343 DYDX` por época. Como resultado disso, a alocação para recompensas de LP diminuiu de `7,5%` para 5,`2%`.
 
 **Objetivos**
 
@@ -71,25 +73,25 @@ Começando na epoch 1, os tokens $DYDX obtidos por meio das recompensas para pro
 
 **Profundidade de dois lados**
 
-Um provedor de liquidez de dois lados é um indivíduo que ativamente negocia de ambos os lados do mercado no protocolo de segunda camada da dYdX, fornecendo compras e vendas para um determinado mercado. Eles fornecem liquidez ao protocolo de forma geral.
+Um provedor de liquidez de dois lados é um indivíduo que ativamente negocia de ambos os lados do mercado no protocolo dYdX Layer 2, fornecendo compras e vendas para um determinado mercado. Eles fornecem liquidez ao protocolo de forma geral.
 
 Por exemplo, um provedor de liquidez no mercado de BTC-USD pode fornecer uma cotação de US$ 30.000-US$ 30.100, 10x50. Isso significa que eles ofertam a compra de 10 BTC por US$ 30.000 e também ofertam a venda de 50 BTC a US$ 30.100. Outros participantes de mercado podem então comprar (fazendo ofertas) do provedor de liquidez a US$ 30.100 ou vender a eles a US$ 30.000.
 
 Os provedores de liquidez são avaliados a partir de sua capacidade de fornecer ambas as ofertas a um determinado mercado. Os provedores de liquidez que apenas trabalham de um lado (apenas compras ou apenas vendas) são excluídos de receber recompensas devido à função min().
 
-**Spread do mercado intermediário**
+**Spread de mid-market**
 
 Uma medida comum de liquidez é o spread de compra e venda: o spread entre o maior preço de compra (ordem de compra) e o menor preço de venda (ordem de venda) de um mercado. A diferença entre compra e a venda, isto é, o spread, é o principal custo de transação dos trades (fora das comissões), sendo coletada pelo provedor de liquidez ao processar ordens a preços de compra e de venda. O spread mede o custo de transação imediata a um usuário.
 
-O spread de mercado intermediário considera especificamente o ponto médio do mercado. Com esta fórmula, ordens abaixo do valor de profundidade mínima para cada mercado também são excluídas.
+O spread de mid-market considera especificamente o ponto médio do mercado. Com esta fórmula, ordens abaixo do valor de MinDepth para cada mercado também são excluídas.
 
-Por exemplo, se o preço de compra de um provedor de liquidez para BTC-USD for de US$ 30.000 e o preço de venda for de US$ 30.100, o spread de compra será de US$ 100. O preço de mercado intermediário é de US$ 30.050, e o spread de mercado intermediário é de US$ 50.
+Por exemplo, se o preço de compra de um provedor de liquidez para BTC-USD for de US$ 30.000 e o preço de venda for de US$ 30.100, o spread de compra será de US$ 100. O preço de mid-market é de US$ 30.050, e o spread de mid-market é de US$ 50.
 
 **Tempo de atividade**
 
 O tempo de atividade para provedores de liquidez é essencial para os mercados, especialmente em períodos de alta volatilidade. Ao aplicar um exponente de 5 a $$Uptime_{epoch}$$ como uma entrada para $$Q_{FINAL}$$, as recompensas tendem aos provedores de liquidez que mantêm a liquidez de dois lados constantemente. Em outras palavras, um provedor de liquidez que fornece 99% de tempo de atividade é exponencialmente mais valioso do que um provedor de liquidez que fornece 90% de tempo de atividade.
 
-O tempo de atividade é definido como a porcentagem de tempo na qual as ordens estão num determinado mercado fornecendo liquidez minuto a minuto (com amostragem randomizada). O tempo de atividade exclui os períodos nos quais ocorrem interrupções no protocolo de segunda camada da dYdX. Pode haver casos extremos nos quais a exchange esteja lenta ou não aceite ordens (mas não se trata de uma interrupção), nos quais a situação acima não seria aplicável. No entanto, isso seria considerado um bug e todos os provedores de liquidez seriam igualmente afetados, como em interrupções.
+O tempo de atividade é definido como a porcentagem de tempo na qual as ordens estão num determinado mercado fornecendo liquidez minuto a minuto (com amostragem randomizada). O tempo de atividade exclui os períodos nos quais ocorrem interrupções no protocolo dYdX Layer 2. Pode haver casos extremos nos quais a exchange esteja lenta ou não aceite ordens (mas não se trata de uma interrupção), nos quais a situação acima não seria aplicável. No entanto, isso seria considerado um bug e todos os provedores de liquidez seriam igualmente afetados, como em interrupções.
 
 ### Como são definidos os spreads máximos por mercado?
 
@@ -97,7 +99,7 @@ Nenhum $$Q_{BID}$$ ou $$Q_{ASK}$$ será gerado quando o spread estiver acima de 
 
 Os spreads máximos iniciais são os seguintes:
 
-| Mercado | Spread máximo vs mercado intermediário (compra e venda) |
+| Mercado | Spread máximo vs Mid-Market (compra e venda) |
 | ----------------------- | -------------------------------------- |
 | BTC-USD | 20 bps |
 | ETH-USD | 20 bps |
