@@ -4,7 +4,9 @@ description: Aperçu du programme de récompenses des fournisseurs de liquidité
 
 # Récompenses des fournisseurs de liquidités
 
-7,5 % de la réserve initiale de jetons (`75 000 000 $DYDX`) seront distribués aux fournisseurs de liquidité sur la base de formules de récompense combinant le volume du maker, le temps de disponibilité, la profondeur bilatérale, les écarts entre acheteur-vendeur et le nombre de marchés pris en charge.
+**5.2%** (`52,458,925 $DYDX`) de l'offre de jetons est alloué aux fournisseurs de liquidité ("LP") en fonction de formules qui récompensent une combinaison de volume de fabricant, de temps de disponibilité, de profondeur bilatérale, de spreads bid-ask et du nombre de marchés pris en charge. Initialemen**t, 7**,5`% (75,000,000 $D`YDX) de l'offre de jetons a été alloué pour les récompenses LP.
+
+* Dan[s DIP ](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)24, la communauté dYd[X a v](https://dydx.community/dashboard/proposal/14)oté pour réduire les récompenses des fournisseurs de `liquidité de 5`0 % de 1,150,6`85 DYDX par `époque à 575,343 DYDX par époque. En conséquence, l'allocation de récompenses de trading a baissé, passant de `7,5%` to `5,2%`.
 
 **Objectifs**
 
@@ -71,9 +73,9 @@ Les jetons de $DYDX attribués via les récompenses de fournisseurs de liquidit�
 
 **Profondeur bilatérale**
 
-Un fournisseur de liquidités bilatéral est une entreprise ou un individu qui cote activement des marchés bilatéraux sur le protocole de couche 2 de dYdX, en fournissant des offres et des demandes pour un marché donné. Ils fournissent de la liquidité au protocole dans son ensemble.
+Un fournisseur de liquidités bilatéral est une entreprise ou un individu qui cote activement des marchés bilatéraux sur le protocole de couche 2 de  dYdX, en fournissant des offres et des demandes pour un marché donné. Ils fournissent de la liquidité au protocole dans son ensemble.
 
-Par exemple, un fournisseur de liquidité sur le marché BTC-USD peut fournir une cotation de 30 000 $ à 30 100 $, 10×50. Cela signifie qu'ils enchérissent (ils achèteront) 10 BTC pour 30 000 $ et offriront également (ils vendront) 50 BTC à 30 100 $. D'autres participants au marché peuvent alors acheter (lever l'offre) du fournisseur de liquidité à 30 100 $ ou lui vendre (atteindre l'offre) à 30 000 $.
+Par exemple, un fournisseur de liquidité sur le marché BTC-USD peut fournir une cotation de 30 000 $ à 30 100 $, 10x50. Cela signifie qu'ils enchérissent (ils achèteront) 10 BTC pour 30 000 $ et offriront également (ils vendront) 50 BTC à 30 100 $. D'autres participants au marché peuvent alors acheter (lever l'offre) du fournisseur de liquidité à 30 100 $ ou lui vendre (atteindre l'offre) à 30 000 $.
 
 Les fournisseurs de liquidité sont évalués sur leur capacité à fournir à la fois des offres et des demandes sur un marché donné. Les fournisseurs de liquidité qui ne fait une estimation de prix que d'un côté (soit uniquement des offres, soit des demandes) sont exclus de la réception des récompenses en raison de la fonction min().
 
