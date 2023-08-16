@@ -8,15 +8,11 @@ description: Ein Überblick über die Prämienkasse.
 
 Zusätzlich zu den übertragenen DYDX auf dem Community-Konto kann die dYdX-Community auch auf die auf dem Prämien-Konto anfallenden $DYDX als Resultat der folgenden Abstimmungen zugreifen:
 
-(1) Handelsprämien um 25 % (958.904 $DYDX) reduzieren,
-
-(2) Die Prämien für den Einsatz von $USDC auf 0 (383.562 $DYDX) festlegen,
-
-(3) Setzen Sie die Prämien für das Staking von $DYDX auf 0 (383.562 $DYDX),
-
-(4) Die Handelsprämien um 45 % (1.294.520 $DYDX) weiter reduzieren und
-
-(5) Reduzieren Sie die Prämien für Liquiditätsanbieter um 50 % (575.342 $DYDX).
+* [DIP 14](https://dydx.community/dashboard/proposal/7) - wurden die Staking-Prämien für USDC auf 0 gesetzt (383.562 $DYDX pro Laufzeit)
+* [DIP 16](https://dydx.community/dashboard/proposal/8) - wurden die Handelsprämien um 25 % (958.904 $DYDX pro Laufzeit) reduziert,
+* [DIP 17](https://dydx.community/dashboard/proposal/9) – wurden die Prämien für $DYDX-Staking auf 0 gesetzt (383.562 $DYDX pro Laufzeit),
+* [DIP 20](https://dydx.community/dashboard/proposal/11) – wurden die Handelsprämien um 45 % (1.294.520 $DYDX pro Laufzeit) weiter reduziert, und
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) – wurden die Prämien für Liquiditätsanbieter um 50 % (575.342 $DYDX pro Epoche) reduziert.
 
 Ab Epoche 26 werden in jeder Epoche 3.595.890 $DYDX  in der Prämienkasse anfallen und können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden. \
 
