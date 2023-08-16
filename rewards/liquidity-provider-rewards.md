@@ -4,7 +4,9 @@ description: Likidite Sağlayıcı Ödülleri Programına genel bakış.
 
 # Likidite Sağlayıcı Ödülleri
 
-İlk token arzının %7,5'i (`75.000.000 $DYDX`) piyasa yapıcı hacmi (maker volume), çalışma süresi (uptime), iki taraflı derinlik (two-sided depth), alış satış farkları (bid-ask spreads) ve desteklenen piyasaların sayısı parametrelerinden oluşan bir kombinasyonu ödüllendirecek şekilde belirlenen formüllere göre likidite sağlayıcılara dağıtılacaktır.
+Token arzının **%5,2** (`52.458.925 $DYDX`) tutarındaki kısmı likidite sağlayıcılarına ("LP'ler") piyasa yapıcı hacmi, çalışma süresi, iki taraflı derinlik, teklif-talep farkları ve desteklenen piyasaların sayısının bir kombinasyonunu ödüllendiren formüllere dayanarak dağıtılmak üzere tahsis edilmiştir. Başlangıçta, token arzının **%7,5** (`75.000.000 $DYDX`) tutarındaki kısmı, LP ödülleri için tahsis edilmişti.
+
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) ile dYdX topluluğu, Likidite Sağlayıcı Ödüllerini dönem başına 1.1`50.685 DYDX'ten dö`nem başına 575`.343 DYDX'e az`altma yönünde oy [kullandı. S](https://dydx.community/dashboard/proposal/14)onuç olarak, LP ödülleri için ayrılan miktar `%7,5’tan` `%5,2'ye` düşmüştür.
 
 **Hedefler**
 
