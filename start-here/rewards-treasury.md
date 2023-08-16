@@ -8,15 +8,11 @@ description: 奖励资金库概述。
 
 除了分配在社区资金库中的 DYDX 之外，dYdX 社区还可以通过下列投票获得奖励资金库中积累的 $DYDX：
 
-(1) 将交易奖励减少 25% (958,904 $DYDX)，
-
-(2) 将质押奖励 $USDC 设置为 0 (383,562 $DYDX)，
-
-(3) 将 $DYDX 的质押奖励设置为 0 (383,562 $DYDX)，
-
-(4) 将交易奖励再减少 45% (1,294,520 $DYDX)，并且
-
-(5) 将流动性提供者奖励降低 50% (575,342 $DYDX)。
+* [DIP 14](https://dydx.community/dashboard/proposal/7) - 质押 USDC 的奖励设为 0（每个时段 383,562 $DYDX）。
+* [DIP 16](https://dydx.community/dashboard/proposal/8) - 交易奖励削减 25%（每个时段 958,904 $DYDX），
+* [DIP 17](https://dydx.community/dashboard/proposal/9) - 质押 $DYDX 的奖励设为 0（每个时段 383,562 $DYDX）。
+* [DIP 20](https://dydx.community/dashboard/proposal/11) - 交易奖励进一步削减 45%（每个时段 1,294,520 $DYDX），以及
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - 将流动性提供方奖励削减 50% （每个时段 575,342 $DYDX）。
 
 从时段 26 开始，每个时段将在奖励资金库中积累 3,595,890 $DYDX，并可由 dYdX 社区通过 [治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。\
 
