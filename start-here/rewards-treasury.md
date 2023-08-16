@@ -8,15 +8,11 @@ description: 리워드 트레저리에 대한 개요.
 
 커뮤니티 재무부의 기득권 DYDX에 더하여, dYdX 커뮤니티는 다음 투표의 결과로 보상 재무부에 발생한 $DYDX에 액세스할 수 있습니다.
 
-(1) 거래 보상을 25%(958,904 $DYDX) 감소,
-
-(2) $USDC를 0(383,562 $DYDX)으로 하여 스테이킹에 대한 보상을 설정,
-
-(3) $DYDX를 0(383,562 $DX)으로 하여 스테이킹에 대한 보상을 설정,
-
-(4) 거래 보상을 45%(1,294,520 $DYDX) 더 감소,
-
-(5) 유동성 공급자 보상 50% 감소(575,342 $DYDX).
+* [DIP 14](https://dydx.community/dashboard/proposal/7) - USDC 스테이킹 보상을 0으로 설정(에폭당 383,562 $DYDX),
+* [DIP 16](https://dydx.community/dashboard/proposal/8) - 거래 보상을 25% 감소(에폭당 958,904 $DYDX), 그리고
+* [DIP 17](https://dydx.community/dashboard/proposal/9) - $DYDX 스테이킹에 대한 보상을 0으로 설정합니다(에폭당 383,562 $DYDX)
+* [DIP 20](https://dydx.community/dashboard/proposal/11) - 거래 보상을 45% 감소(에폭당 1,294,520 $DYDX)로 줄입니다
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - 유동성 공급자 보상이 50% 감소합니다(에폭당 575,342 $DYDX).
 
 에폭 26부터 각 에폭마다 3,595,890 $DYDX가 보상 트레저리에 누적되며 [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 dYdX 커뮤니티에서 사용할 수 있습니다. \
 
