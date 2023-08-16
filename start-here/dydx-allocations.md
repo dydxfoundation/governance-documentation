@@ -37,11 +37,11 @@ description: Распределение токена $DYDX.
 * **15,3%** (`152 704 930 DYDX`) получают основатели, сотрудники, советники и консультанты dYdX Trading или dYdX Foundation; и
 * **7,0%** (`70 000 000 DYDX`) получают будущие сотрудники и консультанты dYdX Trading Inc. или dYdX Foundation.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.13 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/allocation 5 year.png" alt=""><figcaption></figcaption></figure>
 
 Через пять лет после запуска максимальный уровень инфляции для бессрочных контрактов в размере `2%` в год может быть использован управлением для увеличения предложения $DYDX, что обеспечит сообщество ресурсами для дальнейшего развития протокола. Инфляция должна быть принята по предложению управления и должна составлять не выше `2%` в год.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.07 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/allocation 10 year 2% inflation (2).png" alt=""><figcaption></figcaption></figure>
 
 Хотя токен будет распределен между сообществом, как указано выше, через управление владельцы $DYDX полностью контролируют то, как токены будут распределяться между сообществом в будущем.
 
