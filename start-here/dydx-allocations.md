@@ -27,7 +27,7 @@ Seit der Einführung von $DYDX gab es mehrere Governance-Vorschläge, die zu Än
   * **5,0 %** (`50.309.197 $DYDX`) an frühere Benutzer, die bestimmte Etappenziele auf dem dYdX Layer 2 Protokoll ([rückwirkende Mining-Prämien](../rewards/retroactive-mining-rewards.md)) abschließen,
     * Nach Phase 0 wurden 24.690.803 nicht beanspruchte $DYDX aus dem Bonusprogramm für rückwirkendes Mining in die Gemeinschaftskasse überführt.
   * **5,2 %** (`52.458.925 $DYDX`) auf der Grundlage der [Prämienformel (s) für Liquiditätsanbieter](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards),
-    * In [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) hat die dYdX-Community dafür gestimmt, die Prämien für Liquiditätsanbieter von    1.150.685 $DYDX pro Epoche um 50 % auf 575.343 $DYDX pro Epoche zu reduzieren. Die überschüssigen 575.342 $DYDX pro Epoche werden in der Prämien-Kasse anfallen und können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
+    * In [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) hat die dYdX-Community dafür gestimmt, die Prämien für Liquiditätsanbieter von 1.150.685 $DYDX pro Epoche um 50 % auf 575.343 $DYDX pro Epoche zu reduzieren. Die überschüssigen 575.342 $DYDX pro Epoche werden in der Prämien-Kasse anfallen und können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
   * **24,2 %** (`241.735.862 $DYDX`) auf die [Gemeinschaftskasse](https://docs.dydx.community/dydx-governance/start-here/community-treasury/) und [die Prämienkasse](https://docs.dydx.community/dydx-governance/start-here/rewards-treasury),
   * **0,6 %** (`5.753.430 $DYDX`) an Benutzer, die $USDC in einen [Liquiditäts-Staking Pool](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool) einsetzen,
     * Im Rahmen des [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) hat die dYdX-Community [dafür gestimmt](https://dydx.community/dashboard/proposal/7), die USDC-Stakingprämien auf 0 zu setzen. Die zuvor an USDC-Staker ausgeschütteten 383.562 DYDX werden in der Prämienkasse angelegt und können von der dYdX-Community durch eine [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
@@ -37,11 +37,11 @@ Seit der Einführung von $DYDX gab es mehrere Governance-Vorschläge, die zu Än
 * **15,3 %** (`152.704.930 DYDX`) an Gründer, Mitarbeiter, Berater und Berater von dYdX Trading Inc. oder der dYdX Foundation und
 * **7,00 %** (`70 000 000 DYDX`) an zukünftige Mitarbeiter und Berater von dYdX Trading oder der dYdX Foundation.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.13 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/allocation 5 year.png" alt=""><figcaption></figcaption></figure>
 
 Fünf Jahre nach dem Start kann die Governance eine ständige Inflationsrate von maximal `2 %` pro Jahr zur Erhöhung des Angebots von $DYDX einsetzen, damit die Gemeinschaft über die nötigen Mittel verfügt, die Weiterentwicklung und das Wachstum des Protokolls aufrechtzuerhalten. Die Inflation muss über einen Governance-Vorschlag erlassen werden und ist auf `2 %` pro Jahr begrenzt.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.07 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/allocation 10 year 2% inflation (2).png" alt=""><figcaption></figcaption></figure>
 
 Obwohl die Gemeinschaftszuteilung wie oben beschrieben festgelegt wurde, haben die Inhaber von $DYDX die volle Kontrolle darüber, wie diese in Zukunft verwendet wird.
 
@@ -55,7 +55,7 @@ Im Rahmen des [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content
 
 In [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md) [stimmte](https://dydx.community/dashboard/proposal/9) die dYdX-Community dafür, die mit dem $DYDX-Staking verbundenen Prämien auf 0 zu setzen. Die zuvor an DYDX-Staker ausgeschütteten 383.562 $DYDX werden in der Prämienkasse angelegt und können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
 
-In [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) hat die dYdX-Community dafür gestimmt, die Prämien für Liquiditätsanbieter von    1.150.685 DYDX pro Epoche um 50 % auf 575.343 DYDX pro Epoche zu reduzieren. Die überschüssigen 575.342 DYDX pro Epoche werden in der Prämienkasse anfallen und können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
+In [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) hat die dYdX-Community dafür gestimmt, die Prämien für Liquiditätsanbieter von 1.150.685 DYDX pro Epoche um 50 % auf 575.343 DYDX pro Epoche zu reduzieren. Die überschüssigen 575.342 DYDX pro Epoche werden in der Prämienkasse anfallen und können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
 
 ### **Können neue $DYDX-Token ausgegeben werden?**
 
