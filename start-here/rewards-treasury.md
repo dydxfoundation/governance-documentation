@@ -12,11 +12,13 @@ En plus du dYdX investi dans le Trésor de la communauté, la communauté dYdX p
 
 (2) Définir les récompenses de staking de USDC $ à 0 (383 562 $DYDX $),
 
-(3) Définir les récompenses de staking DYDX $ à 0 (383 562 DYDX $), et
+(3) Définir les récompenses de staking DYDX $ à 0 (383 562 DYDX $),
 
-(4) Réduire davantage les récompenses de trading de 45 % (1 294 520 DYDX $).
+(4) Réduire davantage les récompenses de trading de 45 % (1 294 520 DYDX $), et
 
-À partir de l'Epoch 21, 3 020 548 $DYDX s'accumuleront dans le Trésor des récompenses à chaque Epoch et pourront être utilisés par la communauté dYdX avec un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters). \
+(5) Réduire les récompenses des fournisseurs de liquidité de 50 % (575,342 $DYDX).
+
+Dès l'Epoque 26, 3 595 890 DYDX $ seront placés dans la trésorerie des récompenses de chaque époque et pourront être utilisés par la communauté dYdX au moyen d'un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters). \
 
 
 ## FAQ
