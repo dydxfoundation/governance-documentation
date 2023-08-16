@@ -4,19 +4,20 @@ description: 社区资金库概述。
 
 # 社区资金库
 
-代币供应量的 `21.9`**`%`**（`219,194,788 $DYDX`）分配给 dYdX 社区资金库，供 dYdX 社区持续用于捐赠者赠款、社区举措、流动性采矿和其他计划。最初，代币供应量的 `5.0%` (`50,000,000 $DYDX`) [分配](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations)给社区资金库，每个时段，766,703 $DYDX 归属于社区资金库。目前，3,787,251 $DYDX 归属于社区资金库，因为三个治理提案导致 dYdX 社区每个时段的可用 $DYDX 增加 3,020,548 $DYDX：
+**`24.2%`**(`241,735,862 $DYDX`) 的代币供应将分配给社区资金库，由 dYdX 社区通过贡献者赠款、社区倡议、流动性挖掘和其他计划持续进行分配。最初，代币供应量的 `5.0%``` ([50,000,000 $DYDX](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations)) 分配给社区资金库，每个时段，766,703 $DYDX 归属于社区资金库。目前，3,787,251 $DYDX 归属于社区资金库，因为三个治理提案导致 dYdX 社区每个时段的可用 $DYDX 增加 3,020,548 $DYDX：
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - 质押 USDC 的奖励设为 0（每个时段 383,562 $DYDX）。
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - 交易奖励削减 25%（每个时段 958,904 $DYDX），
-* [DIP 17](https://dydx.community/dashboard/proposal/9) - 质押 $DYDX 的奖励设为 0（每个时段 383,562 $DYDX），及
-* [DIP 20](https://dydx.community/dashboard/proposal/11) - 交易奖励进一步削减 45%（每个时段1,294,520 $DYDX）。
+* [DIP 17](https://dydx.community/dashboard/proposal/9) - 质押 $DYDX 的奖励设为 0（每个时段 383,562 $DYDX）。
+* [DIP 20](https://dydx.community/dashboard/proposal/11) - 交易奖励进一步削减 45%（每个时段 1,294,520 $DYDX），以及
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - 将流动性提供方奖励削减 50% （每个时段 575,342 $DYDX）。
 
 
 
 **目标**
 
 * 推动dYdX增长的资金计划和倡议。
-* 制定资助计划，为社区 NFT、黑客马拉松、分析仪表板、memes、swag、第三方工具、翻译和其他项目提供资金。
+* 制定资助计划，为社区NFT、黑客马拉松、分析仪表板、memes、swag、第三方工具、翻译和其他项目提供资金。
 * 开发一流的治理体系并激励稳健的治理。
 
 ## 概述
@@ -37,7 +38,15 @@ description: 社区资金库概述。
 
 dYdX 社区成员可以在[此处](https://dydx.shippooor.xyz/)查看社区资金库的归属结余。 \
 \
-此外，在每个时段结束时，dYdX 基金会都会在[时段回顾](https://dydx.foundation/blog)中公布社区资金库的归属结余。由于以下投票的结果：（1）将交易奖励减少 25%（958,904 个 $DYDX），（2）将质押 $USDC 的奖励设置为 0（383,562 个 $DYDX），(3) 将质押 $DYDX 的奖励设置为 0 (383,562 $DYDX)，因此除了社区资金库中已归属的 $DYDX 之外，dYdX 社区还可以获得奖励资金库中所累积的 $DYDX。从 21 时段开始，奖励资金库中每时段将积累 3,020,548 $DYDX，并可通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)由 dYdX 社区使用。
+此外，在每个时段结束时，dYdX 基金会都会在[时段回顾](https://dydx.foundation/blog)中公布社区资金库的归属结余。除了分配在社区资金库中的 $DYDX 之外，dYdX 社区还可以通过下列投票获得奖励资金库中积累的 $DYDX：
+
+* [DIP 14](https://dydx.community/dashboard/proposal/7) - 质押 USDC 的奖励设为 0（每个时段 383,562 $DYDX）。
+* [DIP 16](https://dydx.community/dashboard/proposal/8) - 交易奖励削减 25%（每个时段 958,904 $DYDX），
+* [DIP 17](https://dydx.community/dashboard/proposal/9) - 质押 $DYDX 的奖励设为 0（每个时段 383,562 $DYDX）。
+* [DIP 20](https://dydx.community/dashboard/proposal/11) - 交易奖励进一步削减 45%（每个时段 1,294,520 $DYDX），以及
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - 将流动性提供方奖励削减 50% （每个时段 575,342 $DYDX）。
+
+从时段 26 开始，每个时段将在奖励资金库中积累 3,595,890 $DYDX，并可由 dYdX 社区通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。
 
 ### 谁可以提交社区资金库 $DYDX 代币的支出提案？
 
@@ -49,4 +58,4 @@ Reverie 已经编制了一份综合性的分步技术指南，讲解拥有超过
 
 ### 可以向社区资金库提交哪些类型的提议？
 
-一个由社区管理的资金库打开了充满可能性的世界。我们希望看到各种尝试和方案，包括生态系统补偿金，这些可以促进 dYdX Layer 2 协议的生态系统增长。
+一个由社区管理的资金库打开了充满可能性的世界。我们希望看到各种尝试和方案，包括生态系统补偿金，这些可以促进dYdX Layer 2协议的生态系统增长。
