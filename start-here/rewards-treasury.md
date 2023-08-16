@@ -12,11 +12,13 @@ Além do DYDX investido no Tesouro da Comunidade, a comunidade dYdX também pode
 
 (2) Definir as recompensas pela participação de $USDC em 0 (383.562 $DYDX),
 
-(3) Definir as recompensas pela participação de $DYDX em 0 (383.562 $DYDX) e
+(3) Defina as recompensas por apostar $DYDX como 0 (383.562 $DYDX),
 
-(4) Reduzir ainda mais as recompensas de trading em 45% (1.294.520 $DYDX).
+(4) reduza ainda mais as recompensas de trading em 45% (1.294.520 $DYDX) e
 
-A partir da Epoch 21, serão acumulados 3.020.548 $DYDX no Tesouro de Recompensas de cada epoch, que poderão ser usados pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters). \
+(5) Reduza as recompensas de provedor de liquidez em 50% (575.342 $DYDX).
+
+A partir da Época 26, 3.595.890 $DYDX  serão acrescidos no Tesouro de Recompensas a cada época e poderão ser usados pela comunidade da dYdX [com um voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters). \
 
 
 ## Perguntas e respostas
