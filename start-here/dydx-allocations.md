@@ -27,7 +27,7 @@ Depuis le lancement de $DYDX, plusieurs propositions de gouvernance ont été mo
   * **5,0 %** (`50 309 197 $DYDX`) aux anciens utilisateurs qui franchissent certaines étapes de trading sur le protocole de couche 2 de dYdX ([récompenses de minage rétroactives](../rewards/retroactive-mining-rewards.md)),
     * Après l'Epoch 0, 24 690 803 $DYDX non réclamés du programme de récompenses de minage rétroactif ont été transférés à la trésorerie de la communauté.
   * **5,2%** (`52,458,925 $DYDX`) sur la base d[e la ou des formules de récompenses d](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards)es fournisseurs de liquidité,
-    * Dan[sDIP 2](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)4, la communauté dYdX a voté pour réduire les récompenses des fournisseurs de liquidité de 50 % de 1,150,685 $DYDX par époque à 575,343 $DYDX par époque. L'excès de 575,342 $DYDX par époque s'accumulera dans le Trésor des récompenses et peut être utilisé par la communau[té dYdX avec un](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) vote de gouvernance.
+    * Dan[s DIP ](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)24, la communauté dYdX a voté pour réduire les récompenses des fournisseurs de liquidité de 50 % de 1,150,685 $DYDX par époque à 575,343 $DYDX par époque. L'excès de 575,342 $DYDX par époque s'accumulera dans le Trésor des récompenses et peut être utilisé par la communau[té dYdX avec un](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) vote de gouvernance.
   * **24,2%** (`241,735,862 $DYDX`) au au T[résor de la commun](https://docs.dydx.community/dydx-governance/start-here/community-treasury/)auté,[ et au Trésor de](https://docs.dydx.community/dydx-governance/start-here/rewards-treasury)s récompenses,
   * **0,6 %** (`5 753 430 $DYDX`) aux utilisateurs qui mettent en réserve $USDC dans un [pool de mise en réserve de liquidité](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool),
     * Au cours de la [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/7) pour définir les récompenses associées à la mise en réserve de l'$USDC à 0. Les 383 562 $DYDX précédemment distribués aux stakers d'$USDC s'accumuleront dans la trésorerie des récompenses et pourront être utilisés par la communauté dYdX au moyen d'un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
@@ -37,11 +37,11 @@ Depuis le lancement de $DYDX, plusieurs propositions de gouvernance ont été mo
 * **15,27 %** (`152 704 930 DYDX`) aux fondateurs, employés, conseillers et consultants de dYdX Trading Inc. ou de la ou de la dYdX Foundation, et
 * **7,0 %** (`70 000 000 $DYDX`) aux futurs employés et consultants de dYdX Trading Inc. ou de la dYdX Foundation.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.13 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/allocation 5 year.png" alt=""><figcaption></figcaption></figure>
 
 Dans les cinq ans qui suivent le lancement, un taux d'inflation perpétuel maximum de `2 %` par an peut être utilisé par la gouvernance pour augmenter l'offre de $DYDX, garantissant ainsi à la communauté les ressources nécessaires pour poursuivre le développement et la croissance du protocole. L'inflation doit être promulguée via une proposition de gouvernance et est plafonnée à `2 %` par an.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.07 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/allocation 10 year 2% inflation (2).png" alt=""><figcaption></figcaption></figure>
 
 Bien que l'allocation à la communauté ait été établie comme indiqué ci-dessus, les détenteurs de $DYDX ont un contrôle total via la gouvernance sur la façon dont l'allocation à la communauté sera utilisée à l'avenir.
 
