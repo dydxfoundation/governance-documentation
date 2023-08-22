@@ -4,7 +4,7 @@ description: 社区资金库概述。
 
 # 社区资金库
 
-**`24.2%`**(`241,735,862 $DYDX`) 的代币供应将分配给社区资金库，由 dYdX 社区通过贡献者赠款、社区倡议、流动性挖掘和其他计划持续进行分配。最初，代币供应量的 `5.0%``` ([50,000,000 $DYDX](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations)) 分配给社区资金库，每个时段，766,703 $DYDX 归属于社区资金库。目前，3,787,251 $DYDX 归属于社区资金库，因为三个治理提案导致 dYdX 社区每个时段的可用 $DYDX 增加 3,020,548 $DYDX：
+**`24.2%`**(`241,735,862 $DYDX`) 的代币供应将分配给社区资金库，由 dYdX 社区通过贡献者赠款、社区倡议、流动性挖掘和其他计划持续进行分配。最初，代币供应量的 `5.0%``` ([50,000,000 $DYDX](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations)) 分配给社区资金库，每个时段，766,703 $DYDX 归属于社区资金库。目前，3,787,251 $DYDX 归属于社区资金库，因为几项治理提案导致 dYdX 社区每个时段的可用 $DYDX 增加 3,020,548 $DYDX：
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - 质押 USDC 的奖励设为 0（每个时段 383,562 $DYDX）。
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - 交易奖励削减 25%（每个时段 958,904 $DYDX），
