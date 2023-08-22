@@ -8,15 +8,11 @@ description: 報酬トレジャリーの概要
 
 コミュニティートレジャリーに帰属するDYDXに加えて、DYDXコミュニティーは、次の投票の結果として報酬トレジャリーに積み立てられるDYDXにもアクセスすることができます：
 
-(1) 取引報酬を25%削減（958,904 $DYDX）、
-
-(2) $USDCの報酬を0（383,562 $DYDX）に設定し、
-
-(3) $DYDXの報酬を0（383,562 $DYDX）に設定、
-
-(4) 取引報酬をさらに45%（1,294,520 $DYDX）削減し、
-
-(5) 流動性プロバイダーの報酬を50%（575,342 $DYDX）削減します。
+* [DIP 14](https://dydx.community/dashboard/proposal/7) - USDCのステーキングの報酬を0に設定（エポックあたり383,562 $DYDX）、
+* [DIP 16](https://dydx.community/dashboard/proposal/8) - 取引報酬を25％削減（エポックあたり958,904 $DYDX）、
+* [DIP 17](https://dydx.community/dashboard/proposal/9) - $DYDXのステーキングの報酬を0に設定（エポックあたり383,562 $DYDX）
+* [DIP 20](https://dydx.community/dashboard/proposal/11) - 取引報酬をさらに45％削減（エポックあたり1,294,520 $DYDX）さらに
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - 流動性プロバイダー報酬を50%削減（エポックあたり575,342 $DYDX）。
 
 エポック26以降、各エポックごとに3,595,890DYDXが報酬トレジャリーに加算され、dYdXコミュニティは[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によってそれらを利用できるようになります。\
 

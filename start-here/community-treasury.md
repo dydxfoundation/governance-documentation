@@ -4,12 +4,13 @@ description: コミュニティトレジャリーの概要
 
 # コミュニティ基金
 
-トークン供給の `21.9`**`％`**（`219,194,788 $DYDX`）は、貢献者助成金、コミュニティイニシアチブ、流動性マイニング、その他のプログラムで継続的に使用するためにdYdXコミュニティのコミュニティトレジャリーに割り当てられます。当初、コミュニティトレジャリーにトークン供給の`5.0％`（`50,000,000 $DYDX`）が[割り当て](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations)られ、766,703 $DYDXがエポックごとにコミュニティトレジャリーに帰属しました。現在、コミュニティトレジャリーに3,787,251 $DYDXがベストされているのは、3つのガバナンス提案により、dYdXコミュニティの各エポックで利用可能な$DYDXの金額が3,020,548 $DYDX増加したためです。
+トークン供給の**`24.2%`**（`241,735,862 $DYDX`）は、dYdXコミュニティのコミュニティ基金に割り当てられ、貢献者の助成金、コミュニティのイニシアチブ、流動性マイニング、その他のプログラムで継続的に使用されます。当初、コミュニティトレジャリーにトークン供給の`5.0％```（[50,000,000 $DYDX](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations)）が割り当てられ、766,703 $DYDXがエポックごとにコミュニティトレジャリーに帰属しました。現在、コミュニティトレジャリーに3,787,251 $DYDXがベストされているのは、3つのガバナンス提案により、dYdXコミュニティの各エポックで利用可能な$DYDXの金額が3,020,548 $DYDX増加したためです。
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - USDCのステーキングの報酬を0に設定（エポックあたり383,562 $DYDX）、
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - 取引報酬を25％削減（エポックあたり958,904 $DYDX）、
-* [DIP 17](https://dydx.community/dashboard/proposal/9) - $DYDXのステーキングの報酬を0に設定（エポックあたり383,562 $DYDX）。
-* [DIP 20](https://dydx.community/dashboard/proposal/11) - 取引報酬をさらに45％削減（エポックあたり1,294,520 $DYDX）。
+* [DIP 17](https://dydx.community/dashboard/proposal/9) - $DYDXのステーキングの報酬を0に設定（エポックあたり383,562 $DYDX）
+* [DIP 20](https://dydx.community/dashboard/proposal/11) - 取引報酬をさらに45％削減（エポックあたり1,294,520 $DYDX）さらに
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - 流動性プロバイダー報酬を50%削減（エポックあたり575,342 $DYDX）。
 
 
 
@@ -35,7 +36,15 @@ description: コミュニティトレジャリーの概要
 
 ### コミュニティトレジャリーの既得残高は？
 
-dYdXコミュニティメンバーは、コミュニティトレジャリーの既得残高を[こちら](https://dydx.shippooor.xyz/)で確認できます。\\また、dYdX財団では、各エポックの終了時にコミュニティトレジャリーの既得残高を[エポックレビュー](https://dydx.foundation/blog)で公表しています。dYdXコミュニティはコミュニティ基金の既得$DYDXに加えて、（1）取引報酬を25％削減し（95万8,904$DYDX）、（2）USDCのステーキング報酬を0（38万3,562$DYDX）に設定し、（3）$DYDXのステーキング報酬を0（38万3,562$DYDX）に設定することに合意したため、それにより報酬基金に加算される$DYDXにもアクセスできます。エポック21からリワード国庫に3,020,548 $DYDXが積み立てられ、dYDXコミュニティーは[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)で使用できます。
+dYdXコミュニティメンバーは、コミュニティトレジャリーの既得残高を[こちら](https://dydx.shippooor.xyz/)で確認できます。\\また、dYdX財団では、各エポックの終了時にコミュニティトレジャリーの既得残高を[エポックレビュー](https://dydx.foundation/blog)で公表しています。コミュニティートレジャリーに帰属する$DYDXに加えて、dYdXコミュニティーは、以下の投票の結果として報酬トレジャリーに積み立てられる$DYDXにもアクセスすることができます：
+
+* [DIP 14](https://dydx.community/dashboard/proposal/7) - USDCのステーキングの報酬を0に設定（エポックあたり383,562 $DYDX）、
+* [DIP 16](https://dydx.community/dashboard/proposal/8) - 取引報酬を25％削減（エポックあたり958,904 $DYDX）、
+* [DIP 17](https://dydx.community/dashboard/proposal/9) - $DYDXのステーキングの報酬を0に設定（エポックあたり383,562 $DYDX）
+* [DIP 20](https://dydx.community/dashboard/proposal/11) - 取引報酬をさらに45％削減（エポックあたり1,294,520 $DYDX）さらに
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - 流動性プロバイダー報酬を50%削減（エポックあたり575,342 $DYDX）。
+
+エポック26以降、各エポックごとに3,595,890 $DYDXが報酬トレジャリーに加算され、dYdXコミュニティは[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によってそれらを利用できるようになります。
 
 ### 誰がコミュニティ基金から$DYDXを使用する提案を提出できますか？
 
