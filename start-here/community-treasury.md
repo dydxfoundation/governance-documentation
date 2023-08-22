@@ -4,7 +4,7 @@ description: Ein Überblick über die Gemeinschaftskasse.
 
 # Gemeinschaftskasse
 
-**`24,2 %`** (`241.735.862 $DYDX`) der Token-Versorgung werden der Gemeinschaftskasse zugewiesen, die die dYdX-Community fortlaufend für Beitragszuschüsse, Gemeinschaftsinitiativen, Liquiditätsabbau und andere Programme verwenden kann. Zu Beginn wurden `5,0 %``` des Tokenangebots ([50.000.000 $DYDX](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations) ) der Gemeinschaftskasse zugewiesen und 766.703 $DYDX gingen in jedem Durchgang in die Gemeinschaftskasse ein. Derzeit werden 3.787.251 $DYDX in die Community-Kasse ausgegeben, da drei Governance-Vorschläge zu einer Erhöhung des der dYdX-Community in jeder Epoche verfügbaren DYDX-Betrags um 3.020.548 $DYDX führten:
+**`24,2 %`** (`241.735.862 $DYDX`) der Token-Versorgung werden der Gemeinschaftskasse zugewiesen, die die dYdX-Community fortlaufend für Beitragszuschüsse, Gemeinschaftsinitiativen, Liquiditätsabbau und andere Programme verwenden kann. Zu Beginn wurden `5,0 %``` des Tokenangebots ([50.000.000 $DYDX](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations) ) der Gemeinschaftskasse zugewiesen und 766.703 $DYDX gingen in jedem Durchgang in die Gemeinschaftskasse ein. Derzeit werden 3.787.251 $DYDX in die Community-Kasse ausgegeben, da mehrere Governance-Vorschläge zu einer Erhöhung des der dYdX-Community in jeder Epoche verfügbaren DYDX-Betrags um 3.020.548 $DYDX führten:
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - wurden die Staking-Prämien für USDC auf 0 gesetzt (383.562 $DYDX pro Laufzeit)
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - wurden die Handelsprämien um 25 % (958.904 $DYDX pro Laufzeit) reduziert,
