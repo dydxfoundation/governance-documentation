@@ -4,7 +4,7 @@ description: 커뮤니티 트레저리에 대한 개요
 
 # 커뮤니티 금고
 
-토큰 공급량의 **`24.2%`**(`241,735,862 $DYDX`)는 기여자 보조금, 커뮤니티 이니셔티브, 유동성 마이닝 및 기타 프로그램에 지속적으로 사용할 수 있도록 dYdX 커뮤니티의 커뮤니티 자금에 할당됩니다. 처음에는 토큰 공급량의 `5.0%``` ([50,000,000 $DYDX](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations))를 커뮤니티 금고에 할당했으며 각 에폭마다 커뮤니티 금고에 766,703 $DYDX를 기부했습니다. 현재 지역 재무에 3,787,251 $DYDX를 투자한 이유는 3가지 정부 제안이 dYdX 커뮤니티의 각 세대에서 사용할 수 있는 $DYDX의 증가로 이어졌기 때문입니다.
+토큰 공급량의 **`24.2%`**(`241,735,862 $DYDX`)는 기여자 보조금, 커뮤니티 이니셔티브, 유동성 마이닝 및 기타 프로그램에 지속적으로 사용할 수 있도록 dYdX 커뮤니티의 커뮤니티 자금에 할당됩니다. 처음에는 토큰 공급량의 `5.0%``` ([50,000,000 $DYDX](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations))를 커뮤니티 금고에 할당했으며 각 에폭마다 커뮤니티 금고에 766,703 $DYDX를 기부했습니다. 현재 지역 재무에 3,787,251 $DYDX를 투자한 이유는 몇몇 정부 제안이 dYdX 커뮤니티의 각 세대에서 사용할 수 있는 $DYDX의 증가로 이어졌기 때문입니다.
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - USDC 스테이킹 보상을 0으로 설정(에폭당 383,562 $DYDX),
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - 거래 보상을 25% 감소(에폭당 958,904 $DYDX), 그리고
