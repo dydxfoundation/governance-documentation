@@ -8,15 +8,11 @@ description: Un aperçu de la trésorerie des récompenses
 
 En plus du dYdX investi dans le Trésor de la communauté, la communauté dYdX peut également accéder au $DYDX accumulé dans le Trésor des récompenses à la suite des votes suivants :
 
-(1) Réduire les récompenses de trading de 25 % (958 904 DYDX $),
-
-(2) Définir les récompenses de staking de USDC $ à 0 (383 562 $DYDX $),
-
-(3) Définir les récompenses de staking DYDX $ à 0 (383 562 DYDX $),
-
-(4) Réduire davantage les récompenses de trading de 45 % (1 294 520 DYDX $), et
-
-(5) Réduire les récompenses des fournisseurs de liquidité de 50 % (575,342 $DYDX).
+* [DIP 14](https://dydx.community/dashboard/proposal/7) - fixer les récompenses pour le jalonnement de l'USDC à 0 (383 562 $DYDX par époque),
+* [DIP 16](https://dydx.community/dashboard/proposal/8) - réduire les récompenses du trading de 25 % (958 904 $DYDX par époch), et
+* [DIP 17](https://dydx.community/dashboard/proposal/9) - fixer les récompenses pour le jalonnement de $DYDX à 0 (383 562 $DYDX par époque).
+* [DIP 20](https://dydx.community/dashboard/proposal/11) - réduire davantage les récompenses de trading de 45 % (1 294 520 $DYDX par époque).
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - réduire les récompenses des fournisseurs de liquidité de 50 % (575,342 $DYDX par époque).
 
 Dès l'Epoque 26, 3 595 890 DYDX $ seront placés dans la trésorerie des récompenses de chaque époque et pourront être utilisés par la communauté dYdX au moyen d'un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters). \
 
