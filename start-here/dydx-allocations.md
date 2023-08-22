@@ -37,11 +37,11 @@ DYDXの立ち上げ以来、最初の割り当てに変更が生じたガバナ�
 * dYdXトレーディングまたはdYdX財団の創設者、従業員、アドバイザー、コンサルタントには**15.3％**（`1億5,270万4,930DYDX`）。
 * dYdXトレーディング社またはdYdX財団の将来の従業員およびコンサルタントには**7.0％**（`7,000万DYDX`）。
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.13 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/allocation 5 year.png" alt=""><figcaption></figcaption></figure>
 
 立ち上げから5年後以降、DYDXの供給量を増やすため、コミュニティがプロトコルの開発および成長を継続するリソースを確保するように、ガバナンスにより年間`最大2％`のパーペチュアルインフレ率を使用できます。インフレは、ガバナンス提案を通じて制定され、年間`2％`に制限されます。
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.07 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/allocation 10 year 2% inflation (2).png" alt=""><figcaption></figcaption></figure>
 
 コミュニティの割り当ては上記のように設定されていますが、DYDX保有者は今後のコミュニティの割り当ての使用方法について、ガバナンスを通じて完全な管理を保有しています。
 
