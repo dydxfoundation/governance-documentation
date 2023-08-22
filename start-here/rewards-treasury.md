@@ -8,15 +8,11 @@ description: Una visión general del tesoro de recompensas.
 
 Además del dYdX invertido en el Fondo de la comunidad, la comunidad de dYdX también puede acceder al $DYDX que se acumula en el Fondo de Recompensas como resultado de los siguientes votos:
 
-(1) Reducir las recompensas de trading en 25 % (958 904 $DYDX),
-
-(2) Establecer las recompensas para invertir $USDC en 0 (383 562 $DYDX),
-
-(3) Establecer las recompensas para invertir $DYDX a 0 (383 562 $DYDX),
-
-(4) Reducir aún más las recompensas de trading en 45 % (1 294 520 $DYDX), y
-
-(5) Reducir las recompensas de los proveedores de liquidez en un 50 % (575 342 $DYDX).
+* [DIP 14](https://dydx.community/dashboard/proposal/7) - fija las recompensas por la inversión de USDC en 0 (383 562 $DYDX por etapa);
+* [DIP 16](https://dydx.community/dashboard/proposal/8) - reduce las recompensas de trading en un 25 % (958 904 $DYDX por etapa);
+* [DIP 17](https://dydx.community/dashboard/proposal/9) - fija las recompensas por invertir $DYDX en 0 (383 562 $DYDX por etapa),
+* [DIP 20](https://dydx.community/dashboard/proposal/11) - reduce aún más las recompensas de trading en un 45 % (1 294 520 $DYDX por etapa), y
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md): reduce las recompensas de proveedores de liquidez en un 50 % (575 342 $DYDX por etapa).
 
 A partir de la etapa 26, 3 595 890 $DYDX se acumularán en la Tesorería de Recompensas en cada etapa y estos podrán ser utilizados por la comunidad de dYdX con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters). \
 

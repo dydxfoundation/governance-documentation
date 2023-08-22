@@ -4,12 +4,13 @@ description: Una visión general de la Tesorería de la comunidad.
 
 # Tesorería de la comunidad
 
-`El 21,9` **`%`** (`219 194 788 $DYDX`) del suministro de tokens se asigna a la tesorería de la comunidad para que la comunidad de dYdX lo use de forma continua para subvenciones de contribuyentes, iniciativas comunitarias, minería de liquidez y otros programas. Inicialmente, el `5,0 %` del suministro de tokens (`50 000 000 $DYDX`) se [asignó](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations) a la Tesorería de la comunidad y 766 703 $DYDX se invierten en la Tesorería de la comunidad en cada etapa. Actualmente, 3 787 251 $DYDX se invierten en la tesorería de la comunidad porque tres propuestas de gobernanza dieron como resultado un aumento de 3 020 548 $DYDX en la cantidad de $DYDX disponible para la comunidad de dYdX en cada época:
+**`El 24.2 %`** (`241 735 862 $DYDX`) del suministro de tokens se asigna a la tesorería de la comunidad para que la comunidad dYdX lo use de forma continua para subvenciones de contribuyentes, iniciativas comunitarias, minería de liquidez y otros programas. Inicialmente, el `5,0 %``` del suministro de tokens ([50 000 000 $DYDX](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations)) se asignó a la Tesorería de la comunidad y 766 703 $DYDX se invierten en la Tesorería de la comunidad en cada etapa. Actualmente, 3 787 251 $DYDX se invierten en la tesorería de la comunidad porque tres propuestas de gobernanza dieron como resultado un aumento de 3 020 548 $DYDX en la cantidad de $DYDX disponible para la comunidad de dYdX en cada época:
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - fija las recompensas por la inversión de USDC en 0 (383 562 $DYDX por etapa);
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - reduce las recompensas de trading en un 25 % (958 904 $DYDX por etapa);
-* [DIP 17](https://dydx.community/dashboard/proposal/9) - fija las recompensas por invertir $DYDX en 0 (383 562 $DYDX por etapa); y
-* [DIP 20](https://dydx.community/dashboard/proposal/11) - reduce aún más las recompensas de trading en un 45 % (1 294 520 $DYDX por etapa).
+* [DIP 17](https://dydx.community/dashboard/proposal/9) - fija las recompensas por invertir $DYDX en 0 (383 562 $DYDX por etapa),
+* [DIP 20](https://dydx.community/dashboard/proposal/11) - reduce aún más las recompensas de trading en un 45 % (1 294 520 $DYDX por etapa), y
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md): reduce las recompensas de proveedores de liquidez en un 50 % (575 342 $DYDX por etapa).
 
 
 
@@ -35,7 +36,15 @@ Cada segundo, el Otorgante de la Tesorería de la comunidad (ver detalles [aquí
 
 ### ¿Cuál es el balance invertido de la Tesorería de la comunidad?
 
-Los miembros de la comunidad dYdX pueden ver el balance invertido de la Tesorería de la comunidad [aquí](https://dydx.shippooor.xyz/)\\. Además, la Fundación dYdX publica el balance invertido de la Tesorería de la comunidad en la [Revisión de la etapa](https://dydx.foundation/blog) al final de cada etapa. Además del $DYDX invertido en la Tesorería de la comunidad, la comunidad de dYdX también puede acceder al $DYDX acumulado en la Tesorería de recompensas como resultado de los votos para: (1) reducir las recompensas comerciales en un 25 % (958 904 $DYDX), (2) fijar las recompensas por invertir $USDC a 0 (383 562 $DYDX) y (3) fijar las recompensas por invertir $DYDX a 0 (383 562 $DYDX). A partir de la etapa 21, 3 020 548 $DYDX se acumularán en el Fondo de Recompensas en cada etapa y la comunidad de dYdX podrá utilizarlos con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+Los miembros de la comunidad dYdX pueden ver el balance invertido de la Tesorería de la comunidad [aquí](https://dydx.shippooor.xyz/)\\. Además, la Fundación dYdX publica el balance invertido de la Tesorería de la comunidad en la [Revisión de la etapa](https://dydx.foundation/blog) al final de cada etapa. Además del dYdX invertido en el Fondo de la comunidad, la comunidad de dYdX también puede acceder al $DYDX que se acumula en el Fondo de Recompensas como resultado de los votos a:
+
+* [DIP 14](https://dydx.community/dashboard/proposal/7) - fija las recompensas por la inversión de USDC en 0 (383 562 $DYDX por etapa);
+* [DIP 16](https://dydx.community/dashboard/proposal/8) - reduce las recompensas de trading en un 25 % (958 904 $DYDX por etapa);
+* [DIP 17](https://dydx.community/dashboard/proposal/9) - fija las recompensas por invertir $DYDX en 0 (383 562 $DYDX por etapa),
+* [DIP 20](https://dydx.community/dashboard/proposal/11) - reduce aún más las recompensas de trading en un 45 % (1 294 520 $DYDX por etapa), y
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md): reduce las recompensas de proveedores de liquidez en un 50 % (575 342 $DYDX por etapa).
+
+A partir de la etapa 26, 3 595 890 $DYDX se acumularán en la Tesorería de Recompensas en cada etapa y estos podrán ser utilizados por la comunidad de dYdX con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
 ### ¿Quién puede presentar propuestas para gastar $DYDX de la Tesorería de la comunidad?
 

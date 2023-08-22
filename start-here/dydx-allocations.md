@@ -37,11 +37,11 @@ Desde el lanzamiento de $DYDX, ha habido varias propuestas de gobernanza que han
 * **15,3 %** (`152 704 930 DYDX`) a los fundadores, empleados, asesores y consultores de dYdX Trading Inc. o de la dYdX Foundation; y
 * **7,0 %** (`70 000 000 DYDX`) a futuros empleados y consultores de dYdX Trading Inc. o de la dYdX Foundation.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.13 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/allocation 5 year.png" alt=""><figcaption></figcaption></figure>
 
 A partir de los cinco años posteriores al lanzamiento, una tasa de inflación máxima perpetua del `2 %` por año puede ser utilizada por la gobernanza para aumentar el suministro de $DYDX, asegurando que la comunidad tenga los recursos para continuar el desarrollo y el crecimiento del Protocolo. La inflación debe ser promulgada por medio de una propuesta de la gobernanza y está limitada al `2 %` por año.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-03-15 at 6.04.07 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/allocation 10 year 2% inflation (2).png" alt=""><figcaption></figcaption></figure>
 
 Aunque la asignación de la comunidad se ha fijado como se ha descrito anteriormente, los titulares de DYDX tienen pleno control mediante la gobernanza sobre la forma en que la asignación de la comunidad se utiliza en el futuro.
 
