@@ -8,15 +8,11 @@ description: Ödül hazinesine genel bir bakış.
 
 Topluluk Hazinesi'ne devredilen DYDX'e ek olarak, dYdX topluluğu, aşağıdaki oylamalar sonucunda Ödül Hazinesi'ne tahakkuk ettirilen $DYDX'e de erişebilir:
 
-(1) Alım-satım ödüllerinin %25 azaltılması (958.904 $DYDX),
-
-(2) $USDC staking için ödüllerin 0 olarak belirlenmesi (383.562 $DYDX),
-
-(3) $DYDX staking için ödüllerin 0 olarak belirlenmesi (383.562 $DYDX),
-
-(4) Alım-satım ödüllerinin ilaveten %45 düşürülmesi (1.294.520 $DYDX), ve
-
-(5) Likidite sağlayıcı ödüllerinin %50 oranında azaltılması (575.342 $DYDX).
+* [DIP 14](https://dydx.community/dashboard/proposal/7) - USDC staking için ödülleri 0 olarak belirleme (dönem başına 383.562 $DYDX),
+* [DIP 16](https://dydx.community/dashboard/proposal/8) - trading ödüllerini %25 düşürme (dönem başına 958.904 $DYDX),
+* [DIP 17](https://dydx.community/dashboard/proposal/9) - $DYDX staking ödüllerini 0 olarak ayarlar (dönem başına 383.562 $DYDX),
+* [DIP 20](https://dydx.community/dashboard/proposal/11) - trading ödüllerini %45 oranında daha azaltma (dönem başına 1.294.520 $DYDX), ve
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - Likidite Sağlayıcı Ödüllerini %50 oranında azaltma (dönem başına 575.342 $DYDX).
 
 Dönem 26'dan başlayarak, her bir dönemde Ödül Hazinesi'ne 3.595.890 $DYDX tahakkuk edecektir ve bu meblağ bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile dYdX topluluğu tarafından kullanılabilecektir. \
 
