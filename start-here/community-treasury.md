@@ -4,7 +4,7 @@ description: Topluluk hazinesine genel bir bakış.
 
 # Topluluk Hazinesi
 
-Token arzının **`%24.2'si`** (`241.735.862 $DYDX`) topluluk hazinesine, dYdX topluluğuna katkıda bulunanlara yönelik hibeler, topluluk girişimleri, likidite madenciliği ve diğer programlarda kullanılmak üzere topluluk hazinesine tahsis edilir. Başlangıçta, token arzının `%5,0'i``` ([50.000.000 $DYDX](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations)) topluluk hazinesine tahsis edilmiştir ve her dönemde topluluk hazinesine 766.703 $DYDX verilmiştir. Şu anda, topluluk hazinesine 3.787.251 $DYDX ayrılmıştır; çünkü yapılan üç yönetişim teklifi sonucunda her dönem için dYdX topluluğuna sunulacak $DYDX miktarının 3.020.548 $DYDX miktarında artırılmasına karar verilmiştir:
+Token arzının **`%24.2'si`** (`241.735.862 $DYDX`) topluluk hazinesine, dYdX topluluğuna katkıda bulunanlara yönelik hibeler, topluluk girişimleri, likidite madenciliği ve diğer programlarda kullanılmak üzere topluluk hazinesine tahsis edilir. Başlangıçta, token arzının `%5,0'i``` ([50.000.000 $DYDX](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations)) topluluk hazinesine tahsis edilmiştir ve her dönemde topluluk hazinesine 766.703 $DYDX verilmiştir. Şu anda, topluluk hazinesine 3.787.251 $DYDX ayrılmıştır; çünkü yapılan birkaç yönetişim teklifi sonucunda her dönem için dYdX topluluğuna sunulacak $DYDX miktarının 3.020.548 $DYDX miktarında artırılmasına karar verilmiştir:
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - USDC staking için ödülleri 0 olarak belirleme (dönem başına 383.562 $DYDX),
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - trading ödüllerini %25 düşürme (dönem başına 958.904 $DYDX),
