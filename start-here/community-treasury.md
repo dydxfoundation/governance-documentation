@@ -4,7 +4,7 @@ description: Uma visão geral do tesouro da comunidade.
 
 # Tesouro da Comunidade
 
-**`24,2%`** (`241.735.862 $DYDX`) do suprimento de token é alocado ao tesouro da comunidade para que a comunidade dYdX use-o continuamente para subsídios de contribuinte, iniciativas da comunidade, mineração de liquidez e outros programas. Inicialmente, `5,0%``` do fornecimento de tokens de ([50.000.000 $DYDX](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations)) foram alocados ao tesouro da comunidade e 766.703 $DYDX foi investido no tesouro da comunidade a cada epoch. Atualmente, 3.787.251 $DYDX foi investido no tesouro da comunidade pois três propostas de governança resultaram em um aumento de 3.020.548 $DYDX na quantidade de $DYDX disponível para a comunidade dYdX a cada epoch:
+**`24,2%`** (`241.735.862 $DYDX`) do suprimento de token é alocado ao tesouro da comunidade para que a comunidade dYdX use-o continuamente para subsídios de contribuinte, iniciativas da comunidade, mineração de liquidez e outros programas. Inicialmente, `5,0%``` do fornecimento de tokens de ([50.000.000 $DYDX](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations)) foram alocados ao tesouro da comunidade e 766.703 $DYDX foi investido no tesouro da comunidade a cada epoch. Atualmente, 3.787.251 $DXXX foram investidos no tesouro da comunidade, pois muitas propostas de governança resultaram em um aumento de 3.020.548 $DXXX na quantidade de $DXXX disponível para a comunidade DXXX a cada poche:
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - Definição as recompensas de staking de USDC para 0 (383.562 $DYDX por epoch),
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - Redução de recompensas de trading em 25% (958.904 $DYDX por epoch),
@@ -42,11 +42,11 @@ Além disso, a dYdX Foundation publica o saldo investido do Tesouro da Comunidad
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - Definição as recompensas de staking de USDC para 0 (383.562 $DYDX por epoch),
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - Redução de recompensas de trading em 25% (958.904 $DYDX por epoch),
-* [DIP 17](https://dydx.community/dashboard/proposal/9) - Definição de recompensas de staking de $DYDX para 0 (383.562 $DYDX por época).
-* [DIP 20](https://dydx.community/dashboard/proposal/11) - Redução de recompensas de trading em 45% (1.294.520 $DYDX por época) e
-* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - Redução de recompensas de provedor de liquidez em 50% (575.342 $DYDX por época).
+* [DPI 17](https://dydx.community/dashboard/proposal/9) - Definição de recompensas de estatinga de $DXXX para 0 (383.562 $DXXX por poche).
+* [DPI 20](https://dydx.community/dashboard/proposal/11) - Redução de recompensas de tradinha em 45% (1.294.520 $DXXX por poche) e
+* [DPI 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - Redução de recompensas de provedor de liquidez em 50% (575.342 $DXXX por poche).
 
-A partir da Época 26, 3.595.890 $DYDX  serão acrescidos no Tesouro de Recompensas a cada época e poderão ser usados pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+A partir da Poche 26, 3.595.890 $DXXX serão acrescidos no Tesouro de Recompensas a cada epochee poderão ser usados pela comunidade[ dDXXXcom um vo](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)to de governança.
 
 ### Quem pode enviar propostas para gastar $DYDX do Tesouro da Comunidade?
 
