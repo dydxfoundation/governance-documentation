@@ -78,7 +78,7 @@ Su Zhu (zhusu) from Three Arrows Capital created an [off-chain Forum Discussion]
 
 _**Description:**_
 
-After the community achieves a rough consensus, a community member with 10K proposing power can create an off-chain vote for the DRC on [Snapshot](https://snapshot.org/#/). [Proposing power](https://docs.dydx.community/dydx-governance/voting-and-governance/voting) gives access to creating and sustaining a proposal. Snapshot is a simple voting interface that allows users to signal sentiment off-chain. Votes on snapshot are weighted by the number of DYDX held by or delegated to the address used to vote. The community member that creates the Snapshot poll must provide details about the DRC, a voting system, vote start date, vote end date, and snapshot block number. The voting period should be 5 days in length and voting should start after a 1 day voting delay. The voting delay provides time for dYdX community members to learn more about the DRC, purchase DYDX, or delegate the voting power of their DYDX. Community members who hold DYDX or who have been delegated voting power before the Snapshot block number are eligible to vote. More information about Snapshot polling is linked [here](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
+After the community achieves a rough consensus, a community member with 10K proposing power can create an off-chain vote for the DRC on [Snapshot](https://snapshot.org/#/). [Proposing power](https://docs.dydx.community/dydx-governance/voting-and-governance/voting) gives access to creating and sustaining a proposal. Snapshot is a simple voting interface that allows users to signal sentiment off-chain. Votes on snapshot are weighted by the number of DYDX held by or delegated to the address used to vote. The community member that creates the Snapshot poll must provide details about the DRC, a voting system, vote start date, vote end date, and snapshot block number. The voting period should be 5 days in length and voting should start after a 1 day voting delay ( _based on 13.2 second block times)_. The voting delay provides time for dYdX community members to learn more about the DRC, purchase DYDX, or delegate the voting power of their DYDX. Community members who hold DYDX or who have been delegated voting power before the Snapshot block number are eligible to vote. More information about Snapshot polling is linked [here](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle).
 
 _**Application to DIP 2:**_
 
@@ -120,7 +120,7 @@ DRC Snapshot Poll Content Requirements:
 
 * details of the DRC with a link to the forum discussion,
 * a voting system,
-* vote start date and vote end date set to 4 days in total length, and
+* vote start date and vote end date set to 4 days in total length (_based on 13.2 second block times)_, and
 * Snapshot poll is posted 1 day (\~6570 blocks) before voting starts.
 
 Requirement for Binding Snapshot Polls:
