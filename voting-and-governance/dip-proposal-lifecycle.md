@@ -49,7 +49,7 @@ For Snapshot polls related to sentiment signaling, the proposer will need to pro
 * details of the DRC,
 * a voting system,
 * a voting period - vote start date and vote end date set to a 4 day voting period, and
-* a voting delay - a Snapshot block number that is 6570 blocks (approximately 1 day) in the future. The Snapshot block number locks the state of community members who can vote. Token holders who hold tokens before the Snapshot block number are eligible to vote. Before the snapshot of each address’ respective voting power, the voting delay gives DYDX/stkDYDY holders time to acquire tokens, delegate voting power, and move tokens between wallets (moving tokens between wallets only applies to DYDX holders).
+* a voting delay - a Snapshot block number that is 6570 blocks (approximately 1 day based on 13.2 second block time) in the future. The Snapshot block number locks the state of community members who can vote. Token holders who hold tokens before the Snapshot block number are eligible to vote. Before the snapshot of each address’ respective voting power, the voting delay gives DYDX/stkDYDY holders time to acquire tokens, delegate voting power, and move tokens between wallets (moving tokens between wallets only applies to DYDX holders).
 
 For decisions that don’t require an on-chain smart contract call, notably changes to the Trading and Liquidity Provider rewards formulas, Snapshot votes are considered the binding and final vote. The proposer will need to include the requirements above and provide:
 
@@ -76,7 +76,7 @@ A DIP creation is subject to a minimum number of tokens held/delegated required 
 
 ## 5. (On-chain) DIP Voting
 
-After an On-Chain DIP is created, the proposal enters a `pending` state for a period defined by the **Voting Delay**, which is currently configured to `6570` blocks or approximately 1 day (assuming 13 seconds per block). In other words, user snapshots are recorded 1 day after the DIP is created, at which point the proposal transitions to an `active` state.
+After an On-Chain DIP is created, the proposal enters a `pending` state for a period defined by the **Voting Delay**, which is currently configured to `6570` blocks or approximately 1 day (assuming 13.2 seconds per block). In other words, user snapshots are recorded 1 day after the DIP is created, at which point the proposal transitions to an `active` state.
 
 After the Voting Delay, the Voting Period is activated. The voting period length depends on the proposal type.
 
@@ -89,9 +89,11 @@ After a DIP is created on-chain it is subject to a **Voting Delay**, **Voting Pe
 | Parameter         | Description                                                                                           | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor   |
 | ----------------- | ----------------------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | -------------------- |
 | Voting Delay      | Number of Ethereum blocks to wait before voting on a proposal may begin after a proposal is submitted | 6,570 blocks            | 6,570 blocks           | 6,570 blocks           | 6,570 blocks         |
-| Voting Period     | Length of time for which proposals are available to be voted upon                                     | 4 days                  | 2 days                 | 10 days                | 4 days               |
+| Voting Period\*   | Length of time for which proposals are available to be voted upon                                     | 4 days                  | 2 days                 | 10 days                | 4 days               |
 | Minimum Quorum    | Minimum yes votes for a DIP proposal to pass                                                          | 2% of total supply      | 1% of total supply     | 10% of total supply    | 2% of total supply   |
 | Vote Differential | Required yes-no gap for a DIP proposal to pass                                                        | 0.5% of total supply    | 0.5% of total supply   | 10% of total supply    | 0.5% of total supply |
+
+_\*Timing based on 13.2 second block times._
 
 Only the voting delay can be modified by governance, and it can only be changed to values in between (inclusive) the minimum and maximum delay. The voting period, minimum quorum, and vote differential can't be changed.
 
@@ -99,12 +101,14 @@ Only the voting delay can be modified by governance, and it can only be changed 
 
 After a DIP has passed, any address can call the queue method to move the proposal into the timelock queue. A DIP can only be queued if it has passed.
 
-| Parameter              | Description                                                                           | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
-| ---------------------- | ------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
-| Timelock Delay         | After a proposal passes and is queued, delay before the proposal is executed          | 2 days                  | 0 days                 | 7 days                 | 2-9 days           |
-| Execution Grace Period | The time after which a proposal becomes executable, during which it must be executed. | 7 days                  | 7 days                 | 7 days                 | 7 days             |
-| Minimum Timelock Delay | Minimum delay before a proposal is executed (after queuing)                           | 1 day                   | 0 days                 | 5 days                 | 4 days             |
-| Maximum Timelock Delay | Maximum delay before a proposal is executed (after queuing)                           | 7 days                  | 1 day                  | 21 days                | 21 days            |
+| Parameter                | Description                                                                           | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
+| ------------------------ | ------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
+| Timelock Delay\*         | After a proposal passes and is queued, delay before the proposal is executed          | 2 days                  | 0 days                 | 7 days                 | 2-9 days           |
+| Execution Grace Period\* | The time after which a proposal becomes executable, during which it must be executed. | 7 days                  | 7 days                 | 7 days                 | 7 days             |
+| Minimum Timelock Delay\* | Minimum delay before a proposal is executed (after queuing)                           | 1 day                   | 0 days                 | 5 days                 | 4 days             |
+| Maximum Timelock Delay\* | Maximum delay before a proposal is executed (after queuing)                           | 7 days                  | 1 day                  | 21 days                | 21 days            |
+
+_\*Timing based on 13.2 second block times._
 
 As soon as the voting period ends and a proposal has succeeded, anyone can call queue to begin the timelock delay.
 

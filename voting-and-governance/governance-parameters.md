@@ -83,37 +83,36 @@ dYdX Governance has control over the parameters of the following contracts:
 
 ## Liquidity Staking
 
-| Parameter             | Description                                                                       | Value                                                               |
-| --------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| Owner role            | Admin of all roles                                                                | Short Timelock                                                      |
-| Epoch parameters role | May set epoch parameters such as the interval, offset, and blackout window        | Short Timelock                                                      |
-| Rewards rate role     | May set the emission rate of rewards                                              | Short Timelock                                                      |
-| Borrower admin role   | May set borrower allocations and allow/restrict borrowers from borrowing          | Short Timelock                                                      |
-| Claim operator role   | May claim rewards on behalf of a user                                             | Claims proxy                                                        |
-| Stake operator role   | May manipulate user's staked funds (e.g. perform withdrawals) on behalf of a user | Short Timelock                                                      |
-| Debt operator role    | May decrease borrow debt and decrease staker debt                                 | Short Timelock                                                      |
-| Interval              | Length of an epoch                                                                | 28 days                                                             |
-| Offset                | Start of epoch zero                                                               | August 3rd 15:00 UTC 2021                                           |
-| Blackout window       | Length of the blackout window                                                     | 14 days                                                             |
-| Rewards emission rate | Tokens allocated to stakers as rewards per second                                 | 0.1585489619 \* 10^18 (in wei)                                      |
-| Borrower allocations  | Percent of funds allocated to each borrower                                       | Wintermute 25%, Amber 25%, Sixtant 20%, Kronos 20%, DAT Trading 10% |
-| Proxy Admin           | Can upgrade the contract                                                          | Short Timelock                                                      |
+| Parameter             | Description                                                                       | Value                     |
+| --------------------- | --------------------------------------------------------------------------------- | ------------------------- |
+| Owner role            | Admin of all roles                                                                | Short Timelock            |
+| Epoch parameters role | May set epoch parameters such as the interval, offset, and blackout window        | Short Timelock            |
+| Rewards rate role     | May set the emission rate of rewards                                              | Short Timelock            |
+| Borrower admin role   | May set borrower allocations and allow/restrict borrowers from borrowing          | Short Timelock            |
+| Claim operator role   | May claim rewards on behalf of a user                                             | Claims proxy              |
+| Stake operator role   | May manipulate user's staked funds (e.g. perform withdrawals) on behalf of a user | Short Timelock            |
+| Debt operator role    | May decrease borrow debt and decrease staker debt                                 | Short Timelock            |
+| Interval              | Length of an epoch                                                                | 28 days                   |
+| Offset                | Start of epoch zero                                                               | August 3rd 15:00 UTC 2021 |
+| Blackout window       | Length of the blackout window                                                     | 3 days                    |
+| Rewards emission rate | Tokens allocated to stakers as rewards per second                                 | 0                         |
+| Proxy Admin           | Can upgrade the contract                                                          | Short Timelock            |
 
 ## Safety Module
 
-| Parameter             | Description                                                                       | Value                          |
-| --------------------- | --------------------------------------------------------------------------------- | ------------------------------ |
-| Owner role            | Admin of all roles                                                                | Short Timelock                 |
-| Slasher role          | Can slash staked token balances and withdraw those funds                          | Short Timelock                 |
-| Epoch parameters role | May set epoch parameters such as the interval, offset, and blackout window        | Short Timelock                 |
-| Rewards rate role     | May set the emission rate of rewards                                              | Short Timelock                 |
-| Claim operator role   | May claim rewards on behalf of a user                                             | Claims proxy                   |
-| Stake operator role   | May manipulate user's staked funds (e.g. perform withdrawals) on behalf of a user | Short Timelock                 |
-| Interval              | Length of an epoch                                                                | 28 days                        |
-| Offset                | Start of epoch zero                                                               | August 3rd 15:00 UTC 2021      |
-| Blackout window       | Length of the blackout window                                                     | 14 days                        |
-| Rewards emission rate | Tokens allocated to stakers as rewards per second                                 | 0.1585489619 \* 10^18 (in wei) |
-| Proxy Admin           | Can upgrade the contract                                                          | Long Timelock                  |
+| Parameter             | Description                                                                       | Value                     |
+| --------------------- | --------------------------------------------------------------------------------- | ------------------------- |
+| Owner role            | Admin of all roles                                                                | Short Timelock            |
+| Slasher role          | Can slash staked token balances and withdraw those funds                          | Short Timelock            |
+| Epoch parameters role | May set epoch parameters such as the interval, offset, and blackout window        | Short Timelock            |
+| Rewards rate role     | May set the emission rate of rewards                                              | Short Timelock            |
+| Claim operator role   | May claim rewards on behalf of a user                                             | Claims proxy              |
+| Stake operator role   | May manipulate user's staked funds (e.g. perform withdrawals) on behalf of a user | Short Timelock            |
+| Interval              | Length of an epoch                                                                | 28 days                   |
+| Offset                | Start of epoch zero                                                               | August 3rd 15:00 UTC 2021 |
+| Blackout window       | Length of the blackout window                                                     | 3 days                    |
+| Rewards emission rate | Tokens allocated to stakers as rewards per second                                 | 0                         |
+| Proxy Admin           | Can upgrade the contract                                                          | Long Timelock             |
 
 ## Stark Proxy
 
