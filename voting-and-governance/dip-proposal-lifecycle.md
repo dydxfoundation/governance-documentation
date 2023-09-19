@@ -49,7 +49,7 @@ Duyarlılık gösterilmesine ilişkin Snapshot anketleri için, teklifi verenin 
 * DRC hakkındaki ayrıntılı bilgiler,
 * bir oylama sistemi,
 * bir oylama dönemi - oylama başlangıç tarihi ve oylama bitiş tarihi 4 günlük bir oylama dönemine ayarlanır ve
-* bir oylama bekleme süresi; 6.570 blok (yaklaşık 1 gün) ileride olan bir Snapshot blok numarası. Snapshot blok numarası, oy kullanabilen topluluk üyelerinin durumunu kilitler. Snapshot blok numarası öncesinde token tutan token sahipleri oy verme hakkına sahiptir. Her bir adresin ilgili oylama yetkisinin anlık görüntüsünü almadan önce, oylama için bekleme süresi DYDX/stkDYDY sahiplerine token edinmek, oylama yetkisini delege etmek ve token'ları cüzdanlar arasında taşımak (token'ların cüzdanlar arasındaki taşınması yalnızca DYDX sahipleri için geçerlidir) için zaman verir.
+* oylama gecikmesi - gelecekte 6570 blok (13.2 saniye blok süresine göre yaklaşık 1 gün) olan bir Snapshot blok numarası. Snapshot blok numarası, oy kullanabilen topluluk üyelerinin durumunu kilitler. Snapshot blok numarası öncesinde token tutan token sahipleri oy verme hakkına sahiptir. Her bir adresin ilgili oylama yetkisinin anlık görüntüsünü almadan önce, oylama için bekleme süresi DYDX/stkDYDY sahiplerine token edinmek, oylama yetkisini delege etmek ve token'ları cüzdanlar arasında taşımak (token'ların cüzdanlar arasındaki taşınması yalnızca DYDX sahipleri için geçerlidir) için zaman verir.
 
 Zincir içi bir akıllı sözleşmenin çağrılmasını gerektirmeyen kararlar, özellikle de Alım Satım ve Likidite Sağlayıcı ödüllerinin formüllerinde yapılacak değişiklikler için Snapshot oylamaları bağlayıcı ve kesin oylama olarak kabul edilir. Teklif verenin yukarıdaki gereksinimleri karşılaması ve şunları sağlaması gerekir:
 
@@ -76,7 +76,7 @@ Bir DIP'nin oluşturulabilmesi için, bir hesap için gerekli olan minimum sayı
 
 ## 5. (Zincir içi) DIP Oylaması
 
-Bir Zincir içi DIP oluşturulduktan sonra, teklif şu anda `6570` blok veya yaklaşık 1 gün (blok başına yaklaşık 13 saniye gerektiğini varsayarak) olarak yapılandırılan **Oylama Bekleme Süresi** ile tanımlanan bir `bekleme` durumuna geçer. Diğer bir deyişle, kullanıcı anlık görüntüleri DIP oluşturulduktan 1 gün sonra kaydedilir ve bu noktada teklif `aktif` duruma geçer.
+Bir Zincir içi DIP oluşturulduktan sonra, teklif şu anda `6``570` blok veya yaklaşık 1 gün (blok başına yaklaşık 13.2 saniye gerektiğini varsayarak) olarak yapılandırılan **Oylama Bekleme** Süresi ile tanımlanan bir bekleme durumuna geçer. Diğer bir deyişle, kullanıcı anlık görüntüleri DIP oluşturulduktan 1 gün sonra kaydedilir ve bu noktada teklif `aktif` duruma geçer.
 
 Oylama Bekleme Süresi dolduktan sonra Oylama Süresi etkinleştirilir. Oylama süresinin uzunluğu teklifin türüne bağlıdır.
 
@@ -89,9 +89,11 @@ Zincir içi bir DIP oluşturulduktan sonra, bir **Oylama Bekleme Süresi**, **Oy
 | Parametre | Açıklama | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
 | ----------------- | ----------------------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | -------------------- |
 | Oylama Bekleme Süresi | Bir teklifi oylamadan önce beklenmesi gereken Ethereum blok sayısı, teklif sunulduktan sonra başlayabilir | 6.570 blok | 6.570 blok | 6.570 blok | 6.570 blok |
-| Oylama Süresi | Tekliflerin oylanmaya açık olduğu süre | 4 gün | 2 gün | 10 gün | 4 gün |
+| Oylama Süresi\* | Tekliflerin oylanmaya açık olduğu süre | 4 gün | 2 gün | 10 gün | 4 gün |
 | Karar Yeter Sayısı | Bir DIP teklifinin geçmesi için gereken minimum evet oyu | Toplam arzın %2'si | Toplam arzın %1'i | Toplam arzın %10'u | Toplam arzın %2'si |
 | Oy Farkı | Bir DIP teklifinin geçmesi için gereken evet-hayır oyları arasındaki fark | Toplam arzın %0,5'i | Toplam arzın %0,5'i | Toplam arzın %10'u | Toplam arzın %0,5'i |
+
+_\*13.2 saniye blok süresine göre zamanlama._
 
 Yalnızca oylama bekleme süresi yönetişim tarafından değiştirilebilir ve yalnızca minimum ve maksimum bekleme süreleri (dâhil olarak) arasındaki değerlere değiştirilebilir. Oylama süresi, karar yeter sayısı ve oy farkı değiştirilemez.
 
@@ -100,11 +102,13 @@ Yalnızca oylama bekleme süresi yönetişim tarafından değiştirilebilir ve y
 Bir DIP geçtikten sonra, herhangi bir adres teklifi timelock kuyruğuna taşımak için kuyruk metodunu çağırabilir. Bir DIP sadece geçmişse kuyruğa koyulabilir.
 
 | Parametre | Açıklama | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
-| ---------------------- | ------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
-| Timelock Bekleme Süresi | Bir teklif geçtikten ve kuyruğa koyulduktan sonra, teklif uygulamaya koyulmadan önce beklenen süre | 2 gün | 0 gün | 7 gün | 2-9 gün |
-| Uygulamaya Koyma Mühleti | Bir teklifin, uygulamaya konulabilir hale geldikten sonra uygulamaya konması gereken süre. | 7 gün | 7 gün | 7 gün | 7 gün |
-| Minimum Timelock Bekleme Süresi | Bir teklif uygulamaya koyulmadan önce beklenen minimum süre (kuyruğa koyulduktan sonra) | 1 gün | 0 gün | 5 gün | 4 gün |
-| Maksimum Timelock Bekleme Süresi | Bir teklif uygulamaya koyulmadan önce beklenen maksimum süre (kuyruğa koyulduktan sonra) | 7 gün | 1 gün | 21 gün | 21 gün |
+| ------------------------ | ------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
+| Timelock Gecikmesi\* | Bir teklif geçtikten ve kuyruğa koyulduktan sonra, teklif uygulamaya koyulmadan önce beklenen süre | 2 gün | 0 gün | 7 gün | 2-9 gün |
+| Uygulamaya Koyma Mühleti\* | Bir teklifin, uygulamaya konulabilir hale geldikten sonra uygulamaya konması gereken süre. | 7 gün | 7 gün | 7 gün | 7 gün |
+| Minimum Timelock Gecikmesi\* | Bir teklif uygulamaya koyulmadan önce beklenen minimum süre (kuyruğa koyulduktan sonra) | 1 gün | 0 gün | 5 gün | 4 gün |
+| Maksimum Timelock Gecikmesi\* | Bir teklif uygulamaya koyulmadan önce beklenen maksimum süre (kuyruğa koyulduktan sonra) | 7 gün | 1 gün | 21 gün | 21 gün |
+
+_\*13.2 saniye blok süresine göre zamanlama._
 
 Oylama süresi bitip bir teklif başarılı olur olmaz timelock bekleme süresini başlatmak için herkes kuyruk metodunu çağırabilir.
 
