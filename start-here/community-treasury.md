@@ -4,7 +4,7 @@ description: Topluluk hazinesine genel bir bakış.
 
 # Topluluk Hazinesi
 
-Token arzının **`%24.2'si`** (`241.735.862 $DYDX`) topluluk hazinesine, dYdX topluluğuna katkıda bulunanlara yönelik hibeler, topluluk girişimleri, likidite madenciliği ve diğer programlarda kullanılmak üzere topluluk hazinesine tahsis edilir. Başlangıçta, token arzının `%5,0'i``` ([50.000.000 $DYDX](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations)) topluluk hazinesine tahsis edilmiştir ve her dönemde topluluk hazinesine 766.703 $DYDX verilmiştir. Şu anda, topluluk hazinesine 3.787.251 $DYDX ayrılmıştır; çünkü yapılan üç yönetişim teklifi sonucunda her dönem için dYdX topluluğuna sunulacak $DYDX miktarının 3.020.548 $DYDX miktarında artırılmasına karar verilmiştir:
+Token arzının **`%24.2'si`** (`241.735.862 $DYDX`) topluluk hazinesine, dYdX topluluğuna katkıda bulunanlara yönelik hibeler, topluluk girişimleri, likidite madenciliği ve diğer programlarda kullanılmak üzere topluluk hazinesine tahsis edilir. Başlangıçta, token arzının `%5,0'i``` ([50.000.000 $DYDX](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations)) topluluk hazinesine tahsis edilmiştir ve her dönemde topluluk hazinesine 766.703 $DYDX verilmiştir. Şu anda, topluluk hazinesine 3.787.251 $DYDX ayrılmıştır; çünkü yapılan birkaç yönetişim teklifi sonucunda her dönem için dYdX topluluğuna sunulacak $DYDX miktarının 3.020.548 $DYDX miktarında artırılmasına karar verilmiştir:
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - USDC staking için ödülleri 0 olarak belirleme (dönem başına 383.562 $DYDX),
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - trading ödüllerini %25 düşürme (dönem başına 958.904 $DYDX),
@@ -32,13 +32,15 @@ Beş yıl dolduktan sonra yönetişimin sürekli enflasyon (yıllık maksimum `%
 
 Her saniye, Topluluk Hazinesi Devredicisi (ayrıntılara [buradan](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview) göz atın) Topluluk Hazinesi'ne [`0,3169242627`](tel:03169242627) $DYDX devreder. $DYDX devredildikten sonra, Topluluk Hazinesi Devredicisi'nde `claim` (talep etme) fonksiyonunun çağırılması, devredilen $DYDX'in transferini gerçekleştirir. Herhangi bir dYdX topluluk üyesi [buradan](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract) Etherscan üzerinde `claim` işlevini çağırarak (bir miktar gaz ücreti gerektirecektir) devredilen $DYDX'i Topluluk Hazinesi Devredicisi'nden Topluluk Hazinesine taşıyabilir.
 
+Lütfen dYdX topluluğu tarafından topluluk hazinesinin kontrolü hakkında daha fazla bilgi edinmek için dYdX Kuruluşunun [Kullanım Şartlarına](https://dydx.foundation/terms) göz atın.
+
 <figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
 
 ### Topluluk Hazinesinin kazanılmış bakiyesi nedir?
 
 dYdX topluluk üyeleri topluluk hazinesinin devredilen bakiyesini [buradan](https://dydx.shippooor.xyz/) görüntüleyebilirler. \
 \
-Dahası, dYdX Vakfı her dönemin sonunda [Dönem Raporu ile](https://dydx.foundation/blog) Topluluk Hazinesinin devredilmiş bakiyesini yayınlamaktadır. Topluluk Hazinesi'ne devredilen $DYDX'e ek olarak, dYdX topluluğu, şu oylamalar sonucunda Ödül Hazinesi'ne tahakkuk ettirilen $DYDX'e de erişebilir:
+Dahası, dYdX Vakfı her dönemin sonunda [Dönem Raporu](https://dydx.foundation/blog) ile Topluluk Hazinesinin devredilmiş bakiyesini yalnızca bilgi amaçlı yayınlamaktadır. Topluluk Hazinesi'ne devredilen $DYDX'e ek olarak, dYdX topluluğu, şu oylamalar sonucunda Ödül Hazinesi'ne tahakkuk ettirilen $DYDX'e de erişebilir:
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - USDC staking için ödülleri 0 olarak belirleme (dönem başına 383.562 $DYDX),
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - trading ödüllerini %25 düşürme (dönem başına 958.904 $DYDX),
