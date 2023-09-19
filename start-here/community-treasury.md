@@ -32,13 +32,15 @@ description: 커뮤니티 트레저리에 대한 개요
 
 1초마다 커뮤니티 트레저리 베스터(자세한 내용은 [여기](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)를 참조)에서 [`0.3169242627`](tel:03169242627) $DYDX를 커뮤니티 트레저리에 귀속합니다. $DYDX가 귀속된 후 커뮤너티 트레저리에서 `클레임` 기능을 호출하면 귀속된 $DYDX를 커뮤너티 트레저리로 이전합니다. A모든 dYdX 커뮤니티 회원이 Etherscan의 [여기](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract)에서 `클레임` 기능을 호출하여(가스 수수료를 위해 일부 ETH 필요) 커뮤니티 트레저리 베스터로부터 커뮤니티 트레저리로 귀속된 $DYDX를 이동시킬 수 있습니다.
 
+dYdX 커뮤니티의 커뮤니티 재무 관리에 대한 자세한 내용은 dYdX 재단의 [이용 약관](https://dydx.foundation/terms)을 참조하십시오.
+
 <figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
 
 ### 커뮤니티 트레저리의 귀속 잔액은 무엇입니까?
 
 dYdX 커뮤니티 회원은 [여기](https://dydx.shippooor.xyz/)에서 커뮤니티 트레저리의 귀속 잔액을 볼 수 있습니다. \
 \
-또한, dYdX Foundation은 각 에폭 말에 [에폭 검토](https://dydx.foundation/blog)를 통해 커뮤니티 트레저리의 귀속 잔액을 공표합니다. 커뮤니티 재무부의 기득권 $DYDX에 더하여, dYdX 커뮤니티는 다음 투표의 결과로 보상 재무부에 발생한 $DYDX에 액세스할 수 있습니다.
+또한, dYdX Foundation은 각 에폭 말에 [에폭 검토](https://dydx.foundation/blog)를 통해 커뮤니티 트레저리의 귀속 잔액에 대한 정보만을 공표합니다. 커뮤니티 재무부의 기득권 $DYDX에 더하여, dYdX 커뮤니티는 다음 투표의 결과로 보상 재무부에 발생한 $DYDX에 액세스할 수 있습니다.
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - USDC 스테이킹 보상을 0으로 설정(에폭당 383,562 $DYDX),
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - 거래 보상을 25% 감소(에폭당 958,904 $DYDX), 그리고
