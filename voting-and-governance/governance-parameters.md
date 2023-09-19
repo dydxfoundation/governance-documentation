@@ -84,7 +84,7 @@ dYdX Yönetişimi şu sözleşmelerin parametreleri üzerinde kontrol sahibidir:
 ## Likidite Staking
 
 | Parametre | Açıklama | Değer |
-| --------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| --------------------- | --------------------------------------------------------------------------------- | ------------------------- |
 | Sahip rolü | Tüm rollerin yöneticisi | Short Timelock |
 | Dönem parametreleri rolü | Aralık, başlangıç noktası ve karartma süresi gibi dönem parametrelerini belirleyebilir | Short Timelock |
 | Ödül oranı rolü | Ödüllerin verilme oranını belirleyebilir | Short Timelock |
@@ -94,15 +94,14 @@ dYdX Yönetişimi şu sözleşmelerin parametreleri üzerinde kontrol sahibidir:
 | Debt operator rolü | Borç alanların borcunu azaltabilir ve stake edenlerin borcunu azaltabilir | Short Timelock |
 | Aralık | Bir dönemin uzunluğu | 28 gün |
 | Başlangıç noktası | Dönem sıfırın başlangıcı | 3 Ağustos 2021 18.00 (TSİ) |
-| Karartma süresi | Karartma süresinin uzunluğu | 14 gün |
-| Ödül verme oranı | Stake edenlere saniye başına ödül olarak tahsis edilen token'lar | 0,1585489619 \* 10^18 (wei cinsinden) |
-| Borç alan tahsisleri | Her bir borç alana tahsis edilen fonların yüzdesi | Wintermute %25, Amber %25, Sixtant %20, Kronos %20, DAT Trading %10 |
+| Karartma süresi | Karartma süresinin uzunluğu | 3 gün |
+| Ödül verme oranı | Stake edenlere saniye başına ödül olarak tahsis edilen token'lar | 0 |
 | Proxy Yöneticisi | Sözleşmenin sürümünü yükseltebilir | Short Timelock |
 
 ## Safety Module
 
 | Parametre | Açıklama | Değer |
-| --------------------- | --------------------------------------------------------------------------------- | ------------------------------ |
+| --------------------- | --------------------------------------------------------------------------------- | ------------------------- |
 | Sahip rolü | Tüm rollerin yöneticisi | Short Timelock |
 | Slasher rolü | Stake edilen token bakiyelerini slash edebilir ve bu fonları çekebilir | Short Timelock |
 | Dönem parametreleri rolü | Aralık, başlangıç noktası ve karartma süresi gibi dönem parametrelerini belirleyebilir | Short Timelock |
@@ -111,8 +110,8 @@ dYdX Yönetişimi şu sözleşmelerin parametreleri üzerinde kontrol sahibidir:
 | Stake operator rolü | Kullanıcının stake edilen fonlarını bir kullanıcı adına idare edebilir (örneğin fon çekme işlemi gerçekleştirebilir) | Short Timelock |
 | Aralık | Bir dönemin uzunluğu | 28 gün |
 | Başlangıç noktası | Dönem sıfırın başlangıcı | 3 Ağustos 2021 18.00 (TSİ) |
-| Karartma süresi | Karartma süresinin uzunluğu | 14 gün |
-| Ödül verme oranı | Stake edenlere saniye başına ödül olarak tahsis edilen token'lar | 0,1585489619 \* 10^18 (wei cinsinden) |
+| Karartma süresi | Karartma süresinin uzunluğu | 3 gün |
+| Ödül verme oranı | Stake edenlere saniye başına ödül olarak tahsis edilen token'lar | 0 |
 | Proxy Yöneticisi | Sözleşmenin sürümünü yükseltebilir | Long Timelock |
 
 ## Stark Proxy
