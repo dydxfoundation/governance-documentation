@@ -32,6 +32,8 @@ description: Обзор казны сообщества.
 
 Каждую секунду средство вестинга казны сообщества (подробнее см. [здесь](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)) осуществляет вестинг [`0,3169242627`](tel:03169242627) $DYDX в казну сообщества. После вестинга $DYDX вызов функции `claim` в средстве вестинга казны сообщества приведет к переводу средств вестинга в $DYDX в казну сообщества. Любой участник сообщества dYdX может вызвать функцию `claim` на Etherscan [здесь](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract) (для чего потребуется оплатить небольшую комиссию за газ в ETH), чтобы перевести средства вестинга в $DYDX из средства вестинга казны сообщества в казну сообщества.
 
+Дополнительную информацию о контроле над казначейством сообщества сообществом dYdX можно получить в [Условиях использования](https://dydx.foundation/terms) dYdX Foundation.
+
 <figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
 
 ### Каков остаток средств вестинга в казне сообщества?
