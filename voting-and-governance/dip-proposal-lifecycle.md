@@ -49,7 +49,7 @@ Für Snapshot-Umfragen im Zusammenhang mit Stimmungssignalen muss der Vorschlage
 * Details der DRC,
 * ein Abstimmungssystem,
 * eine Abstimmungsperiode – Start- und Enddatum der Abstimmung, sind auf eine Abstimmungsperiode von 4 Tagen ausgelegt, und
-* eine Abstimmungsverzögerung - eine Snapshot-Blocknummer, die 6570 Blöcke (ungefähr 1 Tag) in der Zukunft liegt. Die Snapshot-Blocknummer sperrt den Status der Gemeinschafts-Mitglieder, die abstimmen können. Token-Inhaber, die Token vor der Snapshot-Blocknummer halten, sind stimmberechtigt. Vor dem Snapshot der jeweiligen Stimmrechte jeder Adresse gibt die Stimmverzögerung den DYDX/stkDYDY-Inhabern Zeit, Token zu erwerben, Stimmrechte zu delegieren und Token zwischen Wallets zu verschieben (das Verschieben von Token zwischen Wallets gilt nur für DYDX-Inhaber).
+* eine Abstimmungsverzögerung – eine Snapshot-Blocknummer, die in der Zukunft 6570 Blöcke (ungefähr 1 Tag basierend auf 13,2 Sekunden Blockzeit) beträgt. Die Snapshot-Blocknummer sperrt den Status der Gemeinschafts-Mitglieder, die abstimmen können. Token-Inhaber, die Token vor der Snapshot-Blocknummer halten, sind stimmberechtigt. Vor dem Snapshot der jeweiligen Stimmrechte jeder Adresse gibt die Stimmverzögerung den DYDX/stkDYDY-Inhabern Zeit, Token zu erwerben, Stimmrechte zu delegieren und Token zwischen Wallets zu verschieben (das Verschieben von Token zwischen Wallets gilt nur für DYDX-Inhaber).
 
 Für Entscheidungen, die keinen on-chain Smart Contract-Anruf erfordern, gelten Snapshot-Abstimmungen vor allem für Änderungen der Trading und Liquidity Provider Prämien-Formeln als verbindliche und endgültige Abstimmung. Der Vorschlagende muss die oben genannten Anforderungen erfüllen und Folgendes bereitstellen:
 
@@ -76,7 +76,7 @@ Eine DIP-Erstellung unterliegt einer Mindestanzahl von Token, die für ein Konto
 
 ## 5. (On-chain) DIP-Abstimmung
 
-Nachdem ein On-Chain-DIP erstellt wurde, wechselt das Angebot für einen Zeitraum, der durch die **Abstimmungsverzögerung** definiert ist, in einen `schwebenden` Zustand, der derzeit auf `6570` Blöcke oder ungefähr 1 Tag (unter der Annahme von 13 Sekunden pro Block) konfiguriert ist. Mit anderen Worten, Benutzer-Snapshots werden 1 Tag nach Erstellung des DIP aufgezeichnet, an welchem Punkt das Angebot in einen `aktiven` Zustand übergeht.
+Nachdem ein On-Chain-DIP erstellt wurde, wechselt das Angebot für einen Zeitraum, der durch die **Abstimmungsverzögerung** definiert ist, in einen `schwebenden` Zustand, der derzeit auf `6570` Blöcke oder ungefähr 1 Tag (unter der Annahme von 13,2 Sekunden pro Block) konfiguriert ist. Mit anderen Worten, Benutzer-Snapshots werden 1 Tag nach Erstellung des DIP aufgezeichnet, an welchem Punkt das Angebot in einen `aktiven` Zustand übergeht.
 
 Nach der Abstimmungsverzögerung wird die Abstimmungsperiode aktiviert. Die Länge des Abstimmungszeitraums hängt von der Art des Vorschlags ab.
 
@@ -89,9 +89,11 @@ Nachdem ein DIP in der Kette erstellt wurde, unterliegt er einer **Abstimmungsve
 | Parameter | Beschreibung | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
 | ----------------- | ----------------------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | -------------------- |
 | Abstimmungsverzögerung | Anzahl der zu wartenden Ethereum-Blöcke, bevor die Abstimmung über einen Vorschlag beginnen kann, nachdem ein Vorschlag eingereicht wurde | 6.570 Blöcke | 6.570 Blöcke | 6.570 Blöcke | 6.570 Blöcke |
-| Abstimmungszeitraum | Zeitraum, für den Vorschläge zur Abstimmung zur Verfügung stehen | 4 Tage | 2 Tage | 10 Tage | 4 Tage |
+| Abstimmungszeitraum\* | Zeitraum, für den Vorschläge zur Abstimmung zur Verfügung stehen | 4 Tage | 2 Tage | 10 Tage | 4 Tage |
 | Mindestquorum | Minimale Ja-Stimmen für die Annahme eines DIP-Vorschlags | 2 % der Gesamtversorgung | 1 % der Gesamtversorgung | 10 % der Gesamtversorgung | 2 % der Gesamtversorgung |
 | Stimmendifferenz | Erforderliche Ja-Nein-Lücke, damit ein DIP-Vorschlag angenommen wird | 0,5 % der Gesamtversorgung | 0,5 % der Gesamtversorgung | 10 % der Gesamtversorgung | 0,5 % der Gesamtversorgung |
+
+_\*Timing basierend auf 13,2 Sekunden Blockzeit._
 
 Nur die Abstimmungsverzögerung kann durch Governance geändert werden, und sie kann nur auf Werte zwischen (einschließlich) der minimalen und maximalen Verzögerung geändert werden. Der Abstimmungszeitraum, das Mindestquorum und die Stimmendifferenz können nicht geändert werden.
 
@@ -100,11 +102,13 @@ Nur die Abstimmungsverzögerung kann durch Governance geändert werden, und sie 
 Nachdem ein DIP bestanden wurde, kann jede Adresse die Warteschlangen-Methode aufrufen, um den Vorschlag in die Timelock-Warteschlange zu verschieben. Ein DIP kann nur in die Warteschlange gestellt werden, wenn es bestanden wurde.
 
 | Parameter | Beschreibung | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
-| ---------------------- | ------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
-| Timelock-Verzögerung | Nachdem ein Vorschlag bestanden und in die Warteschlange gestellt wurde, wird die Ausführung des Vorschlags verzögert | 2 Tage | 0 Tage | 7 Tage | 2-9 Tage |
-| Ausführungsschonfrist | Die Zeit, nach der ein Vorschlag ausführbar wird, während der er ausgeführt werden muss. | 7 Tage | 7 Tage | 7 Tage | 7 Tage |
-| Mindest-Timelock-Verzögerung | Minimale Verzögerung, bevor ein Vorschlag ausgeführt wird (nach der Warteschlange) | 1 Tag | 0 Tage | 5 Tage | 4 Tage |
-| Maximale Timelock-Verzögerung | Maximale Verzögerung vor der Ausführung eines Vorschlags (nach der Warteschlange) | 7 Tage | 1 Tag | 21 Tage | 21 Tage |
+| ------------------------ | ------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
+| Timelock-Verzögerung\* | Nachdem ein Vorschlag bestanden und in die Warteschlange gestellt wurde, wird die Ausführung des Vorschlags verzögert | 2 Tage | 0 Tage | 7 Tage | 2-9 Tage |
+| Ausführungsschonfrist\* | Die Zeit, nach der ein Vorschlag ausführbar wird, während der er ausgeführt werden muss. | 7 Tage | 7 Tage | 7 Tage | 7 Tage |
+| Mindest-Timelock-Verzögerung\* | Minimale Verzögerung, bevor ein Vorschlag ausgeführt wird (nach der Warteschlange) | 1 Tag | 0 Tage | 5 Tage | 4 Tage |
+| Maximale Timelock-Verzögerung\* | Maximale Verzögerung vor der Ausführung eines Vorschlags (nach der Warteschlange) | 7 Tage | 1 Tag | 21 Tage | 21 Tage |
+
+_\*Timing basierend auf 13,2 Sekunden Blockzeit._
 
 Sobald der Abstimmungszeitraum endet und ein Vorschlag erfolgreich war, kann jeder die Warteschlange anrufen, um die Zeitsperrverzögerung zu beginnen.
 
