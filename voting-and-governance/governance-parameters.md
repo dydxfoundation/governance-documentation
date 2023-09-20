@@ -84,7 +84,7 @@ dYdX Governance hat Kontrolle über die Parameter der folgenden Verträge:
 ## Liquidity Staking
 
 | Parameter | Beschreibung | Wert |
-| --------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| --------------------- | --------------------------------------------------------------------------------- | ------------------------- |
 | Rolle der Eigentümer | Admin aller Roller | Short Timelock |
 | Rolle des Epochen-Parameter | Kann Epochen-Parameter wie beispielsweise das Intervall, Offset und Blackout Window einstellen | Short Timelock |
 | Rolle des Prämien-Bemessers | Kann die Rate der Prämien bemessen | Short Timelock |
@@ -94,15 +94,14 @@ dYdX Governance hat Kontrolle über die Parameter der folgenden Verträge:
 | Rolle des Darlehen-Operators | Kann Kreditschulden senken und Staker-Schulden absenken | Short Timelock |
 | Intervall | Länge einer Epoche | 28 Tage |
 | Offset | Start der Epoche Null | 3. August 15:00 UTC 2021 |
-| Blackout Window | Länge des Blackout Windows | 14 Tage |
-| Ausstellungsrate der Prämien | Token, die den Stakern sekündlich als Prämien zugewiesen werden | 0.1585489619 \* 10^18 (in wei) |
-| Zuweisungen an Kreditnehmer | Prozentsatz der Geldmittel, die einem jeden Kreditnehmer zugewiesen werden | Wintermute 25 %, Amber 25 %, Sixtant 20 %, Kronos 20 %, DAT Trading 10 % |
+| Blackout Window | Länge des Blackout Windows | 3 Tage |
+| Ausstellungsrate der Prämien | Token, die den Stakern sekündlich als Prämien zugewiesen werden | 0 |
 | Proxy-Admin | Kann den Vertrag aktualisieren | Short Timelock |
 
 ## Sicherheitsmodul
 
 | Parameter | Beschreibung | Wert |
-| --------------------- | --------------------------------------------------------------------------------- | ------------------------------ |
+| --------------------- | --------------------------------------------------------------------------------- | ------------------------- |
 | Rolle der Eigentümer | Admin aller Roller | Short Timelock |
 | Rolle des Slashers | Kann gestakte Tokenbilanzen beschlagnahmen und diese Guthaben abheben | Short Timelock |
 | Rolle des Epochen-Parameter | Kann Epochen-Parameter wie beispielsweise das Intervall, Offset und Blackout Window einstellen | Short Timelock |
@@ -111,8 +110,8 @@ dYdX Governance hat Kontrolle über die Parameter der folgenden Verträge:
 | Rolle des Stake Operators | Kann in gestakte Benutzerguthaben (z.B. Auszahlungen durchführen) im Namen eines Benutzers eingreifen | Short Timelock |
 | Intervall | Länge einer Epoche | 28 Tage |
 | Offset | Start der Epoche Null | 3. August 15:00 UTC 2021 |
-| Blackout Window | Länge des Blackout Windows | 14 Tage |
-| Ausstellungsrate der Prämien | Token, die den Stakern sekündlich als Prämien zugewiesen werden | 0.1585489619 \* 10^18 (in wei) |
+| Blackout Window | Länge des Blackout Windows | 3 Tage |
+| Ausstellungsrate der Prämien | Token, die den Stakern sekündlich als Prämien zugewiesen werden | 0 |
 | Proxy-Admin | Kann den Vertrag aktualisieren | Long Timelock |
 
 ## Stark Proxy
