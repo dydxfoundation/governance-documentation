@@ -32,13 +32,15 @@ description: 社区资金库概述。
 
 每秒钟，社区资金库归属者（在此处[查](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)看详细信息）都会将 [`0.3169242627`](tel:03169242627) 个 $DYDX 归属于社区资金库。 归属了 $DYDX 之后，在社区资金库归属器调用`申领`函数，则将归属的 $DYDX 转移至社区资金库。dYdX 社区的成员均可在此处调用 Etherscan `上的申领`函数（需要一些以太币来支付 gas 费），以便将已归属的 $DYDX 从社区资金库归属者[转移](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract)至社区资金库。
 
+有关 dYdX 社区对于社区资金库控制的更多详细信息，请参阅 dYdX 基金会的[使用条款](https://dydx.foundation/terms)。
+
 <figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
 
 ### 社区资金库的归属结余是多少？
 
 dYdX 社区成员可以在[此处](https://dydx.shippooor.xyz/)查看社区资金库的归属结余。 \
 \
-此外，在每个时段结束时，dYdX 基金会都会在[时段回顾](https://dydx.foundation/blog)中公布社区资金库的归属结余。除了分配在社区资金库中的 $DYDX 之外，dYdX 社区还可以通过下列投票获得奖励资金库中积累的 $DYDX：
+此外，在每个时段结束时，dYdX 基金会都会在[时段回顾](https://dydx.foundation/blog)中公布社区资金库的归属结余，仅供参考。除了分配在社区资金库中的 $DYDX 之外，dYdX 社区还可以通过下列投票获得奖励资金库中积累的 $DYDX：
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - 质押 USDC 的奖励设为 0（每个时段 383,562 $DYDX）。
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - 交易奖励削减 25%（每个时段 958,904 $DYDX），
