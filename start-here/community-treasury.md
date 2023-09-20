@@ -32,13 +32,15 @@ Wenn nach fünf Jahren die Governance eine dauerhafte Inflation (bei einer maxim
 
 Jede Sekunde überweist der Gemeinschaftsschatzmeister (siehe Details [hier](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)) [`0,3169242627`](tel:03169242627) $DYDX an die Gemeinschaftskasse. Sobald $DYDX unverfallbar geworden ist, wird der unverfallbare SDYDX-Betrag durch den Aufruf der `Anspruchsfunktion` auf dem Gemeinschaftschatzmeister an die Gemeinschaftskasse übertragen. Jedes Mitglied der dYdX-Community kann [hier](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract) die `Beanspruchungsfunktion` auf Etherscan aufrufen (erfordert einige ETH für Gasgebühren), um die einbehaltenen DYDX vom Gemeinschaftsschatzmeister in die Gemeinschaftskasse zu verschieben.
 
+Weitere Einzelheiten zur Kontrolle der Community Treasury durch die dYdX-Community finden Sie in den [Nutzungsbedingungen](https://dydx.foundation/terms) der dYdX-Foundation.
+
 <figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
 
 ### Wie hoch ist das tatsächliche Guthaben der Community-Treasury?
 
 Mitglieder der dYdX-Community können [hier](https://dydx.shippooor.xyz/) den Rücklagen-Kontostand der Community Treasury einsehen. \
 \
-Darüber hinaus veröffentlicht die dYdX Foundation den Rücklagen-Kontostand der Community Treasury in der [Epochen-Rückschau](https://dydx.foundation/blog) am Ende jeder Epoche. Zusätzlich zu den übertragenen $DYDX in der Gemeinschaftskasse kann die dYdX-Community auch auf die auf dem Prämien-Konto anfallenden $DYDX als Resultat der Abstimmungen zugreifen:
+Darüber hinaus veröffentlicht die dYdX Foundation den Rücklagen-Kontostand der Community Treasury nur zur Information in der [Epochen-Rückschau](https://dydx.foundation/blog) am Ende jeder Epoche. Zusätzlich zu den übertragenen $DYDX in der Gemeinschaftskasse kann die dYdX-Community auch auf die auf dem Prämien-Konto anfallenden $DYDX als Resultat der Abstimmungen zugreifen:
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - wurden die Staking-Prämien für USDC auf 0 gesetzt (383.562 $DYDX pro Laufzeit)
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - wurden die Handelsprämien um 25 % (958.904 $DYDX pro Laufzeit) reduziert,
