@@ -84,7 +84,7 @@ A governança da dYdX tem controle sobre os parâmetros dos seguintes contratos:
 ## Staking de liquidez
 
 | Parâmetro | Descrição | Valor |
-| --------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| --------------------- | --------------------------------------------------------------------------------- | ------------------------- |
 | Função de proprietário | Administrador de todas as funções | Timelock curto |
 | Função de definidor de parâmetros da epoch | Pode definir parâmetros da epoch como o intervalo, offset e janela de bloqueio | Timelock curto |
 | Função de definidor de taxa de recompensas | Pode definir a taxa de emissão de recompensas | Timelock curto |
@@ -94,15 +94,14 @@ A governança da dYdX tem controle sobre os parâmetros dos seguintes contratos:
 | Função de operador de dívida | Pode diminuir a dívida emprestada e diminuir a dívida de staker | Timelock curto |
 | Intervalo | Comprimento de uma epoch | 28 dias |
 | Offset | Início da epoch zero | 3 de agosto de 2021 15:00 UTC |
-| Janela de bloqueio | Comprimento da janela de bloqueio | 14 dias |
-| Taxa de emissão de recompensas | Tokens alocados para os stakers como recompensas por segundo | 0,1585489619 \* 10^18 (em wei) |
-| Alocações de mutuário | Porcentagem de fundos alocados para cada mutuário | Wintermute 25%, Amber 25%, Sixtant 20%, Kronos 20%, DAT Trading 10% |
+| Janela de bloqueio | Comprimento da janela de bloqueio | 3 dias |
+| Taxa de emissão de recompensas | Tokens alocados para os stakers como recompensas por segundo | 0 |
 | Administrador de Proxy | Pode atualizar o contrato | Timelock curto |
 
 ## Módulo de segurança
 
 | Parâmetro | Descrição | Valor |
-| --------------------- | --------------------------------------------------------------------------------- | ------------------------------ |
+| --------------------- | --------------------------------------------------------------------------------- | ------------------------- |
 | Função de proprietário | Administrador de todas as funções | Timelock curto |
 | Função de redutor | Pode reduzir os saldos de token em staking e sacar tais fundos | Timelock curto |
 | Função de definidor de parâmetros da epoch | Pode definir parâmetros da epoch como o intervalo, offset e janela de bloqueio | Timelock curto |
@@ -111,8 +110,8 @@ A governança da dYdX tem controle sobre os parâmetros dos seguintes contratos:
 | Função de operador de stake | Pode manipular os fundos em staking do usuário (por exemplo, executar saques) em nome de um usuário | Timelock curto |
 | Intervalo | Comprimento de uma epoch | 28 dias |
 | Offset | Início da epoch zero | 3 de agosto de 2021 15:00 UTC |
-| Janela de bloqueio | Comprimento da janela de bloqueio | 14 dias |
-| Taxa de emissão de recompensas | Tokens alocados para os stakers como recompensas por segundo | 0,1585489619 \* 10^18 (em wei) |
+| Janela de bloqueio | Comprimento da janela de bloqueio | 3 dias |
+| Taxa de emissão de recompensas | Tokens alocados para os stakers como recompensas por segundo | 0 |
 | Administrador de Proxy | Pode atualizar o contrato | Timelock longo |
 
 ## Stark Proxy
