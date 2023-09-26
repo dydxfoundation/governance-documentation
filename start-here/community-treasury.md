@@ -32,11 +32,13 @@ Si, después de cinco años, la gobernanza decide promulgar la inflación de los
 
 Cada segundo, el Otorgante de la Tesorería de la comunidad (ver detalles [aquí](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)) otorga [`0,3169242627`](tel:03169242627) $DYDX a la Tesorería de la comunidad. Una vez que se han otorgado los $DYDX, la solicitud de la función de `reclamación` al Otorgante de la Tesorería de la comunidad hará que se transfieran los $DYDX invertidos a la Tesorería de la comunidad. Cualquier miembro de la comunidad dYdX puede utilizar la función `claim` (reclamo) en Etherscan [aquí](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract) (lo que requeriría ETH para las tarifas de gas) para transferir el $DYDX invertido del Otorgante de la Tesorería de la comunidad a la Tesorería de la comunidad.
 
+Consulte los [Términos de uso](https://dydx.foundation/terms) de la Fundación dYdX para obtener más detalles sobre el control de la tesorería de la comunidad realizado por la comunidad dYdX.
+
 <figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
 
 ### ¿Cuál es el balance invertido de la Tesorería de la comunidad?
 
-Los miembros de la comunidad dYdX pueden ver el balance invertido de la Tesorería de la comunidad [aquí](https://dydx.shippooor.xyz/)\\. Además, la Fundación dYdX publica el balance invertido de la Tesorería de la comunidad en la [Revisión de la etapa](https://dydx.foundation/blog) al final de cada etapa. Además del dYdX invertido en el Fondo de la comunidad, la comunidad de dYdX también puede acceder al $DYDX que se acumula en el Fondo de Recompensas como resultado de los votos a:
+Los miembros de la comunidad dYdX pueden ver el balance invertido de la Tesorería de la comunidad [aquí](https://dydx.shippooor.xyz/)\\. Además, la Fundación dYdX publica, sólo para información, el saldo adquirido de la Tesorería de la Comunidad en la [Revisión de la época](https://dydx.foundation/blog) al final de cada época. Además del dYdX invertido en el Fondo de la comunidad, la comunidad de dYdX también puede acceder al $DYDX que se acumula en el Fondo de Recompensas como resultado de los votos a:
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - fija las recompensas por la inversión de USDC en 0 (383 562 $DYDX por etapa);
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - reduce las recompensas de trading en un 25 % (958 904 $DYDX por etapa);

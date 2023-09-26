@@ -84,7 +84,7 @@ La gobernanza dYdX control de los parámetros de los siguientes contratos:
 ## Participación de liquidez
 
 | Parámetro | Descripción | Valor |
-| --------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| --------------------- | --------------------------------------------------------------------------------- | ------------------------- |
 | Función de propietario | Administración de todos los roles | Bloqueo de corto tiempo |
 | Función de parámetros de etapa | Puede establecer parámetros de la etapa como el intervalo, el desplazamiento y la ventana de bloqueo | Bloqueo de corto tiempo |
 | Función de tasa de recompensas | Puede establecer la tasa de emisión de recompensas | Bloqueo de corto tiempo |
@@ -94,15 +94,14 @@ La gobernanza dYdX control de los parámetros de los siguientes contratos:
 | Función de operador de deuda | Puede disminuir las deudas de préstamo y disminuir las deudas de los inversores | Bloqueo de corto tiempo |
 | Intervalo | Duración de una etapa | 28 días |
 | Compensación | Inicio de la etapa 0 | 3 de agosto de 2021, 15:00 UTC |
-| Ventana de bloqueo | Duración de la ventana de bloqueo | 14 días |
-| Tasa de emisión de recompensas | Tokens asignados a los inversores como recompensas por segundo | 0.1585489619 \* 10^18 (en wei) |
-| Asignaciones de prestatario | Porcentaje de fondos asignados a cada prestatario | Wintermute 25%, Amber 25%, Sixtant 20%, Kronos 20%, DAT Trading 10%      |
+| Ventana de bloqueo | Duración de la ventana de bloqueo | 3 días |
+| Tasa de emisión de recompensas | Tokens asignados a los inversores como recompensas por segundo | 0 |
 | Administrador de proxy | Puede actualizar el contrato | Bloqueo de corto tiempo |
 
 ## Módulo de seguridad
 
 | Parámetro | Descripción | Valor |
-| --------------------- | --------------------------------------------------------------------------------- | ------------------------------ |
+| --------------------- | --------------------------------------------------------------------------------- | ------------------------- |
 | Función de propietario | Administración de todos los roles | Bloqueo de corto tiempo |
 | Función de Slasher | Puede reducir los saldos de los tokens invertidos y retirar esos fondos | Bloqueo de corto tiempo |
 | Función de parámetros de etapa | Puede establecer parámetros de la etapa como el intervalo, el desplazamiento y la ventana de bloqueo | Bloqueo de corto tiempo |
@@ -111,8 +110,8 @@ La gobernanza dYdX control de los parámetros de los siguientes contratos:
 | Función de operador de participación | Puede manipular los fondos invertidos de un usuario (por ejemplo, realizar retiros de usuario) | Bloqueo de corto tiempo |
 | Intervalo | Duración de una etapa | 28 días |
 | Compensación | Inicio de la etapa 0 | 3 de agosto de 2021, 15:00 UTC |
-| Ventana de bloqueo | Duración de la ventana de bloqueo | 14 días |
-| Tasa de emisión de recompensas | Tokens asignados a los inversores como recompensas por segundo | 0.1585489619 \* 10^18 (en wei) |
+| Ventana de bloqueo | Duración de la ventana de bloqueo | 3 días |
+| Tasa de emisión de recompensas | Tokens asignados a los inversores como recompensas por segundo | 0 |
 | Administrador de proxy | Puede actualizar el contrato | Bloqueo de largo tiempo |
 
 ## Proxy de Stark

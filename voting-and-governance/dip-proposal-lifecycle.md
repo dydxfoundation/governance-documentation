@@ -49,7 +49,7 @@ Para las encuestas de Snapshot relacionadas con la señalización del sentimient
 * detalles del DRC,
 * un sistema de votación,
 * un período de votación - fecha de inicio de la votación y fecha de finalización de la votación establecidas para un período de 4 días, y
-* un retraso de la votación - un número de bloque de Snapshot que es 6570 bloques (aproximadamente 1 día) en el futuro. El número de bloque de Snapshot bloquea el estado de los miembros de la comunidad que pueden votar. Los titulares de tokens que poseen tokens antes del número de bloque de Snapshot son elegibles para votar. Antes de la instantánea de la facultad de voto de cada dirección, el retraso de la votación les da tiempo a los titulares de DYDX/stkDYDY para adquirir tokens, delegar la facultad de voto y mover tokens entre billeteras (el movimiento de tokens entre billeteras solo se aplica a los titulares de DYDX).
+* un retraso de votación - un número de bloque de Snapshot que es de 6570 bloques (aproximadamente 1 día basado en un tiempo de bloque de 13,2 segundos) en el futuro. El número de bloque de Snapshot bloquea el estado de los miembros de la comunidad que pueden votar. Los titulares de tokens que poseen tokens antes del número de bloque de Snapshot son elegibles para votar. Antes de la instantánea de la facultad de voto de cada dirección, el retraso de la votación les da tiempo a los titulares de DYDX/stkDYDY para adquirir tokens, delegar la facultad de voto y mover tokens entre billeteras (el movimiento de tokens entre billeteras solo se aplica a los titulares de DYDX).
 
 Para las decisiones que no requieren una llamada de contrato inteligente en cadena, en particular los cambios en las fórmulas de recompensas de proveedor de negociación y liquidez, los votos instantáneos se consideran el voto vinculante y final. El proponente deberá incluir los requisitos anteriores y proporcionar:
 
@@ -76,7 +76,7 @@ La creación de un DIP está sujeta a un número mínimo de tokens poseídos/del
 
 ## 5. Votación de DIP (en la cadena)
 
-Después de que se crea un DIP de la cadena, la propuesta pasa a un estado `pendiente` por un período definido por el **retraso de la votación**, que actualmente está configurado a `6570` bloques o aproximadamente 1 día (asumiendo 13 segundos por bloque). En otras palabras, las instantáneas de los usuarios se registran 1 día después de que se crea el DIP, en cuyo momento la propuesta pasa al estado `activo`.
+Después de que se crea un DIP de la cadena, la propuesta pasa a un estado `pendiente` por un período definido por el **retraso de la votación**otación, que actualmente está configurado a `6.570` bloques o aproximadamente 1 día (asumiendo 13,2 segundos por bloque). En otras palabras, las instantáneas de los usuarios se registran 1 día después de que se crea el DIP, en cuyo momento la propuesta pasa al estado `activo`.
 
 Después del retraso de la votación, se activa el período de la votación. La duración del período de la votación depende del tipo de propuesta.
 
@@ -89,9 +89,11 @@ Después de que un DIP se crea en la cadena, está sujeto a un **retraso de la v
 | Parámetro | Descripción | Ejecutor de bloqueo de corto tiempo | Ejecutor Merkle-pauser | Ejecutor de bloqueo de largo tiempo  | Ejecutor de Starkware |
 | ----------------- | ----------------------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | -------------------- |
 | Retraso de votación | El número de bloques de Ethereum para esperar antes de la votación sobre una propuesta puede comenzar después de que se envíe una propuesta. | 6,570 bloques | 6,570 bloques | 6,570 bloques | 6,570 bloques |
-| Período de la votación | Duración del tiempo para el cual las propuestas están disponibles para ser votadas | 4 días | 2 días | 10 días | 4 días |
+| Período de votación \* | Duración del tiempo para el cual las propuestas están disponibles para ser votadas | 4 días | 2 días | 10 días | 4 días |
 | Quorum mínimo | Número mínimo de votos a favor para que una propuesta de DIP sea aprobada | 2% del suministro total | 1% del suministro total | 10% del suministro total | 2% del suministro total |
 | Diferencial de votos | Brecha entre a favor y en contra necesaria para que se apruebe una propuesta de DIP | 0,5% del suministro total | 0,5% del suministro total | 10% del suministro total | 0,5% del suministro total |
+
+_\*Tiempo basado en tiempos de bloque de 13,2 segundos._
 
 Solo el retraso de la votación puede ser modificado por la gobernanza y solo se puede cambiar a valores entre (inclusive) el retraso mínimo y máximo. El período de la votación, el quorum mínimo y el diferencial de la votación no se pueden cambiar.
 
@@ -100,11 +102,13 @@ Solo el retraso de la votación puede ser modificado por la gobernanza y solo se
 Después de que un DIP haya sido aprobado, cualquier dirección puede llamar al método de la cola para pasar la propuesta a la cola de bloqueo de tiempo. Un DIP solo se puede poner en la cola si ha sido aprobado.
 
 | Parámetro | Descripción | Ejecutor de bloqueo de corto tiempo | Ejecutor Merkle-pauser | Ejecutor de bloqueo de largo tiempo  | Ejecutor de Starkware |
-| ---------------------- | ------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
-| Demora de bloqueo de tiempo | Después de que una propuesta sea aprobada y puesta en la cola, el retraso antes de la propuesta es ejecutado | 2 días | 0 días | 7 días | 2-9 días |
-| Período de la gracia para la ejecución | Tiempo después del cual una propuesta se vuelve ejecutable, durante el cual debe ser ejecutada. | 7 días | 7 días | 7 días | 7 días |
-| Demora de bloqueo de tiempo mínimo | Demora mínima antes de que se ejecute una propuesta (después de estar en la cola) | 1 día | 0 días | 5 días | 4 días |
-| Demora de bloqueo de tiempo máxima | Demora máxima antes de que se ejecute una propuesta (después de estar en la cola) | 7 días | 1 día | 21 días | 21 días |
+| ------------------------ | ------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
+| Retraso por bloqueo de tiempo\* | Después de que una propuesta sea aprobada y puesta en la cola, el retraso antes de la propuesta es ejecutado | 2 días | 0 días | 7 días | 2-9 días |
+| Período de gracia de ejecución \* | Tiempo después del cual una propuesta se vuelve ejecutable, durante el cual debe ser ejecutada. | 7 días | 7 días | 7 días | 7 días |
+| Retraso de bloqueo de tiempo mínimo \* | Demora mínima antes de que se ejecute una propuesta (después de estar en la cola) | 1 día | 0 días | 5 días | 4 días |
+| Retraso de bloqueo de tiempo máximo\* | Demora máxima antes de que se ejecute una propuesta (después de estar en la cola) | 7 días | 1 día | 21 días | 21 días |
+
+_\*Tiempo basado en tiempos de bloque de 13,2 segundos._
 
 Cuando termine el período de la votación y una propuesta ha tenido éxito, cualquiera puede llamar a la cola para comenzar la demora del bloqueo de tiempo.
 
