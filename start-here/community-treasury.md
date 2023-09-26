@@ -32,11 +32,13 @@ description: コミュニティトレジャリーの概要
 
 コミュニティ基金ベスター（詳細は[こちら](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)）は、コミュニティ基金に毎秒[`0.3169242627`](tel:03169242627)$DYDXを付与します。$DYDXが付与されると、コミュニティ基金ベスターで`請求`関数を呼び出すことで、既得の$DYDXがコミュニティ基金に移動されます。dYdXコミュニティメンバーは[、ここから](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract)Etherscanで`請求`関数を呼び出して（Gas（ガス）代にETHが必要です）、既得の$DYDXをコミュニティ基金ベスターからコミュニティ基金に移動させることができます。
 
+dYdXコミュニティによるコミュニティトレジャリーの管理詳細は、dYdX財団の[利用規約](https://dydx.foundation/terms)をご参照ください。
+
 <figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
 
-### コミュニティトレジャリーの既得残高は？
+### コミュニティ基金の既得残高はいくらになりますか？
 
-dYdXコミュニティメンバーは、コミュニティトレジャリーの既得残高を[こちら](https://dydx.shippooor.xyz/)で確認できます。\\また、dYdX財団では、各エポックの終了時にコミュニティトレジャリーの既得残高を[エポックレビュー](https://dydx.foundation/blog)で公表しています。コミュニティートレジャリーに帰属する$DYDXに加えて、dYdXコミュニティーは、以下の投票の結果として報酬トレジャリーに積み立てられる$DYDXにもアクセスすることができます：
+dYdXコミュニティメンバーは、コミュニティトレジャリーの既得残高を[こちら](https://dydx.shippooor.xyz/)で確認できます。\\また、dYdX財団では、各エポックの終了時にコミュニティトレジャリーの既得残高を[エポックレビュー](https://dydx.foundation/blog)で公表しています。 コミュニティートレジャリーに帰属する$DYDXに加えて、dYdXコミュニティーは、以下の投票の結果として報酬トレジャリーに積み立てられる$DYDXにもアクセスすることができます：
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - USDCのステーキングの報酬を0に設定（エポックあたり383,562 $DYDX）、
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - 取引報酬を25％削減（エポックあたり958,904 $DYDX）、
