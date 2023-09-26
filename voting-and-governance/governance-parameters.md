@@ -84,7 +84,7 @@ La gouvernance dYdX a le contrôle des paramètres des contrats suivants :
 ## Staking de liquidité
 
 | Paramètre | Description | Valeur |
-| --------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| --------------------- | --------------------------------------------------------------------------------- | ------------------------- |
 | Rôle du propriétaire | Administrateur de tous les rôles | Courte durée |
 | Rôle des paramètres Époch | Peut définir des paramètres d'époch tels que l'intervalle, le décalage et la fenêtre de blocage | Courte durée |
 | Rôle du taux de récompenses | Peut fixer le taux d'émission des récompenses | Courte durée |
@@ -94,15 +94,14 @@ La gouvernance dYdX a le contrôle des paramètres des contrats suivants :
 | Rôle d'opérateur de dette | Peut réduire la dette d'emprunt et la dette des stakers | Courte durée |
 | Intervalle | Longueur d'une époch | 28 jours |
 | Décalage | Début de l'époch zéro | 3 août 15 h 00 UTC 2021 |
-| Fenêtre de blocage | Longueur de la fenêtre de blocage | 14 jours |
-| Taux d'émission des récompenses | Jetons alloués aux stakers sous forme de récompenses par seconde | 0,1585489619 \* 10^18 (en wei) |
-| Allocations d'emprunt | Pourcentage des fonds alloués à chaque emprunteur | Wintermute 25 %, Amber 25 %, Sixtant 20 %, Kronos 20 %, DAT Trading 10 % |
+| Fenêtre de blocage | Longueur de la fenêtre de blocage | 3 jours |
+| Taux d'émission des récompenses | Jetons alloués aux stakers sous forme de récompenses par seconde | 0 |
 | Admin Proxy | Peut mettre à niveau le contrat | Courte durée |
 
 ## Module de sécurité
 
 | Paramètre | Description | Valeur |
-| --------------------- | --------------------------------------------------------------------------------- | ------------------------------ |
+| --------------------- | --------------------------------------------------------------------------------- | ------------------------- |
 | Rôle du propriétaire | Administrateur de tous les rôles | Courte durée |
 | Rôle de réducteur | Peut réduire les soldes de jetons stakés et retirer ces fonds | Courte durée |
 | Rôle des paramètres Époch | Peut définir des paramètres d'époch tels que l'intervalle, le décalage et la fenêtre de blocage | Courte durée |
@@ -111,8 +110,8 @@ La gouvernance dYdX a le contrôle des paramètres des contrats suivants :
 | Rôle d'opérateur de stake | Peut manipuler les fonds stakés de l'utilisateur (par exemple, effectuer des retraits) au nom d'un utilisateur | Courte durée |
 | Intervalle | Longueur d'une époch | 28 jours |
 | Décalage | Début de l'époch zéro | 3 août 15 h 00 UTC 2021 |
-| Fenêtre de blocage | Longueur de la fenêtre de blocage | 14 jours |
-| Taux d'émission des récompenses | Jetons alloués aux stakers sous forme de récompenses par seconde | 0,1585489619 \* 10^18 (en wei) |
+| Fenêtre de blocage | Longueur de la fenêtre de blocage | 3 jours |
+| Taux d'émission des récompenses | Jetons alloués aux stakers sous forme de récompenses par seconde | 0 |
 | Admin Proxy | Peut mettre à niveau le contrat | Longue durée |
 
 ## Proxy Stark
