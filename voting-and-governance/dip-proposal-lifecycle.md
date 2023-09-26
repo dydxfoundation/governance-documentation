@@ -49,7 +49,7 @@ Pour les sondages Snapshot liés à la signalisation de sentiment, le proposant 
 * détails de la DRC,
 * un système de vote,
 * une période de vote - la date de début et la date de fin du vote sont définies sur une période de vote de 4 jours, et
-* un délai de vote - un numéro de bloc Snapshot qui est de 6570 blocs (environ 1 jour) dans le futur. Le numéro de bloc Snapshot verrouille l'état des membres de la communauté qui peuvent voter. Les détenteurs de jetons qui détiennent des jetons avant le numéro de bloc Snapshot sont éligibles pour voter. Avant le snapshot du pouvoir de vote respectif de chaque adresse, le délai de vote donne aux détenteurs de DYDX/stkDYDY le temps d'acquérir des jetons, de déléguer le pouvoir de vote et de déplacer des jetons entre les portefeuilles (le déplacement de jetons entre les portefeuilles ne s'applique qu'aux détenteurs de DYDX).
+* Un délai de vote - un numéro de bloc Snapshot qui est de 6570 blocs (environ 1 jour basé sur 13,2 deuxièmes temps de bloc) dans le futur. Le numéro de bloc Snapshot verrouille l'état des membres de la communauté qui peuvent voter. Les détenteurs de jetons qui détiennent des jetons avant le numéro de bloc Snapshot sont éligibles pour voter. Avant le snapshot du pouvoir de vote respectif de chaque adresse, le délai de vote donne aux détenteurs de DYDX/stkDYDY le temps d'acquérir des jetons, de déléguer le pouvoir de vote et de déplacer des jetons entre les portefeuilles (le déplacement de jetons entre les portefeuilles ne s'applique qu'aux détenteurs de DYDX).
 
 Pour les décisions qui ne nécessitent pas d'appel de contrat intelligent sur la chaîne, notamment les modifications apportées aux formules de récompenses du fournisseur de trading et de liquidité, les votes Snapshot sont considérés comme le vote contraignant et final. Le proposant devra inclure les exigences ci-dessus et fournir :
 
@@ -76,7 +76,7 @@ Une création de DIP est soumise à un nombre minimum de jetons détenus/délég
 
 ## 5. Voter le DIP (en chaîne)
 
-Après la création d'un DIP sur la chaîne, la proposition entre dans un état `d'attente` pendant une période définie par le **délai de vote**, qui est actuellement configuré sur `6570` blocs ou environ 1 jour (en supposant 13 secondes par bloc). En d'autres termes, les snapshots d'utilisateurs sont enregistrés 1 jour après la création du DIP, moment auquel la proposition passe à un état `actif`.
+Après la création d'un DIP sur la chaîne, la proposition entre dans un état `d`'attente pendant une période définie par le **délai de vote**, qui est actuellement configuré sur `6570` blocs ou environ 1 jour (en supposant 13 secondes par bloc). En d'autres termes, les snapshots d'utilisateurs sont enregistrés 1 jour après la création du DIP, moment auquel la proposition passe à un état `actif`.
 
 Après le délai de vote, la période de vote est activée. La durée de la période de vote dépend du type de proposition.
 
@@ -89,9 +89,11 @@ Une fois qu'un DIP est créé sur la chaîne, il est soumis à un **délai de vo
 | Paramètre | Description | Exécuteur de courte durée | Exécuteur Merkle-pauser | Exécuteur de longue durée | Exécuteur Starkware |
 | ----------------- | ----------------------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | -------------------- |
 | Délai de vote | Nombre de blocs Ethereum à attendre avant que le vote sur une proposition puisse commencer après la soumission d'une proposition | 6570 blocs | 6570 blocs | 6570 blocs | 6570 blocs |
-| Période de vote | Durée pendant laquelle les propositions sont disponibles pour être soumises au vote | 4 jours | 2 jours | 10 jours | 4 jours |
+| Période de vote\* | Durée pendant laquelle les propositions sont disponibles pour être soumises au vote | 4 jours | 2 jours | 10 jours | 4 jours |
 | Quorum minimum | Votes positifs minimum pour qu'une proposition DIP soit adoptée | 2 % de l'offre totale | 1 % de l'offre totale | 10 % de l'offre totale | 2 % de l'offre totale |
 | Différentiel de vote | Écart obligatoire oui-non pour qu'une proposition DIP soit acceptée | 0,5 % de l'offre totale | 0,5 % de l'offre totale | 10 % de l'offre totale | 0,5 % de l'offre totale |
+
+_\*Timing basé sur 13,2 deuxièmes temps de bloc_.
 
 Seul le délai de vote peut être modifié par la gouvernance, et il ne peut être modifié qu'à des valeurs comprises entre (inclus) le délai minimum et maximum. La période de vote, le quorum minimum et le différentiel de vote ne peuvent pas être modifiés.
 
@@ -100,11 +102,13 @@ Seul le délai de vote peut être modifié par la gouvernance, et il ne peut êt
 Après l'expiration d'un DIP, n'importe quelle adresse peut appeler la méthode de la file d'attente pour déplacer la proposition dans la file d'attente de verrouillage. Un DIP ne peut être mis en file d'attente que s'il est passé.
 
 | Paramètre | Description | Exécuteur de courte durée | Exécuteur Merkle-pauser | Exécuteur de longue durée | Exécuteur Starkware |
-| ---------------------- | ------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
-| Délai de verrouillage | Une fois qu'une proposition a été acceptée et mise en file d'attente, le délai avant l'exécution de la proposition | 2 jours | 0 jour | 7 jours | 2-9 jours |
-| Période de grâce d'exécution | Le temps après lequel une proposition devient exécutable, pendant lequel elle doit être exécutée. | 7 jours | 7 jours | 7 jours | 7 jours |
-| Délai de durée minimum | Délai minimum avant l'exécution d'une proposition (après mise en file d'attente) | 1 jour | 0 jour | 5 jours | 4 jours |
-| Délai de durée maximum | Délai maximum avant l'exécution d'une proposition (après mise en file d'attente) | 7 jours | 1 jour | 21 jours | 21 jours |
+| ------------------------ | ------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
+| Délai de Timelock\* | Une fois qu'une proposition a été acceptée et mise en file d'attente, le délai avant l'exécution de la proposition | 2 jours | 0 jour | 7 jours | 2-9 jours |
+| Période de grâce d'exécution\* | Le temps après lequel une proposition devient exécutable, pendant lequel elle doit être exécutée. | 7 jours | 7 jours | 7 jours | 7 jours |
+| Délai minimum de verrouillage du délai\* | Délai minimum avant l'exécution d'une proposition (après mise en file d'attente) | 1 jour | 0 jour | 5 jours | 4 jours |
+| Délai maximum de verrouillage du délai\* | Délai maximum avant l'exécution d'une proposition (après mise en file d'attente) | 7 jours | 1 jour | 21 jours | 21 jours |
+
+_\*Timing basé sur 13,2 deuxièmes temps de bloc_.
 
 Dès que la période de vote se termine et qu'une proposition a réussi, n'importe qui peut appeler la file d'attente pour commencer le délai de verrouillage.
 
