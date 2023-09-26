@@ -8,8 +8,8 @@ description: Uma visão geral do tesouro da comunidade.
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - Definição as recompensas de staking de USDC para 0 (383.562 $DYDX por epoch),
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - Redução de recompensas de trading em 25% (958.904 $DYDX por epoch),
-* [DIP 17](https://dydx.community/dashboard/proposal/9) - Definição de recompensas de staking de $DYDX para 0 (383.562 $DYDX por época).
-* [DIP 20](https://dydx.community/dashboard/proposal/11) - Redução de recompensas de trading em 45% (1.294.520 $DYDX por época) e
+* [DPI 17](https://dydx.community/dashboard/proposal/9) - Definição de recompensas de estatinga de $DXXX para 0 (383.562 $DXXX por poche).
+* [DPI 20](https://dydx.community/dashboard/proposal/11) - Redução de recompensas de tradinha em 45% (1.294.520 $DXXX por poche) e
 * [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - Redução de recompensas de provedor de liquidez em 50% (575.342 $DYDX por época).
 
 
@@ -32,13 +32,15 @@ Se, após cinco anos, a governança decidir promover uma inflação perpétua (n
 
 A cada segundo, o Investidor do Tesouro da Comunidade (veja detalhes [aqui](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)) investe [`0,3169242627`](tel:03169242627) $DYDX no Tesouro da Comunidade. Assim que $DYDX é investido, chamar a função `reivindicação` no Investidor do Tesouro da Comunidade transferirá o $DYDX investido ao tesouro. Qualquer membro da comunidade DYDX pode chamar a função `reivindicação` na Etherscan [aqui](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract) (o que exigiria algum ETH para cobrir as taxas de gás) e mover o $DYDX investido do Investidor do Tesouro da Comunidade para o Tesouro da Comunidade.
 
+Consulte os [Termos de uso](https://dydx.foundation/terms) da dYdX Foundation para obter mais detalhes sobre o controle do tesouro da comunidade pela comunidade dYdX.
+
 <figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
 
 ### Qual é o saldo investido do Tesouro da Comunidade?
 
 Os membros da comunidade DYDX podem visualizar o saldo investido do Tesouro da comunidade [aqui](https://dydx.shippooor.xyz/). \
 \
-Além disso, a dYdX Foundation publica o saldo investido do Tesouro da Comunidade no [Relatório da Epoch](https://dydx.foundation/blog) ao final de cada epoch. Além do $DYDX investido no Tesouro da Comunidade, a comunidade dYdX também pode acessar o $DYDX acumulado no Tesouro de Recompensas como resultado dos votos para:
+Além disso, a dYdX Foundation publica publica apenas para fins informativos o saldo investido do Tesouro da Comunidade no [Relatório da Epoch](https://dydx.foundation/blog) ao final de cada epoch. Além do $DYDX investido no Tesouro da Comunidade, a comunidade dYdX também pode acessar o $DYDX acumulado no Tesouro de Recompensas como resultado dos votos para:
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - Definição as recompensas de staking de USDC para 0 (383.562 $DYDX por epoch),
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - Redução de recompensas de trading em 25% (958.904 $DYDX por epoch),
@@ -46,7 +48,7 @@ Além disso, a dYdX Foundation publica o saldo investido do Tesouro da Comunidad
 * [DPI 20](https://dydx.community/dashboard/proposal/11) - Redução de recompensas de tradinha em 45% (1.294.520 $DXXX por poche) e
 * [DPI 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - Redução de recompensas de provedor de liquidez em 50% (575.342 $DXXX por poche).
 
-A partir da Poche 26, 3.595.890 $DXXX serão acrescidos no Tesouro de Recompensas a cada epochee poderão ser usados pela comunidade[ dDXXXcom um vo](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)to de governança.
+A partir da Época 26, 3.595.890 $DYDX  serão acrescidos no Tesouro de Recompensas a cada época e poderão ser usados pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
 ### Quem pode enviar propostas para gastar $DYDX do Tesouro da Comunidade?
 
