@@ -1,9 +1,9 @@
 ---
-description: Holders receive trading fee discounts based on their current holdings
+description: An overview of Fee Discounts
 ---
 
 # Fee Discounts
 
-dYdX Trading Inc. [announced](https://dydx.exchange/blog/v3-updated-fee-schedule) that it will be winding down fee discounts and reverting back to normal fees for all dYdX traders on September 29, 2023, at 1pm ET. User's can see their current $DYDX holdings, fee tier, and trading fee discounts [**here**](https://trade.dydx.exchange/portfolio/fees). More information is also available on the dYdX Trading Help Center available [**here**](https://help.dydx.exchange/en/articles/4798040-perpetual-trade-fees).
+Previously, users holding ethDYDX and/or stkDYDX received discounts on trading fees depending on the amount of ethDYDX and/or stkDYDX in a given user's wallet. On September 29, 2023, fee discounts were wound down and reverted back to normal fees for all dYdX traders. User's can see their current $DYDX holdings and fee tier [**here**](https://trade.dydx.exchange/portfolio/fees). More information is also available on the dYdX Trading Help Center available [**here**](https://help.dydx.exchange/en/articles/4798040-perpetual-trade-fees).
 
-![You may pay lower fees for holding DYDX tokens](../.gitbook/assets/1-fee-discounts-view.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-10-05 at 09.39.07.png" alt=""><figcaption></figcaption></figure>
