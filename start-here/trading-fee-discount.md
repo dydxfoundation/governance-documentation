@@ -4,6 +4,6 @@ description: 保有者は、現在の保有量に基づき、取引手数料の�
 
 # 手数料割引
 
-dYdX貿易株式会社は、現在保有しているDYDXトークンに基づき、$DYDX保有者に取引手数料割引を提供しています。トレーダーは、現在の$DYDX保有量、手数料レベル、および取引手数料割引について[**、こちら**](https://trade.dydx.exchange/portfolio/fees)から確認できます。詳細については、[**こちら**](https://help.dydx.exchange/en/articles/4798040-perpetual-trade-fees)のdYdXトレーディング・ヘルプセンターもご利用ください。
+詳細については、[**こちら**](https://help.dydx.exchange/en/articles/4798040-perpetual-trade-fees)のdYdXトレーディング・ヘルプセンターもご利用ください。
 
 ![DYDXトークンは、より低い手数料を支払うことで保有できます](../.gitbook/assets/1-fee-discounts-view.png)
