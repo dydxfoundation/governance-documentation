@@ -14,7 +14,7 @@ description: Overview of the Liquidity Provider rewards Program.
 
 ## **Overview**
 
-To incentivize market liquidity, $DYDX will be distributed to liquidity providers based on formulas that reward participation in markets, maker volume, two-sided depth, spread (vs. mid-market), and uptime on dYdX’s Layer 2 Protocol. Any Ethereum address can earn these rewards, subject to a minimum maker volume threshold of 0.25% of maker volume in the preceding epoch. $DYDX will be distributed on a 28-day epoch basis over five years and are not subject to any vesting or lockups. 1,150,685 $DYDX will be distributed per epoch.
+To incentivize market liquidity, $DYDX will be distributed to liquidity providers based on formulas that reward participation in markets, maker volume, two-sided depth, spread (vs. mid-market), and uptime on dYdX’s Layer 2 Protocol. Any Ethereum address can earn these rewards, subject to a minimum maker volume threshold of 0.25% of maker volume in the preceding epoch. $DYDX will be distributed on a 28-day epoch basis over five years and are not subject to any vesting or lockups. 575,343 $DYDX will be distributed per epoch.
 
 The following functions are used to compute how much $DYDX should be rewarded to each liquidity provider per epoch. In [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md), the dYdX community voted to revise the LP rewards formula by splitting the functions for BTC/ETH markets and non BTC/ETH markets. In [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md), the dYdX community voted to re-allocate the 0.05 $stkDYDX weight to MakerVolume.&#x20;
 
