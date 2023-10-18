@@ -1,9 +1,9 @@
 ---
-description: Les détenteurs bénéficient de remises sur les frais de trading en fonction de leurs avoirs actuels
+description: Aperçu des réductions de frais
 ---
 
 # Réductions des frais
 
-dYdX Trading Inc. [annonce](https://dydx.exchange/blog/v3-updated-fee-schedule) la fin des réductions sur les frais, qui seront à nouveau appliqués normalement pour tous les tradeurs dYdX à compter du 29 septembre 2023 à 13 h HNE. Les traders peuvent consulter leurs avoirs $DYDX actuels, leur niveau de frais et leurs remises sur les frais de trading [**ici**](https://trade.dydx.exchange/portfolio/fees). Plus d'informations sont également disponibles sur le centre d'aide de dYdX Trading disponible [**ici**](https://help.dydx.exchange/en/articles/4798040-perpetual-trade-fees).
+Auparavant, les utilisateurs détenant des ethDYDX et/ou des stkDYDX recevaient [des réductions sur les frais de trading](https://dydx.exchange/blog/v3-updated-fee-schedule) en fonction des ethDYDX et/ou stkDYDX se trouvant dans le portefeuille d'un utilisateur donné. Le 29 septembre 2023, les réductions de frais ont été supprimées et les frais normaux ont été rétablis pour tous les traders de dYdX. Les utilisateurs peuvent consulter leurs avoirs en cours en $DYDX et leur niveau de frais [**ici**](https://trade.dydx.exchange/portfolio/fees). Plus d'informations sont également disponibles sur le centre d'aide de dYdX Trading disponible [**ici**](https://help.dydx.exchange/en/articles/4798040-perpetual-trade-fees).
 
-![Vous pouvez payer des frais inférieurs pour la détention des jetons dYdX](../.gitbook/assets/1-fee-discounts-view.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-10-05 at 09.39.07.png" alt=""><figcaption></figcaption></figure>
