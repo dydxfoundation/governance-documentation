@@ -4,13 +4,17 @@ description: Overview of key governance-related terms.
 
 # Glossary
 
-**DYDX:** The native asset of the DYDX ecosystem, which constitutes the foundation of governance and safety for the dUdX Protocol. DYDX is an ERC-20 token that designates the weight of a user’s voting or proposing power.
+$**ethDYDX:** The native asset of the Ethereum-based dYdX ecosystem, which constitutes the foundation of governance and safety for the dYdX v3. $ethDYDX is an ERC-20 token that designates the weight of a user’s voting or proposing power.
 
-**dYdX Protocol:** dYdX’s Layer 2 perpetuals protocol.
+**$wethDYDX:** The wrapped version of $ethDYDX, obtained by interacting with $wethDYDX Smart Contract. $wethDYDX is an ERC-20 token that designates the weight of a user’s voting or proposing power.
+
+**dYdX v3:** dYdX’s Layer 2 perpetuals protocol.
 
 **dYdX Foundation:** an independent foundation, headquartered in Zug, Switzerland, was created to participate in propelling the dYdX Protocol into the future.
 
-**DYDX Token contract**: has snapshots of each address’ voting power at different blocks in time.
+**$ethDYDX Token contract**: has snapshots of each address’ voting power at different blocks in time.
+
+**$wethDYDX Token contract**: has snapshots of each address’ voting power at different blocks in time.
 
 **DIP:** dYdX Improvements Proposals are on-chain proposals.
 
@@ -22,7 +26,7 @@ description: Overview of key governance-related terms.
 
 **Execution Grace Period:** The period after vote when a DIP proposa becomes executable, during which it must be executed.
 
-**Governance Strategy contract**: contains logic to measure users' relative power to propose and vote.
+**Governance Strategy V2 contract**: contains logic to measure users' relative power to propose and vote.
 
 **Governor contract**: tracks proposals and can execute proposals via the Timelock smart contract.
 
@@ -38,7 +42,7 @@ description: Overview of key governance-related terms.
 
 **Starkware executor:** The Starkware executor can execute proposals that generally change parts of the Protocol that currently require intervention from Starkware.
 
-**Timelock contract**: can queue, cancel, or execute transactions voted by Governance. The functions in a proposal are initiated by the Timelock contract. Queued transactions can be executed after a delay and until Grace period is not over.&#x20;
+**Timelock contract**: can queue, cancel, or execute transactions voted by Governance. The functions in a proposal are initiated by the Timelock contract. Queued transactions can be executed after a delay and until Grace period is not over.
 
 **Timelock Delay:** The delay before a DIP proposal is executed after a proposal passes and is queued.
 

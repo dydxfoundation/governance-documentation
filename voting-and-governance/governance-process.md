@@ -6,17 +6,17 @@ description: A high-level overview of governance architecture.
 
 ## Overview
 
-DYDX grants holders the right to propose and vote on changes to the Protocol. DYDX governance is based on the AAVE governance contracts, and supports voting based on DYDX token holdings.
+$ethDYDX, $stkDYDX and $wethDYDX ("Governance Tokens") grant holders the right to propose and vote on changes to dYdX v3. dYdX governance is based on the AAVE governance contracts, and supports voting based on the holdings of the Governance Tokens.
 
 Proposals must pass a given threshold and percent of yes votes based on the type of proposal.
 
-These DYDX tokens can be used to make proposals or vote on governance proposals or be delegated to other Ethereum addresses.
+The voting and propsing power of the Governance Tokens enable the Governance Token holder to make proposals and vote on governance proposals. Note, the governance token holder may delegate such powers to other Ethereum addresses.
 
-There are 6 smart contracts at the core of dYdX Governance:
+There are 8 smart contracts at the core of dYdX Governance:
 
-* **The `DYDX Token` contract**: has snapshots of each address’ voting power at different blocks in time.
-* **The `Governance Strategy` contract**: contains logic to measure users' relative power to propose and vote.
-* **The `Safety Module` contract**: contains logics to stake DYDX tokens, tokenize the position and get rewards. Token staked the safety module retain full governance rights.
+* **The `$ethDYDX, $stkDYDX and $wethDYDX Token` contracts**: have snapshots of each address’ voting power at different blocks in time.
+* **The `Governance Strategy V2` contract**: contains logic to measure users' relative power to propose and vote. The dYdX Community [voted](https://dydx.community/dashboard/proposal/15) to upgrade the `Governance Strategy` contract to `Governance Strategy V2` to endow $wethDYDX with the same governance functionality as ethDYDX for voting and proposing in dYdX v3 governance.
+* **The `Safety Module` contract**: contains logics to stake $ethDYDX tokens, tokenize the position and get rewards. Token staked the safety module retain full governance rights.
 * **The `Governor` contract**: tracks proposals and can execute proposals via the Timelock smart contract.
 * **The `Timelock` contracts**: can queue, cancel, or execute transactions voted by Governance. The functions in a proposal are initiated by the Timelock contract. Queued transactions can be executed after a delay and before the expiration of the grace period.
 * **The `Priority Timelock` contract**: The same as the timelock contract, but allows a priority controller to execute transactions within the **Priority Period** (7 days) before the end of the timelock delay.
@@ -47,15 +47,15 @@ The short timelock executor controls the following:
 
 **Starkware priority timelock executor**
 
-The Starkware priority timelock executor owns the StarkEx Perpetual Exchange contract. It can execute proposals that control the configuration of the dYdX Layer 2 Exchange.
+The Starkware priority timelock executor owns the StarkEx Perpetual Exchange contract. It can execute proposals that control the configuration of dYdX v3.
 
 Depending on the action to be taken, the Starkware team may need to be involved in order to correctly implement the change on the exchange. For this reason, this executor is provided with a “priority controller” role, which provides Starkware with a period of 7 days (**Priority Period**) in which only they have the ability to trigger execution of a proposal.
 
-Starkware does not have control over _which_ protocol changes are made. Only DYDX tokenholders, via dYdX governance, have the ability to approve or deny changes to the exchange protocol.
+Starkware does not have control over _which_ protocol changes are made. Only $ethDYDX and $wethDYDX token holders, via dYdX v3 governance, have the ability to approve or deny changes to the exchange protocol.
 
 #### **Long timelock executor**
 
-The long timelock executor can execute proposals that generally change parts of the Protocol that affect governance consensus.
+The long timelock executor can execute proposals that generally change parts of the dYdX v3 that affect governance consensus.
 
 #### **Merkle-pauser executor**
 

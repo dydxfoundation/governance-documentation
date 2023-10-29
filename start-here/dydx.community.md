@@ -14,13 +14,13 @@ Active and past governance proposals can be viewed, and active governance propos
 
 ![Track proposal status and vote on changes](../.gitbook/assets/4.2-track-proposals.png)
 
-Holders of DYDX and stkDYDX are granted two types of governance powers: proposing power and voting power. Via the dashboard, users may view their proposing and voting powers, and delegate them to other addresses.
+Holders of $ethDYDX and $wethDYDX are granted two types of governance powers: proposing power and voting power. Via the dashboard, users may view their proposing and voting powers, and delegate them to other addresses.
 
 ![Delegate your proposing and voting powers](../.gitbook/assets/4.3-delegate-voting.png)
 
 ### Staking
 
-Currently, the Liquidity Module and Safety Module are inactive. Users holding stkDYDX and stkUSDC are not earning rewards. Users can `request to withdraw` and `withdraw` at [**dydx.community**](https://dydx.community).
+Currently, the Liquidity Module and Safety Module are inactive. Users holding $stkDYDX and $stkUSDC are not earning rewards. Users can `request to withdraw` and `withdraw` at [**dydx.community**](https://dydx.community).
 
 ### Trading Rewards
 
@@ -28,10 +28,10 @@ Users can view their rewards earned through trading activity on the layer 2 exch
 
 ![Trade to receive rewards](../.gitbook/assets/4.5-trade-to-rewards.png)
 
-### Portfolio & Claiming DYDX
+### Portfolio & Claiming $ethDYDX
 
-Users can see an aggregated view of their DYDX holdings, claimable DYDX, staked DYDX, and withdrawable DYDX.
+Users can see an aggregated view of their $ethDYDX holdings, claimable $ethDYDX, staked $ethDYDX, and withdrawable $ethDYDX.
 
-Users can see the current circulating supply and daily distribution of DYDX tokens. Users can also claim all available DYDX rewards. DYDX tokens will become transferable on or after **September 8, 2021** at approximately 15:00 UTC.
+Users can see the current circulating supply and daily distribution of $ethDYDX tokens. Users can also claim all available $ethDYDX rewards. $ethDYDX tokens became transferable on **September 8, 2021** at approximately 15:00 UTC.
 
 ![Claim your rewards](../.gitbook/assets/4.6-claim-rewards.png)

@@ -4,7 +4,7 @@ description: Overview of governance parameters.
 
 # Parameters
 
-At the time of launching governance, DYDX holders have immediate and irrevocable control over:
+&#x20;Holders of Governance Tokens have immediate and irrevocable control over:
 
 * Allocation of the community treasury
 * New token listings on the Protocol
@@ -20,7 +20,7 @@ dYdX Governance has control over the parameters of the following contracts:
 * [Timelock](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/voting-and-governance-process/parameters.md#timelock-parameters)
 * Priority Timelock
 * Governor
-* DYDX Token
+* $ethDYDX Token
 * Treasury
 * Merkle Distributor
 * Liquidity Staking
@@ -40,11 +40,11 @@ dYdX Governance has control over the parameters of the following contracts:
 | Add Executor role | Address that can add new executors                                            | Short Timelock |
 | Owner role        | Can change strategy / voting delay / unauthorize executors + owns other roles | Long Timelock  |
 
-## DYDX Token
+## ethDYDX Token
 
-| Parameter | Description                                 | Value          |
-| --------- | ------------------------------------------- | -------------- |
-| Owner     | Can mint DYDX tokens after mint restriction | Short Timelock |
+| Parameter | Description                                    | Value          |
+| --------- | ---------------------------------------------- | -------------- |
+| Owner     | Can mint ethDYDX tokens after mint restriction | Short Timelock |
 
 ## Rewards Treasury Parameters
 

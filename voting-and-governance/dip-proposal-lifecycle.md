@@ -8,7 +8,7 @@ description: Overview of the dYdX Improvement Proposal (DIP) lifecycle.
 
 The dYdX Governance Process is fueled by governance forums at [**https://dydx.forum/**](https://dydx.forum/) and ratified through dYdX Improvement Proposal (“DIPs”).
 
-Below we outline a preliminary draft explaining how the dYdX governance process will flow, from the inception and definition of the concept to the actual implementation. These processes are subject to change according to feedback from the DYDX community.
+Below we outline a preliminary draft explaining how the dYdX v3 governance process will flow, from the inception and definition of the concept to the actual implementation. These processes are subject to change according to feedback from the dYdX community.
 
 The following flow chart is the initial proposed stages to pass a proposal:
 
@@ -40,7 +40,7 @@ Once posted on the governance forum, all questions and comments should be addres
 
 Snapshot polls serve two purposes: sentiment signaling for future on-chain DIPs and binding votes for variables controlled off-chain.
 
-Once an off-chain DRC has a very rough consensus, a community member with more than `10,000` DYDX proposing power can create an **off-chain vote** for the DRC on **Snapshot**. We encourage the dYdX Community to create Snapshot polls on Mondays to increase visibility during the regular workweek.
+Once an off-chain DRC has a very rough consensus, a community member with a total proposing power of more than `10,000` Governance Tokens can create an **off-chain vote** for the DRC on **Snapshot**. We encourage the dYdX Community to create Snapshot polls on Mondays to increase visibility during the regular workweek.
 
 Snapshot is a simple voting interface that allows users to signal sentiment off-chain. Votes on Snapshot are weighted by the voting power of the address used to vote.
 
@@ -49,7 +49,7 @@ For Snapshot polls related to sentiment signaling, the proposer will need to pro
 * details of the DRC,
 * a voting system,
 * a voting period - vote start date and vote end date set to a 4 day voting period, and
-* a voting delay - a Snapshot block number that is 6570 blocks (approximately 1 day based on 13.2 second block time) in the future. The Snapshot block number locks the state of community members who can vote. Token holders who hold tokens before the Snapshot block number are eligible to vote. Before the snapshot of each address’ respective voting power, the voting delay gives DYDX/stkDYDY holders time to acquire tokens, delegate voting power, and move tokens between wallets (moving tokens between wallets only applies to DYDX holders).
+* a voting delay - a Snapshot block number that is 6570 blocks (approximately 1 day based on 13.2 second block time) in the future. The Snapshot block number locks the state of community members who can vote. Token holders who hold tokens before the Snapshot block number are eligible to vote. Before the snapshot of each address’ respective voting power, the voting delay gives Governance Tokens holders time to acquire tokens, delegate voting power, and move tokens between wallets. Note, moving between wallets only applies to $ethDYDX and $wethDYDX.
 
 For decisions that don’t require an on-chain smart contract call, notably changes to the Trading and Liquidity Provider rewards formulas, Snapshot votes are considered the binding and final vote. The proposer will need to include the requirements above and provide:
 
@@ -57,7 +57,7 @@ For decisions that don’t require an on-chain smart contract call, notably chan
 
 The proposed change(s) will be implemented by dYdX Trading Inc. if the results of the Snapshot poll satisfy:
 
-* the minimum quorum - at least 1M DYDX/stkDYDX. The minimum quorum contributes to the decentralization of decision-making and protects against unilateral decision-making, and
+* the minimum quorum - at least `1,000,000` Governance Tokens. The minimum quorum contributes to the decentralization of decision-making and protects against unilateral decision-making, and
 * the minimum vote differential - at least 67% of votes must be in favor of the proposal. The minimum vote differential assists with filtering out proposals that are highly contentious and require further discussion.
 
 dYdX Trading Inc. will have up to 1 Epoch (28 days), an execution grace period, to implement changes from a successful Snapshot poll.
@@ -130,7 +130,7 @@ At any point in a DIP lifecycle, the proposer can cancel the DIP. A proposal can
 
 The **Voting Delay** is the number of Ethereum blocks to wait before voting on a proposal may begin after a proposal is submitted.
 
-DYDX voting power must be delegated to an address either entirely before a proposal has been submitted or during the proposal **Voting Delay**.
+Voting power must be delegated to an address either entirely before a proposal has been submitted or during the proposal **Voting Delay**.
 
 For now, the **Voting Delay** is set to `6,570 blocks`, which is about 1 day. This value is added to the current block number when a proposal is created.
 
@@ -138,7 +138,7 @@ In the future, dYdX Governance may vote to increase or decrease the **Voting Del
 
 ### What is the purpose of the Proposal Threshold?
 
-Since DYDX is a freely tradable asset, anyone can attempt a governance takeover via market buying. That said, to force-pass a bad faith vote would require a minimum of 5 million DYDX in the event of a short timelock or 20 million DYDX in the event of long timelock. If not outright impossible, this amount would be prohibitively expensive and likely cost more when accounting for price fluctuation than the net gain from the attack.
+Since $ethDYDX and $wethDYDX are freely tradable assets, anyone can attempt a governance takeover via market buying. That said, to force-pass a bad faith vote would require a minimum of `5,000,000` Governance Tokens in the event of a short timelock; or `20,000,000` Governance Tokens in the event of long timelock. If not outright impossible, this amount would be prohibitively expensive and likely cost more when accounting for price fluctuation than the net gain from the attack.
 
 If a group somehow achieved a bad faith takeover, the timelock delay would give affected agents time to withdraw their assets from the protocol. This would also be an opportunity to fork the protocol, a path that would likely be taken by the remaining good-faith actors.
 

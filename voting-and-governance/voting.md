@@ -4,48 +4,60 @@ description: An overview of the voting process.
 
 # Voting Process
 
-The Protocol is governed and upgraded by DYDX holders and delegatees.
+dYdX v3 is governed and upgraded by Governance Tokens holders and delegatees.
 
 ## **Proposing & Voting Powers**
 
-There are two powers associated with each DYDX token:
+There are two powers associated with each of the Governance Tokens:
 
 * The **proposing power** gives access to creating and sustaining a proposal.
 * The **voting power** is used to vote for or against existing proposals.
 
-DYDX holders receive governance powers proportionally to their sum of owned and delegated tokens at a given block.
+Governance Tokens holders receive governance powers proportionally to their sum of owned and delegated tokens at a given block.
 
-**`Proposing Power =`**`Proposing Power from DYDX token +`
+**`Proposing Power =`**`Proposing Power from $ethDYDX token +`
 
-`Proposing Power from staked-DYDX token +`
+`Proposing Power from $wethDYDX token +`
 
-`Proposing Power from DYDX token received as delegatee +`
+`Proposing Power from $stkDYDX token +`
 
-`Proposing Power from staked-DYDX token received as delegatee -`
+`Proposing Power from $ethDYDX token received as delegatee +`
 
-`Proposing Power from DYDX delegated -`
+`Proposing Power from $wethDYDX token received as delegatee +`
 
-`Proposing Power from staked-DYDX delegated`
+`Proposing Power from $stkDYDX token received as delegatee -`
+
+`Proposing Power from $ethDYDX delegated -`
+
+`Proposing Power from $wethDYDX delegated -`
+
+`Proposing Power from $stkDYDX delegated`
 
 \`\`
 
-**`Voting Power =`**`Voting Power from DYDX token +`
+**`Voting Power =`**`Voting Power from $ethDYDX token +`
 
-`Voting Power from staked-DYDX token +`
+`Voting Power from $wethDYDX token +`
 
-`Voting Power from DYDX token received as delegatee +`
+`Voting Power from $stkDYDX token +`
 
-`Voting Power from stkDYDX token received as delegatee -`
+`Voting Power from $ethDYDX token received as delegatee +`
 
-`Voting Power from DYDX delegated -`
+`Voting Power from $wethDYDX token received as delegatee +`
 
-`Voting Power from staked-DYDX delegated`
+`Voting Power from $stkDYDX token received as delegatee -`
+
+`Voting Power from $ethDYDX delegated -`
+
+`Voting Power from $wethDYDX delegated -`
+
+`Voting Power from $stkDYDX delegated`
 
 ## FAQ
 
 ### How do I vote?
 
-In order to participate in DYDX on-chain governance, you will need to have or be delegated DYDX tokens. You will also need ETH to cover transaction costs.
+In order to participate in dYdX governance, you will need to have or be delegated the Governance Tokens. You will also need ETH to cover transaction costs.
 
 If you have tokens or have been delegated tokens and there is an active proposal, you are ready to vote in dYdX Governance.
 
@@ -55,7 +67,7 @@ To cast your vote, navigate to the proposals page and click on an active proposa
 
 ### **How do I delegate?**
 
-DYDX allows holders to delegate voting rights to the address of their choice. Anybody can participate in dYdX governance by receiving delegation, without needing to own DYDX. Users can delegate to one address at a time, and the number of votes added to the delegatee’s vote count is equivalent to the balance of DYDX in the user’s account. Votes are delegated from the current block and onward, until the sender delegates again, or transfers their DYDX.
+dYdX governance allows holders to delegate voting rights to the address of their choice. Anybody can participate in dYdX governance by receiving delegation, without needing to own Governance Tokens. Users can delegate to one address at a time, and the number of votes added to the delegatee’s vote count is equivalent to the balance of Governance Tokens in the user’s account. Votes are delegated from the current block and onward, until the sender delegates again, or transfers their Governance Tokens.
 
 ![Delegate away your voting & proposing powers](../.gitbook/assets/1-delegate-power.png)
 
@@ -70,16 +82,16 @@ To delegate your tokens to a wallet address:
 * Select type of power you want to delegate
 * Enter a Wallet Address for a third party to whom you would like to delegate your voting and/or proposal power to. Delegating powers does not transfer your tokens
 
-Delegating and undelegating DYDX require users to spend Ethereum gas fees.
+Delegating and undelegating Governance Tokens require users to spend Ethereum gas fees.
 
 ### Can I change my vote after I have already voted?
 
 Once a vote is cast on-chain, it is not possible to change your vote.
 
-### Can I transfer my DYDX while the vote is in progress?
+### Can I transfer my Governance Tokens while the vote is in progress?
 
 Yes.
 
 ### Can I add more tokens to my vote?
 
-When a DIP is submitted on-chain, a snapshot is taken of current token holders. Users will need to own or be staked DYDX tokens before the start block.
+When a DIP is submitted on-chain, a snapshot is taken of current token holders. Users will need to own Governance Tokens before the start block.

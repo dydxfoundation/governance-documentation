@@ -4,9 +4,9 @@ description: Overview of the Liquidity Provider rewards Program.
 
 # Liquidity Provider Rewards
 
-**5.2%** (`52,458,925 $DYDX`) of the token supply is allocated to be distributed to liquidity providers ("LPs") based on formulas that reward a combination of maker volume, uptime, two-sided depth, bid-ask spreads, and the number of markets supported. Initially, **7.5%** (`75,000,000 $DYDX`)  of the token supply  was allocated for LP rewards.
+**5.2%** (`52,458,925 $ethDYDX`) of the token supply is allocated to be distributed to liquidity providers ("LPs") based on formulas that reward a combination of maker volume, uptime, two-sided depth, bid-ask spreads, and the number of markets supported. Initially, **7.5%** (`75,000,000 $ethDYDX`) of the token supply was allocated for LP rewards.
 
-* In [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/14) to reduce Liquidity Provider Rewards by 50% from    `1,150,685 DYDX` per epoch to `575,343 DYDX` per epoch. As a result, the allocation for LP rewards decreased from `7.5%` to `5.2%`.&#x20;
+* In [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/14) to reduce Liquidity Provider Rewards by 50% from   `1,150,685 $ethDYDX` per epoch to `575,343 $ethDYDX` per epoch. As a result, the allocation for LP rewards decreased from `7.5%` to `5.2%`.&#x20;
 
 **Objectives**
 
@@ -14,11 +14,11 @@ description: Overview of the Liquidity Provider rewards Program.
 
 ## **Overview**
 
-To incentivize market liquidity, $DYDX will be distributed to liquidity providers based on formulas that reward participation in markets, maker volume, two-sided depth, spread (vs. mid-market), and uptime on dYdX’s Layer 2 Protocol. Any Ethereum address can earn these rewards, subject to a minimum maker volume threshold of 0.25% of maker volume in the preceding epoch. $DYDX will be distributed on a 28-day epoch basis over five years and are not subject to any vesting or lockups. 575,343 $DYDX will be distributed per epoch.
+To incentivize market liquidity, $ethDYDX will be distributed to liquidity providers based on formulas that reward participation in markets, maker volume, two-sided depth, spread (vs. mid-market), and uptime on dYdX v3. Any Ethereum address can earn these rewards, subject to a minimum maker volume threshold of 0.25% of maker volume in the preceding epoch. $ethDYDX will be distributed on a 28-day epoch basis over five years and are not subject to any vesting or lockups. 575,343 $ethDYDX will be distributed per epoch.
 
-The following functions are used to compute how much $DYDX should be rewarded to each liquidity provider per epoch. In [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md), the dYdX community voted to revise the LP rewards formula by splitting the functions for BTC/ETH markets and non BTC/ETH markets. In [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md), the dYdX community voted to re-allocate the 0.05 $stkDYDX weight to MakerVolume.&#x20;
+The following functions are used to compute how much $ethDYDX should be rewarded to each liquidity provider per epoch. In [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md), the dYdX community voted to revise the LP rewards formula by splitting the functions for BTC/ETH markets and non BTC/ETH markets. In [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md), the dYdX community voted to re-allocate the 0.05 stkDYDX weight to MakerVolume.&#x20;
 
-Overall, the weighting of volume in the functions was increased in all markets. The amount of $DYDX earned is determined by the relative share of each participant’s $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​).
+Overall, the weighting of volume in the functions was increased in all markets. The amount of ethDYDX earned is determined by the relative share of each participant’s $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​).
 
 <figure><img src="../.gitbook/assets/Updated LP Rewards Formulas.png" alt=""><figcaption></figcaption></figure>
 
@@ -51,29 +51,29 @@ Each market will have its own rewards pool that will be weighted differently. In
 
 ### Who is eligible for liquidity provider rewards?
 
-All liquidity providers who have achieved a minimum of 0.25% of maker volume on the dYdX Layer 2 Protocol in the prior epoch are eligible to receive $DYDX as rewards in a given epoch.
+All liquidity providers who have achieved a minimum of 0.25% of maker volume on dYdX v3 in the prior epoch are eligible to receive ethDYDX as rewards in a given epoch.
 
-The dYdX Layer 2 Protocol is not available to liquidity providers in the United States or Restricted Territories, as defined in dYdX Trading Inc.’s [Terms of Use](https://dydx.exchange/terms).
+dYdX v3 is not available to liquidity providers in the United States or Restricted Territories, as defined in dYdX Trading Inc.’s [Terms of Use](https://dydx.exchange/terms).
 
-### How much $DYDX did I earn in the Liquidity Provider Rewards program?
+### How much $ethDYDX did I earn in the Liquidity Provider Rewards program?
 
-In a given epoch, liquidity providers earn yield based on their relative $$Q_{SCORE}$$ in a given pair’s market. Each pair has its own relative reward amount set by governance. The expected amount of DYDX earned is displayed in the [LP Rewards Dashboard](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true) and can be determined based on the number of liquidity providers involved, the relative $$Q_{SCORE}$$, and the amount of reward available for a given pair.
+In a given epoch, liquidity providers earn yield based on their relative $$Q_{SCORE}$$ in a given pair’s market. Each pair has its own relative reward amount set by governance. The expected amount of ethDYDX earned is displayed in the [LP Rewards Dashboard](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true) and can be determined based on the number of liquidity providers involved, the relative $$Q_{SCORE}$$, and the amount of reward available for a given pair.
 
 ### How do I claim my Liquidity Provider Rewards?
 
 Liquidity Provider Rewards are surfaced in the [dYdX API](https://docs.dydx.exchange/). Although not surfaced on the governance user interface, they are still claimable via the governance at the end of every epoch [here](https://dydx.community/dashboard).
 
-### When can I withdraw and transfer my claimed $DYDX Liquidity Provider Rewards?
+### When can I withdraw and transfer my claimed $ethDYDX Liquidity Provider Rewards?
 
-$DYDX tokens rewarded via the Liquidity Provider Rewards will become claimable and transferable once the initial transfer restriction period is lifted.
+$ethDYDX tokens rewarded via the Liquidity Provider Rewards will become claimable and transferable once the initial transfer restriction period is lifted.
 
-Starting in Epoch 1, $DYDX tokens rewarded via the Liquidity Provider Rewards will become claimable `7 days` (**Waiting Period**) after the end of each epoch.
+Starting in Epoch 1, $ethDYDX tokens rewarded via the Liquidity Provider Rewards will become claimable `7 days` (**Waiting Period**) after the end of each epoch.
 
 ### How are two-sided depth, bid-ask spread, and uptime defined and measured?
 
 **Two-sided depth**
 
-A two-sided liquidity provider is a firm or individual who actively quotes two-sided markets on the dYdX Layer 2 Protocol, providing bids and asks for a given market. They provide liquidity to the protocol overall.
+A two-sided liquidity provider is a firm or individual who actively quotes two-sided markets on dYdX v3, providing bids and asks for a given market. They provide liquidity to the protocol overall.
 
 For instance, a liquidity provider in the BTC-USD market may provide a quote of $30,000-$30,100, 10x50. This means that they bid (they will buy) 10 BTC for $30,000 and also offer (they will sell) 50 BTC at $30,100. Other market participants may then buy (lift the offer) from the liquidity provider at $30,100 or sell to them (hit the bid) at $30,000.
 

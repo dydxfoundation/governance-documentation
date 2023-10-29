@@ -1,20 +1,20 @@
 ---
 description: >-
-  A technical, step-by-step guide on how to create a proposal to transfer DYDX
-  from the community treasury to a destination address.
+  A technical, step-by-step guide on how to create a proposal to transfer
+  ethDYDX from the community treasury to a destination address.
 ---
 
 # Technical Guide on building a dYdX Community Treasury Spending Proposal
 
-Reverie has put together a comprehensive, technical guide for submitting a governance proposal to transfer DYDX from the Community Treasury through a Pull Request (PR) to the dYdX _governance-contracts_ repository.&#x20;
+Reverie has put together a comprehensive, technical guide for submitting a governance proposal to transfer $ethDYDX from the Community Treasury through a Pull Request (PR) to the dYdX _governance-contracts_ repository.&#x20;
 
-To create this proposal, a  dYdX community member must have **at least 5M DYDX** _(0.5% of total supply)_ of proposal power ([proposal threshold](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters) for a [short timelock vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)).
+To create this proposal, a  dYdX community member must have **at least 5M Governance Tokens** _(0.5% of total supply)_ of proposal power ([proposal threshold](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters) for a [short timelock vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)).
 
 ### Preliminary Requirements
 
 The following steps must be completed ahead of completing the Pull Request (PR):
 
-1. **Proposal Lifecycle:** The DRC must be posted following the proposal [template](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md)  and there must be a successful Snapshot vote.
+1. **Proposal Lifecycle:** The DRC must be posted following the proposal [template](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) and there must be a successful Snapshot vote.
 2. **Destination Address:** The destination address must be generated ahead of time. If the destination address is a multi-sig, the multi-sig wallet must be created.
 3. **GitHub account:** A GitHub account to fork the repository.
 4. **Transfer Amount (Optional):** Preferably, the requested transfer amount has been established ahead of the PR. However, if using a notional amount, it can be set as a final step prior to approval.
@@ -574,7 +574,7 @@ git push
 
 b. **Submit a PR to the dYdX repository**
 
-****<img src=".gitbook/assets/Screenshot 2022-12-14 at 5.06.23 PM.png" alt="" data-size="original">****
+<img src=".gitbook/assets/Screenshot 2022-12-14 at 5.06.23 PM.png" alt="" data-size="original">
 
 c. **Wait for review and approval from the repository manager**
 
