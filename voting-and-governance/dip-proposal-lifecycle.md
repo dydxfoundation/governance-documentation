@@ -8,7 +8,7 @@ description: Visión general del ciclo de vida de la propuesta de mejora de dYdX
 
 El Proceso de gobernanza de dYdX se alimenta de los foros de gobernanza en [**https://dydx.forum/**](https://dydx.forum/) y se ratifica a través de la Propuesta de mejora de dYdX ("DIP").
 
-A continuación, describimos un borrador preliminar que explica cómo fluirá el proceso de gobernanza de dYdX, desde el inicio y la definición del concepto hasta la implementación. Esos procesos están sujetos a cambios según los comentarios de la comunidad de DYDX.
+
 
 El siguiente diagrama de flujo muestra las etapas iniciales propuestas para aprobar una propuesta:
 
@@ -40,7 +40,7 @@ Una vez publicadas en el foro de gobernanza, todas las preguntas y comentarios d
 
 Las encuestas de Snapshot sirven para dos objetivos: la señalización del sentimiento para futuros DIP y votos vinculantes en la cadena para variables controladas fuera de la cadena.
 
-Una vez que un DRC fuera de la cadena tiene un consenso muy aproximado, un miembro de la comunidad con más de `10,000` DYDX de poder de propuesta puede generar un **voto fuera de la cadena (off-chain**) para el DRC en **Snapshot**. Animamos a la comunidad de dYdX a crear encuestas de Snapshot los lunes para aumentar la visibilidad durante la semana de trabajo regular.
+Animamos a la comunidad de dYdX a crear encuestas de Snapshot los lunes para aumentar la visibilidad durante la semana de trabajo regular.
 
 Snapshot es una interfaz de votación simple que permite a los usuarios señalar sentimientos fuera de la cadena. Los votos en Snapshot son ponderados por la facultad de voto de la dirección utilizada para votar.
 
@@ -49,7 +49,7 @@ Para las encuestas de Snapshot relacionadas con la señalización del sentimient
 * detalles del DRC,
 * un sistema de votación,
 * un período de votación - fecha de inicio de la votación y fecha de finalización de la votación establecidas para un período de 4 días, y
-* un retraso de votación - un número de bloque de Snapshot que es de 6570 bloques (aproximadamente 1 día basado en un tiempo de bloque de 13,2 segundos) en el futuro. El número de bloque de Snapshot bloquea el estado de los miembros de la comunidad que pueden votar. Los titulares de tokens que poseen tokens antes del número de bloque de Snapshot son elegibles para votar. Antes de la instantánea de la facultad de voto de cada dirección, el retraso de la votación les da tiempo a los titulares de DYDX/stkDYDY para adquirir tokens, delegar la facultad de voto y mover tokens entre billeteras (el movimiento de tokens entre billeteras solo se aplica a los titulares de DYDX).
+* un retraso de votación - un número de bloque de Snapshot que es de 6570 bloques (aproximadamente 1 día basado en un tiempo de bloque de 13,2 segundos) en el futuro. El número de bloque de Snapshot bloquea el estado de los miembros de la comunidad que pueden votar. Los titulares de tokens que poseen tokens antes del número de bloque de Snapshot son elegibles para votar.
 
 Para las decisiones que no requieren una llamada de contrato inteligente en cadena, en particular los cambios en las fórmulas de recompensas de proveedor de negociación y liquidez, los votos instantáneos se consideran el voto vinculante y final. El proponente deberá incluir los requisitos anteriores y proporcionar:
 
@@ -57,7 +57,7 @@ Para las decisiones que no requieren una llamada de contrato inteligente en cade
 
 Los cambios propuestos serán implementados por dYdX Trading Inc. si los resultados de la encuesta de Snapshot satisfacen:
 
-* el quórum mínimo - al menos 1M DYDX/stkDYDX. El quórum mínimo contribuye a la descentralización de la toma de decisiones y protege contra la toma de decisiones unilaterales y
+* El quórum mínimo contribuye a la descentralización de la toma de decisiones y protege contra la toma de decisiones unilaterales y
 * el diferencial de voto mínimo - al menos el 67% de los votos deben estar a favor de la propuesta. El diferencial de voto mínimo ayuda a filtrar propuestas que son altamente contenciosas y requieren más discusiones.
 
 dYdX Trading Inc. tendrá hasta 1 Epoch (28 días), un período de gracia de ejecución, para implementar cambios basados en una encuesta de Snapshot exitosa.
@@ -130,7 +130,7 @@ En cualquier momento del ciclo de vida del DIP, el proponente puede cancelar el 
 
 La **Demora en la votación** es el número de bloques de Ethereum que hay esperar antes de votar sobre una propuesta, que puede comenzar después de que se envíe una propuesta.
 
-La facultad de voto en DYDX debe delegarse a una dirección ya sea completamente antes de que se haya presentado una propuesta o durante la **Demora de la votación. **
+
 
 Por ahora, la **demora en la votación** está configurada en `6.570 bloques`, que es aproximadamente 1 día. Este valor se le agrega al número del bloque actual cuando se crea una propuesta.
 
@@ -138,7 +138,7 @@ En el futuro, la gobernanza de dYdX puede votar para aumentar o disminuir **la d
 
 ### ¿Cuál es el objetivo del umbral de la propuesta?
 
-Dado que DYDX es un activo libremente negociable, cualquier persona puede intentar una toma de la gobernanza mediante la compra de mercado. Dicho esto, para aprobar forzadamente una votación de mala fe se necesitaría un mínimo de 5 millones de DYDX en caso de un bloqueo de tiempo corto o 20 millones de DYDX en caso de un bloqueo de tiempo largo. Si no es totalmente imposible, esa cantidad sería prohibitivamente costosa y probablemente costaría más cuando se contabilizara la fluctuación de precios que la ganancia neta del ataque.
+Si no es totalmente imposible, esa cantidad sería prohibitivamente costosa y probablemente costaría más cuando se contabilizara la fluctuación de precios que la ganancia neta del ataque.
 
 Si algún grupo lograra de alguna manera una toma de mala fe, la demora en el bloqueo de tiempo les daría a los agentes afectados tiempo para retirar sus activos del protocolo. Eso también sería una oportunidad de bifurcar el protocolo, una ruta que probablemente tomarían los actores de buena fe que queden.
 
