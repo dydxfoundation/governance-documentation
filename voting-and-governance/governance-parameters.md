@@ -4,7 +4,7 @@ description: Visión general de los parámetros de gobernanza.
 
 # Parámetros
 
-Al momento de lanzar la gobernanza, los titulares de DYDX tienen control inmediato e irrevocable sobre:
+
 
 * Asignación de la tesorería de la comunidad
 * Nuevos listados de tokens en el Protocolo
@@ -20,7 +20,7 @@ La gobernanza dYdX control de los parámetros de los siguientes contratos:
 * [Bloqueo de tiempo](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/voting-and-governance-process/parameters.md#timelock-parameters)
 * Bloqueo de tiempo de prioridad
 * Gobernador
-* Tokens de DYDX
+*
 * Tesorería
 * Distribuidor Merkle
 * Participación de liquidez
@@ -40,11 +40,11 @@ La gobernanza dYdX control de los parámetros de los siguientes contratos:
 | Agregar un rol de ejecutor | Dirección que puede agregar nuevos ejecutores | Bloqueo de corto tiempo |
 | Función de propietario | Puede cambiar la estrategia / retraso de votación / desautorizar ejecutores y tiene otros roles | Bloqueo de largo tiempo |
 
-## Tokens de DYDX
+##
 
 | Parámetro | Descripción | Valor |
-| --------- | ------------------------------------------- | -------------- |
-| Propietario | Puede acuñar tokens de DYDX después de la restricción de acuñación | Bloqueo de corto tiempo |
+| --------- | ---------------------------------------------- | -------------- |
+| Propietario |  | Bloqueo de corto tiempo |
 
 ## Parámetros de tesorería de recompensas
 

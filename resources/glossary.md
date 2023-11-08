@@ -4,13 +4,17 @@ description: Descripción general de los términos clave relacionados con la gob
 
 # Glosario
 
-**DYDX:** el activo nativo del ecosistema DYDX, que constituye la base de la gobernanza y la seguridad para el Protocolo dUdX. DYDX es un token ERC-20 que designa el peso de la capacidad de voto o de propuesta de un usuario.
+$**ethDYDX:** El activo nativo del ecosistema dYdX basado en Ethereum que constituye la base de la gobernanza y la seguridad de dYdX v3. $ethDYDX es un token ERC-20 que designa el peso del poder de voto o propuesta de un usuario.
 
-**Protocolo dYdX: Protocolo** de perpetuals de la Capa 2 de dYdX.
+**$wethDYDX:** La versión envuelta de $ethDYDX que se obtiene interactuando con el contrato inteligente $wethDYDX. $wethDYDX es un token ERC-20 que designa el peso del poder de voto o propuesta de un usuario.
+
+**dYdX v3:** Protocolo perpetuo de la Capa 2 de dYdX.
 
 **Fundación dYdX:** una fundación independiente, con sede en Zug, Suiza, creada para participar en el impulso del Protocolo dYdX a futuro.
 
-**Contrato de Token DYDX**: contiene instantáneas del poder de voto de cada dirección en diferentes bloques de tiempo.
+**Contrato de Token $ethDYDX**: Contiene instantáneas del poder de voto de cada dirección en diferentes bloques en el tiempo.
+
+**Contrato de Token $wethDYDX**: Contiene instantáneas del poder de voto de cada dirección en diferentes bloques en el tiempo.
 
 **DIP:** las propuestas de mejoras de dYdX son propuestas en cadena.
 
@@ -22,7 +26,7 @@ description: Descripción general de los términos clave relacionados con la gob
 
 **Período de gracia de ejecución:** el período después de la votación cuando una propuesta de DIP se ejecuta, durante el cual debe ser ejecutada.
 
-**Contrato de estrategia de gobernanza**: contiene la lógica de medición del poder relativo de los usuarios para proponer y votar.
+**Contrato de estrategia de gobernanza V2**: Contiene la lógica de medición del poder relativo de los usuarios para proponer y votar.
 
 **Contrato de gobernanza**: realiza un seguimiento de las propuestas y puede ejecutar propuestas a través del contrato inteligente de bloqueo de tiempo.
 
@@ -38,7 +42,7 @@ description: Descripción general de los términos clave relacionados con la gob
 
 **Ejecutor de Starkware:** el ejecutor de Starkware puede ejecutar propuestas generalmente que modifican partes del protocolo que actualmente requieren la intervención de Starkware.
 
-**Contrato de bloqueo de tiempo**: puede poner en cola o cancelar o ejecutar las transacciones votadas por la gobernanza. Las funciones de una propuesta son iniciadas por el contrato de bloqueo de tiempo. Las transacciones en cola se pueden ejecutar después de un retraso y hasta que el período de gracia no haya terminado.
+**Contrato de bloqueo de tiempo**: puede poner en cola o cancelar o ejecutar las transacciones votadas por la gobernanza. Las funciones de una propuesta son iniciadas por el contrato de bloqueo de tiempo. Las transacciones en cola se pueden ejecutar después de un retraso y hasta la finalización del período de gracia.
 
 **Retraso de bloqueo de tiempo:** el retraso antes de que una propuesta de DIP se ejecute después de que una propuesta pase e ingrese a la cola.
 

@@ -6,15 +6,15 @@ description: Una visión general del tesoro de recompensas.
 
 ## Visión general
 
-Además del dYdX invertido en el Fondo de la comunidad, la comunidad de dYdX también puede acceder al $DYDX que se acumula en el Fondo de Recompensas como resultado de los siguientes votos:
 
-* [DIP 14](https://dydx.community/dashboard/proposal/7) - fija las recompensas por la inversión de USDC en 0 (383 562 $DYDX por etapa);
-* [DIP 16](https://dydx.community/dashboard/proposal/8) - reduce las recompensas de trading en un 25 % (958 904 $DYDX por etapa);
-* [DIP 17](https://dydx.community/dashboard/proposal/9) - fija las recompensas por invertir $DYDX en 0 (383 562 $DYDX por etapa),
-* [DIP 20](https://dydx.community/dashboard/proposal/11) - reduce aún más las recompensas de trading en un 45 % (1 294 520 $DYDX por etapa), y
-* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md): reduce las recompensas de proveedores de liquidez en un 50 % (575 342 $DYDX por etapa).
 
-A partir de la etapa 26, 3 595 890 $DYDX se acumularán en la Tesorería de Recompensas en cada etapa y estos podrán ser utilizados por la comunidad de dYdX con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters). \
+*
+*
+*
+*
+*
+
+\
 
 
 ## Preguntas frecuentes
@@ -23,6 +23,6 @@ A partir de la etapa 26, 3 595 890 $DYDX se acumularán en la Tesorería de Reco
 
 Los miembros de la comunidad dYdX pueden ver el balance invertido de la Tesorería de la comunidad [aquí](https://dydx.shippooor.xyz/)\\. Además, la Fundación dYdX publica el balance acumulado de la Tesorería de la comunidad en la [Revisión de la etapa](https://dydx.foundation/blog) al final de cada etapa.
 
-### ¿Quién puede presentar propuestas para gastar $DYDX de la Tesorería de recompensas?
+###
 
-Cualquier usuario con poder de propuesta suficiente puede presentar propuestas. Para gastar cualquier $DYDX de la Tesorería de la comunidad y/o de la Tesorería de recompensas se requerirá un voto de gobernanza. Para enviar una propuesta, envía una propuesta de mejora de dYdX (DIP) tal como se describe en el [ciclo de vida de la propuesta de DIP](../voting-and-governance/dip-proposal-lifecycle.md).
+Cualquier usuario con poder de propuesta suficiente puede presentar propuestas. Para enviar una propuesta, envía una propuesta de mejora de dYdX (DIP) tal como se describe en el [ciclo de vida de la propuesta de DIP](../voting-and-governance/dip-proposal-lifecycle.md).
