@@ -4,7 +4,7 @@ description: Una visión general del sistema de etapas
 
 # Etapas
 
-Todas las recompensas y contratos de participación funcionan en ciclos de `28 días`, conocidos como **etapas**. Una nueva etapa comienza automáticamente cuando la etapa actual finaliza.
+Todas las recompensas y contratos de participación funcionan en ciclos `de 28 días`, conocidos como **etapas**. Una nueva etapa comienza automáticamente cuando la etapa finaliza.
 
 Lo siguiente ocurrirá al final de cada época:
 
@@ -13,18 +13,18 @@ Lo siguiente ocurrirá al final de cada época:
 * Los retiros solicitados para el **fondo de participación de liquidez** en la etapa final pueden ser retirados.
 * Los retiros solicitados para el **Fondo de participación de seguridad** la etapa final pueden ser retirados.
 
-Lo siguiente ocurrirá solo al final de la **etapa 0**:
+Lo siguiente ocurrirá solo al final de la **Etapa 0**:
 
 * Se distribuirán recompensas de minería retroactivas. Las recompensas podrán reclamarse en [**dydx.community**](https://dydx.community) aproximadamente `8 días` después del final de la etapa 0.
-* Las transferencias de $DYDX están restringidas inicialmente. El período de Restricción inicial de transferencias terminó aproximadamente `8 días` después del final de la etapa 0.
-* **Los $DYDX se hicieron transferibles el 8 de septiembre de 2021 a las 15:00:00 UTC.**
+* El período de Restricción inicial de transferencias terminó aproximadamente `8 días` después del final de la etapa 0.
+*
 
-**La etapa 0** saldrá en vivo el **3 de agosto de 2021 a las 15:00:00 UTC**. La siguiente tabla describe las fechas de inicio y final de la etapa (que pueden ser modificadas por el gobierno de dYdX):
+
 
 | Etapa | Fecha de inicio (UTC) | Fecha de finalización (UTC) | Días | Años acumulados |
 | ----- | ------------------- | ------------------- | ---- | ---------------- |
-| 0 | 3/8/2021 15:00:00 | 31/8/2021 15:00:00 | 28 | 0,08 |
-| 1 | 31/8/2021 15:00:00 | 28/09/2021 15:00:00 | 28 | 0,15 |
+| 0 | 8/3/2021 15:00:00 | 8/31/2021 15:00:00 | 28 | 0,08 |
+| 1 | 8/31/2021 15:00:00 | 28/09/2021 15:00:00 | 28 | 0,15 |
 | 2 | 28/09/2021 15:00:00 | 26/10/2021 15:00:00 | 28 | 0,23 |
 | 3 | 26/10/2021 15:00:00 | 23/11/2021 15:00:00 | 28 | 0,31 |
 | 4 | 23/11/2021 15:00:00 | 21/12/2021 15:00:00 | 28 | 0,38 |
@@ -94,45 +94,45 @@ La Fundación dYdX ha creado un Calendario público de Google con fechas de inic
 
 ## **¿Cuándo se activarán las recompensas y los fondos de participación?**
 
-* Las [Recompensas de minado retroactivas](../rewards/retroactive-mining-rewards.md) ya están en vivo en el Protocolo. Estas recompensas se ejecutarán hasta el **31 de agosto de 2021 a las 15:00:00 UTC**.
+*
 * Las [Recompensas de operación ](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md)ya están en vivo en el Protocolo. Estas recompensas se ejecutarán hasta el **3 de agosto de 2026 a las 15:00:00 UTC**.
 * Las [Recompensas de proveedores de liquidez](../rewards/liquidity-provider-rewards.md) ya están en vivo en el Protocolo. Estas recompensas se ejecutarán hasta el **3 de agosto de 2026 a las 15:00:00 UTC**.
 * El [Fondo de participación de liquidez](../staking-pools/liquidity-staking-pool.md) se cerró el 29 de septiembre de 2022.
 * El [Fondo de participación de seguridad](../staking-pools/safety-staking-pool.md) se cerró el 28 de noviembre de 2022.
 
-## ¿Puede modificar la gobernanza de dYdX el calendario de las etapas?
+## ¿Puede modificar la gobernanza de dYdX el calendario de Epoch?
 
-La duración inicial de las etapas es de `28 días`. La gobernanza de dYdX puede votar para modificar las duraciones de las etapas dentro de los límites especificados. Las duraciones mínima y máxima de las etapas son de `6 días` y `92 días`, respectivamente.
+Las longitudes mínima y máxima de Epoch son `6 días` y `92 días`, respectivamente.
 
-## ¿Qué es el periodo de bloqueo?
+## ¿Qué es la ventana de bloqueo?
 
-Para el [Fondo de participación de liquidez](../staking-pools/liquidity-staking-pool.md) y el [Fondo de participación de seguridad](../staking-pools/safety-staking-pool.md), se aplica un calendario de etapas para retiros para proporcionar previsibilidad y una cadencia regular para la disponibilidad de fondos en el fondo. Un inversor debe solicitar desinvertir fondos antes periodo de bloqueo para poder retirar los fondos del inversor después del final de esa etapa. Si un inversor no solicita retirar, los fondos invertidos del inversor se transferirán en la siguiente etapa.
+Para el [fondo de participación de liquidez](../staking-pools/liquidity-staking-pool.md) y el [fondo de participación de seguridad](../staking-pools/safety-staking-pool.md), se aplica un calendario de Epoch para retiros para proporcionar previsibilidad y una cadencia regular para la disponibilidad de fondos en el fondo. Un inversor debe solicitar desinvertir fondos antes de la ventana de blackout para poder retirar los fondos del inversor después del final de ese Epoch. Si un inversor no solicita retirar, los fondos invertidos del inversor se transferirán en la siguiente etapa.
 
-El período de bloqueo recomendado para cada uno de los Fondos de participación de liquidez y el Fondo de seguridad es de `14 días`. En [DIP 17](https://dydx.community/dashboard/proposal/9), la comunidad dYdX [votó](https://dydx.community/dashboard/proposal/7) para reducir la duración de la Ventana de blackout de `14` a `3 días`. La gobernanza de dYdX puede votar para modificar el período de bloqueo, dentro de los límites especificados. El mínimo y máximo de los períodos de bloqueo son de `3 días` y `46 días`, respectivamente.
+El período de bloqueo recomendado para cada uno de los Fondos de participación de liquidez y el Fondo de seguridad es de `14 días`. En [DIP 17](https://dydx.community/dashboard/proposal/9), la comunidad dYdX [votó](https://dydx.community/dashboard/proposal/7) para reducir la duración de la Ventana de blackout de `14` a `3 días`. La gobernanza de dYdX puede votar para modificar el período de bloqueo, dentro de los límites especificados. Las ventanas de bloque mínimas y máximas son de `3 días` y `46 días`, respectivamente.
 
-## ¿Cuándo puedo retirar y transferir mis recompensas ganadas de DYDX?
+##
 
-Los tokens de DYDX ganados por medio de las [recompensas de minería retroactivas](../rewards/retroactive-mining-rewards.md), las [recompensas de trading y l](../rewards/trading-rewards.md)as reco[mpensas de proveedores de liquidez son](../rewards/liquidity-provider-rewards.md) transferibles al final de cada etapa. Los titulares de $DYDX están obligados a esperar aproximadamente `7 días` (**período de espera**) después del final de la etapa para reclamar sus tokens. Una vez que se han reclamado los tokens, se pueden transferir o delegar a la gobernanza de dYdX.
+Una vez que se han reclamado los tokens, se pueden transferir o delegar a la gobernanza de dYdX.
 
-Los tokens de $DYDX ganados por medio del Fondo de participación de liquidez y el Fondo de participación de seguridad se pueden reclamar en cada bloque y se pueden retirar en cualquier momento durante cualquier etapa dada.
 
-El **8 de septiembre de 2021 a las 15:00:00 UTC**, 8 días después del final de la etapa 0, las restricciones de transferencia iniciales se levantarán automáticamente. En ese punto, aproximadamente **el 8,11 %** del suministro de $DYDX se volverá líquido.
 
-## ¿Cuál es el objetivo del periodo de espera? ¿Cómo se almacenan las recompensas al final de cada etapa?
 
-Las [recompensas de minería retroactivas](../rewards/retroactive-mining-rewards.md), las [recompensas de trading](../rewards/trading-rewards.md) y las [recompensas de proveedores de liquidez](../rewards/liquidity-provider-rewards.md) se almacenan en un árbol de Merkle, que contiene las recompensas acumuladas ganadas por cada usuario desde el inicio del programa de distribución.
 
-Al final de cada etapa, la raíz de Merkle se actualiza mediante el sistema de oráculo de ChainLink en el contrato inteligente de `MerkleDistributorV1` para reflejar las recompensas ganadas en la última etapa. Una actualización se realiza configurando la raíz de Merkle propuesta al último valor devuelto por el contrato de oráculos. La raíz de Merkle propuesta se puede activar después de que haya transcurrido un **periodo de espera** de `7 días`. Durante el periodo de espera, la Gobernanza de dYdX tiene la oportunidad de congelar la raíz de Merkle, en caso de que la raíz propuesta sea incorrecta o maliciosa. Si la raíz de Merkle no está congelada, la nueva raíz de Merkle se activará y los usuarios pueden reclamar sus recompensas del epoch anterior.
+## ¿Cuál es el objetivo del periodo de espera? ¿Cómo se almacenan las recompensas al final de cada epoch?
 
-Cada vez que cambia la etapa, ocurre lo siguiente en orden:
+Las [recompensas de minería retroactivas](../rewards/retroactive-mining-rewards.md), las [recompensas de operaciones](../rewards/trading-rewards.md) y las [recompensas de proveedores de liquidez](../rewards/liquidity-provider-rewards.md) se almacenan en un árbol de Merkle, que contiene las recompensas acumuladas ganadas por cada usuario desde el inicio del programa de distribución.
 
-* Cuando una etapa termina, los datos de recompensas se calculan para toda la actividad de los usuarios desde la última etapa.
+Al final de cada epoch, la raíz de Merkle se actualiza mediante el sistema de oráculo de ChainLink en el contrato inteligente de `MerkleDistributorV1` para reflejar las recompensas ganadas en el último epoch. Una actualización se realiza configurando la raíz de Merkle propuesta al último valor devuelto por el contrato de oráculos. La raíz de Merkle propuesta se puede activar después de haya transcurrido un **período de espera** de `7 días`. Durante el periodo de espera, la Gobernanza de dYdX tiene la oportunidad de congelar la raíz de Merkle, en caso de que la raíz propuesta sea incorrecta o maliciosa. Si la raíz de Merkle no está congelada, la nueva raíz de Merkle se activará y los usuarios pueden reclamar sus recompensas del epoch anterior.
+
+Cada vez que cambia el epoch, ocurre lo siguiente en orden:
+
+* Cuando un epoch termina, los datos de recompensas se calculan para toda la actividad de los usuarios desde el último epoch.
 * Esos datos se agregan a una estructura de datos en IPFS, almacenados bajo un nombre fijo de IPNS.
-* El sistema de oráculo de ChainLink, también notando el cambio de etapa, consulta los últimos datos de recompensas utilizando el nombre de IPNS conocido.
+* El sistema de oráculo de ChainLink, también notando el cambio en epoch, consulta los últimos datos de recompensas utilizando el nombre de IPNS conocido.
 * Cada firmante de oráculo utiliza esos datos de las recompensas para calcular las recompensas ganadas recientemente por cada usuario.
 * Cada firmante de oráculo calcula el nuevo árbol acumulado de Merkle y la raíz de Merkle.
-* Cada firmante de oráculo escribe los datos de los árboles de Merkle en IPFS, recibiendo un CID de IPFS. (Deben haber calculado el mismo árbol y, por lo tanto, deberían recibir la misma CID).
-* Si los firmantes de oráculo están de acuerdo en los mismos valores, el oráculo de recompensas se actualiza con la nueva raíz de Merkle, IPFS CID y número de etapa.
+* Cada firmante de oráculo escribe los datos de los árboles de Merkle en IPFS, recibiendo un CID de IPFS. (Deben haber calculado el mismo árbol y, por lo tanto, deberían recibir el mismo CID).
+* Si los firmantes de oráculo están de acuerdo en los mismos valores, el oráculo de recompensas se actualiza con la nueva raíz de Merkle, IPFS CID y número de epoch.
 * Un firmante de oráculo (o un tercero) llama la función pública `MerkleDistributorV1.proposeRoot()` para establecer la raíz de Merkle propuesta en el nuevo valor de oráculo.
 * Hay un período de espera durante el cual la gobernanza puede llamar `MerkleDistributorV1.pauseRootUpdates()` para evitar que la raíz de Merkle propuesta entre en vigor.
 * Después del período de espera, un firmante de oráculo (o un tercero) llama la función pública `MerkleDistributorV1.updateRoot()` haciendo que la raíz de Merkle propuesta se active.
