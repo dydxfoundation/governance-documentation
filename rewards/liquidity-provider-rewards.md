@@ -4,21 +4,21 @@ description: Resumen del programa de recompensas de proveedores de liquidez.
 
 # Recompensas de proveedores de liquidez
 
-**El 5,2 %** (`52 458 925 $DYDX`) del suministro de tokens se asigna para distribuirse a los proveedores de liquidez ("LP", por sus siglas en inglés) en función de las fórmulas que recompensan una combinación de volumen de creador, tiempo de actividad, profundidad bilateral, diferenciales de oferta-solicitud y el número de mercados admitidos. Inicialmente, **el 7,5%** (`75 000 000 $DYDX`) del suministro de tokens  se asignó para recompensas de LP.
 
-* En [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), la comunidad dYdX [votó](https://dydx.community/dashboard/proposal/14) para reducir las recompensas de proveedores de liquidez en un 50 %, de `1 150 685 DYDX` por época a `575 343 DYDX` por época. Como resultado, la asignación de recompensas de LP bajó del `7,5 %` al `5,2 %`.
+
+* Como resultado, la asignación de recompensas de LP bajó del `7,5 %` al `5,2 %`.
 
 **Objetivos**
 
 * Mejorar la liquidez bilateral y recompensar programáticamente a los proveedores de liquidez.
 
-## **Resumen general**
+## **Visión general**
 
-Para incentivar la liquidez del mercado, $DYDX se distribuirá entre los proveedores de liquidez en función de una fórmula que recompensa la participación en los mercados, el volumen del creador, la profundidad bilateral, el diferencial (frente al mercado medio) y el tiempo de actividad en el Protocolo de la capa 2 de dYdX. Cualquier dirección de Ethereum puede obtener estas recompensas, sujetas a un umbral mínimo de volumen de creadores del 0,25 % del volumen de creadores en la etapa anterior. $DYDX se distribuirá en una etapa de 28 días durante cinco años y no está sujeto a ninguna adquisición o bloqueo. Se distribuirán 575 343 $DYDX por etapa.
 
-Las siguientes funciones se utilizan para calcular la cantidad de $DYDX con los que se debe recompensar a cada proveedor de liquidez por etapa. En el [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md), la comunidad de dYdX votó para revisar la fórmula de recompensas de LP al dividir las funciones para los mercados de BTC y ETH y los mercados que no son de BTC o ETH. En [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md), la comunidad dYdX votó por reasignar una ponderación de 0,05 $stkDYDX a MakerVolume.
 
-En general, la ponderación del volumen en las funciones se incrementó en todos los mercados. La cantidad de $DYDX ganada está determinada por la participación relativa de $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​) de cada participante.
+En el [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md), la comunidad de dYdX votó para revisar la fórmula de recompensas de LP al dividir las funciones para los mercados de BTC y ETH y los mercados que no son de BTC o ETH. En [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md), dYdX la comunidad votó para reasignar una ponderación de 0,05 stkDYDX a MakerVolume.
+
+En general, la ponderación del volumen en las funciones se incrementó en todos los mercados.
 
 <figure><img src="../.gitbook/assets/Updated LP Rewards Formulas.png" alt=""><figcaption></figcaption></figure>
 
@@ -51,29 +51,29 @@ Cada mercado tendrá su propio fondo de recompensas que se calculará de manera 
 
 ### ¿Quién es elegible para las recompensas de proveedores de liquidez?
 
-Todos los proveedores de liquidez que hayan alcanzado un mínimo del 0,25 % del volumen del fabricante en el Protocolo de la capa 2 de dYdX en la etapa anterior son elegibles para recibir $DYDX como recompensas en una etapa determinada.
 
-El Protocolo de la capa 2 de dYdX no está disponible para los proveedores de liquidez en los Estados Unidos o en los territorios restringidos, tal como se describe en los [Términos de uso](https://dydx.exchange/terms) de dYdX Trading Inc.
 
-### ¿Cuántos $DYDX gané en el programa de Recompensas a proveedores de liquidez?
 
-En una etapa determinada, los proveedores de liquidez obtienen un rendimiento en función de su $$Q_{SCORE}$$ relativo en el mercado de un par determinado. Cada par tiene su propia cantidad de recompensas relativas establecidas por la gobernanza. La cantidad esperada de DYDX ganada se muestra en el Panel de [recompensas LP](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true)1 y se puede determinar en función de la cantidad de proveedores de liquidez involucrados, el $$Q_{SCORE}$$ relativo y la cantidad de recompensas disponible para un determinado par.
+
+###
+
+En una etapa determinada, los proveedores de liquidez obtienen un rendimiento en función de su $$Q_{SCORE}$$ relativo en el mercado de un par determinado. Cada par tiene su propia cantidad de recompensas relativas establecidas por la gobernanza.
 
 ### ¿Cómo reclamo mis recompensas de proveedores de liquidez?
 
 Las recompensas de proveedores de liquidez se muestran en la [API de dYdX](https://docs.dydx.exchange/). Aunque no aparecen en la interfaz de usuario de gobernanza, todavía se pueden reclamar a través de la gobernanza al final de cada etapa [aquí](https://dydx.community/dashboard).
 
-### ¿Cuándo puedo retirar y transferir mis Recompensas de proveedores de liquidez en $DYDX canjeadas?
+###
 
-Los tokens $DYDX recompensados a través de las Recompensas de proveedores de liquidez serán canjeables y transferibles una vez que termine el periodo inicial de restricción de transferencias.
 
-A partir de la etapa 1, los tokens $DYDX recompensados a través de las Recompensas de proveedores de liquidez se podrán canjear `7 días` (**período de espera**) después del final de cada etapa.
 
-### A partir de la etapa 1, los tokens DYDX recompensados a través de Recompensas de Proveedores de Liquidez se podrán reclamar 7 días (periodo de espera) después del final de cada etapa.
+
+
+### A partir de la etapa 1, los tokens DYDX recompensados a través de Recompensas de Proveedores de Liquidez se podrán reclamar 7 días (período de espera) después del final de cada etapa.
 
 **Profundidad bilateral**
 
-Un proveedor de liquidez bilateral es una empresa o individuo que cotiza activamente mercados bilaterales en el Protocolo de Capa 2 de dYdX, suministrando ofertas y demandas para un mercado determinado. Proporcionan liquidez al protocolo en general.
+Proporcionan liquidez al protocolo en general.
 
 Por ejemplo, un proveedor de liquidez en el mercado BTC-USD puede ofrecer una cotización de $30,000-$30,100, 10x50. Esto significa que ofertan (comprarán) 10 BTC por $30,000 y también ofrecen (venderán) 50 BTC por $30,100. Otros participantes del mercado pueden entonces comprar (elevar la oferta) del proveedor de liquidez a $30,100 o venderles (golpear la oferta) a $30,000.
 
