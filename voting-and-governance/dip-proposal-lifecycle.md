@@ -8,7 +8,7 @@ description: Visão geral do ciclo de vida de propostas de melhoria da dYdX (DIP
 
 O processo de governança da dYdX é alimentado por fóruns de governança em [**https://dydx.forum/**](https://dydx.forum/) e ratificado por meio de propostas de melhoria da dYdX (“DIPs”).
 
-Abaixo descrevemos um rascunho preliminar que explica como o processo de governança da dYdX fluirá desde o início e a definição do conceito até a implementação atual. Esses processos estão sujeitos a alterações de acordo com o feedback da comunidade da DYDX.
+Abaixo descrevemos um rascunho preliminar que explica como o processo de governança da dYdX v3 fluirá desde o início e a definição do conceito até a implementação atual. Esses processos estão sujeitos a alterações conforme o feedback da comunidade da dYdX.
 
 O fluxograma a seguir mostra as etapas iniciais propostas para aprovar uma proposta:
 
@@ -40,7 +40,7 @@ Uma vez postados no fórum de governança, todas as perguntas e comentários dev
 
 As pesquisas de snapshots servem a dois fins: análise de sentimento para DIPs on-chain futuras e votos de vinculação para variáveis controladas off-chain.
 
-Assim que uma DRC off-chain tiver um consenso muito difícil, um membro da comunidade com poder de proposição acima de `10.000` DYDX pode criar um **voto off-chain** para a DRC no **Snapshot**. Incentivamos a comunidade da dYdX a criar pesquisas de snapshots nas segundas-feiras para aumentar a visibilidade durante a semana.
+Uma vez que uma DRC off-chain tenha um consenso muito aproximado, um membro da comunidade com um poder de proposição total de mais de `10.000` Tokens de Governança pode criar um **voto off-chain** para a DRC no **Snapshot**. Incentivamos a comunidade da dYdX a criar pesquisas de snapshots nas segundas-feiras para aumentar a visibilidade durante a semana.
 
 Um snapshot é uma interface simples de votação que permite aos usuários indicar sentimentos off-chain. Os votos em Snapshots são ponderados de acordo com o poder de voto do endereço usado para tal.
 
@@ -49,7 +49,7 @@ Para pesquisas de snapshots relacionadas à sinalização de sentimentos, o prop
 * detalhes da DRC,
 * um sistema de votação,
 * um período de votação — data de início e data de término da votação, definidas em um período de 4 dias e
-* um atraso de votação: um número de bloco de Snapshot que é de 6570 blocos (aproximadamente 1 dia com base no tempo de bloqueio de 13,2 segundos) no futuro. O número de bloco do snapshot trava o estado de membros da comunidade que podem votar. Os holders de tokens que tenham tokens antes do número de bloco do snapshot se tornam elegíveis para votar. Antes do snapshot do poder de voto de cada endereço, o atraso de votação dá tempo aos holders DYDX/stkDYDY para que adquiram tokens, deleguem o poder de voto e movimentem tokens entre carteiras (mover tokens entre carteiras se aplica apenas aos holders da DYDX).
+* um atraso de votação: um número de bloco de Snapshot que é de 6570 blocos (aproximadamente 1 dia com base no tempo de bloqueio de 13,2 segundos) no futuro. O número de bloco do snapshot trava o estado de membros da comunidade que podem votar. Os holders de tokens que tenham tokens antes do número de bloco do snapshot se tornam elegíveis para votar. Antes do snapshot do respectivo poder de voto de cada endereço, o atraso de votação dá aos detentores de Tokens de Governança tempo para adquirir tokens, delegar o poder de voto e mover tokens entre carteiras. Observe que a movimentação entre carteiras se aplica apenas a $ethDYDX e $wethDYDX.
 
 Os votos de snapshot são considerados finais e vinculativos para decisões que não exijam uma chamada no contrato inteligente on-chain e mudanças consideráveis às fórmulas de recompensas de trades a provedores de liquidez. O proponente precisará incluir os requisitos acima e fornecer:
 
@@ -57,7 +57,7 @@ Os votos de snapshot são considerados finais e vinculativos para decisões que 
 
 As alterações propostas serão implementadas pela dYdX Trading Inc. se os resultados da pesquisa do snapshot atenderem aos seguintes critérios:
 
-* o quórum mínimo - pelo menos 1M de DYDX/stkDYDX. O quórum mínimo contribui para a descentralização da tomada de decisões e protege contra a tomada de decisões unilaterais e
+* o quorum mínimo - pelo menos `1.000.000` de Tokens de Governança. O quórum mínimo contribui para a descentralização da tomada de decisões e protege contra a tomada de decisões unilaterais e
 * o diferencial de voto mínimo, ou seja, pelo menos 67% dos votos devem ser a favor da proposta. O diferencial de voto mínimo auxilia na filtragem das propostas que são altamente contenciosas e exigem mais discussões.
 
 A dYdX Trading Inc. terá até 1 epoch (28 dias), um período de carência de execução, para implementar alterações de uma pesquisa de snapshot bem-sucedida.
@@ -130,7 +130,7 @@ A qualquer momento em um ciclo de vida de DIP, o proponente pode cancelar a DIP.
 
 O **Atraso de votação** é o número de blocos Ethereum de espera antes que a votação em uma proposta comece após seu envio.
 
-O poder de voto da DYDX deve ser delegado para um endereço, em sua totalidade, antes de uma proposta ser enviada ou durante o **Atraso de votação** da proposta.
+O poder de voto deve ser delegado para um endereço, em sua totalidade, antes de uma proposta ser enviada ou durante o Atraso **de votação** da proposta.
 
 Por enquanto, o **atraso de votação** está definido para `6.570 blocos`, o que é de cerca de 1 dia. Este valor é adicionado ao número do bloco atual quando uma proposta é criada.
 
@@ -138,7 +138,7 @@ No futuro, a governança da dYdX pode votar para aumentar ou diminuir o **atraso
 
 ### Qual é o propósito do limiar de proposta?
 
-Como a DYDX é um ativo que pode ser negociado livremente, qualquer um pode tomar a governança por meio de compras de mercado. No entanto, para forçar a aprovação de um voto de má-fé seria necessário um mínimo de 5 milhões de DYDX num caso de um evento de timelock curto ou de 20 milhões de DYDX para um timelock longo. Se não for possível, este valor se mostraria caro e provavelmente custaria mais contabilizando a flutuação de preço em vez do ganho líquido do ataque.
+Como $ethDYDX e $wethDYDX são ativos de livre comércio, qualquer pessoa pode tentar uma aquisição de governança por meio de compra de mercado. Dito isso, para forçar um voto de má-fé exigiria um mínimo de `5.000.000` de Tokens de Governança no caso de um timelock pequeno; ou `20`.000.000 de Tokens de Governança no caso de um timelock longo. Se não for possível, este valor se mostraria caro e provavelmente custaria mais contabilizando a flutuação de preço em vez do ganho líquido do ataque.
 
 Se um grupo alcançar um consenso malicioso, o atraso do timelock daria aos agentes afetados tempo para sacar seus ativos do protocolo. Isso também seria uma oportunidade para fazer um fork do protocolo, um caminho que provavelmente seria tomado pelos atores de boa-fé restantes.
 
