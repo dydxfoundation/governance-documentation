@@ -16,10 +16,10 @@ Am Ende jeder Epoche wird Folgendes geschehen:
 Folgendes wird erst am Ende der **Epoche 0** geschehen:
 
 * Rückwirkende Mining Awards werden ausgeschüttet. Die Prämien können etwa `8 Tage` nach Ablauf von Phase 0 [**dydx.community**](https://dydx.community) beansprucht werden.
-* Die Transfers von $DYDX sind vorerst eingeschränkt. Der Zeitraum der anfänglichen Transferbeschränkung wird etwa `8 Tage` nach Ablauf von Phase 0 aufgehoben.
-* **$DYDX wurde am 8. September 2021 um 15:00:00 UTC übertragbar.**
+* Die Transfers von $ethDYDX sind vorerst eingeschränkt. Der Zeitraum der anfänglichen Transferbeschränkung wird etwa `8 Tage` nach Ablauf von Phase 0 aufgehoben.
+* **$ethDYDX wurde am 8. September 2021 um 15:00:00 UTC übertragbar.**
 
-**Die Epoche 0** wird am 3. **August 2021 um 15:00:00 UTC** live gehen. Die folgende Tabelle beschreibt die Epochenstart- und Enddaten (welche durch die dYdX-Governance abgeändert werden können):
+**Die Epoche 0** wird am **3. August 2021 um 15:00:00 UTC** live gehen. Die folgende Tabelle beschreibt die Epochenstart- und Enddaten (welche durch die dYdX-v3-Governance abgeändert werden können):
 
 | Epoche | Startdatum (UTC) | Enddatum (UTC) | Tage | Kumulative Jahre |
 | ----- | ------------------- | ------------------- | ---- | ---------------- |
@@ -94,7 +94,7 @@ Die dYdX Foundation hat einen öffentlichen Google-Kalender mit Start/Enddaten f
 
 ## **Wann werden die Prämien und Staking Pools aktiviert?**
 
-* Die [Rückwirkenden Mining-Prämien](../rewards/retroactive-mining-rewards.md) sind jetzt auf dem Protokoll live. Diese Prämien werden nur bis **31. August 2021, 15:00:00 UTC** laufen.
+* Die [rückwirkenden Mining-Prämien](../rewards/retroactive-mining-rewards.md) wurden auf dYdX v3 verteilt. Diese Prämien liefen bis **zum 31. August 2021, 15:00:00 UTC**.
 * Die [Trading-Prämien](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md) sind jetzt auf dem Protokoll live. Diese Prämien werden bis 3. **August 2026, 15:00:00 UTC** laufen.
 * Die [Prämien für Liquidity Provider](../rewards/liquidity-provider-rewards.md) sind nun auf dem Protokoll live. Diese Prämien werden bis 3. **August 2026, 15:00:00 UTC** laufen.
 * Der  [Liquidity Staking pool](../staking-pools/liquidity-staking-pool.md) wurde am 29. September 2022 aufgelöst.
@@ -102,7 +102,7 @@ Die dYdX Foundation hat einen öffentlichen Google-Kalender mit Start/Enddaten f
 
 ## Kann die dYdX-Governance den Epochenplan abändern?
 
-Die erste Epochenlänge beträgt `28 Tage`. Die dYdX Governance kann innerhalb der angegebenen Grenzen für die Änderung der Epochenlänge abstimmen. Die minimale Epochenlänge beträgt `6 Tage` und die maximale Epochenlänge `92 Tage`.
+Die erste Epochenlänge beträgt `28 Tage`. Die dYdX-v3-Governance kann innerhalb der angegebenen Grenzen für die Änderung der Epochenlänge abstimmen. Die minimale Epochenlänge beträgt `6 Tage` und die maximale Epochenlänge `92 Tage`.
 
 ## Was ist ein Blackout Window?
 
@@ -110,13 +110,13 @@ Für den [Liquidity Staking Pool](../staking-pools/liquidity-staking-pool.md) un
 
 Das empfohlene Sperrzeitfenster für den Liquidity Staking Pool und den Safety Pool beträgt `jeweils 14 Tage`. Bei [DIP 17](https://dydx.community/dashboard/proposal/9) [stimmte](https://dydx.community/dashboard/proposal/7) die dYdX-Gemeinschaft dafür, die Länge des Blackout-Fensters von `14` auf `3` Tage zu verkürzen. Die dYdX-Governance kann über eine Änderung des Sperrzeitfensters innerhalb der festgelegten Grenzen abstimmen. Die minimale Länge eines Blackout Windows beträgt `3 Tage`, die maximale Länge eines Blackout Windows beträgt `46 Tage`.
 
-## Wann kann ich meine verdienten DYDX-Prämien auszahlen lassen und überweisen?
+## Wann kann ich meine verdienten $ethDYDX-Prämien auszahlen lassen und überweisen?
 
-Verdiente DYDX Token sind über die [Rückwirkenden Mining-Prämien](../rewards/retroactive-mining-rewards.md), [Trading-Prämien](../rewards/trading-rewards.md) und [Liquidity-Provider-Prämien](../rewards/liquidity-provider-rewards.md) am Ende jeder Epoche übertragbar. $DYDX-Inhaber sind verpflichtet, etwa `7 Tage` (**Wartezeit**) nach Phasenablauf zu warten, um ihre Token in Anspruch nehmen zu können. Sobald Token beansprucht wurden, können diese überwiesen oder an die dYdX-Governance delegiert werden.
+Verdiente $ethDYDX-Token über die [rückwirkenden Mining-Prämien](../rewards/retroactive-mining-rewards.md), [Handelsprämien](../rewards/trading-rewards.md) und Prämien [für Liquiditätsanbieter](../rewards/liquidity-provider-rewards.md) sind am Ende jeder Epoche übertragbar. Inhaber von $ethDYDX müssen ungefähr `7 Tage` (**Wartezeit**) nach dem Ende der Epoche warten, um ihre Token zu beanspruchen. Sobald Token beansprucht wurden, können diese überwiesen oder an die dYdX-Governance delegiert werden.
 
-Verdiente $DYDX Token können über den Liquidity Staking Pool und den Safety Staking Pool in jedem Block abgeholt und jederzeit während einer gegebenen Phase ausgezahlt werden.
+Verdiente $ethDYDX-Token können über den Liquidity Staking Pool und den Safety Staking Pool in jedem Block abgeholt und jederzeit während einer gegebenen Epoche ausgezahlt werden.
 
-Am 8. **September 2021 um 15:00:00 UTC**, 8 Tage nach dem Ende von Phase 0, werden die anfänglichen Transferbeschränkungen automatisch aufgehoben, so dass zu diesem Zeitpunkt etwa **8.11%** des $DYDX-Angebots verfügbar sein werden.
+Am **8. September 2021 um 15:00:00 UTC**, 8 Tage nach Ablauf der Epoche 0, werden die ersten Transferbeschränkungen automatisch aufgehoben, woraufhin etwa **8,11 %** der $ethDYDX flüssig wurden.
 
 ## Wozu dient die Wartezeit? Wie werden die Prämien am Ende jeder Epoche aufbewahrt?
 
