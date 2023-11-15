@@ -1,7 +1,7 @@
 ---
-description: Einschränkungen bei der Nutzung von $DYDX und dem $DYDX-Portal
+description: Einschränkungen für die Verwendung von $ethDYDX, $wethDYDX und dYdX v3.
 ---
 
 # Einschränkungen
 
-DYDX ist in den USA oder anderen unzulässigen Rechtsordnungen nicht verfügbar. Wenn Sie in den Vereinigten Staaten von Amerika oder einer anderen unzulässigen Rechtsordnung ansässig sind oder dort ihren Sitz haben, dürfen Sie keine Ausschüttungen von $DYDX erhalten oder mit diesen handeln.
+$ethDYDX und $wethDYDX sind in den Vereinigten Staaten oder anderen verbotenen Geltungsbereichen nicht verfügbar. Wenn Sie in den Vereinigten Staaten von Amerika oder in einem anderen verbotenen Geltungsbereich ansässig sind oder dort ihren Sitz haben, dürfen Sie keine Ausschüttungen von $ethDYDX und $wethDYDX erhalten oder mit diesen handeln.
