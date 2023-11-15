@@ -8,7 +8,7 @@ description: >-
 ## Von dYdX empfohlener Onboarding-Flow für Marktmacher:
 
 1. Verbinden Sie Ihre bevorzugte Ethereum-Wallet mit dem dYdX L2 Perpetual-Protokoll.
-2. Zahlen Sie USDC auf Ihr Perpetual-Konto ein.
+2. Zahlen Sie $USDC auf Ihr Perpetual-Konto ein.
 3. Sie müssen einen STARK-Schlüssel generieren, der Ihr Konto auf Ebene 2 identifiziert und lokal in Ihrem Browser gespeichert wird. Der Stark-Schlüssel verknüpft dYdX-Benutzer mit Ethereum-Kontoadressen, sodass ein Benutzer zuerst die Unterzeichnung der Verknüpfung eines Ethereum-Schlüssels mit einem STARK-Schlüssel anfordern und dann den STARK-Schlüssel auf dem Smart-Vertrag von dYdX registrieren muss, bevor eine andere Operation stattfinden kann. Klicken Sie auf „Stark-Schlüssel generieren“ und unterschreiben Sie die Transaktion. Die Signierung ist kostenlos und wird keine Transaktion senden. Sie können Ihren Stark-Schlüssel jederzeit mit Ihrer Wallet wiederherstellen.
 
 Alternativ können programmatische Händler ihr STARK-Schlüsselpaar mit der folgenden Methode ableiten:
