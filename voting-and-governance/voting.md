@@ -4,48 +4,60 @@ description: Un aperçu du processus de vote.
 
 # Processus de vote
 
-Le Protocole est régi et mis à jour par les détenteurs et délégués DYDX.
+dYdX v3 est gouverné et mis à niveau par les détenteurs de jetons de gouvernance et les délégués.
 
 ## **Pouvoirs de proposition et de vote**
 
-Deux pouvoirs sont associés à chaque jeton DYDX :
+Il existe deux pouvoirs associés à chacun des jetons de gouvernance :
 
 * Le **pouvoir de proposition** donne accès à la création et au maintien d'une proposition.
 * Le **pouvoir de vote** est utilisé pour voter pour ou contre les propositions existantes.
 
-Les détenteurs de DYDX reçoivent des pouvoirs de gouvernance proportionnellement à leur somme de tokens détenus et délégués à un bloc donné.
+En ce qui concerne les détenteurs de jetons de gouvernance, les pouvoirs de gouvernance sont proportionnellement à leur somme de jetons détenus et délégués à un bloc donné.
 
-**`Pouvoir de proposition =`**`Pouvoir de proposition du token DYDX +`
+**`Pouvoir de proposition = `**`Pouvoir de proposition du jeton $ethDYDX +`
 
-`Pouvoir de proposition à partir des token DYDX staké +`
+`Pouvoir de proposition du jeton $wethDYDX +`
 
-`Pouvoir de proposition du token DYDX reçu en tant que délégué +`
+`Pouvoir de proposition du jeton $stkDYDX +`
 
-`Pouvoir de proposition du token DYDX staké reçu en tant que délégué -`
+`Pouvoir de proposition du jeton $ethDYDX reçu en tant que délégué +`
 
-`Pouvoir de proposition des DYDX délégué -`
+`Pouvoir de proposition du token $ethDYDX reçu en tant que délégué +`
 
-`Pouvoir de proposition de DYDX staké délégué`
+`Pouvoir de proposition du jeton $ethDYDX reçu en tant que délégué -`
+
+`Pouvoir de proposition de $ethDYDX délégué -`
+
+`Pouvoir de proposition de $wethDYDX délégué -`
+
+`Pouvoir de proposition de $stkDYDX staké délégué`
 
 \`\`
 
-**`Pouvoir de vote =`**`Pouvoir de vote du token DYDX +`
+**`Pouvoir de vote = Pouvoir de vote`** `du jeton $ethDYDX +`
 
-`Pouvoir de vote à partir des tokens DYDX staké +`
+`Pouvoir de vote du jeton $wethDYDX +`
 
-`Pouvoir de vote des tokens DYDX reçu en tant que délégué +`
+`Pouvoir de vote du jeton $stkDYDX +`
 
-`Pouvoir de vote du token stkDYDX reçu en tant que délégataire -`
+`Pouvoir de vote du jeton $ethDYDX reçu en tant que délégué +`
 
-`Pouvoir de vote de DYDX délégué -`
+`Pouvoir de vote du token $ethDYDX reçu en tant que délégué +`
 
-`Pouvoir de vote du staked-DYDX délégué`
+`Pouvoir de vote du jeton $ethDYDX reçu en tant que délégué -`
+
+`Pouvoir de vote de $ethDYDX délégué -`
+
+`Pouvoir de vote de $ethDYDX délégué -`
+
+`Pouvoir de vote de $ethDYDX délégué`
 
 ## FAQ
 
 ### Comment puis-je voter ?
 
-Afin de participer à la gouvernance sur la chaîne de DYDX, vous devrez disposer ou être délégué de jetons DYDX. Vous aurez également besoin d'ETH pour couvrir les frais de transaction.
+La participation à la gouvernance dYdX nécessite d'avoir ou de déléguer les jetons de gouvernance. Vous aurez également besoin d'ETH pour couvrir les frais de transaction.
 
 Si vous avez des tokens ou si vous avez reçu des tokens délégués et qu'il y a une proposition active, alors vous êtes prêt à voter dans la gouvernance dYdX.
 
@@ -55,7 +67,7 @@ Pour voter, accédez à la page des propositions et cliquez sur une proposition 
 
 ### **Comment puis-je déléger ?**
 
-DYDX permet aux titulaires de déléguer le droit de vote à l'adresse de leur choix. N'importe qui peut participer à la gouvernance de dYdX en recevant une délégation, sans avoir besoin de posséder DYDX. Les utilisateurs peuvent déléguer vers une adresse à la fois, et le nombre de votes ajoutés au décompte des votes du délégataire équivaut au solde de DYDX dans le compte de l'utilisateur. Les votes sont délégués à partir du bloc actuel et au-delà, jusqu'à ce que l'expéditeur délègue à nouveau ou transfère son DYDX.
+La gouvernance DYDX permet aux détenteurs de déléguer leurs droits de vote à l'adresse de leur choix. N'importe qui peut participer à la gouvernance de dYdX en recevant une délégation, sans avoir besoin de posséder des jetons de gouvernance. Les utilisateurs peuvent déléguer vers une adresse à la fois, et le nombre de votes ajoutés au décompte des votes du délégataire équivaut au solde de gouvernance de jetons dans le compte de l'utilisateur. Les votes sont délégués à partir du bloc actuel et au-delà, jusqu'à ce que l'expéditeur délègue à nouveau ou transfère ses jetons de gouvernance de jetons.
 
 ![Déléguez vos pouvoirs de vote et de proposition](../.gitbook/assets/1-delegate-power.png)
 
@@ -70,16 +82,16 @@ Pour déléguer vos tokens à une adresse de portefeuille :
 * Sélectionnez le type de pouvoir que vous souhaitez déléguer
 * Entrez une adresse de portefeuille pour un tiers à qui vous souhaitez déléguer votre pouvoir de vote et/ou de proposition. Déléguer des pouvoirs ne transfère pas vos jetons
 
-La délégation et la non-délégation de DYDX obligent les utilisateurs à dépenser des frais de gaz Ethereum.
+La délégation et la non-délégation de jetons de gouvernance exigent que les utilisateurs dépensent des frais de gaz Ethereum.
 
 ### Puis-je modifier mon vote après avoir déjà voté ?
 
 Une fois qu'un vote est émis sur la chaîne, il n'est pas possible de modifier votre vote.
 
-### Puis-je transférer mon DYDX pendant que le vote est en cours ?
+### Puis-je transférer mes jetons de gouvernance pendant que le vote est en cours ?
 
 Oui.
 
 ### Puis-je ajouter plus de jetons à mon vote ?
 
-Lorsqu'un DIP est soumis sur la chaîne, un instantané est pris des détenteurs de jetons actuels. Les utilisateurs devront posséder ou recevoir des jetons DYDX avant le bloc de départ.
+Lorsqu'un DIP est soumis sur la chaîne, un instantané est pris des détenteurs de tokens actuels. Avant le bloc de départ, les utilisateurs devront posséder des jetons de gouvernance.
