@@ -1,14 +1,14 @@
 ---
 description: >-
-  一份分步技术指南，说明如何创建提案，将 DYDX 从社区资金库转移到目标地址。
+  本分步技术指南说明如何创建提案，将 ethDYDX 从社区资金库转至目标地址。
 
 ---
 
-# 关于建立 dYdX 社区资金库支出提案的技术指南
+# 关于构建 dYdX 社区资金库支出提案的技术指南
 
-Reverie 已经编制一份综合性技术指南，通过拉取请求 (PR) 提交治理提案，将 DYDX 从社区资金库转移到 dYdX _治理合约_储存库。
+Reverie 已编制一份综合性技术指南，通过拉取请求 (PR) 提交治理提案，将 $ethDYDX 从“社区资金库”转至 dYdX _治理合约_储存库。
 
-要创建此提案，dYdX 社区成员必须拥有**至少 5 百万 DYDX** _（总供应的 0.5%）_的提案权（[短时间锁投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters)的[提案阈值](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)）。
+要创建此提案，dYdX 社区成员必须拥有**至少 500 万治理代币** _（总供应的 0.5%）_的提案权（[短时间锁投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)的[提案阈值](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters)）。
 
 ### 初步要求
 
@@ -41,14 +41,11 @@ git clone https://github.com/[username]/governance-contracts.git
 ```typescript
 src/config/index.ts
 ...
-
 const configSchema = {
 	...
-
 	FUND_PROPOSAL_NAME_PROPOSAL_ID: parseInteger({ default: null }),
 	TEST_PROPOSAL_NAME_WITH_PROPOSAL: parseInteger({ default: true }),
 };
-
 ...
 ```
 
@@ -57,15 +54,12 @@ const configSchema = {
 ```typescript
 src/deploy-config/base-config.ts
 ....
-
 const config = {
-
 	....
 	
 	PROPOSAL_NAME_ADDRESS = '0x...',
 	PROPOSAL_FUNDING_AMOUNT = '10000000000000000000',
 };
-
 ...
 ```
 
@@ -93,9 +87,7 @@ a. 在顶部添加所需的导入：
 
 ```typescript
 src/migrations/proposal-name.ts
-
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
-
 import {
   DydxGovernor__factory,
 } from '../../types';
@@ -114,7 +106,6 @@ b.使用导入下方的提案名称，创建一个新函数，并添加以下代
 
 ```typescript
 src/migrations/proposal-name.ts
-
 export async function createProposalNameProposal({
   proposalIpfsHashHex,
   dydxTokenAddress,
@@ -137,7 +128,6 @@ export async function createProposalNameProposal({
   const deployer = signer || await getDeployerSigner();
   const deployerAddress = deployer.address;
   log(`Creating proposal with proposer ${deployerAddress}.\n`);
-
   const governor = await new DydxGovernor__factory(deployer).attach(governorAddress);
   const proposalId = await governor.getProposalsCount();
   const proposal: Proposal = [
@@ -152,9 +142,7 @@ export async function createProposalNameProposal({
     [false],
     proposalIpfsHashHex,
   ];
-
   await waitForTx(await governor.create(...proposal));
-
   return {
     proposalId,
   };
@@ -177,9 +165,7 @@ _**createProposalNameProposal**_ → 这是我们在 /src/migrations/proposal-na
 
 ```typescript
 tasks/deployment/proposal-name.ts
-
 import { types } from 'hardhat/config';
-
 import mainnetAddresses from '../../src/deployed-addresses/mainnet.json';
 import { hardhatTask } from '../../src/hre';
 import { DIP_NUMBER_IPFS_HASH } from '../../src/lib/constants';
@@ -195,7 +181,6 @@ b. 创建 hardhat 任务，并在任务开始行中填充提案信息。\
 
 ```typescript
 tasks/deployment/proposal-name.ts
-
 hardhatTask('deploy:proposal-name', 'Proposal Description.')
   .addParam('proposalIpfsHashHex', 'IPFS hash for the uploaded DIP describing the proposal', DIP_NUMBER_IPFS_HASH, types.string)
   .addParam('dydxTokenAddress', 'Address of the deployed DYDX token contract', mainnetAddresses.dydxToken, types.string)
@@ -218,7 +203,7 @@ a. **添加提案测试**
 在 test/migrations 中，再次用提案名称添加一个新文件 → proposal-name.ts，并包括以下代码：
 
 
-* 添加所需的导入，包括提案功能：
+*   添加所需的导入，包括提案功能：
 
 **createProposalNameProposal** → 这是我们在 /src/migrations/proposal-name 中创建的函数。\
 
@@ -227,10 +212,8 @@ a. **添加提案测试**
 
 ```typescript
 test/migrations/proposal-name.ts
-
 import BNJS from 'bignumber.js';
 import { BigNumber, BigNumberish } from 'ethers';
-
 import config from '../../src/config';
 import { getDeployConfig } from '../../src/deploy-config';
 import { getDeployerSigner } from '../../src/deploy-config/get-deployer-address';
@@ -244,13 +227,12 @@ import {
   Treasury__factory,
 } from '../../types';
 import { advanceBlock, increaseTimeAndMine } from '../helpers/evm';
-
 const MOCK_PROPOSAL_IPFS_HASH = (
   '0x0000000000000000000000000000000000000000000000000000000000000000'
 );
 ```
 
-* 在以下步骤添加测试函数：
+*   在以下步骤添加测试函数：
 
     * **fundProposalNameViaProposal** → 创建此函数，并重命名以匹配提案名称。
     * **destinationAddress** → 将其重新标签，以匹配目标名称
@@ -264,7 +246,6 @@ const MOCK_PROPOSAL_IPFS_HASH = (
 
 ```typescript
 test/migrations/proposal-name.ts
-
 export async function fundProposalNameViaProposal({
   dydxTokenAddress,
   governorAddress,
@@ -282,25 +263,20 @@ export async function fundProposalNameViaProposal({
   const deployer = await getDeployerSigner();
   const dydxToken = new DydxToken__factory(deployer).attach(dydxTokenAddress);
   const governor = new DydxGovernor__factory(deployer).attach(governorAddress);
-
   await fundCommunityTreasuryFromFoundationIfNecessary({
     dydxTokenAddress,
     communityTreasuryAddress,
     minTreasuryBalance: deployConfig.PROPOSAL_FUNDING_AMOUNT,
   });
-
   // Pick a voter with enough tokens to meet the quorum requirement.
   const voterAddress = deployConfig.TOKEN_ALLOCATIONS.DYDX_TRADING.ADDRESS;
   const voter = await impersonateAndFundAccount(voterAddress);
   const voterBalance = await dydxToken.balanceOf(voterAddress);
-
   if (voterBalance.lt(new BNJS('2e25').toFixed())) {
     throw new Error('Not enough votes to pass the proposal.');
   }
-
   // Vote on an existing proposal (can be used with mainnet forking).
   let proposalId: BigNumberish;
-
   if (config.FUND_PROPOSAL_NAME_PROPOSAL_ID !== null) {
     proposalId = config.FUND_PROPOSAL_NAME_PROPOSAL_ID;
   } else {
@@ -314,7 +290,6 @@ export async function fundProposalNameViaProposal({
       destinationAddress,
       signer: voter,
     }));
-
     log('Waiting for voting to begin');
     for (let i = 0; i < deployConfig.VOTING_DELAY_BLOCKS + 1; i++) {
       if (i > 0 && i % 2000 === 0) {
@@ -323,15 +298,12 @@ export async function fundProposalNameViaProposal({
       await advanceBlock();
     }
   }
-
   let proposalState = await governor.getProposalState(proposalId);
   if (proposalState !== 2) {
     throw new Error('Expected proposal to be in the voting phase.');
   }
-
   log('Submitting vote');
   await waitForTx(await governor.connect(voter).submitVote(proposalId, true));
-
   log('Waiting for voting to end');
   let minedCount = 0;
   for (; ;) {
@@ -345,23 +317,18 @@ export async function fundProposalNameViaProposal({
       break;
     }
   }
-
   if (proposalState !== 4) {
     throw new Error(`Expected proposal to have succeeded but state was ${proposalState}`);
   }
-
   log('Queueing the proposal');
   await waitForTx(await governor.queue(proposalId));
   const delaySeconds = deployConfig.SHORT_TIMELOCK_CONFIG.DELAY;
   await increaseTimeAndMine(delaySeconds);
-
   log('Executing the proposal');
   await waitForTx(await governor.execute(proposalId));
   log('Proposal executed');
-
   log('\n=== FUNDING PROPOSAL COMPLETE ===\n');
 }
-
 export async function fundProposalNameNoProposal({
   dydxTokenAddress,
   shortTimelockAddress,
@@ -378,13 +345,11 @@ export async function fundProposalNameNoProposal({
   const communityTreasury = new Treasury__factory(mockShortTimelock).attach(
     communityTreasuryAddress,
   );
-
   await fundCommunityTreasuryFromFoundationIfNecessary({
     dydxTokenAddress,
     communityTreasuryAddress,
     minTreasuryBalance: deployConfig.PROPSAL_FUNDING_AMOUNT,
   });
-
   await waitForTx(
     await communityTreasury.transfer(
       dydxTokenAddress,
@@ -392,10 +357,8 @@ export async function fundProposalNameNoProposal({
       deployConfig.PROPOSAL_FUNDING_AMOUNT,
     ),
   );
-
   log('\n=== PROPOSAL FUNDING COMPLETE ===\n');
 }
-
 async function fundCommunityTreasuryFromFoundationIfNecessary({
   dydxTokenAddress,
   communityTreasuryAddress,
@@ -406,11 +369,9 @@ async function fundCommunityTreasuryFromFoundationIfNecessary({
   minTreasuryBalance: string,
 }): Promise<void> {
   const deployConfig = getDeployConfig();
-
   const mockFoundation = await impersonateAndFundAccount(deployConfig.TOKEN_ALLOCATIONS.DYDX_FOUNDATION.ADDRESS);
   const dydxToken = new DydxToken__factory(mockFoundation).attach(dydxTokenAddress);
   const communityTreasuryBalance: BigNumber = await dydxToken.balanceOf(communityTreasuryAddress);
-
   if (communityTreasuryBalance.lt(minTreasuryBalance)) {
     // Transfer necessary funds to the treasury.
     await waitForTx(
@@ -431,9 +392,7 @@ b. **将测试函数添加到测试脚本**
 
 ```typescript
 test/migrations/deploy-contracts-for-test.ts
-
 ...
-
 import { fundProposalNameNoProposal, fundProposalNameViaProposal } from './proposal-name-proposal';
 ```
 
@@ -442,7 +401,6 @@ import { fundProposalNameNoProposal, fundProposalNameViaProposal } from './propo
 
 ```typescript
 ...
-
 export async function executeProposalNameProposalForTest(
   deployedContracts: AllDeployedContracts,
 ) {
@@ -464,9 +422,7 @@ export async function executeProposalNameProposalForTest(
     });
   }
 }
-
 ...
-
 // put this above the configureForTest function
 ```
 
@@ -478,9 +434,7 @@ c. **添加合约到测试助手**
 
 ```typescript
 test/helpers/get-deployed-contracts-for-test.ts
-
 ...
-
 import {
   configureForTest,
   deployContractsForTest,
@@ -500,12 +454,10 @@ import {
 
 ```typescript
 test/helpers/get-deployed-contracts-for-test.ts
-
 async function getDeployedContractsForTest(): Promise<AllDeployedContracts> {
   if (!config.isHardhat()) {
     return getAllContracts();
   }
-
   let deployedContracts: AllDeployedContracts;
   if (config.FORK_MAINNET) {
     deployedContracts = await getAllContracts();
@@ -539,27 +491,22 @@ d. **最终测试文件**
 1. 我们使用 DIP\_NUMBER\_IPFS\_HASH，从 lib 导入 IPFS Hash
 2. 我们使用 ProposalNameId，对下一个 proposalId 编号进行硬编码
 3. 我们用常量哈希检查提案哈希
-4. 我们检查 PROPOSAL_NAME_ADDRESS，以确定其是否有 PROPOSAL_FUNDING_AMOUNT 的预期余额。
+4.  我们检查 PROPOSAL_NAME_ADDRESS，以确定其是否有 PROPOSAL_FUNDING_AMOUNT 的预期余额。
 
 **注：如果该地址已经有 DYDX，则需要硬编码到余额中才能通过测试**
 
 ```typescript
 test/misc/proposal-name-proposal.spec.ts
-
 import { expect } from 'chai';
 import { DIP_NUMBER_IPFS_HASH } from '../../src/lib/constants';
 import { describeContract, TestContext } from '../helpers/describe-contract';
-
 function init() {}
-
 describeContract('proposal-name', init, (ctx: TestContext) => {
-
   it('Proposal IPFS hash is correct', async () => {
     const ProposalNameId = #;
     const proposal = await ctx.governor.getProposalById(ProposalNameId);
     expect(proposal.ipfsHash).to.equal(DIP_NUMBER_IPFS_HASH);
   });
-
   it('Destination receives tokens from the community treasury', async () => {
     const balance = await ctx.dydxToken.balanceOf(ctx.config.PROPOSAL_NAME_ADDRESS);
     expect(balance).to.equal(ctx.config.PROPOSAL_FUNDING_AMOUNT);
@@ -581,7 +528,7 @@ git push
 
 b. **向 dYdX 储存库提交 PR**
 
-****<img src=".gitbook/assets/Screenshot 2022-12-14 at 5.06.23 PM.png" alt="" data-size="original">****
+<img src=".gitbook/assets/Screenshot 2022-12-14 at 5.06.23 PM.png" alt="" data-size="original">
 
 c. **等待储存库经理的审批**
 
