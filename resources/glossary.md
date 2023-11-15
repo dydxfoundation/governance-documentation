@@ -4,13 +4,17 @@ description: Überblick über die wichtigsten Governance-Begriffe.
 
 # Glossar
 
-**DYDX:** Die native Anlage des DYDX-Ökosystems, das die Grundlage für Governance und Sicherheit für das dUdX-Protokoll darstellt. DYDX ist ein ERC-20-Token, das das Gewicht der Abstimmungs- oder Vorschlagsbefugnis eines Benutzers angibt.
+$**ethDYDX:** Das native Asset des Ethereum-basierten dYdX-Ökosystems, das die Grundlage für Governance und Sicherheit für dYdX v3 bildet. $ethDYDX ist ein ERC-20-Token, das das Gewicht des Stimm- oder Vorschlagsrechts eines Benutzers bezeichnet.
 
-**dYdX-Protokoll: **Das Ebene-2-Perpetuals-Protokoll von dYdX.
+**$wethDYDX:** Die umhüllte Version von $ethDYDX, die durch die Interaktion mit dem $wethDYDX Smart Contract erhalten wird. $wethDYDX ist ein ERC-20-Token, das das Gewicht des Stimm- oder Vorschlagrechts eines Benutzers bezeichnet.
+
+**dYdX v3: **Das Ebene-2-Perpetual-Protokoll von dYdX.
 
 **dYdX Foundation:** Eine unabhängige Stiftung mit Hauptsitz in Zug, Schweiz, wurde gegründet, um sich an der Weiterentwicklung des dYdX-Protokolls in Zukunft zu beteiligen.
 
-**Der DYDX Token Contract**: verfügt über Speicherauszüge der Stimmrechte jeder einzelnen Adresse in unterschiedlichen Zeiträumen.
+**$ethDYDX Token-Kontrakt**: Verfügt über Speicherauszüge der Stimmrechte jeder einzelnen Adresse in unterschiedlichen Zeiträumen.
+
+**$wethDYDX Token-Kontrakt**: Verfügt über Speicherauszüge der Stimmrechte jeder einzelnen Adresse in unterschiedlichen Zeiträumen.
 
 **DIP:** dYdX-Verbesserungsvorschläge sind On-Chain-Vorschläge.
 
@@ -22,7 +26,7 @@ description: Überblick über die wichtigsten Governance-Begriffe.
 
 **Ausführungsfrist:** Der Zeitraum nach der Abstimmung, wenn ein DIP-Vorschlag ausführbar wird, während dessen er ausgeführt werden muss.
 
-**Der Governance-Strategie-Vertrag**: enthält die Logik, um die relativen Vorschlags- und Abstimmungsrechte der Benutzer zu messen.
+**Der Governance-Strategie-Kontrakt**: Enthält die Logik, um die relativen Vorschlags- und Abstimmungsrechte der Benutzer zu messen.
 
 **Gouverneursvertrag**: verfolgt Vorschläge und kann Vorschläge über den Timelock Smart-Vertrag ausführen.
 
