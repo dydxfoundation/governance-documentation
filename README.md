@@ -1,13 +1,13 @@
 ---
-description: Un aperçu du jeton et de la gouvernance DYDX.
+description: Un aperçu du token et de la gouvernance ethDYDX.
 ---
 
 # Introduction
 
-DYDX est un jeton de gouvernance qui permet à la communauté dYdX de véritablement gouverner le protocole dYdX de couche 2 (« le protocole »). En permettant un contrôle partagé du protocole, DYDX permet aux traders, aux fournisseurs de liquidité et aux partenaires de dYdX de travailler collectivement vers un protocole amélioré.
+DYDX ($ethDYDX) basé sur Ethereum est un jeton de gouvernance qui permet à la communauté dYdX de réellement gouverner le protocole de couche 2 dYdX basé sur Ethereum (« dYdX v3 »). En permettant une commande partagée de dYdX v3, ethDYDX permet aux traders, aux fournisseurs de liquidité et aux partenaires de dYdX de travailler collectivement vers un dYdX v3 amélioré.
 
-DYDX permet un écosystème robuste autour de la gouvernance, des récompenses et du staking, chacun étant conçu pour stimuler la croissance et la décentralisation futures de dYdX, ce qui se traduit par une meilleure expérience pour les utilisateurs.
+DYDX ($wethDYDX) est une version enveloppée d'ethDYDX obtenue lorsqu'un utilisateur interagit avec [le wethDYDX](https://etherscan.io/address/0x46b2deae6eff3011008ea27ea36b7c27255ddfa9) Smart Contract. Plus de détails sur le jeton wethDYDX et la migration potentielle d'ethDYDX d'Ethereum vers le logiciel open source dYdX v4 (« chaîne dYdX ») peuvent être trouvés [ici](https://docs.dydx.community/dydx-token-migration/start-here/introduction).
 
-Les pools de staking sont conçus pour promouvoir la liquidité et la sécurité sur le protocole. Les programmes de récompenses pour le trading, la fourniture de liquidités et l'utilisation passée de dYdX contribueront à stimuler la croissance et l'adoption de dYdX.
+$ethDYDX et $wethDYDX permettent un écosystème robuste autour de la gouvernance et des récompenses, chacun étant destiné à stimuler la croissance future et la décentralisation de dYdX v3, résultant en une meilleure expérience pour les utilisateurs.
 
-En plus du lancement de DYDX, nous avons également publié : \\🖥️ Un produit de gouvernance sur [**dydx.community**](https://dydx.community)\ 📈 [**Pool de staking de liquidité**](staking-pools/liquidity-staking-pool.md) pour USDC\ 🔒[**Pool de staking de sécurité**](staking-pools/safety-staking-pool.md) pour DYDX\ 💰 [**Récompenses de trading**](rewards/trading-rewards.md)\ 💸 [**Récompenses de minage rétroactives**](rewards/retroactive-mining-rewards.md) pour les anciens utilisateurs\ 📊 [**Récompenses des fournisseurs de liquidités**](rewards/liquidity-provider-rewards.md)
+Des liens vers la gouvernance et les récompenses peuvent être trouvés ici :\\ 🖥️ Un produit de gouvernance sur [**dydx.community**](https://dydx.community)\ 💰 [**Récompenses de trading**](rewards/trading-rewards.md)\ 📊 [**Récompenses des fournisseurs de liquidités**](rewards/liquidity-provider-rewards.md)
