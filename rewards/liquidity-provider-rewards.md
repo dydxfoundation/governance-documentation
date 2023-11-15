@@ -4,9 +4,9 @@ description: Aperçu du programme de récompenses des fournisseurs de liquidité
 
 # Récompenses des fournisseurs de liquidités
 
-**5.2%** (`52,458,925 $DYDX`) de l'offre de jetons est alloué aux fournisseurs de liquidité ("LP") en fonction de formules qui récompensent une combinaison de volume de fabricant, de temps de disponibilité, de profondeur bilatérale, de spreads bid-ask et du nombre de marchés pris en charge. Initialemen**t, 7**,5`% (75,000,000 $D`YDX) de l'offre de jetons a été alloué pour les récompenses LP.
+**5,2 %** de la réserve de jetons (`52 458 925 $ethDYDX`) est distribué aux fournisseurs de liquidité (« LP » sur la base de formules de récompense combinant le volume du maker, le temps de disponibilité, la profondeur bilatérale, les écarts entre acheteur-vendeur et le nombre de marchés pris en charge. Initialement, **7,5%** (`75,000,000 $ethDYDX`) de l'offre de jetons a été alloué pour les récompenses LP.
 
-* Dan[s DIP ](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)24, la communauté dYd[X a v](https://dydx.community/dashboard/proposal/14)oté pour réduire les récompenses des fournisseurs de `liquidité de 5`0 % de 1,150,6`85 DYDX par `époque à 575,343 DYDX par époque. En conséquence, l'allocation de récompenses de trading a baissé, passant de `7,5%` to `5,2%`.
+* Dans [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/14) pour réduire les récompenses des fournisseurs de liquidité de 50 % de `1,150,685 $ethDYDX` par epoch à 575,343 `$ethDYDX` par epoch. En conséquence, l'allocation de récompenses de trading a baissé, passant de `7,5%` to `5,2%`.
 
 **Objectifs**
 
@@ -14,11 +14,11 @@ description: Aperçu du programme de récompenses des fournisseurs de liquidité
 
 ## **Aperçu**
 
-Pour encourager la liquidité du marché, $DYDX sera distribué aux fournisseurs de liquidité sur la base de formules de récompense en fonction de la participation aux marchés, le volume du maker, la profondeur bilatérale, la propagation (par rapport au marché intermédiaire) et la disponibilité sur le protocole de couche 2 de dYdX. Toute adresse Ethereum peut gagner ces récompenses, sous réserve d'un seuil de volume minimum du teneur de 0,25 % du volume du teneur à l'epoch précédente. La distribution de $DYDX se fera sur la base d'une Epoch de 28 jours, sur 5 ans et ne sera soumise à aucune acquisition ou aucun blocage. 575 343 DYDX $ seront distribués par Epoch.
+Pour encourager la liquidité du marché, $ethDYDX sera distribué aux fournisseurs de liquidité sur la base de formules de récompense en fonction de la participation aux marchés, le volume du maker, la profondeur bilatérale, la propagation (par rapport au marché intermédiaire) et la disponibilité sur dYdX v3. Toute adresse Ethereum peut gagner ces récompenses, sous réserve d'un seuil de volume de maker minimum de 0,25 % du volume de maker à l'epoch précédente. $ethDYDX sera distribué sur une base d'epoch de 28 jours sur cinq ans et ne sont pas soumis à des acquisitions ou des blocages. 575, 343 $ethDYDX seront distribués par epoch.
 
-Le calcul de la quantité de $DYDX à accorder à chaque fournisseur de liquidité par Epoch se fait à l'aide des fonctions suivantes. Dans [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md), la communauté dYdX a voté pour réviser la formule de récompenses des fournisseurs de liquidité en divisant les fonctions pour les Marchés BTC/ETH et les marchés non BTC/ETH. Dans la [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md), la communauté dYdX a voté en faveur d'une réattribution du poids de 0,05 $stkDYDX à MakerVolume.
+Le calcul de la quantité de $ethDYDX à accorder à chaque fournisseur de liquidité par epoch se fait à l'aide des fonctions suivantes. Dans [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md), la communauté dYdX a voté pour réviser la formule de récompenses des fournisseurs de liquidité en divisant les fonctions pour les Marchés BTC/ETH et les marchés non BTC/ETH. Dans le [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md), la communauté dYdX a voté pour réaffecter le poids de 0,05 stkDYDX à MakerVolume.
 
-Dans l'ensemble, la pondération du volume des fonctions a été accrue sur tout les marchés. Le montant de $DYDX gagné est déterminé par la part relative de $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​) de chaque participant.
+Dans l'ensemble, la pondération du volume des fonctions a été accrue sur tout les marchés. Le montant de ethDYDX gagné est déterminé par la part relative des $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​) de chaque participant.
 
 <figure><img src="../.gitbook/assets/Updated LP Rewards Formulas.png" alt=""><figcaption></figcaption></figure>
 
@@ -51,29 +51,29 @@ Chaque marché aura son propre pool de récompenses qui sera pondéré différem
 
 ### Qui est admissible aux récompenses des fournisseurs de liquidités ?
 
-Tous les fournisseurs de liquidités ayant atteint un minimum de 0,25 % de volume du maker sur le protocole dYdX de couche 2 à l'Epoch précédente sont éligibles au versement de $DYDX à titre de récompense à une Epoch donnée.
+Tous les fournisseurs de liquidités qui ont atteint un minimum de 0,25 % de volume de maker sur le protocole dYdX v3 à l'epoch précédente sont admissibles pour recevoir ethDYDX en tant que récompenses à une epoch donnée.
 
-Le protocole de couche 2 de dYdX n'est pas disponible pour les fournisseurs de liquidités aux États-Unis ou dans les territoires restreints, tels que définis dans les [conditions d'utilisation](https://dydx.exchange/terms) de dYdX Trading Inc.
+dYdX v3 n'est pas disponible pour les fournisseurs de liquidité aux États-Unis ou dans les territoires restreints, tels que définis dans les [conditions d'utilisation](https://dydx.exchange/terms) de dYdX Trading Inc.
 
-### Combien de $DYDX ai-je gagné dans le cadre du programme de récompenses des fournisseurs de liquidité ?
+### Combien de $ethDYDX ai-je gagné dans le cadre du programme de récompenses des fournisseurs de liquidité ?
 
-À une Epoch donnée, les fournisseurs de liquidité gagnent un rendement en fonction de leur $$Q_{SCORE}$$ relatif sur le marché d'une paire donnée. Chaque paire a son propre montant de récompense relatif fixé par la gouvernance. Le montant attendu des DYDX gagnés est affiché dans le [tableau de bord des récompenses LP](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true) et peut être déterminé en fonction du nombre de fournisseurs de liquidités impliqués, du $$${SCORE}$ relatif et du montant de la récompense disponible pour une paire donnée.
+À une époch donnée, les fournisseurs de liquidité gagnent un rendement en fonction de leur $$Q_{SCORE}$$ relatif sur le marché d'une paire donnée. Chaque paire a son propre montant de récompense relatif fixé par la gouvernance. Le montant attendu des ethDYDX gagnés est affiché dans le [tableau de bord des récompenses LP](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true) et peut être déterminé en fonction du nombre de fournisseurs de liquidités impliqués, du $$${SCORE}$ relatif et du montant de la récompense disponible pour une paire donnée.
 
 ### Comment puis-je réclamer mes récompenses de fournisseur de liquidité ?
 
 Les récompenses des fournisseurs de liquidités sont apparues dans l'[API dYdX](https://docs.dydx.exchange/). Bien qu'elles n'apparaissent pas sur l'interface utilisateur de gouvernance, elles peuvent toujours être réclamées via la gouvernance à la fin de chaque epoch [ici](https://dydx.community/dashboard).
 
-### À quel moment puis-je retirer et transférer mes récompenses de fournisseur de liquidité $DYDX réclamées ?
+### Quand puis-je retirer et transférer mes récompenses de fournisseur de liquidité $ethDYDX réclamées ?
 
-Les jetons de $DYDX attribués via les récompenses de fournisseurs de liquidités peuvent être réclamés et transférés une fois la période de restriction de transfert initiale levée.
+Les jetons de $ethDYDX attribués via les récompenses de fournisseurs de liquidités peuvent être réclamés et transférés une fois la période de restriction de transfert initiale levée.
 
-À partir de l'Epoch 1, les jetons de $DYDX attribués via les récompenses de fournisseurs de liquidité peuvent être réclamés dans les `7 jours` (période **d'attente**) qui suivent la fin de chaque Epoch.
+À partir de l'epoch 1, les jetons de $ethDYDX attribués via les récompenses de fournisseurs de liquidité peuvent être réclamés dans les `7 jours` (**période d'attente**) qui suivent la fin de chaque epoch.
 
 ### Comment la profondeur bilatérale, l'écart acheteur-vendeur et le temps de disponibilité sont-ils définis et mesurés ?
 
 **Profondeur bilatérale**
 
-Un fournisseur de liquidités bilatéral est une entreprise ou un individu qui cote activement des marchés bilatéraux sur le protocole de couche 2 de  dYdX, en fournissant des offres et des demandes pour un marché donné. Ils fournissent de la liquidité au protocole dans son ensemble.
+Un fournisseur de liquidités bilatéral est une entreprise ou un individu qui cote activement des marchés bilatéraux sur dYdX v3, en fournissant des offres et des demandes pour un marché donné. Ils fournissent de la liquidité au protocole dans son ensemble.
 
 Par exemple, un fournisseur de liquidité sur le marché BTC-USD peut fournir une cotation de 30 000 $ à 30 100 $, 10x50. Cela signifie qu'ils enchérissent (ils achèteront) 10 BTC pour 30 000 $ et offriront également (ils vendront) 50 BTC à 30 100 $. D'autres participants au marché peuvent alors acheter (lever l'offre) du fournisseur de liquidité à 30 100 $ ou lui vendre (atteindre l'offre) à 30 000 $.
 
