@@ -25,11 +25,11 @@ _**摘要：**_
 
 在时段6中，dYdX社区对[快照](https://commonwealth.im/dydx/snapshot/dydxgov.eth/0x785066561be1e5d170eb28960da5ef2643ee0d0c3d590fd797c028512cc6be43)进行了投票，将做市商的LP奖励数量阈值从1%降低到0.25%。遵循与时段6中相同的过程（1%到0.25%），在时段2中，LP奖励阈值从5%降低到1%。下面提供了将 LP 奖励交易量的阈值从 5% 降低到 1% 的分步概述。
 
-社区的大多数人（399名投票者和86%的DYDX）对[快照](https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN)进行了投票，以将获得流动性提供方奖励的数量阈值从5%降低到1%。DeFiance Capital的Jacob Goh (jteam0x)提交了一份[链下DIP](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-2.md)，将做市商的流动性提供方奖励数量阈值从5%降低到1%。在时段2达到1%阈值的做市商有资格在时段3获得流动性提供方奖励。该提议不需要任何链上智能合约变更。
+社区的大多数成员（399 名投票者和 86% 的 $ethDYDX）对 [Snapshot](https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN) 进行了投票，将获得流动性提供方奖励的数量阈值从 5% 降到 1%。DeFiance Capital的Jacob Goh (jteam0x)提交了一份[链下DIP](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-2.md)，将做市商的流动性提供方奖励数量阈值从5%降低到1%。在时段2达到1%阈值的做市商有资格在时段3获得流动性提供方奖励。该提议不需要任何链上智能合约变更。
 
 _**背景：**_
 
-作为流动性提供方[奖励计划](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards)的一部分，每个时段（28天）将1,150,685个DYDX分配给为该协议做市的流动性提供方。根据奖励正常运行时间、双侧深度、买卖价差和支持的交易对数量的公式，对奖励进行分配。要获得此奖励计划的资格，流动性提供方需要在前一个时段提供总挂单量的最低百分比。
+作为流动性提供方[奖励计划](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards)的一部分，每个时段（28天）向为协议做市的流动性提供方 分配 1,150,685 $ethDYDX。根据奖励正常运行时间、双侧深度、买卖价差和支持的交易对数量的公式，对奖励进行分配。要获得此奖励计划的资格，流动性提供方需要在前一个时段提供总挂单量的最低百分比。
 
 dYdX社区对流动性提供方奖励阈值具有“即时且不可撤销的控制”。社区控制的参数的完整列表，请点击[此处](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)访问链接。
 
@@ -74,7 +74,7 @@ Three Arrows Capital的Su Zhu (zhusu)创建了一个[链下论坛讨论](https:/
 
 _**说明：**_
 
-在社区达成粗略共识后，拥有1万提议权的社区成员可以在[快照](https://snapshot.org/#/)上为DRC创建链下投票。[提议权](https://docs.dydx.community/dydx-governance/voting-and-governance/voting)允许创建和维持提议。快照是一个简单的投票界面，允许用户在链下表达意见。快照上的票数按照用于投票的地址持有或受委托的DYDX数量进行加权。创建快照投票的社区成员必须提供有关DRC、投票系统、投票开始日期、投票结束日期和快照区块编号的详情。投票期应为 5 天，投票应在投票延迟 1 天后开始（_根据 13.2 秒区块时间）_。投票延迟为dYdX社区成员提供了更多时间，以了解DRC、购买DYDX或委托其DYDX的投票权。持有DYDX或在快照区块编号之前已被委托投票权的社区成员有资格投票。有关快照投票的更多信息，请点击[此处](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)访问链接。
+在社区达成粗略共识后，拥有1万提议权的社区成员可以在[快照](https://snapshot.org/#/)上为DRC创建链下投票。[提议权](https://docs.dydx.community/dydx-governance/voting-and-governance/voting)允许创建和维持提议。快照是一个简单的投票界面，允许用户在链下表达意见。快照上的投票根据投票地址持有或委托的治理代币的数量进行加权。 创建快照投票的社区成员必须提供有关DRC、投票系统、投票开始日期、投票结束日期和快照区块编号的详情。投票期应为 5 天，投票应在投票延迟 1 天后开始（_根据 13.2 秒区块时间）_。投票延迟为 dYdX 社区成员提供更多时间，以了解 DRC、购买 $ethDYDX，或委托其治理代币的投票权。持有治理代币或在快照区块编号之前被委托投票权的社区成员有资格投票。 有关快照投票的更多信息，请点击[此处](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)访问链接。
 
 _**适用于DIP 2：**_
 
@@ -99,12 +99,12 @@ _**适用于DIP 2：**_
 
 ![https://snapshot.org/#/dydxgov.eth](../.gitbook/assets/2-register-snapshot.png)
 
-* 要对有效的快照投票进行投票，您需要在快照投票生效时在快照区块编号之前持有DYDX或将投票权委托给您的地址。
+* 要对有效的快照投票进行投票，您需要在快照投票生效时在快照区块编号之前持有治理代币或将投票权委托给您的地址。
 * 要进行投票，请点击提议并选择“是”或“否”，然后选择“投票”。
 
 #### _如何在快照上创建投票：_
 
-* 要创建快照投票，您需要至少**持有 1 万个 DYDX 和/或将提议权委托给您用于创建提议的地址**。
+* 要创建快照投票，您需要**至少持有 1 万治理代币** **和/或将提议权委托给您用于**创建提议的地址。
 * 快照提议可以包含一个或多个操作，每个提议最多10个操作。操作是提议中指定的变更。
 * 如果您符合最低 1 万提议权要求，请选择“**新提议**”并根据以下内容要求填写开放栏位。
 
@@ -204,19 +204,19 @@ DIP状态：
 
 _**摘要：**_
 
-11月1日，Paradigm的Dan Robinson创建了一个链上[DIP](https://dydx.community/dashboard/proposal/3)，以恢复保险模块质押池的功能。社区的大多数人（251名投票者和近1.42亿个DYDX）投票赞成恢复保险模块的功能。经过10天的投票期后，社区成员花了将近3天的时间才启动队列，并将提议移至长达7天的时间锁延迟。11 月 20 日，保险模块恢复并重置为纯净状态。
+11月1日，Paradigm的Dan Robinson创建了一个链上[DIP](https://dydx.community/dashboard/proposal/3)，以恢复保险模块质押池的功能。社区的大多数成员（251名投票者和近1.42 亿 ethDYDX）投票赞成恢复保险模块的功能。经过10天的投票期后，社区成员花了将近3天的时间才启动队列，并将提议移至长达7天的时间锁延迟。11 月 20 日，保险模块恢复并重置为纯净状态。
 
 _**背景：**_
 
-dYdX保险模块是一种质押合约，旨在引导分散去中心化的资金池，其可用于支持dYdX协议。用户将DYDX质押到安全池中并获得stkDYDX (1:1)。stkDYDX是作为ERC-20转移的代币化头寸，其具有与DYDX相同的投票权和提议权。如果发生资金缺口事件，则需要进行治理投票以削减质押的DYDX，从而减轻损失。在DYDX代币供应中，2.5%（25,000,000个DYDX）的代币供应将分配给在保险资金质押池中质押DYDX的用户。可以在[此处](https://dydx.foundation/blog/en/safety-staking)找到有关保险资金质押池的更多信息。
+dYdX保险模块是一种质押合约，旨在引导分散去中心化的资金池，其可用于支持dYdX协议。用户将 $ethDYDX 质押到安全池中，获得 $stkDYDX（1:1）。 $stkDYDX 是以 ERC-20 转账的代币化头寸，与 $ethDYDX 具有相同的投票权和提议权。 如果发生资金缺口的情况，则需要进行治理投票以削减质押的 $ethDYDX，从而减轻损失。在 $ethDYDX 代币供应中，2.5%（25,000,000 $ethDYDX）的代币供应将分配给在保险资金质押池中质押 ethDYDX 的用户。可以在[此处](https://dydx.foundation/blog/en/safety-staking)找到有关保险资金质押池的更多信息。
 
-作为[保险资金质押池奖励](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool)的一部分，每个时段（28天）将向质押人分配383,562个DYDX。每秒按比例将奖励分配给质押人。
+作为[保险质押池奖励](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool)的一部分，每个时段（28天）将向质押人分配 383,562 $ethDYDX。每秒按比例将奖励分配给质押人。
 
 dYdX社区对保险模块智能合约的参数具有“直接和不可撤销的控制权”。社区控制的参数的完整列表，请点击[此处](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)访问链接。
 
-中国时间 9 月 8 日晚上 11:00，解除了对 DYDX 代币的转移限制，并有效地开放了对 dYdX 保险模块的质押。在将近1小时的时间里，超过50个不同的地址质押了大约157K DYDX。一个漏洞导致部署过程中出现错误，并且没有任何stkDYDX被发送至已向保险模块中进行质押的地址。因此，每个质押人的资金都冻结在了合约中，并且dYdX团队在dYdX治理UI上禁用了质押。
+9月8日北京时间晚上11:00，$ethDYDX 代币的转账限制已撤销，有效地开放了 dYdX 安全模块的质押。 在将近 1 小时的时间里，50 多个不同地址质押了大约 15.7 万 ethDYDX。一个漏洞导致部署过程中出现错误，并且没有任何stkDYDX被发送至已向保险模块中进行质押的地址。因此，每个质押人的资金都冻结在了合约中，并且dYdX团队在dYdX治理UI上禁用了质押。
 
-[DIP 1](https://dydx.community/dashboard/proposal/0)提议恢复保险模块的功能，允许受影响的地址收回其资金，并且获得额外10%的质押代币作为补偿以使他们得到弥补。虽然社区对 [DIP 1 - 安全模块恢复和质押人恢复](https://dydx.community/dashboard/proposal/0)表示强烈支持，但该提议因未能满足长时间锁投票所需的1亿 DYDX 最低法定人数而失败。因此，DeFiance Capital 的 Jacob Goh (jteam0x) 创建了 [DIP 4 - 安全模块质押人补偿和补偿](https://dydx.community/dashboard/proposal/2)，以补偿和补偿受影响地址所错过的奖励和造成的不便。[DIP 4](https://dydx.community/dashboard/proposal/2)涉及为用户质押代币部署恢复合约，并从奖励资金库中向受影响的地址额外补偿10%。DIP由短时间锁的不太严格的治理参数进行治理。
+[DIP 1](https://dydx.community/dashboard/proposal/0)提议恢复保险模块的功能，允许受影响的地址收回其资金，并且获得额外10%的质押代币作为补偿以使他们得到弥补。虽然社区强烈支持 [DIP 1：“安全模块恢复”和“质押人恢复”](https://dydx.community/dashboard/proposal/0)，但该提议失败，原因是未能满足长时间锁投票所需的 1 亿 $ethDYDX 最低通过票数。因此，DeFiance Capital 的 Jacob Goh (jteam0x) 创建了 [DIP 4 - 安全模块质押人补偿和补偿](https://dydx.community/dashboard/proposal/2)，以补偿和补偿受影响地址所错过的奖励和造成的不便。[DIP 4](https://dydx.community/dashboard/proposal/2)涉及为用户质押代币部署恢复合约，并从奖励资金库中向受影响的地址额外补偿10%。DIP由短时间锁的不太严格的治理参数进行治理。
 
 DIP的提议生命周期在DIP创建之前通常是一致的。DIP 3（链上）和DIP 2（链下）的主要区别在于DIP 3需要链上投票和智能合约部署。由于论坛讨论、DRC创建和DIP草案创建的过程是相同的，我们从起草链上DIP的内容要求开始逐步讨论。如需了解更多信息，请点击以下链接：
 
@@ -293,7 +293,7 @@ _**适用于DIP 3：**_
 
 _**说明：**_
 
-在社区成员确认提议的智能合约实施是正确的并且DIP最终确定之后，可以在链上提交DIP。在创建链上DIP之后，提议进入“待定”状态，投票延迟持续约1天（约6570个区块）。投票延迟后记录用户快照，以计入DYDX持股和委托投票权。接下来，提议进入“活动”状态，根据提议类型的不同，投票时限为2-10天不等。对于要实施的提议，投票必须通过因提议类型而不同的最低法定人数和最低投票差值。如果DIP满足最低法定人数和最低投票差值，并且大多数投票社区成员投票支持DIP，则任何地址都可以调用排队方法将提议移至时间锁队列。时间锁合约可以排队、取消或执行由dYdX社区投票决定的交易。时间锁队列的长度取决于提议的类型。
+在社区成员确认提议的智能合约实施是正确的并且DIP最终确定之后，可以在链上提交DIP。在创建链上DIP之后，提议进入“待定”状态，投票延迟持续约1天（约6570个区块）。用户快照在投票延迟后记录下来，以计入 $ethDYDX 持股和委托投票权。接下来，提议进入“活动”状态，根据提议类型的不同，投票时限为2-10天不等。对于要实施的提议，投票必须通过因提议类型而不同的最低法定人数和最低投票差值。如果DIP满足最低法定人数和最低投票差值，并且大多数投票社区成员投票支持DIP，则任何地址都可以调用排队方法将提议移至时间锁队列。时间锁合约可以排队、取消或执行由dYdX社区投票决定的交易。时间锁队列的长度取决于提议的类型。
 
 _**适用于DIP 3：**_
 
@@ -358,7 +358,7 @@ DIP于2021年11月1日在区块13532376创建。对于之后的 6570 个区块�
 
 ![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/2-draft-dip-example-10.png)
 
-当DIP在区块13538946转换为“活动”状态时，DYDX持有者能够对DIP进行投票。
+当 DIP 在区块 13538946 转换为“活动”状态时，ethDYDX 持有者能够对 DIP 进行投票。
 
 第一次投票于世界标准时间 2021 年 11 月 2 日下午 5:51:22 进行（区块 13538959），距离 DIP 在链上创建时有 6583 个区块。
 
