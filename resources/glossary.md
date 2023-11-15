@@ -4,13 +4,17 @@ description: Visão geral dos principais termos relacionados à governança.
 
 # Glossário
 
-**DYDX:** o ativo nativo do ecossistema DYDX, que constitui a base de governança e segurança para o protocolo dYdX. DYDX é um token ERC-20 que designa o peso de voto e o poder de proposta de um usuário.
+$**ethDYDX:** o ativo nativo do ecossistema dYdX baseado em Ethereum, que constitui a base da governança e da segurança para a dYdX v3. O $ethDYDX é um token ERC-20 que designa o peso do poder de voto ou de proposta de um usuário.
 
-**Protocolo dYdX:** protocolo de perpétuos da dYdX de Layer 2.
+**$wethDYDX:** a versão envolvida wrapped do $ethDYDX, obtido pela interação com o contrato inteligente $wethDYDX. O $wethDYDX é um token ERC-20 que designa o peso do poder de voto ou de proposta de um usuário.
+
+**dYdX v3:** protocolo de perpétuos da dYdX Layer 2.
 
 **Fundação dYdX:** uma fundação independente, com sede em Zug, na Suíça, criada para impulsionar o protocolo dYdX em direção ao futuro.
 
-**Contrato do token DYDX**: possui snapshots do poder de voto de cada endereço em diferentes blocos ao longo do tempo.
+**Contrato do token $ethDYDX**: possui snapshots do poder de voto de cada endereço em diferentes blocos ao longo do tempo.
+
+**Contrato do token $wethDYDX**: possui snapshots do poder de voto de cada endereço em diferentes blocos ao longo do tempo.
 
 **DIP:** as propostas de melhorias para a dYdX são apresentadas on-chain.
 
@@ -22,7 +26,7 @@ description: Visão geral dos principais termos relacionados à governança.
 
 **Período de carência de execução:** o período após o voto com uma proposta DIP se torna executável, durante o qual ela deve ser executada.
 
-**Contrato de estratégia de governança**: contém lógica para medir o poder relativo dos usuários para propor e votar.
+**Contrato de estratégia de governança V2**: contém lógica para medir o poder relativo dos usuários para propor e votar.
 
 **Contrato do Governador**: rastreia propostas e pode executá-las por meio de um contrato inteligente timelock.
 
