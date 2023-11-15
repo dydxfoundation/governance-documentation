@@ -4,20 +4,27 @@ description: Visão geral do programa de recompensas de trades.
 
 # Recompensas de trades
 
-`25,00%` da oferta inicial de token (`250.000.000 DYDX`) serão distribuídos para usuários que fizerem trades no protocolo da Camada 2 da dYdX com base nas taxas pagas.
+`20,2`**`%`** (`201.883.560 $ethDYDX`) do fornecimento de token é alocado para ser distribuído a usuários que fizeram trades na dYdX v3 com base em taxas pagas. Inicialmente, 25,0% do fornecimento de token (250.`000.00``0 $ethDYDX`) foram alocados para recompensas de trades.
+
+* No [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/8) pela redução de recompensas de trades em 25,0%. Como resultado, a alocação para recompensas de trading diminuiu de `25,0%` para `20,2%`.
+* No [DIP20](https://dydx.community/dashboard/proposal/11), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/11) pela redução de recompensas de trading em mais 45,0%. Como resultado, a alocação para recompensas de trading diminuiu de `20,2%` para `14,5%`.
+
+As recompensas de trading distribuídas em uma determinada época foram reduzidas de 3.835.616 $ethDYDX para 2.876.712 $ethDYDX na Epoch 15 e de 2.876.712 $ethDYDX para 1.582.192 $ethDYDX na Epoch 21.
 
 **Objetivos**
 
-* Incentivar todos os traders a usar o protocolo dYdX Layer 2.
+* Incentive todos os traders a usar a dYdX v3.
 * Acelerar a liquidez de mercado e o uso geral do produto.
 
 ## **Visão geral**
 
-![Ganhe recompensas ao fazer trades no protocolo da dYdX Camada 2](<../.gitbook/assets/image (14) (2) (1).png>)
+<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Taxas pagas e recompensas estimadas em uma determinada época</p></figcaption></figure>
 
-Os tokens DYDX serão distribuídos para os traders com base nas taxas pagas no protocolo da Camada 2 da dYdX. Os tokens DYDX serão distribuídos dentro de um ciclo de 28 dias ao longo de um período de cinco anos, não estando sujeitos a vesting ou bloqueios. 3.835.616 DYDX serão distribuídos por epoch.
+O $ethDYDX será distribuído aos traders com base nas taxas pagas na dYdX v3. O $ethDYDX será distribuído em uma epoch de 28 dias ao longo de cinco anos e não está sujeito a nenhuma aquisição ou bloqueio. 1.582.192 ethDYDX serão distribuídos por epoch.
 
-![](<../.gitbook/assets/Screenshot 2022-08-12 at 17.50.17.png>)
+Com a votação da comunidade para seguir com uma redução de 25% nas recompensas de trading em 958.904 $ethDYDX em [DIP16](https://dydx.community/dashboard/proposal/8) e mais 45% em 1.294.520 $ethDYDX em [DIP20](https://dydx.community/dashboard/proposal/11), os 2.253.424 $ethDYDX restantes acumulados no Tesouro de Recompensas podem ser usados/direcionados pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+
+<figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
 $$
 r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1.2...k
@@ -38,25 +45,40 @@ Na [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-1
 
 ### Quem é elegível para as recompensas de trades?
 
-Todos os traders no protocolo dYdX Layer 2 são elegíveis para receber DYDX como recompensas.
+Todos os traders na dYdX v3 são elegíveis para receber $ethDYDX como recompensas de trading.
 
-O protocolo dYdX Layer 2 não está disponível para traders nos Estados Unidos ou em territórios restritos, conforme definido nos [Termos de Uso](https://dydx.exchange/terms) da dYdX Trading Inc.
+A dYdX v3 não está disponível para traders nos Estados Unidos ou em territórios restritos, conforme definido nos [Termos de uso da](https://dydx.exchange/terms) dYdX Trading Inc.
 
-### Quanto em DYDX ganhei no programa de recompensas de trades?
+### Quanto $ethDYDX ganhei no programa de recompensas de trading?
 
 Na epoch atual, os usuários podem ver as taxas pagas e as recompensas de trades estimadas em [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards), onde estão os dados de trades dos usuários.
 
-![Informações de recompensas para a epoch atual](<../.gitbook/assets/image (18).png>)
+<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Taxas pagas e recompensas estimadas em uma determinada época</p></figcaption></figure>
 
-As recompensas de epochs passadas podem ser vistas em [**dydx.community/history/rewards**](https://dydx.community/history/rewards) \*\*\*\* (em breve).
+As recompensas de épocas anteriores podem ser vistas em [**dydx.community/history/rewards**](https://dydx.community/history/rewards)**.**
 
-### Como posso resgatar minhas recompensas de trades? Quando posso sacar e transferir a DYDX que recebi?
+### Como posso resgatar minhas recompensas de trades? Quando posso sacar e transferir o $ethDYDX que recebi?
 
-Os tokens DYDX obtidos por meio de recompensas de trades se tornam transferíveis ao final de cada epoch. Os holders de tokens DYDX são obrigados a esperar aproximadamente `7 dias` (**período de espera**) após o final da epoch para resgatá-los. Uma vez que os tokens tenham sido resgatados, eles podem ser usados na governança da dYdX.
+Os tokens $ethDYDX ganhos por meio de recompensas de trading serão transferíveis ao final de cada epoch. Os detentores de token $ethDYDX são obrigados a esperar aproximadamente `7 dias` (**Período de espera**) após o final da epoch para resgatar seus tokens $ethDYDX.
 
-Os traders — **após o período de espera** — podem resgatar suas recompensas ao final de cada epoch, [aqui](https://dydx.community/dashboard).
+Após o período de espera de 7 dias, qualquer membro da comunidade pode chamar a função `Gravar` no parâmetro `updateRoot`, no [Contrato do distribuidor Merkle](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) para tornar as recompensas de $ethDYDX reivindicáveis.
 
-Os usuários precisarão clicar em “Claim (Resgatar)”, assinar uma transação e pagar as taxas de gás para o resgate de DYDX.
+Etapas:
 
-![Visão geral de recompensas do portfólio](<../.gitbook/assets/image (20).png>)
+1. Na página [Contrato do distribuidor Merkle](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) na Etherscan, clique na guia `Contrato` e selecione `Gravar como proxy.`
+2. Clique no botão `Conectar à Web3` e conecte sua carteira da Web3.
 
+<figure><img src="../.gitbook/assets/merkle-distributor-contract.jpeg" alt=""><figcaption></figcaption></figure>
+
+3\. Role para baixo até o parâmetro `updateRoot` e clique no botão `Gravar`.
+
+<figure><img src="../.gitbook/assets/updateRoot-claiming.jpeg" alt=""><figcaption></figcaption></figure>
+
+**Essa transação exigiria algum ETH para cobrir as taxas de gás; a transação falhará se:**
+
+* O período de espera de 7 dias ainda estiver em vigor ou
+* Um membro da comunidade já tiver chamado com sucesso o parâmetro `updateRoot` no [Contrato do distribuidor Merkle](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract).
+
+Após a transação ter sido finalizada, os traders podem reivindicar suas recompensas de trades [aqui](https://dydx.community/dashboard). Os usuários precisarão clicar em `Reivindicar`, assinar uma transação e pagar as taxas de gás para reivindicar $ethDYDX.
+
+![Visão geral de recompensas do portfólio](../.gitbook/assets/1-portfolio-overview-rewards.png)
