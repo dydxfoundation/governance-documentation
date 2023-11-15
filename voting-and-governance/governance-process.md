@@ -4,19 +4,19 @@ description: Ein grober Überblick über die Governance-Architektur.
 
 # Architektur
 
-## Überblick
+## Übersicht
 
-DYDX räumt den Inhabern das Recht ein, Änderungen des Protokolls vorzuschlagen und über diese abzustimmen. Die DYDX Governance basiert auf der AAVE-Governance und unterstützt Abstimmungen auf Basis von DYDX Token-Beteiligungen.
+$ethDYDX, $stkDYDX und $wethDYDX („Governance-Token“) gewähren Inhabern das Recht, Änderungen an dYdX v3 vorzuschlagen und darüber abzustimmen. dYdX-Governance basiert auf den AAVE-Governance-Verträgen und unterstützt die Abstimmung auf der Grundlage der Bestände an Governance-Token.
 
 Vorschläge müssen ein vorgegebenes Minimum und einen bestimmten Prozentsatz an Ja-Stimmen je nach Art des Vorschlags übertreffen.
 
-Diese DYDX Token können dazu verwendet werden, Vorschläge zu machen oder über Governance-Vorschläge abzustimmen oder an andere Ethereum-Adressen delegiert zu werden.
+Das Stimm- und Vorschlagsrecht der Governance-Token ermöglicht es dem Governance-Token-Inhaber, Vorschläge zu unterbreiten und über Governance-Vorschläge abzustimmen. Beachten Sie, dass der Inhaber von Governance-Token solche Befugnisse an andere Ethereum-Adressen delegieren kann.
 
-Im Kern der dYdX Governance stehen 6 Smart Contracts:
+Im Kern der dYdX Governance stehen 8 Smart-Verträge:
 
-* **Der `DYDX Token` Contract**: Verfügt über Speicherauszüge der Stimmrechte jeder einzelnen Adresse in unterschiedlichen Zeiträumen.
-* **Der `Governance Strategie` Contract**: Enthält die Logik, um die relativen Vorschlags- und Abstimmungsrechte der Benutzer zu messen.
-* **Der `Sicherheitsmodul` Contract**: Enthält Logiken, um DYDX Token zu staken, die Position zu tokenisieren and Prämien zu erhalten. Token, die im Sicherheitsmodul gestaket sind, behalten die vollständigen Governance-Rechte bei.
+* **Die `$ethDYDX, $stkDYDX und $wethDYDX-Token`-Verträge**: Verfügen über Momentaufnahmen der Stimmrechte jeder einzelnen Adresse in unterschiedlichen Zeiträumen.
+* **Der `Governance-Strategie-V2-Vertrag`**: Enthält die Logik, um die relativen Vorschlags- und Abstimmungsrechte der Benutzer zu messen. Die dYdX-Community [hat für](https://dydx.community/dashboard/proposal/15) ein Upgrade des `Governance-Strategie`-Vertrags auf `Governance-Strategie V2` gestimmt, um $wethDYDX mit der gleichen Governance-Funktionalität wie ethDYDX für die Abstimmung und den Vorschlag in dYdX v3-Governance auszustatten.
+* **Der `Sicherheitsmodul`-Vertrag**: Enthält Logiken, um $ethDYDX-Token zu staken, die Position zu tokenisieren and Prämien zu erhalten. Token, die im Sicherheitsmodul gestaket sind, behalten die vollständigen Governance-Rechte bei.
 * **Der `Governor` Contract**: Verfolgt Vorschläge und kann über den Timelock Smart Contract Vorschläge durchführen.
 * **Die `Timelock` Contracts**: können von der Governance abgestimmte Transaktionen in die Warteschlange stellen, diese stornieren oder ausführen. Die Funktionen in einem Vorschlag werden durch den Timelock Contract initiiert. In die Warteschlange gestellte Transaktionen können nach einer Verzögerung und vor Ablauf der Nachfrist ausgeführt werden.
 * **Der `Priority Timelock` Contract**: Derselbe wie der Timelock Contract, jedoch erlaubt er dem Prioritäts-Prüfer die Ausführung von Transaktionen innerhalb der **Priority Periode** (7 Tage) vor Ablauf der Timelock-Verzögerung.
@@ -47,15 +47,15 @@ Der Short Timelock Executor steuert die folgenden Punkte:
 
 **Starkware Priority Timelock Executor**
 
-Der Starkware Prioritiy Timelock Executor besitzt den StarkEx Perpetual Exchange Contract. Es kann Vorschläge ausführen, die die Konfiguration der dYdX Layer 2-Exchange steuern.
+Der Starkware Prioritiy Timelock Executor besitzt den StarkEx Perpetual Exchange Contract. Damit können Vorschläge ausgeführt werden, die die Konfiguration von dYdX v3 steuern.
 
 Je nachdem, welche Aktion erforderlich ist, muss gegebenenfalls das Starkware-Team einbezogen werden, um die Änderung an der Exchange-Börse korrekt umzusetzen. Aus diesem Grund wird diesem Executor die Rolle eines "Priority Controllers" zugewiesen, wodurch Starkware ein Zeitraum von 7 Tagen eingeräumt wird (**Priority Periode**), in welchem ausschließlich sie die Möglichkeit haben, die Ausführung eines Vorschlags auszulösen.
 
-Starkware hat keine Kontrolle _darüber, welche_ Protokolländerungen vorgenommen werden. Nur DYDX Token-Inhaber haben über dYdX Governance die Möglichkeit, Änderungen am Exchange-Protokoll zu genehmigen oder zu abzulehnen.
+Starkware hat keine Kontrolle _darüber, welche_ Protokolländerungen vorgenommen werden. Nur Inhaber von $ethDYDX- und $wethDYDX-Token können über dYdX v3-Governance Änderungen am Austauschprotokoll genehmigen oder verweigern.
 
 #### **Long Timelock Executor**
 
-Der Long Timelock Executor kann Vorschläge ausführen, die zumeist Teile des Protokolls ändern, welche den Governance Konsens betreffen.
+Der Long-Timelock-Executor kann Vorschläge ausführen, die im Allgemeinen Teile von dYdX v3 ändern, die sich auf den Governance-Konsens auswirken.
 
 #### **Merkle-Pauser Executor**
 
