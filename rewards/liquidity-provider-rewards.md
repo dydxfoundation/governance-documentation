@@ -4,9 +4,9 @@ description: Visão geral do programa de recompensas do provedor de liquidez.
 
 # Recompensas de provedores de liquidez
 
-**5,2%** (`52.458.925 $DYDX`) do suprimento de token é alocado para ser distribuído aos provedores de liquidez ("LPs") com base em fórmulas que recompensam uma combinação de volume do Maker, tempo de atividade, profundidade bilateral, spreads de oferta-venda e o número de mercados suportados. Inicialmente, **7,5%** (`75.000.000 $DYDX`)  do suprimento de tokens  foi alocado para recompensas de LP.
+**5,2%** da oferta de token (`52.458.925 $ethDYDX`) será distribuída a provedores de liquidez (LPs) com base em fórmulas que recompensam uma combinação de volume de maker, tempo de atividade, profundidade do par, spreads de compra e venda e a quantidade de mercados suportados. Inicialmente, **7,5%** (`75.000.000 $ethDYDX`) do suprimento de tokens foi alocado para recompensas de LP.
 
-* No [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), a comunidade da dYdX [votou](https://dydx.community/dashboard/proposal/14) para reduzir as recompensas de provedor de liquidez em 50%, de    `1.150.685 DYDX` por época para `575.343 DYDX` por época. Como resultado disso, a alocação para recompensas de LP diminuiu de `7,5%` para 5,`2%`.
+* No [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), a comunidade da dYdX [votou](https://dydx.community/dashboard/proposal/14) para reduzir as recompensas de provedor de liquidez em 50%, de `1.150.685 $ethDYDX` por época para `575.343 $ethDYDX` por época. Como resultado disso, a alocação para recompensas de LP diminuiu de `7,5%` para 5,`2%`.
 
 **Objetivos**
 
@@ -14,15 +14,15 @@ description: Visão geral do programa de recompensas do provedor de liquidez.
 
 ## **Visão geral**
 
-Para incentivar a liquidez do mercado, $DYDX será distribuído a provedores de liquidez com base em fórmulas que recompensam a participação nos mercados, volume de maker, profundidade do par, spread (vs. o mercado intermediário) e o tempo de atividade no protocolo de segunda camada (L2) da dYdX. Qualquer endereço de Ethereum pode ganhar essas recompensas, estando sujeito a um limite de volume mínimo de 0,25% do volume de maker na epoch anterior. $DYDX será distribuído numa base de 28 dias ao longo de cinco anos e não está sujeita a investimentos ou bloqueios. 575.343 $DYDX serão distribuídos por epoch.
+Para incentivar a liquidez do mercado, o $ethDYDX será distribuído a provedores de liquidez com base em fórmulas que recompensam a participação nos mercados, volume de maker, profundidade do par, spread (vs. o mercado intermediário) e o tempo de atividade no protocolo de segunda camada (L2) da dYdX v3. Qualquer endereço Ethereum pode ganhar essas recompensas, sujeito a um limite mínimo de volume de maker de 0,25% na época anterior. O $ethDYDX será distribuído em uma época de 28 dias ao longo de cinco anos e não estará sujeito a nenhum tipo de aquisição ou bloqueio. 575. 343 $ethDYDX serão distribuídos por época.
 
-As funções a seguir são usadas para calcular a quantidade de $DYDX que deve ser enviada como recompensa a cada provedor de liquidez por epoch. Durante o [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md), a comunidade dYdX votou para que se revisasse a fórmula de recompensas de LP dividindo as funções para mercados de BTC/ETH e mercados não BTC/ETH. No [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md), a comunidade da dYdX votou por realocar o peso de 0,05 $stkDYDX para o MakerVolume.
+As funções a seguir são usadas para calcular a quantidade de $ethDYDX que deve ser enviada como recompensa a cada provedor de liquidez por epoch. Durante o [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md), a comunidade dYdX votou para que se revisasse a fórmula de recompensas de LP dividindo as funções para mercados de BTC/ETH e mercados não BTC/ETH. No [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md), a comunidade da dYdX votou por realocar o peso de 0,05 stkDYDX para o MakerVolume.
 
-De modo geral, a ponderação de volume nas funções foi aumentada em todos os mercados. A quantia de $DYDX obtida é determinada pela parte relativa de $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​) de cada participante.
+De modo geral, a ponderação de volume nas funções foi aumentada em todos os mercados. A quantia de ethDYDX obtida é determinada pela parte relativa de $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​) de cada participante.
 
 <figure><img src="../.gitbook/assets/Updated LP Rewards Formulas.png" alt=""><figcaption></figcaption></figure>
 
-Ordens abaixo de uma determinada **profundidade mínima** (tamanho) ($$MinDepth$$) por mercado são excluídas e ordens de um determinado **spread máximo** (spread de mercado intermediário) ($$MaxSpread$$) de mercado também são excluídas.
+Ordens abaixo de uma determinada **profundidade mínima** (tamanho) ($$MinDepth$$) por mercado são excluídas e ordens de um determinado **spread máximo** (spread de mid-market) ($$MaxSpread$$) de mercado também são excluídas.
 
 O desempenho do provedor de liquidez é monitorado e calculado de minuto a minuto (usando amostragem randomizada) e agregado a um $$Q_{SCORE}$$ para um determinado mercado. Dada a amostragem por minuto, cada epoch tem 28 dias \* 24 horas \* 60 minutos de pontos de dados, isto é, 40.320 pontos de dados por epoch no total.
 
@@ -51,29 +51,29 @@ Cada mercado terá seu próprio pool de recompensas que será ponderado de manei
 
 ### Quem é elegível para recompensas de provedores de liquidez?
 
-Todos os provedores de liquidez que alcançarem um mínimo de 0,25% do volume de maker no protocolo de segunda camada dYdX na epoch anterior são elegíveis para receber $DYDX como recompensa em uma determinada epoch.
+Todos os provedores de liquidez que alcançarem um mínimo de 0,25% do volume de maker no protocolo da dYdX v3 na epoch anterior são elegíveis para receber ethDYDX como recompensa em uma determinada época.
 
-O protocolo de segunda camada da dYdX 2 não está disponível para provedores de liquidez nos Estados Unidos ou em territórios restritos, conforme definido nos [Termos de Uso](https://dydx.exchange/terms) da dYdX Trading Inc.
+A dYdX v3 não está disponível para provedores de liquidez nos Estados Unidos ou em territórios restritos, conforme definido nos [Termos de uso](https://dydx.exchange/terms) da dYdX Trading Inc.
 
-### Quanto $DYDX ganhei no programa de recompensas para provedores de liquidez?
+### Quanto $ethDYDX ganhei no programa de recompensas para provedores de liquidez?
 
-Numa determinada epoch, os provedores de liquidez ganham um rendimento com base no seu valor $$Q_{SCORE}$$ em um determinado mercado do par. Cada par tem sua própria quantia de recompensas relativa definida pela governança. A quantidade esperada de DYDX obtidos é exibida no [Painel de Recompensas LP](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true) e pode ser determinada com base no número de provedores de liquidez envolvidos, no valor de $Q_{SCORE}$$ e no valor da recompensa disponível para um determinado par.
+Numa determinada epoch, os provedores de liquidez ganham um rendimento com base no seu valor $$Q_{SCORE}$$ em um determinado mercado do par. Cada par tem sua própria quantia de recompensas relativa definida pela governança. A quantidade esperada de ethDYDX obtidos é exibida no [Painel de Recompensas LP](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true) e pode ser determinada com base no número de provedores de liquidez envolvidos, no valor de $Q_{SCORE}$$ e no valor da recompensa disponível para um determinado par.
 
 ### Como posso resgatar minhas recompensas para provedores de liquidez?
 
 As recompensas para provedores de liquidez são cobertas na [API da dYdX](https://docs.dydx.exchange/). Embora não seja mostrada na interface de usuário da governança, elas ainda são resgatáveis por meio da governança ao final de cada epoch [aqui](https://dydx.community/dashboard).
 
-### Quando posso fazer o saque e transferir minhas recompensas para provedores de liquidez $DYDX que resgatei?
+### Quando posso fazer o saque e transferir minhas recompensas para provedores de liquidez ethDYDX que resgatei?
 
-Os tokens $DYDX obtidos por meio das recompensas para provedores de liquidez serão resgatados e transferíveis uma vez que o período de restrição de transferência inicial for encerrado.
+Os tokens ethDYDX obtidos por meio das recompensas para provedores de liquidez serão resgatados e transferíveis uma vez que o período de restrição de transferência inicial for encerrado.
 
-Começando na epoch 1, os tokens $DYDX obtidos por meio das recompensas para provedores de liquidez serão resgatados `após 7 dias` (**período de espera**) a partir do final de cada epoch.
+Começando na epoch 1, os tokens $ethDYDX obtidos por meio das recompensas para provedores de liquidez serão resgatados `após 7 dias` (**período** de espera) a partir do final de cada epoch.
 
 ### Como são definidos e medidos a profundidade de dois lados, spread de compra e venda e o tempo de atividade?
 
 **Profundidade de dois lados**
 
-Um provedor de liquidez de dois lados é um indivíduo que ativamente negocia de ambos os lados do mercado no protocolo dYdX Layer 2, fornecendo compras e vendas para um determinado mercado. Eles fornecem liquidez ao protocolo de forma geral.
+Um provedor de liquidez de dois lados é um indivíduo que ativamente negocia de ambos os lados do mercado no protocolo dYdX v3, fornecendo compras e vendas para um determinado mercado. Eles fornecem liquidez ao protocolo de forma geral.
 
 Por exemplo, um provedor de liquidez no mercado de BTC-USD pode fornecer uma cotação de US$ 30.000-US$ 30.100, 10x50. Isso significa que eles ofertam a compra de 10 BTC por US$ 30.000 e também ofertam a venda de 50 BTC a US$ 30.100. Outros participantes de mercado podem então comprar (fazendo ofertas) do provedor de liquidez a US$ 30.100 ou vender a eles a US$ 30.000.
 
