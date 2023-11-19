@@ -1,19 +1,19 @@
 ---
 description: >-
-  커뮤니티 트레저리에서 목적지 주소로 DYDX를 전송하기 위한 계획안을 작성하는 방법에 대한 기술적인 단계별 가이드입니다.
+  커뮤니티 금고에서 목적지 주소로 ethDYDX를 전송하기 위한 제안서 작성 방법을 기술적, 단계별로 설명한 가이드
 ---
 
 # dYdX 커뮤니티 트레저리 지출 계획안 작성에 대한 기술 가이드
 
-Reverie는 풀 리퀘스트(PR)를 이용하여 DYDX를 커뮤니티 트레저리에서 dYdX _거버넌스 계약 리포지토리_로 전송하기 위한 거버넌스 계획안을 제출하기 위한 포괄적인 기술 가이드를 작성했습니다.
+Reverie는 풀 리퀘스트(PR)를 통해 $ethDYDX를 커뮤니티 금고에서 dYdX _거버넌스 계약_ 리포지토리로 전송하는 거버넌스 계획안을 제출하기 위해 포괄적인 기술 가이드를 만들었습니다.
 
-이 계획안을 작성하려면, dYdX 커뮤니티 구성원은 **적어도 5M DYDX**_(총 공급량의 0.5%)_의 계획안 권한([단기 타임락 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)를 위한 [계획안 임계값](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters))을 가져야 합니다.
+이 계획안을 작성하려면, dYdX 커뮤니티 구성원은 **적어도 5백만 거버넌스 토큰**_(총공급량의 0.5%)_ 정도의 제안 권한([단기 시간 제한 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)를 위한 [제안 임곗값](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters))이 있어야 합니다.
 
 ### 예비 요건
 
 풀 리퀘스트(PR)를 완료하기 전에 다음 단계를 완료해야 합니다.
 
-1. **계획안 수명 주기:** DRC는 계획안 [템플릿](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md)에 따라 게시되어야 하며 스냅샷 투표가 성공적이어야 합니다.
+1. **계획안 수명 주기:** DRC은 계획안 [템플릿에](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) 따라 게시되어야 하며 스냅샷 투표가 성공적이어야 합니다.
 2. **목적지 주소:** 목적지 주소를 미리 생성해야 합니다. 목적지 주소가 다중 서명(multi-sig)인 경우, 다중 서명 지갑을 생성해야 합니다.
 3. **GitHub 계정:** 리포지토리를 분기할 GitHub 계정입니다.
 4. **송금액(옵션):** 요청된 송금액이 PR보다 먼저 설정되면 좋습니다. 하지만 명목상의 금액을 사용하는 경우에는 승인 전 최종 단계에서 설정할 수 있습니다.
@@ -40,14 +40,11 @@ src/config/index.ts에서 테스트 목적으로 사용할 configSchema 상수�
 ```typescript
 src/config/index.ts
 ...
-
 const configSchema = {
 	...
-
 	FUND_PROPOSAL_NAME_PROPOSAL_ID: parseInteger({ default: null }),
 	TEST_PROPOSAL_NAME_WITH_PROPOSAL: parseInteger({ default: true }),
 };
-
 ...
 ```
 
@@ -56,15 +53,12 @@ src/deploy-config/base-config.ts에서 목적지 주소와 송금액을 설정 �
 ```typescript
 src/deploy-config/base-config.ts
 ....
-
 const config = {
-
 	....
 	
 	PROPOSAL_NAME_ADDRESS = '0x...',
 	PROPOSAL_FUNDING_AMOUNT = '10000000000000000000',
 };
-
 ...
 ```
 
@@ -90,9 +84,7 @@ a. 맨 위에 필요한 import를 추가합니다.
 
 ```typescript
 src/migrations/proposal-name.ts
-
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
-
 import {
   DydxGovernor__factory,
 } from '../../types';
@@ -111,7 +103,6 @@ b. import 아래에서 계획안 이름을 사용하여 새 함수를 만들고 
 
 ```typescript
 src/migrations/proposal-name.ts
-
 export async function createProposalNameProposal({
   proposalIpfsHashHex,
   dydxTokenAddress,
@@ -134,7 +125,6 @@ export async function createProposalNameProposal({
   const deployer = signer || await getDeployerSigner();
   const deployerAddress = deployer.address;
   log(`Creating proposal with proposer ${deployerAddress}.\n`);
-
   const governor = await new DydxGovernor__factory(deployer).attach(governorAddress);
   const proposalId = await governor.getProposalsCount();
   const proposal: Proposal = [
@@ -149,9 +139,7 @@ export async function createProposalNameProposal({
     [false],
     proposalIpfsHashHex,
   ];
-
   await waitForTx(await governor.create(...proposal));
-
   return {
     proposalId,
   };
@@ -173,9 +161,7 @@ _**createProposalNameProposal**_ → /src/migrations/proposal-name에서 생성�
 
 ```typescript
 tasks/deployment/proposal-name.ts
-
 import { types } from 'hardhat/config';
-
 import mainnetAddresses from '../../src/deployed-addresses/mainnet.json';
 import { hardhatTask } from '../../src/hre';
 import { DIP_NUMBER_IPFS_HASH } from '../../src/lib/constants';
@@ -190,7 +176,6 @@ b. hardhat 작업을 생성하고 작업 시작 줄에 있는 계획안 정보�
 
 ```typescript
 tasks/deployment/proposal-name.ts
-
 hardhatTask('deploy:proposal-name', 'Proposal Description.')
   .addParam('proposalIpfsHashHex', 'IPFS hash for the uploaded DIP describing the proposal', DIP_NUMBER_IPFS_HASH, types.string)
   .addParam('dydxTokenAddress', 'Address of the deployed DYDX token contract', mainnetAddresses.dydxToken, types.string)
@@ -211,7 +196,7 @@ a. **계획안 테스트 추가**
 
 test/migrations에 proposal-name.ts과 같이 계획안 이름이 들어간 새 파일을 다시 추가하고 해당 파일에 다음 코드를 포함시킵니다.
 
-* 다음 계획안 함수를 포함하여 필요한 import를 추가합니다.
+*   다음 계획안 함수를 포함하여 필요한 import를 추가합니다.
 
 **createProposalNameProposal**, /src/migrations/proposal-name에서 생성했던 함수입니다. \
 
@@ -220,10 +205,8 @@ test/migrations에 proposal-name.ts과 같이 계획안 이름이 들어간 새 
 
 ```typescript
 test/migrations/proposal-name.ts
-
 import BNJS from 'bignumber.js';
 import { BigNumber, BigNumberish } from 'ethers';
-
 import config from '../../src/config';
 import { getDeployConfig } from '../../src/deploy-config';
 import { getDeployerSigner } from '../../src/deploy-config/get-deployer-address';
@@ -237,13 +220,12 @@ import {
   Treasury__factory,
 } from '../../types';
 import { advanceBlock, increaseTimeAndMine } from '../helpers/evm';
-
 const MOCK_PROPOSAL_IPFS_HASH = (
   '0x0000000000000000000000000000000000000000000000000000000000000000'
 );
 ```
 
-* 다음 단계에 따라 테스트 함수를 추가합니다.
+*   다음 단계에 따라 테스트 함수를 추가합니다.
 
     * **fundProposalNameViaProposal** → 이 함수를 만들고 계획안 이름과 일치하도록 이름을 변경합니다.
     * **destinationAddress** → 목적지 이름과 일치하도록 레이블을 다시 지정합니다.
@@ -257,7 +239,6 @@ const MOCK_PROPOSAL_IPFS_HASH = (
 
 ```typescript
 test/migrations/proposal-name.ts
-
 export async function fundProposalNameViaProposal({
   dydxTokenAddress,
   governorAddress,
@@ -275,25 +256,20 @@ export async function fundProposalNameViaProposal({
   const deployer = await getDeployerSigner();
   const dydxToken = new DydxToken__factory(deployer).attach(dydxTokenAddress);
   const governor = new DydxGovernor__factory(deployer).attach(governorAddress);
-
   await fundCommunityTreasuryFromFoundationIfNecessary({
     dydxTokenAddress,
     communityTreasuryAddress,
     minTreasuryBalance: deployConfig.PROPOSAL_FUNDING_AMOUNT,
   });
-
   // Pick a voter with enough tokens to meet the quorum requirement.
   const voterAddress = deployConfig.TOKEN_ALLOCATIONS.DYDX_TRADING.ADDRESS;
   const voter = await impersonateAndFundAccount(voterAddress);
   const voterBalance = await dydxToken.balanceOf(voterAddress);
-
   if (voterBalance.lt(new BNJS('2e25').toFixed())) {
     throw new Error('Not enough votes to pass the proposal.');
   }
-
   // Vote on an existing proposal (can be used with mainnet forking).
   let proposalId: BigNumberish;
-
   if (config.FUND_PROPOSAL_NAME_PROPOSAL_ID !== null) {
     proposalId = config.FUND_PROPOSAL_NAME_PROPOSAL_ID;
   } else {
@@ -307,7 +283,6 @@ export async function fundProposalNameViaProposal({
       destinationAddress,
       signer: voter,
     }));
-
     log('Waiting for voting to begin');
     for (let i = 0; i < deployConfig.VOTING_DELAY_BLOCKS + 1; i++) {
       if (i > 0 && i % 2000 === 0) {
@@ -316,15 +291,12 @@ export async function fundProposalNameViaProposal({
       await advanceBlock();
     }
   }
-
   let proposalState = await governor.getProposalState(proposalId);
   if (proposalState !== 2) {
     throw new Error('Expected proposal to be in the voting phase.');
   }
-
   log('Submitting vote');
   await waitForTx(await governor.connect(voter).submitVote(proposalId, true));
-
   log('Waiting for voting to end');
   let minedCount = 0;
   for (; ;) {
@@ -338,23 +310,18 @@ export async function fundProposalNameViaProposal({
       break;
     }
   }
-
   if (proposalState !== 4) {
     throw new Error(`Expected proposal to have succeeded but state was ${proposalState}`);
   }
-
   log('Queueing the proposal');
   await waitForTx(await governor.queue(proposalId));
   const delaySeconds = deployConfig.SHORT_TIMELOCK_CONFIG.DELAY;
   await increaseTimeAndMine(delaySeconds);
-
   log('Executing the proposal');
   await waitForTx(await governor.execute(proposalId));
   log('Proposal executed');
-
   log('\n=== FUNDING PROPOSAL COMPLETE ===\n');
 }
-
 export async function fundProposalNameNoProposal({
   dydxTokenAddress,
   shortTimelockAddress,
@@ -371,13 +338,11 @@ export async function fundProposalNameNoProposal({
   const communityTreasury = new Treasury__factory(mockShortTimelock).attach(
     communityTreasuryAddress,
   );
-
   await fundCommunityTreasuryFromFoundationIfNecessary({
     dydxTokenAddress,
     communityTreasuryAddress,
     minTreasuryBalance: deployConfig.PROPSAL_FUNDING_AMOUNT,
   });
-
   await waitForTx(
     await communityTreasury.transfer(
       dydxTokenAddress,
@@ -385,10 +350,8 @@ export async function fundProposalNameNoProposal({
       deployConfig.PROPOSAL_FUNDING_AMOUNT,
     ),
   );
-
   log('\n=== PROPOSAL FUNDING COMPLETE ===\n');
 }
-
 async function fundCommunityTreasuryFromFoundationIfNecessary({
   dydxTokenAddress,
   communityTreasuryAddress,
@@ -399,11 +362,9 @@ async function fundCommunityTreasuryFromFoundationIfNecessary({
   minTreasuryBalance: string,
 }): Promise<void> {
   const deployConfig = getDeployConfig();
-
   const mockFoundation = await impersonateAndFundAccount(deployConfig.TOKEN_ALLOCATIONS.DYDX_FOUNDATION.ADDRESS);
   const dydxToken = new DydxToken__factory(mockFoundation).attach(dydxTokenAddress);
   const communityTreasuryBalance: BigNumber = await dydxToken.balanceOf(communityTreasuryAddress);
-
   if (communityTreasuryBalance.lt(minTreasuryBalance)) {
     // Transfer necessary funds to the treasury.
     await waitForTx(
@@ -424,9 +385,7 @@ b. **테스트 스크립트에 테스트 함수 추가**
 
 ```typescript
 test/migrations/deploy-contracts-for-test.ts
-
 ...
-
 import { fundProposalNameNoProposal, fundProposalNameViaProposal } from './proposal-name-proposal';
 ```
 
@@ -435,7 +394,6 @@ import { fundProposalNameNoProposal, fundProposalNameViaProposal } from './propo
 
 ```typescript
 ...
-
 export async function executeProposalNameProposalForTest(
   deployedContracts: AllDeployedContracts,
 ) {
@@ -457,9 +415,7 @@ export async function executeProposalNameProposalForTest(
     });
   }
 }
-
 ...
-
 // put this above the configureForTest function
 ```
 
@@ -471,9 +427,7 @@ c. **테스트 도우미에 계약 추가**
 
 ```typescript
 test/helpers/get-deployed-contracts-for-test.ts
-
 ...
-
 import {
   configureForTest,
   deployContractsForTest,
@@ -492,12 +446,10 @@ import {
 
 ```typescript
 test/helpers/get-deployed-contracts-for-test.ts
-
 async function getDeployedContractsForTest(): Promise<AllDeployedContracts> {
   if (!config.isHardhat()) {
     return getAllContracts();
   }
-
   let deployedContracts: AllDeployedContracts;
   if (config.FORK_MAINNET) {
     deployedContracts = await getAllContracts();
@@ -531,27 +483,22 @@ test/misc에 계획안 이름이 proposal-name-proposal.spec.ts인 새 파일을
 1. DIP\_NUMBER\_IPFS\_HASH를 통해 lib에서 IPFS 해시를 가져옵니다.
 2. ProposalNameId를 사용하여 다음 번 proposalId 번호를 하드코딩합니다.
 3. 해시 상수로 계획안 해시를 확인합니다.
-4. PROPOSAL\_NAME\_ADDRESS를 확인하여 PROPOSAL\_FUNDING\_AMOUNT의 예상 잔액이 있는지 확인합니다.
+4.  PROPOSAL\_NAME\_ADDRESS를 확인하여 PROPOSAL\_FUNDING\_AMOUNT의 예상 잔액이 있는지 확인합니다.
 
 **참고: 이 주소에 이미 DYDX가 있는 경우 테스트를 통과하려면 잔액에 하드코딩해야 합니다.**
 
 ```typescript
 test/misc/proposal-name-proposal.spec.ts
-
 import { expect } from 'chai';
 import { DIP_NUMBER_IPFS_HASH } from '../../src/lib/constants';
 import { describeContract, TestContext } from '../helpers/describe-contract';
-
 function init() {}
-
 describeContract('proposal-name', init, (ctx: TestContext) => {
-
   it('Proposal IPFS hash is correct', async () => {
     const ProposalNameId = #;
     const proposal = await ctx.governor.getProposalById(ProposalNameId);
     expect(proposal.ipfsHash).to.equal(DIP_NUMBER_IPFS_HASH);
   });
-
   it('Destination receives tokens from the community treasury', async () => {
     const balance = await ctx.dydxToken.balanceOf(ctx.config.PROPOSAL_NAME_ADDRESS);
     expect(balance).to.equal(ctx.config.PROPOSAL_FUNDING_AMOUNT);
@@ -573,7 +520,7 @@ git push
 
 b. **dYdX 리포지토리에 PR을 제출합니다.**
 
-****<img src=".gitbook/assets/Screenshot 2022-12-14 at 5.06.23 PM.png" alt="" data-size="original">****
+<img src=".gitbook/assets/Screenshot 2022-12-14 at 5.06.23 PM.png" alt="" data-size="original">
 
 c. **리포지토리 관리자의 검토 및 승인을 기다립니다.**
 
