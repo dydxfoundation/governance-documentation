@@ -8,7 +8,7 @@ description: >-
 ## dYdX Tarafından Önerilen Piyasa Yapıcı Katılım Süreci Akışı:
 
 1. Tercih ettiğiniz Ethereum cüzdanını dYdX L2 Perpetual protokolüne bağlayın.
-2. Perpetual hesabınıza USDC yatırın.
+2. Perpetual hesabınıza $USDC yatırın.
 3. Katman 2 üzerindeki hesabınızı tanımlayan ve tarayıcınızda yerel olarak kaydedilen bir STARK Anahtarı oluşturmanız gerekecektir. Stark Anahtarı dYdX kullanıcılarını Ethereum hesap adresleri ile ilişkilendirir. Dolayısıyla, bir kullanıcı önce bir Ethereum anahtarının bir STARK Anahtarına bağlanmasını imzalamayı talep etmeli ve ardından da başka herhangi bir işlemin gerçekleşebilmesi için önce dYdX'in akıllı sözleşmesinde STARK Anahtarını kaydetmelidir. “Stark Anahtarı Oluştur”a tıklayın ve işlemi imzalayın. İmzalama ücretsizdir ve bir işlem göndermez. Stark Anahtarınızı cüzdanınızla dilediğiniz zaman geri yükleyebilirsiniz.
 
 Alternatif olarak, programlamayı bilen yatırımcılar şu yöntemi kullanarak STARK anahtar çiftini türetebilir:
@@ -41,9 +41,9 @@ api_keys = client.private.get_api_keys()
 
 _Alternatif olarak (3. Ve 4.)_, özel anahtarın çevrimiçi olmasını istemiyorsanız, gerekli kimlik bilgilerini almak için aşağıdaki adımlarla STARK anahtarını güvenli bir şekilde oluşturabilirsiniz.
 
-a. dYdX Perpetuals borsasındayken web tarayıcınızda herhangi bir yere sağ tıklayın ve Geliştirici Araçlarını açmak için İncele ögesini seçin
+a. dYdX Perpetuals borsasındayken web tarayıcınızda herhangi bir yere sağ tıklayın ve Geliştirici Araçlarını açmak için Inspect (İncele) ögesini seçin
 
-Sırasıyla Application > Local Storage > https://trade.dydx.exchange ögelerine gidin
+b. Sırasıyla Application > Local Storage > https://trade.dydx.exchange ögelerine gidin
 
 c. STARK\_KEY\_PAIRS ögesini seçin ve stark özel anahtarını almak için cüzdan adresinizin yanındaki açılır listeye tıklayın
 

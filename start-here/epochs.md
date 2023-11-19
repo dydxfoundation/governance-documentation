@@ -16,10 +16,10 @@ Her dönemin sonunda şunlar gerçekleşir:
 Şunlar sadece **Dönem 0'ın** sonunda gerçekleşir:
 
 * Geriye Dönük Madencilik Ödülleri dağıtılır. Ödüller, Dönem 0'ın bitişinden yaklaşık `8 gün` sonra [**dydx.community**](https://dydx.community) sitesinde talep edilebilir.
-* $DYDX transferleri başlangıçta kısıtlıdır. İlk Transfer Kısıtlaması süresi Dönem 0'ın bitişinden yaklaşık `8 gün` sonra kaldırılmıştır.
-* **$DYDX 8 Eylül 2021 tarihinde TSİ 18.00'da transfer edilebilir hâle gelmiştir.**
+* $ethDYDX transferleri ilk başta kısıtlanmıştır. İlk Transfer Kısıtlaması süresi Dönem 0'ın bitişinden yaklaşık `8 gün` sonra kaldırılmıştır.
+* **8 Eylül 2021 tarihinde TSİ 18.00.00'da $ethDYDX, transfer edilebilir hâle gelmiştir.**
 
-**Dönem 0**, **3 Ağustos 2021 günü saat 18.00.00'de (TSİ) başlayacaktır**. Aşağıdaki tabloda dönem başlangıç ve sona erme tarihleri verilmektedir (bu tarihler dYdX yönetişimi tarafından değiştirilebilir):
+**Dönem 0**, **3 Ağustos 2021 günü (TSİ) saat 18.00.00'de** başlamıştır. Aşağıdaki tabloda dönem başlangıç ve sona erme tarihleri verilmektedir (bu tarihler dYdX v3 yönetişimi tarafından değiştirilebilir):
 
 | Dönem | Başlangıç Tarihi (TSİ) | Bitiş Tarihi (TSİ) | Gün | Kümülatif Yıl |
 | ----- | ------------------- | ------------------- | ---- | ---------------- |
@@ -94,7 +94,7 @@ dYdX Vakfı, Dönemler ve Karartma Sürelerinin başlangıç​​/sona erme tar
 
 ## **Ödüller ve staking havuzları ne zaman etkinleştirilecektir?**
 
-* [Geriye Dönük Madencilik Ödülleri](../rewards/retroactive-mining-rewards.md) şimdi Protokol üzerinde canlıya geçmiştir. Bu ödüller **31 Ağustos 2021 günü saat 18.00.00'e (TSİ)** kadar devam edecektir.
+* [Geriye Dönük Madencilik Ödülleri](../rewards/retroactive-mining-rewards.md), dYdX v3 üzerinde dağıtılmıştır. Bu ödüller **31 Ağustos 2021 (TSİ) saat 18.00.00'a** kadar sürmüştür.
 * [Alım Satım Ödülleri](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md) şimdi Protokol üzerinde canlıya geçmiştir. Bu ödüller **3 Ağustos 2026 günü saat 18.00.00'e (TSİ)** kadar devam edecektir.
 * [Likidite Sağlayıcı Ödülleri](../rewards/liquidity-provider-rewards.md) şimdi Protokol üzerinde canlıya geçmiştir. Bu ödüller **3 Ağustos 2026 günü saat 18.00.00'e (TSİ)** kadar devam edecektir.
 * [Likidite Staking havuzu](../staking-pools/liquidity-staking-pool.md) 29 Eylül 2022 tarihinde kapatılmıştır.
@@ -102,7 +102,7 @@ dYdX Vakfı, Dönemler ve Karartma Sürelerinin başlangıç​​/sona erme tar
 
 ## dYdX yönetişimi dönem takvimini değiştirebilir mi?
 
-İlk başta belirlenen dönem uzunluğu `28 gündür`. dYdX yönetişimi dönem uzunluklarının belirtilen sınırlar dâhilinde değiştirilmesini oylayabilir. Minimum ve maksimum dönem uzunlukları sırasıyla `6 gün` ve `92 gündür`.
+İlk başta belirlenen dönem uzunluğu `28 gündür`.  dYdX v3 yönetişimi, dönem uzunluklarının belirtilen sınırlar dâhilinde değiştirilmesi için oylama yapabilir. Minimum ve maksimum dönem uzunlukları sırasıyla `6 gün` ve `92 gündür`.
 
 ## Karartma Süresi nedir?
 
@@ -110,13 +110,13 @@ dYdX Vakfı, Dönemler ve Karartma Sürelerinin başlangıç​​/sona erme tar
 
 Likidite Staking Havuzu ve Güvenlik Havuzu'nun her biri için tavsiye edilen karartma süresi `14 gündür`. [DIP 17](https://dydx.community/dashboard/proposal/9)'de, dYdX topluluğu, Karartma Süresi uzunluğunun `14 günden` `3 güne` düşürülmesi yönünde [oy kullanmıştır](https://dydx.community/dashboard/proposal/7). dYdX yönetişimi, karartma süresini belirtilen sınırlar dâhilinde değiştirmek için oylama yapabilir. Minimum ve maksimum karartma süreleri sırasıyla `3 gün` ve `46 gündür`.
 
-## Kazandığım DYDX Ödüllerimi ne zaman çekebilir ve transfer edebilirim?
+## Kazandığım $ethDYDX Ödüllerimi ne zaman çekebilir ve transfer edebilirim?
 
-[Geriye Dönük Madencilik Ödülleri](../rewards/retroactive-mining-rewards.md), [Alım Satım Ödülleri](../rewards/trading-rewards.md) ve [Likidite Sağlayıcı Ödülleri](../rewards/liquidity-provider-rewards.md) aracılığıyla kazanılan DYDX token'ları her dönemin sonunda transfer edilebilir. $DYDX sahiplerinin, dönemin bitişinden sonra token'larını talep etmek için yaklaşık `7 gün` (**Bekleme Süresi**) beklemeleri gerekir. Token'lar alındıktan sonra transfer edilebilir veya dYdX yönetişimine delege edilebilir.
+[Geriye Dönük Madencilik Ödülleri](../rewards/retroactive-mining-rewards.md), [İşlem Ödülleri](../rewards/trading-rewards.md) ve [Likidite Sağlayıcı Ödülleri](../rewards/liquidity-provider-rewards.md) aracılığıyla kazanılan $ethDYDX token'ları, her dönemin sonunda transfer edilebilir.  $ethDYDX sahiplerinin, dönemin bitişinden sonra token'larını talep etmek için yaklaşık `7 gün` (**Bekleme Süresi**) beklemeleri gerekir. Token'lar alındıktan sonra transfer edilebilir veya dYdX yönetişimine delege edilebilir.
 
-Likidite Staking havuzu ve Güvenlik Staking havuzu aracılığıyla kazanılan $DYDX token'ları her blokta talep edilebilir ve ilgili dönem boyunca herhangi bir zamanda çekilebilir.
+Likidite Staking havuzu ve Güvenlik Staking havuzu aracılığıyla kazanılan $ethDYDX token'ları her blokta alınabilir (talep edilebilir) ve ilgili dönem boyunca herhangi bir zamanda çekilebilir.
 
-Dönem 0'ın bitişinden 8 gün **sonra, 8 Eylül 2021 günü TSİ saat 18.00'de** ilk transfer kısıtlamaları otomatik olarak kaldırılacak ve $DYDX arzının yaklaşık **%8,11'i** likit hâle gelecektir.
+Dönem 0'ın sona ermesinden 8 gün sonra, **8 Eylül 2021 günü (TSİ) saat 18.00.00'de** ilk baştaki transfer kısıtlamaları otomatik olarak kaldırılmış ve $ethDYDX arzının yaklaşık **%8,11'i** likit hale gelmiştir.
 
 ## Bekleme Süresinin amacı nedir? Her dönemin sonunda ödüller nasıl saklanır?
 

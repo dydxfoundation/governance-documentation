@@ -4,13 +4,17 @@ description: Yönetişimle ilgili önemli terimlere genel bakış.
 
 # Sözlük
 
-**DYDX:** DYDX ekosisteminin yerel varlığı olup dUdX Protokolü için yönetişim ve güvenliğin temelini oluşturur. DYDX, bir kullanıcının oy verme veya teklif verme yetkisinin ağırlığını belirleyen bir ERC-20 token'ıdır.
+$**ethDYDX:** Ethereum tabanlı dYdX ekosisteminin doğal (native) varlığıdır ve dYdX v3 için yönetişim ve güvenliğin temelini oluşturur.  $ethDYDX, bir kullanıcının oy verme veya teklif verme yetkisinin ağırlığını belirleyen bir ERC-20 token'ıdır.
 
-**dYdX Protokolü:** dYdX'in Katman 2 sürekli varlık protokolü.
+**$wethDYDX:** $ethDYDX'in sarılı (wrapped) versiyonudur ve $wethDYDX Akıllı Sözleşmesi ile etkileşime girerek elde edilir. $wethDYDX, bir kullanıcının oy verme veya teklif verme yetkisinin ağırlığını belirleyen bir ERC-20 token'ıdır.
+
+**dYdX v3:** dYdX'in Katman 2 sürekli varlık protokolü.
 
 **dYdX Vakfı:** Merkezi İsviçre'nin Zug şehrinde bulunan bağımsız bir vakıf olup dYdX Protokolü'nü geleceğe taşımaya katkıda bulunmak üzere oluşturulmuştur.
 
-**DYDX Token sözleşmesi**: Her bir adresin oy verme yetkisinin zaman içinde farklı bloklardaki anlık görüntülerine sahiptir.
+**$ethDYDX Token sözleşmesi**: Her bir adresin oy verme yetkisinin zaman içinde farklı bloklardaki anlık görüntülerine sahiptir.
+
+**$wethDYDX Token sözleşmesi**: Her bir adresin oy verme yetkisinin zaman içinde farklı bloklardaki anlık görüntülerine sahiptir.
 
 **DIP:** dYdX İyileştirme Teklifleri zincir içi tekliflerdir.
 
@@ -22,7 +26,7 @@ description: Yönetişimle ilgili önemli terimlere genel bakış.
 
 **Yürütme Mühleti:** Bir DIP teklifinin yürütülebilir hale geldiği ve bu süre zarfında yürütülmesi gereken, oylama sonrasındaki süre.
 
-**Yönetişim Stratejisi sözleşmesi**: Kullanıcıların teklif verme ve oy verme yetkisini ölçen mantığı içerir.
+**Governance Strategy V2 sözleşmesi**: Kullanıcıların teklif verme ve oy verme yetkisini ölçen mantığı içerir.
 
 **Amir sözleşme**: Teklifleri izler ve Timelock akıllı sözleşmesi aracılığıyla teklifleri yürütür.
 

@@ -4,7 +4,7 @@ description: Yönetişim parametrelerine genel bakış.
 
 # Parametreler
 
-Yönetişimin başladığı tarih itibarıyla, DYDX sahipleri şunlar üzerinde anında ve gayri kabili rücu kontrol sahibidir:
+Yönetişim Token'ı sahipleri şunlar üzerinde anında geçerli ve geri alınamaz bir kontrol kazanır:
 
 * Topluluk hazinesinin tahsisi
 * Protokoldeki yeni token listelemeleri
@@ -20,7 +20,7 @@ dYdX Yönetişimi şu sözleşmelerin parametreleri üzerinde kontrol sahibidir:
 * [Timelock](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/voting-and-governance-process/parameters.md#timelock-parameters)
 * Priority Timelock
 * Governor
-* DYDX Token
+* $ethDYDX Token'ı
 * Hazine
 * Merkle Distributor
 * Likidite Staking
@@ -40,11 +40,11 @@ dYdX Yönetişimi şu sözleşmelerin parametreleri üzerinde kontrol sahibidir:
 | Executor rolü ekleyin | Yeni executor ekleyebilen adres | Short Timelock |
 | Sahip rolü | Stratejiyi / oylama bekleme süresini değiştirebilir / executor'ların yetkilerini iptal edebilir + diğer rollerin sahibidir | Long Timelock |
 
-## DYDX Token
+## ethDYDX Token'ı
 
 | Parametre | Açıklama | Değer |
-| --------- | ------------------------------------------- | -------------- |
-| Sahip | Token çıkarmanın kısıtlanmasının ardından DYDX token'ları çıkarabilir | Short Timelock |
+| --------- | ---------------------------------------------- | -------------- |
+| Sahip | ethDYDX token'ları kısıtlamanın sona ermesinden sonra basılabilir | Short Timelock |
 
 ## Ödül Hazinesi Parametreleri
 

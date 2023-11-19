@@ -1,15 +1,16 @@
 ---
-description: DYDX token ve yönetişime genel bir bakış.
+description: ethDYDX token ve yönetişime genel bir bakış.
 ---
 
 # Giriş
 
-DYDX, dYdX topluluğunun dYdX Katman 2 Protokolünü ("protokol") gerçekten yönetmesine olanak tanıyan bir yönetişim token'ıdır. DYDX, protokolün kontrolünün paylaşılmasına olanak tanıyarak yatırımcıların, likidite sağlayıcıların ve dYdX'in ortaklarının Protokol'ü güçlendirmek için birlikte çalışmasına olanak tanır.
+Ethereum tabanlı DYDX ($ethDYDX), dYdX topluluğunun Ethereum üzerinde inşa edilmiş dYdX Katman 2 Protokolünü ("dYdX v3") gerçek anlamıyla yönetmesine olanak tanıyan bir yönetişim token'ıdır. dYdX v3 üzerinde paylaşımlı kontrole olanak tanıyan ethDYDX; yatırımcıların, likidite sağlayıcıların ve dYdX ortaklarının gelişmiş bir dYdX v3'e ulaşma yönünde işbirliği yapmalarını sağlar.
 
-DYDX yönetişim, ödüller ve staking çerçevesinde sağlam bir ekosisteme olanak tanır; bunların her biri dYdX'in gelecekteki büyümesini ve merkeziyetsizleşmesini artıracak, bu sayede kullanıcılar için daha iyi bir deneyim sunulması planlanmıştır.
+Sarılı (Wrapped) Ethereum DYDX ($wethDYDX), bir kullanıcı [wethDYDX Akıllı Sözleşmesi](https://etherscan.io/address/0x46b2deae6eff3011008ea27ea36b7c27255ddfa9) ile etkileşime girdiğinde elde edilen, sarılı bir ethDYDX versiyonudur. wethDYDX token'ı ve ethDYDX'in Ethereum'dan dYdX v4 Açık Kaynak Yazılımına ("dYdX Zinciri") olası geçişi hakkında daha fazla bilgiyi [buradan](https://docs.dydx.community/dydx-token-migration/start-here/introduction) edinebilirsiniz.
 
-Staking havuzları, Protokol'de likidite ve güvenliği artırmak amacıyla tasarlanmıştır. dYdX alım satımı, likidite sağlama ve geçmişteki kullanımına yönelik ödül programları dYdX'in büyümesini ve benimsenmesini sağlamaya yardımcı olacaktır.
+$ethDYDX ve $wethDYDX, yönetişim ve ödüller etrafında oluşturulan güçlü bir ekosisteme olanak tanır; her biri dYdX v3'ün gelecekteki büyümesini ve merkeziyetsizliğini destekleyecek şekilde tasarlanmıştır; bu da kullanıcılar için daha iyi bir deneyim sağlar.
 
-DYDX'i kullanıma sunmanın yanı sıra şunları da çıkardık:\\ 🖥️ [**dydx.community**](https://dydx.community) adresinde bir yönetişim ürünü\ 📈 USDC için [**Likidite Staking Havuzu**](staking-pools/liquidity-staking-pool.md)\ 🔒 DYDX için [**Güvenlik Staking Havuzu**](staking-pools/safety-staking-pool.md)\ 💰 [**Trading Ödülleri**](rewards/trading-rewards.md)\
- 💸 [**Geriye Dönük Madencilik Ödülleri**](rewards/retroactive-mining-rewards.md), geçmiş kullanıcılar için\
- 📊 [**Likidite Sağlayıcı Ödülleri**](rewards/liquidity-provider-rewards.md)
+Yönetişim ve ödüllere bağlantılar burada bulunabilir:\
+\
+🖥️ [**dydx.community**](https://dydx.community) adresinde bir yönetişim ürünü\ 💰 [**Trading Ödülleri**](rewards/trading-rewards.md)\
+📊 [**Likidite Sağlayıcı Ödülleri**](rewards/liquidity-provider-rewards.md)

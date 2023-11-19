@@ -1,7 +1,7 @@
 ---
-description: $DYDX ve $DYDX Portalı kullanımına dair kısıtlamalar.
+description: $ethDYDX, $wethDYDX ve dYdX v3 kullanımındaki kısıtlamalar.
 ---
 
 # Kısıtlamalar
 
-$DYDX Amerika Birleşik Devletleri'nde ve diğer yasaklanmış yargı alanlarında kullanılamaz. Amerika Birleşik Devletleri veya başka bir yasaklanmış yargı alanında ikamet ediyorsanız veya şirketiniz ABD veya başka bir yasaklanmış yargı alanında kurulmuş ya da şirket merkeziniz ABD veya başka bir yasaklanmış yargı alanında ise $DYDX dağıtımından pay almanıza veya $DYDX ile işlem yapmanıza izin verilmez.
+Birleşik Devletler'de veya diğer yasaklanmış yargı alanlarında $ethDYDX ve $wethDYDX kullanılamaz. Amerika Birleşik Devletleri veya başka bir yasaklanmış yargı alanında ikamet ediyorsanız veya şirketiniz buralarda kurulmuş ya da şirket merkeziniz buralarda ise $ethDYDX'in ve $wethDYDX'in bir dağıtımını almanıza veya bunlarla işlem yapmanıza izin verilmemektedir.

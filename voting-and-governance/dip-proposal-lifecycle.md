@@ -8,7 +8,7 @@ description: dYdX İyileştirme Teklifi (DIP) yaşam döngüsüne genel bakış.
 
 dYdX Yönetişim Süreci, [**https://dydx.forum/**](https://dydx.forum/) adresindeki yönetişim forumları ile desteklenir ve dYdX İyileştirme Teklifleri ("DIP'ler") ile onaylanır.
 
-Aşağıda konseptin başlangıcından ve tanımlanmasından fiilen uygulanmasına kadar dYdX yönetişim sürecinin nasıl aktığını açıklayan bir ön taslağı özetliyoruz. Bu süreçler DYDX topluluğundan gelen geri bildirimlere göre değişebilir.
+Aşağıda konseptin başlangıcından ve tanımlanmasından fiilen uygulanmasına kadar dYdX v3 yönetişim sürecinin nasıl ilerleyeceğini açıklayan bir ön taslak özeti verilecektir. Bu süreçler dYdX topluluğundan gelen geri bildirimlere göre değişebilir.
 
 Aşağıdaki akış şeması bir teklifin geçmesi için başlangıçta önerilen aşamalardır:
 
@@ -40,7 +40,7 @@ Yönetişim forumunda yayınlandıktan sonra, DRC'yi daha da iyileştirmek için
 
 Snapshot anketleri iki amaca hizmet eder: Gelecekteki zincir içi DIP'ler için duyarlılık gösterilmesi ve zincir dışında kontrol edilen değişkenler için bağlayıcı oylamalar.
 
-Zincir dışı bir DRC çok açık bir mutabakat sağladığında, `10.000'den` fazla DYDX teklif etme yetkisi bulunan bir topluluk üyesi **Snapshot** üzerinde DRC için **zincir dışı** bir oy oluşturabilir. Normal çalışma haftası boyunca görünürlüğü artırmak için dYdX Topluluğu'nun Snapshot anketlerini Pazartesi günleri oluşturmasını öneririz.
+Zincir dışı bir DRC'de çok kaba bir mutabakat (konsensüs) sağlandıktan sonra, `10.000` Yönetişim Token'ından daha fazla teklif verme yetkisine sahip bir topluluk üyesi, **Snapshot** üzerinde DRC için **zincir dışı bir oylama** oluşturabilir. Normal çalışma haftası boyunca görünürlüğü artırmak için dYdX Topluluğu'nun Snapshot anketlerini Pazartesi günleri oluşturmasını öneririz.
 
 Snapshot, kullanıcıların duyarlılığı zincir dışında göstermesini sağlayan basit bir oylama arayüzüdür. Snapshot'taki oylar, oy vermek için kullanılan adresin oylama gücüne (voting power) göre ağırlıklandırılır.
 
@@ -49,7 +49,7 @@ Duyarlılık gösterilmesine ilişkin Snapshot anketleri için, teklifi verenin 
 * DRC hakkındaki ayrıntılı bilgiler,
 * bir oylama sistemi,
 * bir oylama dönemi - oylama başlangıç tarihi ve oylama bitiş tarihi 4 günlük bir oylama dönemine ayarlanır ve
-* oylama gecikmesi - gelecekte 6570 blok (13.2 saniye blok süresine göre yaklaşık 1 gün) olan bir Snapshot blok numarası. Snapshot blok numarası, oy kullanabilen topluluk üyelerinin durumunu kilitler. Snapshot blok numarası öncesinde token tutan token sahipleri oy verme hakkına sahiptir. Her bir adresin ilgili oylama yetkisinin anlık görüntüsünü almadan önce, oylama için bekleme süresi DYDX/stkDYDY sahiplerine token edinmek, oylama yetkisini delege etmek ve token'ları cüzdanlar arasında taşımak (token'ların cüzdanlar arasındaki taşınması yalnızca DYDX sahipleri için geçerlidir) için zaman verir.
+* oylama gecikmesi - gelecekte 6570 blok (13.2 saniye blok süresine göre yaklaşık 1 gün) olan bir Snapshot blok numarası. Snapshot blok numarası, oy kullanabilen topluluk üyelerinin durumunu kilitler. Snapshot blok numarası öncesinde token tutan token sahipleri oy verme hakkına sahiptir. Her bir adresin ilgili oy verme yetkisinin anlık görüntüsü alınmadan önce, oylama bekleme süresi, Yönetişim Token'ı sahiplerine token edinme, oy verme yetkisini delege etme ve cüzdanlar arasında token'ları taşıma olanağı verir. Cüzdanlar arasında taşımanın yalnızca $ethDYDX ve $wethDYDX için geçerli olduğu unutulmamalıdır.
 
 Zincir içi bir akıllı sözleşmenin çağrılmasını gerektirmeyen kararlar, özellikle de Alım Satım ve Likidite Sağlayıcı ödüllerinin formüllerinde yapılacak değişiklikler için Snapshot oylamaları bağlayıcı ve kesin oylama olarak kabul edilir. Teklif verenin yukarıdaki gereksinimleri karşılaması ve şunları sağlaması gerekir:
 
@@ -57,7 +57,7 @@ Zincir içi bir akıllı sözleşmenin çağrılmasını gerektirmeyen kararlar,
 
 Teklif edilen değişiklik/değişiklikler, Snapshot anketinin sonuçları şunları karşılarsa dYdX Trading Inc. tarafından uygulamaya koyulur:
 
-* karar yeter sayısı - en az 1 milyon DYDX/stkDYDX. Karar yeter sayısı karar alma sürecinin merkeziyetsizleştirilmesine katkıda bulunur ve tek taraflı karar alınmasına karşı korur ve
+* karar yeter sayısı - - en az `1.000.000` Yönetişim Token'ı. Karar yeter sayısı karar alma sürecinin merkeziyetsizleştirilmesine katkıda bulunur ve tek taraflı karar alınmasına karşı korur ve
 * minimum oy farkı - verilen oyların en az %67'si teklifin lehine olmalıdır. Gerekli asgari oy farkı, çok tartışmalı olan ve daha ileri düzeyde tartışılması gereken tekliflerin kenara ayrılmasına yardımcı olur.
 
 dYdX Trading Inc.'in başarılı bir Snapshot anketinde kabul edilen değişiklikleri uygulamak için uygulamaya koyma mühleti olarak 1 Döneme varan bir süreye (28 gün) sahip olacaktır.
@@ -74,9 +74,9 @@ Bir DIP'nin oluşturulabilmesi için, bir hesap için gerekli olan minimum sayı
 | ------------------ | ------------------------------------------------ | ----------------------- | ---------------------- | ---------------------- | -------------------- |
 | Teklif Eşiği | Teklif oluşturmak için tutulması/delege edilmiş olması gereken minimum token miktarı | Toplam arzın %0,5'i | Toplam arzın %0,5'i | Toplam arzın %2'si | Toplam arzın %0,5'i |
 
-## 5. (Zincir içi) DIP Oylaması
+## 5. (Zincir üstü) DIP Oylaması
 
-Bir Zincir içi DIP oluşturulduktan sonra, teklif şu anda `6``570` blok veya yaklaşık 1 gün (blok başına yaklaşık 13.2 saniye gerektiğini varsayarak) olarak yapılandırılan **Oylama Bekleme** Süresi ile tanımlanan bir bekleme durumuna geçer. Diğer bir deyişle, kullanıcı anlık görüntüleri DIP oluşturulduktan 1 gün sonra kaydedilir ve bu noktada teklif `aktif` duruma geçer.
+Bir Zincir üstü DIP oluşturulduktan sonra, teklif şu anda `6``570` blok veya yaklaşık 1 gün (blok başına yaklaşık 13.2 saniye gerektiğini varsayarak) olarak yapılandırılan **Oylama Bekleme** Süresi ile tanımlanan bir bekleme durumuna geçer. Diğer bir deyişle, kullanıcı anlık görüntüleri DIP oluşturulduktan 1 gün sonra kaydedilir ve bu noktada teklif `aktif` duruma geçer.
 
 Oylama Bekleme Süresi dolduktan sonra Oylama Süresi etkinleştirilir. Oylama süresinin uzunluğu teklifin türüne bağlıdır.
 
@@ -130,7 +130,7 @@ Bir DIP'in yaşam döngüsündeki herhangi bir noktada, teklif veren DIP'yi ipta
 
 **Oylama Bekleme Süresi**, bir teklif sunulduktan sonra oylama yapılmadan önce beklenmesi gereken Ethereum bloklarının sayısıdır.
 
-DYDX oylama yetkisi, bir teklif henüz sunulmadan önce veya teklifin **Oylama Bekleme Süresi** sırasında bir adrese delege edilmelidir.
+Oy verme yetkisi, bir teklif henüz sunulmadan önce veya teklifin **Oylama Bekleme Süresi** sırasında bir adrese delege edilmelidir.
 
 Şu an için, **Oylama Bekleme Süresi** `6.570 blok` olarak belirlenmiştir ve bu da yaklaşık 1 gündür. Bu değer, bir teklif oluşturulduğunda mevcut blok sayısına eklenir.
 
@@ -138,7 +138,7 @@ DYDX oylama yetkisi, bir teklif henüz sunulmadan önce veya teklifin **Oylama B
 
 ### Teklif Eşiğinin amacı nedir?
 
-DYDX serbestçe alınıp satılabilen bir varlık olduğundan, piyasa alımı yoluyla herkes yönetişimi ele geçirmeyi deneyebilir. Bununla birlikte, kötü niyetli bir oylamayı geçmeye zorlamak, bir short timelock durumunda minimum 5 milyon DYDX ve bir long timelock durumunda ise 20 milyon DYDX gerektirir. Her ne kadar kesinlikle imkânsız olmasa da bu miktar son derece pahalı olacak ve fiyat dalgalanması da hesaba katıldığında saldırıdan elde edilecek net kazançtan çok daha maliyetli olacaktır.
+$ethDYDX ve $wethDYDX serbestçe alınıp satılabilen varlıklar olduğundan, piyasadan alma yoluyla herkes yönetişimi ele geçirme girişiminde bulunabilir. Bununla birlikte, bir güvensizlik (bad faith) oylamasının kabul edilmesini zorlamak (force-pass) için; kısa timelock durumunda en az `5.000.000` Yönetişim Token'ı ve uzun timelock durumunda en az `20.000.000` Yönetişim Token'ı gerekir. Her ne kadar kesinlikle imkânsız olmasa da bu miktar son derece pahalı olacak ve fiyat dalgalanması da hesaba katıldığında saldırıdan elde edilecek net kazançtan çok daha maliyetli olacaktır.
 
 Bir grup bir şekilde kötü niyetli bir şekilde yönetişimi ele geçirmeyi başaracak olsa, timelock bekleme süresi etkilenen kişilere varlıklarını protokolden çekmeleri için zaman verecektir. Bu, geri kalan iyi niyetli oyuncular tarafından muhtemelen tutulacak bir yol olarak protokolü çatallamak için bir fırsat da olabilir.
 
