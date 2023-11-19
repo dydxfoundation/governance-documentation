@@ -16,10 +16,10 @@ Ce qui suit se produira à la fin de chaque époch :
 Les éléments suivants ne se produiront qu'à la fin de **l'époch 0** :
 
 * Les récompenses de minage rétroactives seront distribuées. Les récompenses peuvent être réclamées sur [**dydx.community**](https://dydx.community) environ dans les `8 jours` qui suivent la fin de l'Epoch 0.
-* Initialement, les transferts de $DYDX sont restreints. La période de restriction de transfert initiale sera levée environ dans les `8 jours` qui suivent la fin de l'Epoch 0.
-* **Le transfert de $DYDX est autorisé depuis le 8 septembre 2021, 15 h 00 UTC.**
+* Les transferts $ethDYDX sont initialement bloqués. La période de restriction de transfert initiale sera levée environ dans les `8 jours` qui suivent la fin de l'Epoch 0.
+* **Le transfert $ethDYDX est autorisé depuis le 8 septembre 2021, 15 h 00 UTC.**
 
-**L'époch 0** sera actif le **3 août 2021 à 15:00:00 UTC**. Le tableau suivant indique les dates de début et de fin de l'époch (qui peuvent être modifiées par la gouvernance dYdX) :
+**L'époch 0** a été lancée le **3 août 2021 à 15:00:00 UTC**. Le tableau suivant indique les dates de début et de fin de l'époch (qui peuvent être modifiées par la gouvernance dYdX v3) :
 
 | Époch | Date de début (UTC) | Date de fin (UTC) | Jours | Années cumulées |
 | ----- | ------------------- | ------------------- | ---- | ---------------- |
@@ -94,7 +94,7 @@ La Fondation dYdX a créé un Google Calendar public avec des dates de début/fi
 
 ## **Quand les récompenses et les pools de staking seront-ils activés ?**
 
-* Les [récompenses de minage rétroactives](../rewards/retroactive-mining-rewards.md) sont maintenant en direct sur le protocole. Ces récompenses se poursuivront jusqu'au **31 août 2021, 15:00:00 UTC**.
+* Les [récompenses minières rétroactives](../rewards/retroactive-mining-rewards.md) ont été distribuées sur dYdX v3. Ces récompenses sont valables jusqu'au **31 août 2021, à 15:00:00 UTC**.
 * Les [récompenses de trading](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md) sont désormais en direct sur le protocole. Ces récompenses se poursuivront jusqu'au **3 août 2026, 15:00:00 UTC**.
 * Les [récompenses du fournisseur de liquidité](../rewards/liquidity-provider-rewards.md) sont maintenant mis en ligne sur le protocole. Ces récompenses se poursuivront jusqu'au **3 août 2026, 15:00:00 UTC**.
 * Le [pool de mise en réserve de liquidité](../staking-pools/liquidity-staking-pool.md) a été fermé le 29 septembre 2022.
@@ -102,7 +102,7 @@ La Fondation dYdX a créé un Google Calendar public avec des dates de début/fi
 
 ## La gouvernance dYdX peut-elle modifier le calendrier des épochs ?
 
-La durée initiale de l'époque est `de 28 jours`. La gouvernance dYdX peut voter pour modifier les longueurs d'époch, dans les limites spécifiées. Les durées d'époch minimale et maximale sont respectivement de `6 jours` et `92 jours`.
+La durée initiale de l'époch est de `28 jours`. La gouvernance dYdX v3 peut voter pour modifier les longueurs d'époch, dans les limites spécifiées. Les durées d'époch minimale et maximale sont respectivement de `6 jours` et `92 jours`.
 
 ## Qu'est-ce qu'une fenêtre de blocage ?
 
@@ -110,13 +110,13 @@ Pour le [pool de staking de liquidité](../staking-pools/liquidity-staking-pool.
 
 Pour chacun des pools de mise en réserve de liquidité et des pools de sécurité, la fenêtre de blocage recommandée est de `14 jours`. Dans la [DIP 17](https://dydx.community/dashboard/proposal/9), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/7) en faveur d'une réduction de la fenêtre de blocage de `14 jours` à `3 jours`. La gouvernance de dYdX peut voter la modification la fenêtre de blocage dans les limites spécifiées. Les fenêtres de blocage minimale et maximale sont respectivement de `3 jours` et `46 jours`.
 
-## Quand puis-je retirer et transférer mes récompenses DYDX gagnées ?
+## Quand puis-je retirer et transférer mes récompenses $ethDYDX gagnées ?
 
-Les jetons DYDX gagnés via les [récompenses de minage rétroactives](../rewards/retroactive-mining-rewards.md), les [récompenses de trading](../rewards/trading-rewards.md) et les [récompenses de fournisseur de liquidité](../rewards/liquidity-provider-rewards.md) sont transférables à la fin de chaque époch. Les détenteurs de $DYDX sont tenus d'attendre environ `7 jours` (**période d'attente**) après la fin de l'Epoch avant de pouvoir réclamer leurs jetons. Une fois les jetons réclamés, ils peuvent être transférés ou délégués à la gouvernance dYdX.
+Les jetons $ethDYDX gagnés grâce aux [Récompenses minières rétroactives](../rewards/retroactive-mining-rewards.md), grâce aux [récompenses de trading](../rewards/trading-rewards.md) et grâce aux [récompenses de fournisseur de liquidité](../rewards/liquidity-provider-rewards.md) sont transférables à la fin de chaque epoch. Les détenteurs de $ethDYDX sont tenus de patienter environ `7 jours` (**période d'attente**) après la fin de l'epoch pour réclamer leurs jetons. Une fois les jetons réclamés, ils peuvent être transférés ou délégués à la gouvernance dYdX.
 
-Les jetons $DYDX gagnés via le pool de mise en réserve de liquidité et le pool de mise en réserve de sécurité peuvent être réclamés au niveau de chaque bloc et être retirés à tout moment pendant une Epoch donnée.
+Les jetons $ethDYDX gagnés grâce au pool de staking de liquidité et au pool de staking de sécurité peuvent être réclamés au niveau de chaque bloc et être retirés à tout moment pendant une epoch donnée.
 
-Le **8 septembre 2021 à 15 h 00 UTC**, 8 jours après la fin de l'Epoch 0, les restrictions de transfert initiales seront automatiquement levées, date à laquelle environ **8,11 %** de la réserve de $DYDX deviendra liquide.
+Le **8 septembre 2021 à 15:00:00 UTC**, 8 jours après la fin de l'Époch 0, les restrictions de transfert initiales ont été automatiquement levées, date à laquelle environ **8,11 %** de l'approvisionnement en $ethDYDX est devenue liquide.
 
 ## Quel est le but de la période d'attente ? Comment les récompenses sont-elles stockées à la fin de chaque époch ?
 

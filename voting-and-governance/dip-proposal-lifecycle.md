@@ -8,7 +8,7 @@ description: Aperçu du cycle de vie de la proposition d'amélioration dYdX (DIP
 
 Le processus de gouvernance dYdX est alimenté par les forums de gouvernance sur [**https://dydx.forum/**](https://dydx.forum/) et ratifié par le biais de la proposition dYdX d'amélioration (« DIP »).
 
-Ci-dessous, nous décrivons un avant-projet expliquant comment le processus de gouvernance dYdX se déroulera, de la conception et de la définition du concept à la mise en œuvre effective. Ces processus sont susceptibles d'être modifiés en fonction des commentaires de la communauté DYDX.
+Ci-dessous, nous décrivons un avant-projet expliquant comment le processus de gouvernance dYdX v3 se déroulera, de la conception et de la définition du concept à la mise en œuvre effective. Ces processus sont susceptibles d'être modifiés en fonction des retours de la communauté DYDX.
 
 L'organigramme suivant représente les étapes initiales proposées pour passer une proposition :
 
@@ -40,7 +40,7 @@ Une fois postés sur le forum de gouvernance, toutes les questions et commentair
 
 Les sondages Snapshot ont deux objectifs : la signalisation des sentiments pour les futurs DIP sur la chaîne et les votes contraignants pour les variables contrôlées hors chaîne.
 
-Une fois qu'une DRC hors chaîne a un consensus très approximatif, un membre de la communauté détenant plus de `10 000` dYdX disposant d'un pouvoir de proposition peut créer un **vote hors chaîne** pour la DRC sur **Snapshot**. Nous encourageons la communauté dYdX à créer des sondages Snapshot le lundi pour augmenter la visibilité pendant la semaine de travail normale.
+Le membre de la communauté ayant un pouvoir de proposition total de plus de `10 000` jetons de gouvernance peut créer un **vote hors chaîne** pour la DRC sur **Snapshot**. Nous encourageons la communauté dYdX à créer des sondages Snapshot le lundi pour augmenter la visibilité pendant la semaine de travail normale.
 
 Snapshot est une interface de vote simple qui permet aux utilisateurs de signaler une opinion hors chaîne. Les votes sur Snapshot sont pondérés par le pouvoir de vote de l'adresse utilisée pour voter.
 
@@ -49,7 +49,7 @@ Pour les sondages Snapshot liés à la signalisation de sentiment, le proposant 
 * détails de la DRC,
 * un système de vote,
 * une période de vote - la date de début et la date de fin du vote sont définies sur une période de vote de 4 jours, et
-* Un délai de vote - un numéro de bloc Snapshot qui est de 6570 blocs (environ 1 jour basé sur 13,2 deuxièmes temps de bloc) dans le futur. Le numéro de bloc Snapshot verrouille l'état des membres de la communauté qui peuvent voter. Les détenteurs de jetons qui détiennent des jetons avant le numéro de bloc Snapshot sont éligibles pour voter. Avant le snapshot du pouvoir de vote respectif de chaque adresse, le délai de vote donne aux détenteurs de DYDX/stkDYDY le temps d'acquérir des jetons, de déléguer le pouvoir de vote et de déplacer des jetons entre les portefeuilles (le déplacement de jetons entre les portefeuilles ne s'applique qu'aux détenteurs de DYDX).
+* Un délai de vote - un numéro de bloc Snapshot qui est de 6570 blocs (environ 1 jour basé sur 13,2 deuxièmes temps de bloc) dans le futur. Le numéro de bloc Snapshot verrouille l'état des membres de la communauté qui peuvent voter. Les détenteurs de jetons qui détiennent des jetons avant le numéro de bloc Snapshot sont éligibles pour voter. Le délai de vote donne aux détenteurs de jetons de gouvernance le temps d'acquérir des jetons, de déléguer le pouvoir de vote et de déplacer des jetons entre les portefeuilles avant l'instantané du pouvoir de vote respectif de chaque adresse. Remarque : le changement de portefeuille ne s'applique qu'à $ethDYDX et $wethDYDX.
 
 Pour les décisions qui ne nécessitent pas d'appel de contrat intelligent sur la chaîne, notamment les modifications apportées aux formules de récompenses du fournisseur de trading et de liquidité, les votes Snapshot sont considérés comme le vote contraignant et final. Le proposant devra inclure les exigences ci-dessus et fournir :
 
@@ -57,7 +57,7 @@ Pour les décisions qui ne nécessitent pas d'appel de contrat intelligent sur l
 
 Le ou les changements proposés seront mis en œuvre par dYdX Trading Inc. si les résultats du sondage Snapshot satisfont :
 
-* le quorum minimum - au moins 1 million de DYDX/stkDYDX. Le quorum minimum contribue à la décentralisation de la prise de décision et protège contre la prise de décision unilatérale, et
+* le quorum minimum - au moins `1 000 000` jetons de gouvernance. Le quorum minimum contribue à la décentralisation de la prise de décision et protège contre la prise de décision unilatérale, et
 * le différentiel de vote minimum - au moins 67 % des votes doivent être en faveur de la proposition. Le différentiel de vote minimum aide à filtrer les propositions qui sont très controversées et nécessitent une discussion plus approfondie.
 
 dYdX Trading Inc. aura jusqu'à 1 Époch (28 jours), une période de grâce d'exécution, pour mettre en œuvre les modifications à partir d'un sondage Snapshot réussi.
@@ -130,7 +130,7 @@ Concrètement c'est :
 
 Le **délai** de vote est le nombre de blocs Ethereum à attendre avant que le vote sur une proposition puisse commencer après sa soumission.
 
-Le pouvoir de vote de DYDX doit être délégué à une adresse soit entièrement avant qu'une proposition ne soit soumise, soit pendant le **délai** de vote de la proposition.
+Le pouvoir de vote de DYDX doit être délégué à une adresse soit entièrement avant qu'une proposition ne soit soumise, soit pendant le **délai de vote** de la proposition.
 
 Pour l'instant, le **délai de vote** est fixé à `6 570 blocs`, soit environ 1 jour. Cette valeur est ajoutée au numéro de bloc actuel lorsqu'une proposition est créée.
 
@@ -138,7 +138,7 @@ Pour l'instant, le **délai de vote** est fixé à `6 570 blocs`, soit environ 1
 
 ### Quel est l'objectif du seuil de proposition ?
 
-Étant donné que DYDX est un actif librement négociable, n'importe qui peut tenter une prise de contrôle de la gouvernance via l'achat sur le marché. Cela dit, forcer un vote de mauvaise foi nécessiterait un minimum de 5 millions de DYDX en cas de durée courte ou 20 millions de DYDX en cas de durée longue. Si ce n'est pas carrément impossible, ce montant serait prohibitif et coûterait probablement plus cher, si l'on tient compte de la fluctuation des prix, que le gain net de l'attaque.
+Dans la mesure où $ethDYDX et $wethDYDX sont des actifs librement négociables, n'importe qui peut tenter une reprise de gouvernance via l'achat de marché. Cela dit, pour forcer un vote de mauvaise foi, il faudrait un minimum de `5 000 000` jetons de gouvernance en cas de verrouillage de temps court ; ou `2`0 000 000 jetons de gouvernance en cas de verrouillage de temps long. Si ce n'est pas carrément impossible, ce montant serait prohibitif et coûterait probablement plus cher, si l'on tient compte de la fluctuation des prix, que le gain net de l'attaque.
 
 Si un groupe réalisait d'une manière ou d'une autre une prise de contrôle de mauvaise foi, le délai de verrouillage donnerait aux agents concernés le temps de retirer leurs actifs du protocole. Ce serait également l'occasion de bifurquer le protocole, une voie qui serait probablement empruntée par les acteurs de bonne foi restants.
 

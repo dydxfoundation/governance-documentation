@@ -4,13 +4,17 @@ description: Aperçu des principaux termes liés à la gouvernance.
 
 # Glossaire
 
-**DYDX :** l'actif natif de l'écosystème DYDX, qui constitue le fondement de la gouvernance et de la sécurité du protocole dYdX. DYDX est un jeton ERC-20 qui désigne le poids du pouvoir de vote ou de proposition d'un utilisateur.
+$**ethDYDX :** L'actif natif de l'écosystème dYdX basé sur Ethereum, qui renforce les fondements de la gouvernance et de la sécurité pour le dYdX v3. $ethDYDX est un jeton ERC-20 qui désigne le poids de la puissance de vote ou de proposition d'un utilisateur.
 
-**Protocole dYdX :** protocole perpétuel de couche 2 de dYdX.
+**$wethDYDX :** La version enveloppée de $ethDYDX, obtenue en interagissant avec le $wethDYDX Smart Contract. $wethDYDX est un jeton ERC-20 qui désigne le poids de la puissance de vote ou de proposition d'un utilisateur.
+
+**dYdX v3 :** protocole perpétuel de la couche 2 de dYdX.
 
 **Fondation dYdX :** une fondation indépendante, dont le siège est à Zoug, en Suisse, a été créée pour participer à propulser le protocole dYdX dans le futur.
 
-**Contrat de jeton DYDX** : contient des instantanés du pouvoir de vote de chaque adresse à différents blocs dans le temps.
+**Contrat de jeton $ethDYDX** : contient des instantanés du pouvoir de vote de chaque adresse à différents blocs dans le temps.
+
+**Contrat de jeton $wethDYDX** : contient des instantanés du pouvoir de vote de chaque adresse à différents blocs dans le temps.
 
 **DIP :** les propositions d'améliorations dYdX sont des propositions sur la chaîne.
 
@@ -22,7 +26,7 @@ description: Aperçu des principaux termes liés à la gouvernance.
 
 **Période de grâce d'exécution :** la période après le vote où une proposition DIP devient exécutable, pendant laquelle elle doit être exécutée.
 
-**Contrat de stratégie de gouvernance** : contient une logique pour mesurer le pouvoir relatif des utilisateurs à proposer et à voter.
+**Contrat de stratégie de gouvernance V2 **: contient une logique pour mesurer le pouvoir relatif des utilisateurs à proposer et à voter.
 
 **Contrat gouverneur** : suit les propositions et peut exécuter des propositions via le contrat intelligent Timelock.
 

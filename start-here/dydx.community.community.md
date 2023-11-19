@@ -6,34 +6,32 @@ description: Un foyer pour la gouvernance, les récompenses et le staking sur dy
 
 L'interface pour la gouvernance, les récompenses et le skating est en ligne sur [**dydx.community**](https://dydx.community).
 
-![Gagnez et réclamez des récompenses, ou votez sur des propositions](<../.gitbook/assets/image (73).png>)
+![Gagnez et réclamez des récompenses, ou votez sur des propositions](../.gitbook/assets/4.1-landing-page-interface.png)
 
 ### Gouvernance
 
 Les propositions de gouvernance actives et passées peuvent être consultées, et les propositions de gouvernance active peuvent être votées.
 
-![Suivez l'état des propositions et votez sur les modifications](<../.gitbook/assets/image (13).png>)
+![Suivez l'état des propositions et votez sur les modifications](../.gitbook/assets/4.2-track-proposals.png)
 
-Les détenteurs de DYDX et de stkDYDX se voient accorder deux types de pouvoirs de gouvernance : le pouvoir de proposition et le pouvoir de vote. Via le tableau de bord, les utilisateurs peuvent visualiser leurs pouvoirs de proposition et de vote, et les déléguer à d'autres adresses.
+Les détenteurs de $ethDYDX et $wethDYDX se voient accorder deux types de pouvoirs de gouvernance : le pouvoir de proposition et le pouvoir de vote. Via le tableau de bord, les utilisateurs peuvent visualiser leurs pouvoirs de proposition et de vote, et les déléguer à d'autres adresses.
 
-![Déléguez vos pouvoirs de proposition et de vote](<../.gitbook/assets/image (14).png>)
+![Déléguez vos pouvoirs de proposition et de vote](../.gitbook/assets/4.3-delegate-voting.png)
 
 ### Staking
 
-Les utilisateurs peuvent staker USDC et DYDX pour gagner des récompenses de staking.
-
-![Stakez pour recevoir des récompenses](<../.gitbook/assets/image (15).png>)
+Le module de liquidité et le module de sécurité sont actuellement inactifs. Les utilisateurs détenant $stkDYDX et $stkUSDC ne gagnent pas de récompenses. Les utilisateurs peuvent `demander le retrait` et effectuer un `retrait` sur [**dydx.community**](https://dydx.community).
 
 ### Récompenses de trading
 
 Les utilisateurs peuvent voir leurs récompenses gagnées grâce à l'activité de trading sur l'échange de couche 2. Les récompenses de trading sont distribuées tous les 28 jours selon un calendrier d'epochs.
 
-![Tradez pour recevoir des récompenses](<../.gitbook/assets/image (14) (2).png>)
+![Tradez pour recevoir des récompenses](../.gitbook/assets/4.5-trade-to-rewards.png)
 
 ### Portefeuille et réclamation DYDX
 
-Les utilisateurs peuvent voir une vue agrégée de leurs avoirs DYDX, DYDX réclamables, DYDX stakés et DYDX retirables.
+Les utilisateurs peuvent voir une vue agrégée de leurs avoirs $ethDYDX, $ethDYDX revendiquable, $ethDYDX jalonné et $ethDYDX retirable.
 
-Les utilisateurs peuvent voir l'offre actuelle en circulation et la distribution quotidienne des tokens DYDX. Les utilisateurs peuvent également réclamer toutes les récompenses DYDX disponibles. Les jetons DYDX deviendront transférables à compter du **8 septembre 2021** vers 15 h 00 UTC.
+Les utilisateurs peuvent voir l'offre actuelle en circulation et la distribution quotidienne des tokens $ethDYDX. Les utilisateurs peuvent également réclamer toutes les récompenses $ethDYDX disponibles. Les jetons $ethDYDX sont devenus transférables le **8 septembre 2021** à environ 15:00 UTC.
 
-![Réclamez vos récompenses](<../.gitbook/assets/image (16).png>)
+![Réclamez vos récompenses](../.gitbook/assets/4.6-claim-rewards.png)
