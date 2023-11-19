@@ -1,19 +1,19 @@
 ---
 description: >-
-  Ein technischer Schritt-für-Schritt-leitfaden zur Erstellung eines Vorschlags zur Übertragung von DYDX aus Mitteln der Community an eine Zieladresse.
+  Ein technischer Schritt-für-Schritt-leitfaden zur Erstellung eines Vorschlags zur Übertragung von ethDYDX aus Mitteln der Community an eine Zieladresse.
 ---
 
-# Technischer Leitfaden zur Erstellung eines Ausgabenvorschlags für die dYdX Community
+# Technischer Leitfaden zur Erstellung eines Ausgabenvorschalgs für die dYdX Community
 
-Reverie hat einen umfassenden, technischen Leitfaden für die Einreichung eines Governance-Vorschlags zur Übertragung von DYDX aus Mitteln der Community durch eine Pull-Anfrage in das dYdX _Governance-Contracts Repository_ zusammengestellt.
+Reverie hat einen umfassenden, technischen Leitfaden für die Einreichung eines Governance-Vorschlags zur Übertragung von $ethDYDX aus Mitteln der Community durch eine Pull-Anfrage in das dYdX _Governance-Contracts_ Repository zusammengestellt.
 
-Um diesen Vorschlag zu erstellen, muss ein Mitglied der dYdX-Community über **mindestens 5Mio DYDX** _(0,5 % des Gesamtangebots)_ an Vorschlagsleistung ([Vorschlagsschwellenwert](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters) für eine [kurzzeiitige Wahl](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)) verfügen.
+Um diesen Vorschlag zu erstellen, muss ein Mitglied der dYdX-Community **über mindestens 5 Mio Governance-Token** (_0,5 % des Gesamtangebots)_ an Vorschlagsrechten ([Vorschlagsschwellenwert](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters) für eine [kurzzeiitige Wahl](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)) verfügen.
 
 ### Vorläufige Anforderungen
 
 Die folgenden Schritte müssen vor der Fertigstellung der Pull-Anfrage abgeschlossen werden:
 
-1. **Lebenszyklus des Vorschlags** Das DRC muss gemäß der Vorschlags[vorlage](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) gepostet werden und es muss eine erfolgreiche Snapshot-Abstimmung erfolgen.
+1. **Lebenszyklus des Vorschlags** Das DRC muss gemäß der [Vorschlagsvorlage](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) gepostet werden und es muss eine erfolgreiche Snapshot-Abstimmung erfolgen.
 2. **Zieladresse:** Die Zieladresse muss im Voraus generiert werden. Wenn die Zieladresse eine Multi-Sig-Adresse ist, muss das Multi-Sig-Wallet erstellt werden.
 3. **GitHub-Konto:** Ein GitHub-Konto, um das Repository zu spalten.
 4. **Übertragungsmenge (optional):** Vorzugsweise wurde die angeforderte Übertragungsmenge schon vor der Pull-Anfrage festgelegt. Wenn allerdings ein fiktiver Betrag verwendet wird, kann es als letzter Schritt vor der Genehmigung erfolgen.
@@ -40,14 +40,11 @@ Fügen Sie in src/config/index.ts zwei neue Variablen zur configSchema-Konstante
 ```typescript
 src/config/index.ts
 ...
-
 const configSchema = {
 	...
-
 	FUND_PROPOSAL_NAME_PROPOSAL_ID: parseInteger({ default: null }),
 	TEST_PROPOSAL_NAME_WITH_PROPOSAL: parseInteger({ default: true }),
 };
-
 ...
 ```
 
@@ -56,15 +53,12 @@ Fügen Sie in src/deploy-config/base-config.ts die Zieladresse und die Übertrag
 ```typescript
 src/deploy-config/base-config.ts
 ....
-
 const config = {
-
 	....
 	
 	PROPOSAL_NAME_ADDRESS = '0x...',
 	PROPOSAL_FUNDING_AMOUNT = '10000000000000000000',
 };
-
 ...
 ```
 
@@ -90,9 +84,7 @@ a. Fügen Sie die benötigten Importe oben hinzu:
 
 ```typescript
 src/migrations/proposal-name.ts
-
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
-
 import {
   DydxGovernor__factory,
 } from '../../types';
@@ -111,7 +103,6 @@ b. Erstellen Sie eine neue Funktion unter Verwendung des Vorschlagnamens unter d
 
 ```typescript
 src/migrations/proposal-name.ts
-
 export async function createProposalNameProposal({
   proposalIpfsHashHex,
   dydxTokenAddress,
@@ -134,7 +125,6 @@ export async function createProposalNameProposal({
   const deployer = signer || await getDeployerSigner();
   const deployerAddress = deployer.address;
   log(`Creating proposal with proposer ${deployerAddress}.\n`);
-
   const governor = await new DydxGovernor__factory(deployer).attach(governorAddress);
   const proposalId = await governor.getProposalsCount();
   const proposal: Proposal = [
@@ -149,9 +139,7 @@ export async function createProposalNameProposal({
     [false],
     proposalIpfsHashHex,
   ];
-
   await waitForTx(await governor.create(...proposal));
-
   return {
     proposalId,
   };
@@ -173,9 +161,7 @@ _**createProposalNameProposal**_ → Dies ist die Funktion, die wir in /src/migr
 
 ```typescript
 tasks/deployment/proposal-name.ts
-
 import { types } from 'hardhat/config';
-
 import mainnetAddresses from '../../src/deployed-addresses/mainnet.json';
 import { hardhatTask } from '../../src/hre';
 import { DIP_NUMBER_IPFS_HASH } from '../../src/lib/constants';
@@ -190,7 +176,6 @@ Die letzte Zeile ruft die Funktion auf, die Sie aus dem Vorschlags-Code importie
 
 ```typescript
 tasks/deployment/proposal-name.ts
-
 hardhatTask('deploy:proposal-name', 'Proposal Description.')
   .addParam('proposalIpfsHashHex', 'IPFS hash for the uploaded DIP describing the proposal', DIP_NUMBER_IPFS_HASH, types.string)
   .addParam('dydxTokenAddress', 'Address of the deployed DYDX token contract', mainnetAddresses.dydxToken, types.string)
@@ -211,7 +196,7 @@ a. **Vorschlagstests hinzufügen**
 
 Fügen Sie in Test/Migrationen erneut eine neue Datei mit dem Vorschlagnamen → proposal-name.ts hinzu und tragen Sie den folgenden Code ein:
 
-* Fügen Sie die benötigten Importe einschließlich der Vorschlagsfunktionen hinzu:
+*   Fügen Sie die benötigten Importe einschließlich der Vorschlagsfunktionen hinzu:
 
 **createProposalNameProposal** → Dies ist die Funktion, die wir in /src/migrations/proposal-name erstellt haben. \
 
@@ -220,10 +205,8 @@ Fügen Sie in Test/Migrationen erneut eine neue Datei mit dem Vorschlagnamen →
 
 ```typescript
 test/migrations/proposal-name.ts
-
 import BNJS from 'bignumber.js';
 import { BigNumber, BigNumberish } from 'ethers';
-
 import config from '../../src/config';
 import { getDeployConfig } from '../../src/deploy-config';
 import { getDeployerSigner } from '../../src/deploy-config/get-deployer-address';
@@ -237,13 +220,12 @@ import {
   Treasury__factory,
 } from '../../types';
 import { advanceBlock, increaseTimeAndMine } from '../helpers/evm';
-
 const MOCK_PROPOSAL_IPFS_HASH = (
   '0x0000000000000000000000000000000000000000000000000000000000000000'
 );
 ```
 
-* Ergänzen Sie die Testfunktionen mit den folgenden Schritten:
+*   Ergänzen Sie die Testfunktionen mit den folgenden Schritten:
 
     * **fundProposalNameViaProposal** → Erstellen Sie diese Funktion und benennen Sie sie um, sodass sie mit dem Vorschlagnamen übereinstimmt.
     * **destinationAddress** → Beschriften Sie dies neu, sodass es zum Zielnamen passt
@@ -257,7 +239,6 @@ const MOCK_PROPOSAL_IPFS_HASH = (
 
 ```typescript
 test/migrations/proposal-name.ts
-
 export async function fundProposalNameViaProposal({
   dydxTokenAddress,
   governorAddress,
@@ -275,25 +256,20 @@ export async function fundProposalNameViaProposal({
   const deployer = await getDeployerSigner();
   const dydxToken = new DydxToken__factory(deployer).attach(dydxTokenAddress);
   const governor = new DydxGovernor__factory(deployer).attach(governorAddress);
-
   await fundCommunityTreasuryFromFoundationIfNecessary({
     dydxTokenAddress,
     communityTreasuryAddress,
     minTreasuryBalance: deployConfig.PROPOSAL_FUNDING_AMOUNT,
   });
-
   // Pick a voter with enough tokens to meet the quorum requirement.
   const voterAddress = deployConfig.TOKEN_ALLOCATIONS.DYDX_TRADING.ADDRESS;
   const voter = await impersonateAndFundAccount(voterAddress);
   const voterBalance = await dydxToken.balanceOf(voterAddress);
-
   if (voterBalance.lt(new BNJS('2e25').toFixed())) {
     throw new Error('Not enough votes to pass the proposal.');
   }
-
   // Vote on an existing proposal (can be used with mainnet forking).
   let proposalId: BigNumberish;
-
   if (config.FUND_PROPOSAL_NAME_PROPOSAL_ID !== null) {
     proposalId = config.FUND_PROPOSAL_NAME_PROPOSAL_ID;
   } else {
@@ -307,7 +283,6 @@ export async function fundProposalNameViaProposal({
       destinationAddress,
       signer: voter,
     }));
-
     log('Waiting for voting to begin');
     for (let i = 0; i < deployConfig.VOTING_DELAY_BLOCKS + 1; i++) {
       if (i > 0 && i % 2000 === 0) {
@@ -316,15 +291,12 @@ export async function fundProposalNameViaProposal({
       await advanceBlock();
     }
   }
-
   let proposalState = await governor.getProposalState(proposalId);
   if (proposalState !== 2) {
     throw new Error('Expected proposal to be in the voting phase.');
   }
-
   log('Submitting vote');
   await waitForTx(await governor.connect(voter).submitVote(proposalId, true));
-
   log('Waiting for voting to end');
   let minedCount = 0;
   for (; ;) {
@@ -338,23 +310,18 @@ export async function fundProposalNameViaProposal({
       break;
     }
   }
-
   if (proposalState !== 4) {
     throw new Error(`Expected proposal to have succeeded but state was ${proposalState}`);
   }
-
   log('Queueing the proposal');
   await waitForTx(await governor.queue(proposalId));
   const delaySeconds = deployConfig.SHORT_TIMELOCK_CONFIG.DELAY;
   await increaseTimeAndMine(delaySeconds);
-
   log('Executing the proposal');
   await waitForTx(await governor.execute(proposalId));
   log('Proposal executed');
-
   log('\n=== FUNDING PROPOSAL COMPLETE ===\n');
 }
-
 export async function fundProposalNameNoProposal({
   dydxTokenAddress,
   shortTimelockAddress,
@@ -371,13 +338,11 @@ export async function fundProposalNameNoProposal({
   const communityTreasury = new Treasury__factory(mockShortTimelock).attach(
     communityTreasuryAddress,
   );
-
   await fundCommunityTreasuryFromFoundationIfNecessary({
     dydxTokenAddress,
     communityTreasuryAddress,
     minTreasuryBalance: deployConfig.PROPSAL_FUNDING_AMOUNT,
   });
-
   await waitForTx(
     await communityTreasury.transfer(
       dydxTokenAddress,
@@ -385,10 +350,8 @@ export async function fundProposalNameNoProposal({
       deployConfig.PROPOSAL_FUNDING_AMOUNT,
     ),
   );
-
   log('\n=== PROPOSAL FUNDING COMPLETE ===\n');
 }
-
 async function fundCommunityTreasuryFromFoundationIfNecessary({
   dydxTokenAddress,
   communityTreasuryAddress,
@@ -399,11 +362,9 @@ async function fundCommunityTreasuryFromFoundationIfNecessary({
   minTreasuryBalance: string,
 }): Promise<void> {
   const deployConfig = getDeployConfig();
-
   const mockFoundation = await impersonateAndFundAccount(deployConfig.TOKEN_ALLOCATIONS.DYDX_FOUNDATION.ADDRESS);
   const dydxToken = new DydxToken__factory(mockFoundation).attach(dydxTokenAddress);
   const communityTreasuryBalance: BigNumber = await dydxToken.balanceOf(communityTreasuryAddress);
-
   if (communityTreasuryBalance.lt(minTreasuryBalance)) {
     // Transfer necessary funds to the treasury.
     await waitForTx(
@@ -424,9 +385,7 @@ In test/migrations/deploy-contracts-for-test.ts fügen wir die oben erstellten F
 
 ```typescript
 test/migrations/deploy-contracts-for-test.ts
-
 ...
-
 import { fundProposalNameNoProposal, fundProposalNameViaProposal } from './proposal-name-proposal';
 ```
 
@@ -435,7 +394,6 @@ import { fundProposalNameNoProposal, fundProposalNameViaProposal } from './propo
 
 ```typescript
 ...
-
 export async function executeProposalNameProposalForTest(
   deployedContracts: AllDeployedContracts,
 ) {
@@ -457,9 +415,7 @@ export async function executeProposalNameProposalForTest(
     });
   }
 }
-
 ...
-
 // put this above the configureForTest function
 ```
 
@@ -471,9 +427,7 @@ Fügen Sie in test/helpers/get-deployed-contracts-for-test.ts die oben erstellte
 
 ```typescript
 test/helpers/get-deployed-contracts-for-test.ts
-
 ...
-
 import {
   configureForTest,
   deployContractsForTest,
@@ -492,12 +446,10 @@ import {
 
 ```typescript
 test/helpers/get-deployed-contracts-for-test.ts
-
 async function getDeployedContractsForTest(): Promise<AllDeployedContracts> {
   if (!config.isHardhat()) {
     return getAllContracts();
   }
-
   let deployedContracts: AllDeployedContracts;
   if (config.FORK_MAINNET) {
     deployedContracts = await getAllContracts();
@@ -531,27 +483,22 @@ Fügen Sie in test/misc eine neue Datei mit dem Vorschlagsnamen → proposal-nam
 1. Wir importieren dieses IPFS-Hash aus derBibliothek durch DIP\_NUMBER\_IPFS\_HASH
 2. wir codieren die nächste Vorschlags-Id unter Verwendung von ProposalNameId
 3. wir überprüfen das Vorschlags-Hash mit dem konstanten Hash
-4. wir überprüfen die Adresse PROPOSAL\_NAME\_ADDRESS, um zu sehen, ob es eine ausgeglichene Bilanz des Betrags PROPOSAL\_FUNDING\_AMOUNT hat
+4.  wir überprüfen die Adresse PROPOSAL\_NAME\_ADDRESS, um zu sehen, ob es eine ausgeglichene Bilanz des Betrags PROPOSAL\_FUNDING\_AMOUNT hat
 
 **Hinweis: wenn diese Adress bereits DYDX hat, müssen Sie fest einprogrammieren, damti die Bilanz den Test besteht**
 
 ```typescript
 test/misc/proposal-name-proposal.spec.ts
-
 import { expect } from 'chai';
 import { DIP_NUMBER_IPFS_HASH } from '../../src/lib/constants';
 import { describeContract, TestContext } from '../helpers/describe-contract';
-
 function init() {}
-
 describeContract('proposal-name', init, (ctx: TestContext) => {
-
   it('Proposal IPFS hash is correct', async () => {
     const ProposalNameId = #;
     const proposal = await ctx.governor.getProposalById(ProposalNameId);
     expect(proposal.ipfsHash).to.equal(DIP_NUMBER_IPFS_HASH);
   });
-
   it('Destination receives tokens from the community treasury', async () => {
     const balance = await ctx.dydxToken.balanceOf(ctx.config.PROPOSAL_NAME_ADDRESS);
     expect(balance).to.equal(ctx.config.PROPOSAL_FUNDING_AMOUNT);
@@ -573,7 +520,7 @@ git push
 
 b. **Reichen Sie eine Pull-Anfrage an das dYdX-Repository** ein
 
-****<img src=".gitbook/assets/Screenshot 2022-12-14 at 5.06.23 PM.png" alt="" data-size="original">****
+<img src=".gitbook/assets/Screenshot 2022-12-14 at 5.06.23 PM.png" alt="" data-size="original">
 
 c. **Warten Sie auf die Überprüfung und Genehmigung durch den Repository-Manager**
 

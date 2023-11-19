@@ -1,39 +1,37 @@
 ---
-description: Ein Zuhause für Governance, Rewards und Staking auf dydx.community
+description: Ein Zuhause für Governance, Prämien und Staking auf dydx.community
 ---
 
 # Schnittstelle
 
-Die Schnittstelle für Governance, Rewards und Staking ist live auf [**dydx.community**](https://dydx.community).
+Die Schnittstelle für Governance, Prämien und Staking ist live auf [**dydx.community**](https://dydx.community).
 
-![Verdienen Sie Rewards und holen Sie sie ab, oder stimmen Sie über Vorschläge ab.](<../.gitbook/assets/image (73).png>)
+![Verdienen Sie Prämien und holen Sie sie ab, oder stimmen Sie über Vorschläge ab.](../.gitbook/assets/4.1-landing-page-interface.png)
 
 ### Governance
 
 Aktive und vergangene Governance-Vorschläge können eingesehen werden und es kann über sie abgestimmt werden.
 
-![Verfolgen Sie den Status des Vorschlages und stimmen Sie über Änderungen ab.](<../.gitbook/assets/image (13).png>)
+![Verfolgen Sie den Status des Vorschlages und stimmen Sie über Änderungen ab.](../.gitbook/assets/4.2-track-proposals.png)
 
-Inhaber von DYDX und stkDYDX werden zwei Arten von Governance gewährt: Vorschlagsrecht und Stimmrecht. Über das Dashboard können Benutzer ihre Vorschlags- und Stimmrechte einsehen und sie an andere Adressen delegieren.
+Inhabern von $ethDYDX und $wethDYDX werden zwei Arten von Governance gewährt: Vorschlagsrecht und Stimmrecht. Über das Dashboard können Benutzer ihre Vorschlags- und Stimmrechte einsehen und sie an andere Adressen delegieren.
 
-![Delegieren Sie Ihre Vorschlags- und Stimmrechte](<../.gitbook/assets/image (14).png>)
+![Delegieren Sie Ihre Vorschlags- und Stimmrechte](../.gitbook/assets/4.3-delegate-voting.png)
 
 ### Staking
 
-Benutzer können USDC und DYDX staken, um Staking Rewards zu verdienen.
+Derzeit sind das Liquiditätsmodul und das Sicherheitsmodul inaktiv. Benutzer, die $stkDYDX und $stkUSDC halten, verdienen keine Prämien. Benutzer können die `Auszahlung beantragen` und `abheben` bei [**dydx.community**](https://dydx.community).
 
-![Stake Kapital, um Rewards zu erhalten.](<../.gitbook/assets/image (15).png>)
+### Trading-Prämien
 
-### Trading-Rewards
+Benutzer können ihre über Trading verdienten Rewards auf der Layer 2-Exchange anzeigen. Trading-Prämien werden alle 28 Tage nach einem Epochenplan verteilt.
 
-Benutzer können ihre über Trading verdienten Rewards auf der Layer 2-Exchange anzeigen. Trading-Rewards werden alle 28 Tage nach einem Epochenplan verteilt.
+![Traden Sie um Prämien zu erhalten](../.gitbook/assets/4.5-trade-to-rewards.png)
 
-![Traden Sie um Rewards zu erhalten](<../.gitbook/assets/image (14) (2).png>)
+### Portfolio und $ethDYDX abholen
 
-### Portfolio und DYDX abholen
+Die Benutzer können sich einen Überblick über ihre $ethDYDX-Bestände, ihre beanspruchbaren $ethDYDX, ihre gestakten $ethDYDX und ihre auszahlungsfähigen $ethDYDX verschaffen.
 
-Benutzer können eine Aufstellung ihrer gehodlten DYDX-Anteile, ihrer freigewordenen DYDX, ihrer gestakten DYDX  und ihrer auszahlungsfähigen DYDX anzeigen.
+Benutzer können die aktuelle Umlaufversorgung und die tägliche Verteilung von $ethDYDX-Token einsehen. Benutzer können auch alle verfügbaren $ethDYDX-Prämien beanspruchen. $ethDYDX-Token wurden am **8. September 2021** um ungefähr 15:00 UTC übertragbar.
 
-Benutzer können die aktuelle Umlaufversorgung und die tägliche Verteilung von DYDX Token einsehen. Benutzer können auch alle verfügbaren DYDX-Rewards abholen. DYDX Token werden am 8. **September 2021** um ca. 15:00 Uhr UTC oder später übertragbar.
-
-![Holen Sie sich Ihre Rewards ab](<../.gitbook/assets/image (16).png>)
+![Holen Sie sich Ihre Prämien ab](../.gitbook/assets/4.6-claim-rewards.png)

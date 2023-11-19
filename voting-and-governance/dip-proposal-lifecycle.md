@@ -8,7 +8,7 @@ description: Überblick über den Lebenszyklus des dYdX-Verbesserungsvorschlags 
 
 Der dYdX-Governance-Prozess wird durch Governance-Foren unter [**https://dydx.forum/**](https://dydx.forum/) unterstützt und durch dYdX-Verbesserungsvorschlag („DIPs“) ratifiziert.
 
-Im Folgenden skizzieren wir einen vorläufigen Entwurf, der erläutert, wie der dYdX-Governance-Prozess ablaufen wird, von der Einführung und Definition des Konzepts bis zur tatsächlichen Implementierung. Diese Prozesse können sich je nach Feedback der DYDX-Gemeinschaft ändern.
+Im Folgenden skizzieren wir einen vorläufigen Entwurf, der erläutert, wie der dYdX-v3-Governance-Prozess ablaufen wird, von der Einführung und Definition des Konzepts bis zur tatsächlichen Implementierung. Diese Prozesse können sich je nach Feedback der dYdX-Gemeinschaft ändern.
 
 Das folgende Flussdiagramm zeigt die ersten vorgeschlagenen Stufen, um einen Vorschlag zu verabschieden:
 
@@ -40,7 +40,7 @@ Nach der Veröffentlichung im Governance-Forum sollten alle Fragen und Kommentar
 
 Snapshot-Umfragen dienen zwei Zwecken: Stimmungssignalisierung für zukünftige On-Chain-DIPs und bindende Stimmen für Variablen, die außerhalb der Kette kontrolliert werden.
 
-Sobald ein Off-Chain-DRC einen sehr groben Konsens hat, kann ein Community-Mitglied mit mehr als `10 000` DYDX-Vorschlagsmacht eine **Off-Chain-Abstimmung** für den DRC auf **Snapshot** erstellen. Wir ermutigen die dYdX-Gemeinschaft, montags Snapshot-Umfragen zu erstellen, um die Sichtbarkeit während der regulären Arbeitswoche zu erhöhen.
+Sobald eine off-chain-DRC einen sehr groben Konsens hat, kann ein Community-Mitglied mit einer Gesamtvorschlagsbefugnis von mehr als `10.000` Governance-Token eine **off-chain-Abstimmung** für die DRC auf **Snapshot** erstellen. Wir ermutigen die dYdX-Gemeinschaft, montags Snapshot-Umfragen zu erstellen, um die Sichtbarkeit während der regulären Arbeitswoche zu erhöhen.
 
 Snapshot ist eine einfache Abstimmungsschnittstelle, die es den Benutzern ermöglicht, die Stimmung off-chain zum Ausdruck zu bringen. Stimmen auf Snapshot werden nach Anzahl der Stimmrechte der jeweiligen Adresse gewichtet, von welcher aus abgestimmt wurde.
 
@@ -49,7 +49,7 @@ Für Snapshot-Umfragen im Zusammenhang mit Stimmungssignalen muss der Vorschlage
 * Details der DRC,
 * ein Abstimmungssystem,
 * eine Abstimmungsperiode – Start- und Enddatum der Abstimmung, sind auf eine Abstimmungsperiode von 4 Tagen ausgelegt, und
-* eine Abstimmungsverzögerung – eine Snapshot-Blocknummer, die in der Zukunft 6570 Blöcke (ungefähr 1 Tag basierend auf 13,2 Sekunden Blockzeit) beträgt. Die Snapshot-Blocknummer sperrt den Status der Gemeinschafts-Mitglieder, die abstimmen können. Token-Inhaber, die Token vor der Snapshot-Blocknummer halten, sind stimmberechtigt. Vor dem Snapshot der jeweiligen Stimmrechte jeder Adresse gibt die Stimmverzögerung den DYDX/stkDYDY-Inhabern Zeit, Token zu erwerben, Stimmrechte zu delegieren und Token zwischen Wallets zu verschieben (das Verschieben von Token zwischen Wallets gilt nur für DYDX-Inhaber).
+* eine Abstimmungsverzögerung – eine Snapshot-Blocknummer, die in der Zukunft 6570 Blöcke (ungefähr 1 Tag basierend auf 13,2 Sekunden Blockzeit) beträgt. Die Snapshot-Blocknummer sperrt den Status der Gemeinschafts-Mitglieder, die abstimmen können. Token-Inhaber, die Token vor der Snapshot-Blocknummer halten, sind stimmberechtigt. Vor dem Snapshot der jeweiligen Stimmrechte jeder Adresse gibt die Abstimmungsverzögerung den Inhabern von Governance-Token Zeit, um Token zu erwerben, die Stimmrechte zu delegieren und Token zwischen Wallets zu verschieben. Beachten Sie, dass der Wechsel zwischen Wallets nur für $ethDYDX und $wethDYDX möglich ist.
 
 Für Entscheidungen, die keinen on-chain Smart Contract-Anruf erfordern, gelten Snapshot-Abstimmungen vor allem für Änderungen der Trading und Liquidity Provider Prämien-Formeln als verbindliche und endgültige Abstimmung. Der Vorschlagende muss die oben genannten Anforderungen erfüllen und Folgendes bereitstellen:
 
@@ -57,7 +57,7 @@ Für Entscheidungen, die keinen on-chain Smart Contract-Anruf erfordern, gelten 
 
 Die vorgeschlagene(n) Änderung(en) wird/werden von dYdX Trading Inc. implementiert, wenn die Ergebnisse der Snapshot-Umfrage Folgendes erfüllen:
 
-* das Mindestquorum - mindestens 1M DYDX/stkDYDX. Das Mindestquorum trägt zur Dezentralisierung der Entscheidungsfindung bei und schützt vor einseitiger Entscheidungsfindung und
+* das Mindestquorum – mindestens `1.000.000` Governance-Token. Das Mindestquorum trägt zur Dezentralisierung der Entscheidungsfindung bei und schützt vor einseitiger Entscheidungsfindung und
 * die Mindeststimmendifferenz – mindestens 67 % der Stimmen müssen für den Vorschlag ausfallen. Die Mindeststimmen-Differenz hilft beim Herausfiltern von Vorschlägen, die äußerst umstritten sind und weiterer Diskussion bedürfen.
 
 dYdX Trading Inc. hat bis zu 1 Epoche (28 Tage), eine Nachfrist für die Ausführung, um Änderungen aus einer erfolgreichen Snapshot-Umfrage zu implementieren.
@@ -130,7 +130,7 @@ Zu jedem Zeitpunkt in einem DIP-Lebenszyklus kann der Vorschlagende den DIP stor
 
 Die **Abstimmungsverzögerung** ist die Anzahl der Ethereum-Blöcke, die gewartet werden muss, bevor die Abstimmung über einen Vorschlag beginnen kann, nachdem ein Vorschlag eingereicht wurde.
 
-Das DYDX-Stimmrecht muss entweder vollständig vor der Einreichung eines Vorschlags oder während der  **Abstimmungsverzögerung**  des Vorschlags an eine Adresse delegiert werden.
+Das Stimmrecht muss entweder vollständig vor der Einreichung eines Vorschlags oder während der  **Abstimmungsverzögerung**  des Vorschlags an eine Adresse delegiert werden.
 
 Im Moment ist die **Abstimmungsverzögerung** auf `6.570 Blöcke` eingestellt, was etwa 1 Tag entspricht. Dieser Wert wird bei der Erstellung eines Vorschlags zur aktuellen Blocknummer addiert.
 
@@ -138,7 +138,7 @@ In Zukunft kann dYdX Governance über eine Verlängerung oder Verkürzung der **
 
 ### Was ist der Zweck der Vorschlagsschwelle?
 
-Da DYDX eine frei handelbare Anlage ist, kann jeder eine Governance-Übernahme durch Marktkäufe versuchen. Um eine böswillige Abstimmung zu erzwingen, wären jedoch mindestens 5 Millionen DYDX im Falle einer kurzen Zeitsperre oder 20 Millionen DYDX im Falle einer langen Zeitsperre erforderlich. Wenn nicht gar unmöglich, wäre dieser Betrag unerschwinglich teuer und würde unter Berücksichtigung von Preisschwankungen wahrscheinlich mehr kosten als der Nettogewinn aus dem Angriff.
+Da $ethDYDX und $wethDYDX frei handelbare Vermögenswerte sind, kann jeder eine Governance-Übernahme über Marktkäufe versuchen. Um eine bösgläubige Abstimmung zu erzwingen, würde jedoch ein Minimum von `5.000.000` Governance-Token im Falle eines kurzen Zeitraums oder `20.000.000` Governance-Token im Falle eines langen Zeitraums erfordern. Wenn nicht gar unmöglich, wäre dieser Betrag unerschwinglich teuer und würde unter Berücksichtigung von Preisschwankungen wahrscheinlich mehr kosten als der Nettogewinn aus dem Angriff.
 
 Wenn eine Gruppe irgendwie eine böswillige Übernahme erreicht, würde die Zeitsperre den betroffenen Agenten Zeit geben, ihre Anlagen aus dem Protokoll zurückzuziehen. Dies wäre auch eine Gelegenheit, das Protokoll zu forken, ein Weg, den wahrscheinlich die verbleibenden gutgläubigen Akteure einschlagen würden.
 
