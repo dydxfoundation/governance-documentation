@@ -4,9 +4,9 @@ description: 流动性提供方奖励计划概述。
 
 # 流动性提供方奖励
 
-**5.2%** (`52,458,925 $DYDX`) 的代币供应量根据做市商交易量、正常运行时间、双边深度、买卖差价和支持市场数量的组合奖励公式，分配给流动性提供商（“LP”）。最初，**7.5%** (`75,000,000 $DYDX`)  的代币供应量分配用于 LP 奖励。
+初始代币供应量的 **5.2%**（`52,458,925 $ethDYDX`）将根据公式分配给流动性提供方（“LP”）。根据公式，对挂单量、正常运行时间、双侧交易深度、买卖价差、所支持的市场数量予以奖励。最初，**7.5%** (`75,000,000 $ethDYDX`)  的代币供应量分配用于 LP 奖励。
 
-* 在 [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)，dYdX 社区[投票](https://dydx.community/dashboard/proposal/14)决定将流动性供应商奖励削减 50%，从每个时段 `1,150,685 DYDX` 降至每个时段 `575,343 DYDX`。因此，LP 奖励的分配从 `7.5%` 降至 `5.2%`。
+* 在 [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)，dYdX 社区[投票](https://dydx.community/dashboard/proposal/14)决定将流动性提供方奖励削减 50%，从每个时段 `1,150,685 $ethDYDX` 降至每个时段 `575,343 $ethDYDX`。因此，LP 奖励的分配从 `7.5%` 降至 `5.2%`。
 
 **目标**
 
@@ -14,11 +14,11 @@ description: 流动性提供方奖励计划概述。
 
 ## **概述**
 
-为了激励市场流动性，$DYDX 将根据公式分配给流动性提供方，根据 dYdX Layer 2 协议，这些公式奖励参与做市、挂单量、双侧深度、价差（与中间市场相比）以及正常运行时间。任意以太坊地址均可以赚取这些奖励，但条件是挂单量最低起点为前一时段挂单量的 0.25%。五年内以 28 天时段为周期，分配 $DYDX，并且不受归属或锁定限制。每个时段分配 575,343 $DYDX。
+为了激励市场流动性，$ethDYDX 将根据公式分配给流动性提供方，这些公式奖励在 dYdX v3 上的参与做市、挂单量、双侧深度、价差（与中间市场相比），以及正常运行时间。任何以太坊地址都可以获得这些奖励，但前提是前一个时段的最低挂单量阈值为0.25%。 $ethDYDX 将在五年内以 28 天的时段分发，不受任何约束或锁定。 每个时段将分配 575,343 $ethDYDX。
 
-以下函数用于计算每个时段每个流动性提供方应当得到多少 $DYDX 奖励。在 [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md) 中，dYdX 社区投票修订了 LP 奖励公式，将 BTC/ETH 市场和非 BTC/ETH 市场函数分开。在 [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md) 中，dYdX 社区投票赞成将 0.05 $stkDYDX 权重重新分配给挂单量。
+以下函数用于计算每个时段每个流动性提供方应当得到多少 $ethDYDX 奖励。在 [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md) 中，dYdX 社区投票修订了 LP 奖励公式，将 BTC/ETH 市场和非 BTC/ETH 市场函数分开。在 [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md) 中，dYdX 社区投票赞成将 0.05 stkDYDX 权重重新分配给挂单量。
 
-总体而言，在所有市场中，交易量在函数中的权重都有所增加。所赚 $DYDX 金额由各参与者 $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{非 BTC/ETH}$$​) 的相对份额决定。
+总体而言，在所有市场中，交易量在函数中的权重都有所增加。所赚 ethDYDX 金额由各参与者 $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​) 的相对份额决定。
 
 <figure><img src="../.gitbook/assets/Updated LP Rewards Formulas.png" alt=""><figcaption></figcaption></figure>
 
@@ -51,29 +51,29 @@ description: 流动性提供方奖励计划概述。
 
 ### 谁有资格获得流动性提供方奖励？
 
-按照 dYdX Layer 2 协议，凡是在前一时段达到最少 0.25% 挂单量的流动性提供方，均有资格在特定时段内获得 $DYDX 奖励。
+凡是在前一时段在 dYdX v3 上达到最少 0.25% 挂单量的流动性提供方，均有资格在特定时段内获得 ethDYDX 作为奖励。
 
-如dYdX Trading Inc.[使用条款](https://dydx.exchange/terms)所定义，DYdX Layer 2协议不适用于美国或受限制地区的流动性提供方。
+dYdX v3 不适用于在 dYdX Trading Inc 的[《使用条款》](https://dydx.exchange/terms)中规定的位于美国或受限制地区的流动性提供方。
 
-### 我在流动性提供方奖励计划中赚取了多少 $DYDX？
+### 我在“流动性提供方奖励”计划中赚取了多少 $ethDYDX？
 
-在一个特定时段，流动性提供方根据其在特定交易对的市场的相对$$Q_{SCORE}$$赚取收益。每个交易对各自的相对奖励金额由治理确定。赚取的DYDX预期金额会显示在[LP奖励控制面板](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true)中，可根据所涉及的流动性提供者数量、相对$$Q_{SCORE}$$以及给定交易对的可用奖励金额来确定。
+在一个特定时段，流动性提供方根据其在特定交易对的市场的相对$$Q_{SCORE}$$赚取收益。每个交易对各自的相对奖励金额由治理确定。赚取的 ethDYDX 预计金额会显示在 [“LP 奖励控制面板”](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true)中，可根据所涉及的流动性提供方数量、相对$$Q_{SCORE}$$，以及给定交易对的可用奖励金额来确定。
 
 ### 我如何申领流动性提供方奖励？
 
 流动性提供方奖励显示在[dYdX API](https://docs.dydx.exchange/)上。尽管在治理用户界面中没有出现，但仍可在[此处](https://dydx.community/dashboard)在每个时段结束时通过治理来申领。
 
-### 我何时可以提现并转让申领的 $DYDX 流动性提供者奖励？
+### “我何时可以支取并转账申领的 $ethDYDX “流动性提供方奖励”？
 
-取消初始转让限制期之后，即可申领和转让流动性提供方奖励所给予的 $DYDX 代币。
+一旦初始转账限制期限取消，即可申领和转账通过“流动性提供方奖励”获得的 $ethDYDX 代币。
 
-从时段 1 开始，在每个时段结束后 `7 天`内（**等待期**）便可申领流动性提供方奖励给予的 $DYDX 代币。
+从1 时段开始，通过“流动性提供方奖励”获得的 $ethDYDX 代币可以在每个时段结束后 `7 天`（**等待期**）开始申领。
 
 ### 两侧深度、买卖价差以及正常运行时间如何定义和衡量？
 
 **双侧深度**
 
-双侧流动性提供方是在dYdX Layer 2协议上积极对双边市场报价的公司或个人，提供给定交易对的出价和询价。他们为协议提供总体流动性。
+双侧流动性提供方是在 dYdX v3上积极报价双侧市场的公司或个人，他们向特定市场出价和询价。他们为协议提供总体流动性。
 
 例如，BTC-USD交易对的流动性提供方可能提供30,000-30,100美元、10x50的报价。这意味着他们以30,000美元的价格出价（他们将购买）10个BTC，并以30,100美元的价格提供（他们将出售）50个BTC。其他做市参与方可以按照30,100美元的价格从流动性提供方处购买（取消出价），或者以30,000美元的价格向他们卖出（成交）。
 

@@ -1,20 +1,13 @@
 ---
-description: DYDX代币和治理概述。
+description: 关于 ethDYDX 代币和治理的概述。
 ---
 
 # 简介
 
-DYDX是一种治理代币，允许dYdX社区真正治理dYdX Layer 2协议（"协议"）。通过允许对协议进行共享控制，DYDX允许dYdX的交易者、流动性提供方和合作伙伴共同努力，争取增强协议。
+基于以太坊的 DYDX （$ethDYDX）是一种治理代币，允许 dYdX 社区真正管理基于以太坊的 dYdX Layer 2 协议（“dYdX v3”）。 通过启用对 dYdX v3 的共享控制，ethDYDX 允许交易者、流动量提供商和 dYdX 合作伙伴共同致力于增强 dYdX v3。
 
-DYDX能够围绕治理、奖励和质押形成强大的生态系统——这些都能推动dYdX的未来增长和去中心化，从而为用户提供更好的体验。
+打包以太坊 DYDX （$wethDYDX）是用户与 [wethDYDX 智能合约](https://etherscan.io/address/0x46b2deae6eff3011008ea27ea36b7c27255ddfa9)交互时获得的 ethDYDX 的打包版本。 有关 wethDYDX 代币和 ethDYDX 从以太坊到 dYdX v4 开源软件（“dYdX 链”）的更多详细信息，请参阅[此处](https://docs.dydx.community/dydx-token-migration/start-here/introduction)。
 
-质押资金池旨在促进协议的流动性和安全性。交易、流动性提供和dYdX过往使用等方面的奖励计划将有助于推动dYdX的增长和采用。
+$ethDYDX 和 $wethDYDX 围绕治理和奖励构建了一个强大的生态系统，每个生态系统旨在推动 dYdX v3 的未来增长和去中心化，从而为用户带来更好的体验。
 
-除了推出DYDX，我们还发布了：\
-\
-🖥️ dy[**dx.community的一个治理产品**](https://dydx.community)****\
-****📈 USDC[**的流动性质押资金池** \
-**🔒**](staking-pools/liquidity-staking-pool.md) DYD[**X的保险资金质押池**\
-**💰**](staking-pools/safety-staking-pool.md) 交易奖[**励**\
-**💸**](rewards/trading-rewards.md) [**过往用户的**](rewards/retroactive-mining-rewards.md)追溯性挖矿奖励\
-📊 流动性提[**供方奖励**](rewards/liquidity-provider-rewards.md)
+此处是有关治理和奖励的链接：\\🖥️ dydx.community的一个治理产品💰[****](https://dydx.community)\ 交易奖[**励📊**](rewards/trading-rewards.md)\ 流动性提[**供方奖励**](rewards/liquidity-provider-rewards.md)
