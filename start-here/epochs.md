@@ -16,10 +16,10 @@ O seguinte acontecerá ao final de cada epoch:
 O seguinte acontecerá apenas ao final de **Epoch 0**:
 
 * As recompensas de mineração retroativas serão distribuídas. As recompensas são resgatadas em [**dydx.community**](https://dydx.community) em aproximadamente `8 dias` após o final da epoch 0.
-* As transferências de $DYDX ficam inicialmente restritas. O período de restrição de transferências inicial foi removido em torno de `8 dias` após o final da epoch 0.
-* **A $DYDX tornou-se transferível em 8 de setembro de 2021, às 15:00:00 UTC.**
+* As transferências de $ethDYDX ficam inicialmente restritas. O período de restrição de transferências inicial foi removido em torno de `8 dias` após o final da epoch 0.
+* **A $ethDYDX tornou-se transferível em 8 de setembro de 2021, às 15:00:00 UTC.**
 
-**A epoch 0** começa em **3 de agosto de 2021, às 15:00:00 UTC**. A tabela a seguir descreve as datas de início e final de epoch (que podem ser modificadas pela governança da dYdX):
+**A epoch 0** começou em **3 de agosto de 2021, às 15:00:00 UTC**. A tabela a seguir descreve as datas de início e final de epoch (que podem ser modificadas pela governança da dYdX v3):
 
 | Epoch | Data de início (UTC) | Data de final (UTC) | Dias | Anos cumulativos |
 | ----- | ------------------- | ------------------- | ---- | ---------------- |
@@ -94,7 +94,7 @@ A dYdX Foundation criou um arquivo público no Google Agenda com datas de iníci
 
 ## **Quando as recompensas e pools de staking serão ativadas?**
 
-* Agora, as [recompensas de mineração retroativas](../rewards/retroactive-mining-rewards.md) estão funcionando no protocolo. Essas recompensas serão executadas até **31 de agosto de 2021, 15:00:00 UTC**.
+* As [recompensas de mineração retroativas](../rewards/retroactive-mining-rewards.md) foram distribuídas na dYdX v3. Essas recompensas foram realizadas até **31 de agosto de 2021, às 15:00:00 UTC**.
 * Agora, as [recompensas de trades](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md) estão funcionando no protocolo. Essas recompensas funcionarão até **3 de agosto de 2026, 15:00:00 UTC**.
 * Agora, as [recompensas para provedores de liquidez](../rewards/liquidity-provider-rewards.md) estão funcionando no protocolo. Essas recompensas funcionarão até **3 de agosto de 2026, 15:00:00 UTC**.
 * O [pool de staking de liquidez](../staking-pools/liquidity-staking-pool.md) foi encerrado em 29 de setembro de 2022.
@@ -102,7 +102,7 @@ A dYdX Foundation criou um arquivo público no Google Agenda com datas de iníci
 
 ## A governança da dYdX pode modificar o cronograma de epoch?
 
-O comprimento inicial da epoch é de `28 dias`. A governança da dYdX pode votar para modificar os comprimentos de epoch, dentro dos limites especificados. Os comprimentos mínimo e máximo de epoch são de `6 dias` e `92 dias`, respectivamente.
+O comprimento inicial da epoch é `de 28 dias`. A governança da dYdX v3 pode votar para modificar os comprimentos de epoch, nos limites especificados. Os comprimentos mínimo e máximo de epoch são de `6 dias` e `92 dias`, respectivamente.
 
 ## O que é a janela de bloqueio?
 
@@ -110,13 +110,13 @@ Relacionada à [pool de staking de liquidez](../staking-pools/liquidity-staking-
 
 A janela de bloqueio recomendada para cada um no pool de staking de liquidez e no de segurança é `de 14 dias`. No [DIP 17](https://dydx.community/dashboard/proposal/9), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/7) pela redução do tempo da janela de bloqueio de `14` para `3 dias`. A governança da dYdX pode votar para modificar a janela de bloqueio dentro dos limites especificados. As janelas de bloqueio mínima e máxima são de `3` e `46 dias`, respectivamente.
 
-## Quando posso sacar e transferir as recompensas DYDX que recebi?
+## Quando posso sacar e transferir as recompensas $ethDYDX que recebi?
 
-Os tokens DYDX obtidos por meio das [recompensas de mineração retroativas](../rewards/retroactive-mining-rewards.md), [recompensas de trades](../rewards/trading-rewards.md) e [recompensas de provedores de liquidez](../rewards/liquidity-provider-rewards.md) se tornam transferíveis ao final de cada epoch. Os holders de $DYDX são obrigados a esperar aproximadamente `7 dias` (**período de espera**) após o final da epoch para resgatar seus tokens. Uma vez que os tokens tenham sido resgatados, eles poderão ser transferidos ou delegados para a governança da dYdX.
+Os tokens $ethDYDX ganhos por meio das recompensas [de mineração retroativas](../rewards/retroactive-mining-rewards.md), recompensas [de trading](../rewards/trading-rewards.md) e [recompensas de provedor de liquidez](../rewards/liquidity-provider-rewards.md) são transferíveis ao final de cada epoch. Os detentores de $ethDYDX são obrigados a esperar aproximadamente `7 dias` (**Período de espera**) após o final da epoch para resgatar tokens. Uma vez que os tokens tenham sido resgatados, eles poderão ser transferidos ou delegados para a governança da dYdX.
 
-Os tokens $DYDX obtidos por meio do pool de staking de liquidez e o pool de staking de segurança são resgatados a cada bloco e podem ser sacados a qualquer momento durante uma determinada epoch.
+Os tokens $ethDYDX obtidos por meio do pool de staking de liquidez e o pool de staking de segurança são resgatados a cada bloco e podem ser sacados a qualquer momento durante uma determinada epoch.
 
-Em **8 de setembro de 2021 às 15:00:00 UTC**, 8 dias após o final da epoch 0, as restrições de transferência iniciais serão automaticamente removidas. Aproximadamente **8,11%** do fornecimento de $DYDX se tornará líquido.
+Em **8 de setembro de 2021 às 15:00:00 UTC**, 8 dias após o final da epoch 0, as restrições de transferência iniciais foram automaticamente removidas. Aproximadamente **8,11%** do fornecimento de $ethDYDX se tornou líquido.
 
 ## Qual é o propósito do período de espera? Como recompensas são armazenadas ao final de cada epoch?
 

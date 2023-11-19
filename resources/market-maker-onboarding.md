@@ -8,7 +8,7 @@ description: >-
 ## Fluxo de onboarding de market maker sugerido pela dYdX:
 
 1. Conecte sua carteira Ethereum preferida ao protocolo dYdX L2 Perpetual.
-2. Deposite USDC em sua conta Perpétua.
+2. Deposite $USDC em sua conta Perpétua.
 3. Será necessário gerar uma chave STARK que identifica sua conta na Layer 2 e é salva localmente no seu navegador. A chave Key associa os usuários da dYdX a endereços Ethereum, de modo que um usuário deve primeiro solicitar a assinatura da vinculação de uma chave Ethereum a uma chave STARK e registrar a chave STARK no contrato inteligente da dYdX antes da realização de qualquer outra operação. Clique em “Gerar chave Stark” e assine a transação. A assinatura é gratuita e não enviará uma transação. Você pode recuperar sua chave Stark a qualquer momento com a sua carteira.
 
 Alternativamente, traders programáticos podem derivar seu par de chaves STARK usando o seguinte método:
