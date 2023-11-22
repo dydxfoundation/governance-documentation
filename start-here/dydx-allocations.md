@@ -82,6 +82,8 @@ The Amendment mentioned above does not alter the staggered unlock that occurs af
 * (iii) 20% in equal monthly installments on the first day of each month from July 1, 2024, to June 1, 2025; and&#x20;
 * (iv) 10% in equal monthly installments on the first day of each month from July 1, 2025, to June 1, 2026.
 
+**Note that all of the above dates shall be interpreted to refer to UTC time zone.**
+
 Various founders, employees, advisors, and consultants of dYdX Trading Inc. and dYdX Foundation are also subject to the transfer restriction schedule set forth in the Amendment.
 
 All employees and consultants also will be subject to various vesting schedules that could result in them losing their rights to $ethDYDX. No employee’s or consultant’s receipt of $ethDYDX is, or will in the future be, based on providing services related to the dYdX Protocol or other services that may benefit the Protocol. Instead, employees and consultants may receive $ethDYDX for services that benefit only dYdX Trading Inc., dYdX Foundation or another party.
