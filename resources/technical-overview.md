@@ -39,7 +39,9 @@ There are 7 smart contracts that support dYdX Governance:
 | Merkle-Pauser Timelock Executor      | 0xd98e7A71BacB6F11438A8271dDB2EFd7f9361F52 |
 | Starkware Priority Timelock Executor | 0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE |
 | Rewards Treasury                     | 0x639192D54431F8c816368D3FB4107Bc168d0E871 |
+| Rewards Treasury Bridge              | 0x8d0051943D4c72aF12D638c6b7253C71929A910A |
 | Community Treasury                   | 0xE710CEd57456D3A16152c32835B5FB4E72D9eA5b |
+| Community Treasury Bridge            | 0x5D8541e3078BE7c2D773185aD8C8b9ED5105E08c |
 | Safety Module                        | 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC |
 | GovernanceStrategyV2                 | 0xc2f5F3505910Da80F0592a3Cc023881C50b16505 |
 | Rewards Treasury Vester              | 0xb9431E19B29B952d9358025f680077C3Fd37292f |
@@ -204,11 +206,19 @@ The TreasuryVester contract was inspired by [Uniswap](https://github.com/Uniswap
 
 The Short Timelock can only execute governance-approved actions.
 
-There are two treasury vesters and treasury contracts, one is for incentive contract rewards and the other is for holding “general purpose” treasury funds.
+There are two treasury vesters and treasury contracts:
+
+* [Rewards Treasury Vester](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f) and [Rewards Treasury](https://etherscan.io/address/0x639192D54431F8c816368D3FB4107Bc168d0E871) are for incentive contract rewards; and&#x20;
+* [Community Treasury Vester](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8) and [Community Treasury](https://etherscan.io/address/0xe710ced57456d3a16152c32835b5fb4e72d9ea5b) are for holding “general purpose” treasury funds.
 
 Since governance controls each treasury, it can transfer funds to any address and/or approve any address to spend funds from either treasury. For example, the rewards programs will need to have token approval limits set by governance.
 
-Each treasury vester will vest tokens linearly over \~5 years (August 3rd 2021 - August 3rd 2026) to the corresponding treasury.
+In [DIP 29](https://dydx.community/dashboard/proposal/16), the dYdX community voted to leverage the [Rewards Treasury Bridge](https://etherscan.io/address/0x8d0051943D4c72aF12D638c6b7253C71929A910A) and the [Community Treasury Bridge](https://etherscan.io/address/0x5D8541e3078BE7c2D773185aD8C8b9ED5105E08c) smart contracts, which enabled the migration of available ethDYDX in the [Community Treasury](https://etherscan.io/address/0xe710ced57456d3a16152c32835b5fb4e72d9ea5b) & [Rewards Treasury](https://etherscan.io/address/0x639192D54431F8c816368D3FB4107Bc168d0E871) to dYdX Chain.
+
+Each treasury vester will vest tokens linearly over \~5 years (August 3rd 2021 - August 3rd 2026) to the corresponding treasury. Since the vester contracts are immutable upon deployment, the dYdX community voted to set the recipient of the vester contracts to the following addresses:
+
+* [Rewards Treasury Vester](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f) will vest to `0x0000000000000000000000000000000000000001`; and
+* [Community Treasury Vester](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8) will vest to `0x0000000000000000000000000000000000000002`.
 
 ## Peripheral Contracts
 
