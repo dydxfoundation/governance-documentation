@@ -4,9 +4,18 @@ description: Overview of the Liquidity Provider rewards Program.
 
 # Liquidity Provider Rewards
 
-**5.2%** (`52,458,925 $ethDYDX`) of the token supply is allocated to be distributed to liquidity providers ("LPs") based on formulas that reward a combination of maker volume, uptime, two-sided depth, bid-ask spreads, and the number of markets supported. Initially, **7.5%** (`75,000,000 $ethDYDX`) of the token supply was allocated for LP rewards.
+**3.2%** (`31,643,838 $ethDYDX`) of the token supply is allocated to be distributed to liquidity providers ("LPs") based on formulas that reward a combination of maker volume, uptime, two-sided depth, bid-ask spreads, and the number of markets supported. Initially, **7.5%** (`75,000,000 $ethDYDX`) of the token supply was allocated for LP rewards.
 
 * In [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/14) to reduce Liquidity Provider Rewards by 50% from   `1,150,685 $ethDYDX` per epoch to `575,343 $ethDYDX` per epoch. As a result, the allocation for LP rewards decreased from `7.5%` to `5.2%`.&#x20;
+*   In [DIP 29](https://dydx.community/dashboard/proposal/16), the dYdX community [voted](https://dydx.community/dashboard/proposal/16) to reduce LP rewards by ⅓ from Epoch 30-32 on dYdX v3 to the following values:
+
+    * Epoch 30: 383,562 $ethDYDX
+    * Epoch 31: 191,781 $ethDYDX
+    * Epoch 32: 0 $ethDYDX
+
+    After Epoch 31, there will not be any LP rewards on dYdX v3. As a result, the allocation for LP rewards decreased from `5.2%` to `3.2%`.&#x20;
+
+Since there is no distribution of Liquidity Provider rewards on dYdX Chain, the dYdX community in DIP 29 voted to migrate the remaining allocation for Liquidity Provider rewards to the dYdX Chain Community Treasury.
 
 **Objectives**
 
@@ -14,7 +23,7 @@ description: Overview of the Liquidity Provider rewards Program.
 
 ## **Overview**
 
-To incentivize market liquidity, $ethDYDX will be distributed to liquidity providers based on formulas that reward participation in markets, maker volume, two-sided depth, spread (vs. mid-market), and uptime on dYdX v3. Any Ethereum address can earn these rewards, subject to a minimum maker volume threshold of 0.25% of maker volume in the preceding epoch. $ethDYDX will be distributed on a 28-day epoch basis over five years and are not subject to any vesting or lockups. 575,343 $ethDYDX will be distributed per epoch.
+To incentivize market liquidity, $ethDYDX will be distributed to liquidity providers based on formulas that reward participation in markets, maker volume, two-sided depth, spread (vs. mid-market), and uptime on dYdX v3. Any Ethereum address can earn these rewards, subject to a minimum maker volume threshold of 0.25% of maker volume in the preceding epoch. $ethDYDX will be distributed on a 28-day epoch basis over five years and are not subject to any vesting or lockups.&#x20;
 
 The following functions are used to compute how much $ethDYDX should be rewarded to each liquidity provider per epoch. In [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md), the dYdX community voted to revise the LP rewards formula by splitting the functions for BTC/ETH markets and non BTC/ETH markets. In [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md), the dYdX community voted to re-allocate the 0.05 stkDYDX weight to MakerVolume.&#x20;
 

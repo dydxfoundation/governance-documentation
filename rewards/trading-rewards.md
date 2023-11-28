@@ -7,9 +7,24 @@ description: Overview of the Trading Rewards program.
 `20.2`**`%`** (`201,883,560 $ethDYDX`) of the token supply is allocated to be distributed to users who trade on dYdX v3 based on fees paid. Initially, `25.0%` of the token supply (`250,000,000 $ethDYDX`) was allocated for trading rewards.&#x20;
 
 * In [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/8) to reduce trading rewards by 25.0%. As a result, the allocation for trading rewards decreased from `25.0%` to `20.2%`.&#x20;
-* In [DIP20](https://dydx.community/dashboard/proposal/11), the dYdX community [voted](https://dydx.community/dashboard/proposal/11) to reduce trading rewards by a further 45.0%. As a result, the allocation for trading rewards decreased from `20.2%` to `14.5%`.&#x20;
+* In [DIP 20](https://dydx.community/dashboard/proposal/11), the dYdX community [voted](https://dydx.community/dashboard/proposal/11) to reduce trading rewards by a further 45.0%. As a result, the allocation for trading rewards decreased from `20.2%` to `14.5%`.&#x20;
+*   In [DIP 29](https://dydx.community/dashboard/proposal/16), the dYdX community [voted](https://dydx.community/dashboard/proposal/16) to reduce trading rewards by ⅓ from Epoch 30-32 on dYdX v3 to the following values:
 
-Trading rewards distributed in a given epoch were reduced from 3,835,616 $ethDYDX to 2,876,712 $ethDYDX in Epoch 15, and from 2,876,712 $ethDYDX to 1,582,192 $ethDYDX in Epoch 21.
+    * Epoch 30: 1,054,795 $ethDYDX
+    * Epoch 31: 527,398 $ethDYDX
+    * Epoch 32: 0 $ethDYDX
+
+    Note, in DIP 29 the dYdX community voted to migrate the remaining allocation of Trading Rewards to the dYdX Chain for Trading Rewards.&#x20;
+
+Trading rewards distributed in a given epoch were/will be reduced from 3,835,616 $ethDYDX to:
+
+* 2,876,712 $ethDYDX in Epoch 15,
+* 1,582,192 $ethDYDX in Epoch 21,
+* 1,054,795 $ethDYDX in Epoch 30,
+* 527,398 $ethDYDX in Epoch 31,
+* 0 $ethDYDX in Epoch 32 onwards.
+
+After Epoch 31, there will not be any trading rewards on dYdX v3. The remaining amount on dYdX v3 [Rewards Treasury Vester](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f) can be credited to the dYdX Chain Rewards Treasury Vester (`dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk`) and subsequently distributed as trading rewards on the dYdX Chain, subject to the governance approval on dYdX Chain.&#x20;
 
 **Objectives**
 
@@ -20,9 +35,15 @@ Trading rewards distributed in a given epoch were reduced from 3,835,616 $ethDYD
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Fees paid and estimated rewards in a given epoch</p></figcaption></figure>
 
-$ethDYDX will be distributed to traders based on fees paid on dYdX v3. $ethDYDX will be distributed on a 28-day epoch basis over five years and is not subject to any vesting or lockups. 1,582,192 ethDYDX will be distributed per epoch.
+$ethDYDX will be distributed to traders based on fees paid on dYdX v3. $ethDYDX will be distributed on a 28-day epoch basis over five years and is not subject to any vesting or lockups.&#x20;
 
-With the community voting to proceed with a 25% reduction in trading rewards by 958,904 $ethDYDX in [DIP16](https://dydx.community/dashboard/proposal/8), and a further 45% by 1,294,520 $ethDYDX in [DIP20](https://dydx.community/dashboard/proposal/11), the remaining 2,253,424 $ethDYDX that accrues in the Rewards Treasury can be used/directed by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+In [DIP 29](https://dydx.community/dashboard/proposal/16), the dYdX community [voted](https://dydx.community/dashboard/proposal/16) to reduce trading rewards by ⅓ from Epoch 30-32 on dYdX v3 to the following values:
+
+* Epoch 30: 1,054,795 $ethDYDX
+* Epoch 31: 527,398 $ethDYDX
+* Epoch 32 and all remaining epochs: 0 $ethDYDX
+
+
 
 <figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 

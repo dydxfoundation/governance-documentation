@@ -4,13 +4,22 @@ description: An overview of the community treasury.
 
 # Community Treasury
 
-**`24.2%`** (`241,735,862 $ethDYDX`) of the token supply is allocated to the community treasury for the dYdX community to use on an ongoing basis for contributor grants, community initiatives, liquidity mining, and other programs. Initially,`5.0%` of the token supply (`50,000,000 $ethDYDX`) was [allocated](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations) to the community treasury, and 766,703 $ethDYDX vests in the community treasury each epoch. Currently, 3,787,251 $ethDYDX vest in the community treasury because several governance proposals resulted in a 3,020,548 $ethDYDX increase in the amount of $ethDYDX available to the dYdX community each epoch:
+**`26.2%`** (`262,550,949 $ethDYDX`) of the token supply is allocated to the community treasury for the dYdX community to use on an ongoing basis for contributor grants, community initiatives, liquidity mining, and other programs. Initially,`5.0%` of the token supply (`50,000,000 $ethDYDX`) was [allocated](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations) to the community treasury, and 766,703 $ethDYDX vests in the community treasury each epoch. Currently, 3,787,251 $ethDYDX vest in the community treasury because several governance proposals resulted in a 3,020,548 $ethDYDX increase in the amount of $ethDYDX available to the dYdX community each epoch:
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - set the rewards for staking USDC to 0 (383,562 $ethDYDX per epoch),&#x20;
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - reduce trading rewards by 25% (958,904 $ethDYDX per epoch),&#x20;
 * [DIP 17](https://dydx.community/dashboard/proposal/9) - set the rewards for staking $DYDX to 0 (383,562 $ethDYDX per epoch),
 * [DIP 20](https://dydx.community/dashboard/proposal/11) - further reduce trading rewards by 45% (1,294,520 $ethDYDX per epoch), and
-* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - reduce Liquidity Provider Rewards by 50% (575,342 $ethDYDX per epoch).&#x20;
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - reduce Liquidity Provider Rewards by 50% (575,342 $ethDYDX per epoch).
+*   [DIP 29](https://dydx.community/dashboard/proposal/16) - reduce Liquidity Provider Rewards by ⅓ from Epoch 30-32 on dYdX v3 to the following values:
+
+    * Epoch 30: 383,562 $ethDYDX
+    * Epoch 31: 191,781 $ethDYDX
+    * Epoch 32: 0 $ethDYDX
+
+    After Epoch 31, there will not be any Liquidity Provider Rewards on dYdX v3. In DIP 29, the dYdX community voted to reduce Trading Rewards by ⅓ from Epoch 30-32 on dYdX v3, however the remaining allocation of Trading Rewards was migrated to the dYdX Chain for Trading Rewards.&#x20;
+
+On November 18, 2023, the dYdX community [voted](https://dydx.community/dashboard/proposal/16) to bridge the ethDYDX balance accrued in the Community Treasury from Ethereum to dYdX Chain. Once bridged, the DYDX can be used by the dYdX community with a governance vote on dYdX Chain.&#x20;
 
 
 
@@ -45,10 +54,12 @@ Further, dYdX Foundation publishes for information only the vested balance of th
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - set the rewards for staking USDC to 0 (383,562 $ethDYDX per epoch),&#x20;
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - reduce trading rewards by 25% (958,904 $ethDYDX per epoch),&#x20;
 * [DIP 17](https://dydx.community/dashboard/proposal/9) - set the rewards for staking ethDYDX to 0 (383,562 $ethDYDX per epoch),
-* [DIP 20](https://dydx.community/dashboard/proposal/11) - further reduce trading rewards by 45% (1,294,520 $ethDYDX per epoch), and
-* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - reduce Liquidity Provider Rewards by 50% (575,342 $ethDYDX per epoch).&#x20;
-
-Starting in Epoch 26, 3,595,890 $ethDYDX will accrue in the Rewards Treasury each epoch and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+* [DIP 20](https://dydx.community/dashboard/proposal/11) - further reduce trading rewards by 45% (1,294,520 $ethDYDX per epoch),&#x20;
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - reduce Liquidity Provider Rewards by 50% (575,342 $ethDYDX per epoch), and&#x20;
+* &#x20;[DIP 29](https://dydx.community/dashboard/proposal/16) - reduce Liquidity Provider Rewards by ⅓ from Epoch 30-32 on dYdX v3 to the following values:
+  * Epoch 30: 383,562 $ethDYDX
+  * Epoch 31: 191,781 $ethDYDX
+  * Epoch 32: 0 $ethDYDX&#x20;
 
 ### Who can submit proposals to spend ethDYDX from the Community Treasury?
 

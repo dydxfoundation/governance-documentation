@@ -14,8 +14,7 @@ In addition to the vested $ethDYDX in the Community Treasury, the dYdX community
 * [DIP 20](https://dydx.community/dashboard/proposal/11) - further reduce trading rewards by 45% (1,294,520 $ethDYDX per epoch), and
 * [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - reduce Liquidity Provider Rewards by 50% (575,342 $ethDYDX per epoch).&#x20;
 
-Starting in Epoch 26, 3,595,890 $ethDYDX  will accrue in the Rewards Treasury each epoch and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).\
-
+On November 18, 2023, the dYdX community [voted](https://dydx.community/dashboard/proposal/16) to bridge the ethDYDX balance accrued in the Rewards Treasury from Ethereum to dYdX Chain. Once bridged, the DYDX can be used by the dYdX community with a governance vote on dYdX Chain.&#x20;
 
 ## FAQ
 
