@@ -80,6 +80,8 @@ Der oben erwähnte Zusatz ändert nichts an der stufenweisen Freigabe, die nach 
 * (iii) 20 % in gleichen monatlichen Raten am ersten Tag eines jeden Monats vom 1. Juli 2024 bis zum 1. Juni 2025; und
 * (iv) 10 % an gleichen monatlichen Ratenzahlungen am ersten Tag eines jeden Monats vom 1. Juli 2025 bis zum 1. Juni 2026.
 
+**Beachten Sie bitte, dass alle oben genannten Daten so interpretiert werden sollten, dass sie sich auf die UTC-Zeitzone beziehen.**
+
 Für mehrere Gründer, Mitarbeiter, Berater und Referenten der dYdX Trading Inc. und der dYdX Foundation gelten ebenfalls die in der Novelle festgelegten Übertragungsbeschränkungen.
 
 Für alle Mitarbeiter und Berater gelten außerdem verschiedene Sperrzeiträume, die dazu führen können, dass sie ihre Rechte an $ethDYDX verlieren. Der Bezug von $ethDYDX durch Mitarbeiter oder Berater basiert weder auf der Erbringung von Dienstleistungen im Zusammenhang mit dem dYdX-Protokoll noch auf anderen Dienstleistungen, die dem Protokoll förderlich sein könnten, noch wird dies in Zukunft der Fall sein. Stattdessen können Mitarbeiter und Berater $ethDYDX für Dienstleistungen erhalten, die nur der dYdX Trading Inc. oder der dYdX Foundation oder einer anderen Vertragspartei zugutekommen.
