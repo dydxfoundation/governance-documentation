@@ -39,8 +39,8 @@ dYdX链上治理支持以下功能：
 | Merkle-Pauser时间锁执行器      | 0xd98e7A71BacB6F11438A8271dDB2EFd7f9361F52 |
 | Starkware优先时间锁执行器 | 0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE |
 | 奖励资金库                     | 0x639192D54431F8c816368D3FB4107Bc168d0E871 |
-| 社区资金库                   | 0xE710CEd57456D3A16152c32835B5FB4E72D9eA5b |
-| 保险模块                        | 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC |
+| 奖励资金桥              | 0x8d0051943D4c72aF12D638c6b7253C71929A910A || 社区资金库                   | 0xE710CEd57456D3A16152c32835B5FB4E72D9eA5b |
+| 社区资金桥            | 0x5D8541e3078BE7c2D773185aD8C8b9ED5105E08c || 保险模块                        | 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC |
 | 治理策略V2               | 0xc2f5F3505910Da80F0592a3Cc023881C50b16505 |
 | 奖励资金库归属者              | 0xb9431E19B29B952d9358025f680077C3Fd37292f |
 | 社区资金库归属者            | 0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8 |
@@ -204,11 +204,19 @@ TreasuryVester合约受到[Uniswap](https://github.com/Uniswap/governance/blob/m
 
 短时间锁只能执行治理批准的操作。
 
-有两种资金库归属者与资金库合约，一种是激励合约奖励，另一种是持有“普通用途”资金库的资金。
+有两种资金库归属者和资金库合同：
+
+* [奖励资金库归属者](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f)和[奖励资金库](https://etherscan.io/address/0x639192D54431F8c816368D3FB4107Bc168d0E871)用于激励合约奖励；以及
+* [社区资金持库归属者](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8)和[社区资金库](https://etherscan.io/address/0xe710ced57456d3a16152c32835b5fb4e72d9ea5b)用于持有“通用”资金库资金。
 
 由于治理控制每个资金库，它可以将资金转至任何地址，和/或批准任何地址从任一资金库中支出资金。例如，奖励计划需要由治理设定的代币批准限额。
 
-每个资金库归属者将在大约5年内（2021年8月3日 - 2026年8月3日）将代币线性归属至相应的资金库。
+在 [DIP 29](https://dydx.community/dashboard/proposal/16) 中，dYdX 社区投票决定利用[奖励资金桥](https://etherscan.io/address/0x8d0051943D4c72aF12D638c6b7253C71929A910A)和[社区资金桥](https://etherscan.io/address/0x5D8541e3078BE7c2D773185aD8C8b9ED5105E08c)智能合约，从而可以将[社区资金库](https://etherscan.io/address/0xe710ced57456d3a16152c32835b5fb4e72d9ea5b)和[奖励资金库](https://etherscan.io/address/0x639192D54431F8c816368D3FB4107Bc168d0E871)中的可用的 ethDYDX 迁移到 dYdX Chain。
+
+每个资金库归属者将在大约 5 年内（2021年8月3日 - 2026年8月3日）将代币线性归属至相应的资金库。由于归属者合约在部署时是不可变的，dYdX 社区投票决定将归属者合约的接收者设置为以下地址：
+
+* [奖励资金库归属者](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f)将释放给`0x0000000000000000000000000000000000000001`；以及
+* [社区资金库所属者](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8)将释放给`0x0000000000000000000000000000000000000002`。
 
 ## 外围合约
 

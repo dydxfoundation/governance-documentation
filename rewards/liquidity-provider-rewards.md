@@ -4,9 +4,18 @@ description: 流动性提供方奖励计划概述。
 
 # 流动性提供方奖励
 
-初始代币供应量的 **5.2%**（`52,458,925 $ethDYDX`）将根据公式分配给流动性提供方（“LP”）。根据公式，对挂单量、正常运行时间、双侧交易深度、买卖价差、所支持的市场数量予以奖励。最初，**7.5%** (`75,000,000 $ethDYDX`)  的代币供应量分配用于 LP 奖励。
+初始代币供应量的 **3.2%**（`31,643,838 $ethDYDX`）将根据公式分配给流动性提供方（“LP”）。根据公式，对挂单量、正常运行时间、双侧交易深度、买卖价差、所支持的市场数量予以奖励。最初，**7.5%** (`75,000,000 $ethDYDX`)  的代币供应量分配用于 LP 奖励。
 
 * 在 [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)，dYdX 社区[投票](https://dydx.community/dashboard/proposal/14)决定将流动性提供方奖励削减 50%，从每个时段 `1,150,685 $ethDYDX` 降至每个时段 `575,343 $ethDYDX`。因此，LP 奖励的分配从 `7.5%` 降至 `5.2%`。
+*   在 [DIP 29](https://dydx.community/dashboard/proposal/16) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/16)决定将 dYdX v3 上的 LP 奖励从 30-32 时段减少 ⅓，减为以下值：
+
+    * 时段 30：383,562 $ethDYDX
+    * 时段 31：191,781 $ethDYDX
+    * 时段 32：0 $ethDYDX
+
+    在第 31 时段之后，dYdX v3 上将没有任何 LP 奖励。 因此，LP 奖励的分配从 `5.2%` 降至 `3.2%`。
+
+由于在 dYdX Chain 上没有提供流动性提供者奖励的分配，dYdX社区在 DIP 29 中投票将剩余的流动性提供者奖励分配迁移到 dYdX Chain 社区库中。
 
 **目标**
 
@@ -14,7 +23,7 @@ description: 流动性提供方奖励计划概述。
 
 ## **概述**
 
-为了激励市场流动性，$ethDYDX 将根据公式分配给流动性提供方，这些公式奖励在 dYdX v3 上的参与做市、挂单量、双侧深度、价差（与中间市场相比），以及正常运行时间。任何以太坊地址都可以获得这些奖励，但前提是前一个时段的最低挂单量阈值为0.25%。 $ethDYDX 将在五年内以 28 天的时段分发，不受任何约束或锁定。 每个时段将分配 575,343 $ethDYDX。
+为了激励市场流动性，$ethDYDX 将根据公式分配给流动性提供方，这些公式奖励在 dYdX v3 上的参与做市、挂单量、双侧深度、价差（与中间市场相比），以及正常运行时间。任何以太坊地址都可以获得这些奖励，但前提是前一个时段的最低挂单量阈值为0.25%。 $ethDYDX 将在五年内以 28 天的时段分发，不受任何约束或锁定。
 
 以下函数用于计算每个时段每个流动性提供方应当得到多少 $ethDYDX 奖励。在 [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md) 中，dYdX 社区投票修订了 LP 奖励公式，将 BTC/ETH 市场和非 BTC/ETH 市场函数分开。在 [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md) 中，dYdX 社区投票赞成将 0.05 stkDYDX 权重重新分配给挂单量。
 

@@ -14,8 +14,7 @@ description: 奖励资金库概述。
 * [DIP 20](https://dydx.community/dashboard/proposal/11)：交易奖励进一步削减 45%（每个时段 1,294,520 $ethDYDX），以及
 * [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)：将“流动性提供方奖励”削减 50% （每个时段 575,342 $ethDYDX）。
 
-从时段 26 开始，每个时段将在“奖励资金库”中积累 3,595,890 $ethDYDX，dYdX 社区可以通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。\
-
+在 2023 年 11 月 18 日，dYdX 社区[投票](https://dydx.community/dashboard/proposal/16)决定将在以太坊上积累的奖励资金库中的 ethDYDX 余额桥接到 dYdX Chain 上。桥接后，DYDX 可以由 dYdX 社区在 dYdX Chain 上进行治理投票后使用。
 
 ## 常见问题解答
 

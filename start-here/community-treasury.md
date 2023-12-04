@@ -4,13 +4,22 @@ description: 社区资金库概述。
 
 # 社区资金库
 
-代币供应量的 **`24.2%`**（`241,735,862 $ethDYDX`）分配给 dYdX 社区资金库，供 dYdX 社区持续用于捐赠者赠款、社区举措、流动性采矿，以及其他计划。最初，代币供应量的 `5.0%`（`50,000,000 $ethDYDX`）分配给社区资金库，每个时段 766,703 $ethDYDX 提供给[社区资金库](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations)。 目前，3,787,251 $ethDYDX 提供给社区资金库，因为一些治理提案增加了 dYdX 社区每个时段可用的 $ethDYDX 金额，增至 3,020,548 $ethDYDX ：
+**`26.2%`** (`262,550,949 $DYDX`) 的代币供应将分配给社区资金库，由 dYdX 社区通过贡献者赠款、社区倡议、流动性挖掘和其他计划持续进行分配。最初，代币供应量的 `5.0%`（`50,000,000 $ethDYDX`）分配给社区资金库，每个时段 766,703 $ethDYDX 提供给[社区资金库](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations)。 目前，3,787,251 $ethDYDX 提供给社区资金库，因为一些治理提案增加了 dYdX 社区每个时段可用的 $ethDYDX 金额，增至 3,020,548 $ethDYDX ：
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7)：质押 USDC 的奖励设为 0（每个时段 383,562 $ethDYDX），
 * [DIP 16](https://dydx.community/dashboard/proposal/8)： 交易奖励削减 25%（每个时段 958,904 $ethDYDX），
 * [DIP 17](https://dydx.community/dashboard/proposal/9)： 质押 $DYDX 的奖励设为 0（每个时段 383,562 $ethDYDX），
 * [DIP 20](https://dydx.community/dashboard/proposal/11)：交易奖励进一步削减 45%（每个时段 1,294,520 $ethDYDX），以及
 * [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)：将“流动性提供方奖励”削减 50% （每个时段 575,342 $ethDYDX）。
+*   [DIP 29](https://dydx.community/dashboard/proposal/16) - 将 dYdX v3 上时段 30-32 的流动性提供者奖励减少 ⅓，数值调整如下：
+
+    * 时段 30：383,562 $ethDYDX
+    * 时段 31：191,781 $ethDYDX
+    * 时段 32：0 $ethDYDX
+
+    在 31 时段之后，dYdX v3 上将没有任何流动性提供者奖励。 在 DIP 29 中，dYdX 社区投票决定将 dYdX v3 上 时段 30-32 的交易奖励减少 ⅓，然而剩余的交易奖励分配已被迁移到 dYdX Chain 作为交易奖励。
+
+在 2023 年 11 月 18 日，dYdX 社区[投票](https://dydx.community/dashboard/proposal/16)决定将在以太坊上积累的社区资金库中的 ethDYDX 余额桥接到 dYdX Chain 上。桥接后，DYDX 可以由 dYdX 社区在 dYdX Chain 上进行治理投票后使用。
 
 
 
@@ -45,10 +54,12 @@ dYdX 社区成员可以在[此处](https://dydx.shippooor.xyz/)查看社区资�
 * [DIP 14](https://dydx.community/dashboard/proposal/7)：质押 USDC 的奖励设为 0（每个时段 383,562 $ethDYDX）。
 * [DIP 16](https://dydx.community/dashboard/proposal/8)： 交易奖励削减 25%（每个时段 958,904 $ethDYDX），
 * [DIP 17](https://dydx.community/dashboard/proposal/9)： 质押 $ethDYDX 的奖励设为 0（每个时段 383,562 $ethDYDX），
-* [DIP 20](https://dydx.community/dashboard/proposal/11)：交易奖励进一步削减 45%（每个时段 1,294,520 $ethDYDX），以及
-* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)：将“流动性提供方奖励”削减 50% （每个时段 575,342 $ethDYDX）。
-
-从时段 26 开始，每个时段将在“奖励资金库”中积累 3,595,890 $ethDYDX，并可由 dYdX 社区通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。
+* [DIP 20](https://dydx.community/dashboard/proposal/11)：交易奖励进一步削减 45%（每个时段 1,294,520 $ethDYDX），
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)：将“流动性提供方奖励”削减 50% （每个时段 575,342 $ethDYDX），以及
+* [DIP 29](https://dydx.community/dashboard/proposal/16)，将在 dYdX v3上 30-32时段 减少三分之一的流动性提供者奖励，数值调整如下：
+  * 时段 30：383,562 $ethDYDX
+  * 时段 31：191,781 $ethDYDX
+  * 时段 32：0 $ethDYDX
 
 ### 谁可以从“社区资金库”提交使用 ethDYDX 的提案？
 
