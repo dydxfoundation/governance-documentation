@@ -14,8 +14,7 @@ description: Обзор казны наград сообщества.
 * [ППУ 20](https://dydx.community/dashboard/proposal/11) — дополнительное сокращение наград за торговлю на 45% (1 294 520 $ethDYDX в эпоху), а также
 * [ППУ 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) — сокращение размера наград для поставщиков ликвидности на 50% (575 342 $ethDYDX в эпоху).
 
-Начиная с 26-й эпохи, 3 595 890 $ethDYDX будут зачисляться в казну наград каждую эпоху. Сообщество dYdX сможет использовать их по итогам [голосования среди пользователей, управляющих токеном](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters). \
-
+18 ноября 2023 года сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/16) за мост остатка ethDYDX, накопленного в казне наград, из Ethereum в цепочку dYdX. После выхода на мост сообщество dYdX может использовать DYDX с голосованием руководства в цепочке dYdX.
 
 ## Часто задаваемые вопросы
 
