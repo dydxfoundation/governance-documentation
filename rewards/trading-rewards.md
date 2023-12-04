@@ -8,8 +8,23 @@ description: 交易奖励计划概述。
 
 * 在 [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/8)将交易奖励减少 25.0%。因此，分配给交易奖励的代币从 `25.0%` 降至 `20.2%`。
 * 在 [DIP 20](https://dydx.community/dashboard/proposal/11) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/11)将交易奖励再减少 45.0%。因此，分配给交易奖励的代币从 `20.2%` 降至 `14.5%`。
+*   在 [DIP 29](https://dydx.community/dashboard/proposal/16) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/16)决定将 dYdX v3 上的交易奖励从 30-32 时段减少 ⅓，减为以下值：
 
-给定时段分配的交易奖励，在时段 15 中，从 3,835,616 $ethDYDX 减少到 2,876,712 $ethDYDX，在 时段 21 中，从 2,876,712 $ethDYDX 减少到 1,582,192 $ethDYDX。
+    * 时段 30：1,054,795 $ethDYDX
+    * 时段 31：527,398 $ethDYDX
+    * 时段 32：0 $ethDYDX
+
+    请注意，在 DIP 29 中，dYdX 社区投票决定将剩余的交易奖励分配迁移到 dYdX Chain 上作为交易奖励。
+
+在特定时段分配的交易奖励将从 3,835,616 $ethDYDX 减少为以下值：
+
+* 时段 15：2,876,712 $ethDYDX；
+* 时段 21：1,582,192 $ethDYDX；
+* 时段 30：1,054,795 $ethDYDX；
+* 时段 31：527,398 $ethDYDX；
+* 32 及以后时段：0 $ethDYDX。
+
+在 31 时段之后，dYdX v3 上将没有任何交易奖励。 dYdX v3 [奖励库所属者](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f)上剩余的金额可以转入 dYdX Chain 奖励库所属者（`dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk`），并在dYdX Chain上作为交易奖励进行分配，但前提是在 dYdX Chain 上获得治理批准。
 
 **目标**
 
@@ -20,9 +35,15 @@ description: 交易奖励计划概述。
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>在给定时段内所支付的费用以及预估的奖励</p></figcaption></figure>
 
-$ethDYDX 将根据在 dYdX v3 上支付的费用分配给交易者。 $ethDYDX 将在五年内以 28 天 的时段为基础分配，不受任何约束或锁定。 每个时段将分配 1,582,192 个 ethDYDX。
+$ethDYDX 将根据在 dYdX v3 上支付的费用分配给交易者。 $ethDYDX 将在五年内以 28 天 的时段为基础分配，不受任何约束或锁定。
 
-由于社区投票将 [DIP 16](https://dydx.community/dashboard/proposal/8) 中的交易奖励减少了 25%，即 958,904 $ethDYDX，在 [DIP 20](https://dydx.community/dashboard/proposal/11) 中再减少 45%，即 1,294,520 $ethDYDX，奖励资金库中剩余的 2,253,424 $ethDYDX 可通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)由 dYdX 社区使用/支出。
+在 [DIP 29](https://dydx.community/dashboard/proposal/16) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/16)决定将 dYdX v3 上的交易奖励从 30-32 时段减少 ⅓，减为以下值：
+
+* 时段 30：1,054,795 $ethDYDX
+* 时段 31：527,398 $ethDYDX
+* 时段 32 和所有剩余时段：0 $ethDYDX
+
+
 
 <figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
