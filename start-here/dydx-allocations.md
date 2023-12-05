@@ -24,19 +24,11 @@ Desde el lanzamiento de $ethDYDX, ha habido varias propuestas de gobernanza que 
 * **50,0 %** (`500 000 000 $ethDYDX`) a la comunidad de la siguiente manera:
   * **14.5%** (`144 693 506 $ethDYDX`) en función de la [Fórmula de Recompensas de trading](https://docs.dydx.community/dydx-governance/rewards/trading-rewards),
     * En [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) y [DIP 20](https://dydx.community/dashboard/proposal/11), la comunidad de dYdX votó para reducir las recompensas de trading en un total de 2,3 millones de $ethDYDX. (958 904 $ethDYDX de DIP 16 y 1 294 520 $ethDYDX de DIP 20). Los 2,3 millones de $ethDYDX se acumularán en la Tesorería de recompensas y la comunidad de dYdX puede usarlos con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
-    * En [DIP 29](https://dydx.community/dashboard/proposal/16), la comunidad dYdX votó por reducir las recompensas de trading en ⅓ de la etapa 30 a 32 en dYdX v3 a los siguientes valores:
-      * Etapa 30: 1 054 795 $ethDYDX
-      * Etapa 31: 527 398 $ethDYDX
-      * Etapa 32: 0 $ethDYDX
   * **5,0%** (`50 309 197 $ethDYDX`) a los usuarios anteriores que alcancen ciertos hitos de trading en el protocolo de la capa 2 de dYdX ([Recompensas de minería retroactivas](../rewards/retroactive-mining-rewards.md));
     * Después de la etapa 0, 24 690 803 $ethDYDX  no reclamados del programa de Recompensas de minería retroactivas se transfirieron a la Tesorería de la comunidad.
-  * **3,2%** (`31 643 838 $ethDYDX`) en función de [la(s) fórmula(s) de las Recompensas a proveedores de liquidez](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards),
-    * En [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), la comunidad dYdX votó por reducir las recompensas de los proveedores de liquidez en un 50 %, de 1 150 685 $ethDYDX por etapa a 575 343 $ethDYDX por etapa. El exceso de 575 342 $ethDYDX por etapa se acumulará en la Tesorería de recompensas y la comunidad de dYdX puede usarlos con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
-    * En [DIP 29](https://dydx.community/dashboard/proposal/16), la comunidad dYdX votó por reducir las recompensas de proveedor de liquidez en ⅓ de la etapa 30 a 32 en dYdX v3 a los siguientes valores:
-      * Etapa 30: 383 562 $ethDYDX
-      * Etapa 31: 191 781 $ethDYDX
-      * Etapa 32: 0 $ethDYDX
-  * **26,2 %** (`262 550 949 $ethDYDX`) a la [Tesorería de la comunidad](https://docs.dydx.community/dydx-governance/start-here/community-treasury/),
+  * **5,2%** (`52 458 925 $ethDYDX`) en función de [la(s) fórmula(s) de las Recompensas a proveedores de liquidez](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards);
+    * En [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), la comunidad dYdX votó para reducir las recompensas de proveedores de liquidez en un 50 %, de 1 150 685 $ethDYDX por época a 575 343 $ethDYDX por época. El exceso de 575 342 $ethDYDX por etapa se acumulará en la Tesorería de recompensas y la comunidad de dYdX puede usarlos con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+  * **24,2%** (`241 735 862 $ethDYDX`) al [Fondo de la Comunidad](https://docs.dydx.community/dydx-governance/start-here/community-treasury/) y el [Fondo de recompensas](https://docs.dydx.community/dydx-governance/start-here/rewards-treasury);
   * **0,6%** (`5 753 430 $ethDYDX`) a los usuarios que invirtieron $USDC en un [Fondo de participación de liquidez](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool);
     * En [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), la comunidad dYdX [votó](https://dydx.community/dashboard/proposal/7) para establecer las recompensas asociadas con la participación de $USDC en 0. Los 383 562 $ethDYDX distribuidos previamente a los participantes de $USDC se acumularán en la Tesorería de recompensas y la comunidad dYdX podrá utilizarlos con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
   * **0,5%** (`5 049 079 $ethDYDX`) a los usuarios que inviertieron $ethDYDX en un [Fondo de participación de seguridad](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool);
@@ -45,7 +37,7 @@ Desde el lanzamiento de $ethDYDX, ha habido varias propuestas de gobernanza que 
 * **15,3%** (`152 704 930 $ethDYDX`) a los fundadores, empleados, asesores y consultores de dYdX Trading Inc. o de la dYdX Foundation; y
 * **7,0 %** (`70 000 000 $ethDYDX`) a futuros empleados y consultores de dYdX Trading Inc. o de la dYdX Foundation.
 
-<figure><img src="../.gitbook/assets/allocation 5 year (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/allocation 5 year.png" alt=""><figcaption></figcaption></figure>
 
 A partir de los cinco años posteriores al lanzamiento, una tasa de inflación máxima perpetua del `2%` por año puede ser utilizada por la gobernanza para aumentar el suministro de $ethDYDX, asegurando que la comunidad tenga los recursos para continuar el desarrollo y el crecimiento de dYdX v3. La inflación debe ser promulgada por medio de una propuesta de la gobernanza y está limitada al `2 %` por año.
 
