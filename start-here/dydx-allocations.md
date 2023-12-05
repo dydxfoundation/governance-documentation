@@ -82,6 +82,8 @@ A alteração acima mencionada não altera o desbloqueio alternado que ocorre ap
 * (iii) 20% em parcelas mensais iguais no primeiro dia de cada mês, a partir de 1º de julho de 2024 a 1º de junho de 2025; e
 * (iv) 10% em parcelas mensais iguais no primeiro dia de cada mês a partir de 1º de julho de 2025 a 1º de junho de 2026.
 
+**Observe que todas as datas acima devem ser interpretadas como se referindo ao fuso horário UTC.**
+
 Vários fundadores, funcionários, consultores e assessores da dYdX Trading Inc. dYdX Foundation também estão sujeitos ao calendário de restrições de transferências definido na Emenda.
 
 Todos os funcionários e consultores também estarão sujeitos a várias programações de investimento que poderão resultar na perda de seus direitos a $ethDYDX. Nenhum recebimento de $ethDYDX por partes de funcionários ou consultores é ou será baseado na prestação de serviços relacionados ao protocolo dYdX ou outros serviços que possam beneficiar o protocolo. Em vez disso, funcionários e consultores podem receber $ethDYDX para serviços que beneficiam apenas a dYdX Trading Inc., dYdX Foundation ou outra parte.
