@@ -82,6 +82,8 @@ L'amendement susmentionné n'altère pas le déblocage échelonné qui se produi
 * (iii) 20 % en mensualités fixes au premier jour de chaque mois, du 1er juillet 2024 au 1er juin 2025 ; et
 * (iv) 10 % en mensualités fixes au premier jour de chaque mois, du 1er juillet 2025 au 1er juin 2026.
 
+**Notez que toutes les dates ci-dessus doivent être interprétés comme faisant référence au fuseau horaire UTC.**
+
 Les différents fondateurs, employés, conseillers et consultants de dYdX Trading Inc. dYdX et de la dYdX Foundation sont également soumis au calendrier de restriction de transfert prévu dans l'amendement.
 
 Tous les employés et consultants seront également soumis à divers calendriers d'acquisition qui pourraient leur faire perdre leurs droits à $ethDYDX. Aucune réception de $DYDX par un employé ou un consultant n'est, ou ne sera à l'avenir, basée sur l'offre de services liés au protocole dYdX ou d'autres services pouvant bénéficier du protocole. ethAu lieu de cela, les employés et consultants peuvent recevoir des $DYDX pour des services dont bénéficient uniquement dYdX Trading Inc., la dYdX Foundation ou une autre partie.
