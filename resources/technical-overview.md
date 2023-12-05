@@ -35,7 +35,9 @@ dYdX 거버넌스를 지원하는 스마트 계약은 다음 7개입니다.
 | WrappedEthereumDydxToken             | 0x46b2DeAe6eFf3011008EA27EA36b7c27255ddFA9 |
 | DydxGovernor                         | 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2 | | Short Timelock Executor              | 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc |
 | 장기 타임락 실행자               | 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B | | 머클-포저 실행자 | 0xd98e7A71BacB6F11438A8271dDB2EFd7f9361F52 | | Starkware 타임락 실행자 | 0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE | | 보상 트레저리                    | 0x639192D54431F8c816368D3FB4107Bc168d0E871 |
+| 보상 트레저리 브릿지              | 0x8d0051943D4c72aF12D638c6b7253C71929A910A |
 | 커뮤니티 트레저리                   | 0xE710CEd57456D3A16152c32835B5FB4E72D9eA5b |
+| 커뮤니티 트레저리 브릿지            | 0x5D8541e3078BE7c2D773185aD8C8b9ED5105E08c |
 | 안전 모듈                        | 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC |
 | 거버넌스전략V2                 | 0xc2f5F3505910Da80F0592a3Cc023881C50b16505 |
 | 보상 트레저리 베스터              | 0xb9431E19B29B952d9358025f680077C3Fd37292f |
@@ -199,11 +201,19 @@ TreasuryVeser 계약은 [Uniswap](https://github.com/Uniswap/governance/blob/mas
 
 단기 타임락은 거버넌스에 의해 승인된 활동만 수행할 수 있습니다.
 
-2개의 트레저리 베스터 및 트레저리 계약이 있습니다. 하나는 인센티브 계약 보상을 위한 것이고 다른 하나는 일반적으로 트레저리 자금을 보유하기 위한 것입니다.
+두 가지 트레저리 베스터와 트레저리 계약이 있습니다.
+
+* [보상 트레저리 베스터](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f) 및 [보상 트레저리](https://etherscan.io/address/0x639192D54431F8c816368D3FB4107Bc168d0E871)는 인센티브 계약 보상에 사용됩니다. 그리고
+* [커뮤니티 트레저리 베스터](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8)와 [커뮤니티 트레저리](https://etherscan.io/address/0xe710ced57456d3a16152c32835b5fb4e72d9ea5b)는 "범용 목적" 트레저리 자금을 보유하기 위한 것입니다.
 
 거버넌스는 각 트레저리를 통제하기 때문에 자금을 임의의 주소로 전송하거나 트레저리에서 자금을 지출하기 위해 모든 주소를 승인할 수 있습니다. 예를 들어 보상 프로그램에는 거버넌스에 의해 설정된 토큰 승인 제한이 있어야 합니다.
 
-각 트레저리 베스터는 \~5년 동안 선형적으로 토큰을 해당하는 트레저리에 베스팅합니다.(2021년 8월 3일 - 2026년 8월 3일)
+[DIP 29](https://dydx.community/dashboard/proposal/16)에서 dYdX 커뮤니티는 [보상 트레저리 브릿지](https://etherscan.io/address/0x8d0051943D4c72aF12D638c6b7253C71929A910A)와 [커뮤니티 트레저리 브릿지](https://etherscan.io/address/0x5D8541e3078BE7c2D773185aD8C8b9ED5105E08c) 스마트 계약을 활용하기로 결정했으며, 이를 통해 [커뮤니티 트레저리](https://etherscan.io/address/0xe710ced57456d3a16152c32835b5fb4e72d9ea5b) & [보상 트레저리](https://etherscan.io/address/0x639192D54431F8c816368D3FB4107Bc168d0E871)에서 사용 가능한 ethDYDX를 dYdX 체인으로 마이그레이션할 수 있었습니다.
+
+각 트레저리 베스터는 \~5년 동안 선형적으로 토큰을 해당하는 트레저리에 베스팅합니다.(2021년 8월 3일 - 2026년 8월 3일) 배포 시 베스터 계약은 변경할 수 없으므로 dYdX 커뮤니티는 베스터 계약의 수신자를 다음 주소로 설정하기로 결정했습니다.
+
+* [보상 트레저리 베스터](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f)의 주소 `0x0000000000000000000000000000000000000001`; 그리고
+* [커뮤니티 트레저리 베스터](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8)의 주소 `0x0000000000000000000000000000000000000002`.
 
 ## 부차적 계약
 
