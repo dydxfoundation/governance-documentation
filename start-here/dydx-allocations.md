@@ -24,11 +24,19 @@ $ethDYDX 출시 이래로 초기 할당의 변화를 이끈 거버넌스 제안�
 * **50.0%**(`500,000,000$ethDYDX`)가 다음과 같이 커뮤니티에 할당됩니다.
   * **14.5%**(`144,693,506$ethDYDX`)는 [거래 보상 공식](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)에 따라 할당됩니다.
     * dYdX 커뮤니티가 [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) 및 [DIP 20](https://dydx.community/dashboard/proposal/11)에서 거래 보상을 총 230만$ethDYDX까지 줄이기로 결정했습니다(DIP 16에서는 958,904$ethDYDX, DIP 20에서는 1,294,520$ethDYDX). 230만$ethDYDX는 보상 금고에 누적될 것이며, [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 dYdX 커뮤니티에서 이를 사용할 수 있습니다.
+    * [DIP 29](https://dydx.community/dashboard/proposal/16)에서 dYdX 커뮤니티는 dYdX v3의 에폭 30-32에서 다음 값으로 거래 보상을 ⅓ 줄이기로 결정했습니다.
+      * 에폭 30: 1,054,795 $ethDYDX
+      * 에폭 31: 527,398 $ethDYDX
+      * 에폭 32: 0 $ethDYDX
   * **5.0%**(`50,309,197$ethDYDX`)는 dYdX 레이어 2 프로토콜에서 특정 거래 이정표를 완수한 과거 사용자에게 할당됩니다([소급 채굴 보상](../rewards/retroactive-mining-rewards.md)).
     * 에폭 0 이후 소급 채굴 보상에서 클레임되지 않은 24,690,803$$ethDYDX는 커뮤니티 금고로 이전되었습니다.
-  * **5.2%**(`52,458,925$ethDYDX`)는 [유동성 공급자 보상 공식](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards)에 따라 할당됩니다.
-    * [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)에서 dYdX 커뮤니티는 유동성 공급자 보상을 에폭당 1,150,685$ethDYDX에서 575,343$ethDYDX로 50% 감소시키기로 결정했습니다. 에폭당 초과량 575,342$ethDYDX는 보상 금고에 누젹될 것이며, [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 dYdX 커뮤니티에서 이를 사용할 수 있습니다.
-  * **24.2%**(`241,735,862$ethDYDX`)는 [커뮤니티 금고](https://docs.dydx.community/dydx-governance/start-here/community-treasury/) 및 [보상 금고](https://docs.dydx.community/dydx-governance/start-here/rewards-treasury)에 할당됩니다.
+  * **3.2%**(`31,643,838 $ethDYDX`)는 [유동성 공급자 보상 공식](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards)에 따라 할당됩니다.
+    * [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)에서 dYdX 커뮤니티는 유동성 공급자 보상을 에폭당 1,150,685 $ethDYDX에서 575,343 $ethDYDX로 50% 감소시키기로 결정했습니다. 에폭당 초과량 575,342$ethDYDX는 보상 금고에 누젹될 것이며, [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 dYdX 커뮤니티에서 이를 사용할 수 있습니다.
+    * [DIP 29](https://dydx.community/dashboard/proposal/16)에서 dYdX 커뮤니티는 dYdX v3의 에폭 30-32에서 다음 값으로 유동성 제공자 보상을 ⅓ 줄이기로 결정했습니다.
+      * 에폭 30: 383,562 $ethDYDX
+      * 에폭 31: 191,781 $ethDYDX
+      * 에폭 32: 0 $ethDYDX
+  * **26.2%**(`262,550,949 $ethDYDX`)는[커뮤니티 트레저리](https://docs.dydx.community/dydx-governance/start-here/community-treasury/)로,
   * **0.6%**(`5,753,430$ethDYDX`)는 $USDC를 [유동성 스테이킹 풀](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool)에 스테이킹하는 사용자에게 할당됩니다.
     * [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)에서, dYdX 커뮤니티는 [투표를 통해](https://dydx.community/dashboard/proposal/7) $USDC 스테이킹 관련 보상을 0으로 설정하기로 결정했습니다. 이전에 $USDC 스테이커에게 배포된 383,562$ethDYDX는 보상 금고에 축적되며, [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 dYdX 커뮤니티에서 이를 사용할 수 있습니다.
   * **0.5%**(`5,049,079$ethDYDX`)는 [안전 스테이킹 풀](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool)에 $ethDYDX를 스테이킹하는 사용자에게 할당됩니다.
@@ -37,7 +45,7 @@ $ethDYDX 출시 이래로 초기 할당의 변화를 이끈 거버넌스 제안�
 * **15.3%**(`152,704,930$ethDYDX`)는 dYdX Trading Inc. 또는 dYdX Foundation의 설립자, 직원, 고문, 컨설턴트에게 할당됩니다.
 * **7.0%**(`70,000,000$ethDYDX`)는 dYdX Trading Inc. 또는 dYdX Foundation의 미래 직원 및 컨설턴트에게 할당됩니다.
 
-<figure><img src="../.gitbook/assets/allocation 5 year.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/allocation 5 year (2).png" alt=""><figcaption></figcaption></figure>
 
 출시 이후 5년 동안 연간 `2%`의 최대 무기한 인플레이션율을 거버넌스에서 활용하여 $ethDYDX의 공급량을 늘릴 수 있으며, 이를 통해 커뮤니티는 dYdX v3를 지속적으로 발전 및 성장시키기 위한 리소스를 확보할 수 있습니다. 인플레이션은 거버넌스 제안을 통해 제정되어야 하며 연간 `2%`로 제한됩니다.
 
