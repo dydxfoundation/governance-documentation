@@ -4,13 +4,22 @@ description: コミュニティトレジャリーの概要
 
 # コミュニティ基金
 
-トークン供給の**`24.2％`**（`241,735,862$ethDYDX`）は、コントリビューターグラント、コミュニティのイニシアチブ、流動性マイニング、その他のプログラムで継続的に使用するためにdYdXコミュニティのコミュニティトレジャリーに割り当てられます。当初、コミュニティトレジャリーにトークン供給の`5.0％`（`5000万$ethDYDX`）が[割り当てられ](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations)、766,703$ethDYDXがエポックごとにコミュニティトレジャリーに帰属しました。現在、コミュニティトレジャリーに3,787,251$ethDYDXが帰属しているのは、複数のガバナンス提案により、dYdXコミュニティの各エポックで利用可能な$ethDYDXの金額が3,020,548$ethDYDX増加したためです。
+トークン供給の**`26.2%`**（`262,550,949 $ethDYDX`）は、dYdXコミュニティのコミュニティ基金に割り当てられ、貢献者の助成金、コミュニティのイニシアチブ、流動性マイニング、その他のプログラムで継続的に使用されます。当初、コミュニティトレジャリーにトークン供給の`5.0％`（`5000万$ethDYDX`）が[割り当てられ](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations)、766,703$ethDYDXがエポックごとにコミュニティトレジャリーに帰属しました。現在、コミュニティトレジャリーに3,787,251$ethDYDXが帰属しているのは、複数のガバナンス提案により、dYdXコミュニティの各エポックで利用可能な$ethDYDXの金額が3,020,548$ethDYDX増加したためです。
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - USDCのステーキングの報酬を0に設定（エポックあたり383,562$ethDYDX）、
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - 取引報酬を25％削減（エポックあたり958,904$ethDYDX）、
 * [DIP 17](https://dydx.community/dashboard/proposal/9) - $DYDXのステーキングの報酬を0に設定（エポックあたり383,562$ethDYDX）、
 * [DIP 20](https://dydx.community/dashboard/proposal/11) - 取引報酬をさらに45％削減（エポックあたり1,294,520$ethDYDX）さらに
 * [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - 流動性プロバイダー報酬を50%削減（エポックあたり575,342$ethDYDX）。
+*   [DIP 29](https://dydx.community/dashboard/proposal/16) - dYdX v3のエポック30～32から⅓の流動性プロバイダー報酬を以下の値に減らします。
+
+    * エポック30：383,562 $ethDYDX
+    * エポック31：191,781 $ethDYDX
+    * エポック32：0 $ethDYDX
+
+    エポック31以降は、dYdX v3に対する流動性プロバイダーの報酬はありません。DIP 29において、dYdXコミュニティはdYdX v3のエポック30～32から取引報酬を⅓減少させることに投票しましたが、残りの取引報酬の配分はdYdX取引報酬チェーンに移行されました。
+
+2023年11月18日、dYdXコミュニティは、コミュニティ基金で発生したethDYDX残高をイーサリアムからdYdXチェーンに橋渡しすることを[投票](https://dydx.community/dashboard/proposal/16)しました。ブリッジされると、DYDXはdYdXコミュニティによってdYdXチェーンのガバナンス投票で使用できます。
 
 
 
@@ -43,10 +52,12 @@ dYdXコミュニティメンバーは、コミュニティトレジャリーの�
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - USDCのステーキングの報酬を0に設定（エポックあたり383,562$ethDYDX）、
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - 取引報酬を25％削減（エポックあたり958,904$ethDYDX）、
 * [DIP 17](https://dydx.community/dashboard/proposal/9) - ethDYDXのステーキングの報酬を0に設定（エポックあたり383,562$ethDYDX）、
-* [DIP 20](https://dydx.community/dashboard/proposal/11) - 取引報酬をさらに45％削減（エポックあたり1,294,520$ethDYDX）さらに
-* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - 流動性プロバイダー報酬を50%削減（エポックあたり575,342$ethDYDX）。
-
-エポック26以降、各エポックごとに3,595,890$ethDYDXが報酬トレジャリーに加算され、dYdXコミュニティは[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によってそれらを利用できるようになります。
+* [DIP 20](https://dydx.community/dashboard/proposal/11) - 取引報酬をさらに45％削減（エポックあたり1,294,520 $ethDYDX）、
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - 流動性プロバイダー報酬を50%削減（エポックあたり575,342 $ethDYDX）、
+*  [DIP 29](https://dydx.community/dashboard/proposal/16) - dYdX v3のエポック30～32から⅓の流動性プロバイダー報酬を以下の値に減らします。
+  * エポック30：383,562 $ethDYDX
+  * エポック31：191,781 $ethDYDX
+  * エポック32：0 $ethDYDX
 
 ### 誰がコミュニティトレジャリーからethDYDXを使用する提案を提出できますか？
 
