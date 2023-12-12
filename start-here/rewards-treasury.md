@@ -14,8 +14,7 @@ En plus du $ethdYdX investi dans le Trésor de la communauté, la communauté dY
 * [DIP 20](https://dydx.community/dashboard/proposal/11) - réduire davantage les récompenses de trading de 45 % (1 294 520 $ethDYDX par epoch), et
 * [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - réduire les récompenses des fournisseurs de liquidité de 50 % (575 342 $ethDYDX par epoch).
 
-Dès l'epoch 26, 3 595 890 $ethDYDX seront placés dans la trésorerie des récompenses de chaque époch et pourront être utilisés par la communauté dYdX au moyen d'un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters). \
-
+Une fois le pont établi, le DYDX peut être utilisé par la communauté dYdX avec un vote de gouvernance sur la chaîne dYdX.
 
 ## FAQ
 
