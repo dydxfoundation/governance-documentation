@@ -7,9 +7,24 @@ description: Aperçu du programme des récompenses de trading.
 `20,2` **`%`** (`201 883 560 $ethDYDX`) de l'offre de jetons est alloué pour être distribué aux utilisateurs qui font du trading sur dYdX v3 sur la base des frais payés. Initialement, `25,0 %` de la réserve de jetons (`250 000 000 $ethdYdX`) ont été alloués aux récompenses de trading.
 
 * Dans [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/8) en faveur de la réduction des récompenses de trading de 25,0 %. En conséquence, l'allocation de récompenses de trading a baissé, passant de `25,0 %` à `20,2 %`.
-* Dans [DIP20](https://dydx.community/dashboard/proposal/11), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/11) en faveur de la réduction des récompenses de trading de 45,0 % supplémentaires. En conséquence, l'allocation de récompenses de trading a baissé, passant de `20,2 %` à `14,5 %`.
+* En conséquence, l'allocation de récompenses de trading a baissé, passant de `20,2 %` à `14,5 %`.
+*   
 
-Les récompenses de trading distribuées à une epoch donnée ont été réduites de 3 835 616 $ethDYDX à 2 876 712 $ethDYDX à l'epoch 15, et de 2 876 712 $ethDYDX à 1 582 192 $ethDYDX à l'epoch 21.
+    *
+    *
+    *
+
+    
+
+
+
+*
+*
+*
+*
+* 0 $ethDYDX à l'Epoch 32 et après.
+
+Après l'Epoch 31, il n'y aura pas de récompenses de trading sur dYdX v3.
 
 **Objectifs**
 
@@ -20,9 +35,15 @@ Les récompenses de trading distribuées à une epoch donnée ont été réduite
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Frais payés et récompenses estimées dans une Epoch donnée</p></figcaption></figure>
 
-$ethDYDX sera distribué aux traders sur la base des frais payés sur dYdX v3. $ethDYDX sera distribué sur une base d'epoch de 28 jours sur cinq ans et n'est pas soumis à des acquisitions ou des blocages. 1 582 192 ethDYDX seront distribués par epoch.
 
-Avec le vote de la communauté pour procéder à une réduction de 25 % de récompenses de trading de 958 904 $ethDYDX dans [DIP16](https://dydx.community/dashboard/proposal/8), et 45 % de plus avec 1 294 520 $ethDYDX dans [DIP20](https://dydx.community/dashboard/proposal/11), les 2 253 424 $ethDYDX restants qui s'accumulent dans le Trésor des récompenses peuvent être utilisés/dirigés par la communauté dYdX avec un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+
+Dans [DIP 29](https://dydx.community/dashboard/proposal/16), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/16) pour réduire les récompenses de trading d'un ⅓ de l'Epoch 30-32 sur dYdX v3 aux valeurs suivantes :
+
+* Epoch 30 : 1 054 795 $ethDYDX
+* Epoch 31 : 527 398 $ethDYDX
+*
+
+
 
 <figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
