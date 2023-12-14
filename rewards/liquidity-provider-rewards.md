@@ -4,9 +4,18 @@ description: Überblick über das Prämienprogramm für Liquiditätsanbieter.
 
 # Rewards für Liquidity Provision
 
-**5,2 %** (`52.458.925 $ethDYDX`) des Token-Angebots werden an Liquiditätsanbieter basierend auf Formeln zugewiesen, die eine Kombination aus Maker-Volumen, Betriebszeit, zweiseitiger Tiefe, Geld-Brief-Spannen und der Anzahl der unterstützten Märkte sind. Zunächst wurden **7,5 %** (`75.000.000 $ethDYDX`)  des Token-Angebots  für LP-Prämien bereitgestellt.
+**3,2 %** (`31.643.838 $ethDYDX`) des Token-Angebots werden an Liquiditätsanbieter basierend auf Formeln zugewiesen, die eine Kombination aus Maker-Volumen, Betriebszeit, zweiseitiger Tiefe, Geld-Brief-Spannen und der Anzahl der unterstützten Märkte repräsentieren. Zunächst wurden **7,5 %** (`75.000.000 $ethDYDX`)  des Token-Angebots  für LP-Prämien bereitgestellt.
 
 * In [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) hat die dYdX-Community [dafür gestimmt](https://dydx.community/dashboard/proposal/14), die Prämien für Liquiditätsanbieter von `1.150.685 $ethDYDX` pro Epoche um 50 % auf `575.343 $ethDYDX` pro Epoche zu reduzieren. Infolgedessen sank die Zuteilung für LP-Prämien von `7,5 %` auf `5,2 %`.
+*   In [DIP 29](https://dydx.community/dashboard/proposal/16)  hat die dYdX-Community [dafür gestimmt](https://dydx.community/dashboard/proposal/16), die Prämien für Liquiditätsanbieter von Epoch 30-32 auf dYdX v3 um ⅓ auf die folgenden Werte zu reduzieren:
+
+    * Epoche 30: 383.562 $ethDYDX
+    * Epoche 31: 191.781 $ethDYDX
+    * Epoche 32: 0 $ethDYDX
+
+    Nach Epoch 31 wird es keine Prämien für Liquiditätsanbieter auf dYdX v3 geben. In der Folge sank die Zuteilung für Prämien für Liquiditätsanbieter von `5,2 %` auf `3,2 %`.
+
+Da es keine Verteilung von Prämien für Liquiditätsanbieter auf dYdX Chain gibt, hat die dYdX-Community in DIP 29 dafür gestimmt, die verbleibende Zuteilung von Prämien für Liquiditätsanbieter in die dYdX Chain Community Treasury zu migrieren.
 
 **Ziele**
 
@@ -14,7 +23,7 @@ description: Überblick über das Prämienprogramm für Liquiditätsanbieter.
 
 ## **Überblick**
 
-Um Anreize für die Marktliquidität zu schaffen, werden $ethDYDX an Liquiditätsanbieter auf der Grundlage von Formeln verteilt, die die Teilnahme an Märkten, das Maker-Volumen, die zweiseitige Tiefe, den Spread (im Vergleich zum Mid-Market) und die Betriebszeit auf dYdX v3 belohnen. Jede Ethereum-Adresse kann diese Prämien verdienen, vorbehaltlich eines Mindest-Maker-Volumen-Schwellenwerts von 0,25 % des Maker-Volumens in der vorhergehenden Epoche. $ethDYDX wird auf einer 28-tägigen Epochenbasis über fünf Jahre verteilt und unterliegt keinen Sperrfristen oder Sperrvermerken. 575, 343 $ethDYDX werden pro Epoche verteilt.
+Um Anreize für die Marktliquidität zu schaffen, werden $ethDYDX an Liquiditätsanbieter auf der Grundlage von Formeln verteilt, die die Teilnahme an Märkten, das Maker-Volumen, die zweiseitige Tiefe, den Spread (im Vergleich zum Mid-Market) und die Betriebszeit auf dYdX v3 belohnen. Jede Ethereum-Adresse kann diese Prämien verdienen, vorbehaltlich eines Mindest-Maker-Volumen-Schwellenwerts von 0,25 % des Maker-Volumens in der vorhergehenden Epoche. $ethDYDX wird auf einer 28-tägigen Epochenbasis über fünf Jahre verteilt und unterliegt keinen Sperrfristen oder Sperrvermerken.
 
 Die folgenden Funktionen werden zur Berechnung verwendet, wie viel $ethDYDX an jeden Liquiditätsanbieter pro Zeitabschnitt vergütet werden sollte. In [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md) hat die dYdX-Gemeinschaft dafür gestimmt, die Formel für die LP-Vergütung zu überarbeiten, indem die Funktionen für BTC/ETH-Märkte und Nicht-BTC/ETH-Märkte aufgeteilt werden. In [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md)stimmte die dYdX-Gemeinschaft dafür, das Gewicht von 0,05 stkDYDX dem Maker-Volumen zuzuweisen.
 
