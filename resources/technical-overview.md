@@ -30,7 +30,9 @@ dYdXガバナンスをサポートするスマートコントラクトは7つあ
 {% tabs %}
 {% tab title="Mainnet" %}
 |コントラクト | アドレス| ------------------------------------ | ------------------------------------------ |
-| DydxToken | 0x92D6C1e31e14520e676a687F0a93788B716BEff5 || ラップイーサリアムDydxToken | 0x46b2DeAe6eFf3011008EA27EA36b7c27255ddFA9 || DydxGovernor | 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2 || ショートタイムロックの執行管理者 | 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc ||ロングタイムロックの執行管理者 | 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B || Merkle-Pauserタイムロックの執行管理者 | 0xd98e7A71BacB6F11438A8271dDB2EFd7f9361F52 || Starkwareの優先タイムロックの執行管理者 | 0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE || 報酬基金 | 0x639192D54431F8c816368D3FB4107Bc168d0E871 || コミュニティ基金 | 0xE710CEd57456D3A16152c32835B5FB4E72D9eA5b || セーフティモジュール | 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC || ガバナンス戦略V2 | 0xc2f5F3505910Da80F0592a3Cc023881C50b16505 || 報酬基金ベスター | 0xb9431E19B29B952d9358025f680077C3Fd37292f || コミュニティ基金ベスター | 0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8 || Merkleディストリビューター | 0x01d3348601968aB85b4bb028979006eac235a588 || Chainlinkアダプター | 0x99B0599952a4FD2d1A1561Fa4C010827EaD30354 || 流動性ステーキング | 0x5Aa653A076c1dbB47cec8C1B4d152444CAD91941 || 請求プロキシ | 0x0fd829C3365A225FB9226e75c97c3A114bD3199e || StarkExヘルパーガバナー | 0x0db9b3F7Dd83e29C9bece8E5e1089bA4369E694a || StarkExリムーバーガバナーV2 | 0xFCAac0F14deA11eDe11Afcb875f29130e1ad5ec0 || 報酬基金のプロキシ管理者 | 0x40D6992cbd03E0DC1c2DE9606D29Cb245E737a5d || コミュニティ基金のプロキシ管理者 | 0x9d51599A6b10f562619D8ef2EFDcA1B68aE80D03 || セーフティモジュールのプロキシ管理者 | 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C || Merkleディストリビューターのプロキシ管理者 | 0x6C5cd3aD7A16Ae207D221908E6b997d9B0DcD7b0 |
+| DydxToken | 0x92D6C1e31e14520e676a687F0a93788B716BEff5 || ラップイーサリアムDydxToken | 0x46b2DeAe6eFf3011008EA27EA36b7c27255ddFA9 || DydxGovernor | 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2 || ショートタイムロックの執行管理者 | 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc ||ロングタイムロックの執行管理者 | 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B || Merkle-Pauserタイムロックの執行管理者 | 0xd98e7A71BacB6F11438A8271dDB2EFd7f9361F52 || Starkwareの優先タイムロックの執行管理者 | 0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE || 報酬基金 | 0x639192D54431F8c816368D3FB4107Bc168d0E871 || 報酬基金ブリッジ              | 0x8d0051943D4c72aF12D638c6b7253C71929A910A |
+| コミュニティ基金 | 0xE710CEd57456D3A16152c32835B5FB4E72D9eA5b || コミュニティ基金ブリッジ            | 0x5D8541e3078BE7c2D773185aD8C8b9ED5105E08c |
+| セーフティモジュール | 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC || ガバナンス戦略V2 | 0xc2f5F3505910Da80F0592a3Cc023881C50b16505 || 報酬基金ベスター | 0xb9431E19B29B952d9358025f680077C3Fd37292f || コミュニティ基金ベスター | 0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8 || Merkleディストリビューター | 0x01d3348601968aB85b4bb028979006eac235a588 || Chainlinkアダプター | 0x99B0599952a4FD2d1A1561Fa4C010827EaD30354 || 流動性ステーキング | 0x5Aa653A076c1dbB47cec8C1B4d152444CAD91941 || 請求プロキシ | 0x0fd829C3365A225FB9226e75c97c3A114bD3199e || StarkExヘルパーガバナー | 0x0db9b3F7Dd83e29C9bece8E5e1089bA4369E694a || StarkExリムーバーガバナーV2 | 0xFCAac0F14deA11eDe11Afcb875f29130e1ad5ec0 || 報酬基金のプロキシ管理者 | 0x40D6992cbd03E0DC1c2DE9606D29Cb245E737a5d || コミュニティ基金のプロキシ管理者 | 0x9d51599A6b10f562619D8ef2EFDcA1B68aE80D03 || セーフティモジュールのプロキシ管理者 | 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C || Merkleディストリビューターのプロキシ管理者 | 0x6C5cd3aD7A16Ae207D221908E6b997d9B0DcD7b0 |
 | 流動性ステーキングプロキシ管理者 | 0xAc5D8bCD13da463bea96c75f9085c4e40037F790 |
 | StarkProxy \[0] | 0x0b2B08AC98a1568A34208121c26F4F41a9e0FbB6 |
 | StarkProxy \[1] | 0x3e6E9EFb0A677a24F47093a22044dc5451A028cF || StarkProxy \[2] | 0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2 || StarkProxy \[3] | 0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06 || StarkProxy \[4] | 0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874 || StarkProxyのプロキシ管理者 \[0] | 0xE16718eace44e0CB06b9cd164490A69A6425D1e3 |
@@ -173,11 +175,19 @@ TreasuryVester（基金ベスター）契約は、[Uniswap](https://github.com/U
 
 ショートタイムロックでは、ガバナンスで承認されたアクションのみ実行できます。
 
-2つの基金ベスターおよび基金契約がありますが、1つはインセンティブ契約報酬であり、もう1つは「一般目的」の基金を保有するものです。
+2つの基金ベスターと基金契約があります。
+
+* [報酬基金ベスター](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f)と[報酬基金](https://etherscan.io/address/0x639192D54431F8c816368D3FB4107Bc168d0E871)はインセンティブ契約報酬のためのものです。
+* [コミュニティ基金ベスター](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8)と[コミュニティ基金](https://etherscan.io/address/0xe710ced57456d3a16152c32835b5fb4e72d9ea5b)は「一般目的」の基金資金を保有するためのものです。
 
 各基金はガバナンスにより管理されているため、資金を任意のアドレスに移動したり、任意ののアドレスがいずれかの基金にある資金を使用することを承認したりすることができます。たとえば、ガバナンスは報酬プログラムにトークンの承認制限を設定する必要があります。
 
-各基金ベスターは、対応する基金に関して5年間（2021年8月3日～2026年8月3日）にわたりリニアにトークンを保有します。
+[DIP29](https://dydx.community/dashboard/proposal/16)において、dYdXコミュニティは[報酬基金ブリッジ](https://etherscan.io/address/0x8d0051943D4c72aF12D638c6b7253C71929A910A)と[コミュニティ基金ブリッジ](https://etherscan.io/address/0x5D8541e3078BE7c2D773185aD8C8b9ED5105E08c)スマートコントラクトの活用に投票し、[コミュニティ基金](https://etherscan.io/address/0xe710ced57456d3a16152c32835b5fb4e72d9ea5b)と[報酬基金](https://etherscan.io/address/0x639192D54431F8c816368D3FB4107Bc168d0E871)で利用可能なethDYDXのdYdXチェーンへの移行を可能にしました。
+
+各基金ベスターは、対応する基金に関して5年間（2021年8月3日～2026年8月3日）にわたりリニアにトークンを保有します。ベスター契約は配備時に不変であるため、dYdXコミュニティはベスター契約の受取人を以下のアドレスに設定することに投票しました。
+
+* [報酬基金ベスター](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f)は`0x0000000000000000000000000000000000000001`に帰属します。
+* [コミュニティ基金ベスター](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8)は`0x0000000000000000000000000000000000000002`に帰属します。
 
 ## 周辺契約
 

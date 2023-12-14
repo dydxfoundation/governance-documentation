@@ -24,11 +24,19 @@ $ethDYDXの立ち上げ以来、最初の割り当てに変更が生じたガバ
 * コミュニティへの**50.0％**（`5億$ethDYDX`）は以下：
   * [取引報酬計算式](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)に基づく**14.5%**（`144,693,506$ethDYDX`）、
     * [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)と[DIP 20](https://dydx.community/dashboard/proposal/11)では、dYdXコミュニティが取引報酬を合計230万$ethDYDX削減することに投票しました。（DIP 16から958,904$ethDYDX、DIP 20から1,294,520$ethDYDX）。230万$ethDYDXは、報酬トレジャリーに計上され、[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)でdYdXコミュニティが使用できます。
+    * [DIP 29](https://dydx.community/dashboard/proposal/16)では、dYdXコミュニティは取引報酬をdYdX v3上のエポック30-32から⅓に削減することを投票しました。
+      * エポック30：1,054,795 $ethDYDX
+      * エポック31：527,398 $ethDYDX
+      * エポック32：0 $ethDYDX
   * dYdXレイヤ2プロトコルで特定の取引マイルストーンを達成した過去のユーザーへの**5.0％**（`50,309,197$ethDYDX`）（[遡及マイニング報酬](../rewards/retroactive-mining-rewards.md)）、
     * エポック0後、遡及マイニング報酬プログラムからの未請求の24,690,803$ethDYDXがコミュニティトレジャリーに送金されました。
-  * [流動性プロバイダー報酬の計算式](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards)に基づく**5.2%**（`52,458,925$ethDYDX`）、
+  * [流動性プロバイダー報酬の計算式](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards)に基づく**3.2%**（`31,643,838 $ethDYDX`）、
     * [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)において、dYdXコミュニティは、流動性プロバイダー報酬を、エポックあたり1,150,685$ethDYDXから、50%削減のエポックあたり575,343$ethDYDXに変更することを投票で決定しました。余ったエポックあたり575,342$ethDYDXは、報酬トレジャリーに計上され、[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によって、dYdXコミュニティが使用できます。.
-  * **24.2%**（`241,735,862$ethDYDX`）が[コミュニティトレジャリー](https://docs.dydx.community/dydx-governance/start-here/community-treasury/)及び[報酬トレジャリー](https://docs.dydx.community/dydx-governance/start-here/rewards-treasury)に、
+    * [DIP 29](https://dydx.community/dashboard/proposal/16)では、dYdXコミュニティは流動性プロバイダー報酬をdYdX v3上のエポック30-32から⅓に削減することを投票しました。
+      * エポック30：383,562 $ethDYDX
+      * エポック31：191,781 $ethDYDX
+      * エポック32：0 $ethDYDX
+  * **26.2%**（`262,550,949 $ethDYDX`）を[コミュニティ基金](https://docs.dydx.community/dydx-governance/start-here/community-treasury/)へ、
   * [流動性ステーキングプール](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool)に$USDCをステーキングするユーザーへの**0.6％**（`5,753,430$ethDYDX`）、
     * [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)においては、dYdXコミュニティは$USDCのステーキングに関連する報酬を0に設定することに[合意](https://dydx.community/dashboard/proposal/7)しました。これまで$USDCステーカーに配布された383,562$ethDYDXは、報酬トレジャリーに加算され、[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によって、dYdXコミュニティが使用できるようになります。.
   * [セーフティステーキングプール](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool)に$ethDYDXをステーキングするユーザーへの**0.5％**（`5,049,079$ethDYDX`）、
@@ -37,7 +45,7 @@ $ethDYDXの立ち上げ以来、最初の割り当てに変更が生じたガバ
 * dYdX Trading Inc.またはdYdX Foundationの創設者、従業員、アドバイザー、コンサルタントへの**15.3％**（`152,704,930$ethDYDX`）、および
 * dYdX Trading Inc.またはdYdX Foundationの将来の従業員およびコンサルタントへの**7.0％**（`7,000万$ethDYDX`）。
 
-<figure><img src="../.gitbook/assets/allocation 5 year.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/allocation 5 year (2).png" alt=""><figcaption></figcaption></figure>
 
 立ち上げから5年後から、$ethDYDXの供給量を増やすため、コミュニティがdYdX v3の開発および成長を継続するリソースを確保するように、ガバナンスにより年間最大`2％`のパーペチュアルインフレ率を使用できます。インフレは、ガバナンス提案を通じて制定され、年間`2％`に制限されます。
 

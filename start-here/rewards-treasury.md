@@ -14,8 +14,7 @@ dYdXコミュニティはコミュニティトレジャリーの既得$ethDYDX�
 * [DIP 20](https://dydx.community/dashboard/proposal/11) - 取引報酬をさらに45％削減（エポックあたり1,294,520$ethDYDX）さらに
 * [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - 流動性プロバイダー報酬を50%削減（エポックあたり575,342$ethDYDX）。
 
-エポック26以降、各エポックごとに3,595,890$ethDYDXが報酬トレジャリーに加算され、dYdXコミュニティは[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によってそれらを利用できるようになります。\
-
+2023年11月18日、dYdXコミュニティは、報酬基金で発生したethDYDX残高をイーサリアムからdYdXチェーンに橋渡しすることを[投票](https://dydx.community/dashboard/proposal/16)しました。ブリッジされると、DYDXはdYdXコミュニティによってdYdXチェーンのガバナンス投票で使用できます。
 
 ## FAQ
 
