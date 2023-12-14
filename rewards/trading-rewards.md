@@ -7,9 +7,24 @@ description: Visão geral do programa de recompensas de trades.
 `20,2`**`%`** (`201.883.560 $ethDYDX`) do fornecimento de token é alocado para ser distribuído a usuários que fizeram trades na dYdX v3 com base em taxas pagas. Inicialmente, 25,0% do fornecimento de token (250.`000.00``0 $ethDYDX`) foram alocados para recompensas de trades.
 
 * No [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/8) pela redução de recompensas de trades em 25,0%. Como resultado, a alocação para recompensas de trading diminuiu de `25,0%` para `20,2%`.
-* No [DIP20](https://dydx.community/dashboard/proposal/11), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/11) pela redução de recompensas de trading em mais 45,0%. Como resultado, a alocação para recompensas de trading diminuiu de `20,2%` para `14,5%`.
+* No [DIP 20](https://dydx.community/dashboard/proposal/11), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/11) pela redução de recompensas de trading em mais 45,0%. Como resultado, a alocação para recompensas de trading diminuiu de `20,2%` para `14,5%`.
+*   Na [DIP 29](https://dydx.community/dashboard/proposal/16), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/16) para reduzir as recompensas de trading em ⅓ da epoch 30-32 na dYdX v3 para os seguintes valores:
 
-As recompensas de trading distribuídas em uma determinada época foram reduzidas de 3.835.616 $ethDYDX para 2.876.712 $ethDYDX na Epoch 15 e de 2.876.712 $ethDYDX para 1.582.192 $ethDYDX na Epoch 21.
+    * Epoch 30: 1.054.795 $ethDYDX
+    * Epoch 31: 527.398 $ethDYDX
+    * Epoch 32: 0 $ethDYDX
+
+    Observe que, na DIP 29, a comunidade dYdX votou pela migração da alocação restante de recompensas de trading para a Cadeia dYdX para recompensas de trading.
+
+As recompensas de trading distribuídas em uma determinada epoch foram/serão reduzidas de 3.835.616 $ethDYDX para:
+
+* 2.876.712 $ethDYDX na Epoch 15,
+* 1.582.192 $ethDYDX na Epoch 21,
+* 1.054.795 $ethDYDX na Epoch 30,
+* 527.398 $ethDYDX na Epoch 31,
+* 0 $ethDYDX no Epoch 32 em diante.
+
+Após a epoch 31, não haverá recompensas de trading na dYdX v3. O valor restante no [Investidor de Tesouro de Recompensas](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f) dYdX v3 pode ser creditado no Investidor de Tesouro de Recompensas de Cadeia dYdX (`dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk`) e, posteriormente, distribuído como recompensas de trading na Cadeia dYdX, sujeito à aprovação de governança na Cadeia dYdX.
 
 **Objetivos**
 
@@ -20,9 +35,15 @@ As recompensas de trading distribuídas em uma determinada época foram reduzida
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Taxas pagas e recompensas estimadas em uma determinada época</p></figcaption></figure>
 
-O $ethDYDX será distribuído aos traders com base nas taxas pagas na dYdX v3. O $ethDYDX será distribuído em uma epoch de 28 dias ao longo de cinco anos e não está sujeito a nenhuma aquisição ou bloqueio. 1.582.192 ethDYDX serão distribuídos por epoch.
+O $ethDYDX será distribuído aos traders com base nas taxas pagas na dYdX v3. O $ethDYDX será distribuído em uma epoch de 28 dias ao longo de cinco anos e não está sujeito a nenhuma aquisição ou bloqueio.
 
-Com a votação da comunidade para seguir com uma redução de 25% nas recompensas de trading em 958.904 $ethDYDX em [DIP16](https://dydx.community/dashboard/proposal/8) e mais 45% em 1.294.520 $ethDYDX em [DIP20](https://dydx.community/dashboard/proposal/11), os 2.253.424 $ethDYDX restantes acumulados no Tesouro de Recompensas podem ser usados/direcionados pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+Na [DIP 29](https://dydx.community/dashboard/proposal/16), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/16) para reduzir as recompensas de trading em ⅓ da epoch 30-32 na dYdX v3 para os seguintes valores:
+
+* Epoch 30: 1.054.795 $ethDYDX
+* Epoch 31: 527.398 $ethDYDX
+* Epoch 32 e todas as epochs restantes: 0 $ethDYDX
+
+
 
 <figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
