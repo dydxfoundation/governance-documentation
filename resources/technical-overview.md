@@ -38,7 +38,9 @@ Existem sete contratos inteligentes que aceitam a governança da dYdX:
 | Executor de timelock Merkle-Pauser      | 0xd98e7A71BacB6F11438A8271dDB2EFd7f9361F52 |
 | Executor de timelock de prioridade Starkware | 0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE |
 | Tesouro de recompensas                     | 0x639192D54431F8c816368D3FB4107Bc168d0E871 |
+| Ponte de tesouro de recompensas              | 0x8d0051943D4c72aF12D638c6b7253C71929A910A |
 | Tesouro da Comunidade                   | 0xE710CEd57456D3A16152c32835B5FB4E72D9eA5b |
+| Ponte de tesouro da comunidade | 0x5D8541e3078BE7c2D773185aD8C8b9ED5105E08c |
 | Módulo de Segurança                        | 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC |
 | GovernanceStrategyV2                 | 0xc2f5F3505910Da80F0592a3Cc023881C50b16505 |
 | Investidor do Tesouro de Recompensas              | 0xb9431E19B29B952d9358025f680077C3Fd37292f |
@@ -203,11 +205,19 @@ O contrato do TreasuryVester foi inspirado pela [Uniswap](https://github.com/Uni
 
 O timelock curto só pode executar ações aprovadas pela governança.
 
-Há dois investidores do tesouro e contratos do tesouro: um deles visa as recompensas do contrato de incentivo e o outro, a detenção dos fundos do tesouro para “propósitos gerais”.
+Há dois investidores de tesouro e contratos de tesouro:
+
+* [O investidor de tesouro de recompensas](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f) e [o tesouro](https://etherscan.io/address/0x639192D54431F8c816368D3FB4107Bc168d0E871) de recompensas são para recompensas de contrato de incentivo; e
+* [O investidor de tesouro da comunidade](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8) e [o Tesouro da comunidade](https://etherscan.io/address/0xe710ced57456d3a16152c32835b5fb4e72d9ea5b) são para manter fundos de tesouro de “propósito geral”.
 
 Como a governança controla cada tesouro, ela pode transferir fundos para qualquer endereço e/ou aprovar qualquer endereço para gastar fundos de qualquer um dos tesouros. Por exemplo, os programas de recompensas precisarão ter limites de aprovação de token definidos pela governança.
 
-Cada investidor do tesouro fará a aquisição de tokens de forma linear ao longo de \~5 anos (3 de agosto de 2021 - 3 de agosto de 2026) para o tesouro correspondente.
+Na [DIP 29](https://dydx.community/dashboard/proposal/16), a comunidade dYdX votou para alavancar os contratos inteligentes de [ponte de tesouro de recompensas](https://etherscan.io/address/0x8d0051943D4c72aF12D638c6b7253C71929A910A) e de ponte de [tesouro da comunidade](https://etherscan.io/address/0x5D8541e3078BE7c2D773185aD8C8b9ED5105E08c), o que permitiu a migração de ethDYDX disponível no [Tesouro de tesouro](https://etherscan.io/address/0xe710ced57456d3a16152c32835b5fb4e72d9ea5b) de recompensas e [tesouro](https://etherscan.io/address/0x639192D54431F8c816368D3FB4107Bc168d0E871) da comunidade para a Cadeia dYdX.
+
+Cada investidor do tesouro fará a aquisição de tokens de forma linear ao longo de \~5 anos (3 de agosto de 2021 - 3 de agosto de 2026) para o tesouro correspondente. Como os contratos de investidores são imutáveis na implantação, a comunidade dYdX votou para definir o destinatário dos contratos de investidores para os seguintes endereços:
+
+* [O investidor de tesouro de recompensas](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f) será investido para `0x0000000000000000000000000000000000000001`; e
+* [O investidor de tesouro da comunidade](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8) será investido para `0x0000000000000000000000000000000000000002`.
 
 ## Contratos periféricos
 
