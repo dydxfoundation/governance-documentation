@@ -4,13 +4,22 @@ description: Ein Überblick über die Gemeinschaftskasse.
 
 # Gemeinschaftskasse
 
-**`24,2 %`** (`241.735.862 $ethDYDX`) des Token-Angebots werden der Community-Kasse zugewiesen, die die dYdX-Community fortlaufend für Spendengelder, Community-Initiativen, Liquidity Mining und andere Programme verwenden kann. Zunächst wurden `5,0 %` des Token-Angebots (`50.000.000 $ethDYDX`) der Community-Kasse [zugewiesen](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations), und 766.703 $ethDYDX werden in jeder Epoche in die Community-Kasse eingesetzt. Derzeit werden 3.787.251 $ethDYDX in die Community-Kasse eingesetzt, da mehrere Governance-Vorschläge zu einer Erhöhung der Menge an $ethDYDX, die der DYDX-Community in jeder Epoche zur Verfügung stehen, um 3.020.548 $ethDYDX führten:
+**`26,2 %`** (`262.550.949 $ethDYDX`) der verfügbaren Token werden der Gemeinschaftskasse zugewiesen, die die dYdX-Community fortlaufend für Beitragszuschüsse, Gemeinschaftsinitiativen, Liquiditätsabbau und andere Programme verwenden kann. Zunächst wurden `5,0 %` des Token-Angebots (`50.000.000 $ethDYDX`) der Community-Kasse [zugewiesen](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations), und 766.703 $ethDYDX werden in jeder Epoche in die Community-Kasse eingesetzt. Derzeit werden 3.787.251 $ethDYDX in die Community-Kasse eingesetzt, da mehrere Governance-Vorschläge zu einer Erhöhung der Menge an $ethDYDX, die der DYDX-Community in jeder Epoche zur Verfügung stehen, um 3.020.548 $ethDYDX führten:
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - setzt die Staking-Prämien für USDC auf 0 (383.562 $ethDYDX pro Epoche),
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - reduziert die Handelsprämien um 25 % (958.904 $ethDYDX pro Epoche),
 * [DIP 17](https://dydx.community/dashboard/proposal/9) – setzt die Prämien für $DYDX-Staking auf 0 (383.562 $ethDYDX pro Epoche),
 * [DIP 20](https://dydx.community/dashboard/proposal/11) – reduziert die Handelsprämien um 45 % (1.294.520 $ethDYDX pro Epoche) weiter und
 * [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) – reduziert die Prämien für Liquiditätsanbieter um 50 % (575.342 $ethDYDX pro Epoche).
+*   [DIP 29](https://dydx.community/dashboard/proposal/16) – reduziert die Prämien für Liquiditätsanbieter von Epoche 30-32 auf dYdX v3 um ⅓ auf die folgenden Werte:
+
+    * Epoche 30: 383.562 $ethDYDX
+    * Epoche 31: 191.781 $ethDYDX
+    * Epoche 32: 0 $ethDYDX
+
+    Nach Epoche 31 wird es auf dYdX v3 keine weiteren Prämien für Liquiditätsanbieter geben. In DIP 29 stimmte die dYdX-Community dafür, die Handelsprämien von Epoche 30-32 auf dYdX v3 um ⅓ zu reduzieren. Die verbleibende Zuteilung von Handelsprämien wurde jedoch in die dYdX-Kette für Handelsprämien migriert.
+
+Am 18. November 2023 [stimmte](https://dydx.community/dashboard/proposal/16)die dYdX-Community dafür, das in der Gemeinschaftskasse angesammelte ethDYDX-Guthaben von Ethereum auf die dYdX-Kette zu überbrücken. Nach der Überbrückung kann die DYDX von der dYdX-Community mit einer Governance-Abstimmung auf die dYdX-Kette verwendet werden.
 
 
 
@@ -45,10 +54,12 @@ Darüber hinaus veröffentlicht die dYdX Foundation den Rücklagen-Kontostand de
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - setzt die Staking-Prämien für USDC auf 0 (383.562 $ethDYDX pro Epoche),
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - reduziert die Handelsprämien um 25 % (958.904 $ethDYDX pro Epoche),
 * [DIP 17](https://dydx.community/dashboard/proposal/9) – setzt die Prämien für ethDYDX-Staking auf 0 (383.562 $ethDYDX pro Epoche),
-* [DIP 20](https://dydx.community/dashboard/proposal/11) – reduziert die Handelsprämien um 45 % (1.294.520 $ethDYDX pro Epoche) weiter und
-* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) – reduziert die Prämien für Liquiditätsanbieter um 50 % (575.342 $ethDYDX pro Epoche).
-
-Ab Epoche 26 werden in jeder Epoche 3.595.890 $ethDYDX in der Prämienkasse anfallen und können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
+* [DIP 20](https://dydx.community/dashboard/proposal/11) – reduziert die Handelsprämien um weitere 45 % (1.294.520 $ethDYDX je Epoche),
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) – reduziert die Prämien für Liquiditätsanbieter um 50 % (575.342 $ethDYDX je Epoche), und
+*  [DIP 29](https://dydx.community/dashboard/proposal/16) – reduziert die Prämien für Liquiditätsanbieter von Epoche 30-32 auf dYdX v3 um ⅓ auf die folgenden Werte:
+  * Epoche 30: 383.562 $ethDYDX
+  * Epoche 31: 191.781 $ethDYDX
+  * Epoche 32: 0 $ethDYDX
 
 ### Wer kann Vorschläge zur Ausgabe von ethDYDX aus der Gemeinschaftskasse einreichen?
 
