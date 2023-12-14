@@ -167,11 +167,19 @@ Le contrat TreasuryVester s'est inspiré d'[Uniswap](https://github.com/Uniswap/
 
 Le verrouillage courte durée ne peut exécuter que des actions approuvées par la gouvernance.
 
-Il existe deux vesters de trésorerie et des contrats de trésorerie, l'un pour les récompenses de contrats incitatifs et l'autre pour la détention de fonds de trésorerie « à usage général ».
+
+
+*
+* [Trésorerie communautaire Vester](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8) et [Trésorerie](https://etherscan.io/address/0xe710ced57456d3a16152c32835b5fb4e72d9ea5b) communautaire servent à détenir des fonds de trésorerie "à usage général".
 
 Étant donné que la gouvernance contrôle chaque trésorerie, elle peut transférer des fonds à n'importe quelle adresse et/ou approuver n'importe quelle adresse pour dépenser des fonds de l'une ou l'autre trésorerie. Par exemple, les programmes de récompenses devront avoir des limites d'approbation de jetons fixées par la gouvernance.
 
-Chaque détenteur de trésorerie investira des jetons de manière linéaire sur \~ 5 ans (3 août 2021 - 3 août 2026) à la trésorerie correspondante.
+
+
+
+
+*
+*
 
 ## Contrats périphériques
 

@@ -4,9 +4,18 @@ description: Aperçu du programme de récompenses des fournisseurs de liquidité
 
 # Récompenses des fournisseurs de liquidités
 
-**5,2 %** de la réserve de jetons (`52 458 925 $ethDYDX`) est distribué aux fournisseurs de liquidité (« LP » sur la base de formules de récompense combinant le volume du maker, le temps de disponibilité, la profondeur bilatérale, les écarts entre acheteur-vendeur et le nombre de marchés pris en charge. Initialement, **7,5%** (`75,000,000 $ethDYDX`) de l'offre de jetons a été alloué pour les récompenses LP.
+Initialement, **7,5%** (`75,000,000 $ethDYDX`) de l'offre de jetons a été alloué pour les récompenses LP.
 
 * Dans [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/14) pour réduire les récompenses des fournisseurs de liquidité de 50 % de `1,150,685 $ethDYDX` par epoch à 575,343 `$ethDYDX` par epoch. En conséquence, l'allocation de récompenses de trading a baissé, passant de `7,5%` to `5,2%`.
+*   
+
+    *
+    *
+    *
+
+    Après l'Epoch 31, il n'y aura pas de récompenses LP sur dYdX v3.
+
+Comme il n'y a pas de distribution de récompenses de fournisseur de liquidité sur la chaîne dYdX, la communauté dYdX dans DIP 29 a voté pour migrer l'allocation restante pour les récompenses de fournisseur de liquidité vers le Trésor de la communauté de la chaîne dYdX.
 
 **Objectifs**
 
@@ -14,7 +23,7 @@ description: Aperçu du programme de récompenses des fournisseurs de liquidité
 
 ## **Aperçu**
 
-Pour encourager la liquidité du marché, $ethDYDX sera distribué aux fournisseurs de liquidité sur la base de formules de récompense en fonction de la participation aux marchés, le volume du maker, la profondeur bilatérale, la propagation (par rapport au marché intermédiaire) et la disponibilité sur dYdX v3. Toute adresse Ethereum peut gagner ces récompenses, sous réserve d'un seuil de volume de maker minimum de 0,25 % du volume de maker à l'epoch précédente. $ethDYDX sera distribué sur une base d'epoch de 28 jours sur cinq ans et ne sont pas soumis à des acquisitions ou des blocages. 575, 343 $ethDYDX seront distribués par epoch.
+Pour encourager la liquidité du marché, $ethDYDX sera distribué aux fournisseurs de liquidité sur la base de formules de récompense en fonction de la participation aux marchés, le volume du maker, la profondeur bilatérale, la propagation (par rapport au marché intermédiaire) et la disponibilité sur dYdX v3.
 
 Le calcul de la quantité de $ethDYDX à accorder à chaque fournisseur de liquidité par epoch se fait à l'aide des fonctions suivantes. Dans [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md), la communauté dYdX a voté pour réviser la formule de récompenses des fournisseurs de liquidité en divisant les fonctions pour les Marchés BTC/ETH et les marchés non BTC/ETH. Dans le [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md), la communauté dYdX a voté pour réaffecter le poids de 0,05 stkDYDX à MakerVolume.
 

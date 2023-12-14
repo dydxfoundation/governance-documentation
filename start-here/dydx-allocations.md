@@ -24,11 +24,19 @@ Depuis le lancement de $DYDX, plusieurs propositions de gouvernance ont entraîn
 * **50,0 %** (`500 000 000 $DYDX`) à la communauté de la façon suivante :
   * **14,5 %** (14`4 693 506 $DYDX`) basé sur la [formule de récompenses de trading](https://docs.dydx.community/dydx-governance/rewards/trading-rewards),
     * Dans [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) et [DIP 20](https://dydx.community/dashboard/proposal/11), la communauté dYdX a voté pour réduire les récompenses de trading d'un total de 2,3 millions de $DYDX. (958,904 $DYDX de DIP 16 et 1,294,520 $DYDX de DIP 20). Les 2,3 millions de $DYDX s'accumuleront dans le Trésor des récompenses et peuvent être utilisés par la communauté dYdX avec un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+    *
+      * Epoch 30 : 1 054 795 $ethDYDX
+      * Epoch 31 : 527 398 $ethDYDX
+      * Epoch 32 : 0 $ethDYDX
   * **5,0 %** (`50 309 197 $DYDX`) aux anciens utilisateurs qui franchissent certaines étapes de trading sur le protocole de couche 2 de dYdX ([récompenses de minage rétroactives](../rewards/retroactive-mining-rewards.md)),
     * Après l'Epoch 0, 24 690 803 $DYDX non réclamés du programme de récompenses de minage rétroactif ont été transférés à la trésorerie de la communauté.
-  * **5,2 % **(`52 458 925 $ethDYDX) s`ur la base de l[a ou des formules de récompenses des fournisseurs de liquidité,](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards)
-    * Dans [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), la communauté dYdX a voté pour réduire les récompenses des fournisseurs de liquidité de 50 % de 1,150,685 $DYDX par epoch à 575,343 $DYDX par epoch. L'excès de 575,342 $DYDX par epoch s'accumulera dans le Trésor des récompenses et peut être utilisé par la communauté dYdX avec un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
-  * **24,2%** (24`1,735,862 $DYDX`) au [Trésor de](https://docs.dydx.community/dydx-governance/start-here/community-treasury/) la communauté et au [Trésor des récompenses](https://docs.dydx.community/dydx-governance/start-here/rewards-treasury),
+  *
+    * Dans [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), la communauté dYdX a voté pour réduire les récompenses des fournisseurs de liquidité de 50 % de 1,150,685 $ethDYDX par epoch à 575,343 $ethDYDX par epoch. L'excès de 575,342 $DYDX par epoch s'accumulera dans le Trésor des récompenses et peut être utilisé par la communauté dYdX avec un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+    * Dans le [DIP 29](https://dydx.community/dashboard/proposal/16), la communauté dYdX a voté pour réduire les récompenses du fournisseur de liquidité de ⅓ à partir de l'époque 30-32 sur dYdX v3 aux valeurs suivantes :
+      * Epoch 30 : 383 562 $ethDYDX
+      * Epoch 31 : 191 781 $ethDYDX
+      * Epoch 32 : 0 $ethDYDX
+  *
   * **0,6 %** (`5 753 430 $DYDX`) aux utilisateurs qui mettent en réserve $USDC dans un [pool de mise en réserve de liquidité](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool),
     * Au cours de la [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/7) pour définir les récompenses associées à la mise en réserve de l'$USDC à 0. Les 383 562 $DYDX précédemment distribués aux stakers d'$USDC s'accumuleront dans la trésorerie des récompenses et pourront être utilisés par la communauté dYdX au moyen d'un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
   * **0,5 %** (`5 049 079 $DYDX`) aux utilisateurs qui stakent des $DYDX dans un [pool de staking de sécurité](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool),
@@ -37,7 +45,7 @@ Depuis le lancement de $DYDX, plusieurs propositions de gouvernance ont entraîn
 * **15,3 %** (`152 704 930 DYDX`) aux fondateurs, employés, conseillers et consultants de dYdX Trading Inc. ou de la ou de la dYdX Foundation, et
 * **7,0 %** (`70 000 000 $DYDX`) aux futurs employés et consultants de dYdX Trading Inc. ou de la dYdX Foundation.
 
-<figure><img src="../.gitbook/assets/allocation 5 year.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/allocation 5 year (2).png" alt=""><figcaption></figcaption></figure>
 
 Dans les cinq ans qui suivent le lancement, un taux d'inflation perpétuel maximum de `2 %` par an peut être utilisé par la gouvernance pour augmenter l'offre de $DYDX, garantissant ainsi à la communauté les ressources nécessaires pour poursuivre le développement et la croissance de dYdX v3. L'inflation doit être promulguée via une proposition de gouvernance et est plafonnée à `2 %` par an.
 
