@@ -7,9 +7,24 @@ description: Alım Satım Ödülleri programına genel bakış.
 Token arzının %`20,2'si` (`201.883.560 $ethDYDX`), dYdX v3 üzerinde işlem yapan kullanıcılara, ödenen ücretler baz alınarak dağıtılmak üzere tahsis edilir. **``**Başlangıçta, token arzının `%25'i` (`250.000.000 $ethDYDX`) trading ödülleri için ayrılmıştı.
 
 * [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)'da, dYdX topluluğu trading ödüllerinin %25,0 oranında azaltılması yönünde [oy kullanmıştır](https://dydx.community/dashboard/proposal/8). Sonuç olarak, trading ödülleri için ayrılan miktar `%25,0`'ten `%20,2`'ye düşmüştür.
-* [DIP20](https://dydx.community/dashboard/proposal/11)'de, dYdX topluluğu, trading ödüllerinin %45,0 oranında daha azaltılması yönünde [oy kullanmıştır](https://dydx.community/dashboard/proposal/11). Sonuç olarak, trading ödülleri için ayrılan miktar `%20,2’den` `%14,5'e` düşmüştür.
+* [DIP 20](https://dydx.community/dashboard/proposal/11)'de, dYdX topluluğu, trading ödüllerinin %45,0 oranında daha azaltılması yönünde [oy kullanmıştır](https://dydx.community/dashboard/proposal/11). Sonuç olarak, trading ödülleri için ayrılan miktar `%20,2’den` `%14,5'e` düşmüştür.
+*   [DIP 29](https://dydx.community/dashboard/proposal/16)'da dYdX topluluğu alım satım ödüllerini dYdX v3'teki 30.-32. Dönemdekinden ⅓ oranında azaltarak aşağıdaki değerlere düşürme yönünde [oy kullandı](https://dydx.community/dashboard/proposal/16):
 
-Belirli bir dönemde dağıtılan alım satım ödülleri, Dönem 15'te 3.835.616 $ethDYDX'ten 2.876.712 $ethDYDX'e ve Dönem 21'de 2.876.712 $ethDYDX'ten 1.582.192 $ethDYDX'e düşürülmüştür.
+    * Dönem 30: 1.054.795 $ethDYDX
+    * Dönem 31: 527.398 $ethDYDX
+    * Dönem 32: 0 $ethDYDX
+
+    Not olarak, DIP 29'da dYdX topluluğu kalan Alım Satım Ödülleri tahsisini dYdX Zinciri üzerine Alım Satım Ödülleri için taşıma yönünde oy kullandı.
+
+Belirlenen dönemlerde dağıtılan alım satım ödülleri 3.835.616 miktarından şu şekilde düşürülmüştür/düşürülecektir:
+
+* Dönem 15'te 2.876.712 $ethDYDX,
+* Dönem 21'de 1.582.192 $ethDYDX,
+* Dönem 30'da 1.054.795 $ethDYDX,
+* Dönem 31'de 527.398 $ethDYDX,
+* Dönem 32 ve devamında 0 $ethDYDX.
+
+Dönem 31'den sonra, dYdX v3 üzerinde herhangi bir alım satım ödülü olmayacaktır. dYdX v3 [Ödül Hazinesi Vester](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f)'i üzerinde kalan miktar, dYdX Zinciri Ödül Hazinesi Vester'ine (`dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk`) yatırılabilir ve daha sonra dYdX Zinciri üzerindeki yönetişim onayına tabi olarak dYdX Zinciri üzerinde alım satım ödülleri olarak dağıtılabilir.
 
 **Hedefler**
 
@@ -20,9 +35,15 @@ Belirli bir dönemde dağıtılan alım satım ödülleri, Dönem 15'te 3.835.61
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Belirli bir dönemde ödenen ücretler ve tahmini ödüller</p></figcaption></figure>
 
-$ethDYDX, dYdX v3 üzerinde ödenen ücretler temel alınarak yatırımcılara dağıtılacaktır.  $ethDYDX beş yıl boyunca 28 günlük dönemler bazında dağıtılacak ve herhangi bir hakediş (vesting) veya kilitleme sürecine tabi tutulmayacaktır. Dönem başına 1.582.192 ethDYDX dağıtılacaktır.
+$ethDYDX miktarı dYdX v3'te ödenen ücretler temel alınarak yatırımcılara dağıtılacaktır. $ethDYDX, beş yıl boyunca 28 günlük dönemler esas alınarak dağıtılacak ve herhangi bir hakediş veya kilitleme sürecine tabi olmayacaktır.
 
-Topluluğun [DIP16](https://dydx.community/dashboard/proposal/8)'da trading ödüllerinin %25 azalmayla 958.904 $ethDYDX‘e ve daha sonra [DIP20](https://dydx.community/dashboard/proposal/11)’de %45 oranında azalmayla 1.294,520 $ethDYDX‘e inmesini onaylamasıyla, Ödül Hazinesi'ne tahakkuk eden 2.253.424 $ethDYDX, dYdX topluluğu tarafından [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir/yönetebilecektir.
+[DIP 29](https://dydx.community/dashboard/proposal/16)'da dYdX topluluğu alım satım ödüllerini dYdX v3'teki 30.-32. Dönemdekinden ⅓ oranında azaltarak aşağıdaki değerlere düşürme yönünde [oy kullandı](https://dydx.community/dashboard/proposal/16):
+
+* Dönem 30: 1.054.795 $ethDYDX
+* Dönem 31: 527.398 $ethDYDX
+* Dönem 32 ve kalan tüm dönemler: 0 $ethDYDX
+
+
 
 <figure><img src="../.gitbook/assets/1-trading-rewards-formula-new.png" alt=""><figcaption></figcaption></figure>
 
@@ -57,7 +78,7 @@ Geçmiş dönemlerdeki ödüller [**dydx.community/history/reward**](https://dyd
 
 ### Alım Satım Ödüllerimi nasıl alabilirim? Kazandığım ethDYDX'leri ne zaman çekebilir ve transfer edebilirim?
 
-Alım Satım (Trading) Ödülleri aracılığıyla kazanılan $ethDYDX token'ları her dönemin sonunda transfer edilebilir.  $ethDYDX token sahiplerinin dönem sona erdikten sonra $ethDYDX token'larını almak için yaklaşık `7 gün` (**Bekleme Süresi**) beklemeleri gerekir.
+Alım Satım Ödülleri aracılığıyla kazanılan $ethDYDX token'ları her dönemin sonunda devredilebilir olacaktır. $ethDYDX token sahiplerinin $ethDYDX token'larını talep etmek için dönemin sona ermesinden sonra yaklaşık `7 gün` (**Bekleme Süresi**) beklemeleri gerekir.
 
 7 günlük bekleme süresi sonunda, herhangi bir topluluk üyesi $ethDYDX ödüllerini talep edilebilir hale getirmek için [Merkle Distributor sözleşmesindeki](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) `updateRoot` parametresinde `Write` işlevini çağırabilir.
 

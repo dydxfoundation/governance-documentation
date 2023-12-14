@@ -14,8 +14,7 @@ Topluluk Hazinesi'ne devredilen (vesting) $ethDYDX'e ek olarak, dYdX topluluğu,
 * [DIP 20](https://dydx.community/dashboard/proposal/11) - trading ödüllerini tekrar %45 düşürme (dönem başına 1.294.520 $ethDYDX) ve
 * [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - Likidite Sağlayıcı Ödüllerini %50 düşürme (dönem başına 575.342 $ethDYDX).
 
-Dönem 26'dan başlayarak, her bir dönemde Ödül Hazinesi'ne 3.595.890 $ethDYDX tahakkuk edecektir ve bu meblağ bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile dYdX topluluğu tarafından kullanılabilecektir. \
-
+18 Kasım 2023 tarihinde dYdX topluluğu Ödül Hazinesi'ne tahakkuk eden ethDYDX bakiyesini Ethereum'dan dYdX Zinciri'ne köprüleme [yönünde oy kullandı](https://dydx.community/dashboard/proposal/16). DYDX köprülendikten sonra dYdX Zinciri üzerinde yapılacak bir yönetişim oylaması ile dYdX topluluğu tarafından kullanılabilir.
 
 ## SSS
 

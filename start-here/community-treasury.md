@@ -4,13 +4,22 @@ description: Topluluk hazinesine genel bir bakış.
 
 # Topluluk Hazinesi
 
-Token arzının **`%24,2'si`** (`241.735.862 $ethDYDX`); katkıda bulunanlar için hibeler, topluluk girişimleri, likidite madenciliği ve diğer programlara yönelik olarak dYdX topluluğunun süreklilik arz edecek şekilde kullanması için topluluk hazinesine tahsis edilmiştir. Başlangıçta, token arzının `%5'i` (`50.000.000 $ethDYDX`) topluluk hazinesine [tahsis edilmişti](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations) ve her dönem topluluk hazinesinde 766.703 $ethDYDX birikmekteydi. Şu anda topluluk hazinesinde 3.787.251 $ethDYDX birikmektedir çünkü birçok yönetişim teklifi, her dönem dYdX topluluğunun kullanabileceği $ethDYDX miktarında 3.020.548 $ethDYDX artışla sonuçlanmıştır:
+Token arzının **`%26.2'si`** (`262.550.949 $ethDYDX`) topluluk hazinesine, dYdX topluluğuna katkıda bulunanlara yönelik hibeler, topluluk girişimleri, likidite madenciliği ve diğer programlarda kullanılmak üzere topluluk hazinesine tahsis edilir. Başlangıçta, token arzının `%5'i` (`50.000.000 $ethDYDX`) topluluk hazinesine [tahsis edilmişti](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations) ve her dönem topluluk hazinesinde 766.703 $ethDYDX birikmekteydi. Şu anda topluluk hazinesinde 3.787.251 $ethDYDX birikmektedir çünkü birçok yönetişim teklifi, her dönem dYdX topluluğunun kullanabileceği $ethDYDX miktarında 3.020.548 $ethDYDX artışla sonuçlanmıştır:
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - USDC staking için ödülleri 0 olarak belirleme (dönem başına 383.562 $ethDYDX),
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - trading ödüllerini %25 düşürme (dönem başına 958.904 $ethDYDX),
 * [DIP 17](https://dydx.community/dashboard/proposal/9) - $DYDX staking için ödülleri 0 olarak belirleme (dönem başına 383.562 $ethDYDX),
 * [DIP 20](https://dydx.community/dashboard/proposal/11) - trading ödüllerini tekrar %45 düşürme (dönem başına 1.294.520 $ethDYDX) ve
 * [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - Likidite Sağlayıcı Ödüllerini %50 düşürme (dönem başına 575.342 $ethDYDX).
+*   [DIP 29](https://dydx.community/dashboard/proposal/16) - dYdX v3'te Dönem 30-32'den itibaren Likidite Sağlayıcı Ödüllerini ⅓ oranında azaltarak aşağıdaki değerlere düşürme:
+
+    * Dönem 30: 383.562 $ethDYDX
+    * Dönem 31: 191.781 $ethDYDX
+    * Dönem 32: 0 $ethDYDX
+
+    Dönem 31'den sonra, dYdX v3 üzerinde herhangi bir Likidite Sağlayıcı Ödülü olmayacaktır. dYdX topluluğu DIP 29'da Alım Satım Ödüllerini dYdX v3'teki Dönem 30-32'den ⅓ oranında azaltma yönünde oy kullanmıştır; ancak Alım Satım Ödüllerinin kalan tahsisi dYdX Zinciri üzerine Alım Satım Ödülleri olarak taşınmıştır.
+
+18 Kasım 2023 tarihinde dYdX topluluğu Topluluk Hazinesi'ne tahakkuk eden ethDYDX bakiyesini Ethereum'dan dYdX Zinciri'ne köprüleme yönünde [oy kullandı](https://dydx.community/dashboard/proposal/16). DYDX köprülendikten sonra dYdX Zinciri üzerinde yapılacak bir yönetişim oylaması ile dYdX topluluğu tarafından kullanılabilir.
 
 
 
@@ -22,7 +31,7 @@ Token arzının **`%24,2'si`** (`241.735.862 $ethDYDX`); katkıda bulunanlar iç
 
 ## Genel bakış
 
-$ethDYDX sahipleri; hibeler, yeni likidite madencilik havuzları veya başka bir program için kullanımına karar verirken, $ethDYDX, topluluk hazinesinde tutulacaktır. $ethDYDX beş yıl boyunca sürekli olarak vesting kapsamında topluluk hazinesine tahsis edilecektir. Topluluk hazinesinden herhangi bir miktarda ethDYDX harcamak için bir yönetişim oylaması gerekecektir.
+Topluluk hazinesi, $ethDYDX sahiplerinin karar verdiği şekilde hibeler, yeni likidite madenciliği havuzları veya başka herhangi bir program için kullanmak üzere $ethDYDX miktarını koruyacaktır. $ethDYDX, beş yıl boyunca sürekli olarak topluluk hazinesine vest edilecektir. Topluluk hazinesinden herhangi bir miktarda ethDYDX harcamak için bir yönetişim oylaması gerekecektir.
 
 Beş yıl dolduktan sonra yönetim, (yıllık maksimum `%2` enflasyon ile) sürekli enflasyon uygulamaya karar verirse, yeni basılan tüm $ethDYDX'ler topluluk hazinesi tarafından kullanılabilecektir.
 
@@ -45,10 +54,12 @@ Dahası, dYdX Foundation her dönemin sonunda [Dönem Raporu](https://dydx.found
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - USDC staking için ödülleri 0 olarak belirleme (dönem başına 383.562 $ethDYDX),
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - trading ödüllerini %25 düşürme (dönem başına 958.904 $ethDYDX),
 * [DIP 17](https://dydx.community/dashboard/proposal/9) - ethDYDX staking için ödülleri 0 olarak belirleme (dönem başına 383.562 $ethDYDX),
-* [DIP 20](https://dydx.community/dashboard/proposal/11) - trading ödüllerini tekrar %45 düşürme (dönem başına 1.294.520 $ethDYDX) ve
-* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - Likidite Sağlayıcı Ödüllerini %50 düşürme (dönem başına 575.342 $ethDYDX).
-
-Dönem 26'dan başlayarak, her bir dönemde Ödül Hazinesi'ne 3.595.890 $ethDYDX tahakkuk edecektir ve bu meblağ bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile dYdX topluluğu tarafından kullanılabilecektir.
+* [DIP 20](https://dydx.community/dashboard/proposal/11) - trading ödüllerini tekrar %45 düşürme (dönem başına 1.294.520 $ethDYDX),
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - Likidite Sağlayıcı Ödüllerini %50 düşürme (dönem başına 575.342 $ethDYDX), ve
+* [DIP 29](https://dydx.community/dashboard/proposal/16) - dYdX v3'te Dönem 30-32'den itibaren Likidite Sağlayıcı Ödüllerini ⅓ oranında azaltarak aşağıdaki değerlere düşürme:
+  * Dönem 30: 383.562 $ethDYDX
+  * Dönem 31: 191.781 $ethDYDX
+  * Dönem 32: 0 $ethDYDX
 
 ### Topluluk Hazinesi'ndeki ethDYDX'i harcamak için kimler teklif verebilir?
 

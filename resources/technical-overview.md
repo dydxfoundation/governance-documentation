@@ -38,7 +38,9 @@ dYdX Yönetişimini destekleyen 7 akıllı sözleşme vardır:
 | Merkle-Pauser Timelock Executor      | 0xd98e7A71BacB6F11438A8271dDB2EFd7f9361F52 |
 | Starkware Priority Timelock Executor | 0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE |
 | Rewards Treasury                     | 0x639192D54431F8c816368D3FB4107Bc168d0E871 |
+| Rewards Treasury Bridge              | 0x8d0051943D4c72aF12D638c6b7253C71929A910A |
 | Community Treasury                   | 0xE710CEd57456D3A16152c32835B5FB4E72D9eA5b |
+| Community Treasury Bridge            | 0x5D8541e3078BE7c2D773185aD8C8b9ED5105E08c |
 | Safety Module                        | 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC |
 | GovernanceStrategyV2                 | 0xc2f5F3505910Da80F0592a3Cc023881C50b16505 |
 | Rewards Treasury Vester | 0xb9431E19B29B952d9358025f680077C3Fd37292f |
@@ -203,11 +205,19 @@ TreasuryVester sözleşmesinde [Uniswap](https://github.com/Uniswap/governance/b
 
 Short Timelock yalnızca yönetişim tarafından onaylanmış eylemleri yürütebilir.
 
-İki treasury vester ve hazine sözleşmesi vardır. Bunların ilki teşvik sözleşmesi ödülleri için, diğeri ise “genel amaçlı” hazine fonlarını tutmak içindir.
+İki hazine vester'i ve hazine sözleşmesi bulunuyor:
+
+* [Ödül Hazinesi Vester](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f)'i ve [Ödül Hazinesi](https://etherscan.io/address/0x639192D54431F8c816368D3FB4107Bc168d0E871), teşvik sözleşme ödülleri içindir ve
+* [Topluluk Hazinesi Vester](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8)'i ve [Topluluk Hazinesi](https://etherscan.io/address/0xe710ced57456d3a16152c32835b5fb4e72d9ea5b), "genel maksatlı" hazine fonlarını tutmak içindir.
 
 Her bir hazineyi yönetişim kontrol ettiğinden, her iki hazineden de fonları herhangi bir adrese aktarabilir ve/veya fonların harcanacağı herhangi bir adresi onaylayabilir. Örneğin, ödül programlarında yönetişim tarafından belirlenen token onay limitleri olması gerekir.
 
-Her bir treasury vester, token'ları ilgili hazineye \~5 yıl (3 Ağustos 2021 - 3 Ağustos 2026) boyunca doğrusal bir şekilde vest edecektir.
+[DIP 29](https://dydx.community/dashboard/proposal/16)'da dYdX topluluğu [Ödül Hazinesi Köprüsü](https://etherscan.io/address/0x8d0051943D4c72aF12D638c6b7253C71929A910A) ve [Topluluk Hazinesi Köprüsü](https://etherscan.io/address/0x5D8541e3078BE7c2D773185aD8C8b9ED5105E08c) akıllı sözleşmelerinden yararlanmak için oy kullanarak, [Topluluk Hazinesi](https://etherscan.io/address/0xe710ced57456d3a16152c32835b5fb4e72d9ea5b) ve [Ödül Hazinesi](https://etherscan.io/address/0x639192D54431F8c816368D3FB4107Bc168d0E871)'ndeki mevcut ethDYDX'in dYdX Zinciri'ne taşınmasını sağladı.
+
+Her bir hazine vester, token'ları ilgili hazineye \~5 yıl (3 Ağustos 2021 - 3 Ağustos 2026) boyunca doğrusal bir şekilde vest edecektir. Vester sözleşmeleri dağıtımdan sonra değiştirilemez olduğu için, dYdX topluluğu vester sözleşmelerinin alıcısını aşağıdaki adreslere ayarlama yönünde oy kullandı:
+
+* [Ödül Hazinesi Vester](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f)'i `0x0000000000000000000000000000000000000001` adresine vest edecektir; ve
+* [Topluluk Hazinesi Vester](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8)'i `0x0000000000000000000000000000000000000002` adresine vest edecektir.
 
 ## Harici Sözleşmeler
 

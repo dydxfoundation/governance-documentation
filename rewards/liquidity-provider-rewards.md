@@ -4,9 +4,18 @@ description: Likidite Sağlayıcı Ödülleri Programına genel bakış.
 
 # Likidite Sağlayıcı Ödülleri
 
-Token arzının **%5,2'si** (`52.458.925 $ethDYDX`), piyasa yapıcı hacmi (maker volume), çalışma süresi (uptime), iki taraflı derinlik (two-sided depth), alış satış farkları (bid-ask spreads) ve desteklenen piyasaların sayısı parametrelerinin bir kombinasyonunu ödüllendirecek şekilde belirlenen formüllere göre likidite sağlayıcılara ("LS") tahsis edilir. Başlangıçta, token arzının **%7,5** (`75.000.000 $ethDYDX`) tutarındaki kısmı, LS ödülleri için tahsis edilmişti.
+Token arzının **%3,2'si** (`31.643.838 $ethDYDX`), piyasa yapıcı hacmi (maker volume), çalışma süresi (uptime), iki taraflı derinlik (two-sided depth), alış satış farkları (bid-ask spreads) ve desteklenen piyasaların sayısı parametrelerinin bir kombinasyonunu ödüllendirecek şekilde belirlenen formüllere göre likidite sağlayıcılara ("LS") tahsis edilir. Başlangıçta, token arzının **%7,5** (`75.000.000 $ethDYDX`) tutarındaki kısmı, LS ödülleri için tahsis edilmişti.
 
 * [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)'te dYdX topluluğu, Likidite Sağlayıcı Ödüllerini dönem başına `1.150.685 $ethDYDX`'ten dönem başına `575.343 $ethDYDX`'e %50 oranında azaltma yönünde [oy kullandı](https://dydx.community/dashboard/proposal/14). Sonuç olarak, LP ödülleri için ayrılan miktar `%7,5’tan` `%5,2'ye` düşmüştür.
+*   [DIP 29](https://dydx.community/dashboard/proposal/16)'da dYdX topluluğu LP ödüllerini dYdX v3'teki 30.-32. Dönemdekinden ⅓ oranında azaltarak aşağıdaki değerlere düşürme yönünde [oy kullandı](https://dydx.community/dashboard/proposal/16):
+
+    * Dönem 30: 383.562 $ethDYDX
+    * Dönem 31: 191.781 $ethDYDX
+    * Dönem 32: 0 $ethDYDX
+
+    31. Dönem sonrasında dYdX v3 üzerinde herhangi bir LP ödülü olmayacaktır. Sonuç olarak, LP ödülleri için ayrılan miktar `%5,2’den` `%3,2'ye` düşmüştür.
+
+dYdX Zinciri üzerinde Likidite Sağlayıcı ödüllerinin dağıtımı olmadığı için, dYdX topluluğu DIP 29'da Likidite Sağlayıcı ödülleri için kalan tahsisin dYdX Zinciri Topluluk Hazinesi'ne taşınması yönünde oy kullandı.
 
 **Hedefler**
 
@@ -14,7 +23,7 @@ Token arzının **%5,2'si** (`52.458.925 $ethDYDX`), piyasa yapıcı hacmi (make
 
 ## **Genel bakış**
 
-Piyasa likiditesini teşvik etmek amacıyla, piyasalara katılımı, piyasa yapıcı hacmini, iki taraflı derinliği, (orta piyasaya kıyasla) fiyat farkını ve dYdX v3 üzerinde çalışma süresini ödüllendiren formüllere göre likidite sağlayıcılara $ethDYDX dağıtılacaktır. Tüm Ethereum adresleri bu ödülleri kazanabilir ve bir önceki dönemde piyasa yapıcı hacminin %0,25'i kadar minimum piyasa yapıcı hacmi eşiği geçerli olacaktır.  $ethDYDX beş yıl boyunca 28 günlük dönemler bazında dağıtılacak ve herhangi bir hakediş (vesting) veya kilitleme sürecine tabi tutulmayacaktır. Dönem başına 575.343 $ethDYDX dağıtılacaktır.
+Piyasa likiditesini teşvik etmek amacıyla, piyasalara katılımı, piyasa yapıcı hacmini, iki taraflı derinliği, (orta piyasaya kıyasla) fiyat farkını ve dYdX v3 üzerinde çalışma süresini ödüllendiren formüllere göre likidite sağlayıcılara $ethDYDX dağıtılacaktır. Herhangi bir Ethereum adresi, bir önceki dönemde piyasa yapıcı hacminin %0,25''lik minimum piyasa yapıcı hacmi eşiğine tabi olarak bu ödülleri kazanabilir. $ethDYDX tutarı beş yıl boyunca 28 günlük dönemler esasında dağıtılacak ve herhangi bir hakediş veya kilitleme sürecine tabi olmayacaktır.
 
 Her bir likidite sağlayıcıya dönem başına ne kadar $ethDYDX'in ödül olarak verileceğini hesaplamak için aşağıdaki fonksiyonlar kullanılır. [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md)'te, dYdX topluluğu Likidite Sağlayıcı (LP) ödülleri formülünün, fonksiyonların BTC/ETH piyasaları ve BTC/EHT dışı piyasalar olarak ikiye ayrılması suretiyle revize edilmesi yönünde oy kullandı. [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md)'da dYdX topluluğu, 0.05 stkDYDX ağırlığının tekrar MakerVolume'a tahsis edilmesi yönünde oy kullandı.
 
