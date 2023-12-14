@@ -14,8 +14,7 @@ Além do $ethDYDX investido no Tesouro da Comunidade, a comunidade dYdX também 
 * [DPI 20](https://dydx.community/dashboard/proposal/11) - Redução de recompensas de trading em 45% (1.294.520 $ethDYDX por epoch) e
 * [DPI 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - Redução de recompensas de provedor de liquidez em 50% (575.342 $ethDYDX por epoch).
 
-A partir da Epoch 26, 3.595.890 $ethDYDX serão acrescidos no Tesouro de Recompensas a cada época e poderão ser usados pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters). \
-
+Em 18 de novembro de 2023, a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/16) para conectar o saldo ethDYDX acumulado no Tesouro de Recompensas de Ethereum com a Cadeia dYdX. Após conectado, o DYDX pode ser usado pela comunidade dYdX com um voto de governança na Cadeia dYdX.
 
 ## Perguntas e respostas
 
