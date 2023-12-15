@@ -4,9 +4,18 @@ description: Visão geral do programa de recompensas do provedor de liquidez.
 
 # Recompensas de provedores de liquidez
 
-**5,2%** da oferta de token (`52.458.925 $ethDYDX`) será distribuída a provedores de liquidez (LPs) com base em fórmulas que recompensam uma combinação de volume de maker, tempo de atividade, profundidade do par, spreads de compra e venda e a quantidade de mercados suportados. Inicialmente, **7,5%** (`75.000.000 $ethDYDX`) do suprimento de tokens foi alocado para recompensas de LP.
+**3,2%** da oferta de token (`31.643.838 $ethDYDX`) será distribuída a provedores de liquidez (LPs) com base em fórmulas que recompensam uma combinação de volume de maker, tempo de atividade, profundidade do par, spreads de compra e venda e a quantidade de mercados suportados. Inicialmente, **7,5%** (`75.000.000 $ethDYDX`) do suprimento de tokens foi alocado para recompensas de LP.
 
 * No [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), a comunidade da dYdX [votou](https://dydx.community/dashboard/proposal/14) para reduzir as recompensas de provedor de liquidez em 50%, de `1.150.685 $ethDYDX` por época para `575.343 $ethDYDX` por época. Como resultado disso, a alocação para recompensas de LP diminuiu de `7,5%` para 5,`2%`.
+*   Na [DIP 29](https://dydx.community/dashboard/proposal/16), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/16) para reduzir as recompensas de LP em ⅓ da epoch 30-32 na dYdX v3 para os seguintes valores:
+
+    * Epoch 30: 383.562 $ethDYDX
+    * Epoch 31: 191.781 $ethDYDX
+    * Epoch 32: 0 $ethDYDX
+
+    Após a epoch 31, não haverá recompensas de LP na dYdX v3. Como resultado disso, a alocação para recompensas de LP diminuiu de `5,2%` para `3,2%`.
+
+Como não há distribuição de recompensas de provedor de liquidez na Cadeia dYdX, a comunidade dYdX na DIP 29 votou pela migração da alocação restante para recompensas de provedor de liquidez para o Tesouro da Comunidade dYdX.
 
 **Objetivos**
 
@@ -14,7 +23,7 @@ description: Visão geral do programa de recompensas do provedor de liquidez.
 
 ## **Visão geral**
 
-Para incentivar a liquidez do mercado, o $ethDYDX será distribuído a provedores de liquidez com base em fórmulas que recompensam a participação nos mercados, volume de maker, profundidade do par, spread (vs. o mercado intermediário) e o tempo de atividade no protocolo de segunda camada (L2) da dYdX v3. Qualquer endereço Ethereum pode ganhar essas recompensas, sujeito a um limite mínimo de volume de maker de 0,25% na época anterior. O $ethDYDX será distribuído em uma época de 28 dias ao longo de cinco anos e não estará sujeito a nenhum tipo de aquisição ou bloqueio. 575. 343 $ethDYDX serão distribuídos por época.
+Para incentivar a liquidez do mercado, o $ethDYDX será distribuído a provedores de liquidez com base em fórmulas que recompensam a participação nos mercados, volume de maker, profundidade do par, spread (vs. o mercado intermediário) e o tempo de atividade no protocolo de segunda camada (L2) da dYdX v3. Qualquer endereço Ethereum pode ganhar essas recompensas, sujeito a um limite mínimo de volume de maker de 0,25% na época anterior. O $ethDYDX será distribuído em uma época de 28 dias ao longo de cinco anos e não estará sujeito a nenhum tipo de aquisição ou bloqueio.
 
 As funções a seguir são usadas para calcular a quantidade de $ethDYDX que deve ser enviada como recompensa a cada provedor de liquidez por epoch. Durante o [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md), a comunidade dYdX votou para que se revisasse a fórmula de recompensas de LP dividindo as funções para mercados de BTC/ETH e mercados não BTC/ETH. No [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md), a comunidade da dYdX votou por realocar o peso de 0,05 stkDYDX para o MakerVolume.
 
