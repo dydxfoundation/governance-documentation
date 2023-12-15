@@ -14,8 +14,7 @@ Zusätzlich zu den übertragenen $ethDYDX auf dem Community-Konto kann die dYdX-
 * [DIP 20](https://dydx.community/dashboard/proposal/11) – reduziert die Handelsprämien um 45 % (1.294.520 $ethDYDX pro Epoche) weiter und
 * [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) – reduziert die Prämien für Liquiditätsanbieter um 50 % (575.342 $ethDYDX pro Epoche).
 
-Ab Epoche 26 werden in jeder Epoche 3.595.890 $ethDYDX in der Prämienkasse anfallen und können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden. \
-
+Am 18. November 2023 hat die dYdX-Community [vereinbart](https://dydx.community/dashboard/proposal/16), das in der Gemeinschaftskasse von Ethereum aufgelaufene ethDYDX-Guthaben zu überbrücken. Nach der Übberbrückung kann die DYDX von der dYdX-Community mit einer Governance-Abstimmung auf dYdX Chain verwendet werden.
 
 ## FAQ
 
