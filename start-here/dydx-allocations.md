@@ -30,16 +30,16 @@ Since the launch of $ethDYDX, there have been several governance proposals that 
       * Epoch 32: 0 $ethDYDX
   * **5.0%** (`50,309,197 $ethDYDX`) to past users who complete certain trading milestones on the dYdX Layer 2 Protocol ([Retroactive Mining Rewards](../rewards/retroactive-mining-rewards.md)),
     * After Epoch 0, 24,690,803 unclaimed $ethDYDX  from the Retroactive Mining rewards program were transferred to the Community Treasury.
-  * **3.2%** (`31,643,838 $ethDYDX`) based on the [Liquidity Provider Rewards Formula(s)](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards),
+  * **3.3%** (`32,794,525 $ethDYDX`) based on the [Liquidity Provider Rewards Formula(s)](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards),
     * In [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), the dYdX community voted to reduce Liquidity Provider rewards by 50% from 1,150,685 $ethDYDX per epoch to 575,343 $ethDYDX per epoch. The excess 575,342 $ethDYDX per epoch will accrue in the Rewards Treasury and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
     * In [DIP 29](https://dydx.community/dashboard/proposal/16), the dYdX community voted to reduce Liquidity Provider rewards by ⅓ from Epoch 30-32 on dYdX v3 to the following values:
       * Epoch 30: 383,562 $ethDYDX
       * Epoch 31: 191,781 $ethDYDX
       * Epoch 32: 0 $ethDYDX
-  * **26.2%** (`262,550,949 $ethDYDX`) to the [Community Treasury](https://docs.dydx.community/dydx-governance/start-here/community-treasury/),
-  * **0.6%** (`5,753,430 $ethDYDX`) to users staking $USDC to a [Liquidity Staking Pool](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool),
+  * **26.1%** (`261,133,225 $ethDYDX`) to the [Community Treasury](https://docs.dydx.community/dydx-governance/start-here/community-treasury/),
+  * **0.6%** (`5,779,608 $ethDYDX`) to users staking $USDC to a [Liquidity Staking Pool](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool),
     * In [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/7) to set the rewards associated with staking $USDC to 0. The 383,562 $ethDYDX previously distributed to $USDC stakers will accrue in the Rewards Treasury and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
-  * **0.5%** (`5,049,079 $ethDYDX`) to users staking $ethDYDX to a [Safety Staking Pool](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool),
+  * **0.5%** (`5,289,934 $ethDYDX`) to users staking $ethDYDX to a [Safety Staking Pool](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool),
     * In [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/9) to set the rewards associated with staking $ethDYDX to 0. The 383,562 $ethDYDX previously distirbuted to $ethDYDX stakers will accrue in the Rewards Treasury and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 * **27.7%** (`277,295,070 $ethDYDX`) to past investors of dYdX Trading Inc.,
 * **15.3%** (`152,704,930 $ethDYDX`) to founders, employees, advisors, and consultants of dYdX Trading Inc. or dYdX Foundation, and
