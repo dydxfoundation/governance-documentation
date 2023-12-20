@@ -39,17 +39,13 @@ Since the launch of $ethDYDX, there have been several governance proposals that 
   * **26.1%** (`261,133,225 $ethDYDX`) to the [Community Treasury](https://docs.dydx.community/dydx-governance/start-here/community-treasury/),
   * **0.6%** (`5,779,608 $ethDYDX`) to users staking $USDC to a [Liquidity Staking Pool](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool),
     * In [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/7) to set the rewards associated with staking $USDC to 0. The 383,562 $ethDYDX previously distributed to $USDC stakers will accrue in the Rewards Treasury and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
-  * **0.5%** (`5,289,934 $ethDYDX`) to users staking $ethDYDX to a [Safety Staking Pool](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool),
+  * **0.5%** (`5,289,939 $ethDYDX`) to users staking $ethDYDX to a [Safety Staking Pool](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool),
     * In [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/9) to set the rewards associated with staking $ethDYDX to 0. The 383,562 $ethDYDX previously distirbuted to $ethDYDX stakers will accrue in the Rewards Treasury and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 * **27.7%** (`277,295,070 $ethDYDX`) to past investors of dYdX Trading Inc.,
 * **15.3%** (`152,704,930 $ethDYDX`) to founders, employees, advisors, and consultants of dYdX Trading Inc. or dYdX Foundation, and
 * **7.0%** (`70,000,000 $ethDYDX`) to future employees and consultants of dYdX Trading Inc. or the dYdX Foundation.
 
-<figure><img src="../.gitbook/assets/allocation 5 year (2).png" alt=""><figcaption></figcaption></figure>
-
-Starting five years after launch, a maximum perpetual inflation rate of `2%` per year may be utilized by governance to increase the supply of $ethDYDX, ensuring the community has the resources to continue the development and growth of dYdX v3. Inflation must be enacted via a governance proposal and is capped at `2%` per year.
-
-<figure><img src="../.gitbook/assets/allocation 10 year 2% inflation (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Brand Kit Allocation.png" alt=""><figcaption></figcaption></figure>
 
 Although the community allocation has been established as laid out above, $ethDYDX holders have full control via governance over how the community allocation is used going forward.
 
@@ -65,7 +61,34 @@ In [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-1
 
 In [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/9) to set the rewards associated with staking $ethDYDX to 0. The 383,562 $ethDYDX previously distirbuted to $DYDX stakers will accrue in the Rewards Treasury and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
-In [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/14) to reduce Liquidity Provider Rewards by 50% from 1,150,685 $ethDYDX per epoch to 575,343 $ethDYDX per epoch. The excess 575,342 $ethDYDX per epoch will accrue in the Rewards Treasury and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+In [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/14) to reduce Liquidity Provider Rewards by 50% from 1,150,685 $ethDYDX per epoch to 575,343 $ethDYDX per epoch. The excess 575,342 $ethDYDX per epoch will accrue in the Rewards Treasury and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).\
+
+
+In [DIP 29](https://dydx.community/dashboard/proposal/16), the dYdX community voted to reduce trading and LP rewards by ⅓ from Epoch 30-32 on dYdX v3 to the following values:
+
+a. Reduce rewards to the following values on Nov 21, 2023, 15:00 UTC (start of Epoch 30)
+
+```
+ i. Trading: 1,054,795
+
+ ii. LP: 383,562
+```
+
+b. Reduce rewards to the following values on Dec 19, 2023, 15:00 UTC (start of Epoch 31)
+
+```
+ i.Trading: 527,398
+
+ ii.LP: 191,781
+```
+
+c. Reduce rewards to the following values on Jan 16, 2024, 15:00 UTC (start of Epoch 32)
+
+```
+ i.Trading: 0
+
+ ii.LP: 0
+```
 
 ### **Can new $ethDYDX tokens be minted?**
 
@@ -110,6 +133,3 @@ The following chart shows the total liquid supply without inflation:
 
 <figure><img src="../.gitbook/assets/liquid-supply-total-issuance.png" alt=""><figcaption></figcaption></figure>
 
-The following chart shows the total liquid supply with inflation:
-
-<figure><img src="../.gitbook/assets/liquid-supply-total issuance-2%-inflation.png" alt=""><figcaption></figcaption></figure>
