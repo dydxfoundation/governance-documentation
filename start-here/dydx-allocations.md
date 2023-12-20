@@ -127,9 +127,9 @@ The dYdX Foundation has expressed its willingness to bring legal action against 
 
 ## What is the liquid supply curve of $ethDYDX?
 
-On September 8, 2021, `8 days` after the end of Epoch 0, the initial transfer restrictions on the token was lifted.
+On September 8, 2021, the initial transfer restrictions on the token was lifted.
 
 The following chart shows the total liquid supply without inflation:
 
-<figure><img src="../.gitbook/assets/liquid-supply-total-issuance.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Liquid Supply Total.png" alt=""><figcaption></figcaption></figure>
 
