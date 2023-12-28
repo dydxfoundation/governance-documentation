@@ -30,26 +30,22 @@ Seit der Einführung von $ethDYDX gab es mehrere Governance-Vorschläge, die zu 
       * Epoche 32: 0 $ethDYDX
   * **5,0 %** (`50.309.197 $ethDYDX`) an frühere Benutzer, die bestimmte Etappenziele auf dem dYdX-Layer-2-Protokoll ([rückwirkende Mining-Prämien](../rewards/retroactive-mining-rewards.md)) abschließen,
     * Nach Epoche 0 wurden 24.690.803 nicht beanspruchte $ethDYDX aus dem Bonusprogramm für rückwirkendes Mining in die Gemeinschaftskasse überführt.
-  * **3,2 %** (`31.643.838 $ethDYDX`) auf der Grundlage der [Prämienformel(n) für Liquiditätsanbieter](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards),
+  * **3,3 %** (`32.794.525 $ethDYDX`) auf der Grundlage der [Prämienformel(n) für Liquiditätsanbieter](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards),
     * In [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) hat die dYdX-Community vereinbart, die Prämien für Liquiditätsanbieter von 1.150.685 $ethDYDX pro Epoche um 50 % auf 575.343 $ethDYDX pro Epoche zu reduzieren. Die überschüssigen 575.342 $ethDYDX pro Epoche werden in der Prämienkasse anfallen und können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
     * In [DIP 29](https://dydx.community/dashboard/proposal/16) hat die dYdX-Community vereinbart, die Handelsprämien von Epoche 30-32 auf dYdX v3 um ⅓ auf die folgenden Werte zu reduzieren:
       * Epoche 30: 383.562 $ethDYDX
       * Epoche 31: 191.781 $ethDYDX
       * Epoche 32: 0 $ethDYDX
-  * **26,2 %** (`262.550.949 $ethDYDX`) an die [Community Treasury](https://docs.dydx.community/dydx-governance/start-here/community-treasury/),
-  * **0,6 %** (`5.753.430 $ethDYDX`) an Benutzer, die $USDC in einem [Liquiditäts-Pool](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool) einsetzen,
+  * **26,1 %** (`261.133.225 $ethDYDX`) an die [Gemeinschaftskasse](https://docs.dydx.community/dydx-governance/start-here/community-treasury/),
+  * **0,6 %** (`5.779.608 $ethDYDX`) an Benutzer, die $USDC in einen [Liquiditäts-Staking Pool](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool) einbinden,
     * Im Rahmen des [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) hat die dYdX-Community [dafür gestimmt](https://dydx.community/dashboard/proposal/7), die $USDC-Stakingprämien auf 0 zu setzen. Die zuvor an $USDC-Staker ausgeschütteten 383.562 $ethDYDX werden in der Prämienkasse angelegt und können von der dYdX-Community durch eine [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
-  * **0,5 %** (`5.049.079 $ethDYDX`) an Benutzer, die $ethDYDX in einem [Sicherheits-Pool](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool) einsetzen,
+  * **0,5 %** (`5.289.939 $ethDYDX`) an Benutzer, die $ethDYDX in einen [Sicherheits-Staking Pool](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool) einbinden,
     * In [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md) [stimmte](https://dydx.community/dashboard/proposal/9) die dYdX-Community dafür, die mit dem $ethDYDX-Staking verbundenen Prämien auf 0 zu setzen. Die zuvor an $ethDYDX-Staker ausgeschütteten 383.562 $ethDYDX werden in der Prämienkasse angelegt und können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
 * **27,7 %** (`277.295.070 $ethDYDX`) an frühere Investoren von dYdX Trading Inc.,
 * **15,3 %** (`152.704.930 $ethDYDX`) an Gründer, Mitarbeiter und Berater von dYdX Trading Inc. oder von der dYdX Foundation und
 * **7,0 %** (`70 000 000 $ethDYDX`) an zukünftige Mitarbeiter und Berater von dYdX Trading oder der dYdX Foundation.
 
-<figure><img src="../.gitbook/assets/allocation 5 year (2).png" alt=""><figcaption></figcaption></figure>
-
-Fünf Jahre nach dem Start kann die Governance eine ständige Inflationsrate von maximal `2 %` pro Jahr zur Erhöhung des Angebots von $ethDYDX einsetzen, damit die Gemeinschaft über die nötigen Mittel verfügt, die Weiterentwicklung und das Wachstum von dYdX v3 aufrechtzuerhalten. Die Inflation muss über einen Governance-Vorschlag erlassen werden und ist auf `2 %` pro Jahr begrenzt.
-
-<figure><img src="../.gitbook/assets/allocation 10 year 2% inflation (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Brand Kit Allocation.png" alt=""><figcaption></figcaption></figure>
 
 Obwohl die Gemeinschaftszuteilung wie oben beschrieben festgelegt wurde, haben die Inhaber von $ethDYDX die volle Kontrolle darüber, wie diese in Zukunft verwendet wird.
 
@@ -63,7 +59,31 @@ Im Rahmen des [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content
 
 Im Rahmen des [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md) [hat](https://dydx.community/dashboard/proposal/9) die dYdX-Community abgestimmt, die $ethDYDX-Stakingprämien auf 0 zu setzen. Die zuvor an $DYDX-Staker ausgeschütteten 383.562 $ethDYDX, werden in der Prämienkasse angelegt und können von der dYdX-Community durch [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
 
-In [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) hat die dYdX-Community [dafür gestimmt](https://dydx.community/dashboard/proposal/14), die Prämien für Liquiditätsanbieter von 1.150.685 $ethDYDX pro Epoche um 50 % auf 575.343 $ethDYDX pro Epoche zu reduzieren. Die überschüssigen 575.342 $ethDYDX pro Epoche werden in der Prämienkasse anfallen und können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
+In [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) hat die dYdX-Community [dafür gestimmt](https://dydx.community/dashboard/proposal/14), die Prämien für Liquiditätsanbieter von 1.150.685 $ethDYDX pro Epoche um 50 % auf 575.343 $ethDYDX pro Epoche zu reduzieren. Die überschüssigen 575.342 $ethDYDX pro Epoche werden in der Prämienkasse anfallen und können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden. \
+
+
+In [DIP 29](https://dydx.community/dashboard/proposal/16) hat die dYdX-Community vereinbart, die Handels- und LP-Prämien von Epoche 30-32 auf dYdX v3 um ⅓ auf die folgenden Werte zu reduzieren:
+
+a. Reduzierung der Prämien am 21. November 2023, 15:00 UTC (Beginn von Epoche 30) auf die folgenden Werte
+
+```
+ i. Trading: 1,054,795
+ ii. LP: 383,562
+```
+
+b. Reduzierung der Prämien am 19. Dezember 2023, 15:00 UTC (Beginn von Epoche 31) auf die folgenden Werte
+
+```
+ i.Trading: 527,398
+ ii.LP: 191,781
+```
+
+c. Reduzierung der Prämien am 16. Januar 2024, 15:00 UTC (Beginn von Epoche 32) auf die folgenden Werte
+
+```
+ i.Trading: 0
+ ii.LP: 0
+```
 
 ### **Können neue $ethDYDX-Token gemintet werden?**
 
@@ -102,12 +122,9 @@ Die dYdX Foundation hat sich bereit erklärt, rechtliche Schritte gegen Anleger 
 
 ## Wie sieht die Liquiditätsversorgungskurve von $ethDYDX aus?
 
-Am 8. September 2021, `8 Tage` nach dem Ende der Phase 0, wurden die ursprünglichen Übertragungsbeschränkungen für das Token aufgehoben.
+Am 8. September 2021 wurden die ersten Übertragungsbeschränkungen für das Token aufgehoben.
 
 Das folgende Diagramm zeigt die gesamte Liquiditätsversorgung ohne Inflation:
 
-<figure><img src="../.gitbook/assets/liquid-supply-total-issuance.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Liquid Supply Total.png" alt=""><figcaption></figcaption></figure>
 
-Das folgende Diagramm zeigt die gesamte Liquiditätsversorgung mit Inflation:
-
-<figure><img src="../.gitbook/assets/liquid-supply-total issuance-2%-inflation.png" alt=""><figcaption></figcaption></figure>
