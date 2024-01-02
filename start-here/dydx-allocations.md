@@ -30,26 +30,22 @@ description: 分配 ethDYDX 代币。
       * 时段 32：0 $ethDYDX
   * **5.0%** (`50,309,197 $ethDYDX`) 分配给在 dYdX Layer 2 协议上完成某些交易里程碑的用户（[“追溯性挖矿奖励”](../rewards/retroactive-mining-rewards.md)），
     * 在时段 0 之后，“追溯性挖矿奖励”计划中无人认领的 24,690,803 $ethDYDX 转入了“社区资金库”。
-  * **3.2%** (`31,643,83 $ethDYDX`) ，基于[“流动性提供方奖励公式](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards)”，
+  * **3.3%** (`32,794,525 $ethDYDX`)，基于[“流动性提供方奖励公式”](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards)，
     * 在 [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) 中，dYdX 社区已投票将“流动性提供方奖励”削减 50%，从每时段 1,150,685 $ethDYDX 降至每时段 575,343 $ethDYDX。每时段剩余的 575,342 $ethDYDX 将计入“奖励资金库”，dYdX 社区可以通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。
-    * 在 [DIP 29](https://dydx.community/dashboard/proposal/16) 中，dYdX 社区投票决定将 dYdX v3 上的李冬性提供者奖励从 30-32 时段减少 ⅓，减为以下值：
+    * 在 [DIP 29](https://dydx.community/dashboard/proposal/16) 中，dYdX 社区投票决定将 dYdX v3 上的流动性提供者奖励从 30-32 时段减少 ⅓，减为以下值：
       * 时段 30：383,562 $ethDYDX
       * 时段 31：191,781 $ethDYDX
       * 时段 32：0 $ethDYDX
-  * **26.2%** (`262,550,949 $ethDYDX`) 分配给[社区资金库](https://docs.dydx.community/dydx-governance/start-here/community-treasury/)，
-  * **0.6%** (`5,753,430 $ethDYDX`) 分配给把 $USDC 质押到[“流动性质押池”](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool)的用户，
+  * **26.1%** (`261,133,225 $ethDYDX`) 分配给[“社区资金库”](https://docs.dydx.community/dydx-governance/start-here/community-treasury/)，
+  * **0.6%** (`5,779,608 $ethDYDX`) 分配给把 $USDC 质押到[“流动性质押池”](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool)的用户，
     * 在 [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) 中，dYdX 社区[已投票](https://dydx.community/dashboard/proposal/7)把质押 $USDC 的奖励设置为 0。先前分配给 $USDC 质押人的 383,562 $ethDYDX 将在"奖励资金库"中积累，dYdX 社区可以通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。
-  * **0.5%** (`5,049,079 $ethDYDX`) 分配给把 $ethDYDX 质押到[“保险质押池”](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool)的用户，
+  * **0.5%** (`5,289,939 $ethDYDX`) 分配给把 $ethDYDX 质押到[“保险质押池”](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool)的用户，
     * 在 [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md) 中，dYdX 社区[已投票](https://dydx.community/dashboard/proposal/9)把质押 $ethDYDX 的奖励设置为 0。先前分配给 $ethDYDX 质押人的 383,562 $ethDYDX 将在“奖励资金库”中积累，dYdX 社区可以通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。
 * **27.7%** (`277,295,070 $ethDYDX`) 分配给 dYdX Trading Inc. 的过去投资者，
 * **15.3%** (`152,704,930 $ethDYDX`) 分配给 dYdX Trading Inc. 或 dYdX Foundation 的创始人、员工、顾问、高级顾问，以及
 * **7.0%** （`70,000,000 $ethDYDX`） 分配给 dYdX Trading Inc. 或 dYdX Foundation 的未来员工和高级顾问。
 
-<figure><img src="../.gitbook/assets/allocation 5 year (2).png" alt=""><figcaption></figcaption></figure>
-
-在推出五年后开始，治理层可利用每年 `2%` 的最大永续性通货膨胀率来增加 $ethDYDX 的供应，以确保社区拥有资源继续开发和发展 dYdX v3。通货膨胀必须通过治理提议来实施，每年的上限为`2%`。
-
-<figure><img src="../.gitbook/assets/allocation 10 year 2% inflation (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Brand Kit Allocation.png" alt=""><figcaption></figcaption></figure>
 
 虽然建立了如上文所述的社区分配方式，但 $ethDYDX 持有人对社区分配的后续使用方式拥有完全的控制权。
 
@@ -65,7 +61,31 @@ description: 分配 ethDYDX 代币。
 
 在 [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md) 中，dYdX 社区[已投票](https://dydx.community/dashboard/proposal/9)将质押 $ethDYDX 的奖励设置为 0。先前分配给 $DYDX 质押人的 383,562 $ethDYDX 将在“奖励资金库”中积累，dYdX 社区可以通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。
 
-在 [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) 中，dYdX 社区[已投票](https://dydx.community/dashboard/proposal/14)将“流动性提供方奖励”削减 50%，从每时段 1,150,685 $ethDYDX 降至每时段 575,343 $ethDYDX。每时段剩余的 575,342 $ethDYDX 将计入“奖励资金库”，dYdX 社区可以通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。
+在 [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) 中，dYdX 社区[已投票](https://dydx.community/dashboard/proposal/14)将“流动性提供方奖励”削减 50%，从每时段 1,150,685 $ethDYDX 降至每时段 575,343 $ethDYDX。每时段剩余的 575,342 $ethDYDX 将计入“奖励资金库”，dYdX 社区可以通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。\
+
+
+在 [DIP 29](https://dydx.community/dashboard/proposal/16) 中，dYdX 社区投票决定将 dYdX v3 上的交易和 LP 奖励从 30-32 时段减少 ⅓，减为以下值：
+
+a. 在 2023 年 11 月 21 日协调世界时 15:00（时段 30 开始）将奖励减为以下值
+
+```
+ i. Trading: 1,054,795
+ ii. LP: 383,562
+```
+
+b. 在 2023 年 12 月 19 日协调世界时 15:00（时段 31 开始）将奖励减为以下值
+
+```
+ i.Trading: 527,398
+ ii.LP: 191,781
+```
+
+c. 在 2024 年 1 月 16 日世界协调时 15:00（时段 32 开始）将奖励减为以下值
+
+```
+ i.Trading: 0
+ ii.LP: 0
+```
 
 ### **是否可以创建新的 $ethDYDX 代币？**
 
@@ -104,12 +124,9 @@ dYdX基金会已表示会对不遵守这些要求的投资者采取法律行动�
 
 ## $ethDYDX 的流动性供应曲线是什么？
 
-2021 年 9 月 8 日，0 时段结束后的 `8 天`，解除代币的初始转让限制。
+2021 年 9 月 8日， 取消对代币的初始转账限制。
 
 下图显示了流动性总供应量（无通胀）：
 
-<figure><img src="../.gitbook/assets/liquid-supply-total-issuance.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Liquid Supply Total.png" alt=""><figcaption></figcaption></figure>
 
-下图显示了流动性总供应量（有通胀）：
-
-<figure><img src="../.gitbook/assets/liquid-supply-total issuance-2%-inflation.png" alt=""><figcaption></figcaption></figure>
