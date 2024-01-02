@@ -30,26 +30,22 @@ description: Распределения токена ethDYDX.
       * Эпоха 32: 0 $ethDYDX
   * **5,0%** (`50 309 197 $ethDYDX`) получают бывшие пользователи, которые завершают определенные торговые этапы в рамках протокола dYdX уровня 2 ([награды за ретроактивный майнинг](../rewards/retroactive-mining-rewards.md)),
     * После эпохи 0 24 690 803 невостребованных $ethDYDX из программы наград за ретроактивный майнинг были переданы в казну сообщества.
-  * **3,2%** (`31 643 838 $ethDYDX`) распределяются [на основе формулы (формул) наград для поставщиков ликвидности](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards),
+  * **3,3%** (`32 794 525 $ethDYDX`) распределяются на основе [формулы (формул) наград для поставщиков ликвидности](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards),
     * В рамках [ППУ 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) сообщество dYdX проголосовало за сокращение размера наград для поставщиков ликвидности на 50% с 1 150 685 $ethDYDX за эпоху до 575 343 $ethDYDX за эпоху. Избыточные 575 342 $ethDYDX за эпоху будут поступать в казну наград. Сообщество dYdX сможет использовать их по итогам [голосования среди пользователей, управляющих токеном](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
     * В рамках [ППУ 29](https://dydx.community/dashboard/proposal/16) сообщество dYdX проголосовало за сокращение наград для поставщиков ликвидности на ⅓ с эпохи 30-32 на dYdX v3 до следующих значений:
       * Эпоха 30: 383 562 $ethDYDX
       * Эпоха 31: 191 781 $ethDYDX
       * Эпоха 32: 0 $ethDYDX
-  * **26,2%** (`262 550 949 $ethDYDX`) будут направлены в [казну сообщества](https://docs.dydx.community/dydx-governance/start-here/community-treasury/),
-  * **0,6%** (`5 753 430 $ethDYDX`) получают пользователи, размещающие $USDC в [пуле стейкинга ликвидности](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool);
+  * **26,1%** (`261 133 225 $ethDYDX`) будут направлены в [казну сообщества](https://docs.dydx.community/dydx-governance/start-here/community-treasury/),
+  * **0,6%** (`5 779 608 $ethDYDX`) получают пользователи, размещающие $USDC в [пуле стейкинга ликвидности](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool),
     * В рамках [ППУ 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/7) за установку количества наград, связанных со стейкингом $USDC, равным 0. 383 562 $ethDYDX, ранее распределяемых между стейкерами $USDC, будут поступать в казну наград. Сообщество dYdX сможет использовать их после [голосования среди пользователей, управляющих токеном](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
-  * **0,5%** (`5 049 079 $ethDYDX`) получают пользователи, размещающие $ethDYDX в [пуле стейкинга безопасности](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool);
+  * **0,5%** (`5 289 939 $ethDYDX`) получают пользователи, размещающие $ethDYDX в [пуле стейкинга безопасности](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool),
     * В рамках [ППУ 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/9) за установку наград, связанных со стейкингом $ethDYDX, равным 0. 383 562 $ethDYDX, ранее распределяемых между стейкерами $ethDYDX, будут зачисляться в казну наград. Сообщество dYdX сможет использовать их при [голосовании среди пользователей, управляющих токеном](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 * **27,7%** (`277 295 070 $ethDYDX`) — бывшим инвесторам dYdX Trading Inc.;
 * **15,3%** (`152 704 930 $ethDYDX`) получают основатели, сотрудники, советники и консультанты dYdX Trading Inc. или dYdX Foundation и
 * **7,0%** (`70 000 000 $ethDYDX`) получают будущие сотрудники и консультанты dYdX Trading Inc. или dYdX Foundation.
 
-<figure><img src="../.gitbook/assets/allocation 5 year (2).png" alt=""><figcaption></figcaption></figure>
-
-Через пять лет после запуска максимальный уровень инфляции для бессрочных контрактов в размере `2%` в год может быть использован управлением для увеличения предложения $ethDYDX, что обеспечит сообщество ресурсами для дальнейшего развития протокола dYdX v3. Инфляция должна быть принята по предложению управления и должна составлять не выше `2%` в год.
-
-<figure><img src="../.gitbook/assets/allocation 10 year 2% inflation (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Brand Kit Allocation.png" alt=""><figcaption></figcaption></figure>
 
 Хотя токен будет распределен между сообществом, как указано выше, владельцы $ethDYDX полностью контролируют через управление то, как токены будут распределяться между сообществом в будущем.
 
@@ -65,7 +61,31 @@ description: Распределения токена ethDYDX.
 
 В рамках [ППУ 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/9) за установку количества наград, связанных со стейкингом $ethDYDX, равным 0. 383 562 $ethDYDX, ранее распределяемых между стейкерами $DYDX, будут поступать в казну наград. Сообщество dYdX сможет использовать их после [голосования среди пользователей, управляющих токеном](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
-В рамках [ППУ 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/14) за сокращение размера наград для поставщиков ликвидности на 50% с 1 150 685 $ethDYDX за эпоху до 575 343 $ethDYDX за эпоху. Избыточные 575 342 $ethDYDX за эпоху будут поступать в казну наград. Сообщество dYdX сможет использовать их по итогам [голосования среди пользователей, управляющих токеном](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+В рамках [ППУ 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/14) за сокращение размера наград для поставщиков ликвидности на 50% с 1 150 685 $ethDYDX за эпоху до 575 343 $ethDYDX за эпоху. Избыточные 575 342 $ethDYDX за эпоху будут поступать в казну наград. Сообщество dYdX сможет использовать их по итогам [голосования среди пользователей, управляющих токеном](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters). \
+
+
+В рамках [ППУ 29](https://dydx.community/dashboard/proposal/16) сообщество проголосовало за сокращение наград за торговлю на ⅓ с эпохи 30–32 на dYdX v3 до следующих значений:
+
+a. Сокращение наград до следующих значений 21 ноября 2023 г. в 15:00 UTC (начало эпохи 30)
+
+```
+ i. Trading: 1,054,795
+ ii. LP: 383,562
+```
+
+б. Сокращение наград до следующих значений 19 декабря 2023 г. в 15:00 UTC (начало эпохи 31)
+
+```
+ i.Trading: 527,398
+ ii.LP: 191,781
+```
+
+в. Сокращение наград до следующих значений 16 января 2024 в 15:00 UTC (начало эпохи 32)
+
+```
+ i.Trading: 0
+ ii.LP: 0
+```
 
 ### **Можно ли создавать новые токены $ethDYDX?**
 
@@ -104,12 +124,9 @@ description: Распределения токена ethDYDX.
 
 ## Какова кривая предложения ликвидности $ethDYDX?
 
-8 сентября 2021 года, `через 8 дней` после окончания эпохи 0, первоначальные ограничения на перевод токена были сняты.
+8 сентября 2021 года первоначальные ограничения на перевод токена были сняты.
 
 Общее предложение ликвидности без учета инфляции показано на следующем графике:
 
-<figure><img src="../.gitbook/assets/liquid-supply-total-issuance.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Liquid Supply Total.png" alt=""><figcaption></figcaption></figure>
 
-Общее предложение ликвидности с учетом инфляции показано на следующем графике:
-
-<figure><img src="../.gitbook/assets/liquid-supply-total issuance-2%-inflation.png" alt=""><figcaption></figcaption></figure>
