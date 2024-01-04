@@ -4,7 +4,7 @@ description: An overview of the community treasury.
 
 # Community Treasury
 
-**`26.2%`** (`262,550,949 $ethDYDX`) of the token supply is allocated to the community treasury for the dYdX community to use on an ongoing basis for contributor grants, community initiatives, liquidity mining, and other programs. Initially,`5.0%` of the token supply (`50,000,000 $ethDYDX`) was [allocated](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations) to the community treasury, and 766,703 $ethDYDX vests in the community treasury each epoch. Currently, 3,787,251 $ethDYDX vest in the community treasury because several governance proposals resulted in a 3,020,548 $ethDYDX increase in the amount of $ethDYDX available to the dYdX community each epoch:
+**`26.1%`** (`261,133,225 $ethDYDX`) of the token supply is allocated to the community treasury for the dYdX community to use on an ongoing basis for contributor grants, community initiatives, liquidity mining, and other programs. Initially,`5.0%` of the token supply (`50,000,000 $ethDYDX`) was [allocated](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations) to the community treasury, and 766,703 $ethDYDX vests in the community treasury each epoch. Currently, 3,787,251 $ethDYDX vest in the community treasury because several governance proposals resulted in a 3,020,548 $ethDYDX increase in the amount of $ethDYDX available to the dYdX community each epoch:
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - set the rewards for staking USDC to 0 (383,562 $ethDYDX per epoch),&#x20;
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - reduce trading rewards by 25% (958,904 $ethDYDX per epoch),&#x20;
