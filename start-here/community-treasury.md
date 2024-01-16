@@ -4,7 +4,7 @@ description: Un aperçu de la trésorerie de la communauté.
 
 # Trésorerie communautaire
 
-Initialement, `5,0 %` de la réserve de jetons (`50 000 000 $ethDYDX`) ont été [alloués](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations) à la trésorerie de la communauté et 766 703 $ethDYDX sont transférés dans la trésorerie de la communauté à chaque epoch. Actuellement, 3 787 251 $ethDYDX sont investis dans la trésorerie de la communauté parce que plusieurs propositions de gouvernance ont entraîné une augmentation de 3 020 548 $ethDYDX du montant de $ethDYDX disponible pour la communauté dYdX à chaque epoch :
+**`26,1 % `**(`261 133 225 $ethDYDX`) de l'offre de jetons est alloué à la trésorerie de la communauté dYdX à utiliser en permanence pour les subventions de donateurs, les initiatives communautaires, l'extraction de liquidité et d'autres programmes. Initialement, `5,0 %` de la réserve de jetons (`50 000 000 $ethDYDX`) ont été [alloués](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations) à la trésorerie de la communauté et 766 703 $ethDYDX sont transférés dans la trésorerie de la communauté à chaque epoch. Actuellement, 3 787 251 $ethDYDX sont investis dans la trésorerie de la communauté parce que plusieurs propositions de gouvernance ont entraîné une augmentation de 3 020 548 $ethDYDX du montant de $ethDYDX disponible pour la communauté dYdX à chaque epoch :
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - fixer les récompenses pour le staking de l'USDC à 0 (383 562 $ethDYDX par epoch),
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - réduire les récompenses du trading de 25 % (958 904 $ethDYDX par epoch),
@@ -14,7 +14,7 @@ Initialement, `5,0 %` de la réserve de jetons (`50 000 000 $ethDYDX`) ont �
 *   
 
     * Epoch 30 : 383 562 $ethDYDX
-    * Epoch 31 : 191 781 $ethDYDX
+    *
     * Epoch 32 : 0 $ethDYDX
 
     Après l'époque 31, il n'y aura plus de récompenses pour les fournisseurs de liquidité sur le dYdX v3. Dans DIP 29, la communauté dYdX a voté pour réduire les récompenses de trading d'un ⅓ de l'Epoch 30-32 sur dYdX v3, cependant l'allocation restante de récompenses de trading a été migrée vers la chaîne dYdX pour les récompenses de trading.
