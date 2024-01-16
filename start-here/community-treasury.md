@@ -4,7 +4,7 @@ description: コミュニティトレジャリーの概要
 
 # コミュニティ基金
 
-トークン供給の**`26.2%`**（`262,550,949 $ethDYDX`）は、dYdXコミュニティのコミュニティ基金に割り当てられ、貢献者の助成金、コミュニティのイニシアチブ、流動性マイニング、その他のプログラムで継続的に使用されます。当初、コミュニティトレジャリーにトークン供給の`5.0％`（`5000万$ethDYDX`）が[割り当てられ](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations)、766,703$ethDYDXがエポックごとにコミュニティトレジャリーに帰属しました。現在、コミュニティトレジャリーに3,787,251$ethDYDXが帰属しているのは、複数のガバナンス提案により、dYdXコミュニティの各エポックで利用可能な$ethDYDXの金額が3,020,548$ethDYDX増加したためです。
+トークン供給の**`26.1％`**（`261,133,225$ethDYDX`）は、dYdXコミュニティがコントリビューター支援金、コミュニティイニシアチブ、流動性マイニング、およびその他のプログラムに継続的に使用するためにコミュニティトレジャリーに割り当てられます。当初、コミュニティトレジャリーにトークン供給の`5.0％`（`5000万$ethDYDX`）が[割り当てられ](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations)、766,703$ethDYDXがエポックごとにコミュニティトレジャリーに帰属しました。現在、コミュニティトレジャリーに3,787,251$ethDYDXが帰属しているのは、複数のガバナンス提案により、dYdXコミュニティの各エポックで利用可能な$ethDYDXの金額が3,020,548$ethDYDX増加したためです。
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - USDCのステーキングの報酬を0に設定（エポックあたり383,562$ethDYDX）、
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - 取引報酬を25％削減（エポックあたり958,904$ethDYDX）、
