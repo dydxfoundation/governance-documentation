@@ -20,18 +20,16 @@ Holders of $ethDYDX and $wethDYDX are granted two types of governance powers: pr
 
 ### Staking
 
-Currently, the Liquidity Module and Safety Module are inactive. Users holding $stkDYDX and $stkUSDC are not earning rewards. Users can `request to withdraw` and `withdraw` at [**dydx.community**](https://dydx.community).
+Currently, the Liquidity Module and Safety Module are inactive. Users holding $stkDYDX and $stkUSDC on Ethereum are not earning rewards. Users can `request to withdraw` and `withdraw` at [**dydx.community**](https://dydx.community).
 
 ### Trading Rewards
 
-Users can view their rewards earned through trading activity on the layer 2 exchange. Trading rewards are distributed every 28 days according to an epoch schedule.
+Users can view their previously earned rewards earned through trading activity on the layer 2 exchange.&#x20;
 
 ![Trade to receive rewards](../.gitbook/assets/4.5-trade-to-rewards.png)
 
 ### Portfolio & Claiming $ethDYDX
 
 Users can see an aggregated view of their $ethDYDX holdings, claimable $ethDYDX, staked $ethDYDX, and withdrawable $ethDYDX.
-
-Users can see the current circulating supply and daily distribution of $ethDYDX tokens. Users can also claim all available $ethDYDX rewards. $ethDYDX tokens became transferable on **September 8, 2021** at approximately 15:00 UTC.
 
 ![Claim your rewards](../.gitbook/assets/4.6-claim-rewards.png)

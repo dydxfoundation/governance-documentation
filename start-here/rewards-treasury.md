@@ -16,14 +16,4 @@ In addition to the vested $ethDYDX in the Community Treasury, the dYdX community
 
 On November 18, 2023, the dYdX community [voted](https://dydx.community/dashboard/proposal/16) to bridge the ethDYDX balance accrued in the Rewards Treasury from Ethereum to dYdX Chain. Once bridged, the DYDX can be used by the dYdX community with a governance vote on dYdX Chain.&#x20;
 
-## FAQ
-
-### What is the balance of the Community Treasury and Rewards Treasury that the dYdX community can access?
-
-dYdX community members can view the vested balance of the community treasury [here](https://dydx.shippooor.xyz/). \
-\
-Further, dYdX Foundation publishes the accrued balance of the Community Treasury in the [Epoch Review](https://dydx.foundation/blog) at the end of each epoch.&#x20;
-
-### Who can submit proposals to spend $ethDYDX from the Rewards Treasury?
-
-Any user with sufficient proposing power can submit proposals. A governance vote will be required to spend any $ethDYDX from the community treasury and/or the rewards treasury. To submit a proposal, please submit a dYdX Improvement Proposal (DIP) as laid out in the [DIP Proposal Lifecycle](../voting-and-governance/dip-proposal-lifecycle.md).
+##

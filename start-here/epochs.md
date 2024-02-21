@@ -8,8 +8,6 @@ All rewards and staking contracts operate on `28 days` cycles, referred to as **
 
 The following will occur at the end of each epoch:
 
-* **Trading Rewards** are distributed. Rewards are claimable at [**dydx.community**](https://dydx.community) approximately `7 days` after the end of the epoch.
-* **Liquidity Provider Rewards** are distributed. Rewards are claimable at [**dydx.community**](https://dydx.community) approximately `7 days` after the end of the epoch.
 * Requested withdrawals for the **Liquidity Staking Pool** in the ended epoch may be withdrawn.
 * Requested withdrawals for the **Safety Staking Pool** in the ended epoch may be withdrawn.
 
@@ -95,34 +93,30 @@ The dYdX Foundation has created a public Google Calendar with start / end dates 
 ## **When will the rewards and staking pools be activated?**
 
 * The [Retroactive Mining Rewards](../rewards/retroactive-mining-rewards.md) were distributed on dYdX v3. These rewards ran until **August 31th, 2021, 15:00:00 UTC**.
-* The [Trading Rewards ](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md)are now live on the Protocol. These rewards will run until **August 3rd, 2026, 15:00:00 UTC**.
-* The [Liquidity Provider Rewards](../rewards/liquidity-provider-rewards.md) is now live on the Protocol. These rewards will run until **August 3rd, 2026, 15:00:00 UTC**.
-* The [Liquidity Staking pool ](../staking-pools/liquidity-staking-pool.md)was wound down on September 29, 2022.&#x20;
-* The [Safety Staking pool](../staking-pools/safety-staking-pool.md) was wound down on November 28, 2022.
+* [Trading Rewards ](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md)were set to 0 in [Epoch 32](https://dydx.community/dashboard/proposal/16). These rewards ran from **August 3rd, 2021, 15:00:00 UTC** until **Jaunary 16th, 2024, 15:00:00 UTC**
+* [Liquidity Provider Rewards](../rewards/liquidity-provider-rewards.md) were set to 0 in [Epoch 32](https://dydx.community/dashboard/proposal/16). These rewards ran from **August 3rd, 2021, 15:00:00 UTC** until **Jaunary 16th, 2024, 15:00:00 UTC**
+* [Liquidity Staking pool ](../staking-pools/liquidity-staking-pool.md)rewards were set to 0 on September 29, 2022 in [DIP 14](https://dydx.community/dashboard/proposal/7).&#x20;
+* [Safety Staking pool](../staking-pools/safety-staking-pool.md) rewards were set to 0 on November 28, 2022 in [DIP 17](https://dydx.community/dashboard/proposal/9).&#x20;
 
 ## Can dYdX governance modify the epoch schedule?
 
-The initial epoch length is `28 days`. dYdX v3 governance can vote to modify epoch lengths, within the specified bounds. The minimum and maximum epoch lengths are `6 days` and `92 days`, respectively.
+The initial epoch length is `28 days`. dYdX v3 governance can vote to modify epoch lengths, within th=e specified bounds. The minimum and maximum epoch lengths are `6 days` and `92 days`, respectively.
 
 ## What is the Blackout Window?
 
 For the [Liquidity Staking Pool](../staking-pools/liquidity-staking-pool.md) and the [Safety Staking Pool](../staking-pools/safety-staking-pool.md), an epoch schedule is enforced for withdrawals in order to provide predictability and a regular cadence for the availability of funds in the pool. A staker must request to unstake funds before the blackout window in order to be able to withdraw the staker's funds after the end of that epoch. If a staker does not request to withdraw, then the staker's staked funds are rolled over into the next epoch.
 
-The recommended blackout window for each of the Liquidity Staking Pool and the Safety Pool is `14 days`. In [DIP 17](https://dydx.community/dashboard/proposal/9), the dYdX community [voted](https://dydx.community/dashboard/proposal/7) to reduce the length of the Blackout Window from `14 days` to `3 days.` dYdX governance can vote to modify the blackout window, within the specified bounds. The minimum and maximum blackout windows are `3 days` and `46 days`, respectively.
+In [DIP 17](https://dydx.community/dashboard/proposal/9), the dYdX community [voted](https://dydx.community/dashboard/proposal/7) to reduce the length of the Blackout Window from `14 days` to `3 days.` dYdX governance can vote to modify the blackout window, within the specified bounds. The minimum and maximum blackout windows are `3 days` and `46 days`, respectively.
 
 ## When can I withdraw and transfer my earned $ethDYDX Rewards?
 
-Earned $ethDYDX tokens via the [Retroactive Mining Rewards](../rewards/retroactive-mining-rewards.md), [Trading Rewards](../rewards/trading-rewards.md), and [Liquidity Provider Rewards](../rewards/liquidity-provider-rewards.md) are transferable at the end of each epoch. $ethDYDX holders are required to wait approximately `7 days` (**Waiting Period**) after the end of the epoch to claim their tokens. Once tokens have been claimed, they can be transferred or delegated to dYdX governance.
-
-Earned $ethDYDX tokens via the Liquidity Staking pool and the Safety Staking pool are claimable every block and can be withdrawn at any time during a given epoch.
-
-On **September 8th, 2021 at 15:00:00 UTC**, 8 days after the end of Epoch 0, the initial transfer restrictions was automatically lifted, at which point approximately **8.11%** of the $ethDYDX supply became liquid.
+Once tokens have been claimed, they can be transferred or delegated to dYdX governance.
 
 ## What is the purpose of the Waiting Period? How are rewards stored at the end of every epoch?
 
-[Retroactive Mining Rewards](../rewards/retroactive-mining-rewards.md), [Trading Rewards](../rewards/trading-rewards.md), and [Liquidity Provider Rewards](../rewards/liquidity-provider-rewards.md) are stored in a Merkle tree, which contains the cumulative rewards earned by each user since the start of the distribution program.
+[Retroactive Mining Rewards](../rewards/retroactive-mining-rewards.md), [Trading Rewards](../rewards/trading-rewards.md), and [Liquidity Provider Rewards](../rewards/liquidity-provider-rewards.md) were stored in a Merkle tree, which contains the cumulative rewards earned by each user since the start of the distribution program.
 
-At the end of each epoch, the Merkle root is updated via the ChainLink oracle system on the `MerkleDistributorV1` smart contract to reflect rewards earned in the last epoch. An update is performed by setting the proposed Merkle root to the latest value returned by the oracle contract. The proposed Merkle root can be made active after a **Waiting Period** of `7 days` has elapsed. During the waiting period, dYdX governance has the opportunity to freeze the Merkle root, in case the proposed root is incorrect or malicious. If the Merkle root is not frozen, the new Merkle root is activated and users can claim their rewards from the past epoch.
+At the end of each epoch, the Merkle root was updated via the ChainLink oracle system on the `MerkleDistributorV1` smart contract to reflect rewards earned in the last epoch. An update is performed by setting the proposed Merkle root to the latest value returned by the oracle contract. The proposed Merkle root can be made active after a **Waiting Period** of `7 days` has elapsed. During the waiting period, dYdX governance has the opportunity to freeze the Merkle root, in case the proposed root is incorrect or malicious. If the Merkle root is not frozen, the new Merkle root is activated and users can claim their rewards from the past epoch.
 
 Each time the epoch changes, the following occurs in order:
 

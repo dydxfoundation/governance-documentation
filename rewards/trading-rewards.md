@@ -4,7 +4,7 @@ description: Overview of the Trading Rewards program.
 
 # Trading Rewards
 
-`20.2`**`%`** (`201,883,560 $ethDYDX`) of the token supply is allocated to be distributed to users who trade on dYdX v3 based on fees paid. Initially, `25.0%` of the token supply (`250,000,000 $ethDYDX`) was allocated for trading rewards.&#x20;
+`14.5`**`%`** (`144,693,506 $ethDYDX`) of the token supply is allocated to be distributed to users who trade on dYdX v3 based on fees paid. Initially, `25.0%` of the token supply (`250,000,000 $ethDYDX`) was allocated for trading rewards.&#x20;
 
 * In [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/8) to reduce trading rewards by 25.0%. As a result, the allocation for trading rewards decreased from `25.0%` to `20.2%`.&#x20;
 * In [DIP 20](https://dydx.community/dashboard/proposal/11), the dYdX community [voted](https://dydx.community/dashboard/proposal/11) to reduce trading rewards by a further 45.0%. As a result, the allocation for trading rewards decreased from `20.2%` to `14.5%`.&#x20;
@@ -24,7 +24,7 @@ Trading rewards distributed in a given epoch were/will be reduced from 3,835,616
 * 527,398 $ethDYDX in Epoch 31,
 * 0 $ethDYDX in Epoch 32 onwards.
 
-After Epoch 31, there will not be any trading rewards on dYdX v3. The remaining amount on dYdX v3 [Rewards Treasury Vester](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f) can be credited to the dYdX Chain Rewards Treasury Vester (`dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk`) and subsequently distributed as trading rewards on the dYdX Chain, subject to the governance approval on dYdX Chain.&#x20;
+After Epoch 31, there will not be any trading rewards on dYdX v3. In [DIP 29](https://dydx.community/dashboard/proposal/16) on dYdX v3 and [Proposal 2](https://www.mintscan.io/dydx/proposals/2) on dYdX Chain, the dYdX community voted to credit the remaining amount of unvested $ethDYDX in dYdX v3 [Rewards Treasury Vester](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f) to the [dYdX Chain Rewards Treasury Vester `(dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk)`](https://www.mintscan.io/dydx/address/dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk)and subsequently distributed as trading rewards on the dYdX Chain, subject to the governance approval on dYdX Chain.&#x20;
 
 **Objectives**
 
@@ -35,7 +35,7 @@ After Epoch 31, there will not be any trading rewards on dYdX v3. The remaining 
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Fees paid and estimated rewards in a given epoch</p></figcaption></figure>
 
-$ethDYDX will be distributed to traders based on fees paid on dYdX v3. $ethDYDX will be distributed on a 28-day epoch basis over five years and is not subject to any vesting or lockups.&#x20;
+Previously, $ethDYDX was distributed to traders based on fees paid on dYdX v3. $ethDYDX was distributed on a 28-day epoch basis over five years and was not subject to any vesting or lockups.&#x20;
 
 In [DIP 29](https://dydx.community/dashboard/proposal/16), the dYdX community [voted](https://dydx.community/dashboard/proposal/16) to reduce trading rewards by ⅓ from Epoch 30-32 on dYdX v3 to the following values:
 
@@ -66,7 +66,7 @@ In [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-1
 
 ### Who is eligible for trading rewards?
 
-All traders on dYdX v3 are eligible to receive $ethDYDX as trading rewards.
+All traders on dYdX v3 were eligible to receive $ethDYDX as trading rewards.
 
 dYdX v3 is not available to traders in the United States or Restricted Territories, as defined in dYdX Trading Inc.’s [Terms of Use](https://dydx.exchange/terms).
 
