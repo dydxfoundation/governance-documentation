@@ -4,7 +4,7 @@ description: Überblick über das Trading Prämien-Programm.
 
 # Trading-Prämien
 
-`20,2` **`%`** (`201.883.560 $ethDYDX`) des Tokenangebots werden auf der Grundlage der gezahlten Gebühren an Benutzer verteilt, die auf dYdX v3 handeln. Anfangs wurden `25,0 %` des Token-Angebots (`250.000.000 $ethDYDX`) für die Handelsprämien zugewiesen.
+`14,5` **`%`** (`144.693.506 $ethDYDX`) des Tokenangebots werden auf der Grundlage der gezahlten Gebühren an Benutzer verteilt, die auf dYdX v3 handeln. Anfangs wurden `25,0 %` des Token-Angebots (`250.000.000 $ethDYDX`) für die Handelsprämien zugewiesen.
 
 * In [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) hat die dYdX-Community [vereinbart](https://dydx.community/dashboard/proposal/8), die Handelsprämien um 25,0 % zu verringern. Infolgedessen sank die Zuteilung für Handelsprämien von `25,0 %` auf `20,2 %`.
 * In [DIP 20](https://dydx.community/dashboard/proposal/11)hat die dYdX-Community [vereinbart](https://dydx.community/dashboard/proposal/11), die Handelsprämien um weitere 45,0 % zu verringern. In der Folge sank die Zuordnung als Handelsprämien von `20,2 %` auf `14,5 %`.
@@ -24,7 +24,7 @@ Die in einer bestimmten Epoche verteilten Handelsprämien wurden/werden von 3.83
 * 527.398 $ethDYDX in Epoche 31,
 * 0 $ethDYDX in Epoche 32 und weiter.
 
-Nach Epoche 31 wird es keine Handelsprämien auf dYdX v3 mehr geben. Der verbleibende Betrag auf dYdX v3 [Rewards Treasury Vester](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f) kann, vorbehaltlich der Governance-Genehmigung auf dYdX Chain, dem dYdX Chain Rewards Treasury Vester (`dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk`) gutgeschrieben und anschließend als Handelsprämien auf der dYdX Chain verteilt werden.
+Nach Epoche 31 wird es keine Handelsprämien auf dYdX v3 mehr geben. In [DIP 29](https://dydx.community/dashboard/proposal/16) auf dYdX v3 und [Proposal 2](https://www.mintscan.io/dydx/proposals/2) auf dYdX Chain stimmte die dYdX-Community dafür, den verbleibenden Betrag an nicht übertragenem $ethDYDX in dYdX v3 [Rewards Treasury Vester](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f) dem [dYdX Chain Rewards Treasury Vester `(dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk)`](https://www.mintscan.io/dydx/address/dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk) gutzuschreiben und anschließend als Trading-Prämien auf der dYdX Chain zu verteilen, vorbehaltlich der Governance-Genehmigung auf dYdX Chain.
 
 **Ziele**
 
@@ -35,7 +35,7 @@ Nach Epoche 31 wird es keine Handelsprämien auf dYdX v3 mehr geben. Der verblei
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Bezahlte Gebühren und geschätzte Rewards in einer bestimmten Epoche</p></figcaption></figure>
 
-$ethDYDX wird an Händler basierend auf den auf dYdX v3 gezahlten Gebühren verteilt. $ethDYDX wird auf einer 28-tägigen Epochenbasis über fünf Jahre verteilt und unterliegt keinen Sperrfristen oder Sperrvermerken.
+$ethDYDX wurde an Händler basierend auf den auf dYdX v3 gezahlten Gebühren verteilt. $ethDYDX wurde auf einer 28-tägigen Epochenbasis über fünf Jahre verteilt und unterlag keinen Sperrfristen oder Sperrvermerken.
 
 In [DIP 29](https://dydx.community/dashboard/proposal/16)hat die dYdX-Community [vereinbart](https://dydx.community/dashboard/proposal/16), die Handelsprämien von Epoche 30-32 auf dYdX v3 um ⅓ auf die folgenden Werte zu reduzieren:
 
@@ -64,7 +64,7 @@ Im Rahmen des [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content
 
 ### Wer ist für Trading-Prämien berechtigt?
 
-Alle Händler auf dYdX v3 sind berechtigt, $ethDYDX als Handelsprämien zu erhalten.
+Alle Trader auf dYdX v3 waren berechtigt, $ethDYDX als Trading-Prämien zu erhalten.
 
 dYdX v3 ist nicht für Anbieter in den Vereinigten Staaten oder in den eingeschränkten Gebieten verfügbar, wie in den [Nutzungsbedingungen](https://dydx.exchange/terms) von dYdX Trading Inc. definiert.
 
