@@ -16,14 +16,4 @@ description: 奖励资金库概述。
 
 在 2023 年 11 月 18 日，dYdX 社区[投票](https://dydx.community/dashboard/proposal/16)决定将在以太坊上积累的奖励资金库中的 ethDYDX 余额桥接到 dYdX Chain 上。桥接后，DYDX 可以由 dYdX 社区在 dYdX Chain 上进行治理投票后使用。
 
-## 常见问题解答
-
-### dYdX 社区可以获得的社区资金库和奖励资金库的结余是多少？
-
-dYdX 社区成员可以在[此处](https://dydx.shippooor.xyz/)查看社区资金库的归属结余。 \
-\
-此外，在每个时段结束时，dYdX 基金会都会在[时段回顾](https://dydx.foundation/blog)中公布社区资金库的累积结余。
-
-### 谁可以提交“奖励资金库”中 $ethDYDX 的支出提案？
-
-任何拥有足够提议权力的用户都可以提交提议。凡是从社区资金库和/或奖励资金库中支出 $ethDYDX，皆须通过治理投票。如要提交提议，请按照[DIP提议生命周期](../voting-and-governance/dip-proposal-lifecycle.md)中所述，提交dYdX改进提议(DIP)。
+##
