@@ -8,8 +8,6 @@ description: 时段体系的概述
 
 在每个时段结束时，将发生以下情况：
 
-* 分配**交易奖励**。在时段结束后大约`7天`，在[**dydx.community**](https://dydx.community)上申领奖励。
-* 分配**流动性提供方奖励**。在时段结束后大约`7天`，在[**dydx.community**](https://dydx.community)上申领奖励。
 * 在结束时段，**流动性质押资金池**的提现请求可能会被撤回。
 * 在结束时段，为**保险资金质押池**请求的提现可能会被撤回。
 
@@ -95,34 +93,30 @@ dYdX基金会已创建了一个公共Google日历，其中包含时段以及停�
 ## **奖励和质押池何时会被激活？**
 
 * [“追溯挖矿奖励”](../rewards/retroactive-mining-rewards.md)已在 dYdX v3 上分配。 这些奖励一直持续到 **2021 年 8 月 31 日北京时间晚上 11:00:00** 。
-* [交易奖励](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md)现已在协议中生效。这些奖励将持续到**中国时间2026年8月3日晚上11:00:00**。
-* [流动性提供方奖励](../rewards/liquidity-provider-rewards.md)现已在协议中生效。这些奖励将持续到**中国时间 2026 年 8 月 3 日下午 15:00:00**。
-* [流动性质押池](../staking-pools/liquidity-staking-pool.md)于 2022 年 9 月 29 日关闭。
-* [安全质押池](../staking-pools/safety-staking-pool.md)于 2022 年 11 月 28 日关闭。
+* [交易奖励](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md)在 [时段 32](https://dydx.community/dashboard/proposal/16) 中设置为 0。这些奖励从 **北京时间 2021 年 8 月 3 日 15:00:00** 开始， 结束于 **北京时间 2024 年 1 月 16 日 15:00:00**
+* [流动性提供方奖励](../rewards/liquidity-provider-rewards.md) 在 [时段 32](https://dydx.community/dashboard/proposal/16) 中设置为 0。这些奖励从 **北京时间 2021 年 8 月 3 日 15:00:00** 开始，结束于 **2024 年 1 月 16 日 15:00:00**
+* [流动性权益质押池](../staking-pools/liquidity-staking-pool.md)奖励于 2022 年 9 月 29 日在 [DIP 14](https://dydx.community/dashboard/proposal/7) 中设置为 0。
+* [保险资金质押池](../staking-pools/safety-staking-pool.md) 奖励于 2022 年 11 月 28 日在 [DIP 17](https://dydx.community/dashboard/proposal/9) 中设置为 0。
 
 ## dYdX治理是否可以修改时段时间表？
 
-初始时段长度为 `28 天`。dYdX v3 治理可以投票在指定限度内修改时段长度。最短时段和最长时段长度分别为`6天`和`92天`。
+初始时段长度为 `28 天`。dYdX v3 治理可以投票在指定限度内修改时段长度。 最短时段和最长时段长度分别为`6天`和`92天`。
 
 ## 停市窗口期是什么？
 
 对于[流动性质押池](../staking-pools/liquidity-staking-pool.md)和[保险资金质押池](../staking-pools/safety-staking-pool.md)，对提现强制执行时段时间表，以便为池内资金的可用性提供可预测性和定期节奏。如果要在时段结束后能够提现质押人的资金，质押人必须请求在停市窗口期前解除质押资金。如果质押人不请求提现，那么质押人质押的资金将转入下一时段。
 
-每个流动性质押池和安全质押池的推荐停市窗口期为 `14 天`。 在 [DIP 17](https://dydx.community/dashboard/proposal/9) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/7)将停市窗口期从 `14 天`缩减至 `3 天。` dYdX 治理部可以投票在指定的范围内修改停市窗口期。最短和最长停市窗口期分别为`3天`和`46天`。
+在 [DIP 17](https://dydx.community/dashboard/proposal/9)[](https://dydx.community/dashboard/proposal/7) 中，dYdX 社区`投票`将停市窗口期从 `14 天`缩减至 3 天。 dYdX 治理部可以投票在指定的范围内修改停市窗口期。最短和最长停市窗口期分别为`3天```和46天。
 
 ## 何时可以支取并转账赚取的 $ethDYDX 奖励？
 
-通过[“追溯挖矿奖励”](../rewards/retroactive-mining-rewards.md)、[“交易奖励”](../rewards/trading-rewards.md)、[“流动性提供方奖励”](../rewards/liquidity-provider-rewards.md)赚取的 $ethDYDX 代币可以在每个时段结束时转账。$ethDYDX 持有人必须在时段结束后等待约 `7 天`（**等待期**）才能申领代币。 一旦代币被申领，它们就可以转让或委托给dYdX治理。
-
-通过“流动性质押资金池”和“安全质押池”赚取的 $ethDYDX 代币可以在每个区块申领，并可在特定时段内随时支取。
-
-**2021 年 9 月 8 日北京时间晚上 11:00:00**，即时段 0 结束 8 天后，初始转账限制自动解除，当时约有 **8.11%** 的 $ethDYDX 供应开始流通。
+一旦代币被申领，它们就可以转让或委托给dYdX治理。
 
 ## 等待期的目的是什么？在每个时段结束时，奖励如何存储？
 
-[追溯性挖矿奖励、](../rewards/retroactive-mining-rewards.md)[交易奖励](../rewards/trading-rewards.md)和[流动性提供方奖励](../rewards/liquidity-provider-rewards.md)储存在Merkle树，该树包含了自分配计划开始以来每个用户赚取的累计奖励。
+[追溯性挖矿奖励](../rewards/retroactive-mining-rewards.md)、 [交易奖励](../rewards/trading-rewards.md) 和 [流动性提供方奖励](../rewards/liquidity-provider-rewards.md) 存储在 Merkle 树上，该树包含自分配计划开始以来每个用户获得的累计奖励。
 
-在每个时段结束时，Merkle根通过`MerkleDistributorV1`智能合约上的ChainLink预言机系统进行更新，以反映上一时段赚取的奖励。通过将提议的Merkle根设置为预言机合约回收的最新价值来进行更新。在`7天`的**等候期**过后，提议的Merkle根可以被激活。在等待期间，dYdX治理将有机会冻结Merkle根，以防止提议的根是不正确或恶意的。如果Merkle根不被冻结，那么新的Merkle根将被激活，用户可以从过去时段申领奖励。
+在每个时段结束时，Merkle 根通过 `MerkleDistributorV1` 智能合约上的 ChainLink 预言机系统进行更新，以反映上一时段赚取的奖励。通过将提议的Merkle根设置为预言机合约回收的最新价值来进行更新。在`7天`的**等候期**过后，提议的Merkle根可以被激活。在等待期间，dYdX治理将有机会冻结Merkle根，以防止提议的根是不正确或恶意的。如果Merkle根不被冻结，那么新的Merkle根将被激活，用户可以从过去时段申领奖励。
 
 每当时段发生变化时，就会依次发生以下情况：
 

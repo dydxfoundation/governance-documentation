@@ -53,7 +53,7 @@ description: 分配 ethDYDX 代币。
 
 ### 是否可以更改 $ethDYDX 的分配？
 
-是的，dYdX 社区可以更改[启动之时存在的任意奖励和资金池](../voting-and-governance/governance-parameters.md)。到目前为止，dYdX 社区已投票将交易奖励减少 25%，将 $USDC 质押奖励设置为 0，将 $ethDYDX 质押奖励设置为 0。
+是的，dYdX 社区可以更改[启动之时存在的任意奖励和资金池](../voting-and-governance/governance-parameters.md)。到目前为止，dYdX 社区已在几个治理提议中投票决定减少 DYDX 发放：
 
 在 [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) 中，dYdX社区 [投票](https://dydx.community/dashboard/proposal/8) 支持将交易奖励减少 25%。因此，在给定特定时段内分配的交易奖励从 3,835,616 $ethDYDX 减少到时段 15 的 2,876,712  $ethDYDX。“奖励资金库”中所累积的剩余 958,904 $ethDYDX 可由 dYdX 社区通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。\
 \
@@ -61,8 +61,7 @@ description: 分配 ethDYDX 代币。
 
 在 [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md) 中，dYdX 社区[已投票](https://dydx.community/dashboard/proposal/9)将质押 $ethDYDX 的奖励设置为 0。先前分配给 $DYDX 质押人的 383,562 $ethDYDX 将在“奖励资金库”中积累，dYdX 社区可以通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。
 
-在 [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) 中，dYdX 社区[已投票](https://dydx.community/dashboard/proposal/14)将“流动性提供方奖励”削减 50%，从每时段 1,150,685 $ethDYDX 降至每时段 575,343 $ethDYDX。每时段剩余的 575,342 $ethDYDX 将计入“奖励资金库”，dYdX 社区可以通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。\
-
+在 [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) 中，dYdX 社区[已投票](https://dydx.community/dashboard/proposal/14)将“流动性提供方奖励”削减 50%，从每时段 1,150,685 $ethDYDX 降至每时段 575,343 $ethDYDX。每时段剩余的 575,342 $ethDYDX 将计入“奖励资金库”，dYdX 社区可以通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。
 
 在 [DIP 29](https://dydx.community/dashboard/proposal/16) 中，dYdX 社区投票决定将 dYdX v3 上的交易和 LP 奖励从 30-32 时段减少 ⅓，减为以下值：
 

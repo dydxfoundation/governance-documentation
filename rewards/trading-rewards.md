@@ -4,7 +4,7 @@ description: 交易奖励计划概述。
 
 # 交易奖励
 
-代币供应的 `20.2`**`%`**（`201,883,560 $ethDYDX`）将根据用户在 dYdX v3 上交易所付的费用分配给用户。最初，代币供应量 (`250,000,000 $ethDYDX`) 的 `25.0%` 分配给交易奖励。
+`14.5`**`%`** (`144,693,506 $ethDYDX`) 的代币供应将根据用户在 dYdX v3 上交易所付的费用分配给用户。 最初，代币供应量 (`250,000,000 $ethDYDX`) 的 `25.0%` 分配给交易奖励。
 
 * 在 [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/8)将交易奖励减少 25.0%。因此，分配给交易奖励的代币从 `25.0%` 降至 `20.2%`。
 * 在 [DIP 20](https://dydx.community/dashboard/proposal/11) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/11)将交易奖励再减少 45.0%。因此，分配给交易奖励的代币从 `20.2%` 降至 `14.5%`。
@@ -24,7 +24,7 @@ description: 交易奖励计划概述。
 * 时段 31：527,398 $ethDYDX；
 * 32 及以后时段：0 $ethDYDX。
 
-在 31 时段之后，dYdX v3 上将没有任何交易奖励。 dYdX v3 [奖励库所属者](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f)上剩余的金额可以转入 dYdX Chain 奖励库所属者（`dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk`），并在dYdX Chain上作为交易奖励进行分配，但前提是在 dYdX Chain 上获得治理批准。
+在时段 31 之后，dYdX v3 上将没有任何交易奖励。在 dYdX v3 上的 [DIP 29](https://dydx.community/dashboard/proposal/16) 和 dYdX 链上的 [提议 2](https://www.mintscan.io/dydx/proposals/2) 中，dYdX 社区投票决定将 dYdX v3 [奖励资金库归属者](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f) 上剩余的未归属 $ethDYDX 金额转入 [dYdX 链奖励资金库归属者 `(dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk)`](https://www.mintscan.io/dydx/address/dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk)，并在 dYdX 链上作为交易奖励进行分配，但前提是在 dYdX 链上获得治理批准。
 
 **目标**
 
@@ -35,7 +35,7 @@ description: 交易奖励计划概述。
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>在给定时段内所支付的费用以及预估的奖励</p></figcaption></figure>
 
-$ethDYDX 将根据在 dYdX v3 上支付的费用分配给交易者。 $ethDYDX 将在五年内以 28 天 的时段为基础分配，不受任何约束或锁定。
+此前，$ethDYDX 根据在 dYdX v3 上支付的费用分配给交易者。$ethDYDX 在五年内以 28 天的时段为基础分配，不受任何约束或锁定。
 
 在 [DIP 29](https://dydx.community/dashboard/proposal/16) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/16)决定将 dYdX v3 上的交易奖励从 30-32 时段减少 ⅓，减为以下值：
 
@@ -66,7 +66,7 @@ $$
 
 ### 谁有资格获得交易奖励？
 
-在 dYdX v3 上的所有交易者都有资格获得 $ethDYDX 作为交易奖励。
+dYdX v3 上的所有交易者都有资格获得 $ethDYDX 作为交易奖励。
 
 dYdX v3 不适用于在 dYdX Trading Inc 的[《使用条款》](https://dydx.exchange/terms)中规定的位于美国或受限制地区的交易者。
 

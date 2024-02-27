@@ -20,18 +20,16 @@ $ethDYDX 和 $wethDYDX 的持有人被授予两种治理权：提议权和投票
 
 ### 质押
 
-目前，流动性模块和安全模块无效。持有 $stkDYDX 和 $stkUSDC 的用户不获取奖励。用户可以在 [**dydx.community**](https://dydx.community) `请求提`现并`提现。`
+目前，流动性模块和安全模块无效。在以太坊上持有 $stkDYDX 和 $stkUSDC 的用户不获取奖励。 用户可以在 [**dydx.community**](https://dydx.community) `请求提`现并`提现。`
 
 ### 交易奖励
 
-用户可以在layer 2交易所查看通过交易活动赚取的奖励。交易奖励根据时段时间表每28天进行一次分配。
+用户可以查看先前通过在 Layer 2 交易所上的交易活动赚取的奖励。
 
 ![交易以获得奖励](../.gitbook/assets/4.5-trade-to-rewards.png)
 
 ### 资金组合和申领 $ethDYDX
 
 用户可以查看他们的 $ethDYDX 持有量、可申领的 $ethDYDX、质押的 $ethDYDX 和可支取的 $ethDYDX的综合视图。
-
-用户可以查看 $ethDYDX 代币当前的流通供应量和日常分配。用户还可申领所有可用的 $ethDYDX 奖励。$ethDYDX 代币于 **2021 年 9 月 8 日**北京时间大约晚上11:00 可开始转账。
 
 ![申领奖励](../.gitbook/assets/4.6-claim-rewards.png)
