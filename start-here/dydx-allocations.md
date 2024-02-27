@@ -53,7 +53,7 @@ description: Распределения токена ethDYDX.
 
 ### Может ли измениться распределение $ethDYDX?
 
-Да, сообщество dYdX может менять любые [награды и пулы, существующие на момент запуска](../voting-and-governance/governance-parameters.md). На данный момент сообщество dYdX проголосовало за сокращение размера наград за торговлю на 25%, а также установку размера наград за стейкинг $USDC и $ethDYDX равным 0.
+Да, сообщество dYdX может менять любые [награды и пулы, существующие на момент запуска](../voting-and-governance/governance-parameters.md). К настоящему времени сообщество dYdX проголосовало за сокращение эмиссии DYDX в нескольких предложениях по управлению:
 
 В рамках [ППУ 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/8) за сокращение размера наград за торговлю на 25%. Так, в эпоху 15 размер наград за торговлю, распределяемых в эпоху, сократился с 3 835 616 $ethDYDX до 2 876 712 $ethDYDX. Оставшиеся 958 904 $ethDYDX будут поступать в казну наград. Сообщество dYdX сможет использовать их после [голосования среди пользователей, управляющих токеном](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).\
 \
@@ -61,8 +61,7 @@ description: Распределения токена ethDYDX.
 
 В рамках [ППУ 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/9) за установку количества наград, связанных со стейкингом $ethDYDX, равным 0. 383 562 $ethDYDX, ранее распределяемых между стейкерами $DYDX, будут поступать в казну наград. Сообщество dYdX сможет использовать их после [голосования среди пользователей, управляющих токеном](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
-В рамках [ППУ 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/14) за сокращение размера наград для поставщиков ликвидности на 50% с 1 150 685 $ethDYDX за эпоху до 575 343 $ethDYDX за эпоху. Избыточные 575 342 $ethDYDX за эпоху будут поступать в казну наград. Сообщество dYdX сможет использовать их по итогам [голосования среди пользователей, управляющих токеном](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters). \
-
+В рамках [ППУ 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/14) за сокращение размера наград для поставщиков ликвидности на 50% с 1 150 685 $ethDYDX за эпоху до 575 343 $ethDYDX за эпоху. Избыточные 575 342 $ethDYDX за эпоху будут поступать в казну наград. Сообщество dYdX сможет использовать их по итогам [голосования среди пользователей, управляющих токеном](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
 В рамках [ППУ 29](https://dydx.community/dashboard/proposal/16) сообщество проголосовало за сокращение наград за торговлю на ⅓ с эпохи 30–32 на dYdX v3 до следующих значений:
 
