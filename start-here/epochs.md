@@ -8,8 +8,6 @@ Alle Prämien und Staking-Verträge werden in `28-Tage`-Zyklen, die als **Epoche
 
 Am Ende jeder Epoche wird Folgendes geschehen:
 
-* **Die Trading-Prämien** werden ausgeschüttet. Die Prämien sind etwa `7 Tage` nach Ablauf der Epoche auf [**dydx.community**](https://dydx.community) abholbereit.
-* Es werden die **Liquidity Provider Prämien** ausgeschüttet. Die Prämien sind etwa `7 Tage` nach Ablauf der Epoche auf [**dydx.community**](https://dydx.community) abholbereit.
 * Die in der vorherigen Epoche beantragten Auszahlungen aus dem **Liquidity Staking Pool** können getätigt werden.
 * Die in der vorherigen Epoche beantragten Auszahlungen aus dem **Safety Staking Pool** können getätigt werden.
 
@@ -95,10 +93,10 @@ Die dYdX Foundation hat einen öffentlichen Google-Kalender mit Start/Enddaten f
 ## **Wann werden die Prämien und Staking Pools aktiviert?**
 
 * Die [rückwirkenden Mining-Prämien](../rewards/retroactive-mining-rewards.md) wurden auf dYdX v3 verteilt. Diese Prämien liefen bis **zum 31. August 2021, 15:00:00 UTC**.
-* Die [Trading-Prämien](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md) sind jetzt auf dem Protokoll live. Diese Prämien werden bis 3. **August 2026, 15:00:00 UTC** laufen.
-* Die [Prämien für Liquidity Provider](../rewards/liquidity-provider-rewards.md) sind nun auf dem Protokoll live. Diese Prämien werden bis 3. **August 2026, 15:00:00 UTC** laufen.
-* Der  [Liquidity Staking pool](../staking-pools/liquidity-staking-pool.md) wurde am 29. September 2022 aufgelöst.
-* Der [Safety Staking pool](../staking-pools/safety-staking-pool.md) wurde am 28. November 2022 aufgelöst.
+* [Die Trading-Prämien](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md) wurden in [Epoche 32](https://dydx.community/dashboard/proposal/16) auf 0 festgelegt. Diese Prämien liefen vom 3. **August 2021, 15:00:00 UTC bis zum 16. August 2024, 15:00:0******0 UTC
+* [Prämien für Liquiditätsanbieter](../rewards/liquidity-provider-rewards.md) wurden in [Epoche 32](https://dydx.community/dashboard/proposal/16) auf 0 festgelegt. Diese Prämien liefen vom 3. **August 2021, 15:00:00 UTC bis zum 16. August 2024, 15:00:00****** UTC
+* Die [Liquidity Staking Poolrewards](../staking-pools/liquidity-staking-pool.md) wurden am 29. September 2022 in [DIP 14](https://dydx.community/dashboard/proposal/7) auf 0 festgelegt.
+* [Die Safety Staking Pool](../staking-pools/safety-staking-pool.md)-Prämien wurden am 28. November 2022 in [DIP 17](https://dydx.community/dashboard/proposal/9) auf 0 festgelegt.
 
 ## Kann die dYdX-Governance den Epochenplan abändern?
 
@@ -108,21 +106,17 @@ Die erste Epochenlänge beträgt `28 Tage`. Die dYdX-v3-Governance kann innerhal
 
 Für den [Liquidity Staking Pool](../staking-pools/liquidity-staking-pool.md) und den [Safety Staking Pool](../staking-pools/safety-staking-pool.md) wird ein Epochenplan für Auszahlungen streng eingehalten, um Vorhersagbarkeit und eine regelmäßige Abfolge verfügbar gemachter Gelder im Pool zu gewährleisten. Wenn ein Staker Gelder aus dem Staking nehmen möchte, muss er dies beantragen, bevor das Blackout Window öffnet, um sein Guthaben nach Ende dieser Epoche abheben zu können. Wenn ein Staker die Auszahlung nicht beantragt, werden die gestakten Gelder des Stakers in die nächste Epoche hinübergenommen.
 
-Das empfohlene Sperrzeitfenster für den Liquidity Staking Pool und den Safety Pool beträgt `jeweils 14 Tage`. Bei [DIP 17](https://dydx.community/dashboard/proposal/9) [stimmte](https://dydx.community/dashboard/proposal/7) die dYdX-Gemeinschaft dafür, die Länge des Blackout-Fensters von `14` auf `3` Tage zu verkürzen. Die dYdX-Governance kann über eine Änderung des Sperrzeitfensters innerhalb der festgelegten Grenzen abstimmen. Die minimale Länge eines Blackout Windows beträgt `3 Tage`, die maximale Länge eines Blackout Windows beträgt `46 Tage`.
+Bei [DIP 17](https://dydx.community/dashboard/proposal/9)[](https://dydx.community/dashboard/proposal/7) `stimmte` die dYdX-Gemeinschaft dafür, die Länge des Blackout-Fensters von `14` auf 3 Tage zu verkürzen. Die dYdX-Governance kann über eine Änderung des Sperrzeitfensters innerhalb der festgelegten Grenzen abstimmen. Die minimale Länge eines Blackout Windows beträgt `3 Tage```, die maximale Länge eines Blackout Windows beträgt 46 Tage.
 
 ## Wann kann ich meine verdienten $ethDYDX-Prämien auszahlen lassen und überweisen?
 
-Verdiente $ethDYDX-Token über die [rückwirkenden Mining-Prämien](../rewards/retroactive-mining-rewards.md), [Handelsprämien](../rewards/trading-rewards.md) und Prämien [für Liquiditätsanbieter](../rewards/liquidity-provider-rewards.md) sind am Ende jeder Epoche übertragbar. Inhaber von $ethDYDX müssen ungefähr `7 Tage` (**Wartezeit**) nach dem Ende der Epoche warten, um ihre Token zu beanspruchen. Sobald Token beansprucht wurden, können diese überwiesen oder an die dYdX-Governance delegiert werden.
-
-Verdiente $ethDYDX-Token können über den Liquidity Staking Pool und den Safety Staking Pool in jedem Block abgeholt und jederzeit während einer gegebenen Epoche ausgezahlt werden.
-
-Am **8. September 2021 um 15:00:00 UTC**, 8 Tage nach Ablauf der Epoche 0, werden die ersten Transferbeschränkungen automatisch aufgehoben, woraufhin etwa **8,11 %** der $ethDYDX flüssig wurden.
+Sobald Token beansprucht wurden, können diese überwiesen oder an die dYdX-Governance delegiert werden.
 
 ## Wozu dient die Wartezeit? Wie werden die Prämien am Ende jeder Epoche aufbewahrt?
 
-[Rückwirkende Mining-Prämien](../rewards/retroactive-mining-rewards.md), [Trading-Prämien](../rewards/trading-rewards.md) und [Liquidity-Provider-Prämien](../rewards/liquidity-provider-rewards.md) werden in einem Hash-Baum gespeichert, der die kumulativen Prämien enthält, welche alle Benutzer seit Beginn des Vertriebsprogramms verdient haben.
+Rückwirkende [Mining-Prämien](../rewards/retroactive-mining-rewards.md), [Trading-Prämien](../rewards/trading-rewards.md) und [Prämien für Liquiditätsanbieter](../rewards/liquidity-provider-rewards.md) wurden in einem Merkle-Baum gespeichert, der die kumulativen Prämien enthält, die von jedem Benutzer seit Beginn des Verteilungsprogramms verdient wurden.
 
-Am Ende jeder Epoche wird die Merkle Root über das ChainLink Oracle System auf dem `MerkleDistributorV1` Smart Contract aktualisiert, um die in der letzten Epoche erzielten Prämien zu veranschaulichen. Ein Update wird durchgeführt, indem die vorgeschlagene Merkle Root auf den letzten Wert eingestellt wird, der vom Oracle Vertrag zurückgegeben wurde. Die vorgeschlagene Merkle Root kann nach Ablauf einer **Wartezeit** von `7 Tagen` aktiviert werden. Während der Wartezeit hat die dYdX-Governance die Möglichkeit, die Merkle Root einzufrieren, falls die vorgeschlagene Root falsch oder bösartig ist. Wenn die Merkle Root nicht eingefroren ist, wird die neue Merkle Root aktiviert und die Benutzer können ihre Prämien aus der vergangenen Epoche beanspruchen.
+Am Ende jeder Epoche wurde die Merkle Root über das ChainLink Oracle System auf dem `MerkleDistributorV1` Smart Contract aktualisiert, um die in der letzten Epoche erzielten Prämien zu veranschaulichen. Ein Update wird durchgeführt, indem die vorgeschlagene Merkle Root auf den letzten Wert eingestellt wird, der vom Oracle Vertrag zurückgegeben wurde. Die vorgeschlagene Merkle Root kann nach Ablauf einer **Wartezeit** von `7 Tagen` aktiviert werden. Während der Wartezeit hat die dYdX-Governance die Möglichkeit, die Merkle Root einzufrieren, falls die vorgeschlagene Root falsch oder bösartig ist. Wenn die Merkle Root nicht eingefroren ist, wird die neue Merkle Root aktiviert und die Benutzer können ihre Prämien aus der vergangenen Epoche beanspruchen.
 
 Jedes Mal, wenn sich die Epoche ändert, tritt Folgendes nacheinander auf:
 

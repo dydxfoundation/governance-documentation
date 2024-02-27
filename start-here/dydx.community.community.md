@@ -20,18 +20,16 @@ Inhabern von $ethDYDX und $wethDYDX werden zwei Arten von Governance gewährt: V
 
 ### Staking
 
-Derzeit sind das Liquiditätsmodul und das Sicherheitsmodul inaktiv. Benutzer, die $stkDYDX und $stkUSDC halten, verdienen keine Prämien. Benutzer können die `Auszahlung beantragen` und `abheben` bei [**dydx.community**](https://dydx.community).
+Derzeit sind das Liquiditätsmodul und das Sicherheitsmodul inaktiv. Benutzer, die $stkDYDX und $stkUSDC auf Ethereum halten, verdienen keine Prämien. Benutzer können die `Auszahlung beantragen` und `abheben` bei [**dydx.community**](https://dydx.community).
 
 ### Trading-Prämien
 
-Benutzer können ihre über Trading verdienten Rewards auf der Layer 2-Exchange anzeigen. Trading-Prämien werden alle 28 Tage nach einem Epochenplan verteilt.
+Benutzer können ihre zuvor verdienten Prämien anzeigen, die durch die Handelsaktivität auf der Layer-2-Börse verdient wurden.
 
 ![Traden Sie um Prämien zu erhalten](../.gitbook/assets/4.5-trade-to-rewards.png)
 
 ### Portfolio und $ethDYDX abholen
 
 Die Benutzer können sich einen Überblick über ihre $ethDYDX-Bestände, ihre beanspruchbaren $ethDYDX, ihre gestakten $ethDYDX und ihre auszahlungsfähigen $ethDYDX verschaffen.
-
-Benutzer können die aktuelle Umlaufversorgung und die tägliche Verteilung von $ethDYDX-Token einsehen. Benutzer können auch alle verfügbaren $ethDYDX-Prämien beanspruchen. $ethDYDX-Token wurden am **8. September 2021** um ungefähr 15:00 UTC übertragbar.
 
 ![Holen Sie sich Ihre Prämien ab](../.gitbook/assets/4.6-claim-rewards.png)
