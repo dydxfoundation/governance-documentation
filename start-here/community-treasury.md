@@ -4,7 +4,7 @@ description: 커뮤니티 트레저리에 대한 개요
 
 # 커뮤니티 금고
 
-토큰 공급량의 **`26.1%`** (`261,133,225 $ethDYDX`)가 dYdX 커뮤니티의 커뮤니티 금고에 할당되므로 기여자 보조금, 커뮤니티 이니셔티브, 유동성 채굴 및 기타 프로그램에 지속적으로 사용할 수 있습니다. 초기에는 토큰 공급량의 `5.0%`(`50,000,000$ethDYDX`)가 커뮤니티 금고에 [할당되었으며](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations), 에폭마다 766,703$ethDYDX가 커뮤니티 금고에 귀속됩니다. 현재 3,787,251$ethDYDX가 커뮤니티 금고에 귀속되며, 이는 여러 거버넌스의 제안으로 인해 각 에폭마다 dYdX 커뮤니티에서 이용 가능한 $ethDYDX 액수가 3,020,548$ethDYDX로 증가했기 때문입니다.
+토큰 공급량의 **`26.1%`** (`261,133,225 $ethDYDX`)가 dYdX 커뮤니티의 커뮤니티 금고에 할당되므로 기여자 보조금, 커뮤니티 이니셔티브, 유동성 채굴 및 기타 프로그램에 지속적으로 사용할 수 있습니다. 초기에는 토큰 공급량의 `5.0%`(`50,000,000$ethDYDX`)가 커뮤니티 금고에 [할당되었으며](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations), 에폭마다 766,703$ethDYDX가 커뮤니티 금고에 귀속되었습니다. 현재 3,787,251$ethDYDX가 커뮤니티 금고에 귀속되며, 이는 여러 거버넌스의 제안으로 인해 각 에폭마다 dYdX 커뮤니티에서 이용 가능한 $ethDYDX 액수가 3,020,548$ethDYDX로 증가했기 때문입니다.
 
 * [DIP 14](https://dydx.community/dashboard/proposal/7) - USDC 스테이킹 보상을 0으로 설정(에폭당 383,562$ethDYDX),
 * [DIP 16](https://dydx.community/dashboard/proposal/8) - 거래 보상 25% 감소(에폭당 958,904 $ethDYDX),
@@ -39,36 +39,13 @@ description: 커뮤니티 트레저리에 대한 개요
 
 ### $ethDYDX는 어떠한 방식으로 커뮤니티 금고에 귀속되나요?
 
-매 초마다 커뮤니티 트레저리 베스터(자세한 내용은 [여기](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)를 참조)가 커뮤니티 금고에 [`0.3169242627`](tel:03169242627)$ethDYDX를 부여합니다. DYDX가 귀속되면 커뮤니티 트레저리 베스터에서 `claim` 함수를 호출하여 귀속된 DYDX를 커뮤니티 금고로 이동시킬 수 있습니다. dYdX 커뮤니티 회원이라면 누구나 [여기](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract)에서 Etherscan의 `claim` 함수를 호출할 수 있으며(가스 수수료를 위해 ETH 필요), 이로써 커뮤니티 트레저리 베스터를 통해 귀속된 $DYDX를 커뮤니티 금고로 이동시킬 수 있습니다.
+이전에는 커뮤니티 트레저리 베스터(자세한 내용은 [여기](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)를 참조)가 매 초마다 커뮤니티 트레저리에 [`0.3169242627`](tel:03169242627) $ethDYDX를 부여했습니다. $ethDYDX가 귀속되면 커뮤니티 트레저리 베스터에서 `claim` 함수를 호출하여 귀속된 $ethDYDX를 커뮤니티 트레저리로 이전합니다. dYdX 커뮤니티 회원이라면 누구나 [여기에서](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract) Etherscan의 `claim` 함수를 호출할 수 있으며(가스 수수료를 위해 ETH 필요), 이로써 커뮤니티 트레저리 베스터를 통해 귀속된 $DYDX를 커뮤니티 금고로 이동시킬 수 있습니다.
 
 dYdX 커뮤니티의 커뮤니티 재무 관리에 대한 자세한 내용은 dYdX 재단의 [이용 약관](https://dydx.foundation/terms)을 참조하십시오.
 
 <figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
 
-### 커뮤니티 트레저리의 귀속 잔액은 무엇입니까?
+###
 
-dYdX 커뮤니티 회원은 [여기](https://dydx.shippooor.xyz/)에서 커뮤니티 트레저리의 귀속 잔액을 볼 수 있습니다. \
-\
-또한, dYdX Foundation은 각 에폭 말에 [에폭 검토](https://dydx.foundation/blog)를 통해 커뮤니티 트레저리의 귀속 잔액에 대한 정보만을 공표합니다. 커뮤니티 금고에 귀속된 $DYDX 이외에도, dYdX 커뮤니티는 다음 투표의 결과를 통해 보상 금고에 누적되는 $DYDX에 액세스할 수 있습니다.
+###
 
-* [DIP 14](https://dydx.community/dashboard/proposal/7) - USDC 스테이킹 보상을 0으로 설정(에폭당 383,562$ethDYDX),
-* [DIP 16](https://dydx.community/dashboard/proposal/8) - 거래 보상을 25% 감소(에폭당 958,904 $ethDYDX),
-* [DIP 17](https://dydx.community/dashboard/proposal/9) - ethDYDX 스테이킹에 대한 보상을 0으로 설정(에폭당 383,562$ethDYDX),
-* [DIP 20](https://dydx.community/dashboard/proposal/11) - 거래 보상을 45%까지 추가 감소(에폭당 1,294,520$ethDYDX),
-* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - 유동성 공급자 보상 50% 감소(에폭당 575,342$ethDYDX),
-*  [DIP 29](https://dydx.community/dashboard/proposal/16) - dYdX v3의 에폭 30-32에서 다음 값으로 유동성 공급자 보상을 ⅓ 감소:
-  * 에폭 30: 383,562 $ethDYDX
-  * 에폭 31: 191,781 $ethDYDX
-  * 에폭 32: 0$ethDYDX
-
-### 커뮤니티 금고에서 ethDYDX 지출을 제안할 수 있는 사람은 누구인가요?
-
-충분한 제안권을 보유한 사용자는 누구든 제안을 제출할 수 있습니다. 커뮤니티 금고의 모든 ethDYDX는 지출하려면 거버넌스 투표를 거쳐야 합니다. 제안을 제출하려면 [DIP 제안 수명 주기](../voting-and-governance/dip-proposal-lifecycle.md)에 명시된 대로 dYdX 개선 제안(DIP)을 제출하시기 바랍니다.
-
-### 커뮤니티 트레저리에서 자금을 지출할 제안 작성은 어떻게 할 수 있습니까?
-
-Reverie는 5M$ethDYDX 이상([단기 시간제한 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)의 [제안 임곗값](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters))의 제안권을 가진 dYdX 커뮤니티 구성원에게 커뮤니티 금고에서 목적지 주소로 $ethDYDX를 전송하는 제안서 작성 방법을 알려주기 위해 포괄적이고 기술적인 단계별 가이드를 만들었습니다. 기술 가이드에 액세스하려면 [여기](https://app.gitbook.com/o/-MeNgGQU0ucT2xo4s8-T/s/-MeNfSkgj48hU0q8Zbjn/\~/changes/EyisuFjLIyJ7K9RzaTfJ/technical-guide-on-building-a-dydx-community-treasury-spending-proposal)를 클릭하십시오.
-
-### 커뮤니티 트레저리에 어떤 유형의 제안을 제출할 수 있습니까?
-
-커뮤니티 관리 금고는 가능성의 세계를 열어 줍니다. 우리는 생태계 보조금 등과 같은 다양한 실험 및 이니셔티브를 기대하며, 이로써 dYdX v3 생태계의 성장을 촉진할 수 있기를 바랍니다.
