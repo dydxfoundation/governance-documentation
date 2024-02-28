@@ -53,7 +53,7 @@ $ethDYDX 출시 이래로 초기 할당의 변화를 이끈 거버넌스 제안�
 
 ### $ethDYDX 할당 방식이 바뀔 수도 있나요?
 
-예, dYdX 커뮤니티는 [출시 시에 존재했던 모든 보상 및 풀](../voting-and-governance/governance-parameters.md)을 변경할 수 있습니다. 지금까지 dYdX 커뮤니티는 투표를 통해 거래 보상을 25% 줄이고 $USDC 스테이킹 보상을 0으로 설정했으며, $ethDYDX 스테이킹 보상을 0으로 설정했습니다.
+예, dYdX 커뮤니티는 [출시 시에 존재했던 모든 보상 및 풀](../voting-and-governance/governance-parameters.md)을 변경할 수 있습니다. 지금까지 dYdX 커뮤니티는 여러 거버넌스 제안에서 DYDX 배출량을 줄이기로 결정했습니다.
 
 [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)에서 dYdX 커뮤니티는 거래 보상을 25% 낮추기로 [투표](https://dydx.community/dashboard/proposal/8)했습니다. 그 결과, 특정 에폭에서 분배된 거래 보상이 에폭 15에서 3,835,616$ethDYDX에서 2,876,712$ethDYDX로 감소했습니다. 잔여 958,904$DYDX는 보상 금고에 축적되며, dYdX 커뮤니티는 [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 이를 사용할 수 있습니다\.
 \
@@ -61,8 +61,7 @@ $ethDYDX 출시 이래로 초기 할당의 변화를 이끈 거버넌스 제안�
 
 [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md)에서 dYdX 커뮤니티는 [투표를 통해](https://dydx.community/dashboard/proposal/9) $ethDYDX 스테이킹 관련 보상을 0으로 설정하기로 결정했습니다. 이전에 $DYDX 스테이커에게 배포된 383,562$ethDYDX는 보상 금고에 축적되며 dYdX 커뮤니티는 [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 이를 사용할 수 있습니다.
 
-[DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)에서 dYdX 커뮤니티는 유동성 공급자 보상을 에폭당 1,150,685$ethDYDX에서 575,343$ethDYDX로 50% 감소시키기로 결정[했습니다. ](https://dydx.community/dashboard/proposal/14)에폭당 초과량 575,342$ethDYDX는 보상 금고에 누젹될 것이며, [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 dYdX 커뮤니티에서 이를 사용할 수 있습니다. \
-
+[DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)에서 dYdX 커뮤니티는 유동성 공급자 보상을 에폭당 1,150,685$ethDYDX에서 575,343$ethDYDX로 50% 감소시키기로 결정[했습니다. ](https://dydx.community/dashboard/proposal/14)에폭당 초과량 575,342$ethDYDX는 보상 금고에 누젹될 것이며, [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 dYdX 커뮤니티에서 이를 사용할 수 있습니다.
 
 [DIP 29에서](https://dydx.community/dashboard/proposal/16) dYdX 커뮤니티는 dYdX v3의 에폭 30-32에 해당하는 거래 보상과 LP 보상을 ⅓ 줄이기로 결정했으며 해당 값은 다음과 같습니다.
 
