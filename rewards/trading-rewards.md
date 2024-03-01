@@ -4,27 +4,27 @@ description: 거래 보상 프로그램 개요
 
 # 거래 보상
 
-토큰 공급량의 `20.2`**`%`**(`201,883,560$ethDYDX`)가 dYdX v3상에서 거래하는 사용자에게 지급된 수수료를 기준으로 분배하여 할당됩니다. 초기에는 토큰 공급량의 `25.0%`(`250,000,000$ethDYDX`)가 거래 보상으로 할당되었습니다.
+토큰 공급량의 `14.5`**`%`**(`144,693,506 $ethDYDX`)가 dYdX v3상에서 거래하는 사용자에게 지급된 수수료를 기준으로 분배하여 할당됩니다. 초기에는 토큰 공급량의 `25.0%`(`250,000,000$ethDYDX`)가 거래 보상으로 할당되었습니다.
 
 * [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)에서 dYdX 커뮤니티는 거래 보상을 25.0% 감소시키기로 [결정했습니다](https://dydx.community/dashboard/proposal/8). 그 결과, 거래 보상을 위한 할당은 `25.0%`에서 `20.2%`로 감소했습니다.
 * [DIP 20](https://dydx.community/dashboard/proposal/11)에서 dYdX 커뮤니티는 거래 보상을 45.0% 더 감소시키기로 [결정했습니다](https://dydx.community/dashboard/proposal/11). 그 결과, 거래 보상을 위한 할당은 `20.2%`에서 `14.5%`로 감소했습니다.
-*   [DIP 29](https://dydx.community/dashboard/proposal/16)에서 dYdX 커뮤니티는 dYdX v3의 에폭 30-32에서 다음 값으로 거래 보상을 ⅓ 줄이기로 [결정했습니다](https://dydx.community/dashboard/proposal/16).
+*   [DIP 29](https://dydx.community/dashboard/proposal/16)에서 dYdX 커뮤니티는 dYdX v3의 에폭 30-32에 해당하는 거래 보상을 ⅓ 줄이기로 [결정했으며](https://dydx.community/dashboard/proposal/16) 해당 값은 다음과 같습니다.
 
     * 에폭 30: 1,054,795 $ethDYDX
     * 에폭 31: 527,398 $ethDYDX
     * 에폭 32: 0 $ethDYDX
 
-    DIP 29에서 dYdX 커뮤니티는 나머지 거래 보상 할당을 거래 보상을 위한 dYdX 체인으로 마이그레이션하기로 결정했습니다.
+    DIP 29에서 dYdX 커뮤니티는 거래 보상 할당량의 나머지를 거래 보상을 위한 dYdX 체인으로 마이그레이션하기로 결정했습니다.
 
-특정 에폭에서 분배된 거래 보상은 3,835,616 $ethDYDX에서 다음과 같이 감소했거나 감소할 것입니다.
+특정 에폭에서 분배된 거래 보상은 3,835,616$ethDYDX에서 다음과 같이 감소했거나 감소할 것입니다.
 
-* 에폭 15에서 2,876,712 $ethDYDX,
-* 에폭 21에서 1,582,192 $ethDYDX,
+* 에폭 15에서 2,876,712$ethDYDX,
+* 에폭 21에서 1,582,192$ethDYDX,
 * 에폭 30에서 1,054,795 $ethDYDX,
-* 에폭 31에서 527,398 $ethDYDX,
-* 에폭 32 이상에서 0 $ethDYDX.
+* 에폭 31에서 527,398$ethDYDX,
+* 에폭 32 이상에서 0$ethDYDX.
 
-에폭 31 이후에는 dYdX v3에 대한 거래 보상이 없습니다. dYdX v3 [보상 트레저리 베스터](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f)의 나머지 금액은 dYdX 체인 보상 트레저리 베스터(`dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk`)에 적립된 후 dYdX 체인에서 거래 보상으로 분배됩니다.
+에폭 31 이후에는 dYdX v3에 대한 거래 보상이 없습니다. dYdX v3의 [DIP 29](https://dydx.community/dashboard/proposal/16)와 dYdX Chain의 [제안 2](https://www.mintscan.io/dydx/proposals/2)에서 dYdX 커뮤니티는 dYdX v3 [보상 Treasury Vester의](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f) 미획득 $ethDYDX의 나머지 금액을 dYdX [체인 보상 Treasury Vester(`dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk)`](https://www.mintscan.io/dydx/address/dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk)에 크레딧으로 투표했고, dYdX Chain의 거버넌스 승인을 조건으로 dYdX Chain에서 거래 보상으로 분배했습니다.
 
 **목표**
 
@@ -35,13 +35,13 @@ description: 거래 보상 프로그램 개요
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>특정 에폭에서 지불한 수수료 및 예상 보상</p></figcaption></figure>
 
-$ethDYDX는 dYdX v3상에서 지급된 수수료를 기준으로 트레이더들에게 분배됩니다. $ethDYDX는 5년 동안 28일 에폭 기준으로 배포될 것이며, 어떠한 페스팅 또는 락업도 적용되지 않습니다.
+$ethDYDX는 dYdX v3상에서 지급된 수수료를 기준으로 트레이더들에게 분배되었습니다. $ethDYDX는 5년 동안 28일 에폭 기준으로 배포되었으며, 어떠한 페스팅 또는 락업도 적용되지 않았습니다.
 
-[DIP 29](https://dydx.community/dashboard/proposal/16)에서 dYdX 커뮤니티는 dYdX v3의 에폭 30-32에서 다음 값으로 거래 보상을 ⅓ 줄이기로 [결정했습니다](https://dydx.community/dashboard/proposal/16).
+[DIP 29](https://dydx.community/dashboard/proposal/16)에서 dYdX 커뮤니티는 dYdX v3의 에폭 30-32에 해당하는 거래 보상을 ⅓ 줄이기로 [결정했으며](https://dydx.community/dashboard/proposal/16) 해당 값은 다음과 같습니다.
 
 * 에폭 30: 1,054,795 $ethDYDX
 * 에폭 31: 527,398 $ethDYDX
-* 에폭 32 및 나머지 모든 에폭: 0 $ethDYDX
+* 에폭 32 및 나머지 모든 에폭: 0$ethDYDX
 
 
 
@@ -64,7 +64,7 @@ $$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k $$
 
 ### 거래 보상을 받을 수 있는 자격은 무엇입니까?
 
-dYdX v3의 모든 트레이더는 거래 보상으로 $ethDYDX를 받을 수 있는 자격이 주어집니다.
+dYdX v3의 모든 트레이더는 $ethDYDX를 거래 보상으로 받을 수 있었습니다.
 
 dYdX Trading Inc.의 [이용약관](https://dydx.exchange/terms)에 따라 미국 또는 제한 지역의 트레이더는 dYdX v3를 이용할 수 없습니다.
 
