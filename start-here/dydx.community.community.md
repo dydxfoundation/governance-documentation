@@ -14,24 +14,22 @@ Se pueden ver las propuestas de gobierno activas y pasadas, y se pueden votar la
 
 ![Rastrear el estado de la propuesta y votar sobre los cambios](../.gitbook/assets/4.2-track-proposals.png)
 
-A través del panel, los usuarios pueden ver sus poderes de propuesta y de voto y delegarlos a otras direcciones.
+A los titulares de $ethDYDX y $wethDYDX se les otorgan dos tipos de poderes de gobernanza: poder de propuesta y poder de voto. A través del panel, los usuarios pueden ver sus poderes de propuesta y de voto y delegarlos a otras direcciones.
 
 ![Delegar tus poderes de propuesta y de votación](../.gitbook/assets/4.3-delegate-voting.png)
 
 ### Participación
 
-Actualmente, el módulo de liquidez y el módulo de seguridad están inactivos. Los usuarios pueden `solicitar el retiro` y `retirar` en [**dydx.community**](https://dydx.community).
+Actualmente, el módulo de liquidez y el módulo de seguridad están inactivos. Los usuarios que tengan $stkDYDX y $stkUSDC en Ethereum no están ganando recompensas. Los usuarios pueden `solicitar el retiro` y `retirar` en [**dydx.community**](https://dydx.community).
 
 ### Recompensas por operaciones
 
-Los usuarios pueden ver sus recompensas ganadas a través de la actividad de operaciones en la bolsa de la capa 2. Las recompensas de operaciones se distribuyen cada 28 días de acuerdo con el calendario de etapas.
+Los usuarios pueden ver sus recompensas ganadas anteriormente a través de la actividad de trading en el intercambio de la capa 2.
 
 ![Realizar operaciones para recibir recompensas](../.gitbook/assets/4.5-trade-to-rewards.png)
 
-###
+### Portafolio y reclamaciones de $ethDYDX
 
-
-
-
+Los usuarios pueden ver una vista agregada de sus saldos de $ethDYDX, $ethDYDX reclamables, $ethDYDX invertidos y $ethDYDX retirables.
 
 ![Reclama tus recompensas](../.gitbook/assets/4.6-claim-rewards.png)

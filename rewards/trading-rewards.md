@@ -4,7 +4,7 @@ description: Visión general del programa de recompensas por operaciones.
 
 # Recompensas por operaciones
 
-`El 20,2` **`%`** (`201 883 560 $ethDYDX`) del suministro de tokens se asigna para distribuirse a los usuarios que operan en dYdX v3 según las tarifas pagadas. Inicialmente, el `25,0 %` del suministro de tokens (`250 000 000 $ethDYDX`) se asignó para recompensas de trading.
+`El 14,5` **`%`** (`144 693 506 $ethDYDX`) del suministro de tokens se asigna para distribuirse a los usuarios que operan en dYdX v3 según las tarifas pagadas. Inicialmente, el `25,0 %` del suministro de tokens (`250 000 000 $ethDYDX`) se asignó para recompensas de trading.
 
 * En [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), la comunidad de dYdX [votó](https://dydx.community/dashboard/proposal/8) para reducir las recompensas de trading en 25.0 %. Como resultado, la asignación de recompensas de trading bajó del `25,0 %` al `20,2 %`.
 * En [DIP 20](https://dydx.community/dashboard/proposal/11), la comunidad de dYdX [votó](https://dydx.community/dashboard/proposal/11) por reducir las recompensas de trading en otro 45,0 %. Como resultado, la asignación de recompensas de trading bajó del `20,2 %` al `14,5 %`.
@@ -24,7 +24,7 @@ Las recompensas de trading distribuidas en una etapa determinada se redujeron de
 * 527 398 $ethDYDX en la etapa 31,
 * 0 $ethDYDX a partir de la etapa 32.
 
-Después de la etapa 31, no habrá recompensas de trading en dYdX v3. La cantidad restante en el [Vester de Tesorería de recompensas](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f) de dYdX v3 se puede acreditar al Vester de Tesorería de recompensas de la cadena dYdX (`dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk`) y posteriormente distribuirse como recompensas de trading en la cadena dYdX, sujeto a la aprobación de la gobernanza en la cadena dYdX.
+Después de la etapa 31, no habrá recompensas de trading en dYdX v3. En [DIP 29](https://dydx.community/dashboard/proposal/16) en dYdX v3 y [la Propuesta 2](https://www.mintscan.io/dydx/proposals/2) en la cadena dYdX, la comunidad dYdX votó por acreditar la cantidad restante de $ethDYDX no otorgada en el [vester de Tesorería de recompensas](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f) de dYdX v3 al [vester de Tesorería de recompensas de la cadena dYdX `(dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk)`](https://www.mintscan.io/dydx/address/dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk) y posteriormente distribuirlas como recompensas de trading en la cadena dYdX, sujeto a la aprobación de la gobernanza en la cadena dYdX.
 
 **Objetivos**
 
@@ -35,7 +35,7 @@ Después de la etapa 31, no habrá recompensas de trading en dYdX v3. La cantida
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Tarifas pagadas y recompensas estimadas en una etapa determinada</p></figcaption></figure>
 
-$ethDYDX se distribuirá a los operadores en función de las tarifas pagadas en dYdX v3. $ethDYDX se distribuirá en una etapa de 28 días durante cinco años y no está sujeto a ninguna adquisición ni bloqueo.
+Antes, $ethDYDX se distribuía a los operadores en función de las tarifas pagadas en dYdX v3. $ethDYDX se distribuyó en una etapa de 28 días durante cinco años y no está sujeto a ninguna adquisición de derechos ni bloqueo.
 
 En [DIP 29](https://dydx.community/dashboard/proposal/16), la comunidad dYdX [votó](https://dydx.community/dashboard/proposal/16) por reducir las recompensas de trading en ⅓ de la etapa 30 a 32 en dYdX v3 a los siguientes valores:
 
@@ -64,7 +64,7 @@ En el [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DI
 
 ### ¿Quién es elegible para las recompensas por operaciones?
 
-Todos los operadores en dYdX v3 son elegibles para recibir $ethDYDX como recompensas de trading.
+Todos los traders en dYdX v3 eran elegibles para recibir $ethDYDX como recompensas de trading.
 
 dYdX v3 no está disponible para los operadores en los Estados Unidos o en los territorios restringidos, tal como se define en los [Términos de uso](https://dydx.exchange/terms) de dYdX Trading Inc.
 
