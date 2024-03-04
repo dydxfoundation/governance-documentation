@@ -8,8 +8,6 @@ description: エポックシステムの概要
 
 各エポックの終了時に、以下のことが発生します。
 
-* **取引報酬**が提供されます。報酬は、エポックの終了から約`7日`後、[**dydx.community**](https://dydx.community)で請求できます。
-* **流動性プロバイダーの報酬**が提供されます。報酬は、エポックの終了から約`7日`後、[**dydx.community**](https://dydx.community)で請求できます。
 * 終了エポックの**流動性ステーキングプール**において請求された出金は、出金される可能性があります。
 * 終了エポックの**安全ステーキングプール**において請求された出金は、出金される可能性があります。
 
@@ -95,10 +93,10 @@ dYdX Foundationでは、エポックおよびブラックアウトウィンド�
 ## **報酬およびステーキングプールは、いつアクティブ化されますか？**
 
 * [遡及マイニング報酬](../rewards/retroactive-mining-rewards.md)は、dYdX v3で提供されました。これらの報酬は、**2021年8月31日午後3時（UTC）**まで実行されました。
-* [取引報酬](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md)は、プロトコルで現在利用可能です。これらの報酬は、**2026年8月3日午後3時（UTC世界協定時）**まで実行されます。
-* [流動性プロバイダーの報酬](../rewards/liquidity-provider-rewards.md)は、プロトコルで現在利用可能です。これらの報酬は、**2026年8月3日午後3時（UTC世界協定時）**まで実行されます。
-* [流動性ステーキングプ](../staking-pools/liquidity-staking-pool.md)ールは、2022年9月29日に廃止されました。
-* [安全ステーキングプール](../staking-pools/safety-staking-pool.md)は、2022年11月28日に廃止されました。
+* [取引報酬](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md)は[エポック32](https://dydx.community/dashboard/proposal/16)で0に設定されました。これらの報酬は**2021年8月3日15:00:00（UTC）**から**2024年7月16日15:00:00（UTC）**までの間行われました
+* [流動性プロバイダーの報酬は](../rewards/liquidity-provider-rewards.md)[エポック32](https://dydx.community/dashboard/proposal/16)で0に設定されました。これらの報酬は**2021年8月3日15:00:00（UTC）**から**2024年7月16日15:00:00（UTC）**までの間行われました
+* 2022年9月29日、[DIP14](https://dydx.community/dashboard/proposal/7)の[流動性ステーキング・プール](../staking-pools/liquidity-staking-pool.md)報酬が0に設定されました。
+* 2022年11月28日、[DIP 17](https://dydx.community/dashboard/proposal/9)の[安全ステーキングプール](../staking-pools/safety-staking-pool.md)の報酬が0に設定されました。
 
 ## dYdXのガバナンスは、エポックのスケジュールを変更できますか？
 
@@ -108,19 +106,15 @@ dYdX Foundationでは、エポックおよびブラックアウトウィンド�
 
 [流動性ステーキングプール](../staking-pools/liquidity-staking-pool.md)および[安全ステーキングプール](../staking-pools/safety-staking-pool.md)では、プール内の資金の可用性に関する予測可能性および定期的な基準を提供するために、出金スケジュールが執行されます。エポックの終了後に、ステーカーが自己資金を出金できるようにするには、ブラックアウト・ウィンドウの前に資金をステーク解除するように請求する必要があります。ステーカーが出金を請求しない場合、ステーカーのステークされた資金は次のエポックにロールオーバーされます。
 
-流動性ステーキングプールと安全性プールのそれぞれの推奨停止ウィンドウは`14日`です。[DIP 17](https://dydx.community/dashboard/proposal/9)において、dYdXコミュニティは、ブラックアウト・ウィンドウの長さを`14日`から`3日に`削減すること[に合意](https://dydx.community/dashboard/proposal/7)しました。dYdXガバナンスは、指定された範囲内で、ブラックアウト・ウィンドウの変更を決定できます。最小および最大ブラックアウト・ウインドウは、それぞれ`3日`および`46日`間です。
+[DIP 17](https://dydx.community/dashboard/proposal/9)[](https://dydx.community/dashboard/proposal/7)において、dYdXコミュニティは、ブラックアウト・ウィンドウの長さを`14日`から3日に削減すること`に合意`しました。dYdXガバナンスは、指定された範囲内で、ブラックアウト・ウィンドウの変更を決定できます。最小および最大ブラックアウト・ウインドウは、それぞれ`3日```および46日間です。
 
 ## いつから獲得した$ethDYDX報酬を出金および譲渡することができますか？
 
-[遡及マイニング報酬](../rewards/retroactive-mining-rewards.md)、[取引報酬](../rewards/trading-rewards.md)、および[流動性プロバイダー報酬](../rewards/liquidity-provider-rewards.md)を通じて獲得した$ethDYDXトークンは、各エポックの終了時に譲渡できます。$ethDYDX保有者は、トークンを請求するために、エポックの終了後約`7日間`（**待機期間**）待つ必要があります。 トークンが請求されると、dYdXのガバナンスに譲渡または委任できます。
-
-流動性ステーキングプールおよびセーフティステーキングプールを通じて獲得した$ethDYDXトークンは、ブロックごとに請求可能で、特定のエポックの間にいつでも出金できます。
-
-エポック0の終了から8日後の**2021年9月8日午後3時（UTC）**に、最初の譲渡制限が自動的に解除され、その時点で$ethDYDX供給量の約**8.11％**が流動化されました。
+トークンが請求されると、dYdXのガバナンスに譲渡または委任できます。
 
 ## 待機期間の目的は何ですか？すべてのエポックの終了時に報酬はどのように保存されますか？
 
-[遡及マイニング報酬、](../rewards/retroactive-mining-rewards.md)[取引報酬、](../rewards/trading-rewards.md)および[流動性プロバイダーの報酬](../rewards/liquidity-provider-rewards.md)は、Merkleツリーに保存されます（提供プログラムの開始以降に各ユーザーが獲得した累積報酬を含みます） 。
+[遡及マイニング報酬](../rewards/retroactive-mining-rewards.md)、[取引報酬](../rewards/trading-rewards.md)、および[流動性プロバイダー報酬](../rewards/liquidity-provider-rewards.md)は、メルクルツリーに保存され、配信プログラム開始以降に各ユーザーが獲得した累積報酬が含まれます。
 
 各エポックの終了時に、Merkleルートは、`MerkleDistributorV1`スマートコントラクトのChainLinkのオラクルシステムを通じて更新され、最後のエポックで獲得した報酬を反映します。提案されているMerkleルートをオラクル契約によって返される最新の値に設定することで、更新が実行されます。提案されているMerkleルートは、**待機期間**が`7日`経過した後、アクティブにできます。待機期間中、dYdXのガバナンスには、提案されたルートが間違っているか悪意のある場合、Merkleルートを凍結する機会があります。Merkleルートが凍結されていない場合、新しいMerkleルートがアクティブになり、ユーザーは過去のエポックから報酬を請求できます。
 
