@@ -53,14 +53,13 @@ $ethDYDXの立ち上げ以来、最初の割り当てに変更が生じたガバ
 
 ### $ethDYDXの割り当てを変更できますか？
 
-はい。dYdXコミュニティは[立ち上げ時に存在するすべての報酬とプール](../voting-and-governance/governance-parameters.md)を変更できます。これまで、dYdXコミュニティは、取引報酬を25％削減し、ステーキング$USDC報酬を0に、ステーキング$ethDYDX報酬を0にすることに合意しました。
+はい。dYdXコミュニティは[立ち上げ時に存在するすべての報酬とプール](../voting-and-governance/governance-parameters.md)を変更できます。これまでのところ、dYdXコミュニティはいくつかのガバナンス提案でDYDXの排出量を削減することに投票しています。
 
 [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)において、dYdXコミュニティは取引報酬を25％引き下げることに[合意しました](https://dydx.community/dashboard/proposal/8)。その結果、所定のエポックで配布される取引報酬は、エポック15において3,835,616$ethDYDXから2,876,712$ethDYDXに減少しました。残りの958,904$ethDYDXは、報酬トレジャリーに加算され、[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によって、dYdXコミュニティが使用できるようになります。\\[DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)においては、dYdXコミュニティは$USDCのステーキングに関連する報酬を0に設定することに[合意](https://dydx.community/dashboard/proposal/7)しました。これまで$USDCステーカーに配布された383,562$ethDYDXは、報酬トレジャリーに加算され、[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によって、dYdXコミュニティが使用できるようになります。.
 
 [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md)においては、dYdXコミュニティは$ethDYDXのステーキングに関連する報酬を0に設定することに[合意](https://dydx.community/dashboard/proposal/9)しました。これまで$DYDXステーカーに配布された383,562$ethDYDXは、報酬トレジャリーに加算され、[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によって、dYdXコミュニティが使用できるようになります。.
 
-[DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)において、dYdXコミュニティは、流動性プロバイダー報酬を、エポックあたり1,150,685$ethDYDXから、50%削減のエポックあたり575,343$ethDYDXに変更することを[投票](https://dydx.community/dashboard/proposal/14)で決定しました。余ったエポックあたり575,342$ethDYDXは、報酬トレジャリーに計上され、[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によって、dYdXコミュニティが使用できます。.\
-
+[DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)において、dYdXコミュニティは、流動性プロバイダー報酬を、エポックあたり1,150,685$ethDYDXから、50%削減のエポックあたり575,343$ethDYDXに変更することを[投票](https://dydx.community/dashboard/proposal/14)で決定しました。余ったエポックあたり575,342$ethDYDXは、報酬トレジャリーに計上され、[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によって、dYdXコミュニティが使用できます。.
 
 [DIP 29](https://dydx.community/dashboard/proposal/16)では、dYdXコミュニティは取引報酬およびLP報酬をdYdX v3上のエポック30-32から⅓に削減することを投票しました。
 
