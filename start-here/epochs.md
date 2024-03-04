@@ -8,8 +8,6 @@ Tüm ödüller ve staking sözleşmeleri **dönem** olarak adlandırılan `28 g�
 
 Her dönemin sonunda şunlar gerçekleşir:
 
-* **Alım Satım Ödülleri** dağıtılır. Dönemin sona ermesinden yaklaşık `7 gün` sonra [**dydx.community**](https://dydx.community) sitesinde ödüller alınabilir.
-* **Likidite Sağlayıcı Ödülleri** dağıtılır. Dönemin sona ermesinden yaklaşık `7 gün` sonra [**dydx.community**](https://dydx.community) sitesinde ödüller alınabilir.
 * Sona eren dönemde **Likidite Staking Havuzundan** talep edilen çekme işlemleri gerçekleştirilebilir.
 * Sona eren dönemde **Güvenlik Staking Havuzunda** talep edilen çekme işlemleri gerçekleştirilebilir.
 
@@ -95,34 +93,30 @@ dYdX Vakfı, Dönemler ve Karartma Sürelerinin başlangıç​​/sona erme tar
 ## **Ödüller ve staking havuzları ne zaman etkinleştirilecektir?**
 
 * [Geriye Dönük Madencilik Ödülleri](../rewards/retroactive-mining-rewards.md), dYdX v3 üzerinde dağıtılmıştır. Bu ödüller **31 Ağustos 2021 (TSİ) saat 18.00.00'a** kadar sürmüştür.
-* [Alım Satım Ödülleri](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md) şimdi Protokol üzerinde canlıya geçmiştir. Bu ödüller **3 Ağustos 2026 günü saat 18.00.00'e (TSİ)** kadar devam edecektir.
-* [Likidite Sağlayıcı Ödülleri](../rewards/liquidity-provider-rewards.md) şimdi Protokol üzerinde canlıya geçmiştir. Bu ödüller **3 Ağustos 2026 günü saat 18.00.00'e (TSİ)** kadar devam edecektir.
-* [Likidite Staking havuzu](../staking-pools/liquidity-staking-pool.md) 29 Eylül 2022 tarihinde kapatılmıştır.
-* [Güvenlik Staking havuzu](../staking-pools/safety-staking-pool.md) 28 Kasım 2022 tarihinde kapatılmıştır.
+* [Alım Satım Ödülleri](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md) [Dönem 32](https://dydx.community/dashboard/proposal/16)'de 0 olarak belirlendi. Bu ödüller **3 Ağustos 2021, 15:00:00 UTC'den** **16 Ocak 2024, 15:00:00 UTC'ye** kadar devam etti
+* [Likidite Sağlayıcı Ödülleri](../rewards/liquidity-provider-rewards.md) [Dönem 32'de](https://dydx.community/dashboard/proposal/16) 0 olarak belirlendi. Bu ödüller **3 Ağustos 2021, 15:00:00 UTC'den** **16 Ocak 2024, 15:00:00 UTC'ye** kadar devam etti
+* 29 Eylül 2022 tarihindeki [DIP 14](https://dydx.community/dashboard/proposal/7)'te [Likidite Staking havuz](../staking-pools/liquidity-staking-pool.md) ödülleri 0 olarak belirlendi.
+* [Güvenlik Staking havuzu](../staking-pools/safety-staking-pool.md) ödülleri 28 Kasım 2022 tarihindeki [DIP 17](https://dydx.community/dashboard/proposal/9)'de 0 olarak belirlendi.
 
 ## dYdX yönetişimi dönem takvimini değiştirebilir mi?
 
-İlk başta belirlenen dönem uzunluğu `28 gündür`.  dYdX v3 yönetişimi, dönem uzunluklarının belirtilen sınırlar dâhilinde değiştirilmesi için oylama yapabilir. Minimum ve maksimum dönem uzunlukları sırasıyla `6 gün` ve `92 gündür`.
+İlk başta belirlenen dönem uzunluğu `28 gündür`. dYdX v3 yönetişimi dönem uzunluklarının belirtilen sınırlar dâhilinde değiştirilmesini oylayabilir. Minimum ve maksimum dönem uzunlukları sırasıyla `6 gün` ve `92 gündür`.
 
 ## Karartma Süresi nedir?
 
 [Likidite Staking Havuzu](../staking-pools/liquidity-staking-pool.md) ve [Güvenlik Staking](../staking-pools/safety-staking-pool.md) Havuzu için, havuzdaki fonların kullanılabilirliği için öngörülebilirlik ve düzenli bir tempo sağlamak amacıyla çekim işlemleri için bir dönem takvimi uygulanmaktadır. Stake eden bir kişi, fonlarını o dönem sona erdikten sonra çekebilmek için karartma süresi başlamadan önce fonlarını staking'den çıkarma talebinde bulunmalıdır. Stake eden bir kişi eğer çekim talebinde bulunmazsa, bu kişinin stake edilen fonları bir sonraki döneme devredilir.
 
-Likidite Staking Havuzu ve Güvenlik Havuzu'nun her biri için tavsiye edilen karartma süresi `14 gündür`. [DIP 17](https://dydx.community/dashboard/proposal/9)'de, dYdX topluluğu, Karartma Süresi uzunluğunun `14 günden` `3 güne` düşürülmesi yönünde [oy kullanmıştır](https://dydx.community/dashboard/proposal/7). dYdX yönetişimi, karartma süresini belirtilen sınırlar dâhilinde değiştirmek için oylama yapabilir. Minimum ve maksimum karartma süreleri sırasıyla `3 gün` ve `46 gündür`.
+[DIP 17](https://dydx.community/dashboard/proposal/9)[](https://dydx.community/dashboard/proposal/7)'de, dYdX topluluğu, Karartma Süresi uzunluğunun `14 günden` 3 güne düşürülmesi yönünde `oy kullanmıştır`. dYdX yönetişimi, karartma süresini belirtilen sınırlar dâhilinde değiştirmek için oylama yapabilir. Minimum ve maksimum karartma süreleri sırasıyla `3 gün``` ve 46 gündür.
 
 ## Kazandığım $ethDYDX Ödüllerimi ne zaman çekebilir ve transfer edebilirim?
 
-[Geriye Dönük Madencilik Ödülleri](../rewards/retroactive-mining-rewards.md), [İşlem Ödülleri](../rewards/trading-rewards.md) ve [Likidite Sağlayıcı Ödülleri](../rewards/liquidity-provider-rewards.md) aracılığıyla kazanılan $ethDYDX token'ları, her dönemin sonunda transfer edilebilir.  $ethDYDX sahiplerinin, dönemin bitişinden sonra token'larını talep etmek için yaklaşık `7 gün` (**Bekleme Süresi**) beklemeleri gerekir. Token'lar alındıktan sonra transfer edilebilir veya dYdX yönetişimine delege edilebilir.
-
-Likidite Staking havuzu ve Güvenlik Staking havuzu aracılığıyla kazanılan $ethDYDX token'ları her blokta alınabilir (talep edilebilir) ve ilgili dönem boyunca herhangi bir zamanda çekilebilir.
-
-Dönem 0'ın sona ermesinden 8 gün sonra, **8 Eylül 2021 günü (TSİ) saat 18.00.00'de** ilk baştaki transfer kısıtlamaları otomatik olarak kaldırılmış ve $ethDYDX arzının yaklaşık **%8,11'i** likit hale gelmiştir.
+Token'lar alındıktan sonra transfer edilebilir veya dYdX yönetişimine delege edilebilir.
 
 ## Bekleme Süresinin amacı nedir? Her dönemin sonunda ödüller nasıl saklanır?
 
-[Geriye Dönük Madencilik Ödülleri](../rewards/retroactive-mining-rewards.md), Alım [Satım Ödülleri](../rewards/trading-rewards.md) ve [Likidite Sağlayıcı Ödülleri](../rewards/liquidity-provider-rewards.md) dağıtım programının başlangıcından bu yana her kullanıcı tarafından kazanılan toplam ödülü içeren bir Merkle ağacında saklanır.
+[Geriye Dönük Madencilik Ödülleri](../rewards/retroactive-mining-rewards.md), [Alım Satım Ödülleri](../rewards/trading-rewards.md) ve [Likidite Sağlayıcı Ödülleri](../rewards/liquidity-provider-rewards.md), dağıtım programının başlangıcından beri her kullanıcının kazandığı kümülatif ödülleri içeren bir Merkle ağacında saklanır.
 
-Her dönemin sonunda, Merkle kökü son dönemde kazanılan ödülleri yansıtacak şekilde `MerkleDistributorV1` üzerindeki ChainLink oracle sistemi aracılığıyla güncellenir. Bir güncelleme, teklif edilen Merkle kökünü oracle sözleşmesi tarafından döndürülen en son değere ayarlayarak gerçekleştirilir. Teklif edilen Merkle kökü `7 günlük` bir **Bekleme Süresi** geçtikten sonra etkinleştirilebilir. Bekleme süresi zarfında, dYdX Yönetişimi teklif edilen kökün yanlış veya kötü amaçlı olması durumunda Merkle kökünü dondurma imkânına sahiptir. Merkle kökü dondurulmamışsa, yeni Merkle kökü etkinleştirilir ve kullanıcılar geçmiş dönemde kazandıkları ödülleri alabilir.
+Her dönemin sonunda, Merkle kökü son dönemde kazanılan ödülleri yansıtacak şekilde `MerkleDistributorV1` üzerindeki ChainLink oracle sistemi aracılığıyla güncelleniyordu. Bir güncelleme, teklif edilen Merkle kökünü oracle sözleşmesi tarafından döndürülen en son değere ayarlayarak gerçekleştirilir. Teklif edilen Merkle kökü `7 günlük` bir **Bekleme Süresi** geçtikten sonra etkinleştirilebilir. Bekleme süresi zarfında, dYdX Yönetişimi teklif edilen kökün yanlış veya kötü amaçlı olması durumunda Merkle kökünü dondurma imkânına sahiptir. Merkle kökü dondurulmamışsa, yeni Merkle kökü etkinleştirilir ve kullanıcılar geçmiş dönemde kazandıkları ödülleri alabilir.
 
 Dönem her değiştiğinde, sırasıyla şunlar gerçekleşir:
 
