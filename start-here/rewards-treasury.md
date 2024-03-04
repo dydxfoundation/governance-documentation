@@ -16,14 +16,4 @@ Topluluk Hazinesi'ne devredilen (vesting) $ethDYDX'e ek olarak, dYdX topluluğu,
 
 18 Kasım 2023 tarihinde dYdX topluluğu Ödül Hazinesi'ne tahakkuk eden ethDYDX bakiyesini Ethereum'dan dYdX Zinciri'ne köprüleme [yönünde oy kullandı](https://dydx.community/dashboard/proposal/16). DYDX köprülendikten sonra dYdX Zinciri üzerinde yapılacak bir yönetişim oylaması ile dYdX topluluğu tarafından kullanılabilir.
 
-## SSS
-
-### dYdX topluluğunun erişebileceği Topluluk Hazinesi ve Ödül Hazinesi bakiyeleri nedir?
-
-dYdX topluluk üyeleri topluluk hazinesinin devredilen bakiyesini [buradan](https://dydx.shippooor.xyz/) görüntüleyebilirler. \
-\
-Dahası, dYdX Vakfı her dönemin sonunda [Dönem Raporu](https://dydx.foundation/blog) ile Topluluk Hazinesinin kazanılmış bakiyesini yayınlamaktadır.
-
-### Ödül Hazinesi'ndeki $ethDYDX'i harcamak için kimler teklif verebilir?
-
-Teklif vermek için yeterli yetkiye sahip her kullanıcı teklif verebilir. Topluluk hazinesinden ve/veya ödül hazinesinden herhangi bir miktarda $ethDYDX harcamak için bir yönetişim oylaması gerekecektir. Bir teklif vermek için, lütfen [DIP Teklifi Yaşam Döngüsü](../voting-and-governance/dip-proposal-lifecycle.md)'nde belirtilen şekilde bir dYdX İyileştirme Teklifi (DIP) verin.
+##
