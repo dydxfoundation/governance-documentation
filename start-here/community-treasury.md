@@ -39,34 +39,13 @@ description: コミュニティトレジャリーの概要
 
 ### コミュニティトレジャリーで$ethDYDXはどのように帰属していますか？
 
-コミュニティトレジャリーベスター（詳細は[こちら](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)）は、コミュニティトレジャリーに毎秒[`0.3169242627`](tel:03169242627)$ethDYDXを付与します。$ethDYDXが付与されると、コミュニティトレジャリーベスターで`請求`関数を呼び出すと、既得の$ethDYDXがコミュニティトレジャリーに移動されます。dYdXコミュニティメンバーは、[ここから](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract)Etherscanで`請求`関数を呼び出して（Gas（ガス）代にETHが必要です）、既得の$ethDYDXをコミュニティトレジャリーベスターからコミュニティトレジャリーに移動させることができます。
+以前は、コミュニティトレジャリーヴェスター（詳細は[こちら](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)）は毎秒[`0.3169242627`](tel:03169242627)ドルのethDYDXをコミュニティトレジャリーに帰属させていました。$ethDYDXが付与されると、コミュニティトレジャリーベスターで`請求`関数を呼び出すと、既得の$ethDYDXがコミュニティトレジャリーに移動されます。dYdXコミュニティメンバーは、[ここ](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract)からEtherscanで`請求`関数を呼び出して（Gas（ガス）代にETHが必要です）、既得の$ethDYDXをコミュニティトレジャリーベスターからコミュニティトレジャリーに移動させることができます。
 
 dYdXコミュニティによるコミュニティトレジャリーの管理詳細は、dYdX財団の[利用規約](https://dydx.foundation/terms)をご参照ください。
 
 <figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
 
-### コミュニティ基金の既得残高はいくらになりますか？
+###
 
-dYdXコミュニティメンバーは、コミュニティトレジャリーの既得残高を[こちら](https://dydx.shippooor.xyz/)で確認できます。\\また、dYdX財団では、各エポックの終了時にコミュニティトレジャリーの既得残高を[エポックレビュー](https://dydx.foundation/blog)で公表しています。 コミュニティートレジャリーに帰属する$ethDYDXに加えて、dYdXコミュニティーは、次の投票の結果として報酬トレジャリーに積み立てられるethDYDXにもアクセスすることができます：
+###
 
-* [DIP 14](https://dydx.community/dashboard/proposal/7) - USDCのステーキングの報酬を0に設定（エポックあたり383,562$ethDYDX）、
-* [DIP 16](https://dydx.community/dashboard/proposal/8) - 取引報酬を25％削減（エポックあたり958,904$ethDYDX）、
-* [DIP 17](https://dydx.community/dashboard/proposal/9) - ethDYDXのステーキングの報酬を0に設定（エポックあたり383,562$ethDYDX）、
-* [DIP 20](https://dydx.community/dashboard/proposal/11) - 取引報酬をさらに45％削減（エポックあたり1,294,520 $ethDYDX）、
-* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) - 流動性プロバイダー報酬を50%削減（エポックあたり575,342 $ethDYDX）、
-*  [DIP 29](https://dydx.community/dashboard/proposal/16) - dYdX v3のエポック30～32から⅓の流動性プロバイダー報酬を以下の値に減らします。
-  * エポック30：383,562 $ethDYDX
-  * エポック31：191,781 $ethDYDX
-  * エポック32：0 $ethDYDX
-
-### 誰がコミュニティトレジャリーからethDYDXを使用する提案を提出できますか？
-
-提案する実行力が十分にあればどのユーザーも提案を提出することができます。コミュニティトレジャリーからのethDYDXを使用するには、ガバナンス投票が必要になります。提案を行う場合、[dYdXの改善提案（DIP）の提案ライフサイクル](../voting-and-governance/dip-proposal-lifecycle.md)に記載されているDIPを提出してください。
-
-### コミュニティトレジャリーからの資金を使う提案を構築するにはどうすればよいですか？
-
-Reverieは、5M $ethDYDX（[短いタイムロック投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)の[提案のしきい値](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters)）以上のdYdXコミュニティメンバーがethDYDXをコミュニティトレジャリーから宛先アドレスにethDYDXを送り込む提案を作成する方法について、包括的な、技術的、ステップバイステップガイドをまとめました。テクニカルガイドにアクセスするには、[こちら](https://app.gitbook.com/o/-MeNgGQU0ucT2xo4s8-T/s/-MeNfSkgj48hU0q8Zbjn/\~/changes/EyisuFjLIyJ7K9RzaTfJ/technical-guide-on-building-a-dydx-community-treasury-spending-proposal)をクリックしてください。
-
-### コミュニティトレジャリーにはどのようなタイプの提案を提出することができますか？
-
-コミュニティが管理する基金は、可能性を大きく広げます。dYdX v3のエコシステムの成長を促進できるエコシステム助成金などにより、さまざまな試みやイニシアチブが期待できます。
