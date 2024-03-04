@@ -16,14 +16,4 @@ Além do $ethDYDX investido no Tesouro da Comunidade, a comunidade dYdX também 
 
 Em 18 de novembro de 2023, a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/16) para conectar o saldo ethDYDX acumulado no Tesouro de Recompensas de Ethereum com a Cadeia dYdX. Após conectado, o DYDX pode ser usado pela comunidade dYdX com um voto de governança na Cadeia dYdX.
 
-## Perguntas e respostas
-
-### Qual é o saldo do Tesouro da Comunidade e do Tesouro de Recompensas que a comunidade dYdX pode acessar?
-
-Os membros da comunidade DYDX podem visualizar o saldo investido do Tesouro da comunidade [aqui](https://dydx.shippooor.xyz/). \
-\
-Além disso, ao final de cada epoch, a dYdX Foundation publica o saldo acumulado do Tesouro da Comunidade no [Relatório da Epoch](https://dydx.foundation/blog).
-
-### Quem pode enviar propostas para gastar $ethDYDX do Tesouro de Recompensas?
-
-Qualquer usuário com poder de proposição suficiente pode enviar propostas. Para gastar qualquer montante de $ethDYDX do tesouro da comunidade e/ou do tesouro de recompensas, será necessário um voto de governança. Para enviar uma proposta, é preciso enviar uma proposta de melhoria da dYdX (DIP, na sigla em inglês) conforme estabelecido no [ciclo de vida da proposta DIP](../voting-and-governance/dip-proposal-lifecycle.md).
+##
