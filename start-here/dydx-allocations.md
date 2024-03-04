@@ -53,7 +53,7 @@ Embora a alocação da comunidade tenha sido estabelecida como exposta acima, os
 
 ### A alocação de $ethDYDX pode mudar?
 
-Sim, a comunidade dYdX pode alterar qualquer um dos [pools e recompensas que houver no lançamento](../voting-and-governance/governance-parameters.md). Até o momento, a comunidade dYdX votou pela redução das recompensas de trading em 25% para o staking de $USDC para 0 e definiu as recompensas para o staking de $ethDYDX para 0.
+Sim, a comunidade dYdX pode alterar qualquer um dos [pools e recompensas que houver no lançamento](../voting-and-governance/governance-parameters.md). Até o momento, a comunidade dYdX votou para reduzir as emissões DYDX em várias propostas de governança:
 
 No [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/8) pela redução das recompensas de trading em 25%. Como resultado, as recompensas de trading distribuídas em uma determinada epoch foram reduzidas de 3.835.616 $ethDYDX para 2.876.712 $ethDYDX na epoch 15. O saldo de 958.904 $ethDYDX será acumulado no Tesouro de Recompensas e poderá ser usado pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).\
 \
@@ -61,8 +61,7 @@ No [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-1
 
 No [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/9) pela definição das recompensas associadas ao $ethDYDX em staking para 0. O valor 383.562 $ethDYDX anteriormente distribuídos para stakers de $DYDX ficará acumulado no Tesouro de Recompensas e poderá ser usado pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
-No [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), a comunidade da dYdX [votou](https://dydx.community/dashboard/proposal/14) para reduzir as recompensas de provedor de liquidez em 50%, de 1.150.685 $ethDYDX por época para 575.343 $ethDYDX por época. O excessivo de 575.342 $ethDYDX será acrescido no Tesouro de Recompensas e poderá ser usado pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters). \
-
+No [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), a comunidade da dYdX [votou](https://dydx.community/dashboard/proposal/14) para reduzir as recompensas de provedor de liquidez em 50%, de 1.150.685 $ethDYDX por época para 575.343 $ethDYDX por época. O excessivo de 575.342 $ethDYDX será acrescido no Tesouro de Recompensas e poderá ser usado pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
 Na [DIP 29](https://dydx.community/dashboard/proposal/16), a comunidade dYdX votou para reduzir o trading e as recompensas de LP em ⅓ da epoch 30-32 na dYdX v3 para os seguintes valores:
 

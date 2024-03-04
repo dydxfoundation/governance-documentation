@@ -4,7 +4,7 @@ description: Visão geral do programa de recompensas de trades.
 
 # Recompensas de trades
 
-`20,2`**`%`** (`201.883.560 $ethDYDX`) do fornecimento de token é alocado para ser distribuído a usuários que fizeram trades na dYdX v3 com base em taxas pagas. Inicialmente, 25,0% do fornecimento de token (250.`000.00``0 $ethDYDX`) foram alocados para recompensas de trades.
+`14,5`**`%`** (`144.693.506 $ethDYDX`) do suprimento de tokens é alocado para ser distribuído a usuários que fizeram trades na dYdX v3 com base em taxas pagas. Inicialmente, 25,0% do fornecimento de token (250.`000.00``0 $ethDYDX`) foram alocados para recompensas de trades.
 
 * No [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/8) pela redução de recompensas de trades em 25,0%. Como resultado, a alocação para recompensas de trading diminuiu de `25,0%` para `20,2%`.
 * No [DIP 20](https://dydx.community/dashboard/proposal/11), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/11) pela redução de recompensas de trading em mais 45,0%. Como resultado, a alocação para recompensas de trading diminuiu de `20,2%` para `14,5%`.
@@ -24,7 +24,7 @@ As recompensas de trading distribuídas em uma determinada epoch foram/serão re
 * 527.398 $ethDYDX na Epoch 31,
 * 0 $ethDYDX no Epoch 32 em diante.
 
-Após a epoch 31, não haverá recompensas de trading na dYdX v3. O valor restante no [Investidor de Tesouro de Recompensas](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f) dYdX v3 pode ser creditado no Investidor de Tesouro de Recompensas de Cadeia dYdX (`dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk`) e, posteriormente, distribuído como recompensas de trading na Cadeia dYdX, sujeito à aprovação de governança na Cadeia dYdX.
+Após a epoch 31, não haverá recompensas de trading na dYdX v3. Na [DIP 29](https://dydx.community/dashboard/proposal/16) na dYdX v3 e na [Proposal 2](https://www.mintscan.io/dydx/proposals/2) na Cadeia dYdX, a comunidade dYdX votou para creditar o valor restante de $ethDYDX não investido na dYdX v3 [Rewards Treasury Vester](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f) para o [dYdX Chain Rewards Treasury Vester `(dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk)`](https://www.mintscan.io/dydx/address/dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk) e, posteriormente, distribuído como recompensas de trading na Cadeia dYdX, sujeito à aprovação de governança na Cadeia dYdX.
 
 **Objetivos**
 
@@ -35,7 +35,7 @@ Após a epoch 31, não haverá recompensas de trading na dYdX v3. O valor restan
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Taxas pagas e recompensas estimadas em uma determinada época</p></figcaption></figure>
 
-O $ethDYDX será distribuído aos traders com base nas taxas pagas na dYdX v3. O $ethDYDX será distribuído em uma epoch de 28 dias ao longo de cinco anos e não está sujeito a nenhuma aquisição ou bloqueio.
+Anteriormente, $ethDYDX era distribuído aos traders com base nas taxas pagas na dYdX v3. $ethDYDX era distribuído em uma epoch de 28 dias, ao longo de cinco anos, e não estava sujeito à nenhuma aquisição ou bloqueio.
 
 Na [DIP 29](https://dydx.community/dashboard/proposal/16), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/16) para reduzir as recompensas de trading em ⅓ da epoch 30-32 na dYdX v3 para os seguintes valores:
 
@@ -66,7 +66,7 @@ Na [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-1
 
 ### Quem é elegível para as recompensas de trades?
 
-Todos os traders na dYdX v3 são elegíveis para receber $ethDYDX como recompensas de trading.
+Todos os traders na dYdX v3 eram elegíveis para receber $ethDYDX como recompensas de trading.
 
 A dYdX v3 não está disponível para traders nos Estados Unidos ou em territórios restritos, conforme definido nos [Termos de uso da](https://dydx.exchange/terms) dYdX Trading Inc.
 

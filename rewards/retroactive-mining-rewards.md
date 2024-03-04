@@ -15,17 +15,17 @@ description: Visão geral do programa de recompensas de mineração retroativas.
 
 O sucesso da dYdX v3 é o resultado de milhares de membros da comunidade que têm negociado na dYdX v3 e seus antecessores nos últimos três anos.
 
-Foram alocados tokens $ethDYDX a antigos usuários de todos os protocolos da dYdX (exceto para usuários localizados numa jurisdição onde o $ethDYDX não é permitido, incluindo os Estados Unidos) com base em um snapshot que termina **em 26 de julho de 2021, à 00:00:00 UTC**. Há cinco níveis de alocação, os quais levam em conta a atividade anterior de um usuário em todos os protocolos da dYdX.
+Foram alocados tokens $ethDYDX a antigos usuários de todos os protocolos da dYdX (exceto para usuários localizados numa jurisdição onde o ethDYDX não é permitido, incluindo os Estados Unidos) com base em um snapshot que termina em **26 de julho de 2021, às 00:00:00 UTC**. Havia cinco níveis de alocação, que levam em conta atividades anteriores de um usuário em todos os protocolos da dYdX.
 
 Para resgatar $ethDYDX, os usuários antigos precisam atender aos seguintes objetivos na [Layer 2 Perpetuals](https://trade.dydx.exchange) dentro da primeira epoch de 28 dias (Epoch 0):
 
 ![](../.gitbook/assets/1-retroactive-buckets.png)
 
-Os usuários poderão alcançar seus objetivos de resgate até o final da epoch 0. Todas as recompensas não resgatadas serão perdidas e enviadas automaticamente para o tesouro da comunidade. Os tokens $ethDYDX enviados como recompensas por meio das recompensas de mineração retroativas serão resgatados de forma perpetuada e transferíveis uma vez que o período de restrição de transferência for encerrado.
+Os usuários puderam alcançar seus marcos de resgate até o final da Epoch 0. Todas as recompensas não obtidas foram perdidas e distribuídas automaticamente para o tesouro da comunidade. Os tokens $ethDYDX enviados como recompensas por meio das recompensas de mineração retroativas serão resgatados de forma perpetuada e transferíveis uma vez que o período de restrição de transferência for encerrado.
 
 ## **Perguntas e respostas**
 
-### **Quem é elegível para as recompensas retroativas?**
+### **Quem era elegível para as recompensas retroativas?**
 
 Os usuários anteriores da dYdX que fizeram trades nos protocolos da dYdX (perpétuos, margem e spot) na Layer 2, Layer 1 ou nos fundos depositados nos pools de fornecimento/empréstimo são elegíveis para receber $ethDYDX por meio de recompensas retroativas.
 
@@ -33,11 +33,7 @@ De acordo com as restrições a respeito da disponibilidade da $ethDYDX e do pro
 
 Todas as alocações de recompensas retroativas são definitivas e não podem ser alteradas.
 
-### Quanto em $ethDYDX ganhei no programa de recompensas retroativas?
 
-![Veja seu claim milestone e o respectivo andamento](../.gitbook/assets/1-retroactive-earn-view.png)
-
-Os usuários antigos da dYdX podem consultar suas atividades passadas e nível na mineração retroativa em [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards). Para ganhar $ethDYDX, os usuários devem fazer trade na dYdX v3 em [**trade.dydx.exchange**](https://trade.dydx.exchange/) para atender ao limite dos critérios.
 
 ### O que acontece se eu não alcançar a minha meta para o resgate?
 
