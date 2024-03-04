@@ -4,7 +4,7 @@ description: Alım Satım Ödülleri programına genel bakış.
 
 # Alım Satım Ödülleri
 
-Token arzının %`20,2'si` (`201.883.560 $ethDYDX`), dYdX v3 üzerinde işlem yapan kullanıcılara, ödenen ücretler baz alınarak dağıtılmak üzere tahsis edilir. **``**Başlangıçta, token arzının `%25'i` (`250.000.000 $ethDYDX`) trading ödülleri için ayrılmıştı.
+Token arzının **`%`**`14,5`'i (`144.693.506 $ethDYDX`), dYdX v3 üzerinde işlem yapan kullanıcılara, ödenen ücretler baz alınarak dağıtılmak üzere tahsis edilir. Başlangıçta, token arzının `%25'i` (`250.000.000 $ethDYDX`) trading ödülleri için ayrılmıştı.
 
 * [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)'da, dYdX topluluğu trading ödüllerinin %25,0 oranında azaltılması yönünde [oy kullanmıştır](https://dydx.community/dashboard/proposal/8). Sonuç olarak, trading ödülleri için ayrılan miktar `%25,0`'ten `%20,2`'ye düşmüştür.
 * [DIP 20](https://dydx.community/dashboard/proposal/11)'de, dYdX topluluğu, trading ödüllerinin %45,0 oranında daha azaltılması yönünde [oy kullanmıştır](https://dydx.community/dashboard/proposal/11). Sonuç olarak, trading ödülleri için ayrılan miktar `%20,2’den` `%14,5'e` düşmüştür.
@@ -24,7 +24,7 @@ Belirlenen dönemlerde dağıtılan alım satım ödülleri 3.835.616 miktarınd
 * Dönem 31'de 527.398 $ethDYDX,
 * Dönem 32 ve devamında 0 $ethDYDX.
 
-Dönem 31'den sonra, dYdX v3 üzerinde herhangi bir alım satım ödülü olmayacaktır. dYdX v3 [Ödül Hazinesi Vester](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f)'i üzerinde kalan miktar, dYdX Zinciri Ödül Hazinesi Vester'ine (`dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk`) yatırılabilir ve daha sonra dYdX Zinciri üzerindeki yönetişim onayına tabi olarak dYdX Zinciri üzerinde alım satım ödülleri olarak dağıtılabilir.
+Dönem 31'den sonra, dYdX v3 üzerinde herhangi bir alım satım ödülü olmayacaktır. dYdX v3 üzerindeki [DIP 29](https://dydx.community/dashboard/proposal/16)'da ve dYdX Zinciri üzerindeki [Teklif 2](https://www.mintscan.io/dydx/proposals/2)'de, dYdX topluluğu, dYdX v3 [Ödül Hazinesi Devredicisi'nde](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f) kalan devredilmemiş $ethDYDX tutarının [dYdX Zinciri Ödül Hazinesi Devredicisi'ne` (dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk)`](https://www.mintscan.io/dydx/address/dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk)yatırılması ve daha sonra dYdX Zinciri üzerinde yönetişim onayına tabi olarak dYdX Zinciri üzerinde alım satım ödülleri olarak dağıtılması yönünde oy kullanmıştır.
 
 **Hedefler**
 
@@ -35,7 +35,7 @@ Dönem 31'den sonra, dYdX v3 üzerinde herhangi bir alım satım ödülü olmaya
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Belirli bir dönemde ödenen ücretler ve tahmini ödüller</p></figcaption></figure>
 
-$ethDYDX miktarı dYdX v3'te ödenen ücretler temel alınarak yatırımcılara dağıtılacaktır. $ethDYDX, beş yıl boyunca 28 günlük dönemler esas alınarak dağıtılacak ve herhangi bir hakediş veya kilitleme sürecine tabi olmayacaktır.
+Daha önce $ethDYDX miktarı dYdX v3'te ödenen ücretler temel alınarak yatırımcılara dağıtılıyordu. $ethDYDX, beş yıl boyunca 28 günlük dönemler esas alınarak dağıtılıyordu ve herhangi bir hakediş veya kilitleme sürecine tabi değildi.
 
 [DIP 29](https://dydx.community/dashboard/proposal/16)'da dYdX topluluğu alım satım ödüllerini dYdX v3'teki 30.-32. Dönemdekinden ⅓ oranında azaltarak aşağıdaki değerlere düşürme yönünde [oy kullandı](https://dydx.community/dashboard/proposal/16):
 
@@ -64,7 +64,7 @@ $$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \, n=1,2...k $$
 
 ### Alım satım ödüllerini kimler alabilir?
 
-dYdX v3 üzerindeki tüm yatırımcılar, alım satım (trading) ödülü olarak $ethDYDX alma hakkına sahiptir.
+dYdX v3'teki tüm yatırımcılar, alım satım ödülü olarak $ethDYDX almaya hak kazandı.
 
 dYdX Trading Inc.'in [Kullanım Şartlarında](https://dydx.exchange/terms) belirtildiği üzere, dYdX v3, Birleşik Devletler'deki veya Kısıtlı Bölgeler'deki yatırımcılar tarafından kullanılamaz.
 

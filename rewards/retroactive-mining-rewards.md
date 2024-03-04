@@ -15,17 +15,17 @@ description: Geriye Dönük Madencilik Ödülleri programına genel bakış.
 
 dYdX v3'ün başarısı, geçtiğimiz üç yıl boyunca dYdX v3 ve selefleri üzerinde işlem yapan binlerce topluluk üyesi sayesinde sağlanmıştır.
 
-**26 Temmuz 2021 tarihinde 00:00:00 UTC** itibarıyla alınması sona eren bir anlık görüntüye dayalı olarak tüm dYdX protokollerinin geçmiş kullanıcılarına (Amerika Birleşik Devletleri de dâhil olmak üzere ethDYDX'e izin verilmeyen bir yargı alanında yer alan kullanıcılar hariç) $ethDYDX tahsis edilmiştir. Bir kullanıcının tüm dYdX protokollerindeki geçmiş etkinliğini dikkate alan beş tahsis kademesi vardır.
+2**6 Temmuz 2021 tarihinde 00:00:00 UTC itibarıyla** alınması sona eren bir anlık görüntüye dayalı olarak tüm dYdX protokollerinin geçmiş kullanıcılarına (Amerika Birleşik Devletleri de dâhil olmak üzere ethDYDX'e izin verilmeyen bir yargı alanında yer alan kullanıcılar hariç) $ethDYDX tahsis edilmiştir. Bir kullanıcının tüm dYdX protokollerindeki geçmiş etkinliğini dikkate alan beş tahsis kademesi bulunuyordu.
 
 $ethDYDX teslim alabilmek için, geçmiş kullanıcılar ilk 28 günlük dönem (Dönem 0) içinde [Katman 2 Sürekli Varlıklarda](https://trade.dydx.exchange) aşağıda belirtilen hakediş eşiklerine ulaşmalıdır:
 
 ![](../.gitbook/assets/1-retroactive-buckets.png)
 
-Kullanıcılar Dönem 0'ın sonuna kadar hakediş eşiklerine ulaşabilirler. Kazanılmamış tüm ödüller kaybedilecek ve otomatik olarak topluluk hazinesine aktarılacaktır. Geriye Dönük Madencilik Ödülleri aracılığıyla ödül olarak verilen $ethDYDX token'ları, hiçbir süre tahdidi olmaksızın alınabilir ve ilk baştaki transfer kısıtlama süresi geçtikten sonra transfer edilebilir.
+Kullanıcılar Dönem 0'ın sonuna kadar hakediş eşiklerine ulaşabildiler. Kazanılmayan tüm ödüller kaybedildi ve otomatik olarak topluluk hazinesine dağıtıldı. Geriye Dönük Madencilik Ödülleri aracılığıyla ödül olarak verilen $ethDYDX token'ları, hiçbir süre tahdidi olmaksızın alınabilir ve ilk baştaki transfer kısıtlama süresi geçtikten sonra transfer edilebilir.
 
 ## **SSS**
 
-### **Geriye dönük ödülleri kimler alabilir?**
+### **Geriye dönük ödülleri kimler alabiliyordu?**
 
 Katman 2 veya Katman 1 üzerindeki dYdX protokollerinde (sürekli, marj, spot) alım satım yapmış veya dYdX'in borç alma/arz havuzlarına verlık yatırmış olan geçmiş dYdX kullanıcıları, geriye dönük ödüller aracılığıyla $ethDYDX almaya hak kazanır.
 
@@ -33,11 +33,7 @@ Amerika Birleşik Devletleri'nde $ethDYDX ve dYdX v3 kullanımına ilişkin kıs
 
 Tüm geriye dönük ödül tahsisleri kesindir ve değiştirilemez.
 
-### Geriye dönük ödül programında ne kadar $ethDYDX kazandım?
 
-![Çekim aşamasını ve durumunu görüntüleyin](../.gitbook/assets/1-retroactive-earn-view.png)
-
-Geçmiş dYdX kullanıcıları, Geriye Dönük Madencilik kapsamındaki geçmiş etkinliklerini ve kademelerini [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) adresinde görüntüleyebilirler. $ethDYDX kazanmak için kullanıcılar, [**trade.dydx.exchange**](https://trade.dydx.exchange/) adresinde dYdX v3 üzerinde işlem yaparak eşik değer kriterlerini karşılamalıdırlar.
 
 ### Hakediş eşiğime ulaşamazsam ne olur?
 
@@ -45,7 +41,7 @@ Tahsis edilen tüm $ethDYDX token'larını alabilmek için, kullanıcılar dYdX 
 
 Kazanılan geriye dönük ödüller hedef hacimle doğru orantılı olarak alınabilir. Örneğin bir kullanıcının dYdX v3 üzerindeki hakediş eşiği, alım satım hacminde 5.000 $ ise ancak kullanıcı dönem 0 boyunca yalnızca 2.500 $ tutarında alım satım yaparsa, kullanıcı tahsis edilen ödülün yalnızca %50'sini alabilecektir.
 
-Dönem 0 sonunda alınmamış tüm $ethDYDX'ler kaybedilecek ve otomatik olarak topluluk hazinesine aktarılacaktır.
+Dönem 0 sonunda alınmamış tüm $ethDYDX'ler kaybediliyor ve otomatik olarak topluluk hazinesine aktarılıyordu.
 
 ### Aldığım geriye dönük $ethDYDX ödüllerimi ne zaman çekebilir ve transfer edebilirim?
 

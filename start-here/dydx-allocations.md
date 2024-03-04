@@ -53,7 +53,7 @@ Her ne kadar topluluk tahsisi yukarıda belirtilen şekilde kabul edilmiş olsa 
 
 ### $ethDYDX tahsisi değişebilir mi?
 
-Evet, dYdX topluluğu [lansmandaki tüm ödül ve havuzları](../voting-and-governance/governance-parameters.md) değiştirebilir. Şimdiye kadar, dYdX topluluğu, trade ödüllerinin %25 azaltılması, $USDC stake etme ödülünün 0 olarak belirlenmesi ve $ethDYDX stake etme ödülünün 0 olarak belirlenmesi yönünde oy kullanmıştır.
+Evet, dYdX topluluğu [lansmandaki tüm ödül ve havuzları](../voting-and-governance/governance-parameters.md) değiştirebilir. Şimdiye kadar, dYdX topluluğu çeşitli yönetişim tekliflerinde DYDX emisyonlarınının azaltılması yönünde oy kullandı:
 
 [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)'da, dYdX topluluğu alım satım ödüllerinin %25 oranında düşürülmesi yönünde [oy kullandı](https://dydx.community/dashboard/proposal/8). Sonuç olarak, Dönem 15'te, belirli bir dönem için dağıtılan trade ödülleri 3.835.616 $ethDYDX'ten 2.876.712 $ethDYDX'e düşürülmüştür. Kalan 958.904 $ethDYDX, Ödül Hazinesi'ne tahakkuk edecek ve dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir.\
 \
@@ -61,8 +61,7 @@ Evet, dYdX topluluğu [lansmandaki tüm ödül ve havuzları](../voting-and-gove
 
 [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md)'de, dYdX topluluğu $ethDYDX stake etme ile ilgili ödülleri 0'a ayarlama yönünde [oy kullanmıştır](https://dydx.community/dashboard/proposal/9). Daha önce $ethDYDX stake edenlere dağıtılmış olan 383.562 $ethDYDX, Ödül Hazinesi'ne tahakkuk edecek ve dYdX topluluğu tarafından bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile kullanılabilecektir.
 
-[DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)'te dYdX topluluğu, Likidite Sağlayıcı Ödüllerini dönem başına 1.150.685 $ethDYDX'ten dönem başına 575.343 $ethDYDX'e %50 oranında azaltma yönünde [oy kullandı](https://dydx.community/dashboard/proposal/14). Dönem başına artan 575.342 $ethDYDX, Ödül Hazinesinde biriktirilecek ve bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile dYdX topluluğu tarafından kullanılabilecektir. \
-
+[DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)'te dYdX topluluğu, Likidite Sağlayıcı Ödüllerini dönem başına 1.150.685 $ethDYDX'ten dönem başına 575.343 $ethDYDX'e %50 oranında azaltma yönünde [oy kullandı](https://dydx.community/dashboard/proposal/14). Dönem başına artan 575.342 $ethDYDX, Ödül Hazinesinde biriktirilecek ve bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile dYdX topluluğu tarafından kullanılabilecektir.
 
 [DIP 29](https://dydx.community/dashboard/proposal/16)'da dYdX topluluğu alım satım ödüllerini ve likidite havuzu ödüllerini dYdX v3'teki 30.-32. Dönemdekinden ⅓ oranında azaltarak aşağıdaki değerlere düşürme yönünde oy kullandı:
 

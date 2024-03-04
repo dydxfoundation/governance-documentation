@@ -20,18 +20,16 @@ $ethDYDX ve $wethDYDX sahiplerine iki tür yönetişim yetkisi verilir: Teklif v
 
 ### Staking
 
-Şu anda Likidite Modülü ve Güvenlik Modülü aktif değildir. Elinde $stkDYDX ve $stkUSDC bulunan kullanıcılar ödül kazanmazlar. Kullanıcılar çekme `talebinde` bulunabilir ve [**dydx.community**](https://dydx.community) adresinden `çekme` işlemi yapabilirler.
+Şu anda Likidite Modülü ve Güvenlik Modülü aktif değildir. Elinde Ethereum üzerinde $stkDYDX ve $stkUSDC bulunduran kullanıcılar ödül kazanmazlar. Kullanıcılar çekme `talebinde` bulunabilir ve [**dydx.community**](https://dydx.community) adresinden `çekme` işlemi yapabilirler.
 
 ### Alım Satım Ödülleri
 
-Kullanıcılar katman 2 borsası üzerindeki alım satım faaliyetleriyle kazandıkları ödüllerini görüntüleyebilirler. Alım satım ödülleri bir dönem programı uyarınca 28 günde bir dağıtılır.
+Kullanıcılar daha önce kazandıkları ödülleri katman 2 borsasındaki alım satım faaliyetleri üzerinden görüntüleyebilirler.
 
 ![Ödül kazanmak için alım satım yapın](../.gitbook/assets/4.5-trade-to-rewards.png)
 
 ### Portföy ve $ethDYDX Talep Etme
 
 Kullanıcılar $ethDYDX bakiyeleri, talep edebilecekleri $ethDYDX'ler, stake ettikleri $ethDYDX'ler ve çekebilecekleri $ethDYDX'lerin hepsini bir arada görüntüleyebilir.
-
-Kullanıcılar $ethDYDX token'larının mevcut dolaşımdaki arzını ve günlük dağıtımını görebilir. Kullanıcılar mevcut tüm $ethDYDX ödülleri de talep edebilir.  $ethDYDX token'ları **8 Eylül 2021** tarihinde yaklaşık 15:00'da (UTC) transfer edilebilir olmuştur.
 
 ![Ödüllerinizi talep edin](../.gitbook/assets/4.6-claim-rewards.png)
