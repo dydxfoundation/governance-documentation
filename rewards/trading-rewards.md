@@ -4,7 +4,7 @@ description: Aperçu du programme des récompenses de trading.
 
 # Récompenses de trading
 
-`20,2` **`%`** (`201 883 560 $ethDYDX`) de l'offre de jetons est alloué pour être distribué aux utilisateurs qui font du trading sur dYdX v3 sur la base des frais payés. Initialement, `25,0 %` de la réserve de jetons (`250 000 000 $ethdYdX`) ont été alloués aux récompenses de trading.
+`14,5` **`%`** (14`4 693 506 $ethDYDX`) de l'offre de jetons est allouée pour être distribuée aux utilisateurs qui négocient sur dYdX v3 en fonction des frais payés. Initialement, `25,0 %` de la réserve de jetons (`250 000 000 $ethdYdX`) ont été alloués aux récompenses de trading.
 
 * Dans [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/8) en faveur de la réduction des récompenses de trading de 25,0 %. En conséquence, l'allocation de récompenses de trading a baissé, passant de `25,0 %` à `20,2 %`.
 * En conséquence, l'allocation de récompenses de trading a baissé, passant de `20,2 %` à `14,5 %`.
@@ -24,7 +24,7 @@ description: Aperçu du programme des récompenses de trading.
 *
 * 0 $ethDYDX à l'Epoch 32 et après.
 
-Après l'Epoch 31, il n'y aura pas de récompenses de trading sur dYdX v3.
+Après l'Epoch 31, il n'y aura pas de récompenses de trading sur dYdX v3. Dans le [DIP 29](https://dydx.community/dashboard/proposal/16) sur le dYdX v3 et [la Proposition 2](https://www.mintscan.io/dydx/proposals/2) sur le dYdX Chain, la communauté dYdX a voté pour créditer le montant restant des $ethDYDX non acquis dans le [Vester de trésorerie](https://etherscan.io/address/0xb9431e19b29b952d9358025f680077c3fd37292f) des récompenses du dYdX v3 au Vester de trésorerie des récompenses de la chaîne dYdX [`(dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk)`](https://www.mintscan.io/dydx/address/dydx1wxje320an3karyc6mjw4zghs300dmrjkwn7xtk) et pour les distribuer ensuite comme récompenses d'échange sur la chaîne dYdX, sous réserve de l'approbation de la gouvernance de la chaîne dYdX.
 
 **Objectifs**
 
@@ -35,11 +35,11 @@ Après l'Epoch 31, il n'y aura pas de récompenses de trading sur dYdX v3.
 
 <figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Frais payés et récompenses estimées dans une Epoch donnée</p></figcaption></figure>
 
-
+Auparavant, $ethDYDX était distribué aux traders sur la base des frais payés sur dYdX v3. $ethDYDX était distribué sur la base d'une période de 28 jours sur une période de cinq ans et n'était pas soumis à des conditions d'acquisition ou de blocage.
 
 Dans [DIP 29](https://dydx.community/dashboard/proposal/16), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/16) pour réduire les récompenses de trading d'un ⅓ de l'Epoch 30-32 sur dYdX v3 aux valeurs suivantes :
 
-* Epoch 30 : 1 054 795 $ethDYDX
+*
 * Epoch 31 : 527 398 $ethDYDX
 *
 
@@ -64,7 +64,7 @@ Dans [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP
 
 ### Qui est admissible aux récompenses de trading ?
 
-Tous les traders sur dYdX v3 sont admissibles pour recevoir $ethDYDX en tant que récompenses de trading.
+Tous les traders de dYdX v3 pouvaient recevoir des $ethDYDX en guise de récompense.
 
 dYdX v3 n'est pas disponible pour les traders aux États-Unis ou dans les territoires restreints, tels que définis dans les [conditions d'utilisation](https://dydx.exchange/terms) de dYdX Trading Inc.
 

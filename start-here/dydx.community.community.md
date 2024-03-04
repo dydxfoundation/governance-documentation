@@ -20,18 +20,16 @@ Les détenteurs de $ethDYDX et $wethDYDX se voient accorder deux types de pouvoi
 
 ### Staking
 
-Le module de liquidité et le module de sécurité sont actuellement inactifs. Les utilisateurs détenant $stkDYDX et $stkUSDC ne gagnent pas de récompenses. Les utilisateurs peuvent `demander le retrait` et effectuer un `retrait` sur [**dydx.community**](https://dydx.community).
+Le module de liquidité et le module de sécurité sont actuellement inactifs. Les utilisateurs détenant $stkDYDX et $stkUSDC sur Ethereum ne gagnent pas de récompenses. Les utilisateurs peuvent `demander le retrait` et effectuer un `retrait` sur [**dydx.community**](https://dydx.community).
 
 ### Récompenses de trading
 
-Les utilisateurs peuvent voir leurs récompenses gagnées grâce à l'activité de trading sur l'échange de couche 2. Les récompenses de trading sont distribuées tous les 28 jours selon un calendrier d'epochs.
+Les utilisateurs peuvent consulter les récompenses qu'ils ont déjà obtenues grâce à leurs activités d'échange sur la bourse de niveau 2.
 
 ![Tradez pour recevoir des récompenses](../.gitbook/assets/4.5-trade-to-rewards.png)
 
 ### Portefeuille et réclamation DYDX
 
 Les utilisateurs peuvent voir une vue agrégée de leurs avoirs $ethDYDX, $ethDYDX revendiquable, $ethDYDX jalonné et $ethDYDX retirable.
-
-Les utilisateurs peuvent voir l'offre actuelle en circulation et la distribution quotidienne des tokens $ethDYDX. Les utilisateurs peuvent également réclamer toutes les récompenses $ethDYDX disponibles. Les jetons $ethDYDX sont devenus transférables le **8 septembre 2021** à environ 15:00 UTC.
 
 ![Réclamez vos récompenses](../.gitbook/assets/4.6-claim-rewards.png)
