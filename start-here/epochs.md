@@ -8,8 +8,6 @@ Toutes les récompenses et les contrats de staking fonctionnent sur des cycles d
 
 Ce qui suit se produira à la fin de chaque époch :
 
-* **Les récompenses de trading** sont distribuées. Les récompenses peuvent être réclamées sur [**dydx.community**](https://dydx.community) environ `7 jours` après la fin de l'époch.
-* **Les récompenses du fournisseur de liquidité** sont distribuées. Les récompenses peuvent être réclamées sur [**dydx.community**](https://dydx.community) environ `7 jours` après la fin de l'époch.
 * Les retraits demandés pour le **pool de staking de liquidité** à la fin de l'époch peuvent être retirés.
 * Les retraits demandés pour le **pool de staking de sécurité** à la fin de l'époch peuvent être retirés.
 
@@ -95,34 +93,30 @@ La Fondation dYdX a créé un Google Calendar public avec des dates de début/fi
 ## **Quand les récompenses et les pools de staking seront-ils activés ?**
 
 * Les [récompenses minières rétroactives](../rewards/retroactive-mining-rewards.md) ont été distribuées sur dYdX v3. Ces récompenses sont valables jusqu'au **31 août 2021, à 15:00:00 UTC**.
-* Les [récompenses de trading](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md) sont désormais en direct sur le protocole. Ces récompenses se poursuivront jusqu'au **3 août 2026, 15:00:00 UTC**.
-* Les [récompenses du fournisseur de liquidité](../rewards/liquidity-provider-rewards.md) sont maintenant mis en ligne sur le protocole. Ces récompenses se poursuivront jusqu'au **3 août 2026, 15:00:00 UTC**.
-* Le [pool de mise en réserve de liquidité](../staking-pools/liquidity-staking-pool.md) a été fermé le 29 septembre 2022.
-* Le [pool de mise en réserve de sécurité](../staking-pools/safety-staking-pool.md) a été fermé le 28 novembre 2022.
+* [Les récompenses commerciales](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md) ont été fixées à 0 à [l'époque 32](https://dydx.community/dashboard/proposal/16). Ces récompenses ont été offertes du **3 août 2021, 15:00:00 UTC **au **16 janvier 2024, 15:00:00 UTC.**
+* [Les récompenses des fournisseurs de liquidités](../rewards/liquidity-provider-rewards.md) ont été fixées à 0 à [l'époque 32](https://dydx.community/dashboard/proposal/16). Ces récompenses ont été offertes du **3 août 2021, 15:00:00 UTC** au **16 janvier 2024, 15:00:00 UTC**.
+* Les prim[es de liquidité](../staking-pools/liquidity-staking-pool.md) ont été fixées à 0 le 29 septembre 2022 dans le cadre du [DIP 14](https://dydx.community/dashboard/proposal/7).
+* Les récompenses [de la piscine de piquetage de sécurité](../staking-pools/safety-staking-pool.md) ont été fixées à 0 le 28 novembre 2022 dans le [DIP 17](https://dydx.community/dashboard/proposal/9).
 
 ## La gouvernance dYdX peut-elle modifier le calendrier des épochs ?
 
-La durée initiale de l'époch est de `28 jours`. La gouvernance dYdX v3 peut voter pour modifier les longueurs d'époch, dans les limites spécifiées. Les durées d'époch minimale et maximale sont respectivement de `6 jours` et `92 jours`.
+La durée initiale de l'époch est `de 28 jours`. La gouvernance dYdX v3 peut voter pour modifier les longueurs d'époch, dans les limites spécifiées. Les durées d'époch minimale et maximale sont respectivement de `6 jours` et `92 jours`.
 
 ## Qu'est-ce qu'une fenêtre de blocage ?
 
 Pour le [pool de staking de liquidité](../staking-pools/liquidity-staking-pool.md) et le [pool de staking de sécurité](../staking-pools/safety-staking-pool.md), un calendrier d'époch est appliqué pour les retraits afin de fournir une prévisibilité et une cadence régulière pour la disponibilité des fonds dans le pool. Un staker doit demander à retirer des fonds avant la fenêtre de blocage afin de pouvoir retirer les fonds du miseur après la fin de cette période. Si un staker ne demande pas de retrait, les fonds stakés du staker sont reportés à l'époch suivante.
 
-Pour chacun des pools de mise en réserve de liquidité et des pools de sécurité, la fenêtre de blocage recommandée est de `14 jours`. Dans la [DIP 17](https://dydx.community/dashboard/proposal/9), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/7) en faveur d'une réduction de la fenêtre de blocage de `14 jours` à `3 jours`. La gouvernance de dYdX peut voter la modification la fenêtre de blocage dans les limites spécifiées. Les fenêtres de blocage minimale et maximale sont respectivement de `3 jours` et `46 jours`.
+Dans la [DIP 17](https://dydx.community/dashboard/proposal/9)[](https://dydx.community/dashboard/proposal/7), la communauté dYdX `a voté` en faveur d'une réduction de la fenêtre de blocage de `14 jours` à 3 jours. La gouvernance de dYdX peut voter la modification la fenêtre de blocage dans les limites spécifiées. Les fenêtres de blocage minimale et maximale sont respectivement de `3 jours``` et 46 jours.
 
 ## Quand puis-je retirer et transférer mes récompenses $ethDYDX gagnées ?
 
-Les jetons $ethDYDX gagnés grâce aux [Récompenses minières rétroactives](../rewards/retroactive-mining-rewards.md), grâce aux [récompenses de trading](../rewards/trading-rewards.md) et grâce aux [récompenses de fournisseur de liquidité](../rewards/liquidity-provider-rewards.md) sont transférables à la fin de chaque epoch. Les détenteurs de $ethDYDX sont tenus de patienter environ `7 jours` (**période d'attente**) après la fin de l'epoch pour réclamer leurs jetons. Une fois les jetons réclamés, ils peuvent être transférés ou délégués à la gouvernance dYdX.
-
-Les jetons $ethDYDX gagnés grâce au pool de staking de liquidité et au pool de staking de sécurité peuvent être réclamés au niveau de chaque bloc et être retirés à tout moment pendant une epoch donnée.
-
-Le **8 septembre 2021 à 15:00:00 UTC**, 8 jours après la fin de l'Époch 0, les restrictions de transfert initiales ont été automatiquement levées, date à laquelle environ **8,11 %** de l'approvisionnement en $ethDYDX est devenue liquide.
+Une fois les jetons réclamés, ils peuvent être transférés ou délégués à la gouvernance dYdX.
 
 ## Quel est le but de la période d'attente ? Comment les récompenses sont-elles stockées à la fin de chaque époch ?
 
-[Les récompenses de minage rétroactives](../rewards/retroactive-mining-rewards.md), [les récompenses de trading](../rewards/trading-rewards.md) et [les récompenses de fournisseur de liquidité](../rewards/liquidity-provider-rewards.md) sont stockées dans un arbre Merkle, qui contient les récompenses cumulées gagnées par chaque utilisateur depuis le début du programme de distribution.
+[Les récompenses minières rétroactives](../rewards/retroactive-mining-rewards.md), les récompenses [commerciales](../rewards/trading-rewards.md) et les récompenses [des fournisseurs de liquidités](../rewards/liquidity-provider-rewards.md) ont été stockées dans un arbre de Merkle, qui contient les récompenses cumulées gagnées par chaque utilisateur depuis le début du programme de distribution.
 
-À la fin de chaque époch, la racine Merkle est mise à jour via le système oracle ChainLink sur le contrat intelligent `MerkleDistributorV1` pour refléter les récompenses gagnées au cours de la dernière époch. Une mise à jour est effectuée en définissant la racine Merkle proposée sur la dernière valeur renvoyée par le contrat oracle. La racine de Merkle proposée peut être rendue active après une **période d'attente** de `7 jours`. Pendant la période d'attente, dYdX Governance a la possibilité de geler la racine Merkle, au cas où la racine proposée serait incorrecte ou malveillante. Si la racine Merkle n'est pas gelée, la nouvelle racine Merkle est activée et les utilisateurs peuvent réclamer leurs récompenses de l'époch passée.
+À la fin de chaque époque, la racine de Merkle a été mise à jour via le système d'oracle ChainLink sur le contrat intelligent `MerkleDistributorV1` afin de refléter les récompenses obtenues au cours de la dernière époque. Une mise à jour est effectuée en définissant la racine Merkle proposée sur la dernière valeur renvoyée par le contrat d'oracle. La racine de Merkle proposée peut être rendue active après une **période d'attente** de `7 jours`. Pendant la période d'attente, dYdX Governance a la possibilité de geler la racine Merkle, au cas où la racine proposée serait incorrecte ou malveillante. Si la racine Merkle n'est pas gelée, la nouvelle racine Merkle est activée et les utilisateurs peuvent réclamer leurs récompenses de l'époch passée.
 
 Chaque fois que l'époch change, ce qui suit se produit dans l'ordre :
 
