@@ -53,7 +53,7 @@ Bien que l'allocation à la communauté ait été établie comme indiqué ci-des
 
 ### L'allocation de $DYDX peut-elle changer ?
 
-Oui, la communauté dYdX peut changer l'ensemble des [récompenses et des pools existants au moment du lancement](../voting-and-governance/governance-parameters.md). Jusqu'à présent, la communauté dYdX a voté pour réduire les récompenses d'échange de 25 %, fixer les récompenses de mise en réserve de $USDC à 0 et fixer les récompenses de mise en réserve de $ethDYDX à 0.
+Oui, la communauté dYdX peut changer l'ensemble des [récompenses et des pools existants au moment du lancement](../voting-and-governance/governance-parameters.md). Jusqu'à présent, la communauté dYdX a voté en faveur de la réduction des émissions de DYDX dans plusieurs propositions de gouvernance :
 
 Dans [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/8) en faveur d'une réduction de trading de 25 %. Par conséquent, les récompenses de trading distribuées dans un epoch donné ont été réduites et sont passées de 3 835 616 $DYDX à 2 876 712 DYDX dans Epoch 15. Les 958 904 $DYDX restants s'accumuleront dans la trésorerie des récompenses et pourront être utilisés par la communauté dYdX sous réserve d'un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).\
 \
@@ -61,8 +61,7 @@ Dans [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP
 
 Dans [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/9) pour définir les récompenses associées au staking de l'USDC à 0. Les 383 562 DYDX précédemment distribués USDC aux stakers d'USDC s'accumuleront dans la trésorerie des récompenses et pourront être utilisés par la communauté dYdX grâce à un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters),
 
-Dans [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/14) pour réduire les récompenses des fournisseurs de liquidité de 50 % de 1,150,685 $DYDX par epoch à 575,343 $DYDX par epoch. L'excès de 575,342 $DYDX par epoch s'accumulera dans le Trésor des récompenses et peut être utilisé par la communauté dYdX avec un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters). \
-
+Dans [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/14) pour réduire les récompenses des fournisseurs de liquidité de 50 % de 1,150,685 $DYDX par epoch à 575,343 $DYDX par epoch. L'excès de 575,342 $DYDX par epoch s'accumulera dans le Trésor des récompenses et peut être utilisé par la communauté dYdX avec un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
 Dans [DIP 29](https://dydx.community/dashboard/proposal/16), la communauté dYdX a voté pour réduire les récompenses de trading et de LP d'un ⅓ de l'Epoch 30-32 sur dYdX v3 aux valeurs suivantes :
 
