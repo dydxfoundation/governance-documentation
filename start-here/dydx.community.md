@@ -2,7 +2,7 @@
 description: A home for governance, rewards, and staking at dydx.community
 ---
 
-# Interface
+# 🖥️ Interface
 
 The interface for governance, rewards, and staking is live at [**dydx.community**](https://dydx.community).
 
@@ -24,7 +24,13 @@ Currently, the Liquidity Module and Safety Module are inactive. Users holding $s
 
 ### Trading Rewards
 
-Users can view their previously earned rewards earned through trading activity on the layer 2 exchange.&#x20;
+Users can view their previously earned rewards earned through trading activity on the layer 2 exchange.  In [DIP 29](https://dydx.community/dashboard/proposal/16), the dYdX community voted to reduce Trading Rewards by ⅓ from Epoch 30-32 on dYdX v3 to the following values:
+
+* Epoch 30: 383,562 $ethDYDX
+* Epoch 31: 191,781 $ethDYDX
+* Epoch 32: 0 $ethDYDX
+
+Currently, no rewards accrue for trading activity on dYdX v3.
 
 ![Trade to receive rewards](../.gitbook/assets/4.5-trade-to-rewards.png)
 

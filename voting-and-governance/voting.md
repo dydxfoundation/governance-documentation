@@ -2,7 +2,7 @@
 description: An overview of the voting process.
 ---
 
-# Voting Process
+# 🗳️ Voting Process
 
 dYdX v3 is governed and upgraded by Governance Tokens holders and delegatees.
 

@@ -2,7 +2,7 @@
 description: An overview of the community treasury.
 ---
 
-# Community Treasury
+# 🤝 Community Treasury
 
 **`26.1%`** (`261,133,225 $ethDYDX`) of the token supply is allocated to the community treasury for the dYdX community to use on an ongoing basis for contributor grants, community initiatives, liquidity mining, and other programs. Initially,`5.0%` of the token supply (`50,000,000 $ethDYDX`) was [allocated](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations) to the community treasury, and 766,703 $ethDYDX vested in the community treasury each epoch. Currently, 3,787,251 $ethDYDX vest in the community treasury because several governance proposals resulted in a 3,020,548 $ethDYDX increase in the amount of $ethDYDX available to the dYdX community each epoch:
 
@@ -37,15 +37,15 @@ If, after five years, governance decides to enact perpetual inflation (at a maxi
 
 ## FAQ
 
-### How does $ethDYDX vest in the Community Treasury?
+<details>
+
+<summary>How does $ethDYDX vest in the Community Treasury?</summary>
 
 Previously, the Community Treasury Vester (see details [here](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)) vested [`0.3169242627`](tel:03169242627) $ethDYDX to the Community Treasury every second. Once $ethDYDX has been vested, calling the `claim` function on the Community Treasury Vester would transfer the vested $ethDYDX to the Community Treasury. Any dYdX community member could call the `claim` function on Etherscan [here](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract) (which would require some ETH for gas fees) to move the vested $ethDYDX from the Community Treasury Vester to the Community Treasury.
 
 Please refer to the dYdX Foundation’s [Terms of Use](https://dydx.foundation/terms) for further details on the control of the community treasury by the dYdX community.
 
-<figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image.png)
 
-###
-
-###
+</details>
 

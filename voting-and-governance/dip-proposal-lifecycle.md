@@ -2,7 +2,7 @@
 description: Overview of the dYdX Improvement Proposal (DIP) lifecycle.
 ---
 
-# Proposal Lifecycle
+# 💼 Proposal Lifecycle
 
 ## **Proposal Stages**
 

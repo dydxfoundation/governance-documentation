@@ -2,7 +2,7 @@
 description: Overview of governance parameters.
 ---
 
-# Parameters
+# 💾 Parameters
 
 &#x20;Holders of Governance Tokens have immediate and irrevocable control over:
 

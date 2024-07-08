@@ -5,7 +5,7 @@ description: >-
   DIP, and executing a DIP.
 ---
 
-# Governance Guide
+# 🏛️ Governance Guide
 
 The dYdX Foundation created this guide to assist the dYdX community with understanding the dYdX governance process. The guide provides a step-by-step overview of:
 

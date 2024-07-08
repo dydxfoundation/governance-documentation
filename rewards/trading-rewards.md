@@ -2,7 +2,7 @@
 description: Overview of the Trading Rewards program.
 ---
 
-# Trading Rewards
+# 📊 Trading Rewards
 
 `14.5`**`%`** (`144,693,506 $ethDYDX`) of the token supply is allocated to be distributed to users who trade on dYdX v3 based on fees paid. Initially, `25.0%` of the token supply (`250,000,000 $ethDYDX`) was allocated for trading rewards.&#x20;
 
@@ -62,23 +62,7 @@ $$
 
 In [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md), the dYdX Community voted to simplify the formula to be based on total fees paid by a trader in a given epoch.
 
-## FAQ
-
-### Who is eligible for trading rewards?
-
-All traders on dYdX v3 were eligible to receive $ethDYDX as trading rewards.
-
-dYdX v3 is not available to traders in the United States or Restricted Territories, as defined in dYdX Trading Inc.’s [Terms of Use](https://dydx.exchange/terms).
-
-### How much $ethDYDX did I earn in the Trading Rewards program?
-
-In the current epoch, users can see fees paid and estimated trading rewards at [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) where users' trading data exists.
-
-<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Fees paid and estimated rewards in a given epoch</p></figcaption></figure>
-
-Rewards from past epochs can be viewed at [**dydx.community/history/rewards**](https://dydx.community/history/rewards)**.**
-
-### How do I claim my Trading Rewards? When can I withdraw and transfer my earned ethDYDX?
+## Claiming Trading Rewards
 
 Earned $ethDYDX tokens via Trading Rewards will be transferable at the end of each epoch. $ethDYDX token holders are required to wait approximately `7 days` (**Waiting Period**) after the end of the epoch to claim their $ethDYDX tokens.&#x20;
 
@@ -95,7 +79,7 @@ Steps:
 
 <figure><img src="../.gitbook/assets/updateRoot-claiming.jpeg" alt=""><figcaption></figcaption></figure>
 
-**This transaction would require some ETH for gas fees, and will the transaction will fail if:**
+**This transaction would require some ETH for gas fees, and the transaction will fail if:**
 
 * The 7-day waiting period is still in effect, or
 * A community member has already successfully called the `updateRoot` parameter on the [Merkle Distributor contract](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract).
@@ -103,3 +87,25 @@ Steps:
 Once the transaction is finalized, traders can claim their Trading Rewards [here](https://dydx.community/dashboard). Users will need to click on `Claim`, sign a transaction, and pay gas fees to claim $ethDYDX.
 
 ![Portfolio overview of rewards](../.gitbook/assets/1-portfolio-overview-rewards.png)
+
+## FAQ
+
+<details>
+
+<summary>Who is eligible for trading rewards?</summary>
+
+All traders on dYdX v3 were eligible to receive $ethDYDX as trading rewards.
+
+dYdX v3 is not available to traders in the United States or Restricted Territories, as defined in dYdX Trading Inc.’s [Terms of Use](https://dydx.exchange/terms).
+
+</details>
+
+<details>
+
+<summary>How much $ethDYDX did I earn in the Trading Rewards program?</summary>
+
+In the current epoch, users can see fees paid and estimated trading rewards at [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) where users' trading data exists.
+
+Rewards from past epochs can be viewed at [**dydx.community/history/rewards**](https://dydx.community/history/rewards)**.**
+
+</details>
