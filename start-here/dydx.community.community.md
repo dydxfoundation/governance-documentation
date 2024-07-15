@@ -2,7 +2,7 @@
 description: dydx.community adresinde yönetişim, ödüller ve staking için ana sayfa
 ---
 
-# Arayüz
+#
 
 [**dydx.community**](https://dydx.community) adresinde yönetişim, ödüller ve staking arayüzü kullanıma sunulmuştur.
 
@@ -24,7 +24,13 @@ $ethDYDX ve $wethDYDX sahiplerine iki tür yönetişim yetkisi verilir: Teklif v
 
 ### Alım Satım Ödülleri
 
-Kullanıcılar daha önce kazandıkları ödülleri katman 2 borsasındaki alım satım faaliyetleri üzerinden görüntüleyebilirler.
+
+
+* Dönem 30: 383.562 $ethDYDX
+* Dönem 31: 191.781 $ethDYDX
+* Dönem 32: 0 $ethDYDX
+
+
 
 ![Ödül kazanmak için alım satım yapın](../.gitbook/assets/4.5-trade-to-rewards.png)
 
