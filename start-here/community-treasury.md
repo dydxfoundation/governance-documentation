@@ -2,7 +2,7 @@
 description: Topluluk hazinesine genel bir bakış.
 ---
 
-# Topluluk Hazinesi
+#
 
 Token arzının **`%26,1'i`** (`261.133.225 $ethDYDX`) katılımcı hibeleri, topluluk girişimleri, likidite madenciliği ve diğer programlarda kullanılmak üzere düzenli olarak dYdX topluluğunun hazinesine hibe edilir. Başlangıçta, token arzının `%5'i` (`50.000.000 $ethDYDX`) topluluk hazinesine [tahsis](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations) edilmişti ve her dönem topluluk hazinesinde 766.703 $ethDYDX birikmekteydi. Şu anda topluluk hazinesinde 3.787.251 $ethDYDX birikmektedir çünkü birçok yönetişim teklifi, her dönem dYdX topluluğunun kullanabileceği $ethDYDX miktarında 3.020.548 $ethDYDX artışla sonuçlanmıştır:
 
@@ -37,15 +37,15 @@ Beş yıl dolduktan sonra yönetim, (yıllık maksimum `%2` enflasyon ile) süre
 
 ## SSS
 
-### $ethDYDX Topluluk Hazinesine nasıl devreder (vesting)?
+<details>
+
+<summary>$ethDYDX Topluluk Hazinesine nasıl devreder (vesting)?</summary>
 
 Daha önce, Topluluk Hazinesi Devredicisi (ayrıntılara [buradan](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview) bakabilirsiniz) her saniye Topluluk Hazinesi'ne [`0,3169242627`](tel:03169242627) $ethDYDX kazandırıyordu. $ethDYDX devredildikten sonra Topluluk Hazinesi Devredicisi üzerinde `claim` (talep et) işlevini çağırmak, devredilen $ethDYDX'i Topluluk Hazinesine aktarıyordu. Herhangi bir dYdX topluluk üyesi [buradan](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract) Etherscan üzerinde `claim` işlevini çağırarak (gas ücreti olarak bir miktar ETH gerektiriyordu), devredilen $ethDYDX'i Topluluk Hazinesi Devredicisi'nden Topluluk Hazinesine taşıyabiliyordu.
 
 Lütfen dYdX topluluğu tarafından topluluk hazinesinin kontrolü hakkında daha fazla bilgi edinmek için dYdX Foundation'ın [Kullanım Şartlarına](https://dydx.foundation/terms) göz atın.
 
-<figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image.png)
 
-###
-
-###
+</details>
 
