@@ -3,7 +3,7 @@ description: >-
   Un aperçu étape par étape du processus de gouvernance Création de la DRC, création de sondage Snapchot, création de DIP, vote sur un sondage Snapshot, vote sur une DIP, mise en file d'attente d'une DIP et exécution d'une DIP
 ---
 
-# Guide de gouvernance
+#
 
 La Fondation dYdX a créé ce guide pour aider la communauté dYdX à comprendre le processus de gouvernance dYdX. Le guide fournit un aperçu étape par étape de :
 
