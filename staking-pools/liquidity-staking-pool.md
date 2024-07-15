@@ -2,16 +2,16 @@
 description: 流动性质押池概述
 ---
 
-# 流动性模块
+#
 
-代币供应量的 `0.6%` (`5,753,430 $ethDYDX)` 分配给将 $USDC 质押到流动性质押池的用户。最初，代币供应量的 `2.50%`（`25,000,000 $ethDYDX`）分配给把 $USDC 质押到“流动质押池”的用户。 流动性质押池自 2022 年 9 月 29 日起不再运行。在 [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/7)决定将每秒“流动性质押池”奖励设置为 0，以便有效逐步终止“流动性质押池”和“借款池”。\
+最初，代币供应量的 `2.50%`（`25,000,000 $ethDYDX`）分配给把 $USDC 质押到“流动质押池”的用户。 流动性质押池自 2022 年 9 月 29 日起不再运行。在 [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/7)决定将每秒“流动性质押池”奖励设置为 0，以便有效逐步终止“流动性质押池”和“借款池”。\
 \此前，$ethDYDX 分配给将 $USDC 质押到“流动性质押池”的用户。社区批准的流动性提供方使用质押的 $USDC 在 dYdX v3 上做市，从而进一步提高市场间的流动性。流动提供方不可使用 dYdX v3 之外的借款资金。
 
 ## **质押**概述
 
 目前，在流动性质押池中质押的 $USDC 不会获得奖励。
 
-先前分配给 USDC 质押人的 383,562 $ethDYDX 将在奖励资金库中积累，并可由 dYdX 社区通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。
+
 
 ## USDC解除质押和提现
 
@@ -31,11 +31,17 @@ $stkUSDC 余额既可是活跃的，也可是不活跃的。活跃的 $stkUSDC �
 
 ## 常见问题解答
 
-### 停市窗口期是什么？
+<details>
+
+<summary>停市窗口期是什么？</summary>
 
 停市窗口期是指一段时间，在此期间，用户不能请求提取质押的 $USDC。停市窗口期期间，无法调用 `请求提款` 函数，该窗口期被配置为一个时段的最后 `3 天`。每28天开始新的时段。换句话说，用户可以在给定时段结束前最多 `3 天`请求提现。
 
-### 我如何从质押池提取 $USDC？需要多长时间？
+</details>
+
+<details>
+
+<summary>我如何从质押池提取 $USDC？需要多长时间？</summary>
 
 质押人必须在某一时段结束前至少 `3 天`请求解除 $USDC 质押，才能在该时段结束之后提取质押人的 $USDC。如果质押人不请求提现，则其质押的 $USDC 将转入下一时段。
 
@@ -46,19 +52,24 @@ $stkUSDC 余额既可是活跃的，也可是不活跃的。活跃的 $stkUSDC �
 要在流动性质押池中解除 $USDC 质押，按照以下步骤操作：
 
 * 转到[**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*
-* 单击“**请求**”，以打开以下模式：
-
-![请求提现](../.gitbook/assets/1-withdraw-from-liquidity-pool.png)
-
+*
 * 输入您希望从资金池中支取的 $USDC 金额，然后单击“**请求支取**”。您需要支付 gas 费来解除质押 $USDC。
 * 如果质押人在当前时段结束前至少 `3 天`（**停市窗口期**）请求解除质押 $USDC，则可以在下一时段开始时支取 $USDC。
 
-### 治理可以更改哪些参数？
+</details>
 
-dYdX治理负责：
+<details>
+
+<summary></summary>
+
+
 
 * 将 $USDC 质押到“流动性质押池”的每秒奖励
 * 将新借款人添加到质押流动性资金池中，和/或从资金池中删除现有借款人
 * 更改将借款 $USDC 分配给获批借款人的数额
   * 调用`setBorrowerAllocations`和`setBorrowingRestriction`函数，以更改某些借款人的分配。可以使用它们添加和删除借款人。增加将于下一时段生效，但减少将立即限制借贷。“停市窗口期”期间无法调用这些函数。
 * 时段长度和停市窗口期在创建合约时确定，但可以更改
+
+</details>
+
+###
