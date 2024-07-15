@@ -2,7 +2,7 @@
 description: Visión general de los parámetros de gobernanza.
 ---
 
-# Parámetros
+#
 
 
 
