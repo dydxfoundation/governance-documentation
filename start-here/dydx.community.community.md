@@ -2,7 +2,7 @@
 description: Un foyer pour la gouvernance, les récompenses et le staking sur dydx.community
 ---
 
-# Interface
+#
 
 L'interface pour la gouvernance, les récompenses et le skating est en ligne sur [**dydx.community**](https://dydx.community).
 
@@ -24,7 +24,13 @@ Le module de liquidité et le module de sécurité sont actuellement inactifs. L
 
 ### Récompenses de trading
 
-Les utilisateurs peuvent consulter les récompenses qu'ils ont déjà obtenues grâce à leurs activités d'échange sur la bourse de niveau 2.
+
+
+* Epoch 30 : 383 562 $ethDYDX
+*
+* Epoch 32 : 0 $ethDYDX
+
+
 
 ![Tradez pour recevoir des récompenses](../.gitbook/assets/4.5-trade-to-rewards.png)
 
