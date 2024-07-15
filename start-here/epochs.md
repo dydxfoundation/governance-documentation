@@ -2,7 +2,7 @@
 description: エポックシステムの概要
 ---
 
-# エポック
+#
 
 すべての報酬およびステーキング契約は、**エポック**と呼ばれる`28日間`サイクルで運営されます。新しいエポックは、現在のエポックが終了すると自動的に開始されます。
 
@@ -90,7 +90,11 @@ description: エポックシステムの概要
 
 dYdX Foundationでは、エポックおよびブラックアウトウィンドウの開始日/終了日を記入したパブリックなGoogleカレンダーを作成しました。[**こちら**](https://calendar.google.com/calendar/u/3?cid=Y19wZjIwYzBoZzQ3dTR2cHRja283NDl1ajQyb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)から入手できます。
 
-## **報酬およびステーキングプールは、いつアクティブ化されますか？**
+## よくある質問
+
+<details>
+
+<summary>報酬およびステーキングプールは、いつアクティブ化されますか？</summary>
 
 * [遡及マイニング報酬](../rewards/retroactive-mining-rewards.md)は、dYdX v3で提供されました。これらの報酬は、**2021年8月31日午後3時（UTC）**まで実行されました。
 * [取引報酬](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md)は[エポック32](https://dydx.community/dashboard/proposal/16)で0に設定されました。これらの報酬は**2021年8月3日15:00:00（UTC）**から**2024年7月16日15:00:00（UTC）**までの間行われました
@@ -98,25 +102,41 @@ dYdX Foundationでは、エポックおよびブラックアウトウィンド�
 * 2022年9月29日、[DIP14](https://dydx.community/dashboard/proposal/7)の[流動性ステーキング・プール](../staking-pools/liquidity-staking-pool.md)報酬が0に設定されました。
 * 2022年11月28日、[DIP 17](https://dydx.community/dashboard/proposal/9)の[安全ステーキングプール](../staking-pools/safety-staking-pool.md)の報酬が0に設定されました。
 
-## dYdXのガバナンスは、エポックのスケジュールを変更できますか？
+</details>
+
+<details>
+
+<summary>dYdXのガバナンスは、エポックのスケジュールを変更できますか？</summary>
 
 最初のエポックの期間は`28日間`です。dYdX v3のガバナンスは、指定された範囲内でエポックの期間の変更を選択できます。エポックの最小および最大期間は、それぞれ`6日`および`92日`間です。
 
-## ブラックアウト・ウィンドウとは何ですか？
+</details>
+
+<details>
+
+<summary>ブラックアウト・ウィンドウとは何ですか？</summary>
 
 [流動性ステーキングプール](../staking-pools/liquidity-staking-pool.md)および[安全ステーキングプール](../staking-pools/safety-staking-pool.md)では、プール内の資金の可用性に関する予測可能性および定期的な基準を提供するために、出金スケジュールが執行されます。エポックの終了後に、ステーカーが自己資金を出金できるようにするには、ブラックアウト・ウィンドウの前に資金をステーク解除するように請求する必要があります。ステーカーが出金を請求しない場合、ステーカーのステークされた資金は次のエポックにロールオーバーされます。
 
 [DIP 17](https://dydx.community/dashboard/proposal/9)[](https://dydx.community/dashboard/proposal/7)において、dYdXコミュニティは、ブラックアウト・ウィンドウの長さを`14日`から3日に削減すること`に合意`しました。dYdXガバナンスは、指定された範囲内で、ブラックアウト・ウィンドウの変更を決定できます。最小および最大ブラックアウト・ウインドウは、それぞれ`3日```および46日間です。
 
-## いつから獲得した$ethDYDX報酬を出金および譲渡することができますか？
+</details>
+
+<details>
+
+<summary>いつから獲得した$ethDYDX報酬を出金および譲渡することができますか？</summary>
 
 トークンが請求されると、dYdXのガバナンスに譲渡または委任できます。
 
-## 待機期間の目的は何ですか？すべてのエポックの終了時に報酬はどのように保存されますか？
+</details>
+
+<details>
+
+<summary>待機期間の目的は何ですか？すべてのエポックの終了時に報酬はどのように保存されますか？</summary>
 
 [遡及マイニング報酬](../rewards/retroactive-mining-rewards.md)、[取引報酬](../rewards/trading-rewards.md)、および[流動性プロバイダー報酬](../rewards/liquidity-provider-rewards.md)は、メルクルツリーに保存され、配信プログラム開始以降に各ユーザーが獲得した累積報酬が含まれます。
 
-各エポックの終了時に、Merkleルートは、`MerkleDistributorV1`スマートコントラクトのChainLinkのオラクルシステムを通じて更新され、最後のエポックで獲得した報酬を反映します。提案されているMerkleルートをオラクル契約によって返される最新の値に設定することで、更新が実行されます。提案されているMerkleルートは、**待機期間**が`7日`経過した後、アクティブにできます。待機期間中、dYdXのガバナンスには、提案されたルートが間違っているか悪意のある場合、Merkleルートを凍結する機会があります。Merkleルートが凍結されていない場合、新しいMerkleルートがアクティブになり、ユーザーは過去のエポックから報酬を請求できます。
+
 
 エポックが変更されるたびに、以下の順番に発生します。
 
@@ -131,3 +151,6 @@ dYdX Foundationでは、エポックおよびブラックアウトウィンド�
 * 待機期間が発生している間にガバナンスが提案されているMerkleルートが有効にならないないように、`MerkleDistributorV1.pauseRootUpdates()`を呼び出すことができます。
 * 待機期間後、オラクル署名者（または第三者）がパブリック関数`MerkleDistributorV1.updateRoot()`を呼び出すことで、提案されているMerkleルートがアクティブになります。
 * 新しいMerkleルートがアクティブになれば、ユーザーは前回のエポックから報酬を請求できます。
+
+</details>
+

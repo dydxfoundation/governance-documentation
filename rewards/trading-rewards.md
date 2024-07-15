@@ -2,7 +2,7 @@
 description: トレード報酬プログラムの概要。
 ---
 
-# トレード報酬
+#
 
 トークン供給の`14.5`**`％`**（`144,693,506 $ethDYDX`)は、支払われた手数料に基づいてdYdX v3で取引するユーザーに分配されるように割り当てられます。当初、取引報酬にトークン供給の`25.0%`（`2億5000万$ethDYDX`）が割り当てられました。
 
@@ -62,23 +62,7 @@ $$
 
 [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md)において、dYdXコミュニティは公式を簡素化し、所与のエポックでトレーダーが支払った手数料の総額に基づくものにすることで合意しました。
 
-## FAQ
-
-### どのような人がトレード報酬の対象になるのですか？
-
-dYdX v3のすべてのトレーダーは、取引報酬として$ethDYDXを受け取る資格がありました。
-
-dYdX v3は、dYdX Trading Inc.の[利用規約](https://dydx.exchange/terms)に定義されているように、米国または制限地域のトレーダーはご利用いただけません。
-
-### トレード報酬プログラムでどのくらい$ethDYDXを獲得できたのか知ることはできますか？
-
-現在のエポックでは、ユーザーは[**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)で、支払われた手数料と推定されるトレード報酬を確認できます。
-
-<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>所定のエポックにおける支払済みの手数料と推定される報酬</p></figcaption></figure>
-
-過去のエポックからの報酬は、[**dydx.community/history/rewards**](https://dydx.community/history/rewards)でご覧いただけます**。**
-
-### トレード報酬を請求するにはどうすればよいですか？いつから獲得したethDYDXを出金および移動することができますか？
+##
 
 トレード報酬で獲得した$ethDYDXトークンは、各エポックの終了時から移動することができるようになります。$ethDYDXトークン保有者は、$ethDYDXトークンを請求するために、エポックの終了から約`7日間`（**待機期間**）待つ必要があります。
 
@@ -95,7 +79,7 @@ dYdX v3は、dYdX Trading Inc.の[利用規約](https://dydx.exchange/terms)に�
 
 <figure><img src="../.gitbook/assets/updateRoot-claiming.jpeg" alt=""><figcaption></figcaption></figure>
 
-**このトランザクションには、ガス代のためにETHが必要となり、以下の場合トランザクションは失敗します。**
+
 
 * 7日間の待機期間がまだ有効な場合
 * コミュニティメンバーが、すでに[Merkleディストリビュータコントラクト](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract)で`updateRoot`パラメータを呼び出している場合
@@ -103,3 +87,25 @@ dYdX v3は、dYdX Trading Inc.の[利用規約](https://dydx.exchange/terms)に�
 トランザクションが確定した後、トレーダーは[こちら](https://dydx.community/dashboard)から取引報酬を請求できます。$ethDYDXを請求するには、`請求`をクリックし、トランザクションに署名して、Gas（ガス）代を支払う必要があります。
 
 ![報酬のポートフォリオ概要](../.gitbook/assets/1-portfolio-overview-rewards.png)
+
+## FAQ
+
+<details>
+
+<summary>どのような人がトレード報酬の対象になるのですか？</summary>
+
+dYdX v3のすべてのトレーダーは、取引報酬として$ethDYDXを受け取る資格がありました。
+
+dYdX v3は、dYdX Trading Inc.の[利用規約](https://dydx.exchange/terms)に定義されているように、米国または制限地域のトレーダーはご利用いただけません。
+
+</details>
+
+<details>
+
+<summary>トレード報酬プログラムでどのくらい$ethDYDXを獲得できたのか知ることはできますか？</summary>
+
+現在のエポックでは、ユーザーは[**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)で、支払われた手数料と推定される取引報酬を確認できます。
+
+過去のエポックからの報酬は、[**dydx.community/history/rewards**](https://dydx.community/history/rewards)でご覧いただけます**。**
+
+</details>

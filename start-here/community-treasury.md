@@ -2,7 +2,7 @@
 description: コミュニティトレジャリーの概要
 ---
 
-# コミュニティ基金
+#
 
 トークン供給の**`26.1％`**（`261,133,225$ethDYDX`）は、dYdXコミュニティがコントリビューター支援金、コミュニティイニシアチブ、流動性マイニング、およびその他のプログラムに継続的に使用するためにコミュニティトレジャリーに割り当てられます。当初、コミュニティトレジャリーにトークン供給の`5.0％`（`5000万$ethDYDX`）が[割り当てられ](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations)、766,703$ethDYDXがエポックごとにコミュニティトレジャリーに帰属しました。現在、コミュニティトレジャリーに3,787,251$ethDYDXが帰属しているのは、複数のガバナンス提案により、dYdXコミュニティの各エポックで利用可能な$ethDYDXの金額が3,020,548$ethDYDX増加したためです。
 
@@ -37,15 +37,15 @@ description: コミュニティトレジャリーの概要
 
 ## FAQ
 
-### コミュニティトレジャリーで$ethDYDXはどのように帰属していますか？
+<details>
+
+<summary>コミュニティトレジャリーで$ethDYDXはどのように帰属していますか？</summary>
 
 以前は、コミュニティトレジャリーヴェスター（詳細は[こちら](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)）は毎秒[`0.3169242627`](tel:03169242627)ドルのethDYDXをコミュニティトレジャリーに帰属させていました。$ethDYDXが付与されると、コミュニティトレジャリーベスターで`請求`関数を呼び出すと、既得の$ethDYDXがコミュニティトレジャリーに移動されます。dYdXコミュニティメンバーは、[ここ](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract)からEtherscanで`請求`関数を呼び出して（Gas（ガス）代にETHが必要です）、既得の$ethDYDXをコミュニティトレジャリーベスターからコミュニティトレジャリーに移動させることができます。
 
 dYdXコミュニティによるコミュニティトレジャリーの管理詳細は、dYdX財団の[利用規約](https://dydx.foundation/terms)をご参照ください。
 
-<figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image.png)
 
-###
-
-###
+</details>
 

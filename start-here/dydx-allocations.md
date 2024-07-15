@@ -1,12 +1,12 @@
 ---
-description: ethDYDXトークンの割り当て。
+description:
 ---
 
-# 割り当て
+#
 
 **割り当て**
 
-合計で`10億ethDYDX`が作成され、**2021年8月3日午後3時（UTC）**から5年間以上利用可能になります。$ethDYDXの総供給量の最初の5年間の割り当ては以下のとおりです。
+$ethDYDXの総供給量の最初の5年間の割り当ては以下のとおりです。
 
 * コミュニティへの**50.0％**（`5億$ethDYDX`）は以下：
   * [取引報酬の計算式](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)に基づく**25.0％**（`2億5,000万$ethDYDX`）、
@@ -19,7 +19,7 @@ description: ethDYDXトークンの割り当て。
 * dYdX Trading Inc.またはdYdX Foundationの創設者、従業員、アドバイザー、コンサルタントへの**15.3％**（`152,704,930$ethDYDX`）、および
 * dYdX Trading Inc.またはdYdX Foundationの将来の従業員およびコンサルタントへの**7.0％**（`7,000万$ethDYDX`）。
 
-$ethDYDXの立ち上げ以来、最初の割り当てに変更が生じたガバナンス提案がいくつかあります。現在、割り当てには以下のものが含まれます。
+現在、割り当てには以下のものが含まれます。
 
 * コミュニティへの**50.0％**（`5億$ethDYDX`）は以下：
   * [取引報酬計算式](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)に基づく**14.5%**（`144,693,506$ethDYDX`）、
@@ -49,19 +49,27 @@ $ethDYDXの立ち上げ以来、最初の割り当てに変更が生じたガバ
 
 コミュニティの割り当ては上記のように設定されていますが、$ethDYDX保有者は今後のコミュニティの割り当ての使用方法について、ガバナンスを通じて完全な管理を保有しています。
 
+##
+
+2021年9月8日、トークンの最初の転送制限が解除されました。
+
+以下のグラフは、インフレーションのない総流動化供給量を示しています。
+
+<figure><img src="../.gitbook/assets/liquid supply total issuance_3.png" alt=""><figcaption></figcaption></figure>
+
 ## **よくある質問**
 
-### $ethDYDXの割り当てを変更できますか？
+<details>
+
+<summary>$ethDYDXの割り当てを変更できますか？ </summary>
 
 はい。dYdXコミュニティは[立ち上げ時に存在するすべての報酬とプール](../voting-and-governance/governance-parameters.md)を変更できます。これまでのところ、dYdXコミュニティはいくつかのガバナンス提案でDYDXの排出量を削減することに投票しています。
 
-[DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)において、dYdXコミュニティは取引報酬を25％引き下げることに[合意しました](https://dydx.community/dashboard/proposal/8)。その結果、所定のエポックで配布される取引報酬は、エポック15において3,835,616$ethDYDXから2,876,712$ethDYDXに減少しました。残りの958,904$ethDYDXは、報酬トレジャリーに加算され、[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によって、dYdXコミュニティが使用できるようになります。\\[DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)においては、dYdXコミュニティは$USDCのステーキングに関連する報酬を0に設定することに[合意](https://dydx.community/dashboard/proposal/7)しました。これまで$USDCステーカーに配布された383,562$ethDYDXは、報酬トレジャリーに加算され、[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によって、dYdXコミュニティが使用できるようになります。.
-
-[DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md)においては、dYdXコミュニティは$ethDYDXのステーキングに関連する報酬を0に設定することに[合意](https://dydx.community/dashboard/proposal/9)しました。これまで$DYDXステーカーに配布された383,562$ethDYDXは、報酬トレジャリーに加算され、[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によって、dYdXコミュニティが使用できるようになります。.
-
-[DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)において、dYdXコミュニティは、流動性プロバイダー報酬を、エポックあたり1,150,685$ethDYDXから、50%削減のエポックあたり575,343$ethDYDXに変更することを[投票](https://dydx.community/dashboard/proposal/14)で決定しました。余ったエポックあたり575,342$ethDYDXは、報酬トレジャリーに計上され、[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によって、dYdXコミュニティが使用できます。.
-
-[DIP 29](https://dydx.community/dashboard/proposal/16)では、dYdXコミュニティは取引報酬およびLP報酬をdYdX v3上のエポック30-32から⅓に削減することを投票しました。
+* [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)において、dYdXコミュニティは取引報酬を25％引き下げることに[合意しました](https://dydx.community/dashboard/proposal/8)。
+*
+* [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md)においては、dYdXコミュニティは$ethDYDXのステーキングに関連する報酬を0に設定することに[合意](https://dydx.community/dashboard/proposal/9)しました。これまで$DYDXステーカーに配布された383,562$ethDYDXは、報酬トレジャリーに加算され、[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によって、dYdXコミュニティが使用できるようになります。.
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)において、dYdXコミュニティは、流動性プロバイダー報酬を、エポックあたり1,150,685$ethDYDXから、50%削減のエポックあたり575,343$ethDYDXに変更することを[投票](https://dydx.community/dashboard/proposal/14)で決定しました。余ったエポックあたり575,342$ethDYDXは、報酬トレジャリーに計上され、[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によって、dYdXコミュニティが使用できます。.
+* [DIP 29](https://dydx.community/dashboard/proposal/16)では、dYdXコミュニティは取引報酬およびLP報酬をdYdX v3上のエポック30-32から⅓に削減することを投票しました。
 
 a. 2023年11月21日、15:00 UTC（エポック30開始時）に、報酬を以下の値に削減する。
 
@@ -84,28 +92,30 @@ c. 2024年1月161日、15:00 UTC（エポック32開始時）に、報酬を以�
  ii.LP: 0
 ```
 
-### **新しい$ethDYDXトークンは作成できますか？**
+</details>
 
-立ち上げから5年後から、$ethDYDXの供給量を増やすには、年間最大`2％`のパーペチュアルインフレ率を使用して、コミュニティがdYdX v3に継続して貢献できるリソースを確保します。
+<details>
 
-**2026年7月14日午後3時（UTC）**より、dYdXのガバナンスは、各ミントにつき年間最大`2％`のインフレ率により新しい$ethDYDXの最大供給量を決定できます。指定された365日間の期間では、1ミントのみ可能です。新たに発行されたすべての$ethDYDXは、ガバナンスにより割り当てられ、直ちに付与されます。これらの新しく発行されたトークンは、指定された任意のアドレスに送信できます。
+<summary>新しい$ethDYDXトークンは作成できますか？</summary>
 
-### **投資家、既存および将来の従業員、コンサルタントに発行される$ethDYDXのロックアップは何ですか？**
 
-初回の割り当ての一部は、以下のために予約されました。
 
-* dYdXトレーディングの過去の投資家（27.7％）、
-* dYdXトレーディングまたはdYdX財団の創設者、従業員、アドバイザー、コンサルタント（15.3％）、
-* dYdX取引株式会社またはdYdX財団の将来の従業員とコンサルタント（7.0％）。
+</details>
 
-2023年1月25日、dYdX Foundationは、dYdX Trading Inc.、dYdX Foundation、および購入トークンの一部の当事者が、投資家$ethDYDXトークンに適用される最初のリリース日を2023年12月1日まで延期するなどの、改正（「修正」）に署名したことを[発表](https://dydx.foundation/blog/lock-up-extension)しました。
+<details>
 
-上記の修正は、初回のロック解除日後に発生する、段階的なロック解除を変更するものではありません。したがって、修正により、関連するトークンは、以下の通り移動制限から解除されます。
+<summary>投資家、既存および将来の従業員、コンサルタントに発行される$ethDYDXのロックアップは何ですか？</summary>
 
-* （i）2023年12月1日（新しい初期のロック解除日）の30％、
-* (ii) 2024年1月1日から2024年6月1日までの毎月初日における同等の月額分割額の40％、
-* （iii）2024年7月1日から2025年6月1日までの毎月の均等な月分割額の20％、および
-* （iv）2025年7月1日から2026年6月1日までの毎月初日における同等の月額分割額の10％。
+
+
+
+
+
+
+*
+*
+*
+*
 
 **上記の日付はすべてUTC時間帯を参照するものと解釈されることに注意してください。**
 
@@ -119,11 +129,4 @@ $ethDYDXのロックアップにかかわらず、dYdX Trading Inc.またはdYdX
 
 dYdX Foundationでは、これらの要件を遵守しない投資家に対して法的措置をとることを表明しています。
 
-## $ethDYDXの流動的供給曲線とは何ですか？
-
-2021年9月8日、トークンの最初の転送制限が解除されました。
-
-以下のグラフは、インフレーションのない総流動化供給量を示しています。
-
-<figure><img src="../.gitbook/assets/Liquid Supply Total.png" alt=""><figcaption></figcaption></figure>
-
+</details>
