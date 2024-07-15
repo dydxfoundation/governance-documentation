@@ -2,9 +2,9 @@
 description: Un aperçu du pool de staking de liquidité
 ---
 
-# Module de liquidité
+#
 
-`0,6 %` de l'approvisionnement en jetons (`5 753 430 $ethDYDX)` ont été distribués aux utilisateurs qui stakent des $USDC dans le pool de staking de liquidité. Au départ, `2,50 %` de l'approvisionnement en jetons (soit `25 000 000 $ethDYDX`) ont été distribués aux utilisateurs qui stakent des $USDC dans le pool de staking de liquidité. Le pool de staking de liquidité n'est plus actif à compter du 29 septembre 2022. Dans [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/7) en faveur d'une réduction efficace du pool de staking de liquidité et du pool d'emprunt en fixant à 0 les récompenses du pool de staking de liquidité par seconde.\
+Au départ, `2,50 %` de l'approvisionnement en jetons (soit `25 000 000 $ethDYDX`) ont été distribués aux utilisateurs qui stakent des $USDC dans le pool de staking de liquidité. Le pool de staking de liquidité n'est plus actif à compter du 29 septembre 2022. Dans [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/7) en faveur d'une réduction efficace du pool de staking de liquidité et du pool d'emprunt en fixant à 0 les récompenses du pool de staking de liquidité par seconde.\
 \
  Auparavant, la distribution de $ethDYDX été réservée aux utilisateurs ayant cumulé des USDC dans le pool de staking de liquidité. Les fournisseurs de liquidité approuvés par la communauté utilisaient les $USDC stakés pour créer des marchés sur la couche dYdX V3, optimisant ainsi la liquidité disponible sur les marchés. Les fournisseurs de liquidité avaient l'interdiction d'utiliser des fonds empruntés en dehors de dYdX v3.
 
@@ -12,7 +12,7 @@ description: Un aperçu du pool de staking de liquidité
 
 Aujourd'hui, l'$USDC cumulé dans le pool de mise en réserve de liquidité ne gagne aucune récompense.
 
-Les 383 562 $ethDYDX précédemment distribués aux stakers d'USDC s'accumuleront dans la trésorerie des récompenses et pourront être utilisés par la communauté dYdX grâce à un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+
 
 ## Désengagement et retraits des USDC
 
@@ -32,11 +32,17 @@ Un solde staké pour lequel le staker a demandé un retrait avant la fin de l'ep
 
 ## FAQ
 
-### Qu'est-ce qu'une fenêtre de blocage ?
+<details>
+
+<summary>Qu'est-ce qu'une fenêtre de blocage ?</summary>
 
 Une fenêtre de blocage correspond au laps de temps pendant lequel les utilisateurs ne peuvent pas solliciter de retraits de $USDC. La fonction `requestWithdrawal` ne peut pas être appelée pendant une fenêtre de blocage, qui est configurée comme les `3 derniers jours` d'une epoch. Les nouvelles epochs commencent tous les 28 jours. En d'autres termes, les utilisateurs peuvent demander un retrait pour l'epoch suivante jusqu'à `3 jours` avant la fin d'une epoch donnée.
 
-### Comment puis-je retirer des $USDC du pool de mise en réserve ? Combien de temps cela prend-il ?
+</details>
+
+<details>
+
+<summary>Comment puis-je retirer des $USDC du pool de mise en réserve ? Combien de temps cela prend-il ?</summary>
 
 Un staker doit présenter sa demande de retrait de $USDC au moins `3 jours` avant la fin d'une Epoch afin de pouvoir retirer ses $USDC après la fin de l'Epoch en question. Les stakers qui ne présentent pas leur demande de retrait verront les $USDC être reportés à l'Epoch suivante.
 
@@ -47,19 +53,24 @@ Pour retirer de l'$USDC, les utilisateurs doivent appeler la fonction`requestWit
 Pour débloquer des $USDC du pool de liquidité, suivez les étapes suivantes :
 
 * Allez sur [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*
-* Cliquez sur « **Demande** », pour ouvrir le modèle suivant :
-
-![Demande de retrait](../.gitbook/assets/1-withdraw-from-liquidity-pool.png)
-
+*
 * Entrez le montant de $USDC que vous souhaitez retirer du pool, puis cliquez sur « **Demander un retrait** ». Vous devrez payer des frais de gaz pour annuler le staking de $USDC.
 * Les stakers qui demandent à annuler le staking de $USDC à moins de `3 jours` (**fenêtre de blocage**) avant la fin de l'epoch en cours peuvent retirer leur $USDC au début de l'epoch suivante.
 
-### Quels paramètres la gouvernance peut-elle changer ?
+</details>
 
-La gouvernance dYdX est responsable pour :
+<details>
+
+<summary></summary>
+
+
 
 * Des récompenses par seconde pour le staking de $USDC dans le pool de staking de liquidité
 * Ajouter de nouveaux emprunteurs et/ou supprimer des emprunteurs existants du pool de staking de liquidité
 * Modification des allocations $USDC empruntés aux emprunteurs approuvés
   * Les fonctions `setBorrowerAllocations` et `setBorrowingRestriction` sont appelées à modifier les allocations de certains emprunteurs. Elles peuvent être utilisées pour ajouter et supprimer des emprunteurs. Les augmentations prennent effet à l'époch suivante, mais les diminutions restreignent immédiatement les emprunts. Ces fonctions ne peuvent pas être appelées pendant la fenêtre de blocage.
 * La durée de l'epoch et la fenêtre de blocage sont définies lors de la création du contrat, mais peuvent être modifiées
+
+</details>
+
+###
