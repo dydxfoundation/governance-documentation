@@ -1,12 +1,12 @@
 ---
-description: Allocations pour le jeton ethDYDX.
+description:
 ---
 
-# Allocations
+#
 
 **Allocations**
 
-Un total de `1 000 000 000 d'ethDYDX` ont été frappés et ont commencé à devenir accessibles sur cinq (5) ans, le **3 août 2021, à 15:00:00 UTC**. L'allocation initiale de cinq ans de l'offre totale de $ethDYDX était la suivante :
+L'allocation initiale de cinq ans de l'offre totale de $ethDYDX était la suivante :
 
 * **50,0 %** (`500 000 000 $DYDX`) à la communauté de la façon suivante :
   * **25,0 %** (`250 000 000 $DYDX`) sur la base de la [formule des récompenses de trading](https://docs.dydx.community/dydx-governance/rewards/trading-rewards),
@@ -19,7 +19,7 @@ Un total de `1 000 000 000 d'ethDYDX` ont été frappés et ont commencé à dev
 * **15,3 %** (`152 704 930 DYDX`) aux fondateurs, employés, conseillers et consultants de dYdX Trading Inc. ou de la ou de la dYdX Foundation, et
 * **7,0 %** (`70 000 000 $DYDX`) aux futurs employés et consultants de dYdX Trading Inc. ou de la dYdX Foundation.
 
-Depuis le lancement de $DYDX, plusieurs propositions de gouvernance ont entraîné des changements à l'allocation initiale. Actuellement, l'allocation est répartie de manière suivante :
+Actuellement, l'allocation est répartie de manière suivante :
 
 * **50,0 %** (`500 000 000 $DYDX`) à la communauté de la façon suivante :
   * **14,5 %** (14`4 693 506 $DYDX`) basé sur la [formule de récompenses de trading](https://docs.dydx.community/dydx-governance/rewards/trading-rewards),
@@ -49,21 +49,27 @@ Depuis le lancement de $DYDX, plusieurs propositions de gouvernance ont entraîn
 
 Bien que l'allocation à la communauté ait été établie comme indiqué ci-dessus, les détenteurs de $DYDX ont un contrôle total par l'entremise de la gouvernance sur la façon dont l'allocation à la communauté sera utilisée à l'avenir.
 
+##
+
+Le 8 septembre 2021, les restrictions de transfert initiales sur le jeton ont été levées.
+
+Le tableau suivant montre l'offre totale en liquide sans inflation :
+
+<figure><img src="../.gitbook/assets/liquid supply total issuance_3.png" alt=""><figcaption></figcaption></figure>
+
 ## **FAQs**
 
-### L'allocation de $DYDX peut-elle changer ?
+<details>
+
+<summary>L'allocation de $DYDX peut-elle changer ? </summary>
 
 Oui, la communauté dYdX peut changer l'ensemble des [récompenses et des pools existants au moment du lancement](../voting-and-governance/governance-parameters.md). Jusqu'à présent, la communauté dYdX a voté en faveur de la réduction des émissions de DYDX dans plusieurs propositions de gouvernance :
 
-Dans [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/8) en faveur d'une réduction de trading de 25 %. Par conséquent, les récompenses de trading distribuées dans un epoch donné ont été réduites et sont passées de 3 835 616 $DYDX à 2 876 712 DYDX dans Epoch 15. Les 958 904 $DYDX restants s'accumuleront dans la trésorerie des récompenses et pourront être utilisés par la communauté dYdX sous réserve d'un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).\
-\
-Dans [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/7) pour définir les récompenses associées au staking de l'USDC à 0. Les 383 562 DYDX précédemment distribués USDC aux stakers d'USDC s'accumuleront dans la trésorerie des récompenses et pourront être utilisés par la communauté dYdX grâce à un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
-
-Dans [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/9) pour définir les récompenses associées au staking de l'USDC à 0. Les 383 562 DYDX précédemment distribués USDC aux stakers d'USDC s'accumuleront dans la trésorerie des récompenses et pourront être utilisés par la communauté dYdX grâce à un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters),
-
-Dans [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/14) pour réduire les récompenses des fournisseurs de liquidité de 50 % de 1,150,685 $DYDX par epoch à 575,343 $DYDX par epoch. L'excès de 575,342 $DYDX par epoch s'accumulera dans le Trésor des récompenses et peut être utilisé par la communauté dYdX avec un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
-
-Dans [DIP 29](https://dydx.community/dashboard/proposal/16), la communauté dYdX a voté pour réduire les récompenses de trading et de LP d'un ⅓ de l'Epoch 30-32 sur dYdX v3 aux valeurs suivantes :
+* Dans [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/8) en faveur d'une réduction de trading de 25 %.
+*
+* Dans [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/9) pour définir les récompenses associées au staking de l'USDC à 0. Les 383 562 DYDX précédemment distribués USDC aux stakers d'USDC s'accumuleront dans la trésorerie des récompenses et pourront être utilisés par la communauté dYdX grâce à un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters),
+* Dans [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/14) pour réduire les récompenses des fournisseurs de liquidité de 50 % de 1,150,685 $DYDX par epoch à 575,343 $DYDX par epoch. L'excès de 575,342 $DYDX par epoch s'accumulera dans le Trésor des récompenses et peut être utilisé par la communauté dYdX avec un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+* Dans [DIP 29](https://dydx.community/dashboard/proposal/16), la communauté dYdX a voté pour réduire les récompenses de trading et de LP d'un ⅓ de l'Epoch 30-32 sur dYdX v3 aux valeurs suivantes :
 
 a. Réduire les récompenses aux valeurs suivantes le 21 novembre 2023 à 15 h 00 UTC (début de l'Epoch 30)
 
@@ -86,28 +92,30 @@ c. Réduire les récompenses aux valeurs suivantes le 16 janvier 2024 à 15 h
  ii.LP: 0
 ```
 
-### **De nouveaux tokens DYDX peuvent-ils être frappés ?**
+</details>
 
-À partir de cinq ans après le lancement, un taux d'inflation perpétuel maximum de `2 %` par an peut être utilisé pour augmenter l'offre de $ethDYDX, garantissant ainsi à la communauté les ressources nécessaires pour continuer à contribuer à dYdX v3.
+<details>
 
-À compter du **14 juillet 2026, 15 h 00 UTC**, la gouvernance dYdX peut décider de l'offre maximale de nouveaux $ethDYDX à frapper, jusqu'au taux d'inflation maximal de `2 %` par an à chaque émission. Une seule émission est possible dans une période donnée de 365 jours. Tous les $DYDX nouvellement émis seront attribués par la gouvernance et seront acquis immédiatement. Ces jetons nouvellement émis peuvent ensuite être envoyés à n'importe quelle adresse spécifiée.
+<summary>De nouveaux tokens DYDX peuvent-ils être frappés ?</summary>
 
-### **Quel est le blocage de $DYDX émis aux investisseurs, aux employés actuels et futurs et aux experts ?**
 
-Une partie de l'allocation initiale a été réservée aux :
 
-* anciens investisseurs de dYdX Trading Inc. (27,7 %),
-* fondateurs, employés, conseillers et consultants de dYdX Trading Inc. ou de la dYdX Foundation (15,3 %), et
-* futurs employés et consultants de dYdX Trading Inc. ou de la dYdX Foundation (7,0 %).
+</details>
 
-Le 25 janvier 2023, la dYdX Foundation [a annoncé](https://dydx.foundation/blog/lock-up-extension) qui dYdX Trading Inc., la dYdX Foundation et certaines parties aux bons de garantie d'achat de jetons ont signé une modification (« amendement ») visant à, entre autres, reporter la date de libération initiale applicable aux jetons $ethDYDX de l'investisseur au 1er décembre 2023.
+<details>
 
-L'amendement susmentionné n'altère pas le déblocage échelonné qui se produit après la date de déverrouillage initial. Par conséquent, conformément à l'amendement, les jetons pertinents seront libérés de la restriction de transfert de la manière suivante :
+<summary>Quel est le blocage de $DYDX émis aux investisseurs, aux employés actuels et futurs et aux experts ?</summary>
 
-* (i) 30 % au 1er décembre 2023 (la nouvelle date de déblocage initial) ;
-* (ii) 40 % en mensualités fixes au premier jour de chaque mois, du 1er janvier 2024 au 1er juin 2024 ;
-* (iii) 20 % en mensualités fixes au premier jour de chaque mois, du 1er juillet 2024 au 1er juin 2025 ; et
-* (iv) 10 % en mensualités fixes au premier jour de chaque mois, du 1er juillet 2025 au 1er juin 2026.
+
+
+
+
+
+
+*
+*
+*
+*
 
 **Notez que toutes les dates ci-dessus doivent être interprétés comme faisant référence au fuseau horaire UTC.**
 
@@ -121,11 +129,4 @@ Tous les investisseurs sont tenus de se conformer à la restriction de transfert
 
 La Fondation dYdX a exprimé sa volonté d'engager des poursuites judiciaires à l'encontre des investisseurs qui ne respecteraient pas ces exigences.
 
-## Quelle est la courbe d'approvisionnement en liquide de $ethDYDX ?
-
-Le 8 septembre 2021, les restrictions de transfert initiales sur le jeton ont été levées.
-
-Le tableau suivant montre l'offre totale en liquide sans inflation :
-
-<figure><img src="../.gitbook/assets/Liquid Supply Total.png" alt=""><figcaption></figcaption></figure>
-
+</details>
