@@ -1,60 +1,61 @@
 ---
-description: Eine Übersicht über den Liquidity Staking Pool
+description: Una visión general del fondo de participación de liquidez
 ---
 
 #
 
-Zunächst wurden `2,50 %` des Token-Angebots (`25.000.000 $ethDYDX`) für die Verteilung an Benutzer zugewiesen, die $USDC in den Liquidity Staking Pool einbinden. Der Liquidity Staking Pool ist seit dem 29. September 2022 nicht mehr aktiv. In [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) [stimmte](https://dydx.community/dashboard/proposal/7) die dYdX-Gemeinschaft dafür, den Liquidity Staking- und Borrowing-Pool zu verringern, indem sie die Liquidity Staking Pool Prämien pro Sekunde mit 0\\, festsetzten
-Bis dahin wurden $ethDYDX an Benutzer ausgeschüttet, die $USDC in den Liquidity Staking Pool einsetzten. Von der Gemeinschaft zugelassene Liquiditätsanbieter nutzten die eingesetzten $USDC, um Märkte auf dYdX v3 aufzubauen, wodurch die auf den Märkten verfügbare Liquidität erhöht wurde. Liquiditätsanbieter konnten keine Fremdmittel außerhalb von dYdX v3 verwenden.
+Inicialmente, `2,50 %` del suministro de tokens (`25 000 000 $ethDYDX`) se asignó para ser distribuido a los usuarios que apostaban $USDC en el grupo de participación de liquidez. El fondo de participación de liquidez no está activo desde el 29 de septiembre de 2022. En el [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), la comunidad de dYdX [votó](https://dydx.community/dashboard/proposal/7) para cerrar efectivamente el Fondo de participación de liquidez y el Fondo de préstamos al establecer las recompensas de los fondos de participación de liquidez por segundo a 0.\
+\
+Anteriormente, se distribuyó $ethDYDX entre los usuarios que participaron con $USDC en el Fondo de participación de liquidez. Los proveedores de liquidez aprobados por la comunidad utilizaron los $USDC participantes para crear mercados en dYdX v3, lo que perpetuó la liquidez disponible en todos los mercados. Los proveedores de liquidez no podían usar fondos prestados fuera de dYdX v3.
 
-## **Staking**-Übersicht
+## Visión general **de la participación**
 
-Für im Liquidity Staking Pool eingesetzte $USDC gibt es derzeit keine Vergütung.
+Actualmente, los $USDC apostados en el Fondo de participación de liquidez no están generando recompensas.
 
 
 
-## USDC Unstaking & Auszahlungen
+## Desinversión y retiros de USDC
 
-Ein Staker muss mindestens `3 Tage` (**Sperrfenster**) vor dem Ende der [**Laufzeit**](../start-here/epochs.md) die Abhebung von $USDC verlangen, um seine $USDC nach dem Ende der Laufzeit abheben zu können. Wenn die Staker die Auszahlung nicht beantragen, werden ihre eingesetzten $USDC in die nächste Phase überführt.
+Un inversor debe solicitar retirar $USDC al menos `3 días` (**Periodo de bloqueo**) antes del final de una [**etapa**](../start-here/epochs.md)  para poder retirar los $USDC del inversor después del final de esa etapa. Si los inversores no solicitan retirar, sus $USDC invertidos se transferirán a la siguiente etapa.
 
-Auszahlungen können während des **Blackout Window** nicht angefordert werden.
+No se pueden solicitar retiros durante el **Periodo de bloqueo**.
 
-Im Rahmen des [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), hat die dYdX-Community darüber [abgestimmt,](https://dydx.community/dashboard/proposal/7) die Länge des Blackout-Fensters von `14 Tage` auf `3 Tage` zu beschränken.
+En el [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), la comunidad de dYdX [votó](https://dydx.community/dashboard/proposal/7) para reducir la duración de la ventana de bloqueo de `14 días` a `3 días`.
 
-## Was ist stkUSDC?
+## ¿Qué es stkUSDC?
 
-USDC-Inhaber, die ihre $USDC in den Liquidity Staking Pool einzahlen und einsetzen, erhalten eine tokenisierte Position ($**stkUSDC**). $stkUSDC wird ausgegeben, wenn ein Benutzer USDC einsetzt, und wird verbrannt, wenn ein Benutzer `withdrawStake` aufruft. In der gleichen Transaktion, in der $USDC aus der Wallet eines Staker abgebucht werden, werden $stkUSDC in die Wallet des Stakers übertragen; oder umgekehrt beim Unstaking.
+Los titulares de USDC que depositen e inviertan sus $USDC en el Fondo de participación de liquidez recibirán una posición convertida en token ($**stkUSDC**). $stkUSDC se acuña cuando un usuario invierte en $USDC y se quema cuando un usuario utiliza el `withdrawStake`. En la misma transacción en la que los $USDC salen de la billetera de un inversor, $stkUSDC ingresa a la billetera del inversor o viceversa cuando se desinvierte.
 
-Ein $stkUSDC-Guthaben kann aktiv oder inaktiv sein. Aktive $stkUSDC können als ERC-20 übertragen, aber nicht ausgeschüttet werden. Inaktive $stkUSDC können abgehoben, aber nicht übertragen werden. Beispielsweise kann ein Benutzer 100 aktive und 100 inaktive $stkUSDC in seinem Wallet haben, und als Guthaben des Benutzers werden 200 $stkUSDC angezeigt. Eine Übertragung wird jedoch rückgängig gemacht, wenn der Benutzer versucht, mehr als 100 $stkUSDC zu übertragen.
+Un saldo en $stkUSDC puede estar activo o inactivo. Los $stkUSDC activos se pueden transferir como ERC-20, pero no se pueden retirar. Los $stkUSDC inactivos se pueden retirar, pero no se pueden transferir. Por ejemplo, un usuario puede tener 100 $stkUSDC activos y 100 inactivos en su billetera, y el saldo del usuario mostrará 200 $stkUSDC, pero la transferencia se revertirá si el usuario intenta transferir más de 100 $stkUSDC.
 
-Ein gestaktes Guthaben, für das der Staker vor dem Ende des Zeitraums eine Auszahlung beantragt hat, gilt als inaktiv und ist daher nicht übertragbar.
+Un saldo invertido para el cual el participante haya solicitado un retiro antes del final de la etapa se consideraría inactivo y, por lo tanto, no transferible.
 
-## FAQ
+## Preguntas frecuentes
 
 <details>
 
-<summary>Was ist ein Blackout Window?</summary>
+<summary>¿Qué es el Periodo de bloqueo?</summary>
 
-Ein Sperrfenster beschreibt eine Zeitspanne, in der die Benutzer keine Auszahlungen von gestakten $USDC beantragen können. Die Funktion`requestWithdrawal` kann nicht während eines Blackout Window aufgerufen werden, das anfänglich als die letzten `3 Tage`einer Laufzeit konfiguriert ist. Neue Epochen beginnen alle 28 Tage. Mit anderen Worten: Die Nutzer können bis zu `3 Tage `vor Ablauf einer bestimmten Laufzeit eine Abhebung für die nächste Laufzeit beantragen.
+Un periodo de bloqueo es un lapso de tiempo durante el cual los usuarios no pueden solicitar retiros de $USDC invertidos. La función de solicitud de retiro ("`requestWithdrawal`") no se puede utilizar durante un periodo de bloqueo, que está configurado como los últimos `3 días` de una etapa. Las nuevas etapas comienzan cada 28 días. En otras palabras, los usuarios pueden solicitar un retiro para la próxima etapa hasta `tres días `antes del final de una etapa determinada.
 
 </details>
 
 <details>
 
-<summary>Wie kann ich $USDC aus dem Staking Pool auszahlen lassen? Wie lange dauert es?</summary>
+<summary>¿Cómo retiro $USDC del fondo de participación? ¿Cuánto tiempo tarda?</summary>
 
-Ein Staker muss mindestens `3 Tage` vor dem Ende einer Laufzeit einen Antrag auf Entnahme von $USDC stellen, um seine $USDC nach dem Ende der Laufzeit abheben zu können. Wenn die Staker die Auszahlung nicht beantragen, werden ihre eingesetzten $USDC in die nächste Phase überführt.
+Un inversor debe solicitar desinvertir $USDC al menos `3 días` antes del final de una etapa para poder retirar sus $USDC una vez finalizada la etapa. Si los inversores no solicitan retirar, sus $USDC invertidos se transferirán a la siguiente etapa.
 
-Um $USDC abzuheben, rufen Benutzer `die Funktion Auszahl`ungsantrag auf, um die Abhebung von $USDC für den nächsten Zeitraum anzufordern. Die Gelder der Benutzer verbleiben für die laufende Epoche im Staking und können in dieser Zeit nicht abgebucht werden. Startet die nächste Epoche, werden die Gelder „inaktiv“ und stehen für die Auszahlung bereit.
+Para retirar $USDC, los usuarios utilizan la función `requestWithdrawal` (solicitud de retiro) para solicitar el retiro de $USDC para la próxima etapa. Los fondos de los usuarios permanecerán invertidos y no se podrán ser retirados durante la etapa actual. A partir de la siguiente etapa, los fondos estarán “inactivos” y disponibles para el retiro.
 
-In der nächsten Phase rufen die Benutzer die `Funktion Stake auszahlen` auf, wodurch inaktive $USDC an eine bestimmte Adresse abgehoben werden. Die Benutzer können die Menge der inaktiven Gelder auswählen, die sie auszahlen möchten, oder die Funktion \`withdrawMaxStake\` aufrufen, um alle inaktiven Gelder abzuheben. Die Funktion `withdrawMaxStake` ist weniger gaseffizient als die Abfrage des Maximums über eth\_call und das Aufrufen von `withdrawStake()`.
+En la siguiente etapa, los usuarios llaman a la función `withdrawStake` para retirar $USDC inactivos a una dirección específica. Los usuarios pueden seleccionar la cantidad de fondos inactivos que desean retirar o utilizar la función \`withdrawMaxStake\` para retirar todos los fondos inactivos. La función `withdrawMaxStake` es menos eficiente en gas que consultar el máximo a través de eth\_call y utilizar `el withdrawMaxStake()`.
 
-Um $USDC für den Liquiditätspool freizugeben, gehen Sie wie folgt vor:
+Para desinvertir $USDC del Fondo de Liquidez, sigue los siguientes pasos:
 
-* Gehen Sie zu [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*
+* Visita [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*
 *
-* Geben Sie den $USDC-Betrag ein, den Sie zur Auszahlung aus dem Pool anfordern möchten, und klicken Sie auf „**Auszahlung anfordern**“. Sie müssen Gasgebühren zahlen, um $USDC zu entstaken.
-* Staker, die mindestens `3 Tage` (**Blackout Window**) vor Ende des aktuellen Zeitraums das Unstake von $USDC beantragen, können ihre $USDC zu Beginn der nächsten Laufzeit abheben.
+* Ingresa la cantidad de USDC que solicitas retirar del fondo y haz clic en "**Solicitar retiro**". Tendrás que pagar las tasas de gas para desinvertir $USDC.
+* Los inversores que solicitan retirar la participación de $USDC al menos `3 días` (**Periodo de bloqueo**) antes de que la etapa final actual pueden retirar sus $USDC al inicio de la siguiente etapa.
 
 </details>
 
@@ -64,11 +65,11 @@ Um $USDC für den Liquiditätspool freizugeben, gehen Sie wie folgt vor:
 
 
 
-* Vergütung pro Sekunde für den Einsatz von $USDC im Liquidity Staking Pool
-* Hinzufügen neuer Kreditnehmer zum Staking Liquidity Pool und/oder Entfernen bestehender Kreditnehmer aus dem Staking Liquidity Pool
-* Ändern der Zuteilungen von geliehenen $USDC an zugelassene Kreditnehmer
-  * Die Funktionen `setBorrowerAllocations` und `setBorrowingRestriction` werden aufgerufen, um die Allokationen bestimmter Kreditnehmer zu ändern. Sie können verwendet werden, um Kreditnehmer hinzuzufügen und zu entfernen. Erhöhungen treten in der nächsten Epoche in Kraft, aber Reduzierungen beschränken die Kreditaufnahme sofort. Diese Funktionen können während des Blackout Windows nicht aufgerufen werden.
-* Die Laufzeitlänge und Blackout Window werden bei der Vertragsausgestaltung festgesetzt, können aber geändert werden
+* Recompensas por segundo por participar con $USDC en el fondo de participación de liquidez
+* Añadir nuevos prestatarios al, o eliminar prestatarios existentes del, fondo de liquidez de participación
+* Cambiar las asignaciones de los $USDC prestados a los prestatarios aprobados
+  * Las `setBorrowerAllocations` de prestatarios y de asignación de fondos de `setBorrowerAllocations` requieren cambiar las asignaciones de ciertos prestatarios. Se pueden utilizar para agregar y eliminar prestatarios. Los aumentos entran en vigor en la próxima etapa, pero las reducciones restringirán el endeudamiento de inmediato. Estas funciones no se pueden solicitar durante la ventana de bloqueo.
+* La duración de la etapa y el periodo de bloqueo se establecen al crear el contrato, pero pueden modificarse
 
 </details>
 
