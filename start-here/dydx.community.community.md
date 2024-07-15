@@ -2,7 +2,7 @@
 description: dydx.communityでのガバナンス、報酬、およびステーキングの拠点
 ---
 
-# インターフェース
+#
 
 ガバナンス、報酬、およびステーキングのインターフェースは、[**dydx.community**](https://dydx.community)から利用可能です。
 
@@ -24,7 +24,13 @@ $ethDYDXおよび$wethDYDXの保有者は、提案権および投票権という
 
 ### トレード報酬
 
-ユーザーは、レイヤー2取引所での取引活動を通じて獲得した、過去に獲得した報酬を閲覧することができます。
+
+
+* エポック30：383,562 $ethDYDX
+* エポック31：191,781 $ethDYDX
+* エポック32：0 $ethDYDX
+
+
 
 ![報酬を受け取るための取引](../.gitbook/assets/4.5-trade-to-rewards.png)
 
