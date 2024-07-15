@@ -3,7 +3,7 @@ description: >-
   DRC 생성, 스냅샷 여론조사 생성, DIP 생성, 스냅샷 여론조사 투표, DIP 투표, DIP 대기열 생성 및 실행의 거버넌스 프로세스 단계별 개요.
 ---
 
-# 거버넌스 가이드
+#
 
 dYdX Foundation은 dYdX 커뮤니티의 dYdX 거버넌스 프로세스의 이해를 돕기 위해 이 가이드를 만들었습니다. 본 가이드는 다음의 단계별 개요를 제공합니다.
 
@@ -66,7 +66,7 @@ Three Arrows Capital의 Su Zhu(zhusu)는 유동성 제공자 보상 기준을 �
 * DRC를 생성할 경우, [여기](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) 링크의 템플릿을 사용하시기 바랍니다. [제안 수명 주기](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)의 _DRC 생성_에 따라 설명된 바와 같이, 최소 DRC에는 다음이 포함되어야 합니다.
   * DRC의 짧고 간결한 제목.
   * 제안에 대한 짧고 간결한 설명.
-
+  
   * DRC의 근거(예시: 왜?).
   * 포럼 게시물의 제목에는 DRC: \[간결한 DRC 제목 입력]이 포함되어야 합니다(예: DRC: 신규 시장 요청).
   * 커뮤니티 회원이 개선점 오프체인 투표에 사용할 수 있는 커뮤니티 여론조사.
