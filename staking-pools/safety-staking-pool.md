@@ -2,20 +2,19 @@
 description: Ein Überblick über den Safety Staking Pool
 ---
 
-# Sicherheitsmodul
+#
 
-`0,5 %` des Token-Angebots (`5.049.079 $ethDYDX)` wurden an Benutzer verteilt, die $ethDYDX in einen Sicherheitspool zum Backstopp des Systems einsetzen. Zunächst wurden `2,50 %` des Token-Angebots (`25.000.000 $ethDYDX`) für die Verteilung an Benutzer zugewiesen, die ethDYDX in das Sicherheitsmodul einbinden. Das Sicherheitsmodul ist ab dem 28. November 2022 nicht mehr aktiv. In [DIP 17](https://dydx.community/dashboard/proposal/9) [stimmte](https://dydx.community/dashboard/proposal/7) die dYdX-Community dafür, das Sicherheitsmodul zu schließen, indem die Sicherheitsmodul-Rewards pro Sekunde auf 0 gestellt wurden.\
-
+Zunächst wurden `2,50 %` des Token-Angebots (`25.000.000 $ethDYDX`) für die Verteilung an Benutzer zugewiesen, die ethDYDX in das Sicherheitsmodul einbinden. Das Sicherheitsmodul ist ab dem 28. November 2022 nicht mehr aktiv.
 
 Zuvor wurde $ethDYDX an Benutzer verteilt, die $ethDYDX in das Sicherheitsmodul einsetzten. Das Sicherheitsmodul war ein dezentraler Fonds, der im Falle von Insolvenz oder anderen Problemen mit dem dYdX-Protokoll verwendet werden sollte.
 
-Im Sicherheitsmodul eingesetztes ethDYDX behält seine Vorschlags- und Stimmrechte sowie die Delegierungsfähigkeiten.
 
-## Übersicht
+
+## Überblick
 
 Derzeit werden für $ethDYDX, die im Sicherheitsmodul eingesetzt werden, keine Prämien verdient.
 
-Die 383 562 $ethDYDX, die zuvor an $ethDYDX-Staker verteilt wurden, werden in der Rewards Treasury angesammelt und können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
+
 
 ## DYDX-Unstaking und Auszahlungen
 
@@ -25,15 +24,19 @@ Auszahlungen können während des **Blackout Window** nicht angefordert werden.
 
 In [DIP 17](https://dydx.community/dashboard/proposal/9) [stimmte](https://dydx.community/dashboard/proposal/7) die dYdX-Community dafür, die Länge des Blackout-Fensters von `14 Tagen` auf `3 Tage` zu reduzieren.
 
-
-
 ## FAQ
 
-### Was ist das Blackout Window?
+<details>
+
+<summary>Was ist das Blackout Window?</summary>
 
 Ein Sperrfenster bezeichnet eine Zeitspanne, in der die Benutzer keine Auszahlungen von gestakten DYDX beantragen können. Die Funktion`requestWithdrawal` kann nicht während eines Blackout Window aufgerufen werden, das anfänglich als die letzten `3 Tage`einer Laufzeit konfiguriert ist. Neue Epochen beginnen alle 28 Tage. Mit anderen Worten: Die Nutzer können bis zu `3 Tage `vor Ablauf einer bestimmten Laufzeit eine Abhebung für die nächste Laufzeit beantragen.
 
-### Wie kann ich Gelder aus dem Staking Pool auszahlen lassen? Wie lange dauert es?
+</details>
+
+<details>
+
+<summary>Wie kann ich Gelder aus dem Staking Pool auszahlen lassen? Wie lange dauert es?</summary>
 
 Der Epochenplan wird für Auszahlungen eingehalten, um Vorhersehbarkeit und eine reguläre Abfolge der verfügbar gemachten Geldmittel im Pool zu gewährleisten. Ein Staker muss die Auszahlung von Geldern mindestens `3 Tage` vor Ablauf einer Epoche beantragen, um seine Gelder nach Ende dieser Epoche abheben zu können. Wenn die Staker die Auszahlung nicht beantragen, werden ihre gestakten $ethDYDX in die nächste Epoche hinübergenommen.
 
@@ -47,4 +50,6 @@ Um $ethDYDX aus dem Sicherheitsmodul abzuheben, führen Sie folgende Schritte au
 * Klicken Sie auf „**Beantragen**“ und geben Sie die Menge an $ethDYDX ein, die Sie anfordern möchten, um diese aus dem Pool auszahlen zu lassen.
 * Klicken Sie auf “**Auszahlung beantragen**”. Sie müssen Gasgebühren zahlen, um Gelder auszuzahlen.
 * Staker, die die Abhebung von $ethDYDX mindestens `3 Tage` vor Ablauf der aktuellen Epoche beantragen, können ihre $ethDYDX zu Beginn der nächsten Epoche abheben.
+
+</details>
 
