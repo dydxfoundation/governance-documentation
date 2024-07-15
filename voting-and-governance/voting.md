@@ -2,7 +2,7 @@
 description: Un aperçu du processus de vote.
 ---
 
-# Processus de vote
+#
 
 dYdX v3 est gouverné et mis à niveau par les détenteurs de jetons de gouvernance et les délégués.
 
