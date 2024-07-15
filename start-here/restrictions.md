@@ -2,6 +2,6 @@
 description:
 ---
 
-# Restricciones
+#
 
 
