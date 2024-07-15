@@ -2,7 +2,7 @@
 description: Überblick über den Lebenszyklus des dYdX-Verbesserungsvorschlags (DIP).
 ---
 
-# Vorschlagslebenszyklus
+#
 
 ## **Vorschlagsstufen**
 
