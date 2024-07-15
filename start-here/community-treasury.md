@@ -2,7 +2,7 @@
 description: 커뮤니티 트레저리에 대한 개요
 ---
 
-# 커뮤니티 금고
+#
 
 토큰 공급량의 **`26.1%`** (`261,133,225 $ethDYDX`)가 dYdX 커뮤니티의 커뮤니티 금고에 할당되므로 기여자 보조금, 커뮤니티 이니셔티브, 유동성 채굴 및 기타 프로그램에 지속적으로 사용할 수 있습니다. 초기에는 토큰 공급량의 `5.0%`(`50,000,000$ethDYDX`)가 커뮤니티 금고에 [할당되었으며](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations), 에폭마다 766,703$ethDYDX가 커뮤니티 금고에 귀속되었습니다. 현재 3,787,251$ethDYDX가 커뮤니티 금고에 귀속되며, 이는 여러 거버넌스의 제안으로 인해 각 에폭마다 dYdX 커뮤니티에서 이용 가능한 $ethDYDX 액수가 3,020,548$ethDYDX로 증가했기 때문입니다.
 
@@ -37,15 +37,15 @@ description: 커뮤니티 트레저리에 대한 개요
 
 ## FAQ
 
-### $ethDYDX는 어떠한 방식으로 커뮤니티 금고에 귀속되나요?
+<details>
+
+<summary>$ethDYDX는 어떠한 방식으로 커뮤니티 금고에 귀속되나요?</summary>
 
 이전에는 커뮤니티 트레저리 베스터(자세한 내용은 [여기](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)를 참조)가 매 초마다 커뮤니티 트레저리에 [`0.3169242627`](tel:03169242627) $ethDYDX를 부여했습니다. $ethDYDX가 귀속되면 커뮤니티 트레저리 베스터에서 `claim` 함수를 호출하여 귀속된 $ethDYDX를 커뮤니티 트레저리로 이전합니다. dYdX 커뮤니티 회원이라면 누구나 [여기에서](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract) Etherscan의 `claim` 함수를 호출할 수 있으며(가스 수수료를 위해 ETH 필요), 이로써 커뮤니티 트레저리 베스터를 통해 귀속된 $DYDX를 커뮤니티 금고로 이동시킬 수 있습니다.
 
 dYdX 커뮤니티의 커뮤니티 재무 관리에 대한 자세한 내용은 dYdX 재단의 [이용 약관](https://dydx.foundation/terms)을 참조하십시오.
 
-<figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image.png)
 
-###
-
-###
+</details>
 

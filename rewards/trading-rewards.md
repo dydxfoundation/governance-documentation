@@ -2,7 +2,7 @@
 description: 거래 보상 프로그램 개요
 ---
 
-# 거래 보상
+#
 
 토큰 공급량의 `14.5`**`%`**(`144,693,506 $ethDYDX`)가 dYdX v3상에서 거래하는 사용자에게 지급된 수수료를 기준으로 분배하여 할당됩니다. 초기에는 토큰 공급량의 `25.0%`(`250,000,000$ethDYDX`)가 거래 보상으로 할당되었습니다.
 
@@ -60,23 +60,7 @@ $$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k $$
 
 [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md)의 투표에서 dYdX 커뮤니티는 주어진 에폭에 거래자가 지불한 총 수수료에 기반하도록 공식을 단순화하기로 결정했습니다.
 
-## FAQ
-
-### 거래 보상을 받을 수 있는 자격은 무엇입니까?
-
-dYdX v3의 모든 트레이더는 $ethDYDX를 거래 보상으로 받을 수 있었습니다.
-
-dYdX Trading Inc.의 [이용약관](https://dydx.exchange/terms)에 따라 미국 또는 제한 지역의 트레이더는 dYdX v3를 이용할 수 없습니다.
-
-### 거래 보상 프로그램에서 $ethDYDX를 얼마나 획득했나요?
-
-현재 에폭에 사용자는 사용자의 거래 데이터가 있는 [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)에서 지불한 수수료와 예상 거래 보상을 확인할 수 있습니다.
-
-<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>특정 에폭에서 지불한 수수료 및 예상 보상</p></figcaption></figure>
-
-지난 에폭의 보상은 [**dydx.community/history/rewards**](https://dydx.community/history/rewards)에서 확인하실 수 있습니다**.**
-
-### 거래 보상을 어떻게 클레임할 수 있습니까? 획득한 ethDYDX를 언제 인출 및 이체할 수 있나요?
+##
 
 거래 보상을 통해 획득한 $ethDYDX는 각 에폭이 종료되면 양도할 수 있습니다. $ethDYDX 토큰 보유자는 $ethDYDX 토큰을 청구하려면 에폭 종료 후 약 `7일`(**대기 기간**) 동안 기다려야 합니다.
 
@@ -93,7 +77,7 @@ dYdX Trading Inc.의 [이용약관](https://dydx.exchange/terms)에 따라 미�
 
 <figure><img src="../.gitbook/assets/updateRoot-claiming.jpeg" alt=""><figcaption></figcaption></figure>
 
-**이 거래에는 가스 수수료를 위해 일부 ETH가 필요하며 다음의 경우 거래는 일어나지 않습니다.**
+
 
 * 7일의 대기 기간이 여전히 진행 중인 경우, 또는
 * 커뮤니티 회원이 이미 [머클 배포자 계약](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract)에서 `updateRoot` 파라미터를 성공적으로 호출한 경우
@@ -101,3 +85,25 @@ dYdX Trading Inc.의 [이용약관](https://dydx.exchange/terms)에 따라 미�
 거래가 완료되면 트레이더는 [여기](https://dydx.community/dashboard)에서 거래 보상을 청구할 수 있습니다. 사용자가 $ethDYDX를 클레임하려면 `청구` 클릭하고 거래에 서명한 후 가스 수수료를 지불해야 합니다.
 
 ![보상 포트폴리오 개요](../.gitbook/assets/1-portfolio-overview-rewards.png)
+
+## FAQ
+
+<details>
+
+<summary>거래 보상을 받을 수 있는 자격은 무엇입니까?</summary>
+
+dYdX v3의 모든 트레이더는 $ethDYDX를 거래 보상으로 받을 수 있었습니다.
+
+dYdX Trading Inc.의 [이용약관](https://dydx.exchange/terms)에 따라 미국 또는 제한 지역의 트레이더는 dYdX v3를 이용할 수 없습니다.
+
+</details>
+
+<details>
+
+<summary>거래 보상 프로그램에서 $ethDYDX를 얼마나 획득했나요?</summary>
+
+현재 에폭에 사용자는 사용자의 거래 데이터가 있는 [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)에서 지불한 수수료와 예상 거래 보상을 확인할 수 있습니다.
+
+지난 에폭의 보상은 [**dydx.community/history/rewards**](https://dydx.community/history/rewards)에서 확인하실 수 있습니다**.**
+
+</details>
