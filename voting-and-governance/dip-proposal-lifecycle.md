@@ -2,7 +2,7 @@
 description: dYdX İyileştirme Teklifi (DIP) yaşam döngüsüne genel bakış.
 ---
 
-# Teklif Yaşam Döngüsü
+#
 
 ## **Teklif Aşamaları**
 
