@@ -3,7 +3,7 @@ description: >-
   DRC oluşturma, Snapshot anketinin oluşturulması, DIP oluşturma, bir Snapshot anketinin oylanması, bir DIP'nin oylanması, bir DIP'nin kuyruğa koyulması ve bir DIP'nin uygulamaya koyulmasına ilişkin yönetişim sürecine adım adım bir genel bakış.
 ---
 
-# Yönetişim Rehberi
+#
 
 dYdX Vakfı, dYdX topluluğunun dYdX yönetişim sürecini anlamasına yardımcı olmak için bu kılavuzu oluşturmuştur. Kılavuzda şu konulara adım adım bir genel bakış sağlanmaktadır:
 
@@ -210,7 +210,7 @@ _**Özet:**_
 
 _**Geçmiş:**_
 
-dYdX Safety Module, dYdX protokolünü desteklemek için kullanılabilecek merkeziyetsiz bir fon havuzuna kaynak sağlamak için tasarlanmış bir staking sözleşmesidir. Kullanıcılar güvenlik havuzuna $ethDYDX stake eder ve (1:1 oranında) $stkDYDX alırlar.  $stkDYDX, bir ERC-20 olarak transfer edilen ve $ethDYDX ile aynı oy verme ve teklif verme haklarına sahip tokenize edilmiş bir pozisyondur. Eksi bakiyeye düşme durumunda, kayıpları azaltmak için stake edilen $ethDYDX'leri slash etmek için bir yönetişim oylaması gerekir. $ethDYDX token arzının %2,5'i (25.000.000 $ethDYDX) güvenlik staking havuzunda ethDYDX stake eden kullanıcılara dağıtılacaktır. Güvenlik staking havuzu hakkında daha fazla bilgiyi [burada](https://dydx.foundation/blog/en/safety-staking) bulabilirsiniz.
+dYdX Safety Module, dYdX protokolünü desteklemek için kullanılabilecek merkeziyetsiz bir fon havuzuna kaynak sağlamak için tasarlanmış bir staking sözleşmesidir. Eksi bakiyeye düşme durumunda, kayıpları azaltmak için stake edilen $ethDYDX'leri slash etmek için bir yönetişim oylaması gerekir. $ethDYDX token arzının %2,5'i (25.000.000 $ethDYDX) güvenlik staking havuzunda ethDYDX stake eden kullanıcılara dağıtılacaktır. Güvenlik staking havuzu hakkında daha fazla bilgiyi [burada](https://dydx.foundation/blog/en/safety-staking) bulabilirsiniz.
 
 [Güvenlik staking havuzu ödülleri](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool) kapsamında, stake edenlere her dönem (28 gün) 383.562 $ethDYDX dağıtılacaktır. Ödüller, stake edenlere her saniye orantılı olarak dağıtılır.
 
