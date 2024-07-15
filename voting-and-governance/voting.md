@@ -2,7 +2,7 @@
 description: Ein Überblick über den Abstimmungsprozess.
 ---
 
-# Abstimmungsprozess
+#
 
 dYdX v3 wird von Inhabern und Delegierten von Governance-Token verwaltet und aktualisiert.
 

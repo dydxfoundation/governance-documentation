@@ -3,7 +3,7 @@ description: >-
   Eine schrittweise Übersicht über die Governance-processDRC-Erstellung, die Erstellung von Snapshot-Umfragen, die Erstellung von DIPs, die Abstimmungen über Snapshot-Umfragen, die Abstimmung über einen DIP, das in die Warteschlange-Stellen eines DIPs und die Ausführung eines DIPs.
 ---
 
-# Governance-Leitfaden
+#
 
 Die dYdX Foundation hat diesen Leitfaden erstellt, um der dYdX-Community zu einem besseren Verständnis der dYdX-Governance-Prozesse zu verhelfen. Der Leitfaden bietet eine schrittweise Übersicht über:
 

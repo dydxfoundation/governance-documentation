@@ -1,35 +1,35 @@
 # Inhaltsverzeichnis
 
-* [Einführung](README.md)
+*
 
 ## Starten Sie hier
 
-* [Schnittstelle](start-here/dydx.community.md)
-* [Einschränkungen](start-here/restrictions.md)
-* [Allokationen](start-here/dydx-allocations.md)
-* [Epochen](start-here/epochs.md)
-* [Gebührenrabatte](start-here/trading-fee-discount.md)
-* [Gemeinschaftskasse](start-here/community-treasury.md)
-* [Prämien Treasury](start-here/rewards-treasury.md)
+*
+*
+*
+*
+*
+*
+*
 
 ## Prämien
 
-* [Rückwirkende Mining Rewards](rewards/retroactive-mining-rewards.md)
-* [Trading-Prämien](rewards/trading-rewards.md)
-* [Rewards für Liquidity Provision](rewards/liquidity-provider-rewards.md)
+*
+*
+*
 
 ## STAKING POOLS
 
-* [Liquidity-Modul](staking-pools/liquidity-staking-pool.md)
-* [Sicherheitsmodul](staking-pools/safety-staking-pool.md)
+*
+*
 
 ## Abstimmungen & Governance
 
-* [Aufbau](voting-and-governance/governance-process.md)
-* [Lebenszyklus eines Vorschlags](voting-and-governance/dip-proposal-lifecycle.md)
-* [Abstimmungsprozess](voting-and-governance/voting.md)
-* [Parameter](voting-and-governance/governance-parameters.md)
-* [Governance-Leitfaden](voting-and-governance/governance-guide.md)
+*
+*
+*
+*
+*
 
 ***
 

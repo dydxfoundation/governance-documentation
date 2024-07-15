@@ -2,9 +2,9 @@
 description: Überblick über das Prämienprogramm für Liquiditätsanbieter.
 ---
 
-# Rewards für Liquidity Provision
+#
 
-**3,2 %** (`31.643.838 $ethDYDX`) des Token-Angebots werden an Liquiditätsanbieter basierend auf Formeln zugewiesen, die eine Kombination aus Maker-Volumen, Betriebszeit, zweiseitiger Tiefe, Geld-Brief-Spannen und der Anzahl der unterstützten Märkte repräsentieren. Zunächst wurden **7,5 %** (`75.000.000 $ethDYDX`)  des Token-Angebots  für LP-Prämien bereitgestellt.
+Zunächst wurden **7,5 %** (`75.000.000 $ethDYDX`)  des Token-Angebots  für LP-Prämien bereitgestellt.
 
 * In [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) hat die dYdX-Community [dafür gestimmt](https://dydx.community/dashboard/proposal/14), die Prämien für Liquiditätsanbieter von `1.150.685 $ethDYDX` pro Epoche um 50 % auf `575.343 $ethDYDX` pro Epoche zu reduzieren. Infolgedessen sank die Zuteilung für LP-Prämien von `7,5 %` auf `5,2 %`.
 *   In [DIP 29](https://dydx.community/dashboard/proposal/16)  hat die dYdX-Community [dafür gestimmt](https://dydx.community/dashboard/proposal/16), die Prämien für Liquiditätsanbieter von Epoch 30-32 auf dYdX v3 um ⅓ auf die folgenden Werte zu reduzieren:
@@ -23,17 +23,17 @@ Da es keine Verteilung von Prämien für Liquiditätsanbieter auf dYdX Chain gib
 
 ## **Überblick**
 
-Um Anreize für die Marktliquidität zu schaffen, werden $ethDYDX an Liquiditätsanbieter auf der Grundlage von Formeln verteilt, die die Teilnahme an Märkten, das Maker-Volumen, die zweiseitige Tiefe, den Spread (im Vergleich zum Mid-Market) und die Betriebszeit auf dYdX v3 belohnen. Jede Ethereum-Adresse kann diese Prämien verdienen, vorbehaltlich eines Mindest-Maker-Volumen-Schwellenwerts von 0,25 % des Maker-Volumens in der vorhergehenden Epoche. $ethDYDX wird auf einer 28-tägigen Epochenbasis über fünf Jahre verteilt und unterliegt keinen Sperrfristen oder Sperrvermerken.
+Um Anreize für die Marktliquidität zu schaffen, werden $ethDYDX an Liquiditätsanbieter auf der Grundlage von Formeln verteilt, die die Teilnahme an Märkten, das Maker-Volumen, die zweiseitige Tiefe, den Spread (im Vergleich zum Mid-Market) und die Betriebszeit auf dYdX v3 belohnen.
 
-Die folgenden Funktionen werden zur Berechnung verwendet, wie viel $ethDYDX an jeden Liquiditätsanbieter pro Zeitabschnitt vergütet werden sollte. In [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md) hat die dYdX-Gemeinschaft dafür gestimmt, die Formel für die LP-Vergütung zu überarbeiten, indem die Funktionen für BTC/ETH-Märkte und Nicht-BTC/ETH-Märkte aufgeteilt werden. In [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md)stimmte die dYdX-Gemeinschaft dafür, das Gewicht von 0,05 stkDYDX dem Maker-Volumen zuzuweisen.
+In [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md) hat die dYdX-Gemeinschaft dafür gestimmt, die Formel für die LP-Vergütung zu überarbeiten, indem die Funktionen für BTC/ETH-Märkte und Nicht-BTC/ETH-Märkte aufgeteilt werden. In [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md)stimmte die dYdX-Gemeinschaft dafür, das Gewicht von 0,05 stkDYDX dem Maker-Volumen zuzuweisen.
 
-Insgesamt wurde die Gewichtung des Volumens in den Funktionen in allen Märkten erhöht. Die Höhe des verdienten ethDYDX wird durch den relativen Anteil des $$Q_{FINAL}$$  ($$Q_{BTC}$$+$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$) jedes Teilnehmers bestimmt.
+Die Höhe des verdienten ethDYDX wird durch den relativen Anteil des $$Q_{FINAL}$$  ($$Q_{BTC}$$+$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$) jedes Teilnehmers bestimmt.
 
 <figure><img src="../.gitbook/assets/Updated LP Rewards Formulas.png" alt=""><figcaption></figcaption></figure>
 
 Aufträge unter einer bestimmten **Mindesttiefe** (Größe) ($$MinDepth$$) pro Markt sind ausgeschlossen, und Aufträge über einem bestimmten **maximalen Spread **(Mid-Market-Spread) ($$MaxSpread$$) Markt sind ebenfalls ausgeschlossen.
 
-Die Leistung von Liquiditätsanbietern wird minütlich überwacht und berechnet (unter Verwendung von Zufallsstichproben) und zu einem $$Q_{SCORE}$$ für einen bestimmten Markt aggregiert. Bei minütlichen Stichproben hat jede Epoche 28 Tage \* 24 Stunden \* 60 Minuten an Datenpunkten – insgesamt 40.320 Datenpunkte pro Epoche.
+Bei minütlichen Stichproben hat jede Epoche 28 Tage \* 24 Stunden \* 60 Minuten an Datenpunkten – insgesamt 40.320 Datenpunkte pro Epoche.
 
 Liquiditätsanbieter verdienen monatliche Prämien basierend auf ihrem relativen Anteil von $$Q_{FINAL}$$ pro Epoche.
 
@@ -58,70 +58,87 @@ Jeder Markt wird seinen eigenen Belohnungspool haben, der unterschiedlich gewich
 
 ## FAQ
 
-### Wer hat Anspruch auf Prämien von Liquiditätsanbietern?
+<details>
+
+<summary>Wer hat Anspruch auf Prämien von Liquiditätsanbietern?</summary>
 
 Alle Liquiditätsanbieter, die in der vorherigen Epoche mindestens 0,25 % des Herstellervolumens auf dYdX v3 erreicht haben, sind berechtigt, ethDYDX als Belohnung in einer bestimmten Epoche zu erhalten.
 
 dYdX v3 ist nicht für Liquiditätsanbieter in den Vereinigten Staaten oder in den eingeschränkten Gebieten verfügbar, wie in den [Nutzungsbedingungen](https://dydx.exchange/terms) von dYdX Trading Inc. definiert.
 
-### Wie viel $ethDYDX habe ich im Rahmen des Bonusprogramms für Liquiditätsanbieter verdient?
+</details>
+
+<details>
+
+<summary>Wie viel $ethDYDX habe ich im Rahmen des Bonusprogramms für Liquiditätsanbieter verdient?</summary>
 
 In einer bestimmten Epoche erzielen Liquiditätsanbieter Renditen basierend auf ihren relativen $$Q_{SCORE}$$ auf dem Markt eines bestimmten Paares. Jedes Paar hat seinen eigenen relativen Belohnungsbetrag, der von der Governance festgelegt wird. Der erwartete Betrag an verdienten ethDYDX wird im [LP-Rewards Dashboard](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true) angezeigt und kann auf Grundlage der Anzahl der beteiligten Liquiditätsanbieter, des relativen $$$Q_{SCORE}$$ und der Höhe der für ein bestimmtes Paar verfügbaren Rewards ermittelt werden.
 
-### Wie beanspruche ich meine Liquidity-Provider-Prämien?
+</details>
+
+<details>
+
+<summary>Wie beanspruche ich meine Liquidity-Provider-Prämien?</summary>
 
 Belohnungen für Liquiditätsanbieter werden in der [dYdX API](https://docs.dydx.exchange/) aufgestellt. Obwohl sie nicht auf der Governance-Benutzeroberfläche aufgetaucht sind, können sie [hier](https://dydx.community/dashboard) immer noch über die Governance am Ende jeder Epoche beansprucht werden.
 
-### Wann kann ich meine beanspruchten $ethDYDX Liquidity-Provider-Prämien abheben und übertragen?
+</details>
+
+<details>
+
+<summary>Wann kann ich meine beanspruchten $ethDYDX Liquidity-Provider-Prämien abheben und übertragen?</summary>
 
 Die über das Liquidity-Provider-Prämienprogramm gewährten $ethDYDX-Token werden nach Ablauf der anfänglichen Übertragungssperre anspruchsberechtigt und übertragbar.
 
 Ab Epoche 1 können $ethDYDX-Token, die über das Liquidity-Provider-Prämienprogramm gewährt werden, `7 Tage` (**Wartezeit**) nach dem Ende jeder Epoche eingefordert werden.
 
-### Wie werden zweiseitige Tiefe, Geld-Brief-Spanne und Betriebszeit definiert und gemessen?
+</details>
 
-**Zweiseitige Tiefe**
+<details>
 
-Ein zweiseitiger Liquiditätsanbieter ist eine Firma oder Einzelperson, die aktiv zweiseitige Märkte auf dYdX v3 notiert und Gebote und Nachfragen für einen bestimmten Markt bereitstellt. Sie stellen dem Protokoll insgesamt Liquidität zur Verfügung.
+<summary>Wie werden zweiseitige Tiefe, Geld-Brief-Spanne und Betriebszeit definiert und gemessen?</summary>
 
-Beispielsweise kann ein Liquiditätsanbieter auf dem BTC-USD-Markt ein Angebot von 30.000 $ bis 30.100 $, 10x50 bereitstellen. Das bedeutet, dass er 10 BTC für 30.000 $ bietet (kauft) und 50 BTC für 30.100 $ anbietet (verkauft). Andere Marktteilnehmer können dann bei dem Liquiditätsanbieter für 30.100 $ kaufen (das Angebot aufheben) oder für 30.000 $ an ihn verkaufen (das Gebot abgeben).
+* **Zweiseitige Tiefe**
 
-Liquiditätsanbieter werden anhand ihrer Fähigkeit bewertet, sowohl Gebote als auch Nachfragen auf einem bestimmten Markt bereitzustellen. Liquiditätsanbieter, die nur auf der 1-Seite quotieren (entweder nur Gebote oder Nachfragen), sind aufgrund der Funktion min() vom Erhalt von Prämien ausgeschlossen.
 
-**Mittlerer Markt-Spread**
 
-Ein gängiges Maß für die Liquidität ist die Geld-Brief-Spanne: die Spanne zwischen dem höchsten Geldkurs (Kaufauftrag) und dem niedrigsten Briefkurs (Verkaufsauftrag) in einem Markt. Die Differenz zwischen Geld- und Briefkurs, der Spread, sind die Haupttransaktionskosten des Handels (ohne Provisionen) und werden vom Liquiditätsanbieter durch die Verarbeitung von Aufträgen zu Geld- und Briefkursen eingezogen. Der Spread misst die Kosten der Transaktion unmittelbar für einen Benutzer.
+* **Mittlerer Markt-Spread**
 
-Der mittlere Markt-Spread nimmt speziell den Mittelpunkt des Marktes ein. Mit dieser Formel werden auch Aufträge unter dem MinDepth-Betrag für jeden Markt ausgeschlossen.
 
-Wenn beispielsweise der Geldkurs eines Liquiditätsanbieters für BTC-USD 30.000 $ und der Briefkurs 30.100 $ beträgt, dann beträgt die Geld-Brief-Spanne 100 $. Der mittlere Marktpreis beträgt 30.050 $ und der mittlere Markt-Spread 50 $.
 
-**Betriebszeit**
+* **Betriebszeit**
 
 Die Verfügbarkeit von Liquiditätsanbietern ist für die Märkte von entscheidender Bedeutung, insbesondere in Zeiten hoher Volatilität. Durch die Anwendung eines Exponenten von 5 auf $$Uptime_{epoch}$$ als Eingabe für $$Q_{FINAL}$$ werden die Belohnungen in Richtung Liquiditätsanbieter verschoben, die ständig zweiseitige Liquidität aufrechterhalten. Mit anderen Worten, ein Liquiditätsanbieter, der 99 % der Zeit Betriebszeit bietet, ist exponentiell wertvoller als ein Liquiditätsanbieter, der 90 % Betriebszeit bietet.
 
-Betriebszeit ist definiert als der Prozentsatz der Zeit, in der sich Aufträge in einem bestimmten Markt befinden und minutenweise Liquidität bereitstellen (mit zufälliger Stichprobe). Die Betriebszeit schließt Zeiträume aus, in denen Ausfälle auf dem dYdX-Ebene-2-Protokoll selbst bestehen. Es kann Grenzfälle geben, in denen die Börse langsam ist oder keine Aufträge annimmt (aber kein Ausfall ist) – in diesem Fall würde das oben Gesagte nicht zutreffen (aber das würde als Fehler angesehen werden und alle Liquiditätsanbieter wären ähnlich betroffen wie bei Ausfällen).
 
-### Wie werden die maximalen Spreads pro Markt definiert?
+
+</details>
+
+<details>
+
+<summary>Wie werden die maximalen Spreads pro Markt definiert?</summary>
 
 Es werden keine $$Q_{BID}$$ oder $$Q_{ASK}$$ generiert, wenn der Spread über dem $$MaxSpread$$ eines bestimmten Marktes liegt.
 
 Die anfänglichen maximalen Spreads sind wie folgt:
 
-| Markt | Max. Spread vs. Mid-Market (Geld und Brief) |
-| ----------------------- | -------------------------------------- |
-| BTC-USD | 20 bps |
-| ETH-USD | 20 bps |
-| Andere ewige Märkte | 40 bps |
+*
+*
+*
 
-### Wie wird die minimale Tiefe (Größe) pro Markt definiert?
+</details>
+
+<details>
+
+<summary>Wie wird die minimale Tiefe (Größe) pro Markt definiert?</summary>
 
 Es werden keine $$Q_{BID}$$ oder $$Q_{ASK}$$ generiert, wenn die Größe unter der $$MinDepth$$ eines bestimmten Marktes liegt.
 
 Die anfänglichen Mindesttiefen sind wie folgt:
 
-| **Markt** | **Mindesttiefe (Gebot und Nachfrage)** |
-| ----------------------- | --------------------------- |
-| BTC-USD | $5000 |
-| ETH-USD | $5000 |
-| Andere ewige Märkte | $1000 |
+*
+*
+*
+
+</details>
+

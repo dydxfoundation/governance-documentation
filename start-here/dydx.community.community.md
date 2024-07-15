@@ -2,7 +2,7 @@
 description: Ein Zuhause für Governance, Prämien und Staking auf dydx.community
 ---
 
-# Schnittstelle
+#
 
 Die Schnittstelle für Governance, Prämien und Staking ist live auf [**dydx.community**](https://dydx.community).
 
@@ -24,7 +24,13 @@ Derzeit sind das Liquiditätsmodul und das Sicherheitsmodul inaktiv. Benutzer, d
 
 ### Trading-Prämien
 
-Benutzer können ihre zuvor verdienten Prämien anzeigen, die durch die Handelsaktivität auf der Layer-2-Börse verdient wurden.
+
+
+* Epoche 30: 383.562 $ethDYDX
+* Epoche 31: 191.781 $ethDYDX
+* Epoche 32: 0 $ethDYDX
+
+
 
 ![Traden Sie um Prämien zu erhalten](../.gitbook/assets/4.5-trade-to-rewards.png)
 

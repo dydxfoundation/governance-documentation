@@ -2,7 +2,7 @@
 description: Ein Überblick über die Gemeinschaftskasse.
 ---
 
-# Gemeinschaftskasse
+#
 
 **`26,1 %`** (`261.133.225 $ethDYDX`) der Token-Versorgung werden der Gemeinschaftskasse zugewiesen, die die dYdX-Gemeinschaft fortlaufend für Beitragszuschüsse, Gemeinschaftsinitiativen, Liquiditätsabbau und andere Programme nutzen kann. Zunächst wurden `5,0 %` des Token-Angebots (`50.000.000 $ethDYDX`) der Community-Kasse [zugewiesen](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations), und 766.703 $ethDYDX wurden in jeder Epoche in die Community-Kasse eingesetzt. Derzeit werden 3.787.251 $ethDYDX in die Community-Kasse eingesetzt, da mehrere Governance-Vorschläge zu einer Erhöhung der Menge an $ethDYDX, die der DYDX-Community in jeder Epoche zur Verfügung stehen, um 3.020.548 $ethDYDX führten:
 
@@ -37,15 +37,15 @@ Wenn nach fünf Jahren die Governance eine dauerhafte Inflation (bei einer maxim
 
 ## FAQ
 
-### Wie geht $ethDYDX in die Gemeinschaftskasse ein?
+<details>
+
+<summary>Wie geht $ethDYDX in die Gemeinschaftskasse ein?</summary>
 
 Zuvor hat der Community Treasury Vester (siehe Details [hier](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)) jede Sekunde [`0,3169242627`](tel:03169242627) $ethDYDX an die Community Treasury übertragen. Sobald DYDX einbehalten wurden, würden durch das Aufrufen der `Anfordern`-Funktion auf dem Community Treasury Vester die einbehaltenen DYDX in die Community Treasury überführt. Jedes Mitglied der dYdX-Community könnte [hier](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract) die `Funktion` Anfordern auf Etherscan aufrufen (erfordert einige ETH für Gasgebühren), um die einbehaltenen $ethDYDX vom Gemeinschaftsschatzmeister in die Gemeinschaftskasse zu verschieben.
 
 Weitere Einzelheiten zur Kontrolle der Community Treasury durch die dYdX-Community finden Sie in den [Nutzungsbedingungen](https://dydx.foundation/terms) der dYdX-Foundation.
 
-<figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image.png)
 
-###
-
-###
+</details>
 

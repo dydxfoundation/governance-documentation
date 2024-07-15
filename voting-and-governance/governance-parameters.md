@@ -2,7 +2,7 @@
 description: Überblick über die Governance-Parameter.
 ---
 
-# Parameter
+#
 
  Inhaber von Governance-Token haben sofortige und unwiderrufliche Kontrolle über:
 
