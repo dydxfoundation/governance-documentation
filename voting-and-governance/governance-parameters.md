@@ -2,7 +2,7 @@
 description: Aperçu des paramètres de gouvernance.
 ---
 
-# Paramètres
+#
 
  Les détenteurs de jetons de gouvernance ont un pouvoir immédiat et irrévocable sur :
 
