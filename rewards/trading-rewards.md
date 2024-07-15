@@ -2,7 +2,7 @@
 description: Aperçu du programme des récompenses de trading.
 ---
 
-# Récompenses de trading
+#
 
 `14,5` **`%`** (14`4 693 506 $ethDYDX`) de l'offre de jetons est allouée pour être distribuée aux utilisateurs qui négocient sur dYdX v3 en fonction des frais payés. Initialement, `25,0 %` de la réserve de jetons (`250 000 000 $ethdYdX`) ont été alloués aux récompenses de trading.
 
@@ -60,23 +60,7 @@ $$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k $$
 
 Dans [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md), la communauté dYdX a voté pour simplifier la formule afin qu'elle soit basée sur le total des frais payés par un trader à une Epoch donnée.
 
-## FAQ
-
-### Qui est admissible aux récompenses de trading ?
-
-Tous les traders de dYdX v3 pouvaient recevoir des $ethDYDX en guise de récompense.
-
-dYdX v3 n'est pas disponible pour les traders aux États-Unis ou dans les territoires restreints, tels que définis dans les [conditions d'utilisation](https://dydx.exchange/terms) de dYdX Trading Inc.
-
-### Combien de $ethDYDX ai-je gagné dans le cadre du programme de récompenses de trading ?
-
-À l'époch actuelle, les utilisateurs peuvent voir les frais payés et les récompenses de trading estimées sur [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) où les données de trading des utilisateurs existent.
-
-<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Frais payés et récompenses estimées dans une Epoch donnée</p></figcaption></figure>
-
-Les récompenses des Epochs passées peuvent être consultées sur [**dydx.community/history/rewards**](https://dydx.community/history/rewards)**.**
-
-### Comment puis-je réclamer mes récompenses de trading ? À quel moment puis-je retirer et transférer les ethDYDX gagnés ?
+##
 
 Les jetons $ethDYDX gagnés via les récompenses de trading seront transférables à la fin de chaque epoch. Les détenteurs de jetons $ethDYDX sont tenus d'attendre environ `7 jours` (**période d'attente**) après la fin de l'epoch pour réclamer leurs jetons $ethDYDX.
 
@@ -93,7 +77,7 @@ Après la période d'attente de 7 jours, tout membre de la communauté peut app
 
 <figure><img src="../.gitbook/assets/updateRoot-claiming.jpeg" alt=""><figcaption></figcaption></figure>
 
-**Cette transaction nécessitera quelques ETH pour les frais de gaz et la transaction échouera si :**
+
 
 * Le délai d'attente de 7 jours est toujours en vigueur, ou
 * Un membre de la communauté a déjà appelé avec succès le paramètre `updateRoot` dans le [contrat du distributeur Merkle](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract).
@@ -101,3 +85,25 @@ Après la période d'attente de 7 jours, tout membre de la communauté peut app
 Une fois la transaction finalisée, les traders peuvent réclamer leurs récompenses de trading [ici](https://dydx.community/dashboard). Les utilisateurs devront cliquer sur `Réclamer`, signer une transaction et payer des frais de gaz pour réclamer $ethDYDX.
 
 ![Aperçu du portefeuille des récompenses](../.gitbook/assets/1-portfolio-overview-rewards.png)
+
+## FAQ
+
+<details>
+
+<summary>Qui est admissible aux récompenses de trading ?</summary>
+
+Tous les traders de dYdX v3 pouvaient recevoir des $ethDYDX en guise de récompense.
+
+dYdX v3 n'est pas disponible pour les traders aux États-Unis ou dans les territoires restreints, tels que définis dans les [conditions d'utilisation](https://dydx.exchange/terms) de dYdX Trading Inc.
+
+</details>
+
+<details>
+
+<summary>Combien de $ethDYDX ai-je gagné dans le cadre du programme de récompenses de trading ?</summary>
+
+À l'époch actuelle, les utilisateurs peuvent voir les frais payés et les récompenses de trading estimées sur [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) où les données de trading des utilisateurs existent.
+
+Les récompenses des Epochs passées peuvent être consultées sur [**dydx.community/history/rewards**](https://dydx.community/history/rewards)**.**
+
+</details>
