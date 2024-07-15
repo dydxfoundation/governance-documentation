@@ -2,7 +2,7 @@
 description: Una visión general del proceso de votación.
 ---
 
-# Proceso de votación
+#
 
 
 

@@ -2,7 +2,7 @@
 description: Visión general del programa de recompensas por operaciones.
 ---
 
-# Recompensas por operaciones
+#
 
 `El 14,5` **`%`** (`144 693 506 $ethDYDX`) del suministro de tokens se asigna para distribuirse a los usuarios que operan en dYdX v3 según las tarifas pagadas. Inicialmente, el `25,0 %` del suministro de tokens (`250 000 000 $ethDYDX`) se asignó para recompensas de trading.
 
@@ -60,23 +60,7 @@ $$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ ,n=1,2..k $$
 
 En el [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md), la Comunidad de dYdX votó para simplificar la fórmula para que se basara en el total de las tarifas pagadas por un trader en una época dada.
 
-## Preguntas frecuentes
-
-### ¿Quién es elegible para las recompensas por operaciones?
-
-Todos los traders en dYdX v3 eran elegibles para recibir $ethDYDX como recompensas de trading.
-
-dYdX v3 no está disponible para los operadores en los Estados Unidos o en los territorios restringidos, tal como se define en los [Términos de uso](https://dydx.exchange/terms) de dYdX Trading Inc.
-
-### ¿Cuántos $ethDYDX gané en el programa de Recompensas de trading?
-
-En la época actual, los usuarios pueden ver las recompensas de trading pagadas y estimadas en [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) donde están los datos de trading de los usuarios.
-
-<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Tarifas pagadas y recompensas estimadas en una etapa determinada</p></figcaption></figure>
-
-Las recompensas de las etapas anteriores se pueden ver en [**dydx.community/history/rewards**](https://dydx.community/history/rewards)**.**
-
-### ¿Cómo reclamo mis recompensas de trading? ¿Cuándo puedo retirar y transferir mis $ethDYDX ganados?
+##
 
 Los tokens $ethDYDX ganados a través de las Recompensas de trading serán transferibles al final de cada etapa. Los titulares de tokens $ethDYDX deben esperar aproximadamente `7 días` (**período de espera**) después del final de la etapa para reclamar sus tokens $ethDYDX.
 
@@ -93,7 +77,7 @@ Pasos:
 
 <figure><img src="../.gitbook/assets/updateRoot-claiming.jpeg" alt=""><figcaption></figcaption></figure>
 
-**Esta transacción requeriría ETH para las tarifas de gas, y la transacción fallará si:**
+
 
 * El período de espera de 7 días aún está en efecto, o
 * Un miembro de la comunidad ya ha utilizado con éxito el parámetro `updateRoot` en el [contrato de distribuidor de Merkle](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract).
@@ -101,3 +85,25 @@ Pasos:
 Una vez finalizada la transacción, los traders pueden reclamar sus recompensas de trading  [aquí](https://dydx.community/dashboard). Los usuarios deberán hacer clic en `Reclamar`, firmar una transacción y pagar tarifas de gas para poder reclamar $ethDYDX.
 
 ![Visión general de la cartera de recompensas](../.gitbook/assets/1-portfolio-overview-rewards.png)
+
+## Preguntas frecuentes
+
+<details>
+
+<summary>¿Quién es elegible para las recompensas por operaciones?</summary>
+
+Todos los traders en dYdX v3 eran elegibles para recibir $ethDYDX como recompensas de trading.
+
+dYdX v3 no está disponible para los operadores en los Estados Unidos o en los territorios restringidos, tal como se define en los [Términos de uso](https://dydx.exchange/terms) de dYdX Trading Inc.
+
+</details>
+
+<details>
+
+<summary>¿Cuántos $ethDYDX gané en el programa de Recompensas de trading?</summary>
+
+En la época actual, los usuarios pueden ver las recompensas de trading pagadas y estimadas en [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) donde están los datos de trading de los usuarios.
+
+Las recompensas de las etapas anteriores se pueden ver en [**dydx.community/history/rewards**](https://dydx.community/history/rewards)**.**
+
+</details>

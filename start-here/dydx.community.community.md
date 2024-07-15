@@ -2,7 +2,7 @@
 description: Una casa de gobernanza, recompensas e inversión en dydx.community
 ---
 
-# Interfaz
+#
 
 La interfaz de gobernanza, recompensas e inversión está activa en [**dydx.community**](https://dydx.community).
 
@@ -24,7 +24,13 @@ Actualmente, el módulo de liquidez y el módulo de seguridad están inactivos. 
 
 ### Recompensas por operaciones
 
-Los usuarios pueden ver sus recompensas ganadas anteriormente a través de la actividad de trading en el intercambio de la capa 2.
+
+
+* Etapa 30: 383 562 $ethDYDX
+* Etapa 31: 191 781 $ethDYDX
+* Etapa 32: 0 $ethDYDX
+
+
 
 ![Realizar operaciones para recibir recompensas](../.gitbook/assets/4.5-trade-to-rewards.png)
 

@@ -2,7 +2,7 @@
 description: Una visión general de la Tesorería de la comunidad.
 ---
 
-# Tesorería de la comunidad
+#
 
 **`El 26,1 %`** (`261 133 225 $ethDYDX`) del suministro de tokens se asigna a la tesorería de la comunidad para que la comunidad dYdX lo use de forma continua para subvenciones a contribuyentes, iniciativas comunitarias, minería de liquidez y otros programas. Inicialmente, el `5,0 %` del suministro de tokens (`50 000 000 $ethDYDX`) se [asignó](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations) a la tesorería de la comunidad y 766 703 $ethDYDX se asignaron a la tesorería de la comunidad en cada etapa. Actualmente, 3 787 251 $ethDYDX están asignados a la tesorería de la comunidad porque varias propuestas de gobernanza dieron lugar a un aumento de 3 020 548 $ethDYDX en la cantidad de $ethDYDX disponible para la comunidad dYdX en cada etapa:
 
@@ -37,15 +37,15 @@ Si, después de cinco años, la gobernanza decide promulgar la inflación de los
 
 ## Preguntas frecuentes
 
-### ¿Cómo se invierten $ethDYDX en la Tesorería de la comunidad?
+<details>
+
+<summary>¿Cómo se invierten $ethDYDX en la Tesorería de la comunidad?</summary>
 
 Anteriormente, el vester de la Tesorería de la comunidad (consulta los detalles [aquí](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)) otorgaba [`0,3169242627`](tel:03169242627) $ethDYDX a la Tesorería de la comunidad por segundo. Una vez que se han otorgado los $ethDYDX, al utilizar la función de `reclamación` en el vester de la Tesorería de la comunidad, se transferirán los $ethDYDX otorgados a la Tesorería de la comunidad. Cualquier miembro de la comunidad dYdX podría usar la función de `reclamación` en Etherscan [aquí](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract) (lo que requeriría algunos ETH para las tarifas de gas) para mover el $ethDYDX otorgado del vester de la Tesorería de la comunidad a la Tesorería de la comunidad.
 
 Consulte los [Términos de uso](https://dydx.foundation/terms) de la Fundación dYdX para obtener más detalles sobre el control de la tesorería de la comunidad realizado por la comunidad dYdX.
 
-<figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image.png)
 
-###
-
-###
+</details>
 
