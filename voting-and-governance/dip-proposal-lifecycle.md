@@ -2,7 +2,7 @@
 description: Visión general del ciclo de vida de la propuesta de mejora de dYdX (DIP).
 ---
 
-# Ciclo de vida de la propuesta
+#
 
 ## **Etapas de la propuesta**
 
