@@ -2,9 +2,9 @@
 description: 유동성 스테이킹 풀 개요
 ---
 
-# 유동성 모듈
+#
 
-토큰 공급량의 `0.6%`(`5,753,430$ethDYDX)`는 유동성 스테이킹 풀에 $USDC를 스테이킹하는 사용자에게 배포되었습니다. 초기에는 토큰 공급량의 `2.50%`(`25,000,000$ethDYDX`)가 유동성 스테이킹 풀에 $USDC를 스테이킹하는 사용자들에게 배포되도록 할당되었습니다. 유동성 스테이킹 풀은 2022년 9월 29일부터 더 이상 사용하지 않습니다. [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)에서 dYdX 커뮤니티는 초당 유동성 스테이킹 풀 보상을 0으로 설정하여 유동성 스테이킹 풀 및 차입 풀을 효과적으로 축소하기로 [투표했습니다](https://dydx.community/dashboard/proposal/7)\
+초기에는 토큰 공급량의 `2.50%`(`25,000,000$ethDYDX`)가 유동성 스테이킹 풀에 $USDC를 스테이킹하는 사용자들에게 배포되도록 할당되었습니다. 유동성 스테이킹 풀은 2022년 9월 29일부터 더 이상 사용하지 않습니다. [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)에서 dYdX 커뮤니티는 초당 유동성 스테이킹 풀 보상을 0으로 설정하여 유동성 스테이킹 풀 및 차입 풀을 효과적으로 축소하기로 [투표했습니다](https://dydx.community/dashboard/proposal/7)\
 \
 이전에는 유동성 스테이킹 풀에 $USDC를 스테이킹한 사용자들에게 $ethDYDX가 배포되었습니다. 커뮤니티에서 승인한 유동성 공급자들은 스테이킹된 $USDC를 통해 dYdX v3 시장을 조성하여, 시장 전반의 유동성을 확대했습니다. 유동성 공급자는 dYdX v3 외부에서의 차입금 사용이 제한되었습니다.
 
@@ -12,7 +12,7 @@ description: 유동성 스테이킹 풀 개요
 
 현재 유동성 스테이킹 풀에서 스테이킹된 $USDC는 보상을 받지 않고 있습니다.
 
-이전에 USDC 스테이커들에게 분배된 383,562$ethDYDX는 보상 금고에 축적되며, [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 이를 사용할 수 있습니다.
+
 
 ## USDC 스테이킹 해제 및 인출
 
@@ -32,11 +32,17 @@ $stkUSDC 잔고는 활성화 또는 비활성될 수 있습니다. 활성 $stkUS
 
 ## FAQ
 
-### 블랙아웃 기간이란 무엇입니까?
+<details>
+
+<summary>블랙아웃 기간이란 무엇입니까?</summary>
 
 블랙아웃 기간은 사용자가 스테이킹된 $USDC의 인출을 요청할 수 없는 기간입니다. 블랙아웃 기간 동안에는 `requestWithdrawal` 기능을 호출할 수 없습니다. 처음 이 기간은 에폭의 마지막 `3일`로 구성됩니다. 28일마다 새로운 에폭이 시작됩니다. 즉, 사용자는 주어진 에폭이 종료되기 최대 `3일` 전에 다음 에폭에 대한 인출을 요청할 수 있습니다.
 
-### 어떻게 스테이킹 풀에서 $USDC를 인출합니까? 시간이 얼마나 소요됩니까?
+</details>
+
+<details>
+
+<summary>어떻게 스테이킹 풀에서 $USDC를 인출합니까? 시간이 얼마나 소요됩니까?</summary>
 
 스테이커는 에폭이 종료되기 최소 `3일` 전에 $USDC 스테이킹을 해제해야 해당 에폭이 종료된 후 스테이커의 $USDC를 인출할 수 있습니다. 스테이커가 인출을 요청하지 않으면 스테이킹된 $USDC는 다음 에폭으로 롤오버됩니다.
 
@@ -47,19 +53,24 @@ $USDC를 인출하려면 사용자는 `requestWithdrawal` 기능을 호출하여
 유동성 풀에 대한 $USDC의 스테이킹을 해제하려면 다음 단계를 따르십시오.
 
 * [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*로 이동합니다.
-* "**요청**"을 클릭하여 다음 모달을 엽니다.
-
-![인출 요청](../.gitbook/assets/1-withdraw-from-liquidity-pool.png)
-
+*
 * 풀에서 인출을 요청하고 싶은 $USDC의 금액을 입력하고 '**인출 요청**'을 클릭합니다. $USDC 스테이킹을 해제하려면 가스 수수료를 지불해야 합니다.
 * 현재 에폭이 종료되기 최소 `3일`(**언스테이킹 기간**) 전에 $USDC 스테이킹 해제를 요청한 스테이커는 다음 에폭을 시작할 때 $USDC를 인출할 수 있습니다.
 
-### 거버넌스가 변경할 수 있는 파라미터는 무엇입니까?
+</details>
 
-dYdX 거버넌스는 다음을 책임집니다.
+<details>
+
+<summary></summary>
+
+
 
 * 유동성 스테이킹 풀에 $USDC를 스테이킹하는 것에 대한 초당 보상
 * 스테이킹 유동성 풀에서 신규 차용자 추가 및 기존 차용자 제거
 * 승인된 차용자에 대한 차용 $USDC 할당량 변경
   * `setBorrowerAllocations` 및 `setBorrowingRestriction` 함수는 특정 차용자의 할당량을 변경하기 위해 호출됩니다. 차용자를 추가하고 제거하는데 사용할 수 있습니다. 증가는 다음 에폭에 영향을 미치지만 감소는 즉시 차용을 제한할 것입니다. 이러한 기능은 블랙아웃 기간 동안에는 호출할 수 없습니다.
 * 에폭 길이 및 블랙아웃 기간은 계약 생성 시 설정되지만, 변경할 수 있습니다.
+
+</details>
+
+###
