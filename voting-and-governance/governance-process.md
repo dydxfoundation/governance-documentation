@@ -2,7 +2,7 @@
 description: Una descripción general de alto nivel de la arquitectura de gobernanza.
 ---
 
-# Arquitectura
+#
 
 ## Visión general
 
@@ -16,7 +16,7 @@ Las propuestas deben pasar un umbral determinado y un porcentaje de votos positi
 
 *
 *
-* Los tokens invertidos en el módulo de seguridad conservan todos los derechos de gobernanza.
+*
 * **El contrato `de gobernanza`**: realiza un seguimiento de las propuestas y puede ejecutar propuestas a través del contrato inteligente de bloqueo de tiempo.
 * **Los contratos `de bloqueo de tiempo`**: pueden poner en cola, cancelar o ejecutar transacciones votadas por la gobernanza. Las funciones de una propuesta son iniciadas por el contrato de bloqueo de tiempo. Las transacciones en cola se pueden ejecutar después de un retraso y antes de la expiración del período de gracia.
 * **El contrato `de Bloqueo cronométrico de prioridad`**: Lo mismo que el contrato de bloqueo de tiempo, pero permite que un controlador de prioridad ejecute transacciones dentro del **período** prioritario (7 días) antes del final del retraso del bloqueo de tiempo.
@@ -33,7 +33,7 @@ La gobernanza en la cadena de dYdX permite:
 
 ## Tipos de propuestas
 
-Existen cuatro tipos de propuestas con diferentes parámetros que afectan la duración y la ejecución de una propuesta, es decir, las propuestas críticas que afectan el consenso de la gobernanza requieren más tiempo de votación y un mayor diferencial de votos, mientras que las propuestas que afectan solo los parámetros del protocolo requieren menos tiempo de votación y pueden ser rápidamente implementadas. Cada tipo de propuesta debe ser validada por un ejecutor.
+Cada tipo de propuesta debe ser validada por un ejecutor.
 
 #### **Ejecutor de bloqueo de corto tiempo**
 
@@ -47,11 +47,7 @@ El ejecutor de bloqueo de corto tiempo controla lo siguiente:
 
 **Ejecutor de bloqueo de tiempo de prioridad de Starkware**
 
-El ejecutor de bloqueo de tiempo de prioridad de Starkware es propietario del contrato de intercambio de perpetuals de StarkEx.
 
-Dependiendo de la acción a tomar, es posible que el equipo de Starkware deba involucrarse para implementar correctamente el cambio en la operación. Por esta razón, a este ejecutor se le otorga un rol de “controlador de prioridad”, el cual otorga a Starkware un período de 7 días (**Período de Prioridad**) en el cual solo él tiene la capacidad de activar la ejecución de una propuesta.
-
-Starkware no tiene control sobre _los_ cambios que se realizan en el protocolo.
 
 #### **Ejecutor de bloqueo de largo tiempo**
 
