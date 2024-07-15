@@ -2,7 +2,7 @@
 description: Yönetişim parametrelerine genel bakış.
 ---
 
-# Parametreler
+#
 
 Yönetişim Token'ı sahipleri şunlar üzerinde anında geçerli ve geri alınamaz bir kontrol kazanır:
 
