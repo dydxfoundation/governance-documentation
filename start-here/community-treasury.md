@@ -2,7 +2,7 @@
 description: 社区资金库概述。
 ---
 
-# 社区资金库
+#
 
 **`26.1%`** (`261,133,225 $ethDYDX`) 的代币供应分配给社区金库，供 dYdX 社区持续用于贡献者赠款、社区计划、流动性挖掘和其他计划。最初，`5.0%`（`50,000,000 $ethDYDX`）的代币供应[分配](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations)给社区资金库，每个时段有 766,703 个 $ethDYDX 提供给社区资金库。 目前，3,787,251 $ethDYDX 提供给社区资金库，因为一些治理提案增加了 dYdX 社区每个时段可用的 $ethDYDX 金额，增至 3,020,548 $ethDYDX ：
 
@@ -37,15 +37,15 @@ description: 社区资金库概述。
 
 ## 常见问题解答
 
-### 如何提供 $ethDYDX 给“社区资金库”？
+<details>
+
+<summary>如何提供 $ethDYDX 给“社区资金库”？</summary>
 
 此前，社区资金库归属者（在 [此处](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)查看详细信息）每秒钟都会将 [`0.3169242627`](tel:03169242627) 个 $ethDYDX 归属于社区资金库。 一旦 $ethDYDX 归属完成后，在“社区资金库归属者”上调用 `申领` 函数，即可将已归属的 $ethDYDX 转至“社区资金库”。 dYdX 社区的成员均可在 [此处](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract) 调用 Etherscan 上的 `申领` 函数（需要一些以太币来支付 gas 费），将已归属的 $ethDYDX 从“社区资金库归属者”转至“社区资金库”。
 
 有关 dYdX 社区对于社区资金库控制的更多详细信息，请参阅 dYdX 基金会的[使用条款](https://dydx.foundation/terms)。
 
-<figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image.png)
 
-###
-
-###
+</details>
 
