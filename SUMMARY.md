@@ -1,35 +1,35 @@
 # 目录
 
-* [简介](README.md)
+*
 
 ## 从此处开始
 
-* [界面](start-here/dydx.community.md)
-* [限制](start-here/restrictions.md)
-* [分配](start-here/dydx-allocations.md)
-* [时段](start-here/epochs.md)
-* [费率折扣](start-here/trading-fee-discount.md)
-* [社区资金库](start-here/community-treasury.md)
-* [奖励资金库](start-here/rewards-treasury.md)
+*
+*
+*
+*
+*
+*
+*
 
 ## 奖励
 
-* [追溯性挖矿奖励](rewards/retroactive-mining-rewards.md)
-* [交易奖励](rewards/trading-rewards.md)
-* [流动性提供方奖励](rewards/liquidity-provider-rewards.md)
+*
+*
+*
 
 ## 权益质押池
 
-* [流动性模块](staking-pools/liquidity-staking-pool.md)
-* [保险模块](staking-pools/safety-staking-pool.md)
+*
+*
 
 ## 投票和治理
 
-* [架构](voting-and-governance/governance-process.md)
-* [提议生命周期](voting-and-governance/dip-proposal-lifecycle.md)
-* [投票过程](voting-and-governance/voting.md)
-* [参数](voting-and-governance/governance-parameters.md)
-* [治理指南](voting-and-governance/governance-guide.md)
+*
+*
+*
+*
+*
 
 ***
 
@@ -49,4 +49,4 @@
 * [dYdX Layer 2 API](https://docs.dydx.exchange/)
 * [dYdX Trading Inc.](https://dydx.exchange)
 * [指标控制面板](http://metrics.dydx.exchange/)
-* [LP 奖励控制面板](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true)
+* [LP奖励控制面板](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true)
