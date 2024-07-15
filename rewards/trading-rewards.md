@@ -2,7 +2,7 @@
 description: 交易奖励计划概述。
 ---
 
-# 交易奖励
+#
 
 `14.5`**`%`** (`144,693,506 $ethDYDX`) 的代币供应将根据用户在 dYdX v3 上交易所付的费用分配给用户。 最初，代币供应量 (`250,000,000 $ethDYDX`) 的 `25.0%` 分配给交易奖励。
 
@@ -62,23 +62,7 @@ $$
 
 在 [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md) 中，dYdX 社区投票表决，将公式简化为基于交易者在给定时段内支付的总费用。
 
-## 常见问题解答
-
-### 谁有资格获得交易奖励？
-
-dYdX v3 上的所有交易者都有资格获得 $ethDYDX 作为交易奖励。
-
-dYdX v3 不适用于在 dYdX Trading Inc 的[《使用条款》](https://dydx.exchange/terms)中规定的位于美国或受限制地区的交易者。
-
-### 我在“交易奖励”计划中赚取了多少 $ethDYDX？
-
-在当前时段，用户可以在[**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)查看已支付的费用和预估的交易奖励，该网站存有用户的交易数据。
-
-<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>在给定时段内所支付的费用以及预估的奖励</p></figcaption></figure>
-
-如需查看过去时段的奖励，请访问[**dydx.community/history/rewards**](https://dydx.community/history/rewards)**。**
-
-### 我如何申领我的交易奖励？何时可以支取并转账我赚取的 ethDYDX？
+##
 
 通过“交易奖励”赚取的 $ethDYDX 代币可以在每个时段结束时转账。$ethDYDX 代币持有人必须在时段结束后等待约 `7 天`（**等待期**）才能申领 $ethDYDX 代币。
 
@@ -95,7 +79,7 @@ dYdX v3 不适用于在 dYdX Trading Inc 的[《使用条款》](https://dydx.ex
 
 <figure><img src="../.gitbook/assets/updateRoot-claiming.jpeg" alt=""><figcaption></figcaption></figure>
 
-**该笔交易需要一些以太币来支付 gas 费，如出现以下情况，交易将会失败：**
+
 
 * 7 天等待期仍然有效，或
 * 社区成员已成功调用 [Merkle 分发合约](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) 上的 `updateRoot` 参数。
@@ -103,3 +87,25 @@ dYdX v3 不适用于在 dYdX Trading Inc 的[《使用条款》](https://dydx.ex
 交易完成后，交易者可以在[此处](https://dydx.community/dashboard)申领他们的交易奖励。 用户需要单击`申`领、签署交易并支付 gas 费才能申领 $ethDYDX。
 
 ![资金组合奖励概述](../.gitbook/assets/1-portfolio-overview-rewards.png)
+
+## 常见问题解答
+
+<details>
+
+<summary>谁有资格获得交易奖励？</summary>
+
+dYdX v3 上的所有交易者都有资格获得 $ethDYDX 作为交易奖励。
+
+dYdX v3 不适用于在 dYdX Trading Inc 的[《使用条款》](https://dydx.exchange/terms)中规定的位于美国或受限制地区的交易者。
+
+</details>
+
+<details>
+
+<summary>我在“交易奖励”计划中赚取了多少 $ethDYDX？</summary>
+
+在当前时段，用户可以在[**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards)查看已支付的费用和预估的交易奖励，该网站存有用户的交易数据。
+
+如需查看过去时段的奖励，请访问[**dydx.community/history/rewards**](https://dydx.community/history/rewards)**。**
+
+</details>
