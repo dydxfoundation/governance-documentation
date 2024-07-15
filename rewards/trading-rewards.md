@@ -2,7 +2,7 @@
 description: Überblick über das Trading Prämien-Programm.
 ---
 
-# Trading-Prämien
+#
 
 `14,5` **`%`** (`144.693.506 $ethDYDX`) des Tokenangebots werden auf der Grundlage der gezahlten Gebühren an Benutzer verteilt, die auf dYdX v3 handeln. Anfangs wurden `25,0 %` des Token-Angebots (`250.000.000 $ethDYDX`) für die Handelsprämien zugewiesen.
 
@@ -60,23 +60,7 @@ $$ r=R\times \frac{w}{\sum\limits _{n} w_{n}} \ \ ,n=1,2...k $$
 
 Im Rahmen des [DIP-13](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-13.md), stimmte die dYdX-Community dafür, die Formel zu vereinfachen, sodass sie auf den Gesamtgebühren basiere, die von einem Trader in einem bestimmten Zeitraum gezahlt wurden.
 
-## FAQ
-
-### Wer ist für Trading-Prämien berechtigt?
-
-Alle Trader auf dYdX v3 waren berechtigt, $ethDYDX als Trading-Prämien zu erhalten.
-
-dYdX v3 ist nicht für Anbieter in den Vereinigten Staaten oder in den eingeschränkten Gebieten verfügbar, wie in den [Nutzungsbedingungen](https://dydx.exchange/terms) von dYdX Trading Inc. definiert.
-
-### Wie viel $ethDYDX habe ich im Rahmen des Bonusprogramms verdient?
-
-In der aktuellen Epoche können Benutzer gezahlte Gebühren und geschätzte Trading-Rewards unter [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) einsehen, wo die Tradingdaten der Benutzer vorhanden sind.
-
-<figure><img src="../.gitbook/assets/1-fees-paid-estimated-rewards.png" alt=""><figcaption><p>Bezahlte Gebühren und geschätzte Rewards in einer bestimmten Epoche</p></figcaption></figure>
-
-Rewards aus früheren Epochen können unter [**dydx.community/history/rewards**](https://dydx.community/history/rewards) eingesehen werden**.**
-
-### Wie kann ich meine Trading-Prämien abholen? Wann kann ich meine verdienten ethDYDX auszahlen lassen und überweisen?
+##
 
 Verdiente $ethDYDX-Token über Handelsprämien sind am Ende jeder Epoche übertragbar. Inhaber von $ethDYDX-Token müssen ungefähr `7 Tage` (**Wartezeit**) nach dem Ende der Epoche warten, um ihre $ethDYDX-Token zu beanspruchen.
 
@@ -93,7 +77,7 @@ Schritte:
 
 <figure><img src="../.gitbook/assets/updateRoot-claiming.jpeg" alt=""><figcaption></figcaption></figure>
 
-**Diese Transaktion würde einige wenige ETH für Gasgebühren erfordern. Die Transaktion wird fehlschlagen, wenn:**
+
 
 * Die 7-tägige Wartefrist noch nicht abgelaufen ist oder
 * Ein Community-Mitglied bereits erfolgreich den `updateRoot`-Parameter im [Merkle-Distributor-Vertrag](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588#writeProxyContract) aufgerufen hat.
@@ -101,3 +85,25 @@ Schritte:
 Sobald die Transaktion abgeschlossen ist, können Händler ihre Handelsprämien [hier](https://dydx.community/dashboard) einfordern. Zur Inanspruchnahme von $ethDYDX müssen die Benutzer auf `Anfordern` klicken, eine Transaktion unterzeichnen und Gasgebühren entrichten.
 
 ![Portfolio-Übersicht der Rewards](../.gitbook/assets/1-portfolio-overview-rewards.png)
+
+## FAQ
+
+<details>
+
+<summary>Wer ist für Trading-Prämien berechtigt?</summary>
+
+Alle Trader auf dYdX v3 waren berechtigt, $ethDYDX als Trading-Prämien zu erhalten.
+
+dYdX v3 ist nicht für Anbieter in den Vereinigten Staaten oder in den eingeschränkten Gebieten verfügbar, wie in den [Nutzungsbedingungen](https://dydx.exchange/terms) von dYdX Trading Inc. definiert.
+
+</details>
+
+<details>
+
+<summary>Wie viel $ethDYDX habe ich im Rahmen des Bonusprogramms verdient?</summary>
+
+In der aktuellen Epoche können Benutzer gezahlte Gebühren und geschätzte Trading-Rewards unter [**trade.dydx.exchange/portfolio/rewards**](https://trade.dydx.exchange/portfolio/rewards) einsehen, wo die Tradingdaten der Benutzer vorhanden sind.
+
+Rewards aus früheren Epochen können unter [**dydx.community/history/rewards**](https://dydx.community/history/rewards) eingesehen werden**.**
+
+</details>
