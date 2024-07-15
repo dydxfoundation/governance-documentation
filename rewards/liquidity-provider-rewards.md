@@ -2,9 +2,9 @@
 description: Likidite Sağlayıcı Ödülleri Programına genel bakış.
 ---
 
-# Likidite Sağlayıcı Ödülleri
+#
 
-Token arzının **%3,2'si** (`31.643.838 $ethDYDX`), piyasa yapıcı hacmi (maker volume), çalışma süresi (uptime), iki taraflı derinlik (two-sided depth), alış satış farkları (bid-ask spreads) ve desteklenen piyasaların sayısı parametrelerinin bir kombinasyonunu ödüllendirecek şekilde belirlenen formüllere göre likidite sağlayıcılara ("LS") tahsis edilir. Başlangıçta, token arzının **%7,5** (`75.000.000 $ethDYDX`) tutarındaki kısmı, LS ödülleri için tahsis edilmişti.
+Başlangıçta, token arzının **%7,5** (`75.000.000 $ethDYDX`) tutarındaki kısmı, LS ödülleri için tahsis edilmişti.
 
 * [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)'te dYdX topluluğu, Likidite Sağlayıcı Ödüllerini dönem başına `1.150.685 $ethDYDX`'ten dönem başına `575.343 $ethDYDX`'e %50 oranında azaltma yönünde [oy kullandı](https://dydx.community/dashboard/proposal/14). Sonuç olarak, LP ödülleri için ayrılan miktar `%7,5’tan` `%5,2'ye` düşmüştür.
 *   [DIP 29](https://dydx.community/dashboard/proposal/16)'da dYdX topluluğu LP ödüllerini dYdX v3'teki 30.-32. Dönemdekinden ⅓ oranında azaltarak aşağıdaki değerlere düşürme yönünde [oy kullandı](https://dydx.community/dashboard/proposal/16):
@@ -23,17 +23,17 @@ dYdX Zinciri üzerinde Likidite Sağlayıcı ödüllerinin dağıtımı olmadı�
 
 ## **Genel bakış**
 
-Piyasa likiditesini teşvik etmek amacıyla, piyasalara katılımı, piyasa yapıcı hacmini, iki taraflı derinliği, (orta piyasaya kıyasla) fiyat farkını ve dYdX v3 üzerinde çalışma süresini ödüllendiren formüllere göre likidite sağlayıcılara $ethDYDX dağıtılacaktır. Herhangi bir Ethereum adresi, bir önceki dönemde piyasa yapıcı hacminin %0,25''lik minimum piyasa yapıcı hacmi eşiğine tabi olarak bu ödülleri kazanabilir. $ethDYDX tutarı beş yıl boyunca 28 günlük dönemler esasında dağıtılacak ve herhangi bir hakediş veya kilitleme sürecine tabi olmayacaktır.
+Piyasa likiditesini teşvik etmek amacıyla, piyasalara katılımı, piyasa yapıcı hacmini, iki taraflı derinliği, (orta piyasaya kıyasla) fiyat farkını ve dYdX v3 üzerinde çalışma süresini ödüllendiren formüllere göre likidite sağlayıcılara $ethDYDX dağıtılacaktır.
 
-Her bir likidite sağlayıcıya dönem başına ne kadar $ethDYDX'in ödül olarak verileceğini hesaplamak için aşağıdaki fonksiyonlar kullanılır. [DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md)'te, dYdX topluluğu Likidite Sağlayıcı (LP) ödülleri formülünün, fonksiyonların BTC/ETH piyasaları ve BTC/EHT dışı piyasalar olarak ikiye ayrılması suretiyle revize edilmesi yönünde oy kullandı. [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md)'da dYdX topluluğu, 0.05 stkDYDX ağırlığının tekrar MakerVolume'a tahsis edilmesi yönünde oy kullandı.
+[DIP 15](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-15.md)'te, dYdX topluluğu Likidite Sağlayıcı (LP) ödülleri formülünün, fonksiyonların BTC/ETH piyasaları ve BTC/EHT dışı piyasalar olarak ikiye ayrılması suretiyle revize edilmesi yönünde oy kullandı. [DIP 19](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-19.md)'da dYdX topluluğu, 0.05 stkDYDX ağırlığının tekrar MakerVolume'a tahsis edilmesi yönünde oy kullandı.
 
-Genel olarak, fonksiyonlarda hacmin ağırlığı tüm piyasalarda arttırıldı. Kazanılan ethDYDX miktarı, her bir katılımcının $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​) miktarındaki göreceli payıyla belirlenir.
+Kazanılan ethDYDX miktarı, her bir katılımcının $$Q_{FINAL}$$ ($$Q_{BTC}$$+​$$Q_{ETH}$$+$$Q_{non BTC/ETH}$$​) miktarındaki göreceli payıyla belirlenir.
 
 <figure><img src="../.gitbook/assets/Updated LP Rewards Formulas.png" alt=""><figcaption></figcaption></figure>
 
 Piyasa başına belirli bir **minimum derinliğin** (boyut) ($$MinDepth$$) altındaki emirler hariç tutulur ve piyasa başına belirli bir **maksimum teklif-talep farkı** (orta piyasa teklif-talep farkı) ($$MaxSpread$$) üzerindeki emirler de hariç tutulur.
 
-Likidite sağlayıcı performansı belli bir piyasa için dakika dakika izlenerek hesaplanır (rastgele örnekleme kullanılarak) ve bir $$Q_{SCORE}$$ içine toplaştırılır. Dakika dakika örnekleme söz konusu olduğunda, her dönemde 28 günlük \* 24 saatlik \* 60 dakikalık veri noktaları bulunur ve her dönemde toplam 40.320 veri noktası bulunur.
+Dakika dakika örnekleme söz konusu olduğunda, her dönemde 28 günlük \* 24 saatlik \* 60 dakikalık veri noktaları bulunur ve her dönemde toplam 40.320 veri noktası bulunur.
 
 Likidite sağlayıcılar dönem başına göreli $ $ Q_{FINAL}$ paylarına dayalı olarak aylık ödüller kazanır.
 
@@ -58,70 +58,87 @@ Her piyasa, farklı bir ağırlık verilecek kendi ödül havuzuna sahip olacakt
 
 ## SSS
 
-### Likidite sağlayıcı ödüllerini kimler alabilir?
+<details>
+
+<summary>Likidite sağlayıcı ödüllerini kimler alabilir?</summary>
 
 Önceki dönemde dYdX v3 üzerindeki piyasa yapıcı hacminin en az %0,25 kadarına ulaşan tüm likidite sağlayıcıları, söz konusu dönemde ethDYDX ödüllerini almaya hak kazanır.
 
 dYdX Trading Inc.'in [Kullanım Şartlarında](https://dydx.exchange/terms) belirtildiği üzere, dYdX v3, Birleşik Devletler'deki veya Kısıtlı Bölgeler'deki likidite sağlayıcıları tarafından kullanılamaz.
 
-### Likidite Sağlayıcı Ödülleri programında ne kadar $ethDYDX kazandım?
+</details>
+
+<details>
+
+<summary>Likidite Sağlayıcı Ödülleri programında ne kadar $ethDYDX kazandım?</summary>
 
 Belirli bir dönemde, likidite sağlayıcıları belirli bir işlem çifti piyasasındaki göreli $$Q_{SCORE}$$ değerlerine dayalı olarak getiri kazanır. Her bir işlem çifti, yönetişim tarafından belirlenen kendi göreli ödül miktarına sahiptir. Kazanılması beklenen ethDYDX miktarı [LS Ödülleri Panosu](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true) üzerinde görüntülenir ve ilgili likidite sağlayıcıların sayısına, göreceli $$Q_{SCORE}$$ düzeyine ve belirli bir çift için alınabilecek ödül miktarına göre belirlenebilir.
 
-### Likidite Sağlayıcı Ödüllerimi nasıl alabilirim?
+</details>
+
+<details>
+
+<summary>Likidite Sağlayıcı Ödüllerimi nasıl alabilirim?</summary>
 
 Likidite Sağlayıcı Ödülleri [dYdX API](https://docs.dydx.exchange/)'sinde açıklanır. Her ne kadar yönetişim kullanıcı arayüzünde açıklanmasa da her dönemin [sonunda](https://dydx.community/dashboard) yine de yönetişim yoluyla buradan alınabilirler.
 
-### Aldığım $ethDYDX Likidite Sağlayıcı Ödüllerimi ne zaman çekebilir ve transfer edebilirim?
+</details>
+
+<details>
+
+<summary>Aldığım $ethDYDX Likidite Sağlayıcı Ödüllerimi ne zaman çekebilir ve transfer edebilirim?</summary>
 
 Likidite Sağlayıcı Ödülleri aracılığıyla ödül olarak verilen $ethDYDX token'ları ilk baştaki transfer kısıtlama süresi geçtikten sonra teslim alınabilir ve transfer edilebilir.
 
 1. Dönemden başlayarak, Likidite Sağlayıcı Ödülleri aracılığıyla ödül olarak verilen $ethDYDX token'ları, her dönem sona erdikten `7 gün` (**Bekleme Süresi**) sonra teslim alınabilir.
 
-### İki taraflı derinlik, teklif-talep farkı ve çalışma süresi nasıl tanımlanıyor ve ölçülüyor?
+</details>
 
-**İki taraflı derinlik**
+<details>
 
-İki taraflı likidite sağlayıcısı, dYdX v3 üzerindeki iki taraflı piyasalarda aktif olarak teklif veren ve söz konusu piyasada teklif ve talep sağlayan bir firma veya bireydir. Protokole genel anlamda likidite sağlar.
+<summary>İki taraflı derinlik, teklif-talep farkı ve çalışma süresi nasıl tanımlanıyor ve ölçülüyor?</summary>
 
-Örneğin, BTC-USD piyasasındaki bir likidite sağlayıcı, 30.000 $-30.100 $, 10x50 şeklinde bir teklif verebilir. Bu da 30.000 $ fiyatla 10 BTC için teklif verdiği (satın alacağı) ve ayrıca 50 BTC için 30.100 $ fiyat talep ettiği (satacağı) anlamına gelir. Bunun ardından diğer piyasa katılımcıları likidite sağlayıcıdan 30.100 $ fiyatla satın alabilir (teklifi kaldırabilir) veya likidite sağlayıcıya 30.000 $ fiyatla satabilir (talebi karşılayabilir).
+* **İki taraflı derinlik**
 
-Likidite sağlayıcılar, belirli bir piyasadaki hem teklifleri hem de talepleri sağlama yetenekleri üzerinden değerlendirilir. Sadece tek bir tarafta (sadece teklif ya da sadece talep) teklif veren likidite sağlayıcılar, min() fonksiyonu nedeniyle ödül alamaz.
 
-**Orta piyasada makas farkı**
 
-Yaygın bir likidite ölçüsü de teklif-talep farkıdır. Bu, bir piyasadaki en yüksek teklif (satın alma emri) fiyatı ile en düşük talep (satış emri) fiyatı arasındaki farktır. Teklif ve talep arasındaki fark, yani makas farkı, alım satımda ana işlem maliyetidir (komisyonlar dışında) ve emirleri talep ve talep fiyatları üzerinden işleyerek likidite sağlayıcı tarafından alınır. Makas farkı, bir kullanıcının anında işlem yapma maliyetini ölçer.
+* **Orta piyasada makas farkı**
 
-Orta piyasadaki teklif-talep farkı özellikle piyasanın orta noktasını alır. Bu formül ile her bir piyasadaki MinDepth miktarının altındaki emirler de hariç tutulur.
 
-Örneğin, bir likidite sağlayıcının BTC-USD için teklif fiyatı 30.000 $ ve talep fiyatı da 30.100 $ ise, teklif-talep farkı 100 $ olur. Orta piyasa fiyatı 30.050 $ ve orta piyasa makas farkı da 50 $'dır.
 
-**Çalışma süresi**
+* **Çalışma süresi**
 
 Likidite sağlayıcı çalışma süresi özellikle yüksek oynaklık dönemlerinde piyasalar için çok önemlidir. $$Q_{FINAL}$$ hesaplamasında bir girdi olarak $$Uptime_{epoch}$$ değerinin beşinci kuvvetini kullanarak ödüller sürekli olarak 2 taraflı likiditeyi sürdüren likidite sağlayıcılara verilir. Diğer bir deyişle, %99'luk bir çalışma süresine sahip bir likidite sağlayıcı %90'lık bir çalışma süresine sahip bir likidite sağlayıcıdan daha değerlidir.
 
-Çalışma süresi, belirli bir piyasadaki likidite sağlayan emirlerin dakika dakika (rastgeleleştirilmiş örnekleme ile) var olduğu zaman yüzdesi şeklinde tanımlanır. Çalışma süresinde, dYdX Katman 2 Protokolü üzerinde kesinti yaşanan süreler hariç tutulur. Borsanın yavaş olduğu veya emirleri kabul etmediği (ancak bir kesinti yaşanmayan) bazı aşırı durumlar görülebilir ve bu durumda yukarıdakiler geçerli olmaz (ancak bu bir hata olarak kabul edilir ve tüm likidite sağlayıcılar tıpkı kesintilerde olduğu gibi benzer şekilde etkilenir).
 
-### Bir piyasadaki maksimum teklif-talep farkı nasıl tanımlanır?
+
+</details>
+
+<details>
+
+<summary>Bir piyasadaki maksimum teklif-talep farkı nasıl tanımlanır?</summary>
 
 Bir piyasadaki makas farkı $$MaxSpread$$ değerinden yüksek olduğunda hiçbir $$Q_{BID}$$ ve $$Q_{ASK}$$ değeri üretilmez.
 
 İlk baştaki Maksimum Teklif-Talep Farkı değerleri aşağıdaki gibidir:
 
-| Piyasa | Orta Piyasadaki Maksimum Makas Farkı (Teklif ve Talep) |
-| ----------------------- | -------------------------------------- |
-| BTC-USD | 20 bps |
-| ETH-USD | 20 bps |
-| Diğer sürekli varlık piyasaları | 40 bps |
+*
+*
+*
 
-### Bir piyasadaki minimum derinlik (boyut) nasıl tanımlanır?
+</details>
+
+<details>
+
+<summary>Bir piyasadaki minimum derinlik (boyut) nasıl tanımlanır?</summary>
 
 Bir piyasadaki büyüklük $$MinDepth$$ değerinin altında olduğunda hiçbir $$Q_{BID}$$ veya $Q_{ASK}$$$ değeri üretilmez.
 
 İlk baştaki Minimum Derinlik değerleri aşağıdaki gibidir:
 
-| **Piyasa** | **Minimum Derinlik (Teklif ve Talep)** |
-| ----------------------- | --------------------------- |
-| BTC-USD | 5.000 $ |
-| ETH-USD | 5.000 $ |
-| Diğer sürekli varlık piyasaları | 1.000 $ |
+*
+*
+*
+
+</details>
+

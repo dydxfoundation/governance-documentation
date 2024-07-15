@@ -2,7 +2,7 @@
 description: Oylama sürecine genel bir bakış.
 ---
 
-# Oylama Süreci
+#
 
 dYdX v3, Yönetişim Token'ları sahipleri ve delegeleri tarafından yönetilir ve yükseltilir.
 
