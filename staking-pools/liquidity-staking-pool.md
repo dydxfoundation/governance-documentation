@@ -1,61 +1,61 @@
 ---
-description: Uma visão geral do pool de staking de liquidez
+description: 유동성 스테이킹 풀 개요
 ---
 
 #
 
-Inicialmente, 2,50% do fornecimento de token (25.`000.00``0 $ethDYDX`) foram alocados para serem distribuídos aos usuários que fazem staking de $USDC para o pool de staking de liquidez. A pool de staking de liquidez não estará mais ativa a partir de 29 de setembro de 2022. No [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), a comunidade de dYdX [votou](https://dydx.community/dashboard/proposal/7) pela redução efetiva do Pool de staking de liquidez e do Pool de empréstimos, definindo as recompensas do pool de staking de liquidez por segundo como 0.
+초기에는 토큰 공급량의 `2.50%`(`25,000,000$ethDYDX`)가 유동성 스테이킹 풀에 $USDC를 스테이킹하는 사용자들에게 배포되도록 할당되었습니다. 유동성 스테이킹 풀은 2022년 9월 29일부터 더 이상 사용하지 않습니다. [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)에서 dYdX 커뮤니티는 초당 유동성 스테이킹 풀 보상을 0으로 설정하여 유동성 스테이킹 풀 및 차입 풀을 효과적으로 축소하기로 [투표했습니다](https://dydx.community/dashboard/proposal/7)\
+\
+이전에는 유동성 스테이킹 풀에 $USDC를 스테이킹한 사용자들에게 $ethDYDX가 배포되었습니다. 커뮤니티에서 승인한 유동성 공급자들은 스테이킹된 $USDC를 통해 dYdX v3 시장을 조성하여, 시장 전반의 유동성을 확대했습니다. 유동성 공급자는 dYdX v3 외부에서의 차입금 사용이 제한되었습니다.
 
-\\Anteriormente, a $ethDYDX era distribuída aos usuários que faziam stake de $USDC no Pool de staking de liquidez. Os provedores de liquidez aprovados pela comunidade usaram o USDC em staking para gerar mercados no dYdX v3, aumentando a liquidez disponível em todos os mercados. Os provedores de liquidez foram impedidos de usar fundos emprestados fora da dYdX v3.
+## **스테이킹** 개요
 
-## Visão geral do **staking**
-
-Atualmente, $USDC em staking no pool de staking de liquidez não está distribuindo recompensas.
+현재 유동성 스테이킹 풀에서 스테이킹된 $USDC는 보상을 받지 않고 있습니다.
 
 
 
-## Remoção do USDC de stake e saques
+## USDC 스테이킹 해제 및 인출
 
-Um staker deve solicitar saques de $USDC pelo menos `3 dias` (**janela de bloqueio**) antes do final de uma [**epoch**](../start-here/epochs.md) para poder sacar o $USDC do staker após o final da epoch. Se os stakers não solicitarem o saque, o $USDC em staking acumulará para a próxima epoch.
+스테이커는 반드시 해당 에폭이 종료하기 최소 `3일`(**블랙아웃 기간**) 전에 USDC 인출을 요청해야 [**에폭**](../start-here/epochs.md) 종료 후 인출할 수 있습니다. 스테이커가 인출을 요청하지 않으면 스테이킹된 $USDC는 다음 에폭으로 롤오버됩니다.
 
-Os saques não podem ser solicitados durante a **janela de bloqueio**.
+**블랙아웃 기간**에는 인출을 요청할 수 없습니다.
 
-No [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/7) pela redução do Período de bloqueio de `14` para `3 dias`.
+[DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)의 [투표](https://dydx.community/dashboard/proposal/7)에서 dYdX 커뮤니티는 블랙아웃 기간을 `14일`에서 `3일`로 줄이기로 결정했습니다.
 
-## O que é o stkUSDC?
+## stkUSDC는 무엇입니까?
 
-Os titulares do $USDC que depositam e fazem stake de seu $USDC no pool de staking de liquidez receberão uma posição tokenizada ($**stkUSDC**). O mint de $stkUSDC é feito quando um usuário faz o stake $USDC. O $stkUSDC é queimado quando um usuário faz chamadas da função `withdrawStake`. Na mesma transação na qual o $USDC deixa a carteira de um staker, o $stkUSDC entra na carteira do staker ou vice-versa, quando o valor é retirado do staking.
+유동성 스테이킹 풀에 $USDC를 입금 및 스테이킹하는 USDC 보유자는 토큰화된 포지션($**stkUSDC**)을 받게 됩니다. $sktUSDC는 사용자가 USDC를 스테이킹할 때 발행되며 사용자가 `withdrawStake`를 호출할 때 소모됩니다. $USDC가 보유자의 지갑을 떠나는 것과 동일한 거래에서 $stkUSDC는 보유자의 지갑으로 들어갑니다. 스테이킹 해제 시에는 반대의 경우가 발생합니다.
 
-Um saldo de $stkUSDC pode ser ativo ou inativo. O $stkUSDC ativo pode ser transferido como ERC-20, mas não pode ser sacado. O $stkUSDC inativo pode ser sacado, mas não pode ser transferido. Por exemplo, um usuário pode ter 100 $stkUSDC ativos e inativos na sua carteira e o saldo do usuário será exibido como 200 $stkUSDC. No entanto, uma transferência será revertida se o usuário tentar transferir mais de 100 $stkUSDC.
+$stkUSDC 잔고는 활성화 또는 비활성될 수 있습니다. 활성 $stkUSDC는 ERC-20으로 양도할 수 있지만 인출할 수는 없습니다. 비활성 $stkUSDC는 인출할 수 있지만 양도할 수는 없습니다. 예를 들어, 사용자가 지갑에 활성 #stkUSDC 100개와 비활성 #stkUSDC 100개를 가지고 있을 때, 사용자의 잔액은 200 $stkUSDC로 표시되지만, 사용자가 100 $stkUSDC 이상을 이체하려고 하면 이체가 취소됩니다.
 
-Um saldo em staking para o qual o staker solicitou um saque antes do final da epoch seria considerado inativo e, portanto, não transferível.
+에폭 종료 이전에 스테이커가 출금 요청한 스테이킹된 잔액은 비활성화 처리되며 양도할 수 없습니다.
 
-## Perguntas e respostas
+## FAQ
 
 <details>
 
-<summary>O que é a janela de bloqueio?</summary>
+<summary>블랙아웃 기간이란 무엇입니까?</summary>
 
-Uma janela de bloqueio é um período durante o qual os usuários não podem solicitar saques de $USDC em staking. A função `requestWithdrawal` não pode ser chamada durante uma janela de bloqueio, que é configurada inicialmente como os últimos `3 dias` de uma epoch. Novas epochs começam a cada 28 dias. Desse modo, os usuários podem solicitar um saque para a próxima epoch até `3 dias` antes do final de uma determinada epoch.
+블랙아웃 기간은 사용자가 스테이킹된 $USDC의 인출을 요청할 수 없는 기간입니다. 블랙아웃 기간 동안에는 `requestWithdrawal` 기능을 호출할 수 없습니다. 처음 이 기간은 에폭의 마지막 `3일`로 구성됩니다. 28일마다 새로운 에폭이 시작됩니다. 즉, 사용자는 주어진 에폭이 종료되기 최대 `3일` 전에 다음 에폭에 대한 인출을 요청할 수 있습니다.
 
 </details>
 
 <details>
 
-<summary>Como posso sacar $USDC do pool de staking? Quanto tempo demora?</summary>
+<summary>어떻게 스테이킹 풀에서 $USDC를 인출합니까? 시간이 얼마나 소요됩니까?</summary>
 
-Um staker precisa solicitar a retirada de $USDC pelo menos `3 dias` antes do final de uma epoch a fim de sacar o $USDC do staker ao final da epoch. Se os stakers não solicitarem o saque, o $USDC em staking acumulará para a próxima epoch.
+스테이커는 에폭이 종료되기 최소 `3일` 전에 $USDC 스테이킹을 해제해야 해당 에폭이 종료된 후 스테이커의 $USDC를 인출할 수 있습니다. 스테이커가 인출을 요청하지 않으면 스테이킹된 $USDC는 다음 에폭으로 롤오버됩니다.
 
-Para sacar o $USDC, os usuários chamam a função `requestWithdrawal` para solicitar o saque de $USDC para a próxima epoch. Os fundos de usuário permanecerão em staking e não poderão ser sacados na epoch atual. A partir da próxima epoch, os fundos ficarão como “inativos” e disponíveis para saque.
+$USDC를 인출하려면 사용자는 `requestWithdrawal` 기능을 호출하여 다음 에폭에 대한 $USDC 인출을 요청합니다. 현재 에폭 동안 사용자 자금은 스테이킹된 상태로 남으며 인출할 수 없습니다. 다음 에폭이 시작될 때 자금은 "비활성" 상태가 되어 인출할 수 있게 됩니다.
 
-Na próxima epoch, os usuários chamam a função `withdrawStake` para sacar $USDC inativo para um endereço específico. Os usuários podem selecionar o valor de fundos inativos que desejam sacar ou chamar a função \`withdrawMaxStake\` para sacar todos os fundos inativos. A função `withdrawMaxStake` é menos eficiente em termos de gás do que consultar o valor máximo via eth\_call e chamar `withdrawStake()`.
+다음 에폭에서 사용자는 `withdrawStake` 기능을 호출하여 비활성 $USDC를 특정 주소로 인출합니다. 사용자는 인출하려는 비활성화 자금의 양을 선택하거나, \`withdrawMaxStake\` 기능을 호출하여 모든 비활성 자금을 인출할 수 있습니다. `withdrawMaxStake` 기능은 eth\_call을 통해 최대값을 쿼리하고 `withdrawStake()`를 호출하는 것보다 가스 효율이 낮습니다.
 
-Para remover o $USDC do stake para o pool de liquidez, siga as seguintes etapas:
+유동성 풀에 대한 $USDC의 스테이킹을 해제하려면 다음 단계를 따르십시오.
 
-* Visite [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*
+* [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*로 이동합니다.
 *
-* Digite o valor de $USDC que deseja solicitar para saque do pool e clique em “**Solicitar saque**”. Você precisará pagar as taxas de gás para remover o $USDC do stake.
-* Os stakers que solicitarem a remoção do $USDC pelo menos `3 dias` (**janela de bloqueio**) antes da epoch atual terminar podem sacar seu $USDC no início da próxima epoch.
+* 풀에서 인출을 요청하고 싶은 $USDC의 금액을 입력하고 '**인출 요청**'을 클릭합니다. $USDC 스테이킹을 해제하려면 가스 수수료를 지불해야 합니다.
+* 현재 에폭이 종료되기 최소 `3일`(**언스테이킹 기간**) 전에 $USDC 스테이킹 해제를 요청한 스테이커는 다음 에폭을 시작할 때 $USDC를 인출할 수 있습니다.
 
 </details>
 
@@ -65,11 +65,11 @@ Para remover o $USDC do stake para o pool de liquidez, siga as seguintes etapas:
 
 
 
-* Recompensas por segundo do staking de $USDC no pool de staking de liquidez
-* Adicionar novos mutuários e/ou remover os mutuários atuais do pool de staking de liquidez
-* Alterar as alocações de $USDC emprestadas a mutuários aprovados
-  * As funções `setBorrowerAllocations` e `setBorrowingRestriction` são chamadas para alterar as alocações de determinados mutuários. Elas podem ser usadas para adicionar e remover os mutuários. Os aumentos entram em vigor na próxima epoch, mas as reduções restringirão empréstimos imediatamente. Essas funções não podem ser chamadas durante a janela de bloqueio.
-* O tamanho da epoch e a janela de bloqueio são configurados na criação do contrato, mas podem ser alterados
+* 유동성 스테이킹 풀에 $USDC를 스테이킹하는 것에 대한 초당 보상
+* 스테이킹 유동성 풀에서 신규 차용자 추가 및 기존 차용자 제거
+* 승인된 차용자에 대한 차용 $USDC 할당량 변경
+  * `setBorrowerAllocations` 및 `setBorrowingRestriction` 함수는 특정 차용자의 할당량을 변경하기 위해 호출됩니다. 차용자를 추가하고 제거하는데 사용할 수 있습니다. 증가는 다음 에폭에 영향을 미치지만 감소는 즉시 차용을 제한할 것입니다. 이러한 기능은 블랙아웃 기간 동안에는 호출할 수 없습니다.
+* 에폭 길이 및 블랙아웃 기간은 계약 생성 시 설정되지만, 변경할 수 있습니다.
 
 </details>
 
