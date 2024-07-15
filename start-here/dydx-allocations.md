@@ -1,12 +1,12 @@
 ---
-description: ethDYDX 토큰 할당
+description:
 ---
 
-# 할당
+#
 
 **할당**
 
-총 `1,000,000,000ethDYDX`만큼의 토큰이 주조되었으며, **2021년 8월 3일 15:00:00(UTC)**부터 (5)년 동안 이용할 수 있게 되었습니다. $ethDYDX 전체 공급량 의 초기 5년 할당은 다음과 같습니다.
+$ethDYDX 전체 공급량 의 초기 5년 할당은 다음과 같습니다.
 
 * **50.0%**(`500,000,000$ethDYDX`)가 다음과 같이 커뮤니티에 할당됩니다.
   * **25.0%**(`250,000,000$ethDYDX`)는 [거래 보상 공식](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)에 따라 할당됩니다.
@@ -19,7 +19,7 @@ description: ethDYDX 토큰 할당
 * **15.3%**(`152,704,930$ethDYDX`)는 dYdX Trading Inc. 또는 dYdX Foundation의 설립자, 직원, 고문, 컨설턴트에게 할당됩니다.
 * **7.0%**(`70,000,000$ethDYDX`)는 dYdX Trading Inc. 또는 dYdX Foundation의 미래 직원 및 컨설턴트에게 할당됩니다.
 
-$ethDYDX 출시 이래로 초기 할당의 변화를 이끈 거버넌스 제안이 여럿 있었습니다. 현재 할당은 다음과 같습니다.
+현재 할당은 다음과 같습니다.
 
 * **50.0%**(`500,000,000$ethDYDX`)가 다음과 같이 커뮤니티에 할당됩니다.
   * **14.5%**(`144,693,506$ethDYDX`)는 [거래 보상 공식](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)에 따라 할당됩니다.
@@ -49,21 +49,27 @@ $ethDYDX 출시 이래로 초기 할당의 변화를 이끈 거버넌스 제안�
 
 상기 명시된 대로 커뮤니티 할당이 정해져 있더라도, $ethDYDX 보유자는 거버넌스를 통해 앞으로의 커뮤니티 할당 방식에 대한 완전한 통제 권한을 가집니다.
 
+##
+
+2021년 9월 8일, 토큰에 대한 초기 전송 제한이 해제되었습니다.
+
+다음 차트에서는 인플레이션이 적용되지 않은 총 유동성 공급을 확인할 수 있습니다.
+
+<figure><img src="../.gitbook/assets/liquid supply total issuance_3.png" alt=""><figcaption></figcaption></figure>
+
 ## **자주 묻는 질문**
 
-### $ethDYDX 할당 방식이 바뀔 수도 있나요?
+<details>
+
+<summary>$ethDYDX 할당 방식이 바뀔 수도 있나요? </summary>
 
 예, dYdX 커뮤니티는 [출시 시에 존재했던 모든 보상 및 풀](../voting-and-governance/governance-parameters.md)을 변경할 수 있습니다. 지금까지 dYdX 커뮤니티는 여러 거버넌스 제안에서 DYDX 배출량을 줄이기로 결정했습니다.
 
-[DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)에서 dYdX 커뮤니티는 거래 보상을 25% 낮추기로 [투표](https://dydx.community/dashboard/proposal/8)했습니다. 그 결과, 특정 에폭에서 분배된 거래 보상이 에폭 15에서 3,835,616$ethDYDX에서 2,876,712$ethDYDX로 감소했습니다. 잔여 958,904$DYDX는 보상 금고에 축적되며, dYdX 커뮤니티는 [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 이를 사용할 수 있습니다\.
-\
-[DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)에서 dYdX 커뮤니티는 [투표를 통해](https://dydx.community/dashboard/proposal/7) $USDC 스테이킹 관련 보상을 0으로 설정하기로 결정했습니다. 이전에 $USDC 스테이커에게 배포된 383,562$ethDYDX는 보상 금고에 축적되며 dYdX 커뮤니티는 [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 이를 사용할 수 있습니다.
-
-[DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md)에서 dYdX 커뮤니티는 [투표를 통해](https://dydx.community/dashboard/proposal/9) $ethDYDX 스테이킹 관련 보상을 0으로 설정하기로 결정했습니다. 이전에 $DYDX 스테이커에게 배포된 383,562$ethDYDX는 보상 금고에 축적되며 dYdX 커뮤니티는 [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 이를 사용할 수 있습니다.
-
-[DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)에서 dYdX 커뮤니티는 유동성 공급자 보상을 에폭당 1,150,685$ethDYDX에서 575,343$ethDYDX로 50% 감소시키기로 결정[했습니다. ](https://dydx.community/dashboard/proposal/14)에폭당 초과량 575,342$ethDYDX는 보상 금고에 누젹될 것이며, [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 dYdX 커뮤니티에서 이를 사용할 수 있습니다.
-
-[DIP 29에서](https://dydx.community/dashboard/proposal/16) dYdX 커뮤니티는 dYdX v3의 에폭 30-32에 해당하는 거래 보상과 LP 보상을 ⅓ 줄이기로 결정했으며 해당 값은 다음과 같습니다.
+* [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)에서 dYdX 커뮤니티는 거래 보상을 25% 낮추기로 [투표](https://dydx.community/dashboard/proposal/8)했습니다.
+*
+* [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md)에서 dYdX 커뮤니티는 [투표를 통해](https://dydx.community/dashboard/proposal/9) $ethDYDX 스테이킹 관련 보상을 0으로 설정하기로 결정했습니다. 이전에 $DYDX 스테이커에게 배포된 383,562$ethDYDX는 보상 금고에 축적되며 dYdX 커뮤니티는 [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 이를 사용할 수 있습니다.
+* [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)에서 dYdX 커뮤니티는 유동성 공급자 보상을 에폭당 1,150,685$ethDYDX에서 575,343$ethDYDX로 50% 감소시키기로 결정[했습니다. ](https://dydx.community/dashboard/proposal/14)에폭당 초과량 575,342$ethDYDX는 보상 금고에 누젹될 것이며, [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 dYdX 커뮤니티에서 이를 사용할 수 있습니다.
+* [DIP 29에서](https://dydx.community/dashboard/proposal/16) dYdX 커뮤니티는 dYdX v3의 에폭 30-32에 해당하는 거래 보상과 LP 보상을 ⅓ 줄이기로 결정했으며 해당 값은 다음과 같습니다.
 
 가. 2023년 11월 21일 15:00(에폭 30 시작)에 다음 값으로 보상을 감소시킵니다.
 
@@ -86,28 +92,30 @@ $ethDYDX 출시 이래로 초기 할당의 변화를 이끈 거버넌스 제안�
  ii.LP: 0
 ```
 
-### **새로운 $ethDYDX 토큰이 주조될 수도 있나요?**
+</details>
 
-출시 이후 5년 동안, 연간 `2%`의 최대 무기한 인플레이션율을 사용하여 $ethDYDX의 공급량을 늘리고, 이를 통해 커뮤니티는 dYdX v3에 지속적으로 기여하기 위한 리소스를 확보할 수 있습니다.
+<details>
 
-**2026년 7월 14일 오후 15:00:00(UTC)**부터 dYdX 거버넌스는 발행할 새로운 $ethDYDX 토큰의 최대 공급량을 결정할 수 있으며, 각 발행에 대한 인플레이션율은 연간 최대 `2%`입니다. 주어진 365일의 기간 동안 단 1회의 발행이 가능합니다. 새로 발행된 $ethDYDX는 거버넌스에 의해 할당되며 즉시 귀속됩니다. 이후 새로 발행된 토큰을 지정된 모든 주소로 전송할 수 있습니다.
+<summary>새로운 $ethDYDX 토큰이 주조될 수도 있나요?</summary>
 
-### **투자자, 기존 및 향후 임직원, 컨설턴트에게 발행된 $ethDYDX에 대한 락업은 무엇인가요?**
 
-초기 할당의 일부는 다음을 위해 예약되었습니다.
 
-* dYdX Trading Inc.의 과거 투자자(27.7%),
-* dYdX Trading Inc. 또는 dYdX Foundation의 설립자, 직원, 고문, 컨설턴트(15.3%),
-* dYdX Trading Inc. 또는 dYdX Foundation의 미래 직원 및 컨설턴트(7.0%).
+</details>
 
-2023년 1월 25일에 dYdX Foundation이 [발표한](https://dydx.foundation/blog/lock-up-extension) 바에 따르면, dYdX Trading Inc. 및 dYdX Foundation, 토큰 구매 증서에 연관된 특정 당사자들이 모여 투자자 $ethDYDX 토큰에 적용되는 초기 출시일을 2023년 12월 1일로 연장하자는 개정안(이하 "개정안") 및 기타 조항에 서명했습니다.
+<details>
 
-위에서 언급한 개정안은 초기 언락 날짜 이후 발생한 시차 언락을 변경하지 않습니다. 따라서 개정안에 의거하여 관련된 토큰은 다음과 같이 양도 제한이 해제됩니다.
+<summary>투자자, 기존 및 향후 임직원, 컨설턴트에게 발행된 $ethDYDX에 대한 락업은 무엇인가요?</summary>
 
-* (i) 2023년 12월 1일에 30% 해제(새로운 초기 언락 날짜).
-* (ii) 2024년 1월 1일부터 2024년 6월 1일까지 매달 첫날에 동일한 금액의 월 할부액으로 40% 해제.
-* (iii) 2024년 7월 1일부터 2025년 6월 1일까지 매달 첫날에 동일한 금액의 월 할부액으로 20% 해제.
-* (iv) 2025년 7월 1일부터 2026년 6월 1일까지 매달 첫날에 동일한 금액의 월 할부액으로 10% 해제.
+
+
+
+
+
+
+*
+*
+*
+*
 
 **위의 모든 날짜는 UTC 시간대를 참조하도록 해석됩니다.**
 
@@ -121,11 +129,4 @@ $ethDYDX의 락업에 관계없이, dYdX Trading Inc. 또는 dYdX Foundation 출
 
 dYdX Foundation은 이러한 요구 사항을 준수하지 않는 투자자에 대해 법적 조치를 취할 것임을 표명했습니다.
 
-## $ethDYDX의 유동성 공급 곡선은 무엇인가요?
-
-2021년 9월 8일, 토큰에 대한 초기 전송 제한이 해제되었습니다.
-
-다음 차트에서는 인플레이션이 적용되지 않은 총 유동성 공급을 확인할 수 있습니다.
-
-<figure><img src="../.gitbook/assets/Liquid Supply Total.png" alt=""><figcaption></figcaption></figure>
-
+</details>
