@@ -2,7 +2,7 @@
 description: Visão geral dos parâmetros de governança.
 ---
 
-# Parâmetros
+#
 
  Os detentores de tokens de governança têm controle imediato e irrevogável sobre:
 

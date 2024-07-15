@@ -3,7 +3,7 @@ description: >-
   Uma visão geral do processo de criação de DRC da governança, criação de pesquisas do snapshot, criação de DIPs, votação em uma pesquisa do snapshot, votação em uma DIP, enfileiramento de uma DIP e sua execução.
 ---
 
-# Guia de governança
+#
 
 A dYdX Foundation criou este guia para ajudar a comunidade a entender o processo de governança da dYdX. O guia fornece uma visão geral passo a passo de:
 

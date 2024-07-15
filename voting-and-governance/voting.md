@@ -2,7 +2,7 @@
 description: Uma visão geral do processo de votação.
 ---
 
-# Processo de votação
+#
 
 A dYdX v3 é governada e atualizada pelos detentores e delegados de Tokens de Governança.
 

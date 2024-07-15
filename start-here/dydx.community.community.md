@@ -2,7 +2,7 @@
 description: Página inicial para governança, recompensas e staking na dydx.community
 ---
 
-# Interface
+#
 
 A interface para governança, recompensas e staking se encontra em [**dydx.community**](https://dydx.community).
 
@@ -24,7 +24,13 @@ Atualmente, o Módulo de Liquidez e o Módulo de Segurança estão inativos. Os 
 
 ### Recompensas de trades
 
-Os usuários podem ver suas recompensas obtidas anteriormente por meio de atividades de trading na exchange de camada 2.
+
+
+* Epoch 30: 383.562 $ethDYDX
+* Epoch 31: 191.781 $ethDYDX
+* Epoch 32: 0 $ethDYDX
+
+
 
 ![Faça trades para receber recompensas](../.gitbook/assets/4.5-trade-to-rewards.png)
 

@@ -2,7 +2,7 @@
 description: Uma visão geral do sistema de epochs
 ---
 
-# Epochs
+#
 
 Todas as recompensas e contratos de staking operam em ciclos de `28 dias`, referidos como **epochs**. Uma nova epoch começa automaticamente quando a epoch atual termina.
 
@@ -90,7 +90,11 @@ O seguinte acontecerá apenas ao final de **Epoch 0**:
 
 A dYdX Foundation criou um arquivo público no Google Agenda com datas de início / final para Epochs e Janelas de Bloqueio. Inscreva-se [**aqui**](https://calendar.google.com/calendar/u/3?cid=Y19wZjIwYzBoZzQ3dTR2cHRja283NDl1ajQyb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
 
-## **Quando as recompensas e pools de staking serão ativadas?**
+## Perguntas e respostas
+
+<details>
+
+<summary>Quando as recompensas e pools de staking serão ativadas?</summary>
 
 * As [recompensas de mineração retroativas](../rewards/retroactive-mining-rewards.md) foram distribuídas na dYdX v3. Essas recompensas foram realizadas até **31 de agosto de 2021, às 15:00:00 UTC**.
 * As [Recompensas de trading](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md) foram definidas como 0 na [Epoch 32](https://dydx.community/dashboard/proposal/16). Essas recompensas foram rodadas de **3 de agosto de 2021, 15:00:00 UTC** até **16 de janeiro de 2024**, 15:00:00 UTC
@@ -98,25 +102,41 @@ A dYdX Foundation criou um arquivo público no Google Agenda com datas de iníci
 * As [Recompensas de pool de staking de liquidez](../staking-pools/liquidity-staking-pool.md) foram definidas como 0 em 29 de setembro de 2022 na [DIP 14](https://dydx.community/dashboard/proposal/7).
 * As [Recompensas de pool de staking](../staking-pools/safety-staking-pool.md) de segurança foram definidas como 0 em 28 de novembro de 2022 na [DIP 17](https://dydx.community/dashboard/proposal/9).
 
-## A governança da dYdX pode modificar o cronograma de epoch?
+</details>
 
-A duração inicial da epoch é de `28 dias`. A governança da dYdX v3 pode votar para modificar as durações de epoch, nos limites especificados. Os comprimentos mínimo e máximo de epoch são de `6 dias` e `92 dias`, respectivamente.
+<details>
 
-## O que é a janela de bloqueio?
+<summary>A governança da dYdX pode modificar o cronograma de epoch?</summary>
+
+O comprimento inicial da epoch é `de 28 dias`. A governança da dYdX v3 pode votar para modificar os comprimentos de epoch, nos limites especificados. Os comprimentos mínimo e máximo de epoch são de `6 dias` e `92 dias`, respectivamente.
+
+</details>
+
+<details>
+
+<summary>O que é a janela de bloqueio?</summary>
 
 Relacionada à [pool de staking de liquidez](../staking-pools/liquidity-staking-pool.md) e [pool de staking de segurança](../staking-pools/safety-staking-pool.md), há um cronograma de epoch a ser aplicado no que diz respeito a saques, de modo a fornecer previsibilidade e uma cadência regular de disponibilidade de fundos no pool. Um staker deve solicitar a remoção de fundos em stake antes da janela de bloqueio para poder sacar seus fundos após o final da epoch. Se um staker não solicitar o saque, seus fundos em staking serão mantidos para a próxima epoch.
 
 No [DIP 17](https://dydx.community/dashboard/proposal/9)[](https://dydx.community/dashboard/proposal/7), a comunidade dYdX `votou` pela redução do tempo da janela de bloqueio de `14` para 3 dias. A governança da dYdX pode votar para modificar a janela de bloqueio dentro dos limites especificados. As janelas de bloqueio mínima e máxima são de `3``` e 46 dias, respectivamente.
 
-## Quando posso sacar e transferir as recompensas $ethDYDX que recebi?
+</details>
+
+<details>
+
+<summary>Quando posso sacar e transferir as recompensas $ethDYDX que recebi?</summary>
 
 Uma vez que os tokens tenham sido resgatados, eles poderão ser transferidos ou delegados para a governança da dYdX.
 
-## Qual é o propósito do período de espera? Como recompensas são armazenadas ao final de cada epoch?
+</details>
+
+<details>
+
+<summary>Qual é o propósito do período de espera? Como recompensas são armazenadas ao final de cada epoch?</summary>
 
 [As Recompensas retroativas de mineração](../rewards/retroactive-mining-rewards.md), as [Recompensas de trading](../rewards/trading-rewards.md) e as [Recompensas de provedor de liquidez](../rewards/liquidity-provider-rewards.md) foram armazenadas em uma árvore Merkle, que contém as recompensas cumulativas obtidas por cada usuário desde o início do programa de distribuição.
 
-Ao final de cada epoch, a raiz de Merkle é atualizada por meio do sistema oracle ChainLink no contrato inteligente `MerkleDistributorV1` a fim de refletir recompensas obtidas na última epoch. Uma atualização é realizada definindo a raiz Merkle proposta para o valor mais recente retornado pelo contrato oracle. A raiz Merkle proposta pode ser ativada após um **período de espera** de `7 dias` ter expirado. Durante o período de espera, a governança da dYdX pode congelar a raiz Merkle, caso a raiz proposta se mostre incorreta ou maliciosa. Se a raiz da Merkle não estiver congelada, a nova raiz Merkle será ativada e os usuários poderão resgatar suas recompensas a partir da epoch anterior.
+
 
 Cada vez que a epoch se altera, o seguinte ocorre nessa ordem:
 
@@ -131,3 +151,6 @@ Cada vez que a epoch se altera, o seguinte ocorre nessa ordem:
 * Um período de espera ocorre durante o qual a governança pode chamar `MerkleDistributorV1.pauseRootUpdates()` para evitar que a raiz Merkle proposta entre em vigor.
 * Após o período de espera, um signatário da oracle (ou um terceiro) chama a função pública `MerkleDistributorV1.updateRoot()` fazendo com que a raiz Merkle fique ativa.
 * Uma vez que a nova raiz Merkle esteja ativa, os usuários poderão resgatar recompensas a partir da última epoch.
+
+</details>
+
