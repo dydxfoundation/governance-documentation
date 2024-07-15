@@ -1,59 +1,61 @@
 ---
-description: Likidite Staking Havuzuna genel bir bakış
+description: Обзор пула стейкинга ликвидности
 ---
 
 #
 
-Başlangıçta, token arzının `%2,50'i` (`25.000.000 $ethDYDX`), Likidite Staking Havuzu'na $USDC stake eden kullanıcılara dağıtılmak üzere tahsis edilmişti. Likidite Staking Havuzu 29 Eylül 2022 itibarıyla artık aktif değildir. Topluluğun onayladığı likidite sağlayıcılar, bu stake edilen $USDC'yi dYdX v3'te piyasaları yapmak ve piyasalarda mevcut likiditeyi daha da büyütmek için kullanmıştır. Likidite sağlayıcılarının, ödünç alınan varlıkları dYdX v3 dışında kullanmaları kısıtlanmıştır.
+Первоначально `2,50%` токенов (`25 000 000 $ethDYDX`) было выделено для распределения между пользователями, размещающими $USDC в пуле стейкинга ликвидности. Работа пула стейкинга ликвидности прекращена с 29 сентября 2022 года. В рамках [ППУ 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/7) за фактическое закрытие пула стейкинга ликвидности и пула займов, сделав количество наград пула стейкинга ликвидности, распределяемых в секунду, равным 0.\
+\
+Ранее пользователи, размещающие $USDC в пуле стейкинга ликвидности, получали за это токены $ethDYDX. Поставщики ликвидности, утвержденные сообществом, использовали размещенные в стейке $USDC для торговли в рамках протокола dYdX v3, что способствовало повышению ликвидности на рынках. Поставщикам ликвидности было запрещено использовать заемные средства за пределами dYdX v3.
 
-## **Staking**'e Genel Bakış
+## Обзор **стейкинга**
 
-Şu anda, Likidite Staking Havuzu'nda stake edilen $USDC ödül kazandırmamaktadır.
+В настоящее время награды за $USDC, размещенные в пуле стейкинга ликвидности, не присуждаются.
 
 
 
-## USDC'yi Staking'den Çıkarma ve Çekme İşlemleri
+## Вывод USDC из стейка и вывод средств
 
-Stake eden bir kişi, ilgili [dönem](../start-here/epochs.md) sona erdikten sonra $USDC çekebilmek için dönem sona ermeden en az `****3 gün` (**Karartma Süresi**) önce $USDC çekme talebinde bulunmalıdır. Stake edenler fon çekme talebinde bulunmazsa stake ettikleri $DYDX bir sonraki döneme devredilir.
+Чтобы вывести $USDC после завершения [эпохи](../start-here/epochs.md), стейкер должен направить соответствующий запрос не позднее чем за `****3 дня` (**период недоступности вывода средств из стейка**) до окончания соответствующей эпохи. В противном случае размещенные в стейке $USDC будут переноситься на следующую эпоху.
 
-**Karartma Süresi** boyunca fon çekme talebinde bulunulamaz.
+Вывод средств в течение **периода недоступности вывода средств из стейка** не предусмотрен.
 
-[DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)'te, dYdX topluluğu Karartma Süresinin `14 günden` `3 güne` düşürülmesi yönünde [oy kullandı](https://dydx.community/dashboard/proposal/7).
+В рамках [ППУ 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/7) за сокращение продолжительности периода недоступности вывода средств из стейка с `14` до `3 дней`.
 
-## stkUSDC nedir?
+## Что такое stkUSDC?
 
-$USDC'nin bir stake edenin cüzdanını terk ettiği aynı işlemde, stake edenin cüzdanına $stkUSDC girer ve staking'den çıkarma işleminde de bunun tam tersi gerçekleşir.
+Владельцы $USDC, размещающие их в пуле стейкинга ликвидности, будут получать токенизированную позицию ($**stkUSDC**). $stkUSDC создается, когда пользователь размещает $USDC в стейке, и ликвидируется, когда пользователь вызывает функцию `withdrawStake`. $stkUSDC поступает на кошелек стейкера при выводе $USDC из кошелька и удаляется при выводе из стейка. Все это происходит в рамках одной операции.
 
-Bir $stkUSDC bakiyesi aktif olabilir veya olmayabilir. Aktif $stkUSDC'ler bir ERC-20 olarak transfer edilebilir ancak çekilemez. Aktif olmayan $stkUSDC'ler ise çekilebilir ancak transfer edilemez. Örneğin, bir kullanıcının cüzdanında 100 aktif ve 100 aktif olmayan $stkUSDC olabilir; bu durumda kullanıcının bakiyesi 200 $stkUSDC görünecektir ancak kullanıcı 100 $stkUSDC'den fazlasını transfer etmeye çalışırsa transfer işlemi geri dönecektir.
+Баланс $stkUSDC может быть активным или неактивным. Активные $stkUSDC можно переводить в виде ERC-20, но невозможно вывести. Неактивные $stkUSDC можно выводить, но невозможно переводить. Например, пользователь может иметь в своем кошельке 100 активных и 100 неактивных $stkUSDC, и на балансе пользователя будет отображено 200 $stkUSDC, однако, если пользователь попытается перевести более 100 $stkUSDC, эта операция будет отменена.
 
-Stake edenin dönem sona ermeden önce çekme talebinde bulunduğu bir stake edilen bakiye, aktif değil addedilir ve dolayısıyla da transfer edilemez.
+Средства в стейке, для которых стейкер запросил вывод до окончания эпохи, будут считаться неактивными, а следовательно, не подлежащими переводу.
 
-## SSS
+## Часто задаваемые вопросы
 
 <details>
 
-<summary>Karartma Süresi nedir?</summary>
+<summary>Что такое период недоступности вывода средств из стейка?</summary>
 
-Karartma süresi kullanıcıların stake edilen fonlarını çekmeyi talep edemediği bir zaman dilimidir. `requestWithdrawal` fonksiyonu, bir dönemin son `3 günü` olarak yapılandırılan bir karartma süresi içinde çağrılamaz. Yeni dönemler 28 günde bir başlar. Diğer bir deyişle, kullanıcılar bir sonraki dönemde fon çekmeyi cari dönemin sona ermesinden `3 gün` öncesine kadar talep edebilirler.
+Период недоступности вывода средств из стейка — это период времени, в течение которого пользователи не могут запрашивать вывод размещенных в стейке $USDC. Функция `requestWithdrawal` не может использоваться в течение этого периода, продолжительность которого изначально установлена на последние `3 дня` эпохи. Новые эпохи начинаются каждые 28 дней. Другими словами, период, когда пользователи могут запросить вывод средств для следующей эпохи, составляет до `3 дня` до окончания определенной эпохи.
 
 </details>
 
 <details>
 
-<summary>Stake havuzundan nasıl $USDC çekebilirim? Ne kadar sürer?</summary>
+<summary>Как вывести $USDC из пула стейкинга? Сколько времени занимает этот процесс?</summary>
 
-Stake eden biri, bir dönemin bitişinden sonra $USDC çekebilmek için o dönemin sona ermesinden en az `3 gün` önce $USDC bakiyesini stake'ten çıkarmalıdır. Stake edenler fon çekme talebinde bulunmazsa stake ettikleri $DYDX bir sonraki döneme devredilir.
+Чтобы вывести $USDC по окончании эпохи, стейкер должен направить запрос об этом не менее чем за `3 дня` до окончания эпохи. В противном случае размещенные в стейке $USDC будут переноситься на следующую эпоху.
 
-$USDC çekebilmek için, kullanıcılar bir sonraki dönem için $USDC çekme talebinde bulunmak amacıyla `requestWithdrawal` fonksiyonunu çağırır. Kullanıcı fonları stake edilmeye devam edecektir ve mevcut dönem boyunca çekilemez. Bir sonraki dönemden başlayarak, fonlar "aktif değil" olacak ve çekilebilecektir.
+Для вывода $USDC пользователи вызывают функцию `requestWithdrawal`, отправляющую запрос на вывод $USDC в следующую эпоху. В текущей эпохе средства пользователей будут оставаться в стейке и не подлежат выводу. Начиная со следующей эпохи средства станут неактивными и доступными для вывода.
 
-Bir sonraki dönemde, kullanıcılar belirli bir adrese aktif olmayan $USDC çekmek için `withdrawStake` fonksiyonunu çağırır. Kullanıcılar çekmek istedikleri aktif olmayan fon miktarını seçebilir veya aktif olmayan tüm fonlarını çekmek için \`withdrawMaxStake\` fonksiyonunu çağırabilir. `withdrawMaxStake` fonksiyonunu çağırmak, eth\_call aracılığıyla maksimum değeri sorgulayıp `withdrawStake()` fonksiyonunu çağırmaktan daha fazla gas ücreti ödemenize neden olur.
+Для вывода неактивных средств на конкретный адрес в следующую эпоху пользователи вызывают функцию `withdrawStake`. Для вывода всех неактивных средств пользователи могут выбрать то количество, которое они желают вывести, или вызвать функцию \`withdrawMaxStake\`. При использовании функции `withdrawMaxStake` размер комиссии за газ будет выше, чем при запросе максимальной величины с помощью eth\_call и вызове функции `withdrawStake()`.
 
-Likidite Havuzu'na $USDC unstake etmek için aşağıdaki adımları izleyin:
+Чтобы вывести $USDC из пула стейкинга ликвидности, выполните следующие действия:
 
-* [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity) adresine gidin\*\*\*\*
+* Перейдите по ссылке [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*
 *
-* Havuzdan çekme talebinde bulunmak istediğiniz $USDC miktarını girin ve "**Çekme talebinde bulun**" seçeneğine tıklayın. $USDC'leri staking'den çıkarmak için gaz ücretleri ödemeniz gerekecektir.
-* Cari dönemin sona ermesinden en az `3 gün` (**Karartma Süresi**) önce $USDC'nin stake'inin kaldırılmasını talep eden kullanıcılar, $USDC'lerini bir sonraki dönemin başında çekebilirler.
+* Введите необходимое количество $USDC для вывода из пула и нажмите «**Запросить вывод**». Чтобы вывести $USDC из стейка, вам потребуется уплатить комиссию за газ.
+* Стейкеры, которые запрашивают вывод $USDC из стейка не позднее чем за `3 дня` (**период недоступности вывода средств из стейка**) до окончания текущей эпохи, могут вывести $USDC в начале следующей эпохи.
 
 </details>
 
@@ -63,11 +65,11 @@ Likidite Havuzu'na $USDC unstake etmek için aşağıdaki adımları izleyin:
 
 
 
-* Likidite Staking Havuzuna $USDC stake edilmesi karşılığında saniye başına ödüller
-* Staking Likidite Havuzuna yeni borç alanları eklemek ve/veya mevcut borç alanları havuzdan çıkarmak
-* Onaylanmış borç alanlara tahsis edilen borç $USDC miktarını değiştirmek
-  * Belirli borç alanların tahsislerini değiştirmek için `setBorrowerAllocations` ve `setBorrowingRestriction` fonksiyonları çağrılır. Bu fonksiyonlar borç alanlar eklemek ve borç alanları kaldırmak için kullanılabilir. Artışlar bir sonraki dönemde yürürlüğe girer ancak düşüşler borç almayı hemen kısıtlar. Bu fonksiyonlar karartma süresi boyunca çağrılamaz.
-* Dönem uzunluğu ve karartma süresi sözleşme oluşturulduğunda belirlenir ama daha sonra değiştirilebilir
+* Количество наград, распределяемое в секунду, за размещение $USDC в пуле стейкинга ликвидности
+* Добавление новых заемщиков и/или удаление существующих заемщиков из пула стейкинга ликвидности
+* Изменение распределения заемных $USDC между утвержденными заемщиками
+  * Для изменения объемов распределяемых средств между конкретными заемщиками вызываю`тся функции setBorrowe`rAl`locations и setBorrowin`gRestriction. С их помощью можно добавлять или удалять заемщиков. Изменения, увеличивающие объем, вступят в силу в следующую эпоху, а те, что уменьшают его, незамедлительно повлияют на ограничение выдачи заемных средств. Эти функции невозможно вызвать в течение периода недоступности вывода средств из стейка.
+* Продолжительность эпохи и периода недоступности вывода средств из стейка устанавливается непосредственно после составления контракта, но ее можно изменить
 
 </details>
 
