@@ -1,61 +1,59 @@
 ---
-description: Un aperçu du pool de staking de liquidité
+description: 流動性ステーキングプールの概要
 ---
 
 #
 
-Au départ, `2,50 %` de l'approvisionnement en jetons (soit `25 000 000 $ethDYDX`) ont été distribués aux utilisateurs qui stakent des $USDC dans le pool de staking de liquidité. Le pool de staking de liquidité n'est plus actif à compter du 29 septembre 2022. Dans [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/7) en faveur d'une réduction efficace du pool de staking de liquidité et du pool d'emprunt en fixant à 0 les récompenses du pool de staking de liquidité par seconde.\
-\
- Auparavant, la distribution de $ethDYDX été réservée aux utilisateurs ayant cumulé des USDC dans le pool de staking de liquidité. Les fournisseurs de liquidité approuvés par la communauté utilisaient les $USDC stakés pour créer des marchés sur la couche dYdX V3, optimisant ainsi la liquidité disponible sur les marchés. Les fournisseurs de liquidité avaient l'interdiction d'utiliser des fonds empruntés en dehors de dYdX v3.
+当初、流動性ステーキングプールに$USDCをステーキングするユーザーに配布するために、トークン供給の`2.50％`（`25,000,000$ethDYDX`）が割り当てられました。 流動性ステーキングプールは、2022年9月29日の時点でアクティブではありません。[DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)では、dYdXコミュニティは、流動性ステーキングプール報酬を1秒あたり0.\に設定することで、流動性ステーキングプールと借入プールを効果的に縮小することに[合意](https://dydx.community/dashboard/proposal/7)しました。\これまでは、流動性ステーキングプールに$USDCをステーキングしたユーザーに対して$ethDYDXが提供されていました。コミュニティに承認された流動性プロバイダーは、ステーキングされた$USDCを利用してdYdX v3で「マーケット」を作り、そうしたマーケット全体で流動性が利用しやすくなっていました。流動性プロバイダーは、dYdX v3以外で借り入れた資金の使用が制限されていました。
 
-## Aperçu du **staking**
+## **ステーキング**概要
 
-Aujourd'hui, l'$USDC cumulé dans le pool de mise en réserve de liquidité ne gagne aucune récompense.
+現在、流動性ステーキングプールでステーキングされた$USDCへの報酬は提供されていません。
 
 
 
-## Désengagement et retraits des USDC
+## USDCのステーキング解除および出金
 
-Un staker doit présenter sa demande de retrait en $USDC au moins `3 jours` (**fenêtre de blocage**) avant la fin d'une [**Epoch**](../start-here/epochs.md), afin de pouvoir retirer ses $USDC après la fin de l'Epoch en question. Les stakers qui ne présentent pas leur demande de retrait verront les $USDC être reportés à l'Epoch suivante.
+エポックの終了後にステーカーが$USDCを出金できるようにするには、ステーカーは[エポック](../start-here/epochs.md)終了の遅くとも`****3日`（**ブラックアウトウィンドウ**）前までに出金をリクエストする必要があります。ステーカーが出金をリクエストしない場合、ステーキングされた$USDCは次のエポックにロールオーバーされます。
 
-Les retraits ne peuvent être demandés pendant la **fenêtre de blocage**.
+**ブラックアウトウィンドウ**の間は、出金をリクエストすることができません。
 
-Dans [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/7) pour réduire la durée de la fenêtre de blocage en passant de `14` à `3 jours`.
+[DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)において、dYdXコミュニティはブラックアウトウィンドウの期間を`14日`から`3日に`短縮することに[合意しました](https://dydx.community/dashboard/proposal/7)。
 
-## Qu'est-ce que stkUSDC ?
+## stkUSDCとは何ですか？
 
-Les détenteurs d'$USDC qui déposent et cumulent leurs $USDC dans le pool de staking de liquidité recevront une position tokenisée ($**stkUSDC**). $stkUSDC est créé lorsqu'un utilisateur met en réserve des USDC et est brûlé lorsqu'un utilisateur appelle la fonction `withdrawStake`. Dans la même transaction, alors que $USDC quitte le portefeuille d'un staker, $stkUSDC entre dans le portefeuille du staker ; ou vice-versa lors d'un désengagement.
+$USDCを流動性ステーキングプールに入金およびステーキングするUSDC保有者は、トークン化されたポジション（$**stkUSDC**）を受け取ります。ユーザーがUSDCをステーキングすると$stkUSDCが発行され、ユーザーが`withdrawStake`を要求すると$stkUSDCが消費されます。同一のトランザクション内で、$USDCがステーカーのウォレットから出ていき、$stkUSDCがウォレットに入ってきます。ステーキングを解除すると、出入りが逆になります。
 
-Un solde en $stkUSDC peut être actif ou inactif. Un $stkUSDC actif peut être transféré en tant qu'ERC-20, mais ne peut pas être retiré. Un $stkUSDC inactif peut être retiré, mais ne peut pas être transféré. Par exemple, disons qu'un utilisateur dispose de 100 $stkUSDC actifs et de 100 $stkUSDC inactifs dans son portefeuille. Le solde de l'utilisateur affichera 200 $stkUSDC. Cependant, si l'utilisateur essayes de transférer plus de 100 $stkUSD, le transfert sera annulé.
+$stkUSDCの残高は、アクティブまたは非アクティブにすることができます。アクティブな$stkUSDCは、ERC-20として移動はできますが、出金はできません。非アクティブな$stkUSDCは、出金はできますが、移動はできません。たとえば、ユーザーがウォレットにアクティブおよび非アクティブな$stkUSDCをそれぞれ100個ずつ有している場合、ユーザー残高は200$stkUSDCと表示されますが、ユーザーが100個以上の$stkUSDCを移動しようとすると、移動は取り消されてしまいます。
 
-Un solde staké pour lequel le staker a demandé un retrait avant la fin de l'epoch serait considéré comme inactif, et donc non transférable.
+ステーキングされた残高に対してステーカーがエポック終了前に出金をリクエストした場合、非アクティブとみなされて移転できません。
 
 ## FAQ
 
 <details>
 
-<summary>Qu'est-ce qu'une fenêtre de blocage ?</summary>
+<summary>ブラックアウト・ウィンドウとは何ですか？</summary>
 
-Une fenêtre de blocage correspond au laps de temps pendant lequel les utilisateurs ne peuvent pas solliciter de retraits de $USDC. La fonction `requestWithdrawal` ne peut pas être appelée pendant une fenêtre de blocage, qui est configurée comme les `3 derniers jours` d'une epoch. Les nouvelles epochs commencent tous les 28 jours. En d'autres termes, les utilisateurs peuvent demander un retrait pour l'epoch suivante jusqu'à `3 jours` avant la fin d'une epoch donnée.
+ブラックアウト・ウィンドウとは、ユーザーが、ステーキングされた$USDCの出金をリクエストすることができない期間です。ブラックアウトウィンドウの期間中、`requestWithdrawal`関数を呼び出すことはできません。この期間は、エポックの最後の`3日間`として初期設定されているものです。新しいエポックは、28日ごとに開始されます。つまり、ユーザーは所定のエポック終了の`3日`前までであれば次のエポックの出金をリクエストすることができます。
 
 </details>
 
 <details>
 
-<summary>Comment puis-je retirer des $USDC du pool de mise en réserve ? Combien de temps cela prend-il ?</summary>
+<summary>ステーキングプールから$USDCを出金するにはどうすればよいですか？どのくらいかかりますか？</summary>
 
-Un staker doit présenter sa demande de retrait de $USDC au moins `3 jours` avant la fin d'une Epoch afin de pouvoir retirer ses $USDC après la fin de l'Epoch en question. Les stakers qui ne présentent pas leur demande de retrait verront les $USDC être reportés à l'Epoch suivante.
+エポック終了後に$USDCを引き出すためには、エポック終了の`3日`前までに$USDCのステーキングの解除を申請する必要があります。ステーカーが出金をリクエストしない場合、ステーキングされた$USDCは次のエポックにロールオーバーされます。
 
-Pour retirer de l'$USDC, les utilisateurs doivent appeler la fonction`requestWithdrawal`pour soumettre une demande de retrait de $USDC pour la prochaine Epoch. Les fonds des utilisateurs resteront stakés et non retirables pour l'époch actuelle. À partir de la prochaine époch, les fonds seront « inactifs » et disponibles pour retrait.
+$USDCを出金するには、ユーザーは次のエポックに対する`requestWithdrawal`関数を呼び出します。現在のエポックでは、ユーザーの資金はステーキングされたままとなり、出金できません。次のエポックから資金は「非アクティブ」となり、出金が可能になります。
 
-À l'Epoch suivante, les utilisateurs doivent appeler la fonction `withdrawStake` pour retirer des $USDC inactifs et les transférer vers une adresse spécifique. Les utilisateurs peuvent sélectionner le montant des fonds inactifs qu'ils souhaitent retirer ou appeler la fonction \`withdrawMaxStake\` pour retirer tous les fonds inactifs. La fonction `withdrawMaxStake` est moins économe en gaz que d'interroger le max via eth\_call et d'appeler `withdrawStake()`.
+次のエポックでは、ユーザーは`withdrawStake`関数を呼び出して出金するので、アクティブな$USDCを特定のアドレスに引き出すことができます。ユーザーは、出金する非アクティブな資金の額を指定するか、\`withdrawMaxStake\`関数を呼び出して、非アクティブな資金をすべて出金することができます。eth\_callで最大値を検索して`withdrawStake()`を呼び出すよりも、`withdrawMaxStake`関数の方がガス効率が低くなります。
 
-Pour débloquer des $USDC du pool de liquidité, suivez les étapes suivantes :
+流動性プールへの$USDCのステーキングを解除するには、以下の手順に従います。
 
-* Allez sur [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*
+* [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*にアクセスします
 *
-* Entrez le montant de $USDC que vous souhaitez retirer du pool, puis cliquez sur « **Demander un retrait** ». Vous devrez payer des frais de gaz pour annuler le staking de $USDC.
-* Les stakers qui demandent à annuler le staking de $USDC à moins de `3 jours` (**fenêtre de blocage**) avant la fin de l'epoch en cours peuvent retirer leur $USDC au début de l'epoch suivante.
+* プールからの出金リクエストをする$USDC額を入力し、「**出金リクエスト**」をクリックします。$USDCのステーキングを解除するには、Gas（ガス）手数料を支払う必要があります。
+* ステーカーは、現在のエポックが終了する遅くとも`3日`（**ブラックアウトウィンドウ**）前までに$USDCのステーキングを解除すると、次のエポックから$USDCを出金することが可能になります。
 
 </details>
 
@@ -65,11 +63,11 @@ Pour débloquer des $USDC du pool de liquidité, suivez les étapes suivantes :
 
 
 
-* Des récompenses par seconde pour le staking de $USDC dans le pool de staking de liquidité
-* Ajouter de nouveaux emprunteurs et/ou supprimer des emprunteurs existants du pool de staking de liquidité
-* Modification des allocations $USDC empruntés aux emprunteurs approuvés
-  * Les fonctions `setBorrowerAllocations` et `setBorrowingRestriction` sont appelées à modifier les allocations de certains emprunteurs. Elles peuvent être utilisées pour ajouter et supprimer des emprunteurs. Les augmentations prennent effet à l'époch suivante, mais les diminutions restreignent immédiatement les emprunts. Ces fonctions ne peuvent pas être appelées pendant la fenêtre de blocage.
-* La durée de l'epoch et la fenêtre de blocage sont définies lors de la création du contrat, mais peuvent être modifiées
+* 流動性ステーキングプールに$USDCをステーキングする際の報酬（秒単位）
+* ステーキング流動性プールにおける借入者の追加および/または削除
+* 承認された借り手に対する借入$USDCの割り当て変更
+  * 特定の借入者の割り当てを変更する場合、`setBorrowerAllocations`および`setBorrowingRestriction`関数が呼び出されます。これらの関数を使用して借入者を追加および削除することができます。追加は次のエポックから適用されますが、削除による借入制限はただちに適用されることになります。ブラックアウトウィンドウの間は、これらの関数を呼び出すことはできません。
+* エポックの期間やブラックアウトウィンドウは、コントラクトの作成時に設定されるものですが、変更になる場合もあります
 
 </details>
 
