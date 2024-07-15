@@ -2,7 +2,7 @@
 description: Aperçu du cycle de vie de la proposition d'amélioration dYdX (DIP).
 ---
 
-# Cycle de vie de la proposition
+#
 
 ## **Étapes de la proposition**
 
