@@ -2,7 +2,7 @@
 description: dydx.community是治理、奖励和质押的平台
 ---
 
-# 界面
+#
 
 治理、奖励和质押的界面已于[**dydx.community**](https://dydx.community)上线。
 
@@ -24,7 +24,13 @@ $ethDYDX 和 $wethDYDX 的持有人被授予两种治理权：提议权和投票
 
 ### 交易奖励
 
-用户可以查看先前通过在 Layer 2 交易所上的交易活动赚取的奖励。
+
+
+* 时段 30：383,562 $ethDYDX
+* 时段 31：191,781 $ethDYDX
+* 时段 32：0 $ethDYDX
+
+
 
 ![交易以获得奖励](../.gitbook/assets/4.5-trade-to-rewards.png)
 
