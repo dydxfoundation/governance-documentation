@@ -2,7 +2,7 @@
 description: Uma visão geral do tesouro da comunidade.
 ---
 
-# Tesouro da Comunidade
+#
 
 **`26,1%`** (`261.133.225 $ethDYDX`) do fornecimento de tokens é alocado para o tesouro da comunidade dYdX, para ser usado continuamente em recompensas para contribuidores, iniciativas da comunidade, mineração de liquidez e outros programas. Inicialmente, `5,0%` do suprimento de tokens (`50.000.000 $ethDYDX`) foram [alocados](https://docs.dydx.community/dydx-governance/start-here/dydx-allocations) ao tesouro da comunidade e 766.703 $ethDYDX foram investidos no tesouro da comunidade a cada epoch. Atualmente, 3.787.251 $ethDYDX foram coletados no tesouro da comunidade, porque várias propostas de governança resultaram em um aumento de 3.020.548 $ethDYDX no valor de $ethDYDX disponível para a comunidade dYdX a cada epoch:
 
@@ -37,15 +37,15 @@ Se, após cinco anos, a governança decidir promover uma inflação perpétua (n
 
 ## Perguntas e respostas
 
-### Como $ethDYDX é investido no Tesouro da Comunidade?
+<details>
+
+<summary>Como $ethDYDX é investido no Tesouro da Comunidade?</summary>
 
 Anteriormente, o Investidor de Tesouro da Comunidade (veja detalhes [aqui](https://docs.dydx.community/dydx-governance/resources/technical-overview#governance-architecture-overview)) investiu [`0,3169242627`](tel:03169242627) $ethDYDX no Tesouro da Comunidade a cada segundo. Após o $ethDYDX ter sido investido, chamar a função `resgate` no Investidor do Tesouro da Comunidade transferirá o $ethDYDX investido para o Tesouro da Comunidade. Qualquer membro da comunidade dYdX pode chamar a função `resgate` na Etherscan [aqui](https://etherscan.io/address/0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8#writeContract) (o que exigiria algum ETH para cobrir as taxas de gás) e mover o $ethDYDX investido do Investidor do Tesouro da Comunidade para o Tesouro da Comunidade.
 
 Consulte os [Termos de uso](https://dydx.foundation/terms) da dYdX Foundation para obter mais detalhes sobre o controle do tesouro da comunidade pela comunidade dYdX.
 
-<figure><img src="../.gitbook/assets/claim-function-CT-vester.png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/image.png)
 
-###
-
-###
+</details>
 
