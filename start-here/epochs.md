@@ -2,7 +2,7 @@
 description: 에폭 시스템 개요
 ---
 
-# 에폭
+#
 
 모든 보상 및 스테이킹 계약은 `28일`을 주기로 하며 이 주기를 **에폭**이라고 부릅니다. 현재 에폭이 종료되면 새로운 에폭이 자동으로 시작됩니다.
 
@@ -213,7 +213,11 @@ description: 에폭 시스템 개요
 
 dYdX Foundation은 에폭의 시작 및 종료일과 블랙아웃 기간을 확인할 수 있는 공개 Google 캘린더를 제작하였습니다. 구독은 [**여기**](https://calendar.google.com/calendar/u/3?cid=Y19wZjIwYzBoZzQ3dTR2cHRja283NDl1ajQyb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)를 참조하세요.
 
-## **보상 및 스테이킹 풀은 언제 활성화됩니까?**
+## 자주 묻는 질문
+
+<details>
+
+<summary>보상 및 스테이킹 풀은 언제 활성화됩니까?</summary>
 
 * [소급 채굴 보상](../rewards/retroactive-mining-rewards.md)은 dYdX v3에 배분되었습니다. 이 보상은 **2021년 8월 31일 15:00:00(UTC)**까지 지속되었습니다.
 * [거래 보상](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md)은 [에폭 32](https://dydx.community/dashboard/proposal/16)에서 0으로 설정되었습니다. 이 보상은 **2021년 8월 3일 15:00:00(UTC)**부터 **2024년 1월 16일 15:00:00(UTC)**까지 지속되었습니다
@@ -221,25 +225,41 @@ dYdX Foundation은 에폭의 시작 및 종료일과 블랙아웃 기간을 확�
 * [유동성 스테이킹 풀](../staking-pools/liquidity-staking-pool.md) 보상은 [DIP 14](https://dydx.community/dashboard/proposal/7)에서 2022년 9월 29일에 0으로 설정되었습니다.
 * [DIP 17](https://dydx.community/dashboard/proposal/9)에서 [안전 스테이킹 풀](../staking-pools/safety-staking-pool.md) 보상이 2022년 11월 28일에 0으로 설정되었습니다.
 
-## dYdX 거버넌스가 에폭 일정을 수정할 수 있습니까?
+</details>
 
-초기 에폭 기간은 `28일입니다`. dYdX 거버넌스는 투표를 통해 지정된 범위 내에서 에폭 기간을 조정할 수 있습니다. 최소 및 최대 에폭 길이는 각각 `6일`과 `92`일입니다.
+<details>
 
-## 블랙아웃 기간이란 무엇입니까?
+<summary>dYdX 거버넌스가 에폭 일정을 수정할 수 있습니까?</summary>
+
+초기 에폭 기간은 `28일`입니다. dYdX 거버넌스는 투표를 통해 지정된 범위 내에서 에폭 기간을 조정할 수 있습니다. 최소 및 최대 에폭 길이는 각각 `6일`과 `92`일입니다.
+
+</details>
+
+<details>
+
+<summary>블랙아웃 기간이란 무엇입니까?</summary>
 
 [유동성 스테이킹 풀](../staking-pools/liquidity-staking-pool.md) 및 [안전 스테이킹 풀](../staking-pools/safety-staking-pool.md)의 경우, 풀 내 자금의 가용성에 대해 예측 가능성과 규칙적 주기성을 제공하기 위해 인출에 에폭 일정이 적용됩니다. 스테이커는 해당 에폭이 끝난 후 자금 인출이 가능하도록 블랙아웃 기간 전에 자금의 스테이킹 해제를 요청해야 합니다. 스테이커가 인출을 요청하지 않으면 스테이킹된 자금은 다음 에폭으로 이월됩니다.
 
 [DIP 17](https://dydx.community/dashboard/proposal/9)[](https://dydx.community/dashboard/proposal/7)에서 dYdX 커뮤니티는 블랙아웃 기간의 길이를 `14일`에서 3일로 줄이는 데 `투표했습니다`. dYdX 거버넌스는 지정된 범위 내에서 블랙아웃 기간을 수정하기 위해 투표할 수 있습니다. 최소 및 최대 블랙아웃 기간은 각각 `3일```과 46일입니다.
 
-## 획득한 $ethDYDX 보상을 언제 인출 및 이체할 수 있나요?
+</details>
+
+<details>
+
+<summary>획득한 $ethDYDX 보상을 언제 인출 및 이체할 수 있나요?</summary>
 
 토큰이 청구되면 dYdX 거버넌스로 양도 및 위임이 가능합니다.
 
-## 대기 기간의 목적은 무엇입니까? 각 에폭 종료 시 보상은 어떻게 저장됩니까?
+</details>
+
+<details>
+
+<summary>대기 기간의 목적은 무엇입니까? 각 에폭 종료 시 보상은 어떻게 저장됩니까?</summary>
 
 [소급 채굴 보상](../rewards/retroactive-mining-rewards.md), [거래 보상](../rewards/trading-rewards.md) 및 [유동성 공급자 보상은](../rewards/liquidity-provider-rewards.md) 머클 트리에 저장되었으며, 배포 프로그램이 시작된 이후 각 사용자가 획득한 쿠멀 보상이 포함되어 있습니다.
 
-각 에폭이 종료되면, 머클 루트는 `MerkleDistributorV1` 스마트 컨트랙트의 체인링크 오라클 시스템을 통해 업데이트되어 지난 에폭에서 획득한 보상을 반영되었습니다. 업데이트는 제안된 머클 루트를 오라클 계약에 의해 반환되는 최신 값으로 설정하여 수행됩니다. 제안된 머클 루트는 `7일`의 **대기 기간이** 경과된 후 활성화됩니다. 대기 기간 동안 dYdX 거버넌스는 제안된 머클 루트가 정확하지 않거나 악성으로 판별될 경우 머클 루트를 동결할 수 있습니다. 머클 루트가 동결되지 않으면 새로운 머클 루트가 활성화되며 사용자는 과거 에폭에 대한 보상을 클레임할 수 있습니다.
+
 
 에폭이 변경될 때마다 다음의 단계가 순서대로 진행됩니다.
 
@@ -254,3 +274,6 @@ dYdX Foundation은 에폭의 시작 및 종료일과 블랙아웃 기간을 확�
 * 대기 기간이 발생하며, 이 기간 동안 거버넌스는 제안된 머클 루트의 시행을 방지하기 위해 `MerkleDistributorV1.pauseRootUpdates()`를 호출할 수 있습니다.
 * 대기 기간이 종료된 후, 오라클 서명자(또는 제3자)는 공개 함수 `MerkleDistributorV1.updateRoot()`를 호출하여 제안된 머클 루트를 활성화할 수 있습니다.
 * 새로운 머클 루트가 활성화되면 사용자는 마지막 에폭에 대한 보상을 클레임할 수 있습니다.
+
+</details>
+
