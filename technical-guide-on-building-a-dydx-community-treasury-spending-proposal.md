@@ -24,7 +24,7 @@ The following steps must be completed ahead of completing the Pull Request (PR):
 
 1. **Fork the** [**dYdX governance-contracts repository**](https://github.com/dydxfoundation/DIP) **to your GitHub account.**
 
-<img src=".gitbook/assets/Untitled (2).png" alt="" data-size="original">
+<img src=".gitbook/assets/Untitled.png" alt="" data-size="original">
 
 \
 2\. **Clone the Repository,** and change the \[username] to your own.

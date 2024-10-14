@@ -1,6 +1,7 @@
 # Table of contents
 
 * [👋 Introduction](README.md)
+* [dYdX v3 Wind-Down](dydx-v3-wind-down.md)
 
 ## Start Here
 
