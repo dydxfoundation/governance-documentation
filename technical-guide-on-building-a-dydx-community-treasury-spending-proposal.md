@@ -23,7 +23,7 @@ Reverie는 풀 리퀘스트(PR)를 통해 $ethDYDX를 커뮤니티 금고에서 
 
 1. ****[**dYdX 거버너스 계약 리포지토리**](https://github.com/dydxfoundation/DIP)**를 사용자의 GitHub 계정으로 분기합니다.**
 
-<img src=".gitbook/assets/Untitled (2).png" alt="" data-size="original">
+<img src=".gitbook/assets/Untitled.png" alt="" data-size="original">
 
 \
 2\. **리포지토리 복제본을 만들고,** \[username]을 본인의 사용자 이름으로 변경합니다.
