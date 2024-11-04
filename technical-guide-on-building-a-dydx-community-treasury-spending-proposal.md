@@ -23,7 +23,7 @@ As etapas a seguir devem ser concluídas antes da solicitação de pull (PR):
 
 1. **Faça o fork do** [**repositório governance-contracts da dYdX**](https://github.com/dydxfoundation/DIP) **em sua conta do GitHub.**
 
-<img src=".gitbook/assets/Untitled (2).png" alt="" data-size="original">
+<img src=".gitbook/assets/Untitled.png" alt="" data-size="original">
 
 \
 2\. **Clone o repositório** e altere \[username] no seu repositório.
