@@ -24,7 +24,7 @@ Reverie 已编制一份综合性技术指南，通过拉取请求 (PR) 提交治
 
 1. **将** [**dYdX 治理合约储存库**](https://github.com/dydxfoundation/DIP) **分叉到您的 GitHub 账户。**
 
-<img src=".gitbook/assets/Untitled (2).png" alt="" data-size="original">
+<img src=".gitbook/assets/Untitled.png" alt="" data-size="original">
 
 \
 2\. **克隆储存库，**将 \[username] 改为您自己的名称。
