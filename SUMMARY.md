@@ -1,35 +1,36 @@
 # İçindekiler
 
-*
+* [👋 Giriş](README.md)
+* [dYdX v3 Wind-Down](dydx-v3-wind-down.md)
 
 ## Buradan Başlayın
 
-*
-*
-*
-*
-*
-*
-*
+* [🖥️ Arayüz](start-here/dydx.community.md)
+* [🚧 Kısıtlamalar](start-here/restrictions.md)
+* [📑 Tahsisler](start-here/dydx-allocations.md)
+* [⏳ Dönemler](start-here/epochs.md)
+* [💳 Ücret İndirimleri](start-here/trading-fee-discount.md)
+* [🤝 Topluluk Hazinesi](start-here/community-treasury.md)
+* [🪙 Ödül Hazinesi](start-here/rewards-treasury.md)
 
 ## Ödüller
 
-*
-*
-*
+* [⛏️ Geriye Dönük Madencilik Ödülleri](rewards/retroactive-mining-rewards.md)
+* [📊 Alım Satım Ödülleri](rewards/trading-rewards.md)
+* [⚖️ Likidite Sağlayıcı Ödülleri](rewards/liquidity-provider-rewards.md)
 
 ## STAKING HAVUZLARI
 
-*
-*
+* [🔋 Likidite Modülü](staking-pools/liquidity-staking-pool.md)
+* [🔐 Güvenlik Modülü](staking-pools/safety-staking-pool.md)
 
 ## Oylama ve Yönetişim
 
-*
-*
-*
-*
-*
+* [🏗️ Mimari](voting-and-governance/governance-process.md)
+* [💼 Teklif Yaşam Döngüsü](voting-and-governance/dip-proposal-lifecycle.md)
+* [🗳️ Oy Verme Süreci](voting-and-governance/voting.md)
+* [💾 Parametreler](voting-and-governance/governance-parameters.md)
+* [🏛️ Yönetişim Kılavuzu](voting-and-governance/governance-guide.md)
 
 ***
 
