@@ -1,6 +1,7 @@
 # Содержание
 
 * [👋 Введение](README.md)
+* [Отмена dYdX v3](dydx-v3-wind-down.md)
 
 ## НАЧАЛО
 

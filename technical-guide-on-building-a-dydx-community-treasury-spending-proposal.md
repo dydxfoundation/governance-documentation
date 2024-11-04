@@ -23,7 +23,7 @@ description: >-
 
 1. **Создайте форк** [**репозитория governance-contracts dYdX**](https://github.com/dydxfoundation/DIP) **в своем аккаунте GitHub.**
 
-<img src=".gitbook/assets/Untitled (2).png" alt="" data-size="original">
+<img src=".gitbook/assets/Untitled.png" alt="" data-size="original">
 
 \
 2\. **Клонируйте репозиторий** и укажите ваше имя пользователя вместо \[username].
