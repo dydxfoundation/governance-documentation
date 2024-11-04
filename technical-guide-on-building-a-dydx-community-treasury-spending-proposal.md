@@ -1,19 +1,19 @@
 ---
 description: >-
-
+  Una guía técnica paso a paso sobre cómo crear una propuesta para transferir ethDYDX de la tesorería de la comunidad a una dirección de destino.
 ---
 
 # Guía técnica para construir una Propuesta de gasto de tesorería de la comunidad dYdX
 
+Reverie ha elaborado una guía técnica completa para enviar una propuesta de gobernanza para transferir ethDYDX de la Tesorería de la comunidad a través de un Pull Request (PR) al repositorio de contratos de _gobernanza de dYdX._
 
-
-
+Para crear esta propuesta, un miembro de la comunidad dYdX debe tener **al menos 5M de tokens de gobernanza **(_0,5 % del suministro total) _de poder de propuesta (umbral de p[ropuesta ](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters)para un v[oto de bloqueo de tiempo corto).](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)
 
 ### Requisitos preliminares
 
 Se deben cumplir los siguientes pasos antes de presentar la solicitud de retiro (SR):
 
-1.
+1. **Ciclo de vida de la propuesta:** El DRC debe publicarse siguiendo la [plantilla](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) de la propuesta y debe haber un voto de Snapshot exitoso.
 2. **Dirección de destino:** La dirección de destino debe generarse con antelación. Si la dirección de destino es multifirmas, se debe crear la billetera multifirmas.
 3. **Cuenta de GitHub:** Una cuenta de GitHub para bifurcar el repositorio.
 4. **Cantidad de la transferencia (opcional):** Es preferible que se establezca la cantidad solicitada de la transferencia antes de la SR. Sin embargo, si se usa una cantidad hipotética, se puede establecer como paso final antes de la aprobación.
@@ -23,7 +23,7 @@ Se deben cumplir los siguientes pasos antes de presentar la solicitud de retiro 
 
 1. **Bifurque el** [**repositorio de contratos de gobernanza de dYdX**](https://github.com/dydxfoundation/DIP) **en su cuenta de GitHub.**
 
-<img src=".gitbook/assets/Untitled (2).png" alt="" data-size="original">
+<img src=".gitbook/assets/Untitled.png" alt="" data-size="original">
 
 \
 2\. **Clone el repositorio** y cambie el \[username] al suyo.
