@@ -23,7 +23,7 @@ Les étapes suivantes doivent être accomplies avant l'achèvement de la demande
 
 1. **Forkez le** [**référentiel des contrats de gouvernance dYdX**](https://github.com/dydxfoundation/DIP) **sur votre compte GitHub.**
 
-<img src=".gitbook/assets/Untitled (2).png" alt="" data-size="original">
+<img src=".gitbook/assets/Untitled.png" alt="" data-size="original">
 
 \
 2\. **Clonez le référentiel** et changez le \[username] en votre propre nom d'utilisateur.
