@@ -23,7 +23,7 @@ Bu teklifi oluşturabilmesi için, bir dYdX topluluğu üyesinin, teklif gücün
 
 1. [**dYdX yönetişim-sözleşmeleri repository**](https://github.com/dydxfoundation/DIP)'sini **GitHub hesabınıza** **fork edin**.
 
-<img src=".gitbook/assets/Untitled (2).png" alt="" data-size="original">
+<img src=".gitbook/assets/Untitled.png" alt="" data-size="original">
 
 \
 2\. **Repository'yi klonlayın** ve \[kullanıcı adı] kısmını kendi kullanıcı adınızla değiştirin.
