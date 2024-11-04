@@ -1,35 +1,36 @@
 # 目录
 
-*
+* [👋 导言](README.md)
+* [dYdX v3 逐步关闭](dydx-v3-wind-down.md)
 
 ## 从此处开始
 
-*
-*
-*
-*
-*
-*
-*
+* [🖥️ 接口](start-here/dydx.community.md)
+* [🚧 限制](start-here/restrictions.md)
+* [📑 分配](start-here/dydx-allocations.md)
+* [⏳ 个纪元](start-here/epochs.md)
+* [💳 费用折扣](start-here/trading-fee-discount.md)
+* [🤝 社区资金库](start-here/community-treasury.md)
+* [🪙 奖励资金库](start-here/rewards-treasury.md)
 
 ## 奖励
 
-*
-*
-*
+* [⛏️ 追溯⛏挖矿奖励](rewards/retroactive-mining-rewards.md)
+* [📊 交易奖励](rewards/trading-rewards.md)
+* [⚖️ 流动⚖提供方奖励](rewards/liquidity-provider-rewards.md)
 
 ## 权益质押池
 
-*
-*
+* [🔋 流动🔋模块](staking-pools/liquidity-staking-pool.md)
+* [🔐 安全模块](staking-pools/safety-staking-pool.md)
 
 ## 投票和治理
 
-*
-*
-*
-*
-*
+* [🏗️ 架构](voting-and-governance/governance-process.md)
+* [💼 提案生命周期](voting-and-governance/dip-proposal-lifecycle.md)
+* [🗳️ 投票过程](voting-and-governance/voting.md)
+* [💾 参数](voting-and-governance/governance-parameters.md)
+* [🏛️ 治理指南](voting-and-governance/governance-guide.md)
 
 ***
 
