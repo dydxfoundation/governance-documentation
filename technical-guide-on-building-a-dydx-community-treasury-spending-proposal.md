@@ -23,7 +23,7 @@ Reverieは、dYdX_ガバナンスコントラクト_リポジトリに、$ethDYD
 
 1. [**dYdXガバナンスコントラクトリポジトリ**](https://github.com/dydxfoundation/DIP)を**GitHub口座に****フォーク**してください。
 
-<img src=".gitbook/assets/Untitled (2).png" alt="" data-size="original">
+<img src=".gitbook/assets/Untitled.png" alt="" data-size="original">
 
 \
 2\. **リポジトリをクローン**し、\[username]を自分自身に変更してください。
