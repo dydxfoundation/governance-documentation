@@ -23,7 +23,7 @@ Die folgenden Schritte müssen vor der Fertigstellung der Pull-Anfrage abgeschlo
 
 1. **Gabeln Sie das **d[**YdX-Governance-Contracts-Repository **](https://github.com/dydxfoundation/DIP)a**uf Ihr GitHub-Konto.**
 
-<img src=".gitbook/assets/Untitled (2).png" alt="" data-size="original">
+<img src=".gitbook/assets/Untitled.png" alt="" data-size="original">
 
 \
 2\. **Klonen Sie das Repository,** und ändern Sie den \[username] auf Ihren eigenen.
