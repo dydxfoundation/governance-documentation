@@ -1,12 +1,12 @@
 ---
-description:
+description: 为 $ethDYDX 代币分配。
 ---
 
-#
+# 📑 分配
 
 **分配**
 
-五年的 $ethDYDX 总供应量最初的分配如下：
+总共 `1,000,000,000 $ethDYDX` 已于 **UTC（协调世界时）2021 年 8 月 3 日下午 3:00 开始铸造**，将于五 (5) 年内开始投入使用。 最初五年的 $ethDYDX 总供应量分配如下：
 
 * **50.0%** (`500,000,000 $ethDYDX`) 分配给社区，如下所示：
   * **25.0%** (`250,000,000 $ethDYDX`) 根据[“交易奖励公式”](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)而定，
@@ -19,7 +19,7 @@ description:
 * **15.3%** (`152,704,930 $ethDYDX`) 分配给 dYdX Trading Inc. 或 dYdX Foudation 的创始人、员工、顾问、高级顾问，以及
 * **7.0%** (`70,000,000 $ethDYDX`) 分配给 dYdX Trading Inc. 或 dYdX Foundation 的未来员工和高级顾问。
 
-目前，分配包括：
+自从 $ethDYDX 推出以来，一些治理提议已导致对初始分配的更改。 目前，分配包括：
 
 * **50.0%** (`500,000,000 $ethDYDX`) 分配给社区，如下所示：
   * **14.5%** (`144,693,506 $ethDYDX`) ，基于[“交易奖励公式”](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)，
@@ -40,7 +40,7 @@ description:
   * **0.6%** (`5,779,608 $ethDYDX`) 分配给把 $USDC 质押到[“流动性质押池”](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool)的用户，
     * 在 [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) 中，dYdX 社区[已投票](https://dydx.community/dashboard/proposal/7)把质押 $USDC 的奖励设置为 0。先前分配给 $USDC 质押人的 383,562 $ethDYDX 将在"奖励资金库"中积累，dYdX 社区可以通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。
   * **0.5%** (`5,289,939 $ethDYDX`) 分配给把 $ethDYDX 质押到[“保险质押池”](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool)的用户，
-    * 在 [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md) 中，dYdX 社区[已投票](https://dydx.community/dashboard/proposal/9)把质押 $ethDYDX 的奖励设置为 0。先前分配给 $ethDYDX 质押人的 383,562 $ethDYDX 将在“奖励资金库”中积累，dYdX 社区可以通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。
+    * 在 [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/9)决定将质押 $ethDYDX 关联的奖励设为 0。先前分配给 $ethDYDX 质押者的 383,562 $ethDYDX 将存入奖励资金库，可由 dYdX 社区通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)使用。
 * **27.7%** (`277,295,070 $ethDYDX`) 分配给 dYdX Trading Inc. 的过去投资者，
 * **15.3%** (`152,704,930 $ethDYDX`) 分配给 dYdX Trading Inc. 或 dYdX Foundation 的创始人、员工、顾问、高级顾问，以及
 * **7.0%** （`70,000,000 $ethDYDX`） 分配给 dYdX Trading Inc. 或 dYdX Foundation 的未来员工和高级顾问。
@@ -49,7 +49,7 @@ description:
 
 虽然建立了如上文所述的社区分配方式，但 $ethDYDX 持有人对社区分配的后续使用方式拥有完全的控制权。
 
-##
+## $ethDYDX 的流动Liqu供给曲线
 
 2021 年 9 月 8日， 取消对代币的初始转账限制。
 
@@ -65,9 +65,9 @@ description:
 
 是的，dYdX 社区可以更改[启动之时存在的任意奖励和资金池](../voting-and-governance/governance-parameters.md)。到目前为止，dYdX 社区已在几个治理提议中投票决定减少 DYDX 发放：
 
-* 在 [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) 中，dYdX社区 [投票](https://dydx.community/dashboard/proposal/8) 支持将交易奖励减少 25%。
-*
-* 在 [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md) 中，dYdX 社区[已投票](https://dydx.community/dashboard/proposal/9)将质押 $ethDYDX 的奖励设置为 0。先前分配给 $DYDX 质押人的 383,562 $ethDYDX 将在“奖励资金库”中积累，dYdX 社区可以通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。
+* 在 [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) 中，dYdX社区 [投票](https://dydx.community/dashboard/proposal/8) 支持将交易奖励减少 25%。因此，在给定时段分配的交易奖励从 15 时段的 3,835,616 $ethDYDX 减少到 2,876,712 $ethDYDX。剩余的 958,904 $ethDYDX 将存入奖励库，可以由 dYdX 社区通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)使用。
+* 在 [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) 中，dYdX 社区[已投票](https://dydx.community/dashboard/proposal/7)把质押 $USDC 的奖励设置为 0。先前分配给 $USDC 质押人的 383,562 $ethDYDX 将在"奖励资金库"中积累，dYdX 社区可以通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。
+* 在 [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md) 中，dYdX 社区[投票](https://dydx.community/dashboard/proposal/9)决定将质押 $ethDYDX 关联的奖励设置为 0。先前分配给 $DYDX 质押人的 383,562 $ethDYDX 将存入奖励资金库，可由 dYdX 社区通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)使用。
 * 在 [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) 中，dYdX 社区[已投票](https://dydx.community/dashboard/proposal/14)将“流动性提供方奖励”削减 50%，从每时段 1,150,685 $ethDYDX 降至每时段 575,343 $ethDYDX。每时段剩余的 575,342 $ethDYDX 将计入“奖励资金库”，dYdX 社区可以通过[治理投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)来使用。
 * 在 [DIP 29](https://dydx.community/dashboard/proposal/16) 中，dYdX 社区投票决定将 dYdX v3 上的交易和 LP 奖励从 30-32 时段减少 ⅓，减为以下值：
 
@@ -98,7 +98,7 @@ c. 在 2024 年 1 月 16 日世界协调时 15:00（时段 32 开始）将奖励
 
 <summary>是否可以创建新的 $ethDYDX 代币？</summary>
 
-
+从推出五年后开始，每年 2% 的最大永续通胀率可以增加 $ethDYDX 的供应。 从 2026 年 7 月 14 日世界协调时 15:00:00 开始，dYdX 治理部门可以决定新 $ethDYDX 的最大铸币供应量，最高可达2%的年通货膨胀率，每 365 天只允许一次铸币。 新发行的$ethDYDX将立即归属，可以分配和发送到任何指定的地址。
 
 </details>
 
@@ -106,16 +106,16 @@ c. 在 2024 年 1 月 16 日世界协调时 15:00（时段 32 开始）将奖励
 
 <summary>向投资者、现有和未来员工，以及高级顾问发放的 $ethDYDX 有什么锁定？</summary>
 
+$ethDYDX 代币的初始分配部分留给 dYdX Trading Inc.的过去投资者、dYdX Trading Inc.或dYdX Foundation的创始人、员工、顾问和顾问，以及 dYdX Trading Inc.或dYdX Foundation的未来员工和顾问。
 
+2023 年 1 月 25 日，dYdX 基金会[宣布](https://www.dydx.foundation/blog/lock-up-extension)了一项修正案，将投资者 $ethDYDX 代币的初始发布日期推迟到 2023 年 12 月 1 日。 修正案没有在初始解锁日期之后更改错开解锁时间表。
 
+根据修正案，代币将按照以下方式从转让限制中释放：
 
-
-
-
-*
-*
-*
-*
+* 2023 年 12 月 1 日为 30%；
+* 从 2024 年 1 月 1 日至 2024 年 6 月 1 日，每月等额分期付款的 40%；
+* 从 2024 年 7 月 1 日至 2025 年 6 月 1 日，按月等额分期付款中，享受 20%；以及
+* 从 2025 年 7 月 1 日至 2026 年 6 月 1 日，按月等额分期付款中，享受 10% 。
 
 **请注意，上述所有日期应按 UTC 时区进行理解。**
 
