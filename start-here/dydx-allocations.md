@@ -1,12 +1,12 @@
 ---
-description:
+description: $ethDYDX 토큰에 대한 할당.
 ---
 
-#
+# 📑 할당
 
 **할당**
 
-$ethDYDX 전체 공급량 의 초기 5년 할당은 다음과 같습니다.
+총 `1,000,000,000 $ethDYDX가` **2021년 8월** 3일 15:00:00(UTC)에 주조되었으며 5년 동안 액세스할 수 있게 되었습니다. $ethDYDX 전체 공급량 의 초기 5년 할당은 다음과 같습니다.
 
 * **50.0%**(`500,000,000$ethDYDX`)가 다음과 같이 커뮤니티에 할당됩니다.
   * **25.0%**(`250,000,000$ethDYDX`)는 [거래 보상 공식](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)에 따라 할당됩니다.
@@ -19,7 +19,7 @@ $ethDYDX 전체 공급량 의 초기 5년 할당은 다음과 같습니다.
 * **15.3%**(`152,704,930$ethDYDX`)는 dYdX Trading Inc. 또는 dYdX Foundation의 설립자, 직원, 고문, 컨설턴트에게 할당됩니다.
 * **7.0%**(`70,000,000$ethDYDX`)는 dYdX Trading Inc. 또는 dYdX Foundation의 미래 직원 및 컨설턴트에게 할당됩니다.
 
-현재 할당은 다음과 같습니다.
+$ethDYDX가 출시된 이후, 여러 거버넌스 제안으로 초기 할당이 변경되었습니다. 현재 할당은 다음과 같습니다.
 
 * **50.0%**(`500,000,000$ethDYDX`)가 다음과 같이 커뮤니티에 할당됩니다.
   * **14.5%**(`144,693,506$ethDYDX`)는 [거래 보상 공식](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)에 따라 할당됩니다.
@@ -40,7 +40,7 @@ $ethDYDX 전체 공급량 의 초기 5년 할당은 다음과 같습니다.
   * **0.6%**(`5,779,608 $ethDYDX`)는 $USDC를 [유동성 스테이킹 풀에](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool) $USDC를 스테이킹하는 사용자에게 할당됩니다.
     * [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)에서, dYdX 커뮤니티는 [투표를 통해](https://dydx.community/dashboard/proposal/7) $USDC 스테이킹 관련 보상을 0으로 설정하기로 결정했습니다. 이전에 $USDC 스테이커에게 배포된 383,562$ethDYDX는 보상 금고에 축적되며, [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 dYdX 커뮤니티에서 이를 사용할 수 있습니다.
   * **0.5%**(`5,289,939 $ethDYDX`)는 [안전 스테이킹 풀에](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool) $ethDYDX를 스테이킹하는 사용자에게 할당됩니다.
-    * [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md)에서 dYdX 커뮤니티는 [투표를 통해](https://dydx.community/dashboard/proposal/9) $ethDYDX 스테이킹 관련 보상을 0으로 설정하기로 결정했습니다. 이전에 $ethDYDX 스테이커에게 배포된 383,562$ethDYDX는 보상 금고에 축적되며 [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 dYdX 커뮤니티에서 이를 사용할 수 있습니다.
+    * [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md)에서 dYdX 커뮤니티는 $ethDYDX 스테이킹과 관련된 보상을 0으로 설정하도록 [투표로 결정](https://dydx.community/dashboard/proposal/9)했습니다. 이전에 $ethDYDX 스테이커에게 배포된 383,562$ethDYDX는 보상 금고에 축적되며 dYdX 커뮤니티가 [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 이를 사용할 수 있습니다.
 * **27.7%**(`277,295,070$ethDYDX`)는 dYdX Trading Inc.의 과거 투자자들에게 할당됩니다.
 * **15.3%**(`152,704,930$ethDYDX`)는 dYdX Trading Inc. 또는 dYdX Foundation의 설립자, 직원, 고문, 컨설턴트에게 할당됩니다.
 * **7.0%**(`70,000,000$ethDYDX`)는 dYdX Trading Inc. 또는 dYdX Foundation의 미래 직원 및 컨설턴트에게 할당됩니다.
@@ -49,7 +49,7 @@ $ethDYDX 전체 공급량 의 초기 5년 할당은 다음과 같습니다.
 
 상기 명시된 대로 커뮤니티 할당이 정해져 있더라도, $ethDYDX 보유자는 거버넌스를 통해 앞으로의 커뮤니티 할당 방식에 대한 완전한 통제 권한을 가집니다.
 
-##
+## $ethDYDX의 액체 공급곡선
 
 2021년 9월 8일, 토큰에 대한 초기 전송 제한이 해제되었습니다.
 
@@ -65,9 +65,9 @@ $ethDYDX 전체 공급량 의 초기 5년 할당은 다음과 같습니다.
 
 예, dYdX 커뮤니티는 [출시 시에 존재했던 모든 보상 및 풀](../voting-and-governance/governance-parameters.md)을 변경할 수 있습니다. 지금까지 dYdX 커뮤니티는 여러 거버넌스 제안에서 DYDX 배출량을 줄이기로 결정했습니다.
 
-* [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)에서 dYdX 커뮤니티는 거래 보상을 25% 낮추기로 [투표](https://dydx.community/dashboard/proposal/8)했습니다.
-*
-* [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md)에서 dYdX 커뮤니티는 [투표를 통해](https://dydx.community/dashboard/proposal/9) $ethDYDX 스테이킹 관련 보상을 0으로 설정하기로 결정했습니다. 이전에 $DYDX 스테이커에게 배포된 383,562$ethDYDX는 보상 금고에 축적되며 dYdX 커뮤니티는 [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 이를 사용할 수 있습니다.
+* [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md)에서 dYdX 커뮤니티는 거래 보상을 25% 낮추기로 [투표](https://dydx.community/dashboard/proposal/8)했습니다. 결과적으로 특정 에폭에서 분배된 거래 보상은 에폭 15에서 3,835,616 $ethDYDX에서 2,876,712 $ethDYDX로 감소했습니다. 나머지 958,904 $ethDYDX는 보상 금고에 적립되며 dYdX 커뮤니티에서 [거버넌스](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) 투표로 사용할 수 있습니다.
+* [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)에서, dYdX 커뮤니티는 [투표를 통해](https://dydx.community/dashboard/proposal/7) $USDC 스테이킹 관련 보상을 0으로 설정하기로 결정했습니다. 이전에 $USDC 스테이커에게 배포된 383,562$ethDYDX는 보상 금고에 축적되며, [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 dYdX 커뮤니티에서 이를 사용할 수 있습니다.
+* [DIP](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md) 17에서 dYdX 커뮤니티는 $ethDYDX를 스테이킹하여 관련된 보상을 0으로 설정하기로 [결정했습니다.](https://dydx.community/dashboard/proposal/9) 이전에 $DYDX 스테이킹자에게 배포된 383,562 $ethDYDX는 보상 금고에 적립되며 dYdX 커뮤니티에서 [거버넌스](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) 투표로 사용할 수 있습니다.
 * [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)에서 dYdX 커뮤니티는 유동성 공급자 보상을 에폭당 1,150,685$ethDYDX에서 575,343$ethDYDX로 50% 감소시키기로 결정[했습니다. ](https://dydx.community/dashboard/proposal/14)에폭당 초과량 575,342$ethDYDX는 보상 금고에 누젹될 것이며, [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 dYdX 커뮤니티에서 이를 사용할 수 있습니다.
 * [DIP 29에서](https://dydx.community/dashboard/proposal/16) dYdX 커뮤니티는 dYdX v3의 에폭 30-32에 해당하는 거래 보상과 LP 보상을 ⅓ 줄이기로 결정했으며 해당 값은 다음과 같습니다.
 
@@ -98,7 +98,7 @@ $ethDYDX 전체 공급량 의 초기 5년 할당은 다음과 같습니다.
 
 <summary>새로운 $ethDYDX 토큰이 주조될 수도 있나요?</summary>
 
-
+출시 후 5년 동안 최대 영구 인플레이션율은 연간 2%입니다. $ethDYDX의 공급이 증가할 수 있습니다. 2026년 7월 14일 15:00:00(UTC)부터 dYdX 거버넌스는 발행할 새 $ethDYDX의 최대 공급량을 최대 2%의 연간 인플레이션율로 결정할 수 있으며, 365일당 단 하나의 주조만 허용됩니다. 새로 발행된 $ethDYDX는 즉시 조끼를 취하며 할당되어 지정된 주소로 보낼 수 있습니다.
 
 </details>
 
@@ -106,16 +106,16 @@ $ethDYDX 전체 공급량 의 초기 5년 할당은 다음과 같습니다.
 
 <summary>투자자, 기존 및 향후 임직원, 컨설턴트에게 발행된 $ethDYDX에 대한 락업은 무엇인가요?</summary>
 
+$ethDYDX 토큰의 초기 할당 중 일부는 dYdX Trading Inc.의 과거 투자자, 설립자, 직원, 고문, dYdX Trading Inc. 또는 dYdX Foundation의 미래 직원 및 컨설턴트를 위해 예약되었습니다.
 
+2023년 1월 25일, dYdX 재단은 투자자 $ethDYDX 토큰의 초기 출시일을 2023년 12월 1일로 연기하는 수정안을 [발표했습니다.](https://www.dydx.foundation/blog/lock-up-extension) 초기 잠금 해제 날짜 이후에 수정으로 시차를 둔 잠금 해제 스케쥴이 변경되지 않았습니다.
 
+수정안에 따라 토큰은 다음과 같이 전송 제한에서 해제됩니다.
 
-
-
-
-*
-*
-*
-*
+* 2023년 12월 1일 30%;
+* 2024년 1월 1일부터 2024년 6월 1일까지 동일한 월별 할부 40%;
+* 2024년 7월 1일부터 2025년 6월 1일까지 동일한 월별 할부 20%; 및
+* 2025년 7월 1일부터 2026년 6월 1일까지 동일한 월별 할부 10%.
 
 **위의 모든 날짜는 UTC 시간대를 참조하도록 해석됩니다.**
 
