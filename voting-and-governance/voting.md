@@ -1,5 +1,6 @@
 ---
 description: An overview of the voting process.
+hidden: true
 ---
 
 # 🗳️ Voting Process

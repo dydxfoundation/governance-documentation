@@ -1,6 +1,6 @@
 # dYdX v3 Wind-Down
 
-dYdX Trading, Inc. [announced](https://dydx.exchange/blog/v3-product-sunset) that it will sunset v3 starting from October 28, 2024.&#x20;
+dYdX Trading, Inc. wound up dYdX v3 on October 28, 2024.&#x20;
 
 Users of dYdX Chain, [http://dydx.trade](https://t.co/v3TXeNvCwf), and the dYdX Chain API, are unaffected.
 

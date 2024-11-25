@@ -2,6 +2,7 @@
 description: >-
   A technical, step-by-step guide on how to create a proposal to transfer
   ethDYDX from the community treasury to a destination address.
+hidden: true
 ---
 
 # Technical Guide on building a dYdX Community Treasury Spending Proposal

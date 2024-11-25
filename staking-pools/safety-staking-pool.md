@@ -4,17 +4,13 @@ description: An overview of the Safety Staking Pool
 
 # 🔐 Safety Module
 
-`0.5%` of the token supply (`5,289,939 $ethDYDX)`was distributed to users staking $ethDYDX to a Safety pool for backstopping the system. Initially, `2.50%` of the token supply (`25,000,000 $ethDYDX`) was allocated to be distributed to users staking ethDYDX to the Safety Module. The Safety Module is no longer active as of November 28, 2022. In [DIP 17](https://dydx.community/dashboard/proposal/9), the dYdX community [voted](https://dydx.community/dashboard/proposal/7) to effectively wind down the Safety Module by setting the Safety Module rewards per second to 0.
+The Safety Module is no longer active as of November 28, 2022. In [DIP 17](https://dydx.community/dashboard/proposal/9), the dYdX community [voted](https://dydx.community/dashboard/proposal/7) to effectively wind down the Safety Module by setting the Safety Module rewards per second to 0.
 
-Previously, $ethDYDX was distributed to users who staked $ethDYDX to the Safety Module. The Safety module was a decentralized fund which was to be used in the case of insolvency or other issues with the dYdX protocol.&#x20;
+All remaining ethDYDX from the Liquidity Module Rewards allocation were migrated to the dYdX Chain Community Treasury.
 
-$ethDYDX staked in the Safety Module retains its proposing and voting rights, as well as delegation abilities.
+More information about the dYdX Chain Community Treasury is available [here](../start-here/community-treasury.md).&#x20;
 
-## Overview
 
-Currently, $ethDYDX staked in the Safety Module is not earning rewards.&#x20;
-
-The 383,562 $ethDYDX previously distributed to $ethDYDX stakers will accrue in the dYdX Chain Community Treasury and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
 ## DYDX Unstaking & Withdrawals
 

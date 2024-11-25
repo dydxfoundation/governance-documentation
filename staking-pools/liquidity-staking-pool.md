@@ -4,31 +4,21 @@ description: An overview of the Liquidity Staking Pool
 
 # 🔋 Liquidity Module
 
-`0.6%` of the token supply (`5,779,608 $ethDYDX)`was distributed to users staking $USDC to the Liquidity Staking Pool. Initially, `2.50%` of the token supply (`25,000,000 $ethDYDX`) was allocated to be distributed to users staking $USDC to the Liquidity Staking Pool. The Liquidity Staking Pool is no longer active as of September 29, 2022. In [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/7) to effectively wind down the Liquidity Staking Pool and the Borrowing Pool by setting the Liquidity Staking Pool rewards per second to 0.\
-\
-Previously, $ethDYDX was distributed to users who staked $USDC to the Liquidity Staking Pool. Community-approved liquidity providers used the staked $USDC to make markets on dYdX v3, furthering the liquidity available across the markets. Liquidity providers were restricted from using borrowed funds outside of dYdX v3.
+The Liquidity Staking Pool is no longer active as of September 29, 2022. In [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/7) to effectively wind down the Liquidity Staking Pool and the Borrowing Pool by setting the Liquidity Staking Pool rewards per second to 0.
+
+All remaining ethDYDX from the Liquidity Module Rewards allocation were migrated to the dYdX Chain Community Treasury.
+
+More information about the dYdX Chain Community Treasury is available here.&#x20;
 
 ## **Staking** Overview
 
 Currently, $USDC staked in the Liquidity Staking Pool is not earning rewards.
-
-The 383,562 $ethDYDX previously distributed to USDC stakers will accrue in the dYdX Chain Community Treasury and can be used by the dYdX community with a [governance vote](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
 ## USDC Unstaking & Withdrawals
 
 A staker must request to withdraw $USDC at least `3 days` (**Blackout Window**) before the end of an [**epoch**](../start-here/epochs.md) in order to be able to withdraw the staker's $USDC after the end of that epoch. If stakers do not request to withdraw, their staked $USDC is rolled over into the next epoch.
 
 Withdrawals cannot be requested during the **Blackout Window**.
-
-In [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), the dYdX community [voted](https://dydx.community/dashboard/proposal/7) to reduce the length of the Blackout Window from `14 days` to `3 days`.
-
-## What is stkUSDC?
-
-USDC holders who deposit and stake their $USDC into the Liquidity Staking Pool will receive a tokenized position ($**stkUSDC**). $stkUSDC is minted when a user stakes USDC, and is burned when a user calls `withdrawStake`. In the same transaction that $USDC leaves a staker's wallet, $stkUSDC enters the staker's wallet; or vice-versa when unstaking.
-
-A $stkUSDC balance can be active or inactive. Active $stkUSDC can be transferred as an ERC-20, but cannot be withdrawn. Inactive $stkUSDC can be withdrawn, but cannot be transferred. For example, a user may have 100 active and 100 inactive $stkUSDC in their wallet, and the user's balance will show 200 $stkUSDC, but a transfer will revert if the user tries to transfer more than 100 $stkUSDC.
-
-A staked balance for which the staker has requested a withdraw prior to the end of epoch would be considered inactive, and therefore not transferable.
 
 ## FAQ
 
@@ -56,20 +46,6 @@ To unstake $USDC to the Liquidity Pool, following the following steps:
 * Click on “**Request**”
 * Enter the amount of $USDC you want to request to withdraw from the pool, and click "**Request withdraw**". You will need to pay gas fees to unstake $USDC.
 * Stakers who request to unstake $USDC at least `3 days` (**Blackout Window**) before the current epoch ends can withdraw their $USDC at the start of the next epoch.
-
-</details>
-
-<details>
-
-<summary>What parameters can dYdX v3 governance change?</summary>
-
-dYdX v3 governance is responsible for:
-
-* Rewards per second for staking $USDC to the Liquidity Staking Pool
-* Adding new borrowers to and/or removing existing borrowers from the Staking Liquidity Pool
-* Changing allocations of borrowed $USDC to approved borrowers
-  * The `setBorrowerAllocations` and `setBorrowingRestriction` functions are called to change the allocations of certain borrowers. They can be used to add and remove borrowers. Increases take effect in the next epoch, but decreases will restrict borrowing immediately. These functions cannot be called during the blackout window.
-* Epoch length and blackout window are set upon creating the contract but can be changed
 
 </details>
 

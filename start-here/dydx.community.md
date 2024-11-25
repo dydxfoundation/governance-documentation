@@ -1,5 +1,6 @@
 ---
 description: A home for governance, rewards, and staking at dydx.community
+hidden: true
 ---
 
 # 🖥️ Interface

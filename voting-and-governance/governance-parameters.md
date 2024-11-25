@@ -1,5 +1,6 @@
 ---
 description: Overview of governance parameters.
+hidden: true
 ---
 
 # 💾 Parameters

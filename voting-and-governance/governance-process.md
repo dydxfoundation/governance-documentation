@@ -1,5 +1,6 @@
 ---
 description: A high-level overview of governance architecture.
+hidden: true
 ---
 
 # 🏗️ Architecture

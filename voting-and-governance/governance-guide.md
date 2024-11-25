@@ -3,6 +3,7 @@ description: >-
   A step-by-step overview of the governance process: DRC creation, Snapshot poll
   creation, DIP creation, voting on a Snapshot poll, voting on a DIP, queueing a
   DIP, and executing a DIP.
+hidden: true
 ---
 
 # 🏛️ Governance Guide
@@ -394,7 +395,7 @@ Note, (1) proposals must be executed within the 7 day Execution Grace Period tha
 
 ![https://dashboard.alchemyapi.io/](../.gitbook/assets/2-draft-dip-example-15.png)
 
-* After the app is created, click "View Key" to obtain your Alchemy Key (7LOaQtguSm2kSEcFXQH88B): [https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul](https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul).
+* After the app is created, click "View Key" to obtain your Alchemy Key (7LOaQtguSm2kSEcFXQH88B): [https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul](https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN_K7t_ul).
 
 ![https://dashboard.alchemyapi.io/apps/xogmjmlex8tlmr95](../.gitbook/assets/2-draft-dip-example-16.png)
 

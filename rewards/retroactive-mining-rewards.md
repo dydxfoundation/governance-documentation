@@ -1,5 +1,6 @@
 ---
 description: Overview of the Retroactive Mining Rewards program.
+hidden: true
 ---
 
 # ⛏️ Retroactive Mining Rewards

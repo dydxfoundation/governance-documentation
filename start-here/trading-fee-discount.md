@@ -1,5 +1,6 @@
 ---
 description: An overview of Fee Discounts
+hidden: true
 ---
 
 # 💳 Fee Discounts

@@ -1,5 +1,6 @@
 ---
 description: Overview of the dYdX Improvement Proposal (DIP) lifecycle.
+hidden: true
 ---
 
 # 💼 Proposal Lifecycle

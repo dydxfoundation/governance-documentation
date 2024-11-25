@@ -1,5 +1,6 @@
 ---
 description: Overview of governance architecture and smart contracts.
+hidden: true
 ---
 
 # Technical Overview

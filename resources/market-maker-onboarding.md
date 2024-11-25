@@ -3,6 +3,7 @@ description: >-
   In order to ease market maker onboarding, the dYdX team created this guide.
   Please read through the document in its entirety before beginning any
   integration steps.
+hidden: true
 ---
 
 # Market Maker Onboarding

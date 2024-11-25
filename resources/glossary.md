@@ -1,5 +1,6 @@
 ---
 description: Overview of key governance-related terms.
+hidden: true
 ---
 
 # Glossary
