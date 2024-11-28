@@ -8,7 +8,7 @@ The Safety Module is no longer active as of November 28, 2022. In [DIP 17](https
 
 All remaining ethDYDX from the Liquidity Module Rewards allocation were migrated to the dYdX Chain Community Treasury.
 
-More information about the dYdX Chain Community Treasury is available [here](../start-here/community-treasury.md).&#x20;
+More information about the dYdX Chain Community Treasury is available [here](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules-and-parameters/community-treasury).&#x20;
 
 
 
