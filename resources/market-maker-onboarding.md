@@ -1,6 +1,7 @@
 ---
 description: >-
-  Afin de faciliter l'intégration des acteurs de marché, l'équipe dYdX a créé ce guide. Veuillez lire le document dans son intégralité avant de commencer toute étape d'intégration.
+  Afin de faciliter l'intégration des teneurs de marché, l'équipe dYdX a créé ce guide. Veuillez lire le document dans son intégralité avant de commencer toute étape d'intégration.
+hidden: vrai
 ---
 
 # Intégration des teneurs de marché
