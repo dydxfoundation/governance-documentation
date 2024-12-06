@@ -1,8 +1,9 @@
 ---
 description: Un aperçu de haut niveau de l'architecture de gouvernance.
+hidden: vrai
 ---
 
-#
+# Architecture 🏗️
 
 ## Aperçu
 
@@ -10,16 +11,16 @@ $ethDYDX, $stkDYDX et $wethDYDX (« jetons de gouvernance ») accordent aux d
 
 Les propositions doivent franchir un seuil donné et un pourcentage de votes favorables en fonction du type de proposition.
 
-
+Les pouvoirs de vote et de proposition du jeton de gouvernance permettent au détenteur du jeton de gouvernance de faire des propositions et de voter sur les propositions de gouvernance. Remarque, le détenteur du jeton de gouvernance peut déléguer ces pouvoirs à d'autres adresses Ethereum.
 
 Il existe 8 contrats intelligents au cœur de la gouvernance dYdX :
 
 * **Les ``contrats** de jetons $ethDYDX, $stkDYDX et $wethDYDX : ont des instantanés du pouvoir de vote de chaque adresse à différents blocs dans le temps.
 * **Le contrat `de stratégie de gouvernance V2`** : contient une logique pour mesurer le pouvoir relatif des utilisateurs à proposer et à voter. lLa Communauté dYdX [a voté](https://dydx.community/dashboard/proposal/15) pour la mise à niveau du contrat de `stratégie de gouvernance` en `stratégie de gouvernance V2` afin de doter $wethDYDX de la même fonctionnalité de gouvernance qu'ethDYDX pour le vote et la proposition de gouvernance dans la gouvernance dYdX v3.
-*
+* **Le contrat `du module de sécurité` **: comprend une logique pour miser des jetons $ethDYDX, jetons la position et obtenir des récompenses. Le jeton jalonné le module de sécurité garde les droits de gouvernance complets.
 * **Le contrat `Gouverneur`** : trace les propositions et peut exécuter des propositions via les contrats intelligents Timelock.
 * **Les contrats `Timelock`** : peuvent mettre en file d'attente, annuler ou exécuter des transactions votées par la gouvernance. Les fonctions d'une proposition sont initiées par le contrat Timelock. Les transactions en file d'attente peuvent être exécutées après un délai et avant l'expiration du délai de grâce.
-* Le contrat **`Verrouillage prioritaire`** : identique au contrat de verrouillage, mais permet à un contrôleur prioritaire d'exécuter des transactions dans la **période prioritaire** (7 jours) avant la fin du délai de verrouillage.
+* **Le `contrat Timelock prioritaire`** : identique au contrat de verrouillage, mais permet à un contrôleur prioritaire d'exécuter des transactions dans la **période prioritaire** (7 jours) avant la fin du délai de verrouillage.
 
 ![Architecture du contrat intelligent](../.gitbook/assets/1-smart-contract-architectue.png)
 
@@ -33,7 +34,7 @@ La gouvernance sur la chaîne dYdX permet de :
 
 ## Types de propositions
 
-Un exécuteur doit valider chaque type de proposition.
+Il existe quatre types de propositions avec des paramètres différents qui affectent la longueur et l'exécution d'une proposition, c'est-à-dire que les propositions critiques qui affectent l'accord de gouvernance nécessitent plus de temps de vote et un différentiel de vote plus élevé, tandis que les propositions qui affectent uniquement les paramètres du protocole nécessitent moins de temps de vote et peuvent être rapidement mises en œuvre. Un exécuteur doit valider chaque type de proposition.
 
 #### **Exécuteur de courte durée**
 
@@ -41,17 +42,17 @@ L'exécuteur de courte durée contrôle les éléments suivants :
 
 * Contrats incitatifs comprenant le module de liquidité, le module de sécurité et le module de distribution Merkle
 * fonds dans les récompenses et les Trésoreries de la communauté
-* frapper de nouveaux jetons
+* miner de nouveaux jetons
 * tous les contrats proxy sauf le module de sécurité
 * rôles de gardien sur les contrats proxy stricts
 
 **Exécuteur de verrouillage prioritaire Starkware**
 
-
+L'exécuteur timelock prioritaire Starkware gère le deal StarkEx Perpetual Exchange, en exécutant les propositions qui paramétrent dYdX v3. Starkware détient un rôle de « régulateur de priorité », ce qui leur permet une période de priorité de 7 jours pour déclencher l'exécution de la proposition. Cependant, les changements de protocole sont uniquement décidés par les détenteurs de jetons de gouvernance via la gouvernance dYdX v3.
 
 #### **Exécuteur de longue durée**
 
-L'exécuteur de long timelock peut exécuter des propositions qui changent généralement des parties du dYdX v3 qui affectent le cosensus de gouvernance.
+L'exécuteur de verrouillage long peut exécuter des propositions qui changent généralement des parties du dYdX v3 qui affectent le cosensus de gouvernance.
 
 #### **Exécuteur Merkle-pauser**
 
