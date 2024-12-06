@@ -1,22 +1,23 @@
 ---
 description: >-
   Un guide technique, qui décrit étape par étape, la façon de créer une proposition de transfert ethDYDX de la trésorerie de la communauté vers une adresse de destination.
+hidden: vrai
 ---
 
 # Guide technique sur l'élaboration d'une proposition de dépenses de trésorerie de la communauté dYdX
 
-Reverie a élaboré un guide technique complet pour soumettre une proposition de gouvernance visant à transférer des $ethDYDX du Trésor communautaire par le biais d'une demande d'extraction (PR, Pull Request) vers le référentiel _des contrats de gouvernance_ dYdX.
+Reverie a élaboré un guide technique complet pour soumettre une proposition de gouvernance visant à transférer des $ethDYDX du Trésor communautaire par le biais d'une demande de tirage (PR, Pull Request) vers le référentiel _des contrats de gouvernance_ dYdX.
 
 Pour créer cette proposition, un membre de la communauté dYdX doit avoir **au moins 5 millions de jetons de gouvernace** _(0,5 % de l'offre totale)_ de pouvoir de [proposition](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters) (seuil de proposition pour un [vote à court terme](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)).
 
 ### Exigences préliminaires
 
-Les étapes suivantes doivent être accomplies avant l'achèvement de la demande d'extraction (PR) :
+Les étapes suivantes doivent être accomplies avant l'achèvement de la demande de tirage (PR) :
 
 1. **Durée de vie de la proposition :** la DRC doit être publiée en suivant le [modèle](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) de proposition et il doit y avoir un vote Snapshot réussi.
 2. **Adresse de destination :** l'adresse de destination doit être générée à l'avance. Si l'adresse de destination est un multi-sig, le portefeuille multi-sig doit être créé.
 3. **Compte GitHub :** un compte GitHub pour forker le référentiel.
-4. **Montant du transfert (facultatif) :** de préférence, le montant du transfert demandé a été établi avant la PR. Toutefois, si vous utilisiez un montant notionnel, il peut être défini comme une étape finale avant l'approbation.
+4. **Montant du transfert (facultatif) :** de préférence, le montant du transfert demandé a été établi avant la demande de tirage. Toutefois, si vous utilisiez un montant notionnel, il peut être défini comme une étape finale avant l'approbation.
 5. **Hachage DIP IPFS (facultatif) :** si le montant du transfert est connu, le DIP doit être finalisé et poussé vers l'IPFS pour générer son hachage. Cependant, cela peut être défini comme une étape finale avant l'approbation si le montant n'est pas encore déterminé.
 
 ### Construire la proposition
@@ -188,7 +189,7 @@ hardhatTask('deploy:proposal-name', 'Proposal Description.')
 ```
 
 \
-6\. **Tests de construction**
+6\. **Construire des tests**
 
 Maintenant que le code est prêt pour le déploiement, il est temps de construire certains tests autour de la proposition. Les tests sont effectués à la fois localement et en utilisant un fork du mainnet pour simuler une proposition en cours d'exécution sur la chaîne.
 
@@ -506,7 +507,7 @@ describeContract('proposal-name', init, (ctx: TestContext) => {
 });
 ```
 
-7\. **Soumettre le PR**
+7\. **Soumettre la demande de tirage**
 
 Une fois que tous ces changements de code sont effectués et enregistrés localement, nous pouvons nous engager dans le référentiel forked et ouvrir un PR dans le référentiel dYdX pour examen :
 
