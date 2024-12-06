@@ -1,5 +1,6 @@
 ---
 description: 治理架构和智能合约概述。
+hidden: true
 ---
 
 # 技术概述
@@ -12,7 +13,7 @@ dYdX链上治理支持以下功能：
 * 在提议开始时，对代币持有量进行快照
 * 委托单独投票和提议权
 * 设定治理阈值，包括提议、法定人数和投票差额阈值
-* 代替“治理战略 V2”智能合约，该合约决定计票方式
+* 代替“治理战略 V2”智能合约，该合约决定了计票方式
 * 配置多个执行器合约，允许：
   * 通过短时间锁执行器进行快速协议升级和资金分配；
   * 通过长时间锁执行器进行治理升级。
@@ -20,12 +21,12 @@ dYdX链上治理支持以下功能：
 有 7 个智能合约支持 dYdX 治理：
 
 * **`DydxToken`合约**：保留支持查询地址投票或任何区块编号提议权的快照。支持单独委托投票权和提议权。
-* **`WrappedEthereumDydxToken`合约**：保留支持查询地址在任何区块的投票或提议权的快照。支持单独委托投票权和提议权。
+* **`WrappedEthereumDydxToken`合约**：保留支持查询某个地址在任何区块编号上的投票权或提议权的快照。支持单独委托投票权和提议权。
 * **`DydxJordine`合约**：跟踪提议并可以通过执行器智能合约执行提议。
 * **`执行器`合约**：可以排队、取消和执行由治理投票的交易。如果提议通过，则提议中调用的功能可以由提议中指定的执行器合约执行。排队的交易可以在延迟后执行，其期限由执行器合约确定。
 * **`优先`**时间锁**合约：**与时间锁合约相同，但允许**优先级******控制器在时间锁延迟之前，在优先期（7天）内执行交易。
-* **`治理战略 V2` 合约**：包含计票逻辑。目前，统计来自 $ethDYDX 代币、$wethDYDX 代币、$stkDYDX 的投票。 可以通过长时间锁进行升级。
-* **`保险模块`合约**：包含质押 $ethDYDX 代币的逻辑，表示质押的头寸，并赚取奖励，同时保留了基本代币的投票权和提议权以及委托功能。
+* **`治理战略 V2` 合约**：包含计票逻辑。目前，统计来自$ethDYDX代币、$wethDYDX代币、$stkDYDX的投票。 可以通过长时间锁进行升级。
+* **`保险模块`合约**：包含质押$ethDYDX代币的逻辑，表示质押的头寸，并赚取奖励，同时保留了基本代币的投票权和提议权以及委托功能。
 
 {% tabs %}
 {% tab title="Mainnet" %}
@@ -52,15 +53,15 @@ dYdX链上治理支持以下功能：
 | StarkEx Remover治理者V2          | 0xFCAac0F14deA11eDe11Afcb875f29130e1ad5ec0 |
 | 奖励资金库代理管理者         | 0x40D6992cbd03E0DC1c2DE9606D29Cb245E737a5d |
 | 社区资金库代理管理者       | 0x9d51599A6b10f562619D8ef2EFDcA1B68aE80D03 |
-| 保险模块代理管理            | 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C |
-| Merkle分配器代理管理       | 0x6C5cd3aD7A16Ae207D221908E6b997d9B0DcD7b0 |
-| 流动性质押代理管理        | 0xAc5D8bCD13da463bea96c75f9085c4e40037F790 |
+| 保险模块代理管理者            | 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C |
+| Merkle分配器代理管理者       | 0x6C5cd3aD7A16Ae207D221908E6b997d9B0DcD7b0 |
+| 流动性质押代理管理者        | 0xAc5D8bCD13da463bea96c75f9085c4e40037F790 |
 | StarkProxy \[0]                      | 0x0b2B08AC98a1568A34208121c26F4F41a9e0FbB6 |
 | StarkProxy \[1]                      | 0x3e6E9EFb0A677a24F47093a22044dc5451A028cF |
 | StarkProxy \[2]                      | 0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2 |
 | StarkProxy \[3]                      | 0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06 |
 | StarkProxy \[4]                      | 0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874 |
-| StarkProxy代理管理 \[0]          | 0xE16718eace44e0CB06b9cd164490A69A6425D1e3 |
+| StarkProxy代理管理者 \[0]          | 0xE16718eace44e0CB06b9cd164490A69A6425D1e3 |
 | StarkProxy代理管理 \[1]          | 0x78e899e576C3565C3219dbC9Ea5042A9DBed36d3 |
 | StarkProxy代理管理 \[2]          | 0x15774D4555fEfD57C9Fc8b11C8beba993eafcc13 |
 | StarkProxy 代理管理者 \[3]          | 0x4d9460e5C958f46a1Fe129954A069a37972f16EA |
@@ -70,9 +71,9 @@ dYdX链上治理支持以下功能：
 
 ## 开放源代码和审计
 
-治理合约和质押资金池的所有智能合约源代码，请访问[https://github.com/dydxfoundation/governance-contracts](https://github.com/dydxfoundation/governance-contracts)。
+治理合约和质押资金池的所有智能合约源代码详见[https://github.com/dydxfoundation/governance-contracts](https://github.com/dydxfoundation/governance-contracts)。
 
-dydx.community 托管的治理前端的源代码，请访问[此处](https://github.com/dydxfoundation/pnyx)。
+dydx.community托管的治理前端的源代码详见[此处](https://github.com/dydxfoundation/pnyx)。
 
 所有主要的新智能合约都已由 Peckshield 进行审计。没有发现重大或高度优先的安全问题。核心治理和代币合约是根据Aave治理合约质押的，该合约由[CertiK](https://www.certik.io/)、[Certora](https://www.certora.com/)和[Peckshield](https://peckshield.com/en)进行审计，并已在主网上进行了数月的攻防测试。
 
@@ -82,7 +83,7 @@ dydx.community 托管的治理前端的源代码，请访问[此处](https://git
 
 ### DydxToken
 
-DydxToken合约受到Aave的启发。dYdX团队作了微小变更。
+DydxToken合约受到Aave的启发。dYdX团队作了细微调整。
 
 基于以太坊的 DYDX 部署在以太坊主网上：[0x92D6C1e31e14520e676a687F0a93788B716BEff5](https://etherscan.io/address/0x92d6c1e31e14520e676a687f0a93788b716beff5)。
 
@@ -94,7 +95,7 @@ DydxToken合约受到Aave的启发。dYdX团队作了微小变更。
 
 ### WrappedEthereumDydxToken
 
-WrappedEthereumDydxToken 合约是 `DydxToken` 的打包版本。 用户可以与 `wethDYDX 智能合约`交互并获取 wethDYDX。
+WrappedEthereumDydxToken合约是`DydxToken`的打包版本。 用户可以与`wethDYDX智能合约`交互并获取wethDYDX。
 
 wethDYDX 部署在以太坊主网上：[0x46b2deae6eff3011008ea27ea36b7c27255ddfa9](https://etherscan.io/address/0x46b2deae6eff3011008ea27ea36b7c27255ddfa9)。
 
@@ -124,7 +125,7 @@ DydxGovernor合约受到Aave的启发。dYdX作了微小变更。
 
 ### 执行器
 
-执行器合约受到Aave的启发。dYdX作了微小变更。
+执行器合约受到Aave的启发。dYdX作了细微调整。
 
 **长时间锁**在以太坊主网上部署：[0xEcaE9BF44A21d0E2350a42127A377Bf5856d84B](https://etherscan.io/address/0xecae9bf44a21d00e2350a42127a377bf5856d84b)。
 
@@ -158,15 +159,15 @@ DydxGovernor合约受到Aave的启发。dYdX作了微小变更。
 [{"inputs":[{"internalType":"address","name":"admin","type":"address"},{"internalType":"uint256","name":"delay","type":"uint256"},{"internalType":"uint256","name":"gracePeriod","type":"uint256"},{"internalType":"uint256","name":"minimumDelay","type":"uint256"},{"internalType":"uint256","name":"maximumDelay","type":"uint256"},{"internalType":"uint256","name":"priorityPeriod","type":"uint256"},{"internalType":"uint256","name":"propositionThreshold","type":"uint256"},{"internalType":"uint256","name":"voteDuration","type":"uint256"},{"internalType":"uint256","name":"voteDifferential","type":"uint256"},{"internalType":"uint256","name":"minimumQuorum","type":"uint256"},{"internalType":"address","name":"priorityExecutor","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"bytes32","name":"actionHash","type":"bytes32"},{"indexed":true,"internalType":"address","name":"target","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"},{"indexed":false,"internalType":"string","name":"signature","type":"string"},{"indexed":false,"internalType":"bytes","name":"data","type":"bytes"},{"indexed":false,"internalType":"uint256","name":"executionTime","type":"uint256"},{"indexed":false,"internalType":"bool","name":"withDelegatecall","type":"bool"}],"name":"CancelledAction","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"bytes32","name":"actionHash","type":"bytes32"},{"indexed":true,"internalType":"address","name":"target","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"},{"indexed":false,"internalType":"string","name":"signature","type":"string"},{"indexed":false,"internalType":"bytes","name":"data","type":"bytes"},{"indexed":false,"internalType":"uint256","name":"executionTime","type":"uint256"},{"indexed":false,"internalType":"bool","name":"withDelegatecall","type":"bool"},{"indexed":false,"internalType":"bytes","name":"resultData","type":"bytes"}],"name":"ExecutedAction","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"address","name":"newAdmin","type":"address"}],"name":"NewAdmin","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"uint256","name":"delay","type":"uint256"}],"name":"NewDelay","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"address","name":"newPendingAdmin","type":"address"}],"name":"NewPendingAdmin","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"uint256","name":"priorityPeriod","type":"uint256"}],"name":"NewPriorityPeriod","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"address","name":"account","type":"address"},{"indexed":false,"internalType":"bool","name":"isPriorityController","type":"bool"}],"name":"PriorityControllerUpdated","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"bytes32","name":"actionHash","type":"bytes32"},{"indexed":true,"internalType":"address","name":"target","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"},{"indexed":false,"internalType":"string","name":"signature","type":"string"},{"indexed":false,"internalType":"bytes","name":"data","type":"bytes"},{"indexed":false,"internalType":"uint256","name":"executionTime","type":"uint256"},{"indexed":false,"internalType":"bool","name":"withDelegatecall","type":"bool"}],"name":"QueuedAction","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"bytes32","name":"actionHash","type":"bytes32"},{"indexed":false,"internalType":"bool","name":"isUnlockedForExecution","type":"bool"}],"name":"UpdatedActionPriorityStatus","type":"event"},{"inputs":[],"name":"GRACE_PERIOD","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"MAXIMUM_DELAY","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"MINIMUM_DELAY","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"MINIMUM_QUORUM","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"ONE_HUNDRED_WITH_PRECISION","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"PROPOSITION_THRESHOLD","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"VOTE_DIFFERENTIAL","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"VOTING_DURATION","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"acceptAdmin","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"target","type":"address"},{"internalType":"uint256","name":"value","type":"uint256"},{"internalType":"string","name":"signature","type":"string"},{"internalType":"bytes","name":"data","type":"bytes"},{"internalType":"uint256","name":"executionTime","type":"uint256"},{"internalType":"bool","name":"withDelegatecall","type":"bool"}],"name":"cancelTransaction","outputs":[{"internalType":"bytes32","name":"","type":"bytes32"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"target","type":"address"},{"internalType":"uint256","name":"value","type":"uint256"},{"internalType":"string","name":"signature","type":"string"},{"internalType":"bytes","name":"data","type":"bytes"},{"internalType":"uint256","name":"executionTime","type":"uint256"},{"internalType":"bool","name":"withDelegatecall","type":"bool"}],"name":"executeTransaction","outputs":[{"internalType":"bytes","name":"","type":"bytes"}],"stateMutability":"payable","type":"function"},{"inputs":[],"name":"getAdmin","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"getDelay","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"contract IDydxGovernor","name":"governance","type":"address"},{"internalType":"uint256","name":"blockNumber","type":"uint256"}],"name":"getMinimumPropositionPowerNeeded","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"votingSupply","type":"uint256"}],"name":"getMinimumVotingPowerNeeded","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"getPendingAdmin","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"getPriorityPeriod","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"bytes32","name":"actionHash","type":"bytes32"}],"name":"hasPriorityStatus","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"bytes32","name":"actionHash","type":"bytes32"}],"name":"isActionQueued","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"account","type":"address"}],"name":"isPriorityController","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"contract IDydxGovernor","name":"governance","type":"address"},{"internalType":"uint256","name":"proposalId","type":"uint256"}],"name":"isProposalOverGracePeriod","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"contract IDydxGovernor","name":"governance","type":"address"},{"internalType":"uint256","name":"proposalId","type":"uint256"}],"name":"isProposalPassed","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"contract IDydxGovernor","name":"governance","type":"address"},{"internalType":"address","name":"user","type":"address"},{"internalType":"uint256","name":"blockNumber","type":"uint256"}],"name":"isPropositionPowerEnough","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"contract IDydxGovernor","name":"governance","type":"address"},{"internalType":"uint256","name":"proposalId","type":"uint256"}],"name":"isQuorumValid","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"contract IDydxGovernor","name":"governance","type":"address"},{"internalType":"uint256","name":"proposalId","type":"uint256"}],"name":"isVoteDifferentialValid","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"target","type":"address"},{"internalType":"uint256","name":"value","type":"uint256"},{"internalType":"string","name":"signature","type":"string"},{"internalType":"bytes","name":"data","type":"bytes"},{"internalType":"uint256","name":"executionTime","type":"uint256"},{"internalType":"bool","name":"withDelegatecall","type":"bool"}],"name":"queueTransaction","outputs":[{"internalType":"bytes32","name":"","type":"bytes32"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"delay","type":"uint256"}],"name":"setDelay","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"newPendingAdmin","type":"address"}],"name":"setPendingAdmin","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"priorityPeriod","type":"uint256"}],"name":"setPriorityPeriod","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"bytes32","name":"actionHash","type":"bytes32"},{"internalType":"bool","name":"isUnlockedForExecution","type":"bool"}],"name":"setTransactionPriorityStatus","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"account","type":"address"},{"internalType":"bool","name":"isPriorityController","type":"bool"}],"name":"updatePriorityController","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"contract IDydxGovernor","name":"governance","type":"address"},{"internalType":"address","name":"user","type":"address"},{"internalType":"uint256","name":"blockNumber","type":"uint256"}],"name":"validateCreatorOfProposal","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"contract IDydxGovernor","name":"governance","type":"address"},{"internalType":"address","name":"user","type":"address"},{"internalType":"uint256","name":"blockNumber","type":"uint256"}],"name":"validateProposalCancellation","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"stateMutability":"payable","type":"receive"}]
 ```
 
-## DYDX奖励合同
+## DYDX奖励合约
 
 ### Merkle分配器
 
 ![红色虚线表示合约可以升级](../.gitbook/assets/3-core-governance-contracts-2.png)
 
-Merkle 分配器智能合约根据 Merkle 余额树分配 $ethDYDX 代币奖励。可以根据每个用户的累计奖励余额定期更新，从而允许随着时间的推移向用户分配新的奖励。
+Merkle分配器智能合约根据Merkle余额树分配$ethDYDX代币奖励。余额树可以根据每个用户的累计奖励余额定期更新，随着时间推移会向用户分配新的奖励。
 
-通过将提议的Merkle根设置为预言机合约返回的最新价值来进行更新。在等待期过后，可以推出提议的Merkle根。在等待期间，如果提议的根不正确或恶意，则dYdX治理将有机会冻结Merkle根。根更新可以由短时间锁执行器暂停。
+通过将提议的Merkle根设置为预言机合约返回的最新价值来进行更新。在等待期过后，可以推出提议的Merkle根。在等待期间，如果提议的根不正确或具有恶意，dYdX治理将有机会冻结Merkle根。根更新可以由短时间锁执行器暂停。
 
 Merkle分配器智能合约受到Uniswap和Badger设计的启发。智能合约部署在以太坊主网上：[0x01d3348601968aB85b4bb028979006eac235a588](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588)。
 
@@ -186,7 +187,7 @@ Merkle分配器智能合约受到Uniswap和Badger设计的启发。智能合约�
 
 ![红色虚线表示合约可以升级](../.gitbook/assets/3-core-governance-contracts-4.png)
 
-流动性模块是质押和借款的智能合约集，激励 $USDC 资金分配，以达到 dYdX layer 2 交易所的做市目的。
+流动性模块是质押和借款的智能合约集，激励$USDC资金分配，以达到dYdX layer 2交易所的做市目的。
 
 质押者通过质押 $USDC 获得 $ethDYDX 奖励。 质押资金可以由某些事先批准的合伙人根据信誉为基础进行借贷，无需质押。资金只能用于L2交易所，这通过StarkProxy合约强制执行，该合约与StarkExperty永续交易所合约进行互动。
 
@@ -220,15 +221,15 @@ TreasuryVester合约受到[Uniswap](https://github.com/Uniswap/governance/blob/m
 
 ## 外围合约
 
-### Chainlink预言机支持的奖励（交易和流动性提供方奖励）
+### Chainlink预言机驱动的奖励（交易和流动性提供方奖励）
 
-该系统的目标是通过去中心化的预言机签名者网络，计算和发布交易者使用 dYdX layer 2 交易所获得的 ethDYDX 代币奖励。奖励存储在Merkle树上，该树包含了自分配计划开始以来每个用户的累计奖励。每个时段，Merkle根都在MerkleDistributorV1智能合约上更新，以反映上一时段赚取的奖励。
+该系统的目标是通过去中心化的预言机签名者网络，计算和发布交易者使用 dYdX layer 2 交易所获得的 ethDYDX 代币奖励。奖励存储在Merkle树上，该树包含了自分配计划开始以来每个用户赚取的累计奖励。每个时段，Merkle根都在MerkleDistributorV1智能合约上更新，以反映上一时段赚取的奖励。
 
 我们已经与Chainlink预言机系统整合，在链上公布奖励数据。我们使用IPNS来发布Chainlink用于构建Merkle树的交易数据。通过使用IPNS，我们可以根据与前几时段相同的IPNS链接发布最新时段的交易数据，这意味着数据的位置不会变更。
 
 在计算原始交易数据的适当奖励后，Chainlink将Merkle奖励树发布给IPFS。带有Merkle树数据的IPFS CID存储在Merkle分配器合约上，以及该时段奖励的Merkle根。
 
-下表显示Chainlink预言机支持的奖励系统架构：
+以下流程图展现了Chainlink预言机驱动奖励系统的架构：
 
 ![](../.gitbook/assets/3-core-governance-contracts-merkle-distributor.png)
 
