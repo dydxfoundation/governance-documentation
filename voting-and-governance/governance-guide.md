@@ -1,9 +1,10 @@
 ---
 description: >-
   Un aperçu étape par étape du processus de gouvernance Création de la DRC, création de sondage Snapchot, création de DIP, vote sur un sondage Snapshot, vote sur une DIP, mise en file d'attente d'une DIP et exécution d'une DIP
+hidden: vrai
 ---
 
-#
+# Guide de gouvernance 🏛️
 
 La Fondation dYdX a créé ce guide pour aider la communauté dYdX à comprendre le processus de gouvernance dYdX. Le guide fournit un aperçu étape par étape de :
 
@@ -23,13 +24,13 @@ Les deux exemples présentés dans le guide sont une _DIP 2 (proposition hors ch
 
 _**Résumé :**_
 
-À l'époch 6, la communauté dYdX a voté sur [Snapshot](https://commonwealth.im/dydx/snapshot/dydxgov.eth/0x785066561be1e5d170eb28960da5ef2643ee0d0c3d590fd797c028512cc6be43) pour réduire le seuil de volume de récompenses LP pour les teneurs de marché de 1 % à 0,25 %. La réduction du seuil de récompenses LP de 5 % à 1 % à l'epoch 2 a suivi le même processus que la réduction à l'epoch 6 (1 % à 0,25 %). L'aperçu étape par étape pour réduire le seuil de volume des récompenses LP de 5 % à 1 % est inclus ci-dessous.
+À l'Epoch 6, la communauté dYdX a voté sur [Snapshot](https://commonwealth.im/dydx/snapshot/dydxgov.eth/0x785066561be1e5d170eb28960da5ef2643ee0d0c3d590fd797c028512cc6be43) pour réduire le seuil de volume de récompenses LP pour les teneurs de marché de 1 % à 0,25 %. La réduction du seuil de récompenses LP de 5 % à 1 % à l'Epoch 2 a suivi le même processus que la réduction à l'Epoch 6 (1 % à 0,25 %). L'aperçu étape par étape pour réduire le seuil de volume des récompenses LP de 5 % à 1 % est inclus ci-dessous.
 
-Un grand nombre de membres de la communauté (399 votants et 86 % de $ethDYDX) a voté sur [Snapshot](https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN) pour réduire le seuil de volume pour obtenir des récompenses de fournisseur de liquidité de 5 % à 1 %. Une [DIP hors chaîne](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-2.md) visant à réduire le seuil de volume des récompenses du fournisseur de liquidités pour les teneurs de marché de 5 % à 1 % a été soumis par Jacob Goh (jteam0x) chez DeFiance Capital. Les teneurs de marché qui atteignaient le seuil de 1 % à l'epoch 2 étaient éligibles pour gagner des récompenses de fournisseur de liquidités à l'epoch 3. La proposition ne nécessitait aucune modification des contrats intelligents en chaîne.
+Un grand nombre de membres de la communauté (399 votants et 86 % de $ethDYDX) a voté sur [Snapshot](https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN) pour réduire le seuil de volume pour obtenir des récompenses de fournisseur de liquidité de 5 % à 1 %. Une [DIP hors chaîne](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-2.md) visant à réduire le seuil de volume des récompenses du fournisseur de liquidités pour les teneurs de marché de 5 % à 1 % a été soumis par Jacob Goh (jteam0x) chez DeFiance Capital. Les teneurs de marché qui atteignaient le seuil de 1 % à l'Epoch 2 étaient éligibles pour gagner des récompenses de fournisseur de liquidités à l'Epoch 3. La proposition ne nécessitait aucune modification des contrats intelligents en chaîne.
 
 _**Contexte :**_
 
-Dans le cadre du [programme de récompenses](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards) des fournisseurs de liquidités, 1 150 685 $ethDYDX sont distribués par epoch (28 jours) aux fournisseurs de liquidités qui commercialisent le protocole. Les récompenses sont distribuées sur la base d'une formule récompensant une combinaison de temps de disponibilité, de profondeur bilatérale, d'écarts acheteur-vendeur et du nombre de marchés pris en charge. Pour être éligibles à ce programme de récompenses, les fournisseurs de liquidités doivent fournir un pourcentage minimum du volume total du fabricant au cours de l'époch précédente.
+Dans le cadre du [programme de récompenses](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards) des fournisseurs de liquidités, 1 150 685 $ethDYDX sont distribués par Epoch (28 jours) aux fournisseurs de liquidités qui commercialisent le protocole. Les récompenses sont distribuées sur la base d'une formule récompensant une combinaison de temps de disponibilité, de profondeur bilatérale, d'écarts acheteur-vendeur et du nombre de marchés pris en charge. Pour être éligibles à ce programme de récompenses, les fournisseurs de liquidités doivent fournir un pourcentage minimum du volume total du fabricant au cours de l'Epoch précédente.
 
 La communauté dYdX a « un contrôle immédiat et irrévocable sur » le seuil de récompenses des fournisseurs de liquidités. Le lien de la liste complète des paramètres que la communauté contrôle se trouve [ici](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
@@ -106,7 +107,7 @@ Ensuite, Su Zhu a créé un sondage Snapshot avec les options suivantes :
 
 #### _Comment créer un sondage sur Snapshot :_
 
-* Pour créer un sondage Snapshot, vous devrez **détenir un minimum de 10 000 de jetons de gouvernace** **et/ou disposer d'un pouvoir de proposition délégué à l'adresse que vous utilisez** pour créer la proposition.
+* Pour créer un sondage Snapshot, vous devrez **détenir un minimum de 10 000 de jetons de gouvernance** **et/ou disposer d'un pouvoir de proposition délégué à l'adresse que vous utilisez** pour créer la proposition.
 * La proposition Snapshot peut consister en une ou plusieurs actions, jusqu'à un maximum de 10 actions par proposition. Les actions sont des changements spécifiés dans une proposition.
 * Si vous remplissez l'exigence minimale de puissance de proposition de 10 000, sélectionnez « **Nouvelle proposition** » et remplissez les champs ouverts conformément aux exigences de contenu ci-dessous.
 
@@ -149,11 +150,11 @@ Lorsque le projet de proposition pour DIP 2 a été terminé, @Jteamdc a créé 
 
 ![https://github.com/dydxfoundation/dip/pulls](../.gitbook/assets/2-dip-pending-merge.png)
 
-Étant donné que la réduction du seuil de récompenses des fournisseurs de liquidité ne nécessite aucune modification des contrats intelligents sur la chaîne, le processus est maintenant terminé et les modifications seront effectives au cours de la prochaine epoch.
+Étant donné que la réduction du seuil de récompenses des fournisseurs de liquidité ne nécessite aucune modification des contrats intelligents sur la chaîne, le processus est maintenant terminé et les modifications seront effectives au cours de la prochaîne Epoch.
 
 #### _Comment créer une DIP :_
 
-* La DIP doit être basé sur le résultat gagnant du vote DIP hors chaîne sur Snapshot et peut consister en une ou plusieurs actions, jusqu'à un maximum de 10 actions par proposition. Les actions sont des changements spécifiés dans une proposition. Plus d'informations peuvent être trouvées sous [Création d'une DIP](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle#6.-proposal-queuing-and-execution).
+* La DIP doit être basée sur le résultat gagnant du vote DIP hors chaîne sur Snapshot et peut consister en une ou plusieurs actions, jusqu'à un maximum de 10 actions par proposition. Les actions sont des changements spécifiés dans une proposition. Plus d'informations peuvent être trouvées sous [Création d'une DIP](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle#6.-proposal-queuing-and-execution).
 * Inscrivez-vous pour un compte Github : [https://github.com/signup](https://github.com/signup).
 * Accédez à la page de référentiel dYdX liée [ici](https://github.com/dydxfoundation/dip) et forquez le référentiel sous votre compte Github.
 
@@ -200,25 +201,25 @@ Statuts DIP :
 
 ![](../.gitbook/assets/2-dip-status-3.png)
 
-Étant donné que la proposition ne nécessite aucune modification de contrat intelligent sur la chaîne, le processus est maintenant terminé et les modifications seront effectives au cours de la prochaine époch
+Étant donné que la proposition ne nécessite aucune modification de contrat intelligent sur la chaîne, le processus est maintenant terminé et les modifications seront effectives au cours de la prochaîne Epoch
 
 ## DIP 3 (proposition sur la chaîne) - Restauration du module de sécurité
 
 _**Résumé :**_
 
-Le 1er novembre, une [DIP](https://dydx.community/dashboard/proposal/3) en chaîne a été créé par Dan Robinson de Paradigm pour restaurer la fonctionnalité du pool de staking du module de sécurité. Un grand nombre des membres de la communauté (251 votants et près de 142 millions de ethDYDX) a voté en faveur du rétablissement de la fonctionnalité du module de sécurité. Après une période de vote de 10 jours, il a fallu près de 3 jours à un membre de la communauté pour appeler la file d'attente et déplacer la proposition dans le délai de 7 jours. Le 20 novembre, le module de sécurité a été restauré et remis à un état propre.
+Le 1er novembre, une [DIP](https://dydx.community/dashboard/proposal/3) en chaîne a été créé par Dan Robinson de Paradigm pour restaurer la fonctionnalité du pool de staking du module de sécurité. Un grand nombre des membres de la communauté (251 votants et près de 142 millions d'ethDYDX) a voté en faveur du rétablissement de la fonctionnalité du module de sécurité. Après une période de vote de 10 jours, il a fallu près de 3 jours à un membre de la communauté pour appeler la file d'attente et déplacer la proposition dans le délai de 7 jours. Le 20 novembre, le module de sécurité a été restauré et remis à un état propre.
 
 _**Contexte :**_
 
 Le module de sécurité dYdX est un contrat de staking conçu pour démarrer un pool de fonds décentralisé qui peut être utilisé pour soutenir le protocole dYdX. Les utilisateurs mettent $ethDYDX dans le pool de sécurité et reçoivent $stkDYDX (1 : 1). $stkDYDX est une position tokenisée transférée en tant que ERC-20 qui a les mêmes droits de vote et de proposition que $ethDYDX. En cas de déficit, un vote de gouvernance est nécessaire pour réduire $ethDYDX staké afin d'atténuer les pertes. À partir de l'approvisionnement en jetons $ethDYDX, 2,5 % (25 000 000 $ethDYDX) de l'approvisionnement en jetons seront distribués aux utilisateurs qui stakent des ethDYDX dans le pool de staking de sécurité. Vous pouvez trouver plus d'informations sur le pool de staking de sécurité [ici](https://dydx.foundation/blog/en/safety-staking).
 
-Dans le cadre des [récompenses du pool de mise de sécurité](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool), 383 562 $ethDYDX seront distribués par époch (28 jours) aux stakers. Les récompenses sont distribuées au prorata toutes les secondes aux stakers.
+Dans le cadre des [récompenses du pool de mise de sécurité](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool), 383 562 $ethDYDX seront distribués par Epoch (28 jours) aux stakers. Les récompenses sont distribuées au prorata toutes les secondes aux stakers.
 
 La communauté dYdX a « un contrôle immédiat et irrévocable sur » les paramètres du contrat intelligent du module de sécurité. Le lien de la liste complète des paramètres que la communauté contrôle se trouve [ici](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 
 La restriction de transfert sur les jetons $ethDYDX a été levée le 8 septembre à 15:00 UTC, et le staking a effectivement été ouvert au module de sécurité dYdX. Plus de 50 adresses différentes ont misé environ 157 000 DYDX pendant près d'une heure. Un bogue a provoqué une erreur dans le processus de déploiement et aucun stkDYDX n'a été envoyé aux adresses qui se sont implantées dans le module de sécurité. En conséquence, les fonds de chaque participant étaient bloqués dans le contrat et l'équipe dYdX a désactivé le staking sur l'interface utilisateur de gouvernance dYdX.
 
-[DIP 1](https://dydx.community/dashboard/proposal/0) a proposé de restaurer la fonctionnalité du module de sécurité et de permettre aux adresses concernées de récupérer leurs fonds et de recevoir 10 % supplémentaires de leurs jetons stakés à titre de compensation pour les rendre entiers. Alors que le sentiment de la communauté était fortement en faveur du [DIP 1 - Restauration du module de sécurité et récupération des piquets](https://dydx.community/dashboard/proposal/0), la proposition a échoué car elle n'atteignait pas le quorum minimum de 100 millions de $ethDYDX requis pour qu'un vote Long Timelock soit adopté. En conséquence, Jacob Goh (jteam0x) de DeFiance Capital a créé [DIP 4 - Safety Module Staker Reimbursement and Compensation](https://dydx.community/dashboard/proposal/2) pour rembourser et indemniser les adresses concernées pour leurs récompenses et inconvénients manqués. La [DIP 4](https://dydx.community/dashboard/proposal/2) impliquait de déployer le contrat de récupération pour les tokens stakés d'utilisateurs et de compenser les adresses affectées de 10 % supplémentaires par la Trésorerie des récompenses. La DIP était régi par les paramètres de gouvernance moins stricts d'un verrouillage de courte durée.
+[DIP 1](https://dydx.community/dashboard/proposal/0) a proposé de restaurer la fonctionnalité du module de sécurité et de permettre aux adresses concernées de récupérer leurs fonds et de recevoir 10 % supplémentaires de leurs jetons stakés à titre de compensation pour les rendre entiers. Alors que le sentiment de la communauté était fortement en faveur du [DIP 1 - Restauration du module de sécurité et récupération des piquets](https://dydx.community/dashboard/proposal/0), la proposition a échoué car elle n'atteignait pas le quorum minimum de 100 millions de $ethDYDX requis pour qu'un vote Long Timelock soit adopté. En conséquence, Jacob Goh (jteam0x) de DeFiance Capital a créé [DIP 4 - Safety Module Staker Reimbursement and Compensation](https://dydx.community/dashboard/proposal/2) pour rembourser et indemniser les adresses concernées pour leurs récompenses et inconvénients manqués. La [DIP 4](https://dydx.community/dashboard/proposal/2) impliquait de déployer le contrat de récupération pour les tokens stakés d'utilisateurs et de compenser les adresses affectées de 10 % supplémentaires par la Trésorerie des récompenses. La DIP était régie par les paramètres de gouvernance moins stricts d'un verrouillage de courte durée.
 
 Le cycle de vie de la proposition d'une DIP est généralement cohérent jusqu'à la création du DIP. La principale différence entre DIP 3 (en chaîne) et DIP 2 (hors chaîne) était que DIP 3 nécessitait le vote en chaîne et le déploiement de contrats intelligents. Étant donné que le processus de discussion sur le forum, la création de la DRC et la création du projet de DIP sont les mêmes, nous commençons notre discussion étape par étape avec les exigences de contenu pour rédiger La DIP sur la chaîne. Pour plus d'informations, veuillez suivre les liens ci-dessous :
 
@@ -227,7 +228,7 @@ Le cycle de vie de la proposition d'une DIP est généralement cohérent jusqu'�
 * Discussion sur forum hors chaîne **-** [https://commonwealth.im/dydx/proposition/discussion/1743-safety-staking-pool-on-pause](https://commonwealth.im/dydx/proposal/discussion/1743-safety-staking-pool-on-pause).
 * DRC hors chaîne **-** [https://commonwealth.im/dydx/proposition/discussion/1770-drc-incident-report-of-the-safety-module-outage-proposed-solution](https://commonwealth.im/dydx/proposal/discussion/1770-drc-incident-report-of-the-safety-module-outage-proposed-solution)
 * Vote DRC Snapshot hors chaîne **-** [https://snapshot.org/#/dydxgov.eth/proposition/QmbJ5QxHr1pyShKTDaF5DjAr6vxQn8DVxshH2fyWgzDCBn](https://snapshot.org/#/dydxgov.eth/proposal/QmbJ5QxHr1pyShKTDaF5DjAr6vxQn8DVxshH2fyWgzDCBn)
-* DIP proposé sur Github **-** [https://github.com/dydxfoundation/dip/blob/master/dips/DIP-3.md](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md)
+* DIP proposée sur Github **-** [https://github.com/dydxfoundation/dip/blob/master/dips/DIP-3.md](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md)
 
 ### **ÉTAPE 1 - Rédaction DIP sur la chaîne**
 
@@ -313,7 +314,8 @@ L'équipe Paradigm a déployé les mises à jour du contrat intelligent en exéc
 
 `exporter MNEMONIC=<... >`
 
-`npx hardhat --network mainnet deploy:safety-module-recovery`\ `--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\ `--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\ `--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`
+`npx hardhat --network mainnet deploy:safety-module-recovery`\ `--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\ `--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
+`--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`
 
 **Proposition de gouvernance : Correction du module de sécurité**
 
@@ -321,7 +323,9 @@ L'équipe Paradigm a déployé les mises à jour du contrat intelligent en exéc
 
 `exporter MNEMONIC=<... >`
 
-`npx hardhat --network mainnet deploy:safety-module-fix-proposal`\ `--proposal-ipfs-hash-hex 0x...`\ `--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\ `--long-timelock-address 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B`\ `--safety-module-address 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC`\ `--safety-module-proxy-admin-address 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C`\ `--safety-module-new-impl-address 0x...`
+`npx hardhat --network mainnet deploy:safety-module-fix-proposal`\
+`--proposal-ipfs-hash-hex 0x...`\ `--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
+`--long-timelock-address 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B`\ `--safety-module-address 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC`\ `--safety-module-proxy-admin-address 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C`\ `--safety-module-new-impl-address 0x...`
 
 **Proposition de gouvernance : Compensation du module de sécurité**
 
@@ -329,7 +333,10 @@ L'équipe Paradigm a déployé les mises à jour du contrat intelligent en exéc
 
 `exporter MNEMONIC=<... >`
 
-`npx hardhat --network mainnet deploy:safety-module-compensation-proposal`\ `--proposal-ipfs-hash-hex 0x...`\ `--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\ `--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\ `--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\ `--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`\ `--safety-module-recovery-address 0x...`
+`npx hardhat --network mainnet deploy:safety-module-compensation-proposal`\ `--proposal-ipfs-hash-hex 0x...`\
+`--dydx-token-address 0x92D6C1e31e14520e676a687F0a93788B716BEff5`\ `--governor-address 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2`\
+`--short-timelock-address 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc`\
+`--rewards-treasury-address 0x639192D54431F8c816368D3FB4107Bc168d0E871`\ `--safety-module-recovery-address 0x...`
 
 La DIP a été publiée simultanément sur [https://dydx.community/dashboard](https://dydx.community/dashboard).
 
@@ -377,7 +384,7 @@ Notez que (1) les propositions doivent être exécutées dans le délai de grâc
 
 ![https://dashboard.alchemyapi.io/](../.gitbook/assets/2-draft-dip-example-15.png)
 
-* Une fois l'application créée, cliquez sur « Afficher la clé » pour obtenir votre clé Alchemy (7LOaQtguSm2kSEcFXQH88B) : [https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul](https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul).
+* Une fois l'application créée, cliquez sur « Afficher la clé » pour obtenir votre clé Alchemy (7LOaQtguSm2kSEcFXQH88B) : [https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul](https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN_K7t_ul).
 
 ![https://dashboard.alchemyapi.io/apps/xogmjmlex8tlmr95](../.gitbook/assets/2-draft-dip-example-16.png)
 
@@ -406,7 +413,7 @@ La durée du vote dépend du type de proposition. Plus d'informations peuvent ê
 Une proposition réussie peut être mise en file d'attente pour démarrer le délai de verrouillage.
 
 * Assurez-vous que vous utilisez un portefeuille compatible contenant Eth.
-* Allez dans l'onglet « Contrat » sur Etherscan et cliquez sur « Écrire un contrat" » Le line du contrat de gouvernance se trouve [ici](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract).
+* Allez dans l'onglet « Contrat » sur Etherscan et cliquez sur « Écrire un contrat" » Le lien du contrat de gouvernance se trouve [ici](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract).
 
 ![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/2-draft-dip-example-queue-1.png)
 
@@ -430,7 +437,7 @@ Le « proposalId » se trouve sur Etherscan lors de la création de la DIP : 
 
 Après le délai de verrouillage, une proposition réussie peut être exécutée.
 
-* Allez dans l'onglet "Contrat" sur Etherscan et cliquez sur "Écrire un contrat". Le line du contrat de gouvernance se trouve [ici](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract).
+* Allez dans l'onglet « Contrat » sur Etherscan et cliquez sur « Écrire un contrat" » Le lien du contrat de gouvernance se trouve [ici](https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract).
 
 ![https://etherscan.io/address/0x7e9b1672616ff6d6629ef2879419aae79a9018d2#writeContract](../.gitbook/assets/2-draft-dip-example-execute-1.png)
 
