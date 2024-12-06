@@ -1,8 +1,9 @@
 ---
 description: dYdX İyileştirme Teklifi (DIP) yaşam döngüsüne genel bakış.
+hidden: gerçek
 ---
 
-#
+# 💼 Teklif Yaşam Döngüsü
 
 ## **Teklif Aşamaları**
 
@@ -76,7 +77,7 @@ Bir DIP'nin oluşturulabilmesi için, bir hesap için gerekli olan minimum sayı
 
 ## 5. (Zincir üstü) DIP Oylaması
 
-Bir Zincir üstü DIP oluşturulduktan sonra, teklif şu anda `6``570` blok veya yaklaşık 1 gün (blok başına yaklaşık 13.2 saniye gerektiğini varsayarak) olarak yapılandırılan **Oylama Bekleme** Süresi ile tanımlanan bir bekleme durumuna geçer. Diğer bir deyişle, kullanıcı anlık görüntüleri DIP oluşturulduktan 1 gün sonra kaydedilir ve bu noktada teklif `aktif` duruma geçer.
+Bir Zincir üstü DIP oluşturulduktan sonra, teklif şu anda `6570` blok veya yaklaşık 1 gün (blok başına yaklaşık 13.2 saniye gerektiğini varsayarak) olarak yapılandırılan **Oylama Bekleme** Süresi ile tanımlanan bir `bekleme` durumuna geçer. Diğer bir deyişle, kullanıcı anlık görüntüleri DIP oluşturulduktan 1 gün sonra kaydedilir ve bu noktada teklif `aktif` duruma geçer.
 
 Oylama Bekleme Süresi dolduktan sonra Oylama Süresi etkinleştirilir. Oylama süresinin uzunluğu teklifin türüne bağlıdır.
 
