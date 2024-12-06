@@ -1,12 +1,13 @@
 ---
 description: dYdX Vakfı'na genel bakış
+hidden: gerçek
 ---
 
-# Temel
+# Kuruluşu
 
-dYdX Vakfı, merkezi İsviçre'nin Zug şehrinde bulunan bağımsız bir kâr amacı gütmeyen kuruluştur. dYdX Vakfı hakkında daha fazla bilgiyi [**dydx.foundation**](https://dydx.foundation) adresinde bulabilirsiniz.
+dYdX Vakfı, merkezi İsviçre'nin Zug şehrinde bulunan kâr amacı gütmeyen bağımsız bir kuruluştur. dYdX Vakfı hakkında daha fazla bilgiyi [**dydx.foundation**](https://dydx.foundation) adresinde bulabilirsiniz.
 
-### Misyon
+### Misyonu
 
 dYdX Vakfı'nın amacı, dYdX Katman 2 Protokolü ile ilişkili ekosistem de dâhil ancak bununla sınırlı kalmaksızın dYdX Katman 2 Protokolü'nün mevcut uygulamasını ve gelecekteki tüm uygulamalarını teknik açıdan ve tüm diğer açılardan desteklemek ve büyütmek ve dYdX Katman 2 Protokolü'nün mevcut uygulamasını ve gelecekteki tüm uygulamalarını teknik açıdan ve tüm diğer açılardan desteklemek ve büyütmek isteyen kişilerin katılımını teşvik etmektir. Vakıf senedi dYdX Vakfı'na özellikle şu yetkileri vermektedir:
 
@@ -20,9 +21,9 @@ dYdX Vakfı'nın amacı, dYdX Katman 2 Protokolü ile ilişkili ekosistem de dâ
 * Ekosistemi ve/veya dYdX Katman 2 Protokolü'nü destekleyen ve tanıtan konferanslar ve başka etkinlikler düzenleme
 * Bu belgede açıklanan amaçların gerçekleştirilmesini ve tanıtılmasını sağlamak için gerekli, uygun, isteğe bağlı veya arzu edilebilir olabilecek tüm işleri yürütme ve tanıtma ve/veya tüm işlemleri yapma ve genel anlamda tüm eylemleri gerçekleştirme
 
-dYdX Vakfı dYdX Katman 2 Protokolü'nün ekosistemi ve yönetişimi ile ilgili konuların geliştirilmesine ve büyümesine yardımcı olurken, dYdX Trading'in ana geliştirme ekibi ise gelecekteki zamanını, diğer şeylerin yanı sıra dYdX Katman 2 Protokolü'nün emir defterini ve eşleme motoru bileşenlerini merkeziyetsizleştirmeye odaklanarak geçirecektir. Her ne kadar merkeziyetsiz bir emir defteri ve eşleme motoru dYdX Katman 2 Protokolü'nde değişikliklere yol açacak olsa da dYdX Katman 2 Protokolü'nün işlevselliğini artırması beklenmemektedir. Bunun yerine, dYdX Katman 2 Protokolü'nde her açıdan sansüre direnç oluşturma gibi bir fayda sağlayacaktır.
+dYdX Vakfı dYdX Katman 2 Protokolü'nün ekosistemi ve yönetişimi ile ilgili konuların geliştirilmesine ve büyümesine yardımcı olurken dYdX Trading'in ana geliştirme ekibi ise gelecekteki zamanını, diğer şeylerin yanı sıra dYdX Katman 2 Protokolü'nün emir defterini ve eşleme motoru bileşenlerini merkeziyetsizleştirmeye odaklanarak geçirecektir. Her ne kadar merkeziyetsiz bir emir defteri ve eşleme motoru dYdX Katman 2 Protokolü'nde değişikliklere yol açacak olsa da dYdX Katman 2 Protokolü'nün işlevlerini artırması beklenmemektedir. Bunun yerine, dYdX Katman 2 Protokolü'nde her açıdan sansüre direnç oluşturma gibi bir fayda sağlayacaktır.
 
-dYdX Vakfı kâr amacı gütmez ve genel olarak herhangi bir kâr sağlamaya çalışmaz. Bu arada, dYdX Trading alım satım hacmine bağlı olarak piyasa alıcı ve piyasa yapıcı ücretleri almaya devam edecektir ve bu ücretler alım satımların işlem ücretlerini kapsayacak, gelir sağlayacak ve daha fazla likiditeyi teşvik edecektir.
+dYdX Vakfı kâr amacı gütmez ve genel olarak herhangi bir kâr sağlamaya çalışmaz. Ancak dYdX Trading alım satım hacmine bağlı olarak piyasa alıcı ve piyasa yapıcı ücretleri almaya devam edecektir ve bu ücretler alım satımların işlem ücretlerini kapsayacak, gelir sağlayacak ve daha fazla likiditeyi teşvik edecektir.
 
 dYdX Vakfı, merkeziyetsiz yönetişimi teşvik ederek ve yatırımcıları güçlü, şeffaf ve açık gelişmiş finansal ürünlerle güçlendirerek dYdX Katman 2 Protokolü'nün topluluk liderliğinde büyüme, geliştirme ve kendi kendini sürdürülebilirlik yönünde ilerletilmesine yardımcı olacaktır.
 
