@@ -6,15 +6,15 @@ description: Zuweisungen für das $ethDYDX-Token.
 
 **Allokationen**
 
-Insgesamt `1.000.000.000 $ethDYDX` wurden am 3. **August 2021 um 15:00:00 UTC** geprägt und wurden über fünf (5) Jahre hinweg zugänglich gemacht. Die anfängliche fünfjährige Zuteilung des Gesamtangebots an $ethDYDX war wie folgt:
+Insgesamt `1.000.000.000 $ethDYDX` wurden am 3. **August 2021 um 15:00:00 UTC** geminted und wurden über fünf (5) Jahre hinweg zugänglich gemacht. Die anfängliche fünfjährige Zuteilung des Gesamtangebots an $ethDYDX war wie folgt:
 
 * **50,0 %** (`500.000.000 $ethDYDX`) gingen wie folgt an die Community:
-  * **25,0 %** (`250.000.000 $ethDYDX`) basierend auf der[Formel für die Handelsprämien](https://docs.dydx.community/dydx-governance/rewards/trading-rewards),
-  * **7,50 %** (`75.000.000 $ethDYDX`) an ehemalige Benutzer, die bestimmte Etappenziele auf dem dYdX-Layer-2-Protokoll ([rückwirkende Mining-Prämien](https://docs.dydx.community/dydx-governance/rewards/retroactive-mining-rewards)) erreichen,
-  * **7,5 %** (`75.000.000 $ethDYDX`) basierend auf den [Formeln für Prämien von Liquiditätsanbietern](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards),
-  * **5,0 %** (`50.000.000 $ethDYDX`) an eine [Gemeinschaftskasse](https://docs.dydx.community/dydx-governance/start-here/community-treasury/),
-  * **2,5 %** (`25.000.000 $ethDYDX`) an Benutzer, die $USDC in einem [Liquiditäts-Pool](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool) einsetzen,
-  * **2,5 %** (`25.000.000 $ethDYDX`) an Benutzer, die $ethDYDX in einem [Sicherheits-Pool](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool) einsetzen,
+  * **25,0** `% (250.000.000` $ethDYDX) auf der [Grundlage der Handelsprämienformel](../rewards/trading-rewards.md),
+  * **7,5 %** (`75.000.000 $ethDYDX`) an frühere Benutzer, die bestimmte Handelsmeilensteine auf dem Layer-2-Protokoll (rückwirkende Mining-Prämien) abschließen,
+  * **7,5 %** (`75.000.000 $ethDYDX`) basierend auf den [Formeln für Prämien von Liquiditätsanbietern](../rewards/liquidity-provider-rewards.md),
+  * **5,0 %** (`50.000.000 $ethDYDX`) an eine [Gemeinschaftskasse](community-treasury.md),
+  * **2,5 %** (`25.000.000 $ethDYDX`) an Benutzer, die $USDC in einem [Liquiditäts-Pool](../staking-pools/liquidity-staking-pool.md) einsetzen,
+  * **2,5 %** (`25.000.000 $ethDYDX`) an Benutzer, die $ethDYDX in einem [Sicherheits-Pool](../staking-pools/safety-staking-pool.md) einsetzen,
 * **27,7 %** (`277.295.070 $ethDYDX`) an frühere Investoren von dYdX Trading Inc.,
 * **15,3 %** (`152.704.930 $ethDYDX`) an Gründer, Mitarbeiter und Berater von dYdX Trading Inc. oder von der dYdX Foundation und
 * **7,0 %** (`70.000.000 $ethDYDX`) an zukünftige Mitarbeiter und Berater von dYdX Trading Inc. oder der dYdX Foundation.
@@ -22,14 +22,14 @@ Insgesamt `1.000.000.000 $ethDYDX` wurden am 3. **August 2021 um 15:00:00 UTC** 
 Seit dem Start von $ethDYDX haben mehrere Governance-Vorschläge zu Änderungen der ursprünglichen Zuweisung geführt. Derzeit sieht die Zuteilung wie folgt aus:
 
 * **50,0 %** (`500.000.000 $ethDYDX`) gingen wie folgt an die Community:
-  * **14,5 %** (`144.693.506 $ethDYDX`) auf der Grundlage der [Formel für Handelsprämien](https://docs.dydx.community/dydx-governance/rewards/trading-rewards),
+  * **14,5** `% (144.693.506` $ethDYDX) auf der [Grundlage der Handelsprämienformel](https://docs.dydx.community/dydx-governance/rewards/trading-rewards),
     * In [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) und [DIP 20](https://dydx.community/dashboard/proposal/11) hat die dYdX-Community dafür gestimmt, die Handelsprämien um insgesamt 2,3 Mio. $ethDYDX zu reduzieren (958.904 $ethDYDX von DIP 16 und 1.294.520 $ethDYDX von DIP 20). Die 2,3 Mio. $ethDYDX werden in der Prämienkasse anfallen und können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
     * In [DIP 29](https://dydx.community/dashboard/proposal/16) hat die dYdX-Community vereinbart, die Handelsprämien von Epoche 30-32 auf dYdX v3 um ⅓ auf die folgenden Werte zu reduzieren:
       * Epoch 30: 1.054.795 $ethDYDX
       * Epoch 31: 527.398 $ethDYDX
       * Epoche 32: 0 $ethDYDX
-  * **5,0 %** (`50.309.197 $ethDYDX`) an frühere Benutzer, die bestimmte Etappenziele auf dem dYdX-Layer-2-Protokoll ([rückwirkende Mining-Prämien](../rewards/retroactive-mining-rewards.md)) abschließen,
-    * Nach Epoche 0 wurden 24.690.803 nicht beanspruchte $ethDYDX aus dem Bonusprogramm für rückwirkendes Mining in die Gemeinschaftskasse überführt.
+  * **5,0 %** (`50.309.197 $ethDYDX`) an frühere Benutzer, die bestimmte Handelsmeilensteine auf dem dYdX-Layer-2-Protokoll (rückwirkende Mining-Prämien) abschließen,
+    * Nach Epoche 0 wurden 24.690.803 nicht beanspruchte $ethDYDX aus dem rückwirkenden Mining-Prämienprogramm an die Gemeinschaftskasse übertragen.
   * **3,3 %** (`32.794.525 $ethDYDX`) auf der Grundlage der [Prämienformel(n) für Liquiditätsanbieter](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards),
     * In [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) hat die dYdX-Community vereinbart, die Prämien für Liquiditätsanbieter von 1.150.685 $ethDYDX pro Epoche um 50 % auf 575.343 $ethDYDX pro Epoche zu reduzieren. Die überschüssigen 575.342 $ethDYDX pro Epoche werden in der Prämienkasse anfallen und können von der dYdX-Community mit einer [Governance-Abstimmung](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) verwendet werden.
     * In [DIP 29](https://dydx.community/dashboard/proposal/16) hat die dYdX-Community vereinbart, die Handelsprämien von Epoche 30-32 auf dYdX v3 um ⅓ auf die folgenden Werte zu reduzieren:
@@ -61,7 +61,7 @@ Das folgende Diagramm zeigt die gesamte Liquiditätsversorgung ohne Inflation:
 
 <details>
 
-<summary>Kann sich die Zuteilung von $ethDYDX ändern? </summary>
+<summary>Kann sich die Zuweisung von $ethDYDX ändern?</summary>
 
 Ja, die dYdX-Community kann sämtliche [Rewards und Pools ändern, die von Anbeginn des Launches bestanden](../voting-and-governance/governance-parameters.md). Bisher hat die dYdX-Community in mehreren Governance-Vorschlägen für die Reduzierung der DYDX-Emissionen gestimmt:
 
@@ -106,11 +106,11 @@ Ab fünf Jahren nach dem Start kann eine maximale ewige Inflationsrate von 2 % p
 
 <summary>Was ist die Sperrfrist für $ethDYDX, die an Investoren, bestehende und zukünftige Mitarbeiter und Berater ausgegeben werden?</summary>
 
-Ein Teil der ursprünglichen Zuweisung von $ethDYDX-Token war früheren Investoren von dYdX Trading Inc., Gründern, Mitarbeitern, Beratern und Beratern von dYdX Trading Inc. oder der dYdX Foundation und zukünftigen Mitarbeitern und Beratern von dYdX Trading Inc. oder der dYdX Foundation vorbehalten.
+Ein Teil der ursprünglichen Zuteilung von $ethDYDX-Token war früheren Investoren von dYdX Trading Inc., Gründern, Mitarbeitern, Beratern und Beratern von dYdX Trading Inc. oder der dYdX Foundation sowie zukünftigen Mitarbeitern und Beratern von dYdX Trading Inc. oder der dYdX Foundation vorbehalten.
 
-Am 25. Januar 2023 [gab](https://www.dydx.foundation/blog/lock-up-extension) die dYdX Foundation eine Änderung bekannt, um das erste Veröffentlichungsdatum der $ethDYDX-Token des Investors auf den 1. Dezember 2023 zu verschieben. Die Änderung änderte den gestaffelten Freischaltplan nach dem ersten Freischaltdatum nicht.
+Am 25. Januar 2023 [gab](https://www.dydx.foundation/blog/lock-up-extension) die dYdX Foundation eine Änderung bekannt, um das erste Veröffentlichungsdatum der $ethDYDX-Token des Investors auf den 1. Dezember 2023 zu verschieben. Die Änderung änderte den gestaffelten Freischaltplan nach dem ursprünglichen Freischaltdatum nicht.
 
-Gemäß der Änderung werden Token wie folgt von den Übertragungsbeschränkungen freigegeben:
+Gemäß der Änderung werden Token wie folgt aus den Übertragungsbeschränkungen freigegeben:
 
 * 30 % am 1. Dezember 2023;
 * 40 % in gleichen monatlichen Raten vom 1. Januar 2024 bis zum 1. Juni 2024;
