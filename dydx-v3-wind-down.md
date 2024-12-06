@@ -1,7 +1,7 @@
-# Отмена dYdX v3
+# Свертывание dYdX v3
 
-dYdX Trading, Inc. [объявила,](https://dydx.exchange/blog/v3-product-sunset) что она закроет v3 с 28 октября 2024 года.
+dYdX Trading, Inc. закрыла торги dYdX v3 с 28 октября 2024 года.
 
-Пользователи dYdX Chain, [http://dydx.trade](https://t.co/v3TXeNvCwf) и dYdX Chain API не затрагиваются.
+Пользователи цепочки dYdX ([http://dydx.trade](https://t.co/v3TXeNvCwf)) и API цепочки dYdX не затронуты.
 
-Таким образом, в соответствии с целью dYdX Foundation мы подготовили [список часто задаваемых вопросов](https://www.dydx.foundation/blog/dydx-v3-sunset-governance-token-faqs) о влиянии прекращения работы dYdX v3 на управление dYdX v3 и держателей токенов ethDYDX и wethDYDX.
+Таким образом, в соответствии с целью [dYdX](https://www.dydx.foundation/blog/dydx-v3-sunset-governance-token-faqs) Foundation мы подготовили список часто задаваемых вопросов о влиянии сворачивания dYdX v3 на управление dYdX v3 и владельцев токенов ethDYDX и wethDYDX.
