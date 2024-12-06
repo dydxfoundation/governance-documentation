@@ -1,25 +1,26 @@
 ---
 description: >-
   Una guía técnica paso a paso sobre cómo crear una propuesta para transferir ethDYDX de la tesorería de la comunidad a una dirección de destino.
+hidden: verdadero
 ---
 
-# Guía técnica para construir una Propuesta de gasto de tesorería de la comunidad dYdX
+# Guía técnica para construir una Propuesta de Gasto de Tesorería de la Comunidad dYdX
 
-Reverie ha elaborado una guía técnica completa para enviar una propuesta de gobernanza para transferir ethDYDX de la Tesorería de la comunidad a través de un Pull Request (PR) al repositorio de contratos de _gobernanza de dYdX._
+Reverie ha elaborado una guía técnica completa para enviar una propuesta de gobernanza para transferir $ethDYDX de la Tesorería de la Comunidad a través de una Solicitud de Extracción (PR) al repositorio de _contratos de gobernanza_ de dYdX.
 
-Para crear esta propuesta, un miembro de la comunidad dYdX debe tener **al menos 5M de tokens de gobernanza **(_0,5 % del suministro total) _de poder de propuesta (umbral de p[ropuesta ](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters)para un v[oto de bloqueo de tiempo corto).](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)
+Para crear esta propuesta, un miembro de la comunidad dYdX debe tener al menos **5 millones de** _tokens de gobernanza_ (0,5% del suministro total) de poder de [propuesta (umbral](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters) de propuesta [para un voto de bloqueo de](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor) tiempo corto).
 
 ### Requisitos preliminares
 
-Se deben cumplir los siguientes pasos antes de presentar la solicitud de retiro (SR):
+Se deben cumplir los siguientes pasos antes de presentar la Solicitud de Retiro (SR):
 
-1. **Ciclo de vida de la propuesta:** El DRC debe publicarse siguiendo la [plantilla](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) de la propuesta y debe haber un voto de Snapshot exitoso.
-2. **Dirección de destino:** La dirección de destino debe generarse con antelación. Si la dirección de destino es multifirmas, se debe crear la billetera multifirmas.
+1. **Ciclo de Vida de la Propuesta:** El DRC debe publicarse siguiendo la [plantilla](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) de la propuesta y debe haber un voto de Snapshot exitoso.
+2. **Dirección de Destino:** La dirección de destino debe generarse con antelación. Si la dirección de destino es multifirmas, se debe crear la billetera multifirmas.
 3. **Cuenta de GitHub:** Una cuenta de GitHub para bifurcar el repositorio.
 4. **Cantidad de la transferencia (opcional):** Es preferible que se establezca la cantidad solicitada de la transferencia antes de la SR. Sin embargo, si se usa una cantidad hipotética, se puede establecer como paso final antes de la aprobación.
-5. **Hash IPFS de DIP (opcional):** Si se conoce la cantidad de la transferencia, se debe finalizar el DIP y enviarse a IPFS para generar su hash. Sin embargo, esto se puede establecer como paso final antes de la aprobación si la cantidad aún no se determina.
+5. **Hash IPFS de DIP (Opcional):** Si se conoce la cantidad de la transferencia, se debe finalizar el DIP y enviarse a IPFS para generar su hash. Sin embargo, esto se puede establecer como paso final antes de la aprobación si la cantidad aún no se determina.
 
-### Elaboración de la propuesta
+### Elaboración de la Propuesta
 
 1. **Bifurque el** [**repositorio de contratos de gobernanza de dYdX**](https://github.com/dydxfoundation/DIP) **en su cuenta de GitHub.**
 
@@ -147,7 +148,7 @@ export async function createProposalNameProposal({
 ```
 
 \
-5\. **Tarea de despliegue**
+5\. **Tarea de Despliegue**
 
 Con la propuesta creada, podemos escribir el despliegue que generará transacción y los datos de llamada necesarios para presentar la propuesta.
 
@@ -188,7 +189,7 @@ hardhatTask('deploy:proposal-name', 'Proposal Description.')
 ```
 
 \
-6\. **Elaboración de las pruebas**
+6\. **Elaboración de las Pruebas**
 
 Ahora que el código está listo para desplegarse, es hora de elaborar algunas pruebas en función de la propuesta. Las pruebas se hacen tanto de manera local como con una bifurcación de la mainnet para simular la ejecución de una propuesta en cadena.
 
@@ -232,7 +233,7 @@ const MOCK_PROPOSAL_IPFS_HASH = (
     * **deployConfig.PROPOSAL\_FUNDING\_AMOUNT** → la variable del archivo base-config reemplazará esta función.
     * **FUND\_PROPOSAL\_NAME\_PROPOSAL\_ID** → esta es la variable que creamos en _**config/index.ts**_.
     * _**createProposalNameProposal** → esta función se importó antes para usarse_
-    * **fundProposalNameViaNoProposal** → cree esta función y cámbiele el nombre para que coincida con el de la propuesta.
+    * **fundProposalNameViaNoProposal** → cree esta función y cámbiele el nombre para que coincida con el de la propuesta
 
 \
     Repase el código siguiente para reemplazar todas estas variables con el nombre de la propuesta y las variables existentes que ya creó antes:
@@ -377,7 +378,7 @@ async function fundCommunityTreasuryFromFoundationIfNecessary({
 }
 ```
 
-b. **Agregue las funciones de prueba a la secuencia de comandos de prueba**
+b. **Agregue las Funciones de Prueba a la secuencia de Comandos de Prueba**
 
 En test/migrations/deploy-contracts-for-test.ts, agregaremos las funciones que creó antes para que se incluyan en nuestras pruebas:
 
@@ -389,8 +390,8 @@ test/migrations/deploy-contracts-for-test.ts
 import { fundProposalNameNoProposal, fundProposalNameViaProposal } from './proposal-name-proposal';
 ```
 
-* Agregue pruebas para ambas funciones creando una función general para pruebas → execute executeProposalNameProposalForTest; **cambie el nombre para que coincida con el de la propuesta**.
-* También llamamos a la variable config **TEST\_PROPOSAL\_NAME\_TRUST\_WITH\_PROPOSAL** previamente creada y la variable **PROPOSAL\_NAME\_ADDRESS** de deployConfig.
+* Agregue pruebas para ambas funciones creando una función general para pruebas → executeProposalNameProposalForTest, **cambie el nombre para que coincida con el de la propuesta**
+* También llamamos a la variable config **TEST\_PROPOSAL\_NAME\_TRUST\_WITH\_PROPOSAL** previamente creada y la variable **PROPOSAL\_NAME\_ADDRESS** de deployConfig
 
 ```typescript
 ...
@@ -419,7 +420,7 @@ export async function executeProposalNameProposalForTest(
 // put this above the configureForTest function
 ```
 
-c. **Agregue el contrato a los ayudantes de la prueba**
+c. **Agregue el contrato a los ayudantes de la Prueba**
 
 En test/helpers/get-deployed-contracts-for-test.ts, agregue la función creada antes para que las pruebas se lleven a cabo en las pruebas de la bifurcación de la mainnet:
 
@@ -474,7 +475,7 @@ async function getDeployedContractsForTest(): Promise<AllDeployedContracts> {
 }
 ```
 
-d. **Archivo final de prueba**
+d. **Archivo Final de Prueba**
 
 Por último, agregamos una prueba tanto del hash IPFS y el saldo de la billetera multifirmas luego de la propuesta hipotética para asegurarse de que todo resulte como se espera.
 
