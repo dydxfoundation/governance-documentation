@@ -9,12 +9,12 @@ description: Распределения токена $ethDYDX.
 В общей сложности `1 000 000 000 $ethDYDX` были созданы **3 августа 2021 года в 15:00:00 UTC** и начали становиться доступными в течение пяти (5) лет. Первоначальное распределение общего предложения $ethDYDX на пять лет было следующим:
 
 * **50,0%** (`500 000 000 $ethDYDX`) распределяются между сообществом следующим образом:
-  * **25,0%** (`250 000 000 $ethDYDX`) распределяются на основе [формулы наград за торговлю](https://docs.dydx.community/dydx-governance/rewards/trading-rewards);
-  * **7,5%** (`75 000 000 $ethDYDX`) получают бывшие пользователи, завершившие определенные торговые этапы в рамках протокола уровня 2 ([награды за ретроактивный майнинг](https://docs.dydx.community/dydx-governance/rewards/retroactive-mining-rewards));
-  * **7,5%** (`75 000 000 $ethDYDX`) распределяются на основе [формулы (формул) наград для поставщиков ликвидности](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards);
-  * **5,0%** (`50 000 000 $ethDYDX`) будут направлены в [казну сообщества](https://docs.dydx.community/dydx-governance/start-here/community-treasury/);
-  * **2,5%** (`25 000 000 $ethDYDX`) получают пользователи, размещающие $USDC в [пуле стейкинга ликвидности](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool);
-  * **2,5%** (`25 000 000 $ethDYDX`) будут переданы пользователям, размещающим $ethDYDX в [пуле стейкинга безопасности](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool);
+  * **25,0%** (`250 000` 000 $ethDYDX) на [основе](../rewards/trading-rewards.md) формулы вознаграждения за торговлю,
+  * **7,5%** (`75 000` 000 $ethDYDX) прошлым пользователям, которые завершили определенные этапы торговли в рамках протокола уровня 2 (награды за ретроактивный майнинг),
+  * **7,5%** (`75 000 000 $ethDYDX`) распределяются на основе [формулы (формул) наград для поставщиков ликвидности](../rewards/liquidity-provider-rewards.md);
+  * **5,0%** (`50 000 000 $ethDYDX`) будут направлены в [казну сообщества](community-treasury.md);
+  * **2,5%** (`25 000 000 $ethDYDX`) получают пользователи, размещающие $USDC в [пуле стейкинга ликвидности](../staking-pools/liquidity-staking-pool.md);
+  * **2,5%** (`25 000 000 $ethDYDX`) будут переданы пользователям, размещающим $ethDYDX в [пуле стейкинга безопасности](../staking-pools/safety-staking-pool.md);
 * **27,7%** (`277 295 070 $ethDYDX`) — бывшим инвесторам dYdX Trading Inc.;
 * **15,3%** (`152 704 930 $ethDYDX`) получают основатели, сотрудники, советники и консультанты dYdX Trading Inc. или dYdX Foundation и
 * **7,0%** (`70 000 000 $ethDYDX`) получают будущие сотрудники и консультанты dYdX Trading Inc. или dYdX Foundation.
@@ -22,17 +22,17 @@ description: Распределения токена $ethDYDX.
 После запуска $ethDYDX было представлено несколько предложений по управлению, которые привели к изменению первоначального распределения. В настоящее время распределение включает в себя:
 
 * **50,0%** (`500 000 000 $ethDYDX`) распределяются между сообществом следующим образом:
-  * **14,5%** (`144 693 506 $ethDYDX`) на основе [формулы расчета наград за торговлю](https://docs.dydx.community/dydx-governance/rewards/trading-rewards),
-    * В рамках [ППУ 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) и [ППУ 20](https://dydx.community/dashboard/proposal/11) сообщество dYdX проголосовало за сокращение наград за торговлю на 2,3 млн $ethDYDX. (958 904 $ethDYDX из ППУ 16 и 1 294 520 $ethDYDX из ППУ 20). 2,3 миллиона $ethDYDX будут поступать в казну наград. Сообщество dYdX сможет использовать их по итогам [голосования среди пользователей, управляющих токеном](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
-    * В рамках [ППУ 29](https://dydx.community/dashboard/proposal/16) сообщество проголосовало за сокращение наград за торговлю на ⅓ с эпохи 30-32 на dYdX v3 до следующих значений:
+  * **14,5%** (`144 693` 506 $ethDYDX) на [основе](https://docs.dydx.community/dydx-governance/rewards/trading-rewards) формулы наград за торговлю,
+    * В рамках [ППУ 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) и [ППУ 20](https://dydx.community/dashboard/proposal/11) сообщество dYdX проголосовало за сокращение вознаграждения за торговлю на 2,3 млн $ethDYDX. (958 904 $ethDYDX из ППУ 16 и 1 294 520 $ethDYDX из ППУ 20). 2,3 миллиона $ethDYDX будут поступать в казну наград. Сообщество dYdX сможет использовать их по итогам [голосования среди пользователей, управляющих токеном](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+    * В рамках [ППУ 29](https://dydx.community/dashboard/proposal/16) сообщество проголосовало за сокращение вознаграждения за торговлю на ⅓ с эпохи 30-32 на dYdX v3 до следующих значений:
       * Эпоха 30: 1 054 795 $ethDYDX
       * Эпоха 31: 527 398 $ethDYDX
       * Эпоха 32: 0 $ethDYDX
-  * **5,0%** (`50 309 197 $ethDYDX`) получают бывшие пользователи, которые завершают определенные торговые этапы в рамках протокола dYdX уровня 2 ([награды за ретроактивный майнинг](../rewards/retroactive-mining-rewards.md)),
-    * После эпохи 0 24 690 803 невостребованных $ethDYDX из программы наград за ретроактивный майнинг были переданы в казну сообщества.
-  * **3,3%** (`32 794 525 $ethDYDX`) распределяются на основе [формулы (формул) наград для поставщиков ликвидности](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards),
-    * В рамках [ППУ 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) сообщество dYdX проголосовало за сокращение размера наград для поставщиков ликвидности на 50% с 1 150 685 $ethDYDX за эпоху до 575 343 $ethDYDX за эпоху. Избыточные 575 342 $ethDYDX за эпоху будут поступать в казну наград. Сообщество dYdX сможет использовать их по итогам [голосования среди пользователей, управляющих токеном](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
-    * В рамках [ППУ 29](https://dydx.community/dashboard/proposal/16) сообщество dYdX проголосовало за сокращение наград для поставщиков ликвидности на ⅓ с эпохи 30-32 на dYdX v3 до следующих значений:
+  * **5,0%** (`50 309` 197 $ethDYDX) прошлым пользователям, которые завершили определенные этапы торговли в рамках протокола dYdX уровня 2 (награды за ретроактивный майнинг),
+    * После эпохи 0 24 690 803 невостребованных $ethDYDX из программы вознаграждений за ретроактивный майнинг были переведены в казну сообщества.
+  * **3,3%** (`32 794 525 $ethDYDX`) распределяются на основе [формулы (формул) вознаграждения для поставщиков ликвидности](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards),
+    * В рамках [ППУ 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) сообщество dYdX проголосовало за сокращение размера вознаграждения для поставщиков ликвидности на 50% с 1 150 685 $ethDYDX за эпоху до 575 343 $ethDYDX за эпоху. Избыточные 575 342 $ethDYDX за эпоху будут поступать в казну наград. Сообщество dYdX сможет использовать их по итогам [голосования среди пользователей, управляющих токеном](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+    * В рамках [ППУ 29](https://dydx.community/dashboard/proposal/16) сообщество dYdX проголосовало за сокращение вознаграждения для поставщиков ликвидности на ⅓ с эпохи 30-32 на dYdX v3 до следующих значений:
       * Эпоха 30: 383 562 $ethDYDX
       * Эпоха 31: 191 781 $ethDYDX
       * Эпоха 32: 0 $ethDYDX
@@ -40,7 +40,7 @@ description: Распределения токена $ethDYDX.
   * **0,6%** (`5 779 608 $ethDYDX`) получают пользователи, размещающие $USDC в [пуле стейкинга ликвидности](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool),
     * В рамках [ППУ 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/7) за установку количества наград, связанных со стейкингом $USDC, равным 0. 383 562 $ethDYDX, ранее распределяемых между стейкерами $USDC, будут поступать в казну наград. Сообщество dYdX сможет использовать их после [голосования среди пользователей, управляющих токеном](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
   * **0,5%** (`5 289 939 $ethDYDX`) получают пользователи, размещающие $ethDYDX в [пуле стейкинга безопасности](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool),
-    * В рамках [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/9) за установку размера наград, связанных со стейкингом $ethDYDX, равным 0. 383 562 $ethDYDX, ранее распределенных между стейкерами $ethDYDX, будут поступать в казну наград, и сообщество dYdX сможет использовать их после [голосования](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) среди пользователей, управляющих.
+    * В рамках [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/9) за установку размера вознаграждений, связанных со стейкингом $ethDYDX, равным 0. 383 562 $ethDYDX, ранее распределенных между стейкерами $ethDYDX, будут поступать в казну наград, и сообщество dYdX сможет использовать их после [голосования](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) среди пользователей, управляющих.
 * **27,7%** (`277 295 070 $ethDYDX`) — бывшим инвесторам dYdX Trading Inc.;
 * **15,3%** (`152 704 930 $ethDYDX`) получают основатели, сотрудники, советники и консультанты dYdX Trading Inc. или dYdX Foundation и
 * **7,0%** (`70 000 000 $ethDYDX`) получают будущие сотрудники и консультанты dYdX Trading Inc. или dYdX Foundation.
@@ -61,14 +61,14 @@ description: Распределения токена $ethDYDX.
 
 <details>
 
-<summary>Может ли измениться распределение $ethDYDX? </summary>
+<summary>Может ли измениться распределение $ethDYDX?</summary>
 
 Да, сообщество dYdX может менять любые [награды и пулы, существующие на момент запуска](../voting-and-governance/governance-parameters.md). К настоящему времени сообщество dYdX проголосовало за сокращение эмиссии DYDX в нескольких предложениях по управлению:
 
-* В рамках [ППУ 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/8) за сокращение размера наград за торговлю на 25%. Так, в эпоху 15 размер наград за торговлю, распределяемых в эпоху, сократился с 3 835 616 $ethDYDX до 2 876 712 $ethDYDX. Оставшиеся 958 904 $ethDYDX будут поступать в казну наград. Сообщество dYdX сможет использовать их после [голосования](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) среди пользователей, управляющих токеном.
+* В рамках [ППУ 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/8) за сокращение размера наград за торговлю на 25%. Так, в эпоху 15 размер вознаграждений за торговлю, распределяемых в эпоху, сократился с 3 835 616 $ethDYDX до 2 876 712 $ethDYDX. Оставшиеся 958 904 $ethDYDX будут поступать в кассу вознаграждений. Сообщество dYdX сможет использовать их после [голосования](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) среди пользователей, управляющих токеном.
 * В рамках [ППУ 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/7) за установку количества наград, связанных со стейкингом $USDC, равным 0. 383 562 $ethDYDX, ранее распределяемых между стейкерами $USDC, будут поступать в казну наград. Сообщество dYdX сможет использовать их после [голосования среди пользователей, управляющих токеном](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
-* В рамках [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/9) за установку размера наград, связанных со стейкингом $ethDYDX, равным 0. 383 562 $ethDYDX, ранее распределенных между стейкерами $DYDX, будут поступать в казну наград, и сообщество dYdX сможет использовать их после [голосования](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) среди пользователей, управляющих.
-* В рамках [ППУ 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/14) за сокращение размера наград для поставщиков ликвидности на 50% с 1 150 685 $ethDYDX за эпоху до 575 343 $ethDYDX за эпоху. Избыточные 575 342 $ethDYDX за эпоху будут поступать в казну наград. Сообщество dYdX сможет использовать их по итогам [голосования среди пользователей, управляющих токеном](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
+* В рамках [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/9) за установку размера вознаграждений, связанных со стейкингом $ethDYDX, равным 0. 383 562 $ethDYDX, ранее распределенных между стейкерами $DYDX, будут поступать в кассу вознаграждений, и сообщество dYdX сможет использовать их после [голосования](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) среди пользователей, управляющих.
+* В рамках [ППУ 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md) сообщество dYdX [проголосовало](https://dydx.community/dashboard/proposal/14) за сокращение размера вознаграждения для поставщиков ликвидности на 50% с 1 150 685 $ethDYDX за эпоху до 575 343 $ethDYDX за эпоху. Избыточные 575 342 $ethDYDX за эпоху будут поступать в казну наград. Сообщество dYdX сможет использовать их по итогам [голосования среди пользователей, управляющих токеном](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 * В рамках [ППУ 29](https://dydx.community/dashboard/proposal/16) сообщество проголосовало за сокращение наград за торговлю на ⅓ с эпохи 30–32 на dYdX v3 до следующих значений:
 
 a. Сокращение наград до следующих значений 21 ноября 2023 г. в 15:00 UTC (начало эпохи 30)
@@ -85,7 +85,7 @@ a. Сокращение наград до следующих значений 21
  ii.LP: 191,781
 ```
 
-в. Сокращение наград до следующих значений 16 января 2024 в 15:00 UTC (начало эпохи 32)
+в. Сокращение вознаграждения до следующих значений 16 января 2024 в 15:00 UTC (начало эпохи 32)
 
 ```
  i.Trading: 0
@@ -106,11 +106,11 @@ a. Сокращение наград до следующих значений 21
 
 <summary>Что такое блокировка $ethDYDX, которую получают инвесторы, существующие и будущие сотрудники и консультанты?</summary>
 
-Часть первоначального распределения токенов $ethDYDX была зарезервирована для прошлых инвесторов dYdX Trading Inc., основателей, сотрудников, советников и консультантов dYdX Trading Inc. или dYdX Foundation, а также будущих сотрудников и консультантов dYdX Trading Inc. или dYdX Foundation.
+Часть первоначального распределения токенов $ethDYDX была зарезервирована для прошлых инвесторов dYdX Trading Inc., основателей, сотрудников, консультантов и консультантов dYdX Trading Inc. или dYdX Foundation, а также будущих сотрудников и консультантов dYdX Trading Inc. или dYdX Foundation.
 
-25 января 2023 года dYdX Foundation [объявил](https://www.dydx.foundation/blog/lock-up-extension) о внесении поправки о переносе даты первоначального выпуска токенов инвестора $ethDYDX на 1 декабря 2023 года. Поправка не изменила график поэтапного разблокирования после Даты первоначального разблокирования.
+25 января 2023 года dYdX Foundation [объявил](https://www.dydx.foundation/blog/lock-up-extension) о внесении поправки о переносе даты первоначального выпуска токенов инвестора $ethDYDX на 1 декабря 2023 года. Поправка не изменила расписание разблокировки после даты начальной разблокировки.
 
-В соответствии с Поправкой, токены будут освобождены от ограничений на передачу следующим образом:
+Согласно поправке, токены будут освобождены от ограничений на перевод следующим образом:
 
 * 30% с 1 декабря 2023 года;
 * 40% равными ежемесячными взносами с 1 января 2024 года по 1 июня 2024 года;
