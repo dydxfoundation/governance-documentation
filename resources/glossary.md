@@ -1,5 +1,6 @@
 ---
 description: Überblick über die wichtigsten Governance-Begriffe.
+hidden: true
 ---
 
 # Glossar
@@ -20,25 +21,25 @@ $**ethDYDX:** Das native Asset des Ethereum-basierten dYdX-Ökosystems, das die 
 
 **DRC**: dYdX Request for Comments sind Off-Chain-Vorschläge und der erste erforderliche Schritt im Governance-Verbesserungsprozess.
 
-**Quorum:** Damit eine Abstimmung angenommen wird, muss sie ein Mindestquorum von DYDX-Tokens zustimmend erreichen. Der Zweck des Quorums besteht darin, sicherzustellen, dass die einzigen Maßnahmen, die angenommen werden, eine angemessene Stimmbeteiligung haben.
+**Quorum:** Damit eine Abstimmung angenommen wird, muss sie ein Mindestquorum an zustimmenden DYDX-Tokens erreichen. Der Zweck des Quorums besteht darin, sicherzustellen, dass die einzigen Maßnahmen, die angenommen werden, eine angemessene Stimmbeteiligung haben.
 
 **Epoche:** Alle anderen Verträge arbeiten in 28-Tage-Zyklen, die als Epochen bezeichnet werden.
 
 **Ausführungsfrist:** Der Zeitraum nach der Abstimmung, wenn ein DIP-Vorschlag ausführbar wird, während dessen er ausgeführt werden muss.
 
-**Der Governance-Strategie-Kontrakt**: Enthält die Logik, um die relativen Vorschlags- und Abstimmungsrechte der Benutzer zu messen.
+**Governance-Strategie-V2-Kontrakt**: Enthält die Logik, um die relativen Vorschlags- und Abstimmungsrechte der Benutzer zu messen.
 
-**Gouverneursvertrag**: verfolgt Vorschläge und kann Vorschläge über den Timelock Smart-Vertrag ausführen.
+**Gouverneurs-Kontrakt**: Verfolgt Vorschläge und kann diese über den Timelock-Smart-Kontrakt ausführen.
 
-**Long Timelock Executor:** Der Long Timelock Executor kann Vorschläge ausführen, die im allgemeinen Teile des Protokolls ändern, die den Governance-Konsens beeinflussen.
+**Long Timelock Executor:** Der Long Timelock Executor kann Vorschläge ausführen, die allgemein Teile des Protokolls ändern, die den Governance-Konsens beeinflussen.
 
 **Der Merkle-Pauser Executor:** kann Vorschläge zur Einfrierung der Merkle Root ausführen, welche in regelmäßigen Abständen mit der kumulativen Prämienbilanz eines jeden Benutzers aktualisiert wird und somit sukzessive neue Prämien zur Verteilung an die Benutzers freisetzt, im Falle, dass die vorgeschlagene Root falsch oder bösartig ist.
 
 **Sicherheitspool:** Komponente, die dafür zuständig ist, das Protokoll vor Insolvenz zu schützen.
 
-**Staked dYdX-Vertrag**: enthält Logiken, um DYDX Token zu staken, die Position zu tokenisieren and Prämien zu erhalten.
+**Staked dYdX-Vertrag**: Enthält die Logik, um DYDX-Token zu staken, die Position zu tokenisieren und Prämien zu erhalten.
 
-**Short Timelock Executor:** Der Short Timelock Executor kann Vorschläge ausführen, die im allgemeinen Prämien- und Incentive-Verträge oder die Gemeinschaftskasse ändern, die ein schnelles Eingreifen erfordern.
+**Short Timelock Executor:** Der Short Timelock Executor kann Vorschläge ausführen, die allgemein Prämien- und Incentive-Verträge oder die Gemeinschaftskasse betreffen und ein schnelles Eingreifen erfordern.
 
 **Starkware-Executor:** Der Starkware-Executor kann Vorschläge ausführen, die im allgemeinen Teile des Protokolls ändern, die derzeit ein Eingreifen von Starkware erfordern.
 
@@ -48,11 +49,11 @@ $**ethDYDX:** Das native Asset des Ethereum-basierten dYdX-Ökosystems, das die 
 
 **Vorschlagsschwelle:** Um zu verhindern, dass unzählige Spam-Vorschläge erstellt werden, erfordert eine Vorschlagsschwelle, dass eine Adresse eine bestimmte Anzahl von Stimmen hat, bevor sie einen Vorschlag machen kann.
 
-**Vorschlagsmacht:** Token Stake, der den Zugang zum Erstellen und Unterstützen eines Vorschlags ermöglicht.
+**Vorschlagsmacht:** Token-Stake, der den Zugang zum Erstellen und Aufrechterhalten eines Vorschlags ermöglicht.
 
 **Stimmrecht:** Stimmrecht, das verwendet wird, um für oder gegen bestehende Vorschläge zu stimmen.
 
-**Abstimmungsverzögerung**: Dies ist die Zeitspanne, zwischen der ein Vorschlag erstellt werden kann und zur Abstimmung verfügbar ist. Indem mindestens ein Block bestanden werden muss, ist die Governance vor Flash-Loan-Angriffen geschützt, die möglicherweise eine große Anzahl von Token ausleihen, eine Abstimmung vorschlagen und über alles in einem Block abstimmen.
+**Abstimmungsverzögerung:** Dies ist die Zeitspanne zwischen der Erstellung eines Vorschlags und seiner Verfügbarkeit zur Abstimmung. Indem mindestens ein Block vergehen muss, ist die Governance vor Flash-Loan-Angriffen geschützt, bei denen eine große Anzahl von Token ausgeliehen, ein Vorschlag eingereicht und darüber in einem Block abgestimmt wird.
 
 **Abstimmungszeitraum:** Sobald ein DIP-Vorschlag eingereicht wurde, müssen die Mitglieder der DYDX-Community ihre Stimme vor dem Ende des Abstimmungszeitraums abgeben. Dies ist die Zeitdauer, für die Vorschläge zur Abstimmung zur Verfügung stehen, mit Zeit in Ethereum-Blöcken.
 
