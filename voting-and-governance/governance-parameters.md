@@ -1,10 +1,11 @@
 ---
 description: Visión general de los parámetros de gobernanza.
+hidden: true
 ---
 
-#
+# 💾 Parámetros
 
-
+Los titulares de tokens de gobernanza tienen un control inmediato e irrevocable sobre:
 
 * Asignación de la tesorería de la comunidad
 * Nuevos listados de tokens en el Protocolo
@@ -18,17 +19,17 @@ description: Visión general de los parámetros de gobernanza.
 La gobernanza dYdX control de los parámetros de los siguientes contratos:
 
 * [Bloqueo de tiempo](https://github.com/dydxfoundation/governance-docs/tree/28153eacbdaafb32078630fafa7ad64f111ac9ab/voting-and-governance-process/parameters.md#timelock-parameters)
-* Bloqueo de tiempo de prioridad
+* Bloqueo de Tiempo de Prioridad
 * Gobernador
-*
+* Token $ethDYDX
 * Tesorería
-* Distribuidor Merkle
-* Participación de liquidez
+* Distribuidor de Merkle
+* Participación de Liquidez
 * Módulo de seguridad
 * Proxy de Stark
 * Perpetuals de Stark
 
-## Parámetros de bloqueo de tiempo
+## Parámetros de Bloqueo de Tiempo
 
 ![](../.gitbook/assets/1-initial-timelock-parameters.png)
 
@@ -36,15 +37,15 @@ La gobernanza dYdX control de los parámetros de los siguientes contratos:
 
 | Parámetro | Descripción | Valor |
 | ----------------- | ----------------------------------------------------------------------------- | -------------- |
-| Retraso de votación | Retraso (en bloques) entre la creación de propuestas y la votación | 6,570 bloques |
-| Agregar un rol de ejecutor | Dirección que puede agregar nuevos ejecutores | Bloqueo de corto tiempo |
+| Retraso de Votación | Retraso (en bloques) entre la creación de propuestas y la votación | 6,570 bloques |
+| Agregar un rol de Ejecutor | Dirección que puede agregar nuevos ejecutores | Bloqueo de corto tiempo |
 | Función de propietario | Puede cambiar la estrategia / retraso de votación / desautorizar ejecutores y tiene otros roles | Bloqueo de largo tiempo |
 
-##
+## Token ethDYDX
 
 | Parámetro | Descripción | Valor |
 | --------- | ---------------------------------------------- | -------------- |
-| Propietario |  | Bloqueo de corto tiempo |
+| Propietario | Se pueden acuñar tokens ethDYDX después de la restricción de acuñación | Bloqueo de corto tiempo |
 
 ## Parámetros de tesorería de recompensas
 
@@ -60,28 +61,28 @@ La gobernanza dYdX control de los parámetros de los siguientes contratos:
 | Parámetro | Descripción | Valor |
 | ----------- | ------------------------------------------------------ | -------------- |
 | Propietario | Puede aprobar o transferir cualquier token en poder de la tesorería | Bloqueo de corto tiempo |
-| Administrador de proxy | Puede actualizar el contrato | Bloqueo de corto tiempo |
+| Administrador de Proxy | Puede actualizar el contrato | Bloqueo de corto tiempo |
 
 ##
 
-## Distribuidor Merkle
+## Distribuidor de Merkle
 
 | Parámetro | Descripción | Valor |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------- |
 | Función de propietario | Puede actualizar la dirección del oráculo de recompensas, actualizar el nombre de IPNS y es administrador de todos los roles | Bloqueo de corto tiempo |
 | Función de actualización de configuración | Puede establecer parámetros de recompensas, cambiar el cronograma de la etapa o cambiar el período de actualización de IPFS | Bloqueo de corto tiempo |
-| Función de pauser | Puede detener las actualizaciones de la raíz de merkle | Bloqueo de tiempo de Merkle-pauser |
+| Función de Pauser | Puede detener las actualizaciones de la raíz de merkle | Bloqueo de tiempo de Merkle-pauser |
 | Función de Unpauser | Puede reanudar las actualizaciones de la raíz de merkle | Bloqueo de corto tiempo |
 | Función de operador de reclamos | Puede reclamar recompensas en nombre de un usuario | Proxy de reclamos |
 | Intervalo | Duración de una etapa | 28 días |
 | Compensación | Inicio de la etapa 0 | 3 de agosto de 2021, 15:00 UTC |
 | Nombre de IPNS | Nombre de IPNS en el que se publican los datos de recompensas | rewards-data.dydx.foundation |
 | Período de actualización de IPFS | Período de tiempo después del final de la etapa después de la cual las estadísticas de intercambio de la nueva etapa deberían estar disponibles en IPFS a través del nombre de IPNS | 3 minutos |
-| Administrador de proxy | Puede actualizar el contrato | Bloqueo de corto tiempo |
+| Administrador de Proxy | Puede actualizar el contrato | Bloqueo de corto tiempo |
 
 ##
 
-## Participación de liquidez
+## Participación de Liquidez
 
 | Parámetro | Descripción | Valor |
 | --------------------- | --------------------------------------------------------------------------------- | ------------------------- |
@@ -96,9 +97,9 @@ La gobernanza dYdX control de los parámetros de los siguientes contratos:
 | Compensación | Inicio de la etapa 0 | 3 de agosto de 2021, 15:00 UTC |
 | Ventana de bloqueo | Duración de la ventana de bloqueo | 3 días |
 | Tasa de emisión de recompensas | Tokens asignados a los inversores como recompensas por segundo | 0 |
-| Administrador de proxy | Puede actualizar el contrato | Bloqueo de corto tiempo |
+| Administrador de Proxy | Puede actualizar el contrato | Bloqueo de corto tiempo |
 
-## Módulo de seguridad
+## Módulo de Seguridad
 
 | Parámetro | Descripción | Valor |
 | --------------------- | --------------------------------------------------------------------------------- | ------------------------- |
@@ -109,20 +110,20 @@ La gobernanza dYdX control de los parámetros de los siguientes contratos:
 | Función de operador de reclamos | Puede reclamar recompensas en nombre de un usuario | Proxy de reclamos |
 | Función de operador de participación | Puede manipular los fondos invertidos de un usuario (por ejemplo, realizar retiros de usuario) | Bloqueo de corto tiempo |
 | Intervalo | Duración de una etapa | 28 días |
-| Compensación | Inicio de la etapa 0 | 3 de agosto de 2021, 15:00 UTC |
+| Compensación | Inicio de la etapa cero | 3 de agosto de 2021, 15:00 UTC |
 | Ventana de bloqueo | Duración de la ventana de bloqueo | 3 días |
 | Tasa de emisión de recompensas | Tokens asignados a los inversores como recompensas por segundo | 0 |
-| Administrador de proxy | Puede actualizar el contrato | Bloqueo de largo tiempo |
+| Administrador de Proxy | Puede actualizar el contrato | Bloqueo de Largo Tiempo |
 
 ## Proxy de Stark
 
 | Parámetro | Descripción | Valor |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
-| Función de propietario | Puede agregar/eliminar destinatarios que reciben fondos + claves de STARK, establecer asignaciones de ERC20 en operaciones de liquidez y contratos de perpetuals estrictos, utilizar acciones forzadas y es administrador como propietario + roles de administrador de delegación | Creador de mercado |
-| Función de administrador de delegación | Es el administrador de los prestatarios, operador de bolsa y ejerce los roles de operador de retiros | Creador de mercado |
-| Función de prestatario | Puede utilizar funciones de préstamo en el contrato de participación de liquidez | Creador de mercado |
-| Función de operador de bolsa | Puede usar funciones de bolsa en el contrato de perpetuals de stark | Creador de mercado |
-| Función de operador de retiros | Puede retirar fondos en exceso del saldo prestado a un destinatario permitido | Creador de mercado |
+| Función de propietario | Puede agregar/eliminar destinatarios que reciben fondos + claves de STARK, establecer asignaciones de ERC20 en operaciones de liquidez y contratos de perpetuals estrictos, utilizar acciones forzadas y es administrador como propietario + roles de administrador de delegación | Creador de Mercado |
+| Función de administrador de delegación | Es el administrador de los prestatarios, operador de bolsa y ejerce los roles de operador de retiros | Creador de Mercado |
+| Función de prestatario | Puede utilizar funciones de préstamo en el contrato de participación de liquidez | Creador de Mercado |
+| Función de operador de bolsa | Puede usar funciones de bolsa en el contrato de perpetuals de stark | Creador de Mercado |
+| Función de operador de retiros | Puede retirar fondos en exceso del saldo prestado a un destinatario permitido | Creador de Mercado |
 | Función de custodio | Puede realizar acciones de cierre, acciones forzadas si el prestatario tiene una deuda vencida, restringir acciones abiertas con fondos prestados y aprobar un monto simbólico para ser retirado externamente por el rol de operador de retiros. | Bloqueo de corto tiempo |
 | Función de custodio de veto | Puede vetar las solicitudes de operaciones forzadas iniciadas por el propietario, durante el período de espera | Bloqueo de tiempo de Merkle-pauser |
 
