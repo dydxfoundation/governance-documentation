@@ -2,11 +2,12 @@
 description: >-
   本分步技术指南说明如何创建提案，将 ethDYDX 从社区资金库转至目标地址。
 
+hidden: true
 ---
 
 # 关于构建 dYdX 社区资金库支出提案的技术指南
 
-Reverie 已编制一份综合性技术指南，通过拉取请求 (PR) 提交治理提案，将 $ethDYDX 从“社区资金库”转至 dYdX _治理合约_储存库。
+Reverie已编制一份综合性技术指南，通过拉取请求 (PR) 提交治理提案，将 $ethDYDX 从“社区资金库”转至 dYdX _治理合约_储存库。
 
 要创建此提案，dYdX 社区成员必须拥有**至少 500 万治理代币** _（总供应的 0.5%）_的提案权（[短时间锁投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)的[提案阈值](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters)）。
 
@@ -17,7 +18,7 @@ Reverie 已编制一份综合性技术指南，通过拉取请求 (PR) 提交治
 1. **提案生命周期：**须按照提案[模板](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md)发布 DRC，并且必须有成功的快照投票。
 2. **目标地址：** 目标地址必须提前生成。如果目标地址是多重签名，则必须创建多重签名钱包。
 3. **GitHub 账户：** 用于分叉储存库的 GitHub 账户。
-4. **转移金额（可选）：** 请求的转移金额最好是已在 PR 之前确定。但是，如果使用名义金额，可在审批前的最后一步设置该金额。
+4. **转移金额（可选）：** 请求的转移金额最好是已在 PR 之前确定。但如果使用名义金额，可在审批前的最后一步设置该金额。
 5. **DIP IPFS 哈希（可选）：** 如果转账金额已知，则应最终确定 DIP 并将其推送到 IPFS 以生成哈希。然而，如果金额尚未确定，可以在审批前的最后一步确定。
 
 ### 建立提案
@@ -36,7 +37,7 @@ git clone https://github.com/[username]/governance-contracts.git
 \
 3\. **配置变量**
 
-在 src/config/index.ts 中，将两个新变量添加到将用于测试目的的 configSchema 常量。在以下代码块中，将 **'PROPOSAL\_NAME'** 和 **'PROPOSAL'** 字段改为当前提交提案的名称。
+在 src/config/index.ts 中，将两个新变量添加到即将用于测试目的的 configSchema 常量。在以下代码块中，将 **'PROPOSAL\_NAME'** 和 **'PROPOSAL'** 字段改为当前提交提案的名称。
 
 ```typescript
 src/config/index.ts
@@ -101,7 +102,7 @@ import { Proposal } from '../types';
 
 b.使用导入下方的提案名称，创建一个新函数，并添加以下代码和两个唯一变量：
 
-* **destinationAddress** → 这将是接收资金的地址
+* **destinationAddress** → 这是即将接收资金的地址
 * **deployConfig.PROPOSAL\_FUNDING\_AMOUNT** → 这是我们之前创建的变量，它将确定要转移的金额
 
 ```typescript
@@ -235,7 +236,7 @@ const MOCK_PROPOSAL_IPFS_HASH = (
 *   在以下步骤添加测试函数：
 
     * **fundProposalNameViaProposal** → 创建此函数，并重命名以匹配提案名称。
-    * **destinationAddress** → 将其重新标签，以匹配目标名称
+    * **destinationAddress** → 重新调整标签，以匹配目标名称
     * **deployConfig.PROPOSAL\_FUNDING\_AMOUNT** → 这将由 base-config 文件中的变量取代
     * **FUND\_PROPOSAL\_NAME\_PROPOSAL\_ID** → 这是我们在 _**config/index.ts**_ 中创建的变量
     * _**createProposalNameProposal** → 导入以上函数待用_
@@ -386,7 +387,7 @@ async function fundCommunityTreasuryFromFoundationIfNecessary({
 
 b. **将测试函数添加到测试脚本**
 
-在 test/migrations/deploy-contracts-for-test.ts 中，我们将添加上面创建的函数，以使其包含在测试中：
+在 test/migrations/deploy-contracts-for-test.ts 中，我们将添加上面创建的函数，以在测试中使用：
 
 * 导入创建的函数
 
@@ -518,7 +519,7 @@ describeContract('proposal-name', init, (ctx: TestContext) => {
 
 我们完成所有代码修改并保存在本地后，就可以提交到分叉储存库，并向 dYdX 储存库提交 PR 以供审查：
 
-a. **通过命令行提交更改**
+a. **使用命令行提交更改**
 
 ```shell
 git add .
