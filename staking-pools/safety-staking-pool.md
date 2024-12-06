@@ -1,18 +1,14 @@
 ---
-description: Güvenlik Staking Havuzuna genel bir bakış
+description: Güvenlik Staking Havuzuna genel bakış
 ---
 
-#
+# 🔐 Güvenlik Modülü
 
-Başlangıçta, token arzının `%2,50'i` (`25.000.000 $ethDYDX`), Güvenlik Modülü'ne ethDYDX stake eden kullanıcılara dağıtılmak üzere tahsis edilmişti. Güvenlik Modülü, 28 Kasım 2022 itibarıyla artık aktif değildir.
+Güvenlik Modülü, 28 Kasım 2022 itibarıyla artık aktif değildir. [DIP 17](https://dydx.community/dashboard/proposal/9)'de dYdX topluluğu, Güvenlik Modülü ödüllerini saniyede 0'a ayarlayarak Güvenlik Modülü'nü etkin bir şekilde kapatmak yönünde [oy kullandı](https://dydx.community/dashboard/proposal/7).
 
-Bundan önce, Güvenlik Modülü'ne $ethDYDX stake eden kullanıcılara $ethDYDX dağıtılmıştı. Güvenlik modülü, iflas veya dYdX protokolüyle ilgili oluşacak başka sorunlar durumunda kullanılacak olan merkezsizleştirilmiş bir fondu.
+Likidite Modülü Ödülleri tahsisinden kalan tüm ethDYDX, dYdX Zinciri Topluluk Hazinesine taşınmıştır.
 
-
-
-## Genel bakış
-
-Şu anda Güvenlik Modülü'ne stake edilen $ethDYDX için ödül kazanılmamaktadır.
+dYdX Zinciri Topluluk Hazinesi Ödülleri hakkında daha fazla bilgi [burada](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules-and-parameters/community-treasury) mevcuttur.
 
 
 
