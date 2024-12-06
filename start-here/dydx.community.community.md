@@ -1,8 +1,9 @@
 ---
 description: dydx.community是治理、奖励和质押的平台
+hidden: true
 ---
 
-#
+# 🖥️ 接口
 
 治理、奖励和质押的界面已于[**dydx.community**](https://dydx.community)上线。
 
@@ -14,28 +15,28 @@ description: dydx.community是治理、奖励和质押的平台
 
 ![跟踪提议状况和变更的投票](../.gitbook/assets/4.2-track-proposals.png)
 
-$ethDYDX 和 $wethDYDX 的持有人被授予两种治理权：提议权和投票权。通过数据面板，用户可以查看他们的提议权和投票权，并将其委托给其他地址。
+$ethDYDX和$wethDYDX的持有者被授予两种治理权：提议权和投票权。通过数据面板，用户可以查看其提议权和投票权，并将其委托给其他地址。
 
 ![委托您的提议权和投票权](../.gitbook/assets/4.3-delegate-voting.png)
 
 ### 质押
 
-目前，流动性模块和安全模块无效。在以太坊上持有 $stkDYDX 和 $stkUSDC 的用户不获取奖励。 用户可以在 [**dydx.community**](https://dydx.community) `请求提`现并`提现。`
+目前，流动性模块和安全模块无效。在以太坊上持有$stkDYDX和$stkUSDC的用户不获取奖励。 用户可以在 [**dydx.community**](https://dydx.community) `请求提`现并`提现。`
 
 ### 交易奖励
 
-
+用户可以查看过去从Layer 2交易所交易活动获得的奖励。  在 [DIP 29](https://dydx.community/dashboard/proposal/16) 中，dYdX 社区投票决定将 dYdX v3 上的交易奖励从 30-32 时段减少 ⅓，减为以下值：
 
 * 时段 30：383,562 $ethDYDX
 * 时段 31：191,781 $ethDYDX
 * 时段 32：0 $ethDYDX
 
-
+目前，dYdX v3 上的交易活动没有奖励。
 
 ![交易以获得奖励](../.gitbook/assets/4.5-trade-to-rewards.png)
 
-### 资金组合和申领 $ethDYDX
+### 资金组合和申领$ethDYDX
 
-用户可以查看他们的 $ethDYDX 持有量、可申领的 $ethDYDX、质押的 $ethDYDX 和可支取的 $ethDYDX的综合视图。
+用户可以查看包含其$ethDYDX持有量、可申领$ethDYDX、质押$ethDYDX和可支取$ethDYDX的综合视图。
 
 ![申领奖励](../.gitbook/assets/4.6-claim-rewards.png)
