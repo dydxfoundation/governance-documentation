@@ -1,11 +1,12 @@
 ---
 description: >-
-  커뮤니티 금고에서 목적지 주소로 ethDYDX를 전송하기 위한 제안서 작성 방법을 기술적, 단계별로 설명한 가이드
+  커뮤니티 트레저리에서 목적지 주소로 ethDYDX를 전송하기 위한 제안서 작성 방법을 기술적, 단계별로 설명한 가이드
+hidden: 참
 ---
 
-# dYdX 커뮤니티 트레저리 지출 계획안 작성에 대한 기술 가이드
+# dYdX 커뮤니티 트레저리 지출 제안서 작성에 대한 기술 가이드
 
-Reverie는 풀 리퀘스트(PR)를 통해 $ethDYDX를 커뮤니티 금고에서 dYdX _거버넌스 계약_ 리포지토리로 전송하는 거버넌스 계획안을 제출하기 위해 포괄적인 기술 가이드를 만들었습니다.
+Reverie는 풀 리퀘스트(PR)를 통해 $ethDYDX를 커뮤니티 트레저리에서 dYdX _거버넌스 계약_ 리포지토리로 전송하는 거버넌스 계획안을 제출하기 위해 포괄적인 기술 가이드를 만들었습니다.
 
 이 계획안을 작성하려면, dYdX 커뮤니티 구성원은 **적어도 5백만 거버넌스 토큰**_(총공급량의 0.5%)_ 정도의 제안 권한([단기 시간 제한 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)를 위한 [제안 임곗값](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters))이 있어야 합니다.
 
