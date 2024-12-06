@@ -1,8 +1,9 @@
 ---
 description: Aperçu du cycle de vie de la proposition d'amélioration dYdX (DIP).
+hidden: vrai
 ---
 
-#
+# Cycle de vie de la proposition 💼
 
 ## **Étapes de la proposition**
 
@@ -60,7 +61,7 @@ Le ou les changements proposés seront mis en œuvre par dYdX Trading Inc. si le
 * le quorum minimum - au moins `1 000 000` jetons de gouvernance. Le quorum minimum contribue à la décentralisation de la prise de décision et protège contre la prise de décision unilatérale, et
 * le différentiel de vote minimum - au moins 67 % des votes doivent être en faveur de la proposition. Le différentiel de vote minimum aide à filtrer les propositions qui sont très controversées et nécessitent une discussion plus approfondie.
 
-dYdX Trading Inc. aura jusqu'à 1 Époch (28 jours), une période de grâce d'exécution, pour mettre en œuvre les modifications à partir d'un sondage Snapshot réussi.
+dYdX Trading Inc. aura jusqu'à 1 Epoch (28 jours), une période de grâce d'exécution, pour mettre en œuvre les modifications à partir d'un sondage Snapshot réussi.
 
 Notez que les propositions et les votes ne sont que des messages signés, stockés sur IPFS et disponibles via le portail du Commonwealth.
 
@@ -93,7 +94,7 @@ Une fois qu'un DIP est créé sur la chaîne, il est soumis à un **délai de vo
 | Quorum minimum | Votes positifs minimum pour qu'une proposition DIP soit adoptée | 2 % de l'offre totale | 1 % de l'offre totale | 10 % de l'offre totale | 2 % de l'offre totale |
 | Différentiel de vote | Écart obligatoire oui-non pour qu'une proposition DIP soit acceptée | 0,5 % de l'offre totale | 0,5 % de l'offre totale | 10 % de l'offre totale | 0,5 % de l'offre totale |
 
-_\*Timing basé sur 13,2 deuxièmes temps de bloc_.
+_\*Timing basé sur 13,2 deuxièmes temps de bloc._
 
 Seul le délai de vote peut être modifié par la gouvernance, et il ne peut être modifié qu'à des valeurs comprises entre (inclus) le délai minimum et maximum. La période de vote, le quorum minimum et le différentiel de vote ne peuvent pas être modifiés.
 
@@ -108,13 +109,13 @@ Après l'expiration d'un DIP, n'importe quelle adresse peut appeler la méthode 
 | Délai minimum de verrouillage du délai\* | Délai minimum avant l'exécution d'une proposition (après mise en file d'attente) | 1 jour | 0 jour | 5 jours | 4 jours |
 | Délai maximum de verrouillage du délai\* | Délai maximum avant l'exécution d'une proposition (après mise en file d'attente) | 7 jours | 1 jour | 21 jours | 21 jours |
 
-_\*Timing basé sur 13,2 deuxièmes temps de bloc_.
+_\*Timing basé sur 13,2 deuxièmes temps de bloc._
 
 Dès que la période de vote se termine et qu'une proposition a réussi, n'importe qui peut appeler la file d'attente pour commencer le délai de verrouillage.
 
 Pour l'exécuteur de verrouillage horaire prioritaire Starkware, il a une période de priorité de 7 jours sur le délai de verrouillage horaire de 9 jours. Cela signifie qu'après 9 jours, n'importe qui peut exécuter une proposition, mais dans les jours 2 à 9 (la période de priorité), Starkware a la possibilité d'exécuter la proposition.
 
-Concrètement c'est :
+Concrètement, il s'agit de :
 
 * Jours 0 à 2 : personne ne peut exécuter
 * Jours 2 à 9 : seul Starkware peut exécuter
@@ -122,7 +123,7 @@ Concrètement c'est :
 
 ## 7. (Facultatif) Annulation de la proposition
 
-À tout moment du cycle de vie d'un DIP, le proposant peut annuler le DIP. Une proposition peut être annulée par n'importe qui avant d'être exécutée si le proposant n'a pas suffisamment de puissance de proposition au niveau du bloc actuel.
+À tout moment du cycle de vie d'un DIP, le proposant peut annuler le DIP. Une proposition peut être annulée par n'importe qui avant d'être exécutée, si le proposant n'a pas suffisamment de puissance de proposition au niveau du bloc actuel.
 
 ## FAQ
 
