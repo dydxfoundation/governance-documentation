@@ -1,5 +1,6 @@
 ---
 description: 거버넌스 아키텍처 및 스마트 컨트랙트 개요
+hidden: 참
 ---
 
 # 기술 개요
@@ -9,15 +10,15 @@ description: 거버넌스 아키텍처 및 스마트 컨트랙트 개요
 dYdX 온체인 거버넌스는 다음 기능을 지원합니다.
 
 * 제안 생성 및 투표
-* 제안이 시작될 때 토큰의 보유량을 스냅샷합니다.
+* 제안 시작 시점에 토큰 보유량 스냅샷 기록
 * 별도의 투표 및 제안 권한 위임
 * 제안, 정족수 및 투표 격차 임계값 등 거버넌스 임계값 설정
 * 투표의 계산 방법을 결정하는 "거버넌스 전략 V2" 스마트 계약 대체
 * 다음을 허용하는 다중 실행자 계약 구성:
-  * 단기 타임락 실행자를 통한 빠른 프로토콜 업그레이드 및 자금 분배
+  * 단기 타임락 실행자를 통한 신속 프로토콜 업그레이드 및 자금 분배
   * 장기 타임락 실행자를 통한 거버넌스 업그레이드
 
-dYdX 거버넌스를 지원하는 스마트 계약은 다음 7개입니다.
+dYdX 거버넌스를 지원하는 7개의 스마트 계약은 다음과 같습니다.
 
 * **`DydxToken` 계약 **: 모든 블록 번호에서 주소의 투표 또는 제안 권한에 대한 쿼리를 지원하는 스냅샷을 유지합니다. 투표 및 제안 권한에 대한 별도의 위임을 지원합니다.
 * **`래핑된 이더리움 Dydx 토큰(wethDYDX)` 계약**: 모든 블록 번호에서 주소의 투표권 또는 제안권의 쿼리를 지원하는 스냅샷을 유지합니다. 투표 및 제안 권한에 대한 별도의 위임을 지원합니다.
@@ -34,12 +35,12 @@ dYdX 거버넌스를 지원하는 스마트 계약은 다음 7개입니다.
 | DydxToken                            | 0x92D6C1e31e14520e676a687F0a93788B716BEff5 |
 | WrappedEthereumDydxToken             | 0x46b2DeAe6eFf3011008EA27EA36b7c27255ddFA9 |
 | DydxGovernor                         | 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2 | | Short Timelock Executor              | 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc |
-| 장기 타임락 실행자               | 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B | | 머클-포저 실행자 | 0xd98e7A71BacB6F11438A8271dDB2EFd7f9361F52 | | Starkware 타임락 실행자 | 0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE | | 보상 트레저리                    | 0x639192D54431F8c816368D3FB4107Bc168d0E871 |
+| 장기 타임락 실행자               | 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B | | 머클-포저 실행자 | 0xd98e7A71BacB6F11438A8271dDB2EFd7f9361F52 | | Starkware 타임락 실행자 | 0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE | | 보상 금고                    | 0x639192D54431F8c816368D3FB4107Bc168d0E871 |
 | 보상 트레저리 브릿지              | 0x8d0051943D4c72aF12D638c6b7253C71929A910A |
-| 커뮤니티 트레저리                   | 0xE710CEd57456D3A16152c32835B5FB4E72D9eA5b |
+| 커뮤니티 금고                   | 0xE710CEd57456D3A16152c32835B5FB4E72D9eA5b |
 | 커뮤니티 트레저리 브릿지            | 0x5D8541e3078BE7c2D773185aD8C8b9ED5105E08c |
 | 안전 모듈                        | 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC |
-| 거버넌스전략V2                 | 0xc2f5F3505910Da80F0592a3Cc023881C50b16505 |
+| 거버넌스 전략V2                 | 0xc2f5F3505910Da80F0592a3Cc023881C50b16505 |
 | 보상 트레저리 베스터              | 0xb9431E19B29B952d9358025f680077C3Fd37292f |
 | 커뮤니티 트레저리 베스터            | 0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8 |
 | 머클 배포자                   | 0x01d3348601968aB85b4bb028979006eac235a588 |
@@ -47,7 +48,7 @@ dYdX 거버넌스를 지원하는 스마트 계약은 다음 7개입니다.
 | 유동성 스테이킹                    | 0x5Aa653A076c1dbB47cec8C1B4d152444CAD91941 |
 | 클레임 프록시                         | 0x0fd829C3365A225FB9226e75c97c3A114bD3199e |
 | StarkEx 도움말 거버너              | 0x0db9b3F7Dd83e29C9bece8E5e1089bA4369E694a |
-| StarkEx 리무버 거버너 V2          | 0xFCAac0F14deA11eDe11Afcb875f29130e1ad5ec0 |
+| StarkEx 리무버 거버넌스 V2          | 0xFCAac0F14deA11eDe11Afcb875f29130e1ad5ec0 |
 | Rewards Treasury Proxy Admin         | 0x40D6992cbd03E0DC1c2DE9606D29Cb245E737a5d |
 | 커뮤니티 트레저리 프록시 관리자       | 0x9d51599A6b10f562619D8ef2EFDcA1B68aE80D03 |
 | 안전 모듈 프록시 관리자            | 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C |
@@ -58,7 +59,7 @@ dYdX 거버넌스를 지원하는 스마트 계약은 다음 7개입니다.
 | StarkProxy \[2]                      | 0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2 |
 | StarkProxy \[3]                      | 0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06 |
 | StarkProxy \[4]                      | 0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874 |
-| StarkProxy Proxy Admin \[0]          | 0xE16718eace44e0CB06b9cd164490A69A6425D1e3 |
+| StarkProxy 프록시 관리자 \[0]          | 0xE16718eace44e0CB06b9cd164490A69A6425D1e3 |
 | StarkProxy 프록시 관리자 \[1]          | 0x78e899e576C3565C3219dbC9Ea5042A9DBed36d3 |
 | StarkProxy 프록시 관리자 \[2]          | 0x15774D4555fEfD57C9Fc8b11C8beba993eafcc13 |
 | StarkProxy 프록시 관리자 \[3]          | 0x4d9460e5C958f46a1Fe129954A069a37972f16EA |
@@ -75,11 +76,11 @@ dydx.community에서 호스팅되는 거버넌스 프론트엔드용 소스 코�
 
 ## 핵심 거버넌스 계약
 
-![빨간색 점선은 계약을 업그레이드할 수 있음을 나타냅니다](../.gitbook/assets/3-core-governance-contracts-1.png)
+![빨간색 점선은 계약을 업그레이드할 수 있음을 나타냅니다.](../.gitbook/assets/3-core-governance-contracts-1.png)
 
 ### DydxToken
 
-DydxToken 계약은 Aave에서 영감을 받았습니다. dYdX 팀에 의해 작은 변경 사항이 있습니다.
+DydxToken 계약은 Aave에서 영감을 받았습니다. dYdX 팀에 의해 사소한 변경 사항이 적용되었습니다.
 
 이더리움 기반 DYDX는 이더리움 메인넷의 [0x92D6C1e31e14520e676a687F0a93788B716BEff5](https://etherscan.io/address/0x92d6c1e31e14520e676a687f0a93788b716beff5)에 배포됩니다.
 
@@ -159,11 +160,11 @@ DYdxGovernor 계약은 Aave에서 영감을 받았습니다. dYdX 팀에 의해 
 
 ### 머클 분배자
 
-![빨간색 점선은 계약을 업그레이드할 수 있음을 나타냅니다](../.gitbook/assets/3-core-governance-contracts-2.png)
+![빨간색 점선은 계약을 업그레이드할 수 있음을 나타냅니다.](../.gitbook/assets/3-core-governance-contracts-2.png)
 
 머클 분배자 스마트 계약은 잔액의 머클 트리에 따라 $ethDYDX 토큰 보상을 분배합니다. 이 트리는 각 사용자의 누적 보상 잔액으로 주기적으로 업데이트될 수 있으며, 시간 경과에 따라 사용자에게 새로운 보상을 제공합니다.
 
-업데이트는 제안된 머클 루트를 오라클 계약에 의해 반환되는 최신 값으로 설정하여 수행됩니다. 제안된 머클 루트는 대기 기간이 경과된 후 활성화될 수 있습니다. 대기 기간 동안 dYdX 거버넌스는 제안된 루트가 올바르지 않거나 악의적인 경우 Merkle 루트를 멈출 수 있는 기회를 갖습니다. 루트 업데이트의 일시 중지는 ShortTimelockExecutor에 의해 해제될 수 있습니다.
+업데이트는 제안된 머클 루트를 오라클 계약에 의해 반환되는 최신 값으로 설정하여 수행됩니다. 제안된 머클 루트는 대기 기간이 경과된 후 활성화될 수 있습니다. 대기 기간 동안 dYdX 거버넌스는 제안된 루트가 올바르지 않거나 악의적인 경우 Merkle 루트를 멈출 수 있는 기회를 갖습니다. 루트 업데이트의 일시 중지는 ShortTimelockExecutor에 의해 다시 활성화될 수 있습니다.
 
 머클 배포자 스마트 컨트랙트는 Uniswap 및 Badger 디자인에서 영감을 받았습니다. 스마트 계약은 이더리움 메인넷의 [0x01d3348601968aB85b4bb028979006eac235a588](https://etherscan.io/address/0x01d3348601968ab85b4bb028979006eac235a588)에 배포됩니다.
 
@@ -181,21 +182,21 @@ DYdxGovernor 계약은 Aave에서 영감을 받았습니다. dYdX 팀에 의해 
 
 ### 유동성 모듈
 
-![빨간색 점선은 계약을 업그레이드할 수 있음을 나타냅니다](../.gitbook/assets/3-core-governance-contracts-4.png)
+![빨간색 점선은 계약을 업그레이드할 수 있음을 나타냅니다.](../.gitbook/assets/3-core-governance-contracts-4.png)
 
 유동성 모듈은 dYdX 레이어 2 거래소에서 마켓 메이킹을 목적으로 $USDC 자금 할당을 장려하는 스테이킹 및 대출과 관련된 스마트 계약의 모음입니다.
 
-스테이커는 $USDC를 스테이킹하면 $ethDYDX 보상을 받습니다. 스테이킹된 자금은 사전 승인된 특정 파트너가 담보 없이 평판에 따라 차입할 수 있습니다. 자금은 L2 거래소에서만 사용할 수 있습니다. 이 제한은 StarkEx 무기한 거래소 계약과 상호 작용하는 StarkProxy 계약을 통해 집행됩니다.
+스테이커는 $USDC를 스테이킹하면 $ethDYDX 보상을 받습니다. 스테이킹된 자금은 사전 승인된 특정 파트너가 담보 없이 평판에 따라 차입할 수 있습니다. 자금은 L2 거래소에서만 사용될 수 있으며, 이는 StarkEx 무기한 거래소 계약과 상호 작용하는 StarkProxy 계약을 통해 집행됩니다.
 
 ![유동성 모듈의 다이어그램](../.gitbook/assets/3-core-governance-contracts-5.png)
 
 ### StarkProxy
 
-이 계약을 통해 소유자는 LiquidityStaking에서 자금을 빌리고 StarkPerpetual에서 해당 자금을 사용할 수 있습니다. 추가 자금은 보유자가 입금할 수 있으며 차용 금액을 초과하는 모든 자금은 자유롭게 인출될 수 있습니다. 이 계약은 Starkware가 작성하고 먼저 감사 및 배포된[ StarkPerpetual](https://github.com/starkware-libs/starkex-contracts/tree/master/scalable-dex/contracts/src/perpetual) 계약과 상호 작용합니다.
+이 계약을 통해 소유자는 LiquidityStaking에서 자금을 대출받아 StarkPerpetual에서 해당 자금을 사용할 수 있습니다. 추가 자금은 보유자가 입금할 수 있으며 차용 금액을 초과하는 모든 자금은 자유롭게 인출될 수 있습니다. 이 계약은 Starkware가 작성하고 먼저 감사 및 배포된[ StarkPerpetual](https://github.com/starkware-libs/starkex-contracts/tree/master/scalable-dex/contracts/src/perpetual) 계약과 상호 작용합니다.
 
 ### 트레저리 계약
 
-![빨간색 점선은 계약을 업그레이드할 수 있음을 나타냅니다](../.gitbook/assets/3-core-governance-contracts-6.png)
+![빨간색 점선은 계약을 업그레이드할 수 있음을 나타냅니다.](../.gitbook/assets/3-core-governance-contracts-6.png)
 
 TreasuryVeser 계약은 [Uniswap](https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol)에서 영감을 받았습니다.
 
@@ -219,11 +220,11 @@ TreasuryVeser 계약은 [Uniswap](https://github.com/Uniswap/governance/blob/mas
 
 ### 체인링크 오라클 보상(거래 및 유동성 공급자 보상)
 
-이 시스템의 목표는 dYdX 레이어 2 거래소를 이용하여 트레이더가 얻은 ethDYDX 토큰 보상을 오라클 서명자의 탈중앙 네트워크를 통해 계산하고 게시하는 것입니다. 보상 프로그램은 배포 프로그램의 시작 이후 각 사용자가 적립한 누적 보상을 포함하는 머클 트리에 저장됩니다. 각 에포크에 머클 루트는 MerkleDistributorV1 스마트 컨트랙트에서 업데이트되어 마지막 에포크에서 얻은 보상을 반영합니다.
+이 시스템의 목표는 dYdX 레이어 2 거래소를 이용하여 트레이더가 얻은 ethDYDX 토큰 보상을 오라클 서명자의 탈중앙 네트워크를 통해 계산하고 게시하는 것입니다. 보상은 배포 프로그램의 시작 이후 각 사용자가 적립한 누적 보상을 포함하는 머클 트리에 저장됩니다. 각 에포크에 머클 루트는 MerkleDistributorV1 스마트 컨트랙트에서 업데이트되어 마지막 에포크에서 얻은 보상을 반영합니다.
 
-당사는 체인링크 오라클 시스템과 통합하여 보상 데이터를 체인에 게시했습니다. 당사는 IPNS를 사용하여 체인링크가 머클 트리를 구축하기 위해 사용하는 거래 데이터를 게시합니다. IPNS를 사용하면 이전 에포크와 동일한 IPNS 링크 아래에 최신 에포크에 대한 거래 데이터를 게시할 수 있습니다. 즉, 데이터의 위치는 변경되지 않습니다.
+당사는 체인링크 오라클 시스템과 통합하여 보상 데이터를 온체인에 게시했습니다. 당사는 IPNS를 사용하여 체인링크가 머클 트리를 구축하기 위해 사용하는 거래 데이터를 게시합니다. IPNS를 사용하면 이전 에포크와 동일한 IPNS 링크 아래에 최신 에포크에 대한 거래 데이터를 게시할 수 있습니다. 즉, 데이터의 위치는 변경되지 않습니다.
 
-거래 데이터에서 적절한 보상을 계산한 후 체인링크는 머클 보상 트리를 IPFS에 게시합니다. 머클 트리 데이터가 있는 IPFS CID는 해당 에포크의 보상을 위해 머클 루트와 함께 머클 배포자 계약에 저장됩니다.
+거래 데이터에서 적절한 보상을 계산한 후 체인링크는 머클 보상 트리를 IPFS에 게시합니다. 머클 트리 데이터가 포함된 IPFS CID는 해당 에포크의 보상을 위해 머클 루트와 함께 머클 배포자 계약에 저장됩니다.
 
 다음 플로우 차트는 체인링크 오라클이 구동하는 보상 시스템의 아키텍처를 나타냅니다.
 
@@ -231,4 +232,4 @@ TreasuryVeser 계약은 [Uniswap](https://github.com/Uniswap/governance/blob/mas
 
 ### 기타 자산
 
-* dYdX Foundation 브랜드 자산은 [**여기**](https://dydx.foundation/brand)를 참조하십시오.\*\*\*\*
+* dYdX 재단 브랜드 자산은 [**여기**](https://dydx.foundation/brand)를 참조하십시오.\*\*\*\*
