@@ -1,7 +1,7 @@
-# dYdX v3 终止
+# dYdX v3 上线
 
-dYdX Trading, Inc. [宣布](https://dydx.exchange/blog/v3-product-sunset)从 2024 年 10 月 28 日起，开始终止 v3。
+dYdX Trading, Inc.于2024年10月28日结束了dYdX v3的运营。
 
-dYdX Chain、[http://dydx.trade](https://t.co/v3TXeNvCwf) 和 dYdX Chain API 的用户不受影响。
+dYdX 链、[http://dydx.trade](https://t.co/v3TXeNvCwf) 和 dYdX 链 API 的用户不受影响。
 
-因此，根据 dYdX 基金会的宗旨，我们准备了一份与 dYdX v3 终止对 dYdX v3 治理和 ethDYDX 及 wethDYDX 代币持有者影响相关的[常见问题列表](https://www.dydx.foundation/blog/dydx-v3-sunset-governance-token-faqs)。
+为此，根据dYdX基金会的宗旨，我们编写了一份[常见问题解答列表](https://www.dydx.foundation/blog/dydx-v3-sunset-governance-token-faqs)，介绍dYdX v3停用对dYdX v3治理、ethDYDX和wethDYDX代币持有者的影响。
