@@ -1,10 +1,11 @@
 ---
 description: Visão geral do ciclo de vida de propostas de melhoria da dYdX (DIP).
+hidden: true
 ---
 
-#
+# 💼 Ciclo de vida da proposta
 
-## **Fases da proposta**
+## **Estágios da proposta**
 
 O processo de governança da dYdX é alimentado por fóruns de governança em [**https://dydx.forum/**](https://dydx.forum/) e ratificado por meio de propostas de melhoria da dYdX (“DIPs”).
 
@@ -18,9 +19,9 @@ O fluxograma a seguir mostra as etapas iniciais propostas para aprovar uma propo
 
 Qualquer um pode se inscrever e configurar uma discussão em qualquer tópico nos fóruns de governança da dYdX, que estão hospedados em [**https://dydx.forum/**](https://dydx.forum/). Os membros da comunidade são obrigados a se registrar usando um endereço de e-mail ou carteira Ethereum.
 
-## 1. Criação de DRC (Off-chain)
+## 1. Criação de DRC (off-chain)
 
-A criação de **solicitação dYdX de comentários** (DRC, em inglês) é o primeiro passo no processo de melhoria da governança. Qualquer um pode participar do [Fórum de Governança](https://dydx.forum/), criar DRCs off-chain e discutir melhorias.
+A criação de **solicitação da dYdX de comentários** (DRC, em inglês) é o primeiro passo no processo de melhoria da governança. Qualquer um pode participar do [Fórum de governança](https://dydx.forum/), criar DRCs off-chain e discutir melhorias.
 
 Para criar um DRC, use [este modelo](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) (disponível em nosso Github). A DRC deve cobrir todas as informações da DIP final em potencial.
 
@@ -28,51 +29,51 @@ No mínimo, as DRCs devem incluir:
 
 * Títulos curtos e concisos para a DRC
 * Descrição de proposta curta e concisa
-* A lógica para a DRC, por exemplo, por quê?
+* A lógica para a DRC; por exemplo, por quê?
 * O título da postagem no fórum deve incluir DRC: com o título curto da DRC. Por exemplo, DRC: nova solicitação de mercado
 * Uma votação comunitária que os membros da comunidade usam para votar em melhorias off-chain
 
-## 2. Discussão e feedback de DRC
+## 2. Discussão e feedback da DRC
 
 Uma vez postados no fórum de governança, todas as perguntas e comentários devem ser abordados e levados em consideração, de modo a melhorar ainda mais a DRC.
 
-## 3. Pesquisas de snapshots de DRC
+## 3. Pesquisas de snapshot da DRC
 
-As pesquisas de snapshots servem a dois fins: análise de sentimento para DIPs on-chain futuras e votos de vinculação para variáveis controladas off-chain.
+As pesquisas de snapshot servem a dois fins: análise de sentimento para DIPs on-chain futuras e votos de vinculação para variáveis controladas off-chain.
 
 Uma vez que uma DRC off-chain tenha um consenso muito aproximado, um membro da comunidade com um poder de proposição total de mais de `10.000` Tokens de Governança pode criar um **voto off-chain** para a DRC no **Snapshot**. Incentivamos a comunidade da dYdX a criar pesquisas de snapshots nas segundas-feiras para aumentar a visibilidade durante a semana.
 
 Um snapshot é uma interface simples de votação que permite aos usuários indicar sentimentos off-chain. Os votos em Snapshots são ponderados de acordo com o poder de voto do endereço usado para tal.
 
-Para pesquisas de snapshots relacionadas à sinalização de sentimentos, o proponente precisará fornecer:
+Para pesquisas de snapshot relacionadas à sinalização de sentimentos, o proponente precisará fornecer:
 
 * detalhes da DRC,
 * um sistema de votação,
 * um período de votação — data de início e data de término da votação, definidas em um período de 4 dias e
-* um atraso de votação: um número de bloco de Snapshot que é de 6570 blocos (aproximadamente 1 dia com base no tempo de bloqueio de 13,2 segundos) no futuro. O número de bloco do snapshot trava o estado de membros da comunidade que podem votar. Os holders de tokens que tenham tokens antes do número de bloco do snapshot se tornam elegíveis para votar. Antes do snapshot do respectivo poder de voto de cada endereço, o atraso de votação dá aos detentores de Tokens de Governança tempo para adquirir tokens, delegar o poder de voto e mover tokens entre carteiras. Observe que a movimentação entre carteiras se aplica apenas a $ethDYDX e $wethDYDX.
+* um atraso de votação: um número de blocos de snapshot que é de 6570 blocos (aproximadamente um dia com base no tempo de bloqueio de 13,2 segundos) no futuro. O número de blocos de snapshot trava o estado de membros da comunidade que podem votar. Os holders de tokens que tenham tokens antes do número de bloco do snapshot se tornam elegíveis para votar. Antes do snapshot do respectivo poder de voto de cada endereço, o atraso de votação dá aos detentores de tokens de governança tempo para adquirir tokens, delegar o poder de voto e mover tokens entre carteiras. Observe que a movimentação entre carteiras se aplica apenas a $ethDYDX e $wethDYDX.
 
-Os votos de snapshot são considerados finais e vinculativos para decisões que não exijam uma chamada no contrato inteligente on-chain e mudanças consideráveis às fórmulas de recompensas de trades a provedores de liquidez. O proponente precisará incluir os requisitos acima e fornecer:
+Os votos de snapshot são considerados finais e vinculativos para decisões que não exijam uma chamada no contrato inteligente on-chain, especialmente mudanças consideráveis nas fórmulas de recompensas de trading a provedores de liquidez. O proponente precisará incluir os requisitos acima e fornecer:
 
 * opções de voto binárias e, para fins de clareza, um endereço vota a favor ou contra uma proposta.
 
-As alterações propostas serão implementadas pela dYdX Trading Inc. se os resultados da pesquisa do snapshot atenderem aos seguintes critérios:
+As alterações propostas serão implementadas pela dYdX Trading Inc. se os resultados da pesquisa de snapshot atenderem aos seguintes critérios:
 
-* o quorum mínimo - pelo menos `1.000.000` de Tokens de Governança. O quórum mínimo contribui para a descentralização da tomada de decisões e protege contra a tomada de decisões unilaterais e
+* o quorum mínimo - pelo menos `1.000.000` de tokens de governança. O quorum mínimo contribui para a descentralização da tomada de decisões e protege contra a tomada de decisões unilaterais, e
 * o diferencial de voto mínimo, ou seja, pelo menos 67% dos votos devem ser a favor da proposta. O diferencial de voto mínimo auxilia na filtragem das propostas que são altamente contenciosas e exigem mais discussões.
 
-A dYdX Trading Inc. terá até 1 epoch (28 dias), um período de carência de execução, para implementar alterações de uma pesquisa de snapshot bem-sucedida.
+A dYdX Trading Inc. terá até uma epoch (28 dias), um período de carência de execução, para implementar alterações de uma pesquisa de snapshot bem-sucedida.
 
 Observações, propostas e votos são apenas mensagens assinadas, armazenadas em IPFS disponíveis por meio do portal da Commonwealth.
 
 ## 4. Criação de DIP (on-chain)
 
-Quando um consenso é atingido, uma DIP on-chain pode ser submetida por um membro da comunidade que detenha poder de proposição suficiente para o tipo de proposta. Uma DIP on-chain é iniciada por meio de uma chamada do contrato inteligente. A proposta deve ser baseada no resultado que venceu a votação da DIP off-chain no snapshot e pode consistir em uma ou várias ações, até no máximo de 10 ações por proposta.
+Quando um consenso é atingido, uma DIP on-chain pode ser submetida por um membro da comunidade que detenha poder de proposição suficiente para o tipo de proposta. Uma DIP on-chain é iniciada por meio de uma chamada do contrato inteligente. A proposta deve ser baseada no resultado que venceu a votação da DIP off-chain no snapshot e pode consistir em uma ou várias ações, até o máximo de 10 ações por proposta.
 
-A criação de uma DIP está sujeita a um número mínimo de tokens que são mantidos/delegados por uma conta. Um executor de timelock deve ser especificado quando uma proposta é criada. Os parâmetros iniciais são os seguintes (e podem ser modificados pela governança):
+A criação de uma DIP está sujeita a um número mínimo de tokens que são mantidos/delegados por um conta. Um executor de timelock deve ser especificado quando uma proposta é criada. Os parâmetros iniciais são os seguintes (e podem ser modificados pela governança):
 
-| Parâmetro | Descrição | Executor de timelock curto | Executor Merkle-Pauser | Executor de timelock longo | Executor de Starkware |
+| Parâmetro | Descrição | Executor de timelock curto | Executor Merkle-Pauser | Executor de timelock longo | Executor da Starkware |
 | ------------------ | ------------------------------------------------ | ----------------------- | ---------------------- | ---------------------- | -------------------- |
-| Limiar de propostas | Mínimo de tokens mantidos/delegados para criar proposta | 0,5% do fornecimento total | 0,5% do fornecimento total | 2% do fornecimento total | 0,5% do fornecimento total |
+| Limiar de propostas | Mínimo de tokens mantidos/delegados para criar proposta | 0,5% da oferta total | 0,5% da oferta total | 2% da oferta total | 0,5% da oferta total |
 
 ## 5. Votação de DIP (on-chain)
 
@@ -86,33 +87,33 @@ O gráfico a seguir mostra um fluxograma de estado de DIP:
 
 Depois que uma DIP é criada on-chain, ela fica sujeita a um **atraso de votação**, **período de votação**, **quórum mínimo** e um **diferencial de votação** mínimo. Os parâmetros iniciais são os seguintes:
 
-| Parâmetro | Descrição | Executor de timelock curto | Executor Merkle-Pauser | Executor de timelock longo | Executor de Starkware |
+| Parâmetro | Descrição | Executor de timelock curto | Executor Merkle-Pauser | Executor de timelock longo | Executor da Starkware |
 | ----------------- | ----------------------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | -------------------- |
 | Atraso de votação | O número de blocos Ethereum que se deve esperar antes de votar em uma proposta pode começar após uma proposta ser enviada | 6.570 blocos | 6.570 blocos | 6.570 blocos | 6.570 blocos |
-| Período de votação\* | Duração na qual as propostas ficam disponíveis para serem votadas | 4 dias | 2 dias | 10 dias | 4 dias |
-| Quórum mínimo | Mínimo de votos positivos para uma proposta de DIP passar | 2% do fornecimento total | 1% do fornecimento total | 10% do fornecimento | 2% do fornecimento total |
-| Diferencial de votos | É necessário que haja um diferencial entre votos a favor e contra para que uma proposta de DIP passe | 0,5% do fornecimento total | 0,5% do fornecimento total | 10% do fornecimento | 0,5% do fornecimento total |
+| Período de votação\* | Duração na qual as propostas ficam disponíveis para serem votadas | Quatro dias | 2 dias | Dez dias | Quatro dias |
+| Quórum mínimo | Mínimo de votos positivos para uma proposta de DIP passar | 2% da oferta total | 1% do fornecimento total | 10% da oferta total | 2% da oferta total |
+| Diferencial de votos | É necessário que haja um diferencial entre votos a favor e contra para que uma proposta de DIP seja aprovada | 0,5% da oferta total | 0,5% da oferta total | 10% da oferta total | 0,5% da oferta total |
 
 _\*Temporização baseada em tempos de bloqueio de 13,2 segundos._
 
-Apenas o atraso de votação pode ser modificado por parte da governança, este atraso só pode ser alterado para valores entre (inclusive) o atraso mínimo e máximo. O período de votação, quórum mínimo e diferencial de votos não podem ser alterados.
+Apenas o atraso de votação pode ser modificado por parte da governança, e ele só pode ser alterado para valores entre (inclusive) o atraso mínimo e máximo. O período de votação, quórum mínimo e diferencial de votos não podem ser alterados.
 
 ## 6. Filas de propostas e execução
 
 Depois que uma DIP for aprovada, qualquer endereço poderá chamar o método de fila para mover a proposta para a fila de timelock. Uma DIP só pode ser enfileirada se tiver sido aprovada.
 
-| Parâmetro | Descrição | Executor de timelock curto | Executor Merkle-Pauser | Executor de timelock longo | Executor de Starkware |
+| Parâmetro | Descrição | Executor de timelock curto | Executor Merkle-Pauser | Executor de timelock longo | Executor da Starkware |
 | ------------------------ | ------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
-| Atraso de timelock\* | Trata-se do atraso antes da proposta ser executada após uma proposta ser aprovada e enfileirada | 2 dias | 0 dias | 7 dias | 2 a 9 dias |
-| Período de carência de execução\* | O tempo após o qual uma proposta se torna executável e durante o qual ela deve ser executada. | 7 dias | 7 dias | 7 dias | 7 dias |
-| Atraso mínimo de timelock\* | Atraso mínimo antes de uma proposta ser executada (após o enfileiramento) | 1 dia | 0 dias | 5 dias | 4 dias |
-| Atraso máximo de timelock\* | Atraso máximo antes de uma proposta ser executada (após o enfileiramento) | 7 dias | 1 dia | 21 dias | 21 dias |
+| Atraso de timelock\* | Trata-se do atraso antes da proposta ser executada após uma proposta ser aprovada e enfileirada | 2 dias | Zero dia | Sete dias | 2 a 9 dias |
+| Período de carência de execução\* | O tempo após o qual uma proposta se torna executável e durante o qual ela deve ser executada. | Sete dias | Sete dias | Sete dias | Sete dias |
+| Atraso mínimo de timelock\* | Atraso mínimo antes de uma proposta ser executada (após o enfileiramento) | 1 dia | Zero dia | 5 dias | Quatro dias |
+| Atraso máximo de timelock\* | Atraso máximo antes de uma proposta ser executada (após o enfileiramento) | Sete dias | 1 dia | Vinte e um dias | Vinte e um dias |
 
 _\*Temporização baseada em tempos de bloqueio de 13,2 segundos._
 
 Assim que o período de votação terminar e uma proposta tiver sido bem-sucedida, qualquer um pode chamar a função de fila para começar o atraso do timelock.
 
-Para o executor de timelock de prioridade da Starkware, ele tem um período prioritário de 7 dias fora do atraso de timelock de 9 dias. Isso significa que após 9 dias qualquer um pode executar uma proposta. No entanto, a Starkware tem a opção de executar a proposta, no prazo de 2 a 9 dias (o período de prioridade).
+Para o executor de timelock de prioridade da Starkware, tem um período prioritário de sete dias fora do atraso de timelock de nove dias. Isso significa que após 9 dias qualquer um pode executar uma proposta. No entanto, a Starkware tem a opção de executar a proposta, no prazo de 2 a 9 dias (o período de prioridade).
 
 Em termos práticos:
 
@@ -120,7 +121,7 @@ Em termos práticos:
 * Dias 2 a 9: apenas a Starkware pode executar
 * Dia 9: qualquer um pode executar
 
-## 7. Cancelamento de propostas (Opcional)
+## 7. Cancelamento de propostas (opcional)
 
 A qualquer momento em um ciclo de vida de DIP, o proponente pode cancelar a DIP. Uma proposta pode ser cancelada por qualquer um antes de ser executada se o proponente não tiver poder de proposição suficiente no bloco atual.
 
@@ -128,17 +129,17 @@ A qualquer momento em um ciclo de vida de DIP, o proponente pode cancelar a DIP.
 
 ### Qual é o propósito do atraso de votação?
 
-O **Atraso de votação** é o número de blocos Ethereum de espera antes que a votação em uma proposta comece após seu envio.
+O **atraso de votação** é o número de blocos Ethereum de espera antes que a votação em uma proposta comece após seu envio.
 
-O poder de voto deve ser delegado para um endereço, em sua totalidade, antes de uma proposta ser enviada ou durante o Atraso **de votação** da proposta.
+O poder de voto deve ser delegado para um endereço, em sua totalidade, antes de uma proposta ser enviada ou durante o **atraso de votação** da proposta.
 
-Por enquanto, o **atraso de votação** está definido para `6.570 blocos`, o que é de cerca de 1 dia. Este valor é adicionado ao número do bloco atual quando uma proposta é criada.
+Por enquanto, o **atraso de votação** está definido para `6.570 blocos`, o que é de cerca de 1 dia. Esse valor é adicionado ao número de blocos atual quando uma proposta é criada.
 
-No futuro, a governança da dYdX pode votar para aumentar ou diminuir o **atraso de votação**. Embora existam benefícios óbvios para um maior **Atraso de votação.** Isso pode apresentar alguns resultados adversos em potencial, como a exploração de casos de borda.
+No futuro, a governança da dYdX pode votar para aumentar ou diminuir o **atraso de votação**. Embora existam benefícios óbvios para um **atraso de votação** maior. Isso pode apresentar alguns resultados adversos em potencial, como a exploração de casos de borda.
 
-### Qual é o propósito do limiar de proposta?
+### Qual é o propósito do limite de proposta?
 
-Como $ethDYDX e $wethDYDX são ativos de livre comércio, qualquer pessoa pode tentar uma aquisição de governança por meio de compra de mercado. Dito isso, para forçar um voto de má-fé exigiria um mínimo de `5.000.000` de Tokens de Governança no caso de um timelock pequeno; ou `20`.000.000 de Tokens de Governança no caso de um timelock longo. Se não for possível, este valor se mostraria caro e provavelmente custaria mais contabilizando a flutuação de preço em vez do ganho líquido do ataque.
+Como $ethDYDX e $wethDYDX são ativos de livre comércio, qualquer pessoa pode tentar uma aquisição de governança por meio de compra de mercado. Dito isso, para forçar um voto de má-fé exigiria um mínimo de `5.000.000` de Tokens de Governança no caso de um timelock pequeno; ou `20`.000.000 de Tokens de Governança no caso de um timelock longo. Se não for possível, esse valor se mostraria caro e provavelmente custaria mais ao levar em conta a flutuação do preço em vez do ganho líquido do ataque.
 
 Se um grupo alcançar um consenso malicioso, o atraso do timelock daria aos agentes afetados tempo para sacar seus ativos do protocolo. Isso também seria uma oportunidade para fazer um fork do protocolo, um caminho que provavelmente seria tomado pelos atores de boa-fé restantes.
 
