@@ -1,6 +1,7 @@
 ---
 description: >-
   Um das Onboarding von Marktmachern zu erleichtern, hat das dYdX-Team diesen Leitfaden erstellt. Bitte lesen Sie das Dokument vollständig durch, bevor Sie mit den Integrationsschritten beginnen.
+hidden: true
 ---
 
 # Onboarding für Market Maker
