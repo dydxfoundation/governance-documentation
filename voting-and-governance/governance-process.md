@@ -1,8 +1,9 @@
 ---
 description: Ein grober Überblick über die Governance-Architektur.
+hidden: true
 ---
 
-#
+# 🏗️ Architektur
 
 ## Überblick
 
@@ -10,13 +11,13 @@ $ethDYDX, $stkDYDX und $wethDYDX („Governance-Token“) gewähren Inhabern das
 
 Vorschläge müssen ein vorgegebenes Minimum und einen bestimmten Prozentsatz an Ja-Stimmen je nach Art des Vorschlags übertreffen.
 
-
+Die Abstimmungs- und Vorschlagsbefugnisse des Governance-Tokens ermöglichen es dem Governance-Token-Inhaber, Vorschläge zu unterbreiten und über Governance-Vorschläge abzustimmen. Beachten Sie, dass der Inhaber von Governance-Token solche Befugnisse an andere Ethereum-Adressen delegieren kann.
 
 Im Kern der dYdX Governance stehen 8 Smart-Verträge:
 
 * **Die `$ethDYDX, $stkDYDX und $wethDYDX-Token`-Verträge**: Verfügen über Momentaufnahmen der Stimmrechte jeder einzelnen Adresse in unterschiedlichen Zeiträumen.
 * **Der `Governance-Strategie-V2-Vertrag`**: Enthält die Logik, um die relativen Vorschlags- und Abstimmungsrechte der Benutzer zu messen. Die dYdX-Community [hat für](https://dydx.community/dashboard/proposal/15) ein Upgrade des `Governance-Strategie`-Vertrags auf `Governance-Strategie V2` gestimmt, um $wethDYDX mit der gleichen Governance-Funktionalität wie ethDYDX für die Abstimmung und den Vorschlag in dYdX v3-Governance auszustatten.
-*
+* **Der `Sicherheitsmodul`-Vertrag**: enthält Logik, um $ethDYDX-Token zu staken, die Position zu tokenisieren und Prämien zu erhalten. Token, die im Sicherheitsmodul gestaket sind, behalten die vollständigen Governance-Rechte bei.
 * **Der `Governor` Contract**: Verfolgt Vorschläge und kann über den Timelock Smart Contract Vorschläge durchführen.
 * **Die `Timelock` Contracts**: können von der Governance abgestimmte Transaktionen in die Warteschlange stellen, diese stornieren oder ausführen. Die Funktionen in einem Vorschlag werden durch den Timelock Contract initiiert. In die Warteschlange gestellte Transaktionen können nach einer Verzögerung und vor Ablauf der Nachfrist ausgeführt werden.
 * **Der `Priority Timelock` Contract**: Derselbe wie der Timelock Contract, jedoch erlaubt er dem Prioritäts-Prüfer die Ausführung von Transaktionen innerhalb der **Priority Periode** (7 Tage) vor Ablauf der Timelock-Verzögerung.
@@ -33,7 +34,7 @@ Die dYdX on-chain Governance ermöglicht:
 
 ## Vorschlagsarten
 
-Ein Executor muss jede Art des Vorschlags einschätzen.
+Es gibt vier Arten von Vorschlägen mit unterschiedlichen Parametern, was die Länge und die Ausführung eines Vorschlags angeht, d. h. kritische Vorschläge, die den Governance Konsens betreffen, erfordern eine längere Abstimmzeit und ein eindeutigeres Abstimmungsergebnis, während Vorschläge, die lediglich Protokollparameter betreffen, weniger Abstimmungszeit erfordern und schnell umgesetzt werden können. Ein Executor muss jede Art des Vorschlags einschätzen.
 
 #### **Short Timelock Executor**
 
@@ -47,7 +48,7 @@ Der Short Timelock Executor steuert die folgenden Punkte:
 
 **Starkware Priority Timelock Executor**
 
-
+Der Starkware-Prioritäts-Timelock-Executor verwaltet den StarkEx Perpetual Exchange-Vertrag und führt Vorschläge aus, die dYdX v3 konfigurieren. Starkware hält eine „Prioritätscontroller“-Rolle, die ihnen eine 7-tägige Prioritätsfrist ermöglicht, um die Ausführung des Vorschlags auszulösen. Protokolländerungen werden jedoch ausschließlich von Governance-Token-Inhabern über dYdX v3-Governance entschieden.
 
 #### **Long Timelock Executor**
 
