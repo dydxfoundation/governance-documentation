@@ -1,5 +1,6 @@
 ---
 description: Aperçu des principaux termes liés à la gouvernance.
+hidden: vrai
 ---
 
 # Glossaire
@@ -22,7 +23,7 @@ $**ethDYDX :** L'actif natif de l'écosystème dYdX basé sur Ethereum, qui ren
 
 **Quorum :** pour qu'un vote soit adopté, il doit atteindre un quorum minimum de jetons DYDX dans l'affirmative. Le but du quorum est de s'assurer que les seules mesures qui passent ont une participation électorale adéquate.
 
-**Époch :** tous les autres contrats fonctionnent sur des cycles de 28 jours, appelés épochs.
+**Epoch :** tous les autres contrats fonctionnent sur des cycles de 28 jours, appelés Epochs.
 
 **Période de grâce d'exécution :** la période après le vote où une proposition DIP devient exécutable, pendant laquelle elle doit être exécutée.
 
@@ -52,7 +53,7 @@ $**ethDYDX :** L'actif natif de l'écosystème dYdX basé sur Ethereum, qui ren
 
 **Pouvoir de vote :** pouvoir de vote utilisé pour voter pour ou contre les propositions existantes.
 
-**Délai de vote :** il s'agit entre le moment où une proposition peut être créée et celui où elle est disponible pour être votée. En exigeant au moins un bloc pour passer, la gouvernance est protégée contre les attaques Flash Loan qui pourraient emprunter un grand nombre de jetons, proposer un vote et voter sur le tout en un seul bloc.
+**Délai de vote :** il s'agit entre le moment où une proposition peut être créée et celui où elle est disponible pour être votée. En exigeant au moins un bloc pour passer, la gouvernance est protégée contre les attaques Flash Loan qui pourraient emprunter un grand nombre de jetons, proposer un vote et voter sur le tout-en-un seul bloc.
 
 **Période de vote :** une fois qu'une proposition DIP a été présentée, les membres de la communauté DYDX devront voter avant la fin de la période de vote. Il s'agit de la durée pendant laquelle les propositions sont disponibles pour être votées, avec le temps dans les blocs Ethereum.
 
