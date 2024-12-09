@@ -1,8 +1,9 @@
 ---
 description: Ein Überblick über den Abstimmungsprozess.
+hidden: true
 ---
 
-#
+# 🗳️ Abstimmungsprozess
 
 dYdX v3 wird von Inhabern und Delegierten von Governance-Token verwaltet und aktualisiert.
 
@@ -13,7 +14,7 @@ Mit jedem der Governance-Token sind zwei Rechte verbunden:
 * Das **Vorschlagsrecht** ermöglicht die Ausgestaltung und Aufrechterhaltung eines Vorschlags.
 * Das **Stimmrecht** wird zur Abstimmung für oder gegen bestehende Vorschläge ausgeübt.
 
-Inhaber von Governance-Token erhalten Governance-Rechte proportional zu ihrer Summe der im Besitz befindlichen und delegierten Token in einem bestimmten Block.
+Inhaber von Governance-Token erhalten Governance-Rechte proportional zur Summe der in ihrem Besitz befindlichen und delegierten Token in einem bestimmten Block.
 
 **`Vorschlagsrecht =`**`Vorschlagsrecht aus $ethDYDX-Token +`
 
@@ -71,7 +72,7 @@ dYdX-Governance ermöglicht es Inhabern, Stimmrechte an die Adresse ihrer Wahl z
 
 ![Weisen Sie anderen ihre Stimm- und Vorschlagsrechte zu](../.gitbook/assets/1-delegate-power.png)
 
-Token-Inhaber können auswählen, ob sie eine oder beide der Governance-Rechte, die mit einem Token verbunden sind, entweder über das Governance-Portal oder programmgesteuert delegieren wollen.Delegieren Sie Ihr Stimm- und Vorschlagsrecht Ein Benutzer, dem Rechte zugewiesen wurden, kann diese nicht an andere Delegierte weiterleiten.
+Token-Inhaber können auswählen, ob sie eine oder beide der Governance-Rechte, die mit einem Token verbunden sind, entweder über das Governance-Portal oder programmgesteuert delegieren wollen. Ein Benutzer, dem Rechte zugewiesen wurden, kann diese nicht an andere Delegierte weiterleiten.
 
 Token-Inhaber können Vorschlagsrechte und Stimmrechte an verschiedene Adressen delegieren. Allerdings ist keine partielle Delegation möglich (nur 100 % oder 0 % Rechte).
 

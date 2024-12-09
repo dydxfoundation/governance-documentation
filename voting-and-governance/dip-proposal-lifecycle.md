@@ -1,8 +1,9 @@
 ---
 description: Überblick über den Lebenszyklus des dYdX-Verbesserungsvorschlags (DIP).
+hidden: true
 ---
 
-#
+# 💼 Vorschlag Lebenszyklus
 
 ## **Vorschlagsstufen**
 
@@ -28,7 +29,7 @@ DRCs müssen mindestens Folgendes enthalten:
 
 * Kurze und prägnante Titel der DRC
 * Eine kurze und prägnante Beschreibung des Vorschlags
-* Die Begründung für die DRC, z. B. warum?
+* Die Begründung für die DRC, z. B. warum?
 * Der Titel des Forenbeitrags muss DRC: mit dem Kurztitel der DRC enthalten. Z. B. DRC: Neue Marktanfrage
 * Eine Gemeinschafts-Umfrage, welche die Gemeinschafts-Mitglieder dazu verwenden können, über Verbesserungen off-chain abzustimmen
 
@@ -53,12 +54,12 @@ Für Snapshot-Umfragen im Zusammenhang mit Stimmungssignalen muss der Vorschlage
 
 Für Entscheidungen, die keinen on-chain Smart Contract-Anruf erfordern, gelten Snapshot-Abstimmungen vor allem für Änderungen der Trading und Liquidity Provider Prämien-Formeln als verbindliche und endgültige Abstimmung. Der Vorschlagende muss die oben genannten Anforderungen erfüllen und Folgendes bereitstellen:
 
-* binäre Abstimmungsoptionen – zur Verdeutlichung stimmt eine Adresse entweder für oder gegen einen Vorschlag.
+* binäre Abstimmungsoptionen - zur Verdeutlichung stimmt eine Adresse entweder für oder gegen einen Vorschlag.
 
 Die vorgeschlagene(n) Änderung(en) wird/werden von dYdX Trading Inc. implementiert, wenn die Ergebnisse der Snapshot-Umfrage Folgendes erfüllen:
 
 * das Mindestquorum – mindestens `1.000.000` Governance-Token. Das Mindestquorum trägt zur Dezentralisierung der Entscheidungsfindung bei und schützt vor einseitiger Entscheidungsfindung und
-* die Mindeststimmendifferenz – mindestens 67 % der Stimmen müssen für den Vorschlag ausfallen. Die Mindeststimmen-Differenz hilft beim Herausfiltern von Vorschlägen, die äußerst umstritten sind und weiterer Diskussion bedürfen.
+* die Mindeststimmendifferenz - mindestens 67 % der Stimmen müssen für den Vorschlag ausfallen. Die Mindeststimmen-Differenz hilft beim Herausfiltern von Vorschlägen, die äußerst umstritten sind und weiterer Diskussion bedürfen.
 
 dYdX Trading Inc. hat bis zu 1 Epoche (28 Tage), eine Nachfrist für die Ausführung, um Änderungen aus einer erfolgreichen Snapshot-Umfrage zu implementieren.
 
@@ -103,7 +104,7 @@ Nachdem ein DIP bestanden wurde, kann jede Adresse die Warteschlangen-Methode au
 
 | Parameter | Beschreibung | Short Timelock Executor | Merkle-Pauser Executor | Long Timelock Executor | Starkware Executor |
 | ------------------------ | ------------------------------------------------------------------------------------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
-| Timelock-Verzögerung\* | Nachdem ein Vorschlag bestanden und in die Warteschlange gestellt wurde, wird die Ausführung des Vorschlags verzögert | 2 Tage | 0 Tage | 7 Tage | 2-9 Tage |
+| Timelock-Verzögerung\* | Nachdem ein Vorschlag bestanden hat und in die Warteschlange gestellt wurde, wird die Ausführung des Vorschlags verzögert | 2 Tage | 0 Tage | 7 Tage | 2-9 Tage |
 | Ausführungsschonfrist\* | Die Zeit, nach der ein Vorschlag ausführbar wird, während der er ausgeführt werden muss. | 7 Tage | 7 Tage | 7 Tage | 7 Tage |
 | Mindest-Timelock-Verzögerung\* | Minimale Verzögerung, bevor ein Vorschlag ausgeführt wird (nach der Warteschlange) | 1 Tag | 0 Tage | 5 Tage | 4 Tage |
 | Maximale Timelock-Verzögerung\* | Maximale Verzögerung vor der Ausführung eines Vorschlags (nach der Warteschlange) | 7 Tage | 1 Tag | 21 Tage | 21 Tage |
@@ -134,7 +135,7 @@ Das Stimmrecht muss entweder vollständig vor der Einreichung eines Vorschlags o
 
 Im Moment ist die **Abstimmungsverzögerung** auf `6.570 Blöcke` eingestellt, was etwa 1 Tag entspricht. Dieser Wert wird bei der Erstellung eines Vorschlags zur aktuellen Blocknummer addiert.
 
-In Zukunft kann dYdX Governance über eine Verlängerung oder Verkürzung der **Abstimmungsverzögerung** abstimmen. Eine erhöhte **Abstimmungsverzögerung** hat offensichtliche Vorteile. Es kann zu einigen potenziell nachteiligen Ergebnissen führen, wie z. B. opportunistische Grenzfallausnutzung.
+In Zukunft kann dYdX Governance über eine Verlängerung oder Verkürzung der **Abstimmungsverzögerung** abstimmen. Eine erhöhte **Abstimmungsverzögerung** hat offensichtliche Vorteile. Es kann zu einigen potenziell nachteiligen Ergebnissen führen, wie z. B. opportunistische Grenzfallausnutzung.
 
 ### Was ist der Zweck der Vorschlagsschwelle?
 

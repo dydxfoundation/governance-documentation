@@ -1,13 +1,14 @@
 ---
 description: >-
   Ein technischer Schritt-für-Schritt-leitfaden zur Erstellung eines Vorschlags zur Übertragung von ethDYDX aus Mitteln der Community an eine Zieladresse.
+hidden: true
 ---
 
 # Technischer Leitfaden zur Erstellung eines Ausgabenvorschalgs für die dYdX Community
 
 Reverie hat einen umfassenden, technischen Leitfaden für die Einreichung eines Governance-Vorschlags zur Übertragung von $ethDYDX aus Mitteln der Community durch eine Pull-Anfrage in das dYdX _Governance-Contracts_ Repository zusammengestellt.
 
-Um diesen Vorschlag zu erstellen, muss ein Mitglied der dYdX-Community **über mindestens 5 Mio Governance-Token** (_0,5 % des Gesamtangebots)_ an Vorschlagsrechten ([Vorschlagsschwellenwert](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters) für eine [kurzzeiitige Wahl](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)) verfügen.
+Um diesen Vorschlag zu erstellen, muss ein Mitglied der dYdX-Community **über mindestens 5 Mio. Governance-Token** _(0,5 % des Gesamtangebots_) an Vorschlagsrechten ([Vorschlagsschwellenwert](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters) für eine [kurzzeiitige Wahl](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)) verfügen.
 
 ### Vorläufige Anforderungen
 
@@ -17,7 +18,7 @@ Die folgenden Schritte müssen vor der Fertigstellung der Pull-Anfrage abgeschlo
 2. **Zieladresse:** Die Zieladresse muss im Voraus generiert werden. Wenn die Zieladresse eine Multi-Sig-Adresse ist, muss das Multi-Sig-Wallet erstellt werden.
 3. **GitHub-Konto:** Ein GitHub-Konto, um das Repository zu spalten.
 4. **Übertragungsmenge (optional):** Vorzugsweise wurde die angeforderte Übertragungsmenge schon vor der Pull-Anfrage festgelegt. Wenn allerdings ein fiktiver Betrag verwendet wird, kann es als letzter Schritt vor der Genehmigung erfolgen.
-5. **DIP-IPFS-Hash (optional):** Wenn der Übertragungsbetrag bekannt ist, sollte das DIP abgeschlossen und zum IPFS verschoben werden, um das Hash zu generieren. Es kann jedoch als ein letzter Schritt vor der Genehmigung festgelegt werden, wenn der Betrag noch nicht ermittelt wurde.
+5. **DIP-IPFS-Hash (optional):** Wenn der Übertragungsbetrag bekannt ist, sollte das DIP abgeschlossen und zum IPFS verschoben werden, um den Hash zu generieren. Dies kann jedoch als ein letzter Schritt vor der Genehmigung festgelegt werden, wenn der Betrag noch nicht ermittelt wurde.
 
 ### Den Vorschlag erstellen
 
@@ -151,7 +152,7 @@ export async function createProposalNameProposal({
 
 Mit dem erstellten Vorschlag können wir die Bereitstellung schreiben, mit der die erforderlichen Transaktions- und Anrufdaten erstellt werden, um den Vorschlag einzureichen.
 
-Erstellen Sie in _**tasks/deployment,**_ eine neue Datei mit demselben Namen, der auch für den Vorchlags-Code verwendet wurde → Vorschlag-name.ts und tragen Sie den folgenden Code ein:
+Erstellen Sie in _**tasks/deployment**_, eine neue Datei mit demselben Namen, der auch für den Vorchlags-Code verwendet wurde, → Vorschlag-name.ts und tragen Sie den folgenden Code ein:
 
 a. Fügen Sie die benötigten Importe mit den folgenden Variablen hinzu:
 
@@ -196,7 +197,7 @@ a. **Vorschlagstests hinzufügen**
 
 Fügen Sie in Test/Migrationen erneut eine neue Datei mit dem Vorschlagnamen → proposal-name.ts hinzu und tragen Sie den folgenden Code ein:
 
-*   Fügen Sie die benötigten Importe einschließlich der Vorschlagsfunktionen hinzu:
+*   Fügen Sie die benötigten Importe, einschließlich der Vorschlagsfunktionen hinzu:
 
 **createProposalNameProposal** → Dies ist die Funktion, die wir in /src/migrations/proposal-name erstellt haben. \
 
@@ -476,16 +477,16 @@ async function getDeployedContractsForTest(): Promise<AllDeployedContracts> {
 
 d. **Endgültige Testdatei**
 
-Schlussendlich fügen wir einen Test sowohl zum IPFS-Hash als auch zur Bilanz des Multi-Sig nach dem Attrappenvorschlag hinzu, um sicherzustellen, dass alles wie erwartet zu Ende geht.
+Schlussendlich fügen wir einen Test sowohl zum IPFS-Hash als auch zur Bilanz des Multi-Sig nach dem Attrappenvorschlag hinzu, um sicherzustellen, dass das Ergebnis wie erwartet aussieht.
 
 Fügen Sie in test/misc eine neue Datei mit dem Vorschlagsnamen → proposal-name-proposal.spec.ts beschriftet, hinzu und tragen Sie diese zwei Tests ein:
 
-1. Wir importieren dieses IPFS-Hash aus derBibliothek durch DIP\_NUMBER\_IPFS\_HASH
+1. Wir importieren diesen IPFS-Hash aus der Bibliothek durch DIP\_NUMBER\_IPFS\_HASH
 2. wir codieren die nächste Vorschlags-Id unter Verwendung von ProposalNameId
 3. wir überprüfen das Vorschlags-Hash mit dem konstanten Hash
-4.  wir überprüfen die Adresse PROPOSAL\_NAME\_ADDRESS, um zu sehen, ob es eine ausgeglichene Bilanz des Betrags PROPOSAL\_FUNDING\_AMOUNT hat
+4.  wir überprüfen die Adresse PROPOSAL\_NAME\_ADDRESS, um zu sehen, ob es eine ausgeglichene Bilanz des Betrags PROPOSAL\_FUNDING\_AMOUNT gibt
 
-**Hinweis: wenn diese Adress bereits DYDX hat, müssen Sie fest einprogrammieren, damti die Bilanz den Test besteht**
+**Hinweis: wenn diese Adresse bereits DYDX hat, müssen Sie fest einprogrammieren, damit die Bilanz den Test besteht**
 
 ```typescript
 test/misc/proposal-name-proposal.spec.ts
@@ -508,7 +509,7 @@ describeContract('proposal-name', init, (ctx: TestContext) => {
 
 7\. **Die Pull-Anfrage einreichen**
 
-Nachdem alle diese Codeveränderungen gemacht wurden, können wir an das geforkte Repiository übergeben und eine Pulll-Anfrage an das dYdX für Überprüfer öffnen:
+Nachdem alle diese Codeveränderungen gemacht wurden, können wir an das geforkte Repiository übergeben und eine Pulll-Anfrage an das dYdX für die Überprüfung öffnen:
 
 a. **Bestätigen Sie die Änderungen durch die Befehlszeile**
 

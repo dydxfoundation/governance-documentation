@@ -1,8 +1,9 @@
 ---
 description: Überblick über die Governance-Parameter.
+hidden: true
 ---
 
-#
+# 💾 Parameter
 
  Inhaber von Governance-Token haben sofortige und unwiderrufliche Kontrolle über:
 
@@ -122,7 +123,7 @@ dYdX Governance hat Kontrolle über die Parameter der folgenden Verträge:
 | Rolle von delegierten Admins | Hierbei handelt es sich um einen Administrator von Kreditnehmer-, Exchange-Operator- und Auszahlungsoperatorrollen | Marktmacher |
 | Rolle des Kreditnehmers | Kann Kreditfunktionen auf Basis des Liquidity Staking Contracts aufrufen | Marktmacher |
 | Rolle des Exchange-Operatoren | Kann Exchange-Funktionen auf dem Stark Perpetual Contract aufrufen | Marktmacher |
-| Rolle des Auszahlungsoperatoren | Kann überschüssige Gelder eines Kreditsaldos abheben und einem zugelassenen Empfänger übersenden | Marktmacher |
+| Rolle des Auszahlungsoperators | Kann überschüssige Gelder eines Kreditsaldos abheben und einem zugelassenen Empfänger übersenden | Marktmacher |
 | Wächterrolle | Kann Abschlussaktionen durchführen, Zwangsmaßnahmen im Falle dass ein Kreditnehmer überfällige Schulden hat, ausführen, offene Aktionen mit geliehenen Geldern einschränken und die Rolle des Auszahlungsoperatoren dazu ermächtigen, eine Tokenmenge von außerhalb abzuheben. | Short Timelock |
 | Veto-Wächterrolle | Kann ein Veto gegen durch den Eigentümer initiierte, erzwungene Trade-Anfragen während der Wartezeit einlegen | Merkle-Pauser Timelock |
 

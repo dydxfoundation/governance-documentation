@@ -1,5 +1,6 @@
 ---
 description: Überblick über Governance-Architektur und Smart-Contracts.
+hidden: true
 ---
 
 # Technische Übersicht
@@ -27,11 +28,30 @@ Es gibt 7 Smart-Contracts, die dYdX Governance unterstützen:
 * **Der `Governance-Strategie-V2-Kontrakt`**: Enthält die Logik zum Zählen von Stimmen. Zält derzeit die Stimmen von $ethDYDX Token, $wethDYDX Token und $stkDYDX. Aufrüstbar über die Langzeitsperre.
 * **Der Vertrag über `das Sicherheitsmodul`**: Enthält Logiken zum Staking von $ethDYDX-Token, zur Tokenisierung einer abgesteckten Position und zum Verdienen von Belohnungen, während die Abstimmungs- und Vorschlagsrechte und Delegierungsfunktionen der zugrunde liegenden Token beibehalten werden.
 
-{% tabs %} {% tab title="Mainnet" %} | Vertrag    				| Adresse					| | ------------------------------------ | ------------------------------------------ | | DydxToken    				| 0x92D6C1e31e14520e676a687F0a93788B716BEff5 | | WrappedEthereumDydxToken             | 0x46b2DeAe6eFf3011008EA27EA36b7c27255ddFA9 |
-| DydxGovernor    			| 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2 | | Short Timelock Executor 		|  0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc | | Long Timelock Executor       		| 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B | | Merkle-Pauser Timelock Executor 	| 0xd98e7A71BacB6F11438A8271dDB2EFd7f9361F52 | | Starkware Priority Timelock Executor | 0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE | | Rewards Treasury                     | 0x639192D54431F8c816368D3FB4107Bc168d0E871 | | Rewards Treasury Bridge              | 0x8d0051943D4c72aF12D638c6b7253C71929A910A |
-| Community Treasury                   | 0xE710CEd57456D3A16152c32835B5FB4E72D9eA5b | | Community Treasury Bridge            | 0x5D8541e3078BE7c2D773185aD8C8b9ED5105E08c |
-| Sicherheitsmodul    			| 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC | | GovernanceStrategyV2 | 0xc2f5F3505910Da80F0592a3Cc023881C50b16505 |
-| Rewards Treasury Vester    		| 0xb9431E19B29B952d9358025f680077C3Fd37292f | | Community Treasury Vester     	| 0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8 | | Merkle Distributor    		 | 0x01d3348601968aB85b4bb028979006eac235a588 | | Chainlink Adapter     		| 0x99B0599952a4FD2d1A1561Fa4C010827EaD30354 | | Liquidity Staking                    | 0x5Aa653A076c1dbB47cec8C1B4d152444CAD91941 | | Claims Proxy                         | 0x0fd829C3365A225FB9226e75c97c3A114bD3199e | | StarkEx Helper Governor              | 0x0db9b3F7Dd83e29C9bece8E5e1089bA4369E694a | | StarkEx Remover Governor V2          | 0xFCAac0F14deA11eDe11Afcb875f29130e1ad5ec0 | | Rewards Treasury Proxy Admin         | 0x40D6992cbd03E0DC1c2DE9606D29Cb245E737a5d | | Community Treasury Proxy Admin       | 0x9d51599A6b10f562619D8ef2EFDcA1B68aE80D03 | | Sicherheitsmodul Proxy Admin    | 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C | | Merkle Distributor Proxy Admin       | 0x6C5cd3aD7A16Ae207D221908E6b997d9B0DcD7b0 | | Liquidity Staking Proxy Admin        | 0xAc5D8bCD13da463bea96c75f9085c4e40037F790 | | StarkProxy \[0]                      | 0x0b2B08AC98a1568A34208121c26F4F41a9e0FbB6 | | StarkProxy \[1]                      | 0x3e6E9EFb0A677a24F47093a22044dc5451A028cF | | StarkProxy \[2]                      | 0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2 | | StarkProxy \[3]                      | 0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06 | | StarkProxy \[4]                      | 0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874 | | StarkProxy Proxy Admin \[0]          | 0xE16718eace44e0CB06b9cd164490A69A6425D1e3 | | StarkProxy Proxy Admin \[1]          | 0x78e899e576C3565C3219dbC9Ea5042A9DBed36d3 | | StarkProxy Proxy Admin \[2]          | 0x15774D4555fEfD57C9Fc8b11C8beba993eafcc13 | | StarkProxy Proxy Admin \[3]          | 0x4d9460e5C958f46a1Fe129954A069a37972f16EA | | StarkProxy Proxy Admin \[4]          | 0xfa45DCDbEc82C94082d283B62506320DB8632054 | {% endtab %} {% endtabs %}
+{% tabs %} {% tab title="Mainnet" %}
+| Vertrag                             | Adresse                                    |
+| ------------------------------------ | ------------------------------------------ |
+| DydxToken    				| 0x92D6C1e31e14520e676a687F0a93788B716BEff5 | | WrappedEthereumDydxToken             | 0x46b2DeAe6eFf3011008EA27EA36b7c27255ddFA9 |
+| DydxGovernor    			| 0x7E9B1672616FF6D6629Ef2879419aaE79A9018D2 | | Short Timelock Executor              | 0x64c7d40c07EFAbec2AafdC243bF59eaF2195c6dc |
+| Long Timelock Executor       		| 0xEcaE9BF44A21d00E2350a42127A377Bf5856d84B | | Merkle-Pauser Timelock Executor 	| 0xd98e7A71BacB6F11438A8271dDB2EFd7f9361F52 | | Starkware Priority Timelock Executor | 0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE |
+| Rewards Treasury                     | 0x639192D54431F8c816368D3FB4107Bc168d0E871 |
+| Rewards Treasury Bridge              | 0x8d0051943D4c72aF12D638c6b7253C71929A910A |
+| Community Treasury                   | 0xE710CEd57456D3A16152c32835B5FB4E72D9eA5b |
+| Community Treasury Bridge            | 0x5D8541e3078BE7c2D773185aD8C8b9ED5105E08c |
+| Sicherheitsmodul                        | 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC |
+| GovernanceStrategyV2 | 0xc2f5F3505910Da80F0592a3Cc023881C50b16505 |
+| Rewards Treasury Vester              | 0xb9431E19B29B952d9358025f680077C3Fd37292f |
+| Community Treasury Vester            | 0x08a90Fe0741B7DeF03fB290cc7B273F1855767D8 |
+| Merkle Distributor    		 | 0x01d3348601968aB85b4bb028979006eac235a588 | | Chainlink Adapter     		| 0x99B0599952a4FD2d1A1561Fa4C010827EaD30354 | | Liquidity Staking                    | 0x5Aa653A076c1dbB47cec8C1B4d152444CAD91941 | | Claims Proxy                         | 0x0fd829C3365A225FB9226e75c97c3A114bD3199e | | StarkEx Helper Governor              | 0x0db9b3F7Dd83e29C9bece8E5e1089bA4369E694a | | StarkEx Remover Governor V2          | 0xFCAac0F14deA11eDe11Afcb875f29130e1ad5ec0 | | Rewards Treasury Proxy Admin         | 0x40D6992cbd03E0DC1c2DE9606D29Cb245E737a5d |
+| Community Treasury Proxy Admin       | 0x9d51599A6b10f562619D8ef2EFDcA1B68aE80D03 | | Sicherheitsmodul Proxy Admin    | 0x6aaD0BCfbD91963Cf2c8FB042091fd411FB05b3C | | Merkle Distributor Proxy Admin       | 0x6C5cd3aD7A16Ae207D221908E6b997d9B0DcD7b0 |
+| Liquidity Staking Proxy Admin        | 0xAc5D8bCD13da463bea96c75f9085c4e40037F790 | | StarkProxy \[0]                      | 0x0b2B08AC98a1568A34208121c26F4F41a9e0FbB6 |
+| StarkProxy \[1]                      | 0x3e6E9EFb0A677a24F47093a22044dc5451A028cF | | StarkProxy \[2]                      | 0xCB7fa3a2F47b62293Cc2E1a4C7752fC72E49FCe2 |
+| StarkProxy \[3]                      | 0x16BEC2D9A010e7D8b2D576d17893C52Ddbfe4C06 |
+| StarkProxy \[4]                      | 0x531F3BE462F10386D01FBeD7fAD1d20A61Ce7874 |
+| StarkProxy Proxy Admin \[0]          | 0xE16718eace44e0CB06b9cd164490A69A6425D1e3 |
+| StarkProxy Proxy Admin \[1]          | 0x78e899e576C3565C3219dbC9Ea5042A9DBed36d3 |
+| StarkProxy Proxy Admin \[2]          | 0x15774D4555fEfD57C9Fc8b11C8beba993eafcc13 | | StarkProxy Proxy Admin \[3]          | 0x4d9460e5C958f46a1Fe129954A069a37972f16EA | | StarkProxy Proxy Admin \[4]          | 0xfa45DCDbEc82C94082d283B62506320DB8632054 | {% endtab %}
+{% endtabs %}
 
 ## Open-Source Code & auditiert
 
@@ -39,7 +59,7 @@ Der gesamte Smart-Contract-Quellcode für die Governance-Verträge und Staking-P
 
 Den Quellcode für das auf dydx.community gehostete Governance-Frontend finden [Sie hier](https://github.com/dydxfoundation/pnyx).
 
-Alle wichtigen neuen Smart-Verträge wurden von Peckshield geprüft. Es wurden keine Sicherheitsprobleme mit erheblicher oder hoher Priorität gefunden. Die Kern-Governance- und Token-Verträge stammen aus den Aave-Governance-Verträgen, die von [CertiK](https://www.certik.io/), [Certora](https://www.certora.com/) und [Peckshield](https://peckshield.com/en) geprüft und seit Monaten live im Mainnet kampferprobt wurden.
+Alle wichtigen neuen Smart-Verträge wurden von Peckshield geprüft. Es wurden keine Sicherheitsprobleme mit erheblicher oder hoher Priorität gefunden. Die Kern-Governance- und Token-Verträge stammen aus den Aave-Governance-Verträgen, die von [CertiK](https://www.certik.io/), [Certora](https://www.certora.com/) und [Peckshield](https://peckshield.com/en) geprüft und seit Monaten live im Mainnet erprobt wurden.
 
 ## Core Governance-Verträge
 
@@ -151,7 +171,7 @@ Das Sicherheitsmodul ist ein Staking-Pool, der $ethDYDX-Prämien für Benutzer b
 
 ![Rote gestrichelte Linien zeigen an, dass der Vertrag erweiterbar ist](../.gitbook/assets/3-core-governance-contracts-4.png)
 
-Das Liquiditätsmodul ist eine Sammlung von intelligenten Verträgen zum Abstecken und Ausleihen, die die Zuweisung von $USDC-Geldern für Marktmacher-Zwecke an der dYdX-Ebene-2-Börse anregen.
+Das Liquiditätsmodul ist eine Sammlung von intelligenten Verträgen zum Abstecken und Ausleihen, die die Zuweisung von $USDC-Geldern für das Market-Making an der dYdX-Ebene-2-Börse anregen.
 
 Stakers verdienen $ethDYDX-Prämien für das Staking von $USDC. Die eingesetzten Mittel können von bestimmten vorab genehmigten Partnern auf Reputationsbasis ohne Sicherheiten ausgeliehen werden. Die Mittel dürfen nur an der L2-Börse verwendet werden – dies wird über den StarkProxy-Vertrag durchgesetzt, der mit dem StarkEx Perpetual Exchange-Vertrag interagiert.
 
@@ -176,7 +196,7 @@ Es gibt zwei Treasury-Vester und Treasury-Verträge:
 
 Da die Governance jedes Treasury kontrolliert, kann sie Gelder an jede Adresse überweisen und/oder jede Adresse genehmigen, um Gelder aus beiden Treasuries auszugeben. Beispielsweise müssen die Prämienprogramme Token-Genehmigungslimits haben, die von der Governance festgelegt werden.
 
-In [DIP 29](https://dydx.community/dashboard/proposal/16) hat die dYdX-CCommunity abgestimmt, die smarten Verträge [Rewards Treasury Bridge](https://etherscan.io/address/0x8d0051943D4c72aF12D638c6b7253C71929A910A) und [Community Treasury Bridge](https://etherscan.io/address/0x5D8541e3078BE7c2D773185aD8C8b9ED5105E08c)einzusetzen, mit denen die Migration verfügbarer ethDYDX in der [Community Treasury](https://etherscan.io/address/0xe710ced57456d3a16152c32835b5fb4e72d9ea5b) u [Rewards Treasury](https://etherscan.io/address/0x639192D54431F8c816368D3FB4107Bc168d0E871) zur dYdX Chain ermöglicht wurde.
+In [DIP 29](https://dydx.community/dashboard/proposal/16) hat die dYdX-CCommunity abgestimmt, die smarten Verträge [Rewards Treasury Bridge](https://etherscan.io/address/0x8d0051943D4c72aF12D638c6b7253C71929A910A) und [Community Treasury Bridge](https://etherscan.io/address/0x5D8541e3078BE7c2D773185aD8C8b9ED5105E08c)einzusetzen, mit denen die Migration verfügbarer ethDYDX in der [Community Treasury](https://etherscan.io/address/0xe710ced57456d3a16152c32835b5fb4e72d9ea5b) und [Rewards Treasury](https://etherscan.io/address/0x639192D54431F8c816368D3FB4107Bc168d0E871) zur dYdX Chain ermöglicht wurde.
 
 Jeder Treasury Vester wird Token linear über ~5 Jahre (3. August 2021 – 3. August 2026) an das entsprechende Treasury übertragen. Da die Vester-Verträge bei der Bereitstellung unveränderlich sind, hat die dYdX-Community dafür gestimmt, den Empfänger der Vester-Verträge auf die folgenden Adressen festzulegen:
 
@@ -191,7 +211,7 @@ Das Ziel dieses Systems ist es, über ein dezentralisiertes Netzwerk von Oracle-
 
 Wir haben das Oracle-System von Chainlink integriert, um Belohnungsdaten in der Kette zu veröffentlichen. Wir verwenden IPNS, um die Handelsdaten zu veröffentlichen, die Chainlink zum Aufbau des Merkle-Baums verwendet. Durch die Verwendung von IPNS können wir die Handelsdaten für die letzte Epoche unter demselben IPNS-Link wie frühere Epochen veröffentlichen, was bedeutet, dass sich der Speicherort der Daten nicht ändert.
 
-Nach der Berechnung der entsprechenden Belohnungen aus den rohen Handelsdaten postet Chainlink den Merkle-Belohnungsbaum an IPFS. Die IPFS-CID mit den Merkle-Baumdaten wird im Merkle-Vertriebsvertrag zusammen mit der Merkle Root für die Belohnungen dieser Epoche gespeichert.
+Nach der Berechnung der entsprechenden Belohnungen aus den rohen Handelsdaten postet Chainlink den Merkle-Belohnungsbaum an IPFS. Die IPFS-CID mit den Merkle-Baumdaten wird im Merkle-Distributor-Vertrag zusammen mit der Merkle Root für die Belohnungen dieser Epoche gespeichert.
 
 Das folgende Flussdiagramm zeigt die Systemarchitektur von Chainlink Oracle-Powered Rewards:
 
