@@ -1,8 +1,9 @@
 ---
 description: Oylama sürecine genel bir bakış.
+hidden: gerçek
 ---
 
-#
+# 🗳️ Oy Verme Süreci
 
 dYdX v3, Yönetişim Token'ları sahipleri ve delegeleri tarafından yönetilir ve yükseltilir.
 

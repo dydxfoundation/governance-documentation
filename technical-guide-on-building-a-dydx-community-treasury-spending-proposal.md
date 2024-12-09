@@ -1,13 +1,14 @@
 ---
 description: >-
   Topluluk hazinesinden bir hedef adrese ethDYDX aktarmak için bir teklifin nasıl oluşturulacağına dair teknik, adım adım bir kılavuz.
+hidden: gerçek
 ---
 
 # dYdX Topluluk Hazinesi Harcama Teklifi Oluşturmak için Teknik Kılavuz
 
 Reverie, Topluluk Hazinesinden $ethDYDX aktarmak amacıyla, dYdX _yönetişim sözleşmeleri_ repository'sine bir Çekme İsteği (PR) yaparak bir yönetişim teklifi gönderilmesi hakkında kapsamlı, teknik bir kılavuz hazırladı.
 
-Bu teklifi oluşturabilmesi için, bir dYdX topluluğu üyesinin, teklif gücünün en az ([short timelock oylama](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor) için [teklif eşiği](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters) olan) **5 milyon Yönetişim Token'ına** _(toplam arzın %0,5'i)_ sahip olması gerekir.
+Bu teklifi oluşturabilmesi için bir dYdX topluluğu üyesinin teklif gücünün en az, [short timelock oylama](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor) için [teklif eşiği](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters) olan **5 milyon Yönetişim Token'ına** _(toplam arzın %0,5'i)_ sahip olması gerekir.
 
 ### Ön Koşullar
 
@@ -16,8 +17,8 @@ Bu teklifi oluşturabilmesi için, bir dYdX topluluğu üyesinin, teklif gücün
 1. **Teklif Yaşam Döngüsü:** Teklif [şablonunun](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md) ardından DRC gönderilmeli ve başarılı bir Snapshot oylaması gerçekleştirilmelidir.
 2. **Hedef Adresi:** Hedef adresi, zamanı gelmeden oluşturulmalıdır. Hedef adresi bir multi-sig (çok imzalı adres) ise, multi-sig cüzdanı oluşturulmalıdır.
 3. **GitHub hesabı:** Repository'yi fork etmek için bir GitHub hesabı.
-4. **Transfer Miktarı (İsteğe Bağlı):** Tercihen PR öncesinde istenen transfer miktarı belirlenmelidir. Bununla birlikte, bir itibari (notional) miktar kullanılıyorsa, onay öncesinde son adım olarak belirlenebilir.
-5. **DIP IPFS Karması (İsteğe Bağlı):** Transfer miktarı biliniyorsa, DIP kesinleştirilip IPFS'ye push edilerek karması (hash) oluşturulmalıdır. Bununla birlikte, miktar henüz belirlenmemişse, onay öncesinde son adımda belirlenebilir.
+4. **Transfer Miktarı (İsteğe Bağlı):** Tercihen PR öncesinde istenen transfer miktarı belirlenmelidir. Ancak bu, itibari (notional) bir miktar kullanılıyorsa onay öncesinde son adım olarak belirlenebilir.
+5. **DIP IPFS Karması (İsteğe Bağlı):** Transfer miktarı biliniyorsa DIP kesinleştirilip IPFS'ye push edilerek karması (hash) oluşturulmalıdır. Bununla birlikte, miktar henüz belirlenmemişse, onay öncesinde son adımda belirlenebilir.
 
 ### Teklifin Oluşturulması
 
@@ -73,7 +74,7 @@ src/lib/constants.ts
 export const DIP_NUMBER_IPFS_HASH = '0x0000000000000000000000000000000000000000000000000000000000000000';
 ```
 
-**Not**: DIP henüz yayınlanmadıysa, test için geçici bir değer kullanılabilir (ör. ‘0x0000000000000000000000000000000000000000000000000000000000000000’)\
+**Not**: DIP henüz yayınlanmadıysa test için geçici bir değer kullanılabilir (ör. ‘0x0000000000000000000000000000000000000000000000000000000000000000’)\
 
 
 4\. **Teklif kodu**
@@ -96,7 +97,7 @@ import { waitForTx } from '../lib/util';
 import { Proposal } from '../types';
 ```
 
-b. importların altında teklifin adını kullanarak yeni bir fonksiyon oluşturun ve şu iki benzersiz değişkeni içeren aşağıdaki kodu ekleyin:
+b. İmportların altında teklifin adını kullanarak yeni bir fonksiyon oluşturun ve şu iki benzersiz değişkeni içeren aşağıdaki kodu ekleyin:
 
 * **destinationAddress** → bu, varlığı (parayı, fonu) alan adres olacaktır
 * **deployConfig.PROPOSAL\_FUNDING\_AMOUNT** → bu, daha önce oluşturduğumuz ve aktarılacak miktarı belirleyecek değişkendir
@@ -172,7 +173,7 @@ b. Hardhat görevini oluşturun ve içine görev açılış satırındaki teklif
 \
 ‘deploy:proposal-name:‘in yerine teklifin adını girin ve ‘Proposal Description’ın yerine kısa bir açıklama girin.
 
-Son satırda, teklif kodundan import ettiğiniz fonksiyon çağrılır; bu nedenle bunun da değiştirilmesi gerekir.
+Son satırda, teklif kodundan import ettiğiniz fonksiyon çağrılır, bu nedenle bunun da değiştirilmesi gerekir.
 
 ```typescript
 tasks/deployment/proposal-name.ts
@@ -485,7 +486,7 @@ test/misc dizinine teklifin adı ile etiketlenmiş yeni bir dosya ekleyin → te
 3. teklif karmasının sabit Karma'ya eşit olup olmadığını kontrol ediyoruz
 4.  PROPOSAL\_NAME\_ADDRESS içindeki bakiyenin (balance) beklendiği gibi PROPOSAL\_FUNDING\_AMOUNT bakiyesine (balance) eşit olup olmadığını kontrol ediyoruz
 
-**Not: Bu adreste zaten DYDX varsa, testten geçmek için bakiyeye (balance) doğrudan kodun içine eklemeniz gerekecektir**
+**Not: Bu adreste zaten DYDX varsa testten geçmek için bakiyeye (balance) doğrudan kodun içine eklemeniz gerekecektir**
 
 ```typescript
 test/misc/proposal-name-proposal.spec.ts

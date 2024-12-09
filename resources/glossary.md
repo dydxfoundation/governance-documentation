@@ -1,12 +1,13 @@
 ---
 description: Yönetişimle ilgili önemli terimlere genel bakış.
+hidden: gerçek
 ---
 
 # Sözlük
 
-$**ethDYDX:** Ethereum tabanlı dYdX ekosisteminin doğal (native) varlığıdır ve dYdX v3 için yönetişim ve güvenliğin temelini oluşturur.  $ethDYDX, bir kullanıcının oy verme veya teklif verme yetkisinin ağırlığını belirleyen bir ERC-20 token'ıdır.
+$**ethDYDX:** Ethereum tabanlı dYdX ekosisteminin, dYdX v3 için yönetişim ve güvenliğin temelini oluşturan yerel varlığı. $ethDYDX, kullanıcının oylama veya öneri verme yetkisinin ağırlığını belirleyen bir ERC-20 token'ıdır.
 
-**$wethDYDX:** $ethDYDX'in sarılı (wrapped) versiyonudur ve $wethDYDX Akıllı Sözleşmesi ile etkileşime girerek elde edilir. $wethDYDX, bir kullanıcının oy verme veya teklif verme yetkisinin ağırlığını belirleyen bir ERC-20 token'ıdır.
+**$wethDYDX:** $wethDYDX Akıllı Sözleşme ile etkileşime girerek elde edilen $ethDYDX sarılmış versiyonu. $wethDYDX, kullanıcının oy verme veya teklif etme gücünün ağırlığını belirleyen bir ERC-20 token'ıdır.
 
 **dYdX v3:** dYdX'in Katman 2 sürekli varlık protokolü.
 
@@ -48,14 +49,14 @@ $**ethDYDX:** Ethereum tabanlı dYdX ekosisteminin doğal (native) varlığıdı
 
 **Teklif Eşiği:** Bir sistemde sayısız gereksiz teklifin oluşturulmasını önlemek için, teklif eşiği bir teklif verilmeden önce bir adresin belirli sayıda oya sahip olmasını gerektirir.
 
-**Teklif Verme Yetkisi:** Bir teklif oluşturma ve sürdürme yetkisi veren, stake edilen token miktarı.
+**Öneri Verme Yetkisi:** Bir öneri oluşturma ve sürdürme yetkisi veren, stake edilen token miktarı.
 
-**Oy Verme Yetkisi:** Mevcut tekliflere olumlu veya olumsuz yönde oy vermek için kullanılan oy verme yetkisi.
+**Oylama Yetkisi:** Mevcut tekliflere olumlu veya olumsuz yönde oy vermek için kullanılan oylama yetkisi.
 
 **Oylama Bekleme Süresi:** Bu, bir teklifin oluşturulması ve oylanabilmesi arasındaki süredir. En az bir blokun geçmesini gerekli kılınarak, yönetişim tek bir blokta çok sayıda token ödünç alabilen, oylama teklifi verebilen ve ona oy verebilen Flash Loan saldırılarına karşı korunur.
 
 **Oylama Süresi:** Bir DIP teklifi verildikten sonra, DYDX topluluk üyeleri Oylama Süresi sona ermeden önce oylarını vermek zorundadır. Bu, tekliflerin oylanabileceği süre olup Ethereum Blokları cinsinden ifade edilir.
 
-**Teklif Eşiği:** Bir DIP teklifi oluşturmak için tutulması ya da delege edilmesi gereken minimum token miktarı.
+**Öneri Eşiği:** Bir DIP teklifi oluşturmak için tutulması ya da delege edilmesi gereken minimum token miktarı.
 
 **Oy Farkı:** DIP teklifinin geçmesi için gerekli olan, evet ve hayır oyları arasındaki fark.

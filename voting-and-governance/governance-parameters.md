@@ -1,8 +1,9 @@
 ---
 description: Yönetişim parametrelerine genel bakış.
+hidden: gerçek
 ---
 
-#
+# 💾 Parametreler
 
 Yönetişim Token'ı sahipleri şunlar üzerinde anında geçerli ve geri alınamaz bir kontrol kazanır:
 
