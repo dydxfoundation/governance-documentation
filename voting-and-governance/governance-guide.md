@@ -1,11 +1,12 @@
 ---
 description: >-
   DRC 생성, 스냅샷 여론조사 생성, DIP 생성, 스냅샷 여론조사 투표, DIP 투표, DIP 대기열 생성 및 실행의 거버넌스 프로세스 단계별 개요.
+hidden: 참
 ---
 
-#
+# 🏛️ 거버넌스 가이드
 
-dYdX Foundation은 dYdX 커뮤니티의 dYdX 거버넌스 프로세스의 이해를 돕기 위해 이 가이드를 만들었습니다. 본 가이드는 다음의 단계별 개요를 제공합니다.
+dYdX 재단은 dYdX 커뮤니티의 dYdX 거버넌스 프로세스의 이해를 돕기 위해 이 가이드를 작성했습니다. 본 가이드는 다음의 단계별 개요를 제공합니다.
 
 * [포럼 토론(오프체인)](governance-guide.md#step-1-forum-discussions-drc-creation-off-chain-and-drc-feedback)
 * [DRC 생성(오프체인)](governance-guide.md#step-1-forum-discussions-drc-creation-off-chain-and-drc-feedback)
@@ -17,13 +18,13 @@ dYdX Foundation은 dYdX 커뮤니티의 dYdX 거버넌스 프로세스의 이해
 * [DIP 대기열 생성(온체인](governance-guide.md#how-to-queue-a-proposal)
 * [DIP 실행(온체인)](governance-guide.md#how-to-execute-a-proposal)
 
-본 가이드에 소개된 두 가지 예시는 _DIP 2(오프체인 제안) - 유동성 제공자 보상 기준 감소_ 및 _DIP 3(온체인 제안) - 안전 모듈 복원_.
+본 가이드에 소개된 두 가지 예시는 _DIP 2(오프체인 제안) - 유동성 제공자 보상 기준 감소_ 및 _DIP 3(온체인 제안) - 안전 모듈 복원입니다_.
 
 ## DIP 2(오프체인 제안) - 유동성 제공자 보상 기준 감소
 
 _**요약:**_
 
-에폭 6에 dYdX 커뮤니티는 마켓 메이커에 대한 LP 보상 거래량 기준을 1%에서 0.25%로 낮추기로 [Snapshot](https://commonwealth.im/dydx/snapshot/dydxgov.eth/0x785066561be1e5d170eb28960da5ef2643ee0d0c3d590fd797c028512cc6be43)에서 투표했습니다. 에폭 2에서의 LP 보상 기준 감소(5%에서 1%로 감소)는 에폭 6(1%에서 0.25%로 감소) 감소와 동일한 프로세스를 따랐습니다. LP 보상 거래량 기준을 5%에서 1%로 낮추기 위한 단계별 개요는 아래에 포함되어 있습니다.
+에포크 6에 dYdX 커뮤니티는 마켓 메이커에 대한 LP 보상 거래량 기준을 1%에서 0.25%로 낮추기로 [스냅샷](https://commonwealth.im/dydx/snapshot/dydxgov.eth/0x785066561be1e5d170eb28960da5ef2643ee0d0c3d590fd797c028512cc6be43)에서 투표했습니다. 에포크 2에서의 LP 보상 기준 감소(5%에서 1%로 감소)는 에포크 6(1%에서 0.25%로 감소) 감소와 동일한 프로세스를 따랐습니다. LP 보상 거래량 기준을 5%에서 1%로 낮추기 위한 단계별 개요는 아래에 포함되어 있습니다.
 
 커뮤니티의 대다수(투표자 399명 및 $ethDYDX의 86%)가 [스냅샷](https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN) 투표를 통해 유동성 공급자 보상을 획득하기 위한 거래량 기준을 5%에서 1%로 감소시켰습니다. 시장 조성자를 위한 유동성 제공자 보상 거래량 기준을 5%에서 1%로 감소시키기 위한 [오프체인 DIP는](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-2.md) DeFiance Capital에서 Jacob Goh(jteam0x)가 제출하였습니다. 에폭 2에서 1%의 기준을 충족한 시장 조성자는 에폭 3에서 유동성 제공자 보상을 받을 자격이 주어졌습니다. 해당 제안은 다른 온체인 스마트 계약 변경을 요구하지 않았습니다.
 
@@ -384,7 +385,7 @@ DIP가 온체인으로 실행되었을 당시의 [https://dydx.community/dashboa
 
 ![https://dashboard.alchemyapi.io/](../.gitbook/assets/2-draft-dip-example-15.png)
 
-* 앱이 생성되면 Alchemy 키(7LOaQtguSm2kSEcFXQH88B)를 획득하기 위해 '키 보기'를 클릭하세요. [https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul](https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul)
+* 앱이 생성되면 Alchemy 키(7LOaQtguSm2kSEcFXQH88B)를 획득하기 위해 '키 보기'를 클릭하세요. [https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul](https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN_K7t_ul)
 
 ![https://dashboard.alchemyapi.io/apps/xogmjmlex8tlmr95](../.gitbook/assets/2-draft-dip-example-16.png)
 
