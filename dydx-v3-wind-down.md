@@ -1,7 +1,7 @@
-# dYdX v3終了
+# dYdX v3のサポート終了
 
-dYdXトレーディング、Inc.は、2024年10月28日からv3を終了することを[発表](https://dydx.exchange/blog/v3-product-sunset)しました。
+dYdX Trading、Inc.は、2024年10月28日にdYdX v3のサポートを終了しました。
 
-dYdXチェーンのユーザー、[http://dydx.trade](https://t.co/v3TXeNvCwf)、dYdXチェーンAPIは影響を受けません。
+ただし、dYdXチェーン、[http://dydx.trade](https://t.co/v3TXeNvCwf)、およびdYdXチェーンAPIのユーザーは影響を受けません。
 
-dYdX Foundationの目的に沿って、dYdX v3ガバナンスおよびethDYDXおよびwethDYDXトークン保有者に対するdYdX v3の終了の影響に関するFA[Qのリストを作](https://www.dydx.foundation/blog/dydx-v3-sunset-governance-token-faqs)成しました。
+これを受け、dYdX Foundationの目的に基づき、dYdX v3の終了がdYdX v3のガバナンスやethDYDXおよびwethDYDXトークン保有者に与える影響に関する[よくある質問](https://www.dydx.foundation/blog/dydx-v3-sunset-governance-token-faqs)をご用意しました。

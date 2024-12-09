@@ -1,8 +1,9 @@
 ---
 description: dydx.communityでのガバナンス、報酬、およびステーキングの拠点
+hidden:  
 ---
 
-#
+# 🖥️インターフェイス
 
 ガバナンス、報酬、およびステーキングのインターフェースは、[**dydx.community**](https://dydx.community)から利用可能です。
 
@@ -22,15 +23,15 @@ $ethDYDXおよび$wethDYDXの保有者は、提案権および投票権という
 
 現在、流動性モジュールおよびセーフティモジュールは無効です。イーサリアムで$stkDYDXおよび$stkUSDCを保有するユーザーは、報酬を獲得していません。ユーザーは、`出金のリクエスト`を行い、[**dydx.community**](https://dydx.community)で`出金`することができます。
 
-### トレード報酬
+### 取引報酬
 
-
+ユーザーは、レイヤー2取引所での取引活動を通じて獲得した、過去に獲得した報酬を閲覧することができます。[DIP 29](https://dydx.community/dashboard/proposal/16)では、dYdXコミュニティは取引報酬をdYdX v3上のエポック30-32から⅓に削減し、以下の値にすることを投票で決定しました。
 
 * エポック30：383,562 $ethDYDX
 * エポック31：191,781 $ethDYDX
 * エポック32：0 $ethDYDX
 
-
+現在、dYdX v3の取引アクティビティには報酬が発生しません。
 
 ![報酬を受け取るための取引](../.gitbook/assets/4.5-trade-to-rewards.png)
 

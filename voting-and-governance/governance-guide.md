@@ -1,19 +1,20 @@
 ---
 description: >-
-  ガバナンスプロセスDRCの作成、スナップショットの選択の作成、DIPの作成、スナップショットの選択、DIPの選択、DIPのキューキング、DIPの実行のステップ・バイ・ステップの概要
+  ガバナンスプロセスDRCの作成、スナップショット投票の作成、DIPの作成、スナップショット投票への投票、DIPへの投票、DIPのキューイング、DIPの実行に関するステップ・バイ・ステップの概要
+hidden:  
 ---
 
-#
+# 🏛️ガバナンスガイド
 
-dYdX Foundationが作成したこのガイドは、dYdXのコミュニティがdYdXのガバナンスプロセスを理解する上で役立ちます。このガイドでは、以下の内容についてのステップ・バイ・ステップの概要を説明しています。
+dYdX Foundationは、dYdXコミュニティがdYdXのガバナンスプロセスを理解するための支援を目的として、このガイドを作成しました。このガイドでは、以下の内容についてステップ・バイ・ステップで概説しています。
 
 * [フォーラムディスカッション（オフチェーン）](governance-guide.md#step-1-forum-discussions-drc-creation-off-chain-and-drc-feedback)
 * [DRCの作成（オフチェーン）](governance-guide.md#step-1-forum-discussions-drc-creation-off-chain-and-drc-feedback)
-* [スナップショットの選択の作成（オフチェーン）](governance-guide.md#step-2-drc-snapshot-polling-off-chain)
-* [スナップショットの選択](governance-guide.md#how-to-vote-on-a-snapshot-poll)
+* [スナップショット投票の作成（オフチェーン）](governance-guide.md#step-2-drc-snapshot-polling-off-chain)
+* [スナップショット投票への投票](governance-guide.md#how-to-vote-on-a-snapshot-poll)
 * [DIPの作成（オフチェーン）](governance-guide.md#step-3-dip-creation-off-chain-proposal)
 * [DIPの作成（オンチェーン）](governance-guide.md#step-1-on-chain-dip-drafting)
-* [DIPの選択（オンチェーン）](governance-guide.md#how-to-vote-on-a-dip)
+* [DIPへの投票（オンチェーン）](governance-guide.md#how-to-vote-on-a-dip)
 * [DIPのキューイング（オンチェーン）](governance-guide.md#how-to-queue-a-proposal)
 * [DIPの実行（オンチェーン）](governance-guide.md#how-to-execute-a-proposal)
 
@@ -23,7 +24,7 @@ dYdX Foundationが作成したこのガイドは、dYdXのコミュニティがd
 
 _**要約：**_
 
-エポック6で、dYdXコミュニティはマーケットメーカーのLP報酬ボリュームのしきい値を1％から0.25％に引き下げる[スナップショット](https://commonwealth.im/dydx/snapshot/dydxgov.eth/0x785066561be1e5d170eb28960da5ef2643ee0d0c3d590fd797c028512cc6be43)に賛成しました。エポック2でLP報酬のしきい値を5％から1％に引き下げており、それと同じプロセスでエポック6での引き下げが行われます（1％から0.25％へ）。LP報酬ボリュームのしきい値を5％から1％に引き下げるステップ・バイ・ステップの概要は以下のとおりです。
+エポック6で、dYdXコミュニティは[スナップショット](https://commonwealth.im/dydx/snapshot/dydxgov.eth/0x785066561be1e5d170eb28960da5ef2643ee0d0c3d590fd797c028512cc6be43)で投票し、マーケットメーカーのLP報酬ボリュームのしきい値を1％から0.25％に引き下げることを決定しました。エポック2でLP報酬のしきい値を5％から1％に引き下げており、それと同じプロセスでエポック6での引き下げが行われます（1％から0.25％へ）。LP報酬ボリュームのしきい値を5％から1％に引き下げるステップ・バイ・ステップの概要は以下のとおりです。
 
 コミュニティの過半数（投票数399、$ethDYDXの86％）は、流動性プロバイダー報酬が得られるボリュームのしきい値を5％から1％に引き下げる[スナップショット](https://forums.dydx.community/snapshot/dydxgov.eth/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN)に投票しました。マーケットメーカーが流動性プロバイダー報酬を得られるボリュームのしきい値を5％から1％に引き下げる[オフチェーンDIP](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-2.md)は、DeFiance CapitalのJacob Goh氏（jteam0x）によって提出されました。エポック2のしきい値である1%を満たしたマーケットメーカーは、エポック3で流動性プロバイダー報酬を獲得する資格がありました。この提案ではオンチェーンのスマートコントラクトの変更は必要ありませんでした。
 
@@ -41,7 +42,7 @@ dYdXのコミュニティには、流動性プロバイダー報酬のしきい�
 
 _**説明：**_
 
-dYdXのガバナンスプロセスは、[ガバナンスフォーラム](https://dydx.forum/)によって推進されます。コミュニティメンバーはディスカッションスレッドにポストやコメントを行うことで、オフチェーンの大まかなコンセンサスを達成します。フォーラムディスカッションおよびDRCの作成の詳細については[こちら](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)をご覧ください。\\注 - 運営subDAOは、[コミュニティ投票のコモンウェルスからDiscourseへの移行](https://snapshot.org/#/dydxgov.eth/proposal/0xa5e77732dd24edd26bd41b089969b3662c29eb41c3bacd35cb2931ca55882a8f)に際する新しいフォーラムとして[**https://dydx.forum/**](https://dydx.forum/)を立ち上げました。このガイドでは以前のDRCのディスカッションに関する言及の一部において引き続きコモンウェルスを対象にしていますが、あらゆる新しいディスカッションは新たに立ち上げられた[**Discourse**](https://dydx.forum/)フォーラムで行う必要があります。\
+dYdXのガバナンスプロセスは、[ガバナンスフォーラム](https://dydx.forum/)によって推進されます。コミュニティメンバーはディスカッションスレッドにポストやコメントを行うことで、オフチェーンの大まかなコンセンサスを達成します。フォーラムディスカッションおよびDRCの作成の詳細については[こちら](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)をご覧ください。\\注 - 運営subDAOは、[コミュニティ投票によりコモンウェルスからDiscourseへの移行](https://snapshot.org/#/dydxgov.eth/proposal/0xa5e77732dd24edd26bd41b089969b3662c29eb41c3bacd35cb2931ca55882a8f)が決定した後、新しいフォーラムとして[**https://dydx.forum/**](https://dydx.forum/)を立ち上げました。このガイドでは以前のDRCのディスカッションに関する言及の一部において引き続きコモンウェルスを対象にしていますが、あらゆる新しいディスカッションは新たに立ち上げられた[**Discourse**](https://dydx.forum/)フォーラムで行う必要があります。\
 
 
 _**DIP 2への適用**_：
@@ -59,22 +60,22 @@ Three Arrows CapitalのSu Zhu氏（zhusu）は、流動性プロバイダー報�
 <figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 10.59.27 AM.png" alt=""><figcaption></figcaption></figure>
 
 * スレッドを選択し、コメントをスクロールし、コメントにいいねや返信をしましょう。
-* 「**新しい**トピック」をクリックしてトピックカテゴリを選択することで、新しいディスカッションスレッドを作成するか、DRCを投稿します。
+* 「**新しいトピック**」をクリックしてトピックカテゴリを選択することで、新しいディスカッションスレッドを作成するか、DRCを投稿します。
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.03.33 AM.png" alt=""><figcaption></figcaption></figure>
 
 * DRCを作成する場合、[こちら](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md)からテンプレートに従ってください。「[提案のライフサイクル](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)」の「_DRCの作成_」で概説しているように、DRCには少なくとも以下の内容を含めなければなりません：
-  * DRCの短い、簡潔なタイトル
-  * 提案の短い、簡潔な説明
+  * DRCの簡潔で短いタイトル
+  * 提案の簡潔で短い説明
   * DRCの合理的理由（例：なぜ？）
   * フォーラムポストのタイトルにはDRC：\[DRCの短いタイトルを挿入]（例えば、DRC：新しいマーケットリクエスト）を含めなければなりません。
-  * コミュニティのメンバーがオフチェーンの改善の選択のために使用できるコミュニティ調査
+  * コミュニティのメンバーがオフチェーンの改善の投票のために使用できるコミュニティ調査
 
-### **ステップ2 - DRCのスナップショットの選択（オフチェーン）**
+### **ステップ2 - DRCのスナップショット投票（オフチェーン）**
 
 _**説明：**_
 
-コミュニティが大まかなコンセンサスを達成した後、10Kの提案権を有するコミュニティメンバーは[スナップショット](https://snapshot.org/#/)のDRCの選択（オフチェーン）を作成できます。[提案権](https://docs.dydx.community/dydx-governance/voting-and-governance/voting)により、提案の作成および維持ができるようになります。スナップショットは、ユーザーがオフチェーンでセンチメントを表示できるようにする単純な選択インターフェースです。スナップショットでの投票は、投票に使用したアドレスが保有または委任しガバナンストークンの数によって重み付けられます。 スナップショットの選択を行うコミュニティメンバーは、DRC、選択システム、選択開始日、選択終了日、およびスナップショットブロック番号の詳細を提供する必要があります。選択期間は5日間とし、（_13.2秒のブロックタイムに基づいて）_1日の選択遅延を経て選択を開始するものとします。選択遅延により、dYdXのコミュニティメンバーにはDRCの詳細な学習、$ethDYDXの購入、ガバナンストークンの投票権を委任するための時間が付与されます。ガバナンストークンを保有しているか、スナップショットブロック番号以前に投票権を委任されていたコミュニティメンバーは、投票権を有しています。スナップショットの選択の詳細については[こちら](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)をご覧ください。
+コミュニティが大まかなコンセンサスを達成した後、10Kの提案権を有するコミュニティメンバーは[スナップショット](https://snapshot.org/#/)のDRCの投票（オフチェーン）を作成できます。[提案権](https://docs.dydx.community/dydx-governance/voting-and-governance/voting)により、提案の作成および維持ができるようになります。スナップショットは、ユーザーがオフチェーンでセンチメントを表示できるようにする単純な投票インターフェースです。スナップショットでの投票は、投票に使用したアドレスが保有または委任しガバナンストークンの数に基づいて加重されます。スナップショット投票を行うコミュニティメンバーは、DRC、投票システム、投票開始日、投票終了日、およびスナップショットブロック番号の詳細を提供する必要があります。投票期間は5日間とし、（_13.2秒のブロックタイムに基づいて）_1日の投票遅延を経て投票を開始するものとします。投票遅延により、dYdXのコミュニティメンバーにはDRCの詳細な学習、$ethDYDXの購入、ガバナンストークンの投票権を委任するための時間が付与されます。ガバナンストークンを保有しているか、スナップショットブロック番号以前に投票権を委任されていたコミュニティメンバーは、投票権を有しています。スナップショット投票の詳細については[こちら](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)をご覧ください。
 
 _**DIP 2への適用**_：
 
@@ -85,7 +86,7 @@ _**DIP 2への適用**_：
 * [2.5％](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=4855) - Kronos/WOO NetworkのBen氏、
 * [5％](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives?comment=4872) - WintermuteのEvgeny氏。
 
-次に、Su Zhu氏は以下のオプションが付くスナップショットの選択を作成しました：
+次に、Su Zhu氏は以下のオプションが付くスナップショット投票を作成しました：
 
 * MMのしきい値を1％まで引き下げる
 * MMのしきい値を2.5％まで引き下げる
@@ -93,16 +94,16 @@ _**DIP 2への適用**_：
 
 ![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-create-snapshot.png)
 
-#### _スナップショットの選択方法：_
+#### _スナップショット投票への投票方法：_
 
 * イーサリアムウォレットでスナップショットに登録し、[こちら](https://snapshot.org/#/dydxgov.eth)からdYdXの提案をフォローしてください。
 
 ![https://snapshot.org/#/dydxgov.eth](../.gitbook/assets/2-register-snapshot.png)
 
 * アクティブなスナップショットに投票するには、スナップショットの投票がアクティブになる時点でガバナンストークンを保有しているか、またはスナップショットブロック番号以前にアドレスに委任された投票権を有している必要があります。
-* 選択を行うには、提案をクリックして「はい」または「いいえ」を選択し、その後で「選択」をクリックします。
+* 投票を行うには、提案をクリックして「はい」または「いいえ」を選択してから「投票」をクリックします。
 
-#### _スナップショットの選択の作成方法：_
+#### _スナップショット投票の作成方法：_
 
 * スナップショットの投票を作成するには、**最小でも10k ガバナンストークンの保有**および/または提案の作成に**使用するアドレスに委任された投票権を有している**必要があります。
 * スナップショットの提案は、提案ごとに最大10アクションまで、1つまたは複数のアクションで構成できます。アクションとは、提案で指定された変更を指します。
@@ -112,22 +113,22 @@ _**DIP 2への適用**_：
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-04-19 at 11.09.33 AM.png" alt=""><figcaption><p>ここにスナップショットの詳細を記載し、DRCへのリンクを必ず添えてください。</p></figcaption></figure>
 
-DRCのスナップショット選択のコンテンツ要件：
+DRCのスナップショット投票のコンテンツ要件：
 
 * DRCの詳細（フォーラムディスカッションへのリンク付き）、
-* 選択システム、
-* （_13.2秒のブロックタイムに基づいて）_選択開始日と選択終了日は合計4日間に設定します。また、
-* スナップショット選択は、選択開始の1日前（\~6570ブロック）前にポストされます。
+* 投票システム、
+* （_13.2秒のブロックタイムに基づいて）_投票開始日と投票終了日は合計4日間に設定します。また、
+* スナップショット投票は、投票開始の1日前（\~6570ブロック）前にポストされます。
 
-スナップショット選択の拘束力のある要件
+拘束力のあるスナップショット投票の要件
 
-ほとんどの意思決定においてスナップショット選択はシグナルとして機能しますが、スマートコントラクトを変更するような拘束力のある結果にはオンチェーン選択が必要です。オンチェーンでのスマートコントラクトのコールが必要でない意思決定の場合、特にトレードおよび流動性プロバイダーの報酬公式の変更については、スナップショットの選択は拘束力を有する最終選択であるとみなされます。上記のコンテンツ要件に加えて、オフチェーン制御されている変数に対する拘束力ある選択としてのスナップショット選択には、以下の内容を含めなければなりません。
+ほとんどの意思決定においてスナップショット投票はシグナルとして機能しますが、スマートコントラクトを変更するような拘束力のある結果を得るにはオンチェーン投票が必要です。オンチェーンでのスマートコントラクトのコールが必要でない意思決定の場合、特に取引および流動性プロバイダーの報酬公式の変更については、スナップショット投票は拘束力を有する最終投票であるとみなされます。上記のコンテンツ要件に加えて、オフチェーン制御されている変数に対する拘束力ある投票としてのスナップショット投票には、以下の内容を含めなければなりません。
 
-* 二者択一オプション明確化のため、アドレスは提案への賛成または反対のいずれかを選択します。
+* 二者択一オプション明確化のため、アドレスは提案への賛成または反対のいずれかを投票します。
 
 ![](../.gitbook/assets/2-snapshot-binary-voting.png)
 
-* 選択後、関連情報はIPFSに保存されます。レポートが自動的に生成され、ダウンロードできます。
+* 投票後、関連情報はIPFSに保存されます。レポートが自動的に生成され、ダウンロードできます。
 
 ![https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](../.gitbook/assets/2-snapshot-ipfs.png)
 
@@ -135,11 +136,11 @@ DRCのスナップショット選択のコンテンツ要件：
 
 _**説明**：_
 
-（1）スナップショット選択の結果、オフチェーンパラメーター（トレード報酬やLP報酬公式の変更など）が更新される場合、および（2）コミュニティメンバーがオンチェーンスマートコントラクトの変更提案を提出したい場合、DIPを作成する必要があります。オンチェーンでのスマートコントラクトの更新が必要でない場合、スナップショット選択の結果はオフチェーンDIPで定式化され、dYdX FoundationのGithubのPending-DIPブランチにプルリクエストを通じて提出される必要があります。DIPはスナップショット選択の結果を反映する必要があります。DIPは、[こちら](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md)からご覧いただけるテンプレートに含まれる情報を指定する必要があります。
+（1）スナップショット投票の結果、オフチェーンパラメーター（トレード報酬やLP報酬公式の変更など）が更新される場合、および（2）コミュニティメンバーがオンチェーンスマートコントラクトの変更提案を提出したい場合、DIPを作成する必要があります。オンチェーンでのスマートコントラクトの更新が必要でない場合、スナップショット投票の結果はオフチェーンDIPで定式化され、dYdX FoundationのGithubのPending-DIPブランチにプルリクエストを通じて提出される必要があります。DIPはスナップショット投票の結果を反映する必要があります。DIPは、[こちら](https://github.com/dydxfoundation/dip/blob/master/DIP-X.md)からご覧いただけるテンプレートに含まれる情報を指定する必要があります。
 
 _**DIP 2への適用**_：
 
-この場合、[DIP](https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md)は@Jteamdcによって執筆されました。
+こちらのケースでは、[DIP](https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md)は@Jteamdcによって執筆されました。
 
 ![https://github.com/jteamdc/dip/blob/master/content/dips/DIP-2.md](../.gitbook/assets/2-dip-example.png)
 
@@ -147,11 +148,11 @@ DIP 2のドラフト提案が完了したとき、@Jteamdcは使用中のブラ�
 
 ![https://github.com/dydxfoundation/dip/pulls](../.gitbook/assets/2-dip-pending-merge.png)
 
-流動性プロバイダー報酬のしきい値を引き下げる必要はないため、このプロセスは完了し、変更は次のエポック期間に有効になります。
+流動性プロバイダー報酬のしきい値を引き下げるには、オンチェーンのスマートコントラクトを変更する必要はないため、プロセスはこれで完了し、変更は次のエポック期間から有効になります。
 
 #### _DIPの作成方法：_
 
-* DIPはスナップショットでのオフチェーンDIP選択の結果に基づく必要があり、提案ごとに最大10アクションまで、1つまたは複数のアクションで構成できます。アクションとは提案で指定された変更を指します。詳細については「[DIPの作成](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle#6.-proposal-queuing-and-execution)」で確認できます。
+* DIPはスナップショットでのオフチェーンDIP投票の結果に基づく必要があり、提案ごとに最大10アクションまで、1つまたは複数のアクションで構成できます。アクションとは提案で指定された変更を指します。詳細については「[DIPの作成](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle#6.-proposal-queuing-and-execution)」で確認できます。
 * Githubの口座に登録：[https://github.com/signup](https://github.com/signup) 。
 * [こちら](https://github.com/dydxfoundation/dip)からdYdXのレポページに移動し、Github口座の下でレポをフォークします。
 
@@ -204,7 +205,7 @@ DIPステータス：
 
 _**要約：**_
 
-11月1日、セーフティモジュールのステーキングプールの機能を復元するため、ParadigmのDan Robinson氏によってオンチェーン[DIP](https://dydx.community/dashboard/proposal/3)が作成されました。コミュニティの過半数（投票者数251、約142M ethDYDX）は、セーフティモジュールの機能の復元に賛成しました。10日間の選択期間の後、コミュニティメンバーがキューを呼び出し、提案を7日間のタイムロック遅延に移動させるために3日間程度を要しました。11月20日、セーフティモジュールは復元され、クリーンな状態にリセットされました。
+11月1日、セーフティモジュールのステーキングプールの機能を復元するため、ParadigmのDan Robinson氏によってオンチェーン[DIP](https://dydx.community/dashboard/proposal/3)が作成されました。コミュニティの過半数（投票者数251、約142M ethDYDX）は、セーフティモジュールの機能の復元に賛成しました。10日間の投票期間の後、コミュニティメンバーがキューを呼び出し、提案を7日間のタイムロック遅延に移動させるために3日間程度を要しました。11月20日、セーフティモジュールは復元され、クリーンな状態にリセットされました。
 
 _**背景：**_
 
@@ -216,15 +217,15 @@ dYdXのコミュニティには、セーフティモジュールのスマート�
 
 9月8日午後3時（UTC）に、$ethDYDXトークンの移動制限が解除され、dYdXセーフティモジュールへのステーキングが実質的に開始されました。ほぼ1時間にわたって、50を超えるアドレスが約157K ethDYDXをステーキングしました。デプロイメントプロセスでバグによるエラーが発生し、セーフティモジュールにステーキングしたアドレスに対してはステーキングDYDXが発行されませんでした。その結果、各ステーカーの資金がコントラクトにスタックされ、dYdXチームではdYdXガバナンスUIでのステーキングを無効化しました。
 
-[DIP 1](https://dydx.community/dashboard/proposal/0)はセーフティモジュールの復元機能を提案しました。これは影響を受けたアドレスが資金を回復し、補償としてステーキングされたトークンの10％相当を受け取るというものでした。コミュニティ感情は[DIP 1 - セーフティモジュールの復旧とステーカーの回復](https://dydx.community/dashboard/proposal/0)を強く支持していましたが、長いタイムロック選択の可決に必要な100M $ethDYDXの最小選択者数を満たせなかったため、この提案は否決されました。その結果、DeFiance Capitalのジェイコブ・ゴー（jteam0x）は[DIP 4 - セーフティモジュール・ステーカーの払い戻しと補償](https://dydx.community/dashboard/proposal/2)を作成し、影響を受けたアドレスに対し、逃した報酬分と迷惑料を補償しました。[DIP 4](https://dydx.community/dashboard/proposal/2)には、ステーキングされたトークンのリカバリーコントラクトのデプロイおよび影響を受けたアドレスに対するRewards Treasuryからの10％補償が含まれていました。DIPは、あまり厳格でないショートタイムロックのガバナンスパラメータによって管理されました。
+[DIP 1](https://dydx.community/dashboard/proposal/0)はセーフティモジュールの復元機能を提案しました。これは影響を受けたアドレスが資金を回復し、補償としてステーキングされたトークンの10％相当を受け取るというものでした。コミュニティ感情は[DIP 1 - セーフティモジュールの復旧とステーカーの回復](https://dydx.community/dashboard/proposal/0)を強く支持していましたが、長いタイムロック投票の可決に必要な100M $ethDYDXの最小投票者数を満たせなかったため、この提案は否決されました。その結果、DeFiance Capitalのジェイコブ・ゴー（jteam0x）は[DIP 4 - セーフティモジュール・ステーカーの払い戻しと補償](https://dydx.community/dashboard/proposal/2)を作成し、影響を受けたアドレスに対し、逃した報酬分と迷惑料を補償しました。[DIP 4](https://dydx.community/dashboard/proposal/2)には、ステーキングされたトークンのリカバリーコントラクトのデプロイおよび影響を受けたアドレスに対するRewards Treasuryからの10％補償が含まれていました。DIPは、あまり厳格でないショートタイムロックのガバナンスパラメータによって管理されました。
 
-DIPの提案ライフサイクルは通常、DIPの作成まで一貫しています。DIP 3（オンチェーン）とDIP 2（オフチェーン）の主要な違いは、DIP 3ではオンチェーン選択とスマートコントラクトのデプロイメントが必要だった点にあります。フォーラムディスカッション、DRCの作成、ドラフトDIPの作成のプロセスは同じであるため、オンチェーンDIPのドラフト要件に関するステップ・バイ・ステップのディスカッションを開始します。詳細については以下のリンク先をご覧ください：
+DIPの提案ライフサイクルは通常、DIPの作成まで一貫しています。DIP 3（オンチェーン）とDIP 2（オフチェーン）の主要な違いは、DIP 3ではオンチェーン投票とスマートコントラクトのデプロイメントが必要だった点にあります。フォーラムディスカッション、DRCの作成、ドラフトDIPの作成のプロセスは同じであるため、オンチェーンDIPのドラフト要件に関するステップ・バイ・ステップのディスカッションを開始します。詳細については以下のリンク先をご覧ください：
 
 * dYdXのガバナンスプロセス - [https://docs.dydx.community/dydx-governance/voting-and-governance/dip-posal-lifecycle](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle) 。
 * セーフティモジュールのインシデントレポート - [https://dydx.foundation/blog/en/outage-1](https://dydx.foundation/blog/en/outage-1) 。
 * オフチェーンのフォーラムディスカッション **-** [https://commonwealth.im/dydx/posal/discussion/1743-safety-staking-pool-on-pause](https://commonwealth.im/dydx/proposal/discussion/1743-safety-staking-pool-on-pause) 。
 * オフチェーンDRC **-** [https://commonwealth.im/dydx/proposal/discussion/1770-drc-incident-report-of-the-safety-module-outage-proposed-solution](https://commonwealth.im/dydx/proposal/discussion/1770-drc-incident-report-of-the-safety-module-outage-proposed-solution)
-* オフチェーンDRCのスナップショット選択 **-** [https://snapshot.org/#/dydxgov.eth/proposal/QmbJ5QxHr1pyShKTDaF5DjAr6vxQn8DVxshH2fyWgzDCBn](https://snapshot.org/#/dydxgov.eth/proposal/QmbJ5QxHr1pyShKTDaF5DjAr6vxQn8DVxshH2fyWgzDCBn)
+* オフチェーンDRCのスナップショット投票 **-** [https://snapshot.org/#/dydxgov.eth/proposal/QmbJ5QxHr1pyShKTDaF5DjAr6vxQn8DVxshH2fyWgzDCBn](https://snapshot.org/#/dydxgov.eth/proposal/QmbJ5QxHr1pyShKTDaF5DjAr6vxQn8DVxshH2fyWgzDCBn)
 * Githubで提案されたDIP** - ** [https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md ](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-3.md)
 
 ### **ステップ1 - オンチェーンDIPのドラフティング**
@@ -293,7 +294,7 @@ READMEに含まれる提案の実装手順はこちらです：[https://github.c
 
 _**説明：**_
 
-コミュニティメンバーが提案されたスマートコントラクトの実装が正しいことを確認し、DIPが確定した後、そのDIPをオンチェーンで提出できます。オンチェーンDIPが作成されると、提案は選択遅延の「保留」状態に進み、それが1日間（約6,570ブロック）続きます。ユーザーのスナップショットは選択遅延後に、$ethDYDXの保有と委任された投票権を考慮して記録されます。次に、提案は「アクティブ」状態に進み、提案の種類に応じて選択期間は2〜10日間になります。提案が実行される場合、提案の種類に応じて変化する最小クォーラムと最小選択差の要件を満たす必要があります。DIPが最小クォーラム、最小選択差、選択コミュニティメンバーの多数要件を満たす場合、任意のアドレスが提案をタイムロックのキューに移動させるためのキューを呼び出すことができます。このタイムロックコントラクトは、dYdXコミュニティによって選択されたトランザクションのキュー、キャンセル、実行を行うことができます。タイムロックのキューの期間は提案の種類によって異なります。
+コミュニティメンバーが提案されたスマートコントラクトの実装が正しいことを確認し、DIPが確定した後、そのDIPをオンチェーンで提出できます。オンチェーンDIPが作成されると、提案は投票遅延の「保留」状態に進み、それが1日間（約6,570ブロック）続きます。ユーザーのスナップショットは投票遅延後に、$ethDYDXの保有と委任された投票権を考慮して記録されます。次に、提案は「アクティブ」状態に進み、提案の種類に応じて投票期間は2〜10日間になります。提案が実行される場合、提案の種類に応じて変化する最小クォーラムと最小投票差の要件を満たす必要があります。DIPが最小クォーラム、最小投票差、投票コミュニティメンバーの多数要件を満たす場合、任意のアドレスが提案をタイムロックのキューに移動させるためのキューを呼び出すことができます。このタイムロックコントラクトは、dYdXコミュニティによって投票されたトランザクションのキュー、キャンセル、実行を行うことができます。タイムロックのキューの期間は提案の種類によって異なります。
 
 _**DIP 3への適用：**_
 
@@ -357,13 +358,13 @@ DIPのデプロイはEtherscan：[https://etherscan.io/tx/0x5f2472e7dfcbf50628d2
 
 ![https://etherscan.io/tx/0x5f2472e7dfcbf50628d29c94f97a072f3c19177f66cde4cca9f376c7934af5ad](../.gitbook/assets/2-draft-dip-example-10.png)
 
-ethDYDXの保有者は、ブロック13538946で「アクティブ」状態に移行した時にDIPを選択できました。
+ethDYDXの保有者は、DIPがブロック13538946で「アクティブ」状態に移行したときに投票することができました。
 
-最初の選択は2021年11月2日午後5時51分22秒（UTC）に行われ（ブロック13538959）、オンチェーンDIPが作成された時点から6,583ブロックでした。
+最初の投票は2021年11月2日午後5時51分22秒（UTC）に行われ（ブロック13538959）、オンチェーンDIPが作成されてから6,583ブロック後でした。
 
 ![https://etherscan.io/tx/0xc3d0ace92be4ac3da40dc17f45a573d4dbd83d31f7a95733071de883ded67a4f](../.gitbook/assets/2-draft-dip-example-11.png)
 
-ロングタイムロックに関する10日間の選択期間後、コミュニティメンバーはキューを呼び出すことで提案を7日間のタイムロック遅延に移行させることができます。DIP 3では、コミュニティメンバーがキューを呼び出すのに約3日間かかりました。
+ロングタイムロックに関する10日間の投票期間後、コミュニティメンバーはキューを呼び出すことで提案を7日間のタイムロック遅延に移行させることができます。DIP 3では、コミュニティメンバーがキューを呼び出すのに約3日間かかりました。
 
 ![https://etherscan.io/tx/0x3402372aa549d2270a6b5d4f84884ae2bfec6922fc808703b47d53b27d288c81](../.gitbook/assets/2-draft-dip-example-12.png)
 
@@ -389,7 +390,7 @@ ethDYDXの保有者は、ブロック13538946で「アクティブ」状態に�
 
 ![https://dashboard.alchemyapi.io/](../.gitbook/assets/2-draft-dip-example-15.png)
 
-* アプリが作成された後、「キーを表示」をクリックしてAlchemyキー（7LOaQtguSm2kSEcFXQH88B）を入手します：[https://eth-mainnet.alchemyapi.io/v2/7LOaQtgusm2kSEcFXQH88B-EN_K7t\_ul](https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN\_K7t\_ul)
+* アプリが作成された後、「キーを表示」をクリックしてAlchemyキー（7LOaQtguSm2kSEcFXQH88B）を入手します：[https://eth-mainnet.alchemyapi.io/v2/7LOaQtgusm2kSEcFXQH88B-EN_K7t\_ul](https://eth-mainnet.alchemyapi.io/v2/7LOaQtguSm2kSEcFXQH88B-EN_K7t_ul)
 
 ![https://dashboard.alchemyapi.io/apps/xogmjmlex8tlmr95](../.gitbook/assets/2-draft-dip-example-16.png)
 
@@ -399,14 +400,14 @@ ethDYDXの保有者は、ブロック13538946で「アクティブ」状態に�
 * ガバナンスコントラクトをチェックして、提案がオンチェーンで作成されたことを確認します：[https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aaae79a9018d2\&p=10](https://etherscan.io/txs?a=0x7e9b1672616ff6d6629ef2879419aae79a9018d2\&p=10) 。
 * 提案を提出したアドレスは、提案が実行されるまでの間、各タイムロックコントラクトで必要な提案権の最小限度額を維持する必要があります。
 
-#### _DIPでの選択方法：_
+#### _DIPでの投票方法：_
 
 * ガス代を支払うためのETHがウォレットにあることを確認します。
-* DIPを以下から選ぶことで、アクティブDIPを選択することができます：[https://dydx.community/dashboard](https://dydx.community/dashboard) 。
+* DIPを以下から選ぶことで、アクティブDIPを投票することができます：[https://dydx.community/dashboard](https://dydx.community/dashboard) 。
 
 ![](../.gitbook/assets/2-draft-dip-example-17.png)
 
-選択期間は提案の種類によって異なります。詳細については「[DIPの作成](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)」で確認できます。
+投票期間は提案の種類によって異なります。詳細については「[DIPの作成](https://docs.dydx.community/dydx-governance/voting-and-governance/dip-proposal-lifecycle)」で確認できます。
 
 * ショートタイムロックの実行管理者：4日間
 * Starkwareの実行管理者：4日間

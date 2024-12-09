@@ -1,6 +1,7 @@
 ---
 description: >-
   ethDYDXをコミュニティトレジャリーから宛先アドレスに送り込む方法に関する技術的な、ステップバイステップガイド。
+hidden:  
 ---
 
 # dYdXコミュニティトレジャリー支出提案の構築に関するテクニカルガイド
@@ -35,7 +36,7 @@ git clone https://github.com/[username]/governance-contracts.git
 \
 3\. **構成**変数
 
-src/config/index.tsに、テストのために使用されるconfigSchema定数に2つの新しい変数を追加します。以下のコードブロックで、**「PROPOSAL\_NAME」**と「PROP**OSAL」**フィールドを、送信する提案の名前に変更します。
+src/config/index.tsに、テストのために使用されるconfigSchema定数に2つの新しい変数を追加します。以下のコードブロックで、**「PROPOSAL\_NAME」**と**「PROPOSAL」**フィールドを、送信する提案の名前に変更します。
 
 ```typescript
 src/config/index.ts
