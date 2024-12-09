@@ -1,156 +1,96 @@
 ---
-description: Una visión general del sistema de etapas
+description: Visión general del sistema de etapas
 ---
 
-#
+# ⏳ Etapas
 
-Todas las recompensas y contratos de participación funcionan en ciclos `de 28 días`, conocidos como **etapas**. Una nueva etapa comienza automáticamente cuando la etapa finaliza.
+Todas **las** recompensas y los contratos de participación operaban en ciclos de `28 días, denominados` épocas. Una nueva etapa comienza automáticamente cuando la etapa finaliza.
 
 Lo siguiente ocurrirá al final de cada época:
 
 * Los retiros solicitados para el **fondo de participación de liquidez** en la etapa final pueden ser retirados.
 * Los retiros solicitados para el **Fondo de participación de seguridad** la etapa final pueden ser retirados.
 
-Lo siguiente ocurrirá solo al final de la **Etapa 0**:
 
-* Se distribuirán recompensas de minería retroactivas. Las recompensas podrán reclamarse en [**dydx.community**](https://dydx.community) aproximadamente `8 días` después del final de la etapa 0.
-* Las transferencias de $ethDYDX están inicialmente restringidas. El período de Restricción inicial de transferencias terminó aproximadamente `8 días` después del final de la etapa 0.
-* **Los $ethDYDX se volvieron transferibles el 8 de septiembre de 2021 a las 15:00:00 UTC.**
 
-**La Etapa 0** se activará el **3 de agosto de 2021 a las 15:00:00 UTC**. La siguiente tabla describe las fechas de inicio y final de la etapa (que pueden ser modificadas por la gobernanza de dYdX):
-
-| Etapa | Fecha de inicio (UTC) | Fecha de finalización (UTC) | Días | Años acumulados |
+| Etapa | Fecha de Inicio (UTC) | Fecha de Finalización (UTC) | Días | Años acumulados |
 | ----- | ------------------- | ------------------- | ---- | ---------------- |
-| 0 | 8/3/2021 15:00:00 | 8/31/2021 15:00:00 | 28 | 0,08 |
-| 1 | 8/31/2021 15:00:00 | 28/09/2021 15:00:00 | 28 | 0,15 |
+| 0 | 3/8/2021 15:00:00 | 31/8/2021 15:00:00 | 28 | 0.08 |
+| 1 | 31/8/2021 15:00:00 | 28/09/2021 15:00:00 | 28 | 0.15 |
 | 2 | 28/09/2021 15:00:00 | 26/10/2021 15:00:00 | 28 | 0,23 |
 | 3 | 26/10/2021 15:00:00 | 23/11/2021 15:00:00 | 28 | 0,31 |
-| 4 | 23/11/2021 15:00:00 | 21/12/2021 15:00:00 | 28 | 0,38 |
+| 4 | 23/11/2021 15:00:00 | 21/12/2021 15:00:00 | 28 | 0.38 |
 | 5 | 21/12/2021 15:00:00 | 18/1/2022 15:00:00 | 28 | 0,46 |
-| 6 | 18/1/2022 15:00:00 | 15/2/2022 15:00:00 | 28 | 0,54 |
-| 7 | 15/2/2022 15:00:00 | 15/3/2022 15:00:00 | 28 | 0,61 |
-| 8 | 15/3/2022 15:00:00 | 12/04/2022 15:00:00 | 28 | 0,69 |
-| 9 | 12/04/2022 15:00:00 | 10/05/2022 15:00:00 | 28 | 0,77 |
-| 10 | 10/05/2022 15:00:00 | 7/6/2022 15:00:00 | 28 | 0,84 |
-| 11 | 7/6/2022 15:00:00 | 5/7/2022 15:00:00 | 28 | 0,92 |
+| 6 | 18/1/2022 15:00:00 | 15/2/2022 15:00:00 | 28 | 0.54 |
+| 7 | 15/2/2022 15:00:00 | 15/3/2022 15:00:00 | 28 | 0.61 |
+| 8 | 15/3/2022 15:00:00 | 12/04/2022 15:00:00 | 28 | 0.69 |
+| 9 | 12/04/2022 15:00:00 | 10/05/2022 15:00:00 | 28 | 0.77 |
+| 10 | 10/05/2022 15:00:00 | 7/6/2022 15:00:00 | 28 | 0.84 |
+| 11 | 7/6/2022 15:00:00 | 5/7/2022 15:00:00 | 28 | 0.92 |
 | 12 | 5/7/2022 15:00:00 | 2/8/2022 15:00:00 | 28 | 1,00 |
-| 13 | 2/8/2022 15:00:00 | 30/8/2022 15:00:00 | 28 | 1,07 |
-| 14 | 30/8/2022 15:00:00 | 27/9/2022 15:00:00 | 28 | 1,15 |
-| 15 | 27/9/2022 15:00:00 | 25/10/2022 15:00:00 | 28 | 1,23 |
+| 13 | 2/8/2022 15:00:00 | 30/8/2022 15:00:00 | 28 | 1.07 |
+| 14 | 30/8/2022 15:00:00 | 27/9/2022 15:00:00 | 28 | 1.15 |
+| 15 | 27/9/2022 15:00:00 | 25/10/2022 15:00:00 | 28 | 1.23 |
 | 16 | 25/10/2022 15:00:00 | 22/11/2022 15:00:00 | 28 | 1,30 |
-| 17 | 22/11/2022 15:00:00 | 20/12/2022 15:00:00 | 28 | 1,38 |
+| 17 | 22/11/2022 15:00:00 | 20/12/2022 15:00:00 | 28 | 1.38 |
 | 18 | 20/12/2022 15:00:00 | 17/1/2023 15:00:00 | 28 | 1,46 |
-| 19 | 17/1/2023 15:00:00 | 14/2/2023 15:00:00 | 28 | 1,53 |
+| 19 | 17/1/2023 15:00:00 | 14/2/2023 15:00:00 | 28 | 1.53 |
 | 20 | 14/2/2023 15:00:00 | 14/3/2023 15:00:00 | 28 | 1,61 |
-| 21 | 14/3/2023 15:00:00 | 11/4/2023 15:00:00 | 28 | 1,69 |
-| 22 | 11/4/2023 15:00:00 | 9/5/2023 15:00:00 | 28 | 1,76 |
+| 21 | 14/3/2023 15:00:00 | 11/4/2023 15:00:00 | 28 | 1.69 |
+| 22 | 11/4/2023 15:00:00 | 9/5/2023 15:00:00 | 28 | 1.76 |
 | 23 | 9/5/2023 15:00:00 | 6/6/2023 15:00:00 | 28 | 1,84 |
 | 24 | 6/6/2023 15:00:00 | 4/7/2023 15:00:00 | 28 | 1,92 |
-| 25 | 4/7/2023 15:00:00 | 1/8/2023 15:00:00 | 28 | 1,99 |
-| 26 | 1/8/2023 15:00:00 | 29/8/2023 15:00:00 | 28 | 2,07 |
-| 27 | 29/8/2023 15:00:00 | 26/9/2023 15:00:00 | 28 | 2,15 |
-| 28 | 26/9/2023 15:00:00 | 24/10/2023 15:00:00 | 28 | 2,22 |
+| 25 | 4/7/2023 15:00:00 | 1/8/2023 15:00:00 | 28 | 1.99 |
+| 26 | 1/8/2023 15:00:00 | 29/8/2023 15:00:00 | 28 | 2.07 |
+| 27 | 29/8/2023 15:00:00 | 26/9/2023 15:00:00 | 28 | 2.15 |
+| 28 | 26/9/2023 15:00:00 | 24/10/2023 15:00:00 | 28 | 2.22 |
 | 29 | 24/10/2023 15:00:00 | 21/11/2023 15:00:00 | 28 | 2,30 |
 | 30 | 21/11/2023 15:00:00 | 19/12/2023 15:00:00 | 28 | 2,38 |
 | 31 | 19/12/2023 15:00:00 | 16/1/2024 15:00:00 | 28 | 2,45 |
 | 32 | 16/1/2024 15:00:00 | 13/2/2024 15:00:00 | 28 | 2,53 |
 | 33 | 13/2/2024 15:00:00 | 12/3/2024 15:00:00 | 28 | 2,61 |
-| 34 | 12/3/2024 15:00:00 | 9/4/2024 15:00:00 | 28 | 2,68 |
+| 34 | 12/3/2024 15:00:00 | 9/4/2024 15:00:00 | 28 | 2.68 |
 | 35 | 9/4/2024 15:00:00 | 7/5/2024 15:00:00 | 28 | 2,76 |
-| 36 | 7/5/2024 15:00:00 | 4/6/2024 15:00:00 | 28 | 2,84 |
+| 36 | 7/5/2024 15:00:00 | 4/6/2024 15:00:00 | 28 | 2.84 |
 | 37 | 4/6/2024 15:00:00 | 2/7/2024 15:00:00 | 28 | 2,92 |
 | 38 | 2/7/2024 15:00:00 | 30/7/2024 15:00:00 | 28 | 2,99 |
 | 39 | 30/7/2024 15:00:00 | 27/8/2024 15:00:00 | 28 | 3,07 |
-| 40 | 27/8/2024 15:00:00 | 24/9/2024 15:00:00 | 28 | 3,15 |
-| 41 | 24/9/2024 15:00:00 | 22/10/2024 15:00:00 | 28 | 3,22 |
+| 40 | 27/8/2024 15:00:00 | 24/9/2024 15:00:00 | 28 | 3.15 |
+| 41 | 24/9/2024 15:00:00 | 22/10/2024 15:00:00 | 28 | 3.22 |
 | 42 | 22/10/2024 15:00:00 | 19/11/2024 15:00:00 | 28 | 3,30 |
-| 43 | 19/11/2024 15:00:00 | 17/12/2024 15:00:00 | 28 | 3,38 |
+| 43 | 19/11/2024 15:00:00 | 17/12/2024 15:00:00 | 28 | 3.38 |
 | 44 | 17/12/2024 15:00:00 | 14/1/2025 15:00:00 | 28 | 3,45 |
 | 45 | 14/1/2025 15:00:00 | 11/2/2025 15:00:00 | 28 | 3,53 |
-| 46 | 11/2/2025 15:00:00 | 11/3/2025 15:00:00 | 28 | 3,61 |
-| 47 | 11/3/2025 15:00:00 | 8/4/2025 15:00:00 | 28 | 3,68 |
+| 46 | 11/2/2025 15:00:00 | 11/3/2025 15:00:00 | 28 | 3.61 |
+| 47 | 11/3/2025 15:00:00 | 8/4/2025 15:00:00 | 28 | 3.68 |
 | 48 | 8/4/2025 15:00:00 | 6/5/2025 15:00:00 | 28 | 3,76 |
 | 49 | 6/5/2025 15:00:00 | 3/6/2025 15:00:00 | 28 | 3,84 |
-| 50 | 3/6/2025 15:00:00 | 1/7/2025 15:00:00 | 28 | 3,91 |
-| 51 | 1/7/2025 15:00:00 | 29/7/2025 15:00:00 | 28 | 3,99 |
-| 52 | 29/7/2025 15:00:00 | 26/8/2025 15:00:00 | 28 | 4,07 |
-| 53 | 26/8/2025 15:00:00 | 23/9/2025 15:00:00 | 28 | 4,14 |
-| 54 | 23/9/2025 15:00:00 | 21/10/2025 15:00:00 | 28 | 4,22 |
-| 55 | 21/10/2025 15:00:00 | 18/11/2025 15:00:00 | 28 | 4,30 |
+| 50 | 3/6/2025 15:00:00 | 1/7/2025 15:00:00 | 28 | 3.91 |
+| 51 | 1/7/2025 15:00:00 | 29/7/2025 15:00:00 | 28 | 3.99 |
+| 52 | 29/7/2025 15:00:00 | 26/8/2025 15:00:00 | 28 | 4.07 |
+| 53 | 26/8/2025 15:00:00 | 23/9/2025 15:00:00 | 28 | 4.14 |
+| 54 | 23/9/2025 15:00:00 | 21/10/2025 15:00:00 | 28 | 4.22 |
+| 55 | 21/10/2025 15:00:00 | 18/11/2025 15:00:00 | 28 | 4.30 |
 | 56 | 18/11/2025 15:00:00 | 16/12/2025 15:00:00 | 28 | 4,37 |
-| 57 | 16/12/2025 15:00:00 | 13/1/2026 15:00:00 | 28 | 4,45 |
-| 58 | 13/1/2026 15:00:00 | 10/2/2026 15:00:00 | 28 | 4,53 |
-| 59 | 10/2/2026 15:00:00 | 10/3/2026 15:00:00 | 28 | 4,60 |
+| 57 | 16/12/2025 15:00:00 | 13/1/2026 15:00:00 | 28 | 4.45 |
+| 58 | 13/1/2026 15:00:00 | 10/2/2026 15:00:00 | 28 | 4.53 |
+| 59 | 10/2/2026 15:00:00 | 10/3/2026 15:00:00 | 28 | 4.60 |
 | 60 | 10/3/2026 15:00:00 | 7/4/2026 15:00:00 | 28 | 4,68 |
-| 61 | 7/4/2026 15:00:00 | 5/5/2026 15:00:00 | 28 | 4,76 |
-| 62 | 5/5/2026 15:00:00 | 2/6/2026 15:00:00 | 28 | 4,83 |
+| 61 | 7/4/2026 15:00:00 | 5/5/2026 15:00:00 | 28 | 4.76 |
+| 62 | 5/5/2026 15:00:00 | 2/6/2026 15:00:00 | 28 | 4.83 |
 | 63 | 2/6/2026 15:00:00 | 30/6/2026 15:00:00 | 28 | 4,91 |
 | 64 | 30/6/2026 15:00:00 | 28/7/2026 15:00:00 | 28 | 4,99 |
 | 65 | 28/7/2026 15:00:00 | 25/8/2026 15:00:00 | 28 | 5,06 |
 
-La Fundación dYdX ha creado un Calendario público de Google con fechas de inicio y finalización para las in para Epochs y Blackout Windows - puedes suscribirte[**aquí**](https://calendar.google.com/calendar/u/3?cid=Y19wZjIwYzBoZzQ3dTR2cHRja283NDl1ajQyb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
-
-## Preguntas frecuentes
+## Preguntas Frecuentes
 
 <details>
 
-<summary>¿Cuándo se activarán las recompensas y los fondos de participación?</summary>
+<summary>¿Qué es la Ventana de Bloqueo?</summary>
 
-* Las [recompensas de minería retroactiva](../rewards/retroactive-mining-rewards.md) se distribuyeron en dYdX v3. Estas recompensas se ejecutaron hasta **el 31 de agosto de 2021 a las 15:00:00 UTC**.
-* Las [recompensas de trading](https://github.com/dydxfoundation/governance-docs/tree/58816ba822cb40fdbf1128dbbf5b0f6dbaa23cc1/reward-pools-1/trading-rewards.md) se establecieron en 0 en [la etapa 32](https://dydx.community/dashboard/proposal/16). Estas recompensas se ejecutaron desde **el 3 de agosto de 2021 a las 15:00:00 UTC** hasta **el 16 de enero de 2024 a las 15:00:00 UTC**
-* Las [recompensas de proveedores de liquidez](../rewards/liquidity-provider-rewards.md) se establecieron en 0 en [la etapa 32](https://dydx.community/dashboard/proposal/16). Estas recompensas se ejecutaron desde **el 3 de agosto de 2021 a las 15:00:00 UTC** hasta **el 16 de enero de 2024 a las 15:00:00 UTC**
-* Las recompensas de los [grupos de staking de liquidez](../staking-pools/liquidity-staking-pool.md) se establecieron en 0 el 29 de septiembre de 2022 en [DIP 14](https://dydx.community/dashboard/proposal/7).
-* Las recompensas del [grupo de staking de seguridad](../staking-pools/safety-staking-pool.md) se establecieron en 0 el 28 de noviembre de 2022 en [DIP 17](https://dydx.community/dashboard/proposal/9).
+Para el [Fondo de Participación de Liquidez](../staking-pools/liquidity-staking-pool.md) y el [Fondo de Participación de Seguridad](../staking-pools/safety-staking-pool.md), se aplica un calendario de etapas para retiros para proporcionar previsibilidad y una cadencia regular para la disponibilidad de fondos en el fondo. Un inversor debe solicitar desinvertir fondos antes de la ventana de blackout para poder retirar los fondos del inversor después del final de ese Epoch. Si un inversor no solicita retirar, los fondos invertidos del inversor se transferirán en la época siguiente.
 
-</details>
-
-<details>
-
-<summary>¿Puede modificar la gobernanza de dYdX el calendario de Epoch?</summary>
-
-Las longitudes mínima y máxima de Epoch son `6 días` y `92 días`, respectivamente.
-
-</details>
-
-<details>
-
-<summary>¿Qué es la ventana de bloqueo?</summary>
-
-Para el [fondo de participación de liquidez](../staking-pools/liquidity-staking-pool.md) y el [fondo de participación de seguridad](../staking-pools/safety-staking-pool.md), se aplica un calendario de Epoch para retiros para proporcionar previsibilidad y una cadencia regular para la disponibilidad de fondos en el fondo. Un inversor debe solicitar desinvertir fondos antes de la ventana de blackout para poder retirar los fondos del inversor después del final de ese Epoch. Si un inversor no solicita retirar, los fondos invertidos del inversor se transferirán en el siguiente epoch.
-
-En [DIP 17](https://dydx.community/dashboard/proposal/9)[](https://dydx.community/dashboard/proposal/7), la comunidad dYdX `votó` para reducir la duración de la Ventana de blackout de `14` a 3 días. La gobernanza de dYdX puede votar para modificar el período de bloqueo, dentro de los límites especificados. Las ventanas de bloque mínimas y máximas son de `3 días``` y 46 días, respectivamente.
-
-</details>
-
-<details>
-
-<summary>¿Cuándo puedo retirar y transferir mis recompensas de $ethDYDX ganadas?</summary>
-
-Una vez que se han reclamado los tokens, se pueden transferir o delegar a la gobernanza de dYdX.
-
-</details>
-
-<details>
-
-<summary>¿Cuál es el objetivo del periodo de espera? ¿Cómo se almacenan las recompensas al final de cada epoch?</summary>
-
-Las [recompensas de minería retroactiva](../rewards/retroactive-mining-rewards.md), las [recompensas de trading](../rewards/trading-rewards.md) y las recompensas de [proveedores de liquidez](../rewards/liquidity-provider-rewards.md) se almacenaron en un árbol Merkle, que contiene las recompensas acumulativas ganadas por cada usuario desde el inicio del programa de distribución.
-
-
-
-Cada vez que cambia el epoch, ocurre lo siguiente en orden:
-
-* Cuando un epoch termina, los datos de recompensas se calculan para toda la actividad de los usuarios desde el último epoch.
-* Esos datos se agregan a una estructura de datos en IPFS, almacenados bajo un nombre fijo de IPNS.
-* El sistema de oráculo de ChainLink, también notando el cambio en epoch, consulta los últimos datos de recompensas utilizando el nombre de IPNS conocido.
-* Cada firmante de oráculo utiliza esos datos de las recompensas para calcular las recompensas ganadas recientemente por cada usuario.
-* Cada firmante de oráculo calcula el nuevo árbol acumulado de Merkle y la raíz de Merkle.
-* Cada firmante de oráculo escribe los datos de los árboles de Merkle en IPFS, recibiendo un CID de IPFS. (Deben haber calculado el mismo árbol y, por lo tanto, deberían recibir el mismo CID).
-* Si los firmantes de oráculo están de acuerdo en los mismos valores, el oráculo de recompensas se actualiza con la nueva raíz de Merkle, IPFS CID y número de epoch.
-* Un firmante de oráculo (o un tercero) llama la función pública `MerkleDistributorV1.proposeRoot()` para establecer la raíz de Merkle propuesta en el nuevo valor de oráculo.
-* Hay un período de espera durante el cual la gobernanza puede llamar `MerkleDistributorV1.pauseRootUpdates()` para evitar que la raíz de Merkle propuesta entre en vigor.
-* Después del período de espera, un firmante de oráculo (o un tercero) llama la función pública `MerkleDistributorV1.updateRoot()` haciendo que la raíz de Merkle propuesta se active.
-* Cuando la nueva raíz de Merkle esté activa, los usuarios pueden reclamar recompensas de la última etapa.
+En [DIP 17](https://dydx.community/dashboard/proposal/9)[](https://dydx.community/dashboard/proposal/7), la comunidad dYdX `votó` para reducir la duración de la Ventana de blackout de `14` a 3 días. La gobernanza de dYdX puede votar para modificar el período de bloqueo, dentro de los límites especificados. Las ventanas de bloque mínimas y máximas son de `3 días` y `46 días`, respectivamente.
 
 </details>
 
