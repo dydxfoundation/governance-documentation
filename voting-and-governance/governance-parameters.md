@@ -1,16 +1,17 @@
 ---
 description: Visão geral dos parâmetros de governança.
+hidden: true
 ---
 
-#
+# 💾 Parâmetros
 
  Os detentores de tokens de governança têm controle imediato e irrevogável sobre:
 
-* Alocação do tesouro da comunidade
+* Alocação da tesouraria da comunidade
 * Novas listagens de token no protocolo
 * Parâmetros de risco para o protocolo
 * Alocações de capital para os makers de mercado no pool de staking de liquidez
-* Adição de novos makers de mercado à pool de staking de liquidez
+* Adição de novos makers de mercado ao pool de staking de liquidez
 * Determinação dos pagamentos de pool de staking de segurança em caso de perda
 * Alteração de qualquer uma das recompensas e pools existentes no lançamento
 * A governança cuida da parte de contratos
@@ -21,7 +22,7 @@ A governança da dYdX tem controle sobre os parâmetros dos seguintes contratos:
 * Timelock de prioridade
 * Governador
 * Token $ethDYDX
-* Tesouro
+* Tesouraria
 * Distribuidor Merkle
 * Staking de liquidez
 * Módulo de segurança
@@ -44,23 +45,23 @@ A governança da dYdX tem controle sobre os parâmetros dos seguintes contratos:
 
 | Parâmetro | Descrição | Valor |
 | --------- | ---------------------------------------------- | -------------- |
-| Proprietário | Podem mintar tokens ethDYDX após restrição de mint | Timelock curto |
+| Proprietário | Pode mintar tokens ethDYDX após restrição de mint | Timelock curto |
 
-## Parâmetros do Tesouro de recompensas
+## Parâmetros de tesouraria de recompensas
 
 | Parâmetro | Descrição | Valor |
 | ----------- | ------------------------------------------------------ | -------------- |
-| Proprietário | Pode aprovar ou transferir qualquer token mantido pelo tesouro | Timelock curto |
-| Administrador de Proxy | Pode atualizar o contrato | Timelock curto |
+| Proprietário | Pode aprovar ou transferir qualquer token mantido pela tesouraria | Timelock curto |
+| Administrador por procuração | Pode atualizar o contrato | Timelock curto |
 
 ##
 
-## Parâmetros do Tesouro da Comunidade
+## Parâmetros de tesouraria da comunidade
 
 | Parâmetro | Descrição | Valor |
 | ----------- | ------------------------------------------------------ | -------------- |
-| Proprietário | Pode aprovar ou transferir qualquer token mantido pelo tesouro | Timelock curto |
-| Administrador de Proxy | Pode atualizar o contrato | Timelock curto |
+| Proprietário | Pode aprovar ou transferir qualquer token mantido pela tesouraria | Timelock curto |
+| Administrador por procuração | Pode atualizar o contrato | Timelock curto |
 
 ##
 
@@ -68,16 +69,16 @@ A governança da dYdX tem controle sobre os parâmetros dos seguintes contratos:
 
 | Parâmetro | Descrição | Valor |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------- |
-| Função de proprietário | Pode atualizar o endereço oracle de recompensas, atualizar o nome de IPNS e é administrador de todas as funções | Timelock curto |
+| Função de proprietário | Pode atualizar o endereço de oráculo de recompensas, atualizar o nome de IPNS e é administrador de todas as funções | Timelock curto |
 | Função de atualizador de configuração | Pode definir parâmetros de recompensas, alterar o horário de epoch ou alterar o período de atualização de IPFS | Timelock curto |
-| Função de pausador | Pode pausar atualizações para a raiz merkle | Timelock Merkle-pauser |
-| Função de resumidor | Pode resumir atualizações para a raiz merkle | Timelock curto |
+| Função de pausador | Pode pausar atualizações para a raiz Merkle | Timelock Merkle-pauser |
+| Função de despausador | Pode resumir atualizações para a raiz merkle | Timelock curto |
 | Função de operador de resgate | Pode resgatar recompensas em nome de um usuário | Proxy de resgates |
 | Intervalo | Comprimento de uma epoch | 28 dias |
 | Offset | Início da epoch zero | 3 de agosto de 2021 15:00 UTC |
 | Nome do IPNS | Nome do IPNS onde os dados de recompensas são publicados | rewards-data.dydx.foundation |
 | Período de atualização do IPFS | Período depois do final da epoch após o qual novas estatísticas de exchange sobre a epoch devem estar disponíveis em IPFS por meio do nome do IPNS | 3 minutos |
-| Administrador de Proxy | Pode atualizar o contrato | Timelock curto |
+| Administrador por procuração | Pode atualizar o contrato | Timelock curto |
 
 ##
 
@@ -86,17 +87,17 @@ A governança da dYdX tem controle sobre os parâmetros dos seguintes contratos:
 | Parâmetro | Descrição | Valor |
 | --------------------- | --------------------------------------------------------------------------------- | ------------------------- |
 | Função de proprietário | Administrador de todas as funções | Timelock curto |
-| Função de definidor de parâmetros da epoch | Pode definir parâmetros da epoch como o intervalo, offset e janela de bloqueio | Timelock curto |
+| Função de parâmetros da epoch | Pode definir parâmetros da epoch como o intervalo, offset e janela de bloqueio | Timelock curto |
 | Função de definidor de taxa de recompensas | Pode definir a taxa de emissão de recompensas | Timelock curto |
-| Função de administrador de mutuários | Pode definir alocações do mutuário e permitir/restringir estes de emprestarem | Timelock curto |
+| Função de administrador de mutuários | Pode definir alocações do mutuário e permitir/restringir estes de tomarem emprestado | Timelock curto |
 | Função de operador de resgate | Pode resgatar recompensas em nome de um usuário | Proxy de resgates |
 | Função de operador de stake | Pode manipular os fundos em staking do usuário (por exemplo, executar saques) em nome de um usuário | Timelock curto |
 | Função de operador de dívida | Pode diminuir a dívida emprestada e diminuir a dívida de staker | Timelock curto |
-| Intervalo | Comprimento de uma epoch | 28 dias |
+| Intervalo | Duração de uma epoch | 28 dias |
 | Offset | Início da epoch zero | 3 de agosto de 2021 15:00 UTC |
-| Janela de bloqueio | Comprimento da janela de bloqueio | 3 dias |
+| Janela de bloqueio | Comprimento da janela de bloqueio | Três dias |
 | Taxa de emissão de recompensas | Tokens alocados para os stakers como recompensas por segundo | 0 |
-| Administrador de Proxy | Pode atualizar o contrato | Timelock curto |
+| Administrador por procuração | Pode atualizar o contrato | Timelock curto |
 
 ## Módulo de segurança
 
@@ -104,25 +105,25 @@ A governança da dYdX tem controle sobre os parâmetros dos seguintes contratos:
 | --------------------- | --------------------------------------------------------------------------------- | ------------------------- |
 | Função de proprietário | Administrador de todas as funções | Timelock curto |
 | Função de redutor | Pode reduzir os saldos de token em staking e sacar tais fundos | Timelock curto |
-| Função de definidor de parâmetros da epoch | Pode definir parâmetros da epoch como o intervalo, offset e janela de bloqueio | Timelock curto |
+| Função de parâmetros da epoch | Pode definir parâmetros da epoch como o intervalo, offset e janela de bloqueio | Timelock curto |
 | Função de definidor de taxa de recompensas | Pode definir a taxa de emissão de recompensas | Timelock curto |
-| Função de operador de resgate | Pode resgatar recompensas em nome de um usuário | Proxy de resgates |
+| Função de operador de resgate | Pode resgatar recompensas em nome de um usuário | Procuração de resgates |
 | Função de operador de stake | Pode manipular os fundos em staking do usuário (por exemplo, executar saques) em nome de um usuário | Timelock curto |
-| Intervalo | Comprimento de uma epoch | 28 dias |
+| Intervalo | Duração de uma epoch | 28 dias |
 | Offset | Início da epoch zero | 3 de agosto de 2021 15:00 UTC |
-| Janela de bloqueio | Comprimento da janela de bloqueio | 3 dias |
+| Janela de bloqueio | Duração da janela de bloqueio | Três dias |
 | Taxa de emissão de recompensas | Tokens alocados para os stakers como recompensas por segundo | 0 |
-| Administrador de Proxy | Pode atualizar o contrato | Timelock longo |
+| Administrador por procuração | Pode atualizar o contrato | Timelock longo |
 
 ## Stark Proxy
 
 | Parâmetro | Descrição | Valor |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
-| Função de proprietário | Pode adicionar/remover os destinatários que recebem fundos + chaves STARK, definir licenças ERC20 sobre staking de liquidez e contratos perpétuos da Stark, ações forçadas de chamada, sendo administrador de funções de proprietário + administrador de delegação | Maker de mercado |
+| Função de proprietário | Pode adicionar/remover destinatários que recebem fundos + chaves STARK, definir licenças ERC20 sobre staking de liquidez e contratos perpétuos da Stark, ações forçadas de chamada, sendo administrador de funções de proprietário + administrador de delegação | Maker de mercado |
 | Função de administrador de delegação | É o administrador das funções de operador de saques, operador de exchange e operador de mutuários | Maker de mercado |
 | Função de mutuário | Pode chamar funções de empréstimo no contrato de staking de liquidez | Maker de mercado |
 | Função de operador de exchange | Pode chamar funções da exchange no contrato perpétuo da Stark | Maker de mercado |
-| Função de operador de saques | Pode sacar fundos para além do saldo emprestado para um destinatário permitido | Maker de mercado |
+| Função de operador de saques | Pode sacar fundos além do saldo emprestado para um destinatário permitido | Maker de mercado |
 | Função de guardião | Pode executar ações fechadas, executar ações forçadas caso o mutuário tenha uma dívida excedida, restringir ações abertas com fundos emprestados e aprovar um valor de token para ser sacado externamente pela função de operador de saques. | Timelock curto |
 | Função de guardião de veto | Pode vetar solicitações de trades forçadas iniciadas pelo proprietário, durante o período de espera | Timelock Merkle-pauser |
 

@@ -2,41 +2,31 @@
 description: Uma visão geral do pool de staking de liquidez
 ---
 
-#
+# 🔋 Módulo de liquidez
 
-Inicialmente, 2,50% do fornecimento de token (25.`000.00``0 $ethDYDX`) foram alocados para serem distribuídos aos usuários que fazem staking de $USDC para o pool de staking de liquidez. A pool de staking de liquidez não estará mais ativa a partir de 29 de setembro de 2022. No [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), a comunidade de dYdX [votou](https://dydx.community/dashboard/proposal/7) pela redução efetiva do Pool de staking de liquidez e do Pool de empréstimos, definindo as recompensas do pool de staking de liquidez por segundo como 0.
+A pool de staking de liquidez não estará mais ativa a partir de 29 de setembro de 2022. Na [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), a comunidade dYdX votou [para](https://dydx.community/dashboard/proposal/7) reduzir efetivamente o pool de staking de liquidez e o pool de empréstimo definindo as recompensas de staking de liquidez por segundo para 0.
 
-\\Anteriormente, a $ethDYDX era distribuída aos usuários que faziam stake de $USDC no Pool de staking de liquidez. Os provedores de liquidez aprovados pela comunidade usaram o USDC em staking para gerar mercados no dYdX v3, aumentando a liquidez disponível em todos os mercados. Os provedores de liquidez foram impedidos de usar fundos emprestados fora da dYdX v3.
+Todos os ethDYDX restantes da alocação de recompensas do módulo de liquidez foram migrados para a tesouraria da comunidade da blockchain dYdX.
+
+Mais informações sobre a tesouraria da comunidade da blockchain dYdX estão disponíveis [aqui](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules-and-parameters/community-treasury).
 
 ## Visão geral do **staking**
 
 Atualmente, $USDC em staking no pool de staking de liquidez não está distribuindo recompensas.
 
+## Remoção de staking e saques de USDC
 
-
-## Remoção do USDC de stake e saques
-
-Um staker deve solicitar saques de $USDC pelo menos `3 dias` (**janela de bloqueio**) antes do final de uma [**epoch**](../start-here/epochs.md) para poder sacar o $USDC do staker após o final da epoch. Se os stakers não solicitarem o saque, o $USDC em staking acumulará para a próxima epoch.
+Um staker deve solicitar saques de $USDC pelo menos `três dias` (**janela de bloqueio**) antes do final de uma [**epoch**](../start-here/epochs.md) para poder sacar o $USDC do staker após o final daquela epoch. Se os stakers não solicitarem o saque, o $USDC em staking acumulará para a próxima epoch.
 
 Os saques não podem ser solicitados durante a **janela de bloqueio**.
 
-No [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/7) pela redução do Período de bloqueio de `14` para `3 dias`.
-
-## O que é o stkUSDC?
-
-Os titulares do $USDC que depositam e fazem stake de seu $USDC no pool de staking de liquidez receberão uma posição tokenizada ($**stkUSDC**). O mint de $stkUSDC é feito quando um usuário faz o stake $USDC. O $stkUSDC é queimado quando um usuário faz chamadas da função `withdrawStake`. Na mesma transação na qual o $USDC deixa a carteira de um staker, o $stkUSDC entra na carteira do staker ou vice-versa, quando o valor é retirado do staking.
-
-Um saldo de $stkUSDC pode ser ativo ou inativo. O $stkUSDC ativo pode ser transferido como ERC-20, mas não pode ser sacado. O $stkUSDC inativo pode ser sacado, mas não pode ser transferido. Por exemplo, um usuário pode ter 100 $stkUSDC ativos e inativos na sua carteira e o saldo do usuário será exibido como 200 $stkUSDC. No entanto, uma transferência será revertida se o usuário tentar transferir mais de 100 $stkUSDC.
-
-Um saldo em staking para o qual o staker solicitou um saque antes do final da epoch seria considerado inativo e, portanto, não transferível.
-
-## Perguntas e respostas
+## Perguntas frequentes
 
 <details>
 
 <summary>O que é a janela de bloqueio?</summary>
 
-Uma janela de bloqueio é um período durante o qual os usuários não podem solicitar saques de $USDC em staking. A função `requestWithdrawal` não pode ser chamada durante uma janela de bloqueio, que é configurada inicialmente como os últimos `3 dias` de uma epoch. Novas epochs começam a cada 28 dias. Desse modo, os usuários podem solicitar um saque para a próxima epoch até `3 dias` antes do final de uma determinada epoch.
+Uma janela de bloqueio é um período durante o qual os usuários não podem solicitar saques de $USDC em staking. A função `requestWithdrawal` não pode ser chamada durante uma janela de bloqueio, que é configurada inicialmente como os últimos `três dias` de uma epoch. Novas epochs começam a cada 28 dias. Desse modo, os usuários podem solicitar um saque para a próxima epoch até `3 dias` antes do final de uma determinada epoch.
 
 </details>
 
@@ -44,7 +34,7 @@ Uma janela de bloqueio é um período durante o qual os usuários não podem sol
 
 <summary>Como posso sacar $USDC do pool de staking? Quanto tempo demora?</summary>
 
-Um staker precisa solicitar a retirada de $USDC pelo menos `3 dias` antes do final de uma epoch a fim de sacar o $USDC do staker ao final da epoch. Se os stakers não solicitarem o saque, o $USDC em staking acumulará para a próxima epoch.
+Um staker precisa solicitar a retirada de staking de $USDC pelo menos `três dias` antes do final de uma epoch para poder sacar o $USDC do staker ao final da epoch. Se os stakers não solicitarem o saque, o $USDC em staking acumulará para a próxima epoch.
 
 Para sacar o $USDC, os usuários chamam a função `requestWithdrawal` para solicitar o saque de $USDC para a próxima epoch. Os fundos de usuário permanecerão em staking e não poderão ser sacados na epoch atual. A partir da próxima epoch, os fundos ficarão como “inativos” e disponíveis para saque.
 
@@ -53,23 +43,9 @@ Na próxima epoch, os usuários chamam a função `withdrawStake` para sacar $US
 Para remover o $USDC do stake para o pool de liquidez, siga as seguintes etapas:
 
 * Visite [**https://dydx.community/dashboard/staking-pool/liquidity**](https://dydx.community/dashboard/staking-pool/liquidity)\*\*\*\*
-*
-* Digite o valor de $USDC que deseja solicitar para saque do pool e clique em “**Solicitar saque**”. Você precisará pagar as taxas de gás para remover o $USDC do stake.
-* Os stakers que solicitarem a remoção do $USDC pelo menos `3 dias` (**janela de bloqueio**) antes da epoch atual terminar podem sacar seu $USDC no início da próxima epoch.
-
-</details>
-
-<details>
-
-<summary></summary>
-
-
-
-* Recompensas por segundo do staking de $USDC no pool de staking de liquidez
-* Adicionar novos mutuários e/ou remover os mutuários atuais do pool de staking de liquidez
-* Alterar as alocações de $USDC emprestadas a mutuários aprovados
-  * As funções `setBorrowerAllocations` e `setBorrowingRestriction` são chamadas para alterar as alocações de determinados mutuários. Elas podem ser usadas para adicionar e remover os mutuários. Os aumentos entram em vigor na próxima epoch, mas as reduções restringirão empréstimos imediatamente. Essas funções não podem ser chamadas durante a janela de bloqueio.
-* O tamanho da epoch e a janela de bloqueio são configurados na criação do contrato, mas podem ser alterados
+* Clique em “**Solicitar**”
+* Digite o valor de $USDC que você deseja solicitar para saque do pool e clique em “**Solicitar saque**”. Você precisará pagar as taxas de "gas" para remover o staking de $USDC.
+* Os stakers que solicitarem a remoção de $USDC pelo menos `três dias` (**janela de bloqueio**) antes da epoch atual terminar podem sacar seu $USDC no início da próxima epoch.
 
 </details>
 

@@ -1,13 +1,14 @@
 ---
 description: >-
-  Um guia técnico e passo a passo sobre como criar uma proposta para transferir ethDYDX do tesouro da comunidade para um endereço de destino.
+  Um guia técnico e passo a passo sobre como criar uma proposta para transferir ethDYDX da tesouraria da comunidade para um endereço de destino.
+hidden: true
 ---
 
-# Guia técnico sobre a criação de uma proposta de gastos do Tesouro da Comunidade da dYdX
+# Guia técnico sobre a criação de uma proposta de gastos do Tesouro da Comunidade dYdX
 
 A Reverie criou um guia técnico e abrangente para enviar uma proposta de governança a fim de transferir $ethDYDX do Tesouro da Comunidade por meio de uma solicitação pull (PR, na sigla em inglês) ao repositório _governance-contracts_ da dYdX.
 
-Para criar essa proposta, um membro da comunidade dYdX precisa ter **pelo menos 5M de tokens de governança** _(0,5% do total do fornecimento)_ em poder proposicional ([limite de proposta](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters) para um [voto de timelock curto](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)).
+Para criar essa proposta, um membro da comunidade dYdX precisa ter **pelo menos 5 milhões de tokens de governança** _(0,5% do total da oferta)_ em poder de proposta ([limite de proposta](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters#timelock-parameters) para um [voto de timelock curto](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-process#short-timelock-executor)).
 
 ### Requisitos preliminares
 
@@ -62,9 +63,9 @@ const config = {
 ...
 ```
 
-**Observação**: o valor de financiamento precisará ser **multiplicado por 10^18** conforme o padrão ERC20. Se valor ainda não for conhecido, um valor temporário pode ser usado (por exemplo, 10 → 10000000000000000000)
+**Observação**: o valor de financiamento precisará ser **multiplicado por 10^18** conforme a norma ERC20. Se o valor ainda não for conhecido, um valor temporário pode ser usado (por exemplo, 10 → 10000000000000000000)
 
-Em src/lib/constants.ts, adicione a variável hash IPFS que fará referência ao DIP aprovado no outro repositório:
+Em src/lib/constants.ts, adicione a variável hash IPFS que fará referência à DIP aprovada no outro repositório:
 
 ```typescript
 src/lib/constants.ts
@@ -73,7 +74,7 @@ src/lib/constants.ts
 export const DIP_NUMBER_IPFS_HASH = '0x0000000000000000000000000000000000000000000000000000000000000000';
 ```
 
-**Observação**: se o DIP ainda não tiver sido publicado, um valor temporário pode ser usado para testes (por exemplo, ‘0x0000000000000000000000000000000000000000000000000000000000000000’)\
+**Observação**: se a DIP ainda não tiver sido publicada, um valor temporário pode ser usado para testes (por exemplo, ‘0x0000000000000000000000000000000000000000000000000000000000000000’)\
 
 
 4\. **Código de proposta**
@@ -151,7 +152,7 @@ export async function createProposalNameProposal({
 
 Com a proposta criada, podemos escrever a implementação que gerará a transação e os dados de chamada necessários para enviar a proposta.
 
-Em _**tasks/deployment,**_ crie um novo arquivo com o mesmo nome usado para o código da proposta → proposal-name.ts e preencha o código a seguir:
+Em _**tasks/deployment,**_ crie um novo arquivo com o mesmo nome usado para o código da proposta → proposal-name.ts e preencha-o com o código a seguir:
 
 a. Adicione as importações necessárias com as seguintes variáveis:
 
@@ -172,7 +173,7 @@ b. Crie a tarefa hardhat e preencha-a com as informações da proposta na linha 
 \
 Substitua com o nome da proposta em ‘deploy:proposal-name‘ e substitua por uma breve descrição em ‘Descrição da proposta’.
 
-A última linha chama a função que você importou do código da proposta, portanto será preciso ajustá-la.
+A última linha chama a função que você importou do código da proposta; portanto, será preciso ajustá-la.
 
 ```typescript
 tasks/deployment/proposal-name.ts
@@ -235,7 +236,7 @@ const MOCK_PROPOSAL_IPFS_HASH = (
     * **fundProposalNameViaNoProposal** → crie esta função e a renomeie para corresponder ao nome da proposta
 
 \
-    Execute o código abaixo para substituir todas essas variáveis com o nome o nome da proposta e variáveis já criadas acima:
+    Execute o código abaixo para substituir todas essas variáveis pelo nome da proposta e variáveis existentes já criadas acima:
 
 ```typescript
 test/migrations/proposal-name.ts
@@ -377,7 +378,7 @@ async function fundCommunityTreasuryFromFoundationIfNecessary({
 }
 ```
 
-b. **Adicione funções para fazer o teste de script**
+b. **Adicione funções de testes para teste de script**
 
 Em test/migrations/deploy-contracts-for-test.ts, vamos adicionar as funções criadas acima para que elas sejam incluídas em nossos testes:
 
@@ -389,7 +390,7 @@ test/migrations/deploy-contracts-for-test.ts
 import { fundProposalNameNoProposal, fundProposalNameViaProposal } from './proposal-name-proposal';
 ```
 
-* Adicione testes para ambas as funções criando uma função de teste geral → executeProposalNameProposalForTest, **substitua o nome para corresponder à proposta**
+* Adicione testes para ambas as funções criando uma função de testes geral → executeProposalNameProposalForTest, **substitua o nome para corresponder à proposta**
 * Também chamamos a variável config **TEST\_PROPOSAL\_NAME\_TRUST\_WITH\_PROPOSAL** criada anteriormente e a **PROPOSAL\_NAME\_ADDRESS** de deployConfig
 
 ```typescript
@@ -508,7 +509,7 @@ describeContract('proposal-name', init, (ctx: TestContext) => {
 
 7\. **Envio do PR**
 
-Quando todas essas alterações de código forem feitas e salvas localmente, podemos enviar o commit ao fork do repositório e abrir um PR para o repositório dYdX, que entrará para revisão:
+Quando todas essas alterações de código forem feitas e salvas localmente, poderemos enviar o commit ao fork do repositório e abrir um PR para o repositório dYdX, para revisão:
 
 a. **Faça o commit das alterações pela linha de comando**
 
@@ -518,7 +519,7 @@ git commit -m 'funding proposal upload'
 git push
 ```
 
-b. **Envie um PR para repositório dYdX**
+b. **Envie um PR para repositório da dYdX**
 
 <img src=".gitbook/assets/Screenshot 2022-12-14 at 5.06.23 PM.png" alt="" data-size="original">
 
