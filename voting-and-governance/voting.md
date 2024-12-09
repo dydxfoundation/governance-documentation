@@ -1,8 +1,9 @@
 ---
 description: Un aperçu du processus de vote.
+hidden: true
 ---
 
-#
+# 🗳️ Processus de vote
 
 dYdX v3 est gouverné et mis à niveau par les détenteurs de jetons de gouvernance et les délégués.
 
@@ -13,7 +14,7 @@ Il existe deux pouvoirs associés à chacun des jetons de gouvernance :
 * Le **pouvoir de proposition** donne accès à la création et au maintien d'une proposition.
 * Le **pouvoir de vote** est utilisé pour voter pour ou contre les propositions existantes.
 
-En ce qui concerne les détenteurs de jetons de gouvernance, les pouvoirs de gouvernance sont proportionnellement à leur somme de jetons détenus et délégués à un bloc donné.
+Les détenteurs de jetons de gouvernance reçoivent des pouvoirs de gouvernance proportionnels à la somme des jetons possédés et délégués dans un bloc donné.
 
 **`Pouvoir de proposition = `**`Pouvoir de proposition du jeton $ethDYDX +`
 
@@ -59,7 +60,7 @@ En ce qui concerne les détenteurs de jetons de gouvernance, les pouvoirs de gou
 
 La participation à la gouvernance dYdX nécessite d'avoir ou de déléguer les jetons de gouvernance. Vous aurez également besoin d'ETH pour couvrir les frais de transaction.
 
-Si vous avez des tokens ou si vous avez reçu des tokens délégués et qu'il y a une proposition active, alors vous êtes prêt à voter dans la gouvernance dYdX.
+Si vous avez des jetons ou si vous avez reçu des jetons délégués et qu'il y a une proposition active, alors vous êtes prêt à voter dans la gouvernance dYdX.
 
 ![Votez en utilisant votre pouvoir de vote](../.gitbook/assets/1-voting-power.png)
 
@@ -67,15 +68,15 @@ Pour voter, accédez à la page des propositions et cliquez sur une proposition 
 
 ### **Comment puis-je déléger ?**
 
-La gouvernance DYDX permet aux détenteurs de déléguer leurs droits de vote à l'adresse de leur choix. N'importe qui peut participer à la gouvernance de dYdX en recevant une délégation, sans avoir besoin de posséder des jetons de gouvernance. Les utilisateurs peuvent déléguer vers une adresse à la fois, et le nombre de votes ajoutés au décompte des votes du délégataire équivaut au solde de gouvernance de jetons dans le compte de l'utilisateur. Les votes sont délégués à partir du bloc actuel et au-delà, jusqu'à ce que l'expéditeur délègue à nouveau ou transfère ses jetons de gouvernance de jetons.
+La gouvernance DYDX permet aux détenteurs de déléguer leurs droits de vote à l'adresse de leur choix. N'importe qui peut participer à la gouvernance de dYdX en recevant une délégation, sans avoir besoin de posséder des jetons de gouvernance. Les utilisateurs peuvent déléguer vers une adresse à la fois, et le nombre de votes ajoutés au décompte des votes du délégataire équivaut au solde de gouvernance de jetons dans le compte de l'utilisateur. Les votes sont délégués à partir du bloc actuel et au-delà, jusqu'à ce que l'expéditeur délègue à nouveau ou transfère ses jetons de gouvernance.
 
 ![Déléguez vos pouvoirs de vote et de proposition](../.gitbook/assets/1-delegate-power.png)
 
-Les détenteurs de tokens peuvent choisir de déléguer l'un ou les deux pouvoirs de gouvernance associés à un token, soit via le portail de gouvernance, soit par programmation. Un utilisateur qui a reçu un pouvoir délégué ne peut pas transmettre ce pouvoir délégué à un autre délégataire.
+Les détenteurs de jetons peuvent choisir de déléguer l'un ou les deux pouvoirs de gouvernance associés à un jeton, soit via le portail de gouvernance, soit par programmation. Un utilisateur qui a reçu un pouvoir délégué ne peut pas transmettre ce pouvoir délégué à un autre délégataire.
 
-Les détenteurs de jetons peuvent déléguer le pouvoir de proposition et le pouvoir de vote à différentes adresses. Cependant, il n'y a pas de délégation partielle (seulement 100 % ou 0 % du pouvoir.)
+Les détenteurs de tokens peuvent déléguer le pouvoir de proposition et le pouvoir de vote à différentes adresses. Cependant, il n'y a pas de délégation partielle (seulement 100 % ou 0 % du pouvoir.)
 
-Pour déléguer vos tokens à une adresse de portefeuille :
+Pour déléguer vos jetons à une adresse de portefeuille :
 
 * Aller sur [dydx.community/dashboard](https://dydx.community/dashboard)
 * Cliquez sur « Déléguer »

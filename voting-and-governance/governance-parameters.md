@@ -1,8 +1,9 @@
 ---
 description: Aperçu des paramètres de gouvernance.
+hidden: vrai
 ---
 
-#
+# Paramètres de 💾
 
  Les détenteurs de jetons de gouvernance ont un pouvoir immédiat et irrévocable sur :
 
@@ -69,15 +70,15 @@ La gouvernance dYdX a le contrôle des paramètres des contrats suivants :
 | Paramètre | Description | Valeur |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------- |
 | Rôle du propriétaire | Peut mettre à jour l'adresse d'oracle des récompenses, mettre à jour le nom IPNS et est administrateur de tous les rôles | Courte durée |
-| Rôle de mise à jour de la configuration | Peut définir des paramètres de récompenses, modifier le calendrier de l'époch ou modifier la période de mise à jour IPFS | Courte durée |
+| Rôle de mise à jour de la configuration | Peut définir des paramètres de récompenses, modifier le calendrier de l'Epoch ou modifier la période de mise à jour IPFS | Court verrouillage |
 | Rôle de pauser | Peut suspendre les mises à jour de la racine merkle | Timelock Merkle-pauser |
-| Rôle de repreneur | Peut reprendre les mises à jour de la racine merkle | Courte durée |
+| Rôle de repreneur | Peut reprendre les mises à jour de la racine merkle | Court verrouillage |
 | Rôle d'opérateur de réclamation | Peut réclamer des récompenses au nom d'un utilisateur | Proxy de réclamations |
-| Intervalle | Longueur d'une époch | 28 jours |
-| Décalage | Début de l'époch zéro | 3 août 15 h 00 UTC 2021 |
+| Intervalle | Longueur d'une Epoch | 28 jours |
+| Décalage | Début de l'Epoch zéro | 3 août 15 h 00 UTC 2021 |
 | Nom IPNS | Nom IPNS où les données de récompenses sont publiées | rewards-data.dydx.foundation |
-| Période de mise à jour IPFS | Période de temps après la fin de l'époch après laquelle les nouvelles statistiques d'échange d'époch devraient être disponibles sur IPFS via le nom IPNS | 3 minutes |
-| Admin Proxy | Peut mettre à niveau le contrat | Courte durée |
+| Période de mise à jour IPFS | Période de temps après la fin de l'Epoch après laquelle les nouvelles statistiques d'échange d'Epoch devraient être disponibles sur IPFS via le nom IPNS | 3 minutes |
+| Admin Proxy | Peut mettre à niveau le contrat | Court verrouillage |
 
 ##
 
@@ -85,31 +86,31 @@ La gouvernance dYdX a le contrôle des paramètres des contrats suivants :
 
 | Paramètre | Description | Valeur |
 | --------------------- | --------------------------------------------------------------------------------- | ------------------------- |
-| Rôle du propriétaire | Administrateur de tous les rôles | Courte durée |
-| Rôle des paramètres Époch | Peut définir des paramètres d'époch tels que l'intervalle, le décalage et la fenêtre de blocage | Courte durée |
-| Rôle du taux de récompenses | Peut fixer le taux d'émission des récompenses | Courte durée |
-| Rôle d'administrateur de l'emprunteur | Peut définir les allocations des emprunteurs et autoriser/empêcher les emprunteurs d'emprunter | Courte durée |
+| Rôle du propriétaire | Administrateur de tous les rôles | Court verrouillage |
+| Rôle des paramètres Epoch | Peut définir des paramètres d'Epoch tels que l'intervalle, le décalage et la fenêtre de blocage | Court verrouillage |
+| Rôle du taux de récompenses | Peut fixer le taux d'émission des récompenses | Court verrouillage |
+| Rôle d'administrateur de l'emprunteur | Peut définir les allocations des emprunteurs et autoriser/empêcher les emprunteurs d'emprunter | Court verrouillage |
 | Rôle d'opérateur de réclamation | Peut réclamer des récompenses au nom d'un utilisateur | Proxy de réclamations |
-| Rôle d'opérateur de stake | Peut manipuler les fonds stakés de l'utilisateur (par exemple, effectuer des retraits) au nom d'un utilisateur | Courte durée |
-| Rôle d'opérateur de dette | Peut réduire la dette d'emprunt et la dette des stakers | Courte durée |
-| Intervalle | Longueur d'une époch | 28 jours |
-| Décalage | Début de l'époch zéro | 3 août 15 h 00 UTC 2021 |
+| Rôle d'opérateur de stake | Peut manipuler les fonds stakés de l'utilisateur (par exemple, effectuer des retraits) au nom d'un utilisateur | Court verrouillage |
+| Rôle d'opérateur de dette | Peut réduire la dette d'emprunt et la dette des stakers | Court verrouillage |
+| Intervalle | Longueur d'une Epoch | 28 jours |
+| Décalage | Début de l'Epoch zéro | 3 août 15 h 00 UTC 2021 |
 | Fenêtre de blocage | Longueur de la fenêtre de blocage | 3 jours |
 | Taux d'émission des récompenses | Jetons alloués aux stakers sous forme de récompenses par seconde | 0 |
-| Admin Proxy | Peut mettre à niveau le contrat | Courte durée |
+| Admin Proxy | Peut mettre à niveau le contrat | Court verrouillage |
 
 ## Module de sécurité
 
 | Paramètre | Description | Valeur |
 | --------------------- | --------------------------------------------------------------------------------- | ------------------------- |
-| Rôle du propriétaire | Administrateur de tous les rôles | Courte durée |
-| Rôle de réducteur | Peut réduire les soldes de jetons stakés et retirer ces fonds | Courte durée |
-| Rôle des paramètres Époch | Peut définir des paramètres d'époch tels que l'intervalle, le décalage et la fenêtre de blocage | Courte durée |
-| Rôle du taux de récompenses | Peut fixer le taux d'émission des récompenses | Courte durée |
+| Rôle du propriétaire | Administrateur de tous les rôles | Court verrouillage |
+| Rôle de réducteur | Peut réduire les soldes de jetons stakés et retirer ces fonds | Court verrouillage |
+| Rôle des paramètres Epoch | Peut définir des paramètres d'Epoch tels que l'intervalle, le décalage et la fenêtre de blocage | Court verrouillage |
+| Rôle du taux de récompenses | Peut fixer le taux d'émission des récompenses | Court verrouillage |
 | Rôle d'opérateur de réclamation | Peut réclamer des récompenses au nom d'un utilisateur | Proxy de réclamations |
-| Rôle d'opérateur de stake | Peut manipuler les fonds stakés de l'utilisateur (par exemple, effectuer des retraits) au nom d'un utilisateur | Courte durée |
-| Intervalle | Longueur d'une époch | 28 jours |
-| Décalage | Début de l'époch zéro | 3 août 15 h 00 UTC 2021 |
+| Rôle d'opérateur de stake | Peut manipuler les fonds stakés de l'utilisateur (par exemple, effectuer des retraits) au nom d'un utilisateur | Court verrouillage |
+| Intervalle | Longueur d'une Epoch | 28 jours |
+| Décalage | Début de l'Epoch zéro | 3 août 15 h 00 UTC 2021 |
 | Fenêtre de blocage | Longueur de la fenêtre de blocage | 3 jours |
 | Taux d'émission des récompenses | Jetons alloués aux stakers sous forme de récompenses par seconde | 0 |
 | Admin Proxy | Peut mettre à niveau le contrat | Longue durée |
@@ -123,8 +124,8 @@ La gouvernance dYdX a le contrôle des paramètres des contrats suivants :
 | Rôle d'emprunteur | Peut appeler des fonctions d'emprunt sur le contrat de staking de liquidité | Teneur de marché |
 | Rôle d'opérateur d'échange | Peut appeler des fonctions d'échange sur le contrat perpétuel stark | Teneur de marché |
 | Rôle d'opérateur de retrait | Peut retirer des fonds dépassant le solde emprunté à un destinataire autorisé | Teneur de marché |
-| Rôle de gardien | Peut effectuer des actions de fermeture, effectuer des actions de force si l'emprunteur a un impayé, restreindre les actions ouvertes avec des fonds empruntés et approuver un montant symbolique à retirer en externe par le rôle d'opérateur de retrait. | Courte durée |
-| Rôle de gardien de veto | Peut opposer son veto aux demandes d'échange forcé initiées par le propriétaire, pendant la période d'attente | Timelock Merkle-pauser |
+| Rôle de gardien | Peut effectuer des actions de fermeture, effectuer des actions de force si l'emprunteur a un impayé, restreindre les actions ouvertes avec des fonds empruntés et approuver un montant symbolique à retirer en externe par le rôle d'opérateur de retrait. | Court verrouillage |
+| Rôle de gardien de veto | Peut opposer son veto aux demandes de trades forcés initiées par le propriétaire, pendant la période d'attente | Timelock Merkle-pauser |
 
 ## Stark Perpetual
 

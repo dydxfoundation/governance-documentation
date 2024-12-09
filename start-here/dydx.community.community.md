@@ -1,8 +1,9 @@
 ---
 description: Un foyer pour la gouvernance, les récompenses et le staking sur dydx.community
+hidden: vrai
 ---
 
-#
+# Interface 🖥️
 
 L'interface pour la gouvernance, les récompenses et le skating est en ligne sur [**dydx.community**](https://dydx.community).
 
@@ -24,13 +25,13 @@ Le module de liquidité et le module de sécurité sont actuellement inactifs. L
 
 ### Récompenses de trading
 
-
+Les utilisateurs peuvent consulter les récompenses qu'ils ont déjà obtenues grâce à leurs activités de trading sur l'échange de couche 2.  Dans [DIP 29](https://dydx.community/dashboard/proposal/16), la communauté dYdX a voté pour réduire les récompenses de trading d'un ⅓ de l'Epoch 30-32 sur dYdX v3 aux valeurs suivantes :
 
 * Epoch 30 : 383 562 $ethDYDX
-*
+* Epoch 31 : 191,781 $ethDYDX
 * Epoch 32 : 0 $ethDYDX
 
-
+Actuellement, aucune récompense n'est accumulée pour l'activité de trading sur dYdX v3.
 
 ![Tradez pour recevoir des récompenses](../.gitbook/assets/4.5-trade-to-rewards.png)
 
