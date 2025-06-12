@@ -6,6 +6,8 @@ description: An overview of the wethDYDX - DYDX Bridge Closure
 
 On December 7, 2024, the dYdX Community [voted](https://www.mintscan.io/dydx/proposals/189) to cease support for the wethDYDX smart contract (the Bridge) by June, 2025. After the 6 month notice period, the dYdX Community [voted](https://www.mintscan.io/dydx/proposals/254) to Cease Support for the wethDYDX Smart Contract ("the Bridge") on June 13, 2025. As a result of the discontinuation of support of the wethDYDX Smart Contract on the dYdX Chain, the dYdX Chain no longer recognize transactions sent via the Bridge. As a result, ethDYDX holders are no longer be able to convert their tokens to DYDX on the dYdX Chain.
 
+More information about the ethDYDX Bridge Closure is available [here](https://docs.dydx.community/dydx-token-migration).&#x20;
+
 ## dYdX v3 Wind-Down
 
 dYdX Trading, Inc. wound up dYdX v3 on October 28, 2024.&#x20;
