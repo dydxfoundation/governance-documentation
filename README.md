@@ -13,3 +13,7 @@ dYdX Trading, Inc. wound up dYdX v3 on October 28, 2024.&#x20;
 Users of dYdX Chain, [http://dydx.trade](https://t.co/v3TXeNvCwf), and the dYdX Chain API, are unaffected.
 
 As such, and in line with the dYdX Foundation’s purpose, we have prepared [a list of FAQs](https://www.dydx.foundation/blog/dydx-v3-sunset-governance-token-faqs) relating to the impact of the dYdX v3 wind-down on dYdX v3 governance and ethDYDX and wethDYDX tokenholders.
+
+## dYdX Chain <a href="#dydx-chain" id="dydx-chain"></a>
+
+The dYdX protocol is currently implemented as the **dYdX Chain**—a proof-of-stake blockchain network built with the **Cosmos SDK** and using **CometBFT** for consensus. Documentation for the dYdX Chain is available [here](https://docs.dydx.community/dydx-unlimited).
