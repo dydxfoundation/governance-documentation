@@ -1,5 +1,6 @@
 ---
 description: Allocations for the $ethDYDX token.
+hidden: true
 ---
 
 # 📑 Allocations

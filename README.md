@@ -4,20 +4,12 @@ description: An overview of the ethDYDX token and governance.
 
 # 👋 Introduction
 
-ethDYDX is a governance token for the dYdX community, granting shared control over the dYdX Layer 2 Protocol on Ethereum ("dYdX v3"). This allows traders, liquidity providers, and partners to collaborate in enhancing the protocol.
+On December 7, 2024, the dYdX Community [voted](https://www.mintscan.io/dydx/proposals/189) to cease support for the wethDYDX smart contract (the Bridge) by June, 2025. After the 6 month notice period, the dYdX Community [voted](https://www.mintscan.io/dydx/proposals/254) to Cease Support for the wethDYDX Smart Contract ("the Bridge") on June 13, 2025. As a result of the discontinuation of support of the wethDYDX Smart Contract on the dYdX Chain, the dYdX Chain will no longer recognize transactions sent via the Bridge. As a result, ethDYDX holders will no longer be able to convert their tokens to DYDX on the dYdX Chain.
 
-Wrapped Ethereum DYDX ($wethDYDX) is a wrapped version of ethDYDX obtained when a user interacts with [the wethDYDX Smart Contract](https://etherscan.io/address/0x46b2deae6eff3011008ea27ea36b7c27255ddfa9). More details about the wethDYDX token and the potential migration of ethDYDX from Ethereum to the dYdX v4 Open-Source Software ("dYdX Chain") can be found [here](https://docs.dydx.community/dydx-token-migration/start-here/introduction).
+## dYdX v3 Wind-Down
 
-$ethDYDX and $wethDYDX enable a robust ecosystem around governance and rewards — each designed to drive future growth and decentralization of dYdX v3, resulting in a better experience for users.
+dYdX Trading, Inc. wound up dYdX v3 on October 28, 2024.&#x20;
 
-{% content-ref url="start-here/dydx-allocations.md" %}
-[dydx-allocations.md](start-here/dydx-allocations.md)
-{% endcontent-ref %}
+Users of dYdX Chain, [http://dydx.trade](https://t.co/v3TXeNvCwf), and the dYdX Chain API, are unaffected.
 
-{% content-ref url="start-here/community-treasury.md" %}
-[community-treasury.md](start-here/community-treasury.md)
-{% endcontent-ref %}
-
-{% content-ref url="rewards/trading-rewards.md" %}
-[trading-rewards.md](rewards/trading-rewards.md)
-{% endcontent-ref %}
+As such, and in line with the dYdX Foundation’s purpose, we have prepared [a list of FAQs](https://www.dydx.foundation/blog/dydx-v3-sunset-governance-token-faqs) relating to the impact of the dYdX v3 wind-down on dYdX v3 governance and ethDYDX and wethDYDX tokenholders.

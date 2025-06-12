@@ -1,5 +1,6 @@
 ---
 description: An overview of the epoch system
+hidden: true
 ---
 
 # ⏳ Epochs

@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # dYdX v3 Wind-Down
 
 dYdX Trading, Inc. wound up dYdX v3 on October 28, 2024.&#x20;

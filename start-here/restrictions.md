@@ -1,5 +1,6 @@
 ---
 description: Restrictions on the use of $ethDYDX, $wethDYDX and the dYdX v3.
+hidden: true
 ---
 
 # 🚧 Restrictions
