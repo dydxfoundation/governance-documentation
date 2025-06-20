@@ -1,14 +1,15 @@
 ---
 description: 流動性ステーキングプールの概要
+hidden:  
 ---
 
 # 🔋流動性モジュール
 
 流動性ステーキングプールは、2022年9月29日現在、アクティブではありません。[DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)において、dYdXコミュニティは、流動性ステーキングプール報酬を毎秒0に設定することにより、流動性ステーキングプールと借入プールを事実上終了させることを[投票](https://dydx.community/dashboard/proposal/7)で決定しました。
 
-流動性モジュール報酬の割り当てから残りのethDYDXはすべて、dYdXチェーンコミュニティトレジャリーに移行されました。
+流動性モジュール報酬の割り当てに残っていたethDYDXはすべて、dYdXチェーンのコミュニティトレジャリーに移管されました。
 
-dYdXチェーンコミュニティトレジャリーに関する詳細は、[こちら](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules-and-parameters/community-treasury)をご覧ください。
+dYdXチェーンコミュニティトレジャリーに関する詳細は、[こちら](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules/community-treasury)をご覧ください。
 
 ## **ステーキング**概要
 

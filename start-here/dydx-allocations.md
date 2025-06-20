@@ -1,5 +1,6 @@
 ---
 description: $ethDYDXトークンの割り当て。
+hidden:  
 ---
 
 # 📑割り当て
@@ -9,7 +10,7 @@ description: $ethDYDXトークンの割り当て。
 **2021年8月3日、15:00:00 UTC**に合計`1,000,000,000$ethDYDX`が鋳造され、そこから5年間アクセス可能となり始めました。 $ethDYDXの総供給量の最初の5年間の割り当ては以下のとおりです。
 
 * コミュニティへの**50.0％**（`500,000,000$ethDYDX`）は以下：
-  * 取引報酬の計算式に基づく25.0％（**250**`,000`,000$[ethDYDX）、](../rewards/trading-rewards.md)
+  * [取引報酬の計算式](../rewards/trading-rewards.md)に基づく**25.0％**（`250,000,000 $ethDYDX`）、
   * レイヤ2プロトコルで特定の取引マイルストーンを達成した過去のユーザーへの遡及マイニング報酬として**7.5％**（`75,000,000$ethDYDX`）、
   * [流動性プロバイダー報酬の計算式](../rewards/liquidity-provider-rewards.md)に基づく**7.5％**（`75,000,000$ethDYDX`）、
   * [コミュニティトレジャリー](community-treasury.md)への**5.0％**（`50,000,000$ethDYDX`）、
@@ -34,7 +35,7 @@ $ethDYDXの立ち上げ以来、最初の割り当てに変更が生じたガバ
     * [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)において、dYdXコミュニティは流動性プロバイダー報酬をエポックあたり1,150,685$ethDYDXから、50%削減のエポックあたり575,343$ethDYDXに変更することを投票で決定しました。余ったエポックあたり575,342$ethDYDXは報酬基金に計上され、[ガバナンス投票](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)によってdYdXコミュニティが利用できるようになります。
     * [DIP 29](https://dydx.community/dashboard/proposal/16)では、dYdXコミュニティは流動性プロバイダー報酬をdYdX v3上のエポック30-32から⅓に削減し、以下の値にすることを投票で決定しました。
       * エポック30：383,562$ethDYDX
-      * エポック31：191,781$ethDYDX
+      * エポック31：191,781 $ethDYDX
       * エポック32：0$ethDYDX
   * [コミュニティ基金](https://docs.dydx.community/dydx-governance/start-here/community-treasury/)へ**26.1%**（`261,133,225$ethDYDX`）、
   * [流動性ステーキングプール](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool)に$USDCをステーキングするユーザーへの**0.6％**（`5,779,608$ethDYDX`）、
@@ -61,7 +62,7 @@ $ethDYDXの立ち上げ以来、最初の割り当てに変更が生じたガバ
 
 <details>
 
-<summary>$ethDYDXの割り当てを変更することはできますか？</summary>
+<summary>$ethDYDXの割り当てを変更できますか？</summary>
 
 はい。dYdXコミュニティは[立ち上げ時に存在するすべての報酬とプール](../voting-and-governance/governance-parameters.md)を変更できます。これまでのところ、dYdXコミュニティはいくつかのガバナンス提案において、DYDXの排出量を削減することを投票で決定しています。
 
