@@ -1,5 +1,6 @@
 ---
 description: Ограничения на использование $ethDYDX, $wethDYDX и dYdX v3.
+hidden: верно
 ---
 
 # 🚧 Ограничения
