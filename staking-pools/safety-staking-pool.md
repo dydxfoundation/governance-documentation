@@ -1,14 +1,15 @@
 ---
 description: Güvenlik Staking Havuzuna genel bakış
+hidden: true
 ---
 
 # 🔐 Güvenlik Modülü
 
 Güvenlik Modülü, 28 Kasım 2022 itibarıyla artık aktif değildir. [DIP 17](https://dydx.community/dashboard/proposal/9)'de dYdX topluluğu, Güvenlik Modülü ödüllerini saniyede 0'a ayarlayarak Güvenlik Modülü'nü etkin bir şekilde kapatmak yönünde [oy kullandı](https://dydx.community/dashboard/proposal/7).
 
-Likidite Modülü Ödülleri tahsisinden kalan tüm ethDYDX, dYdX Zinciri Topluluk Hazinesine taşınmıştır.
+Likidite Modülü Ödülleri tahsisinden kalan tüm ethDYDX, dYdX Zinciri Topluluk Hazinesi'ne taşındı.
 
-dYdX Zinciri Topluluk Hazinesi Ödülleri hakkında daha fazla bilgi [burada](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules-and-parameters/community-treasury) mevcuttur.
+dYdX Zinciri Topluluk Hazinesi Ödülleri hakkında daha fazla bilgi [burada](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules/community-treasury) mevcuttur.
 
 
 
