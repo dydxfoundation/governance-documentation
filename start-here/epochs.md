@@ -1,5 +1,6 @@
 ---
 description: Ein Überblick über das Epochensystem
+hidden: wahr
 ---
 
 # ⏳ Epochen
