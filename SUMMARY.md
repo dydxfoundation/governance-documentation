@@ -1,7 +1,7 @@
 # Índice
 
-* [👋 Introdução](README.md)
-* [dYdX v3 Wind-Down](dydx-v3-wind-down.md)
+* [👋 Aviso de fechamento de ponte](README.md)
+* [Encerramento da dYdX v3](dydx-v3-wind-down.md)
 
 ## Comece aqui
 
@@ -50,4 +50,4 @@
 * [API dYdX Layer 2](https://docs.dydx.exchange/)
 * [dYdX Trading Inc.](https://dydx.exchange)
 * [Painel de métricas](http://metrics.dydx.exchange/)
-* [Painel de recompensas de LP](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true)
+* [Painel de recompensas de LP](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl_var_Market=btc\&from_ts=1661805073576\&to_ts=1661891473576\&live=true)
