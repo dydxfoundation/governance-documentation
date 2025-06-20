@@ -1,5 +1,6 @@
 ---
 description: $ethDYDX 토큰에 대한 할당.
+hidden: 진실
 ---
 
 # 📑 할당
@@ -9,7 +10,7 @@ description: $ethDYDX 토큰에 대한 할당.
 총 `1,000,000,000 $ethDYDX가` **2021년 8월** 3일 15:00:00(UTC)에 발행되었으며 5년 동안 액세스할 수 있게 되었습니다. $ethDYDX 전체 공급량 의 초기 5년 할당은 다음과 같습니다.
 
 * **50.0%**(`500,000,000$ethDYDX`)가 다음과 같이 커뮤니티에 할당됩니다.
-  * 거래 보상 공식에 따라 **25.0%**(`250,000,000 $ethDYDX`[)](../rewards/trading-rewards.md),
+  * **25.0%**(`250,000,000 $ethDYDX`)는 [거래 보상 공식](../rewards/trading-rewards.md)에 따라 할당됩니다.
   * **7.5%**(`75,000,000 $ethDYDX`)는 레이어 2 프로토콜에서 특정 거래 이정표를 완료한 과거 사용자에게 할당되며,
   * **7.5%**(`75,000,000$ethDYDX`)는 [유동성 공급자 보상 공식](../rewards/liquidity-provider-rewards.md)에 따라 할당됩니다.
   * **5.0%**(`50,000,000$ethDYDX`)는 [커뮤니티 트레저리](community-treasury.md)에 할당됩니다.
@@ -22,7 +23,7 @@ description: $ethDYDX 토큰에 대한 할당.
 $ethDYDX가 출시된 이후, 여러 거버넌스 제안으로 초기 할당이 변경되었습니다. 현재 할당은 다음과 같습니다.
 
 * **50.0%**(`500,000,000$ethDYDX`)가 다음과 같이 커뮤니티에 할당됩니다.
-  * 거래 보상 공식에 따라 **14.5%**(`144,693,506 $ethDYDX`[)](https://docs.dydx.community/dydx-governance/rewards/trading-rewards),
+  * **14.5%**(`144,693,506 $ethDYDX`)는 [거래 보상 공식](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)에 따라 할당됩니다.
     * dYdX 커뮤니티가 [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) 및 [DIP 20](https://dydx.community/dashboard/proposal/11)에서 거래 보상을 총 230만$ethDYDX까지 줄이기로 결정했습니다(DIP 16에서는 958,904$ethDYDX, DIP 20에서는 1,294,520$ethDYDX). 230만$ethDYDX는 보상 금고에 누적될 것이며, [거버넌스 투표](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters)를 통해 dYdX 커뮤니티에서 이를 사용할 수 있습니다.
     * [DIP 29](https://dydx.community/dashboard/proposal/16)에서 dYdX 커뮤니티는 dYdX v3의 에포크 30-32에 해당하는 거래 보상을 다음 값으로 ⅓ 줄이기로 결정했습니다.
       * 에포크 30: 1,054,795 $ethDYDX
