@@ -1,5 +1,6 @@
 ---
 description: Alocações para o token $ethDYDX.
+hidden: true
 ---
 
 # 📑 Alocações
@@ -9,7 +10,7 @@ description: Alocações para o token $ethDYDX.
 Foi realizado o mint de um total de `1.000.000.000 $ethDYDX` em **3 de agosto de 2021, às 15:00:00 UTC**, e começou a se tornar acessível ao longo de cinco (5) anos. A alocação inicial de cinco anos do fornecimento total de $ethDYDX foi a seguinte:
 
 * **50,0%** (`500.000.000 $ethDYDX`) para a comunidade da seguinte forma:
-  * **25,0%** (`250.000.000 $ethDYDX`) com base na [fórmula de recompensas](../rewards/trading-rewards.md) de trading,
+  * **25.0%** (`250.000,000 $ethDYDX`) com base na [Fórmula de Recompensas de Trading](../rewards/trading-rewards.md),
   * **7,5%** (`75.000.000 $ethDYDX`) para usuários anteriores que concluírem certos marcos de trading no protocolo de camada 2 (recompensas de mineração retroativas),
   * **7,5%** (`75.000.000 $ethDYDX`) com base nas [fórmulas de recompensas de provedores de liquidez](../rewards/liquidity-provider-rewards.md),
   * **5,0%** (`50.000.000 $ethDYDX`) para uma [tesouraria da comunidade](community-treasury.md),
@@ -29,7 +30,7 @@ Desde o lançamento da $ethDYDX, houve várias propostas de governança que resu
       * Epoch 31: 527.398 $ethDYDX
       * Epoch 32: 0 $ethDYDX
   * **5,0%** (`50.309.197 $ethDYDX`) para usuários anteriores que concluírem certos marcos de trading no protocolo de camada 2 da dYdX (recompensas de mineração retroativas),
-    * Após o período 0, 24.690.803 $ethDYDX não resgatados do programa de recompensas de mineração retroativa foram transferidos para o Tesouro da Comunidade.
+    * Após a Epoch 0, 24.690,803 $ethDYDX não resgatados do programa de recompensas de mineração retroativa foram transferidos à Tesouraria da Comunidade.
   * **3,3%** (`32.794.525 $ethDYDX`) com base [na(s) Fórmula(s) de recompensas de provedor de liquidez](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards),
     * No [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), a comunidade da dYdX votou para reduzir as recompensas de provedor de liquidez em 50%, de 1.150.685 $ethDYDX por epoch para 575.343 $ethDYDX por epoch. O excessivo de 575.342 $ethDYDX será acrescido no Tesouro de Recompensas e poderá ser usado pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
     * Na [DIP 29](https://dydx.community/dashboard/proposal/16), a comunidade dYdX votou para reduzir as recompensas de provedor de liquidez em ⅓ da epoch 30-32 na dYdX v3 para os seguintes valores:
@@ -40,7 +41,7 @@ Desde o lançamento da $ethDYDX, houve várias propostas de governança que resu
   * **0,6%** (`5.779.608 $ethDYDX`) para usuários fazendo staking de $USDC em um pool de [staking de liquidez](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool),
     *  Na [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/7) pela definição das recompensas associadas ao $USDC em staking como 0. Os 383.562 $ethDYDX anteriormente distribuídos para stakers de $USDC ficará acumulado na tesouraria de recompensas e poderá ser usado pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
   * **0,5%** (`5.289.939 $ethDYDX`) para usuários fazendo staking de $ethDYDX em um [pool de staking de segurança](https://docs.dydx.community/dydx-governance/staking-pools/safety-staking-pool),
-    * Na [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md), a comunidade dYdX votou [para](https://dydx.community/dashboard/proposal/9) definir as recompensas associadas ao staking de $ethDYDX para [0](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters). Os 383.562 $ethDYDX anteriormente distribuídos aos stakers de $ethDYDX serão acumulados no Tesouro de Recompensas e poderão ser usados pela comunidade dYdX com um voto de governança.
+    * No [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/9)para definir as recompensas associadas ao $ethDYDX em staking como 0. Os 383.562 $ethDYDX distribuídos anteriormente aos stakers de $ethDYDX serão acumulados na Tesouraria de Recompensas e poderão ser usados pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 * **27,7%** (`277.295.070 $ethDYDX`) para antigos investidores da dYdX Trading Inc.,
 * **15,3%** (`152.704.930 ethDYDX`) para fundadores, funcionários, conselheiros e assessores da dYdX Trading Inc. ou dYdX Foundation, e
 * **7,0%** (`70.000.000 $ethDYDX`) para futuros funcionários e consultores da dYdX Trading Inc. ou dYdX Foundation.
@@ -67,7 +68,7 @@ Sim, a comunidade dYdX pode alterar qualquer um dos [pools e recompensas que hou
 
 * No [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/8) pela redução das recompensas de trading em 25%. Como resultado, as recompensas de trading distribuídas em uma determinada epoch foram reduzidas de 3.835.616 $ethDYDX para 2.876.712 $ethDYDX na Epoch 15. O saldo de 958.904 $ethDYDX será acumulado no Tesouro de Recompensas e poderá ser usado pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 *  Na [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/7) pela definição das recompensas associadas ao $USDC em staking como 0. Os 383.562 $ethDYDX anteriormente distribuídos para stakers de $USDC ficará acumulado na tesouraria de recompensas e poderá ser usado pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
-* Na [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md), a comunidade dYdX votou [para](https://dydx.community/dashboard/proposal/9) definir as recompensas associadas ao staking de $ethDYDX para [0](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters). Os 383.562 $ethDYDX anteriormente distribuídos aos stakers de $DYDX serão acumulados no Tesouro de Recompensas e poderão ser usados pela comunidade dYdX com um voto de governança.
+* No [DIP 17](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-17.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/9) para definir as recompensas associadas ao $ethDYDX em staking como 0. Os 383.562 $ethDYDX distribuídos anteriormente aos stakers de $DYDX serão acumulados na Tesouraria de Recompensas e poderão ser usados pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 * No [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), a comunidade da dYdX [votou](https://dydx.community/dashboard/proposal/14) para reduzir as recompensas de provedor de liquidez em 50%, de 1.150.685 $ethDYDX por época para 575.343 $ethDYDX por época. O excesso de 575.342 $ethDYDX será acrescido na tesouraria de recompensas e poderá ser usado pela comunidade dYdX com um [voto de governança](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
 * Na [DIP 29](https://dydx.community/dashboard/proposal/16), a comunidade dYdX votou para reduzir o trading e as recompensas de LP em ⅓ da epoch 30-32 na dYdX v3 para os seguintes valores:
 
@@ -106,14 +107,14 @@ Cinco anos após o lançamento, uma taxa de inflação perpétua máxima de 2% a
 
 <summary>O que é o bloqueio para $ethDYDX emitido para investidores, funcionários e consultores existentes e futuros?</summary>
 
-Parte da alocação inicial de tokens $ethDYDX foi reservada para investidores anteriores da dYdX Trading Inc., fundadores, funcionários, assessores e consultores da dYdX Trading Inc. ou dYdX Foundation, e futuros funcionários e consultores da dYdX Trading Inc. ou dYdX Foundation.
+Parte da alocação inicial de tokens $ethDYDX foi reservada para investidores antigos da dYdX Trading Inc., fundadores, funcionários, conselheiros e consultores da dYdX Trading Inc. ou da dYdX Foundation, e futuros funcionários e consultores da dYdX Trading Inc. ou da dYdX Foundation.
 
-Em 25 de janeiro de 2023, a dYdX Foundation [anunciou](https://www.dydx.foundation/blog/lock-up-extension) uma alteração para adiar a data de lançamento inicial dos tokens $ethDYDX para investidores para 1 de dezembro de 2023. A alteração não alterou o cronograma de desbloqueio escalonado após a data de desbloqueio inicial.
+Em 25 de janeiro de 2023, a dYdX Foundation [anunciou](https://www.dydx.foundation/blog/lock-up-extension) uma alteração para adiar a data de lançamento inicial dos tokens $ethDYDX para investidores para 1 de dezembro de 2023. A emenda não alterou o cronograma de desbloqueio escalonado após a data de desbloqueio inicial.
 
-De acordo com a Emenda, os tokens serão liberados das restrições de transferência da seguinte forma:
+Conforme a Emenda, os tokens serão liberados das restrições de transferência da seguinte forma:
 
-* 30% em 1 de dezembro de 2023;
-* 40% em parcelas mensais iguais de 1 de janeiro de 2024 a 1 de junho de 2024;
+* 30% em 1º de dezembro de 2023;
+* 40% em parcelas mensais de 1º de janeiro de 2024 a 1º de junho de 2024;
 * 20% em parcelas mensais iguais de 1 de julho de 2024 a 1 de junho de 2025; e
 * 10% em parcelas mensais iguais de 1 de julho de 2025 a 1 de junho de 2026.
 

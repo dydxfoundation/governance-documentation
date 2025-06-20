@@ -1,8 +1,12 @@
+---
+hidden: true
+---
+
 # Recompensas de provedores de liquidez
 
-A comunidade dYdX votou [para](https://dydx.community/dashboard/proposal/16) reduzir as recompensas de provedores de liquidez em 16 de janeiro de 2024. Todos os ethDYDX restantes da alocação de recompensas de provedor de liquidez foram migrados para a tesouraria da comunidade da blockchain dYdX.
+A comunidade dYdX [votou](https://dydx.community/dashboard/proposal/16) para encerrar gradualmente as recompensas do provedor de liquidez em 16 de janeiro de 2024. Todos os ethDYDX restantes da alocação de recompensas de provedor de liquidez foram migrados para a tesouraria da comunidade da blockchain dYdX.
 
-Mais informações sobre o Tesouro da [Comunidade](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules-and-parameters/community-treasury) da Cadeia dYdX estão disponíveis aqui.
+Mais informações sobre a tesouraria da comunidade da blockchain dYdX estão disponíveis [aqui](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules/community-treasury).
 
 
 
