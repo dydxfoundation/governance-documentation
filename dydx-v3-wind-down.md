@@ -1,6 +1,10 @@
+---
+hidden: 진실
+---
+
 # dYdX v3 윈드다운
 
-dYdX Trading, Inc.는 2024년 10월 28일에 dYdX v3를 마감했습니다.
+dYdX Trading, Inc.는 2024년 10월 28일에 dYdX v3를 종료했습니다.
 
 dYdX 체인, [http://dydx.trade](https://t.co/v3TXeNvCwf) 및 dYdX 체인 API 사용자는 영향을 받지 않습니다.
 
