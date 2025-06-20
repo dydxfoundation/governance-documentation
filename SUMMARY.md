@@ -1,7 +1,7 @@
 # 目次
 
-* [👋紹介](README.md)
-* [dYdX v3ウインドダウン](dydx-v3-wind-down.md)
+* [ブリッジクローズのお知らせ](README.md)
+* [dYdX v3のサポート終了](dydx-v3-wind-down.md)
 
 ## ここからスタート
 
@@ -50,4 +50,4 @@
 * [dYdXレイヤ2 API](https://docs.dydx.exchange/)
 * [dYdX Trading Inc.](https://dydx.exchange)
 * [メトリックダッシュボード](http://metrics.dydx.exchange/)
-* [LP報酬ダッシュボード](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true)
+* [LP報酬ダッシュボード](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl_var_Market=btc\&from_ts=1661805073576\&to_ts=1661891473576\&live=true)
