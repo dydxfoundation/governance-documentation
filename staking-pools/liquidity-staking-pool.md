@@ -1,14 +1,15 @@
 ---
 description: Uma visão geral do pool de staking de liquidez
+hidden: true
 ---
 
 # 🔋 Módulo de liquidez
 
-A pool de staking de liquidez não estará mais ativa a partir de 29 de setembro de 2022. Na [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), a comunidade dYdX votou [para](https://dydx.community/dashboard/proposal/7) reduzir efetivamente o pool de staking de liquidez e o pool de empréstimo definindo as recompensas de staking de liquidez por segundo para 0.
+A pool de staking de liquidez não estará mais ativa a partir de 29 de setembro de 2022. No [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/7) para encerrar efetivamente o Pool de staking de liquidez e o Pool de empréstimo, definindo as recompensas do Pool de staking de liquidez por segundo como 0.
 
 Todos os ethDYDX restantes da alocação de recompensas do módulo de liquidez foram migrados para a tesouraria da comunidade da blockchain dYdX.
 
-Mais informações sobre a tesouraria da comunidade da blockchain dYdX estão disponíveis [aqui](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules-and-parameters/community-treasury).
+Mais informações sobre a tesouraria da comunidade da blockchain dYdX estão disponíveis [aqui](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules/community-treasury).
 
 ## Visão geral do **staking**
 
