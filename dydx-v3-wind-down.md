@@ -1,3 +1,7 @@
+---
+hidden:  
+---
+
 # dYdX v3のサポート終了
 
 dYdX Trading、Inc.は、2024年10月28日にdYdX v3のサポートを終了しました。
