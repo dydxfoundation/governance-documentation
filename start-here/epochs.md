@@ -1,14 +1,15 @@
 ---
 description: Un aperçu du système d'Epoch
+hidden: vrai
 ---
 
 # ⏳ Epochs
 
-Toutes les récompenses et les staking contrats opérés sur des cycles de 28 `jours, appelés` **Epochs**. Une nouvelle Epoch commence automatiquement lorsque l'Epoch actuelle se termine.
+Toutes les récompenses et les contrats de staking fonctionnent sur des cycles de `28 jours`, appelés **épochs**. Une nouvelle Epoch commence automatiquement lorsque l'Epoch actuelle se termine.
 
-Ce qui suit se produira à la fin de chaque Epoch :
+Ce qui suit se produira à la fin de chaque époch :
 
-* Les retraits demandés pour le **pool de staking de liquidité** à la fin de l'Epoch peuvent être retirés.
+* Les retraits demandés pour le **pool de staking de liquidité** à la fin de l'époch peuvent être retirés.
 * Les retraits demandés pour le **pool de staking de sécurité** à la fin de l'Epoch peuvent être retirés.
 
 
@@ -88,7 +89,7 @@ Ce qui suit se produira à la fin de chaque Epoch :
 
 <summary>Qu'est-ce qu'une fenêtre de blocage ?</summary>
 
-Pour le [pool de staking de liquidité](../staking-pools/liquidity-staking-pool.md) et le [pool de staking de sécurité](../staking-pools/safety-staking-pool.md), un calendrier d'Epoch est appliqué pour les retraits afin de fournir une prévisibilité et une cadence régulière pour la disponibilité des fonds dans le pool. Un staker doit demander à retirer des fonds avant la fenêtre de blocage afin de pouvoir retirer les fonds du miseur après la fin de cette période. Si un staker ne demande pas de retrait, les fonds stakés du staker sont reportés à l'Epoch suivante.
+Pour le [pool de staking de liquidité](../staking-pools/liquidity-staking-pool.md) et le [pool de staking de sécurité](../staking-pools/safety-staking-pool.md), un calendrier d'Epoch est appliqué pour les retraits afin de fournir une prévisibilité et une cadence régulière pour la disponibilité des fonds dans le pool. Un staker doit demander à retirer des fonds avant la fenêtre de blocage afin de pouvoir retirer les fonds du miseur après la fin de cette période. Si un staker ne demande pas de retrait, les fonds stakés du staker sont reportés à l'époch suivante.
 
 Dans la [DIP 17](https://dydx.community/dashboard/proposal/9)[](https://dydx.community/dashboard/proposal/7), la communauté dYdX `a voté` en faveur d'une réduction de la fenêtre de blocage de `14 jours` à 3 jours. La gouvernance de dYdX peut voter la modification la fenêtre de blocage dans les limites spécifiées. Les fenêtres de blocage minimale et maximale sont respectivement de `3 jours` et `46 jours`.
 
