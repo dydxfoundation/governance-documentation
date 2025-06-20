@@ -1,14 +1,15 @@
 ---
 description: 유동성 스테이킹 풀 개요
+hidden: 진실
 ---
 
 # 🔋 유동성 모듈
 
-유동성 스테이킹 풀은 2022년 9월 29일부로 더 이상 활성화되지 않습니다. [DIP 14에서](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) dYdX 커뮤니티는 [초당](https://dydx.community/dashboard/proposal/7) 유동성 스테이킹 풀 보상을 0으로 설정하여 유동성 스테이킹 풀 및 차입 풀을 효과적으로 완화하기로 결정했습니다.
+유동성 스테이킹 풀은 2022년 9월 29일부로 더 이상 활성화되지 않습니다. [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)에서 dYdX 커뮤니티는 유동성 스테이킹 풀 보상을 초당 0으로 설정하여 유동성 스테이킹 풀 및 차입 풀을 효과적으로 종료하기로 [결정했습니다](https://dydx.community/dashboard/proposal/7).
 
-유동성 모듈 보상 할당에서 나머지 모든 ethDYDX는 dYdX 체인 커뮤니티 트레저리로 마이그레이션되었습니다.
+유동성 모듈 보상 할당에서 나머지 모든 ethDYDX는 dYdX 체인 커뮤니티 트레저리로 이전되었습니다.
 
-dYdX 체인 커뮤니티 트레저리에 대한 자세한 내용은 여기에서 확인할 수 [있습니다](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules-and-parameters/community-treasury).
+dYdX 체인 커뮤니티 트레저리에 대한 자세한 내용은 여기에서 확인할 수 [있습니다](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules/community-treasury).
 
 ## **스테이킹** 개요
 

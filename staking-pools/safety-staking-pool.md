@@ -1,5 +1,6 @@
 ---
 description: 안전 스테이킹 풀의 개요
+hidden: 진실
 ---
 
 # 🔐 안전 모듈
@@ -8,7 +9,7 @@ description: 안전 스테이킹 풀의 개요
 
 유동성 모듈 보상 할당에서 나머지 모든 ethDYDX는 dYdX 체인 커뮤니티 트레저리로 이전되었습니다.
 
-dYdX 체인 커뮤니티 트레저리에 대한 자세한 내용은 여기에서 확인할 수 [있습니다](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules-and-parameters/community-treasury).
+dYdX 체인 커뮤니티 트레저리에 대한 자세한 내용은 여기에서 확인할 수 [있습니다](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules/community-treasury).
 
 
 
