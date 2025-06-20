@@ -1,7 +1,7 @@
 # 目录
 
-* [👋 导言](README.md)
-* [dYdX v3 逐步关闭](dydx-v3-wind-down.md)
+* [👋 桥接关闭通知](README.md)
+* [dYdX v3停用](dydx-v3-wind-down.md)
 
 ## 从此处开始
 
@@ -50,4 +50,4 @@
 * [dYdX Layer 2 API](https://docs.dydx.exchange/)
 * [dYdX Trading Inc.](https://dydx.exchange)
 * [指标控制面板](http://metrics.dydx.exchange/)
-* [LP奖励控制面板](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true)
+* [LP奖励控制面板](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl_var_Market=btc\&from_ts=1661805073576\&to_ts=1661891473576\&live=true)
