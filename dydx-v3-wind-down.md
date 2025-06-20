@@ -1,6 +1,10 @@
-# Свертывание dYdX v3
+---
+hidden: верно
+---
 
-dYdX Trading, Inc. закрыла торги dYdX v3 с 28 октября 2024 года.
+# Завершение работы dYdX v3
+
+28 октября 2024 года dYdX Trading, Inc. завершила работу dYdX v3.
 
 Пользователи цепочки dYdX ([http://dydx.trade](https://t.co/v3TXeNvCwf)) и API цепочки dYdX не затронуты.
 

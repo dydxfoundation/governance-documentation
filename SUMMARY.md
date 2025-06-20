@@ -1,7 +1,7 @@
 # Содержание
 
-* [👋 Введение](README.md)
-* [Отмена dYdX v3](dydx-v3-wind-down.md)
+* [👋 Уведомление о закрытии моста](README.md)
+* [Завершение работы dYdX v3](dydx-v3-wind-down.md)
 
 ## НАЧАЛО
 
@@ -50,4 +50,4 @@
 * [API dYdX уровня 2](https://docs.dydx.exchange/)
 * [dYdX Trading Inc.](https://dydx.exchange)
 * [Панель показателей](http://metrics.dydx.exchange/)
-* [Панель мониторинга наград для поставщиков ликвидности](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true)
+* [Панель мониторинга наград для поставщиков ликвидности](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl_var_Market=btc\&from_ts=1661805073576\&to_ts=1661891473576\&live=true)
