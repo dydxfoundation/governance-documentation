@@ -1,7 +1,7 @@
 # İçindekiler
 
-* [👋 Giriş](README.md)
-* [dYdX v3 Wind-Down](dydx-v3-wind-down.md)
+* [👋 Köprü Kapatılışı Bildirimi](README.md)
+* [dYdX v3'ün Kapatılması](dydx-v3-wind-down.md)
 
 ## Buradan Başlayın
 
@@ -50,4 +50,4 @@
 * [dYdX Katman 2 API'si](https://docs.dydx.exchange/)
 * [dYdX Trading Inc.](https://dydx.exchange)
 * [Ölçütler Panosu](http://metrics.dydx.exchange/)
-* [LP Ödülleri Panosu](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true)
+* [LP Ödülleri Panosu](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl_var_Market=btc\&from_ts=1661805073576\&to_ts=1661891473576\&live=true)

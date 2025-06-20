@@ -1,5 +1,6 @@
 ---
 description: $ethDYDX token'ı için tahsisler.
+hidden: true
 ---
 
 # 📑 Tahsisler
@@ -9,8 +10,8 @@ description: $ethDYDX token'ı için tahsisler.
 Toplam `1.000.000.000 $ethDYDX`, **3 Ağustos 2021, 15:00:00 UTC'de** basılmış ve beş (5) yıl içinde erişilebilir hale gelmeye başlamıştır. $ethDYDX toplam arzının ilk beş yıllık tahsisi aşağıdaki gibi olmuştur:
 
 * Topluluğa aşağıdaki şekilde **%50,0** (`500.000.000 $ethDYDX`):
-  * İşlem Ödülleri Formülü temel alınarak **%25,0**``[](../rewards/trading-rewards.md) (250.000.000 $ethDYDX),
-  * Katman 2 protokolü (Geriye Dönük Madencilik Ödülleri) üzerinde belirli işlem kilometre taşlarını dolduran geçmiş kullanıcılara **%7,5**`` (75.000.000 $ethDYDX,
+  * [Alım Satım Ödülleri Formülüne](../rewards/trading-rewards.md) göre **%25,0** (`250.000.000 $ethDYDX`,
+  * Katman 2 protokolünde belirli alım satım eşiklerini tamamlayan önceki kullanıcılara **%7,5** (`75.000.000 $ethDYDX`) (Geriye Dönük Madencilik Ödülleri),
   * [Likidite Sağlayıcı Ödülleri Formülerine](../rewards/liquidity-provider-rewards.md) göre **%7,5** (`75.000.000 $ethDYDX`),
   * Bir [Topluluk Hazinesine](community-treasury.md) **%5,0** (`50.000.000 $ethDYDX`),
   * Bir [Likidite Staking Havuzu](../staking-pools/liquidity-staking-pool.md)'na $USDC stake eden kullanıcılara **%2,5** (`25.000.000 $ethDYDX`),
@@ -22,14 +23,14 @@ Toplam `1.000.000.000 $ethDYDX`, **3 Ağustos 2021, 15:00:00 UTC'de** basılmı�
 $ethDYDX piyasaya sürüldüğünden beri, ilk tahsiste değişikliklerle sonuçlanan birçok yönetişim teklifi olmuştur. Güncel durumda tahsis aşağıdakileri içermektedir:
 
 * Topluluğa aşağıdaki şekilde **%50,0** (`500.000.000 $ethDYDX`):
-  * İşlem Ödülleri Formülü temel alınarak **%14,5**``[](https://docs.dydx.community/dydx-governance/rewards/trading-rewards) (144.693.506 $ethDYDX),
+  * **%14,5** (`144.693.506 $ethDYDX`) [Alım Satım Ödülleri Formülü](https://docs.dydx.community/dydx-governance/rewards/trading-rewards) temel alınarak,
     * [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) ve [DIP 20](https://dydx.community/dashboard/proposal/11)'de dYdX topluluğu, alım satım ödüllerini 2,3 milyon $ethDYDX azaltma yönünde oy vermiştir. (DIP 16'dan 958.904 $ethDYDX ve DIP 20'den 1.294.520 $ethDYDX). 2,3M $ethDYDX, Ödül Hazinesinde biriktirilecek ve bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile dYdX topluluğu tarafından kullanılabilir olacaktır.
     * [DIP 29](https://dydx.community/dashboard/proposal/16)'da dYdX topluluğu alım satım ödüllerini dYdX v3'teki 30.-32. Dönemdekinden ⅓ oranında azaltarak aşağıdaki değerlere düşürme yönünde oy kullandı:
       * Dönem 30: 1.054.795 $ethDYDX
       * Dönem 31: 527.398 $ethDYDX
       * Dönem 32: 0 $ethDYDX
   * dYdX Katman 2 Protokolü (Geriye Dönük Madencilik Ödülleri) üzerinde belirli işlem kilometre taşlarını dolduran geçmiş kullanıcılara **%5,0**`(50.309.197 $ethDYDX)`,
-    * Dönem 0'dan sonra, Geriye Dönük Madencilik ödül sisteminden 24.690.803 $ talep edilmemiş $ethDYDX Topluluk Hazinesine transfer edildi.
+    * Dönem 0'dan sonra, Geriye Dönük Madencilik ödülleri programından talep edilmeyen 24.690.803 $ethDYDX, Topluluk Hazinesi'ne aktarıldı.
   * [Likidite Sağlayıcı Ödülleri Formül(ler)i](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards)'ne göre **%3,3** (`32.794.525 $ethDYDX`),
     * [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md)'te dYdX topluluğu, Likidite Sağlayıcı ödüllerini dönem başına 1.150.685 $ethDYDX'ten dönem başına 575.343 $ethDYDX'e %50 oranında azaltma yönünde oy kullandı. Dönem başına artan 575.342 $ethDYDX, Ödül Hazinesinde biriktirilecek ve bir [yönetişim oylaması](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters) ile dYdX topluluğu tarafından kullanılabilecektir.
     * [DIP 29](https://dydx.community/dashboard/proposal/16)'da dYdX topluluğu Likidite Sağlayıcı ödüllerini dYdX v3'teki 30-32. Dönemlerindekinden ⅓ oranında azaltarak aşağıdaki değerlere düşürme yönünde oy kullandı:
@@ -106,14 +107,14 @@ Lansmandan beş yıl sonra başlamak üzere, yılda maksimum %2 düzeyinde bir s
 
 <summary>Yatırımcılara, mevcut ve gelecekteki çalışanlara ve danışmanlara verilen $ethDYDX'in kilitleme süreci nasıldır?</summary>
 
-$ethDYDX token'larının ilk tahsisinin bir kısmı, dYdX Trading Inc. veya dYdX Vakfı'nın kurucuları, çalışanlar, danışmanlar ve danışmanları, dYdX Trading Inc. veya dYdX Vakfı'nın gelecekteki çalışanları ve danışmanları ile dYdX Trading Inc. veya dYdX Vakfı'nın geçmiş çalışanları ve danışmanları için ayrıldı.
+$ethDYDX token'larının ilk tahsisinin bir kısmı dYdX Trading Inc.'in geçmiş yatırımcıları, dYdX Trading Inc. veya dYdX Vakfı'nın kurucuları, çalışanları, danışmanları ve dYdX Trading Inc. veya dYdX Vakfı'nın gelecekteki çalışanları ve danışmanları için ayrılmıştır.
 
-25 Ocak 2023'te dYdX Vakfı, yatırımcı $ethDYDX token'larının ilk piyasaya sürülme tarihini 1 Aralık 2023'e ertelemek için bir Değişiklik [duyurdu](https://www.dydx.foundation/blog/lock-up-extension). Değişiklik, Başlangıç Kilit Açma Tarihinden sonraki kademeli kilit açma çizelgesini değiştirmedi.
+25 Ocak 2023'te dYdX Vakfı, yatırımcı $ethDYDX token'larının ilk piyasaya sürülme tarihini 1 Aralık 2023'e ertelemek için bir Değişiklik [duyurdu](https://www.dydx.foundation/blog/lock-up-extension). Değişiklik, İlk Kilit Açma Tarihinden sonra kademeli kilit açma programını değiştirmedi.
 
-Değişiklik uyarınca, token'lar transfer kısıtlamalarından aşağıdaki şekilde serbest bırakılacaktır:
+Değişiklik uyarınca token'lar, transfer kısıtlamalarından aşağıdaki şekilde serbest bırakılacaktır:
 
 * 1 Aralık 2023 tarihinde %30;
-* 1 Ocak 2024 ile 1 Haziran 2024 tarihleri arasında eşit aylık taksitlerde %40;
+* 1 Ocak 2024 ile 1 Haziran 2024 tarihleri arasında eşit aylık taksitlerle %40;
 * 1 Temmuz 2024 ile 1 Haziran 2025 tarihleri arasında eşit aylık taksitlerde %20 ve
 * 1 Temmuz 2025 ile 1 Haziran 2026 tarihleri arasında eşit aylık taksitlerle %10.
 

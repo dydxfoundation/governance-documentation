@@ -1,10 +1,11 @@
 ---
 description: Dönem sistemine genel bir bakış
+hidden: true
 ---
 
 # ⏳ Dönemler
 
-Tüm ödüller ve `stake`**** sözleşmeleri dönemler olarak adlandırılan 28 günlük döngüler üzerinde işletilir. Mevcut dönem sona erdiğinde otomatik olarak yeni bir dönem başlar.
+Tüm ödüller ve staking sözleşmeleri **dönem** olarak adlandırılan `28 günlük` döngülerle işler. Mevcut dönem sona erdiğinde otomatik olarak yeni bir dönem başlar.
 
 Her dönemin sonunda şunlar gerçekleşir:
 
