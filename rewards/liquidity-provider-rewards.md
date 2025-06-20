@@ -1,8 +1,12 @@
+---
+hidden: верно
+---
+
 # ⚖️ Вознаграждения для поставщиков ликвидности
 
-Сообщество dYdX  [проголосовало](https://dydx.community/dashboard/proposal/16) за отмену вознаграждений за обеспечение ликвидности с 16 января 2024 года. All remaining ethDYDX from the Liquidity Provider Rewards allocation were migrated to the dYdX Chain Community Treasury.
+Сообщество dYdX  [проголосовало](https://dydx.community/dashboard/proposal/16) за отмену вознаграждений за обеспечение ликвидности с 16 января 2024 года. Все оставшиеся ethDYDX из распределения наград поставщика ликвидности были перенесены в общественный казначейский фонд dYdX Chain.
 
-Читайте больше о кассе вознаграждений цепочки dYdX [здесь](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules-and-parameters/community-treasury).
+Читайте больше о кассе вознаграждений цепочки dYdX [здесь](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules/community-treasury).
 
 
 
