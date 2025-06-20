@@ -1,5 +1,6 @@
 ---
 description: Allocations pour le jeton $ethDYDX.‎
+hidden: vrai
 ---
 
 # 📑 Allocations
@@ -10,7 +11,7 @@ Un total de `1 000 000 000 $ethDYDX` ont été frappés le **3 août 2021,
 
 * **50,0 %** (`500 000 000 $DYDX`) à la communauté de la façon suivante :
   * **25,0 %** (`250 000 000 $ethDYDX`) [sur la base de la formule des récompenses de trading](../rewards/trading-rewards.md),
-  * **7,5** `% (75` 000 000 $ethDYDX) aux anciens utilisateurs qui franchissent certaines étapes de trading sur le protocole de couche 2 (récompenses minières rétroactives),
+  * **7,5 %** (`75 000 000 $ethDYDX`) aux anciens utilisateurs qui franchissent certaines étapes de trading sur le protocole de couche 2 (récompenses de minage rétroactives),
   * **7,5 %** (`75 000 000 $ethDYDX`) sur la base de [la ou des formules de récompenses des fournisseurs de liquidité](../rewards/liquidity-provider-rewards.md),
   * **5,0 %** (`50 000 000 $ethDYDX`) à un [Trésor de la communauté](community-treasury.md),
   * **2,5 %** (`25 000 000 $DYDX`) aux utilisateurs qui mettent en réserve des $USDC dans un [pool de staking de liquidité](../staking-pools/liquidity-staking-pool.md),
@@ -22,19 +23,19 @@ Un total de `1 000 000 000 $ethDYDX` ont été frappés le **3 août 2021,
 Depuis le lancement de $ethDYDX, plusieurs propositions de gouvernance ont entraîné des changements à l'allocation initiale. Actuellement, l'allocation est répartie de manière suivante :
 
 * **50,0 %** (`500 000 000 $DYDX`) à la communauté de la façon suivante :
-  * **14,5** `% (144` 693 506 $ethDYDX) [sur](https://docs.dydx.community/dydx-governance/rewards/trading-rewards) la base de la formule des récompenses de trading,
+  * **14,5 %** (`144 693 506 $ethDYDX`) sur la [base de la formule de récompenses de trading](https://docs.dydx.community/dydx-governance/rewards/trading-rewards),
     * Dans [DIP 16](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-16.md) et [DIP 20](https://dydx.community/dashboard/proposal/11), la communauté dYdX a voté pour réduire les récompenses de trading d'un total de 2,3 millions de $DYDX. (958,904 $DYDX de DIP 16 et 1,294,520 $DYDX de DIP 20). Les 2,3 millions de $DYDX s'accumuleront dans le Trésor des récompenses et peuvent être utilisés par la communauté dYdX avec un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
     * Dans le [DIP 29](https://dydx.community/dashboard/proposal/16), la communauté dYdX a voté pour réduire les récompenses de ⅓ de Epoch 30-32 sur dYdX v3 aux valeurs suivantes :
       * Epoch 30 : 1 054 795 $ethDYDX
       * Epoch 31: 527,398 $ethDYDX
       * Epoch 32 : 0 $ethDYDX
-  * **5,0** `% (50` 309 197 $ethDYDX) aux anciens utilisateurs qui franchissent certaines étapes de trading sur le protocole de couche 2 dYdX (récompenses minières rétroactives),
+  * **5,0 %** (`50 309 197 $ethDYDX`) aux anciens utilisateurs qui franchissent certaines étapes de trading sur le protocole de couche 2 de dYdX (récompenses de minage rétroactives),
     * Après l'Epoch 0, 24 690 803 $ethDYDX non réclamés du programme de récompenses Mining rétroactif ont été transférés à la trésorerie de la communauté.
   * **3.3 %** (`32 794 525 $ethDYDX`) sur la base de la (des) [formule(s) de récompenses des fournisseurs de liquidité](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards),
     * Dans [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), la communauté dYdX a voté pour réduire les récompenses des fournisseurs de liquidité de 50 % de 1,150,685 $ethDYDX par epoch à 575,343 $ethDYDX par epoch. L'excès de 575,342 $DYDX par epoch s'accumulera dans le Trésor des récompenses et peut être utilisé par la communauté dYdX avec un [vote de gouvernance](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
     * Dans le [DIP 29](https://dydx.community/dashboard/proposal/16), la communauté dYdX a voté pour réduire les récompenses du fournisseur de liquidité de ⅓ à partir de Epoch 30-32 sur dYdX v3 aux valeurs suivantes :
       * Epoch 30 : 383 562 $ethDYDX
-      * Epoch 31: 191,781 $ethDYDX
+      * Epoch 31 : 191,781 $ethDYDX
       * Epoch 32 : 0 $ethDYDX
   * **26,1 %** (`261 133 225 $ethDYDX`) à la [Trésorerie de la communauté](https://docs.dydx.community/dydx-governance/start-here/community-treasury/),
   * **0.6 %** (`5 779 608 $ethDYDX`) aux utilisateurs qui mettent en réserve des $USDC dans un [pool de staking de liquidité](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool),
@@ -108,15 +109,15 @@ c. Réduire les récompenses aux valeurs suivantes le 16 janvier 2024 à 15 h
 
 <summary>Quel est le blocage de $DYDX émis aux investisseurs, aux employés actuels et futurs et aux experts ?</summary>
 
-Une partie de l'allocation initiale de jetons $ethDYDX a été réservée aux anciens investisseurs de dYdX Trading Inc., aux fondateurs, employés, advisors et experts de dYdX Trading Inc. ou dYdX Foundation, ainsi qu'aux futurs employés et experts de dYdX Trading Inc. ou dYdX Foundation.
+Une partie de l'allocation initiale de jetons $ethDYDX était réservée aux anciens investisseurs de dYdX Trading Inc., aux fondateurs, employés, conseillers et consultants de dYdX Trading Inc. ou de la dYdX Foundation, et aux futurs employés et consultants de dYdX Trading Inc. ou de la dYdX Foundation.
 
-Le 25 janvier 2023, la Fondation dYdX [a annoncé](https://www.dydx.foundation/blog/lock-up-extension) un amendement pour reporter la date de sortie initiale des jetons $ethDYDX de l'investisseur au 1er décembre 2023. L'amendement n'a pas modifié le calendrier de déverrouillage échelonné après la date de déverrouillage initiale.
+Le 25 janvier 2023, la Fondation dYdX [a annoncé](https://www.dydx.foundation/blog/lock-up-extension) un amendement pour reporter la date de sortie initiale des jetons $ethDYDX de l'investisseur au 1er décembre 2023. L'amendement n'a pas changé le calendrier de déverrouillage échelonné après la date de déverrouillage initiale.
 
-Comme prévu par l'Amendement, les jetons seront libérés des restrictions de transfert comme suit :
+Conformément à l'amendement, les jetons seront libérés des restrictions de transfert comme suit :
 
 * 30 % le 1er décembre 2023 ;
 * 40 % en versements mensuels égaux du 1er janvier 2024 au 1er juin 2024 ;
-* 20 % en versements mensuels égaux du 1er juillet 2024 au 1er juin 2025 ; et
+* 20 % en versements mensuels égaux du 1er juillet 2024 au 1er juin 2025 ; et
 * 10 % en versements mensuels égaux du 1er juillet 2025 au 1er juin 2026.
 
 **Notez que toutes les dates ci-dessus doivent être interprétés comme faisant référence au fuseau horaire UTC.**
