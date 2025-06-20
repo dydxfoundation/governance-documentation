@@ -1,14 +1,15 @@
 ---
 description: Uma visão geral do pool de staking de segurança
+hidden: true
 ---
 
 # 🔐 Módulo de segurança
 
 O módulo de segurança não está mais ativo desde 28 de novembro de 2022. No [DIP 17](https://dydx.community/dashboard/proposal/9), a comunidade dYdX [votou](https://dydx.community/dashboard/proposal/7) para reduzir efetivamente o Módulo de Segurança ao definir as recompensas do Módulo de Segurança por segundo para 0.\
 
-Todos os ethDYDX restantes da alocação de Recompensas do Módulo de Liquidez foram migrados para o Tesouro da Comunidade da Cadeia dYdX.
+Todos os ethDYDX restantes da alocação de recompensas do módulo de liquidez foram migrados para a tesouraria da comunidade da blockchain dYdX.
 
-Mais informações sobre o Tesouro da [Comunidade](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules-and-parameters/community-treasury) da Cadeia dYdX estão disponíveis aqui.
+Mais informações sobre a tesouraria da comunidade da blockchain dYdX estão disponíveis [aqui](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules/community-treasury).
 
 
 
