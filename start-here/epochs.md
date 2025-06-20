@@ -1,10 +1,11 @@
 ---
 description: Visión general del sistema de etapas
+hidden: true
 ---
 
 # ⏳ Etapas
 
-Todas **las** recompensas y los contratos de participación operaban en ciclos de `28 días, denominados` épocas. Una nueva etapa comienza automáticamente cuando la etapa finaliza.
+Las recompensas y los contratos de participación en ciclos de `28 días`, conocidos como **etapas**. Una nueva etapa comienza automáticamente cuando la etapa finaliza.
 
 Lo siguiente ocurrirá al final de cada época:
 
