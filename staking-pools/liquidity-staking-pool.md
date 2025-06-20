@@ -1,5 +1,6 @@
 ---
 description: Una visión general del fondo de participación de liquidez
+hidden: true
 ---
 
 # 🔋 Módulo de Liquidez
@@ -8,7 +9,7 @@ El fondo de participación de liquidez no está activo desde el 29 de septiembre
 
 Todos los ethDYDX restantes de la asignación de recompensas del módulo de liquidez se migraron a la Tesorería de la comunidad de la cadena dYdX.
 
-Hay más información sobre la Tesorería de la Comunidad de la Cadena dYdX disponible [aquí](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules-and-parameters/community-treasury).
+Hay más información sobre la Tesorería de la Comunidad de la Cadena dYdX disponible [aquí](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules/community-treasury).
 
 ## Visión general **de la participación**
 

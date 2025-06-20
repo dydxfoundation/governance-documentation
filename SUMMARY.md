@@ -1,7 +1,7 @@
 # Tabla de contenidos
 
-* [👋 Introducción](README.md)
-* [dYdX v3 Desmantel](dydx-v3-wind-down.md)amiento
+* [👋 Aviso de cierre de puente](README.md)
+* [Desconexión de dYdX v3](dydx-v3-wind-down.md)
 
 ## Empieza aquí
 
@@ -50,4 +50,4 @@
 * [API de Capa 2 de dYdX](https://docs.dydx.exchange/)
 * [dYdX Trading Inc.](https://dydx.exchange)
 * [Tablero de métricas](http://metrics.dydx.exchange/)
-* [Panel de recompensas LP](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true)
+* [Panel de recompensas LP](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl_var_Market=btc\&from_ts=1661805073576\&to_ts=1661891473576\&live=true)

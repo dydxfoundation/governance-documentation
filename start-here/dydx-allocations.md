@@ -1,5 +1,6 @@
 ---
 description: Asignaciones para el token $ethDYDX.
+hidden: true
 ---
 
 # 📑 Asignaciones
@@ -10,7 +11,7 @@ Se acuñó un total de `1,000,000,000 $ethDYDX` hasta el **3 de agosto de 2021 a
 
 * **50,0 %** (`500 000 000 $ethDYDX`) a la comunidad de la siguiente manera:
   * **25.0%** (`250,000,000 $ethDYDX`) en función de la [Fórmula de Recompensas de Trading](../rewards/trading-rewards.md),
-  * **7,5%** (`75 000` 000 $ethDYDX) a usuarios anteriores que completan ciertos hitos de operaciones en el protocolo de la Capa 2 (recompensas de minería retroactiva),
+  * **7,5%** (`75 000 000 $ethDYDX`) a los usuarios anteriores que lleguen a ciertos hitos de comercialización en el protocolo de Etapa 2 (recompensas de minería retroactivas);
   * **7.5%** (`75,000,000 $ethDYDX`) en función de la(s) [Fórmula(s) de las Recompensas a Proveedores de Liquidez](../rewards/liquidity-provider-rewards.md),
   * **5,0%** (`50 000 000 $ethDYDX`) a una [Tesorería de la comunidad](community-treasury.md),
   * **2,5%** (`25 000 000 $ethDYDX`) a los usuarios que invierten $USDC en un [Fondo de participación de liquidez](../staking-pools/liquidity-staking-pool.md),
@@ -28,13 +29,13 @@ Desde el lanzamiento de $ethDYDX, ha habido varias propuestas de gobernanza que 
       * Etapa 30: 1 054 795 $ethDYDX
       * Etapa 31: 527,398 $ethDYDX
       * Etapa 32: 0 $ethDYDX
-  * **5,0%** (`50 309` 197 $ethDYDX) a usuarios anteriores que completan ciertos hitos de operaciones en el protocolo de la Capa 2 de dYdX (recompensas de minería retroactiva),
-    * Después de la etapa 0, 24 690 803 $ethDYDX no reclamados del programa de recompensas de Minería Retroactiva se transfirieron a la Tesorería de la comunidad.
+  * **5,0%** (`50 309 197 $ethDYDX`) a los usuarios anteriores que alcancen ciertos hitos de trading en el protocolo de la capa 2 de dYdX (Recompensas de minería retroactivas);
+    * Después de la etapa 0, 24 690 803 $ethDYDX o reclamados del programa de Recompensas de minería retroactivas se transfirieron a la Tesorería de la comunidad.
   * **3,3 %** (`32 794 525 $ethDYDX`) en función de [la(s) fórmula(s) de las Recompensas a proveedores de liquidez](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards),
     * En [DIP 24](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-24.md), la comunidad dYdX votó por reducir las recompensas de los Proveedores de Liquidez en un 50%, de 1,150,685 $ethDYDX por etapa a 575,343 $ethDYDX por etapa. El exceso de 575 342 $ethDYDX por etapa se acumulará en la Tesorería de recompensas y la comunidad de dYdX puede usarlos con un [voto de gobernanza](https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).
     * En [DIP 29](https://dydx.community/dashboard/proposal/16), la comunidad dYdX votó por reducir las recompensas de proveedor de liquidez en ⅓ de la etapa 30 a 32 en dYdX v3 a los siguientes valores:
       * Etapa 30: 383,562 $ethDYDX
-      * Etapa 31: 191 781 $ethDYDX
+      * Etapa 31: 191,781 $ethDYDX
       * Etapa 32: 0 $ethDYDX
   * **26,1 %** (`261 133 225 $ethDYDX`) a la [Tesorería de](https://docs.dydx.community/dydx-governance/start-here/community-treasury/) la comunidad,
   * **0.6%** (`5,779,608 $ethDYDX`) a los usuarios que invierten $USDC en un [Fondo de Participación de Liquidez](https://docs.dydx.community/dydx-governance/staking-pools/liquidity-staking-pool),
@@ -106,7 +107,7 @@ Cinco años después del lanzamiento, una tasa de inflación máxima perpetua de
 
 <summary>¿Cuál es el bloqueo para $ethDYDX emitido a los inversores, los empleados actuales y futuros y los consultores?</summary>
 
-Parte de la asignación inicial de tokens $ethDYDX se reservó para los inversores anteriores de dYdX Trading Inc., los fundadores, empleados, asesores y consultores de dYdX Trading Inc. o la Fundación dYdX, y los futuros empleados y consultores de dYdX Trading Inc. o la Fundación dYdX.
+Parte de la asignación inicial de los tokens $ethDYDX se reservó para los inversores anteriores de dYdX Trading Inc., los fundadores, empleados, asesores y consultores de dYdX Trading Inc. o la Fundación dYdX, y los futuros empleados y consultores de dYdX Trading Inc. o la Fundación dYdX.
 
 El 25 de enero de 2023, la Fundación dYdX [anunció](https://www.dydx.foundation/blog/lock-up-extension) una Enmienda para posponer la fecha de lanzamiento inicial de los tokens $ethDYDX de los inversores al 1 de diciembre de 2023. La Enmienda no cambió el programa de desbloqueo escalonado después de la Fecha de Desbloqueo Inicial.
 

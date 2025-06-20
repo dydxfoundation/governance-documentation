@@ -1,5 +1,6 @@
 ---
 description: Visión general del Fondo de Participación de Seguridad
+hidden: true
 ---
 
 # 🔐 Módulo de seguridad
@@ -8,7 +9,7 @@ El módulo de seguridad dejará de estar activo a partir del 28 de noviembre de 
 
 Todos los ethDYDX restantes de la asignación de recompensas del módulo de liquidez se migraron a la Tesorería de la comunidad de la cadena dYdX.
 
-Hay más información sobre la Tesorería de [la](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules-and-parameters/community-treasury) Comunidad de la Cadena dYdX disponible aquí.
+Hay más información sobre la Tesorería de la Comunidad de la Cadena dYdX disponible [aquí](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules/community-treasury).
 
 
 
