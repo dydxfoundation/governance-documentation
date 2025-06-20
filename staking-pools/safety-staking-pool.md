@@ -1,5 +1,6 @@
 ---
 description: Ein Überblick über den Safety Staking Pool
+hidden: wahr
 ---
 
 # 🔐 Sicherheitsmodul
@@ -8,7 +9,7 @@ Das Sicherheitsmodul ist ab dem 28. November 2022 nicht mehr aktiv. In [DIP 17](
 
 In DIP 17 stimmte die dYdX-Community dafür, das Sicherheitsmodul effektiv abzubauen, indem die Sicherheitsmodul-Belohnungen pro Sekunde auf 0 gesetzt wurden.
 
-Weitere Informationen zur [dYdX-Ketten-Community-Treasury](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules-and-parameters/community-treasury) finden Sie hier.
+Weitere Informationen zur dYdX-Chain Community Treasury finden Sie [hier](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules/community-treasury).
 
 
 
