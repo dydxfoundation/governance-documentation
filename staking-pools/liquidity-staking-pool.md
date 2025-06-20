@@ -1,14 +1,15 @@
 ---
 description: Eine Übersicht über den Liquidity Staking Pool
+hidden: wahr
 ---
 
 # 🔋 Liquiditätsmodul
 
 Der Liquidity Staking Pool ist seit dem 29. September 2022 nicht mehr aktiv. In [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md) hat die dYdX-Community [dafür](https://dydx.community/dashboard/proposal/7) gestimmt, den Liquidity Staking Pool und den Borrowing Pool effektiv abzubauen, indem die Liquidity Staking Pool Prämien pro Sekunde auf 0 gesetzt werden.
 
-Alle verbleibenden ethDYDX aus der Zuweisung von Liquiditätsmodul-Prämien wurden in die dYdX-Ketten-Community-Treasury migriert.
+In DIP 17 stimmte die dYdX-Community dafür, das Sicherheitsmodul effektiv abzubauen, indem die Sicherheitsmodul-Belohnungen pro Sekunde auf 0 gesetzt wurden.
 
-Weitere Informationen zur [dYdX-Ketten-Community-Treasury](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules-and-parameters/community-treasury) finden Sie hier.
+Weitere Informationen zur dYdX-Chain-Community-Treasury finden Sie [hier](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules/community-treasury).
 
 ## **Staking**-Übersicht
 

@@ -1,8 +1,12 @@
+---
+hidden: wahr
+---
+
 # ⚖️ Prämien für Liquiditätsanbieter
 
-Die dYdX-Community stimmte [am](https://dydx.community/dashboard/proposal/16) 16. Januar 2024 für die Abschaffung der Prämien für Liquiditätsanbieter. Alle verbleibenden ethDYDX aus der Zuweisung von Liquidity Provider Rewards wurden in die dYdX-Chain Community Treasury migriert.
+Die dYdX-Community [stimmte](https://dydx.community/dashboard/proposal/16) am 16. Januar 2024 dafür, die Prämien für Liquiditätsanbieter einzustellen. Alle verbleibenden ethDYDX aus der Zuteilung von Liquiditätsanbieter-Prämien wurden in die dYdX-Chain-Community-Kasse migriert.
 
-Weitere Informationen zur [dYdX-Ketten-Community-Treasury](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules-and-parameters/community-treasury) finden Sie hier.
+Weitere Informationen zur dYdX-Chain-Community-Kasse finden Sie [hier](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules/community-treasury).
 
 
 
