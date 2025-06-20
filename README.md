@@ -1,17 +1,25 @@
 ---
-description: 关于 ethDYDX 代币和治理的概述。
+description: 概览：wethDYDX - DYDX桥接关闭
 ---
 
-#
+# 👋 桥接关闭通知
 
+2024年12月7日，dYdX社区[投票通过](https://www.mintscan.io/dydx/proposals/189)于2025年6月前停止支持wethDYDX智能合约（桥接）。在6个月的通知期后，dYdX社区[投票通过](https://www.mintscan.io/dydx/proposals/254)于2025年6月13日停止支持wethDYDX智能合约（“桥接”）。由于停止支持dYdX链上的wethDYDX智能合约，dYdX链验证者将不再识别通过桥接发送的交易。
 
+因此，ethDYDX持有人无法再将各自的ethDYDX代币兑换为dYdX链上的DYDX。发送到wethDYDX智能合约并锁定的ethDYDX代币将不会记入相应的dYdX链地址。
 
-打包以太坊 DYDX （$wethDYDX）是用户与 [wethDYDX 智能合约](https://etherscan.io/address/0x46b2deae6eff3011008ea27ea36b7c27255ddfa9)交互时获得的 ethDYDX 的打包版本。 有关 wethDYDX 代币和 ethDYDX 从以太坊到 dYdX v4 开源软件（“dYdX 链”）的更多详细信息，请参阅[此处](https://docs.dydx.community/dydx-token-migration/start-here/introduction)。
+有关ethDYDX桥接关闭的更多信息，请点击[这里](https://docs.dydx.community/dydx-token-migration)查看。
 
-$ethDYDX 和 $wethDYDX 围绕治理和奖励构建了一个强大的生态系统，每个生态系统旨在推动 dYdX v3 的未来增长和去中心化，从而为用户带来更好的体验。
+_请注意，dYdX基金会无法控制、不主动参与，也不以任何方式干预dYdX链上wethDYDX智能合约支持的停止。dYdX链上wethDYDX智能合约支持的停止是由dYdX链治理做出的决定。dYdX基金会不参与dYdX链治理，也无法控制由dYdX社区通过dYdX链治理做出的任何决定。因此，如果您是ethDYDX持有人并决定不采取任何行动，收到本通知即表示您同意完全免除dYdX基金会的任何义务或责任。_
 
+## dYdX v3停用
 
+dYdX Trading, Inc.于2024年10月28日结束了dYdX v3的运营。
 
+dYdX链、[http://dydx.trade](https://t.co/v3TXeNvCwf)和dYdX链API的用户不受影响。
 
+为此，根据dYdX基金会的宗旨，我们编写了一份[常见问题解答列表](https://www.dydx.foundation/blog/dydx-v3-sunset-governance-token-faqs)，介绍dYdX v3停用对dYdX v3治理、ethDYDX和wethDYDX代币持有者的影响。
 
+## dYdX链<a href="#dydx-chain" id="dydx-chain"></a>
 
+dYdX协议目前作为**dYdX链**实施，该链是一个使用**Cosmos SDK**构建并使用**CometBFT**达成共识的权益证明区块链网络。dYdX链的文档可以在[这里](https://docs.dydx.community/dydx-unlimited)获取。
