@@ -1,6 +1,6 @@
 # 목차
 
-* [👋 소개](README.md)
+* [👋 브리지 클로저 알림](README.md)
 * [dYdX v3 윈드다운](dydx-v3-wind-down.md)
 
 ## 여기에서 시작
@@ -50,4 +50,4 @@
 * [dYdX Layer 2 API](https://docs.dydx.exchange/)
 * [dYdX Trading Inc.](https://dydx.exchange)
 * [측정치 대시보드](http://metrics.dydx.exchange/)
-* [LP 보상 대시보드](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl\_var\_Market=btc\&from\_ts=1661805073576\&to\_ts=1661891473576\&live=true)
+* [LP 보상 대시보드](https://p.datadoghq.com/sb/dc160ddf0-b32271920202875868dc46be6b66cf87?tpl_var_Market=btc\&from_ts=1661805073576\&to_ts=1661891473576\&live=true)
