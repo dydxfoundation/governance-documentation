@@ -1,8 +1,12 @@
+---
+hidden: vrai
+---
+
 # Récompenses des fournisseurs de liquidité ⚖️
 
-La communauté dYdX a [voté](https://dydx.community/dashboard/proposal/16) pour la réduction des récompenses des fournisseurs de liquidité le 16 janvier 2024. Tous les ethDYDX restants de l'allocation de récompenses du fournisseur de liquidité ont été migrés vers la trésorerie de la communauté dYdX Chain.
+La communauté dYdX a [voté](https://dydx.community/dashboard/proposal/16) pour la réduction des récompenses des fournisseurs de liquidité le 16 janvier 2024. Tous les ethDYDX restants de l'allocation de récompenses du fournisseur de liquidité ont été transférés vers la trésorerie de la communauté de la chaîne dYdX.
 
-Plus d'informations sur la trésorerie de la communauté de la chaîne dYdX sont disponibles [ici](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules-and-parameters/community-treasury).
+Plus d'informations sur la trésorerie de la communauté de la chaîne dYdX sont disponibles [ici](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules/community-treasury).
 
 
 

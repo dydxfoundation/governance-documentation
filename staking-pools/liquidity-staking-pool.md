@@ -1,14 +1,15 @@
 ---
 description: Un aperçu du pool de staking de liquidité
+hidden: vrai
 ---
 
 # Module de liquidité 🔋
 
 Le pool de staking de liquidité n'est plus actif à compter du 29 septembre 2022. Dans [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md), la communauté dYdX [a voté](https://dydx.community/dashboard/proposal/7) en faveur de la fermeture effective du pool de staking de liquidité et de la Réserve d'emprunt en fixant à 0 le nombre de récompenses par seconde du pool de staking de liquidité.
 
-All remaining ethDYDX from the Liquidity Module Rewards allocation were migrated to the dYdX Chain Community Treasury.
+Tous les ethDYDX restants de l'allocation de récompenses du module de liquidité ont été transférés vers la trésorerie de la communauté de la chaîne dYdX.
 
-Pour plus d'informations sur la trésorerie de la communauté de la chaîne dYdX, cliquez [ici](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules-and-parameters/community-treasury).
+Pour plus d'informations sur la trésorerie de la communauté de la chaîne dYdX, cliquez [ici](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules/community-treasury).
 
 ## Aperçu du **staking**
 
