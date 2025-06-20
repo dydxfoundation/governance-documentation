@@ -1,14 +1,15 @@
 ---
 description: セーフティステーキングプールの概要
+hidden:  
 ---
 
 # 🔐セーフティモジュール
 
 セーフティモジュールは、2022年11月28日以降無効化されています。[DIP 17](https://dydx.community/dashboard/proposal/9)において、DYDXコミュニティは、セーフティモジュールの報酬を1秒あたり0に設定することで、セーフティモジュールを事実上終了させることを[投票](https://dydx.community/dashboard/proposal/7)で決定しました。
 
-流動性モジュール報酬の割り当てから残りのethDYDXはすべて、dYdXチェーンコミュニティトレジャリーに移行されました。
+流動性モジュール報酬の割り当てに残っていたethDYDXはすべて、dYdXチェーンのコミュニティトレジャリーに移管されました。
 
-dYdXチェーンコミュニティトレジャリーに関する詳細は、[こちら](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules-and-parameters/community-treasury)をご覧ください。
+dYdXチェーンコミュニティトレジャリーに関する詳細は、[こちら](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules/community-treasury)をご覧ください。
 
 
 
