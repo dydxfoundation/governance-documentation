@@ -1,14 +1,15 @@
 ---
 description: Likidite Staking Havuzuna genel bakış
+hidden: true
 ---
 
 # 🔋 Likidite Modülü
 
 Likidite Staking Havuzu 29 Eylül 2022 itibarıyla artık aktif değildir. [DIP 14](https://github.com/dydxfoundation/dip/blob/master/content/dips/DIP-14.md)'te dYdX topluluğu, Likidite Staking Havuzu ödüllerini saniye başına 0 olarak belirleyerek Likidite Staking Havuzu'nu ve Borç Alma Havuzu'nu fiilen kapatma yönünde [oy kullandı](https://dydx.community/dashboard/proposal/7).
 
-Likidite Modülü Ödülleri tahsisinden kalan tüm ethDYDX, dYdX Zinciri Topluluk Hazinesine taşınmıştır.
+Likidite Modülü Ödülleri tahsisinden kalan tüm ethDYDX, dYdX Zinciri Topluluk Hazinesi'ne taşındı.
 
-dYdX Zinciri Topluluk Hazinesi hakkında daha fazla bilgi [burada](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules-and-parameters/community-treasury) mevcuttur.
+dYdX Zinciri Topluluk Hazinesi hakkında daha fazla bilgi [burada](https://app.gitbook.com/s/7eKRye9zrZIr1Pp3Q3Mu/modules/community-treasury) mevcuttur.
 
 ## **Staking**'e Genel Bakış
 
