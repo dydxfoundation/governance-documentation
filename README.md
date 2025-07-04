@@ -1,23 +1,25 @@
 ---
-description: Обзор токена ethDYDX и управления.
+description: Обзор закрытия моста wethdydX - dydX
 ---
 
-# 👋 Введение
+# 👋 Уведомление о закрытии моста
 
-ethDYDX — это токен управления для сообщества dYdX, предоставляющий общий контроль над протоколом dYdX уровня 2 в Ethereum («dYdX v3»). Это позволяет трейдерам, поставщикам ликвидности и партнерам сотрудничать в совершенствовании протокола.
+7 декабря 2024 года сообщество dYdX [проголосовало](https://www.mintscan.io/dydx/proposals/189) за прекращение поддержки смарт-контракта wethDYDX (далее — «Мост») в блокчейне dYdX Chain к июню 2025 года. По истечении 6-месячного периода сообщество dYdX [проголосовало](https://www.mintscan.io/dydx/proposals/254) за фактическое прекращение поддержки моста в блокчейне dYdX Chain 13 июня 2025 года. В результате прекращения поддержки смарт-контракта wethDYDX в блокчейне dYdX Chain валидаторы dYdX Chain больше не могут распознавать взаимодействия с мостом.
 
-Обернутый Ethereum DYDX ($wethDYDX) — это обернутая версия ethDYDX, полученная при взаимодействии пользователя со [смарт-контрактом wethDYDX](https://etherscan.io/address/0x46b2deae6eff3011008ea27ea36b7c27255ddfa9). Более подробную информацию о токене wethDYDX и потенциальной миграции ethDYDX из Ethereum в программное обеспечение с открытым исходным кодом dYdX v4 («Цепочка dYdX») можно найти [здесь](https://docs.dydx.community/dydx-token-migration/start-here/introduction).
+В результате владельцы ethDYDX больше не смогут конвертировать свои токены ethDYDX в DYDX на dYdX Chain. Токены ethDYDX, отправляемые на смарт-контракт wethDYDX и блокируемые в нем, не будут зачислены на соответствующий адрес dYdX Chain.
 
-$ethDYDX и $wethDYDX обеспечивают надежную экосистему управления и вознаграждений, каждое из которых предназначено для стимулирования будущего роста и децентрализации dYdX v3, что должно облегчить работу пользователей.
+Подробнее о закрытии моста ethDYDX можно узнать [здесь](https://docs.dydx.community/dydx-token-migration).
 
-{% content-ref url="start-here/dydx-allocations.md" %}
-[dydx-allocations.md](start-here/dydx-allocations.md)
-{% endcontent-ref %}
+_Обратите внимание, что dYdX Foundation не контролирует, не играет активной роли или каким-либо образом не влияет на прекращение поддержки смарт-контракта wethDYDX на dYdX Chain. Решение о прекращении поддержки смарт-контракта wethDYDX на dYdX Chain было принято правлением dYdX Chain. Фонд dYdX не участвует в управлении dYdX Chain и не контролирует какие-либо решения, принимаемые сообществом dYdX через правление dYdX Chain. Поэтому, получая это уведомление, вы настоящим соглашаетесь полностью освободить dYdX Foundation от любой ответственности, если вы являетесь владельцем ethDYDX, и принимаете решение не предпринимать каких-либо действий._
 
-{% content-ref url="start-here/community-treasury.md" %}
-[community-treasury.md](start-here/community-treasury.md)
-{% endcontent-ref %}
+## Завершение работы dYdX v3
 
-{% content-ref url="rewards/trading-rewards.md" %}
-[trading-rewards.md](rewards/trading-rewards.md)
-{% endcontent-ref %}
+28 октября 2024 года dYdX Trading, Inc. завершила работу dYdX v3.
+
+Это действие не затронуло пользователей блокчейна dYdX Chain, [http://dydx.trade](https://t.co/v3TXeNvCwf), и API dYdX Chain.
+
+Таким образом, в соответствии с целью [dYdX](https://www.dydx.foundation/blog/dydx-v3-sunset-governance-token-faqs) Foundation мы подготовили список часто задаваемых вопросов о влиянии сворачивания dYdX v3 на управление dYdX v3 и владельцев токенов ethDYDX и wethDYDX.
+
+## Цепочка dYdX <a href="#dydx-chain" id="dydx-chain"></a>
+
+Протокол dYdX в настоящее время реализован в качестве цепочки **dYdX** — блокчейной сети с механизмом консенсуса proof-of-stake, созданной с помощью **Cosmos SDK** и использующей **CometBFT** для достижения консенсуса. Документация для цепочки dYdX доступна [здесь](https://docs.dydx.community/dydx-unlimited).
